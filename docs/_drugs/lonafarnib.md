@@ -48,10 +48,10 @@ Lonafarnib ist ein Farnesyltransferase-Inhibitor, der in der EU für die Behandl
 |------|------|
 | Ursprüngliche Indikation | Progerie; Laminopathien |
 | Vorhergesagte neue Indikation | Lepra |
-| TxGNN-Vorhersagewert | 99,14 % |
+| TxGNN-Vorhersagewert | 0,9914 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Zu Lonafarnib liegen in den für diesen Bericht zusammengestellten Daten keine d
 
 Ein möglicher, aber unbewiesener Zusammenhang mit Lepra wäre die Beeinflussung prenylierungsabhängiger Signalwege des Wirts (z. B. Ras/Rho-GTPasen). Diese spielen eine Rolle bei der Makrophagenfunktion, beim Überleben intrazellulärer Erreger und bei der Reaktion von Schwann-Zellen auf *Mycobacterium leprae*. Für diesen Mechanismus gibt es bei Lepra keine direkten Belege.
 
-Der sehr hohe TxGNN-Wert (0,991) stammt aus Mustern im Wissensgraphen. Er ist eine rechnerische Vorhersage und wird durch keine klinischen oder Literaturdaten gestützt. Die ursprüngliche Indikation (Progerie) und Lepra sind inhaltlich weit voneinander entfernt, eine Ähnlichkeitsbewertung steht noch aus.
+Der sehr hohe TxGNN-Wert (0,9914) stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. Er ist eine rechnerische Vorhersage und wird durch keine klinischen oder Literaturdaten gestützt. Die ursprüngliche Indikation (Progerie) und Lepra sind inhaltlich weit voneinander entfernt, eine Ähnlichkeitsbewertung steht noch aus.
 
 ---
 

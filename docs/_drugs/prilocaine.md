@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Prilocaine
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 372
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Prilocaine: vorhergesagte neue Indikation Neuralgie (insbesondere postherpetische Neuralgie) (Evidenzstufe L3). Ursprüngliche Indikation: Physiologische sexuelle Funktionsstörung"
 monitor_inn: "PRILOCAINE"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
+description: "Prilocaine: vorhergesagte neue Indikation Papillary conjunctivitis (Evidenzstufe L5). Ursprüngliche Indikation: Sexual Dysfunction, Physiological"
 ---
 
 # Prilocaine
 {: .fs-9 }
 
-Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Prilocain: Von sexueller Funktionsstörung zu Neuralgie
+## Prilocaine: Papillary conjunctivitis
 {: .text-alpha }
 
 ## Zusammenfassung
 
 Prilocain ist ein Lokalanästhetikum vom Amid-Typ. Die in Deutschland erfasste Zulassung (Fortacin) betrifft die physiologische sexuelle Funktionsstörung. Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei **Neuralgie** wirksam sein könnte. Dafür liegen **2 klinische Studien** und **14 Publikationen** vor, überwiegend kleine, ältere und unkontrollierte Untersuchungen zur Kombination mit Lidocain (EMLA-Creme).
 
-Hinweis zur Auswahl: Die Indikation mit dem höchsten TxGNN-Score (papillare Konjunktivitis, 99,78 %) hat keinerlei Evidenz. Dieser Bericht stellt daher die am besten belegte Indikation (Neuralgie, Rang 5) in den Mittelpunkt. Die übrigen Vorhersagen sind im Abschnitt „Weitere vorhergesagte Indikationen" zusammengefasst.
+Hinweis zur Auswahl: Die Indikation mit dem höchsten TxGNN-Score (papillare Konjunktivitis, 0,9978) hat keinerlei Evidenz. Dieser Bericht stellt daher die am besten belegte Indikation (Neuralgie, Rang 5) in den Mittelpunkt. Die übrigen Vorhersagen sind im Abschnitt „Weitere vorhergesagte Indikationen" zusammengefasst.
 
 ---
 
@@ -48,12 +48,12 @@ Hinweis zur Auswahl: Die Indikation mit dem höchsten TxGNN-Score (papillare Kon
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Physiologische sexuelle Funktionsstörung |
-| Vorhergesagte neue Indikation | Neuralgie (insbesondere postherpetische Neuralgie) |
-| TxGNN-Vorhersagewert | 99,34 % |
-| Evidenzgrad | L3 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 aufgehoben) |
+| Ursprüngliche Indikation | Sexual Dysfunction, Physiological |
+| Vorhergesagte neue Indikation | Papillary conjunctivitis |
+| TxGNN-Vorhersagewert | 0.9978 |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold (Weiterverfolgung als Forschungsfrage) |
 
 ---
@@ -98,7 +98,7 @@ Die Evidenz ist jedoch begrenzt: Kleine Studien aus dem Jahr 1989 berichten übe
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/002693 | Fortacin (Recordati Ireland Ltd.) | Keine Angabe | Physiologische sexuelle Funktionsstörung (Status: aufgehoben) |
+| EMEA/H/C/002693 | Fortacin (Recordati Ireland Ltd.) | Keine Angabe | Physiologische sexuelle Funktionsstörung (Status: gültig) |
 
 ---
 
@@ -120,15 +120,15 @@ Die für diesen Bericht zusammengestellten Daten enthalten keine Angaben aus der
 
 | Indikation | TxGNN-Wert | Evidenzgrad | Einschätzung |
 |------|------|------|------|
-| Papilläre Konjunktivitis | 99,78 % | L5 | Nur Vorhersage, keine Studien oder Literatur |
-| Manische bipolare Störung | 99,76 % | L5 | Nur Vorhersage; systemische Risiken (Methämoglobinämie, ZNS-Toxizität) |
-| Bronchitis | 99,64 % | L5 | Nur Vorhersage, keine Evidenz |
-| Migräne | 99,42 % | L5 | Eine Studie (NCT02403687) und eine Arbeit ohne direkten Prilocain-Bezug |
-| Migräne mit Hirnstammaura | 99,33 % | L5 | Nur Vorhersage |
-| Atopisches Ekzem | 99,31 % | L4 | Literatur beschreibt nur Sicherheitsrisiken, keinen Nutzen |
-| Allergisches Asthma | 99,29 % | L4 | Nur Arbeiten zur Allergiediagnostik; Allergiepotenzial |
-| Rhinitis | 99,28 % | L4 | Indirekte Hautstudie von 1987 |
-| Rosazea-Konjunktivitis | 99,24 % | L5 | Nur Vorhersage |
+| Papilläre Konjunktivitis | 0,9978 | L5 | Nur Vorhersage, keine Studien oder Literatur |
+| Manische bipolare Störung | 0,9976 | L5 | Nur Vorhersage; systemische Risiken (Methämoglobinämie, ZNS-Toxizität) |
+| Bronchitis | 0,9964 | L5 | Nur Vorhersage, keine Evidenz |
+| Migräne | 0,9942 | L5 | Eine Studie (NCT02403687) und eine Arbeit ohne direkten Prilocain-Bezug |
+| Migräne mit Hirnstammaura | 0,9933 | L5 | Nur Vorhersage |
+| Atopisches Ekzem | 0,9931 | L5 | Literatur beschreibt nur Sicherheitsrisiken, keinen Nutzen |
+| Allergisches Asthma | 0,9929 | L5 | Nur Arbeiten zur Allergiediagnostik; Allergiepotenzial |
+| Rhinitis | 0,9928 | L5 | Indirekte Hautstudie von 1987 |
+| Rosazea-Konjunktivitis | 0,9924 | L5 | Nur Vorhersage |
 
 Für alle diese Indikationen lautet die Empfehlung Hold.
 

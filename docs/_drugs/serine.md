@@ -4,7 +4,7 @@ title: Serine
 parent: Nur Modellvorhersage (L5)
 nav_order: 425
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Serine: vorhergesagte neue Indikation Familiäre viszerale Myopathie (Evidenzstufe L5). Ursprüngliche Indikation: Ahornsirupkrankheit (Maple Syrup Urine Disease)"
 monitor_inn: "serine"
@@ -14,7 +14,7 @@ predicted_indications: ["familial visceral myopathy", "intestinal obstruction", 
 # Serine
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Serin: Von Ahornsirupkrankheit zu familiärer viszeraler Myopathie
+## Serin: Von Ahornsirupkrankheit zu Familiäre viszerale Myopathie
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,10 +48,10 @@ Serin ist eine proteinogene Aminosäure, die unter dem Handelsnamen Maapliv für
 |------|------|
 | Ursprüngliche Indikation | Ahornsirupkrankheit (Maple Syrup Urine Disease) |
 | Vorhergesagte neue Indikation | Familiäre viszerale Myopathie |
-| TxGNN-Vorhersagewert | 99,99 % |
+| TxGNN-Vorhersagewert | 0,9999 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -60,7 +60,7 @@ Serin ist eine proteinogene Aminosäure, die unter dem Handelsnamen Maapliv für
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Serin ist eine proteinogene Aminosäure und ein Vorläufer im Ein-Kohlenstoff-Stoffwechsel sowie in der Sphingolipid-Synthese. Als Maapliv wurde sie bei der Ahornsirupkrankheit eingesetzt, einer Stoffwechselerkrankung.
 
-Zwischen der ursprünglichen Indikation (angeborene Stoffwechselstörung) und der vorhergesagten Indikation (genetisch bedingte Erkrankung der glatten Darmmuskulatur, typischerweise mit ACTG2-Bezug) lässt sich aus den vorliegenden Daten **kein plausibler mechanistischer Zusammenhang** herleiten. Der hohe Vorhersagewert spiegelt vermutlich die Nähe im Wissensgraphen wider, nicht eine belegte pharmakologische Verbindung. Die Vorhersage ist daher als rein hypothesengenerierend zu betrachten.
+Zwischen der ursprünglichen Indikation (angeborene Stoffwechselstörung) und der vorhergesagten Indikation (genetisch bedingte Erkrankung der glatten Darmmuskulatur, typischerweise mit ACTG2-Bezug) lässt sich aus den vorliegenden Daten **kein plausibler mechanistischer Zusammenhang** herleiten. Der hohe Vorhersagewert stammt vom TxGNN-Modell (Deep Learning) und spiegelt vermutlich Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz oder eine belegte pharmakologische Verbindung. Die Vorhersage ist daher als rein hypothesengenerierend zu betrachten.
 
 Auch die weiteren Vorhersagen (u. a. intestinale Obstruktion, intestinale Pseudoobstruktion, Winkelblockglaukom, aqueous misdirection, traumatisches Glaukom) stützen sich auf keine klinischen Studien. Bei den für intestinale Obstruktion und Winkelblockglaukom gefundenen Publikationen handelt es sich um Stichwort-Artefakte: Sie betreffen Serinproteasen bzw. Serin/Threonin-Kinasen (z. B. PRSS56, STK11), nicht die Aminosäure Serin.
 
@@ -86,7 +86,7 @@ Die für andere Vorhersagen gefundenen Publikationen (z. B. zu Peutz-Jeghers-Syn
 |---------|------|------|-----------|
 | EMEA/H/C/005557 | Maapliv | – | Ahornsirupkrankheit (Maple Syrup Urine Disease) |
 
-Diese Zulassung (Inhaber: Recordati Rare Diseases) ist erloschen. Aktuell besteht keine gültige Zulassung.
+Diese Zulassung (Inhaber: Recordati Rare Diseases) ist gültig. Das Arzneimittel ist in diesem Land im Handel; 1 von 1 Zulassung ist gültig.
 
 ---
 

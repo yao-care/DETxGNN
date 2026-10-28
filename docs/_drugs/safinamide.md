@@ -48,10 +48,10 @@ Safinamid wurde ursprünglich zur Behandlung der Parkinson-Krankheit zugelassen.
 |------|------|
 | Ursprüngliche Indikation | Parkinson-Krankheit |
 | Vorhergesagte neue Indikation | Rasmussen-Enzephalitis (Rasmussen subacute encephalitis) |
-| TxGNN-Vorhersagewert | 99,63 % |
+| TxGNN-Vorhersagewert | 0,9963 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -65,8 +65,8 @@ Die Rasmussen-Enzephalitis ist eine chronisch-entzündliche Epilepsie mit T-Zell
 Die Verbindung ist damit eine plausible, aber nicht belegte Hypothese, die allein auf dem hohen TxGNN-Wert beruht.
 
 Weitere vorhergesagte Indikationen (ebenfalls L5, jeweils Hold):
-- **Myelitis** (Score 99,46 %): unspezifischer Zusammenhang; mögliche neuroprotektive Effekte ohne Hinweis auf Wirkung bei entzündlicher oder demyelinisierender Rückenmarksschädigung.
-- **PLA2G6-assoziierte Neurodegeneration** (Score 99,22 %): biologisch am stimmigsten, da einige Phänotypen Parkinsonismus und Dystonie umfassen; der zugrunde liegende Lipidstoffwechseldefekt würde jedoch nicht behandelt.
+- **Myelitis** (Score 0,9946): unspezifischer Zusammenhang; mögliche neuroprotektive Effekte ohne Hinweis auf Wirkung bei entzündlicher oder demyelinisierender Rückenmarksschädigung.
+- **PLA2G6-assoziierte Neurodegeneration** (Score 0,9922): biologisch am stimmigsten, da einige Phänotypen Parkinsonismus und Dystonie umfassen; der zugrunde liegende Lipidstoffwechseldefekt würde jedoch nicht behandelt.
 
 ---
 
@@ -105,7 +105,7 @@ Für Warnhinweise und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinform
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzgrad L5); es gibt weder klinische Studien noch Publikationen. Zudem besteht in Deutschland derzeit keine gültige Zulassung, und die Krankheitsursache der Rasmussen-Enzephalitis (Immunpathologie) wird durch den Wirkmechanismus von Safinamid nicht adressiert.
+Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzgrad L5); es gibt weder klinische Studien noch Publikationen. Zudem ist das Arzneimittel in Deutschland in Verkehr (1 von 1 Zulassungen gültig), und die Krankheitsursache der Rasmussen-Enzephalitis (Immunpathologie) wird durch den Wirkmechanismus von Safinamid nicht adressiert.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Fachinformation (Warnhinweise, Gegenanzeigen) zur Sicherheitsbewertung, derzeit ein blockierender Datenmangel

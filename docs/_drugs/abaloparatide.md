@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-## Abaloparatid: Von postmenopausaler Osteoporose zu nicht-syndromischer Ösophagusfehlbildung
+## Abaloparatid: Nicht-syndromische Ösophagusfehlbildung
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Postmenopausale Osteoporose; Osteoporose |
 | Vorhergesagte neue Indikation | Nicht-syndromische Ösophagusfehlbildung |
-| TxGNN-Vorhersagewert | 99,84 % |
+| TxGNN-Vorhersagewert | 0,9984 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,15 +62,15 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 Abaloparatid ist ein Analogon des Parathormon-verwandten Peptids (PTHrP) und wirkt als Agonist am PTH1-Rezeptor (PTH1R). Es wirkt knochenaufbauend (anabol). In der Phase-3-Studie NCT01343004 senkte es bei postmenopausalen Frauen das Risiko neuer Knochenbrüche gegenüber Placebo; Hyperkalzämien traten seltener auf als unter Teriparatid. Detaillierte Mechanismusdaten (MOA) liegen in den für diesen Bericht zusammengestellten Daten nicht vor.
 
-Ein plausibler biologischer Zusammenhang zwischen der Osteoporose und einer angeborenen Ösophagusfehlbildung ist nicht erkennbar. Eine solche Fehlbildung ist ein entwicklungsbedingter Strukturdefekt, und für eine PTH1R-Signalwirkung bei Ösophaguserkrankungen gibt es keine etablierte therapeutische Rolle. Der hohe Vorhersagewert spiegelt vermutlich eher die Nähe im Wissensgraphen wider als eine biologische Begründung.
+Ein plausibler biologischer Zusammenhang zwischen der Osteoporose und einer angeborenen Ösophagusfehlbildung ist nicht erkennbar. Eine solche Fehlbildung ist ein entwicklungsbedingter Strukturdefekt, und für eine PTH1R-Signalwirkung bei Ösophaguserkrankungen gibt es keine etablierte therapeutische Rolle. Der hohe Vorhersagewert stammt aus dem TxGNN-Modell (Deep Learning) und spiegelt vermutlich eher Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat, als eine biologische Begründung.
 
 Weitere vom Modell vorhergesagte Indikationen sind gleichfalls rein spekulativ:
 
 | Rang | Vorhergesagte Indikation | TxGNN-Wert | Einschätzung |
 |------|------|------|------|
-| 2 | Ösophaguserkrankung | 99,75 % | Zu unspezifisch; die Bezeichnung müsste vor einer Hypothesenprüfung auf eine konkrete Erkrankung eingegrenzt werden. |
-| 3 | Amenorrhoe | 99,72 % | Abaloparatid wirkt nicht auf die Hypothalamus-Hypophysen-Ovar-Achse. Möglich ist eine indirekte Assoziation über den gemeinsamen Östrogenmangel-Kontext. |
-| 4 | Ösophagusulkus | 99,02 % | Kein bekannter Mechanismus zwischen PTH1R-Agonismus und Schleimhautheilung; nur spekulativ. |
+| 2 | Ösophaguserkrankung | 0,9975 | Zu unspezifisch; die Bezeichnung müsste vor einer Hypothesenprüfung auf eine konkrete Erkrankung eingegrenzt werden. |
+| 3 | Amenorrhoe | 0,9972 | Abaloparatid wirkt nicht auf die Hypothalamus-Hypophysen-Ovar-Achse. Möglich ist eine indirekte Assoziation über den gemeinsamen Östrogenmangel-Kontext. |
+| 4 | Ösophagusulkus | 0,9902 | Kein bekannter Mechanismus zwischen PTH1R-Agonismus und Schleimhautheilung; nur spekulativ. |
 
 ---
 
@@ -112,7 +112,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Packungsbeilage beachten; die Date
 **Entscheidung: Hold**
 
 **Begründung:**
-Es gibt weder klinische Studien noch Publikationen; die Vorhersage (Evidenzgrad L5) beruht allein auf Wissensgraph-Nähe. Ein biologisch plausibler Zusammenhang mit Ösophagusfehlbildungen fehlt, und die einzige deutsche Zulassung ist erloschen.
+Es gibt weder klinische Studien noch Publikationen; die Vorhersage (Evidenzgrad L5) beruht allein auf dem Score des TxGNN-Modells (Deep Learning), der Ähnlichkeiten widerspiegeln kann, die das Modell zwischen verwandten Erkrankungen gelernt hat, und nicht auf biologischer Evidenz. Ein biologisch plausibler Zusammenhang mit Ösophagusfehlbildungen fehlt. Es besteht 1 gültige Zulassung von 1, das Arzneimittel ist in diesem Land im Handel.
 
 **Für ein Weiterkommen ist Folgendes erforderlich:**
 - Detaillierte Mechanismusdaten (MOA), z. B. über DrugBank

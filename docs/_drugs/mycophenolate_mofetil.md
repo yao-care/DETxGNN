@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Mycophenolate Mofetil
-parent: Nur Modellvorhersage (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 307
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Mycophenolate Mofetil: vorhergesagte neue Indikation HIV-Infektionskrankheit (Evidenzstufe L5). Ursprüngliche Indikation: Transplantatabstoßung"
@@ -14,7 +14,7 @@ predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder w
 # Mycophenolate Mofetil
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Mycophenolat-Mofetil wird ursprünglich zur Vorbeugung der Transplantatabstoßun
 |------|------|
 | Ursprüngliche Indikation | Transplantatabstoßung |
 | Vorhergesagte neue Indikation | HIV-Infektionskrankheit |
-| TxGNN-Vorhersagewert | 99,86 % |
+| TxGNN-Vorhersagewert | 0,9986 |
 | Evidenzlevel | L2 (laut Datenlage; die Studienlage ist faktisch jedoch schwach, siehe unten) |
-| Marktstatus in Deutschland | Nur erloschene Zulassungen (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 4 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 4 von 4) |
+| Anzahl der Zulassungen | 4 (gültig: 4) |
 | Empfohlene Entscheidung | Hold (Forschungsfrage) |
 
 ---
@@ -94,10 +94,10 @@ Die ursprüngliche Indikation (Immunsuppression nach Transplantation) und die ne
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000082 | CellCept | – | Transplantatabstoßung (erloschen) |
-| EMEA/H/C/000884 | Myfenax | – | Transplantatabstoßung (erloschen) |
-| EMEA/H/C/000882 | Mycophenolate mofetil Teva | – | Transplantatabstoßung (erloschen) |
-| EMEA/H/C/001218 | Myclausen | – | Transplantatabstoßung (erloschen) |
+| EMEA/H/C/000082 | CellCept | – | Transplantatabstoßung (gültig) |
+| EMEA/H/C/000884 | Myfenax | – | Transplantatabstoßung (gültig) |
+| EMEA/H/C/000882 | Mycophenolate mofetil Teva | – | Transplantatabstoßung (gültig) |
+| EMEA/H/C/001218 | Myclausen | – | Transplantatabstoßung (gültig) |
 
 ---
 
@@ -115,17 +115,17 @@ Warnhinweise und Kontraindikationen aus der Packungsbeilage liegen nicht vor; bi
 **Entscheidung: Hold (Forschungsfrage)**
 
 **Begründung:**
-Der Mechanismus (IMPDH-Hemmung, Verstärkung von Nukleosidanaloga) ist plausibel, und es gibt kleine Studien, darunter einen RCT mit unklarem Ergebnis. Es fehlt jedoch ein belegter dauerhafter klinischer Nutzen, die direkt relevante Studie wurde ohne Daten zurückgezogen, und es besteht aktuell keine gültige Zulassung in Deutschland. Die Sicherheitsprüfung ist wegen fehlender Packungsbeilagendaten noch nicht möglich. Der Evidenzlevel L2 sollte daher vorsichtig interpretiert werden.
+Der Mechanismus (IMPDH-Hemmung, Verstärkung von Nukleosidanaloga) ist plausibel, und es gibt kleine Studien, darunter einen RCT mit unklarem Ergebnis. Es fehlt jedoch ein belegter dauerhafter klinischer Nutzen, und die direkt relevante Studie wurde ohne Daten zurückgezogen. Das Arzneimittel ist in Deutschland im Handel (4 von 4 Zulassungen gültig), für die neue Indikation besteht aber keine Zulassung. Die Sicherheitsprüfung ist wegen fehlender Packungsbeilagendaten noch nicht möglich. Der Evidenzlevel L2 sollte daher vorsichtig interpretiert werden.
 
 **Zur Weiterverfolgung sind folgende Schritte nötig:**
 - Auswertung der Packungsbeilage (Warnhinweise, Kontraindikationen) vom BfArM bzw. der EMA, da dies die Sicherheitsprüfung derzeit blockiert
 - Daten zum Wirkmechanismus aus DrugBank ergänzen
 - Detaillierte Auswertung der Ergebnisse des RCT (PMID 15353978) sowie der Fallserien
-- Klärung des Zulassungsstatus (alle 4 Zulassungen erloschen) und des regulatorischen Wegs
+- Klärung des regulatorischen Wegs für die neue Indikation (das Arzneimittel ist im Handel, 4 von 4 Zulassungen gültig)
 - Risiko-Nutzen-Bewertung der Immunsuppression bei HIV-Patienten (Infektionsrisiko, Knochenmarksuppression)
 
 **Weitere vorhergesagte Indikationen (zur Einordnung):**
-- **Multiple Sklerose** (Score 99,54 %, L2): mehrere kleine Phase-1/2-Studien (u. a. mit Interferon beta-1a) und Cochrane-Übersichten, aber keine Phase-3-Wirksamkeitsevidenz und laut Cochrane unzureichende Evidenz. Als Forschungsfrage weiterverfolgbar.
+- **Multiple Sklerose** (Score 0,9954, L2): mehrere kleine Phase-1/2-Studien (u. a. mit Interferon beta-1a) und Cochrane-Übersichten, aber keine Phase-3-Wirksamkeitsevidenz und laut Cochrane unzureichende Evidenz. Als Forschungsfrage weiterverfolgbar.
 - **Hämosiderose** (L4): nur Übersichten und Fallberichte, Forschungsfrage.
 - Übrige Vorhersagen (u. a. Morbus Paget des Knochens, SIV-Infektion, felines erworbenes Immunschwächesyndrom, Heiner-Syndrom, afrikanische Eisenüberladung, neonatale Hämochromatose, ein neuroentwicklungsbezogenes Syndrom): ausschließlich Modellvorhersage (L5) ohne Studien oder Literatur, daher Hold.
 ## Haftungsausschluss

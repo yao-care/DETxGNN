@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Atosiban: Von vorzeitigen Wehen zu primärem hereditärem Glaukom
+## Atosiban: Primäres hereditäres Glaukom
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,10 +48,10 @@ Atosiban ist ein Oxytocin-/Vasopressin-Rezeptor-Antagonist, der ursprünglich al
 |------|------|
 | Ursprüngliche Indikation | Vorzeitige Wehen (Obstetric Labor, Premature) |
 | Vorhergesagte neue Indikation | Primäres hereditäres Glaukom |
-| TxGNN-Vorhersagewert | 99,92 % |
+| TxGNN-Vorhersagewert | 0,9992 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Für diesen Bericht liegen derzeit keine detaillierten Daten zum Wirkmechanismus
 
 Ein mechanistischer Zusammenhang zwischen dieser Rezeptorblockade und dem Glaukom ist in den vorliegenden Daten nicht belegt. Eine Verbindung zur Regulation des Augeninnendrucks oder zur Funktion des Trabekelwerks ist spekulativ. Der hohe TxGNN-Wert ist eine rein rechnerische Vorhersage ohne unterstützende Studien oder Literatur. Der Wirkstoff ist zudem ein Peptid und müsste für eine okuläre Anwendung galenisch völlig neu entwickelt werden.
 
-Ähnliches gilt für die weiteren Vorhersagen, etwa das offenwinklige Glaukom (99,92 %), verschiedene Haarausfall-Erkrankungen und das Thoracic-Outlet-Syndrom. Auch dort fehlen Belege. Sie spiegeln wahrscheinlich Nähe im Wissensgraphen wider und keine pharmakologische Begründung.
+Ähnliches gilt für die weiteren Vorhersagen, etwa das offenwinklige Glaukom (0,9992), verschiedene Haarausfall-Erkrankungen und das Thoracic-Outlet-Syndrom. Auch dort fehlen Belege. Die Werte stammen vom TxGNN-Modell (Deep Learning) und spiegeln möglicherweise vom Modell gelernte Ähnlichkeiten zwischen verwandten Erkrankungen wider, keine biologische Evidenz.
 
 ---
 
@@ -87,7 +87,7 @@ Hinweis: Für die auf Rang 6 vorhergesagte Indikation „Gefäßerkrankung" lieg
 | EMEA/H/C/000253 | Tractocile | – | Vorzeitige Wehen |
 | EMEA/H/C/002329 | Atosiban SUN | – | Vorzeitige Wehen |
 
-Beide Zulassungen sind erloschen; aktuell besteht keine gültige Zulassung.
+Beide Zulassungen sind gültig; das Arzneimittel ist in Deutschland im Handel.
 
 ---
 
@@ -105,7 +105,7 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) ist die Fach
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage für das primäre hereditäre Glaukom beruht ausschließlich auf einem Modellwert (Evidenzstufe L5) ohne Studien, Literatur oder plausiblen mechanistischen Zusammenhang. Zudem besteht in Deutschland keine gültige Zulassung.
+Die Vorhersage für das primäre hereditäre Glaukom beruht ausschließlich auf einem Modellwert (Evidenzstufe L5) ohne Studien, Literatur oder plausiblen mechanistischen Zusammenhang. Das Arzneimittel ist in Deutschland mit 2 gültigen Zulassungen im Handel.
 
 **Für ein Weiterkommen wären erforderlich:**
 - Daten zum Wirkmechanismus (MOA) aus DrugBank

@@ -4,7 +4,7 @@ title: Valsartan
 parent: Mittlere Evidenz (L3-L4)
 nav_order: 490
 evidence_level: L4
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-14
 description: "Valsartan: vorhergesagte neue Indikation Maligne hypertensive Nierenerkrankung (Evidenzstufe L4). Ursprüngliche Indikation: Hypertonie"
 monitor_inn: "VALSARTAN"
@@ -14,7 +14,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 # Valsartan
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **7** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **1 Publikation** vor, di
 |------|------|
 | Ursprüngliche Indikation | Hypertonie; Herzinsuffizienz |
 | Vorhergesagte neue Indikation | Maligne hypertensive Nierenerkrankung |
-| TxGNN-Vorhersagewert | 99,97 % |
+| TxGNN-Vorhersagewert | 0,9997 |
 | Evidenzstufe | L4 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 9 (alle aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 9 von 9) |
+| Anzahl der Zulassungen | 9 (gültig: 9) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -68,12 +68,12 @@ Weitere vorhergesagte Indikationen (nach TxGNN-Rang) sind in der Evidenz noch sc
 
 | Rang | Vorhergesagte Indikation | Score | Evidenzstufe | Empfehlung |
 |---|---|---|---|---|
-| 2 | Maligne renovaskuläre Hypertonie | 99,97 % | L4 | Hold |
-| 3 | Pulmonale Hypertonie bei Lungenerkrankung/Hypoxie | 99,97 % | L4 | Forschungsfrage |
-| 4 | Pulmonale Hypertonie mit unklarem multifaktoriellem Mechanismus | 99,97 % | L5 | Hold |
-| 5 | Braddock-Syndrom | 99,96 % | L5 | Hold |
-| 6 | Chronisches Cor pulmonale | 99,58 % | L4 | Forschungsfrage |
-| 7 | Prinzmetal-Angina | 99,45 % | L5 | Hold |
+| 2 | Maligne renovaskuläre Hypertonie | 0,9997 | L4 | Hold |
+| 3 | Pulmonale Hypertonie bei Lungenerkrankung/Hypoxie | 0,9997 | L4 | Forschungsfrage |
+| 4 | Pulmonale Hypertonie mit unklarem multifaktoriellem Mechanismus | 0,9997 | L5 | Hold |
+| 5 | Braddock-Syndrom | 0,9996 | L5 | Hold |
+| 6 | Chronisches Cor pulmonale | 0,9958 | L4 | Forschungsfrage |
+| 7 | Prinzmetal-Angina | 0,9945 | L5 | Hold |
 
 Zu Rang 2: Eine Tierstudie (PMID 11560862) zeigt, dass AT1R-Blockade tödliche maligne Hypertonie verhindert. Das stützt den Mechanismus, ist aber präklinisch. Bei renovaskulärer Erkrankung bestehen zudem Sicherheitsbedenken für Angiotensin-Rezeptorblocker (z. B. bilaterale Nierenarterienstenose).
 
@@ -115,7 +115,7 @@ Der Großteil der Literatur betrifft Sacubitril/Valsartan oder andere Organe und
 
 ## Marktinformationen Deutschland
 
-Alle 9 Zulassungen sind aufgehoben; derzeit gibt es keine gültige Zulassung.
+Alle 9 Zulassungen sind gültig.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -151,7 +151,7 @@ Für weitere Sicherheitsinformationen siehe die Packungsbeilage.
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die vorhergesagte Indikation gibt es keine klinischen Studien, und die einzige Publikation untersucht einen anderen Wirkstoff im Tiermodell (Evidenzstufe L4). Zudem überschneidet sich die Indikation weitgehend mit der bereits zugelassenen Hypertonie, und in Deutschland besteht derzeit keine gültige Zulassung.
+Für die vorhergesagte Indikation gibt es keine klinischen Studien, und die einzige Publikation untersucht einen anderen Wirkstoff im Tiermodell (Evidenzstufe L4). Zudem überschneidet sich die Indikation weitgehend mit der bereits zugelassenen Hypertonie, und in Deutschland sind derzeit alle 9 Zulassungen gültig.
 
 **Für ein Weiterkommen ist erforderlich:**
 - Packungsbeilagen-Informationen (Warnhinweise, Kontraindikationen) von der BfArM-Website, da diese Lücke die Sicherheitsprüfung blockiert

@@ -4,7 +4,7 @@ title: Treprostinil
 parent: Nur Modellvorhersage (L5)
 nav_order: 483
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Treprostinil: vorhergesagte neue Indikation Pulmonale arteriovenöse Malformation (Evidenzstufe L5). Ursprüngliche Indikation: Pulmonale Hypertonie"
 monitor_inn: "Treprostinil"
@@ -14,7 +14,7 @@ predicted_indications: ["pulmonary arteriovenous malformation (disease)", "hypot
 # Treprostinil
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Treprostinil: Von pulmonaler Hypertonie zu pulmonaler arteriovenöser Malformation
+## Treprostinil: Pulmonale arteriovenöse Malformation
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,21 +48,16 @@ Deutlich besser belegt sind andere vorhergesagte Indikationen, etwa die **pulmon
 |------|------|
 | Ursprüngliche Indikation | Pulmonale Hypertonie |
 | Vorhergesagte neue Indikation | Pulmonale arteriovenöse Malformation |
-| TxGNN-Vorhersagewert | 99,70 % |
+| TxGNN-Vorhersagewert | 0,9970 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold (Zurückstellen) |
 
 **Hinweis zu weiteren Vorhersagen:** Die Indikationen auf den Rängen 2 und 6 sind deutlich besser belegt (jeweils Evidenzgrad L3, Empfehlung „Forschungsfrage“):
 
 | Rang | Vorhergesagte Indikation | Score | Evidenzgrad | Empfehlung |
 |---|---|---|---|---|
-| 2 | PAH bei angeborenem Herzfehler | 99,60 % | L3 | Forschungsfrage |
-| 3 | PAH bei HIV-Infektion | 99,55 % | L4 | Forschungsfrage |
-| 6 | PAH bei Bindegewebserkrankung | 99,55 % | L3 | Forschungsfrage |
-| 4, 5 | PAH bei chronischer hämolytischer Anämie / Schistosomiasis | 99,55 % | L5 | Hold |
-| 7–10 | Haar- und Entwicklungsstörungen (u. a. Hypotrichosis simplex der Kopfhaut) | 99,2–99,5 % | L5 | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
 
@@ -70,7 +65,7 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten k
 
 Für die **pulmonale arteriovenöse Malformation** (Rang 1) ist der Zusammenhang nur theoretisch: Eine Vasodilatation könnte Shunts oder Hypoxämie sogar verschlechtern. Ein Sicherheitsrisiko ist daher denkbar, und der hohe Score ist nicht durch Daten gestützt.
 
-Deutlich plausibler sind die Vorhersagen innerhalb der PAH-Gruppe (Gruppe 1). Bei **PAH bei angeborenem Herzfehler** und **PAH bei Bindegewebserkrankung** trifft der Wirkmechanismus direkt die gleiche Gefäßpathologie wie bei der zugelassenen Indikation. Die Vorhersagen für Haar- und Entwicklungsstörungen (Ränge 7–10) haben dagegen keinen erkennbaren mechanistischen Bezug und sind vermutlich Artefakte des Wissensgraphen.
+Die Vorhersagen für Haar- und Entwicklungsstörungen (Ränge 7–10) haben keinen erkennbaren mechanistischen Bezug. Die Scores stammen vom TxGNN-Modell (Deep Learning) und können Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht aber biologische Evidenz.
 
 ## Evidenz aus klinischen Studien
 
@@ -108,7 +103,7 @@ Zur Einordnung folgen die relevantesten Publikationen zu den besser belegten Fol
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/005207 | Trepulmix | – | Pulmonale Hypertonie (Status: aufgehoben) |
+| EMEA/H/C/005207 | Trepulmix | – | Pulmonale Hypertonie (Status: gültig) |
 
 ## Zytotoxizität
 

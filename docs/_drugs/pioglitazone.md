@@ -48,10 +48,10 @@ Pioglitazon ist ein Insulinsensitizer (PPAR-gamma-Agonist), der ursprünglich zu
 |------|------|
 | Ursprüngliche Indikation | Diabetes mellitus Typ 2 |
 | Vorhergesagte neue Indikation | Opsismodysplasie |
-| TxGNN-Vorhersagewert | 99,59 % |
+| TxGNN-Vorhersagewert | 0,9959 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 6 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 6 von 6) |
+| Anzahl der Zulassungen | 6 (gültig: 6) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -88,7 +88,7 @@ Derzeit ist keine zugehörige Literatur zur Opsismodysplasie vorhanden.
 | EMEA/H/C/000680 | Tandemact | – | Diabetes mellitus Typ 2 |
 | EMEA/H/C/002178 | Incresync | – | Diabetes mellitus Typ 2 |
 
-Alle sechs Zulassungen sind erloschen; eine sechste (Competact, EMEA/H/C/000655) ist hier nicht aufgeführt.
+Alle sechs Zulassungen sind gültig; eine sechste (Competact, EMEA/H/C/000655) ist hier nicht aufgeführt.
 
 ---
 
@@ -106,7 +106,7 @@ Warnhinweise und Kontraindikationen aus der Fachinformation sind nicht verfügba
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die Opsismodysplasie gibt es weder klinische Studien noch Literatur; der Vorhersagewert ist rein rechnerisch (Evidenzlevel L5). Zudem existiert in Deutschland aktuell keine gültige Zulassung, und die Sicherheitsdaten aus der Fachinformation fehlen.
+Für die Opsismodysplasie gibt es weder klinische Studien noch Literatur; der Vorhersagewert ist rein rechnerisch (Evidenzlevel L5). Zudem ist das Arzneimittel in Deutschland aktuell im Handel (6 von 6 Zulassungen gültig), und die Sicherheitsdaten aus der Fachinformation fehlen.
 
 **Für ein Weiterkommen sind folgende Punkte erforderlich:**
 - Daten zum Wirkmechanismus (MOA) aus DrugBank

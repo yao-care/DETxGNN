@@ -4,7 +4,7 @@ title: Cilastatin
 parent: Mittlere Evidenz (L3-L4)
 nav_order: 116
 evidence_level: L3
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Cilastatin: vorhergesagte neue Indikation Staphylococcus-aureus-Infektion (Evidenzstufe L3). Ursprüngliche Indikation: Gramnegative bakterielle Infektionen"
 monitor_inn: "Cilastatin"
@@ -14,7 +14,7 @@ predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusit
 # Cilastatin
 {: .fs-9 }
 
-Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Cilastatin ist ein Hemmstoff der renalen Dehydropeptidase-I und wird ausschließ
 |------|------|
 | Ursprüngliche Indikation | Gramnegative bakterielle Infektionen |
 | Vorhergesagte neue Indikation | Staphylococcus-aureus-Infektion |
-| TxGNN-Vorhersagewert | 99,94 % |
+| TxGNN-Vorhersagewert | 0,9994 |
 | Evidenzniveau | L3 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -95,7 +95,7 @@ Es liegen keine randomisierten kontrollierten Studien zu dieser Indikation vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004808 | Recarbrio | nicht angegeben | Gramnegative bakterielle Infektionen (Status: erloschen) |
+| EMEA/H/C/004808 | Recarbrio | nicht angegeben | Gramnegative bakterielle Infektionen (Status: gültig) |
 
 ---
 

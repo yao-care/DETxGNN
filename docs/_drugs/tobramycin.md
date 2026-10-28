@@ -48,10 +48,10 @@ Tobramycin ist ein Aminoglykosid-Antibiotikum, das ursprünglich zur Behandlung 
 |------|------|
 | Ursprüngliche Indikation | Mukoviszidose; Atemwegsinfektionen |
 | Vorhergesagte neue Indikation | Exposure-Keratitis |
-| TxGNN-Vorhersagewert | 99,93 % |
+| TxGNN-Vorhersagewert | 0,9993 |
 | Evidenzniveau | L4 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -98,7 +98,7 @@ Keine der Arbeiten liefert direkte Wirksamkeitsevidenz für Tobramycin bei Expos
 | EMEA/H/C/002155 | Tobi Podhaler | k. A. | Mukoviszidose; Atemwegsinfektionen |
 | EMEA/H/C/005086 | Vantobra (zuvor Tobramycin PARI) | k. A. | Atemwegsinfektionen; Mukoviszidose |
 
-Beide Zulassungen sind aufgehoben; derzeit ist keine gültige Zulassung vorhanden.
+Beide Zulassungen (2 von 2) sind gültig; das Arzneimittel ist im Handel.
 
 ---
 
@@ -119,7 +119,7 @@ Für die Packungsbeilage liegen in den zusammengestellten Daten keine Warn- und 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich nur auf indirekte Evidenz (Fallberichte, In-vitro-Daten) ohne klinische Studien (Evidenzniveau L4). Hinzu kommt ein Sicherheitssignal zur Hornhautepithel-Toxizität. In Deutschland besteht zudem keine gültige Zulassung.
+Die Vorhersage stützt sich nur auf indirekte Evidenz (Fallberichte, In-vitro-Daten) ohne klinische Studien (Evidenzniveau L4). Hinzu kommt ein Sicherheitssignal zur Hornhautepithel-Toxizität. Das Arzneimittel ist im Handel; beide Zulassungen (2 von 2) sind gültig.
 
 **Für ein Weiterkommen sind folgende Punkte erforderlich:**
 - Fachinformation mit Warnhinweisen und Kontraindikationen auswerten (derzeit blockierende Datenlücke für das Sicherheitsscreening)

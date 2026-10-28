@@ -4,17 +4,17 @@ title: Tenecteplase
 parent: Nur Modellvorhersage (L5)
 nav_order: 453
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Tenecteplase: vorhergesagte neue Indikation Posterolateraler Myokardinfarkt (Evidenzstufe L5). Ursprüngliche Indikation: Myokardinfarkt"
 monitor_inn: "TENECTEPLASE"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
+description: "Tenecteplase: vorhergesagte neue Indikation Congenital coronary artery anomaly (Evidenzstufe L5). Ursprüngliche Indikation: Myocardial Infarction"
 ---
 
 # Tenecteplase
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Tenecteplase: Vom Myokardinfarkt zum posterolateralen Myokardinfarkt
+## Tenecteplase: Congenital coronary artery anomaly
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -47,12 +47,12 @@ Das TxGNN-Modell sagt voraus, dass er bei **posterolateralem Myokardinfarkt** wi
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Myokardinfarkt |
-| Vorhergesagte neue Indikation | Posterolateraler Myokardinfarkt |
-| TxGNN-Vorhersagewert | 99,87 % |
+| Ursprüngliche Indikation | Myocardial Infarction |
+| Vorhergesagte neue Indikation | Congenital coronary artery anomaly |
+| TxGNN-Vorhersagewert | 0.9961 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -63,7 +63,7 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten k
 
 Der posterolaterale Myokardinfarkt ist ein anatomischer Untertyp des bereits zugelassenen Myokardinfarkts. Der hohe TxGNN-Wert spiegelt vor allem die Nähe zur ursprünglichen Indikation wider und stellt kein eigenständiges Repurposing-Signal dar.
 
-Auch die weiteren Vorhersagen (posteroinferiorer und septaler Infarkt) sind Untertypen der Zulassungsindikation. Für Krankheiten wie Chromosom-16-Deletion, Beta-Thalassämie, Pyruvatkinase-Mangel oder hereditäre Pyropoikilozytose besteht kein plausibler Mechanismus; diese Werte sind vermutlich Artefakte des Wissensgraphen. Beim Koronarstenosen-Kandidaten (Rang 5) ist die Evidenz auf Stufe L3 klein und heterogen. Hier ist am ehesten eine intrakoronare Anwendung bei PCI oder Stentthrombose denkbar, nicht aber bei fixierter Stenose.
+Für Krankheiten wie Chromosom-16-Deletion, Beta-Thalassämie, Pyruvatkinase-Mangel oder hereditäre Pyropoikilozytose besteht kein plausibler Mechanismus; diese Werte stammen vom TxGNN-Modell (Deep Learning) und spiegeln möglicherweise gelernte Ähnlichkeiten zwischen verwandten Krankheiten wider, nicht biologische Evidenz. Beim Koronarstenosen-Kandidaten ist die Evidenz auf Stufe L3 klein und heterogen. Hier ist am ehesten eine intrakoronare Anwendung bei PCI oder Stentthrombose denkbar, nicht aber bei fixierter Stenose.
 
 ---
 

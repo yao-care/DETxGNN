@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Prasugrel
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 367
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Prasugrel: vorhergesagte neue Indikation Migräne (Migraine disorder), v. a. mit PFO (Evidenzstufe L3). Ursprüngliche Indikation: Akutes Koronarsyndrom"
 monitor_inn: "PRASUGREL"
-predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "migraine with or without aura, susceptibility to", "brachydactyly-syndactyly syndrome", "leprosy"]
+predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
+description: "Prasugrel: vorhergesagte neue Indikation Pulmonary hypertension (Evidenzstufe L5). Ursprüngliche Indikation: Acute Coronary Syndrome"
 ---
 
 # Prasugrel
 {: .fs-9 }
 
-Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Prasugrel: Von akutem Koronarsyndrom zu Migräne
+## Prasugrel: Pulmonary hypertension
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -42,7 +42,7 @@ Prasugrel ist ein Thrombozytenaggregationshemmer, der ursprünglich zur Behandlu
 Das TxGNN-Modell sagt voraus, dass es bei **Migräne** (in Verbindung mit einem offenen Foramen ovale, PFO) wirksam sein könnte. Diese Indikation hat in den für diesen Bericht zusammengestellten Daten die stärkste Evidenz.
 Derzeit stützen **2 klinische Studien** (beide nur indirekt relevant) und **2 Publikationen** (beide zu verwandten Wirkstoffen bzw. Wirkstoffklassen) diese Richtung.
 
-**Hinweis zur Auswahl der Indikation:** Der Rang-1-Vorschlag des Modells ist *pulmonale Hypertonie* (Score 99,88 %). Dafür liegen jedoch keine klinischen Studien und keine thematisch passende Literatur vor (Evidenzlevel L5). Dieser Bericht konzentriert sich daher auf die am besten belegte Vorhersage, **Migräne** (Rang 2, Score 99,88 %).
+**Hinweis zur Auswahl der Indikation:** Der Rang-1-Vorschlag des Modells ist *pulmonale Hypertonie* (Score 0,9988). Dafür liegen jedoch keine klinischen Studien und keine thematisch passende Literatur vor (Evidenzlevel L5). Dieser Bericht konzentriert sich daher auf die am besten belegte Vorhersage, **Migräne** (Rang 2, Score 0,9988).
 
 ---
 
@@ -50,12 +50,12 @@ Derzeit stützen **2 klinische Studien** (beide nur indirekt relevant) und **2 P
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Akutes Koronarsyndrom; instabile Angina pectoris; Myokardinfarkt |
-| Vorhergesagte neue Indikation | Migräne (Migraine disorder), v. a. mit PFO |
-| TxGNN-Vorhersagescore | 99,88 % |
-| Evidenzlevel | L3 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Ursprüngliche Indikation | Acute Coronary Syndrome;Angina, Unstable;Myocardial Infarction |
+| Vorhergesagte neue Indikation | Pulmonary hypertension |
+| TxGNN-Vorhersagescore | 0.9988 |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold (Forschungsfrage; Fortführung nur mit Schutzmaßnahmen) |
 
 ---
@@ -92,7 +92,7 @@ Gestützt wird das Signal durch eine retrospektive Auswertung von Thienopyridine
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000984 | Efient (Substipharm) | – | Akutes Koronarsyndrom; instabile Angina pectoris; Myokardinfarkt (Status: erloschen) |
+| EMEA/H/C/000984 | Efient (Substipharm) | – | Akutes Koronarsyndrom; instabile Angina pectoris; Myokardinfarkt (Status: gültig) |
 
 ---
 

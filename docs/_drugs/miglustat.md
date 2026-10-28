@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Miglustat: Von Glykogenspeicherkrankheit Typ II (Morbus Pompe) zum autosomal-rezessiven ichthyotischen Syndrom mit letalem Verlauf
+## Miglustat: Autosomal-rezessives ichthyotisches Syndrom mit letalem Verlauf
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -46,10 +46,10 @@ Miglustat ist ein oral verabreichter Hemmstoff der Glucosylceramid-Synthase. Er 
 |------|------|
 | Ursprüngliche Indikation | Glykogenspeicherkrankheit Typ II (Morbus Pompe) |
 | Vorhergesagte neue Indikation | Autosomal-rezessives ichthyotisches Syndrom mit letalem Verlauf |
-| TxGNN-Vorhersagewert | 99,83 % |
+| TxGNN-Vorhersagewert | 0,9983 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene bzw. aufgehobene Zulassungen (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 5 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 5 von 5) |
+| Anzahl der Zulassungen | 5 (gültig: 5) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
@@ -68,7 +68,7 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 
 ## Marktinformationen Deutschland
 
-Alle fünf Zulassungen sind erloschen bzw. aufgehoben. Es handelt sich um zentrale EU-Zulassungen (EMEA). Angaben zur Darreichungsform liegen nicht vor.
+Alle fünf Zulassungen sind gültig. Es handelt sich um zentrale EU-Zulassungen (EMEA). Angaben zur Darreichungsform liegen nicht vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -90,7 +90,7 @@ Für die verbindlichen Warnhinweise und Gegenanzeigen ist die Fachinformation he
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich allein auf den hohen Modellwert (Evidenzgrad L5). Es gibt weder klinische Studien noch Publikationen, und der mechanistische Zusammenhang ist spekulativ. In Deutschland besteht zudem keine gültige Zulassung.
+Die Vorhersage stützt sich allein auf den hohen Modellwert (Evidenzgrad L5). Es gibt weder klinische Studien noch Publikationen, und der mechanistische Zusammenhang ist spekulativ. In Deutschland ist das Arzneimittel zudem im Handel (5 gültige Zulassungen von 5).
 
 **Für ein Weiterkommen ist Folgendes erforderlich:**
 - Präklinische Untersuchungen zur Rolle der Glucosylceramid-Synthase-Hemmung bei dieser Ichthyose-Form (Mechanismus-Validierung)

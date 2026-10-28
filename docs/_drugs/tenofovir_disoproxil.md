@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tenofovir Disoproxil
-parent: Nur Modellvorhersage (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 455
-evidence_level: L5
+evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Tenofovir Disoproxil: vorhergesagte neue Indikation Simiane Immundefizienzvirus-Infektion (Evidenzstufe L5). Ursprüngliche Indikation: HIV-Infektion (zusätzlich chronische Hepatitis B bei Viread)"
 monitor_inn: "TENOFOVIR DISOPROXIL"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
+description: "Tenofovir Disoproxil: vorhergesagte neue Indikation Simian immunodeficiency virus infection (Evidenzstufe L4). Ursprüngliche Indikation: HIV Infections"
 ---
 
 # Tenofovir Disoproxil
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-## Tenofovir disoproxil: Von HIV-Infektion zur simianen Immundefizienzvirus-Infektion
+## Tenofovir Disoproxil: Simian immunodeficiency virus infection
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,12 +48,12 @@ Die Evidenz besteht jedoch ausschließlich aus **Tierstudien (18 Publikationen, 
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | HIV-Infektion (zusätzlich chronische Hepatitis B bei Viread) |
-| Vorhergesagte neue Indikation | Simiane Immundefizienzvirus-Infektion |
-| TxGNN-Vorhersagewert | 99,95 % |
+| Ursprüngliche Indikation | HIV Infections; Hepatitis B, Chronic;HIV Infections |
+| Vorhergesagte neue Indikation | Simian immunodeficiency virus infection |
+| TxGNN-Vorhersagewert | 0.9995 |
 | Evidenzstufe | L4 (präklinische Studien) |
-| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassungen (Cancelled only) |
-| Anzahl der Zulassungen | 14 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 14 von 14) |
+| Anzahl der Zulassungen | 14 (gültig: 14) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -95,7 +95,7 @@ Die Auswahl umfasst die relevantesten Publikationen (Tierstudien und Übersichts
 
 ## Marktinformationen Deutschland
 
-Alle 14 hinterlegten Zulassungen sind erloschen. Es gibt keine aktuell gültige Zulassung. Auswahl von 5 Einträgen:
+Von den 14 hinterlegten Zulassungen sind 14 gültig. Das Arzneimittel ist in Deutschland im Handel. Auswahl von 5 Einträgen:
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -126,7 +126,7 @@ Diese Angaben sind Modellannahmen und müssen anhand der Fachinformation überpr
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage ist mechanistisch kohärent, stützt sich aber nur auf präklinische Tierdaten (L4). SIV ist kein klinisches Ziel beim Menschen, und der hohe Vorhersagewert spiegelt vor allem die bekannte antiretrovirale Klassenwirkung wider. Die Zulassungen in Deutschland sind zudem sämtlich erloschen. Die weiteren Vorhersagen (feline erworbene Immundefizienz, seltene neurologische Entwicklungsstörung, obsolete familiäre kombinierte Hyperlipidämie) sind ebenfalls nicht klinisch belegt; die beiden letzteren sind vermutlich Artefakte des Wissensgraphen.
+Die Vorhersage ist mechanistisch kohärent, stützt sich aber nur auf präklinische Tierdaten (L4). SIV ist kein klinisches Ziel beim Menschen, und der hohe Vorhersagewert (0.9995) stammt vom TxGNN-Modell (Deep Learning) und kann vor allem Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz; er spiegelt zudem die bekannte antiretrovirale Klassenwirkung wider. Die weiteren Vorhersagen (feline erworbene Immundefizienz 0.9995, seltene neurologische Entwicklungsstörung 0.9995, obsolete familiäre kombinierte Hyperlipidämie 0.9960) sind ebenfalls nicht klinisch belegt und können Ähnlichkeiten widerspiegeln, die das Modell gelernt hat.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise, Kontraindikationen) – derzeit blockierend für die Sicherheitsprüfung

@@ -4,17 +4,17 @@ title: Axitinib
 parent: Nur Modellvorhersage (L5)
 nav_order: 49
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Axitinib: vorhergesagte neue Indikation Nierenzellkarzinom mit Xp11.2-Translokation/TFE3-Genfusion (Evidenzstufe L5). Ursprüngliche Indikation: Nierenzellkarzinom (Carcinoma, Renal Cell)"
+indication_count: 4
 monitor_inn: "AXITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax"]
+last_modified_at: 2026-10-27
+description: "Axitinib: vorhergesagte neue Indikation Liposarkom (liposarcoma) (Evidenzstufe L5). Ursprüngliche Indikation: Carcinoma, Renal Cell"
 ---
 
 # Axitinib
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,102 +33,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Axitinib: Vom Nierenzellkarzinom zum Nierenzellkarzinom mit Xp11.2-Translokation/TFE3-Genfusion
+## Axitinib: Tyrosinkinase-Inhibitor (VEGFR-Hemmer) → Liposarkom (liposarcoma)
 {: .text-alpha }
 
-## Zusammenfassung
+## Zusammenfassung in einem Satz
 
-Axitinib ist ein oraler Tyrosinkinase-Inhibitor, der ursprünglich zur Behandlung des Nierenzellkarzinoms zugelassen wurde. Das TxGNN-Modell sagt voraus, dass er auch beim **Nierenzellkarzinom mit Xp11.2-Translokation/TFE3-Genfusion** (tRCC) wirksam sein könnte. Die Evidenz ist bisher dünn: Es gibt **eine kleine laufende Phase-2-Studie (n=15)** und **keine direkte Publikation**.
+Axitinib ist ein Tyrosinkinase-Inhibitor, der gegen die Angiogenese gerichtet ist. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Liposarkom (liposarcoma)** voraus. Die Datenlage ist dünn: Es gibt **keine registrierten klinischen Studien** und **eine Publikation** (präklinisch, myxoides Liposarkom).
 
----
-
-## Schnellübersicht
+## Überblick
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nierenzellkarzinom (Carcinoma, Renal Cell) |
-| Vorhergesagte neue Indikation | Nierenzellkarzinom mit Xp11.2-Translokation/TFE3-Genfusion |
-| TxGNN-Vorhersagewert | 99,90 % |
-| Evidenzstufe | L2 (eingeschränkt: Die einzige Studie ist noch nicht abgeschlossen und hat keine Ergebnisse) |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen (kein gültiger Eintrag) |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Ursprüngliche Indikation | Carcinoma, Renal Cell |
+| Vorhergesagte neue Indikation | Liposarkom (liposarcoma) |
+| TxGNN-Vorhersagewert | 0,9987 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
-
----
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum detaillierten Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine Angaben vor. Bekannt ist, dass Axitinib ein selektiver Hemmer der VEGF-Rezeptoren 1–3 ist. Seine Wirksamkeit beim Nierenzellkarzinom ist durch große Phase-3-Studien belegt. Dazu gehören AXIS (Zweitlinie gegen Sorafenib), KEYNOTE-426 (Pembrolizumab plus Axitinib gegen Sunitinib) und JAVELIN Renal 101 (Avelumab plus Axitinib gegen Sunitinib).
+Zu Axitinib liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Bekannt ist, dass Axitinib die Angiogenese über VEGF-Rezeptoren hemmt. Ein solcher Mechanismus kann grundsätzlich auch bei Weichteilsarkomen relevant sein, da diese von der Tumorgefäßversorgung abhängen.
 
-Das Xp11.2/TFE3-Translokations-RCC ist ein seltener Subtyp des Nierenzellkarzinoms, bei dem der VEGF-Signalweg eine Rolle spielt. Die ursprüngliche und die vorhergesagte Indikation sind daher biologisch eng verwandt, und eine VEGFR-Hemmung ist mechanistisch plausibel.
-
-Bei diesem seltenen Subtyp gibt es aber keine abgeschlossenen Studien und keine Publikationen. Die Evidenz aus den Zulassungsstudien stammt überwiegend vom klarzelligen Nierenzellkarzinom und lässt sich nur indirekt übertragen.
-
----
+Eine präklinische Arbeit (2016) zeigte in Zelllinien des myxoiden Liposarkoms antiangiogene und antitumorale Aktivität von Axitinib. Das stützt die Hypothese, ist aber kein klinischer Beleg. Weil keine Studie direkt am Menschen und nur eine Untersuchung an Zellmodellen vorliegt, bleibt die Evidenz indirekt und wird als L5 eingestuft.
 
 ## Evidenz aus klinischen Studien
 
-| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Aussagen |
-|---------|------|------|------|---------|
-| [NCT03595124](https://clinicaltrials.gov/study/NCT03595124) | Phase 2 | Aktiv, nicht mehr rekrutierend | 15 | Randomisierter Vergleich von Axitinib plus Nivolumab gegen Nivolumab allein bei nicht resezierbarem oder metastasiertem TFE/Translokations-RCC. Geplantes Studienende: 11/2026. Ergebnisse liegen nicht vor. |
+Derzeit sind keine einschlägigen klinischen Studien registriert.
 
----
+## Evidenz aus der Literatur
 
-## Literaturevidenz
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [27822137](https://pubmed.ncbi.nlm.nih.gov/27822137/) | 2016 | Präklinisch (in vitro/in vivo) | Sarcoma | Axitinib zeigt antiangiogene und antitumorale Aktivität in Zelllinien des myxoiden Liposarkoms; Substanzen gegen die Angiogenese waren im Screening wirksam. |
 
-Derzeit liegt keine spezifische Literatur zu dieser Indikation vor.
+## Informationen zum Markt in Deutschland
 
----
-
-## Marktinformationen Deutschland
-
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
-|---------|------|------|-----------|------|
-| EMEA/H/C/006206 | Axitinib Accord | – | Nierenzellkarzinom | Erloschen |
-| EMEA/H/C/002406 | Inlyta | – | Nierenzellkarzinom | Erloschen |
-
-Beide Zulassungen (Accord Healthcare, Pfizer Europe MA EEIG) sind als erloschen geführt. Die aktuelle Verfügbarkeit in Deutschland sollte vor jeder weiteren Planung geprüft werden.
-
----
+Die Zulassungsübersicht wird vom Programm ergänzt.
 
 ## Zytotoxizität
 
 | Punkt | Inhalt |
 |------|------|
-| Zytotoxizitätsklassifikation | Zielgerichtete Therapie (VEGFR-Tyrosinkinase-Inhibitor) |
-| Myelosuppressionsrisiko | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage beachten |
-| Emetogenitätsklasse | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage beachten |
-| Überwachungsparameter | Blutdruck, Blutungszeichen und Schilddrüsenfunktion; weitere Laborparameter gemäß Packungsbeilage |
-| Handhabungsschutz | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage beachten |
-
----
+| Klassifikation | Zielgerichtete Therapie (Tyrosinkinase-Inhibitor) |
+| Risiko einer Myelosuppression | Bitte Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage beachten |
+| Emetogenität | Bitte Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage beachten |
+| Überwachungsparameter | Bitte Packungsbeilage beachten (u. a. Blutbild, Leber- und Nierenfunktion) |
+| Schutzmaßnahmen bei der Handhabung | Bitte Packungsbeilage und örtliche Vorgaben für den Umgang mit Zytostatika beachten |
 
 ## Sicherheitsaspekte
 
-- **Arzneimittelwechselwirkungen**: Zu Axitinib wurden insgesamt 100 Wechselwirkungen erfasst. Die wichtigsten davon:
-  - **Schwerwiegend (Major)**: Clarithromycin, Dexamethasone
-  - **Mittelschwer (Moderate)**: Aprepitant, Clotrimazol, Miconazol, Naltrexon
-  - **Gering (Minor)**: unter anderem Säureblocker und Antazida (Famotidin, Ranitidin, Cimetidin, Nizatidin, Protonenpumpenhemmer wie Rabeprazol, Esomeprazol, Lansoprazol, Dexlansoprazol sowie Aluminiumhydroxid, Calciumcarbonat und Magnesiumsalze)
-- **Empfohlene Schutzmaßnahmen**: Auf Bluthochdruck, Blutungen und Schilddrüsenfunktionsstörungen achten. Wechselwirkungen über CYP3A4/5 sind zu prüfen.
+Zu Warnhinweisen und Gegenanzeigen liegen keine Daten vor; bitte die Packungsbeilage beachten.
 
-Zu Warnhinweisen und Gegenanzeigen bitte die Packungsbeilage heranziehen.
-
----
+**Arzneimittelwechselwirkungen** (100 Einträge in den Daten, Auswahl der schwerwiegenderen):
+- **Schwer (Major):** Clarithromycin, Dexamethason
+- **Mäßig (Moderate):** Aprepitant, Clotrimazol, Miconazol, Naltrexon
+- **Gering (Minor):** u. a. Famotidin, Ranitidin, Rabeprazol, Esomeprazol, Lansoprazol, Cimetidin sowie verschiedene Antazida (Aluminium-, Calcium- und Magnesiumverbindungen)
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-- Der Vorhersagewert ist hoch und der Mechanismus (VEGFR-Hemmung) plausibel. Die Evidenz für diesen seltenen Subtyp beschränkt sich aber auf eine kleine, noch nicht ausgewertete Phase-2-Studie (n=15) ohne Publikationen.
-- Zudem gibt es in Deutschland aktuell keine gültige Zulassung.
+Für Liposarkom liegt nur eine präklinische Studie zum myxoiden Subtyp vor, keine klinische Studie. Die Vorhersage bleibt daher eine Forschungsfrage ohne belastbare klinische Evidenz.
 
-**Für ein Weiterkommen ist Folgendes nötig:**
-- Ergebnisse der Studie NCT03595124 abwarten und bewerten (geplantes Studienende 11/2026).
-- Packungsbeilage beschaffen und Warnhinweise sowie Gegenanzeigen auswerten.
-- Detaillierte Wirkmechanismus-Daten ergänzen.
-- Aktuellen Zulassungs- und Verfügbarkeitsstatus in Deutschland klären.
-- Ein Sicherheitsüberwachungsplan erstellen, der Blutdruck, Blutungen, Schilddrüse und die Wechselwirkungen berücksichtigt.
+**Für ein Weiterkommen erforderlich:**
+- Klinische Daten (z. B. Phase-2-Studie oder Fallserien) bei Liposarkom, differenziert nach Subtypen
+- Weitere präklinische Bestätigung in zusätzlichen Liposarkom-Modellen
+- Daten zum Wirkmechanismus
+- Auswertung der Packungsbeilage (Warnhinweise, Gegenanzeigen) für ein Sicherheitsscreening
+- Bewertung der Wechselwirkungen, insbesondere mit starken CYP3A4-Hemmern und -Induktoren (z. B. Clarithromycin, Dexamethason)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

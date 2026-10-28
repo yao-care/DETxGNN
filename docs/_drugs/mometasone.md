@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-## Mometason: Von Asthma zum primären kutanen T-Zell-Lymphom
+## Mometason: Primäres kutanes T-Zell-Lymphom
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Die Evidenz ist sehr dünn: **keine klinischen Studien** und **2 Fallberichte** 
 |------|------|
 | Ursprüngliche Indikation | Asthma |
 | Vorhergesagte neue Indikation | Primäres kutanes T-Zell-Lymphom |
-| TxGNN-Vorhersagewert | 99,36 % |
+| TxGNN-Vorhersagewert | 0,9936 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -91,7 +91,7 @@ Beide Berichte liefern keinen Hinweis auf eine Wirksamkeit von Mometason beim ku
 |---------|------|------|-----------|
 | EMEA/H/C/005061 | Enerzair Breezhaler | – | Asthma |
 
-Diese Zulassung (Novartis Europharm Limited) ist aufgehoben. Aktuell gibt es keine gültige Zulassung.
+Diese Zulassung (Novartis Europharm Limited) ist gültig. Aktuell ist 1 von 1 Zulassung gültig, das Arzneimittel ist im Handel.
 
 ---
 

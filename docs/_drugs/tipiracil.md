@@ -6,9 +6,9 @@ nav_order: 465
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Tipiracil: vorhergesagte neue Indikation Zäkum-Zottenadenom (Evidenzstufe L5). Ursprüngliche Indikation: Kolorektale Neoplasien"
 monitor_inn: "Tipiracil"
 predicted_indications: ["cecum villous adenoma", "lipoma of colon", "rectosigmoid junction neoplasm", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
+description: "Tipiracil: vorhergesagte neue Indikation Cecum villous adenoma (Evidenzstufe L5). Ursprüngliche Indikation: Colorectal Neoplasms"
 ---
 
 # Tipiracil
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Tipiracil: Von Darmkrebs (kolorektale Neoplasien) zu Zäkum-Zottenadenom
+## Tipiracil: Cecum villous adenoma
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,12 +48,12 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Kolorektale Neoplasien |
-| Vorhergesagte neue Indikation | Zäkum-Zottenadenom |
-| TxGNN-Vorhersagewert | 99,99 % |
+| Ursprüngliche Indikation | Colorectal Neoplasms |
+| Vorhergesagte neue Indikation | Cecum villous adenoma |
+| TxGNN-Vorhersagewert | 0.9999 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Tipiracil hemmt die Thymidinphosphorylase und verhindert so den raschen Abbau von Trifluridin, dem zytotoxischen Nukleosidanalogon der Kombination. Tipiracil allein besitzt keine zytotoxische Aktivität. Die Wirksamkeit der Kombination beim metastasierten kolorektalen Karzinom ist belegt.
 
-Das Zäkum-Zottenadenom ist eine gutartige Vorläuferläsion im selben Organabschnitt wie die zugelassene Indikation. Der sehr hohe Modellwert spiegelt vermutlich diese anatomische und krankheitsbezogene Nähe im Wissensgraphen wider. Ein klarer biologischer Grund, weshalb eine zytotoxische Nukleosidanalogon-Kombination bei einem gutartigen Adenom sinnvoll wäre, ist jedoch nicht erkennbar. Die Vorhersage ist daher rein rechnerisch und mechanistisch nur schwach begründet.
+Das Zäkum-Zottenadenom ist eine gutartige Vorläuferläsion im selben Organabschnitt wie die zugelassene Indikation. Der sehr hohe Wert stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat; er ist kein biologischer Nachweis. Ein klarer biologischer Grund, weshalb eine zytotoxische Nukleosidanalogon-Kombination bei einem gutartigen Adenom sinnvoll wäre, ist jedoch nicht erkennbar. Die Vorhersage ist daher rein rechnerisch und mechanistisch nur schwach begründet.
 
 Weitere vom Modell vorhergesagte Indikationen (z. B. Lipom des Kolons, Neoplasie am rektosigmoidalen Übergang, neuroendokriner Tumor G1 des Zäkums, kolorektaler GIST) zeigen ebenfalls keine klinische Evidenz. Die Neoplasie am rektosigmoidalen Übergang ist eher ein Unterbereich der bestehenden Indikation als eine echte neue Anwendung.
 

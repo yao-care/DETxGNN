@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-## Siltuximab: Vom Castleman-Syndrom (Riesenlymphknotenhyperplasie) zum extrakutanen Mastozytom
+## Siltuximab: Extrakutanes Mastozytom
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür liegen jedoch **keine klinischen Studien und keine Publikationen** vor; d
 |------|------|
 | Ursprüngliche Indikation | Riesenlymphknotenhyperplasie (Giant Lymph Node Hyperplasia) |
 | Vorhergesagte neue Indikation | Extrakutanes Mastozytom |
-| TxGNN-Vorhersagewert | 99,64 % |
+| TxGNN-Vorhersagewert | 0,9964 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,19 +62,19 @@ Dafür liegen jedoch **keine klinischen Studien und keine Publikationen** vor; d
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Siltuximab ist ein gegen IL-6 gerichteter chimärer monoklonaler Antikörper. Seine Wirksamkeit bei der Castleman-Krankheit, einer IL-6-getriebenen lymphoproliferativen Erkrankung, ist belegt.
 
-Die Verbindung zum Mastozytom stützt sich ausschließlich auf die Vorhersage des Wissensgraphen (Score 0,996). Weder klinische Studien noch Literatur belegen eine IL-6-Blockade bei dieser Erkrankung, und die mechanistische Begründung ist nicht etabliert. Der Zusammenhang zur ursprünglichen Indikation wurde bisher nicht bewertet.
+Die Verbindung zum Mastozytom stützt sich ausschließlich auf die Vorhersage des TxGNN-Modells (Deep Learning, Score 0,9964). Dieser Score kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, und stellt keinen biologischen Beleg dar. Weder klinische Studien noch Literatur belegen eine IL-6-Blockade bei dieser Erkrankung, und die mechanistische Begründung ist nicht etabliert. Der Zusammenhang zur ursprünglichen Indikation wurde bisher nicht bewertet.
 
 ### Weitere vorhergesagte Indikationen
 
 | Rang | Erkrankung | Score | Evidenzgrad | Einschätzung |
 |------|------|------|------|------|
-| 2 | Leberinfarkt | 99,44 % | L5 | IL-6 hat hepatoprotektive Funktionen; eine Blockade könnte schädlich sein. |
-| 3 | Hepatische venookklusive Erkrankung | 99,40 % | L5 | Plausible, aber nicht validierte Hypothese (Endothelschaden, Zytokine nach Stammzelltransplantation). |
-| 4 | Peliosis hepatis | 99,29 % | L5 | Kein direkter mechanistischer oder klinischer Beleg. |
-| 5 | Kaposi-Sarkom | 99,28 % | L4 | Biologisch plausibler indirekter Link über KSHV/HHV-8 und virales sowie humanes IL-6. |
-| 6 | Familiäres Mittelmeerfieber (autosomal-rezessiv) | 99,22 % | L5 | Haupttreiber ist IL-1; IL-1-Blockade und Colchicin sind Standard. |
-| 7 | Aggressive systemische Mastozytose | 99,16 % | L5 | KIT-getrieben; IL-6 ist eher Biomarker als Therapieziel. |
-| 8 | Autosomal-dominantes familiäres periodisches Fieber | 99,05 % | L5 | IL-1-Blockade ist Standard; kein direkter Beleg für Siltuximab. |
+| 2 | Leberinfarkt | 0,9944 | L5 | IL-6 hat hepatoprotektive Funktionen; eine Blockade könnte schädlich sein. |
+| 3 | Hepatische venookklusive Erkrankung | 0,9940 | L5 | Plausible, aber nicht validierte Hypothese (Endothelschaden, Zytokine nach Stammzelltransplantation). |
+| 4 | Peliosis hepatis | 0,9929 | L5 | Kein direkter mechanistischer oder klinischer Beleg. |
+| 5 | Kaposi-Sarkom | 0,9928 | L5 | Biologisch plausibler indirekter Link über KSHV/HHV-8 und virales sowie humanes IL-6. |
+| 6 | Familiäres Mittelmeerfieber (autosomal-rezessiv) | 0,9922 | L5 | Haupttreiber ist IL-1; IL-1-Blockade und Colchicin sind Standard. |
+| 7 | Aggressive systemische Mastozytose | 0,9916 | L5 | KIT-getrieben; IL-6 ist eher Biomarker als Therapieziel. |
+| 8 | Autosomal-dominantes familiäres periodisches Fieber | 0,9905 | L5 | IL-1-Blockade ist Standard; kein direkter Beleg für Siltuximab. |
 
 ---
 

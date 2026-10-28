@@ -4,7 +4,7 @@ title: Sunitinib
 parent: Hohe Evidenz (L1-L2)
 nav_order: 438
 evidence_level: L2
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Sunitinib: vorhergesagte neue Indikation Liposarkom (Evidenzstufe L2). Ursprüngliche Indikation: Gastrointestinale Stromatumoren"
 monitor_inn: "SUNITINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofib
 # Sunitinib
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Dafür liegen derzeit **2 klinische Phase-2-Studien** und **9 Publikationen** vo
 |------|------|
 | Ursprüngliche Indikation | Gastrointestinale Stromatumoren; Nierenzellkarzinom; neuroendokrine Tumoren |
 | Vorhergesagte neue Indikation | Liposarkom |
-| TxGNN-Vorhersagewert | 99,87 % |
+| TxGNN-Vorhersagewert | 0,9987 |
 | Evidenzgrad | L2 |
-| Marktstatus in Deutschland | Nur erloschene Zulassungen (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -95,7 +95,7 @@ Seine Wirksamkeit bei GIST und Nierenzellkarzinom, beides Tumoren mit starker Ab
 | EMEA/H/C/000687 | Sutent (Pfizer Limited) | – | Gastrointestinale Stromatumoren; Nierenzellkarzinom; neuroendokrine Tumoren |
 | EMEA/H/C/005419 | Sunitinib Accord (Accord Healthcare S.L.U.) | – | Gastrointestinale Stromatumoren; Nierenzellkarzinom; neuroendokrine Tumoren |
 
-Beide Zulassungen sind erloschen; derzeit besteht keine gültige Zulassung.
+Das Arzneimittel ist im Handel; beide Zulassungen (2 von 2) sind gültig.
 
 ---
 
@@ -125,7 +125,7 @@ Zusätzlich sollten die Warnhinweise und Kontraindikationen der Fachinformation 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die zwei abgeschlossenen Phase-2-Studien und die publizierte Phase-2-Studie liefern nur direkte, aber bescheidene Evidenz. Die Wirksamkeit beim Liposarkom erscheint begrenzt und histologieabhängig. Zudem besteht in Deutschland derzeit keine gültige Zulassung, und die Daten der Fachinformation fehlen noch, sodass eine Sicherheitsprüfung nicht abgeschlossen werden kann.
+Die zwei abgeschlossenen Phase-2-Studien und die publizierte Phase-2-Studie liefern nur direkte, aber bescheidene Evidenz. Die Wirksamkeit beim Liposarkom erscheint begrenzt und histologieabhängig. Zudem ist das Arzneimittel in Deutschland im Handel (2 von 2 Zulassungen gültig), doch die Daten der Fachinformation fehlen noch, sodass eine Sicherheitsprüfung nicht abgeschlossen werden kann.
 
 **Für das weitere Vorgehen ist Folgendes erforderlich:**
 - Fachinformation (Warnhinweise und Kontraindikationen) des BfArM bzw. der EMA beschaffen und auswerten, da dies die Sicherheitsprüfung derzeit blockiert

@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Filgrastim: Von Neutropenie/Stammzelltransplantation zu primärer Thrombozyten-Freisetzungsstörung
+## Filgrastim: Von Neutropenie/Stammzelltransplantation zu Primäre Thrombozyten-Freisetzungsstörung
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,10 +48,10 @@ Filgrastim (G-CSF) wird ursprünglich zur Behandlung der Neutropenie bei Krebser
 |------|------|
 | Ursprüngliche Indikation | Hämatopoetische Stammzelltransplantation; Krebserkrankung |
 | Vorhergesagte neue Indikation | Primäre Thrombozyten-Freisetzungsstörung (primary release disorder of platelets) |
-| TxGNN-Vorhersagewert | 99,998 % |
+| TxGNN-Vorhersagewert | 1,0000 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 7 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 7 von 7) |
+| Anzahl der Zulassungen | 7 (gültig: 7) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -60,7 +60,7 @@ Filgrastim (G-CSF) wird ursprünglich zur Behandlung der Neutropenie bei Krebser
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Filgrastim ein rekombinanter Granulozyten-koloniestimulierender Faktor (G-CSF) ist. Er wirkt auf die granulozytäre Reihe und wird bei Neutropenie sowie zur Stammzellmobilisierung eingesetzt.
 
-Ein plausibler mechanistischer Zusammenhang zwischen dieser Wirkung und der Korrektur einer Störung der Thrombozytensekretion ist anhand der vorliegenden Daten nicht erkennbar. Der sehr hohe Modellwert spiegelt vermutlich eher Überschneidungen im Wissensgraphen wider (z. B. über Stammzelltransplantation als gemeinsamen Kontext) als einen echten pharmakologischen Zusammenhang. Die Vorhersage sollte daher als reine Hypothese betrachtet werden.
+Ein plausibler mechanistischer Zusammenhang zwischen dieser Wirkung und der Korrektur einer Störung der Thrombozytensekretion ist anhand der vorliegenden Daten nicht erkennbar. Der sehr hohe Wert stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. Die Vorhersage sollte daher als reine Hypothese betrachtet werden.
 
 Auch die weiteren hochbewerteten Vorhersagen (u. a. Pseudo-von-Willebrand-Erkrankung, Glanzmann-Thrombasthenie, Scott-Syndrom) sind reine Modellvorhersagen ohne Studien oder Literatur und ohne erkennbaren mechanistischen Bezug zu G-CSF.
 
@@ -80,7 +80,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-Alle sieben Zulassungen sind erloschen. Es handelt sich um zentrale europäische Zulassungen (EMA); für die Zulassung Accofil liegt kein Indikationstext vor.
+Alle sieben Zulassungen sind gültig (7 von 7). Es handelt sich um zentrale europäische Zulassungen (EMA); für die Zulassung Accofil liegt kein Indikationstext vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -108,7 +108,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf einen Modellwert (Evidenzstufe L5), ohne Studien, Literatur oder plausiblen Wirkmechanismus. Zudem sind alle deutschen/europäischen Zulassungen erloschen.
+Die Vorhersage stützt sich ausschließlich auf einen Modellwert des TxGNN-Modells (Deep Learning) (Evidenzstufe L5), ohne Studien, Literatur oder plausiblen Wirkmechanismus. Das Arzneimittel ist in Deutschland/Europa im Handel (7 von 7 Zulassungen gültig).
 
 **Für ein Weiterkommen sind erforderlich:**
 - Daten zum Wirkmechanismus (MOA) und eine belastbare mechanistische Hypothese zu Thrombozytenfunktionsstörungen

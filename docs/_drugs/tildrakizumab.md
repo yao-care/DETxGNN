@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-## Tildrakizumab: Von Psoriasis zu schwerer nichtproliferativer diabetischer Retinopathie
+## Tildrakizumab: Von Psoriasis zu Schwere nichtproliferative diabetische Retinopathie
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Psoriasis |
 | Vorhergesagte neue Indikation | Schwere nichtproliferative diabetische Retinopathie |
-| TxGNN-Vorhersagewert | 99,63 % |
+| TxGNN-Vorhersagewert | 0,9963 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -70,9 +70,9 @@ Weitere vom Modell vorhergesagte Indikationen (jeweils ebenfalls nur Evidenznive
 
 | Vorhergesagte Indikation | TxGNN-Wert | Einschätzung |
 |------|------|------|
-| Diabetische Retinopathie | 99,53 % | Gleiche spekulative Begründung wie oben |
-| Diabetische Katarakt | 99,21 % | Kein klarer mechanistischer Zusammenhang; Katarakt wird v. a. durch Polyolweg, osmotischen und oxidativen Stress verursacht |
-| Medikamenteninduzierte Osteoporose | 99,20 % | Biologisch plausibel (IL-23/IL-17 beeinflussen den Knochenumbau über RANKL), Wirkrichtung jedoch unklar |
+| Diabetische Retinopathie | 0,9953 | Gleiche spekulative Begründung wie oben |
+| Diabetische Katarakt | 0,9921 | Kein klarer mechanistischer Zusammenhang; Katarakt wird v. a. durch Polyolweg, osmotischen und oxidativen Stress verursacht |
+| Medikamenteninduzierte Osteoporose | 0,9920 | Biologisch plausibel (IL-23/IL-17 beeinflussen den Knochenumbau über RANKL), Wirkrichtung jedoch unklar |
 
 ---
 
@@ -94,7 +94,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/004514 | Ilumetri (Almirall, S.A.) | – | Psoriasis |
 
-Die einzige Zulassung ist als erloschen/aufgehoben geführt, es besteht daher derzeit keine gültige Zulassung.
+Das Arzneimittel ist im Handel; die einzige Zulassung (1 von 1) ist gültig.
 
 ---
 

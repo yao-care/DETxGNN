@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Simvastatin
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 430
-evidence_level: L1
-indication_count: 8
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Simvastatin: vorhergesagte neue Indikation Familiäre Hypercholesterinämie (Evidenzstufe L1). Ursprüngliche Indikation: Dyslipidämien"
+description: "Simvastatin: vorhergesagte neue Indikation Hirnstamminfarkt (Evidenzstufe L1). Ursprüngliche Indikation: Dyslipidämien"
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["brain stem infarction", "cholesterol-ester transfer pro
 # Simvastatin
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **8** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-## Simvastatin: Von Dyslipidämien zu familiärer Hypercholesterinämie
+## Simvastatin: Von Dyslipidämien zu Hirnstamminfarkt
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Simvastatin ist ein HMG-CoA-Reduktase-Hemmer und war ursprünglich zur Behandlun
 |------|------|
 | Ursprüngliche Indikation | Dyslipidämien |
 | Vorhergesagte neue Indikation | Familiäre Hypercholesterinämie |
-| TxGNN-Vorhersagewert | 99,63 % |
-| Evidenzlevel | L1 |
-| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassung |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 erloschen) |
+| TxGNN-Vorhersagewert | 0,9941 |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortführung mit Schutzmaßnahmen) |
 
 ---
@@ -107,7 +107,7 @@ Hinweis: Die meisten Studien untersuchen andere Substanzen, und Simvastatin ist 
 |---------|------|------|-----------|
 | EMEA/H/C/002559 | Cholib | – | Dyslipidämien |
 
-Diese Zulassung (Inhaber: Viatris Healthcare Limited) ist erloschen. Es liegt keine gültige Zulassung vor.
+Diese Zulassung (Inhaber: Viatris Healthcare Limited) ist gültig.
 
 ---
 
@@ -130,13 +130,11 @@ Detaillierte Warnhinweise und Gegenanzeigen aus der Packungsbeilage liegen nicht
 
 | Indikation | Score | Evidenzlevel | Empfehlung |
 |---|---|---|---|
-| Autosomal-dominante Hypercholesterinämie | 99,36 % | L1 | Proceed with Guardrails (überschneidet sich weitgehend mit FH, keine unabhängige Evidenz) |
-| HIV-Infektion | 99,22 % | L3 | Forschungsfrage (betrifft Management der Dyslipidämie und Wechselwirkungen, keine antivirale Wirkung) |
-| Hirnstamminfarkt | 99,41 % | L5 | Hold (keine direkte Evidenz) |
-| CETP-Mangel | 99,39 % | L5 | Hold (schwache mechanistische Begründung) |
-| Hypercholesterinämie durch CYP7A1-Mangel | 99,27 % | L5 | Hold (schlechtes Ansprechen auf Statine berichtet) |
-| ABri-Amyloidose | 99,13 % | L5 | Hold |
-| Neuroentwicklungsstörung mit ataxischem Gang | 99,10 % | L5 | Hold (vermutlich Netzwerkartefakt) |
+| HIV-Infektion | 0,9922 | L3 | Forschungsfrage (betrifft Management der Dyslipidämie und Wechselwirkungen, keine antivirale Wirkung) |
+| Hirnstamminfarkt | 0,9941 | L5 | Hold (keine direkte Evidenz) |
+| CETP-Mangel | 0,9939 | L5 | Hold (schwache mechanistische Begründung) |
+| ABri-Amyloidose | 0,9913 | L5 | Hold |
+| Neuroentwicklungsstörung mit ataxischem Gang | 0,9910 | L5 | Hold (vermutlich Netzwerkartefakt) |
 
 ---
 

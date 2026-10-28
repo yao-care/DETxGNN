@@ -4,7 +4,7 @@ title: Gimeracil
 parent: Hohe Evidenz (L1-L2)
 nav_order: 209
 evidence_level: L1
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Gimeracil: vorhergesagte neue Indikation Kolonneoplasie (colonic neoplasm) (Evidenzstufe L1). Ursprüngliche Indikation: Magenneoplasien (Stomach Neoplasms)"
 monitor_inn: "GIMERACIL"
@@ -14,7 +14,7 @@ predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "lipoma of 
 # Gimeracil
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Gimeracil ist ein Bestandteil der S-1-Kombination (Tegafur/Gimeracil/Oteracil) u
 |------|------|
 | Ursprüngliche Indikation | Magenneoplasien (Stomach Neoplasms) |
 | Vorhergesagte neue Indikation | Kolonneoplasie (colonic neoplasm) |
-| TxGNN-Vorhersagewert | 99,88 % |
+| TxGNN-Vorhersagewert | 0,9988 |
 | Evidenzstufe | L1 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortführung mit Schutzmaßnahmen) |
 
 ---
@@ -127,7 +127,7 @@ Für Warnhinweise und Gegenanzeigen liegen keine verwertbaren Daten vor; bitte d
 **Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Zwei Phase-3-Studien (davon eine abgeschlossen, n = 1535) prüfen die gimeracilhaltige S-1-Kombination direkt beim Kolonkarzinom, und der Mechanismus (DPD-Hemmung, 5-FU-Sensitivität) ist plausibel. Einschränkend ist die Evidenz auf die Kombination bezogen, mehrere Studien haben unbekannten Status, die Literatur besteht überwiegend aus Fallberichten, und in Deutschland ist keine gültige Zulassung vorhanden.
+Zwei Phase-3-Studien (davon eine abgeschlossen, n = 1535) prüfen die gimeracilhaltige S-1-Kombination direkt beim Kolonkarzinom, und der Mechanismus (DPD-Hemmung, 5-FU-Sensitivität) ist plausibel. Einschränkend ist die Evidenz auf die Kombination bezogen, mehrere Studien haben unbekannten Status, und die Literatur besteht überwiegend aus Fallberichten. In Deutschland ist das Arzneimittel im Handel, 1 von 1 Zulassung ist gültig.
 
 **Für das weitere Vorgehen erforderlich:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) als Voraussetzung für die Sicherheitsprüfung

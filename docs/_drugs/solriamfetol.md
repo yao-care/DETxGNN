@@ -33,7 +33,7 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Solriamfetol: Vom Narkolepsie/obstruktiver Schlafapnoe zu ADHS (Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung)
+## Solriamfetol: Vom Narkolepsie/obstruktiver Schlafapnoe zu Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS)
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür liegen derzeit **5 klinische Studien** (davon 2 abgeschlossen) und **6 Pu
 |------|------|
 | Ursprüngliche Indikation | Narkolepsie; obstruktive Schlafapnoe |
 | Vorhergesagte neue Indikation | Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS) |
-| TxGNN-Vorhersagewert | 99,99 % |
+| TxGNN-Vorhersagewert | 0,9999 |
 | Evidenzlevel | L1 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung (Status „cancelled") |
-| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortführung mit Schutzmaßnahmen) |
 
 ---
@@ -97,7 +97,7 @@ Solriamfetol wurde bereits als Behandlungsansatz für ADHS untersucht, mit der �
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004893 | Sunosi (Atnahs Pharma Netherlands B.V.) | – | Narkolepsie; obstruktive Schlafapnoe (Status: erloschen/aufgehoben) |
+| EMEA/H/C/004893 | Sunosi (Atnahs Pharma Netherlands B.V.) | – | Narkolepsie; obstruktive Schlafapnoe (Status: gültig/gültig) |
 
 ---
 

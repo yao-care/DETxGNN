@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Acetylsalicylic Acid
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 17
-evidence_level: L3
-indication_count: 9
-last_modified_at: 2026-10-14
-description: "Acetylsalicylic Acid: vorhergesagte neue Indikation Migräne mit Hirnstammaura (Evidenzstufe L3). Ursprüngliche Indikation: Akutes Koronarsyndrom"
+evidence_level: L5
+indication_count: 8
 monitor_inn: "ACETYLSALICYLIC ACID"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombotic disease", "thrombophilia"]
+last_modified_at: 2026-10-27
+description: "Acetylsalicylic Acid: vorhergesagte neue Indikation Atrophodermia vermiculata (atrophoderma vermiculata) (Evidenzstufe L5). Ursprüngliche Indikation: Acute Coronary Syndrome"
 ---
 
 # Acetylsalicylic Acid
 {: .fs-9 }
 
-Evidenzniveau: **L3** | Vorhergesagte Indikationen: **9** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,85 +33,68 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-## Acetylsalicylsäure: Von Akutem Koronarsyndrom/Myokardinfarkt zu Migräne mit Hirnstammaura
+## Acetylsalicylsäure: Thrombozytenaggregationshemmer (COX-Inhibitor) → Atrophodermia vermiculata (atrophoderma vermiculata)
 {: .text-alpha }
 
 ## Zusammenfassung
 
-Acetylsalicylsäure (ASS) ist ein Thrombozytenaggregationshemmer und wird in Kombinationspräparaten mit Clopidogrel beim akuten Koronarsyndrom und Myokardinfarkt eingesetzt. Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei **Migräne mit Hirnstammaura** wirksam sein könnte. Dafür liegen **keine registrierten klinischen Studien** vor, jedoch **20 Publikationen** (überwiegend indirekte Evidenz zu Migräne mit Aura allgemein).
+Acetylsalicylsäure ist ein Cyclooxygenase-Hemmer mit thrombozytenaggregationshemmender und entzündungshemmender Wirkung. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Atrophodermia vermiculata (atrophoderma vermiculata)** voraus (Score 0,9959). Dafür liegen **keine klinischen Studien** und **keine Publikationen** vor, die Vorhersage beruht allein auf dem Modell.
 
 ---
 
-## Kurzüberblick
+## Schnellübersicht
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Akutes Koronarsyndrom; Myokardinfarkt |
-| Vorhergesagte neue Indikation | Migräne mit Hirnstammaura |
-| TxGNN-Vorhersagewert | 99,94 % |
-| Evidenzniveau | L3 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 3 (alle erloschen) |
+| Ursprüngliche Indikation | Acute Coronary Syndrome;Myocardial Infarction |
+| Vorhergesagte neue Indikation | Atrophodermia vermiculata (atrophoderma vermiculata) |
+| TxGNN-Vorhersagewert | 0,9959 |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
 | Empfohlene Entscheidung | Hold |
 
 ---
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für diesen Bericht liegen keine detaillierten Daten zum Wirkmechanismus aus der Arzneimitteldatenbank vor. Bekanntermaßen hemmt ASS irreversibel die Cyclooxygenase-1 (COX-1) und senkt dadurch die Thromboxan-A2-Bildung und die Thrombozytenaggregation. Zusätzlich wirkt es entzündungshemmend und analgetisch.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Acetylsalicylsäure die Cyclooxygenase hemmt, die Thromboxan-Bildung in Thrombozyten reduziert und dadurch die Plättchenaggregation vermindert. Zusätzlich wirkt sie über die Prostaglandin-Hemmung entzündungshemmend.
 
-Der Zusammenhang zwischen der ursprünglichen und der neuen Indikation ist nur indirekt: Es wird vermutet, dass die thrombozytenvermittelte Mikroembolie und die Auslösung einer kortikalen Streudepolarisation bei Migräne mit Aura eine Rolle spielen, möglicherweise in Verbindung mit einem offenen Foramen ovale (PFO). Eine retrospektive Studie (PMID 25729594) deutet auf einen Nutzen von ASS in der Prophylaxe der Migräne mit Aura hin.
-
-Wichtig: Die vorhandene Evidenz bezieht sich auf Migräne mit Aura allgemein, nicht speziell auf den Subtyp mit Hirnstammaura. Eine tierexperimentelle Studie (PMID 7907982) fand zudem, dass Migränemittel die kortikale Streudepolarisation nicht beeinflussen.
+Atrophodermia vermiculata ist eine seltene follikuläre Verhornungsstörung mit narbiger Atrophie der Wangen. Ein belastbarer mechanistischer Zusammenhang mit der COX-Hemmung oder der Thrombozytenhemmung ist nicht erkennbar. Die hohe Modellbewertung ist als rein rechnerisches Signal zu verstehen. Es wurden weder Studien noch Literatur gefunden, die einen Nutzen bei dieser Erkrankung stützen. Die Plausibilität bleibt daher spekulativ.
 
 ---
 
-## Klinische Studien
+## Klinische Studienevidenz
 
-Derzeit sind keine zugehörigen klinischen Studien für Migräne mit Hirnstammaura registriert.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
 ## Literaturevidenz
 
-| PMID | Jahr | Typ | Fachzeitschrift | Kernaussagen |
-|------|-----|------|------|---------|
-| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | Systematische Übersichtsarbeit | Headache | Untersucht die Rolle von Antithrombotika in der Migräneprophylaxe |
-| [19708964](https://pubmed.ncbi.nlm.nih.gov/19708964/) | 2009 | Leitlinie | Eur J Neurol | Überarbeitete EFNS-Leitlinie zur medikamentösen Migränetherapie |
-| [16796580](https://pubmed.ncbi.nlm.nih.gov/16796580/) | 2006 | Leitlinie | Eur J Neurol | EFNS-Leitlinie zur medikamentösen Migränetherapie |
-| [10448545](https://pubmed.ncbi.nlm.nih.gov/10448545/) | 1999 | RCT | Cephalalgia | Intravenöses ASS-Lysinat versus subkutanes Sumatriptan und Placebo bei akuter Migräne (278 Patienten) |
-| [25729594](https://pubmed.ncbi.nlm.nih.gov/25729594/) | 2014 | Retrospektive Kohortenstudie | Curr Health Sci J | Wirksamkeit und Verträglichkeit niedrig dosierter ASS in der Prophylaxe der Migräne mit Aura (203 Patienten) |
-| [26908949](https://pubmed.ncbi.nlm.nih.gov/26908949/) | 2016 | RCT (PFO-Verschluss, nicht ASS) | Eur Heart J | PRIMA-Studie: perkutaner PFO-Verschluss bei therapierefraktärer Migräne mit Aura |
-| [9606899](https://pubmed.ncbi.nlm.nih.gov/9606899/) | 1998 | Klinische Studie | Zh Nevrol Psikhiatr | Prophylaxe der Migräne ohne Aura mit ASS in drei Dosierungen (105 Patienten) |
-| [15265054](https://pubmed.ncbi.nlm.nih.gov/15265054/) | 2004 | Experimentelle Studie | Cephalalgia | Antinozizeptive Wirkung von i.v. ASS und Zolmitriptan auf den Blinkreflex |
-| [1589237](https://pubmed.ncbi.nlm.nih.gov/1589237/) | 1992 | Experimentelle physiologische Studie | Pain | ASS aktiviert antinozizeptive Hirnstammreflexe bei Kopfschmerzpatienten und Gesunden |
-| [15891416](https://pubmed.ncbi.nlm.nih.gov/15891416/) | 2005 | Übersichtsarbeit | Curr Opin Neurol | Zusammenhang zwischen offenem Foramen ovale, Migräne und Schlaganfall |
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Marktinformationen Deutschland
+## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004996 | Clopidogrel / Acetylsalicylic acid Viatris (zuvor Mylan) | – | Akutes Koronarsyndrom; Myokardinfarkt |
-| EMEA/H/C/001143 | DuoPlavin | – | Akutes Koronarsyndrom; Myokardinfarkt |
-| EMEA/H/C/001144 | Clopidogrel/Acetylsalicylic acid Zentiva (zuvor DuoCover) | – | Akutes Koronarsyndrom; Myokardinfarkt |
+Laut den lokalen Zulassungsdaten befindet sich Acetylsalicylsäure in Deutschland **im Handel**. Die Zulassungsübersicht wird vom Programm separat ergänzt.
 
 ---
 
 ## Sicherheitsaspekte
 
-**Arzneimittelwechselwirkungen** (100 Einträge in den Daten, Auswahl der Einträge mit Schweregrad „Major"):
-- Acalabrutinib
-- Acetazolamid
-- Ketorolac
-- Trastuzumab-Emtansin
-- Ibuprofen
-- Fondaparinux
+- **Arzneimittelinteraktionen**: Insgesamt wurden 100 Wechselwirkungen erfasst. Als schwerwiegend (Major) eingestuft sind unter anderem:
+  - Acalabrutinib
+  - Acetazolamid
+  - Ketorolac
+  - Trastuzumab-Emtansin
+  - Ibuprofen
+  - Fondaparinux
 
-Weitere Wechselwirkungen mit mittlerem oder geringem Schweregrad sind erfasst (z. B. Abciximab, Nifedipin, Hydrocortison, Ethanol, Alendronsäure, Fluvoxamin).
+  Weitere Wechselwirkungen mit mittlerem oder geringem Schweregrad betreffen unter anderem Abciximab, Nifedipin, Hydrocortison, Ethanol, Alendronsäure, Fluvoxamin, Fosinopril, Furosemid, Coffein und Rabeprazol.
 
-Für Warnhinweise und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinformation zu Rate ziehen. Bei einer Anwendung ist das Blutungsrisiko besonders zu beachten.
+Angaben zu Warnhinweisen und Gegenanzeigen finden sich in der Fachinformation.
 
 ---
 
@@ -120,20 +103,13 @@ Für Warnhinweise und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinform
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich auf einen sehr hohen Modellwert, aber es gibt keine registrierten Studien und keine Evidenz speziell für Migräne mit Hirnstammaura. Die vorhandene Literatur ist überwiegend indirekt (Migräne mit Aura allgemein, retrospektive Daten). Zusätzlich fehlen Sicherheitsdaten aus der Fachinformation, und es bestehen derzeit keine gültigen Zulassungen in Deutschland.
+- Für die Vorhersage gibt es weder klinische Studien noch Publikationen und keinen erkennbaren mechanistischen Zusammenhang. Das Evidenzniveau ist daher L5, und der hohe Score allein rechtfertigt keine Weiterverfolgung.
 
-**Für ein Fortschreiten sind folgende Schritte nötig:**
-- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) als Voraussetzung für die Sicherheitsprüfung
-- Daten zum Wirkmechanismus aus der Arzneimitteldatenbank
-- Gezielte Evidenz oder prospektive Studien zur Migräne mit Hirnstammaura bzw. zur Migräne mit Aura (inkl. PFO-Subgruppe)
-- Klärung der Verfügbarkeit von Monopräparaten, da die erfassten Zulassungen nur erloschene Kombinationspräparate betreffen
-- Bewertung des Blutungsrisikos bei Dauerprophylaxe
-
----
-
-### Hinweis zu weiteren vorhergesagten Indikationen
-
-Unter den weiteren Vorhersagen sind zwei mit Studiendaten: **thrombotische Erkrankung** (Evidenzniveau L2, mit einer noch nicht rekrutierenden Phase-3-Studie NCT07228663; Empfehlung „Proceed with Guardrails", da dies eine Erweiterung innerhalb des kardiovaskulären Thrombosebereichs ist) und **Thrombophilie** (L2, Empfehlung „Research Question"). Die übrigen Vorhersagen (z. B. Atrophoderma vermiculata, Ulerythema ophryogenes, Antithrombinmangel Typ 2) haben nur Modellevidenz (L5) und werden mit „Hold" bewertet.
+**Um fortzufahren, wird Folgendes benötigt:**
+- Eine gezielte Literaturrecherche zu Acetylsalicylsäure bei Atrophodermia vermiculata und verwandten follikulären atrophisierenden Erkrankungen
+- Eine plausible pharmakologische oder pathophysiologische Hypothese (z. B. entzündliche Komponente), gegebenenfalls präklinisch geprüft
+- Detaillierte Daten zum Wirkmechanismus
+- Die Fachinformation (Warnhinweise, Gegenanzeigen) für die Sicherheitsbewertung
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

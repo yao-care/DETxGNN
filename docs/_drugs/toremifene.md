@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Toremifene
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 475
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Toremifene: vorhergesagte neue Indikation HIV-Infektionskrankheit (Evidenzstufe L4). Ursprüngliche Indikation: Brustkrebs (Mammakarzinom)"
@@ -14,7 +14,7 @@ predicted_indications: ["HIV infectious disease"]
 # Toremifene
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Toremifen ist ein selektiver Östrogenrezeptor-Modulator (SERM), der ursprüngli
 |------|------|
 | Ursprüngliche Indikation | Brustkrebs (Mammakarzinom) |
 | Vorhergesagte neue Indikation | HIV-Infektionskrankheit |
-| TxGNN-Vorhersagewert | 99,41 % |
-| Evidenzstufe | L4 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| TxGNN-Vorhersagewert | 0,9941 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -86,7 +86,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 |---------|------|------|-----------|
 | EMEA/H/C/000091 | Fareston (Orion Corporation) | – | Brustkrebs (Mammakarzinom) |
 
-Diese Zulassung ist erloschen bzw. widerrufen; es besteht derzeit keine gültige Zulassung.
+Dieses Arzneimittel ist in diesem Land im Handel; 1 von 1 Zulassung ist gültig.
 
 ---
 

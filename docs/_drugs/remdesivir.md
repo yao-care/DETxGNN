@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Remdesivir
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 392
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Remdesivir: vorhergesagte neue Indikation HIV-Infektionskrankheit (Evidenzstufe L4). Ursprüngliche Indikation: COVID-19-Virusinfektion"
 monitor_inn: "REMDESIVIR"
 predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "homozygous familial hypercholesterolemia"]
+description: "Remdesivir: vorhergesagte neue Indikation Multiple endocrine neoplasia (Evidenzstufe L5). Ursprüngliche Indikation: COVID-19 virus infection"
 ---
 
 # Remdesivir
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **6** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-## Remdesivir: Von COVID-19 zu HIV-Infektionskrankheit
+## Remdesivir: Multiple endocrine neoplasia
 {: .text-alpha }
 
 ## Zusammenfassung
 
 Remdesivir ist ein antivirales Nukleotid-Analogon, das ursprünglich zur Behandlung von COVID-19 eingesetzt wurde. Das TxGNN-Modell sagt voraus, dass es bei einer **HIV-Infektionskrankheit** wirksam sein könnte. Dafür liegen jedoch nur **1 klinische Studie** (eine Pharmakokinetik-Studie bei gesunden Probanden) und **keine Literatur mit direktem HIV-Bezug** vor. Die Evidenz ist daher sehr schwach.
 
-*Hinweis zur Auswahl:* Die Vorhersage mit dem höchsten TxGNN-Score (Rang 1, multiple endokrine Neoplasie, 99,50 %) hat weder Studien noch Literatur und keinen erkennbaren Wirkmechanismus. Dieser Bericht konzentriert sich deshalb auf die am besten belegte Vorhersage (Rang 2, HIV). Die übrigen Vorhersagen sind am Ende aufgeführt.
+*Hinweis zur Auswahl:* Die Vorhersage mit dem höchsten TxGNN-Score (Rang 1, multiple endokrine Neoplasie, 0,9950) hat weder Studien noch Literatur und keinen erkennbaren Wirkmechanismus. Dieser Bericht konzentriert sich deshalb auf die am besten belegte Vorhersage (Rang 2, HIV). Die übrigen Vorhersagen sind am Ende aufgeführt.
 
 ---
 
@@ -48,12 +48,12 @@ Remdesivir ist ein antivirales Nukleotid-Analogon, das ursprünglich zur Behandl
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | COVID-19-Virusinfektion |
-| Vorhergesagte neue Indikation | HIV-Infektionskrankheit |
-| TxGNN-Vorhersagewert | 99,32 % |
-| Evidenzstufe | L4 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Ursprüngliche Indikation | COVID-19 virus infection |
+| Vorhergesagte neue Indikation | Multiple endocrine neoplasia |
+| TxGNN-Vorhersagewert | 0.9950 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Remdesivir ist ein antivirales Nukleotid-Analogon, das ursprünglich zur Behandl
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Remdesivir ist ein Nukleotid-Analogon-Prodrug, das die virale RNA-abhängige RNA-Polymerase hemmt. Seine Wirksamkeit bei COVID-19 ist belegt, und mechanistisch lässt sich ein breites antivirales Prinzip auf andere RNA-Viren übertragen.
 
-Die Plausibilität bei HIV ist jedoch nur lose. HIV ist zwar ein RNA-Virus, repliziert sich aber über die reverse Transkriptase und die Integration von proviraler DNA. Remdesivir ist kein etabliertes Anti-HIV-Mittel. Die Vorhersage dürfte vor allem auf der Nähe im Wissensgraphen beruhen (Nukleotid-Analoga, Virusinfektionen) und nicht auf direkten Belegen.
+Die Plausibilität bei HIV ist jedoch nur lose. HIV ist zwar ein RNA-Virus, repliziert sich aber über die reverse Transkriptase und die Integration von proviraler DNA. Remdesivir ist kein etabliertes Anti-HIV-Mittel. Der Wert stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht aber biologische Evidenz.
 
 ---
 
@@ -97,7 +97,7 @@ Die abgerufene Literatur betrifft überwiegend COVID-19 und liefert für HIV nur
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/005622 | Veklury (Gilead Sciences Ireland UC) | – | COVID-19-Virusinfektion (Status: erloschen) |
+| EMEA/H/C/005622 | Veklury (Gilead Sciences Ireland UC) | – | COVID-19-Virusinfektion (Status: gültig) |
 
 ---
 
@@ -119,7 +119,7 @@ Zu Warnhinweisen und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinforma
 **Entscheidung: Hold**
 
 **Begründung:**
-Der hohe TxGNN-Wert wird durch keine direkte klinische Evidenz gestützt. Die einzige verknüpfte Studie ist eine PK-Studie bei Gesunden, die Literatur betrifft COVID-19, und Remdesivir ist kein etablierter Wirkstoff gegen HIV. Zudem besteht in Deutschland derzeit keine gültige Zulassung.
+Der hohe TxGNN-Wert wird durch keine direkte klinische Evidenz gestützt. Die einzige verknüpfte Studie ist eine PK-Studie bei Gesunden, die Literatur betrifft COVID-19, und Remdesivir ist kein etablierter Wirkstoff gegen HIV. In Deutschland ist das Arzneimittel derzeit im Verkehr (1 von 1 Zulassung gültig).
 
 **Für ein Weiterkommen erforderlich:**
 - Daten zum Wirkmechanismus (MOA) aus DrugBank
@@ -133,11 +133,11 @@ Der hohe TxGNN-Wert wird durch keine direkte klinische Evidenz gestützt. Die ei
 
 | Rang | Vorhergesagte Indikation | TxGNN-Wert | Evidenzstufe | Einschätzung |
 |------|------|------|------|------|
-| 1 | Multiple endokrine Neoplasie | 99,50 % | L5 | Kein erkennbarer Mechanismus (erbliches Tumorsyndrom); keine Studien oder Literatur |
-| 3 | Infektion mit Simian-Immundefizienz-Virus | 99,07 % | L5 | Wahrscheinlich Übertragung aus der HIV-Assoziation; tierische Infektion, allenfalls präklinisches Modell |
-| 4 | Felines erworbenes Immundefizienzsyndrom | 99,07 % | L5 | Veterinärindikation, außerhalb des humanmedizinischen Repurposing-Rahmens |
-| 5 | Neuroentwicklungsstörung mit ataktischem Gang, fehlender Sprache und verminderter kortikaler weißer Substanz | 99,03 % | L5 | Kein plausibler Mechanismus; seltene genetische Erkrankung |
-| 6 | Homozygote familiäre Hypercholesterinämie | 99,03 % | L5 | Kein plausibler Mechanismus (Defekte des LDL-Rezeptor-Wegs); keine Evidenz |
+| 1 | Multiple endokrine Neoplasie | 0,9950 | L5 | Kein erkennbarer Mechanismus (erbliches Tumorsyndrom); keine Studien oder Literatur |
+| 3 | Infektion mit Simian-Immundefizienz-Virus | 0,9907 | L5 | Wahrscheinlich Übertragung aus der HIV-Assoziation; tierische Infektion, allenfalls präklinisches Modell |
+| 4 | Felines erworbenes Immundefizienzsyndrom | 0,9907 | L5 | Veterinärindikation, außerhalb des humanmedizinischen Repurposing-Rahmens |
+| 5 | Neuroentwicklungsstörung mit ataktischem Gang, fehlender Sprache und verminderter kortikaler weißer Substanz | 0,9903 | L5 | Kein plausibler Mechanismus; seltene genetische Erkrankung |
+| 6 | Homozygote familiäre Hypercholesterinämie | 0,9903 | L5 | Kein plausibler Mechanismus (Defekte des LDL-Rezeptor-Wegs); keine Evidenz |
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

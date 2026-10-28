@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-## Sacituzumab Govitecan: Von Brustkrebs zu medikamenteninduzierter Osteoporose
+## Sacituzumab Govitecan: Von Brustkrebs zu Medikamenteninduzierte Osteoporose
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Sacituzumab Govitecan ist ein Antikörper-Wirkstoff-Konjugat, das ursprünglich 
 |------|------|
 | Ursprüngliche Indikation | Brustneubildungen; triple-negatives Mammakarzinom |
 | Vorhergesagte neue Indikation | Medikamenteninduzierte Osteoporose |
-| TxGNN-Vorhersagewert | 99,78 % |
+| TxGNN-Vorhersagewert | 0,9978 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -60,15 +60,15 @@ Sacituzumab Govitecan ist ein Antikörper-Wirkstoff-Konjugat, das ursprünglich 
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Sacituzumab Govitecan ein gegen Trop-2 gerichtetes Antikörper-Wirkstoff-Konjugat ist, dessen Nutzlast SN-38 ein Topoisomerase-I-Inhibitor ist. Es wirkt gegen proliferierende Epithelzellen von Tumoren.
 
-Ein mechanistischer Zusammenhang zwischen dieser Wirkung und der Behandlung der medikamenteninduzierten Osteoporose ist anhand der vorliegenden Daten nicht erkennbar. Zytotoxische Nutzlasten gelten eher als knochenschädigend denn als knochenschützend, und eine knochenprotektive Wirkung ist nicht bekannt. Der hohe TxGNN-Wert (0,998) ist wahrscheinlich ein Artefakt der Konnektivität im Wissensgraphen.
+Ein mechanistischer Zusammenhang zwischen dieser Wirkung und der Behandlung der medikamenteninduzierten Osteoporose ist anhand der vorliegenden Daten nicht erkennbar. Zytotoxische Nutzlasten gelten eher als knochenschädigend denn als knochenschützend, und eine knochenprotektive Wirkung ist nicht bekannt. Der hohe TxGNN-Wert (0,9978) stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz.
 
 Weitere vorhergesagte Indikationen (jeweils ebenfalls nur Modellvorhersage, Evidenzgrad L5, Empfehlung Hold):
 
 | Rang | Vorhergesagte Indikation | TxGNN-Wert | Einschätzung |
 |---|---|---|---|
-| 2 | Schwere nichtproliferative diabetische Retinopathie | 99,69 % | Kein direkter mechanistischer Zusammenhang; ein myelosuppressives Zytostatikum wäre bei einer nicht-onkologischen Augenerkrankung ein ungünstiges Nutzen-Risiko-Verhältnis. |
-| 3 | Diabetische Retinopathie | 99,60 % | Stark mit Rang 2 korreliert, daher kein unabhängiges Signal; etablierte Therapien (Anti-VEGF, Laser, Kortikosteroide) sind deutlich besser belegt. |
-| 4 | Diabetische Katarakt | 99,12 % | Entsteht vor allem durch Polyolweg-Aktivität und oxidativen Stress in der Linse, ohne Bezug zu Trop-2 oder Topoisomerase I; Standard ist die Operation. |
+| 2 | Schwere nichtproliferative diabetische Retinopathie | 0,9969 | Kein direkter mechanistischer Zusammenhang; ein myelosuppressives Zytostatikum wäre bei einer nicht-onkologischen Augenerkrankung ein ungünstiges Nutzen-Risiko-Verhältnis. |
+| 3 | Diabetische Retinopathie | 0,9960 | Stark mit Rang 2 korreliert, daher kein unabhängiges Signal; etablierte Therapien (Anti-VEGF, Laser, Kortikosteroide) sind deutlich besser belegt. |
+| 4 | Diabetische Katarakt | 0,9912 | Entsteht vor allem durch Polyolweg-Aktivität und oxidativen Stress in der Linse, ohne Bezug zu Trop-2 oder Topoisomerase I; Standard ist die Operation. |
 
 ---
 
@@ -90,7 +90,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/005182 | Trodelvy | – | Brustneubildungen; triple-negatives Mammakarzinom |
 
-Der Status dieser Zulassung lautet „erloschen/widerrufen“; es besteht derzeit keine gültige Zulassung.
+Der Status dieser Zulassung lautet „gültig“; es besteht derzeit 1 gültige Zulassung von 1.
 
 ---
 
@@ -122,7 +122,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersagen beruhen ausschließlich auf dem Modell (Evidenzgrad L5), ohne Studien oder Literatur und ohne plausiblen Mechanismus. Zudem ist das Sicherheitsprofil eines myelosuppressiven Zytostatikums für nicht-onkologische Indikationen ungünstig, und in Deutschland besteht keine gültige Zulassung.
+Die Vorhersagen beruhen ausschließlich auf dem Modell (Evidenzgrad L5), ohne Studien oder Literatur und ohne plausiblen Mechanismus. Zudem ist das Sicherheitsprofil eines myelosuppressiven Zytostatikums für nicht-onkologische Indikationen ungünstig. In Deutschland ist das Arzneimittel mit 1 gültigen Zulassung von 1 im Verkehr.
 
 **Für ein Weiterkommen ist Folgendes erforderlich:**
 - Fachinformation (Warnhinweise, Gegenanzeigen) von BfArM beschaffen und auswerten (blockierende Datenlücke)

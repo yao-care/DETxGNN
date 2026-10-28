@@ -5,10 +5,10 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 251
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-14
-description: "Ivabradine: vorhergesagte neue Indikation Hypertrichose (Evidenzstufe L5). Ursprüngliche Indikation: Angina pectoris"
 monitor_inn: "IVABRADINE"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis"]
+last_modified_at: 2026-10-27
+description: "Ivabradine: vorhergesagte neue Indikation Hypertrichose (hypertrichosis) (Evidenzstufe L5). Ursprüngliche Indikation: Angina Pectoris"
 ---
 
 # Ivabradine
@@ -33,58 +33,38 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-## Ivabradin: Von Angina pectoris und Herzinsuffizienz zu Hypertrichose
+## Ivabradin: HCN-Kanal-Blocker (If-Strom-Hemmer) → Hypertrichose (hypertrichosis)
 {: .text-alpha }
 
-## Zusammenfassung
+## Zusammenfassung in einem Satz
 
-Ivabradin wurde ursprünglich zur Behandlung von Angina pectoris und Herzinsuffizienz zugelassen. Das TxGNN-Modell sagt voraus, dass es bei **Hypertrichose** wirksam sein könnte. Für diese Vorhersage liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; sie beruht ausschließlich auf einer Modellberechnung.
-
----
+Ivabradin ist ein herzfrequenzsenkender Wirkstoff, der den If-Strom ("funny current") in den Schrittmacherzellen des Herzens hemmt. Das TxGNN-Modell sagt voraus, dass er bei **Hypertrichose (hypertrichosis)** wirksam sein könnte. Für diese Vorhersage liegen in den für diesen Bericht zusammengestellten Daten **keine klinischen Studien** und **keine Publikationen** vor.
 
 ## Schnellübersicht
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Angina pectoris; Herzinsuffizienz |
-| Vorhergesagte neue Indikation | Hypertrichose |
-| TxGNN-Vorhersagewert | 99,79 % |
-| Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 5 (alle aufgehoben) |
+| Ursprüngliche Indikation | Angina Pectoris;Heart Failure |
+| Vorhergesagte neue Indikation | Hypertrichose (hypertrichosis) |
+| TxGNN-Vorhersagewert | 0,9979 |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 5 von 5) |
+| Anzahl der Zulassungen | 5 (gültig: 5) |
 | Empfohlene Entscheidung | Hold |
-
----
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Ivabradin liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Ivabradin die HCN-Kanäle (If-Strom, „Funny Current") hemmt, die vor allem in den Schrittmacherzellen des Herzens untersucht werden. Dadurch senkt es die Herzfrequenz.
+Ivabradin hemmt HCN-Kanäle (If-Strom), die vor allem in den Schrittmacherzellen des Herzens untersucht sind. Detaillierte Daten zum Wirkmechanismus liegen in den zusammengestellten Daten derzeit nicht vor. HCN-Kanäle kommen zwar auch in einigen nicht-kardialen Geweben vor, ein belegter Zusammenhang mit der Biologie des Haarfollikels oder der Haarwuchsregulation ist jedoch nicht dokumentiert.
 
-Ein belegter Zusammenhang zwischen HCN-Kanälen und der Biologie des Haarfollikels oder der Haarwuchsregulation ist in den vorliegenden Daten nicht dokumentiert. Der sehr hohe TxGNN-Wert (0,998) ist eine reine Vorhersage aus dem Wissensgraphen. Hinzu kommt, dass Hypertrichose bei manchen Arzneimitteln als Nebenwirkung auftritt; ob die Vorhersage eine therapeutische oder eine verursachende Richtung meint, ist unklar.
+Der sehr hohe Vorhersagewert (0,9979) ist ein reines Modellergebnis und kein Wirksamkeitsnachweis. Hinzu kommt, dass Hypertrichose bei manchen Arzneimitteln als Nebenwirkung auftritt; die Richtung der Vorhersage (therapeutisch oder auslösend) ist daher unklar. Die Plausibilität ist insgesamt gering und rein spekulativ.
 
-Auch die weiteren Vorhersagen mit hohen Werten wirken mechanistisch nicht nachvollziehbar und sind vermutlich Artefakte der Netzwerknähe im Wissensgraphen:
-
-| Rang | Vorhergesagte Erkrankung | TxGNN-Wert | Einschätzung |
-|------|------|------|------|
-| 2 | Ambras-Syndrom (Hypertrichosis universalis congenita) | 99,72 % | Seltene genetische Erkrankung; kein plausibler Mechanismus über HCN-Blockade |
-| 3 | Fehlbildungssyndrom mit Zahn- und/oder Parodontalbeteiligung | 99,72 % | Kein erkennbarer Bezug zur Herzfrequenzsenkung |
-| 4 | Syndrom mit Dandy-Walker-Malformation | 99,70 % | Strukturelle Fehlbildung; durch HCN-Blockade nicht umkehrbar |
-| 5 | Isolierte genetische Haarschaftanomalie | 99,69 % | Kein bekannter Zusammenhang mit HCN-Hemmung |
-| 6 | Nephrogenes Syndrom der inadäquaten Antidiurese | 99,08 % | Ivabradin wirkt nicht auf den V2-Rezeptor |
-
----
-
-## Klinische Evidenz
+## Klinische Studien
 
 Derzeit sind keine zugehörigen klinischen Studien registriert.
-
----
 
 ## Literaturevidenz
 
 Derzeit liegt keine zugehörige Literatur vor.
-
----
 
 ## Informationen zum Markt in Deutschland
 
@@ -96,34 +76,27 @@ Derzeit liegt keine zugehörige Literatur vor.
 | EMEA/H/C/004241 | Ivabradine Accord | – | Angina pectoris; Herzinsuffizienz |
 | EMEA/H/C/004117 | Ivabradine Zentiva | – | Angina pectoris; Herzinsuffizienz |
 
-Alle fünf Zulassungen haben den Status „aufgehoben".
+## Sicherheitshinweise
 
----
+**Arzneimittelwechselwirkungen:** In den zusammengestellten Daten sind 100 Wechselwirkungen verzeichnet; ausgewählt wurden folgende:
 
-## Sicherheitsaspekte
-
-**Arzneimittelwechselwirkungen:** Die Datenbankabfrage ergab insgesamt 100 Wechselwirkungen; im Folgenden sind Beispiele aus den vorliegenden Daten aufgeführt.
-
-- **Schwerwiegend (Major):** Aprepitant, Clarithromycin, Dolasetron, Palonosetron, Cisaprid, Clotrimazol, Granisetron, Levofloxacin, Ondansetron, Papaverin, Cobicistat
+- **Schwerwiegend (Major):** Aprepitant, Clarithromycin, Dolasetron, Palonosetron, Cisapride, Clotrimazol, Granisetron, Levofloxacin, Ondansetron, Papaverin, Cobicistat
 - **Moderat (Moderate):** Famotidin, Ranitidin, Dexamethason, Cimetidin, Metreleptin, Miconazol, Nizatidin, Troglitazon
 
-Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
-
----
+Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzgrad L5) ohne Studien oder Publikationen, und ein plausibler Mechanismus zwischen HCN-Blockade und Haarwuchs fehlt. Zudem sind in Deutschland derzeit keine gültigen Zulassungen vorhanden.
+Für Hypertrichose gibt es weder klinische Studien noch Publikationen; die Vorhersage beruht ausschließlich auf dem Modell (Evidenzniveau L5). Ein plausibler Wirkmechanismus ist nicht erkennbar, und die Richtung des Effekts (therapeutisch oder auslösend) ist ungeklärt.
 
-**Für ein Weiterkommen ist Folgendes erforderlich:**
-- Detaillierte Daten zum Wirkmechanismus (MOA)
-- Klärung, ob die Vorhersage therapeutisch oder als Nebenwirkung zu verstehen ist
-- Präklinische Daten oder Literaturrecherche zu HCN-Kanälen im Haarfollikel
-- Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) für die Sicherheitsbewertung
-- Klärung des aktuellen Zulassungs- und Vermarktungsstatus in Deutschland
+**Für ein Weiterverfolgen sind folgende Schritte nötig:**
+- Klärung des Wirkmechanismus von Ivabradin und eines möglichen Bezugs zur Haarfollikelbiologie
+- Prüfung, ob Hypertrichose als Nebenwirkung von Ivabradin berichtet wird (Richtung des Effekts)
+- Präklinische Daten oder Fallberichte, die die Vorhersage stützen
+- Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

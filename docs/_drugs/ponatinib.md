@@ -33,13 +33,13 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-## Ponatinib: Von Leukämie zu gingivaler Fibromatose
+## Ponatinib: Gingivale Fibromatose
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 
 Ponatinib ist ein Tyrosinkinase-Inhibitor, der ursprünglich zur Behandlung myeloischer und lymphatischer Leukämien zugelassen wurde.
-Das TxGNN-Modell sagt voraus, dass er bei **gingivaler Fibromatose** wirksam sein könnte (Score 99,04 %).
+Das TxGNN-Modell sagt voraus, dass er bei **gingivaler Fibromatose** wirksam sein könnte (Score 0,9904).
 Dafür liegen **keine klinischen Studien** und **keine Publikationen** vor, die Vorhersage beruht allein auf dem Modell.
 Für die zweitplatzierte Vorhersage, **Liposarkom**, existiert immerhin **1 präklinische Publikation**.
 
@@ -51,10 +51,10 @@ Für die zweitplatzierte Vorhersage, **Liposarkom**, existiert immerhin **1 prä
 |------|------|
 | Ursprüngliche Indikation | Myeloische und lymphatische Leukämie |
 | Vorhergesagte neue Indikation | Gingivale Fibromatose |
-| TxGNN-Vorhersagewert | 99,04 % |
+| TxGNN-Vorhersagewert | 0,9904 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold (zurückstellen) |
 
 ---
@@ -65,7 +65,7 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten k
 
 Für die gingivale Fibromatose ist diese Verbindung jedoch rein spekulativ und durch keine Evidenz gestützt. Es handelt sich um eine seltene, gutartige Erkrankung. Das Sicherheitsprofil von Ponatinib (arterielle Verschlussereignisse, Gefäßverschlüsse, Hepatotoxizität, Pankreatitis) spräche gegen einen Einsatz bei einer solchen Indikation. Die erloschene Zulassung in Deutschland erschwert zudem den praktischen Zugang.
 
-Die zweite Vorhersage, **Liposarkom** (Score 99,00 %), ist mechanistisch plausibler: Die Multi-Kinase-Aktivität (FGFR, PDGFR, SRC, KIT, RET) passt zu einem Tumor, bei dem Kinasen als therapeutische Zielstrukturen gelten. Die Evidenz ist aber indirekt und präklinisch (Evidenzlevel L4).
+Die zweite Vorhersage, **Liposarkom** (Score 0,9900), ist mechanistisch plausibler: Die Multi-Kinase-Aktivität (FGFR, PDGFR, SRC, KIT, RET) passt zu einem Tumor, bei dem Kinasen als therapeutische Zielstrukturen gelten. Die Evidenz ist aber indirekt und präklinisch (Evidenzlevel L4).
 
 ---
 
@@ -92,7 +92,7 @@ Für die zweitplatzierte Vorhersage Liposarkom wurde eine Publikation identifizi
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/002695 | Iclusig (Incyte Biosciences Distribution B.V.) | – | Myeloische und lymphatische Leukämie (Zulassung erloschen) |
+| EMEA/H/C/002695 | Iclusig (Incyte Biosciences Distribution B.V.) | – | Myeloische und lymphatische Leukämie (Zulassung gültig) |
 
 ---
 

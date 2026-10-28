@@ -6,9 +6,9 @@ nav_order: 481
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Travoprost: vorhergesagte neue Indikation Viszerale Kalziphylaxie (Evidenzstufe L5). Ursprüngliche Indikation: Okuläre Hypertension"
 monitor_inn: "TRAVOPROST"
 predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis", "idiopathic spontaneous coronary artery dissection", "hemangioendothelioma"]
+description: "Travoprost: vorhergesagte neue Indikation Viszerale Kalziphylaxie (visceral calciphylaxis) (Evidenzstufe L5). Ursprüngliche Indikation: Ocular Hypertension"
 ---
 
 # Travoprost
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Travoprost: Vom Glaukom zur viszeralen Kalziphylaxie
+## Travoprost: Viszerale Kalziphylaxie (visceral calciphylaxis)
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,12 +48,12 @@ Für diese Vorhersage liegen jedoch **keine klinischen Studien und keine Publika
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Okuläre Hypertension; Offenwinkelglaukom |
-| Vorhergesagte neue Indikation | Viszerale Kalziphylaxie |
-| TxGNN-Vorhersagewert | 99,99 % |
+| Ursprüngliche Indikation | Ocular Hypertension;Glaucoma, Open-Angle; Glaucoma, Open-Angle;Ocular Hypertension |
+| Vorhergesagte neue Indikation | Viszerale Kalziphylaxie (visceral calciphylaxis) |
+| TxGNN-Vorhersagewert | 1.0000 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 3 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Für diese Vorhersage liegen jedoch **keine klinischen Studien und keine Publika
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Travoprost ein Prostaglandin-F2α-Analogon ist, das über den FP-Rezeptor wirkt und den Augeninnendruck vor allem durch einen verstärkten uveoskleralen Abfluss senkt. Die Wirksamkeit beim Glaukom ist belegt.
 
-Ein plausibler mechanistischer Zusammenhang mit der kalzifizierenden urämischen Arteriolopathie (Kalziphylaxie) ist bislang nicht dokumentiert. Zwar hat Travoprost vasoaktive Eigenschaften, ein konkreter Bezug zur Erkrankung fehlt jedoch. Der sehr hohe Modellwert spiegelt vermutlich Netzwerkmerkmale im Wissensgraphen wider (gemeinsame Gefäßerkrankungs-Muster) und keine belegte Pharmakologie. Zudem wird Travoprost topisch am Auge angewendet und hat nur eine geringe systemische Exposition, was die Übertragbarkeit auf systemische Gefäßerkrankungen zusätzlich infrage stellt.
+Ein plausibler mechanistischer Zusammenhang mit der kalzifizierenden urämischen Arteriolopathie (Kalziphylaxie) ist bislang nicht dokumentiert. Zwar hat Travoprost vasoaktive Eigenschaften, ein konkreter Bezug zur Erkrankung fehlt jedoch. Der sehr hohe Modellwert stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, keine biologische Evidenz. Zudem wird Travoprost topisch am Auge angewendet und hat nur eine geringe systemische Exposition, was die Übertragbarkeit auf systemische Gefäßerkrankungen zusätzlich infrage stellt.
 
 Weitere Vorhersagen mit ähnlich hohen Werten betreffen arterielles, venöses und neurogenes Thoracic-Outlet-Syndrom, Gefäßerkrankungen, Angiodysplasie des Magens, Blue-Toe-Syndrom, Lymphangiektasie, spontane Koronararteriendissektion und Hämangioendotheliom. Für alle gilt: Es gibt keine tragfähige mechanistische Begründung.
 
@@ -116,7 +116,7 @@ Der Fallbericht (PMID 19107053) beschreibt eine Nebenwirkung bei einer Gefäßfe
 
 ## Marktinformationen Deutschland
 
-Alle drei Zulassungen sind erloschen; derzeit gibt es keine gültige Zulassung. Es handelt sich um zentrale EU-Zulassungen (EMEA) des Unternehmens Novartis Europharm Limited.
+Travoprost ist in Deutschland im Handel; 3 von 3 Zulassungen sind gültig. Es handelt sich um zentrale EU-Zulassungen (EMEA) des Unternehmens Novartis Europharm Limited.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -141,7 +141,7 @@ Für Warnhinweise und Gegenanzeigen aus der Fachinformation siehe bitte die Pack
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage zur viszeralen Kalziphylaxie beruht allein auf dem Modell (L5), ohne klinische Studien, Literatur oder einen plausiblen Wirkmechanismus. Die zugeordneten Studien und Publikationen betreffen ausschließlich das Glaukom; zudem besteht in Deutschland derzeit keine gültige Zulassung.
+Die Vorhersage zur viszeralen Kalziphylaxie beruht allein auf dem Modell (L5), ohne klinische Studien, Literatur oder einen plausiblen Wirkmechanismus. Die zugeordneten Studien und Publikationen betreffen ausschließlich das Glaukom; in Deutschland ist Travoprost derzeit im Handel, 3 von 3 Zulassungen sind gültig.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Daten zum Wirkmechanismus (MOA), z. B. über DrugBank

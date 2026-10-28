@@ -4,7 +4,7 @@ title: Salmeterol
 parent: Hohe Evidenz (L1-L2)
 nav_order: 420
 evidence_level: L1
-indication_count: 7
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Salmeterol: vorhergesagte neue Indikation Bronchitis (Evidenzstufe L1). Ursprüngliche Indikation: Asthma"
 monitor_inn: "salmeterol"
@@ -14,7 +14,7 @@ predicted_indications: ["bronchitis", "respiratory malformation", "obstructive l
 # Salmeterol
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **7** 
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Salmeterol ist ein langwirksamer Beta-2-Adrenozeptor-Agonist, der ursprünglich 
 |------|------|
 | Ursprüngliche Indikation | Asthma |
 | Vorhergesagte neue Indikation | Bronchitis |
-| TxGNN-Vorhersagewert | 99,92 % |
+| TxGNN-Vorhersagewert | 0,9992 |
 | Evidenzstufe | L1 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
 
 ---
@@ -105,7 +105,7 @@ Eine kleine randomisierte Studie (n = 14) zeigte außerdem Effekte von Salmetero
 |---------|------|------|-----------|
 | EMEA/H/C/004881 | Seffalair Spiromax | Keine Angabe | Asthma |
 
-Diese Zulassung ist erloschen bzw. zurückgezogen (Status: cancelled); aktuell besteht keine gültige Zulassung.
+Das Arzneimittel ist in diesem Land im Handel; 1 von 1 Zulassung ist gültig.
 
 ---
 

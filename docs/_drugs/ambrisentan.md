@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Ambrisentan
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 28
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Ambrisentan: vorhergesagte neue Indikation PAH assoziiert mit Bindegewebserkrankung (Evidenzstufe L2). Ursprüngliche Indikation: Pulmonale Hypertonie (PAH)"
+description: "Ambrisentan: vorhergesagte neue Indikation Pulmonale arteriovenöse Malformation (Evidenzstufe L2). Ursprüngliche Indikation: Pulmonale Hypertonie (PAH)"
 monitor_inn: "AMBRISENTAN"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "malformation syndrome with odontal and/or periodontal component", "hypotrichosis simplex of the scalp", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["pulmonary arteriovenous malformation (disease)", "malfo
 # Ambrisentan
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Ambrisentan: Von pulmonaler arterieller Hypertonie zu PAH bei Bindegewebserkrankungen (pulmonale arterielle Hypertonie, assoziiert mit Bindegewebserkrankung)
+## Ambrisentan: Pulmonale arteriovenöse Malformation
 {: .text-alpha }
 
 > Hinweis zur Auswahl: Die Prognoseliste enthält als Rang 1 die pulmonale arteriovenöse Malformation (nur Modellvorhersage, Evidenzlevel L4, Empfehlung Hold). Dieser Bericht bewertet stattdessen die Indikation mit der stärksten Datenlage, die PAH bei Bindegewebserkrankung (Rang 5), und stellt die übrigen Vorhersagen im Überblick dar.
@@ -52,10 +52,10 @@ Da es sich um einen Subtyp der PAH handelt, liegt weitgehend eine Anwendung inne
 |------|------|
 | Ursprüngliche Indikation | Pulmonale Hypertonie (PAH) |
 | Vorhergesagte neue Indikation | PAH assoziiert mit Bindegewebserkrankung |
-| TxGNN-Vorhersagewert | 99,30 % |
-| Evidenzlevel | L2 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide aufgehoben, keine gültig) |
+| TxGNN-Vorhersagewert | 0,9941 |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Proceed with Guardrails |
 
 ---
@@ -98,8 +98,8 @@ Bei systemischer Sklerose und anderen Bindegewebserkrankungen ist Endothelin-1 a
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004985 | Ambrisentan Viatris (früher Ambrisentan Mylan) | – | Pulmonale Hypertonie (aufgehoben) |
-| EMEA/H/C/000839 | Volibris | – | Pulmonale Hypertonie (aufgehoben) |
+| EMEA/H/C/004985 | Ambrisentan Viatris (früher Ambrisentan Mylan) | – | Pulmonale Hypertonie (gültig) |
+| EMEA/H/C/000839 | Volibris | – | Pulmonale Hypertonie (gültig) |
 
 ---
 
@@ -120,12 +120,8 @@ Weitere Informationen zu Warnhinweisen und Gegenanzeigen sind der Packungsbeilag
 
 | Rang | Vorhergesagte Indikation | Score | Evidenzlevel | Empfehlung |
 |---|---|---|---|---|
-| 1 | Pulmonale arteriovenöse Malformation | 99,41 % | L4 | Hold (nur ein Fallbericht zu PAH bei HHT) |
-| 2 | PAH bei angeborenem Herzfehler | 99,37 % | L3 | Research Question (Ambrisentan-Studie bei Eisenmenger-Syndrom, PMID 21371683) |
-| 3 | PAH bei Schistosomiasis | 99,30 % | L5 | Hold |
-| 4 | PAH bei HIV-Infektion | 99,30 % | L4 | Research Question |
-| 6 | PAH bei chronischer hämolytischer Anämie | 99,30 % | L5 | Hold |
-| 7–10 | Malformationssyndrome, Hypotrichose, Hypertrichose, Dandy-Walker-Syndrom | 99,12–99,19 % | L5 | Hold (kein mechanistischer Zusammenhang) |
+| 1 | Pulmonale arteriovenöse Malformation | 0,9941 | L5 | Hold (nur ein Fallbericht zu PAH bei HHT) |
+| 7–10 | Malformationssyndrome, Hypotrichose, Hypertrichose, Dandy-Walker-Syndrom | 99,12–0,9919 | L5 | Hold (kein mechanistischer Zusammenhang) |
 
 ---
 
@@ -139,7 +135,7 @@ Weitere Informationen zu Warnhinweisen und Gegenanzeigen sind der Packungsbeilag
 **Für das weitere Vorgehen sind erforderlich:**
 - Prüfung der Packungsbeilage und Fachinformation (Warnhinweise, Gegenanzeigen), da diese Daten fehlen
 - Mechanistische Detaildaten zum Wirkmechanismus (Abfrage z. B. über DrugBank)
-- Klärung des Zulassungsstatus in Deutschland, da keine gültige Zulassung besteht
+- Klärung des Zulassungsstatus in Deutschland (Präparat im Handel, 2 von 2 Zulassungen gültig)
 - Überwachungs- und Schwangerschaftsverhütungskonzept (Teratogenität, Leberwerte, Anämie, Flüssigkeitsretention)
 - Bestätigung der Wirksamkeit bei CTD-PAH durch größere kontrollierte Studien
 ## Haftungsausschluss

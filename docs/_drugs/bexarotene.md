@@ -5,10 +5,10 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 61
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
-description: "Bexarotene: vorhergesagte neue Indikation Sézary-Syndrom (höchster TxGNN-Rang im Datensatz: primäres kutanes B-… (Evidenzstufe L5). Ursprüngliche Indikation: Kutanes T-Zell-Lymphom"
 monitor_inn: "BEXAROTENE"
 predicted_indications: ["primary cutaneous B-cell lymphoma", "Sezary syndrome", "lymphosarcoma"]
+last_modified_at: 2026-10-27
+description: "Bexarotene: vorhergesagte neue Indikation Primäres kutanes B-Zell-Lymphom (primary cutaneous B-cell lymphoma) (Evidenzstufe L5). Ursprüngliche Indikation: Lymphoma, T-Cell, Cutaneous"
 ---
 
 # Bexarotene
@@ -33,118 +33,88 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-## Bexarotene: Vom kutanen T-Zell-Lymphom zum Sézary-Syndrom
+## Bexarotene: Retinoid-X-Rezeptor-Agonist → primäres kutanes B-Zell-Lymphom (primary cutaneous B-cell lymphoma)
 {: .text-alpha }
 
-## Zusammenfassung
+## Zusammenfassung in einem Satz
 
-Bexarotene ist ein selektiver Retinoid-X-Rezeptor-Agonist (Rexinoid) und war ursprünglich zur Behandlung des kutanen T-Zell-Lymphoms zugelassen. Das TxGNN-Modell sagt eine mögliche Wirksamkeit beim **Sézary-Syndrom** voraus, einer leukämischen Variante desselben Lymphoms. Dafür liegen **7 klinische Studien** und **20 Publikationen** vor. Dieses Ergebnis ist daher eher eine Bestätigung der bestehenden Indikation als eine echte Neuausrichtung.
+Bexarotene ist ein selektiver Retinoid-X-Rezeptor-Agonist (Rexinoid), der zur Behandlung des kutanen T-Zell-Lymphoms eingesetzt wird. Das TxGNN-Modell sagt voraus, dass es bei **primärem kutanem B-Zell-Lymphom (primary cutaneous B-cell lymphoma)** wirksam sein könnte. Für genau diese Erkrankung liegen in den zusammengestellten Daten jedoch **keine klinischen Studien** und nur **10 Publikationen** allgemeiner Art vor (überwiegend Übersichtsarbeiten und Fallberichte zu kutanen Lymphomen), die keine spezifische Wirksamkeit bei B-Zell-Lymphomen belegen.
 
----
-
-## Schnellübersicht
+## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Kutanes T-Zell-Lymphom |
-| Vorhergesagte neue Indikation | Sézary-Syndrom (höchster TxGNN-Rang im Datensatz: primäres kutanes B-Zell-Lymphom, siehe Hinweis unten) |
-| TxGNN-Vorhersagewert | 99,29 % |
-| Evidenzstufe | L1 (formal; die einzige Phase-3-Studie ist vorzeitig beendet, siehe unten) |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
-| Empfohlene Entscheidung | Proceed with Guardrails (Fortführung mit Schutzmaßnahmen) |
-
-**Hinweis zur Auswahl:** Für diesen Bericht wurde das Sézary-Syndrom betrachtet, weil es die am besten belegte Vorhersage ist. Die Vorhersage mit dem Rang 1 (primäres kutanes B-Zell-Lymphom, Score 99,44 %) hat keine registrierten klinischen Studien, nur Übersichtsarbeiten und Fallberichte (Evidenzstufe L5, Empfehlung: Hold). Die dritte Vorhersage (Lymphosarkom) ist ein veralteter Sammelbegriff; die zugeordnete Evidenz betrifft fast ausschließlich das kutane T-Zell-Lymphom.
-
----
+| Ursprüngliche Indikation | Lymphoma, T-Cell, Cutaneous |
+| Vorhergesagte neue Indikation | Primäres kutanes B-Zell-Lymphom (primary cutaneous B-cell lymphoma) |
+| TxGNN-Vorhersagewert | 0,9944 |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
+| Empfohlene Entscheidung | Hold (zurückstellen) |
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu Wirkmechanismus-Daten liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Bexarotene ein selektiver RXR-Agonist ist. Er aktiviert Rezeptoren, die die Genexpression steuern, und fördert dadurch Apoptose und Differenzierung maligner T-Lymphozyten. Laborarbeiten an CTCL-Zelllinien (u. a. PMID 12006543) und an Zellen von Mycosis fungoides bzw. Sézary-Syndrom (PMID 15245439) stützen diesen Effekt.
+Zu Bexarotene liegen in den zusammengestellten Daten derzeit keine detaillierten Angaben zum Wirkmechanismus vor. Aus dem allgemeinen Wissensstand ist Bexarotene ein Agonist der Retinoid-X-Rezeptoren (RXR). Es fördert Apoptose und Differenzierung maligner Lymphozyten, ein Effekt, der beim kutanen T-Zell-Lymphom gut beschrieben ist.
 
-Das Sézary-Syndrom ist die leukämische Form des kutanen T-Zell-Lymphoms, der zugelassenen Indikation von Bexarotene. Es handelt sich um dieselbe Krankheitsfamilie mit demselben Zelltyp, weshalb der Mechanismus unmittelbar übertragbar ist. Entsprechend führen mehrere Übersichtsarbeiten Bexarotene als systemische Therapieoption bei Mycosis fungoides und Sézary-Syndrom auf.
+Primäre kutane Lymphome umfassen sowohl T- als auch B-Zell-Subtypen und teilen sich Klassifikation und Behandlungsumfeld. Daraus ergibt sich eine gewisse Nähe im Krankheitsumfeld, die den hohen Vorhersagewert erklären könnte. Es gibt jedoch in den vorliegenden Daten keinen Beleg, dass der RXR-vermittelte Mechanismus auch bei B-Zell-Lymphomen greift. Der hohe Wert ist eine rein rechnerische Vorhersage und kein Wirksamkeitsnachweis.
 
-Für das primäre kutane B-Zell-Lymphom fehlt dagegen jeder Beleg, dass derselbe Mechanismus auf B-Zellen wirkt. Der hohe Score dürfte vor allem von der Nähe im Krankheitsnetzwerk („kutanes Lymphom") herrühren und nicht von B-Zell-spezifischer Biologie.
+## Evidenz aus klinischen Studien
 
----
+Derzeit sind keine zugehörigen klinischen Studien für diese Indikation registriert.
 
-## Klinische Studien
+## Evidenz aus der Literatur
 
-| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
-|---------|------|------|------|---------|
-| [NCT00056056](https://clinicaltrials.gov/study/NCT00056056) | Phase 3 | Abgebrochen | 93 | Randomisiert, offen: Bexarotene + PUVA vs. PUVA allein bei Mycosis fungoides; einzige direkte Phase-3-Evidenz, durch vorzeitigen Abbruch limitiert |
-| [NCT00306969](https://clinicaltrials.gov/study/NCT00306969) | Phase 1/2 | Abgeschlossen | 18 | Orales Bexarotene mit Photopherese bei CTCL; Sicherheit und Verträglichkeit |
-| [NCT00030589](https://clinicaltrials.gov/study/NCT00030589) | Phase 2 | Unbekannt | k. A. | Dosisrandomisiert: Bexarotene + PUVA im Frühstadium IB–IIA |
-| [NCT00255801](https://clinicaltrials.gov/study/NCT00255801) | Phase 2 | Abgeschlossen | 37 | Liposomales Doxorubicin, anschließend Bexarotene, bei fortgeschrittenem CTCL |
-| [NCT01134341](https://clinicaltrials.gov/study/NCT01134341) | Phase 1 | Abgeschlossen | 34 | Dosisfindung Pralatrexat + Bexarotene bei rezidiviertem/refraktärem CTCL |
-| [NCT00660231](https://clinicaltrials.gov/study/NCT00660231) | Phase 2 | Abgeschlossen | 36 | Gemcitabin + Bexarotene (Gembex) bei CTCL |
-| [NCT00178841](https://clinicaltrials.gov/study/NCT00178841) | Phase 2 | Abgeschlossen | 4 | Pilotstudie Rosiglitazon + Bexarotene; Stichprobe zu klein für Schlussfolgerungen |
+Die folgenden Arbeiten behandeln kutane Lymphome allgemein. Keine davon untersucht Bexarotene gezielt beim kutanen B-Zell-Lymphom.
 
----
-
-## Literatur
-
-| PMID | Jahr | Typ | Zeitschrift | Kernaussagen |
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [25678803](https://pubmed.ncbi.nlm.nih.gov/25678803/) | 2015 | Review | OncoTargets and Therapy | Nutzen von Bexarotene bei Mycosis fungoides und Sézary-Syndrom |
-| [19222457](https://pubmed.ncbi.nlm.nih.gov/19222457/) | 2009 | Review | British Journal of Dermatology | Bexarotene-Therapie bei MF/SS; zugelassen für fortgeschrittenes, refraktäres CTCL |
-| [40072489](https://pubmed.ncbi.nlm.nih.gov/40072489/) | 2025 | Review | J Cutan Med Surg | Wirksamkeit und Sicherheit oraler Therapien bei MF/SS |
-| [33415447](https://pubmed.ncbi.nlm.nih.gov/33415447/) | 2021 | Review | Curr Treat Options Oncol | Aktuelle Therapie bei MF/SS, Stadien-abhängige Auswahl |
-| [29572582](https://pubmed.ncbi.nlm.nih.gov/29572582/) | 2018 | Review | Curr Oncol Rep | Systemische Optionen bei fortgeschrittener MF/SS |
-| [19696197](https://pubmed.ncbi.nlm.nih.gov/19696197/) | 2009 | Review | Blood | Stadienbasiertes Vorgehen bei MF/SS |
-| [34664200](https://pubmed.ncbi.nlm.nih.gov/34664200/) | 2022 | Review | PharmacoEconomics | Bewertung von Mogamulizumab bei vorbehandelter MF/SS |
-| [15245439](https://pubmed.ncbi.nlm.nih.gov/15245439/) | 2004 | Laborstudie | J Invest Dermatol | Bexarotene induziert Apoptose in MF/SS-Zellen |
-| [16634713](https://pubmed.ncbi.nlm.nih.gov/16634713/) | 2006 | Review | Expert Opin Pharmacother | Bexarotene beim kutanen T-Zell-Lymphom |
-| [38765439](https://pubmed.ncbi.nlm.nih.gov/38765439/) | 2024 | Fallbericht | Cureus | Sézary-Syndrom: Fallbericht und Therapieübersicht |
+| [31932947](https://pubmed.ncbi.nlm.nih.gov/31932947/) | 2020 | Übersichtsarbeit | Der Pathologe | Klinik, Diagnostik und Therapie kutaner Lymphome; Bexarotene wird bei fortgeschrittenen Stadien des Mycosis fungoides und Sézary-Syndroms als systemische Option genannt |
+| [31511903](https://pubmed.ncbi.nlm.nih.gov/31511903/) | 2019 | Übersichtsarbeit | Der Hautarzt | Gleiche Kernaussagen wie oben: stadiengerechte Therapie kutaner Lymphome |
+| [20806174](https://pubmed.ncbi.nlm.nih.gov/20806174/) | 2010 | Übersichtsarbeit | Therapeutische Umschau | Überblick über kutane T- und B-Zell-Lymphome und die WHO/EORTC-Klassifikation |
+| [19786826](https://pubmed.ncbi.nlm.nih.gov/19786826/) | 2009 | Übersichtsarbeit | Skin Pharmacology and Physiology | Neue und experimentelle hautgerichtete Therapien bei kutanen Lymphomen |
+| [14616487](https://pubmed.ncbi.nlm.nih.gov/14616487/) | 2003 | Übersichtsarbeit | Australasian Journal of Dermatology | Management primärer kutaner Lymphome; Retinoide gehören zu den klassischen Therapieoptionen |
+| [29881891](https://pubmed.ncbi.nlm.nih.gov/29881891/) | 2018 | Kohorte | Der Hautarzt | Fallserie von 163 Patienten mit primärem kutanem Lymphom aus dem klinischen Alltag |
+| [23941646](https://pubmed.ncbi.nlm.nih.gov/23941646/) | 2013 | Fallserie | Journal of Cutaneous Pathology | Diagnostische Fallstricke beim kutanen follikulären T-Helferzell-Lymphom |
+| [22508770](https://pubmed.ncbi.nlm.nih.gov/22508770/) | 2012 | Fallserie | Archives of Dermatology | Fünf Fälle eines neuen Subtyps des kutanen T-Zell-Lymphoms |
+| [15861527](https://pubmed.ncbi.nlm.nih.gov/15861527/) | 2005 | Fallbericht | Croatian Medical Journal | Topisches Aciclovir bei EBV-assoziiertem kutanem B-Zell-Lymphom bei einem Patienten mit Mycosis fungoides |
+| [15636695](https://pubmed.ncbi.nlm.nih.gov/15636695/) | 2004 | Fallbericht | Clinical Lymphoma | Lymphomatoide Papulose ab dem Kindesalter mit anaplastischem großzelligem Lymphom des Dünndarms |
 
----
-
-## Marktinformationen Deutschland
+## Informationen zum Markt in Deutschland
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000326 | Targretin (H.A.C. Pharma) | k. A. | Kutanes T-Zell-Lymphom (Status: erloschen) |
-
-Es besteht derzeit keine gültige Zulassung. Der Marktstatus sollte anhand des aktuellen Regulierungsstatus für den Zielmarkt überprüft werden.
-
----
+| EMEA/H/C/000326 | Targretin | – | Kutanes T-Zell-Lymphom |
 
 ## Zytotoxizität
 
 | Punkt | Inhalt |
 |------|------|
-| Zytotoxizitätsklassifikation | Zielgerichtete Therapie (Rexinoid, RXR-Agonist); kein klassisches Zytostatikum |
-| Myelosuppression | Siehe Fachinformation; Leukopenie ist in den Wissensgraph-Daten als relevante Vorerkrankung geführt |
-| Emetogenität | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
-| Überwachungsparameter | Blutbild, Lipide, Schilddrüsenfunktion, Leber- und Nierenwerte |
-| Handhabungsschutz | Bitte Fachinformation beachten; Teratogenität (nicht in Schwangerschaft anwenden) |
-
----
+| Zytotoxizitätsklassifikation | Zielgerichtete Therapie (Rexinoid, RXR-Agonist) |
+| Myelosuppressionsrisiko | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenitätsklassifikation | Bitte die Fachinformation beachten |
+| Überwachungsparameter | Blutbild, Leber- und Nierenfunktion; Lipide und Schilddrüsenfunktion (aus der Literatur: zentrale Hypothyreose als bekannte Nebenwirkung) |
+| Handhabungsschutz | Bitte die Vorgaben zum Umgang mit Zytostatika und die Fachinformation beachten |
 
 ## Sicherheitsaspekte
 
-- **Kontraindikationen laut Wissensgraph (nicht aus der Fachinformation):** Leberversagen, Lebererkrankung, Pankreatitis, Erkrankungen der Gallenblase bzw. der Gallenwege, obstruktiver Ikterus, Hypothyreose (einschließlich Myxödem und angeborener Hypothyreose), Diabetes mellitus, diabetische Ketoazidose, Substanzmissbrauch/-abhängigkeit, Leukopenie.
-- **Wechselwirkungen:** 100 Wechselwirkungen erfasst. Als **schwerwiegend** eingestuft sind u. a. Albiglutid, Alogliptin, Dulaglutid, Eluxadolin und Exenatid. Mäßig sind u. a. Hydrocortison, Dexamethason, Triamcinolon, Betamethason, Glimepirid, Glipizid, Glibenclamid, Cisaprid und Granisetron. Gering sind u. a. Aprepitant, Clarithromycin und Clotrimazol.
-- **Bekannte Klasseneffekte laut Literatur:** Hypertriglyzeridämie und zentrale Hypothyreose (z. B. PMID 30903705); Bexarotene ist teratogen und ein CYP3A4-Substrat.
+- **Wechselwirkungen**: In den zusammengestellten Daten sind 100 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** eingestuft sind u. a. Albiglutid, Alogliptin, Dulaglutid, Eluxadolin und Exenatid. Als **mäßig (Moderate)** eingestuft sind u. a. Hydrocortison, Triamcinolon, Dexamethason, Betamethason, Glimepirid, Glipizid, Glibenclamid, Cisaprid und Granisetron.
+- Aus der Literatur ist bekannt, dass unter Bexarotene eine zentrale Hypothyreose auftreten kann.
 
-Warnhinweise und Kontraindikationen der Fachinformation liegen nicht vor; bitte die Fachinformation heranziehen.
-
----
+Für weitere Sicherheitsinformationen bitte die Fachinformation heranziehen.
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Proceed with Guardrails**
+**Entscheidung: Hold (zurückstellen)**
 
 **Begründung:**
-Das Sézary-Syndrom gehört zur zugelassenen Indikation (kutanes T-Zell-Lymphom), und es gibt mehrere Phase-1- bis Phase-3-Studien sowie zahlreiche Übersichtsarbeiten. Die Evidenzstufe L1 ist jedoch formal zu verstehen: Die einzige Phase-3-Studie wurde vorzeitig beendet, und die übrigen Studien sind kleine Kombinationsstudien. Es handelt sich zudem kaum um echtes Repurposing. Für das primäre kutane B-Zell-Lymphom (Hold) fehlen belastbare Belege.
+Für das primäre kutane B-Zell-Lymphom gibt es weder klinische Studien noch Publikationen, die Bexarotene bei dieser Erkrankung untersuchen. Der hohe Vorhersagewert von 0,9944 ist eine rechnerische Vorhersage; ein B-Zell-spezifischer Mechanismus ist nicht belegt. Das Evidenzniveau ist daher L5.
 
-**Zur Umsetzung sind folgende Schritte nötig:**
-- Fachinformation (Warnhinweise, Kontraindikationen) vom BfArM beschaffen; diese Lücke blockiert derzeit die Sicherheitsprüfung
-- Wirkmechanismus-Daten aus DrugBank ergänzen
-- Aktuellen Zulassungs- und Marktstatus in Deutschland klären (Zulassung erloschen)
-- Überwachungsplan: Lipide, Schilddrüsenfunktion, Blutbild, Leberwerte; Schwangerschaftsverhütung
-- Wechselwirkungen prüfen, insbesondere CYP3A4-Inhibitoren/-Induktoren und Antidiabetika
-- Bezeichnung „Lymphosarkom" einer aktuellen Krankheitsentität zuordnen, bevor eine Empfehlung erfolgt
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Präklinische Untersuchungen, ob RXR-Agonismus in B-Zell-Lymphomzellen Apoptose oder Differenzierung auslöst
+- Fallserien oder Pilotstudien zu Bexarotene bei kutanen B-Zell-Lymphomen
+- Detaillierte Daten zum Wirkmechanismus
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) zur Sicherheitsbewertung
+- Überwachungskonzept für Lipide, Schilddrüsenfunktion und Wechselwirkungen; Beachtung der Teratogenität
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

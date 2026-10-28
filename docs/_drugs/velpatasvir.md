@@ -50,10 +50,10 @@ Dafür liegen **5 verknüpfte klinische Studien** und **20 Publikationen** vor. 
 |------|------|
 | Ursprüngliche Indikation | Hepatitis C, chronisch |
 | Vorhergesagte neue Indikation | Hepatitis-B-Virusinfektion |
-| TxGNN-Vorhersagewert | 99,87 % |
+| TxGNN-Vorhersagewert | 0,9987 |
 | Evidenzstufe | L3 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen (Zulassung nicht mehr gültig) |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Dafür liegen **5 verknüpfte klinische Studien** und **20 Publikationen** vor. 
 
 Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist, dass Velpatasvir ein Hemmstoff des HCV-Proteins NS5A ist und in Kombination mit Sofosbuvir (Epclusa) bzw. Sofosbuvir und Voxilaprevir (Vosevi) bei chronischer Hepatitis C hohe Heilungsraten erzielt.
 
-Ein direkter antiviraler Mechanismus gegen HBV ist **nicht** belegt: HBV besitzt kein NS5A-Homolog. Der hohe Vorhersagewert spiegelt wahrscheinlich gemeinsame Merkmale hepatotroper Viren im Wissensgraphen wider (Assoziation auf Ebene von Wirkstoffklasse und Krankheitsnetzwerk), nicht einen nachgewiesenen Wirkmechanismus.
+Ein direkter antiviraler Mechanismus gegen HBV ist **nicht** belegt: HBV besitzt kein NS5A-Homolog. Der hohe Vorhersagewert stammt vom TxGNN-Modell (Deep Learning) und kann vom Modell gelernte Ähnlichkeiten zwischen verwandten Erkrankungen widerspiegeln, nicht biologische Evidenz oder einen nachgewiesenen Wirkmechanismus.
 
 Die klinischen Daten stammen von HCV-Patienten, bei denen HBV als Koinfektion oder als Reaktivierungsrisiko auftritt. In der Studie NCT04997564 wird SOF/VEL mit prophylaktischem TAF kombiniert; der HBV-wirksame Anteil ist dort TAF, nicht Velpatasvir.
 
@@ -106,7 +106,7 @@ Die Literatur zur HBV-Reaktivierung unter DAA-Therapie betrifft die Sicherheit u
 | EMEA/H/C/004210 | Epclusa | – | Hepatitis C, chronisch |
 | EMEA/H/C/004350 | Vosevi | – | Hepatitis C, chronisch |
 
-Beide Zulassungen sind erloschen; derzeit gibt es keine gültige Zulassung.
+Das Arzneimittel ist in Deutschland im Handel; beide Zulassungen (2 von 2) sind gültig.
 
 ---
 
@@ -124,7 +124,7 @@ Für weitere Sicherheitsangaben (Warnhinweise, Gegenanzeigen) siehe die Packungs
 **Entscheidung: Hold**
 
 **Begründung:**
-Für Velpatasvir ist weder ein plausibler antiviraler Mechanismus gegen HBV noch eine klinische Wirksamkeit belegt. Die vorhandenen Studien sind HCV-Studien, und ein etwaiger HBV-Nutzen in Koinfektionsstudien wäre TAF zuzuschreiben. Zudem besteht in Deutschland derzeit keine gültige Zulassung. Die übrigen vorhergesagten Indikationen (u. a. Hepatitis E, Hepatitis A, HIV, Omsk-hämorrhagisches Fieber) haben ebenfalls keine belastbare Evidenz und liegen auf Evidenzstufe L5, L4 bzw. L3 (HIV nur als Koinfektionsdaten).
+Für Velpatasvir ist weder ein plausibler antiviraler Mechanismus gegen HBV noch eine klinische Wirksamkeit belegt. Die vorhandenen Studien sind HCV-Studien, und ein etwaiger HBV-Nutzen in Koinfektionsstudien wäre TAF zuzuschreiben. Das Arzneimittel ist in Deutschland im Handel; beide Zulassungen (2 von 2) sind gültig. Die übrigen vorhergesagten Indikationen (u. a. Hepatitis E, Hepatitis A, HIV, Omsk-hämorrhagisches Fieber) haben ebenfalls keine belastbare Evidenz und liegen auf Evidenzstufe L5, L4 bzw. L3 (HIV nur als Koinfektionsdaten).
 
 **Für ein Weiterverfolgen wären nötig:**
 - Daten zum Wirkmechanismus (MOA) von Velpatasvir

@@ -48,10 +48,10 @@ Tegafur ist ein orales Prodrug von 5-Fluorouracil (5-FU) und war ursprünglich f
 |------|------|
 | Ursprüngliche Indikation | Magenkarzinom (Stomach Neoplasms) |
 | Vorhergesagte neue Indikation | Kolonneoplasie (colonic neoplasm) |
-| TxGNN-Vorhersagewert | 99,90 % |
+| TxGNN-Vorhersagewert | 0,9990 |
 | Evidenzstufe | L1 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortführung mit Schutzmaßnahmen) |
 
 ---
@@ -108,7 +108,7 @@ Weitere Studien (Auswahl, hier nicht aufgeführt) betreffen unter anderem eine P
 |---------|------|------|-----------|
 | EMEA/H/C/001242 | Teysuno | – | Magenkarzinom (Stomach Neoplasms) |
 
-Der Status dieser Zulassung lautet „erloschen/zurückgezogen" (cancelled). Derzeit gibt es keine gültige Zulassung, daher muss die regulatorische Verfügbarkeit je nach Region gesondert geprüft werden.
+Der Status dieser Zulassung lautet „gültig“. Derzeit besteht 1 gültige Zulassung von 1; das Arzneimittel ist in diesem Land im Handel. Die regulatorische Verfügbarkeit muss je nach Region gesondert geprüft werden.
 
 ---
 

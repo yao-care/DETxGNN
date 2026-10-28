@@ -4,17 +4,17 @@ title: Pravastatin
 parent: Mittlere Evidenz (L3-L4)
 nav_order: 368
 evidence_level: L4
-indication_count: 9
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Pravastatin: vorhergesagte neue Indikation Homozygote familiäre Hypercholesterinämie (Evidenzstufe L4). Ursprüngliche Indikation: Dyslipidämien"
 monitor_inn: "PRAVASTATIN"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
+description: "Pravastatin: vorhergesagte neue Indikation HIV infectious disease (Evidenzstufe L4). Ursprüngliche Indikation: Dyslipidemias"
 ---
 
 # Pravastatin
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **9** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-## Pravastatin: Von Dyslipidämie zu homozygoter familiärer Hypercholesterinämie
+## Pravastatin: HIV infectious disease
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -46,12 +46,12 @@ Pravastatin ist ein HMG-CoA-Reduktase-Hemmer (Statin) und war ursprünglich zur 
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Dyslipidämien |
-| Vorhergesagte neue Indikation | Homozygote familiäre Hypercholesterinämie |
-| TxGNN-Vorhersagewert | 99,95 % |
+| Ursprüngliche Indikation | Dyslipidemias |
+| Vorhergesagte neue Indikation | HIV infectious disease |
+| TxGNN-Vorhersagewert | 0.9974 |
 | Evidenzniveau | L4 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -94,7 +94,7 @@ Die Literatur enthält keine direkten Daten zu Pravastatin bei homozygoter FH.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/001243 | Pravafenix | – | Dyslipidämien (Status: erloschen) |
+| EMEA/H/C/001243 | Pravafenix | – | Dyslipidämien (Status: gültig) |
 
 ---
 

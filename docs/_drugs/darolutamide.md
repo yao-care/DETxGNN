@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-## Darolutamid: Vom kastrationsresistenten Prostatakarzinom zur homozygoten familiären Hypercholesterinämie
+## Darolutamid: Homozygote familiäre Hypercholesterinämie
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Kastrationsresistentes Prostatakarzinom |
 | Vorhergesagte neue Indikation | Homozygote familiäre Hypercholesterinämie |
-| TxGNN-Vorhersagewert | 99,11 % |
+| TxGNN-Vorhersagewert | 0,9911 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -131,8 +131,8 @@ Für die vorhergesagte Indikation gibt es weder klinische Studien noch Literatur
 
 Zwei weitere Vorhersagen mit ebenfalls hohen TxGNN-Werten wurden geprüft; beide erhalten die Empfehlung **Hold**:
 
-- **Multiple endokrine Neoplasie** (Wert 99,06 %, Evidenzstufe L4): Der Zusammenhang ist nur indirekt. Die Erkrankung wird durch Keimbahnmutationen (z. B. MEN1, RET) getrieben, eine Abhängigkeit vom Androgenrezeptor ist nicht etabliert. Die beiden zugeordneten Studien (NCT07795177, Phase 2, noch nicht rekrutierend, 40 Teilnehmende; NCT03878524, Phase 1, abgebrochen, 2 Teilnehmende) betreffen offenbar das Prostatakarzinom und liefern keine direkte Evidenz.
-- **HIV-Infektion** (Wert 99,04 %, Evidenzstufe L5): Es gibt keine bekannte antivirale Wirkung, keine Studien und keine Literatur. Die 100 erfassten Wechselwirkungen wären bei Patienten unter antiretroviraler Therapie besonders zu beachten.
+- **Multiple endokrine Neoplasie** (Wert 0,9906, Evidenzstufe L4): Der Zusammenhang ist nur indirekt. Die Erkrankung wird durch Keimbahnmutationen (z. B. MEN1, RET) getrieben, eine Abhängigkeit vom Androgenrezeptor ist nicht etabliert. Die beiden zugeordneten Studien (NCT07795177, Phase 2, noch nicht rekrutierend, 40 Teilnehmende; NCT03878524, Phase 1, abgebrochen, 2 Teilnehmende) betreffen offenbar das Prostatakarzinom und liefern keine direkte Evidenz.
+- **HIV-Infektion** (Wert 0,9904, Evidenzstufe L5): Es gibt keine bekannte antivirale Wirkung, keine Studien und keine Literatur. Die 100 erfassten Wechselwirkungen wären bei Patienten unter antiretroviraler Therapie besonders zu beachten.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

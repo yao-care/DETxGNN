@@ -4,7 +4,7 @@ title: Everolimus
 parent: Hohe Evidenz (L1-L2)
 nav_order: 187
 evidence_level: L2
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Everolimus: vorhergesagte neue Indikation Liposarkom (Evidenzstufe L2). Ursprüngliche Indikation: Nierenzellkarzinom, Mammakarzinom, Pankreastumoren (Afinitor)"
 monitor_inn: "EVEROLIMUS"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofib
 # Everolimus
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Dafür liegen derzeit **1 klinische Studie** und **4 Publikationen** vor, von de
 |------|------|
 | Ursprüngliche Indikation | Nierenzellkarzinom, Mammakarzinom, Pankreastumoren (Afinitor); Tuberöse Sklerose (Votubia) |
 | Vorhergesagte neue Indikation | Liposarkom |
-| TxGNN-Vorhersagewert | 99,88 % |
+| TxGNN-Vorhersagewert | 0,9988 |
 | Evidenzgrad | L2 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Proceed with Guardrails |
 
 Hinweis: Die Zulassungen wurden zentral über die EMA erteilt (Nummern EMEA/H/C/…) und sind laut den für diesen Bericht zusammengestellten Daten als erloschen gelistet.
@@ -93,8 +93,8 @@ Die ursprünglichen Indikationen und das Liposarkom sind zwar unterschiedliche T
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/001038 | Afinitor (erloschen) | – | Nierenzellkarzinom, Mammakarzinom, Pankreastumoren |
-| EMEA/H/C/002311 | Votubia (erloschen) | – | Tuberöse Sklerose |
+| EMEA/H/C/001038 | Afinitor (gültig) | – | Nierenzellkarzinom, Mammakarzinom, Pankreastumoren |
+| EMEA/H/C/002311 | Votubia (gültig) | – | Tuberöse Sklerose |
 
 ---
 
@@ -126,10 +126,9 @@ Die Fachinformation zu Warnhinweisen und Gegenanzeigen liegt nicht vor und muss 
 
 | Erkrankung | TxGNN-Wert | Evidenzgrad | Einschätzung |
 |------|------|------|------|
-| Unklassifiziertes Nierenzellkarzinom | 99,72 % | L2 | Proceed with Guardrails; mehrere Phase-2-Studien (u. a. ASPEN, ESPN) mit Everolimus |
-| Rhabdomyosarkom | 99,74 % | L2 | Research Question; Phase-1- und Phase-1/2-Studien, überwiegend Kombinationen und gemischte pädiatrische Tumoren |
-| Dermatofibrosarcoma protuberans | 99,82 % | L4 | Hold; nur indirekte präklinische Literatur |
-| Übrige seltene Sarkom-Subtypen | 99,72–99,84 % | L5 | Hold; reine Modellvorhersage |
+| Rhabdomyosarkom | 0,9974 | L2 | Research Question; Phase-1- und Phase-1/2-Studien, überwiegend Kombinationen und gemischte pädiatrische Tumoren |
+| Dermatofibrosarcoma protuberans | 0,9982 | L4 | Hold; nur indirekte präklinische Literatur |
+| Übrige seltene Sarkom-Subtypen | 99,72–0,9984 | L5 | Hold; reine Modellvorhersage |
 
 ---
 

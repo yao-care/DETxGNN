@@ -4,7 +4,7 @@ title: Susoctocog Alfa
 parent: Nur Modellvorhersage (L5)
 nav_order: 439
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Susoctocog Alfa: vorhergesagte neue Indikation Primäre Thrombozyten-Freisetzungsstörung (Rang 1 des Modells… (Evidenzstufe L5). Ursprüngliche Indikation: Hämophilie A"
 monitor_inn: "SUSOCTOCOG ALFA"
@@ -14,7 +14,7 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 # Susoctocog Alfa
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Susoctocog alfa: Von Hämophilie A zu Hämophilie (erworbene Hämophilie A)
+## Susoctocog alfa: Primäre Thrombozyten-Freisetzungsstörung
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -49,10 +49,10 @@ Das TxGNN-Modell sagt als bestplatzierte klinisch gestützte Indikation **Hämop
 |------|------|
 | Ursprüngliche Indikation | Hämophilie A |
 | Vorhergesagte neue Indikation | Primäre Thrombozyten-Freisetzungsstörung (Rang 1 des Modells, ohne Evidenz); klinisch gestützt ist Rang 4: Hämophilie (erworbene Hämophilie A) |
-| TxGNN-Vorhersagewert | 99,94 % (Rang 1); 99,74 % (Hämophilie, Rang 4) |
+| TxGNN-Vorhersagewert | 0,9994 (Rang 1) |
 | Evidenzniveau | L5 (Rang 1); L3 (Hämophilie, Rang 4) |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails (für Hämophilie / erworbene Hämophilie A); Hold für alle übrigen Vorhersagen |
 
 Hinweis: Die höchstbewertete Vorhersage (primäre Thrombozyten-Freisetzungsstörung) hat keinerlei Studien- oder Literaturgrundlage und ist mechanistisch nicht plausibel. Dieser Bericht konzentriert sich daher auf die Indikation **Hämophilie** (Rang 4), die als einzige substanziell belegt ist.
@@ -100,7 +100,7 @@ Hinweis: Die Literatur nennt zudem die japanische Phase-II/III-Studie NCT0458040
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/002792 | Obizur | – | Hämophilie A (Status: erloschen; Zulassungsinhaber Baxalta Innovations GmbH) |
+| EMEA/H/C/002792 | Obizur | – | Hämophilie A (Status: gültig; Zulassungsinhaber Baxalta Innovations GmbH) |
 
 ---
 

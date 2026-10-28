@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Cabozantinib
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 90
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Cabozantinib: vorhergesagte neue Indikation Liposarkom (Evidenzstufe L3). Ursprüngliche Indikation: Nierenzellkarzinom"
 monitor_inn: "CABOZANTINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophi
 # Cabozantinib
 {: .fs-9 }
 
-Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Cabozantinib ist ein Multikinase-Inhibitor, der ursprünglich zur Behandlung des
 |------|------|
 | Ursprüngliche Indikation | Nierenzellkarzinom; hepatozelluläres Karzinom |
 | Vorhergesagte neue Indikation | Liposarkom |
-| TxGNN-Vorhersagewert | 99,83 % |
-| Evidenzstufe | L3 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide aufgehoben) |
+| TxGNN-Vorhersagewert | 0,9983 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 Hinweis: Für das Liposarkom ist im Datensatz die Empfehlung „Research Question“ hinterlegt. Wegen der fehlenden liposarkomspezifischen Daten, der nicht verfügbaren Sicherheitsdaten aus der Fachinformation und des Zulassungsstatus wird hier **Hold** empfohlen.
@@ -86,8 +86,8 @@ Die Kombination mit Checkpoint-Inhibitoren (Ipilimumab, Nivolumab) könnte zusä
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004163 | Cabometyx | – | Nierenzellkarzinom; hepatozelluläres Karzinom (aufgehoben) |
-| EMEA/H/C/002640 | Cometriq | – | Schilddrüsentumoren (aufgehoben) |
+| EMEA/H/C/004163 | Cabometyx | – | Nierenzellkarzinom; hepatozelluläres Karzinom (gültig) |
+| EMEA/H/C/002640 | Cometriq | – | Schilddrüsentumoren (gültig) |
 
 ---
 
@@ -129,7 +129,6 @@ Für das Liposarkom existieren nur indirekte Belege (eine laufende Phase-2-Studi
 
 ## Ergänzender Hinweis: Weitere Vorhersagen
 
-- **Unklassifiziertes Nierenzellkarzinom** (Rang 3, Score 99,75 %, Evidenzstufe L2): mehrere Phase-2-Studien (u. a. NCT04413123, NCT03541902, NCT03635892) und publizierte Phase-2-Ergebnisse (PMID 35298296, 38782695). Empfehlung im Datensatz: *Proceed with Guardrails*. Es gibt keine Phase-3-Studie für diese spezifische Population, und die Studien sind klein (n = 32–98).
 - **Nierenzellkarzinom allgemein** (Rang 7): entspricht der ursprünglichen Indikation und ist kein echtes Repurposing. Mehrere Phase-3-Studien (u. a. CheckMate 9ER, METEOR, CONTACT-03, COSMIC-313) belegen den Nutzen.
 - **Weitere Vorhersagen** (ovariales myxoides Liposarkom, Nierenzellkarzinom bei Neuroblastom, ALS, Polymikrogyrie, Angiolipom): ausschließlich modellbasiert ohne Studien- oder Literaturbelege, daher *Hold*.
 ## Haftungsausschluss

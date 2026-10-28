@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Ticagrelor
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 462
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Ticagrelor: vorhergesagte neue Indikation Intrakranielle Arteriosklerose (Evidenzstufe L2). Ursprüngliche Indikation: Periphere Gefäßerkrankungen"
 monitor_inn: "TICAGRELOR"
@@ -14,7 +14,7 @@ predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arterioscle
 # Ticagrelor
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Ticagrelor: Vom akuten Koronarsyndrom zur intrakraniellen Arteriosklerose
+## Ticagrelor: Intrakranielle Arteriosklerose
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür liegen derzeit **2 klinische Studien** (davon 1 Phase-3-Studie, noch ohne
 |------|------|
 | Ursprüngliche Indikation | Periphere Gefäßerkrankungen; akutes Koronarsyndrom |
 | Vorhergesagte neue Indikation | Intrakranielle Arteriosklerose |
-| TxGNN-Vorhersagewert | 99,97 % |
-| Evidenzlevel | L2 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| TxGNN-Vorhersagewert | 0,9997 |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold (weitere Forschung erforderlich) |
 
 Hinweis zum Evidenzlevel: Die für die intrakranielle Arteriosklerose vorliegende Phase-3-Studie ist noch nicht abgeschlossen und hat keine Ergebnisse. Das Level L2 ist daher als obere Schätzung zu verstehen; streng nach den Kriterien (abgeschlossene RCT) läge die Evidenz eher bei L5 bis L4. Die höhere Evidenz (L1) betrifft die allgemeine ischämische Erkrankung, die im Wesentlichen eine Verfeinerung der bestehenden Indikation darstellt.
@@ -114,7 +114,7 @@ Ergänzend zur ischämischen Erkrankung (nicht spezifisch für intrakranielle Ar
 |---------|------|------|-----------|
 | EMEA/H/C/001241 | Brilique (AstraZeneca AB) | – | Periphere Gefäßerkrankungen; akutes Koronarsyndrom |
 
-Diese Zulassung ist als erloschen/aufgehoben geführt; derzeit ist keine gültige Zulassung vermerkt.
+Diese Zulassung ist gültig (1 von 1 Zulassungen); das Arzneimittel ist in Deutschland im Handel.
 
 ---
 
@@ -133,7 +133,7 @@ Die Angaben aus der Packungsbeilage (Warnhinweise, Kontraindikationen) konnten n
 **Entscheidung: Hold**
 
 **Begründung:**
-Die einzige Phase-3-Studie zur Zielindikation (CAPTIVA) läuft noch und hat keine Ergebnisse. Die übrige Evidenz betrifft die allgemeine ischämische Erkrankung, in der Ticagrelor bereits etabliert ist, und der Wirkmechanismus ist plausibel. Hinzu kommt, dass keine gültige Zulassung in Deutschland besteht, die Sicherheitsdaten aus der Packungsbeilage fehlen und eine intrakranielle Blutung als Kontraindikation vermerkt ist.
+Die einzige Phase-3-Studie zur Zielindikation (CAPTIVA) läuft noch und hat keine Ergebnisse. Die übrige Evidenz betrifft die allgemeine ischämische Erkrankung, in der Ticagrelor bereits etabliert ist, und der Wirkmechanismus ist plausibel. Hinzu kommt, dass die Sicherheitsdaten aus der Packungsbeilage fehlen und eine intrakranielle Blutung als Kontraindikation vermerkt ist.
 
 **Für das weitere Vorgehen sind erforderlich:**
 - Abwarten der CAPTIVA-Ergebnisse (voraussichtlicher Abschluss 2027)

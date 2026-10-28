@@ -46,10 +46,10 @@ Prasteron (DHEA) wurde ursprünglich für die Behandlung von Beschwerden in der 
 |------|------|
 | Ursprüngliche Indikation | Postmenopause |
 | Vorhergesagte neue Indikation | Heparin-Cofaktor-2-Mangel |
-| TxGNN-Vorhersagewert | 99,99 % |
+| TxGNN-Vorhersagewert | 0,9999 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
@@ -74,7 +74,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/004138 | Intrarosa | – | Postmenopause |
 
-Diese Zulassung (Endoceutics S.A.) ist erloschen; es besteht keine gültige Zulassung.
+Diese Zulassung (Endoceutics S.A.) ist gültig; es besteht 1 gültige Zulassung von 1.
 
 ## Sicherheitsaspekte
 
@@ -88,7 +88,7 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) ist die Fach
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich allein auf das TxGNN-Modell (Evidenzstufe L5) ohne Studien oder Publikationen. Ein plausibler Mechanismus fehlt, und ein mögliches thrombotisches Risiko durch Sexualsteroide spricht eher gegen eine Anwendung. Hinzu kommt, dass in Deutschland keine gültige Zulassung besteht.
+Die Vorhersage stützt sich allein auf das TxGNN-Modell (Evidenzstufe L5) ohne Studien oder Publikationen. Ein plausibler Mechanismus fehlt, und ein mögliches thrombotisches Risiko durch Sexualsteroide spricht eher gegen eine Anwendung. In Deutschland ist das Arzneimittel im Handel (1 von 1 Zulassungen gültig).
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen (derzeit blockierende Datenlücke für die Sicherheitsprüfung)

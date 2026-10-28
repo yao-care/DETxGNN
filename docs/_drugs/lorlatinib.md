@@ -4,7 +4,7 @@ title: Lorlatinib
 parent: Nur Modellvorhersage (L5)
 nav_order: 278
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Lorlatinib: vorhergesagte neue Indikation Fibromatose der Gingiva (Evidenzstufe L5). Ursprüngliche Indikation: Nicht-kleinzelliges Lungenkarzinom"
 monitor_inn: "LORLATINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Lorlatinib
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 ## Zusammenfassung
 
 Lorlatinib ist ein ALK/ROS1-Tyrosinkinase-Inhibitor der dritten Generation und wurde ursprünglich zur Behandlung des nicht-kleinzelligen Lungenkarzinoms (NSCLC) zugelassen.
-Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei **Fibromatose der Gingiva** wirksam sein könnte (Score 99,81 %).
+Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei **Fibromatose der Gingiva** wirksam sein könnte (Score 0,9981).
 Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
@@ -50,10 +50,10 @@ Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vo
 |------|------|
 | Ursprüngliche Indikation | Nicht-kleinzelliges Lungenkarzinom |
 | Vorhergesagte neue Indikation | Fibromatose der Gingiva |
-| TxGNN-Vorhersagewert | 99,81 % |
+| TxGNN-Vorhersagewert | 0,9981 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vo
 
 Für diesen Bericht liegen derzeit keine detaillierten Daten zum Wirkmechanismus vor. Bekannt ist, dass Lorlatinib ein hirngängiger ALK/ROS1-Inhibitor der dritten Generation ist, dessen Wirksamkeit beim ALK-positiven NSCLC in Phase-3-Studien (CROWN) belegt ist.
 
-Für die Gingivafibromatose ist kein ALK-bezogener Mechanismus bekannt. Der hohe TxGNN-Wert (0,998) ist eine rein graphbasierte Vorhersage ohne Studien- oder Literaturgrundlage. Eine mechanistische Verbindung zur ursprünglichen Indikation lässt sich derzeit nicht herleiten.
+Für die Gingivale Fibromatose ist kein ALK-bezogener Mechanismus bekannt. Der hohe TxGNN-Wert (0,9981) stammt vom TxGNN-Modell (deep learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. Er hat keine Studien- oder Literaturgrundlage. Eine mechanistische Verbindung zur ursprünglichen Indikation lässt sich derzeit nicht herleiten.
 
 Hinweis: Andere Vorhersagen der Liste haben teils mehr Substanz. Beim Hilus-Lungenkarzinom (Rang 4) handelt es sich im Kern um eine Erweiterung der bestehenden NSCLC-Indikation, gestützt durch einen Fallbericht (pathologisches Komplettansprechen unter neoadjuvantem Lorlatinib). Beim Lungen-Keimzelltumor (Rang 6) gibt es indirekte Hinweise aus ALK-getriebenen Tumoren (Neuroblastom-Phase-1-Studie), aber keine Evidenz für den Tumortyp selbst. Die übrigen Vorhersagen (Rang 2, 3, 5, 7–10) sind nicht durch Evidenz gestützt.
 

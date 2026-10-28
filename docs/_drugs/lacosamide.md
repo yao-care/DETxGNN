@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Lacosamide
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 255
-evidence_level: L1
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Lacosamide: vorhergesagte neue Indikation Migräne (Evidenzstufe L1). Ursprüngliche Indikation: Epilepsie"
+description: "Lacosamide: vorhergesagte neue Indikation Manische bipolare affektive Störung (Evidenzstufe L1). Ursprüngliche Indikation: Epilepsie"
 monitor_inn: "LACOSAMIDE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 # Lacosamide
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Lacosamid: Von Epilepsie zu Migräne
+## Lacosamid: Von Epilepsie zu Manische bipolare affektive Störung
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -49,10 +49,10 @@ Das TxGNN-Modell sagt voraus, dass es bei **Migräne** wirksam sein könnte (hö
 |------|------|
 | Ursprüngliche Indikation | Epilepsie |
 | Vorhergesagte neue Indikation | Migräne (Migräneerkrankung); die TxGNN-Rangliste führt auf Platz 1 „manische bipolare affektive Störung“, für Migräne (Platz 5) ist die Evidenz jedoch deutlich stärker |
-| TxGNN-Vorhersagewert | 99,87 % (Migräne) |
-| Evidenzstufe | L1 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen (Status „cancelled“) |
-| Anzahl der Zulassungen | 4 (alle erloschen; 0 gültig) |
+| TxGNN-Vorhersagewert | 0,9987 (Migräne) |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 4 von 4) |
+| Anzahl der Zulassungen | 4 (gültig: 4) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
 
 ---
@@ -94,7 +94,7 @@ Wichtig: Die Phase-3-Studien sind Vergleiche mit Wirkstoffen (Propranolol, Topir
 
 ## Marktinformationen Deutschland
 
-Nach den zusammengestellten Daten bestehen für Lacosamid derzeit keine gültigen Zulassungen; alle 4 erfassten Zulassungen sind erloschen.
+Nach den zusammengestellten Daten ist Lacosamid in Deutschland im Handel; alle 4 erfassten Zulassungen sind gültig.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -120,7 +120,7 @@ Für weitere Sicherheitsinformationen siehe die Fachinformation.
 **Entscheidung: Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen)**
 
 **Begründung:**
-Für Migräne liegen mehrere abgeschlossene Phase-3-Studien und eine publizierte doppelblinde RCT vor, was formal Evidenzstufe L1 entspricht. Die Studien sind jedoch Vergleichsstudien mit Wirkstoffen, stammen offenbar aus einer Forschungsgruppe, und die Ergebnisse sind in den Daten nicht im Detail verfügbar. Zudem gibt es in Deutschland aktuell keine gültige Zulassung.
+Für Migräne liegen mehrere abgeschlossene Phase-3-Studien und eine publizierte doppelblinde RCT vor, was formal Evidenzstufe L1 entspricht. Die Studien sind jedoch Vergleichsstudien mit Wirkstoffen, stammen offenbar aus einer Forschungsgruppe, und die Ergebnisse sind in den Daten nicht im Detail verfügbar. Zudem ist Lacosamid in Deutschland aktuell im Handel, mit 4 gültigen Zulassungen von 4 erfassten.
 
 **Für das Fortfahren sind folgende Schritte nötig:**
 - Prüfung der Volltexte und Ergebnisse von NCT05851781 und PMID 41863672 (Effektgrößen, Nichtunterlegenheitsmargen, Studienpopulation, Verblindung)
@@ -128,14 +128,14 @@ Für Migräne liegen mehrere abgeschlossene Phase-3-Studien und eine publizierte
 - Klärung des Zielkrankheitsbildes von NCT00440518 (Titel in den Daten abgeschnitten) und des Status von NCT06243692
 - Beschaffung der aktuellen Fachinformation (Warnhinweise, Kontraindikationen) – diese Daten fehlen derzeit und blockieren die Sicherheitsprüfung
 - Detaillierte Wirkmechanismus-Daten aus der Arzneimitteldatenbank
-- Klärung des regulatorischen Weges (aktuell keine gültige Zulassung in Deutschland)
+- Klärung des regulatorischen Weges (aktuell 4 gültige Zulassungen in Deutschland)
 - Sicherheitsüberwachungsplan, insbesondere kardiale Überleitung (EKG), Blutbild und Wechselwirkungen
 
 ---
 
 ### Hinweis zu weiteren Vorhersagen
 
-Die übrigen Vorhersagen haben deutlich schwächere Evidenz. Manische bipolare Störung (Platz 1, TxGNN-Wert 99,96 %, Evidenzstufe L3) stützt sich nur auf eine kleine retrospektive Studie, eine offene Pilotstudie und Fallberichte, einschließlich eines Neutropenie-Signals (Empfehlung: Forschungsfrage). Myofasziales Schmerzsyndrom (L2, Phase-2-Studie zu Fibromyalgie, Ergebnis unbekannt) ist ebenfalls eine Forschungsfrage. Tourette-Syndrom, Trichotillomanie, nephrogenes Syndrom der inadäquaten Antidiurese, Schlaflosigkeit, Migräne mit Hirnstammaura, Zwangsstörung und Conjunctivitis papillaris sind reine Modellvorhersagen ohne belastbare Evidenz (Empfehlung: Hold).
+Die übrigen Vorhersagen haben deutlich schwächere Evidenz. Manische bipolare Störung (Platz 1, TxGNN-Wert 0,9996, Evidenzstufe L3) stützt sich nur auf eine kleine retrospektive Studie, eine offene Pilotstudie und Fallberichte, einschließlich eines Neutropenie-Signals (Empfehlung: Forschungsfrage). Myofasziales Schmerzsyndrom (L2, Phase-2-Studie zu Fibromyalgie, Ergebnis unbekannt) ist ebenfalls eine Forschungsfrage. Tourette-Syndrom, Trichotillomanie, nephrogenes Syndrom der inadäquaten Antidiurese, Schlaflosigkeit, Migräne mit Hirnstammaura, Zwangsstörung und Conjunctivitis papillaris sind reine Modellvorhersagen ohne belastbare Evidenz (Empfehlung: Hold).
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

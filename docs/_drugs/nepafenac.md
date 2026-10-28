@@ -50,10 +50,10 @@ Die Vorhersage stützt sich derzeit auf **38 klinische Studien** und **21 Publik
 |------|------|
 | Ursprüngliche Indikation | Postoperative Schmerzen; ophthalmologische chirurgische Eingriffe |
 | Vorhergesagte neue Indikation | Augenerkrankung (eye disease) |
-| TxGNN-Vorhersagewert | 99,85 % |
+| TxGNN-Vorhersagewert | 0,9985 |
 | Evidenzlevel | L1 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung (nicht mehr vermarktet) |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
 
 ---
@@ -112,7 +112,7 @@ Weitere Studien betreffen diabetisches Makulaödem, Operationen an epiretinalen 
 |---------|------|------|-----------|
 | EMEA/H/C/000818 | Nevanac | Keine Angabe | Postoperative Schmerzen; ophthalmologische chirurgische Eingriffe |
 
-Hinweis: Diese Zulassung (Novartis Europharm Limited) ist als erloschen geführt. Es liegt keine gültige Zulassung vor.
+Hinweis: Diese Zulassung (Novartis Europharm Limited) ist gültig. Das Arzneimittel ist in Verkehr; 1 von 1 Zulassung ist gültig.
 
 ---
 

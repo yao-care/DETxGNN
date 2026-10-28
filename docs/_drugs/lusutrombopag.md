@@ -4,17 +4,17 @@ title: Lusutrombopag
 parent: Nur Modellvorhersage (L5)
 nav_order: 283
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Lusutrombopag: vorhergesagte neue Indikation Hereditäre Thrombozytopenie mit normalen Thrombozyten (Evidenzstufe L5). Ursprüngliche Indikation: Thrombozytopenie"
+indication_count: 9
 monitor_inn: "LUSUTROMBOPAG"
-predicted_indications: ["hereditary thrombocytopenia with normal platelets", "marcothrombocytopenia with mitral valve insufficiency", "transient neonatal thrombocytopenia", "dense granule disease", "platelet storage pool deficiency", "amyotrophic lateral sclerosis", "lower motor neuron syndrome with late-adult onset", "amyotrophic lateral sclerosis, susceptibility to", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia"]
+predicted_indications: ["hereditary thrombocytopenia with normal platelets", "marcothrombocytopenia with mitral valve insufficiency", "transient neonatal thrombocytopenia", "dense granule disease", "platelet storage pool deficiency", "amyotrophic lateral sclerosis", "lower motor neuron syndrome with late-adult onset", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia"]
+last_modified_at: 2026-10-27
+description: "Lusutrombopag: vorhergesagte neue Indikation Hereditäre Thrombozytopenie mit normalen Thrombozyten (hereditary thrombocytopenia with normal platelets) (Evidenzstufe L5). Ursprüngliche Indikation: Thr…"
 ---
 
 # Lusutrombopag
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,93 +33,66 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Lusutrombopag: Von Thrombozytopenie zu hereditärer Thrombozytopenie mit normalen Thrombozyten
+## Lusutrombopag: Thrombopoietin-Rezeptor-Agonist → Hereditäre Thrombozytopenie mit normalen Thrombozyten (hereditary thrombocytopenia with normal platelets)
 {: .text-alpha }
 
 ## Zusammenfassung
 
-Lusutrombopag ist ein Thrombopoetin-Rezeptor-Agonist (TPO-R-Agonist), der ursprünglich zur Behandlung der Thrombozytopenie zugelassen wurde. Das TxGNN-Modell sagt voraus, dass er bei **hereditärer Thrombozytopenie mit normalen Thrombozyten** wirksam sein könnte. Für diese Vorhersage liegen in den für diesen Bericht zusammengestellten Daten **keine klinischen Studien** und **keine Publikationen** vor; sie beruht allein auf der Modellvorhersage.
+Lusutrombopag ist ein Thrombopoietin-Rezeptor-Agonist (TPO-R-Agonist), der zur Behandlung der Thrombozytopenie zugelassen ist. Das TxGNN-Modell sagt voraus, dass er bei **hereditärer Thrombozytopenie mit normalen Thrombozyten (hereditary thrombocytopenia with normal platelets)** wirksam sein könnte. Für diese Richtung liegen in den zusammengestellten Daten **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
----
-
-## Schnellübersicht
+## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Thrombozytopenie |
-| Vorhergesagte neue Indikation | Hereditäre Thrombozytopenie mit normalen Thrombozyten |
-| TxGNN-Vorhersagewert | 99,995 % |
+| Ursprüngliche Indikation | Thrombocytopenia |
+| Vorhergesagte neue Indikation | Hereditäre Thrombozytopenie mit normalen Thrombozyten (hereditary thrombocytopenia with normal platelets) |
+| TxGNN-Vorhersagewert | 0,9999 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung (Cancelled only) |
-| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
-
----
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Nach bekanntem Wissen gehört Lusutrombopag zur Klasse der TPO-R-Agonisten. Seine Wirksamkeit bei Thrombozytopenie im Zusammenhang mit chronischer Lebererkrankung vor Eingriffen ist belegt. Mechanistisch könnte er daher bei weiteren Thrombozytopenien anwendbar sein.
+Zur Wirkungsweise liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Lusutrombopag gehört jedoch zur Klasse der TPO-R-Agonisten, die die Bildung von Thrombozyten durch Stimulation der Megakaryozyten-Vorläuferzellen fördern.
 
-Bei hereditären Thrombozytopenien mit erhaltener Thrombozytenfunktion wäre eine Wirkung der TPO-R-Stimulation denkbar, sofern die Vorläuferzellen der Megakaryozyten intakt sind. Dies ist jedoch eine reine Vorhersage und durch keine klinischen oder literarischen Daten gestützt.
+Bei erblichen Thrombozytopenien mit erhaltener Thrombozytenfunktion wäre eine Reaktion auf TPO-R-Stimulation denkbar, sofern die Megakaryozyten-Vorläufer intakt sind. Dies ist ausdrücklich nur eine mechanistische Überlegung und keine belegte Tatsache. Ob der zugrunde liegende genetische Defekt die Thrombozytenbildung oberhalb oder unterhalb der TPO-R-Signalkette beeinträchtigt, ist anhand der vorliegenden Daten nicht beurteilbar.
 
-Die weiteren vorhergesagten Indikationen sind überwiegend schwach begründet:
+Der sehr hohe Vorhersagewert wird durch keine klinische oder publizierte Evidenz gestützt. Die Einstufung bleibt daher L5 (reine Modellvorhersage).
 
-- **Makrothrombozytopenie mit Mitralklappeninsuffizienz** (Score 99,995 %): Der Thrombozytenanstieg ist konzeptionell relevant, der Herzklappenphänotyp jedoch nicht. Der genetische Defekt könnte zudem unterhalb der TPO-R-Signalkette wirken. Empfehlung: Hold.
-- **Transiente neonatale Thrombozytopenie** (99,995 %): Der gemeinsame Phänotyp ist plausibel, die Erkrankung ist jedoch selbstlimitierend, Sicherheitsdaten für Neugeborene fehlen, und die Zulassung ist erloschen. Empfehlung: Hold.
-- **Dense-Granule-Krankheit** (99,995 %) und **Speicherpool-Defekt der Thrombozyten** (99,958 %): Es handelt sich um qualitative Funktionsstörungen. Ein TPO-R-Agonist erhöht die Thrombozytenzahl, korrigiert aber nicht den Sekretionsdefekt. Empfehlung: Hold.
-- **Amyotrophe Lateralsklerose (ALS)**, **ALS-Suszeptibilität**, **Lower-Motor-Neuron-Syndrom mit Beginn im späten Erwachsenenalter**, **bilaterale parasagittale parieto-okzipitale Polymikrogyrie** und **axiale spondylometaphysäre Dysplasie** (Scores 99,94–99,95 %): Es ist kein mechanistischer Zusammenhang mit der TPO-R-Signalgebung erkennbar. Die hohen Werte spiegeln wahrscheinlich die Nähe im Wissensgraphen wider und sind vermutlich falsch-positiv. Empfehlung jeweils: Hold.
-
----
-
-## Klinische Evidenz
+## Klinische Studien
 
 Derzeit sind keine zugehörigen klinischen Studien registriert.
-
----
 
 ## Literaturevidenz
 
 Derzeit liegt keine zugehörige Literatur vor.
 
----
-
-## Marktinformationen Deutschland
+## Informationen zum deutschen Markt
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004720 | Mulpleo (zuvor Lusutrombopag Shionogi), Shionogi B.V. | – | Thrombozytopenie |
-
-Diese Zulassung hat den Status „erloschen/aufgehoben“. Es existiert keine gültige Zulassung.
-
----
+| EMEA/H/C/004720 | Mulpleo (zuvor Lusutrombopag Shionogi) | – | Thrombozytopenie |
 
 ## Sicherheitsaspekte
 
-**Arzneimittelwechselwirkungen:** Für Lusutrombopag wurden 100 Wechselwirkungen erfasst. In den zusammengestellten Daten sind die ersten 20 aufgeführt, alle mit Schweregrad **mäßig (Moderate)**:
+- **Arzneimittelwechselwirkungen**: In den zusammengestellten Daten sind 100 Wechselwirkungen verzeichnet, die gezeigten gehören alle zur Stufe „Moderat“. Beispiele: Hydrocortison, Clarithromycin, Eliglustat, Fidaxomicin, Rolapitant, Simvastatin, Tolbutamid, Cobicistat, Abirateron, Lidocain, Nifedipin, Afatinib, Alpelisib, Amiodaron, Testosteron, Apremilast, Atazanavir, Azithromycin, Ginger (Ingwer) und Cabozantinib.
 
-- Hydrocortison, Clarithromycin, Eliglustat, Fidaxomicin, Rolapitant
-- Simvastatin, Tolbutamid, Cobicistat, Abirateron, Lidocain
-- Nifedipin, Afatinib, Alpelisib, Amiodaron, Testosteron
-- Apremilast, Atazanavir, Azithromycin, Ingwer, Cabozantinib
-
-Zu Warnhinweisen und Gegenanzeigen bitte die Packungsbeilage beachten.
-
----
+Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die vorhergesagte Indikation gibt es weder klinische Studien noch Publikationen (Evidenzstufe L5). Zudem ist die einzige Zulassung in Deutschland erloschen. Die plausibelste Vorhersage (hereditäre Thrombozytopenie mit normalen Thrombozyten) ist bislang rein modellbasiert, die übrigen sind mechanistisch kaum begründet.
+Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert, ohne klinische Studien oder Publikationen zur vorhergesagten Erkrankung (Evidenzstufe L5). Zudem fehlen Daten zur Wirkungsweise und zu Warnhinweisen/Gegenanzeigen.
 
-**Für ein Weiterkommen sind folgende Schritte erforderlich:**
-- Beschaffung und Auswertung der Packungsbeilage (Warnhinweise, Gegenanzeigen) über BfArM
-- Ergänzung der Wirkmechanismus-Daten (MOA), z. B. über DrugBank
-- Literatur- und Studienrecherche zu TPO-R-Agonisten bei hereditären Thrombozytopenien
-- Klärung des Zulassungs- und Verfügbarkeitsstatus (erloschene Zulassung)
-- Sicherheitsdaten für spezielle Populationen, insbesondere Neugeborene, falls diese Indikation weiterverfolgt wird
-- Prüfung der Wechselwirkungen, v. a. mit CYP-Substraten und -Inhibitoren
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Systematische Literaturrecherche zu TPO-R-Agonisten bei hereditären Thrombozytopenien
+- Klärung des genetischen Defekts und der Rolle der TPO-R-Signalkette in der Zielpopulation
+- Detaillierte Wirkmechanismus-Daten (MOA)
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen)
+- Präklinische oder explorative klinische Daten zur Wirksamkeit und Sicherheit
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

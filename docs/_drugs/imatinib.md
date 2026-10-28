@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Imatinib
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 232
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Imatinib: vorhergesagte neue Indikation Fibroblastisches Neoplasma (Evidenzstufe L3). Ursprüngliche Indikation: Vorläuferzell-lymphoblastische Leukämie/Lymphom"
 monitor_inn: "IMATINIB"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
+last_modified_at: 2026-10-27
+description: "Imatinib: vorhergesagte neue Indikation Herzfibrosarkom (heart fibrosarcoma) (Evidenzstufe L5). Ursprüngliche Indikation: Precursor Cell Lymphoblastic Leukemia-Lymphoma"
 ---
 
 # Imatinib
 {: .fs-9 }
 
-Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,119 +33,76 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Imatinib: Von hämatologischen Neoplasien und GIST zu fibroblastischem Neoplasma
+## Imatinib: Tyrosinkinase-Inhibitor (BCR-ABL, KIT, PDGFR) → Herzfibrosarkom (heart fibrosarcoma)
 {: .text-alpha }
 
 ## Zusammenfassung
 
-Imatinib ist ein Tyrosinkinase-Inhibitor, der ursprünglich zur Behandlung der chronischen myeloischen Leukämie (BCR-ABL-positiv) und weiterer Erkrankungen zugelassen wurde. Das TxGNN-Modell sagt voraus, dass er bei **fibroblastischem Neoplasma** wirksam sein könnte. Für diese Richtung liegen **19 Publikationen** (überwiegend Übersichtsarbeiten und Leitlinien) vor, jedoch **keine klinischen Studien** zu genau dieser Indikation.
-
-Die Auswahl der Vorhersage folgt der Bewertung in den für diesen Bericht zusammengestellten Daten: Vorhersage Nr. 2 hat die höchste Evidenzstufe unter den Top-10-Vorhersagen mit der Empfehlung „Proceed with Guardrails". Die Rangfolge nach TxGNN-Score weicht davon ab (Rang 1 ist „Herzfibrosarkom", L4, Hold).
-
----
+Imatinib ist ein Tyrosinkinase-Inhibitor, der gegen BCR-ABL, KIT und PDGFR wirkt. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Herzfibrosarkom (heart fibrosarcoma)** voraus. Dafür liegen in den zusammengestellten Daten **keine klinischen Studien** und nur **eine Publikation** (eine allgemeine Übersichtsarbeit zu Imatinib) vor; die Vorhersage beruht damit praktisch allein auf dem Modell.
 
 ## Schnellübersicht
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Vorläuferzell-lymphoblastische Leukämie/Lymphom; Dermatofibrosarkom; myelodysplastisch-myeloproliferative Erkrankungen; CML (BCR-ABL-positiv); hypereosinophiles Syndrom (sowie gastrointestinale Stromatumoren bei Glivec) |
-| Vorhergesagte neue Indikation | Fibroblastisches Neoplasma (Rang 2 nach TxGNN-Score; ausgewählt wegen der besten Evidenzlage) |
-| TxGNN-Vorhersagescore | 99,94 % |
-| Evidenzstufe | L3 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen (derzeit keine gültige Zulassung in den erfassten Daten) |
-| Anzahl der Zulassungen | 3 (alle erloschen) |
-| Empfohlene Entscheidung | Proceed with Guardrails |
-
----
+| Ursprüngliche Indikation | Precursor Cell Lymphoblastic Leukemia-Lymphoma;Dermatofibrosarcoma;Myelodysplastic-Myeloproliferative Diseases;Leukemia, Myelogenous, Chronic, BCR-ABL Positive;Hypereosinophilic Syndrome; Precursor Cell Lymphoblastic Leukemia-Lymphoma;Gastrointestinal Stromal Tumors;Dermatofibrosarcoma;Myelodysplast |
+| Vorhergesagte neue Indikation | Herzfibrosarkom (heart fibrosarcoma) |
+| TxGNN-Vorhersagewert | 0,9994 |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
+| Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten derzeit keine detaillierten Angaben vor. Bekannt ist jedoch, dass Imatinib die Kinasen PDGFR, KIT und ABL hemmt. Seine Wirksamkeit bei BCR-ABL-positiver Leukämie und bei KIT-getriebenen GIST ist etabliert.
+Zu Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Imatinib die Kinasen PDGFR, KIT und ABL hemmt.
 
-Das in der Literatur wichtigste fibroblastische Neoplasma ist das Dermatofibrosarcoma protuberans (DFSP). Es wird durch die COL1A1-PDGFB-Fusion getrieben, die zu einer konstitutiven Aktivierung von PDGFR-beta führt. Imatinib hemmt PDGFR-beta direkt, sodass hier eine starke und gut charakterisierte mechanistische Begründung besteht.
+Die Verbindung zum Herzfibrosarkom ist indirekt. Sie wird von fibroblastischen Tumoren abgeleitet, etwa dem Dermatofibrosarcoma protuberans (DFSP) mit COL1A1-PDGFB-Fusion, die auf eine PDGFR-Hemmung ansprechen. Herzspezifische Daten fehlen vollständig. Die einzige zugeordnete Publikation (PMID 18623899) ist eine Übersicht zu neuen Imatinib-Indikationen, die ausdrücklich auf eine nicht robuste Evidenz hinweist und das Herzfibrosarkom nicht direkt untersucht.
 
-Das DFSP gehört bereits zu den zugelassenen Indikationen von Imatinib. Es handelt sich daher eher um eine etablierte Anwendung als um ein echtes Repurposing. Zu beachten: Resistenzen treten bei 10–50 % der Fälle auf; als Mechanismen werden etwa CDKN2A/CDK4-Veränderungen beschrieben.
+Da keine Studie die vorhergesagte Erkrankung selbst untersucht, wird die Evidenz mit L5 bewertet, obwohl die Rohdaten L4 angeben.
 
----
+## Klinische Studien
 
-## Evidenz aus klinischen Studien
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-Derzeit sind zu dieser Indikation keine klinischen Studien registriert.
-
----
-
-## Evidenz aus der Literatur
-
-Aus den 19 gefundenen Publikationen die relevantesten (Leitlinien und Übersichten vor Einzelarbeiten):
+## Literaturevidenz
 
 | PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [39904126](https://pubmed.ncbi.nlm.nih.gov/39904126/) | 2025 | Leitlinie | European Journal of Cancer | Aktualisierte europäische interdisziplinäre Leitlinie 2024 zu Diagnose und Behandlung des DFSP |
-| [41032154](https://pubmed.ncbi.nlm.nih.gov/41032154/) | 2025 | Review | Current Treatment Options in Oncology | Diagnostik und Molekularpathologie des DFSP |
-| [41042442](https://pubmed.ncbi.nlm.nih.gov/41042442/) | 2025 | Übersichtsarbeit | Current Treatment Options in Oncology | Aktuelle Behandlungen und klinische Studien beim DFSP |
-| [28795284](https://pubmed.ncbi.nlm.nih.gov/28795284/) | 2017 | Review | Current Treatment Options in Oncology | Therapie des DFSP mit multidisziplinärem Ansatz |
-| [31466588](https://pubmed.ncbi.nlm.nih.gov/31466588/) | 2019 | Review | Dermatologic Clinics | Chirurgische Resektion als Goldstandard; Strahlen- und systemische Therapie, wenn keine freien Ränder erreichbar sind |
-| [33993132](https://pubmed.ncbi.nlm.nih.gov/33993132/) | 2021 | Review | Current Opinion in Otolaryngology & Head and Neck Surgery | Aktueller Überblick zu Diagnostik und Behandlung des DFSP |
-| [36999599](https://pubmed.ncbi.nlm.nih.gov/36999599/) | 2023 | Review | Journal of Surgical Oncology | Chirurgisches Management; Imatinib bei fortgeschrittener oder nicht resezierbarer Erkrankung |
-| [40558511](https://pubmed.ncbi.nlm.nih.gov/40558511/) | 2025 | Präklinisch | Cells | Pharmakokinomisches Profiling mit patientenabgeleiteten Zelllinien zur Vorhersage des Imatinib-Ansprechens beim DFSP; Resistenz in 10–50 % der Fälle |
-| [15794712](https://pubmed.ncbi.nlm.nih.gov/15794712/) | 2005 | Review | Expert Opinion on Drug Safety | Entwicklung und Anwendung von Imatinib |
-| [18230575](https://pubmed.ncbi.nlm.nih.gov/18230575/) | 2008 | Review | Bulletin du Cancer | Imatinib bei soliden Tumoren: Hemmung von c-Abl, c-Kit und PDGFR |
-
----
+| [18623899](https://pubmed.ncbi.nlm.nih.gov/18623899/) | 2008 | Übersicht | Prescrire international | Überblick über neue Imatinib-Indikationen (u. a. Ph+ ALL); die Evidenz wird als nicht robust eingestuft. Kein Bezug zum Herzfibrosarkom. |
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002681 | Imatinib Accord | – | Vorläuferzell-lymphoblastische Leukämie/Lymphom; Dermatofibrosarkom; myelodysplastisch-myeloproliferative Erkrankungen; CML... |
-| EMEA/H/C/000406 | Glivec | – | Vorläuferzell-lymphoblastische Leukämie/Lymphom; gastrointestinale Stromatumoren; Dermatofibrosarkom;... |
-| EMEA/H/C/002585 | Imatinib Teva | – | CML (BCR-ABL-positiv); Vorläuferzell-lymphoblastische Leukämie/Lymphom; myelodysplastisch-myeloproliferative Erkrankungen;... |
-
-Alle drei Zulassungen haben den Status „erloschen".
-
----
+Die Zulassungsliste wird vom Programm ergänzt.
 
 ## Zytotoxizität
 
 | Punkt | Inhalt |
 |------|------|
-| Klassifikation | Zielgerichtete Therapie (Tyrosinkinase-Inhibitor), kein konventionelles Zytostatikum |
-| Myelosuppressionsrisiko | Zu beachten: Die Wissensgraph-Daten nennen Neutropenie, Thrombozytopenie, Agranulozytose und Anämie als relevante Erkrankungen; Details siehe Fachinformation |
-| Emetogenität | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
-| Überwachungsparameter | Blutbild, Leber- und Nierenfunktion |
-| Handhabungsschutz | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
-
----
+| Klassifikation | Zielgerichtete Therapie (Tyrosinkinase-Inhibitor) |
+| Myelosuppressionsrisiko | Bitte Warnhinweise der Fachinformation beachten |
+| Emetogenität | Bitte Warnhinweise der Fachinformation beachten |
+| Überwachungsparameter | Blutbild, Leber- und Nierenfunktion (allgemeine Empfehlung); Details siehe Fachinformation |
+| Handhabungsschutz | Bitte Fachinformation und Vorschriften für den Umgang mit Zytostatika beachten |
 
 ## Sicherheitsaspekte
 
-**Kontraindikationen/Vorsichtshinweise aus dem Wissensgraphen** (PrimeKG, keine Angaben aus Packungsbeilage): Bluthochdruck, Leberversagen und Lebererkrankungen, Nierenerkrankung, Herzinsuffizienz, Koronare Herzkrankheit, angeborene Herzfehler, Herzklappenerkrankungen, Perikarderguss, Lungenödem, Hirnödem, Thrombozytopenie, Neutropenie, Agranulozytose, Anämie, Hyperbilirubinämie (einschließlich Gilbert-Syndrom), aktives Magengeschwür, Gallenblasenerkrankung, Diabetes mellitus, diabetische Ketoazidose, Adipositas, Hypophosphatämie und Pyourether.
-
-**Arzneimittelwechselwirkungen** (100 Einträge insgesamt; Auswahl):
+**Arzneimittelwechselwirkungen** (Auswahl aus den zusammengestellten Daten; insgesamt 100 Einträge):
 - **Schwerwiegend (Major):** Eliglustat, Naloxegol
-- **Moderat:** Kortikosteroide (Hydrocortison, Dexamethason, Betamethason, Budesonid, Triamcinolon), Pioglitazon, Glimepirid, Saxagliptin, Aprepitant, Morphin, Cimetidin, Clarithromycin, Lansoprazol, Dexlansoprazol, Naltrexon, Naldemedin, Metreleptin
+- **Moderat:** u. a. Hydrocortison, Dexamethason, Betamethason, Budesonid, Triamcinolon, Pioglitazon, Glimepirid, Saxagliptin, Aprepitant, Morphin, Cimetidin, Clarithromycin, Lansoprazol, Dexlansoprazol, Naltrexon, Naldemedin, Metreleptin
 
-**Weiterer Hinweis aus der Literatur:** Ein Fallbericht beschreibt eine imatinibinduzierte DRESS-Reaktion bei einem Patienten mit DFSP, die durch Desensibilisierung erfolgreich behandelt wurde.
+Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) bitte die Fachinformation heranziehen.
 
-Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation; die Warnhinweise und Gegenanzeigen daraus lagen für diesen Bericht nicht vor.
+## Fazit und nächste Schritte
 
----
-
-## Schlussfolgerung und nächste Schritte
-
-**Entscheidung: Proceed with Guardrails**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die mechanistische Begründung (PDGFR-beta-Hemmung bei COL1A1-PDGFB-getriebenem DFSP) ist stark, und das DFSP ist bereits eine zugelassene Imatinib-Indikation. Die Evidenzlage (L3) beruht jedoch auf Übersichtsarbeiten und Leitlinien, nicht auf Studiendaten; für andere vorhergesagte Entitäten (z. B. konventionelles Fibrosarkom, Herz-/Leberfibrosarkom) darf diese Evidenz nicht übertragen werden.
+- Für das Herzfibrosarkom gibt es weder klinische Studien noch Publikationen, die die Erkrankung direkt untersuchen. Der hohe Modellwert allein genügt nicht, und der Mechanismus ist nur indirekt über PDGFR-getriebene Tumoren abgeleitet.
 
-**Für das weitere Vorgehen wird benötigt:**
-- Wirkmechanismus-Daten (MOA) aus DrugBank
-- Warnhinweise und Gegenanzeigen aus der BfArM-Fachinformation (derzeit blockierende Datenlücke für das Sicherheits-Screening)
-- Klärung des Zulassungsstatus in Deutschland, da alle erfassten Zulassungen erloschen sind
-- Klinische Studiendaten oder prospektive Evidenz zu fibroblastischen Tumoren außerhalb des DFSP
-- Überwachungsplan für Blutbild, Leber-, Nieren- und Herzfunktion sowie Prüfung relevanter Wechselwirkungen (insbesondere Eliglustat, Naloxegol)
-
-**Hinweis zu den übrigen Vorhersagen:** Die Rangplätze 1 und 5 bis 10 (u. a. Herzfibrosarkom, Liposarkom, familiärer Rhabdoidtumor) haben nur schwache oder keine Evidenz (L2 bis L5; Hold bzw. Research Question). Das Liposarkom hat zwar drei abgeschlossene Phase-1/2- bzw. Phase-2-Studien in breiten Weichteilsarkom-Populationen, jedoch ohne subtypspezifische Ergebnisse und mit schwacher mechanistischer Passung.
+**Für ein Weiterkommen erforderlich:**
+- Präklinische oder Fallberichts-Daten zu Imatinib beim Herzfibrosarkom bzw. zu PDGFR-/KIT-Abhängigkeit dieser Tumorart
+- Detaillierte Wirkmechanismus-Daten
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) für die Sicherheitsbewertung, insbesondere bei Herzerkrankungen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

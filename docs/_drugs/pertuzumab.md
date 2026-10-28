@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pertuzumab
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 355
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Pertuzumab: vorhergesagte neue Indikation Progesteronrezeptor-positives Mammakarzinom (Evidenzstufe L1). Ursprüngliche Indikation: Mammakarzinom"
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
+description: "Pertuzumab: vorhergesagte neue Indikation Ectomesenchymoma (Evidenzstufe L5). Ursprüngliche Indikation: Breast Neoplasms"
 ---
 
 # Pertuzumab
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Pertuzumab: Vom Mammakarzinom zum Progesteronrezeptor-positiven Mammakarzinom
+## Pertuzumab: Ectomesenchymoma
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,12 +48,12 @@ Dafür liegen derzeit **1 klinische Studie** und **20 Publikationen** vor, darun
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Mammakarzinom |
-| Vorhergesagte neue Indikation | Progesteronrezeptor-positives Mammakarzinom |
-| TxGNN-Vorhersagewert | 99,93 % |
-| Evidenzstufe | L1 |
-| Marktstatus in Deutschland | Nur erloschene Zulassungen |
-| Anzahl der Zulassungen | 3 (alle erloschen) |
+| Ursprüngliche Indikation | Breast Neoplasms |
+| Vorhergesagte neue Indikation | Ectomesenchymoma |
+| TxGNN-Vorhersagewert | 0.9971 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 2) |
 | Empfohlene Entscheidung | Proceed with Guardrails |
 
 ---
@@ -101,7 +101,7 @@ Wichtig: Die Studienlage bezieht sich überwiegend auf HER2-positive Kohorten in
 | EMEA/H/C/006583 | Poherdy | – | Mammakarzinom |
 | EMEA/H/C/005386 | Phesgo | – | Mammakarzinom |
 
-Alle drei Zulassungen sind als erloschen geführt.
+Zwei von drei Zulassungen sind gültig.
 
 ---
 

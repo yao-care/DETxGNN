@@ -4,17 +4,17 @@ title: Clopidogrel
 parent: Nur Modellvorhersage (L5)
 nav_order: 120
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Clopidogrel: vorhergesagte neue Indikation Migräne mit Hirnstammaura (Rang 1) (Evidenzstufe L5). Ursprüngliche Indikation: Periphere Gefäßerkrankungen, Schlaganfall, Myokardinfarkt…"
 monitor_inn: "CLOPIDOGREL"
-predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis", "osteoarthritis susceptibility"]
+predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis"]
 ---
 
 # Clopidogrel
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ Das TxGNN-Modell sagt voraus, dass die Substanz bei **Migräne mit Hirnstammaura
 |------|------|
 | Ursprüngliche Indikation | Periphere Gefäßerkrankungen, Schlaganfall, Myokardinfarkt, akutes Koronarsyndrom |
 | Vorhergesagte neue Indikation | Migräne mit Hirnstammaura (Rang 1); die am besten belegte Nachbarindikation ist Migräne allgemein (Rang 2) |
-| TxGNN-Vorhersagewert | 99,44 % |
-| Evidenzstufe | L3 für Migräne mit Hirnstammaura; L2 für Migräne allgemein |
-| Marktstatus in Deutschland | Nur erloschene Zulassungen |
-| Anzahl der Zulassungen | 16 (alle erloschen) |
+| TxGNN-Vorhersagewert | 0,9944 |
+| Evidenzstufe | L5 für Migräne mit Hirnstammaura; L2 für Migräne allgemein |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 16 von 16) |
+| Anzahl der Zulassungen | 16 (gültig: 16) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -103,7 +103,7 @@ Hinweis: Mehrere Arbeiten betreffen verwandte Wirkstoffe (Ticagrelor, Ticlopidin
 
 ## Marktinformationen Deutschland
 
-Alle 16 Zulassungen sind erloschen. Es handelt sich um zentrale EU-Zulassungen (EMEA). Die Angaben zur Darreichungsform liegen nicht vor.
+Alle 16 Zulassungen sind gültig. Es handelt sich um zentrale EU-Zulassungen (EMEA). Die Angaben zur Darreichungsform liegen nicht vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -133,14 +133,14 @@ Die Angaben zu Warnhinweisen und Gegenanzeigen aus der Packungsbeilage konnten n
 **Entscheidung: Hold**
 
 **Begründung:**
-Für Migräne mit Hirnstammaura selbst gibt es weder Studien noch gezielte Evidenz. Für Migräne allgemein (insbesondere bei PFO/ASD) existieren zwar randomisierte Studien, die Ergebnisse sind jedoch gemischt, die Population ist eng, und es gibt keine Phase-3-Studie mit Clopidogrel als geprüfter Intervention. Zudem sind alle deutschen Zulassungen erloschen und die Sicherheitsdaten aus der Packungsbeilage fehlen.
+Für Migräne mit Hirnstammaura selbst gibt es weder Studien noch gezielte Evidenz. Für Migräne allgemein (insbesondere bei PFO/ASD) existieren zwar randomisierte Studien, die Ergebnisse sind jedoch gemischt, die Population ist eng, und es gibt keine Phase-3-Studie mit Clopidogrel als geprüfter Intervention. Zudem sind alle 16 deutschen Zulassungen gültig, aber die Sicherheitsdaten aus der Packungsbeilage fehlen.
 
 **Für ein Weiterkommen wird benötigt:**
 - Fachinformation (Warnhinweise und Gegenanzeigen) zur Sicherheitsbewertung
 - Detaillierte Angaben zum Wirkmechanismus
 - Auswertung der Ergebnisse von COMPETE (NCT05546320) und der BMJ-Studie von 2026 (PMID 42526943)
 - Klärung, ob eine Evidenzbasis speziell für Migräne mit Hirnstammaura oder für PFO-assoziierte Migräne als engere Zielpopulation aufgebaut werden kann
-- Klärung der Marktverfügbarkeit in Deutschland (aktuell keine gültige Zulassung)
+- Klärung der Marktverfügbarkeit in Deutschland (aktuell 16 von 16 Zulassungen gültig)
 - Nutzen-Risiko-Abwägung zum Blutungsrisiko in der Migräneprophylaxe
 ## Haftungsausschluss
 

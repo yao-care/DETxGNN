@@ -48,10 +48,10 @@ Dibotermin alfa (rekombinantes humanes BMP-2, rhBMP-2) wurde ursprünglich zur F
 |------|------|
 | Ursprüngliche Indikation | Tibiafrakturen; interne Frakturfixierung; Wirbelsäulenfusion |
 | Vorhergesagte neue Indikation | Esotropie |
-| TxGNN-Vorhersagewert | 99,97 % |
+| TxGNN-Vorhersagewert | 0,9997 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 1 (aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist: Di
 
 Esotropie ist dagegen eine Fehlstellung der Augen, die die äußeren Augenmuskeln und deren neuronale Steuerung betrifft. Eine glaubwürdige mechanistische Verbindung zur knochenfördernden Wirkung von rhBMP-2 wurde nicht identifiziert. Der hohe TxGNN-Wert ist eine graphbasierte Vorhersage ohne klinische oder literaturbasierte Stütze.
 
-Auch die weiteren vorhergesagten Indikationen sind schwach begründet. Zu den Brustkrebs-Subtypen (u. a. HER2-positiv, Hormonrezeptor-positiv/-negativ, Luminal A/B) bestehen Vorhersagewerte um 99,8–99,9 %, aber ohne Studiendaten. Der BMP-Signalweg wirkt bei Brustkrebs kontextabhängig (Proliferation, EMT, Knochenmetastasen); exogenes rhBMP-2 könnte das Tumorwachstum eher fördern als hemmen. Dies ist ein theoretisches Sicherheitsrisiko. Weitere Vorhersagen (angeborene Ösophagusfehlbildung, multifokale Choroiditis, atypische Aortenisthmusstenose) haben ebenfalls keine tragfähige Evidenz.
+Auch die weiteren vorhergesagten Indikationen sind schwach begründet. Zu den Brustkrebs-Subtypen (u. a. HER2-positiv, Hormonrezeptor-positiv/-negativ, Luminal A/B) bestehen Vorhersagewerte um 99,8–0,9990, aber ohne Studiendaten. Der BMP-Signalweg wirkt bei Brustkrebs kontextabhängig (Proliferation, EMT, Knochenmetastasen); exogenes rhBMP-2 könnte das Tumorwachstum eher fördern als hemmen. Dies ist ein theoretisches Sicherheitsrisiko. Weitere Vorhersagen (angeborene Ösophagusfehlbildung, multifokale Choroiditis, atypische Aortenisthmusstenose) haben ebenfalls keine tragfähige Evidenz.
 
 ---
 
@@ -86,7 +86,7 @@ Für die Top-Vorhersage (Esotropie) liegt keine Literatur vor. Für die Indikati
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000408 | Inductos (Medtronic BioPharma B.V.) | – | Tibiafrakturen; interne Frakturfixierung; Wirbelsäulenfusion (Status: aufgehoben) |
+| EMEA/H/C/000408 | Inductos (Medtronic BioPharma B.V.) | – | Tibiafrakturen; interne Frakturfixierung; Wirbelsäulenfusion (Status: gültig) |
 
 ---
 

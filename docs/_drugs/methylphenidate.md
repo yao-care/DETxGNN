@@ -5,10 +5,10 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 297
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
-description: "Methylphenidate: vorhergesagte neue Indikation Faciodigitogenitales Syndrom (Evidenzstufe L5). Ursprüngliche Indikation: Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS)"
 monitor_inn: "Methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
+last_modified_at: 2026-10-27
+description: "Methylphenidate: vorhergesagte neue Indikation Faziodigitogenitales Syndrom (faciodigitogenital syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: Attention Deficit Disorder with Hyperactivity"
 ---
 
 # Methylphenidate
@@ -33,88 +33,63 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-## Methylphenidat: Von ADHS zu Faciodigitogenitalem Syndrom
+## Methylphenidat: Dopamin-/Noradrenalin-Wiederaufnahmehemmer → Faziodigitogenitales Syndrom (faciodigitogenital syndrome)
 {: .text-alpha }
 
 ## Zusammenfassung
 
-Methylphenidat wurde ursprünglich zur Behandlung der Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS) zugelassen. Das TxGNN-Modell sagt voraus, dass es bei dem **Faciodigitogenitalen Syndrom** (Aarskog-Scott-Syndrom) wirksam sein könnte. Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor, die Vorhersage beruht allein auf dem Modell.
+Methylphenidat ist ein Hemmer der Dopamin- und Noradrenalin-Transporter im zentralen Nervensystem. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Faziodigitogenitalem Syndrom (faciodigitogenital syndrome)** voraus. Für diese Vorhersage liegen in den zusammengestellten Daten **keine klinischen Studien** und **keine Publikationen** vor.
 
----
-
-## Schnellüberblick
+## Schnellübersicht
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS) |
-| Vorhergesagte neue Indikation | Faciodigitogenitales Syndrom |
-| TxGNN-Vorhersagewert | 99,998 % |
-| Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Ursprüngliche Indikation | Attention Deficit Disorder with Hyperactivity |
+| Vorhergesagte neue Indikation | Faziodigitogenitales Syndrom (faciodigitogenital syndrome) |
+| TxGNN-Vorhersagewert | 0,9999 |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
-
----
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Methylphenidat liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist aus den pharmakologischen Daten, dass Methylphenidat den Dopamintransporter (DAT) und den Noradrenalintransporter (NET) hemmt. Auf diesem Mechanismus beruht seine bewährte Wirkung bei ADHS.
+Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Aus den pharmakologischen Daten geht jedoch hervor, dass Methylphenidat den Noradrenalin-Transporter (NET, SLC6A2) und den Dopamin-Transporter (DAT, SLC6A3) angreift.
 
-Das Faciodigitogenitale Syndrom ist eine X-chromosomal vererbte Entwicklungsstörung, die durch Varianten im FGD1-Gen verursacht wird. Sie kann mit Aufmerksamkeitsdefiziten oder Verhaltensauffälligkeiten einhergehen. Ein möglicher Nutzen von Methylphenidat wäre daher allenfalls symptomatisch (z. B. bei ADHS-ähnlichen Merkmalen) und nicht krankheitsmodifizierend. Dies ist eine Schlussfolgerung und kein Beleg aus den vorliegenden Daten. Ein direkter mechanistischer Zusammenhang ist durch die Daten nicht gestützt.
+Das faziodigitogenitale Syndrom (Aarskog-Scott-Syndrom) ist eine X-chromosomal vererbte Entwicklungsstörung, die durch Varianten im Gen FGD1 verursacht wird. Sie kann mit Aufmerksamkeitsdefiziten oder Verhaltensauffälligkeiten einhergehen. Ein möglicher Nutzen von Methylphenidat wäre daher allenfalls symptomatisch, etwa bei ADHS-ähnlichen Merkmalen, und nicht krankheitsmodifizierend. Dies ist eine Schlussfolgerung und kein Beleg aus den vorliegenden Daten. Da keine Studien oder Publikationen vorliegen, kann die Verbindung nicht weiter beurteilt werden.
 
----
-
-## Evidenz aus klinischen Studien
+## Klinische Studien
 
 Derzeit sind keine zugehörigen klinischen Studien registriert.
 
----
+## Literaturbelege
 
-## Evidenz aus der Literatur
-
-Derzeit liegt keine zugehörige Literatur vor.
-
----
+Derzeit ist keine zugehörige Literatur verfügbar.
 
 ## Informationen zum deutschen Markt
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/005975 | Tuzulby | – | Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (Status: erloschen) |
+| EMEA/H/C/005975 | Tuzulby | – | Aufmerksamkeitsdefizit-Hyperaktivitätsstörung |
 
----
+## Sicherheitshinweise
 
-## Sicherheitsaspekte
+- **Wechselwirkungen (pharmakologisch):** Methylphenidat bindet an den Noradrenalin-Transporter (NET) und den Dopamin-Transporter (DAT). Das sind Zielstrukturen, keine Wechselwirkungen mit anderen Arzneimitteln.
 
-- **Kontraindikationen aus dem Wissensgraphen (PrimeKG, keine Packungsbeilagen-Angaben):** Hypertonie, Epilepsie, bipolare Störung, schwere affektive Störungen, psychotische Störungen (einschließlich schizoaffektiver Störung), Substanzmissbrauch/-abhängigkeit, koronare Herzkrankheit, Schlaganfall und zerebrovaskuläre Erkrankungen, Myokardinfarkt, plötzlicher Herzstillstand, Erregungsleitungsstörungen des Herzens, Thrombozytopenie, Leukopenie, Anämie, Hämoglobinopathie, Anorexia nervosa, Glaukom sowie Hyperthyreose (Morbus Basedow, Thyreotoxikose).
-- **Wechselwirkungen:** In der Abfrage wurden lediglich pharmakologische Zielstrukturen (NET und DAT) gefunden, keine klinisch bewerteten Arzneimittelwechselwirkungen.
-
-Angaben zu Warnhinweisen und Gegenanzeigen aus der Fachinformation lagen nicht vor. Bitte die Fachinformation heranziehen.
-
----
+Weitere Sicherheitsinformationen entnehmen Sie bitte der Packungsbeilage.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Trotz des sehr hohen TxGNN-Werts gibt es weder klinische Studien noch Literatur zu dieser Indikation (Evidenzlevel L5). Ein möglicher Effekt wäre allenfalls symptomatisch. Zudem ist die deutsche Zulassung erloschen und die Sicherheitsdaten sind lückenhaft.
+Der TxGNN-Wert ist sehr hoch, aber es gibt weder klinische Studien noch Publikationen zu dieser Erkrankung. Ein mechanistischer Zusammenhang ist durch die Daten nicht belegt, daher bleibt die Vorhersage rein modellbasiert (Evidenzniveau L5).
 
-**Für ein Weiterkommen sind erforderlich:**
-- Daten zum Wirkmechanismus (MOA) aus DrugBank
-- Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM)
-- Fallserien oder Studien zu ADHS-ähnlichen Symptomen beim Aarskog-Scott-Syndrom
-- Klärung des Zulassungsstatus in Deutschland und der verfügbaren Darreichungsformen und Applikationswege
-
----
-
-## Weitere vorhergesagte Indikationen (zur Einordnung)
-
-| Rang | Vorhergesagte Indikation | TxGNN-Wert | Evidenzlevel | Empfehlung | Anmerkung |
-|---|---|---|---|---|---|
-| 2 | Chondromyxoides Fibrom | 99,991 % | L5 | Hold | Kein plausibler mechanistischer Zusammenhang, vermutlich ein Artefakt des Wissensgraphen; keine Studien oder Literatur. |
-| 3 | Spezifische Entwicklungsstörung | 99,988 % | L4 | Forschungsfrage | Die Literatur betrifft überwiegend ADHS, also die bereits zugelassene Indikation; daher möglicherweise kein echtes Repurposing. Keine klinischen Studien. |
-| 4 | Dysthyme Störung | 99,109 % | L4 | Forschungsfrage | Nur indirekte Literatur (z. B. ADHS mit subsyndromaler Depression, PMID 24045603); keine Studie zu Methylphenidat bei dysthymer Störung. |
+**Für ein Weiterverfolgen sind folgende Punkte nötig:**
+- Detaillierte Wirkmechanismus-Daten (MOA)
+- Literaturrecherche und gegebenenfalls Fallserien zu Methylphenidat bei Patienten mit Aarskog-Scott-Syndrom und ADHS-ähnlichen Symptomen
+- Auswertung der Warnhinweise und Gegenanzeigen aus der Packungsbeilage (Zulassungsbehörde BfArM)
+- Klärung, ob ein Nutzen über die symptomatische ADHS-Behandlung hinausgeht
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

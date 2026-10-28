@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-## Fentanyl: Von Schmerz/Krebs zum nephrogenen Syndrom der inadäquaten Antidiurese
+## Fentanyl: Nephrogenes Syndrom der inadäquaten Antidiurese
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,10 +48,10 @@ Fentanyl ist ein Opioid, das laut den zusammengestellten Daten ursprünglich zur
 |------|------|
 | Ursprüngliche Indikation | Schmerz; Krebs |
 | Vorhergesagte neue Indikation | Nephrogenes Syndrom der inadäquaten Antidiurese |
-| TxGNN-Vorhersagewert | 99,46 % |
+| TxGNN-Vorhersagewert | 0,9946 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 3 (alle aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -64,7 +64,7 @@ Das nephrogene Syndrom der inadäquaten Antidiurese wird durch Gain-of-function-
 
 Ein plausibler therapeutischer Zusammenhang ist daher nicht belegt. Ein möglicher Effekt wäre eher unerwünscht als nützlich. Der TxGNN-Wert ist als reiner Modellhinweis zu verstehen.
 
-**Zweite vorhergesagte Indikation (Rang 2): Tourette-Syndrom** (Score 99,05 %, ebenfalls L5, Empfehlung Hold). Das Opioidsystem moduliert dopaminerge und striatale Aktivität, und es gibt begrenzte Forschung zur Beteiligung des Opioidsystems bei Tic-Störungen. Das ist ein spekulativer, indirekter Ansatz. Wegen des hohen Missbrauchs- und Abhängigkeitspotenzials, des Risikos einer Atemdepression und des Marktstatus wäre Fentanyl ohne erhebliche zusätzliche Evidenz ungeeignet. Sinnvoller wären opioidmodulierende Substanzen mit günstigerem Sicherheitsprofil.
+**Zweite vorhergesagte Indikation (Rang 2): Tourette-Syndrom** (Score 0,9905, ebenfalls L5, Empfehlung Hold). Das Opioidsystem moduliert dopaminerge und striatale Aktivität, und es gibt begrenzte Forschung zur Beteiligung des Opioidsystems bei Tic-Störungen. Das ist ein spekulativer, indirekter Ansatz. Wegen des hohen Missbrauchs- und Abhängigkeitspotenzials, des Risikos einer Atemdepression und des Marktstatus wäre Fentanyl ohne erhebliche zusätzliche Evidenz ungeeignet. Sinnvoller wären opioidmodulierende Substanzen mit günstigerem Sicherheitsprofil.
 
 ---
 

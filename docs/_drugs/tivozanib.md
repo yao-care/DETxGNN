@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Tivozanib: Vom Nierenzellkarzinom zum endozervikalen Karzinom
+## Tivozanib: Endozervikales Karzinom
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -50,10 +50,10 @@ Dafür liegen in den für diesen Bericht zusammengestellten Daten **keine klinis
 |------|------|
 | Ursprüngliche Indikation | Nierenzellkarzinom |
 | Vorhergesagte neue Indikation | Endozervikales Karzinom |
-| TxGNN-Vorhersagewert | 99,81 % |
+| TxGNN-Vorhersagewert | 0,9981 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -64,7 +64,7 @@ Tivozanib hemmt alle drei VEGF-Rezeptor-Tyrosinkinasen (VEGFR-1/FLT1, VEGFR-2/KD
 
 Beim Nierenzellkarzinom ist die VEGF-getriebene Angiogenese ein zentraler Krankheitsmechanismus, weshalb die Hemmung dieses Signalwegs dort wirksam ist. Auch beim Zervixkarzinom spielt die VEGF-vermittelte Angiogenese eine Rolle. Die Anti-VEGF-Therapie mit Bevacizumab hat bei dieser Erkrankung einen Nutzen gezeigt. Daraus ergibt sich eine plausible, aber nur indirekte Begründung.
 
-Der sehr hohe TxGNN-Wert ist eine rein rechnerische Vorhersage. Er ersetzt keine klinischen Belege. Die weiteren vorhergesagten Indikationen (u. a. seltene Adenokarzinome des Uterusbandes und seltene Zervixkarzinom-Subtypen) liegen alle bei Werten um 99,8 %, ebenfalls ohne Evidenz. Sie dürften vor allem auf Ähnlichkeiten in der Krankheitsontologie beruhen.
+Der sehr hohe TxGNN-Wert ist eine rein rechnerische Vorhersage. Er ersetzt keine klinischen Belege. Die weiteren vorhergesagten Indikationen (u. a. seltene Adenokarzinome des Uterusbandes und seltene Zervixkarzinom-Subtypen) liegen alle bei Werten um 0,9980, ebenfalls ohne Evidenz. Sie dürften vor allem auf Ähnlichkeiten in der Krankheitsontologie beruhen.
 
 ---
 
@@ -84,7 +84,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004131 | Fotivda (Recordati Netherlands B.V.) | – | Nierenzellkarzinom (Status: erloschen) |
+| EMEA/H/C/004131 | Fotivda (Recordati Netherlands B.V.) | – | Nierenzellkarzinom (Status: gültig) |
 
 ---
 

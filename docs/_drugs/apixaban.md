@@ -50,10 +50,10 @@ Die Evidenz ist jedoch schwach: Es liegt **1 klinische Studie** mit nur indirekt
 |------|------|
 | Ursprüngliche Indikation | Venöse Thromboembolie, Schlaganfall, Arthroplastik |
 | Vorhergesagte neue Indikation | Migräne (migraine disorder) |
-| TxGNN-Vorhersagewert | 99,02 % |
+| TxGNN-Vorhersagewert | 0,9902 |
 | Evidenzstufe | L4 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---

@@ -48,10 +48,10 @@ Caspofungin ist ein Antimykotikum aus der Klasse der Echinocandine und wurde urs
 |------|------|
 | Ursprüngliche Indikation | Candidiasis; Aspergillose |
 | Vorhergesagte neue Indikation | Gastrin-Sekretionsstörung |
-| TxGNN-Vorhersagewert | 99,44 % |
+| TxGNN-Vorhersagewert | 0,9944 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -60,7 +60,7 @@ Caspofungin ist ein Antimykotikum aus der Klasse der Echinocandine und wurde urs
 
 Derzeit liegen keine detaillierten Daten zum Wirkmechanismus in den für diesen Bericht zusammengestellten Daten vor. Nach allgemeinem Wissen gehört Caspofungin zu den Echinocandinen und hemmt die β-(1,3)-D-Glucan-Synthase der Pilzzellwand. Seine Wirksamkeit bei Candidiasis und Aspergillose ist belegt.
 
-Für die vorhergesagte Indikation besteht jedoch **kein bekannter mechanistischer Zusammenhang**. Der gastrinbildende Signalweg (G-Zellen, CCK2-Rezeptor, Regulation der Magensäure) besitzt kein bekanntes Glucan-Synthase-Ziel. Der sehr hohe Vorhersagewert (0,994) ist eine reine Vorhersage des Wissensgraphen. Er könnte auf indirekte Netzwerkassoziationen zurückgehen, etwa über die Wirkstoffklasse der Antimykotika oder über das Umfeld von Zollinger-Ellison und gastrinbezogenen Erkrankungen. Ohne verifizierten Mechanismus lässt sich die Vorhersage biologisch nicht interpretieren.
+Für die vorhergesagte Indikation besteht jedoch **kein bekannter mechanistischer Zusammenhang**. Der gastrinbildende Signalweg (G-Zellen, CCK2-Rezeptor, Regulation der Magensäure) besitzt kein bekanntes Glucan-Synthase-Ziel. Der sehr hohe Vorhersagewert (0,9944) stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, keinen biologischen Beleg. Ohne verifizierten Mechanismus lässt sich die Vorhersage biologisch nicht interpretieren.
 
 ---
 
@@ -82,7 +82,7 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 |---------|------|------|-----------|
 | EMEA/H/C/000379 | Cancidas (zuvor Caspofungin MSD) | – | Candidiasis; Aspergillose |
 
-Hinweis: Diese Zulassung hat den Status „erloschen/aufgehoben“. Es besteht derzeit keine gültige Zulassung in den zusammengestellten Daten.
+Hinweis: Für dieses Arzneimittel liegt in den zusammengestellten Daten 1 gültige Zulassung von insgesamt 1 vor; es ist im Handel.
 
 ---
 
@@ -103,7 +103,7 @@ Für Warnhinweise und Gegenanzeigen aus der Packungsbeilage wird auf die Fachinf
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzgrad L5), ohne klinische Studien, ohne Literatur und ohne plausiblen Wirkmechanismus. Zudem besteht in Deutschland keine gültige Zulassung.
+Die Vorhersage beruht ausschließlich auf dem TxGNN-Modell (Deep Learning) (Evidenzgrad L5), ohne klinische Studien, ohne Literatur und ohne plausiblen Wirkmechanismus. Das Arzneimittel ist in Deutschland mit 1 gültigen Zulassung im Handel.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Daten zum Wirkmechanismus (MOA) aus DrugBank

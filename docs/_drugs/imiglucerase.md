@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Imiglucerase
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 234
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Imiglucerase: vorhergesagte neue Indikation Hurler-Syndrom (Evidenzstufe L4). Ursprüngliche Indikation: Morbus Gaucher"
@@ -14,7 +14,7 @@ predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm o
 # Imiglucerase
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **5** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Dafür liegen **keine klinischen Studien** und nur **eine Übersichtsarbeit** zu
 |------|------|
 | Ursprüngliche Indikation | Morbus Gaucher |
 | Vorhergesagte neue Indikation | Hurler-Syndrom |
-| TxGNN-Vorhersagewert | 99,52 % |
-| Evidenzgrad | L4 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| TxGNN-Vorhersagewert | 0,9952 |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -92,7 +92,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000157 | Cerezyme (Sanofi B.V.) | – | Morbus Gaucher (Status: erloschen) |
+| EMEA/H/C/000157 | Cerezyme (Sanofi B.V.) | – | Morbus Gaucher (Status: gültig) |
 
 ---
 

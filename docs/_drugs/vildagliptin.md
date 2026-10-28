@@ -4,17 +4,17 @@ title: Vildagliptin
 parent: Nur Modellvorhersage (L5)
 nav_order: 499
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Vildagliptin: vorhergesagte neue Indikation Fokales Stiff-Limb-Syndrom (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes mellitus Typ 2"
 monitor_inn: "VILDAGLIPTIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
+description: "Vildagliptin: vorhergesagte neue Indikation Fokales Stiff-Limb-Syndrom (focal stiff limb syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes Mellitus, Type 2"
 ---
 
 # Vildagliptin
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Vildagliptin: Von Diabetes mellitus Typ 2 zum fokalen Stiff-Limb-Syndrom
+## Vildagliptin: Fokales Stiff-Limb-Syndrom (focal stiff limb syndrome)
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -46,12 +46,12 @@ Vildagliptin ist ein oraler DPP-4-Hemmer, der ursprünglich zur Behandlung des *
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Diabetes mellitus Typ 2 |
-| Vorhergesagte neue Indikation | Fokales Stiff-Limb-Syndrom |
-| TxGNN-Vorhersagewert | 99,88 % |
+| Ursprüngliche Indikation | Diabetes Mellitus, Type 2 |
+| Vorhergesagte neue Indikation | Fokales Stiff-Limb-Syndrom (focal stiff limb syndrome) |
+| TxGNN-Vorhersagewert | 0.9988 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene bzw. widerrufene Zulassungen |
-| Anzahl Zulassungen | 7 (davon 0 gültig) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 7 von 7) |
+| Anzahl Zulassungen | 7 (gültig: 7) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -60,7 +60,7 @@ Vildagliptin ist ein oraler DPP-4-Hemmer, der ursprünglich zur Behandlung des *
 
 Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Vildagliptin hemmt nach bekanntem Wissen die Dipeptidylpeptidase-4 (DPP-4) und damit den Abbau der Inkretine GLP-1 und GIP. Dadurch verbessert es die Insulinsekretion und unterdrückt eine unangemessen hohe Glukagonausschüttung. Die Wirksamkeit beim Typ-2-Diabetes ist gut belegt.
 
-Das fokale Stiff-Limb-Syndrom ist eine seltene, vermutlich autoimmune bzw. neurologische Erkrankung mit Muskelsteifigkeit. Ein belegter Zusammenhang mit der DPP-4-Hemmung ist nicht bekannt. Nach den für diesen Bericht zusammengestellten Daten ist keine mechanistische Verbindung gestützt. Der hohe Modellwert (Rang 1927) spiegelt vermutlich Nachbarschaftsbeziehungen im Wissensgraphen wider, etwa über Diabetes- und Autoimmunknoten, und keinen therapeutischen Mechanismus.
+Das fokale Stiff-Limb-Syndrom ist eine seltene, vermutlich autoimmune bzw. neurologische Erkrankung mit Muskelsteifigkeit. Ein belegter Zusammenhang mit der DPP-4-Hemmung ist nicht bekannt. Nach den für diesen Bericht zusammengestellten Daten ist keine mechanistische Verbindung gestützt. Der hohe Modellwert (Rang 1927) stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, und keinen biologischen Beleg oder therapeutischen Mechanismus.
 
 ---
 
@@ -78,15 +78,15 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 
 ## Marktinformationen Deutschland
 
-Alle sieben Zulassungen sind zentrale EU-Zulassungen (EMEA/H/C) und derzeit erloschen bzw. widerrufen. Es gibt keine gültige Zulassung.
+Sieben von sieben Zulassungen sind gültig. Es handelt sich um zentrale EU-Zulassungen (EMEA/H/C), das Arzneimittel ist in Deutschland im Handel.
 
 | Zulassungsnummer | Produktname | Zulassungsinhaber | Zugelassene Indikation | Status |
 |---------|------|------|-----------|------|
-| EMEA/H/C/001051 | Xiliarx | Novartis Europharm Limited | Diabetes mellitus Typ 2 | Erloschen |
-| EMEA/H/C/001048 | Jalra | Novartis Europharm Limited | Diabetes mellitus Typ 2 | Erloschen |
-| EMEA/H/C/000771 | Galvus | Novartis Europharm Limited | Diabetes mellitus Typ 2 | Erloschen |
-| EMEA/H/C/001049 | Zomarist | Novartis Europharm Limited | Diabetes mellitus Typ 2 | Erloschen |
-| EMEA/H/C/000807 | Eucreas | Novartis Europharm Limited | Diabetes mellitus Typ 2 | Erloschen |
+| EMEA/H/C/001051 | Xiliarx | Novartis Europharm Limited | Diabetes mellitus Typ 2 | Gültig |
+| EMEA/H/C/001048 | Jalra | Novartis Europharm Limited | Diabetes mellitus Typ 2 | Gültig |
+| EMEA/H/C/000771 | Galvus | Novartis Europharm Limited | Diabetes mellitus Typ 2 | Gültig |
+| EMEA/H/C/001049 | Zomarist | Novartis Europharm Limited | Diabetes mellitus Typ 2 | Gültig |
+| EMEA/H/C/000807 | Eucreas | Novartis Europharm Limited | Diabetes mellitus Typ 2 | Gültig |
 
 Weitere erloschene Zulassungen: Vildagliptin / Metformin hydrochloride Accord (EMEA/H/C/005738) und Icandra (EMEA/H/C/001050).
 
@@ -105,7 +105,7 @@ Aus der Literatur ist ein Sicherheitssignal bekannt: Ein Fallbericht aus dem Jah
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage zum fokalen Stiff-Limb-Syndrom beruht allein auf dem Modellwert, ohne Studien, Literatur oder plausiblen Mechanismus (Evidenzlevel L5). Zudem besitzt Vildagliptin in Deutschland derzeit keine gültige Zulassung.
+Die Vorhersage zum fokalen Stiff-Limb-Syndrom beruht allein auf dem Modellwert des TxGNN-Modells (Deep Learning), ohne Studien, Literatur oder plausiblen Mechanismus (Evidenzlevel L5). Vildagliptin ist in Deutschland derzeit im Handel, mit 7 gültigen von 7 Zulassungen.
 
 **Für ein Weiterverfolgen wären nötig:**
 - Eine nachvollziehbare mechanistische Hypothese zwischen DPP-4-Hemmung und dem Krankheitsbild

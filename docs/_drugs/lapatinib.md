@@ -48,10 +48,10 @@ Lapatinib wurde ursprünglich zur Behandlung von Brustkrebs (Mammakarzinom) eing
 |------|------|
 | Ursprüngliche Indikation | Brustkrebs (Breast Neoplasms) |
 | Vorhergesagte neue Indikation | Dermatofibrosarcoma protuberans |
-| TxGNN-Vorhersagewert | 99,30 % |
+| TxGNN-Vorhersagewert | 0,9930 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Lapatinib ist ein dualer Tyrosinkinase-Inhibitor, der den EGFR (ErbB1) und HER2 
 
 DFSP wird hauptsächlich durch das COL1A1-PDGFB-Fusionsgen getrieben, das zu einer dauerhaften Aktivierung von PDGFRB führt. Die übliche Behandlung besteht aus chirurgischer Entfernung und Imatinib, einem PDGFR-Inhibitor. Ein denkbarer Zusammenhang wäre die gemeinsame Rezeptor-Tyrosinkinase-Signalübertragung (nachgeschaltete PI3K/AKT- und MAPK-Signalwege). Dies ist jedoch spekulativ: Lapatinib wirkt nicht direkt auf PDGFR.
 
-Der hohe Vorhersagewert spiegelt möglicherweise die Nähe zu anderen Kinase-Inhibitoren im Wissensgraphen wider und nicht eine biologische Grundlage speziell für Lapatinib. Die Begründung wird durch die vorliegenden Daten nicht gestützt.
+Der hohe Vorhersagewert (0.9930) stammt aus dem TxGNN-Modell (Deep Learning) und spiegelt möglicherweise Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat, und keine biologische Evidenz speziell für Lapatinib. Die Begründung wird durch die vorliegenden Daten nicht gestützt.
 
 ---
 
@@ -82,7 +82,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000795 | Tyverb | – | Breast Neoplasms (Brustkrebs); Status: erloschen |
+| EMEA/H/C/000795 | Tyverb | – | Breast Neoplasms (Brustkrebs); Status: gültig |
 
 ---
 
@@ -129,7 +129,7 @@ Die Vorhersage stützt sich ausschließlich auf einen hohen TxGNN-Wert (Evidenzn
 - Ergänzung der Mechanismusdaten (MOA), z. B. über DrugBank
 - Präklinische Belege (z. B. Zelllinien- oder Modellstudien bei DFSP), die eine Wirkung von Lapatinib jenseits von PDGFR-Signalwegen plausibel machen
 - Systematische Literatur- und Studienrecherche für Lapatinib bei DFSP bzw. Weichteilsarkomen
-- Klärung der Zulassungs- und Verfügbarkeitssituation, da keine gültige Zulassung in Deutschland besteht
+- Klärung der Zulassungs- und Verfügbarkeitssituation in Deutschland (das Arzneimittel ist im Handel, 1 von 1 Zulassung ist gültig)
 - Prüfung der Routenkompatibilität und der Ähnlichkeit zur ursprünglichen Indikation (derzeit ausstehend)
 ## Haftungsausschluss
 

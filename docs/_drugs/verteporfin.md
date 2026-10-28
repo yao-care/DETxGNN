@@ -6,7 +6,7 @@ nav_order: 496
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Verteporfin: vorhergesagte neue Indikation Mitochondriale Störung der oxidativen Phosphorylierung durch Kern-DNA… (Evidenzstufe L5). Ursprüngliche Indikation: Degenerative Myopie"
+description: "Verteporfin: vorhergesagte neue Indikation Mitochondriale Störung der oxidativen Phosphorylierung durch Kern-DNA-Anomalien (Evidenzstufe L5). Ursprüngliche Indikation: Degenerative Myopie"
 monitor_inn: "VERTEPORFIN"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"]
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-## Verteporfin: Von degenerativer Myopie/Makuladegeneration zu mitochondrialer Störung der oxidativen Phosphorylierung (durch Kern-DNA-Anomalien)
+## Verteporfin: Von degenerativer Myopie/Makuladegeneration zu Mitochondriale Störung der oxidativen Phosphorylierung durch Kern-DNA-Anomalien
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Degenerative Myopie; Makuladegeneration |
 | Vorhergesagte neue Indikation | Mitochondriale Störung der oxidativen Phosphorylierung durch Kern-DNA-Anomalien |
-| TxGNN-Vorhersagewert | 99,49 % |
+| TxGNN-Vorhersagewert | 0,9949 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---

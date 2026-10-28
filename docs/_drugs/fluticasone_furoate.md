@@ -4,7 +4,7 @@ title: Fluticasone Furoate
 parent: Nur Modellvorhersage (L5)
 nav_order: 199
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Fluticasone Furoate: vorhergesagte neue Indikation Atopisches Ekzem (Evidenzstufe L5). Ursprüngliche Indikation: Saisonale und perenniale allergische Rhinitis (weitere Zulassungen: A…"
 monitor_inn: "FLUTICASONE FUROATE"
@@ -14,7 +14,7 @@ predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacryl
 # Fluticasone Furoate
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-## Fluticasonfuroat: Von allergischer Rhinitis, Asthma und COPD zu atopischem Ekzem
+## Fluticasonfuroat: Atopisches Ekzem
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -49,10 +49,10 @@ Das TxGNN-Modell sagt voraus, dass es bei **atopischem Ekzem** wirksam sein kön
 |------|------|
 | Ursprüngliche Indikation | Saisonale und perenniale allergische Rhinitis (weitere Zulassungen: Asthma, COPD) |
 | Vorhergesagte neue Indikation | Atopisches Ekzem |
-| TxGNN-Vorhersagewert | 99,98 % |
+| TxGNN-Vorhersagewert | 0,9998 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 5 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 5 von 5) |
+| Anzahl der Zulassungen | 5 (gültig: 5) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -92,7 +92,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 | EMEA/H/C/004781 | Elebrato Ellipta | – | COPD |
 | EMEA/H/C/004363 | Trelegy Ellipta | – | COPD |
 
-Alle fünf Zulassungen sind erloschen; aktuell besteht kein gültiger Zulassungsstatus.
+Alle fünf Zulassungen sind gültig; das Arzneimittel ist im Handel.
 
 ---
 
@@ -110,7 +110,7 @@ Für weitere Sicherheitsinformationen, insbesondere Warnhinweise und Wechselwirk
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage ist biologisch plausibel, stützt sich aber ausschließlich auf das Modell (Evidenzniveau L5): Es gibt keine klinischen Studien, und die beiden Publikationen sind indirekt. Hinzu kommt, dass alle deutschen Zulassungen erloschen sind. Ein Teil der weiteren Vorhersagen (z. B. Bronchitis) ist eher eine Erweiterung bestehender Atemwegsindikationen als echtes Repurposing, und der Eintrag „atopisches Ekzem" ist doppelt vorhanden (auch als „dermatitis, atopic"), sodass die Einträge zusammengeführt werden sollten.
+Die Vorhersage ist biologisch plausibel, stützt sich aber ausschließlich auf das Modell (Evidenzniveau L5): Es gibt keine klinischen Studien, und die beiden Publikationen sind indirekt. Ein Teil der weiteren Vorhersagen (z. B. Bronchitis) ist eher eine Erweiterung bestehender Atemwegsindikationen als echtes Repurposing, und der Eintrag „atopisches Ekzem" ist doppelt vorhanden (auch als „dermatitis, atopic"), sodass die Einträge zusammengeführt werden sollten.
 
 **Für ein Weiterkommen ist Folgendes nötig:**
 - Direkte klinische Daten zu Fluticasonfuroat bei atopischem Ekzem bzw. Kontaktdermatitis

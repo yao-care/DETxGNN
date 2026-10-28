@@ -4,17 +4,17 @@ title: Corifollitropin Alfa
 parent: Nur Modellvorhersage (L5)
 nav_order: 123
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Corifollitropin Alfa: vorhergesagte neue Indikation Gastroduodenitis (Evidenzstufe L5). Ursprüngliche Indikation: Assistierte Reproduktionstechniken"
 monitor_inn: "CORIFOLLITROPIN ALFA"
-predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer disease", "migraine with brainstem aura", "Raynaud disease", "pulmonary hypertension", "kyphoscoliotic heart disease", "migraine with or without aura, susceptibility to"]
+predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer disease", "migraine with brainstem aura", "Raynaud disease", "pulmonary hypertension", "kyphoscoliotic heart disease"]
 ---
 
 # Corifollitropin Alfa
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ Das TxGNN-Modell sagt voraus, dass er bei **Gastroduodenitis** wirksam sein kön
 |------|------|
 | Ursprüngliche Indikation | Assistierte Reproduktionstechniken; Ovulationsinduktion; Untersuchungsverfahren |
 | Vorhergesagte neue Indikation | Gastroduodenitis |
-| TxGNN-Vorhersagewert | 99,65 % |
+| TxGNN-Vorhersagewert | 0,9965 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -67,13 +67,12 @@ Weitere vorhergesagte Indikationen bestätigen dieses Bild. Sie sind alle nur mo
 
 | Rang | Vorhergesagte Indikation | TxGNN-Wert | Einschätzung |
 |---|---|---|---|
-| 2 | Migräne | 99,63 % | Nur spekulativer Hormonbezug; eher Verschlechterung oder Auslösung als Behandlung zu erwarten |
-| 3 | Ulcus pepticum | 99,61 % | Keine Rolle von FSH bei Säuresekretion oder Mukosaschutz |
-| 4 | Migräne mit Hirnstammaura | 99,59 % | Kein Bezug zur Pathophysiologie (Kanalopathien) |
-| 5 | Raynaud-Krankheit | 99,59 % | Kein Beleg für gefäßerweiternde Wirkung |
-| 6 | Pulmonale Hypertonie | 99,44 % | Kein Mechanismus; thromboembolische Risiken und Flüssigkeitsverschiebungen könnten schädlich sein |
-| 7 | Kyphoskoliotische Herzkrankheit | 99,36 % | Kein plausibler Bezug; vermutlich Netzwerkartefakt |
-| 8 | Migräne mit/ohne Aura (Suszeptibilität) | 99,11 % | Genetischer Suszeptibilitätseintrag, keine behandelbare klinische Indikation |
+| 2 | Migräne | 0,9963 | Nur spekulativer Hormonbezug; eher Verschlechterung oder Auslösung als Behandlung zu erwarten |
+| 3 | Ulcus pepticum | 0,9961 | Keine Rolle von FSH bei Säuresekretion oder Mukosaschutz |
+| 4 | Migräne mit Hirnstammaura | 0,9959 | Kein Bezug zur Pathophysiologie (Kanalopathien) |
+| 5 | Raynaud-Krankheit | 0,9959 | Kein Beleg für gefäßerweiternde Wirkung |
+| 6 | Pulmonale Hypertonie | 0,9944 | Kein Mechanismus; thromboembolische Risiken und Flüssigkeitsverschiebungen könnten schädlich sein |
+| 7 | Kyphoskoliotische Herzkrankheit | 0,9936 | Kein plausibler Bezug; vermutlich Netzwerkartefakt |
 
 ---
 
@@ -93,7 +92,7 @@ Derzeit ist keine relevante Literatur verfügbar.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
 |---------|------|------|-----------|------|
-| EMEA/H/C/001106 | Elonva | – | Assistierte Reproduktionstechniken; Ovulationsinduktion; Untersuchungsverfahren | Aufgehoben |
+| EMEA/H/C/001106 | Elonva | – | Assistierte Reproduktionstechniken; Ovulationsinduktion; Untersuchungsverfahren | Gültig |
 
 ---
 

@@ -4,17 +4,17 @@ title: Tolvaptan
 parent: Nur Modellvorhersage (L5)
 nav_order: 473
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Tolvaptan: vorhergesagte neue Indikation Polyzystische Nierenerkrankung Typ 3 mit oder ohne polyzystische Lebe… (Evidenzstufe L5). Ursprüngliche Indikation: Inappropriate ADH Syndrome (SIADH)"
 monitor_inn: "TOLVAPTAN"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
+description: "Tolvaptan: vorhergesagte neue Indikation Renal-hepatic-pancreatic dysplasia (Evidenzstufe L5). Ursprüngliche Indikation: Inappropriate ADH Syndrome"
 ---
 
 # Tolvaptan
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Tolvaptan: Von Hyponatriämie bei SIADH / ADPKD zu polyzystischer Nierenerkrankung Typ 3 (mit oder ohne polyzystische Lebererkrankung)
+## Tolvaptan: Renal-hepatic-pancreatic dysplasia
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,12 +48,12 @@ Dafür liegen derzeit **keine registrierten klinischen Studien**, aber **19 Publ
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Inappropriate ADH Syndrome (SIADH); zusätzlich autosomal-dominante polyzystische Nierenerkrankung (ADPKD) |
-| Vorhergesagte neue Indikation | Polyzystische Nierenerkrankung Typ 3 mit oder ohne polyzystische Lebererkrankung |
-| TxGNN-Vorhersagewert | 99,99 % |
-| Evidenzgrad | L1 (laut Bewertung der Datenbasis; die Evidenz stammt aus ADPKD-RCTs und ist für die vorhergesagte Indikation eine Extrapolation) |
-| Marktstatus in Deutschland | Nur erloschene Zulassungen (keine aktuell gültige Zulassung) |
-| Anzahl der Zulassungen | 3 (alle erloschen) |
+| Ursprüngliche Indikation | Inappropriate ADH Syndrome; Polycystic Kidney, Autosomal Dominant |
+| Vorhergesagte neue Indikation | Renal-hepatic-pancreatic dysplasia |
+| TxGNN-Vorhersagewert | 0.9998 |
+| Evidenzgrad | L5 (laut Bewertung der Datenbasis; die Evidenz stammt aus ADPKD-RCTs und ist für die vorhergesagte Indikation eine Extrapolation) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
 | Empfohlene Entscheidung | Proceed with Guardrails |
 
 ---
@@ -95,9 +95,9 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/005961 | Tolvaptan Accord | – | Inappropriate ADH Syndrome (erloschen) |
-| EMEA/H/C/002788 | Jinarc | – | Polycystic Kidney, Autosomal Dominant (erloschen) |
-| EMEA/H/C/000980 | Samsca | – | Inappropriate ADH Syndrome (erloschen) |
+| EMEA/H/C/005961 | Tolvaptan Accord | – | Inappropriate ADH Syndrome (gültig) |
+| EMEA/H/C/002788 | Jinarc | – | Polycystic Kidney, Autosomal Dominant (gültig) |
+| EMEA/H/C/000980 | Samsca | – | Inappropriate ADH Syndrome (gültig) |
 
 ---
 

@@ -49,10 +49,10 @@ Das TxGNN-Modell sagt voraus, dass es gegen **Lepra** wirksam sein könnte, alle
 |------|------|
 | Ursprüngliche Indikation | Keine Angabe in den Zulassungsdaten (laut Wirkstoffprofil: veterinärmedizinische Atemwegserkrankungen bei Rindern und Schweinen) |
 | Vorhergesagte neue Indikation | Lepra |
-| TxGNN-Vorhersagewert | 99,01 % |
+| TxGNN-Vorhersagewert | 0,9901 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -83,7 +83,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/002009 | Zuprevo | – | – (Zulassung aufgehoben) |
+| EMEA/V/C/002009 | Zuprevo | – | – (Zulassung gültig) |
 
 ---
 

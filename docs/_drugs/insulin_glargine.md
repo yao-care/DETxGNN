@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Insulin glargine: Von Diabetes mellitus zu autoimmuner Oophoritis
+## Insulin glargine: Von Diabetes mellitus zu autoimmune Oophoritis
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,10 +48,10 @@ Insulin glargine ist ein lang wirksames Basalinsulin-Analogon, das ursprünglich
 |------|------|
 | Ursprüngliche Indikation | Diabetes mellitus |
 | Vorhergesagte neue Indikation | Autoimmune Oophoritis |
-| TxGNN-Vorhersagewert | 99,88 % |
+| TxGNN-Vorhersagewert | 0,9988 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 6 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 5 von 6) |
+| Anzahl der Zulassungen | 6 (gültig: 5) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -64,7 +64,7 @@ Die autoimmune Oophoritis ist eine immunvermittelte Erkrankung der Eierstöcke. 
 
 Auch die übrigen Vorhersagen unter den zehn bestbewerteten Kandidaten sind überwiegend rein rechnerisch:
 
-- **Stiff-Person-Syndrom (klassisch und fokal):** Zusammenhang über gemeinsame Autoimmunität (Anti-GAD65) und Komorbidität mit Typ-1-Diabetes, kein plausibler Behandlungseffekt. Identische Scores deuten auf gemeinsame Nachbarn im Wissensgraphen hin.
+- **Stiff-Person-Syndrom (klassisch und fokal):** Zusammenhang über gemeinsame Autoimmunität (Anti-GAD65) und Komorbidität mit Typ-1-Diabetes, kein plausibler Behandlungseffekt. Identische Scores stammen vom TxGNN-Modell (Deep Learning) und können vom Modell gelernte Ähnlichkeiten zwischen verwandten Erkrankungen widerspiegeln, keine biologische Evidenz.
 - **Thiamin-responsives Dysfunktionssyndrom:** Insulin könnte die diabetische Komponente symptomatisch behandeln, jedoch ohne krankheitsmodifizierende Wirkung.
 - **Opsismodysplasie:** Spekulative Verbindung über INPPL1 (SHIP2) als negativen Regulator der Insulin-/PI3K-Signalwege, ohne Belege.
 - **Pankreasagenesie:** Insulinersatz ist mechanistisch schlüssig, entspricht aber der bestehenden Diabetes-Indikation und ist kein echtes Repurposing.
@@ -95,7 +95,7 @@ Für den Kandidaten auf Rang 6 (Pankreasagenesie, Evidenzlevel L4) wurden indire
 
 ## Marktinformationen Deutschland
 
-Alle sechs Zulassungen sind erloschen. Es handelt sich um zentrale EU-Zulassungen (EMA-Nummern):
+Fünf der sechs Zulassungen sind gültig. Es handelt sich um zentrale EU-Zulassungen (EMA-Nummern):
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -128,7 +128,7 @@ Weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) entnehmen Sie bit
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die Vorhersage autoimmune Oophoritis gibt es keine klinischen Studien, keine Literatur und keinen plausiblen mechanistischen Zusammenhang (Evidenzlevel L5). Zudem sind alle deutschen/EU-Zulassungen erloschen. Die Vorhersage ist vermutlich ein Artefakt der gemeinsamen Autoimmun- und Diabetes-Komorbidität.
+Für die Vorhersage autoimmune Oophoritis gibt es keine klinischen Studien, keine Literatur und keinen plausiblen mechanistischen Zusammenhang (Evidenzlevel L5). Der Score stammt vom TxGNN-Modell (Deep Learning) und kann vom Modell gelernte Ähnlichkeiten zwischen verwandten Erkrankungen (gemeinsame Autoimmun- und Diabetes-Komorbidität) widerspiegeln, keine biologische Evidenz. Das Arzneimittel ist in Deutschland/EU im Handel, 5 von 6 Zulassungen sind gültig.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da dieser Datenpunkt derzeit eine blockierende Lücke für die Sicherheitsprüfung darstellt

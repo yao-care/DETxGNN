@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-## Enoxaparin: Von venöser Thromboembolie zu Thrombophilie durch Protein-C-Mangel (autosomal-rezessiv)
+## Enoxaparin: Thrombophilie durch Protein-C-Mangel, autosomal-rezessiv
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** i
 |------|------|
 | Ursprüngliche Indikation | Venöse Thromboembolie |
 | Vorhergesagte neue Indikation | Thrombophilie durch Protein-C-Mangel, autosomal-rezessiv |
-| TxGNN-Vorhersagewert | 99,58 % |
+| TxGNN-Vorhersagewert | 0,9958 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -86,7 +86,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/004264 | Inhixa | – | Venöse Thromboembolie |
 
-Hinweis: Diese Zulassung ist als erloschen/gelöscht geführt. Derzeit besteht keine gültige Zulassung in den erfassten Daten.
+Hinweis: Für dieses Arzneimittel besteht 1 gültige Zulassung (von 1 erfassten Zulassungen); es ist im Handel.
 
 ---
 

@@ -6,9 +6,9 @@ nav_order: 360
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Pirfenidone: vorhergesagte neue Indikation Extrakutanes Mastozytom (Evidenzstufe L5). Ursprüngliche Indikation: Idiopathische Lungenfibrose (IPF)"
 monitor_inn: "PIRFENIDONE"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
+description: "Pirfenidone: vorhergesagte neue Indikation Extrakutanes Mastozytom (extracutaneous mastocytoma) (Evidenzstufe L5). Ursprüngliche Indikation: Idiopathic Pulmonary Fibrosis"
 ---
 
 # Pirfenidone
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Pirfenidon: Von idiopathischer Lungenfibrose zu extrakutanem Mastozytom
+## Pirfenidone: Extrakutanes Mastozytom (extracutaneous mastocytoma)
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -46,12 +46,12 @@ Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Pub
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Idiopathische Lungenfibrose (IPF) |
-| Vorhergesagte neue Indikation | Extrakutanes Mastozytom |
-| TxGNN-Vorhersagewert | 99,71 % |
+| Ursprüngliche Indikation | Idiopathic Pulmonary Fibrosis;Lung Diseases;Respiratory Tract Diseases; Idiopathic Pulmonary Fibrosis |
+| Vorhergesagte neue Indikation | Extrakutanes Mastozytom (extracutaneous mastocytoma) |
+| TxGNN-Vorhersagewert | 0.9971 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | ✗ Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 3 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
@@ -60,7 +60,7 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten k
 
 Ein Zusammenhang mit dem Mastozytom, einer Neoplasie der Mastzellen, ist bislang nicht belegt. Die antifibrotische Wirkung auf Fibroblasten hat keine nachgewiesene Relevanz für die Mastzellneoplasie. Die hohe Modellbewertung ist daher als reine Hypothese zu verstehen.
 
-Weitere Vorhersagen des Modells mit ähnlich hohen Werten betreffen unter anderem Dermatofibrosarcoma protuberans (99,41 %), aggressive systemische Mastozytose (99,33 %), Fibrosarkome und das Familiäre Mittelmeerfieber. Für diese liegen ebenfalls keine klinischen Daten vor. Die einzige Vorhersage mit indirekter Literatur ist das fibroblastische Neoplasma (99,23 %, L4). Die Daten dort stammen jedoch überwiegend aus In-vitro-Studien an Fibroblasten der gutartigen Dupuytren-Kontraktur und belegen keine Wirksamkeit bei echten Tumoren.
+Weitere Vorhersagen des Modells mit ähnlich hohen Werten betreffen unter anderem Dermatofibrosarcoma protuberans (0,9941), aggressive systemische Mastozytose (0,9933), Fibrosarkome und das Familiäre Mittelmeerfieber. Für diese liegen ebenfalls keine klinischen Daten vor. Die einzige Vorhersage mit indirekter Literatur ist das fibroblastische Neoplasma (0,9923, L4). Die Daten dort stammen jedoch überwiegend aus In-vitro-Studien an Fibroblasten der gutartigen Dupuytren-Kontraktur und belegen keine Wirksamkeit bei echten Tumoren.
 
 ## Klinische Studien
 
@@ -78,7 +78,7 @@ Zur Vorhersage „extrakutanes Mastozytom“ ist derzeit keine zugehörige Liter
 | EMEA/H/C/005873 | Pirfenidone axunio (zuvor Pirfenidone AET) | – | Idiopathische Lungenfibrose |
 | EMEA/H/C/002154 | Esbriet | – | Idiopathische Lungenfibrose; Lungenerkrankungen; Atemwegserkrankungen |
 
-Alle drei Zulassungen haben den Status „erloschen“.
+Alle drei Zulassungen sind gültig; das Arzneimittel ist in diesem Land im Handel (3 von 3 Zulassungen gültig).
 
 ## Sicherheitsaspekte
 
@@ -92,7 +92,7 @@ Für Warnhinweise und Gegenanzeigen siehe die Fachinformation.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einer Modellberechnung (L5) ohne klinische Studien oder Literatur, und ein plausibler Mechanismus für die Mastzellneoplasie ist nicht erkennbar. Zudem sind in Deutschland derzeit keine gültigen Zulassungen vorhanden.
+Die Vorhersage beruht ausschließlich auf einer Modellberechnung (L5) ohne klinische Studien oder Literatur, und ein plausibler Mechanismus für die Mastzellneoplasie ist nicht erkennbar.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Daten zum Wirkmechanismus (MOA) von Pirfenidon

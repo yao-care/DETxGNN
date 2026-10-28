@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Pibrentasvir
-parent: Nur Modellvorhersage (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 358
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pibrentasvir: vorhergesagte neue Indikation Hepatitis-B-Virusinfektion (Evidenzstufe L5). Ursprüngliche Indikation: Chronische Hepatitis C"
@@ -14,7 +14,7 @@ predicted_indications: ["hepatitis B virus infection", "HIV infectious disease",
 # Pibrentasvir
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ für diese Indikation liegen jedoch **keine klinischen Studien** und **keine HBV
 |------|------|
 | Ursprüngliche Indikation | Chronische Hepatitis C |
 | Vorhergesagte neue Indikation | Hepatitis-B-Virusinfektion |
-| TxGNN-Vorhersagewert | 99,84 % |
+| TxGNN-Vorhersagewert | 0,9984 |
 | Evidenzstufe | L4 (formal; faktisch nur Modellvorhersage, da keine HBV-spezifischen Studien vorliegen) |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung (Cancelled only) |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
@@ -101,7 +101,7 @@ Für Hepatitis-B-Virusinfektion liegt keine HBV-spezifische Literatur zu Pibrent
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004430 | Maviret | – | Chronische Hepatitis C (Status: erloschen) |
+| EMEA/H/C/004430 | Maviret | – | Chronische Hepatitis C (Status: gültig) |
 
 ## Zytotoxizität
 

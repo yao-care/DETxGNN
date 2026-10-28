@@ -48,10 +48,10 @@ Tecovirimat ist ein antivirales Arzneimittel, das ursprünglich zur Behandlung v
 |------|------|
 | Ursprüngliche Indikation | Pockeninfektionen, Kuhpocken, Affenpocken (Mpox), Vakzinia, Pocken |
 | Vorhergesagte neue Indikation | Hordeolum (Gerstenkorn) |
-| TxGNN-Vorhersagewert | 99,66 % |
+| TxGNN-Vorhersagewert | 0,9966 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung (Zulassung gelöscht/zurückgezogen) |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -97,7 +97,7 @@ Zur Einordnung: Für die Vorhersage „Koinfektion“ (Rang 5) wurden 20 Publika
 |---------|------|------|-----------|
 | EMEA/H/C/005248 | Tecovirimat SIGA | – | Pockeninfektionen, Kuhpocken, Affenpocken, Vakzinia, Pocken |
 
-Der Status dieser Zulassung ist erloschen (gelöscht); aktuell besteht keine gültige Zulassung.
+Der Status dieser Zulassung ist gültig; aktuell besteht 1 gültige Zulassung von 1.
 
 ---
 
@@ -112,7 +112,7 @@ Für die Sicherheit siehe bitte die Fachinformation. Zu Wechselwirkungen wurden 
 **Entscheidung: Hold**
 
 **Begründung:**
-Für Hordeolum gibt es weder klinische Studien noch Literatur, und es besteht kein plausibler Mechanismus: Tecovirimat wirkt spezifisch auf Orthopockenviren, während ein Hordeolum meist bakteriell bedingt ist. Der hohe TxGNN-Wert allein (Evidenzgrad L5) reicht nicht aus. Zudem besteht in Deutschland derzeit keine gültige Zulassung.
+Für Hordeolum gibt es weder klinische Studien noch Literatur, und es besteht kein plausibler Mechanismus: Tecovirimat wirkt spezifisch auf Orthopockenviren, während ein Hordeolum meist bakteriell bedingt ist. Der hohe TxGNN-Wert allein (Evidenzgrad L5) reicht nicht aus. In Deutschland ist das Arzneimittel derzeit im Handel (1 gültige Zulassung von 1).
 
 **Um weiterzugehen, wird Folgendes benötigt:**
 - Fachinformation des BfArM mit Warnhinweisen und Gegenanzeigen (derzeit blockierende Datenlücke für das Sicherheitsscreening)

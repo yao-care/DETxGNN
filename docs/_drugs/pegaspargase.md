@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pegaspargase
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 346
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Pegaspargase: vorhergesagte neue Indikation Vorläuferzell-lymphoblastisches Lymphom/Leukämie (Evidenzstufe L1). Ursprüngliche Indikation: Vorläuferzell-lymphoblastische Leukämie/Lymphom"
 monitor_inn: "PEGASPARGASE"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
+description: "Pegaspargase: vorhergesagte neue Indikation Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (Evidenzstufe L5). Ursprüngliche Indikation: Precursor Cell Lymphoblastic Leukem…"
 ---
 
 # Pegaspargase
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Pegaspargase: Von akuter lymphoblastischer Leukämie zu Vorläuferzell-lymphoblastischem Lymphom/Leukämie
+## Pegaspargase: Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,12 +48,12 @@ Wichtig: Die vorhergesagte Indikation entspricht im Wesentlichen der bereits zug
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Vorläuferzell-lymphoblastische Leukämie/Lymphom |
-| Vorhergesagte neue Indikation | Vorläuferzell-lymphoblastisches Lymphom/Leukämie |
-| TxGNN-Vorhersagewert | 99,96 % |
-| Evidenzstufe | L1 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung (Verfügbarkeit prüfen) |
-| Anzahl Zulassungen | 1 (erloschen) |
+| Ursprüngliche Indikation | Precursor Cell Lymphoblastic Leukemia-Lymphoma |
+| Vorhergesagte neue Indikation | Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma |
+| TxGNN-Vorhersagewert | 0.9995 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails |
 
 ---
@@ -108,7 +108,7 @@ Bei den meisten Studien ist Pegaspargase Teil des Therapiegerüsts. Der spezifis
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/003789 | Oncaspar | – | Vorläuferzell-lymphoblastische Leukämie/Lymphom (Status: erloschen) |
+| EMEA/H/C/003789 | Oncaspar | – | Vorläuferzell-lymphoblastische Leukämie/Lymphom (Status: gültig) |
 
 Die einzige erfasste Zulassung ist erloschen. Die tatsächliche Produktverfügbarkeit sollte vor einer Weiterverfolgung geprüft werden.
 

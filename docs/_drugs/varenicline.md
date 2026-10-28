@@ -48,10 +48,10 @@ Vareniclin ist ein Wirkstoff zur Raucherentwöhnung (Tabakentwöhnung). Das TxGN
 |------|------|
 | Ursprüngliche Indikation | Tabakentwöhnung |
 | Vorhergesagte neue Indikation | Migräne (migraine disorder) |
-| TxGNN-Vorhersagewert | 99,92 % |
+| TxGNN-Vorhersagewert | 0,9992 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -101,7 +101,7 @@ Keine dieser Arbeiten belegt eine Wirksamkeit bei Migräne oder einer anderen Ko
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000699 | Champix (Pfizer Europe MA EEIG) | – | Tabakentwöhnung (Status: erloschen) |
+| EMEA/H/C/000699 | Champix (Pfizer Europe MA EEIG) | – | Tabakentwöhnung (Status: gültig) |
 
 ---
 
@@ -119,7 +119,7 @@ Für Warnhinweise und Gegenanzeigen laut Fachinformation siehe bitte die Packung
 **Entscheidung: Hold**
 
 **Begründung:**
-- Die Vorhersage beruht nur auf dem Graphenmodell (L5). Es gibt keine Studien und keine Wirksamkeitsdaten bei Migräne, und Kopfschmerz ist eine bekannte Nebenwirkung von Vareniclin. Zudem besteht in Deutschland keine gültige Zulassung.
+- Die Vorhersage stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. Es gibt keine Studien und keine Wirksamkeitsdaten bei Migräne, und Kopfschmerz ist eine bekannte Nebenwirkung von Vareniclin. In Deutschland ist das Arzneimittel im Handel, 1 von 1 Zulassung ist gültig.
 
 **Für ein Weiterkommen erforderlich:**
 - Präklinische Daten oder Mechanismusstudien zur Rolle nikotinerger Rezeptoren bei Migräne

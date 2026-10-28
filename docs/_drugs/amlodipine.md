@@ -4,7 +4,7 @@ title: Amlodipine
 parent: Nur Modellvorhersage (L5)
 nav_order: 31
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Amlodipine: vorhergesagte neue Indikation Hirnstamminfarkt (Evidenzstufe L5). Ursprüngliche Indikation: Hypertonie"
 monitor_inn: "AMLODIPINE"
@@ -14,7 +14,7 @@ predicted_indications: ["brain stem infarction", "pulmonary hypertension owing t
 # Amlodipine
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Die am besten belegte Richtung unter den Vorhersagen ist die **intrazerebrale Bl
 |------|------|
 | Ursprüngliche Indikation | Hypertonie |
 | Vorhergesagte neue Indikation | Hirnstamminfarkt |
-| TxGNN-Vorhersagewert | 99,94 % |
+| TxGNN-Vorhersagewert | 0,9994 |
 | Evidenzgrad | L5 (nur Modellvorhersage) |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 8 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 8 von 8) |
+| Anzahl der Zulassungen | 8 (gültig: 8) |
 | Empfohlene Entscheidung | Hold |
 
 Hinweis: Weitere Vorhersagen weisen höhere Evidenzgrade auf, z. B. die intrazerebrale Blutung (L1, mit Einschränkungen, siehe unten) und der Verschluss zerebraler Arterien (L3, überwiegend präklinisch).
@@ -74,7 +74,7 @@ Präklinische Daten stützen eine neuroprotektive Wirkung bei zerebraler Ischäm
 
 Für den Spitzenkandidaten **Hirnstamminfarkt** sind derzeit keine einschlägigen klinischen Studien registriert.
 
-Für die klinisch am besten belegte Vorhersage, **intrazerebrale Blutung** (TxGNN-Wert 99,79 %), liegen folgende Studien vor:
+Für die klinisch am besten belegte Vorhersage, **intrazerebrale Blutung** (TxGNN-Wert 0,9979), liegen folgende Studien vor:
 
 | Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
 |---------|------|------|------|---------|
@@ -113,7 +113,7 @@ Zum Verschluss zerebraler Arterien (präklinisch):
 
 ## Marktinformationen Deutschland
 
-Alle acht Zulassungen sind erloschen. Es handelt sich um zentrale EU-Zulassungen (EMEA) von Kombinationspräparaten.
+Alle acht Zulassungen sind gültig. Es handelt sich um zentrale EU-Zulassungen (EMEA) von Kombinationspräparaten.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -140,7 +140,7 @@ Für Warnhinweise und Gegenanzeigen aus der Packungsbeilage ist die Fachinformat
 **Entscheidung: Hold**
 
 **Begründung:**
-Für den Spitzenkandidaten Hirnstamminfarkt gibt es ausschließlich eine Modellvorhersage ohne Studien oder Literatur (L5). Die stärkste klinische Evidenz (TRIDENT, intrazerebrale Blutung) betrifft eine Dreifachkombination; ein amlodipinspezifischer Effekt ist nicht abgrenzbar. Zudem besteht in Deutschland aktuell keine gültige Zulassung.
+Für den Spitzenkandidaten Hirnstamminfarkt gibt es ausschließlich eine Modellvorhersage ohne Studien oder Literatur (L5). Die stärkste klinische Evidenz (TRIDENT, intrazerebrale Blutung) betrifft eine Dreifachkombination; ein amlodipinspezifischer Effekt ist nicht abgrenzbar. Das Arzneimittel ist in Deutschland aktuell im Handel, alle 8 Zulassungen sind gültig.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Detaillierte Mechanismusdaten (MOA), z. B. aus DrugBank

@@ -4,17 +4,17 @@ title: Phenylephrine
 parent: Mittlere Evidenz (L3-L4)
 nav_order: 357
 evidence_level: L3
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Phenylephrine: vorhergesagte neue Indikation Erkrankung der Nasenhöhle (nasal cavity disease) (Evidenzstufe L3). Ursprüngliche Indikation: Intraokulare Linsenimplantation"
 monitor_inn: "PHENYLEPHRINE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 ---
 
 # Phenylephrine
 {: .fs-9 }
 
-Evidenzniveau: **L3** | Vorhergesagte Indikationen: **3** 
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-## Phenylephrin: Von postoperativer Augenanwendung zu Erkrankungen der Nasenhöhle
+## Phenylephrin: Von postoperativer Augenanwendung zu Erkrankung der Nasenhöhle
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,10 +48,10 @@ Phenylephrin ist ein selektiver Alpha-1-Agonist, der in Deutschland als Bestandt
 |------|------|
 | Ursprüngliche Indikation | Intraokulare Linsenimplantation; postoperative Schmerzen |
 | Vorhergesagte neue Indikation | Erkrankung der Nasenhöhle (nasal cavity disease) |
-| TxGNN-Vorhersagewert | 99,97 % |
+| TxGNN-Vorhersagewert | 0,9997 |
 | Evidenzstufe | L3 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortführung mit Schutzmaßnahmen) |
 
 ---
@@ -127,8 +127,8 @@ Die pharmakologische Plausibilität (Gefäßverengung der Nasenschleimhaut, bere
 
 | Vorhergesagte Indikation | TxGNN-Wert | Evidenzstufe | Empfehlung | Bemerkung |
 |------|------|------|------|------|
-| Akute Laryngopharyngitis | 99,97 % | L5 | Hold | Keine Studien oder Literatur; allenfalls symptomatischer Nutzen, kardiovaskuläres Risiko |
-| Trigeminoautonomer Kopfschmerz | 99,30 % | L4 | Hold | Literatur beschreibt Phenylephrin nur als diagnostische Substanz in der Pupillometrie, kein Therapienachweis |
+| Akute Laryngopharyngitis | 0,9997 | L5 | Hold | Keine Studien oder Literatur; allenfalls symptomatischer Nutzen, kardiovaskuläres Risiko |
+| Trigeminoautonomer Kopfschmerz | 0,9930 | L4 | Hold | Literatur beschreibt Phenylephrin nur als diagnostische Substanz in der Pupillometrie, kein Therapienachweis |
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

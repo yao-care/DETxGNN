@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Posaconazole
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 365
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Posaconazole: vorhergesagte neue Indikation Pneumocystose (Evidenzstufe L4). Ursprüngliche Indikation: Candidiasis"
@@ -14,7 +14,7 @@ predicted_indications: ["pneumocystosis"]
 # Posaconazole
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Posaconazol ist ein Triazol-Antimykotikum, das ursprünglich zur Behandlung von 
 |------|------|
 | Ursprüngliche Indikation | Candidiasis; Mykosen; Kokzidioidomykose; Aspergillose |
 | Vorhergesagte neue Indikation | Pneumocystose |
-| TxGNN-Vorhersagewert | 99,77 % |
-| Evidenzlevel | L4 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 5 (alle erloschen) |
+| TxGNN-Vorhersagewert | 0,9977 |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 5 von 5) |
+| Anzahl der Zulassungen | 5 (gültig: 5) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -60,7 +60,7 @@ Posaconazol ist ein Triazol-Antimykotikum, das ursprünglich zur Behandlung von 
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Posaconazol gehört zur Klasse der Triazol-Antimykotika und hemmt die fungale Lanosterol-14-alpha-Demethylase (CYP51). Dadurch wird die Ergosterol-Synthese blockiert. Seine Wirksamkeit bei invasiven Mykosen ist belegt, und Pneumocystis jirovecii wird taxonomisch zu den Pilzen gezählt. Daraus ergibt sich eine Plausibilität auf Klassenebene.
 
-Es gibt jedoch ein gewichtiges Gegenargument: Die Membran von Pneumocystis enthält kaum Ergosterol und verwendet stattdessen vor allem Cholesterin und andere Sterole. Azole wie Posaconazol gelten daher allgemein als wenig wirksam gegen diesen Erreger. Der hohe TxGNN-Wert (0,998) beruht vermutlich eher auf der breiten antimykotischen Annotation des Wirkstoffs als auf einem validierten Mechanismus. Die mechanistische Verbindung ist somit nicht bestätigt und eher skeptisch zu beurteilen.
+Es gibt jedoch ein gewichtiges Gegenargument: Die Membran von Pneumocystis enthält kaum Ergosterol und verwendet stattdessen vor allem Cholesterin und andere Sterole. Azole wie Posaconazol gelten daher allgemein als wenig wirksam gegen diesen Erreger. Der hohe TxGNN-Wert (0,9977) beruht vermutlich eher auf der breiten antimykotischen Annotation des Wirkstoffs als auf einem validierten Mechanismus. Die mechanistische Verbindung ist somit nicht bestätigt und eher skeptisch zu beurteilen.
 
 ---
 
@@ -88,7 +88,7 @@ Keine dieser Arbeiten liefert direkte Wirksamkeitsdaten für Posaconazol bei Pne
 
 ## Marktinformationen Deutschland
 
-Alle Zulassungen sind erloschen (europäische Zentralzulassungen).
+Alle 5 Zulassungen sind gültig (europäische Zentralzulassungen); das Arzneimittel ist im Handel.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -121,7 +121,7 @@ Zu Warnhinweisen und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinforma
 **Entscheidung: Hold**
 
 **Begründung:**
-Der hohe TxGNN-Wert wird durch keine direkte klinische Evidenz gestützt. Die einzige Studie prüft einen anderen Wirkstoff, die Literatur besteht aus allgemeinen Übersichten. Zudem spricht die Biologie von Pneumocystis (kaum Ergosterol) gegen eine Azol-Wirksamkeit. Alle deutschen Zulassungen sind erloschen.
+Der hohe TxGNN-Wert wird durch keine direkte klinische Evidenz gestützt. Die einzige Studie prüft einen anderen Wirkstoff, die Literatur besteht aus allgemeinen Übersichten. Zudem spricht die Biologie von Pneumocystis (kaum Ergosterol) gegen eine Azol-Wirksamkeit. Alle 5 deutschen Zulassungen sind gültig, das Arzneimittel ist im Handel.
 
 **Für ein Weiterverfolgen sind erforderlich:**
 - Fachinformation mit Warnhinweisen und Gegenanzeigen (derzeit blockierende Datenlücke für die Sicherheitsbewertung)

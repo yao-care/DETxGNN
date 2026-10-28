@@ -4,17 +4,17 @@ title: Tasimelteon
 parent: Nur Modellvorhersage (L5)
 nav_order: 444
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Tasimelteon: vorhergesagte neue Indikation Insomnie (Rang 2 der Vorhersagen (Evidenzstufe L5). Ursprüngliche Indikation: Schlafstörungen, zirkadiane Rhythmusstörungen"
 monitor_inn: "TASIMELTEON"
-predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "insomnia (disease)", "amyotrophic lateral sclerosis", "endogenous depression", "axial spondylometaphyseal dysplasia", "monomelic amyotrophy", "amyotrophic lateral sclerosis, susceptibility to", "lower motor neuron syndrome with late-adult onset", "Mills syndrome", "amyotrohpic lateral sclerosis type 22"]
+predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "insomnia (disease)", "amyotrophic lateral sclerosis", "endogenous depression", "axial spondylometaphyseal dysplasia", "monomelic amyotrophy", "lower motor neuron syndrome with late-adult onset", "Mills syndrome", "amyotrohpic lateral sclerosis type 22"]
+description: "Tasimelteon: vorhergesagte neue Indikation Bilateral parasagittal parieto-occipital polymicrogyria (Evidenzstufe L5). Ursprüngliche Indikation: Sleep Disorders, Circadian Rhythm"
 ---
 
 # Tasimelteon
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Tasimelteon: Von zirkadianen Schlafstörungen zu Insomnie
+## Tasimelteon: Bilateral parasagittal parieto-occipital polymicrogyria
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,15 +48,15 @@ Abgeschlossene Wirksamkeitsdaten liegen bislang nicht vor.
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Schlafstörungen, zirkadiane Rhythmusstörungen |
-| Vorhergesagte neue Indikation | Insomnie (Rang 2 der Vorhersagen; siehe Hinweis unten) |
-| TxGNN-Vorhersagewert | 99,47 % |
-| Evidenzgrad | L1 (vorläufig, da nur eine laufende Phase-3-Studie ohne Ergebnisse) |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Ursprüngliche Indikation | Sleep Disorders, Circadian Rhythm |
+| Vorhergesagte neue Indikation | Bilateral parasagittal parieto-occipital polymicrogyria |
+| TxGNN-Vorhersagewert | 0.9948 |
+| Evidenzgrad | L5 (vorläufig, da nur eine laufende Phase-3-Studie ohne Ergebnisse) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails |
 
-**Hinweis zur Auswahl:** Die Vorhersage mit dem höchsten Wert (Rang 1, bilaterale parasagittale parieto-okzipitale Polymikrogyrie, Score 99,48 %) hat keinerlei Studien- oder Literaturgrundlage und keinen erkennbaren mechanistischen Zusammenhang (Evidenzgrad L5, Hold). Dieser Bericht konzentriert sich daher auf die am besten belegte Vorhersage, Insomnie.
+**Hinweis zur Auswahl:** Die Vorhersage mit dem höchsten Wert (Rang 1, bilaterale parasagittale parieto-okzipitale Polymikrogyrie, Score 0,9948) hat keinerlei Studien- oder Literaturgrundlage und keinen erkennbaren mechanistischen Zusammenhang (Evidenzgrad L5, Hold). Dieser Bericht konzentriert sich daher auf die am besten belegte Vorhersage, Insomnie.
 
 ---
 
@@ -93,7 +93,7 @@ Die ursprüngliche Indikation (zirkadiane Schlafrhythmusstörungen) und Insomnie
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/003870 | Hetlioz | – | Schlafstörungen, zirkadiane Rhythmusstörungen (Status: erloschen) |
+| EMEA/H/C/003870 | Hetlioz | – | Schlafstörungen, zirkadiane Rhythmusstörungen (Status: gültig) |
 
 ---
 

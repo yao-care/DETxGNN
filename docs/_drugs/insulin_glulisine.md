@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Insulin Glulisine
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 243
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Insulin Glulisine: vorhergesagte neue Indikation Diabetes mellitus Typ 1 (Evidenzstufe L1). Ursprüngliche Indikation: Diabetes mellitus"
+description: "Insulin Glulisine: vorhergesagte neue Indikation thiamine-responsive dysfunction syndrome (Evidenzstufe L1). Ursprüngliche Indikation: Diabetes mellitus"
 monitor_inn: "INSULIN GLULISINE"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysp
 # Insulin Glulisine
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Insulin glulisin: Von Diabetes mellitus zu Diabetes mellitus Typ 1
+## Insulin glulisin: Von Diabetes mellitus zu thiamine-responsive dysfunction syndrome
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Insulin glulisin ist ein schnell wirksames Insulinanalogon, das ursprünglich zu
 |------|------|
 | Ursprüngliche Indikation | Diabetes mellitus |
 | Vorhergesagte neue Indikation | Diabetes mellitus Typ 1 |
-| TxGNN-Vorhersagewert | 99,55 % |
-| Evidenzlevel | L1 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung (kein aktiv zugelassenes Produkt) |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| TxGNN-Vorhersagewert | 0,9947 |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
 
 ---
@@ -108,7 +108,7 @@ Insgesamt wurden 30 Studien erfasst, darunter mehrere abgeschlossene Phase-3-Stu
 |---------|------|------|-----------|
 | EMEA/H/C/000557 | Apidra (sanofi-aventis Deutschland GmbH) | Nicht angegeben | Diabetes mellitus |
 
-Die Zulassung ist erloschen. Aktuell ist keine gültige Zulassung vorhanden.
+Das Arzneimittel ist im Handel. Von 1 Zulassung ist 1 gültig.
 
 ---
 
@@ -127,15 +127,15 @@ Für weitere Sicherheitsangaben (Warnhinweise, Gegenanzeigen) siehe die Fachinfo
 
 | Vorhergesagte Indikation | TxGNN-Wert | Evidenzlevel | Einschätzung |
 |------|------|------|------|
-| Thiamin-responsives Dysfunktionssyndrom | 99,47 % | L5 | Hold: Insulin würde nur die diabetische Komponente behandeln, nicht den Transportdefekt |
-| Opsismodysplasie | 99,46 % | L5 | Hold: nur spekulativer Zusammenhang über INPPL1 (SHIP2) |
-| Fokales Stiff-Limb-Syndrom | 99,46 % | L5 | Hold: Zusammenhang über Anti-GAD-Autoimmunität, keine Evidenz |
-| Klassisches Stiff-Person-Syndrom | 99,46 % | L5 | Hold: Insulin behandelt nur den komorbiden Diabetes |
-| Autoimmune Oophoritis | 99,37 % | L5 | Hold: Assoziation über polyglanduläre Autoimmunität |
-| Pankreasagenesie | 99,17 % | L4 | Forschungsfrage: Insulinersatz mechanistisch plausibel, glulisin-spezifische Daten fehlen |
-| Medikamentös bedingte lokalisierte Lipodystrophie | 99,15 % | L5 | Hold: Sicherheitssignal |
-| Zentrifugale Lipodystrophie | 99,11 % | L5 | Hold: kein therapeutischer Ansatz belegt |
-| Druckinduzierte lokalisierte Lipoatrophie | 99,10 % | L5 | Hold: Nebenwirkungsassoziation |
+| Thiamin-responsives Dysfunktionssyndrom | 0,9947 | L5 | Hold: Insulin würde nur die diabetische Komponente behandeln, nicht den Transportdefekt |
+| Opsismodysplasie | 0,9946 | L5 | Hold: nur spekulativer Zusammenhang über INPPL1 (SHIP2) |
+| Fokales Stiff-Limb-Syndrom | 0,9946 | L5 | Hold: Zusammenhang über Anti-GAD-Autoimmunität, keine Evidenz |
+| Klassisches Stiff-Person-Syndrom | 0,9946 | L5 | Hold: Insulin behandelt nur den komorbiden Diabetes |
+| Autoimmune Oophoritis | 0,9937 | L5 | Hold: Assoziation über polyglanduläre Autoimmunität |
+| Pankreasagenesie | 0,9917 | L5 | Forschungsfrage: Insulinersatz mechanistisch plausibel, glulisin-spezifische Daten fehlen |
+| Medikamentös bedingte lokalisierte Lipodystrophie | 0,9915 | L5 | Hold: Sicherheitssignal |
+| Zentrifugale Lipodystrophie | 0,9911 | L5 | Hold: kein therapeutischer Ansatz belegt |
+| Druckinduzierte lokalisierte Lipoatrophie | 0,9910 | L5 | Hold: Nebenwirkungsassoziation |
 
 ---
 

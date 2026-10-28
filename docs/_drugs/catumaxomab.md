@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-## Catumaxomab: Von Aszites zu schwerer nicht-proliferativer diabetischer Retinopathie
+## Catumaxomab: Schwere nichtproliferative diabetische Retinopathie
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -50,10 +50,10 @@ jedoch liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Aszites |
 | Vorhergesagte neue Indikation | Schwere nicht-proliferative diabetische Retinopathie |
-| TxGNN-Vorhersagewert | 99,64 % |
+| TxGNN-Vorhersagewert | 0,9964 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -64,7 +64,7 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten k
 
 Ein plausibler biologischer Zusammenhang zur diabetischen Retinopathie ist nicht erkennbar. Deren Pathophysiologie (VEGF-getriebene Gefäßpermeabilität, Perizytenverlust, retinale Ischämie, Entzündung) hat keine erkennbare Verbindung zu einer EpCAM-gerichteten T-Zell-Aktivierung. Der hohe TxGNN-Wert scheint auf einer graphbasierten Nähe im Wissensnetz zu beruhen, nicht auf einer pharmakologischen Begründung. Zudem wäre eine Immunaktivierung mit einem zur Zytokinfreisetzung neigenden Wirkstoff in einem Netzhautkontext sicherheitskritisch.
 
-Weitere vorhergesagte Indikationen sind **medikamenteninduzierte Osteoporose** (Score 99,58 %) und **diabetische Retinopathie** (Score 99,47 %). Auch hierfür gibt es weder Studien noch Literatur und keinen erkennbaren Mechanismus. Eine T-Zell-Aktivierung mit Zytokinfreisetzung (z. B. TNF-alpha, IL-6) könnte den Knochenabbau theoretisch eher verstärken. Die Vorhersage zur diabetischen Retinopathie ist weitgehend redundant zur spezifischeren Vorhersage der schweren nicht-proliferativen Form.
+Weitere vorhergesagte Indikationen sind **medikamenteninduzierte Osteoporose** (Score 0,9958) und **diabetische Retinopathie** (Score 0,9947). Auch hierfür gibt es weder Studien noch Literatur und keinen erkennbaren Mechanismus. Eine T-Zell-Aktivierung mit Zytokinfreisetzung (z. B. TNF-alpha, IL-6) könnte den Knochenabbau theoretisch eher verstärken. Die Vorhersage zur diabetischen Retinopathie ist weitgehend redundant zur spezifischeren Vorhersage der schweren nicht-proliferativen Form.
 
 ---
 

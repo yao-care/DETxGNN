@@ -8,6 +8,7 @@ nav_order: 391
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Relugolix
@@ -45,8 +46,8 @@ Relugolix (DrugBank: DB11853) ist ein oral wirksamer GnRH-Rezeptor-Antagonist, d
 
 | Element | Inhalt |
 |---------|--------|
-| Marktstatus in Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Vorhergesagte neue Indikation | Ausstehend — TxGNN-Vorhersagen noch nicht generiert |
 | Empfehlung zur Entscheidung | Hold |
 

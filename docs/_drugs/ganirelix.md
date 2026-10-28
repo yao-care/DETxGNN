@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Assistierte Reproduktionstechniken; Ovulationsinduktion; weibliche Infertilität |
 | Vorhergesagte neue Indikation | Hypertrichose |
-| TxGNN-Vorhersagewert | 99,98 % |
+| TxGNN-Vorhersagewert | 0,9998 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassungen (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Aus der Pharmakologie ist bekannt: Ganirelix ist ein Peptid-Antagonist am GnRH-Rezeptor (GNRHR). Er unterdrückt LH und FSH und damit die nachgeschaltete Bildung von Sexualsteroiden. In der Reproduktionsmedizin wird dies genutzt, um einen vorzeitigen LH-Anstieg zu verhindern.
 
-Der Zusammenhang zur vorhergesagten Indikation ist **schwach**. Hypertrichose ist im Gegensatz zum Hirsutismus in der Regel nicht androgengetrieben. Ein Nutzen durch Unterdrückung der Hypophysen-Gonaden-Achse ist daher mechanistisch kaum zu begründen. Der hohe Modellwert ist vermutlich eher auf Nähe im Wissensgraphen (haarbezogene Phänotypen) als auf Pharmakologie zurückzuführen.
+Der Zusammenhang zur vorhergesagten Indikation ist **schwach**. Hypertrichose ist im Gegensatz zum Hirsutismus in der Regel nicht androgengetrieben. Ein Nutzen durch Unterdrückung der Hypophysen-Gonaden-Achse ist daher mechanistisch kaum zu begründen. Der hohe Wert stammt vom TxGNN-Modell (Deep Learning) und spiegelt vermutlich eher vom Modell gelernte Ähnlichkeiten zwischen verwandten Erkrankungen (haarbezogene Phänotypen) wider als biologische Evidenz oder Pharmakologie.
 
 Auch die weiteren Top-10-Vorhersagen sind überwiegend nicht plausibel (z. B. Ambras-Syndrom, Dandy-Walker-Syndrom, Haarschaftanomalien, persistierender fetaler Kreislauf). Mechanistisch nachvollziehbar, aber unbelegt sind nur wenige Kandidaten, die als Forschungsfragen gelten:
 
@@ -88,8 +88,8 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
 |---------|------|------|-----------|------|
-| EMEA/H/C/000274 | Orgalutran | – | Assistierte Reproduktionstechniken; Ovulationsinduktion; weibliche Infertilität | Erloschen |
-| EMEA/H/C/005641 | Ganirelix Gedeon Richter | – | Assistierte Reproduktionstechniken; Ovulationsinduktion; weibliche Infertilität | Erloschen |
+| EMEA/H/C/000274 | Orgalutran | – | Assistierte Reproduktionstechniken; Ovulationsinduktion; weibliche Infertilität | Gültig |
+| EMEA/H/C/005641 | Ganirelix Gedeon Richter | – | Assistierte Reproduktionstechniken; Ovulationsinduktion; weibliche Infertilität | Gültig |
 
 ---
 

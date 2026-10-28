@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Daunorubicin
-parent: Nur Modellvorhersage (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 134
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Daunorubicin: vorhergesagte neue Indikation Morbus Hodgkin (Hodgkin-Lymphom) (Evidenzstufe L5). Ursprüngliche Indikation: Akute myeloische Leukämie"
@@ -14,7 +14,7 @@ predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable e
 # Daunorubicin
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Daunorubicin: Von akuter myeloischer Leukämie zu Morbus Hodgkin
+## Daunorubicin: Von akuter myeloischer Leukämie zu Morbus Hodgkin (Hodgkin-Lymphom)
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Daunorubicin ist ein Anthracyclin-Zytostatikum, das ursprünglich zur Behandlung
 |------|------|
 | Ursprüngliche Indikation | Akute myeloische Leukämie |
 | Vorhergesagte neue Indikation | Morbus Hodgkin (Hodgkin-Lymphom) |
-| TxGNN-Vorhersagewert | 99,81 % |
+| TxGNN-Vorhersagewert | 0,9981 |
 | Evidenzstufe | L2 (nach der Einstufung der Datenbasis; faktisch jedoch nur indirekte Evidenz, siehe unten) |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -94,7 +94,7 @@ Hinweis: Die Studien zu liposomalem Daunorubicin betreffen das Non-Hodgkin-Lymph
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004282 | Vyxeos liposomal (zuvor Vyxeos) | k. A. | Akute myeloische Leukämie (Status: erloschen) |
+| EMEA/H/C/004282 | Vyxeos liposomal (zuvor Vyxeos) | k. A. | Akute myeloische Leukämie (Status: gültig) |
 
 ---
 
@@ -128,7 +128,7 @@ Für Warnhinweise und Gegenanzeigen der Fachinformation bitte die Packungsbeilag
 **Entscheidung: Hold**
 
 **Begründung:**
-Die vorliegenden Studien sind Mehrstoff-Chemotherapien, in denen der Beitrag von Daunorubicin nicht isoliert werden kann, oder betreffen das Non-Hodgkin-Lymphom. Beim Hodgkin-Lymphom ist Doxorubicin (ABVD) etabliert. Zudem besteht in Deutschland keine gültige Zulassung. Die Datenlage trägt derzeit keine Weiterentwicklung als belastbare Forschungsfrage mit Priorität.
+Die vorliegenden Studien sind Mehrstoff-Chemotherapien, in denen der Beitrag von Daunorubicin nicht isoliert werden kann, oder betreffen das Non-Hodgkin-Lymphom. Beim Hodgkin-Lymphom ist Doxorubicin (ABVD) etabliert. Das Arzneimittel ist in Deutschland im Handel (1 von 1 Zulassungen gültig). Die Datenlage trägt derzeit keine Weiterentwicklung als belastbare Forschungsfrage mit Priorität.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Daten zur Fachinformation (Warnhinweise, Gegenanzeigen) als Voraussetzung für die Sicherheitsprüfung

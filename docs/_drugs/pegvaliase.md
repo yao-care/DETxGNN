@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-## Pegvaliase: Von Phenylketonurie zu diabetischer Retinopathie
+## Pegvaliase: Von Phenylketonurie zu Diabetische Retinopathie
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,15 +48,15 @@ Pegvaliase ist ein PEGyliertes Enzym (Phenylalanin-Ammoniak-Lyase), das ursprün
 |------|------|
 | Ursprüngliche Indikation | Phenylketonurie |
 | Vorhergesagte neue Indikation | Diabetische Retinopathie |
-| TxGNN-Vorhersagewert | 99,17 % |
+| TxGNN-Vorhersagewert | 0,9917 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 Weitere vorhergesagte Indikationen (ebenfalls L5, jeweils Hold):
-- Schwere nichtproliferative diabetische Retinopathie (Score 99,16 %)
-- Diabetische Katarakt (Score 99,11 %)
+- Schwere nichtproliferative diabetische Retinopathie (Score 0,9916)
+- Diabetische Katarakt (Score 0,9911)
 
 ---
 
@@ -66,7 +66,7 @@ Pegvaliase ist eine PEGylierte Phenylalanin-Ammoniak-Lyase. Sie wandelt Phenylal
 
 Ein mechanistischer Zusammenhang zwischen der Senkung von Phenylalanin und der diabetischen Retinopathie ist durch die vorliegenden Daten **nicht belegt**. Die diabetische Retinopathie entsteht durch hyperglykämiebedingte Schädigung des Endothels, VEGF-Signalwege und Entzündung, ohne dokumentierte Verbindung zum Phenylalaninstoffwechsel. Der hohe TxGNN-Wert ist eine rein rechnerische Vorhersage und jede Verknüpfung wäre spekulativ.
 
-Die schwere nichtproliferative Form ist ein fortgeschrittenes Stadium derselben Erkrankung. Der hohe Wert spiegelt vermutlich die Nähe zum übergeordneten Knoten im Wissensgraphen wider, nicht unabhängige Evidenz. Bei der diabetischen Katarakt stehen Polyolweg, osmotischer Stress und oxidative Linsenschädigung im Vordergrund, die ebenfalls nicht mit Pegvaliase verknüpft sind. Zusätzlich müssten bei einer okulären Anwendung die Immunogenität des PEGylierten Enzyms und das Anaphylaxierisiko berücksichtigt werden.
+Die schwere nichtproliferative Form ist ein fortgeschrittenes Stadium derselben Erkrankung. Der hohe Wert stammt vom TxGNN-Modell (Deep Learning) und kann vom Modell gelernte Ähnlichkeiten zwischen verwandten Erkrankungen widerspiegeln, keine biologische Evidenz. Bei der diabetischen Katarakt stehen Polyolweg, osmotischer Stress und oxidative Linsenschädigung im Vordergrund, die ebenfalls nicht mit Pegvaliase verknüpft sind. Zusätzlich müssten bei einer okulären Anwendung die Immunogenität des PEGylierten Enzyms und das Anaphylaxierisiko berücksichtigt werden.
 
 ---
 
@@ -110,7 +110,7 @@ Zu Warnhinweisen und Gegenanzeigen siehe die Fachinformation.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem Modellwert (L5) ohne klinische Studien, Publikationen oder einen belegten mechanistischen Zusammenhang. Zudem besteht in Deutschland derzeit keine gültige Zulassung.
+Die Vorhersage beruht ausschließlich auf einem Modellwert (L5) ohne klinische Studien, Publikationen oder einen belegten mechanistischen Zusammenhang. Das Arzneimittel ist in Deutschland derzeit im Handel, mit 1 gültigen Zulassung von 1.
 
 **Für ein Weiterkommen sind folgende Schritte erforderlich:**
 - Daten zum Wirkmechanismus (MOA) ergänzen und eine plausible Verbindung zwischen Phenylalaninabbau und Netzhaut-Mikrogefäßerkrankung prüfen

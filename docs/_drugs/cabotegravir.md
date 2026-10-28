@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-## Cabotegravir: Von HIV-Infektionen zu rheumatoider Arthritis
+## Cabotegravir: Von HIV-Infektionen zu Rheumatoide Arthritis
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür gibt es derzeit **keine klinischen Studien** und **keine Publikationen**;
 |------|------|
 | Ursprüngliche Indikation | HIV-Infektionen |
 | Vorhergesagte neue Indikation | Rheumatoide Arthritis |
-| TxGNN-Vorhersagewert | 99,45 % |
+| TxGNN-Vorhersagewert | 0,9945 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,16 +62,16 @@ Dafür gibt es derzeit **keine klinischen Studien** und **keine Publikationen**;
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten derzeit keine detaillierten Angaben vor. Bekannt ist, dass Cabotegravir ein HIV-Integrase-Strangtransfer-Inhibitor ist, dessen Wirksamkeit bei HIV-Infektionen belegt ist.
 
-Ein mechanistischer Zusammenhang zur rheumatoiden Arthritis ist durch die vorliegenden Daten nicht gestützt. Typische Signalwege der Erkrankung (z. B. TNF, IL-6, JAK/STAT) lassen sich nicht mit der Integrase-Hemmung verknüpfen. Der hohe Vorhersagewert ist eine reine Wissensgraph-Vorhersage und sollte nicht als biologischer Beleg verstanden werden.
+Ein mechanistischer Zusammenhang zur rheumatoiden Arthritis ist durch die vorliegenden Daten nicht gestützt. Typische Signalwege der Erkrankung (z. B. TNF, IL-6, JAK/STAT) lassen sich nicht mit der Integrase-Hemmung verknüpfen. Der hohe Vorhersagewert ist eine reine Vorhersage des TxGNN-Modells (Deep Learning) und sollte nicht als biologischer Beleg verstanden werden.
 
 Weitere Vorhersagen des Modells (jeweils ohne Studien oder Literatur, Evidenzlevel L5, Empfehlung Hold):
 
 | Rang | Vorhergesagte Indikation | TxGNN-Wert |
 |------|------|------|
-| 2 | Sklerosierende Cholangitis | 99,22 % |
-| 3 | Bronchitis | 99,19 % |
-| 4 | Kolobomatöse Mikrophthalmie-rhizomele-Dysplasie-Syndrom | 99,16 % |
-| 5 | Schwere nichtproliferative diabetische Retinopathie | 99,03 % |
+| 2 | Sklerosierende Cholangitis | 0,9922 |
+| 3 | Bronchitis | 0,9919 |
+| 4 | Kolobomatöse Mikrophthalmie-rhizomele-Dysplasie-Syndrom | 0,9916 |
+| 5 | Schwere nichtproliferative diabetische Retinopathie | 0,9903 |
 
 ---
 

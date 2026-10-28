@@ -38,7 +38,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 ## Zusammenfassung in einem Satz
 
-Tyrosin ist eine Aminosäure, die in Europa als Maapliv für die Behandlung der Ahornsirupkrankheit (Maple Syrup Urine Disease) zugelassen wurde. Das TxGNN-Modell sagt für den ranghöchsten Kandidaten, das **Cauda-equina-Syndrom**, eine mögliche Wirksamkeit voraus. Dafür liegen **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Wissensgraphen.
+Tyrosin ist eine Aminosäure, die in Europa als Maapliv für die Behandlung der Ahornsirupkrankheit (Maple Syrup Urine Disease) zugelassen wurde. Das TxGNN-Modell (Deep Learning) sagt für den ranghöchsten Kandidaten, das **Cauda-equina-Syndrom**, eine mögliche Wirksamkeit voraus. Dafür liegen **keine klinischen Studien** und **keine Publikationen** vor; der Score stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz.
 
 ---
 
@@ -48,10 +48,10 @@ Tyrosin ist eine Aminosäure, die in Europa als Maapliv für die Behandlung der 
 |------|------|
 | Ursprüngliche Indikation | Ahornsirupkrankheit (Maple Syrup Urine Disease) |
 | Vorhergesagte neue Indikation | Cauda-equina-Syndrom |
-| TxGNN-Vorhersagewert | 99,77 % |
+| TxGNN-Vorhersagewert | 0,9977 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -66,15 +66,15 @@ Auch die übrigen Kandidaten sind schwach begründet:
 
 | Rang | Vorhergesagte Indikation | Score | Evidenzniveau | Einschätzung |
 |---|---|---|---|---|
-| 2 | Neurogene Blase (veraltete Bezeichnung) | 99,55 % | L5 | Katecholamine beeinflussen theoretisch den Blasentonus, kein direkter Beleg; die Krankheitsbezeichnung ist veraltet, die Zuordnung unzuverlässig |
-| 3 | Engwinkelglaukom | 99,54 % | L5 | Nur assoziative Literatur (z. B. veränderte Plasma-Aminosäuren), kein therapeutischer Effekt belegt |
-| 4 | Hyperthyreose | 99,51 % | L5 | Tyrosin ist Substrat der Hormonsynthese, die Erkrankung beruht aber auf Hormonüberschuss; Supplementierung wäre eher kontraproduktiv |
-| 5 | Posturales orthostatisches Tachykardiesyndrom (POTS) | 99,46 % | L4 | Nur ein Fallbericht zu einem Tyrosinhydroxylase-Hemmer (wirkt entgegengesetzt zu Tyrosin) |
-| 6 | Hyperthyroxinämie | 99,46 % | L5 | Kein therapeutischer Ansatz für eine Supplementierung |
-| 7 | Schilddrüsenhormonresistenz (THRB-Mutation) | 99,40 % | L5 | Rezeptordefekt; mehr Vorstufe korrigiert diesen nicht |
-| 8 | Traumatisches Glaukom | 99,35 % | L5 | Keine tyrosinspezifischen Befunde |
-| 9 | Aqueous Misdirection | 99,35 % | L5 | Anatomische Störung, kein Mechanismus erkennbar |
-| 10 | Neovaskuläres Glaukom | 99,32 % | L5 | VEGF-getrieben, kein Bezug zu Tyrosin |
+| 2 | Neurogene Blase (veraltete Bezeichnung) | 0,9955 | L5 | Katecholamine beeinflussen theoretisch den Blasentonus, kein direkter Beleg; die Krankheitsbezeichnung ist veraltet, die Zuordnung unzuverlässig |
+| 3 | Engwinkelglaukom | 0,9954 | L5 | Nur assoziative Literatur (z. B. veränderte Plasma-Aminosäuren), kein therapeutischer Effekt belegt |
+| 4 | Hyperthyreose | 0,9951 | L5 | Tyrosin ist Substrat der Hormonsynthese, die Erkrankung beruht aber auf Hormonüberschuss; Supplementierung wäre eher kontraproduktiv |
+| 5 | Posturales orthostatisches Tachykardiesyndrom (POTS) | 0,9946 | L5 | Nur ein Fallbericht zu einem Tyrosinhydroxylase-Hemmer (wirkt entgegengesetzt zu Tyrosin) |
+| 6 | Hyperthyroxinämie | 0,9946 | L5 | Kein therapeutischer Ansatz für eine Supplementierung |
+| 7 | Schilddrüsenhormonresistenz (THRB-Mutation) | 0,9940 | L5 | Rezeptordefekt; mehr Vorstufe korrigiert diesen nicht |
+| 8 | Traumatisches Glaukom | 0,9935 | L5 | Keine tyrosinspezifischen Befunde |
+| 9 | Aqueous Misdirection | 0,9935 | L5 | Anatomische Störung, kein Mechanismus erkennbar |
+| 10 | Neovaskuläres Glaukom | 0,9932 | L5 | VEGF-getrieben, kein Bezug zu Tyrosin |
 
 ---
 

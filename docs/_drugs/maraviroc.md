@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Maraviroc: Von HIV-Infektion zu multipler endokriner Neoplasie
+## Maraviroc: Multiple endokrine Neoplasie
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -46,31 +46,31 @@ Maraviroc ist ein CCR5-Antagonist, der ursprünglich zur Behandlung von HIV-Infe
 |------|------|
 | Ursprüngliche Indikation | HIV-Infektionen |
 | Vorhergesagte neue Indikation | Multiple endokrine Neoplasie |
-| TxGNN-Vorhersagewert | 99,82 % |
+| TxGNN-Vorhersagewert | 0,9982 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Maraviroc den Chemokinrezeptor CCR5 blockiert, was seine Wirkung bei HIV erklärt. Für eine Rolle von CCR5 in der Pathogenese der multiplen endokrinen Neoplasie gibt es in den vorliegenden Daten keinen Beleg.
 
-Zwischen der ursprünglichen Indikation (Virusinfektion) und der vorhergesagten Indikation (hereditäre endokrine Tumorerkrankung) besteht keine erkennbare mechanistische Verbindung. Der sehr hohe Modellwert (0,998) ist daher mit Vorsicht zu interpretieren: Er ist ein rein rechnerisches Ergebnis ohne experimentelle oder klinische Bestätigung.
+Zwischen der ursprünglichen Indikation (Virusinfektion) und der vorhergesagten Indikation (hereditäre endokrine Tumorerkrankung) besteht keine erkennbare mechanistische Verbindung. Der sehr hohe Modellwert (0,9982) ist daher mit Vorsicht zu interpretieren: Er ist ein rein rechnerisches Ergebnis ohne experimentelle oder klinische Bestätigung.
 
 **Weitere vorhergesagte Indikationen (zur Einordnung):**
 
 | Rang | Erkrankung | TxGNN-Wert | Evidenz | Anmerkung |
 |---|---|---|---|---|
-| 2 | Akne | 99,76 % | L5 | Spekulativ (CCR5-vermittelte Entzündung), keine Belege |
-| 3 | Primäres kutanes T-Zell-Lymphom | 99,72 % | L5 | Plausible Rolle von Chemokinrezeptoren beim T-Zell-Homing; nur ein allgemeiner Übersichtsartikel |
-| 4 | Pädiatrischer systemischer Lupus erythematodes | 99,71 % | L5 | Nur Modellvorhersage |
-| 5 | Primäres kutanes T-Zell-Non-Hodgkin-Lymphom | 99,50 % | L5 | Gleiche Evidenz wie Rang 3 |
-| 6 | Primäres kutanes B-Zell-Lymphom | 99,38 % | L5 | Nur Modellvorhersage |
-| 7 | Candidiasis | 99,28 % | L5 | Kein antimykotischer Mechanismus erkennbar |
-| 8 | Komplement-C4A-Mangel | 99,24 % | L5 | Kein plausibler Mechanismus |
-| 9 | Zytomegalievirus-Infektion | 99,23 % | L4 | Nur indirekte Evidenz aus einer HIV-Kohortenstudie |
-| 10 | HER2-positives Mammakarzinom | 99,22 % | L4 | Präklinischer Hinweis: CCL5/CCR5 und Trastuzumab-Resistenz |
+| 2 | Akne | 0,9976 | L5 | Spekulativ (CCR5-vermittelte Entzündung), keine Belege |
+| 3 | Primäres kutanes T-Zell-Lymphom | 0,9972 | L5 | Plausible Rolle von Chemokinrezeptoren beim T-Zell-Homing; nur ein allgemeiner Übersichtsartikel |
+| 4 | Pädiatrischer systemischer Lupus erythematodes | 0,9971 | L5 | Nur Modellvorhersage |
+| 5 | Primäres kutanes T-Zell-Non-Hodgkin-Lymphom | 0,9950 | L5 | Gleiche Evidenz wie Rang 3 |
+| 6 | Primäres kutanes B-Zell-Lymphom | 0,9938 | L5 | Nur Modellvorhersage |
+| 7 | Candidiasis | 0,9928 | L5 | Kein antimykotischer Mechanismus erkennbar |
+| 8 | Komplement-C4A-Mangel | 0,9924 | L5 | Kein plausibler Mechanismus |
+| 9 | Zytomegalievirus-Infektion | 0,9923 | L5 | Nur indirekte Evidenz aus einer HIV-Kohortenstudie |
+| 10 | HER2-positives Mammakarzinom | 0,9922 | L4 | Präklinischer Hinweis: CCL5/CCR5 und Trastuzumab-Resistenz |
 
 Am plausibelsten erscheint mechanistisch das HER2-positive Mammakarzinom: Eine präklinische Studie zeigt, dass autokrines CCL5 über den ERK-Signalweg zur Trastuzumab-Resistenz beiträgt. Da CCL5 über CCR5 signalisiert, wäre eine CCR5-Blockade durch Maraviroc denkbar. Klinische Wirksamkeit ist damit nicht belegt.
 
@@ -95,7 +95,7 @@ Für die Hauptvorhersage (multiple endokrine Neoplasie) liegt keine Literatur vo
 |---------|------|------|-----------|
 | EMEA/H/C/000811 | Celsentri | – | HIV-Infektionen |
 
-Die einzige Zulassung (ViiV Healthcare B.V.) ist erloschen bzw. gelöscht; es gibt derzeit keine gültige Zulassung.
+Die einzige Zulassung (ViiV Healthcare B.V.) ist gültig; das Arzneimittel ist derzeit im Verkehr.
 
 ## Sicherheitsaspekte
 
@@ -109,7 +109,7 @@ Angaben aus der Fachinformation zu Warnhinweisen und Gegenanzeigen liegen nicht 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage für die multiple endokrine Neoplasie beruht ausschließlich auf einem Modellwert (Evidenzniveau L5), ohne Studien, Literatur oder erkennbaren Mechanismus. Zudem ist in Deutschland keine gültige Zulassung vorhanden, und die Sicherheitsdaten der Fachinformation fehlen. Das HER2-positive Mammakarzinom könnte als Forschungsfrage weiterverfolgt werden (präklinische Hinweise, L4).
+Die Vorhersage für die multiple endokrine Neoplasie beruht ausschließlich auf einem Modellwert (Evidenzniveau L5), ohne Studien, Literatur oder erkennbaren Mechanismus. Zwar ist das Arzneimittel in Deutschland mit einer gültigen Zulassung (1 von 1) im Verkehr, die Sicherheitsdaten der Fachinformation fehlen jedoch. Das HER2-positive Mammakarzinom könnte als Forschungsfrage weiterverfolgt werden (präklinische Hinweise, L4).
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Fachinformation (Warnhinweise, Gegenanzeigen) beschaffen und auswerten, da die Sicherheitsprüfung sonst nicht fortgesetzt werden kann

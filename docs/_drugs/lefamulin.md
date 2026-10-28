@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-## Lefamulin: Von bakterieller ambulant erworbener Pneumonie zu diffuser kutaner Leishmaniose
+## Lefamulin: Von bakterieller ambulant erworbener Pneumonie zu Diffuse kutane Leishmaniose
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -50,10 +50,10 @@ Dafür liegen bislang **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Bakterielle Pneumonie; ambulant erworbene Infektionen |
 | Vorhergesagte neue Indikation | Diffuse kutane Leishmaniose |
-| TxGNN-Vorhersagewert | 99,24 % |
+| TxGNN-Vorhersagewert | 0,9924 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -65,8 +65,8 @@ Zu Lefamulin liegen in den für diesen Bericht zusammengestellten Daten keine de
 Leishmanien sind eukaryotische Protozoen, daher ist das bakterielle ribosomale Zielmolekül nicht direkt anwendbar. Eine rein spekulative Verbindung wäre die Hemmung der mitochondrialen (Kinetoplast-)Ribosomen des Parasiten, die bakterienähnliche Merkmale aufweisen. Hierfür gibt es jedoch keine Daten. Der hohe TxGNN-Wert ist eine rechnerische Vorhersage ohne klinische oder literarische Stützung.
 
 Die beiden weiteren vorhergesagten Indikationen sind noch weniger plausibel:
-- **Polyklonales Hyperviskositätssyndrom** (Wert 99,10 %): Es entsteht durch erhöhte Immunglobuline bzw. Proteine. Der antibakterielle Mechanismus von Lefamulin adressiert diese Pathophysiologie nicht.
-- **Hyperamylasämie** (Wert 99,10 %): Dies ist ein Laborbefund und kein Krankheitsziel für ein Antibiotikum. Der identische Wert wie beim Hyperviskositätssyndrom deutet eher auf ein Artefakt der Graphstruktur als auf ein biologisches Signal hin.
+- **Polyklonales Hyperviskositätssyndrom** (Wert 0,9910): Es entsteht durch erhöhte Immunglobuline bzw. Proteine. Der antibakterielle Mechanismus von Lefamulin adressiert diese Pathophysiologie nicht.
+- **Hyperamylasämie** (Wert 0,9910): Dies ist ein Laborbefund und kein Krankheitsziel für ein Antibiotikum. Der identische Wert wie beim Hyperviskositätssyndrom deutet eher auf ein Artefakt der Graphstruktur als auf ein biologisches Signal hin.
 
 ---
 
@@ -88,7 +88,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/005048 | Xenleta (Nabriva Therapeutics Ireland DAC) | – | Bakterielle Pneumonie; ambulant erworbene Infektionen |
 
-Diese Zulassung ist erloschen. Aktuell gibt es keine gültige Zulassung.
+Diese Zulassung ist gültig. Aktuell gibt es eine gültige Zulassung (1 von 1).
 
 ---
 
@@ -112,7 +112,7 @@ Für Warnhinweise und Gegenanzeigen siehe die Fachinformation.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht allein auf dem Modellwert (Evidenzstufe L5). Es gibt weder klinische Studien noch Publikationen, der mechanistische Zusammenhang ist spekulativ, und in Deutschland besteht keine gültige Zulassung.
+Die Vorhersage beruht allein auf dem Modellwert (Evidenzstufe L5). Es gibt weder klinische Studien noch Publikationen, der mechanistische Zusammenhang ist spekulativ, und das Arzneimittel ist in Deutschland mit einer gültigen Zulassung im Handel.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) als Voraussetzung für die Sicherheitsprüfung

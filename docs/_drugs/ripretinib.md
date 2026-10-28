@@ -8,6 +8,7 @@ nav_order: 403
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Ripretinib
@@ -51,7 +52,8 @@ Keine neue Indikation kann in diesem Stadium formal bewertet oder empfohlen werd
 | Vorhergesagte neue Indikation | N/A – TxGNN-Vorhersagen noch nicht in diesem Evidence Pack verfügbar |
 | TxGNN-Vorhersage-Score | N/A |
 | Evidenzstufe | N/A |
-| Marktzulassungsstatus | Nicht vermarktet (0 Autorisierungen) |
+| Marktzulassungsstatus | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Anzahl der Autorisierungen | 0 |
 | Empfohlene Entscheidung | Halten |
 

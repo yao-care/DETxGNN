@@ -48,10 +48,10 @@ Derzeit liegen dafür **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Depressive Störung |
 | Vorhergesagte neue Indikation | Agoraphobie |
-| TxGNN-Vorhersagewert | 99,57 % |
+| TxGNN-Vorhersagewert | 0,9957 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (gültig: 0, erloschen: 1) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
@@ -76,7 +76,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/004535 | Spravato | – | Depressive Störung |
 
-Diese Zulassung (Janssen-Cilag International NV) ist erloschen bzw. widerrufen. Es gibt keine gültige Zulassung.
+Diese Zulassung (Janssen-Cilag International NV) ist gültig. Das Arzneimittel ist im Markt.
 
 ## Sicherheitsaspekte
 
@@ -108,7 +108,7 @@ Weitere Sicherheitsinformationen, insbesondere Warnhinweise und Gegenanzeigen, s
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert (Evidenzgrad L5). Es gibt weder klinische Studien noch Literatur, und in Deutschland besteht keine gültige Zulassung. Zudem sind mehrere schwerwiegende Wechselwirkungen und Kontraindikationen aus dem Wissensgraphen zu beachten.
+Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert (Evidenzgrad L5). Es gibt weder klinische Studien noch Literatur, und in Deutschland besteht eine gültige Zulassung. Zudem sind mehrere schwerwiegende Wechselwirkungen und Kontraindikationen aus dem Wissensgraphen zu beachten.
 
 **Für das weitere Vorgehen sind erforderlich:**
 - Systematische Literaturrecherche und Prüfung von Studienregistern zu Esketamin bei Agoraphobie bzw. Angststörungen
@@ -119,7 +119,7 @@ Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert (Evidenzg
 
 ## Hinweis zur zweiten Vorhersage
 
-Die zweite Vorhersage, **gutartiger paroxysmaler Torticollis des Säuglingsalters** (Score 99,49 %), ist ebenfalls nur modellbasiert (L5, Hold). Ein plausibler mechanistischer Zusammenhang ist nicht erkennbar. Zudem ist Esketamin bei Säuglingen nicht als sicher oder geeignet etabliert. Die Vorhersage dürfte ein Artefakt der graphbasierten Inferenz sein und sollte nicht weiterverfolgt werden.
+Die zweite Vorhersage, **gutartiger paroxysmaler Torticollis des Säuglingsalters** (Score 0,9949), ist ebenfalls nur modellbasiert (L5, Hold). Ein plausibler mechanistischer Zusammenhang ist nicht erkennbar. Zudem ist Esketamin bei Säuglingen nicht als sicher oder geeignet etabliert. Die Vorhersage dürfte ein Artefakt der graphbasierten Inferenz sein und sollte nicht weiterverfolgt werden.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Zanubrutinib
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 505
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Zanubrutinib: vorhergesagte neue Indikation Myeloische Leukämie (Evidenzstufe L4). Ursprüngliche Indikation: Waldenström-Makroglobulinämie"
@@ -14,7 +14,7 @@ predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable en
 # Zanubrutinib
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **6** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-## Zanubrutinib: Von Morbus Waldenström zu myeloischer Leukämie
+## Zanubrutinib: Von Morbus Waldenström zu Myeloische Leukämie
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -50,10 +50,10 @@ Dafür liegt bislang jedoch nur **1 klinische Studie mit geringer Relevanz** (Ph
 |------|------|
 | Ursprüngliche Indikation | Waldenström-Makroglobulinämie |
 | Vorhergesagte neue Indikation | Myeloische Leukämie |
-| TxGNN-Vorhersagewert | 99,65 % |
-| Evidenzgrad | L4 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| TxGNN-Vorhersagewert | 0,9965 |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -138,7 +138,7 @@ Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die myeloische Leukämie gibt es keine direkte klinische Evidenz: Die einzige Studie ist eine Phase-1-Studie, in der Zanubrutinib nur Kombinationspartner ist, und die Literatur betrifft B-Zell-Erkrankungen. Der hohe TxGNN-Wert beruht vermutlich auf Netzwerknähe, und die BTK-abhängige Biologie ist bei myeloischen Zellen nicht etabliert. Zudem besteht in Deutschland derzeit keine gültige Zulassung.
+Für die myeloische Leukämie gibt es keine direkte klinische Evidenz: Die einzige Studie ist eine Phase-1-Studie, in der Zanubrutinib nur Kombinationspartner ist, und die Literatur betrifft B-Zell-Erkrankungen. Der hohe Wert stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat; er ist kein biologischer Beleg, und die BTK-abhängige Biologie ist bei myeloischen Zellen nicht etabliert. Zudem ist das Arzneimittel in Deutschland im Handel, und 1 von 1 Zulassung ist gültig.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da diese Sicherheitsprüfung derzeit blockiert ist

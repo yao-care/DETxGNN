@@ -48,10 +48,10 @@ Levodopa ist eine Vorstufe von Dopamin und wird ursprünglich zur Behandlung der
 |------|------|
 | Ursprüngliche Indikation | Morbus Parkinson |
 | Vorhergesagte neue Indikation | Rasmussen-Enzephalitis (Rasmussen subacute encephalitis) |
-| TxGNN-Vorhersagewert | 99,06 % |
+| TxGNN-Vorhersagewert | 0,9906 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 5 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 4 von 5) |
+| Anzahl der Zulassungen | 5 (gültig: 4) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Zum Wirkmechanismus von Levodopa liegen in den für diesen Bericht zusammengeste
 
 Die Rasmussen-Enzephalitis ist eine seltene, chronische, meist einseitige entzündliche Hirnerkrankung. Sie ist gekennzeichnet durch T-Zell-vermittelte Neuroinflammation, fortschreitende Atrophie einer Hirnhälfte und schwer behandelbare fokale Krampfanfälle. Ein mechanistischer Zusammenhang mit der ursprünglichen Indikation ist nicht belegt. Eine Modulation der Neuroimmunaktivität durch Dopamin ist bestenfalls eine theoretische Verbindung. Es gibt keinen Hinweis darauf, dass Levodopa die immunvermittelte Pathologie oder die Anfallskontrolle beeinflusst.
 
-Der hohe TxGNN-Wert (0,99) ist eine reine Modellvorhersage ohne Rückhalt in Studien oder Literatur. Zudem können dopaminerge Substanzen in manchen Situationen die Krampfschwelle senken, sodass ein Sicherheitsrisiko nicht auszuschließen ist.
+Der hohe TxGNN-Wert (0,9906) ist eine reine Modellvorhersage ohne Rückhalt in Studien oder Literatur. Zudem können dopaminerge Substanzen in manchen Situationen die Krampfschwelle senken, sodass ein Sicherheitsrisiko nicht auszuschließen ist.
 
 ---
 
@@ -88,7 +88,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 | EMEA/H/C/002785 | Corbilta (zuvor Levodopa/Carbidopa/Entacapone Sandoz) | – | Morbus Parkinson |
 | EMEA/H/C/002441 | Levodopa/Carbidopa/Entacapone Orion | – | Morbus Parkinson |
 
-Alle fünf Zulassungen sind erloschen bzw. zurückgezogen; derzeit gibt es keine gültige Zulassung.
+Von fünf Zulassungen sind vier gültig; das Arzneimittel ist in Deutschland im Handel.
 
 ---
 

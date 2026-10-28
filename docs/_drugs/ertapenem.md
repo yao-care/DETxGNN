@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Ertapenem
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 179
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Ertapenem: vorhergesagte neue Indikation Bakterielle Arthritis (Evidenzstufe L4). Ursprüngliche Indikation: Ambulant erworbene Infektionen…"
@@ -14,7 +14,7 @@ predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"
 # Ertapenem
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **2** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-## Ertapenem: Von bakteriellen Infektionen zu bakterieller Arthritis
+## Ertapenem: Bakterielle Arthritis
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür gibt es **keine registrierten klinischen Studien**. Die Evidenz besteht a
 |------|------|
 | Ursprüngliche Indikation | Ambulant erworbene Infektionen, Streptokokken- und Staphylokokken-Infektionen, gramnegative bakterielle Infektionen, chirurgische Wundinfektionen, bakterielle Pneumonie |
 | Vorhergesagte neue Indikation | Bakterielle Arthritis |
-| TxGNN-Vorhersagewert | 99,72 % |
-| Evidenzlevel | L4 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen (aktuell nicht vermarktet) |
-| Anzahl der Zulassungen | 2 (beide inaktiv) |
+| TxGNN-Vorhersagewert | 0,9972 |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -131,10 +131,10 @@ Die Evidenz für bakterielle Arthritis beschränkt sich auf Fallberichte und kle
 - Auswertung der Fachinformation (Warnhinweise, Kontraindikationen), da die Sicherheitsprüfung sonst nicht abgeschlossen werden kann
 - Detaillierte Mechanismusdaten (MOA) aus einer Arzneimitteldatenbank
 - Systematische Literaturauswertung zu Ertapenem bei Knochen- und Gelenkinfektionen, mit Fokus auf Wirksamkeit gegenüber Standardtherapien
-- Klärung der Darreichungsform und Verfügbarkeit in Deutschland, da keine gültige Zulassung besteht
+- Klärung der Darreichungsform und Verfügbarkeit in Deutschland, da 2 von 2 Zulassungen gültig sind und das Arzneimittel im Handel ist
 - Bei Bedarf prospektive klinische Studien
 
-**Hinweis zur zweiten Vorhersage:** Für *Staphylococcus-aureus-Infektion* (TxGNN-Wert 99,28 %) liegt deutlich mehr Evidenz vor, etwa eine Phase-2-Studie zu Cefazolin plus Ertapenem bei MSSA-Bakteriämie ([NCT04886284](https://clinicaltrials.gov/study/NCT04886284), 60 Teilnehmer, rekrutierend) und eine Phase-4-Studie zur frühen Zweifachtherapie ([NCT07148960](https://clinicaltrials.gov/study/NCT07148960), 300 Teilnehmer). Ergebnisse liegen noch nicht vor. Diese Indikation wäre als eigene Forschungsfrage weiterzuverfolgen.
+**Hinweis zur zweiten Vorhersage:** Für *Staphylococcus-aureus-Infektion* (TxGNN-Wert 0,9928) liegt deutlich mehr Evidenz vor, etwa eine Phase-2-Studie zu Cefazolin plus Ertapenem bei MSSA-Bakteriämie ([NCT04886284](https://clinicaltrials.gov/study/NCT04886284), 60 Teilnehmer, rekrutierend) und eine Phase-4-Studie zur frühen Zweifachtherapie ([NCT07148960](https://clinicaltrials.gov/study/NCT07148960), 300 Teilnehmer). Ergebnisse liegen noch nicht vor. Diese Indikation wäre als eigene Forschungsfrage weiterzuverfolgen.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

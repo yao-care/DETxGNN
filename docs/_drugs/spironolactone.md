@@ -6,9 +6,9 @@ nav_order: 437
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Spironolactone: vorhergesagte neue Indikation Hypotrichosis simplex der Kopfhaut (Evidenzstufe L5). Ursprüngliche Indikation: Ödeme, Herzinsuffizienz, Leberzirrhose, Aszites…"
 monitor_inn: "SPIRONOLACTONE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
+description: "Spironolactone: vorhergesagte neue Indikation Hypotrichosis simplex der Kopfhaut (hypotrichosis simplex of the scalp) (Evidenzstufe L5). Ursprüngliche Indikation: Edema"
 ---
 
 # Spironolactone
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-## Spironolacton: Von Ödemen und Herzinsuffizienz zu Hypotrichosis simplex der Kopfhaut
+## Spironolactone: Hypotrichosis simplex der Kopfhaut (hypotrichosis simplex of the scalp)
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,12 +48,12 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Ödeme, Herzinsuffizienz, Leberzirrhose, Aszites, nephrotisches Syndrom, Hyperaldosteronismus, essenzielle Hypertonie |
-| Vorhergesagte neue Indikation | Hypotrichosis simplex der Kopfhaut |
-| TxGNN-Vorhersagewert | 99,26 % |
+| Ursprüngliche Indikation | Edema;Heart Failure;Liver Cirrhosis;Ascites;Nephrotic Syndrome;Hyperaldosteronism;Essential Hypertension |
+| Vorhergesagte neue Indikation | Hypotrichosis simplex der Kopfhaut (hypotrichosis simplex of the scalp) |
+| TxGNN-Vorhersagewert | 0.9926 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen (kein aktuell zugelassenes Präparat) |
-| Anzahl der Zulassungen | 3 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,9 +62,9 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Spironolacton ein Mineralokortikoid-Rezeptor-Antagonist mit antiandrogener Aktivität ist: Es blockiert den Androgenrezeptor und vermindert die Androgensynthese. Aus diesem Grund wird es in der Praxis off-label bei androgenetischer Alopezie und weiblichem Haarausfall eingesetzt. Damit besteht grundsätzlich ein denkbarer Zusammenhang zu Haarausfallerkrankungen der Kopfhaut.
 
-Die Plausibilität ist jedoch begrenzt. Die Hypotrichosis simplex der Kopfhaut ist eine seltene erbliche Haarausfallerkrankung (z. B. im Zusammenhang mit Varianten in CDSN, APCDD1 oder RPL21), die nicht primär androgengetrieben ist. Der antiandrogene Ansatz lässt sich daher nicht klar auf diese genetische Ursache übertragen. Der hohe TxGNN-Wert (0,993) ist eine rein rechnerische Vorhersage.
+Die Plausibilität ist jedoch begrenzt. Die Hypotrichosis simplex der Kopfhaut ist eine seltene erbliche Haarausfallerkrankung (z. B. im Zusammenhang mit Varianten in CDSN, APCDD1 oder RPL21), die nicht primär androgengetrieben ist. Der antiandrogene Ansatz lässt sich daher nicht klar auf diese genetische Ursache übertragen. Der hohe TxGNN-Wert (0,9926) ist eine rein rechnerische Vorhersage.
 
-Als zweite Vorhersage nennt das Modell die **kongenitale Hypotrichosis mit Milien** (Wert 99,04 %). Sie dürfte auf der Nähe zu anderen Hypotrichosis-Phänotypen im Wissensnetzwerk beruhen. Ein klarer Mechanismus, der die Rezeptorantagonisten-Wirkung mit der Pathologie dieser entwicklungsbedingten Erkrankung verbindet, ist nicht erkennbar; die Verbindung ist spekulativ. Auch hierzu liegen weder Studien noch Literatur vor.
+Als zweite Vorhersage nennt das Modell die **kongenitale Hypotrichosis mit Milien** (Wert 0,9904). Sie dürfte auf der Nähe zu anderen Hypotrichosis-Phänotypen im Wissensnetzwerk beruhen. Ein klarer Mechanismus, der die Rezeptorantagonisten-Wirkung mit der Pathologie dieser entwicklungsbedingten Erkrankung verbindet, ist nicht erkennbar; die Verbindung ist spekulativ. Auch hierzu liegen weder Studien noch Literatur vor.
 
 ---
 
@@ -88,7 +88,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 | EMEA/V/C/006254 | Cepeloron | – | – |
 | EMEA/V/C/002524 | Cardalis | – | – |
 
-Alle drei Zulassungen sind erloschen bzw. widerrufen.
+Alle drei Zulassungen sind gültig.
 
 ---
 
@@ -109,7 +109,7 @@ Angaben aus der Fachinformation (Warnhinweise, Gegenanzeigen) liegen nicht vor; 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich allein auf das Modell (Evidenzlevel L5), ohne Studien oder Publikationen. Der antiandrogene Mechanismus passt zudem nicht klar zur genetischen Ursache der vorhergesagten Erkrankungen. In Deutschland ist derzeit kein Präparat mit gültiger Zulassung vorhanden.
+Die Vorhersage stützt sich allein auf das Modell (Evidenzlevel L5), ohne Studien oder Publikationen. Der antiandrogene Mechanismus passt zudem nicht klar zur genetischen Ursache der vorhergesagten Erkrankungen.
 
 **Für ein Weiterkommen sind folgende Schritte erforderlich:**
 - Literatur- und Studienrecherche zu Spironolacton bei hereditärer Hypotrichosis

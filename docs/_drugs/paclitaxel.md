@@ -4,17 +4,17 @@ title: Paclitaxel
 parent: Nur Modellvorhersage (L5)
 nav_order: 336
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Paclitaxel: vorhergesagte neue Indikation Mammakarzinom der Frau (female breast carcinoma) (Evidenzstufe L5). Ursprüngliche Indikation: Brustneoplasmen"
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Paclitaxel: vorhergesagte neue Indikation Parameningeal embryonal rhabdomyosarcoma (Evidenzstufe L5). Ursprüngliche Indikation: Breast Neoplasms"
 ---
 
 # Paclitaxel
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Paclitaxel: Von Brustneoplasmen, Pankreaskarzinom und nicht-kleinzelligem Lungenkarzinom zum Mammakarzinom der Frau
+## Paclitaxel: Parameningeal embryonal rhabdomyosarcoma
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,12 +48,12 @@ Dafür liegen **zahlreiche klinische Studien** vor, darunter mehrere abgeschloss
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Brustneoplasmen; Pankreaskarzinom; nicht-kleinzelliges Lungenkarzinom |
-| Vorhergesagte neue Indikation | Mammakarzinom der Frau (female breast carcinoma) |
-| TxGNN-Vorhersagewert | 99,99 % |
-| Evidenzlevel | L1 (mehrere abgeschlossene Phase-3-Studien mit Paclitaxel als Therapiebestandteil, überwiegend als Kombinations- oder Vergleichsstudien) |
-| Marktstatus in Deutschland | Nur erloschene bzw. gelöschte Zulassungen |
-| Anzahl der Zulassungen | 4 (alle erloschen) |
+| Ursprüngliche Indikation | Breast Neoplasms;Pancreatic Neoplasms;Carcinoma, Non-Small-Cell Lung; Breast Neoplasms |
+| Vorhergesagte neue Indikation | Parameningeal embryonal rhabdomyosarcoma |
+| TxGNN-Vorhersagewert | 0.9973 |
+| Evidenzlevel | L5 (mehrere abgeschlossene Phase-3-Studien mit Paclitaxel als Therapiebestandteil, überwiegend als Kombinations- oder Vergleichsstudien) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 4 von 4) |
+| Anzahl der Zulassungen | 4 (gültig: 4) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortführung mit Auflagen) |
 
 ---
@@ -154,14 +154,13 @@ Insgesamt sind 100 Wechselwirkungen erfasst. Davon wurden 20 für diesen Bericht
 **Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Paclitaxel ist beim Mammakarzinom ein etabliertes Zytostatikum. Es gibt mehrere abgeschlossene Phase-3-Studien, in denen Paclitaxel Bestandteil der Therapie ist. Die Studien sind jedoch überwiegend Kombinations- oder Vergleichsstudien, die Evidenz für Paclitaxel als Einzelsubstanz ist teilweise indirekt. Da es sich um eine Zulassung bzw. zulassungsnahe Anwendung handelt, besteht kein klassischer Repurposing-Bedarf. Zudem sind in Deutschland derzeit alle erfassten Zulassungen erloschen, und es liegen keine Daten aus der Fachinformation vor.
+Paclitaxel ist beim Mammakarzinom ein etabliertes Zytostatikum. Es gibt mehrere abgeschlossene Phase-3-Studien, in denen Paclitaxel Bestandteil der Therapie ist. Die Studien sind jedoch überwiegend Kombinations- oder Vergleichsstudien, die Evidenz für Paclitaxel als Einzelsubstanz ist teilweise indirekt. Da es sich um eine Zulassung bzw. zulassungsnahe Anwendung handelt, besteht kein klassischer Repurposing-Bedarf. Zudem sind in Deutschland derzeit alle 4 erfassten Zulassungen gültig, und es liegen keine Daten aus der Fachinformation vor.
 
 **Für das weitere Vorgehen sind folgende Punkte nötig:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) über die BfArM-Website
 - Ergänzung der Mechanismusdaten (MOA) aus DrugBank
-- Klärung, welche paclitaxelhaltigen Präparate in Deutschland aktuell verfügbar sind, da alle erfassten Zulassungen erloschen sind
+- Klärung, welche paclitaxelhaltigen Präparate in Deutschland aktuell verfügbar sind; alle 4 erfassten Zulassungen sind gültig
 - Sicherheitsüberwachungsplan (Blutbild, Neuropathie, Überempfindlichkeit, Wechselwirkungen mit CYP-Inhibitoren und -Induktoren)
-- Hinweis zu weiteren TxGNN-Vorhersagen: Das „Ehrlich-Tumorkarzinom" ist ein murines Tiermodell und keine gültige klinische Indikation. Für die beiden vorhergesagten Rhabdomyosarkom-Subtypen liegen keine Daten vor. Bei diesen Vorhersagen empfiehlt sich der Status „Hold".
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

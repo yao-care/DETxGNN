@@ -4,17 +4,17 @@ title: Eribulin
 parent: Nur Modellvorhersage (L5)
 nav_order: 178
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Eribulin: vorhergesagte neue Indikation Autosomal-rezessives familiäres Mittelmeerfieber (Evidenzstufe L5). Ursprüngliche Indikation: Brustkrebs (Brustneoplasien)"
 monitor_inn: "ERIBULIN"
-predicted_indications: ["autosomal recessive familial Mediterranean fever", "dermatofibrosarcoma protuberans", "pleural mesothelioma", "malignant peritoneal mesothelioma", "ovarian myxoid liposarcoma", "pleural adenomatoid tumor", "pleural biphasic mesothelioma", "fibroblastic neoplasm", "pleural epithelioid mesothelioma", "heart fibrosarcoma"]
+predicted_indications: ["autosomal recessive familial Mediterranean fever", "dermatofibrosarcoma protuberans", "pleural mesothelioma", "malignant peritoneal mesothelioma", "pleural adenomatoid tumor", "pleural biphasic mesothelioma", "fibroblastic neoplasm", "pleural epithelioid mesothelioma", "heart fibrosarcoma"]
 ---
 
 # Eribulin
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Eribulin: Von Brustkrebs und Liposarkom zum familiären Mittelmeerfieber (autosomal-rezessiv)
+## Eribulin: Autosomal-rezessives familiäres Mittelmeerfieber
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien und keine Publikationen** vor. 
 |------|------|
 | Ursprüngliche Indikation | Brustkrebs (Brustneoplasien); Liposarkom |
 | Vorhergesagte neue Indikation | Autosomal-rezessives familiäres Mittelmeerfieber |
-| TxGNN-Vorhersagewert | 99,82 % |
+| TxGNN-Vorhersagewert | 0,9982 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene bzw. aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 3 (alle aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -84,9 +84,9 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
 |---------|------|------|-----------|------|
-| EMEA/H/C/006134 | Mevlyq | – | Brustneoplasien; Liposarkom | Aufgehoben |
-| EMEA/H/C/006191 | Eribulin Baxter | – | Brustneoplasien; Liposarkom | Aufgehoben |
-| EMEA/H/C/002084 | Halaven | – | Brustneoplasien; Liposarkom | Aufgehoben |
+| EMEA/H/C/006134 | Mevlyq | – | Brustneoplasien; Liposarkom | Gültig |
+| EMEA/H/C/006191 | Eribulin Baxter | – | Brustneoplasien; Liposarkom | Gültig |
+| EMEA/H/C/002084 | Halaven | – | Brustneoplasien; Liposarkom | Gültig |
 
 ---
 

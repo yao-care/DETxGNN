@@ -48,10 +48,10 @@ Natriumoxybat (Xyrem) wurde ursprünglich zur Behandlung von Kataplexie und Nark
 |------|------|
 | Ursprüngliche Indikation | Kataplexie; Narkolepsie |
 | Vorhergesagte neue Indikation | Insomnie |
-| TxGNN-Vorhersagewert | 99,997 % |
+| TxGNN-Vorhersagewert | 1,0000 |
 | Evidenzgrad | L2 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -99,7 +99,7 @@ Die Auswahl bezieht sich auf die Arbeiten mit dem engsten Bezug zu Natriumoxybat
 |---------|------|------|-----------|
 | EMEA/H/C/000593 | Xyrem (UCB Pharma Ltd) | nicht angegeben | Kataplexie; Narkolepsie |
 
-Diese einzige Zulassung ist erloschen. Aktuell besteht keine gültige Zulassung.
+Diese einzige Zulassung ist gültig. Das Arzneimittel ist in Deutschland im Handel.
 
 ---
 
@@ -125,7 +125,7 @@ Zu Warnhinweisen und Gegenanzeigen aus der Fachinformation liegen keine Daten vo
 **Entscheidung: Hold**
 
 **Begründung:**
-Der Vorhersagewert ist sehr hoch, und die Wirkung auf den Tiefschlaf ist biologisch plausibel. Die direkte Evidenz beschränkt sich jedoch auf eine kleine Phase-2-Studie (n=48) ohne vorliegende Ergebnisse. Hinzu kommen erhebliche Sicherheitsbedenken (Missbrauchspotenzial, Atemdepression, zahlreiche Wechselwirkungen), und in Deutschland besteht keine gültige Zulassung. Der Fall ist derzeit eher eine Forschungsfrage als ein Kandidat für die Umsetzung.
+Der Vorhersagewert ist sehr hoch, und die Wirkung auf den Tiefschlaf ist biologisch plausibel. Die direkte Evidenz beschränkt sich jedoch auf eine kleine Phase-2-Studie (n=48) ohne vorliegende Ergebnisse. Hinzu kommen erhebliche Sicherheitsbedenken (Missbrauchspotenzial, Atemdepression, zahlreiche Wechselwirkungen). In Deutschland besteht eine gültige Zulassung, und das Arzneimittel ist im Handel. Der Fall ist derzeit eher eine Forschungsfrage als ein Kandidat für die Umsetzung.
 
 **Für das weitere Vorgehen sind folgende Schritte nötig:**
 - Ergebnisse der Studie NCT00383643 (Natriumoxybat vs. Zolpidem vs. Placebo) beschaffen und bewerten

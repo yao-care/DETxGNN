@@ -4,17 +4,17 @@ title: Durvalumab
 parent: Nur Modellvorhersage (L5)
 nav_order: 154
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Durvalumab: vorhergesagte neue Indikation Urothelkarzinom der prostatischen Urethra (Evidenzstufe L5). Ursprüngliche Indikation: Nicht-kleinzelliges Lungenkarzinom"
+indication_count: 6
 monitor_inn: "DURVALUMAB"
-predicted_indications: ["prostatic urethra urothelial carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
+predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
+last_modified_at: 2026-10-23
+description: "Durvalumab: vorhergesagte neue Indikation Uterines Ligament-Adenokarzinom (Evidenzstufe L5). Ursprüngliche Indikation: Nicht-kleinzelliges Lungenkarzinom"
 ---
 
 # Durvalumab
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,112 +33,79 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Durvalumab: Von nicht-kleinzelligem Lungenkarzinom zu prostatischem Urethra-Urothelkarzinom
+## Durvalumab: Vom nicht-kleinzelligen Lungenkarzinom zum Adenokarzinom des Lig. latum uteri (uterine ligament adenocarcinoma)
 {: .text-alpha }
 
-## Zusammenfassung
+## Zusammenfassung in einem Satz
 
-Durvalumab ist ein PD-L1-Antikörper, der ursprünglich zur Behandlung des nicht-kleinzelligen Lungenkarzinoms zugelassen wurde.
-Das TxGNN-Modell sagt voraus, dass er bei **Urothelkarzinom der prostatischen Urethra** wirksam sein könnte.
-Für genau diese Indikation liegen jedoch **keine klinischen Studien und keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell. Für verwandte Urothelkarzinom-Subtypen gibt es einzelne frühe Studien (siehe unten).
+Durvalumab ist ein Antikörper gegen PD-L1 (Handelsname Imfinzi). In Deutschland ist er für das nicht-kleinzellige Lungenkarzinom zugelassen. Das TxGNN-Modell sagt voraus, dass er bei **uterinem Ligament-Adenokarzinom** wirken könnte. Für diese Erkrankung liegen in den zusammengestellten Daten **0 klinische Studien** und **0 Publikationen** vor, die Vorhersage beruht daher allein auf dem Modell.
 
----
-
-## Kurzüberblick
+## Schnellübersicht
 
 | Punkt | Inhalt |
 |------|------|
 | Ursprüngliche Indikation | Nicht-kleinzelliges Lungenkarzinom |
-| Vorhergesagte neue Indikation | Urothelkarzinom der prostatischen Urethra |
-| TxGNN-Vorhersagewert | 99,98 % |
-| Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung (Zulassung storniert) |
-| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Vorhergesagte neue Indikation | Uterines Ligament-Adenokarzinom |
+| TxGNN-Vorhersagewert | 0,9992 |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
-
----
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Durvalumab ein Hemmstoff des Immun-Checkpoints PD-L1 ist. Seine Wirksamkeit beim nicht-kleinzelligen Lungenkarzinom ist belegt, und mechanistisch kann er auch bei anderen PD-L1-responsiven Tumoren anwendbar sein.
+Zum Wirkmechanismus liegen in den zusammengestellten Daten derzeit keine detaillierten Angaben vor. Durvalumab gehört zur Klasse der PD-L1-Checkpoint-Inhibitoren. Seine Wirksamkeit beim nicht-kleinzelligen Lungenkarzinom ist belegt. Mechanistisch könnte die PD-L1-Blockade auch bei gynäkologischen Adenokarzinomen wirken, deren Tumormikroumgebung immunologisch aktiv („immune-inflamed“) ist.
 
-Das Urothelkarzinom gilt als PD-L1-responsiver Tumortyp, und PD-L1-Inhibitoren sind beim Urothelkarzinom der Harnblase etabliert. Daraus ergibt sich eine Begründung auf Klassenebene. Für den spezifischen anatomischen Subtyp der prostatischen Urethra wurden jedoch weder Studien noch Literatur gefunden.
+Für diese konkrete Tumorentität gibt es jedoch keine direkten Daten. Der Gedanke bleibt eine Extrapolation von verwandten gynäkologischen Tumoren. Die hohe Modellbewertung ist ein rein graphbasierter Hinweis und kein Wirksamkeitsnachweis.
 
-Die Ähnlichkeit zur ursprünglichen Indikation wurde bislang nicht analysiert.
+Zur Einordnung: Für die zweitplatzierte Vorhersage, das endozervikale Karzinom, wurde eine abgeschlossene Phase-I-Studie (NCT03452332, n = 20) zu Durvalumab mit Tremelimumab und Strahlentherapie bei Zervix-, Vaginal- und Vulvakarzinomen gefunden. Sie betrifft eine andere Erkrankung und stützt die vorliegende Vorhersage nicht direkt.
 
----
+## Klinische Evidenz
 
-## Evidenz aus klinischen Studien
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-Für die Top-Vorhersage: Derzeit sind keine zugehörigen klinischen Studien registriert.
+## Literaturevidenz
 
-Zur Einordnung die Studien bei verwandten, ebenfalls vorhergesagten Subtypen:
-
-| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Ergebnisse |
-|---------|------|------|------|---------|
-| [NCT03912818](https://clinicaltrials.gov/study/NCT03912818) | Phase 2 | Abgebrochen | 7 | Durvalumab mit neoadjuvanter Chemotherapie bei Blasenkrebs mit Variantenhistologie; wegen vorzeitigen Abbruchs nicht interpretierbar |
-| [NCT02812420](https://clinicaltrials.gov/study/NCT02812420) | Frühe Phase 1 | Aktiv, nicht rekrutierend | 54 | Präoperative Pilotstudie mit Durvalumab plus Tremelimumab bei muskelinvasivem Hochrisiko-Urothelkarzinom, ohne Cisplatin-Eignung; keine Ergebnisse vorliegend |
-| [NCT03452332](https://clinicaltrials.gov/study/NCT03452332) | Phase 1 | Abgeschlossen | 20 | Hypofraktionierte Strahlentherapie plus Durvalumab und Tremelimumab bei rezidivierendem/metastasiertem Zervix-, Vaginal- oder Vulvakarzinom; Sicherheit und Machbarkeit |
-
----
-
-## Evidenz aus der Literatur
-
-Für die Top-Vorhersage: Derzeit liegt keine zugehörige Literatur vor.
-
-Indirekte Literatur zu einem verwandten Subtyp (Endozervikales Karzinom):
-
-| PMID | Jahr | Typ | Journal | Zentrale Ergebnisse |
-|------|-----|------|------|---------|
-| [42518016](https://pubmed.ncbi.nlm.nih.gov/42518016/) | 2026 | Nicht randomisierte klinische Studie | Oncology and Therapy | Ceralasertib plus Durvalumab bei chinesischen Patienten mit fortgeschrittenen soliden Tumoren; Phase I zu Sicherheit, Pharmakokinetik und Antitumoraktivität |
-| [37467967](https://pubmed.ncbi.nlm.nih.gov/37467967/) | 2023 | Review | Biomedical Journal | Kleinzelliges neuroendokrines Zervixkarzinom: molekulare Grundlagen und therapeutische Fortschritte |
-
----
+Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum Markt in Deutschland
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004771 | Imfinzi | – | Nicht-kleinzelliges Lungenkarzinom (Status: erloschen/storniert) |
-
----
+| EMEA/H/C/004771 | Imfinzi (AstraZeneca AB) | nicht angegeben | Nicht-kleinzelliges Lungenkarzinom |
 
 ## Zytotoxizität
 
 | Punkt | Inhalt |
 |------|------|
-| Zytotoxizitätsklassifikation | Immuntherapie (PD-L1-Checkpoint-Inhibitor), kein konventionelles Zytostatikum |
-| Myelosuppressionsrisiko | Bitte Warnhinweise und Vorsichtsmaßnahmen in der Fachinformation beachten |
-| Emetogenität | Bitte Warnhinweise und Vorsichtsmaßnahmen in der Fachinformation beachten |
-| Überwachungsparameter | Bitte Fachinformation beachten |
-| Schutzmaßnahmen beim Umgang | Bitte Fachinformation beachten |
-
----
+| Klassifikation | Immuntherapie (monoklonaler Antikörper gegen PD-L1), kein klassisches Zytostatikum |
+| Risiko einer Myelosuppression | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenität | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Schutzmaßnahmen beim Umgang | Bitte Angaben der Fachinformation beachten |
 
 ## Sicherheitsaspekte
 
-**Arzneimittelwechselwirkungen:** Insgesamt wurden 81 Wechselwirkungen erfasst. Auszug:
-- **Hohe Relevanz (Major):** Adalimumab
-- **Moderat:** Kortikosteroide (Hydrocortison, Triamcinolon, Dexamethason, Betamethason, Budesonid, Prednisolon, Prednison, Methylprednisolon, Deflazacort), Roflumilast, Alefacept, Alemtuzumab, Anakinra, Tetanus-Toxoid-Impfstoff, Anthrax-Impfstoff
-- **Gering (Minor):** Zinkpräparate (Acetat, Gluconat, Sulfat, Chlorid)
+- **Arzneimittelwechselwirkungen:** Insgesamt wurden 81 Wechselwirkungen erfasst. Die wichtigsten davon:
+  - **Schwerwiegend (Major):** Adalimumab.
+  - **Mäßig (Moderate):** Kortikosteroide (Hydrocortison, Dexamethason, Prednison, Prednisolon, Methylprednisolon, Betamethason, Triamcinolon, Budesonid, Deflazacort), außerdem Roflumilast, Alemtuzumab, Anakinra, Alefacept sowie Impfstoffe (z. B. Tetanustoxoid, Anthrax-Impfstoff).
+  - **Gering (Minor):** Zinkpräparate (Acetat, Gluconat, Sulfat, Chlorid).
+  - Diese Liste ist ein Auszug. Die vollständige Prüfung sollte anhand der Fachinformation erfolgen.
 
-Für Warnhinweise und Gegenanzeigen liegen keine Daten vor; bitte die Fachinformation beachten.
-
----
+Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die Top-Vorhersage gibt es weder Studien noch Literatur (L5, nur Modellvorhersage). Die Klassenbegründung über PD-L1-Hemmung beim Urothelkarzinom ist plausibel, ersetzt aber keine Evidenz für den spezifischen Subtyp. Zudem ist die einzige deutsche Zulassung nicht mehr gültig.
+Die Vorhersage für das uterine Ligament-Adenokarzinom stützt sich ausschließlich auf den Modellwert. Es gibt weder Studien noch Publikationen zu dieser Erkrankung (Evidenzniveau L5). Die Immunogenität dieses seltenen Tumortyps ist unbekannt.
 
 **Für ein Weiterkommen sind erforderlich:**
-- Auswertung der Daten zu Urothelkarzinomen allgemein (z. B. NCT02812420, NCT03912818) und gezielte Suche nach Evidenz zu Urethra- bzw. oberen Harnwegstumoren
-- Detaillierte Wirkmechanismus-Daten (MOA)
-- Fachinformation des BfArM mit Warnhinweisen und Gegenanzeigen für die Sicherheitsprüfung
-- Klärung des Zulassungsstatus in Deutschland (aktuell nur erloschene Zulassung)
-- Analyse der Ähnlichkeit zur ursprünglichen Indikation
+- Gezielte Literaturrecherche zu PD-L1-Expression und MSI-Status bei dieser Tumorentität sowie zu Checkpoint-Inhibitoren bei seltenen gynäkologischen Adenokarzinomen
+- Daten zum Wirkmechanismus (MOA)
+- Auswertung der Fachinformation (BfArM) zu Warnhinweisen und Gegenanzeigen
+- Prüfung der verwandten Vorhersage „endozervikales Karzinom“ (Phase-I-Studie vorhanden) als möglichen Ausgangspunkt für eine Forschungsfrage
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

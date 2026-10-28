@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tenofovir Alafenamide
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 454
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Tenofovir Alafenamide: vorhergesagte neue Indikation Simian-Immundefizienzvirus-Infektion (Rang 2 (Evidenzstufe L4). Ursprüngliche Indikation: Hepatitis B"
 monitor_inn: "TENOFOVIR ALAFENAMIDE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Tenofovir Alafenamide: vorhergesagte neue Indikation Feline acquired immunodeficiency syndrome (Evidenzstufe L5). Ursprüngliche Indikation: Hepatitis B"
 ---
 
 # Tenofovir Alafenamide
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-## Tenofoviralafenamid: Von Hepatitis B und HIV-Infektion zur Simian-Immundefizienzvirus-Infektion
+## Tenofovir Alafenamide: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -46,12 +46,12 @@ Tenofoviralafenamid (TAF) wird ursprünglich zur Behandlung der chronischen Hepa
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Hepatitis B; HIV-Infektionen |
-| Vorhergesagte neue Indikation | Simian-Immundefizienzvirus-Infektion (Rang 2; Rang 1 ist die feline erworbene Immunschwäche, die aber ohne jede Evidenz ist) |
-| TxGNN-Vorhersagewert | 99,89 % |
-| Evidenzstufe | L4 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen (Status „Cancelled") |
-| Anzahl der Zulassungen | 8 (alle erloschen) |
+| Ursprüngliche Indikation | Hepatitis B; HIV Infections |
+| Vorhergesagte neue Indikation | Feline acquired immunodeficiency syndrome |
+| TxGNN-Vorhersagewert | 0.9989 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 8 von 8) |
+| Anzahl der Zulassungen | 8 (gültig: 8) |
 | Empfohlene Entscheidung | Hold (Forschungsfrage, kein klinischer Entwicklungsweg) |
 
 ---
@@ -89,7 +89,7 @@ Alle Publikationen sind präklinisch (Tiermodelle).
 
 ## Marktinformationen Deutschland
 
-Alle 8 Zulassungen (zentrale EU-Zulassungen) sind erloschen; es besteht keine gültige Zulassung.
+Alle 8 Zulassungen (zentrale EU-Zulassungen) sind gültig; das Arzneimittel ist im Handel.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -122,7 +122,6 @@ Die Evidenz für SIV stammt ausschließlich aus Tiermodellen (L4) und stützt vo
 - Daten zum Wirkmechanismus (MOA) ergänzen
 - Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM) beschaffen und auswerten
 - Klärung, ob ein veterinärmedizinischer Anwendungsfall (z. B. FIV) mit artspezifischer Pharmakologie und Sicherheitsprüfung verfolgt werden soll
-- Klärung des Zulassungsstatus in Deutschland, da alle gelisteten Zulassungen erloschen sind
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

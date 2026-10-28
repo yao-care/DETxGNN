@@ -49,10 +49,10 @@ Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Glanzmann-Thrombasthenie*
 |------|------|
 | Ursprüngliche Indikation | Arzneimittelbedingte Nebenwirkungen (Drug-Related Side Effects and Adverse Reactions) |
 | Vorhergesagte neue Indikation | Glanzmann-Thrombasthenie |
-| TxGNN-Vorhersagewert | 99,77 % |
+| TxGNN-Vorhersagewert | 0,9977 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung (Cancelled only) |
-| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -63,15 +63,15 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten k
 
 Die Glanzmann-Thrombasthenie ist eine Thrombozytenerkrankung, die durch einen Defekt des Integrins αIIbβ3 (GPIIb/IIIa) entsteht und die Thrombozytenaggregation beeinträchtigt. Andexanet alfa wirkt auf die Aktivität von FXa-Inhibitoren, nicht auf die Thrombozytenaggregation. Ein mechanistischer Zusammenhang ist daher nicht bekannt.
 
-Der sehr hohe TxGNN-Wert (0,998) ist eine netzwerkbasierte Vorhersage ohne unterstützende Studien- oder Literaturevidenz. Er spiegelt wahrscheinlich gemeinsame Nachbarn im Wissensgraphen aus dem Bereich Gerinnung/Hämostase wider.
+Der sehr hohe TxGNN-Wert (0,9977) stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz.
 
 Weitere vorhergesagte Indikationen zeigen dasselbe Bild:
 
 | Rang | Vorhergesagte Indikation | TxGNN-Wert | Evidenzstufe | Einschätzung |
 |---|---|---|---|---|
-| 2 | Primäre Thrombozyten-Freisetzungsstörung | 99,76 % | L5 | Kein plausibler Mechanismus; keine Studien oder Literatur |
-| 3 | Pseudo-von-Willebrand-Krankheit | 99,65 % | L5 | Kein bekannter Effekt auf die GPIbα-VWF-Achse |
-| 4 | Hämophilie | 99,10 % | L4 | Nur indirekte Literaturbezüge; Thromboserisiko wäre ein Sicherheitsproblem |
+| 2 | Primäre Thrombozyten-Freisetzungsstörung | 0,9976 | L5 | Kein plausibler Mechanismus; keine Studien oder Literatur |
+| 3 | Pseudo-von-Willebrand-Krankheit | 0,9965 | L5 | Kein bekannter Effekt auf die GPIbα-VWF-Achse |
+| 4 | Hämophilie | 0,9910 | L5 | Nur indirekte Literaturbezüge; Thromboserisiko wäre ein Sicherheitsproblem |
 
 ---
 
@@ -122,7 +122,7 @@ Aus der Literatur- und Mechanismusbewertung ergibt sich ein relevanter Hinweis: 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die hohen TxGNN-Werte sind rein rechnerisch; für Glanzmann-Thrombasthenie gibt es weder Studien noch Literatur und keinen plausiblen Wirkmechanismus. Zudem besteht in Deutschland aktuell keine gültige Zulassung des Produkts.
+Die hohen TxGNN-Werte stammen vom TxGNN-Modell (Deep Learning) und können Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. In Deutschland ist das Produkt aktuell im Handel; 1 von 1 Zulassungen ist gültig.
 
 **Für ein Weiterkommen erforderlich:**
 - Beschaffung und Auswertung der Packungsbeilage (Warnhinweise, Gegenanzeigen) – derzeit blockierende Datenlücke für die Sicherheitsprüfung

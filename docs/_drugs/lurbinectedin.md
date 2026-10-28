@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Lurbinectedin: Von kleinzelligem Lungenkarzinom zu multipler endokriner Neoplasie
+## Lurbinectedin: Multiple endokrine Neoplasie
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,7 +48,7 @@ Lurbinectedin wurde ursprünglich zur Behandlung des kleinzelligen Lungenkarzino
 |------|------|
 | Ursprüngliche Indikation | Kleinzelliges Lungenkarzinom |
 | Vorhergesagte neue Indikation | Multiple endokrine Neoplasie |
-| TxGNN-Vorhersagewert | 99,44 % |
+| TxGNN-Vorhersagewert | 0,9944 |
 | Evidenzniveau | L5 |
 | Marktstatus in Deutschland | Nur erloschene Zulassung |
 | Anzahl der Zulassungen | 1 (erloschen) |
@@ -62,7 +62,7 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten k
 
 Das kleinzellige Lungenkarzinom ist ein neuroendokriner Tumor. Biologisch verwandte neuroendokrine Tumoren, wie sie bei der multiplen endokrinen Neoplasie vorkommen, könnten daher mechanistisch ansprechbar sein. Diese Verbindung ist jedoch **hypothetisch** und durch keine klinischen Daten gestützt. Der hohe Modellwert ist eine reine Vorhersage.
 
-Die übrigen Vorhersagen im Ranking (u. a. HIV-Infektion, rheumatoide Arthritis, amyotrophe Lateralsklerose, Zytomegalie-Infektion) haben ebenfalls keine Evidenz. Mehrere betreffen Tierkrankheiten (z. B. feline Immunschwäche, bovine Rhinotracheitis) und sind wahrscheinlich Artefakte des Wissensgraphen. Für diese Indikationen ist das Nutzen-Risiko-Verhältnis eines zytotoxischen Krebsmedikaments zudem ungünstig.
+Die übrigen Vorhersagen im Ranking (u. a. HIV-Infektion, rheumatoide Arthritis, amyotrophe Lateralsklerose, Zytomegalie-Infektion) haben ebenfalls keine Evidenz. Mehrere betreffen Tierkrankheiten (z. B. feline Immunschwäche, bovine Rhinotracheitis). Die Scores stammen vom TxGNN-Modell (Deep Learning) und können Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Krankheiten gelernt hat, nicht biologische Evidenz. Für diese Indikationen ist das Nutzen-Risiko-Verhältnis eines zytotoxischen Krebsmedikaments zudem ungünstig.
 
 ---
 

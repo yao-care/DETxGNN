@@ -4,7 +4,7 @@ title: Ipilimumab
 parent: Nur Modellvorhersage (L5)
 nav_order: 247
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Ipilimumab: vorhergesagte neue Indikation Choroideremie (Evidenzstufe L5). Ursprüngliche Indikation: Melanom"
 monitor_inn: "IPILIMUMAB"
@@ -14,7 +14,7 @@ predicted_indications: ["choroideremia"]
 # Ipilimumab
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Ipilimumab ist ein Immuncheckpoint-Inhibitor (CTLA-4-Antikörper). Er wurde ursp
 |------|------|
 | Ursprüngliche Indikation | Melanom; Nierenzellkarzinom; nichtkleinzelliges Lungenkarzinom; malignes Mesotheliom; kolorektale Neoplasien |
 | Vorhergesagte neue Indikation | Choroideremie |
-| TxGNN-Vorhersagewert | 99,06 % |
+| TxGNN-Vorhersagewert | 0,9906 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -84,7 +84,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/002213 (erloschen) | Yervoy | – | Melanom, Nierenzellkarzinom, nichtkleinzelliges Lungenkarzinom, malignes Mesotheliom, kolorektale N... |
 
-Hersteller ist Bristol-Myers Squibb Pharma EEIG. Die Zulassung ist als erloschen geführt, es besteht keine gültige Zulassung.
+Hersteller ist Bristol-Myers Squibb Pharma EEIG. Das Arzneimittel ist in Deutschland im Handel; 1 von 1 Zulassungen ist gültig.
 
 ---
 
@@ -118,7 +118,7 @@ Für weitere Warnhinweise und Gegenanzeigen bitte die Packungsbeilage heranziehe
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage für Choroideremie beruht ausschließlich auf dem Modellwert (Evidenzlevel L5). Es gibt weder klinische Studien noch Publikationen, und ein plausibler Wirkmechanismus fehlt. Hinzu kommt das Risiko immunvermittelter Augennebenwirkungen. Zudem besteht in Deutschland derzeit keine gültige Zulassung.
+Die Vorhersage für Choroideremie beruht ausschließlich auf dem Modellwert (Evidenzlevel L5). Es gibt weder klinische Studien noch Publikationen, und ein plausibler Wirkmechanismus fehlt. Hinzu kommt das Risiko immunvermittelter Augennebenwirkungen. Das Arzneimittel ist in Deutschland im Handel; 1 von 1 Zulassungen ist gültig.
 
 **Für ein Weiterverfolgen wäre erforderlich:**
 - präklinische Belege, die einen Zusammenhang zwischen CTLA-4-Blockade und der CHM-bedingten Netzhautdegeneration stützen

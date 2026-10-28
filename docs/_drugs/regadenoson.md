@@ -50,10 +50,10 @@ Für diese Richtung liegen derzeit **keine klinischen Studien** und **keine Publ
 |------|------|
 | Ursprüngliche Indikation | Myokardperfusionsbildgebung |
 | Vorhergesagte neue Indikation | Anaphylaxie |
-| TxGNN-Vorhersagewert | 99,85 % |
+| TxGNN-Vorhersagewert | 0,9985 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -70,9 +70,9 @@ Regadenoson ist zudem eine kurz wirksame Einzeldosis-Diagnostik und eignet sich 
 
 | Rang | Erkrankung | TxGNN-Wert | Einschätzung |
 |------|------|------|------|
-| 2 | Nahrungsabhängige belastungsinduzierte Anaphylaxie | 99,74 % | Gleiche theoretische A2A-Mastzell-Hypothese. Der Wert ist vermutlich durch die Ähnlichkeit zum übergeordneten Begriff Anaphylaxie erhöht. |
-| 3 | Esotropie | 99,12 % | Kein plausibler Mechanismus erkennbar, vermutlich ein Artefakt des Wissensgraphen. |
-| 4 | Pseudoallergie | 99,12 % | Spekulativ, da die Richtung der Wirkung auf Mastzellen unsicher ist. |
+| 2 | Nahrungsabhängige belastungsinduzierte Anaphylaxie | 0,9974 | Gleiche theoretische A2A-Mastzell-Hypothese. Der Wert ist vermutlich durch die Ähnlichkeit zum übergeordneten Begriff Anaphylaxie erhöht. |
+| 3 | Esotropie | 0,9912 | Kein plausibler Mechanismus erkennbar. Der Score stammt vom TxGNN-Modell (Deep Learning) und kann vom Modell gelernte Ähnlichkeiten zwischen verwandten Erkrankungen widerspiegeln, nicht biologische Evidenz. |
+| 4 | Pseudoallergie | 0,9912 | Spekulativ, da die Richtung der Wirkung auf Mastzellen unsicher ist. |
 
 ---
 
@@ -94,7 +94,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/001176 | Rapiscan (GE Healthcare AS) | – | Myokardperfusionsbildgebung |
 
-Diese Zulassung hat den Status „erloschen/widerrufen". Derzeit ist in den Daten keine gültige Zulassung verzeichnet.
+Diese Zulassung ist gültig. Derzeit ist in den Daten 1 von 1 Zulassung gültig.
 
 ---
 
@@ -117,7 +117,7 @@ Diese Zulassung hat den Status „erloschen/widerrufen". Derzeit ist in den Date
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersagen beruhen ausschließlich auf dem Modell (L5), ohne klinische Studien oder Publikationen. Der Wirkmechanismus ist bei Anaphylaxie widersprüchlich (A2A schützend, A2B/A3 fördernd), und das Arzneimittel selbst kann Anaphylaxie auslösen. Zudem besteht in Deutschland derzeit keine gültige Zulassung.
+Die Vorhersagen beruhen ausschließlich auf dem Modell (L5), ohne klinische Studien oder Publikationen. Der Wirkmechanismus ist bei Anaphylaxie widersprüchlich (A2A schützend, A2B/A3 fördernd), und das Arzneimittel selbst kann Anaphylaxie auslösen. Zudem ist das Arzneimittel in Deutschland derzeit mit einer gültigen Zulassung im Handel.
 
 **Für ein Weiterkommen ist Folgendes erforderlich:**
 - Daten zum Wirkmechanismus (MOA) aus DrugBank

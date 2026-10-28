@@ -48,10 +48,10 @@ Histidin war in Deutschland bzw. der EU unter dem Namen Maapliv für die Behandl
 |------|------|
 | Ursprüngliche Indikation | Ahornsirupkrankheit (Maple Syrup Urine Disease) |
 | Vorhergesagte neue Indikation | Gastroparese |
-| TxGNN-Vorhersagewert | 99,55 % |
+| TxGNN-Vorhersagewert | 0,9955 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -84,7 +84,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 |---------|------|------|-----------|
 | EMEA/H/C/005557 | Maapliv (Recordati Rare Diseases) | – | Ahornsirupkrankheit (Maple Syrup Urine Disease) |
 
-Diese Zulassung ist erloschen bzw. widerrufen; derzeit existiert keine gültige Zulassung.
+Diese Zulassung ist gültig; das Arzneimittel ist in Deutschland im Verkehr (1 gültige Zulassung von 1).
 
 ---
 
@@ -102,7 +102,7 @@ Für weitere Sicherheitsinformationen ist die Packungsbeilage heranzuziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert. Es gibt keine klinischen Studien, keine Literatur zu Histidin bei Gastroparese und keine gültige Zulassung in Deutschland.
+Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert. Es gibt keine klinischen Studien und keine Literatur zu Histidin bei Gastroparese; in Deutschland besteht 1 gültige Zulassung (von 1) und das Arzneimittel ist im Verkehr.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Wirkmechanismus-Daten (MOA) ergänzen, z. B. über DrugBank
@@ -114,7 +114,7 @@ Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert. Es gibt 
 
 ## Hinweis zur zweiten Vorhersage: Sklerosierende Cholangitis
 
-Die zweite Vorhersage (Wert 99,27 %, Evidenzstufe L4, Entscheidung Hold) stützt sich auf präklinische Studien. Mastzell-Histamin fördert in PSC-Mausmodellen die Gallengangsproliferation und Fibrose, und HDC-Knockout-Mäuse zeigen weniger Schäden (u. a. PMID 27351144, 32054995, 29601088). Da Histidin Substrat der Histamin-Synthese ist, könnte eine Histidin-Gabe die Erkrankung eher **verschlechtern**. Die Evidenz spricht für eine Blockade des Histaminwegs (H1/H2-Antagonisten), nicht für eine Histidin-Supplementierung.
+Die zweite Vorhersage (Wert 0,9927, Evidenzstufe L4, Entscheidung Hold) stützt sich auf präklinische Studien. Mastzell-Histamin fördert in PSC-Mausmodellen die Gallengangsproliferation und Fibrose, und HDC-Knockout-Mäuse zeigen weniger Schäden (u. a. PMID 27351144, 32054995, 29601088). Da Histidin Substrat der Histamin-Synthese ist, könnte eine Histidin-Gabe die Erkrankung eher **verschlechtern**. Die Evidenz spricht für eine Blockade des Histaminwegs (H1/H2-Antagonisten), nicht für eine Histidin-Supplementierung.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

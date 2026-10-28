@@ -49,10 +49,10 @@ Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei einer **Hepatitis-B-Virusin
 |------|------|
 | Ursprüngliche Indikation | Chronische Hepatitis C |
 | Vorhergesagte neue Indikation | Hepatitis-B-Virusinfektion |
-| TxGNN-Vorhersagewert | 99,71 % |
+| TxGNN-Vorhersagewert | 0,9971 |
 | Evidenzniveau | L4 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -100,7 +100,7 @@ Spezifische Publikationen zur Wirksamkeit von Elbasvir bei Hepatitis B liegen ni
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004126 | Zepatier | – | Chronische Hepatitis C (Zulassung erloschen) |
+| EMEA/H/C/004126 | Zepatier | – | Chronische Hepatitis C (Zulassung gültig) |
 
 ---
 

@@ -48,10 +48,10 @@ Norethisteron ist ein synthetisches Gestagen, das laut den für diesen Bericht z
 |------|------|
 | Ursprüngliche Indikation | Leiomyom |
 | Vorhergesagte neue Indikation | Amenorrhoe |
-| TxGNN-Vorhersagewert | 99,60 % |
+| TxGNN-Vorhersagewert | 0,9960 |
 | Evidenzgrad | L4 |
-| Marktstatus in Deutschland | Nur erloschene Zulassungen |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -97,7 +97,7 @@ Die folgende Auswahl priorisiert Studien mit höherem Evidenzgrad.
 |---------|------|------|-----------|
 | EMEA/H/C/005267 | Ryeqo | – | Leiomyom |
 
-Diese Zulassung ist erloschen, derzeit besteht keine gültige Zulassung.
+Diese Zulassung ist gültig; derzeit ist 1 von 1 Zulassung gültig.
 
 ---
 
@@ -115,7 +115,7 @@ Für verbindliche Sicherheitsinformationen ist die Packungsbeilage heranzuziehen
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage ist mechanistisch plausibel, doch es gibt keine klinischen Studien, und die Literatur behandelt Amenorrhoe nur als Nebenwirkung der Kontrazeption, nicht als Therapieziel. Der Evidenzgrad ist L4, und es besteht keine gültige Zulassung in Deutschland.
+Die Vorhersage ist mechanistisch plausibel, doch es gibt keine klinischen Studien, und die Literatur behandelt Amenorrhoe nur als Nebenwirkung der Kontrazeption, nicht als Therapieziel. Der Evidenzgrad ist L4, und das Arzneimittel ist in Deutschland im Handel (1 von 1 Zulassung gültig).
 
 **Für das weitere Vorgehen wird benötigt:**
 - Daten zum Wirkmechanismus (MOA) aus DrugBank

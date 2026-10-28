@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Eculizumab: Von paroxysmaler nächtlicher Hämoglobinurie zu zyklischer Hämatopoese
+## Eculizumab: Zyklische Hämatopoese
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür liegen jedoch **keine klinischen Studien** und **keine spezifischen Publi
 |------|------|
 | Ursprüngliche Indikation | Paroxysmale nächtliche Hämoglobinurie |
 | Vorhergesagte neue Indikation | Zyklische Hämatopoese |
-| TxGNN-Vorhersagewert | 99,97 % |
+| TxGNN-Vorhersagewert | 0,9997 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 3 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Dafür liegen jedoch **keine klinischen Studien** und **keine spezifischen Publi
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Eculizumab ein monoklonaler Antikörper gegen das Komplementprotein C5 ist und die terminale Komplementaktivierung hemmt. Bei PNH ist die Wirksamkeit belegt, da dort eine unkontrollierte Komplementaktivierung die Hämolyse verursacht.
 
-Ein plausibler mechanistischer Zusammenhang zur vorhergesagten Indikation besteht **nicht**. Die zyklische Hämatopoese (zyklische Neutropenie) wird durch ELANE-Mutationen verursacht und ist keine komplementvermittelte Erkrankung. Der hohe Vorhersagewert spiegelt wahrscheinlich die Nähe im Wissensgraphen zu hämatologischen Erkrankungen wider und keinen echten Wirkmechanismus.
+Ein plausibler mechanistischer Zusammenhang zur vorhergesagten Indikation besteht **nicht**. Die zyklische Hämatopoese (zyklische Neutropenie) wird durch ELANE-Mutationen verursacht und ist keine komplementvermittelte Erkrankung. Der hohe Vorhersagewert stammt vom TxGNN-Modell (Deep Learning) und spiegelt wahrscheinlich Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat, und keinen biologischen Beleg oder echten Wirkmechanismus.
 
 Auch die übrigen vorhergesagten Indikationen (v. a. verschiedene angeborene Neutropenien, idiopathische Neutropenie, p14-Defizienz, primäre Thrombozyten-Freisetzungsstörung) betreffen Störungen der Granulopoese, der Zellsignalwege oder der Thrombozytenfunktion ohne bekannte Komplementbeteiligung.
 
@@ -97,7 +97,7 @@ Bei den weiteren Vorhersagen sind die gefundenen Publikationen nicht krankheitss
 | EMEA/H/C/006036 | Epysqli | – | Paroxysmale nächtliche Hämoglobinurie |
 | EMEA/H/C/005652 | Bekemv | – | Paroxysmale nächtliche Hämoglobinurie |
 
-Alle drei Zulassungen haben den Status „erloschen/aufgehoben“.
+Alle drei Zulassungen haben den Status „gültig“.
 
 ---
 

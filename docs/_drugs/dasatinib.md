@@ -4,7 +4,7 @@ title: Dasatinib
 parent: Hohe Evidenz (L1-L2)
 nav_order: 133
 evidence_level: L2
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Dasatinib: vorhergesagte neue Indikation Ewing-Sarkom (Evidenzstufe L2). Ursprüngliche Indikation: Vorläuferzell-lymphoblastische Leukämie/Lymphom"
 monitor_inn: "DASATINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival"
 # Dasatinib
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ Das TxGNN-Modell sagt voraus, dass er beim **Ewing-Sarkom** wirksam sein könnte
 |------|------|
 | Ursprüngliche Indikation | Vorläuferzell-lymphoblastische Leukämie/Lymphom; BCR-ABL-positive chronische myeloische Leukämie |
 | Vorhergesagte neue Indikation | Ewing-Sarkom |
-| TxGNN-Vorhersagewert | 99,90 % |
+| TxGNN-Vorhersagewert | 0,9990 |
 | Evidenzniveau | L2 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl Zulassungen | 2 (beide erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold (Forschungsfrage) |
 
 Hinweis: Das Evidenzniveau L2 und die Einstufung als Forschungsfrage stammen aus der Bewertung der für diesen Bericht zusammengestellten Daten. Die einzige abgeschlossene Phase-2-Studie umfasst ein gemischtes Sarkomkollektiv.
@@ -141,7 +141,6 @@ Die präklinische Datenlage (SRC-Abhängigkeit des Ewing-Sarkoms) ist plausibel.
 - Klärung des Zulassungs- und Verfügbarkeitsstatus in Deutschland
 
 **Weitere vorhergesagte Indikationen (Kurzüberblick):**
-- **Myeloische Leukämie** (Score 99,68 %, L1): Große Phase-3-Evidenz, überwiegend jedoch im Bereich der ursprünglichen Indikation (CML); der Repurposing-relevante Teil ist die Core-Binding-Factor-AML (Phase-3-Studie 2026 in *Blood*). Empfehlung: Proceed with Guardrails.
 - **Liposarkom** (L4), **dermatofibrosarcoma protuberans** (L4): nur präklinische bzw. indirekte Evidenz, Hold.
 - Übrige Vorhersagen (Gingivafibromatose, ovarielles myxoides Liposarkom, Ganglioneuroblastom, u. a.): nur Modellvorhersage (L5), Hold.
 ## Haftungsausschluss

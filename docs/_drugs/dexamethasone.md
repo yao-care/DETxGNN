@@ -50,10 +50,10 @@ Dafür liegen **keine registrierten klinischen Studien**, aber **20 Publikatione
 |------|------|
 | Ursprüngliche Indikation | Makulaödem, Uveitis (Ozurdex); Multiples Myelom (Neofordex) |
 | Vorhergesagte neue Indikation | Alopecia areata |
-| TxGNN-Vorhersagewert | 99,99 % |
+| TxGNN-Vorhersagewert | 0,9999 |
 | Evidenzlevel | L2 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
 
 ---
@@ -96,7 +96,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 | EMEA/H/C/001140 | Ozurdex | – | Makulaödem, Uveitis |
 | EMEA/H/C/004071 | Neofordex | – | Multiples Myelom |
 
-Beide Zulassungen sind erloschen bzw. widerrufen; derzeit besteht keine gültige Zulassung in den vorliegenden Daten.
+Das Arzneimittel ist in Deutschland im Handel; 2 von 2 Zulassungen sind gültig.
 
 ---
 
@@ -126,7 +126,7 @@ Für Warnhinweise und Kontraindikationen aus der Fachinformation siehe die Fachi
 **Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Für Alopecia areata liegen eine RCT bei Kindern, mehrere prospektive und multizentrische Studien sowie eine Netzwerk-Metaanalyse zur Dexamethason-Mini-Puls-Therapie vor (Evidenzlevel L2). Es fehlen jedoch registrierte klinische Studien, die RCT ist klein (30 Kinder), und aktuell besteht keine gültige Zulassung in Deutschland.
+Für Alopecia areata liegen eine RCT bei Kindern, mehrere prospektive und multizentrische Studien sowie eine Netzwerk-Metaanalyse zur Dexamethason-Mini-Puls-Therapie vor (Evidenzlevel L2). Es fehlen jedoch registrierte klinische Studien, und die RCT ist klein (30 Kinder). In Deutschland ist das Arzneimittel im Handel, 2 von 2 Zulassungen sind gültig.
 
 Die übrigen neun vorhergesagten Indikationen (u. a. Alopecia mucinosa, Telogen effluvium, Folliculitis decalvans) stützen sich nur auf die Modellvorhersage (L5) und sind mit **Hold** zu bewerten. Mehrere davon erscheinen mechanistisch unplausibel.
 

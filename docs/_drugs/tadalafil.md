@@ -6,9 +6,9 @@ nav_order: 441
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Tadalafil: vorhergesagte neue Indikation Ambras-Hypertrichosis (Hypertrichosis universalis congenita… (Evidenzstufe L5). Ursprüngliche Indikation: Pulmonale Hypertonie"
 monitor_inn: "TADALAFIL"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
+description: "Tadalafil: vorhergesagte neue Indikation Ambras type hypertrichosis universalis congenita (Evidenzstufe L5). Ursprüngliche Indikation: Hypertension, Pulmonary"
 ---
 
 # Tadalafil
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-## Tadalafil: Von Pulmonaler Hypertonie und erektiler Dysfunktion zu Ambras-Hypertrichosis (Hypertrichosis universalis congenita, Typ Ambras)
+## Tadalafil: Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,12 +48,12 @@ jedoch gibt es dafür **keine klinischen Studien** und **keine Publikationen**. 
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Pulmonale Hypertonie |
-| Vorhergesagte neue Indikation | Ambras-Hypertrichosis (Hypertrichosis universalis congenita, Typ Ambras) |
-| TxGNN-Vorhersagewert | 99,98 % |
+| Ursprüngliche Indikation | Hypertension, Pulmonary; Erectile Dysfunction; Pulmonary Arterial Hypertension |
+| Vorhergesagte neue Indikation | Ambras type hypertrichosis universalis congenita |
+| TxGNN-Vorhersagewert | 0.9998 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 6 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 6 von 6) |
+| Anzahl der Zulassungen | 6 (gültig: 6) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ jedoch gibt es dafür **keine klinischen Studien** und **keine Publikationen**. 
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Tadalafil die Phosphodiesterase 5 (PDE5) hemmt, dadurch den cGMP-Spiegel erhöht und eine Gefäßerweiterung bewirkt. Dies erklärt die Wirkung bei pulmonaler Hypertonie und erektiler Dysfunktion.
 
-Ein plausibler Zusammenhang zur Ambras-Hypertrichosis ist nicht erkennbar. Diese Erkrankung wird durch eine Chromosomen-Umlagerung (8q22) verursacht, die die Regulation des Gens TRPS1 beeinflusst. Ein Einfluss der PDE5-Hemmung auf diese genetische Ursache ist nicht belegt. Die Vorhersage spiegelt vermutlich gemeinsame Nachbarknoten im Wissensgraphen (z. B. haarbezogene Phänotypen) wider und keine echte pharmakologische Beziehung.
+Ein plausibler Zusammenhang zur Ambras-Hypertrichosis ist nicht erkennbar. Diese Erkrankung wird durch eine Chromosomen-Umlagerung (8q22) verursacht, die die Regulation des Gens TRPS1 beeinflusst. Ein Einfluss der PDE5-Hemmung auf diese genetische Ursache ist nicht belegt. Der Score stammt aus dem TxGNN-Modell (Deep Learning) und spiegelt vermutlich Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat (z. B. haarbezogene Phänotypen), und keine biologische Evidenz oder echte pharmakologische Beziehung.
 
 Auch die übrigen Vorhersagen der Rangliste stützen sich auf keine Evidenz. Mehrere betreffen Haarphänotypen (Hypertrichose, Trichomegalie, Haarschaftanomalien). Bei diesen wäre das therapeutische Ziel eine Verminderung des Haarwuchses, während ein spekulativer Effekt gefäßerweiternder Substanzen (wie bei Minoxidil) eher eine Förderung des Haarwuchses, also eine Nebenwirkung, wäre. Mechanistisch am ehesten nachvollziehbar, aber unvalidiert, ist die kyphoskoliotische Herzerkrankung (Rang 7): Hier könnte die Zulassung bei pulmonal-arterieller Hypertonie eine Rolle spielen. Allerdings unterscheidet sich die hypoxische Vasokonstriktion bei restriktiver Thoraxerkrankung von der PAH, und PDE5-Hemmer können das Ventilations-Perfusions-Verhältnis verschlechtern.
 
@@ -88,7 +88,7 @@ Zur Orientierung: Für die Vorhersage auf Rang 8 (Migräne mit Hirnstammaura) ex
 
 ## Informationen zum deutschen Markt
 
-Alle sechs erfassten Zulassungen sind erloschen (zentrale EU-Zulassungen der EMA):
+Alle sechs erfassten Zulassungen sind gültig (zentrale EU-Zulassungen der EMA):
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|

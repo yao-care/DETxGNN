@@ -50,10 +50,10 @@ Dafür liegen **12 klinische Studien** und **20 Publikationen** vor. Die vorherg
 |------|------|
 | Ursprüngliche Indikation | Hereditäres Angioödem |
 | Vorhergesagte neue Indikation | C1-Inhibitor-Mangel |
-| TxGNN-Vorhersagewert | 99,99 % |
+| TxGNN-Vorhersagewert | 0,9999 |
 | Evidenzgrad | L1 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
 
 ---
@@ -64,7 +64,7 @@ Bei einem C1-Inhibitor-Mangel (hereditäres Angioödem Typ I/II sowie erworbener
 
 Die vorhergesagte Indikation ist im Kern identisch mit der zugelassenen Indikation des hereditären Angioödems. Für den **erworbenen** C1-INH-Mangel stützt sich die Evidenz überwiegend auf mechanistische Überlegungen, Übersichtsarbeiten und Fallserien, etwa eine reale Beobachtungsstudie mit acht Patienten und 48 behandelten Attacken.
 
-Die übrigen sechs vorhergesagten Erkrankungen (u. a. Serpinopathie, Pseudo-von-Willebrand-Syndrom, Glanzmann-Thrombasthenie, immunvermittelte nekrotisierende Myopathie, Antisynthetase-Syndrom) haben weder klinische noch literaturbasierte Belege und keine plausible mechanistische Verbindung zur B2-Blockade. Sie sind vermutlich Artefakte des Wissensgraphen (Evidenzgrad L5, Entscheidung: Hold).
+Die übrigen sechs vorhergesagten Erkrankungen (u. a. Serpinopathie, Pseudo-von-Willebrand-Erkrankung, Glanzmann-Thrombasthenie, immunvermittelte nekrotisierende Myopathie, Antisynthetase-Syndrom) haben weder klinische noch literaturbasierte Belege und keine plausible mechanistische Verbindung zur B2-Blockade. Die Scores stammen vom TxGNN-Modell (Deep Learning) und können vom Modell gelernte Ähnlichkeiten zwischen verwandten Erkrankungen widerspiegeln, nicht biologische Evidenz (Evidenzgrad L5, Entscheidung: Hold).
 
 ---
 
@@ -106,10 +106,10 @@ Die übrigen sechs vorhergesagten Erkrankungen (u. a. Serpinopathie, Pseudo-von-
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/005083 | Icatibant Accord (erloschen) | k. A. | Hereditäres Angioödem |
-| EMEA/H/C/000899 | Firazyr (erloschen) | k. A. | Hereditäres Angioödem |
+| EMEA/H/C/005083 | Icatibant Accord (gültig) | k. A. | Hereditäres Angioödem |
+| EMEA/H/C/000899 | Firazyr (gültig) | k. A. | Hereditäres Angioödem |
 
-Beide Zulassungen sind als erloschen/zurückgezogen geführt; aktuell gibt es keine gültige Zulassung in den für diesen Bericht zusammengestellten Daten.
+Beide Zulassungen (2 von 2) sind gültig; das Arzneimittel ist in diesem Land im Handel.
 
 ---
 

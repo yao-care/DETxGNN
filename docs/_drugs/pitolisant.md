@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Pitolisant
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 361
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Pitolisant: vorhergesagte neue Indikation Insomnie (Evidenzstufe L4). Ursprüngliche Indikation: Narkolepsie"
@@ -14,7 +14,7 @@ predicted_indications: ["insomnia (disease)", "attention deficit-hyperactivity d
 # Pitolisant
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Pitolisant ist ein Histamin-H3-Rezeptor-Antagonist bzw. inverser Agonist, der ur
 |------|------|
 | Ursprüngliche Indikation | Narkolepsie; obstruktive Schlafapnoe |
 | Vorhergesagte neue Indikation | Insomnie |
-| TxGNN-Vorhersagewert | 99,71 % |
-| Evidenzniveau | L4 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen (Status „cancelled") |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| TxGNN-Vorhersagewert | 0,9971 |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold (zurückstellen) |
 
 ---
@@ -62,7 +62,7 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten k
 
 Genau hier liegt das Problem: Insomnie ist eine Störung mit übermäßiger Erregung bzw. gestörtem Schlaf. Ein wachheitsförderndes Mittel steht dem Therapieziel mechanistisch entgegen und könnte die Beschwerden verschlimmern. Schlaflosigkeit ist zudem eine bekannte Nebenwirkung von Pitolisant. Der hohe TxGNN-Wert spiegelt vermutlich die Nähe im Netzwerk zu Schlaf-Wach-Pfaden (Narkolepsie, Schlafapnoe) wider und keine echte therapeutische Beziehung.
 
-Hinweis zu weiteren Vorhersagen: Für **ADHS** (Score 99,36 %, Evidenzniveau L4, Einstufung „Forschungsfrage") gibt es eine plausible, aber rein indirekte mechanistische Begründung (H3-Antagonismus erhöht Acetylcholin, Dopamin und Noradrenalin im präfrontalen Kortex); ADHS-spezifische Studien zu Pitolisant sind nicht registriert. Für das **faziodigitogenitale Syndrom** (Score 99,29 %, L5) wurde keine mechanistische Begründung gefunden.
+Hinweis zu weiteren Vorhersagen: Für **ADHS** (Score 0,9936, Evidenzniveau L4, Einstufung „Forschungsfrage") gibt es eine plausible, aber rein indirekte mechanistische Begründung (H3-Antagonismus erhöht Acetylcholin, Dopamin und Noradrenalin im präfrontalen Kortex); ADHS-spezifische Studien zu Pitolisant sind nicht registriert. Für das **faziodigitogenitale Syndrom** (Score 0,9929, L5) wurde keine mechanistische Begründung gefunden.
 
 ---
 
@@ -95,8 +95,8 @@ Die folgenden Arbeiten betreffen die Pitolisant-Pharmakologie und die ursprüngl
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/002616 | Wakix | – | Narkolepsie (erloschen) |
-| EMEA/H/C/005117 | Ozawade | – | Obstruktive Schlafapnoe (erloschen) |
+| EMEA/H/C/002616 | Wakix | – | Narkolepsie (gültig) |
+| EMEA/H/C/005117 | Ozawade | – | Obstruktive Schlafapnoe (gültig) |
 
 ---
 

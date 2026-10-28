@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Topotecan
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 474
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Topotecan: vorhergesagte neue Indikation Weibliches Mammakarzinom (Evidenzstufe L3). Ursprüngliche Indikation: Ovarialkarzinom, Zervixkarzinom, kleinzelliges Lungenkarzinom"
 monitor_inn: "TOPOTECAN"
@@ -14,7 +14,7 @@ predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
 # Topotecan
 {: .fs-9 }
 
-Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Topotecan: Von Ovarialkarzinom, Gebärmutterhalskrebs und kleinzelligem Lungenkarzinom zum weiblichen Mammakarzinom
+## Topotecan: Mammakarzinom der Frau
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Die Evidenz ist begrenzt: **3 klinische Studien** (alle ohne Wirksamkeitsdaten, 
 |------|------|
 | Ursprüngliche Indikation | Ovarialkarzinom, Zervixkarzinom, kleinzelliges Lungenkarzinom |
 | Vorhergesagte neue Indikation | Weibliches Mammakarzinom |
-| TxGNN-Vorhersagewert | 99,92 % |
-| Evidenzstufe | L3 |
-| Marktstatus in Deutschland | Nur erloschene Zulassungen (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 3 (alle erloschen) |
+| TxGNN-Vorhersagewert | 0,9992 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -99,9 +99,9 @@ Dagegen steht, dass Topotecan ein Substrat des Efflux-Transporters BCRP/ABCG2 is
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000123 | Hycamtin | k. A. | Ovarialkarzinom, Zervixkarzinom, kleinzelliges Lungenkarzinom (erloschen) |
-| EMEA/H/C/001192 | Topotecan Hospira | k. A. | Zervixkarzinom, kleinzelliges Lungenkarzinom (erloschen) |
-| EMEA/H/C/002282 | Potactasol | k. A. | Zervixkarzinom, kleinzelliges Lungenkarzinom (erloschen) |
+| EMEA/H/C/000123 | Hycamtin | k. A. | Ovarialkarzinom, Zervixkarzinom, kleinzelliges Lungenkarzinom (gültig) |
+| EMEA/H/C/001192 | Topotecan Hospira | k. A. | Zervixkarzinom, kleinzelliges Lungenkarzinom (gültig) |
+| EMEA/H/C/002282 | Potactasol | k. A. | Zervixkarzinom, kleinzelliges Lungenkarzinom (gültig) |
 
 ---
 
@@ -134,7 +134,7 @@ Weitere Sicherheitsinformationen entnehmen Sie bitte der Packungsbeilage.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage ist mechanistisch plausibel, doch die klinische Evidenz ist schwach: Die einzige Phase-2-Studie bei Brustkrebs zeigte keine erhöhte Wirksamkeit, die registrierten Studien sind abgebrochen, unspezifisch oder ohne Ergebnisse. Zudem besteht in Deutschland derzeit keine gültige Zulassung.
+Die Vorhersage ist mechanistisch plausibel, doch die klinische Evidenz ist schwach: Die einzige Phase-2-Studie bei Brustkrebs zeigte keine erhöhte Wirksamkeit, die registrierten Studien sind abgebrochen, unspezifisch oder ohne Ergebnisse. Zudem ist das Arzneimittel in Deutschland im Handel, mit 3 gültigen Zulassungen von 3.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Auswertung der Packungsbeilage (BfArM) zu Warnhinweisen und Kontraindikationen, da diese Sicherheitsdaten fehlen

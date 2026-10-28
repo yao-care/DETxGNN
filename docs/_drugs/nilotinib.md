@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nilotinib
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 314
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Nilotinib: vorhergesagte neue Indikation Dermatofibrosarcoma protuberans (Evidenzstufe L4). Ursprüngliche Indikation: Chronische myeloische Leukämie, BCR-ABL-positiv"
 monitor_inn: "NILOTINIB"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
+description: "Nilotinib: vorhergesagte neue Indikation Dermatofibrosarcoma protuberans (Evidenzstufe L5). Ursprüngliche Indikation: Leukemia, Myelogenous, Chronic, BCR-ABL Positive"
 ---
 
 # Nilotinib
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-## Nilotinib: Von chronischer myeloischer Leukämie zu Dermatofibrosarcoma protuberans
+## Nilotinib: Dermatofibrosarcoma protuberans
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,12 +48,12 @@ Die Evidenz ist bislang gering: Es liegen **keine klinischen Studien** und **1 P
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Chronische myeloische Leukämie, BCR-ABL-positiv |
+| Ursprüngliche Indikation | Leukemia, Myelogenous, Chronic, BCR-ABL Positive |
 | Vorhergesagte neue Indikation | Dermatofibrosarcoma protuberans |
-| TxGNN-Vorhersagewert | 99,31 % |
-| Evidenzgrad | L4 |
-| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassungen (keine aktuell gültige Zulassung) |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| TxGNN-Vorhersagewert | 0.9931 |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -64,7 +64,7 @@ Zum Wirkmechanismus von Nilotinib liegen in den für diesen Bericht zusammengest
 
 DFSP ist durch die COL1A1-PDGFB-Translokation gekennzeichnet. Sie führt zu einem dauerhaft aktiven PDGFB-Liganden und treibt die PDGFR-beta-Signalübertragung an. Mechanistisch besteht daher ein plausibler Zusammenhang: Die Hemmung des PDGFR-Signalwegs betrifft denselben Weg, der von Imatinib bei inoperablem oder metastasiertem DFSP gezielt angegangen wird.
 
-Der hohe TxGNN-Wert (0,993) ist eine rechnerische Vorhersage und kein klinischer Wirksamkeitsnachweis.
+Der hohe TxGNN-Wert (0,9931) ist eine rechnerische Vorhersage und kein klinischer Wirksamkeitsnachweis.
 
 ---
 
@@ -98,7 +98,6 @@ Beide Zulassungen haben den Status „erloschen/gelöscht".
 | Punkt | Inhalt |
 |------|------|
 | Zytotoxizitätsklassifikation | Zielgerichtete Therapie (Tyrosinkinase-Inhibitor) |
-| Myelosuppressionsrisiko | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten. Aus den Wissensgraph-Daten ergeben sich Hinweise auf Neutropenie, Thrombozytopenie und Anämie. |
 | Emetogenitätsklassifikation | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
 | Überwachungsparameter | Blutbild, Leber- und Nierenfunktion, Elektrolyte (insbesondere Kalium), Blutzucker, EKG (QT-Zeit) |
 | Handhabungsschutz | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
@@ -126,7 +125,7 @@ Angaben zu Warnhinweisen und Kontraindikationen aus der Fachinformation liegen n
 **Entscheidung: Hold**
 
 **Begründung:**
-Die mechanistische Verbindung über die PDGFR-Hemmung ist plausibel, die Evidenz beschränkt sich jedoch auf eine Vorhersage des Modells und einen Übersichtsartikel (L4). Zudem besteht in Deutschland derzeit keine gültige Zulassung, und die Sicherheitsdaten aus der Fachinformation fehlen, sodass die Sicherheitsprüfung nicht fortgesetzt werden kann.
+Die mechanistische Verbindung über die PDGFR-Hemmung ist plausibel, die Evidenz beschränkt sich jedoch auf eine Vorhersage des Modells und einen Übersichtsartikel (L4). Zudem ist das Arzneimittel in Deutschland im Verkehr (2 von 2 Zulassungen gültig), doch die Sicherheitsdaten aus der Fachinformation fehlen, sodass die Sicherheitsprüfung nicht fortgesetzt werden kann.
 
 **Für das weitere Vorgehen sind erforderlich:**
 - Fachinformation (Warnhinweise und Kontraindikationen) beim BfArM beschaffen und auswerten

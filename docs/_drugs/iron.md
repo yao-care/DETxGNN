@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Iron
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 249
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-14
-description: "Iron: vorhergesagte neue Indikation Plummer-Vinson-Syndrom (Rang 2 der TxGNN-Vorhersagen (Evidenzstufe L4). Ursprüngliche Indikation: Eisenmangelanämie (sowie Folsäuremangelanämie, Frühgeborenenanämi…"
 monitor_inn: "IRON"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
+last_modified_at: 2026-10-27
+description: "Iron: vorhergesagte neue Indikation Vitamin-B12- und folatunabhängige konstitutionelle megaloblastäre Anämie (vitamin B12- and folate-independent constitut… (Evidenzstufe L5). Ursprüngliche Indikatio…"
 ---
 
 # Iron
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **6** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,100 +33,77 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-## Eisen: Von Eisenmangelanämie zu Plummer-Vinson-Syndrom
+## Eisen: Eisenpräparat → Vitamin-B12- und folatunabhängige konstitutionelle megaloblastäre Anämie (vitamin B12- and folate-independent constitutional megaloblastic anemia)
 {: .text-alpha }
 
 ## Zusammenfassung
 
-Eisen wird ursprünglich zur Behandlung von Eisenmangelanämie und weiteren Anämieformen (z. B. Folsäuremangelanämie, Frühgeborenenanämie, mikrozytäre Anämie) eingesetzt. Das TxGNN-Modell sagt voraus, dass es bei **Plummer-Vinson-Syndrom** wirksam sein könnte. Dafür liegen **keine klinischen Studien**, aber **19 Publikationen** vor (überwiegend Übersichtsarbeiten und Fallberichte).
-
----
+Eisen ist ein Mineralstoff- bzw. Eisenpräparat, das in der Behandlung von Eisenmangel- und verwandten Anämien eingesetzt wird. Das TxGNN-Modell sagt voraus, dass es bei der **Vitamin-B12- und folatunabhängigen konstitutionellen megaloblastären Anämie (vitamin B12- and folate-independent constitutional megaloblastic anemia)** wirksam sein könnte. Für diese Vorhersage liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; sie beruht allein auf dem Modell.
 
 ## Schnellübersicht
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Eisenmangelanämie (sowie Folsäuremangelanämie, Frühgeborenenanämie, hypochrome und mikrozytäre Anämie) |
-| Vorhergesagte neue Indikation | Plummer-Vinson-Syndrom (Rang 2 der TxGNN-Vorhersagen; Rang 1 war eine konstitutionelle megaloblastäre Anämie ohne jegliche Evidenz) |
-| TxGNN-Vorhersagewert | 99,89 % |
-| Evidenzgrad | L4 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
-| Anzahl Zulassungen | 2 (beide aufgehoben) |
-| Empfohlene Entscheidung | Hold (Forschungsfrage; keine kontrollierten Daten) |
-
----
+| Ursprüngliche Indikation | In den lokalen Daten nicht erfasst |
+| Vorhergesagte neue Indikation | Vitamin-B12- und folatunabhängige konstitutionelle megaloblastäre Anämie (vitamin B12- and folate-independent constitutional megaloblastic anemia) |
+| TxGNN-Vorhersagewert | 0,9989 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
+| Empfohlene Entscheidung | Hold (zurückstellen) |
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für diesen Bericht liegen derzeit keine detaillierten Daten zum Wirkmechanismus vor. Nach bekanntem Stand ist Eisen ein essenzielles Spurenelement der Hämoglobinsynthese und der Erythropoese, seine Wirksamkeit bei Eisenmangelanämie ist etabliert.
+Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Eisen für die Bildung des roten Blutfarbstoffs und damit für die Erythropoese eine zentrale Rolle spielt und bei verschiedenen Anämieformen eingesetzt wird.
 
-Das Plummer-Vinson-Syndrom ist klassisch durch die Trias aus Dysphagie, Eisenmangelanämie und Ösophagusmembranen (webs) definiert. Der Eisenmangel gilt als zentraler Bestandteil der Pathogenese. Fallserien und Übersichten berichten, dass eine Eisensubstitution die Dysphagie bessert und Membranen zum Verschwinden bringen kann, teils bevor sich die Blutwerte normalisieren. Allerdings ist dies weitgehend eine Erweiterung der bereits bestehenden Indikation Eisenmangelanämie und kein neuer Wirkmechanismus. Manche Patienten benötigen zusätzlich eine endoskopische Dilatation.
+Die vorhergesagte Erkrankung ist per Definition unabhängig von Vitamin B12 und Folat. Eine spezifische Wirkung von Eisen lässt sich aus seiner allgemeinen Rolle in der Blutbildung nicht ableiten. Der hohe Modellwert spiegelt vermutlich vor allem die Nähe zu den bereits bekannten Anämie-Anwendungen von Eisen wider. Die mechanistische Verbindung ist daher schwach und rein spekulativ.
 
----
+## Klinische Studien
 
-## Evidenz aus klinischen Studien
-
-Derzeit sind keine klinischen Studien zum Plummer-Vinson-Syndrom registriert.
-
----
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Literaturevidenz
 
-Die Evidenz ist beschreibend; kontrollierte Studien fehlen. Auswahl der relevantesten Arbeiten:
+Derzeit liegt keine zugehörige Literatur vor.
 
-| PMID | Jahr | Typ | Journal | Kernaussagen |
-|------|-----|------|------|---------|
-| [29089792](https://pubmed.ncbi.nlm.nih.gov/29089792/) | 2017 | Review | J Blood Med | Aktueller Überblick zu Eisenmangelanämie und Plummer-Vinson-Syndrom; Trias aus Dysphagie, Anämie und Ösophagusmembran |
-| [16978405](https://pubmed.ncbi.nlm.nih.gov/16978405/) | 2006 | Review | Orphanet J Rare Dis | Sehr seltenes Syndrom, überwiegend weiße Frauen mittleren Alters; klassische Trias |
-| [40802140](https://pubmed.ncbi.nlm.nih.gov/40802140/) | 2025 | Retrospektive Multizenterstudie | Dig Dis Sci | Demografie, Klinik, Bildgebung und Behandlungsergebnisse bei PVS; Risiko für Plattenepithelkarzinom |
-| [7575056](https://pubmed.ncbi.nlm.nih.gov/7575056/) | 1995 | Fallbericht und Review | Arch Intern Med | Eisenauffüllung bessert oft die Dysphagie; erhöhtes Risiko für postkrikoidales Karzinom, Überwachungsendoskopie empfohlen |
-| [12823219](https://pubmed.ncbi.nlm.nih.gov/12823219/) | 2003 | Fallbericht | Dis Esophagus | Zwei Patientinnen; Eisensubstitution führte zum Rückgang der Symptome |
-| [31417270](https://pubmed.ncbi.nlm.nih.gov/31417270/) | 2019 | Review | J Multidiscip Healthc | Überwiegend Fallberichte und kleine Kohorten; multidisziplinäres Management und Langzeitüberwachung |
-| [34616256](https://pubmed.ncbi.nlm.nih.gov/34616256/) | 2021 | Fallbericht | Case Rep Gastroenterol | Eisensubstitution als Basistherapie; Dysphagie spricht oft früher an als die Blutwerte |
-| [26502163](https://pubmed.ncbi.nlm.nih.gov/26502163/) | 2015 | Review (Pädiatrie) | J Pediatr Gastroenterol Nutr | PVS bei Kindern: seltene Ursache der Dysphagie |
-| [39760192](https://pubmed.ncbi.nlm.nih.gov/39760192/) | 2025 | Systematische Übersicht | Oral Dis | Manifestationen von Kopf-Hals-Tumoren bei PVS (keine Aussage zur Eisentherapie) |
-| [38034443](https://pubmed.ncbi.nlm.nih.gov/38034443/) | 2023 | Fallbericht | JPGN Rep | Endoskopische Ballondilatation bei einem 4-jährigen Kind |
-
----
-
-## Informationen zum deutschen Markt
+## Marktinformationen Deutschland
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/004329 | Forceris | – | – (aufgehoben) |
-| EMEA/V/C/004794 | Baycox Iron | – | – (aufgehoben) |
+| EMEA/V/C/004329 | Forceris | – | Nicht erfasst |
+| EMEA/V/C/004794 | Baycox Iron | – | Nicht erfasst |
 
-Beide Zulassungen sind aufgehoben. Es handelt sich um EMA-Nummern (zentrale Verfahren); Angaben zu Darreichungsform und Indikation liegen nicht vor.
-
----
+Die Einträge sind zentrale EU-Zulassungsnummern (EMEA/V/C). In den lokalen Daten ist kein Indikationstext hinterlegt.
 
 ## Sicherheitsaspekte
 
-- **Kontraindikationen (aus Wissensgraph, nicht aus Fachinformation):** peptisches Ulkus, hereditäre Hämochromatose, Hämosiderose, Eisenstoffwechselstörungen, Morbus Wilson, Colitis ulcerosa, chronisch-entzündliche Darmerkrankungen, hämolytische Anämie, Gastroenteritis.
-- **Wechselwirkungen:** 79 Wechselwirkungen erfasst. Wichtigste:
-  - **Schwerwiegend (Major):** Dolutegravir, Bictegravir
-  - **Moderat (Auswahl):** Doxycyclin, Tetracyclin, Ciprofloxacin, Delafloxacin, Cefdinir, Chloramphenicol, Alendronsäure, Risedronsäure, Ibandronat, Levodopa, Omeprazol, Rabeprazol, Magnesiumoxid, Natriumcitrat, Pancrelipase, Deferipron, Baloxavir marboxil
-  - **Gering (Minor):** Cimetidin
+- **Arzneimittelwechselwirkungen:** Insgesamt wurden 79 Wechselwirkungen erfasst. Als schwerwiegend (Major) eingestuft sind unter anderem:
+  - Dolutegravir
+  - Bictegravir
+- Als mäßig (Moderate) eingestuft sind unter anderem:
+  - Tetracyclin und Doxycyclin
+  - Ciprofloxacin
+  - Omeprazol und Rabeprazol
+  - Alendronsäure, Risedronsäure und Ibandronat
+  - Levodopa
+  - Deferipron
+  - Magnesiumoxid
 
-Warnhinweise der Fachinformation liegen nicht vor; bitte die Fachinformation heranziehen.
-
----
+Für weitere Sicherheitsinformationen, insbesondere Warnhinweise und Gegenanzeigen, ist die Fachinformation heranzuziehen.
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Hold (Forschungsfrage)**
+**Entscheidung: Hold (zurückstellen)**
 
 **Begründung:**
-Die Vorhersage ist biologisch plausibel, stellt aber im Wesentlichen eine Erweiterung der bestehenden Indikation Eisenmangelanämie dar. Die Evidenz besteht nur aus Übersichtsarbeiten, Fallberichten und einer retrospektiven Studie; kontrollierte Studien fehlen, und in Deutschland sind keine gültigen Zulassungen vorhanden.
+Die Vorhersage beruht ausschließlich auf dem Modell. Es gibt weder klinische Studien noch Literatur, und ein biologischer Grund für einen spezifischen Nutzen von Eisen bei dieser B12- und folatunabhängigen Erkrankung fehlt. Die Evidenzstufe ist daher L5.
 
-**Für ein Weiterverfolgen sind erforderlich:**
-- Systematische Auswertung der Literatur zu Eisentherapie-Ergebnissen (Ansprechen der Dysphagie, Rückbildung der Membranen)
-- Prospektive oder kontrollierte Studien (orales vs. intravenöses Eisen)
-- Mechanismusdaten und Fachinformation (Warnhinweise, Kontraindikationen) von der BfArM/EMA
-- Prüfung der Zulassungslage und eines geeigneten Präparats in Deutschland
-- Überwachungskonzept für das Karzinomrisiko (Ösophagus/Postkrikoidregion)
-
-**Hinweis zu den übrigen Vorhersagen:** Die Kandidaten „konstitutionelle megaloblastäre Anämie" und „nicht-syndromale Ösophagusfehlbildung" haben nur Modellevidenz (L5, Hold). „Vitamin-Mangel-Erkrankung" (L3) und „Ösophaguserkrankung" (L4) sind zu breit gefasst und stützen sich nur auf indirekte Evidenz; „Biotin-Stoffwechselstörung" (L5) ist rein konzeptionell.
+**Für ein Weiterkommen sind erforderlich:**
+- Mechanistische Begründung, warum Eisen bei dieser Anämieform wirken sollte
+- Systematische Literaturrecherche und Fallberichte zu dieser Erkrankung
+- Wirkmechanismus-Daten (MOA) für Eisen
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen)
+- Bei positiver Vorabbewertung: klinische Pilotstudie
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

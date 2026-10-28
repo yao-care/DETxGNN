@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Sézary-Syndrom; Mycosis fungoides |
 | Vorhergesagte neue Indikation | Urothelkarzinom der prostatischen Harnröhre |
-| TxGNN-Vorhersagewert | 99,44 % |
+| TxGNN-Vorhersagewert | 0,9944 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,18 +62,18 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten nicht vor. Nach allgemeinem Wissen ist Mogamulizumab ein gegen CCR4 gerichteter monoklonaler Antikörper. Er depletiert CCR4-exprimierende Zellen, darunter regulatorische T-Zellen (Tregs), über verstärkte antikörperabhängige zelluläre Zytotoxizität (ADCC). Diese Angabe wurde nicht anhand der vorliegenden Daten verifiziert.
 
-Die hypothetische Verbindung zur neuen Indikation: Eine Treg-Depletion könnte die Immunsuppression im Tumormikromilieu des Urothelkarzinoms verringern und möglicherweise die Wirkung von Checkpoint-Inhibitoren ergänzen. Für eine CCR4-Expression oder Treg-Abhängigkeit bei diesem Tumortyp liegen in den Daten keine Belege vor. Der hohe TxGNN-Wert spiegelt Ähnlichkeiten im Wissensgraphen wider, keine klinische Validierung.
+Die hypothetische Verbindung zur neuen Indikation: Eine Treg-Depletion könnte die Immunsuppression im Tumormikromilieu des Urothelkarzinoms verringern und möglicherweise die Wirkung von Checkpoint-Inhibitoren ergänzen. Für eine CCR4-Expression oder Treg-Abhängigkeit bei diesem Tumortyp liegen in den Daten keine Belege vor. Der hohe Wert stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, keine biologische Evidenz und keine klinische Validierung.
 
 Weitere vorhergesagte Indikationen (jeweils nur Modellvorhersage, L5, Hold):
 
 | Rang | Indikation | TxGNN-Wert | Anmerkung |
 |---|---|---|---|
-| 2 | Sarkomatoides Übergangszellkarzinom des Nierenbeckens | 99,42 % | Aggressive Variante mit eigener Biologie; kein Beleg für CCR4-Bezug |
-| 3 | Infiltrierendes Urothelkarzinom der Blase, sarkomatoide Variante | 99,40 % | Mögliche Ergänzung zur Checkpoint-Hemmung, rein hypothetisch |
-| 4 | Papilläres Urothelkarzinom des Nierenbeckens | 99,37 % | Spekulativ; CCR4-Relevanz unbestätigt |
-| 5 | Humanes-Herpesvirus-8-assoziierter Tumor | 99,24 % | Biologisch etwas plausibler (Immundysregulation); Sicherheitsfragen bei immunsupprimierten Patienten |
-| 6 | Ektomesenchymom | 99,15 % | Kein mechanistischer Bezug erkennbar |
-| 7 | Maligner kutaner Granularzelltumor | 99,15 % | Nur Hautbezug gemeinsam, andere Zelllinie (Schwann-Zellen) |
+| 2 | Sarkomatoides Übergangszellkarzinom des Nierenbeckens | 0,9942 | Aggressive Variante mit eigener Biologie; kein Beleg für CCR4-Bezug |
+| 3 | Infiltrierendes Urothelkarzinom der Blase, sarkomatoide Variante | 0,9940 | Mögliche Ergänzung zur Checkpoint-Hemmung, rein hypothetisch |
+| 4 | Papilläres Urothelkarzinom des Nierenbeckens | 0,9937 | Spekulativ; CCR4-Relevanz unbestätigt |
+| 5 | Humanes-Herpesvirus-8-assoziierter Tumor | 0,9924 | Biologisch etwas plausibler (Immundysregulation); Sicherheitsfragen bei immunsupprimierten Patienten |
+| 6 | Ektomesenchymom | 0,9915 | Kein mechanistischer Bezug erkennbar |
+| 7 | Maligner kutaner Granularzelltumor | 0,9915 | Nur Hautbezug gemeinsam, andere Zelllinie (Schwann-Zellen) |
 
 ---
 

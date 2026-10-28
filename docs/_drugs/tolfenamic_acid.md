@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tolfenamic Acid
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 472
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Tolfenamic Acid: vorhergesagte neue Indikation Kopfschmerzerkrankung (headache disorder) (Evidenzstufe L2). Ursprüngliche Indikation: Im deutschen Zulassungsdatensatz nicht angegeben (Zulassung ohne …"
 monitor_inn: "TOLFENAMIC ACID"
-predicted_indications: ["headache disorder", "tendinitis", "rheumatoid arthritis", "trigeminal autonomic cephalalgia", "idiopathic granulomatous myositis", "myositis fibrosa", "fibromyalgia", "exostosis", "inclusion body myositis", "osteoarthritis susceptibility"]
+predicted_indications: ["headache disorder", "tendinitis", "rheumatoid arthritis", "trigeminal autonomic cephalalgia", "idiopathic granulomatous myositis", "myositis fibrosa", "fibromyalgia", "exostosis", "inclusion body myositis"]
 ---
 
 # Tolfenamic Acid
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Tolfenaminsäure ist ein nichtsteroidales Antirheumatikum (NSAR) aus der Gruppe 
 |------|------|
 | Ursprüngliche Indikation | Im deutschen Zulassungsdatensatz nicht angegeben (Zulassung ohne Indikationstext) |
 | Vorhergesagte neue Indikation | Kopfschmerzerkrankung (headache disorder) |
-| TxGNN-Vorhersagewert | 99,74 % |
-| Evidenzniveau | L2 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| TxGNN-Vorhersagewert | 0,9974 |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
 
 ---
@@ -93,7 +93,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/006234 | Tolfenamic acid VMD | nicht angegeben | nicht angegeben (Status: erloschen) |
+| EMEA/V/C/006234 | Tolfenamic acid VMD | nicht angegeben | nicht angegeben (Status: gültig) |
 
 ---
 

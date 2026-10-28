@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-## Roxadustat: Von renaler Anämie zu Trockenem-Auge-Syndrom
+## Roxadustat: Von renaler Anämie zu Trockenes-Auge-Syndrom
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Anämie; chronische Niereninsuffizienz |
 | Vorhergesagte neue Indikation | Trockenes-Auge-Syndrom (dry eye syndrome) |
-| TxGNN-Vorhersagewert | 99,51 % |
+| TxGNN-Vorhersagewert | 0,9951 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung (Cancelled only) |
-| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -68,9 +68,9 @@ Weitere vom Modell genannte Kandidaten (alle ebenfalls nur Evidenzniveau L5, Emp
 
 | Rang | Vorhergesagte Indikation | TxGNN-Wert | Einschätzung |
 |------|------|------|------|
-| 2 | Paget-Krankheit des Knochens | 99,12 % | Theoretischer Bezug über HIF und Knochenumbau; Wirkrichtung unklar |
-| 3 | Dentinogenesis imperfecta | 99,06 % | Mechanismus unklar; erbliche Strukturstörung kaum medikamentös korrigierbar |
-| 4 | Plattenepithelkarzinom | 99,02 % | HIF-Aktivierung ist eher mit Tumorprogression verbunden; eher Sicherheitsbedenken als Therapieansatz |
+| 2 | Paget-Krankheit des Knochens | 0,9912 | Theoretischer Bezug über HIF und Knochenumbau; Wirkrichtung unklar |
+| 3 | Dentinogenesis imperfecta | 0,9906 | Mechanismus unklar; erbliche Strukturstörung kaum medikamentös korrigierbar |
+| 4 | Plattenepithelkarzinom | 0,9902 | HIF-Aktivierung ist eher mit Tumorprogression verbunden; eher Sicherheitsbedenken als Therapieansatz |
 
 ---
 
@@ -90,7 +90,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004871 | Evrenzo (Astellas Pharma Europe B.V.) | – | Anämie; chronische Niereninsuffizienz (Status: erloschen) |
+| EMEA/H/C/004871 | Evrenzo (Astellas Pharma Europe B.V.) | – | Anämie; chronische Niereninsuffizienz (Status: gültig) |
 
 ---
 

@@ -4,17 +4,17 @@ title: Venetoclax
 parent: Nur Modellvorhersage (L5)
 nav_order: 494
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Venetoclax: vorhergesagte neue Indikation Myeloische Leukämie (Rang 4 der Vorhersageliste) (Evidenzstufe L5). Ursprüngliche Indikation: Chronische lymphatische B-Zell-Leukämie"
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
+description: "Venetoclax: vorhergesagte neue Indikation Hodgkins lymphoma (Evidenzstufe L5). Ursprüngliche Indikation: Leukemia, Lymphocytic, Chronic, B-Cell"
 ---
 
 # Venetoclax
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Venetoclax: Von chronischer lymphatischer Leukämie zu myeloischer Leukämie
+## Venetoclax: Hodgkins lymphoma
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,15 +48,15 @@ Der Bericht konzentriert sich auf diese Indikation. Weitere Vorhersagen (CML, fo
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Chronische lymphatische B-Zell-Leukämie |
-| Vorhergesagte neue Indikation | Myeloische Leukämie (Rang 4 der Vorhersageliste) |
-| TxGNN-Vorhersagescore | 99,47 % |
-| Evidenzniveau | L1 (laut Datenbewertung; die Phase-3-Studien laufen jedoch noch, siehe Hinweis unten) |
-| Marktstatus in Deutschland | Nur gelöschte (erloschene) Zulassung |
-| Anzahl der Zulassungen | 1 (gelöscht) |
+| Ursprüngliche Indikation | Leukemia, Lymphocytic, Chronic, B-Cell |
+| Vorhergesagte neue Indikation | Hodgkins lymphoma |
+| TxGNN-Vorhersagescore | 0.9951 |
+| Evidenzniveau | L5 (laut Datenbewertung; die Phase-3-Studien laufen jedoch noch, siehe Hinweis unten) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails |
 
-Hinweis: Rang 1 und 2 der Vorhersageliste (CLL/SLL-Subtypen) sind keine echte Neuverwendung, da sie Untergruppen der bereits zugelassenen Indikation darstellen. Rang 4 (myeloische Leukämie) ist die erste Vorhersage mit substanziellem neuem Evidenzgewicht. Streng nach den Regeln (≥2 abgeschlossene Phase-3-RCTs) wäre L1 nicht erfüllt, da die gelisteten Phase-3-Studien teils noch rekrutieren. Die Stufe L1 stammt aus der Bewertung der Datengrundlage und sollte entsprechend vorsichtig gelesen werden.
+Hinweis: Streng nach den Regeln (≥2 abgeschlossene Phase-3-RCTs) wäre L1 nicht erfüllt, da die gelisteten Phase-3-Studien teils noch rekrutieren. Die Stufe L1 stammt aus der Bewertung der Datengrundlage und sollte entsprechend vorsichtig gelesen werden.
 
 ---
 
@@ -110,11 +110,8 @@ Hinweis: Keine der aufgeführten Phase-3-Studien ist als abgeschlossen mit Ergeb
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004106 | Venclyxto (AbbVie Deutschland GmbH & Co. KG) | nicht angegeben | Chronische lymphatische B-Zell-Leukämie |
 
-Der Status dieser Zulassung ist „gelöscht“. Es liegt damit keine gültige Zulassung im Datensatz vor.
+Der Status dieser Zulassung ist „gültig“. Es liegt damit eine gültige Zulassung im Datensatz vor.
 
 ---
 
@@ -154,7 +151,7 @@ Für Warnhinweise und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinform
 **Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Für Venetoclax-basierte Regime bei AML liegen zahlreiche Phase-2-Studien und mehrere laufende Phase-3-Studien vor, dazu eine solide Literaturbasis und ein plausibler Mechanismus (BCL-2-Abhängigkeit). Die Evidenz bezieht sich jedoch überwiegend auf Kombinationstherapien, die Phase-3-Studien sind noch nicht abgeschlossen, und in Deutschland besteht laut Datenlage keine gültige Zulassung.
+Für Venetoclax-basierte Regime bei AML liegen zahlreiche Phase-2-Studien und mehrere laufende Phase-3-Studien vor, dazu eine solide Literaturbasis und ein plausibler Mechanismus (BCL-2-Abhängigkeit). Die Evidenz bezieht sich jedoch überwiegend auf Kombinationstherapien, die Phase-3-Studien sind noch nicht abgeschlossen, und in Deutschland ist das Arzneimittel laut Datenlage mit einer gültigen Zulassung im Verkehr.
 
 **Für das weitere Vorgehen wird benötigt:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da diese Daten fehlen und als blockierende Lücke gelten
@@ -170,7 +167,7 @@ Für Venetoclax-basierte Regime bei AML liegen zahlreiche Phase-2-Studien und me
 | Rang | Indikation | Evidenzniveau | Empfehlung | Kurzbewertung |
 |---|---|---|---|---|
 | 1–2 | CLL/SLL-Subtypen (unmutiert/mutiert IGHV) | L4 | Hold | Untergruppen der bereits zugelassenen Indikation, keine echte Neuverwendung; keine spezifischen Studien |
-| 3 | Hodgkin-Lymphom | L3 | Research Question | Studien betreffen überwiegend andere B-Zell-Lymphome, keine Hodgkin-spezifische Evidenz |
+| 3 | Hodgkin-Lymphom | L5 | Research Question | Studien betreffen überwiegend andere B-Zell-Lymphome, keine Hodgkin-spezifische Evidenz |
 | 5 | CML, BCR-ABL1-positiv | L2 | Research Question | Phase-2-Daten (Dasatinib + Venetoclax; Decitabin + Venetoclax + Ponatinib), klein und einarmig |
 | 6 | Ewing-Sarkom | L5 | Hold | Nur präklinisch, teils widersprüchlich |
 | 7 | Follikuläres Lymphom | L2 | Research Question | Mehrere Phase-2-Kombinationsstudien, begrenzte Einzelwirkung |

@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Morbus Parkinson |
 | Vorhergesagte neue Indikation | Rasmussen-Enzephalitis (subakute Rasmussen-Enzephalitis) |
-| TxGNN-Vorhersagewert | 99,93 % |
+| TxGNN-Vorhersagewert | 0,9993 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -86,7 +86,7 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 |---------|------|------|-----------|
 | EMEA/H/C/000132 | Tasmar (Viatris Healthcare Limited) | – | Morbus Parkinson |
 
-Diese Zulassung ist erloschen bzw. aufgehoben; es besteht derzeit keine gültige Zulassung.
+Diese Zulassung ist gültig; das Arzneimittel ist in Deutschland im Handel (1 von 1 Zulassung gültig).
 
 ---
 
@@ -105,7 +105,7 @@ Warnhinweise und Kontraindikationen aus der Fachinformation liegen nicht vor. Bi
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzgrad L5), ohne klinische Studien, Literatur oder erkennbaren mechanistischen Zusammenhang. Zudem besteht in Deutschland keine gültige Zulassung, und die bekannte Lebertoxizität erhöht die Anforderungen an eine neue Indikation.
+Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzgrad L5), ohne klinische Studien, Literatur oder erkennbaren mechanistischen Zusammenhang. Das Arzneimittel ist in Deutschland mit einer gültigen Zulassung im Handel, die bekannte Lebertoxizität erhöht jedoch die Anforderungen an eine neue Indikation.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Wirkmechanismus-Daten (MOA) ergänzen, z. B. über DrugBank

@@ -6,9 +6,9 @@ nav_order: 332
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Orlistat: vorhergesagte neue Indikation Hypervitaminose (Evidenzstufe L5). Ursprüngliche Indikation: Adipositas"
 monitor_inn: "ORLISTAT"
 predicted_indications: ["hypervitaminosis"]
+description: "Orlistat: vorhergesagte neue Indikation Hypervitaminose (hypervitaminosis) (Evidenzstufe L5). Ursprüngliche Indikation: Obesity"
 ---
 
 # Orlistat
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-## Orlistat: Von Adipositas zu Hypervitaminose
+## Orlistat: Hypervitaminose (hypervitaminosis)
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -46,12 +46,12 @@ Orlistat ist ein Lipasehemmer, der ursprünglich zur Behandlung von **Adipositas
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Adipositas |
-| Vorhergesagte neue Indikation | Hypervitaminose |
-| TxGNN-Vorhersagewert | 99,42 % |
+| Ursprüngliche Indikation | Obesity |
+| Vorhergesagte neue Indikation | Hypervitaminose (hypervitaminosis) |
+| TxGNN-Vorhersagewert | 0.9942 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -82,8 +82,8 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
 |---------|------|------|-----------|------|
-| EMEA/H/C/000154 | Xenical (CHEPLAPHARM Arzneimittel GmbH) | – | Adipositas | Erloschen |
-| EMEA/H/C/000854 | Alli (zuvor Orlistat GSK; Haleon Ireland Dungarvan Limited) | – | Adipositas | Erloschen |
+| EMEA/H/C/000154 | Xenical (CHEPLAPHARM Arzneimittel GmbH) | – | Adipositas | Gültig |
+| EMEA/H/C/000854 | Alli (zuvor Orlistat GSK; Haleon Ireland Dungarvan Limited) | – | Adipositas | Gültig |
 
 ---
 
@@ -103,7 +103,7 @@ Besonders relevant für die vorgeschlagene Indikation: Mit den Vitamin-D-Präpar
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf ein Modell (Evidenzgrad L5), ohne Studien oder Publikationen. Der postulierte Mechanismus leitet sich aus einer Nebenwirkung ab, und die Standardtherapie (Absetzen der Vitaminquelle) ist einfach und wirksam. Zudem sind in Deutschland keine gültigen Zulassungen vorhanden.
+Die Vorhersage stützt sich ausschließlich auf ein Modell (Evidenzgrad L5), ohne Studien oder Publikationen. Der postulierte Mechanismus leitet sich aus einer Nebenwirkung ab, und die Standardtherapie (Absetzen der Vitaminquelle) ist einfach und wirksam.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Vollständige Wirkmechanismus-Daten (MOA), z. B. aus DrugBank

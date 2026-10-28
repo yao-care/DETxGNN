@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Turoctocog alfa: Von Hämophilie A zu primärer Thrombozyten-Freisetzungsstörung
+## Turoctocog alfa: Von Hämophilie A zu Primäre Thrombozyten-Freisetzungsstörung
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Hämophilie A |
 | Vorhergesagte neue Indikation | Primäre Thrombozyten-Freisetzungsstörung (primary release disorder of platelets) |
-| TxGNN-Vorhersagewert | 99,99 % |
+| TxGNN-Vorhersagewert | 0,9999 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene bzw. widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,22 +62,22 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Turoctocog alfa ein rekombinanter Faktor VIII (FVIII) mit verkürzter B-Domäne ist und bei Hämophilie A den fehlenden Gerinnungsfaktor ersetzt.
 
-Bei Störungen der Thrombozyten-Freisetzung liegt der Defekt dagegen in den Blutplättchen selbst (Granulainhalt oder Signalwege), nicht in einem FVIII-Mangel. Ein FVIII-Ersatz hat daher keine klare mechanistische Grundlage. Der hohe TxGNN-Wert spiegelt wahrscheinlich die Nähe der Erkrankungen im Wissensgraphen (Blutungsstörungen) wider und keinen echten mechanistischen Zusammenhang.
+Bei Störungen der Thrombozyten-Freisetzung liegt der Defekt dagegen in den Blutplättchen selbst (Granulainhalt oder Signalwege), nicht in einem FVIII-Mangel. Ein FVIII-Ersatz hat daher keine klare mechanistische Grundlage. Der hohe TxGNN-Wert stammt aus dem TxGNN-Modell (Deep Learning) und spiegelt wahrscheinlich Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat, keinen biologischen Beleg.
 
 Auch die übrigen vorhergesagten Indikationen sind überwiegend plausibel nicht gestützt:
 
 | Rang | Vorhergesagte Indikation | TxGNN-Wert | Einschätzung |
 |---|---|---|---|
-| 1 | Primäre Thrombozyten-Freisetzungsstörung | 99,99 % | Thrombozytendefekt, FVIII ohne klare Grundlage |
-| 2 | Pseudo-von-Willebrand-Erkrankung | 99,99 % | Thrombozytärer GPIbα-Defekt; nur lose Verbindung über VWF |
-| 3 | Glanzmann-Thrombasthenie | 99,99 % | Defekt von αIIbβ3; Standard sind Thrombozytentransfusion und rFVIIa |
-| 4 | Scott-Syndrom | 99,95 % | Theoretischer Bezug über den Tenase-Komplex, Defekt liegt aber in der Membran |
-| 5 | Erworbener Gerinnungsfaktormangel | 99,95 % | Mechanistisch am plausibelsten, aber Forschungsfrage (z. B. erworbene Hämophilie A mit Inhibitoren) |
-| 6 | Blutungsneigung bei Kollagenrezeptor-Defekt | 99,91 % | Thrombozytärer Defekt, FVIII wirkt nicht |
-| 7 | Blutungsstörung bei konstitutioneller Thrombozytopenie | 99,91 % | FVIII normal, keine Rationale |
-| 8 | „Flood factor deficiency“ | 99,61 % | Entität unklar, vorab zu klären |
-| 9 | Thrombotisch-thrombozytopenische Purpura | 99,54 % | ADAMTS13-Mangel; FVIII könnte das Thromboserisiko erhöhen |
-| 10 | Hereditäre Thrombozytose mit transversem Gliedmaßendefekt | 99,52 % | Keine plausible Verbindung, mögliches Thromboserisiko |
+| 1 | Primäre Thrombozyten-Freisetzungsstörung | 0,9999 | Thrombozytendefekt, FVIII ohne klare Grundlage |
+| 2 | Pseudo-von-Willebrand-Erkrankung | 0,9999 | Thrombozytärer GPIbα-Defekt; nur lose Verbindung über VWF |
+| 3 | Glanzmann-Thrombasthenie | 0,9999 | Defekt von αIIbβ3; Standard sind Thrombozytentransfusion und rFVIIa |
+| 4 | Scott-Syndrom | 0,9995 | Theoretischer Bezug über den Tenase-Komplex, Defekt liegt aber in der Membran |
+| 5 | Erworbener Gerinnungsfaktormangel | 0,9995 | Mechanistisch am plausibelsten, aber Forschungsfrage (z. B. erworbene Hämophilie A mit Inhibitoren) |
+| 6 | Blutungsneigung bei Kollagenrezeptor-Defekt | 0,9991 | Thrombozytärer Defekt, FVIII wirkt nicht |
+| 7 | Blutungsstörung bei konstitutioneller Thrombozytopenie | 0,9991 | FVIII normal, keine Rationale |
+| 8 | „Flood factor deficiency“ | 0,9961 | Entität unklar, vorab zu klären |
+| 9 | Thrombotisch-thrombozytopenische Purpura | 0,9954 | ADAMTS13-Mangel; FVIII könnte das Thromboserisiko erhöhen |
+| 10 | Hereditäre Thrombozytose mit transversem Gliedmaßendefekt | 0,9952 | Keine plausible Verbindung, mögliches Thromboserisiko |
 
 Am ehesten als Forschungsfrage eignet sich der **erworbene Gerinnungsfaktormangel**, sofern er nach Subtyp präzise definiert wird.
 
@@ -101,7 +101,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/002719 | NovoEight (Novo Nordisk A/S) | – | Hämophilie A |
 
-Diese Zulassung ist erloschen bzw. widerrufen; es gibt keine gültige Zulassung.
+Diese Zulassung ist gültig.
 
 ---
 
@@ -118,7 +118,7 @@ Zu beachten ist ein theoretisches Sicherheitsrisiko bei der **thrombotisch-throm
 **Entscheidung: Hold**
 
 **Begründung:**
-Für alle zehn vorhergesagten Indikationen liegen weder klinische Studien noch Publikationen vor (Evidenzstufe L5). Die Vorhersagen beruhen auf der Nähe im Wissensgraphen, und die zugrunde liegenden Defekte (meist thrombozytär) werden durch FVIII-Ersatz nicht behoben. Zudem besteht in Deutschland keine gültige Zulassung.
+Für alle zehn vorhergesagten Indikationen liegen weder klinische Studien noch Publikationen vor (Evidenzstufe L5). Die Vorhersagen stammen aus dem TxGNN-Modell (Deep Learning) und können Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, keinen biologischen Beleg; die zugrunde liegenden Defekte (meist thrombozytär) werden durch FVIII-Ersatz nicht behoben. In Deutschland ist das Arzneimittel mit 1 gültigen Zulassung (von 1) im Verkehr.
 
 **Für ein Weiterkommen ist Folgendes erforderlich:**
 - Packungsbeilage mit Warnhinweisen und Gegenanzeigen (Blockierende Datenlücke für das Sicherheits-Screening)

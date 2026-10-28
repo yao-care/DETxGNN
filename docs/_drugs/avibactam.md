@@ -4,17 +4,17 @@ title: Avibactam
 parent: Nur Modellvorhersage (L5)
 nav_order: 48
 evidence_level: L5
-indication_count: 6
-last_modified_at: 2026-10-14
-description: "Avibactam: vorhergesagte neue Indikation Streptokokken-Pneumonie (Evidenzstufe L5). Ursprüngliche Indikation: Infektionen durch gramnegative Bakterien, Harnwegsinfektionen…"
+indication_count: 4
 monitor_inn: "AVIBACTAM"
-predicted_indications: ["influenza, severe, susceptibility to", "ureter tuberculosis", "urinary schistosomiasis", "hyperamylasemia", "polyclonal hyperviscosity syndrome"]
+predicted_indications: ["ureter tuberculosis", "urinary schistosomiasis", "hyperamylasemia", "polyclonal hyperviscosity syndrome"]
+last_modified_at: 2026-10-23
+description: "Avibactam: vorhergesagte neue Indikation Ureter-Tuberkulose (Evidenzstufe L5). Ursprüngliche Indikation: Infektionen durch gramnegative Bakterien, Harnwegsinfektionen…"
 ---
 
 # Avibactam
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-## Avibactam: Von bakteriellen Infektionen zu Streptokokken-Pneumonie
+## Avibactam: Von bakteriellen Infektionen zu Ureter-Tuberkulose
 {: .text-alpha }
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Avibactam ist ein Beta-Lactamase-Inhibitor, der ausschließlich in Kombination mit anderen Antibiotika eingesetzt wird. Er ist ursprünglich zugelassen zur Behandlung von Infektionen durch gramnegative Bakterien, Harnwegsinfektionen, Pneumonien und Weichteilinfektionen. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Streptokokken-Pneumonie** voraus, doch dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor.
+Avibactam ist ein Beta-Laktamase-Hemmer, der in Kombination mit Antibiotika zur Behandlung von Infektionen durch gramnegative Bakterien zugelassen ist, darunter Harnwegsinfektionen, Pneumonien und Weichteilinfektionen. Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei **Ureter-Tuberkulose** wirksam sein könnte. Dafür liegen **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
@@ -46,35 +46,35 @@ Avibactam ist ein Beta-Lactamase-Inhibitor, der ausschließlich in Kombination m
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Infektionen durch gramnegative Bakterien, Harnwegsinfektionen, nosokomial erworbene Pneumonie, Weichteilinfektionen |
-| Vorhergesagte neue Indikation | Streptokokken-Pneumonie |
-| TxGNN-Vorhersagewert | 99,70 % |
-| Evidenzgrad | L5 (nur Modellvorhersage; in den Daten als L4 geführt, aber ohne konkrete Studien belegt) |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Ursprüngliche Indikation | Infektionen durch gramnegative Bakterien, Harnwegsinfektionen, nosokomiale Pneumonie, Weichteilinfektionen |
+| Vorhergesagte neue Indikation | Ureter-Tuberkulose |
+| TxGNN-Vorhersagewert | 0,9911 |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage plausibel?
+## Warum ist diese Vorhersage nachvollziehbar?
 
-Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist: Avibactam ist ein Nicht-Beta-Lactam-Beta-Lactamase-Inhibitor, der Enzyme der Ambler-Klassen A und C sowie einige der Klasse D hemmt. Er wird nur zusammen mit Ceftazidim vermarktet und besitzt selbst keine nennenswerte antibakterielle Eigenwirkung.
+Für den Wirkstoff liegen in den für diesen Bericht zusammengestellten Daten derzeit keine detaillierten Angaben zum Wirkmechanismus vor. Bekannt ist: Avibactam ist ein Beta-Laktamase-Hemmer (Diazabicyclooctan-Typ ohne eigene antibakterielle Wirkung) und wird nur in Kombination mit einem Beta-Laktam-Antibiotikum (Ceftazidim bzw. in Emblaveo in der jeweiligen Kombination) eingesetzt.
 
-Die Verbindung zur vorhergesagten Indikation ist nur indirekt. Die bestehenden Indikationen umfassen bakterielle Pneumonien (nosokomial und beatmungsassoziiert), und der hohe Modellwert spiegelt vermutlich diese Ähnlichkeit in der Indikationsklasse wider.
+Ein biochemisch plausibler Ansatz besteht darin, dass *Mycobacterium tuberculosis* eine chromosomal kodierte Klasse-A-Beta-Laktamase (BlaC) bildet, die Avibactam in vitro hemmen kann. In Kombination mit einem Beta-Laktam wäre daher eine Aktivität gegen Tuberkulose denkbar.
 
-Mechanistisch spricht eher wenig für einen Zusatznutzen: *Streptococcus pneumoniae* wird gegen Beta-Lactame vor allem durch veränderte Penicillin-bindende Proteine resistent, nicht durch Beta-Lactamase-Bildung. Ein Beta-Lactamase-Inhibitor trägt hier daher wenig bei.
+Die Einschränkung ist jedoch deutlich: Für urogenitale Tuberkulose wurden keine klinischen oder literaturbasierten Belege geliefert. Der hohe Vorhersagewert stammt vom TxGNN-Modell (Deep Learning) und spiegelt wahrscheinlich Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat, und nicht eine belegte antituberkulöse Wirkung.
 
 ---
 
-## Klinische Evidenz
+## Klinische Studien
 
-Derzeit sind keine einschlägigen klinischen Studien registriert.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
 ## Literaturevidenz
 
-Derzeit liegt keine einschlägige Literatur vor.
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
@@ -82,28 +82,26 @@ Derzeit liegt keine einschlägige Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/006113 | Emblaveo | – | Infektionen durch gramnegative Bakterien, Harnwegsinfektionen, nosokomial erworbene Pneumonie, Weichteilinfektionen |
+| EMEA/H/C/006113 | Emblaveo | – | Infektionen durch gramnegative Bakterien, Harnwegsinfektionen, nosokomiale Pneumonie, Weichteilinfektionen |
 | EMEA/H/C/004027 | Zavicefta | – | Bakterielle Pneumonie, Weichteilinfektionen, Pneumonie, Harnwegsinfektionen, Infektionen durch gramnegative Bakterien |
 
-Beide Zulassungen sind laut den vorliegenden Daten erloschen.
+---
+
+## Sicherheitshinweise
+
+Bitte entnehmen Sie die Sicherheitsinformationen der Packungsbeilage bzw. Fachinformation.
 
 ---
 
 ## Weitere vorhergesagte Indikationen (zur Einordnung)
 
-| Rang | Erkrankung | Score | Evidenz | Einschätzung |
-|---|---|---|---|---|
-| 2 | Schwere Influenza (Anfälligkeit) | 99,28 % | L5 | Kein direkter Mechanismus; allenfalls sekundäre bakterielle Pneumonie, die bereits abgedeckt ist. Vermutlich Artefakt des Wissensgraphen. |
-| 3 | Ureter-Tuberkulose | 99,11 % | L5 | *M. tuberculosis* besitzt die Beta-Lactamase BlaC, die Avibactam in vitro hemmt; rein präklinische Überlegung. |
-| 4 | Urogenitale Schistosomiasis | 99,06 % | L5 | Parasitose, kein antiparasitärer Mechanismus bekannt; vermutlich Assoziation über den Harntrakt. |
-| 5 | Hyperamylasämie | 99,01 % | L5 | Laborbefund, kein plausibles Ziel; wahrscheinlich Graph-Artefakt. |
-| 6 | Polyklonales Hyperviskositätssyndrom | 99,01 % | L5 | Kein mechanistischer Bezug; unspezifische Modellausgabe. |
+Die übrigen Vorhersagen haben ebenfalls Evidenzlevel L5 und keine Studien oder Publikationen:
 
----
-
-## Sicherheitsaspekte
-
-Zu den Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) liegen keine Daten vor; bitte die Fachinformation heranziehen. Zu Wechselwirkungen wurden keine Einträge gefunden.
+| Rang | Erkrankung | TxGNN-Wert | Einschätzung |
+|---|---|---|---|
+| 2 | Urinäre Schistosomiasis | 0,9906 | Erreger ist ein Parasit (Trematode), kein Bakterium; kein plausibler Mechanismus. Eine bakterielle Sekundärinfektion wäre eine andere Fragestellung. |
+| 3 | Hyperamylasämie | 0,9901 | Laborbefund, kein Infektionsziel; kein Mechanismus erkennbar. Der Score stammt vom TxGNN-Modell (Deep Learning) und kann vom Modell gelernte Ähnlichkeiten zwischen verwandten Erkrankungen widerspiegeln, keine biologische Evidenz. |
+| 4 | Polyklonales Hyperviskositätssyndrom | 0,9901 | Kein bekannter Einfluss auf Immunglobuline oder Blutviskosität; identischer Wert wie Rang 3 deutet auf unspezifische Vorhersage hin. |
 
 ---
 
@@ -112,14 +110,14 @@ Zu den Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) liegen keine Daten
 **Entscheidung: Hold**
 
 **Begründung:**
-Für Streptokokken-Pneumonie gibt es weder klinische Studien noch Literatur; der Vorhersagewert beruht vermutlich auf der Ähnlichkeit zu bestehenden Pneumonie-Indikationen. Zudem spricht der Resistenzmechanismus von *S. pneumoniae* gegen einen Zusatznutzen eines Beta-Lactamase-Inhibitors, und in Deutschland sind keine gültigen Zulassungen mehr vorhanden.
+Für Ureter-Tuberkulose gibt es weder Studien noch Publikationen, sodass nur eine Modellvorhersage (L5) vorliegt. Der einzige mechanistische Ansatz (Hemmung der BlaC-Beta-Laktamase) ist rein in-vitro-basiert, und Avibactam wirkt allein nicht antibakteriell.
 
 **Für ein Weiterkommen sind erforderlich:**
-- Fachinformation (Warnhinweise, Gegenanzeigen) aus der Quelle des BfArM bzw. der EMA beschaffen und auswerten
-- Daten zum Wirkmechanismus (z. B. aus DrugBank) ergänzen
-- Klärung des aktuellen Zulassungs- und Verfügbarkeitsstatus in Deutschland
-- In-vitro-Daten und systematische Literaturrecherche zur Aktivität von Ceftazidim-Avibactam gegen *S. pneumoniae*
-- Ein Vorteil gegenüber den bestehenden Standardtherapien müsste nachgewiesen werden
+- Daten zum Wirkmechanismus (MOA) aus DrugBank
+- Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM/EMA)
+- Präklinische bzw. In-vitro-Daten zu Beta-Laktam/Avibactam-Kombinationen gegen *M. tuberculosis*
+- Literaturrecherche zu urogenitaler Tuberkulose und Beta-Laktamase-Hemmern
+- Prüfung der Verabreichungswege und Eignung für die urogenitale Tuberkulose
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

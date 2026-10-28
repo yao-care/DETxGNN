@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-## Evolocumab: Von Dyslipidämie/Hypercholesterinämie zu symptomatischer Hämophilie bei weiblichen Trägerinnen
+## Evolocumab: Symptomatische Form der Hämophilie bei weiblichen Trägerinnen
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Dyslipidämien; Hypercholesterinämie |
 | Vorhergesagte neue Indikation | Symptomatische Form der Hämophilie bei weiblichen Trägerinnen |
-| TxGNN-Vorhersagewert | 99,82 % |
+| TxGNN-Vorhersagewert | 0,9982 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
@@ -64,11 +64,11 @@ Ein plausibler mechanistischer Zusammenhang mit der neuen Indikation ist nicht e
 
 | Rang | Vorhergesagte Indikation | TxGNN-Wert | Einschätzung |
 |------|------|------|------|
-| 2 | Familiärer Apolipoprotein-C-II-Mangel | 99,50 % | Nur indirekte Plausibilität; der Defekt der Lipoproteinlipase-Aktivierung wird durch PCSK9-Hemmung nicht behoben |
-| 3 | Thrombozytopenische Purpura | 99,42 % | Kein mechanistischer Zusammenhang (Autoimmunprozess bzw. ADAMTS13-Mangel) |
-| 4 | Faktor-XI-Mangel | 99,29 % | Kein Einfluss auf die intrinsische Gerinnungskaskade |
-| 5 | Hämophilie A mit Gefäßanomalie | 99,22 % | Kein Einfluss auf Faktor VIII |
-| 6 | Erkrankung der katalytischen Aktivität | 99,08 % | Unspezifische Ontologie-Kategorie, klinisch nicht verwertbar |
+| 2 | Familiärer Apolipoprotein-C-II-Mangel | 0,9950 | Nur indirekte Plausibilität; der Defekt der Lipoproteinlipase-Aktivierung wird durch PCSK9-Hemmung nicht behoben |
+| 3 | Thrombozytopenische Purpura | 0,9942 | Kein mechanistischer Zusammenhang (Autoimmunprozess bzw. ADAMTS13-Mangel) |
+| 4 | Faktor-XI-Mangel | 0,9929 | Kein Einfluss auf die intrinsische Gerinnungskaskade |
+| 5 | Hämophilie A mit Gefäßanomalie | 0,9922 | Kein Einfluss auf Faktor VIII |
+| 6 | Erkrankung der katalytischen Aktivität | 0,9908 | Unspezifische Ontologie-Kategorie, klinisch nicht verwertbar |
 
 ## Klinische Studien
 
@@ -82,7 +82,7 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/003766 | Repatha (Amgen Europe B.V.) | – | Dyslipidämien; Hypercholesterinämie (Status: erloschen) |
+| EMEA/H/C/003766 | Repatha (Amgen Europe B.V.) | – | Dyslipidämien; Hypercholesterinämie (Status: gültig) |
 
 ## Sicherheitsaspekte
 

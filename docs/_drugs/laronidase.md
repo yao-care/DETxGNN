@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Laronidase
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 259
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Laronidase: vorhergesagte neue Indikation Lysosomale Speicherkrankheit mit Skelettbeteiligung (Evidenzstufe L4). Ursprüngliche Indikation: Mukopolysaccharidose I"
@@ -14,7 +14,7 @@ predicted_indications: ["lysosomal storage disease with skeletal involvement", "
 # Laronidase
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **2** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-## Laronidase: Von Mukopolysaccharidose I zu lysosomaler Speicherkrankheit mit Skelettbeteiligung
+## Laronidase: Lysosomale Speicherkrankheit mit Skelettbeteiligung
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Es liegen **keine klinischen Studien** und **4 Publikationen** (Übersichtsarbei
 |------|------|
 | Ursprüngliche Indikation | Mukopolysaccharidose I |
 | Vorhergesagte neue Indikation | Lysosomale Speicherkrankheit mit Skelettbeteiligung |
-| TxGNN-Vorhersagewert | 99,31 % |
-| Evidenzniveau | L4 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| TxGNN-Vorhersagewert | 0,9931 |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -66,7 +66,7 @@ MPS I ist selbst eine lysosomale Speicherkrankheit mit ausgeprägter Skelettbete
 
 Da das Enzym spezifisch auf Substrate der Iduronidase wirkt, ist eine Übertragung auf andere lysosomale Speicherkrankheiten mechanistisch nicht begründet.
 
-**Zweite Vorhersage – Sanfilippo-Syndrom (MPS III, Wert 99,22 %):** MPS III beruht auf Mangel anderer Enzyme (SGSH, NAGLU, HGSNAT, GNS) des Heparansulfat-Abbaus. Laronidase wirkt an einem anderen Schritt und kann diese Enzyme nicht ersetzen. Zudem passiert intravenös verabreichte Laronidase die Blut-Hirn-Schranke nicht wirksam, MPS III ist aber überwiegend neurologisch. Der hohe Wert dürfte auf gemeinsamen Stoffwechselwegen und Krankheitsnähe beruhen, nicht auf Wirksamkeitsevidenz.
+**Zweite Vorhersage – Sanfilippo-Syndrom (MPS III, Wert 0,9922):** MPS III beruht auf Mangel anderer Enzyme (SGSH, NAGLU, HGSNAT, GNS) des Heparansulfat-Abbaus. Laronidase wirkt an einem anderen Schritt und kann diese Enzyme nicht ersetzen. Zudem passiert intravenös verabreichte Laronidase die Blut-Hirn-Schranke nicht wirksam, MPS III ist aber überwiegend neurologisch. Der hohe Wert dürfte auf gemeinsamen Stoffwechselwegen und Krankheitsnähe beruhen, nicht auf Wirksamkeitsevidenz.
 
 ---
 
@@ -106,7 +106,7 @@ Für das Sanfilippo-Syndrom (die Arbeiten betreffen überwiegend MPS I, nicht MP
 |---------|------|------|-----------|
 | EMEA/H/C/000477 | Aldurazyme (Sanofi B.V.) | – | Mukopolysaccharidose I |
 
-Diese Zulassung ist als erloschen/aufgehoben geführt, es gibt keine gültige Zulassung.
+Diese Zulassung ist gültig.
 
 ---
 
@@ -126,7 +126,7 @@ Für weitere Sicherheitsinformationen siehe die Fachinformation.
 
 **Begründung:**
 - Die Evidenz liegt nur auf Niveau L4: keine klinischen Studien für die vorhergesagten Indikationen, die Literatur betrifft überwiegend die bereits zugelassene MPS I. Bei MPS III fehlt zudem die mechanistische Grundlage (anderes Enzym, keine Passage der Blut-Hirn-Schranke).
-- In Deutschland besteht keine gültige Zulassung.
+- In Deutschland ist das Arzneimittel im Handel; 1 von 1 Zulassung ist gültig.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Klärung, ob die Skelettbeteiligung bei MPS I eine eigenständige neue Indikation darstellt oder bereits abgedeckt ist

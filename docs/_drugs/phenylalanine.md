@@ -33,7 +33,7 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-## Phenylalanin: Von der Ahornsirupkrankheit zur sklerosierenden Cholangitis
+## Phenylalanin: Sklerosierende Cholangitis
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -46,10 +46,10 @@ Phenylalanin (Handelsname Maapliv) war ursprünglich für die Behandlung der Aho
 |------|------|
 | Ursprüngliche Indikation | Ahornsirupkrankheit (Maple Syrup Urine Disease) |
 | Vorhergesagte neue Indikation | Sklerosierende Cholangitis |
-| TxGNN-Vorhersagewert | 99,43 % |
+| TxGNN-Vorhersagewert | 0,9943 |
 | Evidenzstufe | L4 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
@@ -58,9 +58,9 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten d
 
 Die vorliegende Literatur ist nur am Rande relevant: Der Stoffwechsel aromatischer Aminosäuren (Plasma-Tyrosin, das Folgeprodukt der Phenylalanin-Hydroxylierung) wurde im Zusammenhang mit Müdigkeit bei primär biliärer Zirrhose und primär sklerosierender Cholangitis untersucht. Zudem wurden Serum-Stoffwechselprofile bei Gallenwegserkrankungen erhoben. Dabei handelt es sich um Beobachtungs- bzw. Biomarker-Assoziationen, nicht um Belege dafür, dass eine Phenylalanin-Gabe therapeutisch wirkt.
 
-Der sehr hohe TxGNN-Wert (0,994) ist eine reine Modellvorhersage und sollte als Hypothese verstanden werden.
+Der sehr hohe TxGNN-Wert (0,9943) ist eine reine Modellvorhersage und sollte als Hypothese verstanden werden.
 
-Die zweite Vorhersage, **angeborener Prothrombinmangel** (Score 99,26 %), stützt sich ausschließlich auf das Modell. Es liegen weder Studien noch Publikationen vor. Dieser monogene Gerinnungsfaktormangel (F2-Gen) wird mit Faktorersatz behandelt, und ein plausibler Mechanismus für eine Wirkung von Phenylalanin besteht nicht. Vermutlich handelt es sich um ein Artefakt des Wissensgraphen (Evidenzstufe L5, Empfehlung Hold).
+Die zweite Vorhersage, **angeborener Prothrombinmangel** (Score 0,9926), stützt sich ausschließlich auf das TxGNN-Modell (Deep Learning). Es liegen weder Studien noch Publikationen vor. Dieser monogene Gerinnungsfaktormangel (F2-Gen) wird mit Faktorersatz behandelt, und ein plausibler Mechanismus für eine Wirkung von Phenylalanin besteht nicht. Der Score stammt aus dem TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz (Evidenzstufe L5, Empfehlung Hold).
 
 ## Klinische Studien
 

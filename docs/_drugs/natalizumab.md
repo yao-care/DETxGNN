@@ -33,14 +33,14 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-## Natalizumab: Von Multipler Sklerose zu Psoriasis
+## Natalizumab: Von Multipler Sklerose zu Bronchitis
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 
 Natalizumab ist ein monoklonaler Antikörper, der ursprünglich zur Behandlung der **Multiplen Sklerose** (einschließlich schubförmig-remittierender Verlaufsform) eingesetzt wird. Das TxGNN-Modell sagt voraus, dass er bei **Psoriasis** wirksam sein könnte (Rang 3 der Vorhersagen, mit der umfangreichsten Literaturbasis aller Kandidaten). Die Evidenz besteht aus **0 klinischen Studien** und **16 Publikationen**, überwiegend Fallberichten und Übersichtsarbeiten mit widersprüchlichen Aussagen.
 
-> Hinweis zur Auswahl: Die Vorhersage mit dem höchsten TxGNN-Score ist Bronchitis (99,46 %), für die jedoch weder Studien noch Literatur vorliegen. Dieser Bericht stellt gemäß Vorgabe die Vorhersage Rang 1 (Bronchitis) in der Übersicht dar und vertieft zusätzlich Psoriasis, da nur dafür relevante Evidenz existiert.
+> Hinweis zur Auswahl: Die Vorhersage mit dem höchsten TxGNN-Score ist Bronchitis (0,9946), für die jedoch weder Studien noch Literatur vorliegen. Dieser Bericht stellt gemäß Vorgabe die Vorhersage Rang 1 (Bronchitis) in der Übersicht dar und vertieft zusätzlich Psoriasis, da nur dafür relevante Evidenz existiert.
 
 ---
 
@@ -50,10 +50,10 @@ Natalizumab ist ein monoklonaler Antikörper, der ursprünglich zur Behandlung d
 |------|------|
 | Ursprüngliche Indikation | Multiple Sklerose |
 | Vorhergesagte neue Indikation | Bronchitis (Rang 1); Psoriasis (Rang 3, mit Evidenz) wird nachfolgend vertieft |
-| TxGNN-Vorhersagewert | Bronchitis 99,46 %; Psoriasis 99,19 % |
+| TxGNN-Vorhersagewert | Bronchitis 0,9946; Psoriasis 0,9919 |
 | Evidenzstufe | Bronchitis L5; Psoriasis L4 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen (Cancelled only) |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold (Zurückstellen) |
 
 ---
@@ -125,7 +125,7 @@ Die Vorhersagen beruhen auf hohen Modellwerten, aber ohne klinische Studien. Fü
 **Für ein Weiterkommen erforderlich:**
 - Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM beschaffen, da die Sicherheitsprüfung sonst blockiert ist
 - Daten zum Wirkmechanismus (MOA) aus DrugBank ergänzen
-- Klärung des Marktstatus, da alle Zulassungen als erloschen geführt werden
+- Klärung des Marktstatus: Das Arzneimittel ist im Handel, 2 von 2 Zulassungen sind gültig
 - Für Psoriasis: systematische Auswertung kontrollierter oder registerbasierter Daten, um den Nutzen gegen das Risiko paradoxer Auslösung abzuwägen
 ## Haftungsausschluss
 

@@ -4,17 +4,17 @@ title: Enzalutamide
 parent: Nur Modellvorhersage (L5)
 nav_order: 172
 evidence_level: L5
-indication_count: 7
-last_modified_at: 2026-10-14
-description: "Enzalutamide: vorhergesagte neue Indikation Prostatakrebs-/Hirntumor-Suszeptibilität (Evidenzstufe L5). Ursprüngliche Indikation: Prostatatumoren (Prostatakarzinom)"
+indication_count: 5
 monitor_inn: "ENZALUTAMIDE"
 predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
+last_modified_at: 2026-10-27
+description: "Enzalutamide: vorhergesagte neue Indikation Prostata-Leiomyom (prostate leiomyoma) (Evidenzstufe L5). Ursprüngliche Indikation: Prostatic Neoplasms"
 ---
 
 # Enzalutamide
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,112 +33,72 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-## Enzalutamid: Von Prostatatumoren zu Prostatakrebs-/Hirntumor-Suszeptibilität
+## Enzalutamid: Androgenrezeptor-Inhibitor → Prostata-Leiomyom (prostate leiomyoma)
 {: .text-alpha }
 
-## Zusammenfassung
+## Zusammenfassung in Kürze
 
-Enzalutamid ist ein Androgenrezeptor-Inhibitor und wurde ursprünglich zur Behandlung von Prostatatumoren zugelassen. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Prostatakrebs-/Hirntumor-Suszeptibilität** voraus. Dafür gibt es derzeit **keine klinischen Studien** und **keine Publikationen**; die Vorhersage beruht allein auf dem Modell.
+Enzalutamid ist ein Androgenrezeptor-Inhibitor. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Prostata-Leiomyom (prostate leiomyoma)** voraus. Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor. Die Vorhersage beruht allein auf dem Modell (Evidenzstufe L5).
 
----
-
-## Schnellübersicht
+## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Prostatatumoren (Prostatakarzinom) |
-| Vorhergesagte neue Indikation | Prostatakrebs-/Hirntumor-Suszeptibilität |
-| TxGNN-Vorhersagewert | 99,71 % |
-| Evidenzlevel | L5 |
-| Marktstatus in Deutschland | ✗ Nur erloschene/aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 3 (alle aufgehoben) |
+| Ursprüngliche Indikation | Prostatic Neoplasms |
+| Vorhergesagte neue Indikation | Prostata-Leiomyom (prostate leiomyoma) |
+| TxGNN-Vorhersagewert | 0,9957 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
 | Empfohlene Entscheidung | Hold |
-
----
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Enzalutamid ist ein Androgenrezeptor-(AR-)Inhibitor. Seine Wirksamkeit beim Prostatakarzinom ist etabliert, und der hohe Modellwert spiegelt vermutlich die enge Verbindung zu dieser Erkrankung wider.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach allgemeinem Wissen blockiert Enzalutamid den Androgenrezeptor (AR) und hemmt dadurch die androgenabhängige Signalübertragung.
 
-Die vorhergesagte „Indikation" ist jedoch ein Begriff für eine **genetische Veranlagung** und kein behandelbarer Krankheitszustand. Es gibt dafür kein klares therapeutisches Ziel, das ein Arzneimittel gezielt angehen könnte. Der hohe Score ist daher wahrscheinlich ein Artefakt der Nähe zum Prostatakarzinom im Wissensgraphen und kein belastbarer Hinweis auf einen neuen Nutzen. Es wurden weder Studien noch Literatur gefunden, die diese Vorhersage stützen.
+Das Prostata-Leiomyom ist ein seltener gutartiger mesenchymaler Tumor der Prostata. Eine AR-Beteiligung im Prostatastroma ist theoretisch denkbar. Der hohe Vorhersagewert spiegelt wahrscheinlich vor allem die Nähe der Erkrankung zu anderen androgenabhängigen Prostataerkrankungen im Modell wider. Es gibt keine klinischen oder publizierten Belege dafür, dass eine AR-Blockade bei dieser Erkrankung wirkt. Der mechanistische Zusammenhang ist daher eine Hypothese und nicht belegt.
 
----
+## Klinische Studienevidenz
 
-## Klinische Evidenz
-
-Derzeit sind keine zugehörigen klinischen Studien registriert.
-
----
+Derzeit sind keine relevanten klinischen Studien registriert.
 
 ## Literaturevidenz
 
-Derzeit liegt keine zugehörige Literatur vor.
+Derzeit liegt keine relevante Literatur vor.
 
----
+## Informationen zum deutschen Markt
 
-## Marktinformationen Deutschland
-
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
-|---------|------|------|-----------|------|
-| EMEA/H/C/002639 | Xtandi (Astellas Pharma Europe B.V.) | nicht angegeben | Prostatatumoren | aufgehoben |
-| EMEA/H/C/006612 | Enzalutamide Accordpharma (Accord Healthcare) | nicht angegeben | Prostatatumoren | aufgehoben |
-| EMEA/H/C/006299 | Enzalutamide Viatris (Viatris Limited) | nicht angegeben | Prostatatumoren | aufgehoben |
-
-Alle drei Zulassungen sind als aufgehoben geführt. Aktuell gültige Zulassungen liegen nicht vor.
-
----
+Laut den lokalen Zulassungsdaten befindet sich Enzalutamid in Deutschland **im Handel**. Zum Prostata-Leiomyom gibt es keine zugelassene Anwendung.
 
 ## Zytotoxizität
 
 | Punkt | Inhalt |
 |------|------|
-| Klassifikation | Zielgerichtete Hormontherapie (Androgenrezeptor-Inhibitor), kein konventionelles Zytostatikum |
-| Myelosuppressionsrisiko | Bitte Warnhinweise und Vorsichtsmaßnahmen in der Fachinformation beachten |
-| Emetogenität | Bitte Warnhinweise und Vorsichtsmaßnahmen in der Fachinformation beachten |
-| Überwachungsparameter | Bitte Warnhinweise und Vorsichtsmaßnahmen in der Fachinformation beachten |
-| Schutzmaßnahmen beim Umgang | Bitte Warnhinweise und Vorsichtsmaßnahmen in der Fachinformation beachten |
-
----
+| Zytotoxizitätsklassifikation | Zielgerichtete Hormontherapie (Androgenrezeptor-Inhibitor), kein klassisches Zytostatikum |
+| Myelosuppressionsrisiko | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenität | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Bitte die Fachinformation beachten |
+| Schutzmaßnahmen beim Umgang | Bitte die Fachinformation beachten |
 
 ## Sicherheitsaspekte
 
-**Arzneimittelinteraktionen:** In den Daten sind 100 Wechselwirkungen verzeichnet. Als **schwerwiegend (Major)** eingestuft sind:
-- Bupropion
-- Dolasetron
-- Eliglustat
+- **Arzneimittelwechselwirkungen:** Insgesamt wurden 100 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** eingestuft sind unter anderem Bupropion, Dolasetron und Eliglustat. Als **moderat** eingestuft sind unter anderem Famotidin, Rabeprazol, Omeprazol, Hydrocortison, Dexamethason, Clarithromycin, Aprepitant, Loperamid, Saxagliptin, Linagliptin und Empagliflozin.
 
-Als **mäßig (Moderate)** eingestuft sind unter anderem:
-- Famotidin
-- Rabeprazol
-- Omeprazol
-- Hydrocortison
-- Dexamethason
-- Clarithromycin
-- Aprepitant
-- Loperamid
-- Empagliflozin
-- Linagliptin
-- Saxagliptin
-
-Die Einstufungen stammen aus der Datenbank DDInter. Laut der Modellbewertung sind insbesondere Interaktionen über CYP3A4 und CYP2C8 zu prüfen.
-
-Zu Warnhinweisen und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinformation heranziehen.
-
----
+Zu Warnhinweisen und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage bezieht sich auf einen Suszeptibilitätsbegriff ohne therapeutisch adressierbares Ziel. Es gibt weder Studien noch Publikationen (Evidenzlevel L5), und alle deutschen Zulassungen sind aufgehoben. Eine Weiterverfolgung dieser Indikation ist derzeit nicht gerechtfertigt.
+- Die Vorhersage für das Prostata-Leiomyom beruht ausschließlich auf dem Modell.
+- Es gibt weder Studien noch Publikationen, und die Erkrankung ist sehr selten und meist gutartig. Der klinische Bedarf ist daher gering.
 
-**Für ein Weiterkommen wären nötig:**
-- Klärung, ob der Begriff überhaupt eine behandelbare klinische Indikation abbildet
-- Daten zum Wirkmechanismus (MOA) aus DrugBank
-- Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM), da ohne sie keine Sicherheitsprüfung möglich ist
-- Prüfung des aktuellen Zulassungsstatus, da alle drei Zulassungen als aufgehoben geführt werden
-- Bewertung der übrigen Vorhersagen: Die Vorhersage „männlicher Reproduktionsorgankrebs" ist durch Phase-3-Studien wie ENZAMET gestützt (Evidenzlevel L1, Proceed with Guardrails). Sie entspricht aber im Kern der ursprünglichen Indikation Prostatakarzinom und ist daher keine echte Neuindikation.
+**Für ein Weiterverfolgen werden benötigt:**
+- Eine systematische Literaturrecherche und präklinische Daten zur AR-Expression und AR-Abhängigkeit im Prostata-Leiomyom
+- Daten zum Wirkmechanismus (MOA) aus einer verlässlichen Arzneimitteldatenbank
+- Die Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) für eine Sicherheitsbewertung
+- Eine Bewertung des Nutzen-Risiko-Verhältnisses bei einer gutartigen Erkrankung, die meist durch Operation oder Beobachtung behandelt wird
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

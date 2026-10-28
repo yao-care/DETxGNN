@@ -4,7 +4,7 @@ title: Canakinumab
 parent: Nur Modellvorhersage (L5)
 nav_order: 94
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Canakinumab: vorhergesagte neue Indikation Leberinfarkt (hepatic infarction) (Evidenzstufe L5). Ursprüngliche Indikation: Cryopyrin-assoziierte periodische Syndrome"
 monitor_inn: "CANAKINUMAB"
@@ -14,7 +14,7 @@ predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", 
 # Canakinumab
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Canakinumab wurde ursprünglich zur Behandlung von Cryopyrin-assoziierten period
 |------|------|
 | Ursprüngliche Indikation | Cryopyrin-assoziierte periodische Syndrome; juvenile rheumatoide Arthritis; Gichtarthritis |
 | Vorhergesagte neue Indikation | Leberinfarkt (hepatic infarction) |
-| TxGNN-Vorhersagewert | 99,86 % |
+| TxGNN-Vorhersagewert | 0,9986 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -60,7 +60,7 @@ Canakinumab wurde ursprünglich zur Behandlung von Cryopyrin-assoziierten period
 
 Für diesen Bericht liegen keine detaillierten Daten zum Wirkmechanismus vor. Canakinumab ist ein gegen Interleukin-1β (IL-1β) gerichteter Antikörper. Seine Wirksamkeit bei den ursprünglichen Indikationen, die mit IL-1-vermittelter Entzündung zusammenhängen, ist belegt.
 
-Ein Zusammenhang mit dem Leberinfarkt ist denkbar, aber spekulativ. Eine IL-1-Blockade könnte die sterile Entzündung nach ischämischen Schädigungen dämpfen. Dafür gibt es in den vorliegenden Daten weder klinische noch literarische Belege. Der hohe Vorhersagewert spiegelt nur die Struktur des Wissensgraphen wider und kein bestätigtes biologisches Prinzip. Die Ähnlichkeit zur ursprünglichen Indikation ist nicht bewertet.
+Ein Zusammenhang mit dem Leberinfarkt ist denkbar, aber spekulativ. Eine IL-1-Blockade könnte die sterile Entzündung nach ischämischen Schädigungen dämpfen. Dafür gibt es in den vorliegenden Daten weder klinische noch literarische Belege. Der hohe Vorhersagewert stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. Die Ähnlichkeit zur ursprünglichen Indikation ist nicht bewertet.
 
 ---
 
@@ -80,7 +80,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 | Zulassungsnummer | Produktname | Hersteller | Status | Zugelassene Indikation |
 |---------|------|------|------|-----------|
-| EMEA/H/C/001109 | Ilaris | Novartis Europharm Limited | Erloschen | Cryopyrin-assoziierte periodische Syndrome; juvenile rheumatoide Arthritis; Gichtarthritis |
+| EMEA/H/C/001109 | Ilaris | Novartis Europharm Limited | Gültig | Cryopyrin-assoziierte periodische Syndrome; juvenile rheumatoide Arthritis; Gichtarthritis |
 
 ---
 
@@ -104,7 +104,7 @@ Für Warnhinweise und Gegenanzeigen liegen in den für diesen Bericht zusammenge
 **Entscheidung: Hold**
 
 **Begründung:**
-Für Leberinfarkt gibt es weder Studien noch Publikationen, die Vorhersage ist rein rechnerisch (Evidenzstufe L5). Zudem besteht in Deutschland derzeit keine gültige Zulassung für Canakinumab.
+Für Leberinfarkt gibt es weder Studien noch Publikationen, die Vorhersage ist rein rechnerisch (Evidenzstufe L5). Canakinumab ist in Deutschland im Handel, 1 von 1 Zulassung ist gültig.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Präklinische oder mechanistische Belege für eine IL-1β-Beteiligung bei hepatischer Ischämie

@@ -6,9 +6,9 @@ nav_order: 337
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Palbociclib: vorhergesagte neue Indikation Rheumatoide Arthritis (Evidenzstufe L5). Ursprüngliche Indikation: Brustneoplasmen (Brustkrebs)"
 monitor_inn: "PALBOCICLIB"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
+description: "Palbociclib: vorhergesagte neue Indikation Hyperthyroidism (Evidenzstufe L5). Ursprüngliche Indikation: Breast Neoplasms"
 ---
 
 # Palbociclib
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-## Palbociclib: Von Brustkrebs zu Rheumatoider Arthritis
+## Palbociclib: Hyperthyroidism
 {: .text-alpha }
 
 Hinweis: Die Vorhersage mit dem höchsten TxGNN-Score (Hyperthyreose) hat keinerlei Evidenz. Für diesen Bericht wurde daher die Indikation mit der stärksten Datenlage (Rang 2, rheumatoide Arthritis) als primäre Indikation gewählt. Die übrigen Vorhersagen werden am Ende kurz eingeordnet.
@@ -48,12 +48,12 @@ Die Evidenz ist begrenzt: **0 klinische Studien** und **4 Publikationen** (präk
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Brustneoplasmen (Brustkrebs) |
-| Vorhergesagte neue Indikation | Rheumatoide Arthritis |
-| TxGNN-Vorhersagewert | 99,36 % |
-| Evidenzgrad | L4 (präklinische Studien und Mechanismusstudien) |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Ursprüngliche Indikation | Breast Neoplasms |
+| Vorhergesagte neue Indikation | Hyperthyroidism |
+| TxGNN-Vorhersagewert | 0.9944 |
+| Evidenzgrad | L5 (präklinische Studien und Mechanismusstudien) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold (als Forschungsfrage weiterverfolgen) |
 
 ## Warum ist diese Vorhersage plausibel?
@@ -110,9 +110,9 @@ Zu Warnhinweisen und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ## Einordnung der übrigen Vorhersagen
 
-- **Hyperthyreose** (Score 99,44 %): keine Studien, keine Literatur, Evidenzgrad L5. Der hohe Score spiegelt wahrscheinlich nur die Nähe im Wissensgraphen wider; eine biologische Begründung ist nicht belegt. Entscheidung: Hold.
-- **Thrombotische Erkrankung** (Score 99,32 %): Die Literatur beschreibt Thromboembolien als **Nebenwirkung** von CDK4/6-Inhibitoren, also ein Sicherheitsrisiko statt eines Nutzens. Mehrere gefundene Arbeiten sind thematisch nicht einschlägig. Die Vorhersage ist nicht gestützt. Entscheidung: Hold.
-- **Schilddrüsenhormonresistenz durch THRB-Mutation** (Score 99,30 %): keine Studien, keine Literatur, kein plausibler Mechanismus; wahrscheinlich ein rechnerisches Artefakt. Entscheidung: Hold.
+- **Hyperthyreose** (Score 0,9944): keine Studien, keine Literatur, Evidenzgrad L5. Der Score stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat; er ist kein biologischer Beleg. Entscheidung: Hold.
+- **Thrombotische Erkrankung** (Score 0,9932): Die Literatur beschreibt Thromboembolien als **Nebenwirkung** von CDK4/6-Inhibitoren, also ein Sicherheitsrisiko statt eines Nutzens. Mehrere gefundene Arbeiten sind thematisch nicht einschlägig. Die Vorhersage ist nicht gestützt. Entscheidung: Hold.
+- **Schilddrüsenhormonresistenz durch THRB-Mutation** (Score 0,9930): keine Studien, keine Literatur, kein plausibler Mechanismus; wahrscheinlich ein rechnerisches Artefakt. Entscheidung: Hold.
 
 ## Fazit und nächste Schritte
 

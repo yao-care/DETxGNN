@@ -6,7 +6,7 @@ nav_order: 40
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Asfotase Alfa: vorhergesagte neue Indikation Mitochondriale Störung der oxidativen Phosphorylierung durch Anomalie… (Evidenzstufe L5). Ursprüngliche Indikation: Hypophosphatasie"
+description: "Asfotase Alfa: vorhergesagte neue Indikation Mitochondriale Störung der oxidativen Phosphorylierung durch Kern-DNA-Anomalien (Evidenzstufe L5). Ursprüngliche Indikation: Hypophosphatasie"
 monitor_inn: "ASFOTASE ALFA"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Steel syndrome", "exocrine pancreatic insufficiency", "Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "familial apolipoprotein C-II deficiency", "esophageal varices with bleeding", "esophageal varices without bleeding", "cystinosis"]
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Asfotase alfa: Von Hypophosphatasie zu mitochondrialen Störungen der oxidativen Phosphorylierung (nukleäre DNA-Anomalien)
+## Asfotase alfa: Von Hypophosphatasie zu Mitochondriale Störung der oxidativen Phosphorylierung durch Kern-DNA-Anomalien
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Asfotase alfa ist eine rekombinante Enzymersatztherapie, die ursprünglich zur B
 |------|------|
 | Ursprüngliche Indikation | Hypophosphatasie |
 | Vorhergesagte neue Indikation | Mitochondriale Störung der oxidativen Phosphorylierung durch Anomalien der nukleären DNA |
-| TxGNN-Vorhersagescore | 99,95 % |
+| TxGNN-Vorhersagescore | 0,9995 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Detaillierte Daten zum Wirkmechanismus sind in den für diesen Bericht zusammeng
 
 Mitochondriale Störungen der oxidativen Phosphorylierung durch nukleäre DNA-Anomalien beruhen dagegen auf einer gestörten Funktion der mitochondrialen Atmungskette. Ein extrazelluläres, auf den Knochen ausgerichtetes Enzym würde diesen Defekt voraussichtlich nicht beheben. Ein mechanistischer Zusammenhang ist daher nicht belegt. Der hohe Score von 0,9995 ist eine rein graphbasierte Modellvorhersage und wird durch keine Pathway-Evidenz gestützt.
 
-Auch die übrigen Vorhersagen unter den Top 10 (u. a. Steel-Syndrom, exokrine Pankreasinsuffizienz, Scheie- und Hurler-Syndrom, lysosomale Speicherkrankheit mit Skelettbeteiligung, familiärer ApoC-II-Mangel, Ösophagusvarizen mit und ohne Blutung, Zystinose) sind mechanistisch nicht begründet. Sie beruhen allein auf der Modellvorhersage, ohne Studien oder Literatur. Die identischen Scores bei den Ösophagusvarizen (0,9968) deuten auf ein Artefakt im Graphen hin.
+Auch die übrigen Vorhersagen unter den Top 10 (u. a. Steel-Syndrom, exokrine Pankreasinsuffizienz, Scheie- und Hurler-Syndrom, lysosomale Speicherkrankheit mit Skelettbeteiligung, familiärer ApoC-II-Mangel, Ösophagusvarizen mit und ohne Blutung, Zystinose) sind mechanistisch nicht begründet. Sie beruhen allein auf der Modellvorhersage, ohne Studien oder Literatur. Die identischen Scores bei den Ösophagusvarizen (0,9968) stammen aus dem TxGNN-Modell (Deep Learning) und können Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Krankheiten gelernt hat, nicht biologische Evidenz.
 
 ---
 

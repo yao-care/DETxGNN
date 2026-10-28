@@ -4,7 +4,7 @@ title: Ceritinib
 parent: Nur Modellvorhersage (L5)
 nav_order: 107
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Ceritinib: vorhergesagte neue Indikation Gingivale Fibromatose (Evidenzstufe L5). Ursprüngliche Indikation: Nicht-kleinzelliges Lungenkarzinom (NSCLC)"
 monitor_inn: "CERITINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Ceritinib
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Ceritinib: Von nicht-kleinzelligem Lungenkarzinom zu gingivaler Fibromatose
+## Ceritinib: Von nicht-kleinzelligem Lungenkarzinom zu Gingivale Fibromatose
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Pub
 |------|------|
 | Ursprüngliche Indikation | Nicht-kleinzelliges Lungenkarzinom (NSCLC) |
 | Vorhergesagte neue Indikation | Gingivale Fibromatose |
-| TxGNN-Vorhersagewert | 99,86 % |
+| TxGNN-Vorhersagewert | 0,9986 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -114,7 +114,7 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Kontraindikationen) siehe d
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzstufe L5), ohne klinische Studien, Literatur oder bekannten ALK-Mechanismus bei gingivaler Fibromatose. Zudem besteht in Deutschland derzeit keine gültige Zulassung.
+Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzstufe L5), ohne klinische Studien, Literatur oder bekannten ALK-Mechanismus bei gingivaler Fibromatose. Zudem ist das Arzneimittel in Deutschland derzeit im Handel, 1 von 1 Zulassung ist gültig.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Nachweis eines biologischen Zusammenhangs zwischen ALK-Signalweg und gingivaler Fibromatose

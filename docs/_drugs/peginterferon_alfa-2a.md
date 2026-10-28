@@ -4,17 +4,17 @@ title: Peginterferon Alfa-2A
 parent: Hohe Evidenz (L1-L2)
 nav_order: 348
 evidence_level: L1
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Peginterferon Alfa-2A: vorhergesagte neue Indikation Hepatitis-B-Virusinfektion (Evidenzstufe L1). Ursprüngliche Indikation: Chronische Hepatitis C, chronische Hepatitis B, Polycythaemia vera…"
 monitor_inn: "PEGINTERFERON ALFA-2A"
 predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
+description: "Peginterferon Alfa-2A: vorhergesagte neue Indikation Hepatitis E virus infection (Evidenzstufe L1). Ursprüngliche Indikation: Hepatitis C, Chronic"
 ---
 
 # Peginterferon Alfa-2A
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Peginterferon alfa-2a: Von chronischer Hepatitis C und B zu Hepatitis-B-Virusinfektion
+## Peginterferon Alfa-2A: Hepatitis E virus infection
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,12 +48,12 @@ Die Vorhersage stützt sich auf **20 klinische Studien** und **20 Publikationen*
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Chronische Hepatitis C, chronische Hepatitis B, Polycythaemia vera, essenzielle Thrombozythämie |
-| Vorhergesagte neue Indikation | Hepatitis-B-Virusinfektion |
-| TxGNN-Vorhersagewert | 99,94 % |
+| Ursprüngliche Indikation | Hepatitis C, Chronic;Hepatitis B, Chronic;Polycythemia Vera;Thrombocythemia, Essential |
+| Vorhergesagte neue Indikation | Hepatitis E virus infection |
+| TxGNN-Vorhersagewert | 0.9983 |
 | Evidenzlevel | L1 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails |
 
 ---
@@ -108,7 +108,7 @@ Die weiteren Vorhersagen des Modells (Hepatitis E, Hepatitis A, Omsk-hämorrhagi
 |---------|------|------|-----------|
 | EMEA/H/C/000395 | Pegasys | k. A. | Chronische Hepatitis C, chronische Hepatitis B, Polycythaemia vera, essenzielle Thrombozythämie |
 
-Diese Zulassung ist erloschen (Status: cancelled). Derzeit besteht keine gültige Zulassung.
+Diese Zulassung ist gültig (1 von 1 Zulassungen gültig). Das Arzneimittel ist im Handel.
 
 ---
 

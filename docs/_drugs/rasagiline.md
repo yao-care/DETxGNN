@@ -33,12 +33,12 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-## Rasagilin: Von Parkinson-Krankheit zu PLA2G6-assoziierter Neurodegeneration
+## Rasagilin: PLA2G6-assoziierte Neurodegeneration
 {: .text-alpha }
 
 ## Zusammenfassung
 
-Rasagilin ist ein irreversibler MAO-B-Hemmer und wurde ursprünglich zur Behandlung der **Parkinson-Krankheit** zugelassen. Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei der **PLA2G6-assoziierten Neurodegeneration** wirksam sein könnte (Score 99,71 %). Für diese Vorhersage liegen jedoch **keine klinischen Studien und keine Publikationen** vor; sie beruht ausschließlich auf einer Modellberechnung.
+Rasagilin ist ein irreversibler MAO-B-Hemmer und wurde ursprünglich zur Behandlung der **Parkinson-Krankheit** zugelassen. Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei der **PLA2G6-assoziierten Neurodegeneration** wirksam sein könnte (Score 0,9971). Für diese Vorhersage liegen jedoch **keine klinischen Studien und keine Publikationen** vor; sie beruht ausschließlich auf einer Modellberechnung.
 
 ---
 
@@ -48,10 +48,10 @@ Rasagilin ist ein irreversibler MAO-B-Hemmer und wurde ursprünglich zur Behandl
 |------|------|
 | Ursprüngliche Indikation | Parkinson-Krankheit |
 | Vorhergesagte neue Indikation | PLA2G6-assoziierte Neurodegeneration |
-| TxGNN-Vorhersagewert | 99,71 % |
+| TxGNN-Vorhersagewert | 0,9971 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 3 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -60,7 +60,7 @@ Rasagilin ist ein irreversibler MAO-B-Hemmer und wurde ursprünglich zur Behandl
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Rasagilin ein irreversibler MAO-B-Hemmer ist, dessen Wirksamkeit bei der Parkinson-Krankheit belegt ist. Mechanistisch könnte er daher auch bei verwandten neurodegenerativen Erkrankungen relevant sein.
 
-Die PLA2G6-assoziierte Neurodegeneration (einschließlich infantiler neuroaxonaler Dystrophie und PLA2G6-bedingtem Dystonie-Parkinsonismus) geht mit Alpha-Synuklein-Pathologie und dem Verlust dopaminerger Neuronen einher. Dies liegt konzeptionell nahe am Anwendungsgebiet Parkinson. Der hohe TxGNN-Score spiegelt wahrscheinlich diese Nähe im Wissensgraphen wider.
+Die PLA2G6-assoziierte Neurodegeneration (einschließlich infantiler neuroaxonaler Dystrophie und PLA2G6-bedingtem Dystonie-Parkinsonismus) geht mit Alpha-Synuklein-Pathologie und dem Verlust dopaminerger Neuronen einher. Dies liegt konzeptionell nahe am Anwendungsgebiet Parkinson. Der hohe TxGNN-Score stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Krankheiten gelernt hat, nicht biologische Evidenz.
 
 Einschränkend gilt: Frühe Verlaufsformen betreffen eine weit über das dopaminerge System hinausgehende Neurodegeneration. Eine rein symptomatische MAO-B-Hemmung dürfte den Krankheitsverlauf daher kaum verändern. Die Verbindung ist eine rein rechnerische Vorhersage.
 
@@ -68,11 +68,11 @@ Einschränkend gilt: Frühe Verlaufsformen betreffen eine weit über das dopamin
 
 | Rang | Indikation | Score | Einschätzung |
 |---|---|---|---|
-| 2 | Rasmussen-Enzephalitis | 99,56 % | Immunvermittelte Erkrankung, kein plausibler Mechanismus über MAO-B-Hemmung |
-| 3 | Myelitis | 99,32 % | Zu heterogen; nur spekulative neuroprotektive Hypothese aus präklinischen Modellen |
-| 4 | Juveniler Parkinsonismus (Typ Hunt) | 99,25 % | Biologisch plausibel, aber wahrscheinlich nur eine Umbenennung der Ursprungsindikation; genetisch heterogen, keine pädiatrischen Daten |
-| 5 | Transaldolase-Mangel | 99,19 % | Kaum mechanistische Überschneidung; vermutlich Graph-Artefakt |
-| 6 | Polymikrogyrie, perisylvisch, mit Kleinhirnhypoplasie und Arthrogryposis | 99,01 % | Kein erkennbarer Mechanismus |
+| 2 | Rasmussen-Enzephalitis | 0,9956 | Immunvermittelte Erkrankung, kein plausibler Mechanismus über MAO-B-Hemmung |
+| 3 | Myelitis | 0,9932 | Zu heterogen; nur spekulative neuroprotektive Hypothese aus präklinischen Modellen |
+| 4 | Juveniler Parkinsonismus (Typ Hunt) | 0,9925 | Biologisch plausibel, aber wahrscheinlich nur eine Umbenennung der Ursprungsindikation; genetisch heterogen, keine pädiatrischen Daten |
+| 5 | Transaldolase-Mangel | 0,9919 | Kaum mechanistische Überschneidung; vermutlich vom Modell gelernte Ähnlichkeit zwischen verwandten Krankheiten, keine biologische Evidenz |
+| 6 | Polymikrogyrie, perisylvisch, mit Kleinhirnhypoplasie und Arthrogryposis | 0,9901 | Kein erkennbarer Mechanismus |
 
 ---
 
@@ -96,7 +96,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 | EMEA/H/C/004064 | Rasagiline Viatris (zuvor Rasagiline Mylan) | – | Parkinson-Krankheit |
 | EMEA/H/C/003957 | Rasagiline ratiopharm | – | Parkinson-Krankheit |
 
-Alle drei Zulassungen sind erloschen; derzeit ist kein gültiges Einzelpräparat verzeichnet.
+Alle drei Zulassungen sind gültig; das Arzneimittel ist in Deutschland im Handel.
 
 ---
 
@@ -116,13 +116,13 @@ Hinweise und Gegenanzeigen aus der Fachinformation liegen nicht vor; bitte die F
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem Modell (Evidenzgrad L5) ohne klinische Studien oder Literatur. Zudem gibt es in Deutschland derzeit keine gültige Zulassung, und die Sicherheitsdaten aus der Fachinformation fehlen.
+Die Vorhersage beruht ausschließlich auf einem Modell (Evidenzgrad L5) ohne klinische Studien oder Literatur. Zudem fehlen die Sicherheitsdaten aus der Fachinformation.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Fachinformation (Warnhinweise, Gegenanzeigen) beschaffen und auswerten, da dies die Sicherheitsprüfung derzeit blockiert
 - Detaillierte Daten zum Wirkmechanismus ergänzen (z. B. über DrugBank)
 - Präklinische und klinische Evidenz zu PLA2G6-assoziierter Neurodegeneration recherchieren
-- Klären, ob die Marktverfügbarkeit in Deutschland gegeben ist (alle Zulassungen erloschen)
+- Klären, ob die Marktverfügbarkeit in Deutschland gegeben ist (alle drei Zulassungen gültig)
 - Für den juvenilen Parkinsonismus: Abgrenzung zur bestehenden Indikation sowie pädiatrische Sicherheits- und Dosierungsdaten prüfen
 ## Haftungsausschluss
 

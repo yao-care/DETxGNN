@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Bupropion
-parent: Nur Modellvorhersage (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 84
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bupropion: vorhergesagte neue Indikation Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS) (Evidenzstufe L5). Ursprüngliche Indikation: Adipositas"
@@ -14,7 +14,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "attention d
 # Bupropion
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Bupropion war in Deutschland bzw. der EU als Bestandteil des Kombinationspräpar
 |------|------|
 | Ursprüngliche Indikation | Adipositas; Übergewicht |
 | Vorhergesagte neue Indikation | Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS) |
-| TxGNN-Vorhersagewert | 99,99 % |
+| TxGNN-Vorhersagewert | 0,9999 |
 | Evidenzgrad | L1 (laut Datenbasis; siehe Hinweis unten) |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortführung mit Schutzmaßnahmen) |
 
 *Hinweis zum Evidenzgrad:* Streng nach den Regeln (≥2 abgeschlossene Phase-3-RCTs für L1) liegt nur eine abgeschlossene Phase-3-Studie vor, ergänzt durch eine Phase-2/3-Studie, eine Phase-4-Studie und mehrere systematische Übersichtsarbeiten. Die Einstufung L1 stammt aus der Bewertung der Datenbasis; konservativ betrachtet wäre L2 angemessen.
@@ -102,7 +102,7 @@ Weitere vorhergesagte Indikationen (z. B. ADHS, vorwiegend unaufmerksamer Typ) h
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/003687 | Mysimba (Orexigen Therapeutics Ireland Limited) | – | Adipositas; Übergewicht (Status: aufgehoben) |
+| EMEA/H/C/003687 | Mysimba (Orexigen Therapeutics Ireland Limited) | – | Adipositas; Übergewicht (Status: gültig) |
 
 ---
 
@@ -136,7 +136,7 @@ Es gibt eine abgeschlossene, placebokontrollierte Phase-3-Studie sowie weitere S
 - Detaillierte Mechanismusdaten (z. B. aus DrugBank)
 - Prüfung weiterer Phase-3-Studien zur Absicherung des Evidenzgrads
 - Sicherheitsplan für Risikogruppen (Krampfanfälle, Hypertonie, Substanzgebrauch, Essstörungen)
-- Klärung des regulatorischen Weges, da in Deutschland aktuell keine gültige Zulassung besteht
+- Klärung des regulatorischen Weges, da in Deutschland aktuell eine gültige Zulassung besteht (1 von 1)
 - Überprüfung der Bupropion-Arme in NCT00061087 sowie der Formulierung in NCT00048360
 ## Haftungsausschluss
 

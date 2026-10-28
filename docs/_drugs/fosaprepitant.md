@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Fosaprepitant: Von Erbrechen bei Krebserkrankungen zu nephrogenem Syndrom der inadäquaten Antidiurese
+## Fosaprepitant: Von Erbrechen bei Krebserkrankungen zur Indikation Nephrogenes Syndrom der inadäquaten Antidiurese
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Erbrechen; Krebserkrankung |
 | Vorhergesagte neue Indikation | Nephrogenes Syndrom der inadäquaten Antidiurese |
-| TxGNN-Vorhersagewert | 99,92 % |
+| TxGNN-Vorhersagewert | 0,9992 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -82,7 +82,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000743 | Ivemend | – | Erbrechen; Krebserkrankung (Status: erloschen) |
+| EMEA/H/C/000743 | Ivemend | – | Erbrechen; Krebserkrankung (Status: gültig) |
 
 ---
 
@@ -109,7 +109,7 @@ Weitere Sicherheitsinformationen entnehmen Sie bitte der Packungsbeilage.
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die vorhergesagte Indikation gibt es weder klinische noch literaturbasierte Evidenz (Evidenzlevel L5), und der postulierte Mechanismus passt nicht zur Ursache der Erkrankung (AVPR2-Mutation). Zudem besteht in Deutschland keine gültige Zulassung.
+Für die vorhergesagte Indikation gibt es weder klinische noch literaturbasierte Evidenz (Evidenzlevel L5), und der postulierte Mechanismus passt nicht zur Ursache der Erkrankung (AVPR2-Mutation). Das Arzneimittel ist in Deutschland im Handel; die eine vorhandene Zulassung ist gültig (1 von 1).
 
 **Für ein Fortschreiten sind folgende Schritte erforderlich:**
 - Daten zum Wirkmechanismus (MOA) ergänzen

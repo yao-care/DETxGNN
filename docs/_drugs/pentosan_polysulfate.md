@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-## Pentosanpolysulfat: Von interstitieller Zystitis zu primärer Thrombozyten-Freisetzungsstörung
+## Pentosanpolysulfat: Primäre Thrombozyten-Freisetzungsstörung
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,10 +48,10 @@ Pentosanpolysulfat wurde ursprünglich zur Behandlung der **interstitiellen Zyst
 |------|------|
 | Ursprüngliche Indikation | Interstitielle Zystitis |
 | Vorhergesagte neue Indikation | Primäre Thrombozyten-Freisetzungsstörung |
-| TxGNN-Vorhersagewert | 99,71 % |
+| TxGNN-Vorhersagewert | 0,9971 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -64,8 +64,8 @@ Allerdings würde eine solche Wirkung eine Thrombozytenfunktionsstörung eher **
 
 Weitere vom Modell hoch bewertete Vorhersagen sind:
 
-- **Glanzmann-Thrombasthenie** (Wert 99,65 %): Ursache ist ein Mangel oder eine Funktionsstörung des Integrins αIIbβ3 (GPIIb/IIIa) mit gestörter Thrombozytenaggregation. Ein gerinnungshemmender Wirkstoff würde diese Blutungsstörung voraussichtlich verstärken. Ein plausibler therapeutischer Mechanismus ist nicht erkennbar.
-- **Pseudo-von-Willebrand-Erkrankung** (Wert 99,62 %): Ursache ist eine Gain-of-Function-Mutation von GPIbα mit verstärkter Bindung an den von-Willebrand-Faktor. Eine polyanionische, heparinähnliche Substanz könnte theoretisch mit dem VWF oder der GPIb-Bindung interagieren, die Wirkrichtung ist aber unbekannt und könnte die Blutung verschlimmern.
+- **Glanzmann-Thrombasthenie** (Wert 0,9965): Ursache ist ein Mangel oder eine Funktionsstörung des Integrins αIIbβ3 (GPIIb/IIIa) mit gestörter Thrombozytenaggregation. Ein gerinnungshemmender Wirkstoff würde diese Blutungsstörung voraussichtlich verstärken. Ein plausibler therapeutischer Mechanismus ist nicht erkennbar.
+- **Pseudo-von-Willebrand-Erkrankung** (Wert 0,9962): Ursache ist eine Gain-of-Function-Mutation von GPIbα mit verstärkter Bindung an den von-Willebrand-Faktor. Eine polyanionische, heparinähnliche Substanz könnte theoretisch mit dem VWF oder der GPIb-Bindung interagieren, die Wirkrichtung ist aber unbekannt und könnte die Blutung verschlimmern.
 
 ---
 
@@ -87,7 +87,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/004246 | Elmiron | – | Interstitielle Zystitis |
 
-Diese Zulassung ist erloschen bzw. widerrufen, es gibt derzeit keine gültige Zulassung.
+Es liegt 1 gültige Zulassung von 1 vor; das Arzneimittel ist in diesem Land im Handel.
 
 ---
 

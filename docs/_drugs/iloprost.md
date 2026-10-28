@@ -4,7 +4,7 @@ title: Iloprost
 parent: Nur Modellvorhersage (L5)
 nav_order: 231
 evidence_level: L5
-indication_count: 9
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Iloprost: vorhergesagte neue Indikation Hypotrichosis simplex der Kopfhaut (Rang 1) (Evidenzstufe L5). Ursprüngliche Indikation: Pulmonale Hypertonie"
 monitor_inn: "ILOPROST"
@@ -14,7 +14,7 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 # Iloprost
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Deutlich besser belegt sind die weiteren Vorhersagen aus dem PAH-Spektrum, z. B.
 |------|------|
 | Ursprüngliche Indikation | Pulmonale Hypertonie |
 | Vorhergesagte neue Indikation | Hypotrichosis simplex der Kopfhaut (Rang 1) |
-| TxGNN-Vorhersagewert | 99,45 % |
+| TxGNN-Vorhersagewert | 0,9945 |
 | Evidenzniveau | L5 (für Rang 1); zum Vergleich L3 für PAH bei angeborenem Herzfehler und PAH bei Bindegewebserkrankung |
-| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold (für Rang 1) |
 
 ---
@@ -99,7 +99,7 @@ Für die **PAH bei Bindegewebserkrankung** (Rang 7) ist zusätzlich die Langzeit
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000474 | Ventavis (Bayer AG) | – | Pulmonale Hypertonie (Status: erloschen/gelöscht) |
+| EMEA/H/C/000474 | Ventavis (Bayer AG) | – | Pulmonale Hypertonie (Status: gültig/gelöscht) |
 
 ---
 
@@ -118,7 +118,7 @@ Für Warnhinweise und Gegenanzeigen laut Fachinformation liegen keine Daten vor;
 **Entscheidung: Hold** (für die Top-Vorhersage Hypotrichosis simplex der Kopfhaut)
 
 **Begründung:**
-- Der hohe TxGNN-Wert ist eine reine Graph-Vorhersage ohne Studien oder Literatur und ohne plausiblen kausalen Mechanismus bei einer genetischen Haarerkrankung.
+- Der hohe Wert stammt aus dem TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. Es gibt keine Studien oder Literatur und keinen plausiblen kausalen Mechanismus bei einer genetischen Haarerkrankung.
 - Für die PAH bei angeborenem Herzfehler und die PAH bei Bindegewebserkrankung (jeweils L3) ist eine Einstufung als **Proceed with Guardrails** vertretbar. Die Evidenz besteht jedoch überwiegend aus Beobachtungsstudien, Fallserien und Übersichten, nicht aus Phase-3-Studien. Hinzu kommt, dass die einzige deutsche Zulassung erloschen ist.
 
 **Für das weitere Vorgehen wird benötigt:**

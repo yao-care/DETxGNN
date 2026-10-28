@@ -4,7 +4,7 @@ title: Clofarabine
 parent: Hohe Evidenz (L1-L2)
 nav_order: 118
 evidence_level: L1
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Clofarabine: vorhergesagte neue Indikation Myeloische Leukämie (Evidenzstufe L1). Ursprüngliche Indikation: Vorläuferzell-lymphoblastische Leukämie/Lymphom"
 monitor_inn: "CLOFARABINE"
@@ -14,7 +14,7 @@ predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "n
 # Clofarabine
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Clofarabin: Von der Vorläuferzell-lymphoblastischen Leukämie/Lymphom zur myeloischen Leukämie
+## Clofarabin: Myeloische Leukämie
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Clofarabin ist ein Purinnukleosid-Analogon, das ursprünglich zur Behandlung der
 |------|------|
 | Ursprüngliche Indikation | Vorläuferzell-lymphoblastische Leukämie/Lymphom |
 | Vorhergesagte neue Indikation | Myeloische Leukämie |
-| TxGNN-Vorhersagewert | 99,88 % |
+| TxGNN-Vorhersagewert | 0,9988 |
 | Evidenzgrad | L1 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Mit Schutzmaßnahmen fortfahren (Proceed with Guardrails) |
 
 ---
@@ -108,7 +108,7 @@ Die folgende Auswahl zeigt die relevantesten Studien (Phase 3 und Phase 2 mit gr
 |---------|------|------|-----------|
 | EMEA/H/C/000613 | Evoltra (Sanofi B.V.) | nicht angegeben | Vorläuferzell-lymphoblastische Leukämie/Lymphom |
 
-Die einzige Zulassung ist erloschen bzw. widerrufen; derzeit besteht keine gültige Zulassung.
+Die einzige Zulassung ist gültig (1 von 1 gültigen Zulassungen); das Arzneimittel ist in Deutschland im Handel.
 
 ---
 
@@ -140,14 +140,12 @@ Warnhinweise und Gegenanzeigen aus der Fachinformation lagen nicht vor; bitte di
 
 | Rang | Indikation | Score | Evidenzgrad | Empfehlung |
 |---|------|------|------|------|
-| 2 | Vorläuferzell-lymphoblastische Leukämie/Lymphom | 99,57 % | L2 | Mit Schutzmaßnahmen (entspricht der ursprünglichen Indikation) |
-| 3 | Ganglioneuroblastom | 99,53 % | L5 | Zurückstellen |
-| 4 | Neuroblastom | 99,52 % | L4 | Zurückstellen |
-| 5 | Wirbelanomalien mit endokriner und T-Zell-Dysfunktion | 99,46 % | L5 | Zurückstellen |
-| 6 | Retroperitoneales Neoplasma | 99,44 % | L5 | Zurückstellen |
-| 7 | Blastenphase der CML, BCR-ABL1-positiv | 99,43 % | L2 | Forschungsfrage |
-| 8 | Akute lymphoblastische Leukämie | 99,31 % | L2 | Mit Schutzmaßnahmen |
-| 9–10 | CLL/SLL-Subtypen | 99,26 % | L5 | Zurückstellen |
+| 3 | Ganglioneuroblastom | 0,9953 | L5 | Zurückstellen |
+| 4 | Neuroblastom | 0,9952 | L4 | Zurückstellen |
+| 5 | Wirbelanomalien mit endokriner und T-Zell-Dysfunktion | 0,9946 | L5 | Zurückstellen |
+| 6 | Retroperitoneales Neoplasma | 0,9944 | L5 | Zurückstellen |
+| 7 | Blastenphase der CML, BCR-ABL1-positiv | 0,9943 | L5 | Forschungsfrage |
+| 9–10 | CLL/SLL-Subtypen | 0,9926 | L5 | Zurückstellen |
 
 ---
 
@@ -156,7 +154,7 @@ Warnhinweise und Gegenanzeigen aus der Fachinformation lagen nicht vor; bitte di
 **Entscheidung: Mit Schutzmaßnahmen fortfahren (Proceed with Guardrails)**
 
 **Begründung:**
-Für die myeloische Leukämie liegen zwei abgeschlossene Phase-3-Studien sowie zahlreiche Phase-2-Studien vor, und der Wirkmechanismus ist plausibel übertragbar. Die Ergebnisse der Phase-3-Studien liegen in den vorliegenden Daten jedoch nicht vor. Hinzu kommt, dass in Deutschland keine gültige Zulassung besteht und das Sicherheitsprofil (Myelosuppression, Nieren- und Leberrisiken) erheblich ist.
+Für die myeloische Leukämie liegen zwei abgeschlossene Phase-3-Studien sowie zahlreiche Phase-2-Studien vor, und der Wirkmechanismus ist plausibel übertragbar. Die Ergebnisse der Phase-3-Studien liegen in den vorliegenden Daten jedoch nicht vor. Hinzu kommt, dass das Sicherheitsprofil (Myelosuppression, Nieren- und Leberrisiken) erheblich ist.
 
 **Für das weitere Vorgehen sind erforderlich:**
 - Auswertung der Ergebnisse von NCT02085408 und NCT00317642 (Gesamtüberleben, Remissionsrate, Toxizität im Vergleich zur Standardtherapie)

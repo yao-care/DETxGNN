@@ -8,6 +8,7 @@ nav_order: 394
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Repaglinide
@@ -51,8 +52,8 @@ Repaglinide (DB00912) ist ein kurzwirksames Insulinsekretagogum der Meglitinid-K
 | Prognostizierte neue Indikation | Nicht verfügbar — `predicted_indications`-Array ist leer |
 | TxGNN-Vorhersage-Score | Nicht verfügbar |
 | Evidenzstufe | N/A |
-| Marktstatus Deutschland | Nicht zugelassen (0 Zulassungen erfasst) |
-| Anzahl der Zulassungen | 0 |
+| Marktstatus Deutschland | Im Handel (gültige Zulassungen: 6 von 6) |
+| Anzahl der Zulassungen | 6 (gültig: 6) |
 | Empfohlene Entscheidung | **Halten** — unzureichende Daten zur Evaluierung |
 
 ---

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vilanterol
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 498
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Vilanterol: vorhergesagte neue Indikation Obstruktive Lungenerkrankung (Evidenzstufe L1). Ursprüngliche Indikation: Chronisch obstruktive Lungenerkrankung (COPD)"
 monitor_inn: "VILANTEROL"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
+description: "Vilanterol: vorhergesagte neue Indikation Hyperlucent lung (Evidenzstufe L5). Ursprüngliche Indikation: Pulmonary Disease, Chronic Obstructive"
 ---
 
 # Vilanterol
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Vilanterol: Von chronisch obstruktiver Lungenerkrankung (COPD) zu obstruktiver Lungenerkrankung
+## Vilanterol: Hyperlucent lung
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -46,12 +46,12 @@ Vilanterol ist ein lang wirksamer Beta-2-Agonist, der ursprünglich zur Behandlu
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Chronisch obstruktive Lungenerkrankung (COPD) |
-| Vorhergesagte neue Indikation | Obstruktive Lungenerkrankung |
-| TxGNN-Vorhersagewert | 99,97 % |
-| Evidenzniveau | L1 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Ursprüngliche Indikation | Pulmonary Disease, Chronic Obstructive |
+| Vorhergesagte neue Indikation | Hyperlucent lung |
+| TxGNN-Vorhersagewert | 0.9972 |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortführung mit Schutzmaßnahmen) |
 
 ---

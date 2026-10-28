@@ -48,10 +48,10 @@ Raltegravir ist ein HIV-1-Integrase-Strangtransfer-Inhibitor und wurde ursprüng
 |------|------|
 | Ursprüngliche Indikation | HIV-Infektionen |
 | Vorhergesagte neue Indikation | Felines erworbenes Immundefizienz-Syndrom (veterinärmedizinische Indikation) |
-| TxGNN-Vorhersagewert | 99,78 % |
+| TxGNN-Vorhersagewert | 0,9978 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -60,11 +60,11 @@ Raltegravir ist ein HIV-1-Integrase-Strangtransfer-Inhibitor und wurde ursprüng
 
 Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Raltegravir die Integrase von HIV-1 hemmt und damit den Einbau der viralen DNA in das Wirtsgenom blockiert. Das Felines Immundefizienzvirus (FIV) ist ein Lentivirus mit einer strukturell verwandten Integrase. Ein mechanistischer Ansatz ist daher denkbar.
 
-Der hohe TxGNN-Wert (0,998) spiegelt jedoch wahrscheinlich vor allem die Ähnlichkeit der Erkrankung zur ursprünglichen HIV-Indikation im Wissensgraphen wider und ist kein eigenständiger Wirksamkeitsbeleg. Alle drei vorhergesagten Indikationen haben nahezu identische Werte, was auf eine Eigenheit der Score-Verteilung hindeuten kann. Zudem handelt es sich um eine veterinärmedizinische Indikation, sodass die Relevanz für das Repurposing beim Menschen begrenzt ist.
+Der hohe TxGNN-Wert (0,9978) stammt vom TxGNN-Modell (Deep Learning) und spiegelt wahrscheinlich vor allem Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat, und ist kein biologischer Beleg und kein eigenständiger Wirksamkeitsbeleg. Alle drei vorhergesagten Indikationen haben nahezu identische Werte, was auf eine Eigenheit der Score-Verteilung hindeuten kann. Zudem handelt es sich um eine veterinärmedizinische Indikation, sodass die Relevanz für das Repurposing beim Menschen begrenzt ist.
 
 **Weitere Vorhersagen im Überblick:**
-- **Infektion mit dem Simianen Immundefizienzvirus (SIV)** (Score 99,78 %, Evidenzniveau L3): Es liegen präklinische Studien an Primaten und In-vitro-Arbeiten vor, z. B. zum Ansprechen von SIVmac251 auf Raltegravir (PMID 20233398), zu Resistenzmutationen bei SIV-infizierten Rhesusaffen (PMID 29466356) und zum Postexpositionsschutz von Makaken durch topische Integrase-Inhibitoren (PMID 24622515). Diese Daten sind vor allem als Tiermodell für HIV nützlich, nicht als neue Indikation beim Menschen. Es wurden nur 10 der 16 aufgeführten Publikationen bereitgestellt; die Einordnung beruht teils nur auf Titeln.
-- **Neuroentwicklungsstörung mit ataktischem Gang, fehlender Sprache und verminderter kortikaler weißer Substanz** (Score 99,77 %, Evidenzniveau L5): Es wurde kein plausibler mechanistischer Zusammenhang zur Integrase-Hemmung identifiziert, und es liegen keine Studien oder Literatur vor.
+- **Infektion mit dem Simianen Immundefizienzvirus (SIV)** (Score 0,9978, Evidenzniveau L3): Es liegen präklinische Studien an Primaten und In-vitro-Arbeiten vor, z. B. zum Ansprechen von SIVmac251 auf Raltegravir (PMID 20233398), zu Resistenzmutationen bei SIV-infizierten Rhesusaffen (PMID 29466356) und zum Postexpositionsschutz von Makaken durch topische Integrase-Inhibitoren (PMID 24622515). Diese Daten sind vor allem als Tiermodell für HIV nützlich, nicht als neue Indikation beim Menschen. Es wurden nur 10 der 16 aufgeführten Publikationen bereitgestellt; die Einordnung beruht teils nur auf Titeln.
+- **Neuroentwicklungsstörung mit ataktischem Gang, fehlender Sprache und verminderter kortikaler weißer Substanz** (Score 0,9977, Evidenzniveau L5): Es wurde kein plausibler mechanistischer Zusammenhang zur Integrase-Hemmung identifiziert, und es liegen keine Studien oder Literatur vor.
 
 ---
 
@@ -95,7 +95,7 @@ Für die zweitplatzierte Vorhersage (SIV-Infektion) liegen ausschließlich präk
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000860 | Isentress | – | HIV-Infektionen (Status: erloschen) |
+| EMEA/H/C/000860 | Isentress | – | HIV-Infektionen (Status: gültig) |
 
 ---
 

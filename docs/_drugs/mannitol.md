@@ -4,17 +4,17 @@ title: Mannitol
 parent: Nur Modellvorhersage (L5)
 nav_order: 284
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Mannitol: vorhergesagte neue Indikation Nephrogenes Syndrom der inadäquaten Antidiurese (NSIAD) (Evidenzstufe L5). Ursprüngliche Indikation: Mukoviszidose"
+indication_count: 9
 monitor_inn: "MANNITOL"
-predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "acute pulmonary heart disease", "exercise-induced malignant hyperthermia", "malignant hyperthermia, susceptibility to", "familial periodic paralysis", "hypokalemic periodic paralysis", "congenital multicore myopathy with external ophthalmoplegia", "moderate multiminicore disease with hand involvement", "nephrogenic diabetes insipidus", "central core myopathy"]
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "acute pulmonary heart disease", "exercise-induced malignant hyperthermia", "familial periodic paralysis", "hypokalemic periodic paralysis", "congenital multicore myopathy with external ophthalmoplegia", "moderate multiminicore disease with hand involvement", "nephrogenic diabetes insipidus", "central core myopathy"]
+last_modified_at: 2026-10-27
+description: "Mannitol: vorhergesagte neue Indikation Nephrogenes Syndrom der inadäquaten Antidiurese (nephrogenic syndrome of inappropriate antidiuresis) (Evidenzstufe L5). Ursprüngliche Indikation: Cystic Fibros…"
 ---
 
 # Mannitol
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,95 +33,68 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Mannitol: Von Mukoviszidose zu nephrogenem Syndrom der inadäquaten Antidiurese
+## Mannitol: Osmotisches Diuretikum → Nephrogenes Syndrom der inadäquaten Antidiurese (nephrogenic syndrome of inappropriate antidiuresis)
 {: .text-alpha }
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Mannitol ist ein osmotisch wirksamer Wirkstoff, der in der EU (Bronchitol) ursprünglich zur Behandlung der **Mukoviszidose** zugelassen war. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **nephrogenem Syndrom der inadäquaten Antidiurese (NSIAD)** voraus. Dafür liegen **keine klinischen Studien** und nur **1 Publikation** (ein Übersichtsartikel ohne Bezug zu einem Mannitol-Nutzen) vor, die Vorhersage beruht daher faktisch allein auf dem Modell.
-
----
+Mannitol ist ein osmotisch wirkender Wirkstoff. Das TxGNN-Modell sagt voraus, dass er bei **nephrogenem Syndrom der inadäquaten Antidiurese (nephrogenic syndrome of inappropriate antidiuresis)** wirksam sein könnte. Für diese Vorhersage liegen **keine klinischen Studien** und **keine Publikation** vor, die diese Erkrankung direkt untersucht; die Evidenz beschränkt sich auf eine allgemeine Übersichtsarbeit zur Hyponatriämie.
 
 ## Schnellübersicht
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Mukoviszidose |
-| Vorhergesagte neue Indikation | Nephrogenes Syndrom der inadäquaten Antidiurese (NSIAD) |
-| TxGNN-Vorhersagewert | 99,97 % |
+| Ursprüngliche Indikation | Cystic Fibrosis |
+| Vorhergesagte neue Indikation | Nephrogenes Syndrom der inadäquaten Antidiurese (nephrogenic syndrome of inappropriate antidiuresis) |
+| TxGNN-Vorhersagewert | 0,9997 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
-
----
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Mannitol ist bekanntermaßen ein osmotisch wirksamer Stoff. Seine Wirksamkeit bei Mukoviszidose (inhalative Anwendung) ist belegt, und mechanistisch könnte ein osmotischer Effekt theoretisch die Ausscheidung freien Wassers fördern.
+Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Mannitol ist ein osmotisch wirksamer Stoff, der theoretisch die Ausscheidung von freiem Wasser fördern könnte. Dies ist jedoch nur eine theoretische Überlegung.
 
-Die Plausibilität ist jedoch sehr gering. NSIAD beruht auf aktivierenden Mutationen des V2-Rezeptors (AVPR2). Eine osmotische Diurese ist keine etablierte Therapie dieser Erkrankung. Die einzige gefundene Publikation ist ein Übersichtsartikel zu Fallstricken bei der Abklärung einer Hyponatriämie und liefert keinerlei Hinweis auf einen Nutzen von Mannitol. Der hohe TxGNN-Wert ist ausschließlich eine Modellvorhersage.
+Das nephrogene Syndrom der inadäquaten Antidiurese wird durch aktivierende Mutationen des Vasopressin-V2-Rezeptors (AVPR2) verursacht. Eine osmotische Diurese ist hierfür keine etablierte Behandlung. Die hohe Bewertung des Modells ist daher als reine Modellvorhersage zu verstehen, ein belastbarer mechanistischer Zusammenhang ist nicht belegt.
 
-### Weitere vorhergesagte Indikationen (zur Einordnung)
-
-Die übrigen Top-10-Vorhersagen sind ebenfalls schwach belegt:
-
-| Rang | Vorhergesagte Indikation | Evidenzstufe | Einschätzung |
-|---|---|---|---|
-| 2 | Akutes Cor pulmonale | L4 | Nur indirekte Literatur; Mannitol kann das intravasale Volumen vorübergehend erhöhen und ein Lungenödem verschlechtern (Fallbericht) |
-| 3 | Belastungsinduzierte maligne Hyperthermie | L5 | Keine Evidenz; Mannitol dient nur als Hilfsstoff in Dantrolen-Formulierungen |
-| 4 | Maligne Hyperthermie (Disposition) | L4 | Wahrscheinlich Artefakt durch gemeinsames Vorkommen in Formulierungen |
-| 5–6 | Familiäre/hypokaliämische periodische Paralyse | L4 | Nur unterstützende Rolle als glukosefreies Trägermedium, keine krankheitsmodifizierende Wirkung |
-| 7, 8, 10 | RYR1-assoziierte Myopathien | L5 | Keine Evidenz, nur Nähe im Wissensgraphen |
-| 9 | Nephrogener Diabetes insipidus | L5 | Mechanistisch wahrscheinlich kontraindiziert (osmotische Diurese verstärkt Polyurie und Hypernatriämie) |
-
----
-
-## Klinische Evidenz
+## Klinische Studien
 
 Derzeit sind keine zugehörigen klinischen Studien registriert.
-
----
 
 ## Literaturevidenz
 
 | PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [26706473](https://pubmed.ncbi.nlm.nih.gov/26706473/) | 2016 | Review | European Journal of Internal Medicine | Häufige Fallstricke bei der Abklärung von Patienten mit Hyponatriämie; kein Hinweis auf einen Nutzen von Mannitol |
+| [26706473](https://pubmed.ncbi.nlm.nih.gov/26706473/) | 2016 | Review | European Journal of Internal Medicine | Zehn häufige Fallstricke bei der Abklärung von Patienten mit Hyponatriämie; kein Hinweis auf einen Nutzen von Mannitol |
 
----
-
-## Informationen zum deutschen Markt
+## Marktinformationen Deutschland
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/001252 | Bronchitol | – | Mukoviszidose (Status: erloschen) |
+| EMEA/H/C/001252 | Bronchitol | – | Cystic Fibrosis |
 
----
+## Sicherheitshinweise
 
-## Sicherheitsaspekte
+Zu Warnhinweisen und Gegenanzeigen liegen in den zusammengestellten Daten keine Angaben aus der Fachinformation vor; bitte die Packungsbeilage bzw. Fachinformation heranziehen.
 
-- **Hinweise aus dem Wissensgraphen (keine Packungsbeilagen-Daten):** Im TxGNN-Wissensgraphen (PrimeKG) sind unter anderem folgende Kontraindikationen verknüpft: Leberversagen, Lebererkrankung, hepatische Enzephalopathie/hepatisches Koma, Anurie, eingeschränkte Nierenfunktion, Lungenödem, intrakranielle Blutung, Porphyrie, Thrombozytopenie, Neutropenie, Agranulozytose, Anämie, Schlafapnoe-Syndrome, Angst- und neurotische Störungen sowie Substanzabhängigkeit.
-- **Arzneimittelwechselwirkungen:** 100 Wechselwirkungen wurden gefunden, 20 davon sind aufgeführt. Wichtigste Beispiele:
-  - **Schwerwiegend (Major):** Amikacin
-  - **Moderat:** Lamivudin, Formoterol, Salbutamol, Arformoterol, Amifostin, Benazepril, Captopril, Bisacodyl, Picosulfat, Polyethylenglykol (3350 mit Elektrolyten), Iothalaminsäure, Diatrizoat, Canagliflozin, Dapagliflozin, Carbamazepin, Cisatracurium, Citalopram, Desvenlafaxin
-  - **Gering (Minor):** Doxycyclin
-- Für Warnhinweise und Kontraindikationen laut Fachinformation bitte die Packungsbeilage heranziehen.
-
----
+**Wechselwirkungen** (100 erfasst; Auswahl):
+- **Schwerwiegend (Major):** Amikacin
+- **Moderat:** u. a. Lamivudin, Formoterol, Salbutamol, Arformoterol, Amifostin, Benazepril, Captopril, Carbamazepin, Citalopram, Dapagliflozin, Canagliflozin, Bisacodyl, Cisatracurium
+- **Gering (Minor):** Doxycyclin
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf das Modell (L5). Es gibt keine klinischen Studien, die einzige Publikation ist nicht relevant, und der Mechanismus (osmotische Diurese bei einer V2-Rezeptor-bedingten Erkrankung) spricht eher dagegen. Zudem ist die deutsche Zulassung erloschen. Auch die übrigen Top-10-Vorhersagen weisen keine tragfähige Evidenz auf; teils bestehen Sicherheitsbedenken (Lungenödem, nephrogener Diabetes insipidus).
+Für die vorhergesagte Erkrankung gibt es weder klinische Studien noch Publikationen, die sie direkt untersuchen; der hohe Vorhersagewert ist nicht durch einen plausiblen Mechanismus gestützt (die Erkrankung beruht auf einer Rezeptormutation, nicht auf einer Störung, die osmotische Diurese beheben würde).
 
-**Für ein Weiterverfolgen sind folgende Schritte nötig:**
-- Auswertung der Fachinformation (BfArM) zu Warnhinweisen und Kontraindikationen (Blockierende Datenlücke, ohne die kein Sicherheits-Screening möglich ist)
-- Beschaffung detaillierter Daten zum Wirkmechanismus (z. B. über DrugBank)
-- Prüfung auf mechanistisch nachvollziehbare und evidenzbasierte Alternativindikationen
-- Prüfung der Relevanz und Aktualität der Zulassungssituation, da die einzige Zulassung erloschen ist
+**Für ein Weiterkommen sind erforderlich:**
+- Daten zum Wirkmechanismus (MOA)
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen)
+- Präklinische oder mechanistische Belege, die einen Nutzen bei dieser Erkrankung stützen
+- Sicherheitsbewertung, insbesondere zur Volumen- und Elektrolytwirkung
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

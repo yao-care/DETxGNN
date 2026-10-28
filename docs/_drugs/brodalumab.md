@@ -50,10 +50,10 @@ Die Vorhersage beruht allein auf einer Modellberechnung und ist biologisch fragl
 |------|------|
 | Ursprüngliche Indikation | Psoriasis |
 | Vorhergesagte neue Indikation | Strongyloidiasis |
-| TxGNN-Vorhersagewert | 99,84 % |
+| TxGNN-Vorhersagewert | 0,9984 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -84,7 +84,7 @@ Derzeit ist keine einschlägige Literatur zu Strongyloidiasis verfügbar.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/003959 | Kyntheum | – | Psoriasis (Status: erloschen) |
+| EMEA/H/C/003959 | Kyntheum | – | Psoriasis (Status: gültig) |
 
 ---
 
@@ -103,7 +103,7 @@ Für weitere Sicherheitsinformationen, insbesondere Warnhinweise und Kontraindik
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage für Strongyloidiasis beruht ausschließlich auf einem Modellwert ohne klinische oder publizierte Belege (L5). Mechanistisch ist eher ein Schaden durch die IL-17-Blockade zu erwarten. Zudem besteht in Deutschland keine gültige Zulassung mehr.
+Die Vorhersage für Strongyloidiasis beruht ausschließlich auf einem Modellwert ohne klinische oder publizierte Belege (L5). Mechanistisch ist eher ein Schaden durch die IL-17-Blockade zu erwarten. Das Arzneimittel ist in Deutschland im Handel; 1 von 1 Zulassung ist gültig.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Fachinformation (Warnhinweise und Kontraindikationen) der Europäischen Arzneimittel-Agentur bzw. des BfArM auswerten

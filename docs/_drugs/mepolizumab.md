@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Mepolizumab
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 290
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Mepolizumab: vorhergesagte neue Indikation Thrombozytopenie durch Immunzerstörung (Evidenzstufe L4). Ursprüngliche Indikation: Asthma"
@@ -14,7 +14,7 @@ predicted_indications: ["thrombocytopenia due to immune destruction", "primary r
 # Mepolizumab
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **5** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-## Mepolizumab: Von Asthma zu immunvermittelter Thrombozytopenie
+## Mepolizumab: Von Asthma zu Thrombozytopenie durch Immunzerstörung
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -50,10 +50,10 @@ Dafür liegen jedoch **keine klinischen Studien** und nur **1 Publikation** (ein
 |------|------|
 | Ursprüngliche Indikation | Asthma |
 | Vorhergesagte neue Indikation | Thrombozytopenie durch Immunzerstörung |
-| TxGNN-Vorhersagewert | 99,66 % |
-| Evidenzgrad | L4 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| TxGNN-Vorhersagewert | 0,9966 |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -88,7 +88,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 |---------|------|------|-----------|
 | EMEA/H/C/003860 | Nucala | – | Asthma |
 
-Diese Zulassung ist erloschen bzw. widerrufen; es besteht keine gültige Zulassung.
+Diese Zulassung ist gültig; es besteht 1 gültige Zulassung von 1.
 
 ---
 
@@ -103,7 +103,7 @@ Bitte die Fachinformation für Sicherheitsinformationen heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich fast ausschließlich auf einen hohen Modellwert und einen einzelnen indirekten Fallbericht. Es gibt keine klinischen Studien, und ein plausibler Mechanismus für die ITP fehlt. Zudem besteht in Deutschland laut den Daten keine gültige Zulassung.
+Die Vorhersage stützt sich fast ausschließlich auf einen hohen Modellwert und einen einzelnen indirekten Fallbericht. Es gibt keine klinischen Studien, und ein plausibler Mechanismus für die ITP fehlt. Das Arzneimittel ist in Deutschland laut den Daten im Handel, mit 1 gültigen Zulassung von 1.
 
 **Für ein Weiterkommen sind folgende Punkte erforderlich:**
 - Daten zum Wirkmechanismus (MOA), z. B. aus DrugBank

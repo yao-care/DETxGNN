@@ -4,17 +4,17 @@ title: Tacrolimus
 parent: Hohe Evidenz (L1-L2)
 nav_order: 440
 evidence_level: L1
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Tacrolimus: vorhergesagte neue Indikation Seborrhoische Dermatitis (Evidenzstufe L1). Ursprüngliche Indikation: Transplantatabstoßung (Graft Rejection)"
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
+description: "Tacrolimus: vorhergesagte neue Indikation Seborrheic dermatitis (Evidenzstufe L1). Ursprüngliche Indikation: Graft Rejection"
 ---
 
 # Tacrolimus
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **3** 
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-## Tacrolimus: Von Transplantatabstoßung und atopischer Dermatitis zu seborrhoischer Dermatitis
+## Tacrolimus: Seborrheic dermatitis
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,12 +48,12 @@ Derzeit stützen diese Richtung **2 klinische Studien** (1 abgeschlossene Phase-
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Transplantatabstoßung (Graft Rejection) |
-| Vorhergesagte neue Indikation | Seborrhoische Dermatitis |
-| TxGNN-Vorhersagewert | 99,26 % |
+| Ursprüngliche Indikation | Graft Rejection; Dermatitis, Atopic; Liver Transplantation;Kidney Transplantation |
+| Vorhergesagte neue Indikation | Seborrheic dermatitis |
+| TxGNN-Vorhersagewert | 0.9926 |
 | Evidenzgrad | L1 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 5 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 5 von 5) |
+| Anzahl der Zulassungen | 5 (gültig: 5) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
 
 ---
@@ -96,7 +96,7 @@ Ein weiterer Vorteil: Tacrolimus wird auch off-label bei seborrhoischer Dermatit
 
 ## Marktinformationen Deutschland
 
-Alle fünf in den Daten verzeichneten Zulassungen sind erloschen bzw. aufgehoben (EU-Zentralzulassungen); derzeit ist keine gültige Zulassung aufgeführt.
+Alle fünf in den Daten verzeichneten Zulassungen sind gültig (EU-Zentralzulassungen); Tacrolimus ist derzeit im Handel.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -123,7 +123,7 @@ Weitere Warnhinweise und Kontraindikationen bitte der Packungsbeilage entnehmen.
 **Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Es gibt eine abgeschlossene Phase-3-Studie und eine abgeschlossene Phase-4-Studie, die Tacrolimus-Salbe direkt bei seborrhoischer Dermatitis prüfen, dazu eine plausible Calcineurin-Hemmung als Mechanismus. Die Wirksamkeitsergebnisse dieser Studien liegen in den vorliegenden Daten jedoch nicht vor, und in Deutschland besteht derzeit keine gültige Zulassung.
+Es gibt eine abgeschlossene Phase-3-Studie und eine abgeschlossene Phase-4-Studie, die Tacrolimus-Salbe direkt bei seborrhoischer Dermatitis prüfen, dazu eine plausible Calcineurin-Hemmung als Mechanismus. Die Wirksamkeitsergebnisse dieser Studien liegen in den vorliegenden Daten jedoch nicht vor. Tacrolimus ist in Deutschland derzeit im Handel (5 von 5 Zulassungen gültig).
 
 **Für das weitere Vorgehen erforderlich:**
 - Ergebnisse der Studien NCT02004860 und NCT01591070 beschaffen und prüfen

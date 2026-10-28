@@ -49,10 +49,10 @@ Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Candidiasis** voraus (hö
 |------|------|
 | Ursprüngliche Indikation | Multiresistente Tuberkulose |
 | Vorhergesagte neue Indikation | Candidiasis |
-| TxGNN-Vorhersagewert | 99,69 % |
+| TxGNN-Vorhersagewert | 0,9969 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -61,11 +61,11 @@ Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Candidiasis** voraus (hö
 
 Für diesen Wirkstoff liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Mechanismusdaten (MOA) vor. Aus der Fachliteratur ist bekannt: Pretomanid ist ein Prodrug, das von der Deazaflavin-abhängigen Nitroreduktase (Ddn) von *Mycobacterium tuberculosis* aktiviert wird. Unter anaeroben Bedingungen setzt es Stickstoffmonoxid und reaktive Stickstoffspezies frei und hemmt in replizierenden Bakterien die Mykolsäuresynthese.
 
-**Ehrliche Bewertung:** Für Candidiasis besteht kein etablierter mechanistischer Zusammenhang. Pilze wie *Candida* besitzen den Ddn/F420-abhängigen Aktivierungsweg nicht, daher ist eine antimykotische Wirkung nicht zu erwarten. Der hohe TxGNN-Wert (0,997) ist eine rein graphbasierte Vorhersage ohne gestützte Studien oder Literatur.
+**Ehrliche Bewertung:** Für Candidiasis besteht kein etablierter mechanistischer Zusammenhang. Pilze wie *Candida* besitzen den Ddn/F420-abhängigen Aktivierungsweg nicht, daher ist eine antimykotische Wirkung nicht zu erwarten. Der hohe TxGNN-Wert (0,9969) ist eine rein graphbasierte Vorhersage ohne gestützte Studien oder Literatur.
 
 Weitere vorhergesagte Indikationen (zur Einordnung):
-- **Lepra** (Score 99,27 %): mechanistisch plausibel, aber unbewiesen, da *M. leprae* nah mit *M. tuberculosis* verwandt ist. Unklar ist jedoch, ob *M. leprae* wegen starken Genomzerfalls ein funktionsfähiges Ddn/F420-System besitzt. Dies ist die biologisch am ehesten nachvollziehbare Vorhersage (Evidenzstufe L4, Einstufung „Forschungsfrage“).
-- **Koronare Herzkrankheit, Myokardischämie, anomaler Abgang der linken Koronararterie aus der Pulmonalarterie** (Scores 99,25 %, 99,17 % bzw. 99,08 %): kein glaubwürdiger mechanistischer Zusammenhang; vermutlich Artefakte der Graphnähe.
+- **Lepra** (Score 0,9927): mechanistisch plausibel, aber unbewiesen, da *M. leprae* nah mit *M. tuberculosis* verwandt ist. Unklar ist jedoch, ob *M. leprae* wegen starken Genomzerfalls ein funktionsfähiges Ddn/F420-System besitzt. Dies ist die biologisch am ehesten nachvollziehbare Vorhersage (Evidenzstufe L4, Einstufung „Forschungsfrage“).
+- **Koronare Herzkrankheit, Myokardischämie, anomaler Abgang der linken Koronararterie aus der Pulmonalarterie** (Scores 0,9925, 0,9917 bzw. 0,9908): kein glaubwürdiger mechanistischer Zusammenhang; vermutlich Artefakte der Graphnähe.
 
 ---
 
@@ -95,7 +95,7 @@ Zur Einordnung: Für die zweitplatzierte Vorhersage Lepra wurden 8 Publikationen
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/005167 | Dovprela (zuvor Pretomanid FGK) | – | Multiresistente Tuberkulose (Status: erloschen) |
+| EMEA/H/C/005167 | Dovprela (zuvor Pretomanid FGK) | – | Multiresistente Tuberkulose (Status: gültig) |
 
 ---
 

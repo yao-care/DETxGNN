@@ -4,7 +4,7 @@ title: Alectinib
 parent: Nur Modellvorhersage (L5)
 nav_order: 23
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Alectinib: vorhergesagte neue Indikation Gingivale Fibromatose (Evidenzstufe L5). Ursprüngliche Indikation: Nicht-kleinzelliges Lungenkarzinom (NSCLC)"
 monitor_inn: "Alectinib"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Alectinib
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Alectinib: Vom nicht-kleinzelligen Lungenkarzinom zur gingivalen Fibromatose
+## Alectinib: Gingivale Fibromatose als neue vorhergesagte Indikation
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -50,10 +50,10 @@ Für diese Vorhersage liegen jedoch **keine klinischen Studien und keine Publika
 |------|------|
 | Ursprüngliche Indikation | Nicht-kleinzelliges Lungenkarzinom (NSCLC) |
 | Vorhergesagte neue Indikation | Gingivale Fibromatose |
-| TxGNN-Vorhersagewert | 99,97 % |
+| TxGNN-Vorhersagewert | 0,9997 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung (Cancelled only) |
-| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Für diese Vorhersage liegen jedoch **keine klinischen Studien und keine Publika
 
 Zum Wirkmechanismus von Alectinib liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist aus den pharmakologischen Daten, dass Alectinib die Rezeptortyrosinkinase **ALK** adressiert (zusätzlich ist in den Daten die Kinase MET als Target aufgeführt). Seine Wirksamkeit beim ALK-positiven NSCLC ist belegt, auch in Zellen, die gegen Crizotinib resistent sind.
 
-Für die hereditäre gingivale Fibromatose ist dagegen **kein ALK-abhängiger Mechanismus** bekannt. Der hohe TxGNN-Wert ist eine reine Vorhersage des Wissensgraphen ohne unterstützende Studien oder Literatur. Eine mechanistische Verbindung zur ursprünglichen Indikation ist derzeit nicht erkennbar.
+Für die hereditäre gingivale Fibromatose ist dagegen **kein ALK-abhängiger Mechanismus** bekannt. Der hohe TxGNN-Wert stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat. Er ist kein biologischer Beleg, und unterstützende Studien oder Literatur liegen nicht vor. Eine mechanistische Verbindung zur ursprünglichen Indikation ist derzeit nicht erkennbar.
 
 ---
 

@@ -4,7 +4,7 @@ title: Bosentan
 parent: Mittlere Evidenz (L3-L4)
 nav_order: 69
 evidence_level: L4
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Bosentan: vorhergesagte neue Indikation Rheumatoide Arthritis (Evidenzstufe L4). Ursprüngliche Indikation: Pulmonale Hypertonie"
 monitor_inn: "BOSENTAN"
@@ -14,7 +14,7 @@ predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndro
 # Bosentan
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **9** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-## Bosentan: Von pulmonaler Hypertonie und systemischer Sklerose zu rheumatoider Arthritis
+## Bosentan: Rheumatoide Arthritis
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **15 Publikationen** vor,
 |------|------|
 | Ursprüngliche Indikation | Pulmonale Hypertonie; systemische Sklerose |
 | Vorhergesagte neue Indikation | Rheumatoide Arthritis |
-| TxGNN-Vorhersagewert | 99,80 % |
+| TxGNN-Vorhersagewert | 0,9980 |
 | Evidenzstufe | L4 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -97,10 +97,10 @@ Die folgende Auswahl berücksichtigt die für die Fragestellung relevantesten Ar
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/002644 | Stayveer | – | Pulmonale Hypertonie; systemische Sklerose (erloschen) |
-| EMEA/H/C/000401 | Tracleer | – | Systemische Sklerose; pulmonale Hypertonie (erloschen) |
+| EMEA/H/C/002644 | Stayveer | – | Pulmonale Hypertonie; systemische Sklerose (gültig) |
+| EMEA/H/C/000401 | Tracleer | – | Systemische Sklerose; pulmonale Hypertonie (gültig) |
 
-Beide Zulassungen (Janssen-Cilag) sind erloschen; es gibt keine gültige Zulassung.
+Beide Zulassungen (Janssen-Cilag) sind gültig; das Arzneimittel ist im Handel.
 
 ---
 

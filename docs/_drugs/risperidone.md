@@ -4,17 +4,17 @@ title: Risperidone
 parent: Nur Modellvorhersage (L5)
 nav_order: 406
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Risperidone: vorhergesagte neue Indikation Familiäre horizontale Blickparese mit progressiver Skoliose (Evidenzstufe L5). Ursprüngliche Indikation: Schizophrenie"
 monitor_inn: "RISPERIDONE"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
 ---
 
 # Risperidone
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-## Risperidon: Von Schizophrenie zu familiärer horizontaler Blickparese mit progressiver Skoliose
+## Risperidon: Von Schizophrenie zu Familiäre horizontale Blickparese mit progressiver Skoliose
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Risperidon ist ein atypisches Antipsychotikum, das ursprünglich zur Behandlung 
 |------|------|
 | Ursprüngliche Indikation | Schizophrenie |
 | Vorhergesagte neue Indikation | Familiäre horizontale Blickparese mit progressiver Skoliose |
-| TxGNN-Vorhersagewert | 99,76 % |
+| TxGNN-Vorhersagewert | 0,9976 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -60,7 +60,7 @@ Risperidon ist ein atypisches Antipsychotikum, das ursprünglich zur Behandlung 
 
 Für diese Indikation ist kein mechanistischer Zusammenhang erkennbar. Die Erkrankung ist eine seltene genetische Störung (ROBO3-assoziiert), bei der die Axonführung im Hirnstamm gestört ist. Risperidon wirkt vor allem als Antagonist an Dopamin-D2- und Serotonin-5-HT2A-Rezeptoren. Diese Wirkung hat keine erkennbare Beziehung zu dieser Pathophysiologie.
 
-Der hohe Modellwert (0,998) ist daher mit Vorsicht zu interpretieren. Er ist eine reine Modellvorhersage und wird weder durch Studien noch durch Literatur gestützt. Detaillierte Mechanismusdaten (MOA) liegen für diesen Bericht nicht vor.
+Der hohe Modellwert (0,9976) ist daher mit Vorsicht zu interpretieren. Er ist eine reine Modellvorhersage und wird weder durch Studien noch durch Literatur gestützt. Detaillierte Mechanismusdaten (MOA) liegen für diesen Bericht nicht vor.
 
 ---
 
@@ -82,7 +82,7 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 |---------|------|------|-----------|
 | EMEA/H/C/005406 (erloschen) | Okedi | nicht angegeben | Schizophrenie |
 
-Es besteht keine gültige Zulassung. Die einzige erfasste Zulassung ist erloschen.
+Es besteht eine gültige Zulassung (1 von 1 Zulassungen gültig). Das Arzneimittel ist im Handel.
 
 ---
 
@@ -109,7 +109,7 @@ Die Packungsbeilage der Zulassungsbehörde konnte nicht ausgewertet werden. Bitt
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf das Modell (L5). Es gibt weder Studien noch Publikationen noch einen plausiblen Wirkmechanismus. Zudem besteht in Deutschland keine gültige Zulassung.
+Die Vorhersage stützt sich ausschließlich auf das Modell TxGNN (Deep Learning). Es gibt weder Studien noch Publikationen noch einen plausiblen Wirkmechanismus. Der Score kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, und ist kein biologischer Beleg. In Deutschland besteht eine gültige Zulassung (1 von 1).
 
 **Für ein Weiterkommen wäre erforderlich:**
 - Ein belastbarer biologischer Mechanismus, der D2/5-HT2A-Antagonismus mit der ROBO3-assoziierten Pathophysiologie verknüpft

@@ -6,9 +6,9 @@ nav_order: 347
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Pegfilgrastim: vorhergesagte neue Indikation Schwere nichtproliferative diabetische Retinopathie (Evidenzstufe L5). Ursprüngliche Indikation: Neutropenie, febrile Neutropenie…"
 monitor_inn: "PEGFILGRASTIM"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
+description: "Pegfilgrastim: vorhergesagte neue Indikation Schwere nichtproliferative diabetische Retinopathie (severe nonproliferative diabetic retinopathy) (Evidenzstufe L5). Ursprüngliche Indikation: Neutropeni"
 ---
 
 # Pegfilgrastim
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-## Pegfilgrastim: Von Neutropenie bei Krebs zu schwerer nichtproliferativer diabetischer Retinopathie
+## Pegfilgrastim: Schwere nichtproliferative diabetische Retinopathie (severe nonproliferative diabetic retinopathy)
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,12 +48,12 @@ Die Vorhersage stützt sich bislang **ausschließlich auf das Modell**: Es liege
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Neutropenie, febrile Neutropenie, chemotherapiebedingte febrile Neutropenie, Krebs |
-| Vorhergesagte neue Indikation | Schwere nichtproliferative diabetische Retinopathie |
-| TxGNN-Vorhersagewert | 99,89 % |
+| Ursprüngliche Indikation | Neutropenia;Febrile Neutropenia;Chemotherapy-Induced Febrile Neutropenia;Cancer; Cancer;Neutropenia;Febrile Neutropenia;Chemotherapy-Induced Febrile Neutropenia; Neutropenia;Cancer |
+| Vorhergesagte neue Indikation | Schwere nichtproliferative diabetische Retinopathie (severe nonproliferative diabetic retinopathy) |
+| TxGNN-Vorhersagewert | 0.9989 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 11 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 11 von 11) |
+| Anzahl der Zulassungen | 11 (gültig: 11) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -64,7 +64,7 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten k
 
 Ein denkbarer Zusammenhang mit der diabetischen Retinopathie ist rein hypothetisch: G-CSF kann Vorläuferzellen aus dem Knochenmark (z. B. endotheliale Vorläuferzellen) mobilisieren und Immunzellen modulieren. Dies könnte die Gefäßreparatur in der ischämischen Netzhaut unterstützen.
 
-Dieselben Wege könnten jedoch auch Entzündung und pathologische Neovaskularisation fördern und die Erkrankung verschlimmern. Die Wirkrichtung ist daher unklar. Die Verbindung ist spekulativ und durch die vorliegenden Daten nicht belegt. Für die zweite Vorhersage, **diabetische Retinopathie** allgemein (Score 99,73 %), gilt dieselbe Einschätzung.
+Dieselben Wege könnten jedoch auch Entzündung und pathologische Neovaskularisation fördern und die Erkrankung verschlimmern. Die Wirkrichtung ist daher unklar. Die Verbindung ist spekulativ und durch die vorliegenden Daten nicht belegt. Für die zweite Vorhersage, **diabetische Retinopathie** allgemein (Score 0,9973), gilt dieselbe Einschätzung.
 
 ---
 
@@ -82,7 +82,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum Markt in Deutschland
 
-Alle 11 erfassten Zulassungen sind erloschen. Für die meisten liegt kein Text zur zugelassenen Indikation vor; die Angaben zur Darreichungsform fehlen durchgängig.
+Alle 11 erfassten Zulassungen sind gültig. Für die meisten liegt kein Text zur zugelassenen Indikation vor; die Angaben zur Darreichungsform fehlen durchgängig.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -119,7 +119,7 @@ Zu Warnhinweisen und Gegenanzeigen liegen keine verwertbaren Daten vor. Bitte di
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht allein auf einem hohen Modellwert (Evidenzstufe L5). Es gibt keine Studien oder Publikationen, der Wirkmechanismus ist nicht belegt, und G-CSF könnte bei Retinopathie sogar schaden. Zudem besitzt in Deutschland derzeit keine Pegfilgrastim-Zulassung Gültigkeit.
+Die Vorhersage beruht allein auf einem hohen Modellwert (Evidenzstufe L5). Es gibt keine Studien oder Publikationen, der Wirkmechanismus ist nicht belegt, und G-CSF könnte bei Retinopathie sogar schaden.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Systematische Literaturrecherche und Prüfung präklinischer Daten zu G-CSF bei diabetischer Retinopathie, insbesondere zur Frage von Nutzen versus Schaden (Neovaskularisation, Entzündung)

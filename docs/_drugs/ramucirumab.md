@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Ramucirumab: Vom Magenkarzinom zum Adenokarzinom des Lig. uteri
+## Ramucirumab: Vom Magenkarzinom zum Uterines Ligament-Adenokarzinom
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,10 +48,10 @@ Ramucirumab wurde ursprünglich zur Behandlung des Magenkarzinoms (Stomach Neopl
 |------|------|
 | Ursprüngliche Indikation | Stomach Neoplasms (Magenkarzinom) |
 | Vorhergesagte neue Indikation | Adenokarzinom des Ligamentum uteri (uterine ligament adenocarcinoma) |
-| TxGNN-Vorhersagewert | 99,95 % |
+| TxGNN-Vorhersagewert | 0,9995 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -60,7 +60,7 @@ Ramucirumab wurde ursprünglich zur Behandlung des Magenkarzinoms (Stomach Neopl
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach allgemeinem Wissen ist Ramucirumab ein VEGFR-2-Antagonist. Seine Wirksamkeit beim Magenkarzinom ist belegt, und mechanistisch könnte eine Hemmung der Angiogenese auch bei Adenokarzinomen des weiblichen Genitaltrakts relevant sein, sofern diese von VEGF-Signalwegen abhängen.
 
-Magenkarzinom und das vorhergesagte Adenokarzinom sind beides Adenokarzinome. Für die gynäkologischen Tumoren gibt es jedoch keine ramucirumab-spezifischen Daten. Der hohe TxGNN-Wert spiegelt die Nähe im Wissensgraphen zu verwandten Tumoren wider und ist kein Wirksamkeitsnachweis. Die Erkrankung ist zudem sehr selten.
+Magenkarzinom und das vorhergesagte Uterine Ligament-Adenokarzinom sind beides Adenokarzinome. Für die gynäkologischen Tumoren gibt es jedoch keine ramucirumab-spezifischen Daten. Der hohe TxGNN-Wert (0.9995) stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat. Er ist kein biologischer Wirksamkeitsnachweis. Die Erkrankung ist zudem sehr selten.
 
 Weitere vorhergesagte Indikationen in den Rängen 2 bis 10 betreffen überwiegend Zervix- und Lig.-uteri-Karzinome (z. B. endozervikales Karzinom, adenoidzystisches Karzinom der Cervix uteri). Auch sie sind ausschließlich modellbasiert. Beim endozervikalen Karzinom ist die Anti-VEGF-Therapie (Bevacizumab) bei persistierendem, rezidivierendem oder metastasiertem Zervixkarzinom etabliert; dies liefert einen indirekten Hinweis, aber keinen Beleg für Ramucirumab.
 
@@ -82,7 +82,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/002829 | Cyramza (Eli Lilly Nederland B.V.) | – | Stomach Neoplasms (Magenkarzinom); Status: erloschen |
+| EMEA/H/C/002829 | Cyramza (Eli Lilly Nederland B.V.) | – | Stomach Neoplasms (Magenkarzinom); Status: gültig |
 
 ---
 

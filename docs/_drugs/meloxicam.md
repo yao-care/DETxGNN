@@ -4,17 +4,17 @@ title: Meloxicam
 parent: Nur Modellvorhersage (L5)
 nav_order: 287
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Meloxicam: vorhergesagte neue Indikation Akromesomele Dysplasie, Typ Hunter-Thompson (Evidenzstufe L5). Ursprüngliche Indikation: Rheumatoide Arthritis, Arthrose, Arthropathie…"
 monitor_inn: "MELOXICAM"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 ---
 
 # Meloxicam
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Meloxicam: Von rheumatoider Arthritis zu Akromesomeler Dysplasie, Typ Hunter-Thompson
+## Meloxicam: Von rheumatoider Arthritis zu Akromesomele Dysplasie, Typ Hunter-Thompson
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vo
 |------|------|
 | Ursprüngliche Indikation | Rheumatoide Arthritis, Arthrose, Arthropathie, juvenile idiopathische Arthritis, Spondyloarthropathie |
 | Vorhergesagte neue Indikation | Akromesomele Dysplasie, Typ Hunter-Thompson |
-| TxGNN-Vorhersagewert | 99,92 % |
+| TxGNN-Vorhersagewert | 0,9992 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 16 (alle aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 16 von 16) |
+| Anzahl der Zulassungen | 16 (gültig: 16) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,21 +62,19 @@ Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vo
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Meloxicam ist bekanntermaßen ein NSAR mit bevorzugter COX-2-Hemmung, das prostaglandinvermittelte Entzündung und Schmerz reduziert. Seine Wirksamkeit bei entzündlichen Gelenkerkrankungen ist belegt.
 
-Die vorhergesagte Erkrankung ist eine genetische Skelettdysplasie, die durch Funktionsverlustmutationen in CDMP1/GDF5 verursacht wird. Meloxicam wirkt nicht auf den zugrunde liegenden Defekt im BMP/GDF-Signalweg. Ein klarer mechanistischer Zusammenhang besteht daher nicht. Der hohe Vorhersagewert spiegelt vermutlich die Nähe zu muskuloskelettalen Begriffen im Wissensgraphen wider und keine biologische Begründung.
+Die vorhergesagte Erkrankung ist eine genetische Skelettdysplasie, die durch Funktionsverlustmutationen in CDMP1/GDF5 verursacht wird. Meloxicam wirkt nicht auf den zugrunde liegenden Defekt im BMP/GDF-Signalweg. Ein klarer mechanistischer Zusammenhang besteht daher nicht. Der hohe Vorhersagewert stammt vom TxGNN-Modell (Deep Learning) und spiegelt vermutlich Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat, und keine biologische Begründung.
 
 **Weitere Vorhersagen im Überblick (Rang 2–10):**
 
 | Rang | Erkrankung | Score | Evidenzstufe | Einschätzung |
 |---|---|---|---|---|
-| 2 | Brachyolmie-Amelogenesis-imperfecta-Syndrom | 99,92 % | L5 | Kein plausibler Mechanismus |
-| 3 | Myosklerose | 99,90 % | L5 | Schwach, spekulativ |
-| 4 | Brachyolmie | 99,89 % | L5 | Höchstens symptomatische Schmerzlinderung |
-| 5 | Pseudoachondroplasie | 99,81 % | L5 | Indirekt; nur Symptomlinderung bei Gelenkschmerz |
-| 6 | Spondyloarthropathie (Suszeptibilität) | 99,52 % | L4 | Überschneidung mit bestehender Indikation |
-| 7 | Rheumatoide Nodulose | 99,51 % | L4 | Indirekt, aus RA-Indikation extrapoliert |
-| 8 | RF-positive polyartikuläre juvenile idiopathische Arthritis | 99,44 % | L4 | Subtyp einer bestehenden Indikation |
-| 9 | WHIM-Syndrom | 99,38 % | L5 | Kein Zusammenhang (CXCR4) |
-| 10 | Kolobomatöse Mikrophthalmie-rhizomele Dysplasie | 99,36 % | L5 | Kein plausibler Zusammenhang |
+| 2 | Brachyolmie-Amelogenesis-imperfecta-Syndrom | 0,9992 | L5 | Kein plausibler Mechanismus |
+| 3 | Myosklerose | 0,9990 | L5 | Schwach, spekulativ |
+| 4 | Brachyolmie | 0,9989 | L5 | Höchstens symptomatische Schmerzlinderung |
+| 5 | Pseudoachondroplasie | 0,9981 | L5 | Indirekt; nur Symptomlinderung bei Gelenkschmerz |
+| 7 | Rheumatoide Nodulose | 0,9951 | L5 | Indirekt, aus RA-Indikation extrapoliert |
+| 9 | WHIM-Syndrom | 0,9938 | L5 | Kein Zusammenhang (CXCR4) |
+| 10 | Kolobomatöse Mikrophthalmie-rhizomele Dysplasie | 0,9936 | L5 | Kein plausibler Zusammenhang |
 
 Die Ränge 6 bis 8 liegen nahe an den bereits bestehenden Indikationen und sind daher biologisch deutlich plausibler als die übrigen Vorhersagen.
 

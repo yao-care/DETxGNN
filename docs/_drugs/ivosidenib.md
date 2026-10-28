@@ -4,7 +4,7 @@ title: Ivosidenib
 parent: Nur Modellvorhersage (L5)
 nav_order: 252
 evidence_level: L5
-indication_count: 3
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Ivosidenib: vorhergesagte neue Indikation Bulbäre Poliomyelitis (Evidenzstufe L5). Ursprüngliche Indikation: Akute myeloische Leukämie"
 monitor_inn: "IVOSIDENIB"
@@ -14,7 +14,7 @@ predicted_indications: ["bulbar polio"]
 # Ivosidenib
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-## Ivosidenib: Von akuter myeloischer Leukämie und Cholangiokarzinom zu bulbärer Poliomyelitis
+## Ivosidenib: Neue vorhergesagte Indikation Bulbäre Poliomyelitis
 {: .text-alpha }
 
 ## Zusammenfassung
 
 Ivosidenib ist ein Hemmstoff der mutierten IDH1 und wurde ursprünglich zur Behandlung der akuten myeloischen Leukämie und des Cholangiokarzinoms zugelassen.
-Das TxGNN-Modell sagt für den Wirkstoff eine mögliche Wirksamkeit bei **bulbärer Poliomyelitis** voraus (Score 99,3 %).
+Das TxGNN-Modell (Deep Learning) sagt für den Wirkstoff eine mögliche Wirksamkeit bei **Bulbärer Poliomyelitis** voraus (Score 0.9931). Der Score stammt vom TxGNN-Modell (Deep Learning) und kann vom Modell gelernte Ähnlichkeiten zwischen verwandten Erkrankungen widerspiegeln, keine biologische Evidenz.
 Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor, sodass sie derzeit allein auf einer Modellvorhersage beruht.
 
 ---
@@ -50,10 +50,10 @@ Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Pub
 |------|------|
 | Ursprüngliche Indikation | Akute myeloische Leukämie; Cholangiokarzinom |
 | Vorhergesagte neue Indikation | Bulbäre Poliomyelitis |
-| TxGNN-Vorhersagewert | 99,31 % |
+| TxGNN-Vorhersagewert | 0,9931 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -64,7 +64,7 @@ Ein Wirkmechanismus ist in den für diesen Bericht zusammengestellten Daten derz
 
 Die bulbäre Poliomyelitis ist dagegen eine Virusinfektion der Motoneuronen, ausgelöst durch das Poliovirus. Ein IDH1-abhängiger Signalweg ist hierbei nicht bekannt. Ein glaubwürdiger mechanistischer Zusammenhang zwischen der ursprünglichen und der vorhergesagten Indikation besteht daher nicht.
 
-Der hohe TxGNN-Score ist sehr wahrscheinlich ein Artefakt des Wissensgraphen, etwa durch gemeinsame Nachbarknoten über allgemeine neurologische oder metabolische Konzepte. Er wird durch keine biologische Begründung gestützt.
+Der hohe TxGNN-Score ist sehr wahrscheinlich ein Artefakt des TxGNN-Modells (Deep Learning), etwa durch gemeinsame Nachbarknoten über allgemeine neurologische oder metabolische Konzepte. Er wird durch keine biologische Begründung gestützt.
 
 Plausibler sind die weiteren Vorhersagen mit gleich hohem Score: **strahlungsassoziierte** sowie **durch Alkylanzien bedingte AML/MDS** (therapieassoziierte myeloische Neoplasien). Hier handelt es sich um Untergruppen einer bereits zugelassenen Krankheitsklasse. Ein möglicher Nutzen hinge vom IDH1-Mutationsstatus ab, nicht von der Ätiologie. Das ist eher eine biomarkerdefinierte Teilpopulation einer bestehenden Indikation als eine echte Neuindikation (Evidenzstufe L4, Einstufung „Forschungsfrage“).
 
@@ -88,7 +88,7 @@ Derzeit liegt keine einschlägige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/005936 | Tibsovo (Les Laboratoires Servier) | – | Akute myeloische Leukämie; Cholangiokarzinom |
 
-Diese Zulassung ist erloschen; es existiert keine gültige Zulassung.
+Es liegt 1 gültige Zulassung von 1 vor; das Arzneimittel ist im Handel.
 
 ---
 
@@ -122,7 +122,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold** (für bulbäre Poliomyelitis)
 
 **Begründung:**
-- Für die vorhergesagte Indikation fehlen Studien und Literatur, und es gibt keinen plausiblen biologischen Zusammenhang. Der hohe Score ist sehr wahrscheinlich ein Artefakt des Wissensgraphen.
+- Für die vorhergesagte Indikation fehlen Studien und Literatur, und es gibt keinen plausiblen biologischen Zusammenhang. Der hohe Score ist sehr wahrscheinlich ein Artefakt des TxGNN-Modells (Deep Learning).
 - Die AML/MDS-Untergruppen (strahlungs- bzw. alkylanzienassoziiert) sind als biomarkerabhängige Forschungsfragen innerhalb der bereits zugelassenen AML-Indikation einzuordnen.
 
 **Für ein Weiterkommen erforderlich:**

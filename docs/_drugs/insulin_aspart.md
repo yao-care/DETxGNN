@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Insulin Aspart
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 239
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Insulin Aspart: vorhergesagte neue Indikation Typ-1-Diabetes mellitus (Evidenzstufe L1). Ursprüngliche Indikation: Diabetes mellitus"
+description: "Insulin Aspart: vorhergesagte neue Indikation autoimmune Oophoritis (Evidenzstufe L1). Ursprüngliche Indikation: Diabetes mellitus"
 monitor_inn: "INSULIN ASPART"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-r
 # Insulin Aspart
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Insulin Aspart: Vom Diabetes mellitus zum Typ-1-Diabetes mellitus
+## Insulin Aspart: Autoimmune Oophoritis
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Insulin aspart ist ein schnell wirksames Insulinanalogon, das ursprünglich zur 
 |------|------|
 | Ursprüngliche Indikation | Diabetes mellitus |
 | Vorhergesagte neue Indikation | Typ-1-Diabetes mellitus |
-| TxGNN-Vorhersagewert | 99,95 % |
-| Evidenzgrad | L1 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen (kein aktiv zugelassenes Produkt in den Daten) |
-| Anzahl der Zulassungen | 8 (alle aufgehoben) |
+| TxGNN-Vorhersagewert | 0,9992 |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 7 von 8) |
+| Anzahl der Zulassungen | 8 (gültig: 7) |
 | Empfohlene Entscheidung | Proceed with Guardrails (mit Auflagen fortfahren) |
 
 ---

@@ -50,10 +50,10 @@ Für diese Richtung liegen derzeit **keine klinischen Studien** und **2 Publikat
 |------|------|
 | Ursprüngliche Indikation | Brustneoplasmen (Brustkrebs) |
 | Vorhergesagte neue Indikation | HIV-Infektionskrankheit |
-| TxGNN-Vorhersagewert | 99,91 % |
+| TxGNN-Vorhersagewert | 0,9991 |
 | Evidenzniveau | L4 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -89,8 +89,8 @@ Hinweis: Für die zweitplatzierte Vorhersage (multiple endokrine Neoplasie) wurd
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004649 | Fulvestrant Mylan (aufgehoben) | – | Brustneoplasmen |
-| EMEA/H/C/000540 | Faslodex (aufgehoben) | – | Brustneoplasmen |
+| EMEA/H/C/004649 | Fulvestrant Mylan (gültig) | – | Brustneoplasmen |
+| EMEA/H/C/000540 | Faslodex (gültig) | – | Brustneoplasmen |
 
 ---
 
@@ -126,7 +126,7 @@ Für HIV liegen nur präklinische Mechanismusdaten und keine klinischen Studien 
 - Ergänzung von Warnhinweisen und Kontraindikationen aus der Fachinformation (BfArM)
 - Ergänzung detaillierter Wirkmechanismusdaten (z. B. aus DrugBank)
 - Weitere präklinische Studien zu ER-Signalweg und HIV-Latenz mit Fulvestrant
-- Klärung des regulatorischen Status, da keine gültige Zulassung in Deutschland besteht
+- Klärung des regulatorischen Status; das Arzneimittel ist in Deutschland im Handel, 2 von 2 Zulassungen sind gültig
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

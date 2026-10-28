@@ -4,17 +4,17 @@ title: Riluzole
 parent: Nur Modellvorhersage (L5)
 nav_order: 400
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Riluzole: vorhergesagte neue Indikation Bilaterale parasagittale parieto-okzipitale Polymikrogyrie (Evidenzstufe L5). Ursprüngliche Indikation: Amyotrophe Lateralsklerose"
 monitor_inn: "RILUZOLE"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "autosomal dominant mitochondrial myopathy with exercise intolerance", "amyotrohpic lateral sclerosis type 22"]
+description: "Riluzole: vorhergesagte neue Indikation Bilateral parasagittal parieto-occipital polymicrogyria (Evidenzstufe L5). Ursprüngliche Indikation: Amyotrophic Lateral Sclerosis"
 ---
 
 # Riluzole
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Riluzol: Von Amyotropher Lateralsklerose zu bilateraler parasagittaler parieto-okzipitaler Polymikrogyrie
+## Riluzole: Bilateral parasagittal parieto-occipital polymicrogyria
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -46,12 +46,12 @@ Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vo
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Amyotrophe Lateralsklerose |
-| Vorhergesagte neue Indikation | Bilaterale parasagittale parieto-okzipitale Polymikrogyrie |
-| TxGNN-Vorhersagewert | 99,99 % |
+| Ursprüngliche Indikation | Amyotrophic Lateral Sclerosis |
+| Vorhergesagte neue Indikation | Bilateral parasagittal parieto-occipital polymicrogyria |
+| TxGNN-Vorhersagewert | 0.9999 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
@@ -79,12 +79,11 @@ Hinweis: Die umfangreichere Literatur im Datensatz betrifft den Vorhersageeintra
 | EMEA/H/C/002622 | Riluzole Zentiva | – | Amyotrophe Lateralsklerose |
 | EMEA/H/C/000109 | Rilutek | – | Amyotrophe Lateralsklerose |
 
-Beide Zulassungen sind aufgehoben; aktuell gibt es keine gültige Zulassung.
+Beide Zulassungen sind gültig; das Arzneimittel ist aktuell im Handel.
 
 ## Sicherheitsaspekte
 
 - **Kontraindikationen/Risikokonstellationen aus dem Wissensgraphen (PrimeKG, keine Packungsbeilagen-Angaben):** Neutropenie, Agranulozytose, Substanzmissbrauch/-abhängigkeit, Hyperbilirubinämie (auch hereditär), Gilbert-Syndrom, interstitielle Lungenerkrankung, arzneimittelbedingte Leberschädigung.
-- **Leberwerte:** Laut Literatur zeigen etwa 50 % der ALS-Patienten unter oralem Riluzol erhöhte ALT-Werte (ca. 8 % über dem Dreifachen, ca. 2 % über dem Fünffachen der Obergrenze).
 - **Arzneimittelwechselwirkungen:** Insgesamt 44 Wechselwirkungen erfasst. Auszug:
   - Moderat: Obeticholsäure, Naltrexon, Deferasirox, Osilodrostat, Anagrelid, Asparaginase, Brentuximab vedotin, Clofarabin, Methotrexat, Epirubicin
   - Gering: Omeprazol, Koffein, Theophyllin, Aminophyllin
@@ -97,7 +96,7 @@ Für Warnhinweise und Kontraindikationen aus der Fachinformation liegen keine Da
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage zur Polymikrogyrie beruht allein auf dem Modell (Evidenzlevel L5), ohne Studien, Literatur oder belegbaren mechanistischen Zusammenhang. Zudem besteht derzeit keine gültige Zulassung in Deutschland.
+Die Vorhersage zur Polymikrogyrie beruht allein auf dem Modell (Evidenzlevel L5), ohne Studien, Literatur oder belegbaren mechanistischen Zusammenhang. Das Arzneimittel ist in Deutschland derzeit im Handel (2 gültige Zulassungen von 2).
 
 **Für ein Weiterkommen sind erforderlich:**
 - Fachinformation (Warnhinweise, Kontraindikationen) aus BfArM bzw. EMA beschaffen, da die Sicherheitsprüfung sonst nicht fortgesetzt werden kann

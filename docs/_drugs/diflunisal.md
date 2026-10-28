@@ -4,17 +4,17 @@ title: Diflunisal
 parent: Nur Modellvorhersage (L5)
 nav_order: 145
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Diflunisal: vorhergesagte neue Indikation Spondylitis ankylosans (Rang 5 (Evidenzstufe L5). Ursprüngliche Indikation: Familiäre Amyloid-Neuropathie"
+description: "Diflunisal: vorhergesagte neue Indikation Akromesomele Dysplasie, Typ Hunter-Thompson (Evidenzstufe L5). Ursprüngliche Indikation: Familiäre Amyloid-Neuropathie"
 monitor_inn: "DIFLUNISAL"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "spondyloarthropathy, susceptibility to", "myosclerosis", "ankylosing spondylitis", "brachyolmia", "hypermobility of coccyx", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "inflammatory spondylopathy"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "ankylosing spondylitis", "brachyolmia", "hypermobility of coccyx", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "inflammatory spondylopathy"]
 ---
 
 # Diflunisal
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Diflunisal: Von familiärer Amyloid-Neuropathie zu Spondylitis ankylosans
+## Diflunisal: Von familiärer Amyloid-Neuropathie zu Akromesomele Dysplasie, Typ Hunter-Thompson
 {: .text-alpha }
 
 Hinweis zur Auswahl: Die Vorhersage mit der höchsten Rangposition (akromesomele Dysplasie, Typ Hunter-Thompson) hat keinerlei Evidenz und keine plausible Wirkungsbeziehung. Dieser Bericht konzentriert sich daher auf die am besten belegte Vorhersage, **Spondylitis ankylosans** (Rang 5), und ordnet die übrigen Vorhersagen kurz ein.
@@ -48,10 +48,10 @@ Diflunisal ist ein von Salicylsäure abgeleitetes nichtsteroidales Antirheumatik
 |------|------|
 | Ursprüngliche Indikation | Familiäre Amyloid-Neuropathie |
 | Vorhergesagte neue Indikation | Spondylitis ankylosans (Rang 5; Rang 1 der Liste: akromesomele Dysplasie, Typ Hunter-Thompson) |
-| TxGNN-Vorhersagewert | 99,98 % (Spondylitis ankylosans); 99,99 % (Rang 1) |
-| Evidenzlevel | L3 (Spondylitis ankylosans); L5 für Rang 1 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| TxGNN-Vorhersagewert | 0,9998 (Spondylitis ankylosans); 0,9999 (Rang 1) |
+| Evidenzlevel | L5 (Spondylitis ankylosans); L5 für Rang 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold (Rückstellung) bzw. Forschungsfrage für Spondylitis ankylosans |
 
 ## Warum ist diese Vorhersage plausibel?
@@ -91,7 +91,7 @@ Für die übrigen Vorhersagen (mit Ausnahme der entzündlichen Spondylopathie, d
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/006248 | Attrogy | – | Familiäre Amyloid-Neuropathie (Status: erloschen) |
+| EMEA/H/C/006248 | Attrogy | – | Familiäre Amyloid-Neuropathie (Status: gültig) |
 
 ## Sicherheitshinweise
 

@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Ahornsirupkrankheit (Maple Syrup Urine Disease) |
 | Vorhergesagte neue Indikation | Gastroparese |
-| TxGNN-Vorhersagewert | 99,32 % |
+| TxGNN-Vorhersagewert | 0,9932 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (derzeit keine gültige) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -84,7 +84,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/005557 | Maapliv (Recordati Rare Diseases) | – | Ahornsirupkrankheit (Maple Syrup Urine Disease) |
 
-Diese Zulassung ist erloschen bzw. aufgehoben (Status: cancelled). Es besteht keine gültige Zulassung.
+Das Arzneimittel ist in diesem Land im Handel. Von 1 Zulassung ist 1 gültig.
 
 ---
 

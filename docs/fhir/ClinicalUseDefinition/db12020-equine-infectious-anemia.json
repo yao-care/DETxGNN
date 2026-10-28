@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db12020-equine-infectious-anemia",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db12020"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "equine infectious anemia"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://detxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://detxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9962
+    }
+  ]
+}

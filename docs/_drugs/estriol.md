@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Estriol
-parent: Nur Modellvorhersage (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 182
-evidence_level: L5
+evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Estriol: vorhergesagte neue Indikation Amenorrhoe (Evidenzstufe L5). Ursprüngliche Indikation: Keine Angabe in der deutschen Zulassung. Laut Pharmakologiedaten: pos…"
@@ -14,7 +14,7 @@ predicted_indications: ["amenorrhea (disease)"]
 # Estriol
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Estriol ist ein schwaches, kurz wirksames Estrogen, das an Estrogenrezeptoren bi
 |------|------|
 | Ursprüngliche Indikation | Keine Angabe in der deutschen Zulassung. Laut Pharmakologiedaten: postmenopausale Hitzewallungen (in Europa und Asien seit über 40 Jahren zugelassen) |
 | Vorhergesagte neue Indikation | Amenorrhoe |
-| TxGNN-Vorhersagewert | 99,18 % |
+| TxGNN-Vorhersagewert | 0,9918 |
 | Evidenzstufe | L3 (laut Datenlage kleine Interventionsstudie und Übersichtsarbeit, kein RCT) |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -89,7 +89,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/000047 | Incurin | – | – (Status: aufgehoben) |
+| EMEA/V/C/000047 | Incurin | – | – (Status: gültig) |
 
 ---
 
@@ -108,7 +108,7 @@ Zu Warnhinweisen und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinforma
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenz beschränkt sich auf eine kleine physiologische Studie und eine Übersichtsarbeit, ohne klinische Endpunkte wie Wiederkehr der Menses oder Ovulation. Zudem gibt es keine registrierten Studien, keine gültige Zulassung in Deutschland und keine verfügbaren Sicherheitsdaten aus Fachinformationen. Die Fragestellung bleibt vorerst eine Forschungsfrage.
+Die Evidenz beschränkt sich auf eine kleine physiologische Studie und eine Übersichtsarbeit, ohne klinische Endpunkte wie Wiederkehr der Menses oder Ovulation. Zudem gibt es keine registrierten Studien und keine verfügbaren Sicherheitsdaten aus Fachinformationen. Das Arzneimittel ist im Markt vorhanden (1 von 1 Zulassung gültig). Die Fragestellung bleibt vorerst eine Forschungsfrage.
 
 **Zum Fortfahren sind folgende Schritte nötig:**
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) für die Sicherheitsprüfung

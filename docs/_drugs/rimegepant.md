@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rimegepant
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 401
-evidence_level: L3
-indication_count: 6
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Rimegepant: vorhergesagte neue Indikation Migräne mit Hirnstammaura (Evidenzstufe L3). Ursprüngliche Indikation: Migräne (Migraine Disorders)"
 monitor_inn: "RIMEGEPANT"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
+description: "Rimegepant: vorhergesagte neue Indikation Atrophoderma vermiculata (Evidenzstufe L5). Ursprüngliche Indikation: Migraine Disorders"
 ---
 
 # Rimegepant
 {: .fs-9 }
 
-Evidenzniveau: **L3** | Vorhergesagte Indikationen: **6** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-## Rimegepant: Von Migräne zu Migräne mit Hirnstammaura
+## Rimegepant: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,12 +48,12 @@ Dafür liegen **keine spezifischen klinischen Studien** vor, jedoch **15 Publika
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Migräne (Migraine Disorders) |
-| Vorhergesagte neue Indikation | Migräne mit Hirnstammaura |
-| TxGNN-Vorhersagewert | 99,94 % |
-| Evidenzstufe | L3 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Ursprüngliche Indikation | Migraine Disorders |
+| Vorhergesagte neue Indikation | Atrophoderma vermiculata |
+| TxGNN-Vorhersagewert | 0.9976 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,6 @@ Dafür liegen **keine spezifischen klinischen Studien** vor, jedoch **15 Publika
 
 Rimegepant blockiert den CGRP-Rezeptor (Calcitonin Gene-Related Peptide). Dieser Signalweg spielt eine zentrale Rolle in der Pathophysiologie der Migräne. Die Daten zum Wirkmechanismus (MOA) liegen für diesen Bericht nicht im Detail vor. Nach bekanntem Stand gehört Rimegepant jedoch zur Klasse der Gepante, und seine Wirksamkeit bei Migräne ist belegt.
 
-Migräne mit Hirnstammaura ist ein klinischer Subtyp der Migräne. Der CGRP-Mechanismus ist daher vermutlich derselbe. Der hohe TxGNN-Wert spiegelt wahrscheinlich die enge Verwandtschaft der Krankheiten in der Krankheitsontologie wider und nicht ein neues Repurposing-Signal.
 
 Wichtig: In den zusammengestellten Daten wurde keine Studie gefunden, die gezielt Patienten mit Hirnstammaura eingeschlossen hat. Die Phase-3- und Phase-4-Literatur betrifft allgemeine Migränepopulationen. Die Evidenz ist für diesen Subtyp somit indirekt.
 
@@ -95,7 +94,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/005725 | Vydura (Pfizer Europe MA EEIG) | – | Migräne (Status: erloschen) |
+| EMEA/H/C/005725 | Vydura (Pfizer Europe MA EEIG) | – | Migräne (Status: gültig) |
 
 ---
 

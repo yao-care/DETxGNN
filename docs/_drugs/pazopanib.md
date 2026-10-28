@@ -4,17 +4,17 @@ title: Pazopanib
 parent: Mittlere Evidenz (L3-L4)
 nav_order: 345
 evidence_level: L3
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Pazopanib: vorhergesagte neue Indikation Nicht klassifiziertes Nierenzellkarzinom (Evidenzstufe L3). Ursprüngliche Indikation: Nierenzellkarzinom (Carcinoma, Renal Cell)"
 monitor_inn: "PAZOPANIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
+description: "Pazopanib: vorhergesagte neue Indikation Liposarcoma (Evidenzstufe L3). Ursprüngliche Indikation: Carcinoma, Renal Cell"
 ---
 
 # Pazopanib
 {: .fs-9 }
 
-Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Pazopanib: Vom Nierenzellkarzinom zum nicht klassifizierten Nierenzellkarzinom
+## Pazopanib: Liposarcoma
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,12 +48,12 @@ Es handelt sich um einen histologischen Subtyp der ursprünglichen Indikation un
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nierenzellkarzinom (Carcinoma, Renal Cell) |
-| Vorhergesagte neue Indikation | Nicht klassifiziertes Nierenzellkarzinom |
-| TxGNN-Vorhersagewert | 99,63 % |
+| Ursprüngliche Indikation | Carcinoma, Renal Cell |
+| Vorhergesagte neue Indikation | Liposarcoma |
+| TxGNN-Vorhersagewert | 0.9959 |
 | Evidenzniveau | L3 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung (Cancelled only) |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -91,7 +91,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/001141 | Votrient | – | Nierenzellkarzinom (Status: erloschen) |
+| EMEA/H/C/001141 | Votrient | – | Nierenzellkarzinom (Status: gültig) |
 
 ---
 
@@ -102,7 +102,6 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 | Zytotoxizitätsklassifikation | Zielgerichtete Therapie (Tyrosinkinase-Inhibitor) |
 | Myelosuppressionsrisiko | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
 | Emetogenität | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
-| Überwachungsparameter | Bitte die Fachinformation beachten; aufgrund der Wissensgraph-Hinweise sind insbesondere Leberfunktion, Blutdruck, EKG/QT und Urinprotein relevant |
 | Handhabungsschutz | Bitte die Fachinformation und die Vorschriften zum Umgang mit Zytostatika beachten |
 
 ---
@@ -145,10 +144,9 @@ Für das nicht klassifizierte Nierenzellkarzinom gibt es keine registrierten kli
 
 | Rang | Indikation | TxGNN-Wert | Evidenzniveau | Empfehlung |
 |---|---|---|---|---|
-| 4 | Liposarkom | 99,59 % | L2 | Forschungsfrage (Research Question) |
-| 8 | Fibroblastische Neoplasie | 99,35 % | L2 | Forschungsfrage |
-| 10 | Dermatofibrosarcoma protuberans | 99,29 % | L2 | Forschungsfrage |
-| 2, 3, 5, 6, 7, 9 | Seltene Subtypen (u. a. Xp11.2-Translokations-RCC, kindliches Nierenzellkarzinom, ovarielles myxoides Liposarkom, Herz-Fibrosarkom, Nieren-Fibrosarkom) | 99,3–99,6 % | L5 | Hold |
+| 4 | Liposarkom | 0,9959 | L2 | Forschungsfrage (Research Question) |
+| 8 | Fibroblastische Neoplasie | 0,9935 | L5 | Forschungsfrage |
+| 10 | Dermatofibrosarcoma protuberans | 0,9929 | L2 | Forschungsfrage |
 
 Beim Liposarkom ist zu beachten, dass Pazopanib für nicht-adipozytäre Weichteilsarkome zugelassen ist und das Liposarkom ausdrücklich von dieser Zulassung ausgenommen ist. Beim Dermatofibrosarcoma protuberans kommt Pazopanib vor allem nach einem Versagen von Imatinib in Betracht.
 ## Haftungsausschluss

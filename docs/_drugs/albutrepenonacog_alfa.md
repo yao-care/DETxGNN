@@ -49,10 +49,10 @@ Das TxGNN-Modell sagt voraus, dass er bei der **Pseudo-von-Willebrand-Erkrankung
 |------|------|
 | Ursprüngliche Indikation | Hämophilie B |
 | Vorhergesagte neue Indikation | Pseudo-von-Willebrand-Erkrankung |
-| TxGNN-Vorhersagewert | 99,94 % |
+| TxGNN-Vorhersagewert | 0,9994 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -69,11 +69,11 @@ Weitere vom Modell vorhergesagte Indikationen sind ähnlich schlecht begründet:
 
 | Rang | Vorhergesagte Indikation | TxGNN-Wert | Mechanistische Einschätzung |
 |------|------|------|------|
-| 2 | Primäre Plättchen-Freisetzungsstörung | 99,94 % | Defekt der primären Hämostase; Faktor IX wirkt in der sekundären Hämostase |
-| 3 | Glanzmann-Thrombasthenie | 99,92 % | Defekt von αIIbβ3; Faktor IX stellt die Plättchenaggregation nicht wieder her |
-| 4 | Scott-Syndrom | 99,63 % | Fehlende Phosphatidylserin-Exposition; theoretischer Bezug zum Tenase-Komplex, aber spekulativ |
-| 5 | Blutungsneigung durch Kollagenrezeptor-Defekt | 99,28 % | Primärer Plättchenfunktionsdefekt |
-| 6 | Hämorrhagische Störung bei konstitutioneller Thrombozytopenie | 99,26 % | Faktor IX erhöht weder Plättchenzahl noch -funktion |
+| 2 | Primäre Plättchen-Freisetzungsstörung | 0,9994 | Defekt der primären Hämostase; Faktor IX wirkt in der sekundären Hämostase |
+| 3 | Glanzmann-Thrombasthenie | 0,9992 | Defekt von αIIbβ3; Faktor IX stellt die Plättchenaggregation nicht wieder her |
+| 4 | Scott-Syndrom | 0,9963 | Fehlende Phosphatidylserin-Exposition; theoretischer Bezug zum Tenase-Komplex, aber spekulativ |
+| 5 | Blutungsneigung durch Kollagenrezeptor-Defekt | 0,9928 | Primärer Plättchenfunktionsdefekt |
+| 6 | Hämorrhagische Störung bei konstitutioneller Thrombozytopenie | 0,9926 | Faktor IX erhöht weder Plättchenzahl noch -funktion |
 
 ---
 
@@ -95,7 +95,7 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 |---------|------|------|-----------|
 | EMEA/H/C/003955 | Idelvion (CSL Behring GmbH) | – | Hämophilie B |
 
-Diese Zulassung ist als erloschen/zurückgezogen geführt; derzeit gibt es keine gültige Zulassung.
+Diese Zulassung ist gültig (1 von 1 Zulassungen gültig); das Arzneimittel ist in Deutschland im Handel.
 
 ---
 
@@ -110,7 +110,7 @@ Bitte die Fachinformation für Sicherheitsangaben heranziehen. In den zusammenge
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf das Modell (L5); es gibt weder Studien noch Publikationen, und die mechanistische Verbindung ist schwach, da Faktor IX den Plättchendefekt nicht korrigiert. Zudem besteht in Deutschland keine gültige Zulassung, und die Sicherheitsdaten fehlen.
+Die Vorhersage stützt sich ausschließlich auf das Modell (L5); es gibt weder Studien noch Publikationen, und die mechanistische Verbindung ist schwach, da Faktor IX den Plättchendefekt nicht korrigiert. Zudem ist das Arzneimittel in Deutschland im Handel (1 von 1 Zulassungen gültig), und die Sicherheitsdaten fehlen.
 
 **Für einen Fortschritt sind folgende Punkte erforderlich:**
 - Fachinformation (Warnhinweise und Gegenanzeigen) aus der BfArM-Quelle beschaffen, da dies die Sicherheitsprüfung blockiert

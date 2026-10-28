@@ -48,10 +48,10 @@ Ketoconazol wurde ursprünglich zur Behandlung des Cushing-Syndroms zugelassen. 
 |------|------|
 | Ursprüngliche Indikation | Cushing-Syndrom |
 | Vorhergesagte neue Indikation | Akne |
-| TxGNN-Vorhersagewert | 99,80 % |
+| TxGNN-Vorhersagewert | 0,9980 |
 | Evidenzniveau | L4 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -121,7 +121,7 @@ Aus den kompilierten Daten liegen keine Warnhinweise oder Gegenanzeigen aus der 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage ist mechanistisch nachvollziehbar (Malassezia, *C. acnes*, Androgensynthese), klinisch aber kaum belegt: Es gibt nur eine kleine, laufende Studie ohne Ergebnisse (Evidenzniveau L4). Hinzu kommt, dass in Deutschland keine gültige Zulassung besteht und die systemische Anwendung erhebliche Sicherheitsrisiken birgt.
+Die Vorhersage ist mechanistisch nachvollziehbar (Malassezia, *C. acnes*, Androgensynthese), klinisch aber kaum belegt: Es gibt nur eine kleine, laufende Studie ohne Ergebnisse (Evidenzniveau L4). Hinzu kommt, dass das Arzneimittel in Deutschland vermarktet wird (1 von 1 Zulassungen gültig), die systemische Anwendung jedoch erhebliche Sicherheitsrisiken birgt.
 
 **Für ein Weiterkommen wird Folgendes benötigt:**
 - Ergebnisse der Studie NCT07237763 sowie weitere randomisierte, kontrollierte Studien (idealerweise placebokontrolliert) zu topischem Ketoconazol bei Akne

@@ -4,17 +4,17 @@ title: Dronedarone
 parent: Mittlere Evidenz (L3-L4)
 nav_order: 151
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Dronedarone: vorhergesagte neue Indikation Schlaganfall (stroke disorder) (Evidenzstufe L4). Ursprüngliche Indikation: Vorhofflimmern"
 monitor_inn: "DRONEDARONE"
-predicted_indications: ["stroke disorder", "obsolete susceptibility to ischemic stroke", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
+predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
 ---
 
 # Dronedarone
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Dafür liegen jedoch **keine registrierten klinischen Studien** und nur **indire
 |------|------|
 | Ursprüngliche Indikation | Vorhofflimmern |
 | Vorhergesagte neue Indikation | Schlaganfall (stroke disorder) |
-| TxGNN-Vorhersagewert | 99,97 % |
+| TxGNN-Vorhersagewert | 0,9997 |
 | Evidenzlevel | L4 |
-| Marktstatus in Deutschland | Nur gelöschte/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 gelöscht) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -64,7 +64,7 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten d
 
 Der Zusammenhang ist indirekt: Vorhofflimmern ist eine Hauptursache kardioembolischer Schlaganfälle. Eine wirksame Rhythmuskontrolle könnte das Schlaganfallrisiko daher mittelbar senken. Eine Post-hoc-Analyse der ATHENA-Studie (Meta-Analyse PMID 22149318) deutete auf ein geringeres Schlaganfallrisiko bei paroxysmalem oder persistierendem Vorhofflimmern hin. Eine präklinische Arbeit beschreibt zudem pleiotrope Effekte bei Ischämie/Reperfusion in Herz und Gehirn (PMID 22366819). Eine Studie fand außerdem gerinnungs- und thrombozytenhemmende Effekte unabhängig von der antiarrhythmischen Wirkung (PMID 28992468).
 
-Wichtig: Der sehr hohe TxGNN-Wert ist eine rechnerische Vorhersage und spiegelt vermutlich vor allem die Assoziation zwischen Vorhofflimmern und Schlaganfall im Wissensgraphen wider. Die Evidenz ist indirekt, auf Vorhofflimmern-Populationen beschränkt und sollte nicht als unabhängiger Beleg für eine Neuindikation gewertet werden.
+Wichtig: Der sehr hohe Wert des TxGNN-Modells (Deep Learning) ist eine rechnerische Vorhersage und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. Die Evidenz ist indirekt, auf Vorhofflimmern-Populationen beschränkt und sollte nicht als unabhängiger Beleg für eine Neuindikation gewertet werden.
 
 ---
 
@@ -99,7 +99,7 @@ Die folgende Auswahl stammt aus der Literatur zu Schlaganfall und der verwandten
 |---------|------|------|-----------|
 | EMEA/H/C/001043 | Multaq | – | Vorhofflimmern |
 
-Hinweis: Diese Zulassung ist als gelöscht/aufgehoben geführt; es gibt keine gültige Zulassung.
+Hinweis: Diese Zulassung ist gültig; das Arzneimittel ist im Handel (1 von 1 Zulassung gültig).
 
 ---
 

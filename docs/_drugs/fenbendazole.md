@@ -38,7 +38,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 ## Zusammenfassung
 
-Fenbendazol ist ein Benzimidazol-Anthelminthikum. In den für diesen Bericht zusammengestellten Daten ist es nur mit einer inzwischen erloschenen Zulassung für ein Tierarzneimittel (Panacur AquaSol) in Deutschland verzeichnet. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Harnblasenkarzinom** voraus (Score 99,99 %). Für die eng verwandte Bezeichnung „Harnblasenneoplasma" liegen **3 Publikationen** vor, davon 2 aktuelle präklinische Arbeiten zum Blasenkrebs. **Klinische Studien am Menschen gibt es derzeit keine.**
+Fenbendazol ist ein Benzimidazol-Anthelminthikum. In den für diesen Bericht zusammengestellten Daten ist es nur mit einer inzwischen erloschenen Zulassung für ein Tierarzneimittel (Panacur AquaSol) in Deutschland verzeichnet. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Harnblasenkarzinom** voraus (Score 0,9999). Für die eng verwandte Bezeichnung „Harnblasenneoplasma" liegen **3 Publikationen** vor, davon 2 aktuelle präklinische Arbeiten zum Blasenkrebs. **Klinische Studien am Menschen gibt es derzeit keine.**
 
 ---
 
@@ -48,10 +48,10 @@ Fenbendazol ist ein Benzimidazol-Anthelminthikum. In den für diesen Bericht zus
 |------|------|
 | Ursprüngliche Indikation | Keine Angabe in den Zulassungsdaten |
 | Vorhergesagte neue Indikation | Harnblasenkarzinom (urinary bladder carcinoma) |
-| TxGNN-Vorhersagescore | 99,99 % |
+| TxGNN-Vorhersagescore | 0,9999 |
 | Evidenzlevel | L5 für das Harnblasenkarzinom (reine Modellvorhersage); L4 für das verwandte Harnblasenneoplasma (präklinisch) |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold (Zurückstellen); für Harnblasenneoplasma als präklinische Forschungsfrage weiterverfolgbar |
 
 ---
@@ -62,7 +62,7 @@ Detaillierte Mechanismusdaten (MOA) liegen derzeit nicht vor. Nach bekanntem Wis
 
 Eine ursprüngliche humanmedizinische Indikation ist nicht dokumentiert, daher lässt sich keine direkte Beziehung zwischen alter und neuer Indikation herstellen. Die vorliegenden Publikationen legen nahe, dass Fenbendazol im Blasenkrebs-Modell Ferroptose und immunogenen Zelltod auslösen könnte, und zwar in Kombination mit Photothermie bzw. mit CRISPR-Cas13a bei intravesikaler Gabe. Die Angaben beruhen nur auf Titeln und Kurzfassungen; die Studiendesigns konnten nicht überprüft werden.
 
-Die weiteren Vorhersagen (invasives und nicht-invasives Urothelkarzinom, urachales Karzinom, Plattenepithelpapillom, Siegelringzell-, kolonartiges, gemischtes und kolloides Adenokarzinom der Blase) haben ähnlich hohe Scores (99,985–99,987 %). Sie spiegeln wahrscheinlich die Nähe in der Krankheitsontologie wider, nicht krankheitsspezifische Evidenz. Es gibt dazu keine Studien oder Literatur.
+Die weiteren Vorhersagen (invasives und nicht-invasives Urothelkarzinom, urachales Karzinom, Plattenepithelpapillom, Siegelringzell-, kolonartiges, gemischtes und kolloides Adenokarzinom der Blase) haben ähnlich hohe Scores (99,985–0,9999). Sie spiegeln wahrscheinlich die Nähe in der Krankheitsontologie wider, nicht krankheitsspezifische Evidenz. Es gibt dazu keine Studien oder Literatur.
 
 ---
 
@@ -88,7 +88,7 @@ Die Treffer stammen aus der Suche zum Begriff „Harnblasenneoplasma" (urinary b
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/002008 | Panacur AquaSol | Keine Angabe | Keine Angabe (Status: erloschen) |
+| EMEA/V/C/002008 | Panacur AquaSol | Keine Angabe | Keine Angabe (Status: gültig) |
 
 ---
 

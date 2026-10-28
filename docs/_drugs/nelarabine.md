@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-## Nelarabin: Von der T-Zell-lymphoblastischen Leukämie/Lymphom zur schubförmig-remittierenden Multiplen Sklerose
+## Nelarabin: Schubförmig-remittierende Multiple Sklerose
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,10 +48,10 @@ Nelarabin wurde ursprünglich zur Behandlung der Vorläufer-T-Zell-lymphoblastis
 |------|------|
 | Ursprüngliche Indikation | Vorläufer-T-Zell-lymphoblastische Leukämie/Lymphom |
 | Vorhergesagte neue Indikation | Schubförmig-remittierende Multiple Sklerose |
-| TxGNN-Vorhersagewert | 99,43 % |
+| TxGNN-Vorhersagewert | 0,9943 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten A
 
 Ein möglicher, rein spekulativer Zusammenhang mit der schubförmig-remittierenden MS besteht in der Depletion von Lymphozyten. Ähnlich wirkt Cladribin, ein weiteres Purinanalogon, das zur MS-Behandlung zugelassen ist. Direkte mechanistische Belege fehlen jedoch.
 
-Gegen diese Hypothese spricht die Neurotoxizität von Nelarabin. Dazu zählen Demyelinisierung, periphere Neuropathie und Guillain-Barré-ähnliche Syndrome. Sie ist bei einer demyelinisierenden Erkrankung wie der MS ein gravierendes Sicherheitsproblem. Der hohe TxGNN-Wert (0,994) ist eine reine Modellvorhersage und wird durch keine Studien- oder Literaturdaten gestützt.
+Gegen diese Hypothese spricht die Neurotoxizität von Nelarabin. Dazu zählen Demyelinisierung, periphere Neuropathie und Guillain-Barré-ähnliche Syndrome. Sie ist bei einer demyelinisierenden Erkrankung wie der MS ein gravierendes Sicherheitsproblem. Der hohe TxGNN-Wert (0,9943) ist eine reine Modellvorhersage und wird durch keine Studien- oder Literaturdaten gestützt.
 
 ---
 
@@ -124,7 +124,7 @@ Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzstufe L5) ohn
 - Daten zum Wirkmechanismus (MOA) aus DrugBank
 - Präklinische Evidenz zur Wirkung bei MS-Modellen und eine fundierte Nutzen-Risiko-Bewertung der Neurotoxizität
 - Vergleich mit zugelassenen Purinanalogon-Therapien bei MS (z. B. Cladribin)
-- Klärung der Verfügbarkeit, da keine gültige Zulassung in Deutschland besteht
+- Verfügbarkeit in Deutschland: Das Arzneimittel ist im Handel; 1 von 1 Zulassung ist gültig
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

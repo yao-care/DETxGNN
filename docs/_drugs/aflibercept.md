@@ -48,10 +48,10 @@ Aflibercept ist ein VEGF-Fänger (Trap), der ursprünglich zur Behandlung der fe
 |------|------|
 | Ursprüngliche Indikation | Feuchte Makuladegeneration, Makulaödem, diabetische Komplikationen, retinaler Venenverschluss, choroidale Neovaskularisation |
 | Vorhergesagte neue Indikation | Esotropie |
-| TxGNN-Vorhersagewert | 99,38 % |
+| TxGNN-Vorhersagewert | 0,9938 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen |
-| Anzahl der Zulassungen | 14 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 14 von 14) |
+| Anzahl der Zulassungen | 14 (gültig: 14) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -80,7 +80,7 @@ Derzeit liegt keine einschlägige Literatur vor.
 
 ## Informationen zum deutschen Markt
 
-Alle 14 erfassten Zulassungen sind erloschen bzw. widerrufen. Die folgende Tabelle zeigt fünf davon.
+Von 14 erfassten Zulassungen sind 14 gültig. Die folgende Tabelle zeigt fünf davon.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -105,7 +105,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage für Esotropie beruht ausschließlich auf einem Computermodell (Evidenzlevel L5). Es gibt weder klinische Studien noch Publikationen, und ein plausibler biologischer Zusammenhang zwischen VEGF-Hemmung und Esotropie ist nicht erkennbar. Zudem sind in Deutschland derzeit alle erfassten Zulassungen erloschen.
+Die Vorhersage für Esotropie (Score 0.9938) stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz (Evidenzlevel L5). Es gibt weder klinische Studien noch Publikationen, und ein plausibler biologischer Zusammenhang zwischen VEGF-Hemmung und Esotropie ist nicht erkennbar. In Deutschland ist das Arzneimittel derzeit im Handel, 14 von 14 erfassten Zulassungen sind gültig.
 
 **Für ein Weiterverfolgen sind erforderlich:**
 - Daten zum Wirkmechanismus (MOA) aus DrugBank

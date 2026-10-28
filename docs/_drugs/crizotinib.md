@@ -4,7 +4,7 @@ title: Crizotinib
 parent: Nur Modellvorhersage (L5)
 nav_order: 124
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Crizotinib: vorhergesagte neue Indikation Gingivale Fibromatose (Evidenzstufe L5). Ursprüngliche Indikation: Nicht-kleinzelliges Lungenkarzinom"
 monitor_inn: "CRIZOTINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Crizotinib
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Crizotinib: Von nicht-kleinzelligem Lungenkarzinom zu gingivaler Fibromatose
+## Crizotinib: Gingivale Fibromatose
 {: .text-alpha }
 
 ## Zusammenfassung
 
-Crizotinib ist ein Kinase-Inhibitor, der ursprünglich zur Behandlung des nicht-kleinzelligen Lungenkarzinoms (NSCLC) zugelassen wurde. Das TxGNN-Modell sagt voraus, dass er bei **gingivaler Fibromatose** wirksam sein könnte (Score 99,81 %). Für diese Vorhersage liegen jedoch **keine klinischen Studien und keine Publikationen** vor; sie beruht ausschließlich auf der Modellvorhersage.
+Crizotinib ist ein Kinase-Inhibitor, der ursprünglich zur Behandlung des nicht-kleinzelligen Lungenkarzinoms (NSCLC) zugelassen wurde. Das TxGNN-Modell sagt voraus, dass er bei **gingivaler Fibromatose** wirksam sein könnte (Score 0,9981). Für diese Vorhersage liegen jedoch **keine klinischen Studien und keine Publikationen** vor; sie beruht ausschließlich auf der Modellvorhersage.
 
 Hinweis: Die Vorhersage mit dem höchsten Score ist zugleich die am schlechtesten belegte. Unter den weiteren Kandidaten hat „Lungen-Keimzelltumor" (Rang 6) die relativ beste Datenlage (2 Studien, Evidenzstufe L3). Dieser Kandidat wird am Ende des Berichts kurz erwähnt.
 
@@ -50,10 +50,10 @@ Hinweis: Die Vorhersage mit dem höchsten Score ist zugleich die am schlechteste
 |------|------|
 | Ursprüngliche Indikation | Nicht-kleinzelliges Lungenkarzinom |
 | Vorhergesagte neue Indikation | Gingivale Fibromatose |
-| TxGNN-Vorhersagescore | 99,81 % |
+| TxGNN-Vorhersagescore | 0,9981 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Hinweis: Die Vorhersage mit dem höchsten Score ist zugleich die am schlechteste
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Aus den Informationen zu den Kandidaten ist bekannt, dass Crizotinib die Rezeptor-Tyrosinkinasen ALK, ROS1 und MET hemmt. Seine Wirksamkeit beim ALK- bzw. ROS1-positiven NSCLC ist belegt.
 
-Für die gingivale Fibromatose ist **kein mechanistischer Zusammenhang** dokumentiert. Es gibt keinen bekannten Signalweg, der diese Zielstrukturen mit der hereditären gingivalen Fibromatose verbindet. Der sehr hohe Score ist daher mit Vorsicht zu interpretieren und kann ein Artefakt des Wissensgraphen sein. Auch die Ähnlichkeit zur ursprünglichen Indikation wurde bislang nicht bewertet.
+Für die gingivale Fibromatose ist **kein mechanistischer Zusammenhang** dokumentiert. Es gibt keinen bekannten Signalweg, der diese Zielstrukturen mit der hereditären gingivalen Fibromatose verbindet. Der sehr hohe Score ist daher mit Vorsicht zu interpretieren und kann ein Artefakt des TxGNN-Modells (Deep Learning) sein. Auch die Ähnlichkeit zur ursprünglichen Indikation wurde bislang nicht bewertet.
 
 ---
 
@@ -82,7 +82,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/002489 | Xalkori (Pfizer Europe MA EEIG) | – | Nicht-kleinzelliges Lungenkarzinom (Status: aufgehoben) |
+| EMEA/H/C/002489 | Xalkori (Pfizer Europe MA EEIG) | – | Nicht-kleinzelliges Lungenkarzinom (Status: gültig) |
 
 ---
 
@@ -128,7 +128,7 @@ Der Vorhersage fehlen klinische Studien, Literatur und ein plausibler Wirkmechan
 - Pathophysiologische Prüfung, ob ALK/ROS1/MET bei gingivaler Fibromatose eine Rolle spielen
 - Klärung des Zulassungs- bzw. Verfügbarkeitsstatus in Deutschland
 
-**Hinweis zu den übrigen Kandidaten:** Der Kandidat „Lungen-Keimzelltumor" (Score 99,73 %) erreicht Evidenzstufe L3 und die Einstufung „Research Question". Belegt sind zwei biomarkergesteuerte Basket-Studien (NCT01121588, Phase 1b, abgebrochen; NCT02465060, NCI-MATCH, Phase 2), die jedoch nicht spezifisch für diese Indikation sind. Die meisten übrigen Kandidaten sind entweder reine Vorhersagen (L5) oder stützen sich auf Literatur zum NSCLC, also zur bereits bestehenden Indikation.
+**Hinweis zu den übrigen Kandidaten:** Der Kandidat „Lungen-Keimzelltumor" (Score 0,9973) erreicht Evidenzstufe L3 und die Einstufung „Research Question". Belegt sind zwei biomarkergesteuerte Basket-Studien (NCT01121588, Phase 1b, abgebrochen; NCT02465060, NCI-MATCH, Phase 2), die jedoch nicht spezifisch für diese Indikation sind. Die meisten übrigen Kandidaten sind entweder reine Vorhersagen (L5) oder stützen sich auf Literatur zum NSCLC, also zur bereits bestehenden Indikation.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

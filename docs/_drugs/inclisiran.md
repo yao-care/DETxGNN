@@ -4,17 +4,17 @@ title: Inclisiran
 parent: Nur Modellvorhersage (L5)
 nav_order: 237
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Inclisiran: vorhergesagte neue Indikation Kaliummangelerkrankung (potassium deficiency disease) (Evidenzstufe L5). Ursprüngliche Indikation: Hypercholesterinämie"
 monitor_inn: "INCLISIRAN"
-predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
+predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
 ---
 
 # Inclisiran
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ Inclisiran ist eine siRNA, die ursprünglich zur Behandlung von Hypercholesterin
 |------|------|
 | Ursprüngliche Indikation | Hypercholesterinämie; Dyslipidämien |
 | Vorhergesagte neue Indikation | Kaliummangelerkrankung (potassium deficiency disease) |
-| TxGNN-Vorhersagewert | 99,93 % |
+| TxGNN-Vorhersagewert | 0,9993 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
@@ -92,7 +92,7 @@ Für Sicherheitsinformationen beachten Sie bitte die Packungsbeilage. Zu Wechsel
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage zur Kaliummangelerkrankung beruht ausschließlich auf einem Modellwert (L5) ohne Studien, Literatur oder erkennbaren mechanistischen Zusammenhang. Zudem besteht in Deutschland laut den Daten keine gültige Zulassung, und die Sicherheitsdaten der Packungsbeilage fehlen.
+Die Vorhersage zur Kaliummangelerkrankung beruht ausschließlich auf einem Modellwert (L5) ohne Studien, Literatur oder erkennbaren mechanistischen Zusammenhang. Zudem ist das Arzneimittel in Deutschland laut den Daten im Handel (1 gültige Zulassung von 1), und die Sicherheitsdaten der Packungsbeilage fehlen.
 
 **Für ein Weiterkommen sind folgende Punkte erforderlich:**
 - Sicherheitsdaten (Warnhinweise, Gegenanzeigen) aus der Packungsbeilage des BfArM

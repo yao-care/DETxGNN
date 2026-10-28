@@ -4,17 +4,17 @@ title: Mercaptopurine
 parent: Hohe Evidenz (L1-L2)
 nav_order: 291
 evidence_level: L2
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Mercaptopurine: vorhergesagte neue Indikation Myeloische Leukämie (Evidenzstufe L2). Ursprüngliche Indikation: Lymphatische Leukämie"
 monitor_inn: "mercaptopurine"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
+description: "Mercaptopurine: vorhergesagte neue Indikation Myeloische Leukämie (myeloid leukemia) (Evidenzstufe L2). Ursprüngliche Indikation: Leukemia, Lymphoid"
 ---
 
 # Mercaptopurine
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Mercaptopurin: Von lymphatischer Leukämie zu myeloischer Leukämie
+## Mercaptopurine: Myeloische Leukämie (myeloid leukemia)
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,12 +48,12 @@ Dafür liegen **15 klinische Studien** und **20 Publikationen** vor, die überwi
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Lymphatische Leukämie |
-| Vorhergesagte neue Indikation | Myeloische Leukämie |
-| TxGNN-Vorhersagewert | 99,94 % |
+| Ursprüngliche Indikation | Leukemia, Lymphoid |
+| Vorhergesagte neue Indikation | Myeloische Leukämie (myeloid leukemia) |
+| TxGNN-Vorhersagewert | 0.9994 |
 | Evidenzstufe | L2 |
-| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 Hinweis: Die höchstplatzierte Vorhersage (myeloische Leukämie) ist nur indirekt belegt. Die Vorhersagen „akute lymphatische Leukämie" und „lymphoblastisches Lymphom/Leukämie" entsprechen dagegen der bereits bestehenden Indikation und sind eine Bestätigung der etablierten Anwendung, keine echte Neuausrichtung (siehe Abschnitt „Weitere Vorhersagen").
@@ -108,7 +108,7 @@ Ausgewählt wurden die zehn für myeloische Leukämie relevantesten Studien. Der
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/002022 | Xaluprine (früher Mercaptopurine Nova Laboratories) | – | Lymphatische Leukämie (Status: erloschen/gelöscht) |
+| EMEA/H/C/002022 | Xaluprine (früher Mercaptopurine Nova Laboratories) | – | Lymphatische Leukämie (Status: gültig/gelöscht) |
 
 ---
 
@@ -140,7 +140,7 @@ Zu Warnhinweisen und Gegenanzeigen aus der Fachinformation liegen keine Daten vo
 | 9 | Lymphoblastisches Lymphom/Leukämie (Vorläuferzell-Typ) | L1 | Proceed with Guardrails | Etablierte Anwendung (Rückgrat der Erhaltungstherapie), keine echte Neuausrichtung |
 | 10 | Akute lymphoblastische Leukämie | L1 | Proceed with Guardrails | Etablierte Anwendung; Phase-3-Studien und umfangreiche Pharmakogenomik-Literatur (TPMT/NUDT15) |
 | 7 | Kleinzelliges Lungenkarzinom | L3 | Hold | Alte Phase-2-Studie (1985, PMID 2988775) und präklinische Hinweise; hohe Hürde durch heutige Standardtherapie |
-| 5 | Hodgkin-Lymphom | L4 | Hold | Studien betreffen Non-Hodgkin-/lymphoblastische Lymphome; Zusammenhang indirekt |
+| 5 | Hodgkin-Lymphom | L5 | Hold | Studien betreffen Non-Hodgkin-/lymphoblastische Lymphome; Zusammenhang indirekt |
 | 6 | Primäres pulmonales Lymphom | L4 | Hold | Nur zufällige Literatur |
 | 2, 3, 4, 8 | CLL/SLL (zwei Subtypen), pulmonales Blastom, fetales Adenokarzinom der Lunge | L5 | Hold | Ausschließlich Modellvorhersage, keine Studien oder Publikationen |
 
@@ -151,7 +151,7 @@ Zu Warnhinweisen und Gegenanzeigen aus der Fachinformation liegen keine Daten vo
 **Entscheidung: Hold**
 
 **Begründung:**
-Für myeloische Leukämie ist der mechanistische Zusammenhang plausibel, die klinischen Daten stammen jedoch fast ausschließlich aus Mehrstoff-Protokollen (v. a. APL), in denen Mercaptopurin nicht die getestete Variable ist. Die mercaptopurin-spezifischen AML-Daten bestehen nur aus kleinen Kohorten- und Pilotstudien sowie einer Phase-1-Studie mit 10 Patienten. Zudem gibt es in Deutschland keine gültige Zulassung, und die Sicherheitsdaten aus der Fachinformation fehlen.
+Für myeloische Leukämie ist der mechanistische Zusammenhang plausibel, die klinischen Daten stammen jedoch fast ausschließlich aus Mehrstoff-Protokollen (v. a. APL), in denen Mercaptopurin nicht die getestete Variable ist. Die mercaptopurin-spezifischen AML-Daten bestehen nur aus kleinen Kohorten- und Pilotstudien sowie einer Phase-1-Studie mit 10 Patienten. Zudem ist das Arzneimittel in Deutschland im Handel (1 von 1 Zulassungen gültig), und die Sicherheitsdaten aus der Fachinformation fehlen.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM bzw. der EMA einholen; diese Lücke blockiert aktuell die Sicherheitsbewertung.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Palonosetron
-parent: Nur Modellvorhersage (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 340
-evidence_level: L5
-indication_count: 5
+evidence_level: L4
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Palonosetron: vorhergesagte neue Indikation Migräne (migraine disorder) (Evidenzstufe L5). Ursprüngliche Indikation: Erbrechen, Übelkeit, Krebs (Krebstherapie-assoziiert)"
 monitor_inn: "PALONOSETRON"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
 ---
 
 # Palonosetron
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Palonosetron ist ein 5-HT3-Rezeptorantagonist, der ursprünglich zur Vorbeugung 
 |------|------|
 | Ursprüngliche Indikation | Erbrechen, Übelkeit, Krebs (Krebstherapie-assoziiert) |
 | Vorhergesagte neue Indikation | Migräne (migraine disorder) |
-| TxGNN-Vorhersagewert | 99,74 % |
+| TxGNN-Vorhersagewert | 0,9974 |
 | Evidenzgrad | L4 (nur ein Fallbericht, keine Studien zur Wirksamkeit) |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 3 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -60,7 +60,7 @@ Palonosetron ist ein 5-HT3-Rezeptorantagonist, der ursprünglich zur Vorbeugung 
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Palonosetron ein 5-HT3-Rezeptorantagonist ist. Seine Wirksamkeit bei Übelkeit und Erbrechen im Zusammenhang mit Krebstherapie ist belegt.
 
-Serotonerge Signalwege werden mit der Pathophysiologie der Migräne in Verbindung gebracht, was einen plausiblen, aber unbewiesenen Ansatz darstellt. Der hohe TxGNN-Wert spiegelt vermutlich die Nähe im Wissensgraphen zwischen serotonergen Mechanismen und Migräne wider, nicht klinische Evidenz.
+Serotonerge Signalwege werden mit der Pathophysiologie der Migräne in Verbindung gebracht, was einen plausiblen, aber unbewiesenen Ansatz darstellt. Der hohe Wert stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz.
 
 Die einzige gefundene Publikation (PMID 21132477) berichtet über Palonosetron-**induzierte** migräneartige Kopfschmerzen. Das Signal weist damit in die entgegengesetzte Richtung einer therapeutischen Wirkung. Die weiteren Vorhersagen (Migräne mit Hirnstammaura, Migräne-Suszeptibilität, Atrophoderma vermiculata, Ulerythema ophryogenes) beruhen ebenfalls rein auf Rechenmodellen. Bei den beiden Hauterkrankungen ist kein mechanistischer Zusammenhang erkennbar.
 
@@ -86,9 +86,9 @@ Ergänzend gefunden (bei der Vorhersage „Migräne-Suszeptibilität"): [4274847
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004129 | Palonosetron Accord | – | Erbrechen, Übelkeit, Krebs (erloschen) |
-| EMEA/H/C/000563 | Aloxi | – | Erbrechen, Krebs (erloschen) |
-| EMEA/H/C/003728 | Akynzeo | – | Erbrechen, Neoplasien, Übelkeit, Krebs (erloschen) |
+| EMEA/H/C/004129 | Palonosetron Accord | – | Erbrechen, Übelkeit, Krebs (gültig) |
+| EMEA/H/C/000563 | Aloxi | – | Erbrechen, Krebs (gültig) |
+| EMEA/H/C/003728 | Akynzeo | – | Erbrechen, Neoplasien, Übelkeit, Krebs (gültig) |
 
 ---
 
@@ -118,7 +118,7 @@ Für Warnhinweise und Gegenanzeigen siehe die Fachinformation.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht allein auf Rechenmodellen. Es gibt keine klinischen Studien, und die einzige Literatur deutet auf ein mögliches unerwünschtes Ereignis (migräneartige Kopfschmerzen) hin. Hinzu kommt, dass in Deutschland derzeit keine gültige Zulassung besteht.
+Die Vorhersage beruht allein auf Rechenmodellen. Es gibt keine klinischen Studien, und die einzige Literatur deutet auf ein mögliches unerwünschtes Ereignis (migräneartige Kopfschmerzen) hin. Hinzu kommt, dass das Arzneimittel in Deutschland im Handel ist und alle 3 Zulassungen gültig sind.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Daten zum Wirkmechanismus (MOA) ergänzen, z. B. aus DrugBank

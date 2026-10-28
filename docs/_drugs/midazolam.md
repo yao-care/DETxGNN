@@ -48,10 +48,10 @@ Midazolam ist ein kurzwirksames Benzodiazepin, das in Deutschland (als Buccolam)
 |------|------|
 | Ursprüngliche Indikation | Epilepsie |
 | Vorhergesagte neue Indikation | Insomnie |
-| TxGNN-Vorhersagewert | 99,74 % |
+| TxGNN-Vorhersagewert | 0,9974 |
 | Evidenzstufe | L3 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung (storniert) |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -93,7 +93,7 @@ Dieselbe Wirkung teilen zugelassene Benzodiazepin-Schlafmittel wie Flurazepam od
 |---------|------|------|-----------|
 | EMEA/H/C/002267 | Buccolam | – | Epilepsie |
 
-Die Zulassung ist erloschen; derzeit besteht keine gültige Zulassung.
+Das Arzneimittel ist in Deutschland im Handel; 1 von 1 Zulassung ist gültig.
 
 ---
 
@@ -113,7 +113,7 @@ Für Warnhinweise und Gegenanzeigen laut Fachinformation siehe bitte den Beipack
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage ist biologisch plausibel, und ältere Studien (1980er–1990 Jahre) zeigen Wirksamkeit von Midazolam bei Schlafstörungen. Es fehlen jedoch aktuelle Phase-3-Studien, die klinischen Studien sind nur indirekt relevant, und es besteht in Deutschland keine gültige Zulassung. Zudem sind die Sicherheitsdaten aus der Fachinformation unvollständig.
+Die Vorhersage ist biologisch plausibel, und ältere Studien (1980er–1990 Jahre) zeigen Wirksamkeit von Midazolam bei Schlafstörungen. Es fehlen jedoch aktuelle Phase-3-Studien, die klinischen Studien sind nur indirekt relevant, und die Sicherheitsdaten aus der Fachinformation sind unvollständig. In Deutschland ist das Arzneimittel im Handel, 1 von 1 Zulassung ist gültig.
 
 **Für ein Weiterkommen ist Folgendes erforderlich:**
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) von der BfArM-Website, da dies die Sicherheitsprüfung derzeit blockiert

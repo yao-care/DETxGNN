@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Rivastigmine
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 409
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Rivastigmine: vorhergesagte neue Indikation Glaukom (Evidenzstufe L4). Ursprüngliche Indikation: Demenz"
@@ -14,7 +14,7 @@ predicted_indications: ["glaucoma"]
 # Rivastigmine
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Rivastigmin ist ein Cholinesterase-Hemmer, der ursprünglich zur Behandlung von 
 |------|------|
 | Ursprüngliche Indikation | Demenz; Alzheimer-Krankheit; Parkinson-Krankheit |
 | Vorhergesagte neue Indikation | Glaukom |
-| TxGNN-Vorhersagewert | 99,27 % |
-| Evidenzgrad | L4 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 6 (alle erloschen) |
+| TxGNN-Vorhersagewert | 0,9927 |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 6 von 6) |
+| Anzahl der Zulassungen | 6 (gültig: 6) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -84,7 +84,7 @@ Derzeit sind keine relevanten klinischen Studien registriert.
 
 ## Marktinformationen Deutschland
 
-Alle sechs Zulassungen sind erloschen; aktuell ist keine gültige Zulassung vorhanden.
+Alle sechs Zulassungen sind gültig; das Arzneimittel ist aktuell im Verkehr.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -112,7 +112,7 @@ Hinweise aus der Packungsbeilage liegen nicht vor; bitte die Fachinformation fü
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenz beschränkt sich auf eine Kaninchenstudie, Übersichtsarbeiten und die Modellvorhersage (L4); klinische Studien fehlen. Zudem sind in Deutschland alle Zulassungen erloschen, und die systemische cholinerge Verträglichkeit ist für eine okuläre Anwendung nicht geklärt.
+Die Evidenz beschränkt sich auf eine Kaninchenstudie, Übersichtsarbeiten und die Modellvorhersage (L4); klinische Studien fehlen. Zudem ist die systemische cholinerge Verträglichkeit für eine okuläre Anwendung nicht geklärt.
 
 **Zur Weiterverfolgung sind folgende Schritte nötig:**
 - Auswertung der Packungsbeilagen (Warnhinweise und Kontraindikationen) über das BfArM, da diese Sicherheitsdaten fehlen

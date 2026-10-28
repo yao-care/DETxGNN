@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Oteracil
-parent: Nur Modellvorhersage (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 333
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Oteracil: vorhergesagte neue Indikation Kolonneoplasie (colonic neoplasm) (Evidenzstufe L5). Ursprüngliche Indikation: Magenkarzinom (Stomach Neoplasms)"
@@ -14,7 +14,7 @@ predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "cecum neur
 # Oteracil
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Oteracil ist ein Bestandteil der S-1-Kombination (Tegafur/Gimeracil/Oteracil) un
 |------|------|
 | Ursprüngliche Indikation | Magenkarzinom (Stomach Neoplasms) |
 | Vorhergesagte neue Indikation | Kolonneoplasie (colonic neoplasm) |
-| TxGNN-Vorhersagewert | 99,99 % |
+| TxGNN-Vorhersagewert | 0,9999 |
 | Evidenzlevel | L1 (formal; Evidenz bezieht sich auf das S-1-Gesamtschema, nicht auf Oteracil allein) |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortsetzen mit Schutzmaßnahmen) |
 
 ---
@@ -100,7 +100,7 @@ Hinweis: Es wurden keine randomisierten kontrollierten Studien oder systematisch
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/001242 | Teysuno | – | Stomach Neoplasms (Magenkarzinom); Status: erloschen |
+| EMEA/H/C/001242 | Teysuno | – | Stomach Neoplasms (Magenkarzinom); Status: gültig |
 
 ---
 

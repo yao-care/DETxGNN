@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Levofloxacin: Von Mukoviszidose und Atemwegsinfektionen zu punktförmiger epithelialer Keratokonjunktivitis
+## Levofloxacin: Punktförmige epitheliale Keratokonjunktivitis
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,10 +48,10 @@ Levofloxacin ist ein Fluorchinolon-Antibiotikum, das ursprünglich zur Behandlun
 |------|------|
 | Ursprüngliche Indikation | Mukoviszidose; Atemwegsinfektionen |
 | Vorhergesagte neue Indikation | Punktförmige epitheliale Keratokonjunktivitis |
-| TxGNN-Vorhersagewert | 99,92 % |
+| TxGNN-Vorhersagewert | 0,9992 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung (Cancelled only) |
-| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -84,7 +84,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 |---------|------|------|-----------|
 | EMEA/H/C/002789 | Quinsair | – | Mukoviszidose; Atemwegsinfektionen |
 
-Diese Zulassung (Inhaber: Chiesi Farmaceutici S.p.A) ist erloschen bzw. widerrufen; es besteht keine gültige Zulassung.
+Diese Zulassung (Inhaber: Chiesi Farmaceutici S.p.A) ist gültig.
 
 ---
 
@@ -108,7 +108,7 @@ Angaben aus dem Beipackzettel (Warnhinweise, Kontraindikationen) liegen nicht vo
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die vorhergesagte Indikation gibt es weder klinische Studien noch eine mechanistisch plausible Verbindung; die einzige Publikation ist ein Ausbruchsbericht ohne Bezug zu einer Levofloxacin-Behandlung. Zudem besteht in Deutschland keine gültige Zulassung, und die Sicherheitsdaten aus dem Beipackzettel fehlen.
+Für die vorhergesagte Indikation gibt es weder klinische Studien noch eine mechanistisch plausible Verbindung; die einzige Publikation ist ein Ausbruchsbericht ohne Bezug zu einer Levofloxacin-Behandlung. In Deutschland ist das Arzneimittel zugelassen und im Handel (1 von 1 Zulassung gültig), aber die Sicherheitsdaten aus dem Beipackzettel fehlen.
 
 **Für ein Weiterverfolgen wären erforderlich:**
 - Beipackzettel-Informationen (Warnhinweise, Kontraindikationen) von der BfArM-Website, da dieser Punkt als blockierende Datenlücke für die Sicherheitsprüfung gilt

@@ -4,17 +4,17 @@ title: Olanzapine
 parent: Nur Modellvorhersage (L5)
 nav_order: 325
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Olanzapine: vorhergesagte neue Indikation Benigne paroxysmale Tortikollis des Säuglingsalters (Evidenzstufe L5). Ursprüngliche Indikation: Schizophrenie"
 monitor_inn: "OLANZAPINE"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 ---
 
 # Olanzapine
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-## Olanzapin: Von Schizophrenie und bipolarer Störung zu benigner paroxysmaler Tortikollis des Säuglingsalters
+## Olanzapin: Benigne paroxysmale Tortikollis des Säuglingsalters
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Olanzapin ist ein Antipsychotikum, das ursprünglich zur Behandlung von Schizoph
 |------|------|
 | Ursprüngliche Indikation | Schizophrenie; bipolare Störung |
 | Vorhergesagte neue Indikation | Benigne paroxysmale Tortikollis des Säuglingsalters |
-| TxGNN-Vorhersagewert | 99,54 % |
+| TxGNN-Vorhersagewert | 0,9954 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 9 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 9 von 9) |
+| Anzahl der Zulassungen | 9 (gültig: 9) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -64,8 +64,7 @@ Für die benigne paroxysmale Tortikollis des Säuglingsalters ist **kein plausib
 
 **Weitere Kandidaten mit besserer Evidenz:**
 
-- **Agoraphobie (Score 99,47 %, L3):** Die Rezeptorblockade könnte Angst- und Erregungsschaltkreise bei der Panikstörung modulieren, die häufig mit Agoraphobie einhergeht. Die Evidenz stammt aus einer 12-wöchigen offenen Augmentationsstudie bei therapieresistenter Panikstörung und aus Fallberichten. Sie betrifft die Panikstörung, nicht spezifisch die Agoraphobie, und ist unkontrolliert. Metabolische Nebenwirkungen sprechen gegen den Einsatz, da SSRI und kognitive Verhaltenstherapie wirksame Erstlinienoptionen sind.
-- **Dysthyme Störung (Score 99,28 %, L3):** Olanzapin, vor allem in Kombination mit Fluoxetin, wirkt über 5-HT2C-Antagonismus augmentierend antidepressiv. Direkte Evidenz ist begrenzt; eine RCT speziell zur Dysthymie wurde nicht identifiziert. Die Verträglichkeit bei chronischer Anwendung bei einer eher milden, chronischen Erkrankung ist ein Bedenken.
+- **Agoraphobie (Score 0,9947, L3):** Die Rezeptorblockade könnte Angst- und Erregungsschaltkreise bei der Panikstörung modulieren, die häufig mit Agoraphobie einhergeht. Die Evidenz stammt aus einer 12-wöchigen offenen Augmentationsstudie bei therapieresistenter Panikstörung und aus Fallberichten. Sie betrifft die Panikstörung, nicht spezifisch die Agoraphobie, und ist unkontrolliert. Metabolische Nebenwirkungen sprechen gegen den Einsatz, da SSRI und kognitive Verhaltenstherapie wirksame Erstlinienoptionen sind.
 
 ---
 
@@ -104,7 +103,7 @@ Für die Spitzenvorhersage (benigne paroxysmale Tortikollis des Säuglingsalters
 
 ## Marktinformationen Deutschland
 
-Alle neun Zulassungen sind erloschen; derzeit ist kein gültiges Olanzapin-Präparat in den Daten verzeichnet.
+Von neun Zulassungen sind neun gültig; Olanzapin ist in Deutschland im Handel.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -149,7 +148,6 @@ Die Spitzenvorhersage (benigne paroxysmale Tortikollis des Säuglingsalters) ber
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Auswertung der Fachinformation (Warnhinweise, Kontraindikationen) über BfArM, da dieser Punkt derzeit blockierend ist
 - Mechanismusdaten (MOA) aus DrugBank ergänzen
-- Klärung des Zulassungsstatus in Deutschland, da alle gelisteten Zulassungen erloschen sind
 - Volltextprüfung der Übersichtsarbeiten zu Agoraphobie/Panikstörung und Dysthymie auf tatsächliche Aussagen zu Olanzapin
 - Für die Alternativen: kontrollierte Studien (RCT) und eine Nutzen-Risiko-Bewertung gegenüber Erstlinientherapien (SSRI, Psychotherapie)
 ## Haftungsausschluss

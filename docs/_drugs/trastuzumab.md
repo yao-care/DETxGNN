@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Trastuzumab
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 478
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Trastuzumab: vorhergesagte neue Indikation Progesteronrezeptor-positiver Brustkrebs (Evidenzstufe L1). Ursprüngliche Indikation: Magenkrebs"
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
+description: "Trastuzumab: vorhergesagte neue Indikation Malignant cutaneous granular cell skin tumor (Evidenzstufe L5). Ursprüngliche Indikation: Stomach Neoplasms"
 ---
 
 # Trastuzumab
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Trastuzumab: Von Magen- und Brustkrebs zu progesteronrezeptor-positivem Brustkrebs
+## Trastuzumab: Malignant cutaneous granular cell skin tumor
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -47,12 +47,12 @@ Das TxGNN-Modell sagt eine Wirksamkeit bei **progesteronrezeptor-positivem Brust
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Magenkrebs; Brustkrebs |
-| Vorhergesagte neue Indikation | Progesteronrezeptor-positiver Brustkrebs |
-| TxGNN-Vorhersagewert | 99,90 % |
-| Evidenzstufe | L1 |
-| Marktstatus in Deutschland | Nur aufgehobene Zulassungen (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 11 (alle aufgehoben) |
+| Ursprüngliche Indikation | Stomach Neoplasms;Breast Neoplasms; Breast Neoplasms;Stomach Neoplasms; Breast Neoplasms |
+| Vorhergesagte neue Indikation | Malignant cutaneous granular cell skin tumor |
+| TxGNN-Vorhersagewert | 0.9948 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 11 von 11) |
+| Anzahl der Zulassungen | 11 (gültig: 11) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortführung mit Schutzvorkehrungen) |
 
 ---
@@ -103,7 +103,7 @@ Die vorhergesagte Indikation liegt somit im Rahmen des bekannten Wirkprinzips. D
 
 ## Marktinformationen Deutschland
 
-Es besteht derzeit keine gültige Zulassung. Alle 11 erfassten Zulassungen sind aufgehoben. Die Angaben zu Darreichungsformen fehlen in den Daten.
+Es besteht derzeit eine gültige Zulassung. Alle 11 erfassten Zulassungen sind gültig. Die Angaben zu Darreichungsformen fehlen in den Daten.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|

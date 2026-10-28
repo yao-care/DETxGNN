@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Melphalan
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 288
-evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Melphalan: vorhergesagte neue Indikation Keimzelltumor der Gonaden (gonadal germ cell tumor) (Evidenzstufe L2). Ursprüngliche Indikation: Multiples Myelom"
+evidence_level: L5
+indication_count: 6
 monitor_inn: "Melphalan"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
+last_modified_at: 2026-10-27
+description: "Melphalan: vorhergesagte neue Indikation Weibliches Mammakarzinom (female breast carcinoma) (Evidenzstufe L5). Ursprüngliche Indikation: Multiple Myeloma"
 ---
 
 # Melphalan
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,70 +33,75 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Melphalan: Von multiplem Myelom zu Keimzelltumor der Gonaden
+## Melphalan: Alkylierendes Zytostatikum → Weibliches Mammakarzinom (female breast carcinoma)
 {: .text-alpha }
 
-## Zusammenfassung
+## Zusammenfassung in einem Satz
 
-Melphalan ist ein alkylierendes Zytostatikum, das ursprünglich zur Behandlung des multiplen Myeloms, von Lymphomen, Leukämien, des Neuroblastoms und des Ovarialkarzinoms sowie zur Konditionierung vor einer Stammzelltransplantation eingesetzt wird.
-Das TxGNN-Modell sagt voraus, dass es bei **Keimzelltumoren der Gonaden** wirksam sein könnte.
-Dafür liegen derzeit **7 klinische Studien** und **1 Publikation** vor. Die Publikation ist eine Arbeit aus dem Jahr 1964 und nur indirekt relevant, daher ist die Evidenz begrenzt.
+Melphalan ist ein alkylierendes Zytostatikum, das bei verschiedenen hämatologischen und onkologischen Erkrankungen sowie im Rahmen der Stammzelltransplantation eingesetzt wird. Das TxGNN-Modell sagt voraus, dass es bei **weiblichem Mammakarzinom (female breast carcinoma)** wirksam sein könnte. Dafür liegen **3 klinische Studien** (überwiegend kleine Studien der frühen Phase) und **20 Publikationen** vor, die jedoch zum großen Teil ältere oder indirekte Arbeiten sind.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Multiples Myelom; Hodgkin-Lymphom; Non-Hodgkin-Lymphom; akute lymphoblastische Vorläuferzell-Leukämie/-Lymphom; akute myeloische Leukämie; Neuroblastom; Ovarialkarzinom; hämatopoetische Stammzelltransplantation |
-| Vorhergesagte neue Indikation | Keimzelltumor der Gonaden (gonadal germ cell tumor) |
-| TxGNN-Vorhersagewert | 99,77 % |
-| Evidenzstufe | L2 |
-| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassung |
-| Anzahl der Zulassungen | 1 |
-| Empfohlene Entscheidung | Proceed with Guardrails |
+| Ursprüngliche Indikation | Multiple Myeloma;Hodgkin Disease;Lymphoma, Non-Hodgkin;Precursor Cell Lymphoblastic Leukemia-Lymphoma;Leukemia, Myeloid, Acute;Neuroblastoma;Ovarian Neoplasms;Hematopoietic Stem Cell Transplantation |
+| Vorhergesagte neue Indikation | Weibliches Mammakarzinom (female breast carcinoma) |
+| TxGNN-Vorhersagewert | 0,9967 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Auf Grundlage des bekannten Wissens gehört Melphalan zur Klasse der DNA-alkylierenden Substanzen (bifunktionale Stickstoff-Lost-Verbindungen), die DNA-Interstrang-Vernetzungen bilden. Seine Wirksamkeit bei hämatologischen Neoplasien und beim Ovarialkarzinom ist belegt, und mechanistisch kann es auch bei Keimzelltumoren anwendbar sein.
+Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten derzeit nicht vor. Bekannt ist, dass Melphalan ein bifunktionelles alkylierendes Mittel ist, das DNA vernetzt und dadurch Tumorzellen am Teilen hindert. Dieser Mechanismus ist grundsätzlich nicht auf eine einzelne Tumorart beschränkt, weshalb eine Anwendung beim Mammakarzinom mechanistisch denkbar ist.
 
-Keimzelltumoren gelten als besonders empfindlich gegenüber DNA-schädigenden Substanzen. Das stützt den Einsatz von hochdosiertem Melphalan in Kombinationsregimen mit autologer Stammzellrückgabe. Die Phase-2-Studie NCT00936936 bei rezidivierten Keimzelltumoren mit schlechter Prognose prüft genau diese Überlegung.
-
-Zu beachten: Die Hochdosis-Strategie ist bislang nicht durch Phase-3-Studien bestätigt, und die Studien sind überwiegend einarmig oder klein.
+Tatsächlich wurde Melphalan beim Brustkrebs bereits untersucht: in Hochdosisregimen mit autologer Stammzellunterstützung sowie in präklinischen Modellen (Xenotransplantate, MDA-MB-231-Zellen mit Curcumin-Kombination, BRCA1-defiziente PDX-Modelle). Die klinische Evidenz besteht überwiegend aus kleinen, frühen oder vorzeitig beendeten Studien. Der Hochdosis-Transplantationsansatz beim Brustkrebs hat sich nicht als Standardtherapie etabliert, und das Risiko von Zweitmalignomen ist ein dokumentiertes Problem.
 
 ---
 
-## Evidenz aus klinischen Studien
+## Evidenzstufe
+
+Mehrere der zitierten Studien (z. B. eine randomisierte Phase-III-Studie zu Vinorelbin versus Melphalan bei fortgeschrittenem Brustkrebs sowie Phase-II-Studien mit Hochdosis-Melphalan) befassen sich direkt mit der vorhergesagten Erkrankung. Es handelt sich jedoch nicht um abgeschlossene, bestätigende Phase-3-Studien nach den definierten Kriterien. Die Einstufung lautet daher **L3**.
+
+---
+
+## Klinische Studien
 
 | Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT00936936](https://clinicaltrials.gov/study/NCT00936936) | Phase 2 | Abgeschlossen | 64 | Zwei Zyklen Hochdosischemotherapie (Gemcitabin, Docetaxel, Melphalan, Carboplatin; danach Ifosfamid, Carboplatin, Etoposid) bei rezidivierten Keimzelltumoren mit schlechter Prognose; Wirksamkeit und Sicherheit |
-| [NCT00060255](https://clinicaltrials.gov/study/NCT00060255) | Phase 2 | Abgeschlossen | 451 | Autologe Blut- und Knochenmarktransplantation mit verschiedenen Hochdosisregimen bei hämatologischen Malignomen und ausgewählten soliden Tumoren; keimzelltumorspezifische Ergebnisse nicht separierbar |
-| [NCT00003425](https://clinicaltrials.gov/study/NCT00003425) | Phase 1/2 | Abgeschlossen | 25 | Dosiseskalation von Melphalan mit autologer Stammzellunterstützung und Amifostin-Zytoprotektion bei Krebspatienten |
-| [NCT00638898](https://clinicaltrials.gov/study/NCT00638898) | Phase 1 | Abgeschlossen | 25 | Hochdosis Busulfan, Melphalan und Topotecan mit autologer Stammzelltransplantation bei fortgeschrittenen und rezidivierenden Tumoren; Machbarkeit |
-| [NCT00536601](https://clinicaltrials.gov/study/NCT00536601) | Nicht zutreffend | Abgeschlossen | 174 | Hochdosischemotherapie mit oder ohne Ganzkörperbestrahlung vor autologer Stammzelltransplantation; Bezug zu Keimzelltumoren nur indirekt |
-| [NCT00002750](https://clinicaltrials.gov/study/NCT00002750) | Phase 1 | Abgeschlossen | 6 | Intrathekales Melphalan bei rezidivierender neoplastischer Meningitis; anderer Applikationsweg, geringe Relevanz |
-| [NCT00003926](https://clinicaltrials.gov/study/NCT00003926) | Phase 1 | Abgebrochen | 13 | Chemoprotektivum Amifostin bei autologer Stammzelltransplantation pädiatrischer solider Tumoren; Schwerpunkt Supportivtherapie |
+| [NCT00003425](https://clinicaltrials.gov/study/NCT00003425) | Phase 1/2 | Abgeschlossen | 25 | Dosissteigerung von Melphalan mit autologer Stammzellunterstützung und Amifostin-Zytoprotektion bei Krebspatienten; kleine, gemischte Population |
+| [NCT00003086](https://clinicaltrials.gov/study/NCT00003086) | Phase 1/2 | Beendet (vorzeitig) | 12 | Sequenzielle doppelte autologe Knochenmarktransplantation mit Samarium-153 bei Brustkrebs im Stadium IV |
+| [NCT00523809](https://clinicaltrials.gov/study/NCT00523809) | Phase 2 | Beendet (vorzeitig) | 5 | Nicht-myeloablative allogene Transplantation mit Bevacizumab bei fortgeschrittenen soliden Tumoren; zu klein für Aussagen zur Wirksamkeit |
 
 ---
 
-## Evidenz aus der Literatur
+## Literaturevidenz
 
 | PMID | Jahr | Typ | Fachzeitschrift | Zentrale Ergebnisse |
 |------|-----|------|------|---------|
-| [14151951](https://pubmed.ncbi.nlm.nih.gov/14151951/) | 1964 | Sonstige (pharmakologisch/endokrinologisch) | Acta - Unio Internationalis Contra Cancrum | Einfluss hormoneller und alkylierender Substanzen auf die follikelstimulierende Funktion der Hypophyse; kein Abstract, für die Fragestellung kaum aussagekräftig |
+| [7595708](https://pubmed.ncbi.nlm.nih.gov/7595708/) | 1995 | Randomisierte Studie | J Clin Oncol | Vinorelbin versus Melphalan bei anthrazyklinrefraktärem fortgeschrittenem Brustkrebs |
+| [6991733](https://pubmed.ncbi.nlm.nih.gov/6991733/) | 1980 | Klinische Studie | JAMA | Adjuvante Chemotherapie im Stadium II/III: Melphalan versus CFP versus CFP plus BCG bei 173 Patientinnen |
+| [7042073](https://pubmed.ncbi.nlm.nih.gov/7042073/) | 1982 | Nachbeobachtung | Cancer | Melphalan-Monotherapie versus Mehrfachregime; anfänglich höhere Rezidivrate in der Melphalan-Gruppe |
+| [12189532](https://pubmed.ncbi.nlm.nih.gov/12189532/) | 2002 | Phase-2-Studie | Bone Marrow Transplant | Sequenzielle Hochdosischemotherapie mit Paclitaxel, Melphalan, Cyclophosphamid, Thiotepa und Carboplatin bei metastasiertem Brustkrebs |
+| [10918405](https://pubmed.ncbi.nlm.nih.gov/10918405/) | 2000 | Klinische Studie | Bone Marrow Transplant | Hochdosis-Busulfan/Melphalan/Thiotepa als Konsolidierung bei Hochrisiko-Brustkrebs (121 Patientinnen) |
+| [12732881](https://pubmed.ncbi.nlm.nih.gov/12732881/) | 2003 | Retrospektive Auswertung | Bone Marrow Transplant | Thiotepa, Melphalan und Carboplatin mit autologer Stammzelltransplantation bei 27 Patientinnen mit Stadium IV |
+| [6203662](https://pubmed.ncbi.nlm.nih.gov/6203662/) | 1984 | Klinische Studie | Cancer Chemother Pharmacol | Mitomycin C, Melphalan und Methotrexat bei disseminiertem Brustkrebs; Ansprechen bei 40 % der auswertbaren Patientinnen |
+| [7602368](https://pubmed.ncbi.nlm.nih.gov/7602368/) | 1995 | Review | J Clin Oncol | Übersicht zu intravenösem Hochdosis-Melphalan |
+| [37596331](https://pubmed.ncbi.nlm.nih.gov/37596331/) | 2023 | Präklinisch (in vitro) | Sci Rep | Curcumin und Melphalan bewirken Zellzyklusarrest und Apoptose in MDA-MB-231-Zellen |
+| [6254553](https://pubmed.ncbi.nlm.nih.gov/6254553/) | 1980 | Präklinisch (Xenotransplantat) | Br J Cancer | Chemosensitivität von Brustkarzinom-Xenotransplantaten, u. a. gegenüber Melphalan |
 
 ---
 
-## Marktinformationen Deutschland
+## Informationen zum deutschen Markt
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/005173 | Phelinun | – | Multiples Myelom; Hodgkin-Lymphom; Non-Hodgkin-Lymphom; akute lymphoblastische Vorläuferzell-Leukämie/-Lymphom; akute myeloische Leukämie; Neuroblastom; Ovarialkarzinom;... |
-
-Diese Zulassung ist erloschen (Status: cancelled).
+| EMEA/H/C/005173 | Phelinun | – | Siehe Zulassungstext |
 
 ---
 
@@ -105,48 +110,32 @@ Diese Zulassung ist erloschen (Status: cancelled).
 | Punkt | Inhalt |
 |------|------|
 | Zytotoxizitätsklassifikation | Klassisches Zytostatikum (alkylierendes Mittel, Stickstoff-Lost-Derivat) |
-| Myelosuppressionsrisiko | Hoch (laut Wissensgraph-Kontraindikationen u. a. Leukopenie, Neutropenie, Thrombozytopenie, Anämie) |
-| Emetogenität | Bitte Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage beachten |
-| Überwachungsparameter | Großes Blutbild mit Differenzialblutbild, Leber- und Nierenfunktion |
-| Handhabungsschutz | Handhabung nach den Vorschriften für Zytostatika erforderlich |
+| Myelosuppressionsrisiko | Hoch; in den zusammengestellten Daten werden Leukopenie, Neutropenie, Thrombozytopenie und Anämie als Risiken genannt |
+| Emetogenität | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Differenzialblutbild, Leber- und Nierenfunktion |
+| Handhabungsschutz | Schutzmaßnahmen gemäß den Vorschriften für den Umgang mit Zytostatika erforderlich |
 
 ---
 
 ## Sicherheitsaspekte
 
-- **Kontraindikationen aus dem Wissensgraphen (PrimeKG, keine Packungsbeilage):** u. a. Nierenerkrankung, Thrombozytopenie, Anämie (einschließlich makrozytärer und hämolytischer Anämie), Leukopenie, Agranulozytose, Neutropenie (einschließlich angeborener Formen), interstitielle Lungenerkrankung, Lungenfibrose, medikamentös bedingte Leberschädigung und Vaskulitis.
-- **Arzneimittelwechselwirkungen:** 100 Wechselwirkungen erfasst. Als moderat eingestuft sind Amphotericin B (einschließlich lipidkomplexierter, Cholesterylsulfat- und liposomaler Formulierungen). Als geringfügig eingestuft sind Cimetidin, Levofloxacin, Zinksulfat und Zinkgluconat. Weitere (z. B. Lansoprazol, Granisetron, Metformin, Omeprazol, Vancomycin, Prednison, Simvastatin) sind ohne Schweregrad („unbekannt“) geführt.
-- **Weitere Hinweise aus der Literatur:** Alkylierende Substanzen wie Melphalan sind mit einem erhöhten Risiko für Zweitmalignome verbunden, vor allem akute Leukämien.
-
-Zu den Warnhinweisen und Kontraindikationen der Packungsbeilage liegen keine Daten vor; bitte die Fachinformation heranziehen.
-
----
-
-## Weitere vorhergesagte Indikationen (Kurzüberblick)
-
-| Rang | Indikation | Score | Evidenzstufe | Empfehlung |
-|---|------|------|------|------|
-| 2 | Primitiver Keimzelltumor des Ovars | 99,75 % | L3 | Forschungsfrage |
-| 3 | Chorionkarzinom des Ovars | 99,74 % | L5 | Hold |
-| 4 | Mammakarzinom (weiblich) | 99,67 % | L3 | Forschungsfrage |
-| 5 | Maligner nicht-epithelialer Ovarialtumor | 99,55 % | L5 | Hold |
-| 6–10 | Muzinöse Adenokarzinome (Rektum, Kolon, Gallenblase, Zervix, Endometrium) | 99,26–99,38 % | L5 | Hold |
+- **Arzneimittelwechselwirkungen:** Die Abfrage ergab 100 Einträge. Zu den aufgeführten gehören mittelschwere Wechselwirkungen mit Amphotericin B (einschließlich lipidkomplexierter, liposomaler und Cholesterylsulfat-Formulierungen) sowie geringfügige Wechselwirkungen mit Cimetidin, Levofloxacin, Zinksulfat und Zinkgluconat.
+- **Weitere Hinweise:** Es besteht ein dokumentiertes Risiko für Zweitmalignome (vor allem akute Leukämien) unter alkylierenden Substanzen. Für weitere Sicherheitsinformationen bitte die Fachinformation heranziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Proceed with Guardrails**
+**Entscheidung: Hold**
 
 **Begründung:**
-Für Keimzelltumoren der Gonaden liegt eine abgeschlossene Phase-2-Studie (NCT00936936, 64 Patienten) mit Melphalan-haltiger Hochdosischemotherapie vor, und die mechanistische Plausibilität ist hoch. Es fehlen jedoch randomisierte Phase-3-Studien, die Studie ist einarmig, die Rolle von Melphalan ist im Kombinationsregime nicht isoliert, und die deutsche Zulassung ist erloschen. Daher ist nur ein vorsichtiges Weiterverfolgen unter Auflagen vertretbar.
+Die Evidenz zum Mammakarzinom besteht überwiegend aus kleinen Studien der frühen Phase, älteren Arbeiten und präklinischen Daten. Der Hochdosis-Transplantationsansatz hat sich nicht als Standard etabliert, und es gibt keine bestätigenden Phase-3-Studien.
 
-**Für das weitere Vorgehen wird Folgendes benötigt:**
-- Auswertung der Ergebnisse von NCT00936936 (Ansprechen, Überleben, Toxizität)
-- Daten zum Wirkmechanismus (MOA) aus DrugBank
-- Packungsbeilage mit Warnhinweisen und Kontraindikationen (BfArM-Daten fehlen)
-- Prüfung der Verfügbarkeit in Deutschland, da die Zulassung erloschen ist
-- Sicherheitsüberwachungsplan (Myelosuppression, Organfunktion, Zweitmalignome) und Handhabungsvorgaben für Zytostatika
+**Für das weitere Vorgehen ist Folgendes erforderlich:**
+- Daten zum Wirkmechanismus ergänzen
+- Warnhinweise und Gegenanzeigen aus der Fachinformation auswerten
+- Nutzen-Risiko-Bewertung im Vergleich zu aktuellen Standardtherapien des Mammakarzinoms, einschließlich des Risikos von Zweitmalignomen
+- Gezielte Prüfung, ob aktuelle kontrollierte Studien mit modernen Regimen vorliegen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -46,10 +46,10 @@ Ketorolac ist ein nichtsteroidales Antirheumatikum (NSAR), das in Deutschland al
 |------|------|
 | Ursprüngliche Indikation | Intraokulare Linsenimplantation; postoperativer Schmerz |
 | Vorhergesagte neue Indikation | Kopfschmerzerkrankung (Headache Disorder) |
-| TxGNN-Vorhersagewert | 99,43 % |
+| TxGNN-Vorhersagewert | 0,9943 |
 | Evidenzniveau | L1 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Mit Schutzmaßnahmen fortfahren (Proceed with Guardrails) |
 
 *Hinweis zum Evidenzniveau:* Die Einstufung L1 folgt der in den Daten hinterlegten Bewertung. Die Studien sind überwiegend Phase-4- bzw. Phase-3-Studien mit kleinen Fallzahlen. Mehrere davon prüfen Kombinationen, bei denen die Wirkung nicht allein Ketorolac zugeschrieben werden kann.
@@ -98,9 +98,9 @@ Weitere erfasste Studien (u. a. zurückgezogene Studien ohne Teilnehmer sowie St
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/003702 | Omidria | – | Intraokulare Linsenimplantation; postoperativer Schmerz (Status: erloschen) |
+| EMEA/H/C/003702 | Omidria | – | Intraokulare Linsenimplantation; postoperativer Schmerz (Status: gültig) |
 
-Es besteht derzeit keine gültige Zulassung in Deutschland.
+Es besteht derzeit eine gültige Zulassung in Deutschland.
 
 ## Sicherheitsaspekte
 
@@ -115,8 +115,8 @@ Für Warnhinweise und Kontraindikationen gemäß Fachinformation: Bitte die Pack
 
 ## Weitere vorhergesagte Indikationen (zur Einordnung)
 
-- **Rosazea-Konjunktivitis** (TxGNN 99,40 %): Nur Modellvorhersage, keine Studien oder Literatur (L5) – Entscheidung: Hold.
-- **Trigeminoautonomer Kopfschmerz** (TxGNN 99,39 %): Nur indirekte Evidenz, eine zurückgezogene Studie ohne Teilnehmer (L4); Clusterkopfschmerz spricht allgemein schlecht auf Standard-NSAR an – Entscheidung: Hold.
+- **Rosazea-Konjunktivitis** (TxGNN 0,9940): Nur Modellvorhersage, keine Studien oder Literatur (L5) – Entscheidung: Hold.
+- **Trigeminoautonomer Kopfschmerz** (TxGNN 0,9939): Nur indirekte Evidenz, eine zurückgezogene Studie ohne Teilnehmer (L4); Clusterkopfschmerz spricht allgemein schlecht auf Standard-NSAR an – Entscheidung: Hold.
 
 ## Fazit und nächste Schritte
 

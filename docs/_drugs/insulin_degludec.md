@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Insulin Degludec
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 240
-evidence_level: L1
-indication_count: 6
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Insulin Degludec: vorhergesagte neue Indikation Typ-1-Diabetes mellitus (Evidenzstufe L1). Ursprüngliche Indikation: Diabetes mellitus"
+description: "Insulin Degludec: vorhergesagte neue Indikation autoimmune Oophoritis (Evidenzstufe L1). Ursprüngliche Indikation: Diabetes mellitus"
 monitor_inn: "INSULIN DEGLUDEC"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-r
 # Insulin Degludec
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **6** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-## Insulin degludec: Von Diabetes mellitus zu Typ-1-Diabetes mellitus
+## Insulin degludec: Autoimmune Oophoritis
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -50,10 +50,10 @@ wobei derzeit **40 klinische Studien** und **19 Publikationen** diese Richtung s
 |------|------|
 | Ursprüngliche Indikation | Diabetes mellitus |
 | Vorhergesagte neue Indikation | Typ-1-Diabetes mellitus |
-| TxGNN-Vorhersagewert | 99,44 % |
-| Evidenzgrad | L1 |
-| Marktstatus in Deutschland | Nur erloschene Zulassungen |
-| Anzahl der Zulassungen | 3 (alle erloschen) |
+| TxGNN-Vorhersagewert | 0,9923 |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
 
 ---
@@ -106,7 +106,7 @@ Es sind 40 Studien erfasst; nachfolgend die 10 relevantesten (direkter Degludec-
 
 ## Marktinformationen Deutschland
 
-Alle drei Zulassungen sind erloschen; derzeit ist kein Präparat mit gültiger Zulassung gelistet.
+Alle drei Zulassungen sind gültig (3 von 3); das Arzneimittel ist im Handel.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -143,7 +143,7 @@ Mehrere abgeschlossene Phase-3-Studien (u. a. SWITCH 1) und hochrangige RCTs sow
 - Detaillierte Wirkmechanismusdaten (z. B. aus DrugBank)
 - Prüfung der Wechselwirkungen, v. a. mit Sympathomimetika, Betablockern und anderen Antidiabetika
 
-**Hinweis zu weiteren Vorhersagen:** Die übrigen fünf vorhergesagten Indikationen (autoimmune Oophoritis, Opsismodysplasie, Thiamin-responsives Dysfunktionssyndrom, klassisches Stiff-Person-Syndrom, fokales Stiff-Limb-Syndrom) haben trotz hoher TxGNN-Werte (rund 99 %) weder klinische Studien noch Literatur, keinen plausiblen therapeutischen Mechanismus und Evidenzgrad L5. Empfehlung für diese: **Hold**.
+**Hinweis zu weiteren Vorhersagen:** Die übrigen vier vorhergesagten Indikationen (Opsismodysplasie, Thiamin-responsives Dysfunktionssyndrom, klassisches Stiff-Person-Syndrom, fokales Stiff-Limb-Syndrom) haben trotz hoher TxGNN-Werte (0,9912; 0,9910; 0,9908; 0,9908) weder klinische Studien noch Literatur, keinen plausiblen therapeutischen Mechanismus und Evidenzgrad L5. Empfehlung für diese: **Hold**.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

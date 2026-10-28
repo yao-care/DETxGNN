@@ -4,17 +4,17 @@ title: Lenalidomide
 parent: Hohe Evidenz (L1-L2)
 nav_order: 265
 evidence_level: L2
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Lenalidomide: vorhergesagte neue Indikation Myeloische Leukämie (Evidenzstufe L2). Ursprüngliche Indikation: Multiples Myelom"
 monitor_inn: "LENALIDOMIDE"
-predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "partial deletion of the long arm of chromosome 5"]
+predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 ---
 
 # Lenalidomide
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **6** 
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-## Lenalidomid: Vom Multiplen Myelom zur Myeloischen Leukämie
+## Lenalidomid: Myeloische Leukämie
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Die Evidenz stammt überwiegend aus kleinen, einarmigen Phase-1/2-Studien. Rando
 |------|------|
 | Ursprüngliche Indikation | Multiples Myelom; Mantelzell-Lymphom; Myelodysplastische Syndrome |
 | Vorhergesagte neue Indikation | Myeloische Leukämie |
-| TxGNN-Vorhersagewert | 99,49 % |
+| TxGNN-Vorhersagewert | 0,9949 |
 | Evidenzstufe | L2 |
-| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassungen |
-| Anzahl der Zulassungen | 3 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortführung mit Schutzmaßnahmen) |
 
 ---
@@ -114,7 +114,7 @@ Es liegen keine randomisierten kontrollierten Studien (RCT) zur Wirksamkeit bei 
 | EMEA/H/C/005306 | Lenalidomide Mylan | – | Multiples Myelom |
 | EMEA/H/C/004857 | Lenalidomide Accord | – | Multiples Myelom |
 
-Alle drei Zulassungen haben den Status „erloschen/gelöscht“. Aktuell gültige Zulassungen sind in den Daten nicht verzeichnet.
+Das Arzneimittel ist in Deutschland im Handel. Alle 3 Zulassungen sind gültig (3 von 3).
 
 ---
 
@@ -156,7 +156,6 @@ Weitere Indikationen im Überblick:
 **Für das weitere Vorgehen sind erforderlich:**
 - Fachinformation (Warnhinweise, Kontraindikationen) des BfArM bzw. der EMA, da diese Daten fehlen und die Sicherheitsprüfung blockieren
 - Detaillierte Mechanismusdaten (MOA) aus DrugBank
-- Klärung des Zulassungsstatus in Deutschland, da alle drei Zulassungen erloschen sind
 - Randomisierte Daten zu AML, insbesondere zur Erhaltungstherapie und zur Subgruppe mit del(5q)
 - Überwachungsplan für Blutbild, Thromboembolie-Risiko und Nierenfunktion sowie Prüfung der Wechselwirkungen mit Statinen
 - Berücksichtigung der teratogenen Risiken (Thalidomid-Analogon) und der Anforderungen an ein Schwangerschaftsverhütungsprogramm

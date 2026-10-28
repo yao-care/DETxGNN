@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dolutegravir
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 148
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
-description: "Dolutegravir: vorhergesagte neue Indikation Felines erworbenes Immundefizienzsyndrom (FIV) (Evidenzstufe L4). Ursprüngliche Indikation: HIV-Infektionen"
 monitor_inn: "DOLUTEGRAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+last_modified_at: 2026-10-27
+description: "Dolutegravir: vorhergesagte neue Indikation Felines erworbenes Immundefizienzsyndrom (feline acquired immunodeficiency syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: HIV Infections"
 ---
 
 # Dolutegravir
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,100 +33,67 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-## Dolutegravir: Von HIV-Infektion zu felinem erworbenem Immundefizienzsyndrom
+## Dolutegravir: HIV-Integrase-Strang-Transfer-Inhibitor → Felines erworbenes Immundefizienzsyndrom (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
-## Zusammenfassung in einem Satz
+## Kurzzusammenfassung
 
-Dolutegravir ist ein Integrase-Strangtransfer-Inhibitor, der ursprünglich zur Behandlung von HIV-Infektionen zugelassen wurde.
-Das TxGNN-Modell sagt voraus, dass er bei **felinem erworbenem Immundefizienzsyndrom (FIV)** wirksam sein könnte.
-Dafür liegen **keine klinischen Studien** und **eine Publikation** (präklinisch/veterinärmedizinisch) vor. Die Evidenz ist daher sehr schwach.
+Dolutegravir ist ein Integrase-Strang-Transfer-Inhibitor gegen HIV. Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei **felinem erworbenem Immundefizienzsyndrom (feline acquired immunodeficiency syndrome)** wirksam sein könnte. Die Evidenz ist dünn: Es liegen **keine klinischen Studien** und **1 Publikation** vor, eine präklinische bzw. veterinärmedizinische Studie zu einer Kombinationstherapie.
 
----
-
-## Schnellübersicht
+## Überblick
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | HIV-Infektionen |
-| Vorhergesagte neue Indikation | Felines erworbenes Immundefizienzsyndrom (FIV) |
-| TxGNN-Vorhersagewert | 99,85 % |
-| Evidenzstufe | L4 |
-| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassungen |
-| Anzahl der Zulassungen | 4 (alle erloschen) |
+| Ursprüngliche Indikation | HIV Infections |
+| Vorhergesagte neue Indikation | Felines erworbenes Immundefizienzsyndrom (feline acquired immunodeficiency syndrome) |
+| TxGNN-Vorhersagewert | 0,9985 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 4 von 4) |
+| Anzahl der Zulassungen | 4 (gültig: 4) |
 | Empfohlene Entscheidung | Hold |
-
----
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Dolutegravir die virale Integrase von HIV-1 hemmt und so den Einbau der viralen DNA in das Wirtsgenom verhindert. Seine Wirksamkeit bei HIV-Infektionen ist belegt.
+Zu Dolutegravir liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Bekannt ist, dass Dolutegravir die Integrase von HIV-1 hemmt. Das Feline Immundefizienzvirus (FIV) ist ebenfalls ein Lentivirus und besitzt ein Integrase-Enzym, das dem HIV-Enzym strukturell verwandt ist. Daraus ergibt sich ein mechanistischer Denkansatz.
 
-Das Felines Immundefizienzvirus (FIV) ist wie HIV ein Lentivirus und besitzt eine strukturell verwandte Integrase. Daraus ergibt sich eine mechanistische Begründung. Die einzige gefundene Studie untersuchte jedoch eine Kombinations-Therapie (Dolutegravir, Tenofovir, Emtricitabin) bei FIV-infizierten Katzen; ob Dolutegravir allein getestet wurde, ist nicht erkennbar. Daten zu Sicherheit und Wirksamkeit von Dolutegravir bei Katzen fehlen.
+Dieser Ansatz ist bislang nicht belegt. Die einzige gefundene Publikation untersuchte eine Kombinationstherapie (Dolutegravir, Tenofovir, Emtricitabin) bei FIV-infizierten Katzen. Aus dem Titel geht nicht hervor, welchen Beitrag Dolutegravir allein leistet. Der hohe TxGNN-Wert ist eine rechnerische Vorhersage und kein klinischer Beleg. Da in dieser Veröffentlichung die Wirkung bei der Katze selbst untersucht wurde, ist sie für die vorhergesagte Erkrankung einschlägig. Die Studie ist jedoch präklinisch, weshalb der Evidenzgrad nicht höher als L5 angesetzt wird, bis Design und Ergebnisse geprüft sind.
 
-Der sehr hohe TxGNN-Wert ist eine rechnerische Vorhersage und kein klinischer Beleg.
-
-Zwei weitere vorhergesagte Indikationen sind zu erwähnen:
-- **Simian-Immundefizienzvirus-(SIV-)Infektion:** Es gibt präklinische Evidenz an Primaten (u. a. Dolutegravir-Monotherapie bei SIV-infizierten Makaken, PMID 30381490). SIV ist jedoch ein Tiermodell für HIV und keine eigenständige humane Indikation, sodass hier kaum echtes Repurposing vorliegt.
-- **Neuroentwicklungsstörung mit ataktischem Gang, fehlender Sprache und verminderter kortikaler weißer Substanz:** Es ist kein mechanistischer Zusammenhang erkennbar; der Wert ist vermutlich falsch positiv.
-
----
-
-## Klinische Evidenz
+## Evidenz aus klinischen Studien
 
 Derzeit sind keine zugehörigen klinischen Studien registriert.
 
----
+## Evidenz aus der Literatur
 
-## Literaturevidenz
-
-| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
+| PMID | Jahr | Typ | Zeitschrift | Kernaussagen |
 |------|-----|------|------|---------|
-| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Präklinisch/Veterinär | Viruses | Pharmakokinetik und klinische Ergebnisse einer Kombinations-Therapie (Dolutegravir, Tenofovir, Emtricitabin) bei FIV-infizierten Hauskatzen |
+| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Präklinische/veterinärmedizinische Studie | Viruses | Pharmakokinetik und klinische Verläufe einer Kombinationstherapie (Dolutegravir, Tenofovir, Emtricitabin) bei FIV-infizierten Katzen |
 
----
-
-## Informationen zum Markt in Deutschland
+## Marktinformationen Deutschland
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/002753 | Tivicay | – | HIV-Infektionen |
-| EMEA/H/C/004427 | Juluca | – | HIV-Infektionen |
-| EMEA/H/C/004909 | Dovato | – | HIV-Infektionen |
-| EMEA/H/C/002754 | Triumeq | – | HIV-Infektionen |
-
-Alle vier Zulassungen sind laut den Daten als erloschen geführt.
-
----
+| EMEA/H/C/002753 | Tivicay | – | – |
 
 ## Sicherheitsaspekte
 
-**Arzneimittelwechselwirkungen:** Insgesamt wurden 62 Wechselwirkungen identifiziert. Zu den Wechselwirkungen mit Schweregrad „Major" gehören u. a.:
-- Aluminiumhydroxid, Magaldrat
-- Calciumpräparate (Acetat, Carbonat, Citrat, Gluconat, Lactat, Phosphat u. a.)
-- Eisen
-- Magnesiumpräparate (Carbonat, Chlorid, Citrat u. a.)
-- Attapulgit, Kaolin
+**Arzneimittelwechselwirkungen** (62 Einträge in den zusammengestellten Daten, Auswahl):
+- **Schwerwiegend (Major):** Aluminiumhydroxid, Attapulgit, Calciumsalze (Acetat, Carbonat, Citrat, Gluconat, Lactat, Phosphat), Eisen, Kaolin, Magaldrat sowie Magnesiumsalze (Carbonat, Chlorid, Citrat). Es handelt sich überwiegend um polyvalente Kationen bzw. Antazida.
+- **Geringfügig (Minor):** Aprepitant, Cimetidin, Clarithromycin, Clotrimazol, Dexamethason.
 
-Als „Minor" eingestuft sind u. a. Aprepitant, Cimetidin, Clarithromycin, Clotrimazol und Dexamethason.
-
-Zu Warnhinweisen und Gegenanzeigen bitte die Fachinformation heranziehen.
-
----
+Für weitere Sicherheitsinformationen siehe die Fachinformation.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Für FIV gibt es nur eine einzelne präklinische Studie ohne klaren Dolutegravir-spezifischen Befund und keine klinischen Studien. Die SIV-Evidenz betrifft ein Tiermodell der bereits zugelassenen HIV-Indikation, und die dritte Vorhersage ist biologisch nicht begründet. Hinzu kommt, dass derzeit keine gültige Zulassung in Deutschland besteht.
+Für die vorhergesagte Erkrankung liegt lediglich eine einzelne präklinische Studie zu einer Kombinationstherapie vor, ohne klinische Studien und ohne Veterinär-Sicherheits- oder Wirksamkeitsdaten speziell zu Dolutegravir. Der hohe TxGNN-Wert allein reicht nicht aus.
 
-**Für das weitere Vorgehen ist Folgendes erforderlich:**
-- Detaillierte Wirkmechanismus-Daten (MOA)
-- Fachinformation mit Warnhinweisen und Gegenanzeigen (derzeit blockierende Datenlücke für die Sicherheitsbewertung)
-- Prüfung, ob Dolutegravir in der FIV-Studie einzeln bewertet wurde, sowie veterinärmedizinische Sicherheits- und Wirksamkeitsdaten
-- Klärung, ob die Indikation (veterinärmedizinisch bzw. Tiermodell) überhaupt ein sinnvolles Repurposing-Ziel für den Humanbereich darstellt
-- Klärung des Zulassungs- und Marktstatus in Deutschland
+**Für ein Weiterkommen sind erforderlich:**
+- Prüfung des Volltexts der FIV-Studie, um den Beitrag von Dolutegravir allein zu bewerten
+- Daten zu Wirksamkeit und Verträglichkeit von Dolutegravir bei Katzen
+- Angaben zum Wirkmechanismus (MOA) in den Arzneimitteldaten
+- Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

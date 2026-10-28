@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Budesonide
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 80
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Budesonide: vorhergesagte neue Indikation Bronchitis (Rang 2 der TxGNN-Vorhersagen) (Evidenzstufe L2). Ursprüngliche Indikation: Erkrankungen der Speiseröhre"
 monitor_inn: "BUDESONIDE"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
+last_modified_at: 2026-10-27
+description: "Budesonide: vorhergesagte neue Indikation Atopisches Ekzem (atopic eczema) (Evidenzstufe L5). Ursprüngliche Indikation: Esophageal Diseases"
 ---
 
 # Budesonide
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,111 +33,79 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Budesonid: Von chronisch-obstruktiver Lungenerkrankung/Asthma zu Bronchitis
+## Budesonid: Glukokortikoid → atopisches Ekzem (atopic eczema)
 {: .text-alpha }
 
 ## Zusammenfassung
 
-Budesonid ist ein Glukokortikoid, das in Deutschland bzw. der EU ursprünglich zur Behandlung von Erkrankungen der Speiseröhre sowie von Asthma und chronisch-obstruktiver Lungenerkrankung (COPD) zugelassen war.
-Das TxGNN-Modell sagt voraus, dass es bei **Bronchitis** wirksam sein könnte (Rang 2 der Vorhersagen; Rang 1, atopisches Ekzem, ist nur durch indirekte Literatur gestützt und ohne klinische Studien).
-Für Bronchitis liegen **10 registrierte klinische Studien** (davon nur wenige wirklich einschlägig) und **19 Publikationen** vor; die Evidenz ist unterstützend, aber indirekt.
-
----
+Budesonid ist ein Glukokortikoid mit entzündungshemmender und immunsuppressiver Wirkung. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **atopischem Ekzem (atopic eczema)** voraus (Score 0,9996). Für diese Vorhersage liegen in den zusammengestellten Daten **keine klinischen Studien** und nur **indirekte Literatur** vor; die Evidenz entspricht daher dem Niveau L5.
 
 ## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Erkrankungen der Speiseröhre; COPD und Asthma |
-| Vorhergesagte neue Indikation | Bronchitis (Rang 2 der TxGNN-Vorhersagen) |
-| TxGNN-Vorhersagewert | 99,81 % |
-| Evidenzstufe | L2 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 6 (alle erloschen) |
-| Empfohlene Entscheidung | Hold (zurückstellen) |
-
-Hinweis zur Auswahl: Das atopische Ekzem (Rang 1, Score 99,96 %) hat keine klinischen Studien und nur indirekte Literatur (Evidenzstufe L4, Empfehlung Hold). Bronchitis wurde als Schwerpunkt gewählt, weil hier die belastbarsten Daten vorliegen.
-
----
+| Ursprüngliche Indikation | Esophageal Diseases; Pulmonary Disease, Chronic Obstructive;Asthma; Asthma;Pulmonary Disease, Chronic Obstructive; Pulmonary Disease, Chronic Obstructive |
+| Vorhergesagte neue Indikation | Atopisches Ekzem (atopic eczema) |
+| TxGNN-Vorhersagewert | 0,9996 |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 6 von 6) |
+| Anzahl der Zulassungen | 6 (gültig: 6) |
+| Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu den Wirkmechanismen liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Budesonid ist jedoch ein potentes Glukokortikoid mit breiter entzündungshemmender und immunsuppressiver Wirkung. Inhaliertes Budesonid senkt die Atemwegsentzündung und ist bereits bei Asthma und COPD zugelassen bzw. war es.
+Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Budesonid ein potentes Glukokortikoid ist. Glukokortikoide hemmen die Bildung proentzündlicher Zytokine und die Einwanderung von Immunzellen in entzündetes Gewebe. Mechanistisch ist das für die Th2-getriebene Entzündung der Haut beim atopischen Ekzem denkbar, und topische Kortikosteroide sind eine etablierte Behandlungsklasse bei dieser Erkrankung.
 
-Asthma, COPD und Bronchitis sind entzündliche Atemwegserkrankungen. Der Wirkmechanismus lässt sich daher unmittelbar übertragen, insbesondere auf die eosinophile Bronchitis, bei der inhalative Kortikosteroide gut wirken. Allerdings handelt es sich bei den vorliegenden Studien überwiegend um verwandte Krankheitsbilder (Bronchiolitis, COPD) und nicht exakt um Bronchitis. Eine Phase-3-RCT speziell zur Bronchitis fehlt.
-
----
+Die gefundene Literatur ist jedoch indirekt. Sie betrifft vor allem eosinophile Ösophagitis, Kontaktallergien gegen Kortikosteroide, Sicherheitsfragen bei Kindern und eine präklinische Formulierungsstudie. Eine Studie, die Budesonid beim atopischen Ekzem am Menschen auf Wirksamkeit prüft, ist nicht enthalten. Deshalb bleibt die Vorhersage vorerst eine Modellhypothese.
 
 ## Klinische Studien
 
-| Studiennummer | Phase | Status | Teilnehmer | Zentrale Erkenntnisse |
-|---------|------|------|------|---------|
-| [NCT00624754](https://clinicaltrials.gov/study/NCT00624754) | Phase 2 | Abgeschlossen | 32 | Budesonid/Formoterol bei Bronchiolitis obliterans nach allogener Stammzelltransplantation |
-| [NCT01560689](https://clinicaltrials.gov/study/NCT01560689) | Phase 2 | Abgeschlossen | 32 | Offene Studie zu Budesonid/Formoterol bei Bronchiolitis obliterans, ohne Kontrollarm |
-| [NCT00483743](https://clinicaltrials.gov/study/NCT00483743) | Phase 2 | Abgeschlossen | 62 | Randomisierte, placebo- und aktiv kontrollierte 6-Wochen-Studie (TPI 1020 vs. Budesonid) bei COPD |
-| [NCT03436225](https://clinicaltrials.gov/study/NCT03436225) | Phase 1 | Unbekannt | 80 | Steroidtherapie bei akuter Bronchiolitis; Steroid nicht sicher Budesonid |
-| [NCT02002715](https://clinicaltrials.gov/study/NCT02002715) | Phase 4 | Abgeschlossen | 106 | Vergleich unterschiedlicher Behandlungsdauern inhalativer Kortikosteroide bei eosinophiler Bronchitis |
-| [NCT06571942](https://clinicaltrials.gov/study/NCT06571942) | Phase 4 | Unbekannt | 128 | Inhalative Tripeltherapien und kleine Atemwege bei COPD/chronischer Bronchitis; Budesonid vermutlich nur Bestandteil |
-| [NCT00202189](https://clinicaltrials.gov/study/NCT00202189) | Phase 4 | Abgeschlossen | 4 | Physiologische Studie zu inhalativen Kortikosteroiden bei COPD; zu klein für Aussagen |
-| [NCT01432080](https://clinicaltrials.gov/study/NCT01432080) | Phase 2 | Abgebrochen | 12 | Immunsuppression bei transplantationsassoziierter Lungenerkrankung; nur indirekt relevant |
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-Zwei weitere gelistete Studien (Ibrutinib bei chronischer GVHD, Ivermectin bei COVID-19) haben keinen Bezug zu Budesonid und werden nicht aufgeführt.
+## Literaturevidenz
 
----
+Die Auswahl zeigt die thematisch nächsten Arbeiten. Keine davon prüft die Wirksamkeit von Budesonid beim atopischen Ekzem am Menschen.
 
-## Literatur
-
-| PMID | Jahr | Typ | Journal | Zentrale Erkenntnisse |
+| PMID | Jahr | Typ | Journal | Kernaussage |
 |------|-----|------|------|---------|
-| [31015757](https://pubmed.ncbi.nlm.nih.gov/31015757/) | 2019 | Metaanalyse | Int J Chron Obstruct Pulmon Dis | Risiken von Budesonid/Formoterol bei stabiler COPD gegenüber Placebo bzw. Monotherapie |
-| [37954384](https://pubmed.ncbi.nlm.nih.gov/37954384/) | 2023 | Metaanalyse | Heliyon | Inhalation von Budesonid und Ambroxol bei Kindern mit Pneumonie und Wirkung auf die Entzündungsreaktion |
-| [10780759](https://pubmed.ncbi.nlm.nih.gov/10780759/) | 2000 | Klinische Studie | Eur Respir J | Atemwegsentzündung, Hyperreagibilität und Husten vor und nach inhaliertem Budesonid bei eosinophiler Bronchitis |
-| [28810628](https://pubmed.ncbi.nlm.nih.gov/28810628/) | 2017 | Klinische Studie (randomisiert) | Exp Ther Med | Budesonid plus Terbutalin per Aerosol bei akuter asthmatischer Bronchitis im Kindesalter, verglichen mit Dexamethason-Infusion (60 Kinder) |
-| [11129126](https://pubmed.ncbi.nlm.nih.gov/11129126/) | 2000 | Review | Drugs | Budesonid-Inhalationssuspension bei entzündlichen Atemwegserkrankungen von Säuglingen, Kindern und Erwachsenen |
-| [42110010](https://pubmed.ncbi.nlm.nih.gov/42110010/) | 2026 | Review/Fallbericht | Cureus | Nichtasthmatische eosinophile Bronchitis als übersehene Ursache chronischen Hustens bei Kindern; gutes Ansprechen auf inhalative Steroide |
-| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Leitlinie | Basic Clin Pharmacol Toxicol | Finnische Leitlinie zu Diagnostik und Pharmakotherapie der stabilen COPD |
-| [8620234](https://pubmed.ncbi.nlm.nih.gov/8620234/) | 1996 | Studie | Arch Pediatr Adolesc Med | Frühe entzündungshemmende Therapie (Cromoglicinsäure oder Budesonid) und Giemen nach Bronchiolitis |
-| [24000786](https://pubmed.ncbi.nlm.nih.gov/24000786/) | 2013 | Veterinärstudie | J Small Anim Pract | Inhalatives Budesonid bei Katzen mit chronischer Bronchialerkrankung |
-| [9057793](https://pubmed.ncbi.nlm.nih.gov/9057793/) | 1997 | Review | Pediatr Clin North Am | Fortschritte bei der Behandlung von Bronchiolitis und Laryngitis |
-
----
+| [38275852](https://pubmed.ncbi.nlm.nih.gov/38275852/) | 2024 | Präklinische Formulierungsstudie | Gels | Budesonid-beladene pH-sensitive Nanopartikel in Hydrogelen für die lokale Therapie der atopischen Dermatitis |
+| [16428071](https://pubmed.ncbi.nlm.nih.gov/16428071/) | 2006 | Laborstudie | International Immunopharmacology | Budesonid beeinflusst die Immunfunktionen normaler menschlicher Keratinozyten, Tacrolimus nicht |
+| [9496795](https://pubmed.ncbi.nlm.nih.gov/9496795/) | 1998 | Offene Studie | Pediatric Dermatology | Knemometrie bei Kindern mit atopischer Dermatitis unter topischem Budesonid zur Beurteilung der Wachstumswirkung |
+| [31705907](https://pubmed.ncbi.nlm.nih.gov/31705907/) | 2020 | Review | J Allergy Clin Immunol | Neue Therapien der eosinophilen Ösophagitis, u. a. topische Steroide |
+| [14616123](https://pubmed.ncbi.nlm.nih.gov/14616123/) | 2003 | Review | Allergy | Kortikosteroid-Allergie bei Asthma |
+| [33931866](https://pubmed.ncbi.nlm.nih.gov/33931866/) | 2021 | Epikutantest-Studie | Contact Dermatitis | Epikutantests mit Budesonid in der italienischen Basisserie |
+| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Review | Neuroimmunomodulation | Intranasale Kortikosteroide und Nebennierensuppression |
+| [37927648](https://pubmed.ncbi.nlm.nih.gov/37927648/) | 2023 | Fallbericht | Cureus | Steroidinduziertes Angioödem und Urtikaria |
 
 ## Marktinformationen Deutschland
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004655 | Jorveza | – | Erkrankungen der Speiseröhre |
-| EMEA/H/C/002348 | DuoResp Spiromax | – | COPD; Asthma |
-| EMEA/H/C/003890 | BiResp Spiromax | – | COPD; Asthma |
-| EMEA/H/C/004882 | GoResp Digihaler | – | Asthma; COPD |
-| EMEA/H/C/004983 | Trixeo Aerosphere | – | COPD |
-
-Eine sechste Zulassung (Riltrava Aerosphere, COPD, EMEA/H/C/005311) ist ebenfalls erloschen. Alle 6 Zulassungen sind als erloschen geführt; aktuell gültige Zulassungen bestehen laut den vorliegenden Daten nicht.
-
----
+| EMEA/H/C/004655 | Jorveza | – | Siehe Zulassungsdaten |
+| EMEA/H/C/002348 | DuoResp Spiromax | – | Siehe Zulassungsdaten |
+| EMEA/H/C/003890 | BiResp Spiromax | – | Siehe Zulassungsdaten |
+| EMEA/H/C/004882 | GoResp Digihaler | – | Siehe Zulassungsdaten |
+| EMEA/H/C/004983 | Trixeo Aerosphere | – | Siehe Zulassungsdaten |
 
 ## Sicherheitsaspekte
 
-- **Kontraindikationen aus dem Wissensgraphen (kein Packungsbeilagentext):** Der TxGNN-Wissensgraph verzeichnet unter anderem Bluthochdruck, Epilepsie, Lebererkrankungen, Gallenblasenerkrankungen, Hyperglykämie, Masern, Herzinsuffizienz, Herpes-simplex-Keratitis sowie verschiedene Formen von Hypophysenunterfunktion und Wachstumshormonmangel.
-- **Arzneimittelwechselwirkungen:** 100 Wechselwirkungen wurden erfasst. Als **schwerwiegend (Major)** eingestuft sind unter anderem **Adalimumab** und **Fosamprenavir**. Mittelgradig (Moderate) sind u. a. Zidovudin, Isotretinoin, Acebutolol, Ketorolac, Nifedipin, Ibuprofen, Ethinylestradiol, Fluvoxamin und Fosaprepitant. Geringfügig (Minor) sind Formoterol und Salbutamol.
-- **Aus der Literatur:** Kortikosteroid-Kontaktallergie, mögliche Nebennierensuppression und Wachstumseffekte bei Kindern sowie ein Pneumonie-Risiko bei Budesonid/Formoterol in der COPD-Metaanalyse.
+- **Arzneimittelinteraktionen:** Die Interaktionsabfrage ergab 100 Einträge. Als schwerwiegend (Major) eingestuft sind unter anderem Adalimumab und Fosamprenavir. Zu den mäßigen Wechselwirkungen zählen z. B. Zidovudin, Isotretinoin, Nifedipin, Ibuprofen, Ketorolac und Fluvoxamin. Formoterol und Salbutamol sind als gering (Minor) eingestuft.
+- **Relevante Hinweise aus der Literatur:** Kortikosteroide können Kontaktallergien auslösen, besonders bei Patienten mit atopischer Dermatitis. Bei Kindern wurden unter topischen Glukokortikoiden Einflüsse auf Wachstum sowie Knochen- und Kollagenumsatz untersucht.
 
-Für Warnhinweise und Gegenanzeigen aus der Fachinformation ist die Packungsbeilage heranzuziehen; diese Daten liegen nicht vor.
-
----
+Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenz für Bronchitis ist unterstützend, aber indirekt: kleine Phase-2- und Phase-4-Studien zu verwandten Krankheitsbildern, keine Phase-3-RCT. Zudem gibt es in Deutschland derzeit keine gültige Zulassung, und die Sicherheitsprüfung kann ohne die Fachinformation nicht abgeschlossen werden.
+Die Vorhersage stützt sich auf einen sehr hohen Modellscore, jedoch gibt es weder klinische Studien noch direkte Wirksamkeitsdaten beim Menschen. Die vorhandene Literatur ist indirekt oder betrifft vor allem Sicherheitsfragen wie Kontaktallergie.
 
-**Für das weitere Vorgehen wird benötigt:**
-- Fachinformation (Warnhinweise, Gegenanzeigen) von BfArM beschaffen und auswerten, um die Sicherheitsprüfung abzuschließen
-- Detaillierte Wirkmechanismus-Daten (z. B. aus DrugBank) ergänzen
-- Gezielte RCT-Daten zu Bronchitis (insbesondere eosinophile Bronchitis) und eine Klärung des aktuellen Zulassungsstatus
-- Bewertung der Wechselwirkungen mit den als schwerwiegend eingestuften Arzneimitteln (Adalimumab, Fosamprenavir) sowie des Pneumonie-Risikos
+**Für ein Weiterkommen sind erforderlich:**
+- Kontrollierte klinische Studien zu Budesonid beim atopischen Ekzem, einschließlich Vergleich mit etablierten topischen Kortikosteroiden
+- Prüfung der Verträglichkeit und Systemwirkung bei topischer Anwendung, besonders bei Kindern
+- Daten zum Wirkmechanismus und zur Eignung der Darreichungsform für die Haut
+- Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

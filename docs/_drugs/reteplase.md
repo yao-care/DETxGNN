@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Reteplase
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 396
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Reteplase: vorhergesagte neue Indikation Posterolateraler Myokardinfarkt (Evidenzstufe L4). Ursprüngliche Indikation: Myokardinfarkt"
 monitor_inn: "RETEPLASE"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "heparin cofactor 2 deficiency", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "antithrombin deficiency type 2", "hemolytic anemia due to glucophosphate isomerase deficiency"]
+description: "Reteplase: vorhergesagte neue Indikation Congenital coronary artery anomaly (Evidenzstufe L5). Ursprüngliche Indikation: Myocardial Infarction"
 ---
 
 # Reteplase
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Reteplase: Von Myokardinfarkt zu posterolateralem Myokardinfarkt
+## Reteplase: Congenital coronary artery anomaly
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -46,12 +46,12 @@ Reteplase ist ein rekombinanter Gewebeplasminogenaktivator (Thrombolytikum), der
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Myokardinfarkt |
-| Vorhergesagte neue Indikation | Posterolateraler Myokardinfarkt |
-| TxGNN-Vorhersagewert | 99,90 % |
-| Evidenzgrad | L4 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Ursprüngliche Indikation | Myocardial Infarction |
+| Vorhergesagte neue Indikation | Congenital coronary artery anomaly |
+| TxGNN-Vorhersagewert | 0.9980 |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten k
 
 Der posterolaterale Myokardinfarkt ist ein anatomischer Untertyp des Myokardinfarkts. Der Mechanismus (Wiedereröffnung des thrombotisch verschlossenen Koronargefäßes) ist daher grundsätzlich übertragbar. Der sehr hohe TxGNN-Wert spiegelt wahrscheinlich die Nähe in der Krankheitsontologie zur ursprünglichen Indikation wider und nicht neue Evidenz. Es handelt sich somit nicht um einen echten Repurposing-Kandidaten.
 
-Weitere Vorhersagen mit hohen Werten sind teils ebenfalls Untertypen des Infarkts (posteroinferior, septal), teils mechanistisch kaum plausibel (z. B. Chromosomendeletion, Glukosephosphat-Isomerase-Mangel, wahrscheinlich Artefakte des Graphen).
+Weitere Vorhersagen mit hohen Werten sind teils mechanistisch kaum plausibel (z. B. Chromosomendeletion, Glukosephosphat-Isomerase-Mangel). Die Werte stammen vom TxGNN-Modell (Deep Learning) und können vom Modell gelernte Ähnlichkeiten zwischen verwandten Erkrankungen widerspiegeln, nicht biologische Evidenz.
 
 ---
 

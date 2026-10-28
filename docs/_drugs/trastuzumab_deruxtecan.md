@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-## Trastuzumab Deruxtecan: Von Brustneoplasmen zu medikamenteninduzierter Osteoporose
+## Trastuzumab Deruxtecan: Medikamenteninduzierte Osteoporose
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,10 +48,10 @@ Trastuzumab deruxtecan ist ein HER2-gerichtetes Antikörper-Wirkstoff-Konjugat, 
 |------|------|
 | Ursprüngliche Indikation | Brustneoplasmen |
 | Vorhergesagte neue Indikation | Medikamenteninduzierte Osteoporose |
-| TxGNN-Vorhersagewert | 99,31 % |
+| TxGNN-Vorhersagewert | 0,9931 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung (Zulassung storniert) |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -60,7 +60,7 @@ Trastuzumab deruxtecan ist ein HER2-gerichtetes Antikörper-Wirkstoff-Konjugat, 
 
 Die Plausibilität ist gering. Trastuzumab deruxtecan ist ein HER2-gerichtetes Antikörper-Wirkstoff-Konjugat mit einem Topoisomerase-I-Inhibitor als Wirkstoffanteil (Deruxtecan). Für das Arzneimittel liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor.
 
-Für eine Rolle im Knochenstoffwechsel gibt es keinen belegten mechanistischen Zusammenhang. Der Wirkstoff hat keine bekannte Funktion bei der Regulation von Osteoklasten oder Osteoblasten und nicht in den RANKL- oder Wnt-Signalwegen. Ein möglicher Zusammenhang wäre rein spekulativ, etwa über indirekte Effekte der zytotoxischen Nutzlast auf den Knochenumsatz, und würde eher auf eine Knochentoxizität als auf einen Nutzen hindeuten. Der hohe Vorhersagewert könnte ein Artefakt der Graphtopologie des Wissensgraphen sein und nicht biologische Relevanz widerspiegeln.
+Für eine Rolle im Knochenstoffwechsel gibt es keinen belegten mechanistischen Zusammenhang. Der Wirkstoff hat keine bekannte Funktion bei der Regulation von Osteoklasten oder Osteoblasten und nicht in den RANKL- oder Wnt-Signalwegen. Ein möglicher Zusammenhang wäre rein spekulativ, etwa über indirekte Effekte der zytotoxischen Nutzlast auf den Knochenumsatz, und würde eher auf eine Knochentoxizität als auf einen Nutzen hindeuten. Der hohe Vorhersagewert (0.9931) stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht aber biologische Evidenz.
 
 Zudem eignen sich zytotoxische Onkologika in der Regel nicht für eine chronische, nicht-maligne Erkrankung wie Osteoporose. Das Nutzen-Risiko-Verhältnis (interstitielle Lungenerkrankung, Myelosuppression, Kardiotoxizität, Übelkeit) ist dafür ungünstig.
 
@@ -84,7 +84,7 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 |---------|------|------|-----------|
 | EMEA/H/C/005124 | Enhertu | – | Brustneoplasmen |
 
-Hinweis: Diese Zulassung ist als erloschen (storniert) geführt. Aktuell besteht keine gültige Zulassung in den erfassten Daten.
+Hinweis: Diese Zulassung ist gültig. Von 1 erfassten Zulassung ist 1 gültig; das Arzneimittel ist im Handel.
 
 ---
 
@@ -118,7 +118,7 @@ Für Warnhinweise und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinform
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem Wissensgraphen-Modell (Evidenzniveau L5) ohne klinische Studien oder Publikationen, und es gibt keinen plausiblen mechanistischen Zusammenhang zwischen dem Wirkstoff und dem Knochenstoffwechsel. Hinzu kommt das ungünstige Nutzen-Risiko-Profil eines zytotoxischen Onkologikums bei einer chronischen, nicht-malignen Erkrankung sowie die derzeit erloschene Zulassung in Deutschland.
+Die Vorhersage beruht ausschließlich auf dem TxGNN-Modell (Deep Learning, Evidenzniveau L5) ohne klinische Studien oder Publikationen, und es gibt keinen plausiblen mechanistischen Zusammenhang zwischen dem Wirkstoff und dem Knochenstoffwechsel. Hinzu kommt das ungünstige Nutzen-Risiko-Profil eines zytotoxischen Onkologikums bei einer chronischen, nicht-malignen Erkrankung.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Daten zum Wirkmechanismus (MOA), z. B. über die DrugBank-Abfrage

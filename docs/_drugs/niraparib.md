@@ -6,9 +6,9 @@ nav_order: 316
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Niraparib: vorhergesagte neue Indikation Zystische Neoplasie (Cystic Neoplasm) (Evidenzstufe L5). Ursprüngliche Indikation: Tuben-, Peritoneal- und Ovarialkarzinom"
 monitor_inn: "NIRAPARIB"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
+description: "Niraparib: vorhergesagte neue Indikation Epiglottis neoplasm (Evidenzstufe L5). Ursprüngliche Indikation: Fallopian Tube Neoplasms"
 ---
 
 # Niraparib
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Niraparib: Von Eierstockkrebs zu zystischer Neoplasie (Cystic Neoplasm)
+## Niraparib: Epiglottis neoplasm
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -47,12 +47,12 @@ Das TxGNN-Modell sagt voraus, dass er bei **zystischer Neoplasie (Cystic Neoplas
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Tuben-, Peritoneal- und Ovarialkarzinom |
-| Vorhergesagte neue Indikation | Zystische Neoplasie (Cystic Neoplasm) |
-| TxGNN-Vorhersagewert | 99,99 % |
-| Evidenzgrad | L2 (vorläufig) |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide aufgehoben) |
+| Ursprüngliche Indikation | Fallopian Tube Neoplasms;Peritoneal Neoplasms;Ovarian Neoplasms; Prostatic Neoplasms, Castration-Resistant |
+| Vorhergesagte neue Indikation | Epiglottis neoplasm |
+| TxGNN-Vorhersagewert | 0.9999 |
+| Evidenzgrad | L5 (vorläufig) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -98,8 +98,8 @@ Die übrigen Top-10-Vorhersagen (z. B. Epiglottis-Neoplasie, gutartige Neoplasie
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004249 | Zejula | – | Tuben-, Peritoneal- und Ovarialkarzinom (aufgehoben) |
-| EMEA/H/C/005932 | Akeega | – | Kastrationsresistentes Prostatakarzinom (aufgehoben) |
+| EMEA/H/C/004249 | Zejula | – | Tuben-, Peritoneal- und Ovarialkarzinom (gültig) |
+| EMEA/H/C/005932 | Akeega | – | Kastrationsresistentes Prostatakarzinom (gültig) |
 
 ---
 

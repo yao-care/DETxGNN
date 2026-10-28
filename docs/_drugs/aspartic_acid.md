@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-## Asparaginsäure: Von der Ahornsirupkrankheit zur renalen tubulären Azidose
+## Asparaginsäure: Renale tubuläre Azidose
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,10 +48,10 @@ Asparaginsäure (Handelsname Maapliv) wurde ursprünglich zur Behandlung der Aho
 |------|------|
 | Ursprüngliche Indikation | Ahornsirupkrankheit (Maple Syrup Urine Disease) |
 | Vorhergesagte neue Indikation | Renale tubuläre Azidose |
-| TxGNN-Vorhersagewert | 99,47 % |
+| TxGNN-Vorhersagewert | 0,9947 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -91,7 +91,7 @@ Keine dieser Publikationen belegt die Wirksamkeit von Asparaginsäure bei renale
 |---------|------|------|-----------|
 | EMEA/H/C/005557 | Maapliv | – | Ahornsirupkrankheit (Maple Syrup Urine Disease) |
 
-Die Zulassung (Inhaber: Recordati Rare Diseases) ist aufgehoben; es besteht keine gültige Zulassung.
+Das Arzneimittel ist in Deutschland im Handel; 1 von 1 Zulassung ist gültig (Inhaber: Recordati Rare Diseases).
 
 ---
 
@@ -108,7 +108,7 @@ Bemerkenswert ist, dass „Nierenerkrankung“ als Kontraindikation geführt wir
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage hat zwar einen sehr hohen Modellwert, wird aber weder durch klinische Studien noch durch Literatur zur Behandlung gestützt (Evidenzgrad L5). Die Standardtherapie (Alkalitherapie) ist etabliert, und die in der Wissensbasis hinterlegte Kontraindikation „Nierenerkrankung“ spricht zusätzlich für Zurückhaltung. Zudem besteht in Deutschland keine gültige Zulassung.
+Die Vorhersage hat zwar einen sehr hohen Modellwert, wird aber weder durch klinische Studien noch durch Literatur zur Behandlung gestützt (Evidenzgrad L5). Die Standardtherapie (Alkalitherapie) ist etabliert, und die in der Wissensbasis hinterlegte Kontraindikation „Nierenerkrankung“ spricht zusätzlich für Zurückhaltung. Das Arzneimittel ist in Deutschland im Handel; 1 von 1 Zulassung ist gültig.
 
 **Für ein Weiterkommen erforderlich:**
 - Daten zum Wirkmechanismus (MOA), z. B. über DrugBank

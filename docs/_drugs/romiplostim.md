@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Romiplostim: Von idiopathischer thrombozytopenischer Purpura zu primärer Freisetzungsstörung der Thrombozyten
+## Romiplostim: Primäre Thrombozyten-Freisetzungsstörung
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Romiplostim (Handelsname Nplate) wurde ursprünglich zur Behandlung der idiopath
 |------|------|
 | Ursprüngliche Indikation | Idiopathische thrombozytopenische Purpura |
 | Vorhergesagte neue Indikation | Primäre Freisetzungsstörung der Thrombozyten |
-| TxGNN-Vorhersagewert | 99,99 % |
+| TxGNN-Vorhersagewert | 0,9999 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung (nicht mehr vermarktet) |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -60,9 +60,9 @@ Romiplostim (Handelsname Nplate) wurde ursprünglich zur Behandlung der idiopath
 
 Daten zum Wirkmechanismus liegen im für diesen Bericht zusammengestellten Datenbestand nicht vor. Aus der Pharmakologiedatenbank ist jedoch bekannt, dass Romiplostim ein Peptid ist, das den Thrombopoietin-Rezeptor (MPL) aktiviert und dadurch die Thrombozytenproduktion steigert. Seine Wirksamkeit bei ITP ist belegt.
 
-Bei der vorhergesagten Indikation ist die mechanistische Verbindung jedoch **schwach**. Primäre Freisetzungsstörungen sind qualitative Funktionsdefekte der Thrombozyten (gestörte Granulafreisetzung). Eine Erhöhung der Thrombozytenzahl behebt diesen Defekt nicht. Die einzige gefundene Publikation (PMID 25682608) befasst sich mit ITP und zeigt, dass Autoantikörper die Bildung von Proplättchen hemmen. Sie stützt die ITP-Begründung, nicht die vorhergesagte Indikation. Der hohe TxGNN-Wert spiegelt wahrscheinlich die Nähe zur ITP im Wissensgraphen wider.
+Bei der vorhergesagten Indikation ist die mechanistische Verbindung jedoch **schwach**. Primäre Freisetzungsstörungen sind qualitative Funktionsdefekte der Thrombozyten (gestörte Granulafreisetzung). Eine Erhöhung der Thrombozytenzahl behebt diesen Defekt nicht. Die einzige gefundene Publikation (PMID 25682608) befasst sich mit ITP und zeigt, dass Autoantikörper die Bildung von Proplättchen hemmen. Sie stützt die ITP-Begründung, nicht die vorhergesagte Indikation. Der hohe Wert des TxGNN-Modells (Deep Learning) von 1.0000 kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, und ist kein biologischer Beleg.
 
-Unter den weiteren Vorhersagen ist die **fetale und neonatale alloimmune Thrombozytopenie (FNAIT)** (Rang 4, Wert 99,99 %, Evidenzstufe L4) mechanistisch am plausibelsten. Sie ist eine immunvermittelte Thrombozytopenie mit Nähe zur ITP, und thrombopoetische Substanzen wurden für die neonatale Anwendung diskutiert. Sie ist als Forschungsfrage einzustufen. Plazentagängigkeit, fetale Sicherheit und neonatale Dosierung sind ungeklärt. Außerdem kommen ein genotypabhängiges Ansprechen bei angeborenen Thrombozytopenien (Rang 6 und 9) als mögliche, aber unbewiesene Ansätze in Betracht.
+Unter den weiteren Vorhersagen ist die **fetale und neonatale alloimmune Thrombozytopenie (FNAIT)** (Rang 4, Wert 0,9999, Evidenzstufe L4) mechanistisch am plausibelsten. Sie ist eine immunvermittelte Thrombozytopenie mit Nähe zur ITP, und thrombopoetische Substanzen wurden für die neonatale Anwendung diskutiert. Sie ist als Forschungsfrage einzustufen. Plazentagängigkeit, fetale Sicherheit und neonatale Dosierung sind ungeklärt. Außerdem kommen ein genotypabhängiges Ansprechen bei angeborenen Thrombozytopenien (Rang 6 und 9) als mögliche, aber unbewiesene Ansätze in Betracht.
 
 ---
 
@@ -86,7 +86,7 @@ Für die Vorhersage FNAIT liegen zusätzlich Übersichtsarbeiten und Fallbericht
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000942 | Nplate | – | Idiopathische thrombozytopenische Purpura (Status: erloschen) |
+| EMEA/H/C/000942 | Nplate | – | Idiopathische thrombozytopenische Purpura (Status: gültig) |
 
 ---
 
@@ -104,7 +104,7 @@ Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die vorhergesagte Indikation gibt es weder klinische Studien noch direkt relevante Literatur (Evidenzstufe L5), und die mechanistische Verbindung ist schwach: Eine höhere Thrombozytenzahl behebt keinen qualitativen Funktionsdefekt. Zudem besteht in Deutschland keine gültige Zulassung mehr.
+Für die vorhergesagte Indikation gibt es weder klinische Studien noch direkt relevante Literatur (Evidenzstufe L5), und die mechanistische Verbindung ist schwach: Eine höhere Thrombozytenzahl behebt keinen qualitativen Funktionsdefekt. Zudem ist das Arzneimittel in Deutschland im Handel (1 von 1 Zulassung gültig).
 
 **Für ein Weiterkommen sind erforderlich:**
 - Daten zum Wirkmechanismus (MOA) aus DrugBank

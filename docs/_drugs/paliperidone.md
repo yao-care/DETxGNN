@@ -4,7 +4,7 @@ title: Paliperidone
 parent: Nur Modellvorhersage (L5)
 nav_order: 338
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Paliperidone: vorhergesagte neue Indikation Retinale Dystrophie mit oder ohne extraokulare Anomalien (Evidenzstufe L5). Ursprüngliche Indikation: Schizophrenie"
 monitor_inn: "PALIPERIDONE"
@@ -14,7 +14,7 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 # Paliperidone
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Paliperidon: Von Schizophrenie zu retinaler Dystrophie (mit oder ohne extraokulare Anomalien)
+## Paliperidon: Von Schizophrenie zu Retinale Dystrophie mit oder ohne extraokulare Anomalien
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Paliperidon wurde ursprünglich zur Behandlung von Schizophrenie und psychotisch
 |------|------|
 | Ursprüngliche Indikation | Schizophrenie; psychotische Störungen |
 | Vorhergesagte neue Indikation | Retinale Dystrophie mit oder ohne extraokulare Anomalien |
-| TxGNN-Vorhersagewert | 99,92 % |
+| TxGNN-Vorhersagewert | 0,9992 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -64,7 +64,6 @@ Ein plausibler Wirkweg von dieser Rezeptorblockade zu erblich bedingter Netzhaut
 
 Auch die weiteren Top-Vorhersagen wirken mechanistisch wenig überzeugend: mehrere Myopie-Formen (X-chromosomal, syndromisch), strukturelle Hirnfehlbildungen (Hydranenzephalie, Polymikrogyrie), eine Glykosylierungsstörung, eine demyelinisierende Neuropathie (Charcot-Marie-Tooth Typ 1G) und die atypische Glycin-Enzephalopathie. Bei Myopie könnte eine D2-Blockade sogar nachteilig sein, da retinales Dopamin als schützend gegen das Fortschreiten der Myopie gilt.
 
-Die einzige inhaltlich nahe Vorhersage ist die **therapierefraktäre Schizophrenie** (Rang 10, Score 99,80 %). Sie ist praktisch eine Erweiterung der zugelassenen Population und kein echtes Repurposing. Clozapin bleibt hier der Standard.
 
 ---
 
@@ -101,9 +100,9 @@ Zur therapierefraktären Schizophrenie (indirekte Evidenz):
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000746 | Invega | – | Schizophrenie; psychotische Störungen (Status: erloschen) |
+| EMEA/H/C/000746 | Invega | – | Schizophrenie; psychotische Störungen (Status: gültig) |
 
-Es besteht derzeit keine gültige Zulassung in Deutschland.
+Das Arzneimittel ist in Deutschland im Handel; 1 von 1 Zulassung ist gültig.
 
 ---
 

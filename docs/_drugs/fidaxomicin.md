@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Clostridien-Infektionen |
 | Vorhergesagte neue Indikation | Staphylococcal Scalded Skin Syndrome |
-| TxGNN-Vorhersagewert | 99,71 % |
+| TxGNN-Vorhersagewert | 0,9971 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -68,14 +68,14 @@ Weitere Vorhersagen des Modells (jeweils ebenfalls nur Modellprognose, Evidenzle
 
 | Rang | Vorhergesagte Indikation | Score | Einschätzung |
 |---|---|---|---|
-| 2 | Bullöses Impetigo | 99,70 % | Lokale Infektion; keine topische Formulierung, wirksame Standardtherapien vorhanden |
-| 3 | Inhalatives Botulismus | 99,69 % | Toxinvermittelt; Standard sind Antitoxin und Supportivtherapie |
-| 4 | Impetigo | 99,68 % | Wirksame topische Alternativen (z. B. Mupirocin) |
-| 5 | Toxinvermittelter infektiöser Botulismus | 99,66 % | Theoretisch darmlokale Wirkung, aber keine Evidenz |
-| 6 | Vulvovaginale Candidiasis | 99,65 % | Pilzinfektion; keine bekannte antimykotische Wirkung |
-| 7 | Hordeolum | 99,64 % | Keine ophthalmische Formulierung |
-| 8 | Staphylococcus-aureus-Pneumonie | 99,21 % | Vernachlässigbare Lungengewebeexposition |
-| 9 | Punktförmige epitheliale Keratokonjunktivitis | 99,02 % | Spekulativ; keine Augendaten |
+| 2 | Bullöses Impetigo | 0,9970 | Lokale Infektion; keine topische Formulierung, wirksame Standardtherapien vorhanden |
+| 3 | Inhalatives Botulismus | 0,9969 | Toxinvermittelt; Standard sind Antitoxin und Supportivtherapie |
+| 4 | Impetigo | 0,9968 | Wirksame topische Alternativen (z. B. Mupirocin) |
+| 5 | Toxinvermittelter infektiöser Botulismus | 0,9966 | Theoretisch darmlokale Wirkung, aber keine Evidenz |
+| 6 | Vulvovaginale Candidiasis | 0,9965 | Pilzinfektion; keine bekannte antimykotische Wirkung |
+| 7 | Hordeolum | 0,9964 | Keine ophthalmische Formulierung |
+| 8 | Staphylococcus-aureus-Pneumonie | 0,9921 | Vernachlässigbare Lungengewebeexposition |
+| 9 | Punktförmige epitheliale Keratokonjunktivitis | 0,9902 | Spekulativ; keine Augendaten |
 
 ---
 

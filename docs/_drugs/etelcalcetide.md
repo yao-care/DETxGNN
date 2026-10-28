@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine registrierten klinischen Studien** und **6 Publika
 |------|------|
 | Ursprüngliche Indikation | Sekundärer Hyperparathyreoidismus |
 | Vorhergesagte neue Indikation | Hyperphosphatämie |
-| TxGNN-Vorhersagewert | 99,42 % |
+| TxGNN-Vorhersagewert | 0,9942 |
 | Evidenzstufe | L3 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -126,9 +126,9 @@ Die Verbindung zwischen Etelcalcetid und Hyperphosphatämie ist biologisch plaus
 
 | Indikation | TxGNN-Wert | Evidenzstufe | Empfehlung |
 |------|------|------|------|
-| Ösophagusvarizen ohne Blutung | 99,35 % | L5 | Hold |
-| Ösophagusvarizen mit Blutung | 99,35 % | L5 | Hold |
-| Varikose | 99,09 % | L5 | Hold |
+| Ösophagusvarizen ohne Blutung | 0,9935 | L5 | Hold |
+| Ösophagusvarizen mit Blutung | 0,9935 | L5 | Hold |
+| Varikose | 0,9909 | L5 | Hold |
 
 Für diese Vorhersagen ist kein mechanistischer Zusammenhang erkennbar, und es liegen weder Studien noch Literatur vor.
 ## Haftungsausschluss

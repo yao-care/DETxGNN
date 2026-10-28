@@ -5,10 +5,10 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 221
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
-description: "Halofuginone: vorhergesagte neue Indikation Schwere nichtproliferative diabetische Retinopathie (Evidenzstufe L5). Ursprüngliche Indikation: Nicht verfügbar (in den Zulassungsdaten keine Indikationst…"
 monitor_inn: "HALOFUGINONE"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
+last_modified_at: 2026-10-27
+description: "Halofuginone: vorhergesagte neue Indikation Schwere nichtproliferative diabetische Retinopathie (severe nonproliferative diabetic retinopathy) (Evidenzstufe L5). Ursprüngliche Indikation: In den loka…"
 ---
 
 # Halofuginone
@@ -33,63 +33,60 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-## Halofuginon: Von einer nicht dokumentierten Indikation zur diabetischen Retinopathie
+## Halofuginon: Prolyl-tRNA-Synthetase-Hemmer → schwere nichtproliferative diabetische Retinopathie (severe nonproliferative diabetic retinopathy)
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 
-Für Halofuginon liegt in den für diesen Bericht zusammengestellten Daten keine dokumentierte ursprüngliche Indikation vor; die beiden Zulassungen sind in Deutschland erloschen bzw. storniert. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **schwerer nichtproliferativer diabetischer Retinopathie** (Score 99,46 %) sowie bei **diabetischer Retinopathie** (Score 99,04 %) voraus. Es liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor, die diese Richtung stützen.
+Halofuginon ist ein Wirkstoff, der nach allgemeinem Kenntnisstand die Prolyl-tRNA-Synthetase hemmt. Das TxGNN-Modell sagt voraus, dass er bei **schwerer nichtproliferativer diabetischer Retinopathie (severe nonproliferative diabetic retinopathy)** wirksam sein könnte. Für diese Richtung liegen in den zusammengestellten Daten **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modellwert.
 
 ---
 
-## Kurzüberblick
+## Schnellübersicht
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht verfügbar (in den Zulassungsdaten keine Indikationstexte hinterlegt) |
-| Vorhergesagte neue Indikation | Schwere nichtproliferative diabetische Retinopathie |
-| TxGNN-Vorhersagewert | 99,46 % |
-| Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/stornierte Zulassungen |
-| Anzahl der Zulassungen | 2 (beide storniert) |
+| Ursprüngliche Indikation | In den lokalen Daten nicht erfasst |
+| Vorhergesagte neue Indikation | Schwere nichtproliferative diabetische Retinopathie (severe nonproliferative diabetic retinopathy) |
+| TxGNN-Vorhersagewert | 0,9946 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine Angaben vor. Aus allgemeinem Fachwissen (nicht durch die vorliegenden Daten belegt) gilt Halofuginon als Inhibitor der Prolyl-tRNA-Synthetase. Es unterdrückt die TGF-β/Smad3-Signalübertragung, die Kollagen-Typ-I-Synthese und die Th17-Differenzierung.
+Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Nach allgemeinem Wissen hemmt Halofuginon die Prolyl-tRNA-Synthetase und unterdrückt dadurch den TGF-beta/Smad3-Signalweg, die Kollagen-Typ-I-Synthese sowie die Differenzierung von Th17-Zellen.
 
-Diese Eigenschaften könnten mechanistisch zu fibrovaskulärer Proliferation und Entzündungsprozessen bei diabetischer Retinopathie passen. Die schwere nichtproliferative Retinopathie ist ein Vorstadium der proliferativen Form, sodass ein antifibrotischer oder antiangiogener Ansatz denkbar wäre. Dies ist jedoch eine Hypothese und bedarf einer präklinischen Validierung.
+Diese Effekte könnten mit fibrovaskulärer Proliferation und Entzündungsprozessen bei der diabetischen Retinopathie zusammenhängen. Dies ist jedoch eine Hypothese aus allgemeinem Wissen und wird durch die vorliegenden Daten nicht gestützt. Die schwere nichtproliferative Form ist ein Vorstadium der proliferativen Retinopathie; eine antifibrotische oder antiangiogene Begründung müsste daher präklinisch überprüft werden.
 
-Die zweite Vorhersage (diabetische Retinopathie allgemein) überschneidet sich stark mit der ersten und geht wahrscheinlich auf dasselbe Modellsignal zurück. Sie ist daher keine unabhängige Bestätigung. Der hohe TxGNN-Wert ist eine rechnerische Vorhersage und kein Wirksamkeitsnachweis.
+Die zweite Vorhersage (diabetische Retinopathie allgemein) überschneidet sich inhaltlich mit dieser und beruht wahrscheinlich auf demselben Modellsignal. Sie ist daher keine unabhängige Bestätigung.
 
 ---
 
 ## Klinische Evidenz
 
-Derzeit sind keine zugehörigen klinischen Studien registriert.
+Derzeit sind keine relevanten klinischen Studien registriert.
 
 ---
 
 ## Literaturevidenz
 
-Derzeit liegt keine zugehörige Literatur vor.
+Derzeit liegt keine relevante Literatur vor.
 
 ---
 
-## Marktinformationen Deutschland
+## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/V/C/000040 | Halocur | – | – (storniert) |
-| EMEA/V/C/004868 | Kriptazen | – | – (storniert) |
+Laut den zusammengestellten Daten sind zwei Zulassungen erfasst (Halocur, Kriptazen); Angaben zu Darreichungsform und Indikationstext liegen nicht vor.
 
 ---
 
 ## Sicherheitsaspekte
 
-Informationen zur Sicherheit entnehmen Sie bitte der Packungsbeilage. Für Wechselwirkungen wurden in den zusammengestellten Daten keine Einträge gefunden. Daten zur retinalen Sicherheit oder zur okulären Applikation liegen nicht vor.
+Hinweise zur Sicherheit entnehmen Sie bitte der Packungsbeilage. Für Wechselwirkungen wurden in den zusammengestellten Daten keine Einträge gefunden. Daten zur Netzhautsicherheit oder zur okulären Anwendung liegen nicht vor.
 
 ---
 
@@ -98,14 +95,14 @@ Informationen zur Sicherheit entnehmen Sie bitte der Packungsbeilage. Für Wechs
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem Computermodell, ohne klinische oder literaturbasierte Evidenz (Evidenzlevel L5). Zudem sind die Zulassungen storniert, und Mechanismus- sowie Sicherheitsdaten fehlen.
+Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert (0,9946), ohne klinische Studien oder Publikationen zur Erkrankung. Ein Modellwert ist kein Wirksamkeitsnachweis.
 
-**Für ein Fortschreiten sind folgende Schritte erforderlich:**
+**Für ein Weiterkommen sind folgende Schritte nötig:**
 - Systematische Literaturrecherche, um möglicherweise übersehene Evidenz auszuschließen
-- Präklinische Validierung in In-vitro- und In-vivo-Netzhautmodellen
-- Bewertung der okulären Sicherheit und der Applikationswege
-- Vollständige Mechanismusdaten (MOA), z. B. über DrugBank
-- Warnhinweise und Gegenanzeigen aus der Packungsbeilage (BfArM)
+- In-vitro- und In-vivo-Untersuchungen in Netzhautmodellen
+- Bewertung von okulärer Sicherheit und Applikationsweg
+- Beschaffung der Warnhinweise und Gegenanzeigen aus der Packungsbeilage
+- Detaillierte Mechanismusdaten (MOA)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

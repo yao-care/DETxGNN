@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-## Ranolazin: Von Angina pectoris zum nephrogenen Syndrom der inadäquaten Antidiurese (NSIAD)
+## Ranolazin: Nephrogenes Syndrom der inadäquaten Antidiurese
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -46,10 +46,10 @@ Ranolazin wurde ursprünglich zur Behandlung der **Angina pectoris** zugelassen.
 |------|------|
 | Ursprüngliche Indikation | Angina pectoris |
 | Vorhergesagte neue Indikation | Nephrogenes Syndrom der inadäquaten Antidiurese (NSIAD) |
-| TxGNN-Vorhersagewert | 99,65 % |
+| TxGNN-Vorhersagewert | 0,9965 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
@@ -58,7 +58,7 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten k
 
 NSIAD wird durch aktivierende Mutationen des Vasopressin-V2-Rezeptors (AVPR2) verursacht. Diese führen zu einer konstitutiven Rezeptoraktivität und zu Wasserretention unabhängig von Vasopressin. Ein belastbarer mechanistischer Zusammenhang zwischen Ranolazin und dieser Erkrankung ist nicht belegt. Denkbar, aber rein spekulativ, wären Effekte auf die renale Natriumhandhabung oder auf die cAMP-/Aquaporin-2-Signalwege. Hierfür liegen keine unterstützenden Daten vor.
 
-Der sehr hohe TxGNN-Wert (0,996) ist lediglich eine rechnerische Vorhersage und ersetzt keine klinische oder mechanistische Evidenz. Zudem ist NSIAD eine extrem seltene Erkrankung, was die Validierung erschwert; die Vorhersage könnte auch auf Netzwerk- bzw. Graph-Artefakten beruhen.
+Der sehr hohe TxGNN-Wert (0,9965) ist lediglich eine rechnerische Vorhersage des TxGNN-Modells (Deep Learning) und ersetzt keine klinische oder mechanistische Evidenz. Der Wert kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, und stellt keinen biologischen Beleg dar. Zudem ist NSIAD eine extrem seltene Erkrankung, was die Validierung erschwert.
 
 ## Evidenz aus klinischen Studien
 
@@ -91,7 +91,7 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Kontraindikationen laut Fac
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzlevel L5), ohne klinische Studien, Literatur oder validierten mechanistischen Zusammenhang. Zudem besteht in Deutschland derzeit keine gültige Zulassung, und die Kontraindikationen im Wissensgraphen (QT-Verlängerung, Nieren- und Lebererkrankungen) erfordern besondere Vorsicht.
+Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzlevel L5), ohne klinische Studien, Literatur oder validierten mechanistischen Zusammenhang. Zudem ist das Arzneimittel in Deutschland im Handel (1 von 1 Zulassung gültig), und die Kontraindikationen (QT-Verlängerung, Nieren- und Lebererkrankungen) erfordern besondere Vorsicht.
 
 **Zur Weiterverfolgung sind folgende Schritte nötig:**
 - Vollständige Daten zum Wirkmechanismus (z. B. aus DrugBank) und Prüfung eines plausiblen Zusammenhangs mit AVPR2-/Aquaporin-2-Signalwegen

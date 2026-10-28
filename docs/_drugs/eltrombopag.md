@@ -50,10 +50,10 @@ Die Evidenz ist begrenzt: **1 klinische Studie** (nur indirekt relevant, vorzeit
 |------|------|
 | Ursprüngliche Indikation | Idiopathische thrombozytopenische Purpura; aplastische Anämie |
 | Vorhergesagte neue Indikation | HIV-Infektionskrankheit |
-| TxGNN-Vorhersagewert | 99,26 % |
+| TxGNN-Vorhersagewert | 0,9926 |
 | Evidenzniveau | L3 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung (Status „Cancelled only“) |
-| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -95,7 +95,7 @@ Diese Studie darf nicht als direkte Phase-3-Evidenz für HIV gewertet werden.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/001110 | Revolade (Novartis Europharm Limited) | Nicht angegeben | Idiopathische thrombozytopenische Purpura; aplastische Anämie (Status: erloschen) |
+| EMEA/H/C/001110 | Revolade (Novartis Europharm Limited) | Nicht angegeben | Idiopathische thrombozytopenische Purpura; aplastische Anämie (Status: gültig) |
 
 ---
 
@@ -115,7 +115,7 @@ Für Warnhinweise und Gegenanzeigen laut Fachinformation liegen keine Daten vor;
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenz für HIV beschränkt sich auf Fallberichte, Übersichtsarbeiten und ein präklinisches Screening. Die einzige gelistete Studie ist vorzeitig beendet und nur indirekt relevant. Der hohe TxGNN-Wert wird durch eine rein hämatologische (nicht antivirale) Begründung nur teilweise gestützt. Zudem besteht in Deutschland keine gültige Zulassung.
+Die Evidenz für HIV beschränkt sich auf Fallberichte, Übersichtsarbeiten und ein präklinisches Screening. Die einzige gelistete Studie ist vorzeitig beendet und nur indirekt relevant. Der hohe TxGNN-Wert wird durch eine rein hämatologische (nicht antivirale) Begründung nur teilweise gestützt. Zudem ist das Arzneimittel in Deutschland im Handel und besitzt 1 gültige Zulassung (von 1).
 
 **Für ein Fortschreiten ist Folgendes erforderlich:**
 - Prüfung der Population und des Beendigungsgrundes der Studie NCT00678587

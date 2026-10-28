@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-## Fenfluramin: Von myoklonischer Epilepsie zum 16p11.2-Mikrodeletionssyndrom (proximal)
+## Fenfluramin: Proximales 16p11.2-Mikrodeletionssyndrom
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,10 +48,10 @@ Fenfluramin ist ein serotoninfreisetzender Wirkstoff, der in Deutschland bzw. de
 |------|------|
 | Ursprüngliche Indikation | Myoklonische Epilepsien |
 | Vorhergesagte neue Indikation | Proximales 16p11.2-Mikrodeletionssyndrom |
-| TxGNN-Vorhersagewert | 99,93 % |
+| TxGNN-Vorhersagewert | 0,9993 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur gelöschte (erloschene) Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Zu Fenfluramin liegen in den für diesen Bericht zusammengestellten Daten keine 
 
 Die 16p11.2-Mikrodeletion wird mit Epilepsie, Merkmalen aus dem Autismus-Spektrum und weiteren neuroentwicklungsbedingten Auffälligkeiten in Verbindung gebracht. Theoretisch könnte eine Anfallskontrolle durch Fenfluramin daher einen Nutzen haben. Diese Verbindung ist **spekulativ** und durch die vorliegenden Daten nicht gestützt. Der hohe Modellwert allein ist kein Wirksamkeitsnachweis.
 
-Zur Einordnung: Die weiteren Vorhersagen des Modells (Hypervitaminose, obsoletes Hypertelorismus-Konzept, Frontorhiny) haben ebenfalls Werte über 99 %, besitzen aber keinen erkennbaren mechanistischen Bezug und sind vermutlich Artefakte des Wissensgraphen. Das zeigt, dass hohe Scores allein wenig aussagekräftig sind.
+Zur Einordnung: Die weiteren Vorhersagen des TxGNN-Modells (Deep Learning) (Hypervitaminose 0.9992, obsoletes Hypertelorismus-Konzept 0.9986, Frontorhiny 0.9978) haben ebenfalls sehr hohe Scores, besitzen aber keinen erkennbaren mechanistischen Bezug. Die Scores stammen aus dem TxGNN-Modell (Deep Learning) und können Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. Das zeigt, dass hohe Scores allein wenig aussagekräftig sind.
 
 ---
 

@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-## Alpelisib: Von Brustneoplasmen zu pulmonaler Hypertonie
+## Alpelisib: Pulmonale Hypertonie
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,10 +48,10 @@ Alpelisib wurde ursprünglich zur Behandlung von Brustneoplasmen (Brustkrebs) ei
 |------|------|
 | Ursprüngliche Indikation | Brustneoplasmen (Brustkrebs) |
 | Vorhergesagte neue Indikation | Pulmonale Hypertonie |
-| TxGNN-Vorhersagewert | 99,03 % |
+| TxGNN-Vorhersagewert | 0,9903 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---

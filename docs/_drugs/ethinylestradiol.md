@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-## Ethinylestradiol: Von Kontrazeption zu erhöhtem Plasmazink
+## Ethinylestradiol: Von Kontrazeption zu Erhöhtes Plasmazink
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,10 +48,10 @@ Ethinylestradiol ist ein synthetisches Östrogen, das ursprünglich zur **Kontra
 |------|------|
 | Ursprüngliche Indikation | Kontrazeption |
 | Vorhergesagte neue Indikation | Erhöhtes Plasmazink (zinc, elevated plasma) |
-| TxGNN-Vorhersagescore | 99,63 % |
+| TxGNN-Vorhersagescore | 0,9963 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -60,7 +60,7 @@ Ethinylestradiol ist ein synthetisches Östrogen, das ursprünglich zur **Kontra
 
 Zum Wirkmechanismus von Ethinylestradiol liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass die Substanz ein Östrogen ist, das an die Östrogenrezeptoren α (ESR1) und β (ESR2) bindet. Zudem ist eine Wechselwirkung mit dem protonengekoppelten Aminosäuretransporter 1 (SLC36A1) verzeichnet.
 
-Die Verbindung zwischen der ursprünglichen und der neuen Indikation ist schwach. Die Vorhersage beruht allein auf dem hohen Score im Wissensgraphen. Ein denkbarer, aber unbestätigter Weg wäre, dass Östrogene die Zinkzirkulation beeinflussen, etwa über Zink-bindende Proteine wie Albumin und Caeruloplasmin oder über die hepatische Metallothionein-Expression. In der Literatur wird die Einnahme oraler Kontrazeptiva mit Veränderungen von Serumzink und -kupfer in Verbindung gebracht. Dabei handelt es sich jedoch überwiegend um Abnahmen oder Umverteilungen, nicht um eine Therapie erhöhter Zinkspiegel. Die Wirkrichtung ist daher unklar und könnte dem therapeutischen Nutzen sogar entgegenlaufen.
+Die Verbindung zwischen der ursprünglichen und der neuen Indikation ist schwach. Die Vorhersage beruht allein auf dem hohen Score des TxGNN-Modells (Deep Learning). Ein denkbarer, aber unbestätigter Weg wäre, dass Östrogene die Zinkzirkulation beeinflussen, etwa über Zink-bindende Proteine wie Albumin und Caeruloplasmin oder über die hepatische Metallothionein-Expression. In der Literatur wird die Einnahme oraler Kontrazeptiva mit Veränderungen von Serumzink und -kupfer in Verbindung gebracht. Dabei handelt es sich jedoch überwiegend um Abnahmen oder Umverteilungen, nicht um eine Therapie erhöhter Zinkspiegel. Die Wirkrichtung ist daher unklar und könnte dem therapeutischen Nutzen sogar entgegenlaufen.
 
 Erhöhtes Plasmazink ist zudem eher ein Laborbefund als eine klar definierte Erkrankung mit etabliertem Therapieziel. Die klinische Begründung für ein Repurposing ist deshalb schwach.
 
@@ -84,7 +84,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/000410 | Evra | – | Kontrazeption |
 
-Hinweis: Diese Zulassung ist erloschen. Aktuell ist in Deutschland keine gültige Zulassung mit diesem Wirkstoff als Einzelpräparat oder Kombination verzeichnet.
+Hinweis: In Deutschland ist das Arzneimittel im Handel; 1 von 1 Zulassung ist gültig.
 
 ---
 
@@ -109,7 +109,7 @@ Für verbindliche Warnhinweise und Kontraindikationen ist die Fachinformation he
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich allein auf einen hohen Modellscore (Evidenzlevel L5), ohne Studien oder Publikationen. Die Wirkrichtung ist unklar, erhöhtes Plasmazink ist ein Laborbefund ohne etabliertes Therapieziel, und in Deutschland besteht keine gültige Zulassung.
+Die Vorhersage stützt sich allein auf einen hohen Modellscore (Evidenzlevel L5), ohne Studien oder Publikationen. Die Wirkrichtung ist unklar, erhöhtes Plasmazink ist ein Laborbefund ohne etabliertes Therapieziel. In Deutschland ist das Arzneimittel im Handel (1 von 1 Zulassung gültig).
 
 **Für ein Weiterkommen sind folgende Punkte nötig:**
 - Prüfung der Fachinformation (Warnhinweise und Gegenanzeigen) für die Sicherheitsbewertung, da diese derzeit fehlt

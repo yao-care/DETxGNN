@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Eptifibatid: Von instabiler Angina pectoris und Myokardinfarkt zu rheumatoider Arthritis
+## Eptifibatid: Rheumatoide Arthritis
 {: .text-alpha }
 
 ## Zusammenfassung in Kürze
@@ -48,10 +48,10 @@ Eptifibatid ist ein intravenös gegebener Thrombozytenaggregationshemmer und war
 |------|------|
 | Ursprüngliche Indikation | Instabile Angina pectoris; Myokardinfarkt |
 | Vorhergesagte neue Indikation | Rheumatoide Arthritis |
-| TxGNN-Vorhersagewert | 99,99 % |
+| TxGNN-Vorhersagewert | 0,9999 |
 | Evidenzlevel | L5 (nur Modellvorhersage) |
-| Marktstatus in Deutschland | Keine gültige Zulassung (nur erloschene/aufgehobene Zulassungen) |
-| Anzahl der Zulassungen | 2 (beide aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -84,8 +84,8 @@ Beide Zulassungen sind aufgehoben. Es handelt sich um zentrale EU-Zulassungen (E
 
 | Zulassungsnummer | Produktname | Hersteller | Zugelassene Indikation | Status |
 |---------|------|------|-----------|------|
-| EMEA/H/C/000230 | Integrilin | GlaxoSmithKline Trading Services Limited | Instabile Angina pectoris; Myokardinfarkt | Aufgehoben |
-| EMEA/H/C/004104 | Eptifibatide Accord | Accord Healthcare S.L.U. | Myokardinfarkt | Aufgehoben |
+| EMEA/H/C/000230 | Integrilin | GlaxoSmithKline Trading Services Limited | Instabile Angina pectoris; Myokardinfarkt | Gültig |
+| EMEA/H/C/004104 | Eptifibatide Accord | Accord Healthcare S.L.U. | Myokardinfarkt | Gültig |
 
 ---
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Etanercept
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 183
-evidence_level: L4
-indication_count: 6
-last_modified_at: 2026-10-14
-description: "Etanercept: vorhergesagte neue Indikation Rheumatoide Vaskulitis (Evidenzstufe L4). Ursprüngliche Indikation: Psoriasis-Arthritis, Psoriasis, juvenile rheumatoide Arthritis…"
+evidence_level: L5
+indication_count: 3
 monitor_inn: "ETANERCEPT"
-predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
+predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
+last_modified_at: 2026-10-27
+description: "Etanercept: vorhergesagte neue Indikation Steißbeinhypermobilität (hypermobility of coccyx) (Evidenzstufe L5). Ursprüngliche Indikation: Arthritis, Psoriatic"
 ---
 
 # Etanercept
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **6** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,113 +33,71 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-## Etanercept: Von rheumatischen Gelenk- und Hauterkrankungen zur rheumatoiden Vaskulitis
+## Etanercept: TNF-Inhibitor → Steißbeinhypermobilität (hypermobility of coccyx)
 {: .text-alpha }
 
 ## Zusammenfassung
 
-Etanercept ist ein TNF-Blocker, der ursprünglich zur Behandlung von rheumatoider Arthritis, Psoriasis-Arthritis, juveniler Arthritis, Morbus Bechterew und Psoriasis zugelassen wurde.
-Das TxGNN-Modell sagt voraus, dass es auch bei **rheumatoider Vaskulitis** wirksam sein könnte.
-Dafür liegen derzeit **1 klinische Studie** (nur indirekt relevant) und **20 Publikationen** vor, die aber überwiegend auf Nebenwirkungen und Fallberichte hinweisen und keine Wirksamkeit belegen.
+Etanercept ist ein löslicher TNF-Rezeptor-Fusionsprotein-Wirkstoff (TNF-Inhibitor). Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Steißbeinhypermobilität (hypermobility of coccyx)** voraus. Für diese Vorhersage liegen **keine klinischen Studien** und **keine Publikationen** vor; sie beruht ausschließlich auf der Modellberechnung.
 
----
-
-## Schnellübersicht
+## Kurzübersicht
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Psoriasis-Arthritis, Psoriasis, juvenile rheumatoide Arthritis, rheumatoide Arthritis, Morbus Bechterew (ankylosierende Spondylitis) |
-| Vorhergesagte neue Indikation | Rheumatoide Vaskulitis |
-| TxGNN-Vorhersagewert | 99,71 % |
-| Evidenzstufe | L4 |
-| Marktstatus in Deutschland | Nur erloschene Zulassungen (kein aktuell gültiges Produkt) |
-| Anzahl der Zulassungen | 5 (alle erloschen) |
+| Ursprüngliche Indikation | Arthritis, Psoriatic;Psoriasis;Arthritis, Juvenile Rheumatoid;Arthritis, Rheumatoid;Spondylitis, Ankylosing; Spondylitis, Ankylosing;Arthritis, Juvenile Rheumatoid;Arthritis, Psoriatic;Psoriasis;Arthritis, Rheumatoid; Arthritis, Rheumatoid;Arthritis, Juvenile;Arthritis, Psoriatic;Axial Spondyloarthr |
+| Vorhergesagte neue Indikation | Steißbeinhypermobilität (hypermobility of coccyx) |
+| TxGNN-Vorhersagewert | 0,9963 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 4 von 5) |
+| Anzahl der Zulassungen | 5 (gültig: 4) |
 | Empfohlene Entscheidung | Hold |
-
----
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Etanercept ist ein löslicher TNF-Rezeptor-Fusionsprotein-Köder, der TNF-alpha abfängt. Seine Wirksamkeit bei rheumatoider Arthritis ist belegt, und es könnte mechanistisch auch bei der rheumatoiden Vaskulitis anwendbar sein.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Etanercept ein löslicher TNF-Rezeptor-Fusionsprotein ist, das TNF-vermittelte Entzündungsprozesse hemmt.
 
-Die rheumatoide Vaskulitis ist eine schwere extraartikuläre Komplikation der rheumatoiden Arthritis, bei der TNF-alpha eine zentrale Rolle spielt. Daraus ergibt sich eine biologische Begründung für die Vorhersage. Eine systematische Übersichtsarbeit (2021) hat den Einsatz biologischer Arzneimittel bei dieser Erkrankung untersucht.
+Für die Steißbeinhypermobilität ist ein plausibler TNF-getriebener Mechanismus bisher nicht identifiziert worden. Es handelt sich um eine mechanische bzw. strukturelle Erkrankung, nicht primär um eine entzündliche. Der hohe Vorhersagewert ist daher eine rein rechnerische Aussage ohne belastbare mechanistische oder klinische Untermauerung. Die Ähnlichkeit zur ursprünglichen Indikation wurde bislang nicht bewertet.
 
-Die Datenlage ist jedoch in ihrer Richtung uneindeutig. Mehrere Fallberichte und Kohortendaten beschreiben **Vaskulitis und Nephropathie als Nebenwirkungen unter Etanercept**. Eine TNF-Blockade könnte bei manchen Patienten also paradoxerweise eine Vaskulitis auslösen. Die Vorhersage bleibt deshalb vorerst eine Hypothese.
+## Evidenz aus klinischen Studien
 
----
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-## Klinische Evidenz
+## Evidenz aus der Literatur
 
-| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
-|---------|------|------|------|---------|
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Rekrutierend | 80 | Management von Immunsuppressiva bei rheumatologischen Patienten vor einer Schulterendoprothese (Schübe, Schmerz, Wundkomplikationen). Etanercept wird nicht gezielt bei Vaskulitis geprüft, daher nur geringe Relevanz. |
+Derzeit liegt keine zugehörige Literatur vor.
 
----
+## Informationen zum deutschen Markt
 
-## Literaturevidenz
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004192 | Erelzi | – | Psoriasis-Arthritis, Psoriasis, juvenile rheumatoide Arthritis, rheumatoide Arthritis, Spondylitis ankylosans |
+| EMEA/H/C/000262 | Enbrel | – | Spondylitis ankylosans, juvenile rheumatoide Arthritis, Psoriasis-Arthritis, Psoriasis, rheumatoide Arthritis |
+| EMEA/H/C/006738 | Fubelv | – | Rheumatoide Arthritis, juvenile Arthritis, Psoriasis-Arthritis, axiale Spondyloarthritis, nicht-röntgenologische axiale Spondyloarthritis... |
+| EMEA/H/C/004711 | Nepexto | – | Rheumatoide Arthritis, juvenile rheumatoide Arthritis, Psoriasis-Arthritis, Spondylarthropathien, Spondylitis ankylosans... |
+| EMEA/H/C/004007 | Benepali | – | Psoriasis-Arthritis, rheumatoide Arthritis, Psoriasis |
 
-| PMID | Jahr | Typ | Journal | Kernaussagen |
-|------|-----|------|------|---------|
-| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Systematische Übersichtsarbeit | Clinical Rheumatology | Systematische Auswertung (PRISMA) zum Einsatz biologischer Arzneimittel bei rheumatoider Vaskulitis, einer schweren extraartikulären Manifestation der RA |
-| [28391344](https://pubmed.ncbi.nlm.nih.gov/28391344/) | 2017 | Übersichtsarbeit | Nephrology Dialysis Transplantation | Diskutiert die Rolle der TNF-alpha-Blockade bei ANCA-assoziierter Vaskulitis und Glomerulonephritis |
-| [16624928](https://pubmed.ncbi.nlm.nih.gov/16624928/) | 2006 | Übersichtsarbeit | J Am Soc Nephrol | Rolle von TNF-alpha bei ANCA-assoziierter Vaskulitis, abgeleitet aus Erfahrungen bei anderen chronisch-entzündlichen Erkrankungen |
-| [15853915](https://pubmed.ncbi.nlm.nih.gov/15853915/) | 2005 | Übersichtsarbeit | Scand J Immunol | Immunologie der kutanen Vaskulitis unter Etanercept und Infliximab (seltene Autoimmunphänomene) |
-| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Kohortenstudie (Register) | RMD Open | Arzneimittelspezifisches Risiko für lupus- und vaskulitisähnliche Ereignisse unter TNF-Hemmern bei RA im Vergleich zu konventionellen DMARDs |
-| [10955351](https://pubmed.ncbi.nlm.nih.gov/10955351/) | 2000 | Fallbericht | J Rheumatol | Erster Fall einer leukozytoklastischen Vaskulitis unter Etanercept bei schwerer RA |
-| [12209493](https://pubmed.ncbi.nlm.nih.gov/12209493/) | 2002 | Fallbericht | Arthritis Rheum | Beschleunigte Nodulose und Vaskulitis nach Etanercept-Therapie bei RA |
-| [25544845](https://pubmed.ncbi.nlm.nih.gov/25544845/) | 2014 | Fallbericht | Case Rep Med | Vaskulitis großer Gefäße bei einer RA-Patientin unter Anti-TNF-Therapie |
-| [19648728](https://pubmed.ncbi.nlm.nih.gov/19648728/) | 2009 | Fallbericht | Dermatology | Disseminierter Herpes zoster, der unter Etanercept eine rheumatoide Vaskulitis vortäuschte |
-| [31632872](https://pubmed.ncbi.nlm.nih.gov/31632872/) | 2019 | Fallbericht | Cureus | Etanercept-assoziierte Nephropathie |
+## Sicherheitsaspekte
 
----
+- **Arzneimittelwechselwirkungen** (100 Einträge in den Daten, Auswahl):
+  - Schwerwiegend (Major): Hydrocortison, Triamcinolon, Dexamethason, Betamethason, Budesonid, Prednison, Prednisolon, Deferipron, Iobenguan (I-131), Ibritumomab-Tiuxetan, Tositumomab (I-131), Tositumomab
+  - Moderat: Metronidazol, Rosuvastatin, Simvastatin, Tinidazol
+  - Gering (Minor): Zinksulfat, Zinkacetat, Zinkgluconat
 
-## Marktinformationen Deutschland
-
-Für Etanercept liegen fünf Zulassungen vor, alle mit dem Status „erloschen“.
-
-| Zulassungsnummer | Produktname | Zugelassene Indikation |
-|---------|------|-----------|
-| EMEA/H/C/004192 | Erelzi (Sandoz GmbH) | Psoriasis-Arthritis, Psoriasis, juvenile rheumatoide Arthritis, rheumatoide Arthritis, Morbus Bechterew |
-| EMEA/H/C/000262 | Enbrel (Pfizer Europe MA EEIG) | Morbus Bechterew, juvenile rheumatoide Arthritis, Psoriasis-Arthritis, Psoriasis, rheumatoide Arthritis |
-| EMEA/H/C/006738 | Fubelv (Biosimilar Collaborations Ireland Limited) | Rheumatoide Arthritis, juvenile Arthritis, Psoriasis-Arthritis, axiale Spondyloarthritis, nicht-röntgenologische axiale Spondyloarthritis, Morbus Bechterew, Psoriasis |
-| EMEA/H/C/004711 | Nepexto (Biosimilar Collaborations Ireland Limited) | Rheumatoide Arthritis, juvenile rheumatoide Arthritis, Psoriasis-Arthritis, Spondylarthropathien, Morbus Bechterew, Psoriasis |
-| EMEA/H/C/004007 | Benepali (Samsung Bioepis NL B.V.) | Psoriasis-Arthritis, rheumatoide Arthritis, Psoriasis |
-
----
-
-## Sicherheitshinweise
-
-**Arzneimittelwechselwirkungen** (insgesamt 100 erfasst, hier die wichtigsten):
-- **Schwerwiegend (Major):**
-  - Kortikosteroide: Hydrocortison, Prednison, Prednisolon, Dexamethason, Betamethason, Budesonid, Triamcinolon (auch ophthalmisch)
-  - Deferipron
-  - Radiopharmaka bzw. radioaktiv markierte Antikörper: Iobenguan (I-131), Ibritumomab-Tiuxetan, Tositumomab (auch I-131)
-- **Moderat:** Metronidazol, Tinidazol, Rosuvastatin, Simvastatin
-- **Gering:** Zinksulfat, Zinkacetat, Zinkgluconat
-
-**Hinweise aus der Literatur:**
-- Vaskulitis (kutan und großgefäßig), lupusähnliche Ereignisse und Nephropathie als seltene Nebenwirkungen unter Etanercept
-- Erhöhtes Infektionsrisiko, darunter Herpes zoster, der eine Vaskulitis vortäuschen kann
-
-Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) siehe die Fachinformation.
-
----
+Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) bitte die Fachinformation heranziehen.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Der hohe TxGNN-Wert ist eine reine Modellvorhersage. Es gibt keine klinische Studie, die Etanercept bei rheumatoider Vaskulitis prüft, und die Literatur beschreibt überwiegend Vaskulitis als Nebenwirkung der Therapie. Die Evidenz ist daher indirekt und widersprüchlich (Stufe L4).
+Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzstufe L5). Es gibt weder klinische Studien noch Literatur, und ein plausibler TNF-vermittelter Mechanismus für eine mechanische Steißbeinerkrankung ist nicht erkennbar.
 
-**Für ein Weiterkommen sind erforderlich:**
-- Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen), da diese Sicherheitsdaten fehlen
-- Detaillierte Wirkmechanismus-Daten (MOA) zur Bewertung des mechanistischen Zusammenhangs
-- Genaue Auswertung der systematischen Übersichtsarbeit (PMID 33058033) zur Frage, ob Etanercept bei rheumatoider Vaskulitis nützt oder schadet
-- Prospektive Daten oder kontrollierte Studien speziell zu Etanercept bei rheumatoider Vaskulitis
-- Prüfung des Zulassungs- und Versorgungsstatus in Deutschland, da aktuell alle fünf Zulassungen erloschen sind
-
-**Hinweis zu den übrigen Vorhersagen:** Für entzündliche Spondylopathie und polyartikuläre juvenile rheumatoide Arthritis stützen Phase-3-Studien bereits bestehende, zugelassene Anwendungen. Sie sind daher keine echte Neuverwendung. Die Vorhersagen zu Steißbeinhypermobilität und Kümmell-Krankheit haben keine Evidenz und keinen plausiblen TNF-bezogenen Mechanismus.
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Prüfung, ob ein biologisch plausibler Mechanismus (z. B. entzündliche Beteiligung) besteht
+- Systematische Literaturrecherche zur Steißbeinhypermobilität und zu TNF-Hemmung
+- Detaillierte Wirkmechanismus-Daten (MOA) ergänzen
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) für die Sicherheitsbewertung
+- Klärung der Anwendungswege und Darreichungsformen für die vorgeschlagene Indikation
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

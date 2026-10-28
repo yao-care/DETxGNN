@@ -6,9 +6,9 @@ nav_order: 407
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Ritonavir: vorhergesagte neue Indikation Simiane Immundefizienzvirus-Infektion (SIV) (Evidenzstufe L4). Ursprüngliche Indikation: HIV-Infektion"
 monitor_inn: "RITONAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Ritonavir: vorhergesagte neue Indikation Simian immunodeficiency virus infection (Evidenzstufe L4). Ursprüngliche Indikation: HIV Infections"
 ---
 
 # Ritonavir
@@ -33,7 +33,7 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-## Ritonavir: Von HIV-Infektion zur Simianen Immundefizienzvirus-Infektion
+## Ritonavir: Simian immunodeficiency virus infection
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,12 +48,12 @@ Hierfür liegen **keine klinischen Studien** und **10 Publikationen** vor, über
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | HIV-Infektion; COVID-19-Virusinfektion |
-| Vorhergesagte neue Indikation | Simiane Immundefizienzvirus-Infektion (SIV) |
-| TxGNN-Vorhersagewert | 99,92 % |
+| Ursprüngliche Indikation | HIV Infections; COVID-19 virus infection |
+| Vorhergesagte neue Indikation | Simian immunodeficiency virus infection |
+| TxGNN-Vorhersagewert | 0.9992 |
 | Evidenzlevel | L4 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen |
-| Anzahl der Zulassungen | 5 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 5 von 5) |
+| Anzahl der Zulassungen | 5 (gültig: 5) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -101,7 +101,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 | EMEA/H/C/004025 | Lopinavir/Ritonavir Viatris (zuvor Ritonavir Mylan) | – | HIV-Infektion |
 | EMEA/H/C/000368 | Kaletra | – | HIV-Infektion |
 
-Alle fünf Zulassungen haben den Status „erloschen/widerrufen“; derzeit ist keine gültige Zulassung verzeichnet.
+Alle fünf Zulassungen (5 von 5) sind gültig; das Arzneimittel ist derzeit im Handel.
 
 ---
 
@@ -121,12 +121,12 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen laut Fachinfo
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenz für die SIV-Infektion beschränkt sich auf präklinische Daten (In-vitro- und Affenstudien), und es gibt keine klinischen Studien. SIV ist ein Tiermodell für HIV, daher bietet die Vorhersage keine neue humane Repurposing-Chance. Zudem sind in Deutschland derzeit alle Zulassungen erloschen.
+Die Evidenz für die SIV-Infektion beschränkt sich auf präklinische Daten (In-vitro- und Affenstudien), und es gibt keine klinischen Studien. SIV ist ein Tiermodell für HIV, daher bietet die Vorhersage keine neue humane Repurposing-Chance. Zudem ist das Arzneimittel in Deutschland derzeit im Handel, mit 5 gültigen Zulassungen von 5.
 
 **Für ein Weiterkommen erforderlich:**
 - Daten zum Wirkmechanismus (MOA) ergänzen
 - Packungsbeilage (Warnhinweise und Gegenanzeigen) beim BfArM beschaffen und auswerten, da dies für das Sicherheits-Screening blockierend ist
-- Prüfen, ob die weiteren vorhergesagten Indikationen (felines erworbenes Immundefizienzsyndrom, neurologische Entwicklungsstörung mit ataktischem Gang) überhaupt sinnvoll sind; für beide liegen weder Studien noch Literatur vor, und die hohen Modellwerte sind vermutlich Artefakte des Graphen
+- Prüfen, ob die weiteren vorhergesagten Indikationen (felines erworbenes Immundefizienzsyndrom, neurologische Entwicklungsstörung mit ataktischem Gang) überhaupt sinnvoll sind; für beide liegen weder Studien noch Literatur vor, und die hohen Werte stammen vom TxGNN-Modell (Deep Learning) und können vom Modell gelernte Ähnlichkeiten zwischen verwandten Erkrankungen widerspiegeln, keinen biologischen Beleg
 - Klären, ob eine humane Indikation mit klinischer Relevanz besteht, bevor weitere Ressourcen eingesetzt werden
 ## Haftungsausschluss
 

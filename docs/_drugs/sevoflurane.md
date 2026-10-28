@@ -6,9 +6,9 @@ nav_order: 426
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Sevoflurane: vorhergesagte neue Indikation Prinzmetal-Angina (Evidenzstufe L5). Ursprüngliche Indikation: In den für diesen Bericht zusammengestellten Daten nicht hinterlegt (…"
 monitor_inn: "SEVOFLURANE"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "fibromyalgia", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "migraine disorder", "inclusion body myositis"]
+description: "Sevoflurane: vorhergesagte neue Indikation Prinzmetal-Angina (Prinzmetal angina) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
 ---
 
 # Sevoflurane
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Sevofluran: Von der Allgemeinanästhesie zu Prinzmetal-Angina
+## Sevoflurane: Prinzmetal-Angina (Prinzmetal angina)
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -46,12 +46,12 @@ Sevofluran ist ein inhalatives Narkosemittel (volatiles Anästhetikum), das für
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | In den für diesen Bericht zusammengestellten Daten nicht hinterlegt (die Zulassungstexte sind leer); bekannt ist die Anwendung als Inhalationsanästhetikum |
-| Vorhergesagte neue Indikation | Prinzmetal-Angina |
-| TxGNN-Vorhersagewert | 99,78 % |
+| Ursprüngliche Indikation | In den lokalen Daten nicht erfasst |
+| Vorhergesagte neue Indikation | Prinzmetal-Angina (Prinzmetal angina) |
+| TxGNN-Vorhersagewert | 0.9978 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -82,8 +82,8 @@ Zur Prinzmetal-Angina liegen derzeit keine zugehörigen Publikationen vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/000072 | SevoFlo | – | – (erloschen) |
-| EMEA/V/C/004199 | Sevohale (früher Sevocalm) | – | – (erloschen) |
+| EMEA/V/C/000072 | SevoFlo | – | – (gültig) |
+| EMEA/V/C/004199 | Sevohale (früher Sevocalm) | – | – (gültig) |
 
 ---
 
@@ -107,7 +107,7 @@ Warnhinweise und Kontraindikationen aus der Fachinformation liegen nicht vor. Bi
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage zur Prinzmetal-Angina beruht allein auf dem Modell (L5) ohne Studien oder Literatur. Zudem ist ein inhalatives Narkosemittel für eine chronische vasospastische Erkrankung pharmakologisch und praktisch kaum geeignet. In Deutschland sind zudem keine gültigen Zulassungen vorhanden.
+Die Vorhersage zur Prinzmetal-Angina beruht allein auf dem Modell (L5) ohne Studien oder Literatur. Zudem ist ein inhalatives Narkosemittel für eine chronische vasospastische Erkrankung pharmakologisch und praktisch kaum geeignet.
 
 **Für ein Weiterkommen erforderlich:**
 - Fachinformation (Warnhinweise, Kontraindikationen) der Zulassungsbehörde auswerten; diese Lücke blockiert die Sicherheitsprüfung

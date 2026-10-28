@@ -4,17 +4,17 @@ title: Cerliponase Alfa
 parent: Nur Modellvorhersage (L5)
 nav_order: 108
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Cerliponase Alfa: vorhergesagte neue Indikation Scheie-Syndrom (Evidenzstufe L5). Ursprüngliche Indikation: Neuronale Ceroid-Lipofuszinosen"
 monitor_inn: "CERLIPONASE ALFA"
-predicted_indications: ["Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "cholesteryl ester storage disease", "Gaucher disease", "familial encephalopathy with neuroserpin inclusion bodies", "Wolman disease with hypolipoproteinemia and acanthocytosis", "myoclonic epilepsy, juvenile, susceptibility to", "proximal myopathy with extrapyramidal signs", "autosomal ichthyosis syndrome with fatal disease course"]
+predicted_indications: ["Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "cholesteryl ester storage disease", "Gaucher disease", "familial encephalopathy with neuroserpin inclusion bodies", "Wolman disease with hypolipoproteinemia and acanthocytosis", "proximal myopathy with extrapyramidal signs", "autosomal ichthyosis syndrome with fatal disease course"]
 ---
 
 # Cerliponase Alfa
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vo
 |------|------|
 | Ursprüngliche Indikation | Neuronale Ceroid-Lipofuszinosen |
 | Vorhergesagte neue Indikation | Scheie-Syndrom |
-| TxGNN-Vorhersagewert | 99,98 % |
+| TxGNN-Vorhersagewert | 0,9998 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -90,7 +90,7 @@ Für die weiter unten gelistete Vorhersage Morbus Gaucher wurde eine Publikation
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004065 | Brineura | – | Neuronale Ceroid-Lipofuszinosen (Status: erloschen) |
+| EMEA/H/C/004065 | Brineura | – | Neuronale Ceroid-Lipofuszinosen (Status: gültig) |
 
 ---
 

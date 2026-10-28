@@ -4,17 +4,17 @@ title: Agomelatine
 parent: Nur Modellvorhersage (L5)
 nav_order: 20
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Agomelatine: vorhergesagte neue Indikation Benigne paroxysmale Torticollis des Säuglingsalters (Rang 1) (Evidenzstufe L5). Ursprüngliche Indikation: Major Depression"
+description: "Agomelatine: vorhergesagte neue Indikation Benigne paroxysmale Tortikollis des Säuglingsalters (Rang 1) (Evidenzstufe L5). Ursprüngliche Indikation: Major Depression"
 monitor_inn: "AGOMELATINE"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "melancholia", "Ohdo syndrome and variants", "dysthymic disorder", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
 ---
 
 # Agomelatine
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Agomelatin: Von der Major Depression zur benignen paroxysmalen Torticollis des Säuglingsalters
+## Agomelatin: Benigne paroxysmale Tortikollis des Säuglingsalters
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -50,10 +50,10 @@ Hinweis: Dieser Kandidat hat keinen erkennbaren biologischen Bezug zu Agomelatin
 |------|------|
 | Ursprüngliche Indikation | Major Depression |
 | Vorhergesagte neue Indikation | Benigne paroxysmale Torticollis des Säuglingsalters (Rang 1) |
-| TxGNN-Vorhersagewert | 99,96 % |
+| TxGNN-Vorhersagewert | 0,9996 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,11 +62,10 @@ Hinweis: Dieser Kandidat hat keinen erkennbaren biologischen Bezug zu Agomelatin
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Aus der Literatur und den Rezeptordaten ist bekannt: Agomelatin ist ein Agonist an den melatonergen Rezeptoren MT1 und MT2 sowie ein Antagonist am Serotonin-5-HT2C-Rezeptor. Dadurch kann es zirkadiane Rhythmen normalisieren und die Freisetzung von Dopamin und Noradrenalin im präfrontalen Kortex steigern. Die Bindung an 5-HT2A- und 5-HT2B-Rezeptoren ist ebenfalls beschrieben.
 
-Für die benigne paroxysmale Torticollis des Säuglingsalters, eine episodische Erkrankung im Kindesalter (häufig mit CACNA1A-Varianten assoziiert), ist **kein mechanistischer Zusammenhang** erkennbar. Der hohe Modellwert ist wahrscheinlich ein Artefakt der Netzwerknähe im Wissensgraphen.
+Für die benigne paroxysmale Torticollis des Säuglingsalters, eine episodische Erkrankung im Kindesalter (häufig mit CACNA1A-Varianten assoziiert), ist **kein mechanistischer Zusammenhang** erkennbar. Der hohe Modellwert (0.9996) stammt aus dem TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz.
 
 Mechanistisch deutlich besser begründet sind andere Vorhersagen aus der Liste:
 
-- **Melancholie** (Score 99,88 %): schwere Unterform der Major Depression, also im Wesentlichen eine Überschneidung mit der ursprünglichen Indikation.
 - **Neurotische Depression** (99,88 %) und **dysthymische Störung** (99,86 %): mildere bzw. chronische depressive Störungen, auf die sich der antidepressive Mechanismus plausibel übertragen lässt.
 - **Agoraphobie** (99,95 %) und **neurotische Störung** (99,90 %): indirekte Begründung über anxiolytische Effekte und gemeinsame serotonerge/zirkadiane Signalwege.
 - Seltene genetische Syndrome (Ohdo-Syndrom, Keppen-Lubinsky-Syndrom) und die Conjunctivitis lignosa zeigen keinen biologischen Bezug.
@@ -91,7 +90,7 @@ Zum Vergleich: Für die besser begründeten Alternativkandidaten wurde Literatur
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000915 | Valdoxan | – | Major Depression (Status: aufgehoben) |
+| EMEA/H/C/000915 | Valdoxan | – | Major Depression (Status: gültig) |
 
 ---
 

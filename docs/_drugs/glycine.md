@@ -4,17 +4,17 @@ title: Glycine
 parent: Nur Modellvorhersage (L5)
 nav_order: 216
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Glycine: vorhergesagte neue Indikation Erkrankung der Nasenhöhle (nasal cavity disease) (Evidenzstufe L5). Ursprüngliche Indikation: Ahornsirupkrankheit (Maple Syrup Urine Disease)"
 monitor_inn: "glycine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
 ---
 
 # Glycine
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,19 +48,18 @@ Die Evidenz ist jedoch sehr schwach: Es liegt **1 klinische Studie** (ohne thera
 |------|------|
 | Ursprüngliche Indikation | Ahornsirupkrankheit (Maple Syrup Urine Disease) |
 | Vorhergesagte neue Indikation | Erkrankung der Nasenhöhle (nasal cavity disease) |
-| TxGNN-Vorhersagewert | 99,85 % |
+| TxGNN-Vorhersagewert | 0,9985 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung (nicht mehr vermarktet) |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
 
 Detaillierte Daten zum Wirkmechanismus von Glycin liegen derzeit nicht vor. Glycin ist eine körpereigene Aminosäure und wurde bei der Ahornsirupkrankheit eingesetzt. Ein belastbarer mechanistischer Zusammenhang zu Erkrankungen der Nasenhöhle lässt sich aus den vorliegenden Daten nicht herleiten.
 
-Der hohe Vorhersagewert (0,998) beruht ausschließlich auf einer modellbasierten Vorhersage. Allgemein wird Glycin eine entzündungshemmende bzw. zellschützende Wirkung zugeschrieben, doch für diese Indikation wird dies durch die vorliegenden Daten nicht gestützt. Die Ähnlichkeit zwischen ursprünglicher und neuer Indikation ist nicht bewertet.
+Der hohe Vorhersagewert (0,9985) beruht ausschließlich auf einer modellbasierten Vorhersage. Allgemein wird Glycin eine entzündungshemmende bzw. zellschützende Wirkung zugeschrieben, doch für diese Indikation wird dies durch die vorliegenden Daten nicht gestützt. Die Ähnlichkeit zwischen ursprünglicher und neuer Indikation ist nicht bewertet.
 
-Die zweitplatzierte Vorhersage, die akute Laryngopharyngitis (Wert 99,84 %), hat weder klinische Studien noch Literatur und ist ebenfalls nur modellbasiert.
 
 ## Klinische Evidenz
 

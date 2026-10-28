@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Ravulizumab: Von paroxysmaler nächtlicher Hämoglobinurie zu autosomal-rezessiver schwerer kongenitaler Neutropenie (G6PC3-Mangel)
+## Ravulizumab: Von paroxysmaler nächtlicher Hämoglobinurie zu Autosomal-rezessive schwere kongenitale Neutropenie durch G6PC3-Mangel
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Pub
 |------|------|
 | Ursprüngliche Indikation | Paroxysmale nächtliche Hämoglobinurie |
 | Vorhergesagte neue Indikation | Autosomal-rezessive schwere kongenitale Neutropenie durch G6PC3-Mangel |
-| TxGNN-Vorhersagewert | 99,96 % |
+| TxGNN-Vorhersagewert | 0,9996 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -104,7 +104,7 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) ist die Pack
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die vorhergesagte Indikation gibt es weder klinische Studien noch Literatur, und ein mechanistischer Zusammenhang mit der Komplement-C5-Hemmung ist nicht erkennbar. Die Vorhersage stützt sich allein auf den Modellwert (Evidenzgrad L5). Zudem besteht in Deutschland keine gültige Zulassung.
+Für die vorhergesagte Indikation gibt es weder klinische Studien noch Literatur, und ein mechanistischer Zusammenhang mit der Komplement-C5-Hemmung ist nicht erkennbar. Die Vorhersage stützt sich allein auf den Modellwert (Evidenzgrad L5). Zudem ist das Arzneimittel in Deutschland im Handel, und die einzige Zulassung (1 von 1) ist gültig.
 
 **Für ein Fortschreiten sind folgende Schritte erforderlich:**
 - Daten zum Wirkmechanismus (MOA) ergänzen

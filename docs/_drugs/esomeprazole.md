@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Esomeprazole
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 181
-evidence_level: L4
-indication_count: 3
-last_modified_at: 2026-10-14
-description: "Esomeprazole: vorhergesagte neue Indikation Duodenogastraler Reflux (Evidenzstufe L4). Ursprüngliche Indikation: Gastroösophageale Refluxkrankheit"
+evidence_level: L5
+indication_count: 1
 monitor_inn: "ESOMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
+last_modified_at: 2026-10-27
+description: "Esomeprazole: vorhergesagte neue Indikation Duodenalobstruktion (duodenal obstruction) (Evidenzstufe L5). Ursprüngliche Indikation: Gastroesophageal Reflux"
 ---
 
 # Esomeprazole
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,92 +33,67 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-## Esomeprazol: Von gastroösophagealer Refluxkrankheit zu duodenogastralem Reflux
+## Esomeprazol: Protonenpumpenhemmer → Duodenalobstruktion (duodenal obstruction)
 {: .text-alpha }
 
-## Zusammenfassung
+## Zusammenfassung in einem Satz
 
-Esomeprazol ist ein Protonenpumpenhemmer (PPI), der ursprünglich zur Behandlung der gastroösophagealen Refluxkrankheit zugelassen wurde. Das TxGNN-Modell sagt voraus, dass er bei **duodenogastralem Reflux** wirksam sein könnte. Dafür gibt es bisher **keine klinischen Studien** und nur **eine Publikation**, einen allgemeinen Übersichtsartikel zu PPI, der den Reflux nur indirekt betrifft.
-
----
+Esomeprazol ist ein Protonenpumpenhemmer, der die Magensäureproduktion senkt. Das TxGNN-Modell sagt voraus, dass er bei **Duodenalobstruktion (duodenal obstruction)** wirksam sein könnte. Für diese Vorhersage liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; sie beruht allein auf einer Modellberechnung.
 
 ## Schnellübersicht
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Gastroösophageale Refluxkrankheit |
-| Vorhergesagte neue Indikation | Duodenogastraler Reflux |
-| TxGNN-Vorhersagewert | 99,53 % |
-| Evidenzlevel | L4 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Ursprüngliche Indikation | Gastroesophageal Reflux |
+| Vorhergesagte neue Indikation | Duodenalobstruktion (duodenal obstruction) |
+| TxGNN-Vorhersagewert | 0,9945 |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
-
----
 
 ## Warum ist diese Vorhersage plausibel?
 
-Die für diesen Bericht zusammengestellten Daten enthalten derzeit keine detaillierten Angaben zum Wirkmechanismus. Bekannt ist: Esomeprazol gehört zur Klasse der Protonenpumpenhemmer und unterdrückt die Magensäuresekretion. Seine Wirksamkeit bei der Refluxkrankheit ist belegt. Mechanistisch könnte es daher auch bei duodenogastralem Reflux Beschwerden lindern.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten derzeit keine detaillierten Angaben vor. Bekannt ist, dass Esomeprazol zur Klasse der Protonenpumpenhemmer gehört und die Säuresekretion im Magen hemmt.
 
-Der Zusammenhang ist jedoch nur teilweise gegeben. Der duodenogastrale (Gallen-)Reflux entsteht vor allem dadurch, dass Duodenalinhalt in den Magen zurückfließt, und nicht durch übermäßige Säure. Eine Säurehemmung kann begleitende Symptome lindern, etwa Schleimhautreizung oder gleichzeitig bestehende säurebedingte Erkrankungen. Den primären Mechanismus behandelt sie nicht. Der hohe TxGNN-Wert spiegelt vermutlich vor allem die Nähe zur ursprünglichen Refluxindikation im Wissensnetzwerk wider und keinen belegten Nutzen.
+Eine plausible direkte mechanistische Verbindung zur Duodenalobstruktion ist jedoch nicht erkennbar. Die Duodenalobstruktion ist eine mechanische bzw. strukturelle Erkrankung, etwa durch Stenosen, Tumoren, ein Pancreas anulare oder narbige Veränderungen nach Ulzera. Eine Säurehemmung könnte allenfalls als unterstützende Maßnahme bei begleitenden säurebedingten Erkrankungen dienen, behandelt aber nicht die Obstruktion selbst. Der hohe Vorhersagewert ist ein rein rechnerisches Ergebnis ohne klinische oder publizierte Bestätigung.
 
----
-
-## Klinische Evidenz
+## Klinische Studien
 
 Derzeit sind keine zugehörigen klinischen Studien registriert.
 
----
-
 ## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Kernaussagen |
-|------|-----|------|------|---------|
-| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Review | European Journal of Clinical Pharmacology | Aktualisierter Überblick über klinischen Einsatz und Pharmakokinetik von PPI. PPI sind Mittel der ersten Wahl bei Ulkuskrankheit, H.-pylori-Infektion, Refluxkrankheit, NSAR-bedingten Läsionen und Zollinger-Ellison-Syndrom. Duodenogastraler Reflux wird nicht direkt untersucht. |
+Derzeit liegt keine zugehörige Literatur vor.
 
----
-
-## Marktinformationen Deutschland
+## Informationen zum deutschen Markt
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/002618 | Nexium Control | – | Gastroösophageale Refluxkrankheit |
 
-Diese Zulassung ist erloschen (Status: cancelled). Derzeit besteht keine gültige Zulassung.
+## Sicherheitshinweise
 
----
+- **Wechselwirkungen**: In der Abfrage wurden 100 Wechselwirkungen erfasst. Als bedeutsam (Schweregrad „Major") sind unter anderem aufgeführt:
+  - Acalabrutinib
+  - Atazanavir
 
-## Sicherheitsaspekte
+  Weitere Wechselwirkungen mit mäßigem Schweregrad betreffen unter anderem Hydrochlorothiazid, Amphotericin B, Amikacin, Amphetamin, Fenofibrat, Apalutamid, Armodafinil, Atorvastatin, Bendamustin, Bosutinib und Bumetanid.
 
-- **Kontraindikationen laut Wissensgraph (keine Packungsbeilagen-Angaben):** Im TxGNN-Wissensgraphen (PrimeKG) sind für Esomeprazol Kontraindikations-Verknüpfungen zu folgenden Erkrankungen hinterlegt:
-  - Leberversagen
-  - Osteoporose
-  - postmenopausale Osteoporose
-  - Knochenbruch
-  - chronisch-atrophische Gastritis
-- **Arzneimittelwechselwirkungen:** Es sind 100 Wechselwirkungen erfasst. Beispiele:
-  - **Schwerwiegend (Major):** Acalabrutinib, Atazanavir
-  - **Mäßig (Moderate):** u. a. Hydrochlorothiazid, Amphotericin B, Amikacin, Amphetamin, Fenofibrat, Apalutamid, Armodafinil, Atorvastatin, Bendamustin, Bosutinib, Bumetanid
-  - **Gering (Minor):** u. a. Acetylsalicylsäure, Axitinib, Bortezomib, Brivaracetam, Cyanocobalamin
-
-Für Warnhinweise und Kontraindikationen aus der Fachinformation liegen keine Daten vor. Bitte dafür die Packungsbeilage bzw. Fachinformation heranziehen.
-
----
+Für Warnhinweise und Gegenanzeigen siehe die Packungsbeilage.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die vorhergesagte Indikation liegen weder klinische Studien noch direkte Literatur vor. Der hohe Modellwert beruht vermutlich auf der Nähe zur Refluxindikation. Der Pathomechanismus des duodenogastralen Refluxes (Gallereflux statt Säureüberschuss) wird durch reine Säurehemmung nicht adressiert. Hinzu kommt, dass die einzige deutsche Zulassung erloschen ist.
+Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert (0,9945), ohne klinische Studien, ohne Literatur und ohne erkennbaren plausiblen Wirkmechanismus bei einer mechanisch bedingten Erkrankung. Das Evidenzniveau ist L5.
 
-**Für ein Weiterkommen sind folgende Schritte nötig:**
-- Direkte klinische Evidenz zu Esomeprazol bei duodenogastralem Reflux, etwa Pilotstudien oder systematische Literaturrecherchen
-- Detaillierte Mechanismusdaten (MOA)
-- Fachinformation (Warnhinweise, Kontraindikationen) aus dem BfArM-Bestand, da die Sicherheitsprüfung sonst nicht abgeschlossen werden kann
-- Klärung des aktuellen Zulassungs- und Verfügbarkeitsstatus in Deutschland
-
-**Hinweis zu weiteren Vorhersagen:** In den zusammengestellten Daten ist für Esomeprazol auch die Vorhersage **Ulcus duodeni** hinterlegt. Dafür liegen mehrere abgeschlossene Phase-3-Studien und randomisierte Publikationen vor (Evidenzlevel L1, Einstufung „Proceed with Guardrails"). Es handelt sich dabei jedoch weitgehend um eine bereits etablierte, säurebezogene Anwendung und nicht um ein neuartiges Repurposing. Diese Indikation sollte gesondert bewertet werden.
+**Für ein Weiterverfolgen sind folgende Schritte nötig:**
+- Auswertung der Packungsbeilage (Warnhinweise und Gegenanzeigen) aus den BfArM-Unterlagen
+- Ergänzung detaillierter Wirkmechanismusdaten
+- Systematische Literaturrecherche und gegebenenfalls präklinische Daten, die einen Nutzen bei Duodenalobstruktion stützen
+- Klärung, ob ein klinisch relevanter Nutzen über eine reine Begleittherapie säurebedingter Erkrankungen hinaus plausibel ist
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

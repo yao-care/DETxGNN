@@ -33,12 +33,12 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Humaninsulin: Von Diabetes mellitus zu autoimmuner Oophoritis
+## Humaninsulin: Autoimmune Oophoritis
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 
-Humaninsulin wurde ursprünglich zur Behandlung von Diabetes mellitus eingesetzt. Das TxGNN-Modell sagt voraus, dass es bei **autoimmuner Oophoritis** wirksam sein könnte. Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor, die Vorhersage beruht allein auf dem Wissensgraphen.
+Humaninsulin wurde ursprünglich zur Behandlung von Diabetes mellitus eingesetzt. Das TxGNN-Modell (Deep Learning) sagt voraus, dass es bei **autoimmuner Oophoritis** wirksam sein könnte. Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor. Die Vorhersage stammt allein vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz.
 
 ---
 
@@ -48,10 +48,10 @@ Humaninsulin wurde ursprünglich zur Behandlung von Diabetes mellitus eingesetzt
 |------|------|
 | Ursprüngliche Indikation | Diabetes mellitus |
 | Vorhergesagte neue Indikation | Autoimmune Oophoritis |
-| TxGNN-Vorhersagewert | 99,84 % |
+| TxGNN-Vorhersagewert | 0,9984 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 6 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 6 von 6) |
+| Anzahl der Zulassungen | 6 (gültig: 6) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -60,21 +60,21 @@ Humaninsulin wurde ursprünglich zur Behandlung von Diabetes mellitus eingesetzt
 
 Zum Wirkmechanismus von Humaninsulin liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Humaninsulin ein Hormonersatz ist, dessen Wirksamkeit bei Diabetes mellitus gesichert ist. Es senkt den Blutzucker und steuert die Insulin-Signalwege des Stoffwechsels.
 
-Ein möglicher Zusammenhang mit der autoimmunen Oophoritis ist spekulativ: Insulinsignale könnten die Funktion der Ovarialfollikel sowie die metabolische und immunologische Regulation beeinflussen. Autoimmune Oophoritis ist jedoch eine immunvermittelte Erkrankung der Eierstöcke, und es gibt keinen etablierten Mechanismus, der Insulin als Therapie stützt. Der hohe Vorhersagewert (0,998) ist daher ein reines Wissensgraph-Ergebnis und kein Beleg für Wirksamkeit.
+Ein möglicher Zusammenhang mit der autoimmunen Oophoritis ist spekulativ: Insulinsignale könnten die Funktion der Ovarialfollikel sowie die metabolische und immunologische Regulation beeinflussen. Autoimmune Oophoritis ist jedoch eine immunvermittelte Erkrankung der Eierstöcke, und es gibt keinen etablierten Mechanismus, der Insulin als Therapie stützt. Der hohe Vorhersagewert (0,9984) stammt vom TxGNN-Modell (Deep Learning), kann gelernte Ähnlichkeiten zwischen verwandten Erkrankungen widerspiegeln und ist kein Beleg für Wirksamkeit.
 
 Auch die weiteren Top-10-Vorhersagen sind überwiegend Assoziationsartefakte oder bloße symptomatische Behandlung:
 
 | Rang | Vorhergesagte Indikation | Wert | Einschätzung |
 |---|---|---|---|
-| 2 | Klassisches Stiff-Person-Syndrom | 99,81 % | Wahrscheinlich Assoziation über Begleitdiabetes (Anti-GAD65); Insulin behandelt nur den Diabetes |
-| 3 | Fokales Stiff-Limb-Syndrom | 99,81 % | Gleiche Begründung wie Rang 2 |
-| 4 | Thiamin-responsives Dysfunktionssyndrom | 99,80 % | Insulin nur symptomatisch für die diabetische Komponente |
-| 5 | Opsismodysplasie | 99,79 % | Netzwerkbezug über INPPL1 (SHIP2), Wirkrichtung unklar |
-| 6 | Arzneimittelinduzierte lokalisierte Lipodystrophie | 99,72 % | Insulin ist hier eher Ursache als Therapie |
-| 7 | Zentrifugale Lipodystrophie | 99,70 % | Nur Graph-Nähe, keine Evidenz |
-| 8 | Druckinduzierte lokalisierte Lipoatrophie | 99,70 % | Nur Graph-Nähe, keine Evidenz |
-| 9 | Pankreasagenesie | 99,70 % | Insulinersatz ist Standardversorgung, aber keine neuartige Umwidmung |
-| 10 | Idiopathische lokalisierte Lipodystrophie | 99,68 % | Nur Graph-Nähe, keine Evidenz |
+| 2 | Klassisches Stiff-Person-Syndrom | 0,9981 | Wahrscheinlich Assoziation über Begleitdiabetes (Anti-GAD65); Insulin behandelt nur den Diabetes |
+| 3 | Fokales Stiff-Limb-Syndrom | 0,9981 | Gleiche Begründung wie Rang 2 |
+| 4 | Thiamin-responsives Dysfunktionssyndrom | 0,9980 | Insulin nur symptomatisch für die diabetische Komponente |
+| 5 | Opsismodysplasie | 0,9979 | Netzwerkbezug über INPPL1 (SHIP2), Wirkrichtung unklar |
+| 6 | Arzneimittelinduzierte lokalisierte Lipodystrophie | 0,9972 | Insulin ist hier eher Ursache als Therapie |
+| 7 | Zentrifugale Lipodystrophie | 0,9970 | Nur TxGNN-Modellwert (Deep Learning), keine Evidenz |
+| 8 | Druckinduzierte lokalisierte Lipoatrophie | 0,9970 | Nur TxGNN-Modellwert (Deep Learning), keine Evidenz |
+| 9 | Pankreasagenesie | 0,9970 | Insulinersatz ist Standardversorgung, aber keine neuartige Umwidmung |
+| 10 | Idiopathische lokalisierte Lipodystrophie | 0,9968 | Nur TxGNN-Modellwert (Deep Learning), keine Evidenz |
 
 ---
 
@@ -100,7 +100,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 | EMEA/H/C/000441 | Insulatard | – | Diabetes mellitus |
 | EMEA/H/C/000201 | Insuman | – | Diabetes mellitus |
 
-Alle genannten Zulassungen sind erloschen. Eine weitere erloschene Zulassung (ProZinc, EMEA/V/C/002634) enthält keine Angaben zur Indikation.
+Alle 6 genannten Zulassungen sind gültig, das Arzneimittel ist im Handel. Eine weitere erloschene Zulassung (ProZinc, EMEA/V/C/002634) enthält keine Angaben zur Indikation.
 
 ---
 
@@ -120,14 +120,14 @@ Weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) entnehmen Sie bit
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die Vorhersage gibt es weder klinische Studien noch Publikationen (Evidenzlevel L5). Der hohe TxGNN-Wert allein genügt nicht, zumal es keinen etablierten Mechanismus gibt und alle deutschen Zulassungen erloschen sind.
+Für die Vorhersage gibt es weder klinische Studien noch Publikationen (Evidenzlevel L5). Der hohe TxGNN-Wert allein genügt nicht, zumal es keinen etablierten Mechanismus gibt.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Wirkmechanismus-Daten (MOA) aus DrugBank ergänzen
 - Warnhinweise und Gegenanzeigen aus der BfArM-Packungsbeilage beschaffen (derzeit blockierende Datenlücke für das Sicherheitsscreening)
 - Systematische Literatur- und Studienrecherche zu Insulin bei autoimmuner Oophoritis
 - Präklinische Belege für einen plausiblen Mechanismus erarbeiten
-- Prüfung von Applikationsweg und Zulassungsstatus (derzeit keine gültige Zulassung in Deutschland)
+- Prüfung von Applikationsweg und Zulassungsstatus (derzeit 6 gültige Zulassungen in Deutschland)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

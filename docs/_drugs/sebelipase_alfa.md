@@ -4,7 +4,7 @@ title: Sebelipase Alfa
 parent: Nur Modellvorhersage (L5)
 nav_order: 421
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Sebelipase Alfa: vorhergesagte neue Indikation Scheie-Syndrom (Evidenzstufe L5). Ursprüngliche Indikation: Angeborene Störungen des Lipidstoffwechsels (Lipid Metabolism…"
 monitor_inn: "SEBELIPASE ALFA"
@@ -14,7 +14,7 @@ predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone in
 # Sebelipase Alfa
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Sebelipase alfa ist eine rekombinante humane lysosomale saure Lipase (LAL). Sie 
 |------|------|
 | Ursprüngliche Indikation | Angeborene Störungen des Lipidstoffwechsels (Lipid Metabolism, Inborn Errors) |
 | Vorhergesagte neue Indikation | Scheie-Syndrom |
-| TxGNN-Vorhersagewert | 99,80 % |
+| TxGNN-Vorhersagewert | 0,9980 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -80,7 +80,7 @@ Derzeit liegt keine relevante Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004004 | Kanuma (Alexion Europe SAS) | – | Angeborene Störungen des Lipidstoffwechsels (Status: erloschen) |
+| EMEA/H/C/004004 | Kanuma (Alexion Europe SAS) | – | Angeborene Störungen des Lipidstoffwechsels (Status: gültig) |
 
 ---
 
@@ -100,7 +100,7 @@ Für das Scheie-Syndrom gibt es weder Studien noch Publikationen, und ein Wirkme
 **Für ein Weiterverfolgen wäre Folgendes nötig:**
 - Präklinische Daten, die eine Wirkung von LAL-Ersatz bei MPS I belegen (derzeit nicht erkennbar)
 - Detaillierte Mechanismusdaten (MOA) und Sicherheitsdaten aus der Packungsbeilage
-- Klärung der Verfügbarkeit des Produkts, da keine gültige Zulassung besteht
+- Klärung der Verfügbarkeit des Produkts; das Produkt ist im Handel, 1 gültige Zulassung von 1
 
 **Hinweis zu anderen Vorhersagen:**
 Unter den weiteren Kandidaten des Modells ist die Evidenz deutlich besser, es handelt sich aber um bereits bekannte Indikationen des LAL-Mangels:

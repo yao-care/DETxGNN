@@ -48,10 +48,10 @@ Vandetanib ist ein Multikinase-Inhibitor, der ursprünglich zur Behandlung von S
 |------|------|
 | Ursprüngliche Indikation | Schilddrüsenneoplasmen |
 | Vorhergesagte neue Indikation | Nierenzellkarzinom (renal cell carcinoma) |
-| TxGNN-Vorhersagewert | 99,92 % |
+| TxGNN-Vorhersagewert | 0,9992 |
 | Evidenzniveau | L2 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung (Cancelled only) |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -93,7 +93,7 @@ Dem stehen die Studiendaten gegenüber: Die verfügbaren Phase-2-Studien waren k
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/002315 | Caprelsa (Sanofi B.V.) | – | Schilddrüsenneoplasmen (Status: erloschen) |
+| EMEA/H/C/002315 | Caprelsa (Sanofi B.V.) | – | Schilddrüsenneoplasmen (Status: gültig) |
 
 ---
 

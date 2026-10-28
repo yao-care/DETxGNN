@@ -4,7 +4,7 @@ title: Gefitinib
 parent: Nur Modellvorhersage (L5)
 nav_order: 207
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Gefitinib: vorhergesagte neue Indikation Gingivale Fibromatose (Evidenzstufe L5). Ursprüngliche Indikation: Nicht-kleinzelliges Lungenkarzinom"
 monitor_inn: "GEFITINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion 
 # Gefitinib
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Gefitinib: Vom nicht-kleinzelligen Lungenkarzinom zur gingivalen Fibromatose
+## Gefitinib: Gingivale Fibromatose
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Nicht-kleinzelliges Lungenkarzinom |
 | Vorhergesagte neue Indikation | Gingivale Fibromatose |
-| TxGNN-Vorhersagewert | 99,89 % |
+| TxGNN-Vorhersagewert | 0,9989 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassungen |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -84,7 +84,7 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/001016 | Iressa (AstraZeneca AB) | – | Nicht-kleinzelliges Lungenkarzinom (Status: erloschen) |
+| EMEA/H/C/001016 | Iressa (AstraZeneca AB) | – | Nicht-kleinzelliges Lungenkarzinom (Status: gültig) |
 
 ---
 

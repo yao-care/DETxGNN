@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-## Methoxy-Polyethylenglykol-Epoetin beta: Von Anämie bei chronischer Niereninsuffizienz zu primärer Thrombozyten-Freisetzungsstörung
+## Methoxy-Polyethylenglykol-Epoetin beta: Von Anämie bei chronischer Niereninsuffizienz zu Primäre Thrombozyten-Freisetzungsstörung
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Anämie; chronische Niereninsuffizienz |
 | Vorhergesagte neue Indikation | Primäre Freisetzungsstörung der Thrombozyten |
-| TxGNN-Vorhersagewert | 99,36 % |
+| TxGNN-Vorhersagewert | 0,9936 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -70,12 +70,12 @@ Die Daten enthalten sechs weitere Vorhersagen, alle mit Evidenzstufe L5 und Empf
 
 | Rang | Vorhergesagte Indikation | TxGNN-Wert | Einschätzung |
 |------|------|------|------|
-| 2 | Glanzmann-Thrombasthenie | 99,30 % | Defekt von Integrin αIIbβ3; EPO-Rezeptor-Agonismus wirkt nicht auf diesen Defekt. Allenfalls indirekter Nutzen über die Anämiekorrektur. |
-| 3 | Pseudo-von-Willebrand-Erkrankung | 99,25 % | Gain-of-function-Defekt von GPIb-α; kein plausibler Bezug zur EPO-Signalwirkung. |
-| 4 | Schwere nichtproliferative diabetische Retinopathie | 99,15 % | Präklinisch neuroprotektive und angiogene EPO-Effekte; biologisch plausibel, aber möglicherweise schädlich, da EPO-getriebene Angiogenese die Retinopathie verschlechtern könnte. |
-| 5 | Heparin-Cofaktor-2-Mangel | 99,10 % | Thrombophiler Serpinmangel; ESAs erhöhen das Thromboserisiko, die Wirkrichtung wäre ungünstig. |
-| 6 | Antithrombinmangel Typ 2 | 99,07 % | Qualitativer Defekt eines Antikoagulans; ESAs können das Thromboserisiko zusätzlich erhöhen. |
-| 7 | Faktor-V-Überschuss mit spontaner Thrombose | 99,04 % | Prothrombotischer Zustand; ESAs mit gekennzeichnetem thromboembolischem Risiko sind hier mechanistisch eher kontraindiziert. |
+| 2 | Glanzmann-Thrombasthenie | 0,9930 | Defekt von Integrin αIIbβ3; EPO-Rezeptor-Agonismus wirkt nicht auf diesen Defekt. Allenfalls indirekter Nutzen über die Anämiekorrektur. |
+| 3 | Pseudo-von-Willebrand-Erkrankung | 0,9925 | Gain-of-function-Defekt von GPIb-α; kein plausibler Bezug zur EPO-Signalwirkung. |
+| 4 | Schwere nichtproliferative diabetische Retinopathie | 0,9915 | Präklinisch neuroprotektive und angiogene EPO-Effekte; biologisch plausibel, aber möglicherweise schädlich, da EPO-getriebene Angiogenese die Retinopathie verschlechtern könnte. |
+| 5 | Heparin-Cofaktor-2-Mangel | 0,9910 | Thrombophiler Serpinmangel; ESAs erhöhen das Thromboserisiko, die Wirkrichtung wäre ungünstig. |
+| 6 | Antithrombinmangel Typ 2 | 0,9907 | Qualitativer Defekt eines Antikoagulans; ESAs können das Thromboserisiko zusätzlich erhöhen. |
+| 7 | Faktor-V-Überschuss mit spontaner Thrombose | 0,9904 | Prothrombotischer Zustand; ESAs mit gekennzeichnetem thromboembolischem Risiko sind hier mechanistisch eher kontraindiziert. |
 
 ---
 
@@ -97,7 +97,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/000739 | Mircera | – | Anämie; chronische Niereninsuffizienz |
 
-Die einzige Zulassung (Roche Registration GmbH) ist erloschen bzw. widerrufen; es besteht keine gültige Zulassung.
+Die einzige Zulassung (Roche Registration GmbH) ist gültig; das Arzneimittel ist in Deutschland im Handel.
 
 ---
 
@@ -114,7 +114,7 @@ Aus den mechanistischen Einschätzungen ergibt sich ergänzend: ESAs tragen ein 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzstufe L5), ohne klinische Studien oder Publikationen. Ein plausibler Wirkmechanismus fehlt, das bekannte thromboembolische Risiko spricht eher dagegen, und in Deutschland besteht keine gültige Zulassung.
+Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzstufe L5), ohne klinische Studien oder Publikationen. Ein plausibler Wirkmechanismus fehlt, das bekannte thromboembolische Risiko spricht eher dagegen, und in Deutschland ist das Arzneimittel mit einer gültigen Zulassung im Handel.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) zur Sicherheitsprüfung

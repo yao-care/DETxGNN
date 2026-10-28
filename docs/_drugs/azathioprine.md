@@ -4,17 +4,17 @@ title: Azathioprine
 parent: Nur Modellvorhersage (L5)
 nav_order: 50
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Azathioprine: vorhergesagte neue Indikation Colobomatöse Mikrophthalmie-rhizomele Dysplasie-Syndrom (kein plausib… (Evidenzstufe L5). Ursprüngliche Indikation: Transplantatabstoßung"
 monitor_inn: "AZATHIOPRINE"
-predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "osteoarthritis susceptibility", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
+predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
+description: "Azathioprine: vorhergesagte neue Indikation Colobomatous microphthalmia-rhizomelic dysplasia syndrome (Evidenzstufe L5). Ursprüngliche Indikation: Graft Rejection"
 ---
 
 # Azathioprine
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Azathioprin: Von der Transplantatabstoßung zur chronisch-entzündlichen Darmerkrankung
+## Azathioprine: Colobomatous microphthalmia-rhizomelic dysplasia syndrome
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -46,13 +46,13 @@ Azathioprin ist ein Purin-Antimetabolit mit immunsuppressiver Wirkung und wurde 
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Transplantatabstoßung |
-| Vorhergesagte neue Indikation (Rang 1 laut Modell) | Colobomatöse Mikrophthalmie-rhizomele Dysplasie-Syndrom (kein plausibler Mechanismus, keine Evidenz) |
+| Ursprüngliche Indikation | Graft Rejection |
+| Vorhergesagte neue Indikation (Rang 1 laut Modell) | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
 | Klinisch relevanteste Kandidaten | Chronisch-entzündliche Darmerkrankung (Score 99,52 %) und Colitis ulcerosa (Score 99,33 %) |
-| TxGNN-Score (Rang 1) | 99,99 % |
+| TxGNN-Score (Rang 1) | 1.0000 |
 | Evidenzstufe | L5 für Rang 1; L1 für CED und Colitis ulcerosa |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Rang 1: Hold; CED / Colitis ulcerosa: Proceed with Guardrails |
 
 ---
@@ -109,7 +109,7 @@ Für die übrigen vorhergesagten Erkrankungen (insbesondere die Rangplätze 1–
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/005055 | Jayempi (Lipomed GmbH) | – | Transplantatabstoßung (Zulassung erloschen) |
+| EMEA/H/C/005055 | Jayempi (Lipomed GmbH) | – | Transplantatabstoßung (Zulassung gültig) |
 
 ---
 

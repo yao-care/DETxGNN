@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-## Rivaroxaban: Von der Thromboembolie-Prophylaxe/-Therapie zu Rheumatoider Arthritis
+## Rivaroxaban: Von der Thromboembolie-Prophylaxe/-Therapie zu Rheumatoide Arthritis
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür liegen jedoch **keine klinischen Studien** und lediglich **4 Publikatione
 |------|------|
 | Ursprüngliche Indikation | Akutes Koronarsyndrom, koronare Herzkrankheit, periphere arterielle Verschlusskrankheit, venöse Thromboembolie, Schlaganfall, Vorhofflimmern, Lungenembolie |
 | Vorhergesagte neue Indikation | Rheumatoide Arthritis |
-| TxGNN-Vorhersagewert | 99,57 % |
+| TxGNN-Vorhersagewert | 0,9957 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 4 (alle aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 4 von 4) |
+| Anzahl der Zulassungen | 4 (gültig: 4) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -130,9 +130,9 @@ Für rheumatoide Arthritis gibt es weder klinische Studien noch Literatur, die e
 ### Hinweis zu weiteren Vorhersagen
 
 Die weiteren Vorhersagen wurden ebenfalls als **Hold** bewertet:
-- **Gicht** (Score 99,51 %, L5): kein glaubwürdiger mechanistischer Zusammenhang; die Literaturtreffer sind offenbar zufällige Stichwortübereinstimmungen.
-- **HIV-Infektion** (Score 99,17 %, L4): Es handelt sich nicht um eine Behandlung von HIV, sondern um Sicherheits- und Wechselwirkungsinformationen für HIV-Patienten mit Antikoagulationsbedarf. Mit ritonavir- oder cobicistat-geboosterten antiretroviralen Therapien steigen Rivaroxaban-Exposition und Blutungsrisiko. Die einzige gefundene Studie (NCT00786422) ist eine Phase-2-Studie zu tiefer Venenthrombose und liefert keine Evidenz für HIV.
-- **Brachydaktylie-Syndaktylie-Syndrom** (Score 99,10 %, L5): weder Studien noch Literatur, keine plausible biologische Hypothese.
+- **Gicht** (Score 0,9951, L5): kein glaubwürdiger mechanistischer Zusammenhang; die Literaturtreffer sind offenbar zufällige Stichwortübereinstimmungen.
+- **HIV-Infektion** (Score 0,9917, L4): Es handelt sich nicht um eine Behandlung von HIV, sondern um Sicherheits- und Wechselwirkungsinformationen für HIV-Patienten mit Antikoagulationsbedarf. Mit ritonavir- oder cobicistat-geboosterten antiretroviralen Therapien steigen Rivaroxaban-Exposition und Blutungsrisiko. Die einzige gefundene Studie (NCT00786422) ist eine Phase-2-Studie zu tiefer Venenthrombose und liefert keine Evidenz für HIV.
+- **Brachydaktylie-Syndaktylie-Syndrom** (Score 0,9910, L5): weder Studien noch Literatur, keine plausible biologische Hypothese.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

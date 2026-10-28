@@ -5,10 +5,10 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 82
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-14
-description: "Buprenorphine: vorhergesagte neue Indikation Akute intermittierende Porphyrie (Evidenzstufe L5). Ursprüngliche Indikation: Opioid-bezogene Störungen (Opioidabhängigkeit)"
 monitor_inn: "BUPRENORPHINE"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
+last_modified_at: 2026-10-27
+description: "Buprenorphine: vorhergesagte neue Indikation akute intermittierende Porphyrie (acute intermittent porphyria) (Evidenzstufe L5). Ursprüngliche Indikation: Opioid-Related Disorders"
 ---
 
 # Buprenorphine
@@ -33,98 +33,71 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-## Buprenorphin: Von Opioidabhängigkeit zu akuter intermittierender Porphyrie
+## Buprenorphin: Partieller µ-Opioid-Agonist → akute intermittierende Porphyrie (acute intermittent porphyria)
 {: .text-alpha }
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Buprenorphin ist ein Opioid, das bisher zur Behandlung von Opioidabhängigkeit zugelassen war (Opioid-bezogene Störungen).
-Das TxGNN-Modell sagt voraus, dass es bei **akuter intermittierender Porphyrie** wirksam sein könnte, doch dafür gibt es **keine klinischen Studien** und nur **eine Publikation** (einen Fallbericht zum Narkosemanagement), die keine therapeutische Wirkung belegt.
-
----
+Buprenorphin ist ein Opioid, das in Deutschland zugelassen ist. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **akuter intermittierender Porphyrie (acute intermittent porphyria)** voraus. Es liegen **keine klinischen Studien** und nur **eine Publikation** vor, einen Fallbericht von 1993 zum Anästhesiemanagement. Dieser behandelt keine Therapie der Erkrankung selbst.
 
 ## Schnellübersicht
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Opioid-bezogene Störungen (Opioidabhängigkeit) |
-| Vorhergesagte neue Indikation | Akute intermittierende Porphyrie |
-| TxGNN-Vorhersagewert | 99,41 % |
-| Evidenzniveau | L4 (laut den für diesen Bericht zusammengestellten Daten; faktisch liegt nur eine Modellvorhersage ohne therapeutische Studien vor) |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 4 (alle aufgehoben) |
+| Ursprüngliche Indikation | Opioid-Related Disorders |
+| Vorhergesagte neue Indikation | akute intermittierende Porphyrie (acute intermittent porphyria) |
+| TxGNN-Vorhersagewert | 0,9941 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 4 von 4) |
+| Anzahl der Zulassungen | 4 (gültig: 4) |
 | Empfohlene Entscheidung | Hold |
 
----
+## Warum ist diese Vorhersage plausibel?
 
-## Warum ist diese Vorhersage (nicht) plausibel?
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Buprenorphin ein Opioid mit partieller Agonistenwirkung am µ-Opioid-Rezeptor ist. Daraus lässt sich jedoch keine belastbare Verbindung zu einem therapeutischen Effekt bei akuter intermittierender Porphyrie ableiten.
 
-Zum Wirkmechanismus von Buprenorphin liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Buprenorphin ein partieller Agonist am μ-Opioidrezeptor ist und bei Opioidabhängigkeit eingesetzt wird. Ein mechanistischer Zusammenhang mit der akuten intermittierenden Porphyrie ist nicht erkennbar.
+Die einzige gefundene Publikation beschreibt die sichere perioperative Arzneimittelwahl bei einer Patientin mit Porphyrie, nicht die Behandlung der Erkrankung. Zudem gilt Buprenorphin bei Porphyrie eher als Arzneimittel, bei dem Vorsicht geboten ist. Der hohe Vorhersagewert ist daher vermutlich ein Artefakt der modellbasierten Vorhersage und kein Hinweis auf einen echten Nutzen.
 
-Die einzige gefundene Publikation (1993) beschreibt die Narkoseführung bei einer Patientin mit Porphyrie. Sie betrifft den sicheren perioperativen Einsatz von Arzneimitteln, nicht die Behandlung der Erkrankung. Buprenorphin gilt bei Porphyrie allgemein als Wirkstoff, der Vorsicht erfordert. Der hohe TxGNN-Wert ist daher sehr wahrscheinlich ein Artefakt der Graphstruktur und kein Hinweis auf einen therapeutischen Nutzen.
+Da keine Studie die Erkrankung direkt als Behandlungsziel untersucht, ist die Evidenzstufe L5 (nur Modellvorhersage).
 
-### Weitere vorhergesagte Indikationen (zur Einordnung)
-
-| Rang | Indikation | TxGNN-Wert | Evidenz | Einschätzung |
-|---|---|---|---|---|
-| 2 | Lingual-faziale-bukkale Dyskinesie | 99,32 % | L4 | Nur indirekte Hinweise (Opioide bei Agitation bei Demenz, Rezeptorwechselwirkungen im Tiermodell); mehrere Treffer thematisch irrelevant |
-| 3 | Chronische Tic-Störung | 99,13 % | L5 | Nur Vorhersage, keine Studien oder Literatur |
-| 4 | Kontinuierliche Spike-Waves im Schlaf | 99,05 % | L5 | Opioide können prokonvulsiv wirken; Sicherheitsbedenken |
-| 5 | Benigne Shuddering-Attacken | 99,03 % | L5 | Gutartige, selbstlimitierende Erkrankung; ungünstiges Nutzen-Risiko-Verhältnis |
-| 6 | Extrapyramidale und Bewegungsstörungen | 99,03 % | L5 | Sehr breite Kategorie, vermutlich Graphnähe statt spezifischer Mechanismus |
-
----
-
-## Klinische Studienevidenz
+## Klinische Studien
 
 Derzeit sind keine zugehörigen klinischen Studien registriert.
 
----
-
 ## Literaturevidenz
 
-| PMID | Jahr | Typ | Fachzeitschrift | Kernaussagen |
-|------|-----|------|------|---------|
-| [8301837](https://pubmed.ncbi.nlm.nih.gov/8301837/) | 1993 | Fallbericht | Masui (Jpn J Anesthesiol) | Narkosemanagement bei einer Patientin mit akuter intermittierender Porphyrie bei einer Operation wegen eines Ovarialtumors; betrifft keine Therapie der Erkrankung |
-
----
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|---------|---------|
+| [8301837](https://pubmed.ncbi.nlm.nih.gov/8301837/) | 1993 | Fallbericht | Masui. The Japanese journal of anesthesiology | Anästhesiemanagement bei einer 40-jährigen Patientin mit Verdacht auf akute intermittierende Porphyrie, die sich einer Hysterektomie wegen eines bösartigen Ovarialtumors unterzog; betrifft die perioperative Versorgung, nicht die Behandlung der Porphyrie |
 
 ## Marktinformationen Deutschland
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004651 | Buvidal | – | Opioid-bezogene Störungen |
-| EMEA/H/C/006188 | Buprenorphine Neuraxpharm | – | Opioid-bezogene Störungen |
-| EMEA/H/C/004407 | Zubsolv | – | Opioid-bezogene Störungen |
-| EMEA/H/C/000697 | Suboxone | – | Opioid-bezogene Störungen |
-
-Alle vier Zulassungen sind aufgehoben.
-
----
+| EMEA/H/C/004651 | Buvidal | – | – |
+| EMEA/H/C/006188 | Buprenorphine Neuraxpharm | – | – |
+| EMEA/H/C/004407 | Zubsolv | – | – |
+| EMEA/H/C/000697 | Suboxone | – | – |
 
 ## Sicherheitsaspekte
 
-- **Kontraindikationen laut Wissensgraph (PrimeKG, keine Angaben aus Fachinformationen):** Unter anderem Long-QT-Syndrom, Torsades de pointes, orthostatische Hypotonie, chronisch obstruktive Lungenerkrankung, Atemversagen, Lebererkrankungen, Hepatitis B/C, Nebenniereninsuffizienz, Hypothyreose, paralytischer Ileus, Darmverschluss, benigne Prostatahyperplasie, Gallenwegserkrankungen, Harnröhrenstriktur, erhöhter Hirndruck (Pseudotumor cerebri), Drogenabhängigkeit/Substanzmissbrauch.
-- **Arzneimittelwechselwirkungen (100 Einträge, Auswahl der Einstufung „schwerwiegend“):** Alvimopan, Bupropion, Morphin, Cisaprid, Dolasetron. Weitere Wechselwirkungen mittleren Schweregrades bestehen u. a. mit Famotidin, Loperamid, Atropin, Dexamethason, Clarithromycin und Cimetidin.
-- **Besonderer Hinweis:** Buprenorphin gilt bei Porphyrie als vorsichtig einzusetzender Wirkstoff; die vorhergesagte Indikation ist daher sicherheitlich kritisch zu sehen.
+- **Arzneimittelwechselwirkungen** (Auswahl aus 100 erfassten Wechselwirkungen):
+  - Schwerwiegend (Major): Alvimopan, Bupropion, Morphin, Cisaprid, Dolasetron
+  - Moderat: u. a. Famotidin, Hyoscyamin, Loperamid, Aprepitant, Atropin, Dexamethason, Clarithromycin, Cimetidin
 
-Für Warnhinweise und Gegenanzeigen aus der Fachinformation ist die Packungsbeilage heranzuziehen.
-
----
+Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die vorhergesagte Indikation gibt es weder klinische Studien noch eine belastbare mechanistische Grundlage; die einzige Publikation betrifft das Narkosemanagement. Zudem ist Buprenorphin bei Porphyrie nur mit Vorsicht anzuwenden, und in Deutschland bestehen derzeit keine gültigen Zulassungen. Auch die übrigen vorhergesagten Indikationen sind nicht ausreichend belegt.
+Es gibt weder klinische Studien noch eine Publikation, die Buprenorphin als Behandlung der akuten intermittierenden Porphyrie untersucht. Der hohe Vorhersagewert ist durch Daten nicht gestützt, und Opioide erfordern bei Porphyrie Vorsicht.
 
-**Zum Fortfahren sind folgende Schritte erforderlich:**
-- Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM beschaffen und auswerten, da die Sicherheitsprüfung sonst nicht fortgesetzt werden kann
-- Detaillierte Wirkmechanismus-Daten (MOA) aus DrugBank ergänzen
-- Prüfung der Sicherheit bei Porphyrie (Porphyrinogenität) anhand von Fachliteratur und Datenbanken
-- Systematische Literaturrecherche zur Wirksamkeit bei den vorhergesagten Indikationen, insbesondere bei Dyskinesien
-- Klärung des aktuellen Zulassungs- und Vertriebsstatus in Deutschland
+**Für ein Weiterkommen ist Folgendes nötig:**
+- Daten zum Wirkmechanismus
+- Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) zur Sicherheitsbewertung, insbesondere bei Porphyrie
+- Prüfung, ob ein biologisch plausibler Therapieansatz existiert, bevor weitere Schritte erfolgen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

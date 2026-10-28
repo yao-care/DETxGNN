@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Granisetron: Von Erbrechen bei Krebserkrankungen zu manischer bipolarer affektiver Störung
+## Granisetron: Manische bipolare affektive Störung
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Erbrechen; Krebserkrankung |
 | Vorhergesagte neue Indikation | Manische bipolare affektive Störung |
-| TxGNN-Vorhersagewert | 99,62 % |
+| TxGNN-Vorhersagewert | 0,9962 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -64,21 +64,21 @@ Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusamme
 
 Bei Manie wird eine Dysregulation des serotonergen und dopaminergen Systems diskutiert. 5-HT3-Antagonisten wie Ondansetron wurden bereits als Zusatztherapie bei psychiatrischen Erkrankungen untersucht. Der Zusammenhang zur ursprünglichen Indikation (Übelkeit/Erbrechen) ist gering; er beschränkt sich auf den gemeinsamen Zielrezeptor.
 
-Der hohe TxGNN-Wert (0,996) ist eine rein rechnerische Vorhersage. Klinische Belege fehlen, daher bleibt die Verbindung hypothetisch.
+Der hohe TxGNN-Wert (0,9962) ist eine rein rechnerische Vorhersage. Klinische Belege fehlen, daher bleibt die Verbindung hypothetisch.
 
 Weitere vorhergesagte Indikationen (jeweils L5, jeweils ohne Studien oder Literatur):
 
 | Rang | Indikation | TxGNN-Wert | Plausibilität des Mechanismus |
 |------|------|------|------|
-| 2 | Tourette-Syndrom | 99,52 % | Plausibel, aber hypothetisch (dopaminerg/serotonerg) |
-| 3 | Akute ansteckende Konjunktivitis | 99,49 % | Kein erkennbarer Mechanismus |
-| 4 | Angioödem | 99,36 % | Spekulativ |
-| 5 | Allergische Urtikaria | 99,32 % | Indirekt, spekulativ |
-| 6 | Nephrogenes Syndrom der inadäquaten Antidiurese | 99,32 % | Schwach |
-| 7 | Trichotillomanie | 99,23 % | Plausibel, aber indirekt |
-| 8 | Bronchitis | 99,18 % | Schwach, indirekt |
-| 9 | Kälteurtikaria | 99,10 % | Spekulativ |
-| 10 | Konjunktivitis | 99,09 % | Kein etablierter Mechanismus |
+| 2 | Tourette-Syndrom | 0,9952 | Plausibel, aber hypothetisch (dopaminerg/serotonerg) |
+| 3 | Akute ansteckende Konjunktivitis | 0,9949 | Kein erkennbarer Mechanismus |
+| 4 | Angioödem | 0,9936 | Spekulativ |
+| 5 | Allergische Urtikaria | 0,9932 | Indirekt, spekulativ |
+| 6 | Nephrogenes Syndrom der inadäquaten Antidiurese | 0,9932 | Schwach |
+| 7 | Trichotillomanie | 0,9923 | Plausibel, aber indirekt |
+| 8 | Bronchitis | 0,9918 | Schwach, indirekt |
+| 9 | Kälteurtikaria | 0,9910 | Spekulativ |
+| 10 | Konjunktivitis | 0,9909 | Kein etablierter Mechanismus |
 
 ---
 
@@ -98,7 +98,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/002296 | Sancuso (Grünenthal GmbH) | – | Erbrechen; Krebserkrankung (Status: erloschen) |
+| EMEA/H/C/002296 | Sancuso (Grünenthal GmbH) | – | Erbrechen; Krebserkrankung (Status: gültig) |
 
 ---
 

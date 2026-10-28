@@ -8,6 +8,7 @@ nav_order: 95
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Cangrelor
@@ -51,8 +52,8 @@ Dieser Bericht dokumentiert den aktuellen Datenstatus und beschreibt die Schritt
 | Vorhergesagte neue Indikation | Keine Vorhersagen generiert |
 | TxGNN-Vorhersage-Score | N/A |
 | Evidenzstufe | L5 — Modellvorhersage noch nicht verfügbar |
-| Marktstatus | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
+| Marktstatus | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | **Aufschub** |
 
 ---

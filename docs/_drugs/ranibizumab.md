@@ -4,17 +4,17 @@ title: Ranibizumab
 parent: Nur Modellvorhersage (L5)
 nav_order: 381
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Ranibizumab: vorhergesagte neue Indikation Schwere nichtproliferative diabetische Retinopathie (Evidenzstufe L5). Ursprüngliche Indikation: Feuchte Makuladegeneration, Makulaödem, diabetische Retinop…"
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["tetanic cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "mature cataract", "craniostenosis cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "hemorrhagic disease of newborn"]
+description: "Ranibizumab: vorhergesagte neue Indikation Tetanic cataract (Evidenzstufe L5). Ursprüngliche Indikation: Wet Macular Degeneration"
 ---
 
 # Ranibizumab
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Ranibizumab: Von feuchter Makuladegeneration zur schweren nichtproliferativen diabetischen Retinopathie
+## Ranibizumab: Tetanic cataract
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,12 +48,12 @@ Dafür liegen in den zusammengestellten Daten **keine registrierten klinischen S
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Feuchte Makuladegeneration, Makulaödem, diabetische Retinopathie, diabetische Komplikationen, retinaler Venenverschluss, choroidale Neovaskularisation |
-| Vorhergesagte neue Indikation | Schwere nichtproliferative diabetische Retinopathie |
-| TxGNN-Vorhersagewert | 99,99 % |
-| Evidenzstufe | L1 (mit Einschränkung, siehe unten) |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 7 (alle erloschen) |
+| Ursprüngliche Indikation | Wet Macular Degeneration;Macular Edema;Diabetic Retinopathy;Diabetes Complications;Retinal Vein Occlusion;Choroidal Neovascularization; Wet Macular Degeneration;Macular Edema;Diabetes Complications;Myopia, Degenerative;Choroidal Neovascularization; Wet Macular Degeneration;Macular Edema;Diabetic Ret |
+| Vorhergesagte neue Indikation | Tetanic cataract |
+| TxGNN-Vorhersagewert | 0.9999 |
+| Evidenzstufe | L5 (mit Einschränkung, siehe unten) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 7 von 7) |
+| Anzahl der Zulassungen | 7 (gültig: 7) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
 
 ---
@@ -103,7 +103,7 @@ Hinweis zur Evidenzstufe: Die Einstufung L1 beruht allein auf Literaturtiteln. D
 | EMEA/H/C/005019 | Ranivisio | – | Feuchte Makuladegeneration, Makulaödem, diabetische Retinopathie, diabetische Komplikationen |
 | EMEA/H/C/006502 | Ranluspec | – | Feuchte Makuladegeneration, Makulaödem, diabetische Retinopathie, diabetische Komplikationen... |
 
-Alle 7 Zulassungen haben den Status „erloschen“; derzeit ist keine gültige Zulassung verzeichnet.
+Alle 7 Zulassungen haben den Status „gültig“; derzeit sind 7 von 7 Zulassungen gültig.
 
 ---
 
@@ -134,7 +134,7 @@ Für alle genannten Indikationen lautet die Empfehlung **Hold**.
 **Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Die Indikation liegt eng an den bereits zugelassenen Anwendungen, und die Literatur enthält eine randomisierte Studie (Pavilion) sowie Post-hoc-Analysen von Phase-3-Studien. Allerdings fehlen registrierte Studien in den Daten, und derzeit besteht keine gültige Zulassung in Deutschland.
+Die Indikation liegt eng an den bereits zugelassenen Anwendungen, und die Literatur enthält eine randomisierte Studie (Pavilion) sowie Post-hoc-Analysen von Phase-3-Studien. Allerdings fehlen registrierte Studien in den Daten; das Arzneimittel ist in Deutschland im Verkehr, mit 7 gültigen Zulassungen von 7.
 
 **Für das weitere Vorgehen ist Folgendes erforderlich:**
 - Prüfung der Studiendesigns hinter der L1-Einstufung (insbesondere Pavilion und RIDE/RISE)

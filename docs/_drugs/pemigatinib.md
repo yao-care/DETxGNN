@@ -4,17 +4,17 @@ title: Pemigatinib
 parent: Nur Modellvorhersage (L5)
 nav_order: 352
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Pemigatinib: vorhergesagte neue Indikation Multiple endokrine Neoplasie (Evidenzstufe L5). Ursprüngliche Indikation: Cholangiokarzinom"
 monitor_inn: "PEMIGATINIB"
-predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "HER2 positive breast carcinoma", "cytomegalovirus infection", "malignant catarrh", "infectious bovine rhinotracheitis", "amyotrophic lateral sclerosis", "amyotrohpic lateral sclerosis type 22", "amyotrophic lateral sclerosis, susceptibility to", "axial spondylometaphyseal dysplasia"]
+predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "HER2 positive breast carcinoma", "cytomegalovirus infection", "malignant catarrh", "infectious bovine rhinotracheitis", "amyotrophic lateral sclerosis", "amyotrohpic lateral sclerosis type 22", "axial spondylometaphyseal dysplasia"]
 ---
 
 # Pemigatinib
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Pemigatinib: Von Cholangiokarzinom zu multipler endokriner Neoplasie
+## Pemigatinib: Von Cholangiokarzinom zu „Multiple endokrine Neoplasie“
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,10 +48,10 @@ Pemigatinib ist ein selektiver FGFR1-3-Inhibitor und wurde ursprünglich zur Beh
 |------|------|
 | Ursprüngliche Indikation | Cholangiokarzinom |
 | Vorhergesagte neue Indikation | Multiple endokrine Neoplasie |
-| TxGNN-Vorhersagewert | 99,71 % |
+| TxGNN-Vorhersagewert | 0,9971 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist, da
 
 Der FGFR-Signalweg wird mit einigen endokrinen Tumoren in Verbindung gebracht. Ein direkter Zusammenhang mit den Syndromen der multiplen endokrinen Neoplasie ist durch die vorliegenden Daten jedoch nicht belegt. Diese Syndrome werden typischerweise durch Veränderungen in MEN1, RET oder CDKN1B getrieben, nicht durch FGFR. Die mechanistische Begründung ist daher spekulativ.
 
-Auch die übrigen Vorhersagen mit hohen Werten (u. a. Amenorrhö, HER2-positives Mammakarzinom, Zytomegalievirus-Infektion, amyotrophe Lateralsklerose) sind nicht durch Studien gestützt. Mehrere davon, etwa die Veterinärerkrankungen (bösartiges Katarrhalfieber, infektiöse bovine Rhinotracheitis), erscheinen therapeutisch kaum plausibel und spiegeln vermutlich Netzwerkassoziationen im Wissensgraphen wider.
+Auch die übrigen Vorhersagen mit hohen Werten (u. a. Amenorrhoe, HER2-positives Mammakarzinom, Zytomegalievirus-Infektion) sind nicht durch Studien gestützt. Mehrere davon, etwa die Veterinärerkrankungen (bösartiges Katarrhalfieber, infektiöse bovine Rhinotracheitis), erscheinen therapeutisch kaum plausibel. Die Werte stammen vom TxGNN-Modell (Deep Learning) und können Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz.
 
 ---
 

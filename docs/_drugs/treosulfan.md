@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-## Treosulfan: Von der Konditionierung vor hämatopoetischer Stammzelltransplantation zur diabetischen Katarakt
+## Treosulfan: Diabetische Katarakt
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,10 +48,10 @@ Treosulfan wurde ursprünglich im Rahmen der Konditionierung vor einer hämatopo
 |------|------|
 | Ursprüngliche Indikation | Hämatopoetische Stammzelltransplantation |
 | Vorhergesagte neue Indikation | Diabetische Katarakt |
-| TxGNN-Vorhersagewert | 99,01 % |
+| TxGNN-Vorhersagewert | 0,9901 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -84,7 +84,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/004751 | Trecondi | – | Hämatopoetische Stammzelltransplantation |
 
-Die einzige Zulassung ist erloschen bzw. zurückgezogen (Status: cancelled). Es besteht derzeit keine gültige Zulassung.
+Die einzige Zulassung ist gültig (1 von 1 Zulassungen gültig). Das Arzneimittel ist derzeit im Handel.
 
 ---
 
@@ -111,7 +111,7 @@ Für Sicherheitsinformationen beachten Sie bitte die Fachinformation. Zu Wechsel
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich allein auf das Modell (L5), ohne klinische Studien oder Publikationen und ohne erkennbaren mechanistischen Zusammenhang. Das ungünstige Nutzen-Risiko-Profil eines zytotoxischen Alkylans bei diabetischer Katarakt sowie die bekannte Kataraktentstehung als Spätfolge der Konditionierung sprechen klar gegen eine Weiterverfolgung. Zudem besteht in Deutschland keine gültige Zulassung.
+Die Vorhersage stützt sich allein auf das Modell (L5), ohne klinische Studien oder Publikationen und ohne erkennbaren mechanistischen Zusammenhang. Das ungünstige Nutzen-Risiko-Profil eines zytotoxischen Alkylans bei diabetischer Katarakt sowie die bekannte Kataraktentstehung als Spätfolge der Konditionierung sprechen klar gegen eine Weiterverfolgung. Zudem ist das Arzneimittel in Deutschland mit einer gültigen Zulassung im Handel.
 
 **Für ein Weiterkommen wären erforderlich:**
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da dies die Sicherheitsprüfung derzeit blockiert

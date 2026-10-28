@@ -5,10 +5,10 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 170
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Entacapone: vorhergesagte neue Indikation PLA2G6-assoziierte Neurodegeneration (Evidenzstufe L5). Ursprüngliche Indikation: Morbus Parkinson"
 monitor_inn: "ENTACAPONE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
+last_modified_at: 2026-10-27
+description: "Entacapone: vorhergesagte neue Indikation PLA2G6-assoziierte Neurodegeneration (PLA2G6-associated neurodegeneration) (Evidenzstufe L5). Ursprüngliche Indikation: Parkinson Disease"
 ---
 
 # Entacapone
@@ -33,78 +33,56 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Entacapon: Von Morbus Parkinson zu PLA2G6-assoziierter Neurodegeneration
+## Entacapon: COMT-Hemmer → PLA2G6-assoziierte Neurodegeneration (PLA2G6-associated neurodegeneration)
 {: .text-alpha }
 
 ## Zusammenfassung
 
-Entacapon ist ein COMT-Hemmer, der ursprünglich zur Behandlung der Parkinson-Krankheit zugelassen wurde, und zwar als Zusatztherapie zu Levodopa.
-Das TxGNN-Modell sagt vorher, dass er bei **PLA2G6-assoziierter Neurodegeneration** wirksam sein könnte.
-Für diese Vorhersage liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; sie beruht ausschließlich auf der Modellvorhersage.
+Entacapon ist ein COMT-Hemmer, der als Zusatztherapie zu Levodopa eingesetzt wird. Das TxGNN-Modell sagt voraus, dass er bei **PLA2G6-assoziierter Neurodegeneration (PLA2G6-associated neurodegeneration)** wirksam sein könnte. Für diese Vorhersage liegen **keine klinischen Studien** und **keine Publikationen** vor; sie beruht ausschließlich auf der Modellvorhersage.
 
----
-
-## Kurzüberblick
+## Überblick
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Morbus Parkinson |
-| Vorhergesagte neue Indikation | PLA2G6-assoziierte Neurodegeneration |
-| TxGNN-Vorhersagewert | 99,76 % |
-| Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 7 (alle erloschen) |
+| Ursprüngliche Indikation | Parkinson Disease |
+| Vorhergesagte neue Indikation | PLA2G6-assoziierte Neurodegeneration (PLA2G6-associated neurodegeneration) |
+| TxGNN-Vorhersagewert | 0,9976 |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 7 von 7) |
+| Anzahl der Zulassungen | 7 (gültig: 7) |
 | Empfohlene Entscheidung | Hold |
-
----
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Entacapon ein COMT-Hemmer ist, der die Wirkung von Levodopa verlängert. Seine Wirksamkeit bei Morbus Parkinson ist belegt.
+Für Entacapon liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Bekannt ist, dass Entacapon die Catechol-O-Methyltransferase (COMT) hemmt und dadurch die Wirkung von Levodopa verlängert.
 
-Die PLA2G6-assoziierte Neurodegeneration umfasst unter anderem die infantile neuroaxonale Dystrophie und die PLA2G6-bedingte Dystonie-Parkinsonismus-Form. Diese teilen eine dopaminerge Dysfunktion mit der Parkinson-Krankheit. Bei parkinsonartigen Phänotypen könnte ein Levodopa-verlängernder Wirkstoff daher einen symptomatischen Nutzen haben.
+Die PLA2G6-assoziierte Neurodegeneration umfasst unter anderem die infantile neuroaxonale Dystrophie und die PLA2G6-bedingte Dystonie-Parkinsonismus-Form. Letztere teilt mit der Parkinson-Krankheit eine dopaminerge Dysfunktion. Ein symptomatischer Nutzen eines levodopa-verlängernden COMT-Hemmers bei parkinsonartigen Phänotypen ist daher biologisch denkbar.
 
-Diese Verbindung ist jedoch hypothetisch und stützt sich allein auf die TxGNN-Vorhersage. Der zugrunde liegende Prozess, nämlich Störungen des Lipidstoffwechsels und der Neurodegeneration, würde durch Entacapon nicht behandelt.
+Diese Verbindung ist jedoch hypothetisch und stützt sich allein auf die TxGNN-Vorhersage. Der zugrunde liegende Prozess (Störung des Lipidstoffwechsels und Neurodegeneration) würde durch Entacapon nicht beeinflusst; allenfalls wären Symptome adressierbar.
 
----
+## Klinische Studien
 
-## Evidenz aus klinischen Studien
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-Derzeit sind keine klinischen Studien zu dieser Indikation registriert.
+## Literatur
 
----
+Derzeit ist keine zugehörige Literatur verfügbar.
 
-## Evidenz aus der Literatur
-
-Derzeit liegt keine relevante Literatur vor.
-
----
-
-## Informationen zum deutschen Markt
-
-Die folgende Tabelle zeigt die fünf wichtigsten Zulassungen. Alle sind erloschen. Es handelt sich um zentrale EU-Zulassungsnummern (EMEA).
+## Marktinformationen Deutschland
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/002075 | Entacapone Teva | – | Morbus Parkinson |
-| EMEA/H/C/000170 | Comtess | – | Morbus Parkinson |
-| EMEA/H/C/002440 | Entacapone Orion | – | Morbus Parkinson |
-| EMEA/H/C/000171 | Comtan | – | Morbus Parkinson |
-| EMEA/H/C/000511 | Stalevo | – | Morbus Parkinson |
+| EMEA/H/C/002075 | Entacapone Teva | – | Parkinson-Krankheit |
+| EMEA/H/C/000170 | Comtess | – | Parkinson-Krankheit |
+| EMEA/H/C/002440 | Entacapone Orion | – | Parkinson-Krankheit |
+| EMEA/H/C/000171 | Comtan | – | Parkinson-Krankheit |
+| EMEA/H/C/000511 | Stalevo | – | Parkinson-Krankheit |
 
----
+## Sicherheitshinweise
 
-## Sicherheitsaspekte
+Für die Sicherheit siehe bitte die Packungsbeilage.
 
-**Wissensgraph-basierte Kontraindikationen** (aus Wirkstoff-Krankheits-Beziehungen des TxGNN-Wissensgraphen, nicht aus Fachinformationstexten). Genannt sind unter anderem:
-- Neurologisch/psychiatrisch: Multisystematrophie, orthostatische Hypotonie, posturales orthostatisches Tachykardiesyndrom, medikamenteninduzierte Dyskinesie, Epilepsie, psychotische Störungen, Schizophrenie-ähnliche und schizoaffektive Störungen, Angststörungen
-- Herz-Kreislauf: Myokardinfarkt, Koronarthrombose, plötzlicher Herzstillstand, Erregungsleitungsstörungen des Herzens
-- Organerkrankungen: Nieren-, Leber- und Gallenblasenerkrankungen
-- Magen-Darm: Magengeschwür, Ulkuskrankheit, Durchfallerkrankungen
-- Stoffwechsel: Diabetes mellitus, diabetische Ketoazidose
-- Sonstige: Offenwinkel- und Engwinkelglaukom, Melanom, Hämoglobinopathien
-
-**Arzneimittelwechselwirkungen:** Insgesamt wurden 82 Wechselwirkungen erfasst. Als moderat eingestuft sind unter anderem:
+Arzneimittelwechselwirkungen: Insgesamt wurden 82 Wechselwirkungen erfasst. Als mäßig eingestuft sind unter anderem:
 - Epinephrin (auch ophthalmisch und topisch)
 - Morphin (auch liposomal)
 - Dronabinol
@@ -113,25 +91,20 @@ Die folgende Tabelle zeigt die fünf wichtigsten Zulassungen. Alle sind erlosche
 - Metoclopramid
 - Eisen
 
-Weitere Wechselwirkungen, etwa mit Pantoprazol, Omeprazol, Metformin oder Simvastatin, sind in ihrer Schwere nicht eingestuft.
-
-Zu Warnhinweisen und Gegenanzeigen aus der Fachinformation liegen keine Daten vor. Bitte die Packungsbeilage bzw. Fachinformation konsultieren.
-
----
+Weitere Wechselwirkungen mit nicht eingestuftem Schweregrad betreffen u. a. Pantoprazol, Omeprazol, Lansoprazol, Doxycyclin, Metformin, Atropin, Lactulose, Prednison, Simvastatin und Kaliumchlorid.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf dem TxGNN-Modell (Evidenzgrad L5) und wird weder durch klinische Studien noch durch Literatur gestützt. Zudem besteht in Deutschland derzeit keine gültige Zulassung für Entacapon.
+Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzniveau L5); es existieren weder klinische Studien noch Publikationen zu dieser Erkrankung. Der hohe Wert erklärt sich vermutlich teilweise durch die Ähnlichkeit zur Parkinson-Krankheit, nicht durch neue Befunde.
 
-**Für ein Weiterkommen sind folgende Schritte nötig:**
-- Prüfung präklinischer oder mechanistischer Daten zu Entacapon bei PLA2G6-assoziierter Neurodegeneration
-- Daten zum Wirkmechanismus (MOA) ergänzen
-- Warnhinweise und Gegenanzeigen aus der Fachinformation beschaffen und auswerten (Voraussetzung für das Sicherheitsscreening)
-- Klärung des Zulassungs- und Verfügbarkeitsstatus in Deutschland
-- Bewertung der Machbarkeit bei dieser seltenen, oft genetisch heterogenen Erkrankung; zudem sollte geprüft werden, ob die in der Wirkstoffklasse bekannten Leberrisiken bei Betroffenen vertretbar sind
+**Für ein Fortschreiten sind erforderlich:**
+- Daten zum Wirkmechanismus von Entacapon
+- Präklinische Belege oder Fallserien bei PLA2G6-assoziierter Dystonie-Parkinsonismus
+- Vollständige Sicherheitsinformationen aus der Packungsbeilage (Warnhinweise, Gegenanzeigen)
+- Bewertung der Sicherheit in der seltenen, oft kindlichen Zielpopulation
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

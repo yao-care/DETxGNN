@@ -4,7 +4,7 @@ title: Teriparatide
 parent: Nur Modellvorhersage (L5)
 nav_order: 458
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Teriparatide: vorhergesagte neue Indikation Duodenalulkus (Evidenzstufe L5). Ursprüngliche Indikation: Osteoporose"
 monitor_inn: "TERIPARATIDE"
@@ -14,7 +14,7 @@ predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal ma
 # Teriparatide
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Teriparatid ist ein Fragment des Parathormons (PTH 1-34) und wird zur Behandlung
 |------|------|
 | Ursprüngliche Indikation | Osteoporose; postmenopausale Osteoporose |
 | Vorhergesagte neue Indikation | Duodenalulkus |
-| TxGNN-Vorhersagewert | 99,86 % |
+| TxGNN-Vorhersagewert | 0,9986 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 8 (alle aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 7 von 8) |
+| Anzahl der Zulassungen | 8 (gültig: 7) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -119,7 +119,7 @@ Die Angaben aus der Fachinformation (Warnhinweise, Gegenanzeigen) lagen für die
 **Entscheidung: Hold**
 
 **Begründung:**
-Für Duodenalulkus gibt es weder Studien noch Publikationen, und ein plausibler Wirkmechanismus fehlt. Hinzu kommt, dass derzeit keine gültige Zulassung in Deutschland besteht und die Sicherheitsangaben aus der Fachinformation fehlen.
+Für Duodenalulkus gibt es weder Studien noch Publikationen, und ein plausibler Wirkmechanismus fehlt. Hinzu kommt, dass in Deutschland derzeit 7 von 8 Zulassungen gültig sind, die Sicherheitsangaben aus der Fachinformation aber fehlen.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Prüfen, ob für Duodenalulkus präklinische oder mechanistische Hinweise existieren (z. B. Literaturrecherche zu PTH-Rezeptoren im Magen-Darm-Trakt).
@@ -128,8 +128,7 @@ Für Duodenalulkus gibt es weder Studien noch Publikationen, und ein plausibler 
 - Verfügbarkeit der Produkte klären, da alle Zulassungen aufgehoben sind.
 
 **Hinweis zu anderen Vorhersagen:** Unter den zehn vorhergesagten Indikationen sind zwei deutlich besser belegt als das Duodenalulkus:
-- **Schwangerschafts- und laktationsassoziierte Osteoporose** (Vorhersagewert 99,55 %, Evidenzlevel L3, Empfehlung „Proceed with Guardrails“): Es gibt zahlreiche Kohortenstudien, Übersichtsarbeiten und eine Meta-Analyse, aber keine registrierten klinischen Studien. Die Anwendung wäre nur unter Auflagen sinnvoll: sicherstellen, dass keine Schwangerschaft mehr besteht, Stillsituation klären, Anwendung unter fachärztlicher Aufsicht, Begrenzung der kumulativen Behandlungsdauer, Ausschluss von Kontraindikationen und Kalziumkontrolle.
-- **Amenorrhoe** (Vorhersagewert 99,04 %, Evidenzlevel L4, Empfehlung „Research Question“): Der Bezug besteht indirekt über die Knochengesundheit bei funktioneller hypothalamischer Amenorrhoe.
+- **Amenorrhoe** (Vorhersagewert 0,9904, Evidenzlevel L4, Empfehlung „Research Question“): Der Bezug besteht indirekt über die Knochengesundheit bei funktioneller hypothalamischer Amenorrhoe.
 
 Eine vertiefte Bewertung dieser beiden Indikationen wäre wahrscheinlich aussichtsreicher als die des Duodenalulkus.
 ## Haftungsausschluss

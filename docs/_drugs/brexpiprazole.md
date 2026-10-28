@@ -8,6 +8,7 @@ nav_order: 73
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Brexpiprazole
@@ -51,8 +52,8 @@ Eine Hold-Entscheidung wird empfohlen, bis die Datenlücken behoben sind.
 | Vorhergesagte neue Indikation | Nicht verfügbar – keine TxGNN-Vorhersagen in diesem Evidence Pack |
 | TxGNN-Vorhersage-Score | N/A |
 | Evidenzstufe | N/A |
-| Marktstatus Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
+| Marktstatus Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | **Hold** |
 
 ---

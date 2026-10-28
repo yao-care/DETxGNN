@@ -4,17 +4,17 @@ title: Ziconotide
 parent: Mittlere Evidenz (L3-L4)
 nav_order: 506
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Ziconotide: vorhergesagte neue Indikation Migräne (migraine disorder) (Evidenzstufe L4). Ursprüngliche Indikation: Injektionen, spinal"
 monitor_inn: "ZICONOTIDE"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "obesity disorder", "transient ischemic attack (disease)", "open-angle glaucoma", "obsolete neurogenic bladder (disease)", "migraine with or without aura, susceptibility to", "primary hereditary glaucoma", "preeclampsia"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "obesity disorder", "transient ischemic attack (disease)", "open-angle glaucoma", "obsolete neurogenic bladder (disease)", "primary hereditary glaucoma", "preeclampsia"]
 ---
 
 # Ziconotide
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Die Evidenz ist bislang dünn: **keine klinischen Studien** und **1 Fallbericht*
 |------|------|
 | Ursprüngliche Indikation | Injektionen, spinal; Schmerz |
 | Vorhergesagte neue Indikation | Migräne (migraine disorder) |
-| TxGNN-Vorhersagewert | 99,92 % |
+| TxGNN-Vorhersagewert | 0,9992 |
 | Evidenzgrad | L4 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung (Cancelled only) |
-| Anzahl der Zulassungen | 1 (zentrale EU-Zulassung, aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -88,7 +88,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000551 | Prialt | – | Injektionen, spinal; Schmerz (Status: aufgehoben) |
+| EMEA/H/C/000551 | Prialt | – | Injektionen, spinal; Schmerz (Status: gültig) |
 
 ---
 

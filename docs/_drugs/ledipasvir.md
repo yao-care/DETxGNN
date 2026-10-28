@@ -50,10 +50,10 @@ Dafür liegen **5 klinische Studien** und **20 Publikationen** vor, darunter ein
 |------|------|
 | Ursprüngliche Indikation | Chronische Hepatitis C |
 | Vorhergesagte neue Indikation | Hepatitis-B-Virusinfektion |
-| TxGNN-Vorhersagewert | 99,91 % |
+| TxGNN-Vorhersagewert | 0,9991 |
 | Evidenzstufe | L2 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails |
 
 ---
@@ -64,7 +64,7 @@ Für diesen Bericht liegen keine detaillierten Daten zum Wirkmechanismus vor. Be
 
 Mechanistisch ist eine direkte Wirkung gegen HBV jedoch **unwahrscheinlich**, denn HBV besitzt kein NS5A-Homolog. Die klinische Relevanz ergibt sich vor allem aus der HCV/HBV-Koinfektion. Dort kann die HCV-Eradikation durch direkt wirkende Antivirale eine HBV-Reaktivierung auslösen. In der Phase-2-Studie zur HBV-Monoinfektion (NCT03312023, publiziert als PMID 36045503) wurde die Hypothese geprüft, dass sich der HBsAg-Spiegel ähnlich wie bei Koinfizierten (dort moderate Senkung) verringert. Ein solcher Effekt wäre vermutlich gering oder indirekt (z. B. über Sofosbuvir) und müsste anhand der HBV-DNA bestätigt werden.
 
-Der hohe TxGNN-Wert spiegelt somit eher die Nähe der Erkrankungen im Wissensgraphen wider als einen belegten Wirkmechanismus.
+Der hohe TxGNN-Wert stammt aus dem TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht aber einen biologischen Beleg.
 
 ---
 
@@ -101,7 +101,7 @@ Der hohe TxGNN-Wert spiegelt somit eher die Nähe der Erkrankungen im Wissensgra
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/003850 | Harvoni (Gilead Sciences Ireland UC) | – | Chronische Hepatitis C (Zulassung aufgehoben) |
+| EMEA/H/C/003850 | Harvoni (Gilead Sciences Ireland UC) | – | Chronische Hepatitis C (Zulassung gültig) |
 
 ---
 

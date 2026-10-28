@@ -48,10 +48,10 @@ Lonoctocog alfa ist ein rekombinanter Einzelketten-Faktor-VIII (mit verkürzter 
 |------|------|
 | Ursprüngliche Indikation | Hämophilie A |
 | Vorhergesagte neue Indikation | Pseudo-von-Willebrand-Erkrankung |
-| TxGNN-Vorhersagewert | 99,85 % |
+| TxGNN-Vorhersagewert | 0,9985 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -68,9 +68,9 @@ Der hohe TxGNN-Wert ist eine reine Modellvorhersage und wird durch keine klinisc
 
 | Rang | Erkrankung | TxGNN-Wert | Einschätzung des mechanistischen Zusammenhangs |
 |------|------|------|------|
-| 2 | Primäre Plättchen-Freisetzungsstörung | 99,84 % | Der Defekt betrifft Granula-Freisetzung bzw. Signalwege, nicht FVIII; allenfalls indirekter Nutzen über die Gerinnungskaskade |
-| 3 | Glanzmann-Thrombasthenie | 99,76 % | Defekt des Integrins αIIbβ3; FVIII korrigiert die Aggregationsstörung nicht, Rationale schwach |
-| 4 | Scott-Syndrom | 99,44 % | FVIII ist Kofaktor im Tenase-Komplex, ersetzt aber nicht die fehlende Phospholipid-Oberfläche; Nutzen spekulativ |
+| 2 | Primäre Plättchen-Freisetzungsstörung | 0,9984 | Der Defekt betrifft Granula-Freisetzung bzw. Signalwege, nicht FVIII; allenfalls indirekter Nutzen über die Gerinnungskaskade |
+| 3 | Glanzmann-Thrombasthenie | 0,9976 | Defekt des Integrins αIIbβ3; FVIII korrigiert die Aggregationsstörung nicht, Rationale schwach |
+| 4 | Scott-Syndrom | 0,9944 | FVIII ist Kofaktor im Tenase-Komplex, ersetzt aber nicht die fehlende Phospholipid-Oberfläche; Nutzen spekulativ |
 
 ---
 
@@ -92,7 +92,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/004075 | Afstyla (CSL Behring GmbH) | – | Hämophilie A |
 
-Diese Zulassung hat den Status „erloschen/widerrufen“; es besteht derzeit keine gültige Zulassung.
+Diese Zulassung hat den Status „gültig“; es besteht derzeit 1 gültige Zulassung (von 1).
 
 ---
 
@@ -107,7 +107,7 @@ Bitte entnehmen Sie die Sicherheitsinformationen der Fachinformation. Für Wechs
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzgrad L5) ohne Studien oder Publikationen. Der mechanistische Zusammenhang ist bei allen vier vorhergesagten Indikationen schwach bis spekulativ, da der Primärdefekt jeweils thrombozytär ist. Zudem besteht in Deutschland derzeit keine gültige Zulassung.
+Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzgrad L5) ohne Studien oder Publikationen. Der mechanistische Zusammenhang ist bei allen vier vorhergesagten Indikationen schwach bis spekulativ, da der Primärdefekt jeweils thrombozytär ist. Zudem ist das Arzneimittel in Deutschland derzeit im Handel; 1 von 1 Zulassung ist gültig.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) als Voraussetzung für das Sicherheitsscreening

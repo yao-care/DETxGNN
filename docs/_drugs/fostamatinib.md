@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-## Fostamatinib: Von Thrombozytopenie zu autosomaler Thrombozytopenie mit normalen Thrombozyten
+## Fostamatinib: Autosomale Thrombozytopenie mit normalen Thrombozyten
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Fostamatinib wurde ursprünglich zur Behandlung der Thrombozytopenie zugelassen.
 |------|------|
 | Ursprüngliche Indikation | Thrombozytopenie |
 | Vorhergesagte neue Indikation | Autosomale Thrombozytopenie mit normalen Thrombozyten |
-| TxGNN-Vorhersagewert | 99,45 % |
+| TxGNN-Vorhersagewert | 0,9945 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassungen |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -60,9 +60,9 @@ Fostamatinib wurde ursprünglich zur Behandlung der Thrombozytopenie zugelassen.
 
 Fostamatinib ist ein Inhibitor der Spleen-Tyrosinkinase (SYK); sein aktiver Metabolit ist R406. Substanzen dieser Art werden bei immunvermittelter Thrombozytopenie eingesetzt, indem sie den Abbau von Thrombozyten durch Immunzellen hemmen. Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten nicht vor.
 
-Die hohe Modellbewertung spiegelt vermutlich vor allem die Nähe der beiden Thrombozytopenie-Erkrankungen im Wissensgraphen wider. Die autosomale Thrombozytopenie mit normalen Thrombozyten scheint eine seltene, erblich bedingte Erkrankung zu sein. Ein Mechanismus, der auf der Hemmung eines immunvermittelten Thrombozytenabbaus beruht, ist hier daher möglicherweise nicht anwendbar. Belege für eine mechanistische Verbindung liegen nicht vor, es handelt sich um eine rein rechnerische Vorhersage.
+Die hohe Modellbewertung stammt vom TxGNN-Modell (Deep Learning) und spiegelt vermutlich vor allem Ähnlichkeiten wider, die das Modell zwischen verwandten Thrombozytopenie-Erkrankungen gelernt hat, nicht biologische Evidenz. Die autosomale Thrombozytopenie mit normalen Thrombozyten scheint eine seltene, erblich bedingte Erkrankung zu sein. Ein Mechanismus, der auf der Hemmung eines immunvermittelten Thrombozytenabbaus beruht, ist hier daher möglicherweise nicht anwendbar. Belege für eine mechanistische Verbindung liegen nicht vor, es handelt sich um eine rein rechnerische Vorhersage.
 
-Als zweite Vorhersage nennt das Modell die **nicht-syndromale ösophageale Fehlbildung** (Score 99,05 %). Zwischen einer SYK-Hemmung und einer angeborenen strukturellen Entwicklungsstörung der Speiseröhre lässt sich kein plausibler Zusammenhang herleiten. Es handelt sich wahrscheinlich um ein Artefakt des Graphen, das ohne unabhängige biologische Validierung nicht als therapeutisches Signal gewertet werden sollte. Auch hier gilt: Evidenzstufe L5, Empfehlung Hold.
+Als zweite Vorhersage nennt das TxGNN-Modell (Deep Learning) die **nicht-syndromale ösophageale Fehlbildung** (Score 0,9905). Zwischen einer SYK-Hemmung und einer angeborenen strukturellen Entwicklungsstörung der Speiseröhre lässt sich kein plausibler Zusammenhang herleiten. Der Score kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, und ist keine biologische Evidenz; ohne unabhängige biologische Validierung sollte er nicht als therapeutisches Signal gewertet werden. Auch hier gilt: Evidenzstufe L5, Empfehlung Hold.
 
 ---
 
@@ -104,7 +104,7 @@ Weitere Hinweise zur Sicherheit entnehmen Sie bitte der Fachinformation.
 **Entscheidung: Hold**
 
 **Begründung:**
-Der TxGNN-Wert ist sehr hoch, es gibt jedoch weder klinische Studien noch Publikationen, und ein plausibler Wirkmechanismus für die vorhergesagte Indikation ist nicht erkennbar. Zudem besteht in Deutschland derzeit keine gültige Zulassung. Die Evidenz beschränkt sich auf eine reine Modellvorhersage (L5).
+Der TxGNN-Wert ist sehr hoch, es gibt jedoch weder klinische Studien noch Publikationen, und ein plausibler Wirkmechanismus für die vorhergesagte Indikation ist nicht erkennbar. In Deutschland ist das Arzneimittel derzeit im Verkehr, mit 1 gültigen Zulassung von 1. Die Evidenz beschränkt sich auf eine reine Modellvorhersage (L5).
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Daten zum Wirkmechanismus (MOA) ergänzen, z. B. über DrugBank

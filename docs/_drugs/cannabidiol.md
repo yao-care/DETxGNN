@@ -8,6 +8,7 @@ nav_order: 96
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Cannabidiol
@@ -51,8 +52,8 @@ Dieses Evidence-Paket enthält **keine vorhergesagten TxGNN-Indikationen**, und 
 | Vorhergesagte neue Indikation | Keine Vorhersagen verfügbar |
 | TxGNN-Prognosescore | N/A |
 | Evidenzebene | N/A – keine Vorhersagen generiert |
-| Deutschland-Marktstatus | Nicht gefunden (Evidence-Paket: Nicht vermarktet / 0 Zulassungen) |
-| Anzahl der Zulassungen | 0 |
+| Deutschland-Marktstatus | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | **Zurückstellen** |
 
 ---

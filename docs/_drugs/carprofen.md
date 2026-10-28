@@ -4,17 +4,17 @@ title: Carprofen
 parent: Mittlere Evidenz (L3-L4)
 nav_order: 101
 evidence_level: L3
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Carprofen: vorhergesagte neue Indikation Rheumatoide Arthritis (Evidenzstufe L3). Ursprüngliche Indikation: In der deutschen Zulassung nicht angegeben (die Zulassung enthält kei…"
 monitor_inn: "CARPROFEN"
-predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "osteoarthritis susceptibility", "tendinitis", "headache disorder", "idiopathic granulomatous myositis", "myositis fibrosa", "trigeminal autonomic cephalalgia", "gout"]
+predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "tendinitis", "headache disorder", "idiopathic granulomatous myositis", "myositis fibrosa", "trigeminal autonomic cephalalgia", "gout"]
 ---
 
 # Carprofen
 {: .fs-9 }
 
-Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Carprofen: Vom Einsatz als nichtsteroidales Antirheumatikum zu rheumatoider Arthritis
+## Carprofen: Vom Einsatz als nichtsteroidales Antirheumatikum zu Rheumatoide Arthritis
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,10 +48,10 @@ Carprofen ist ein nichtsteroidales Antirheumatikum (NSAR), das vor allem in der 
 |------|------|
 | Ursprüngliche Indikation | In der deutschen Zulassung nicht angegeben (die Zulassung enthält keinen Indikationstext); laut Pharmakologiedaten Schmerz und Entzündung, auch bei Arthrose (veterinärmedizinisch) |
 | Vorhergesagte neue Indikation | Rheumatoide Arthritis |
-| TxGNN-Vorhersagewert | 99,80 % |
+| TxGNN-Vorhersagewert | 0,9980 |
 | Evidenzgrad | L3 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -93,7 +93,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/006249 | Carprofen Orion | – | – (Zulassung aufgehoben) |
+| EMEA/V/C/006249 | Carprofen Orion | – | – (Zulassung gültig) |
 
 ---
 
@@ -121,7 +121,7 @@ Die Evidenz für rheumatoide Arthritis stammt aus älteren Studien (1980–1988)
 
 ---
 
-**Weitere vorhergesagte Indikationen (Kurzhinweis):** Für Gicht (Wert 99,07 %, Evidenzgrad L3) liegen pharmakokinetische und klinische Studien aus den Jahren 1980 und 1982 vor, und für Tendinitis (Wert 99,18 %) eine Erfahrungsstudie von 1982; beide gelten als Forschungsfragen. Die übrigen Vorhersagen beruhen ausschließlich auf dem Modell und sind mit „Hold“ bewertet.
+**Weitere vorhergesagte Indikationen (Kurzhinweis):** Für Gicht (Wert 0,9907, Evidenzgrad L3) liegen pharmakokinetische und klinische Studien aus den Jahren 1980 und 1982 vor, und für Tendinitis (Wert 0,9918) eine Erfahrungsstudie von 1982; beide gelten als Forschungsfragen. Die übrigen Vorhersagen beruhen ausschließlich auf dem Modell und sind mit „Hold“ bewertet.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

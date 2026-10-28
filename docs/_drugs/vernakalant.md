@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vernakalant
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 495
-evidence_level: L4
-indication_count: 6
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Vernakalant: vorhergesagte neue Indikation Schlaganfall-Erkrankung (stroke disorder) (Evidenzstufe L4). Ursprüngliche Indikation: Vorhofflimmern"
 monitor_inn: "Vernakalant"
-predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "obsolete susceptibility to ischemic stroke", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
+predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
 ---
 
 # Vernakalant
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **6** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen mit 
 |------|------|
 | Ursprüngliche Indikation | Vorhofflimmern |
 | Vorhergesagte neue Indikation | Schlaganfall-Erkrankung (stroke disorder) |
-| TxGNN-Vorhersagewert | 99,83 % |
-| Evidenzstufe | L4 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| TxGNN-Vorhersagewert | 0,9983 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
@@ -84,7 +84,7 @@ Alle gefundenen Arbeiten behandeln Vorhofflimmern, keine davon untersucht Vernak
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/001215 | Brinavess | – | Vorhofflimmern (Zulassung erloschen) |
+| EMEA/H/C/001215 | Brinavess | – | Vorhofflimmern (Zulassung gültig) |
 
 ## Sicherheitsaspekte
 

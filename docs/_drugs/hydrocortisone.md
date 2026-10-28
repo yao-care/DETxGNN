@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Hydrocortisone
-parent: Nur Modellvorhersage (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 223
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Hydrocortisone: vorhergesagte neue Indikation Alopecia areata (Evidenzstufe L5). Ursprüngliche Indikation: Nebenniereninsuffizienz"
 monitor_inn: "HYDROCORTISONE"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 # Hydrocortisone
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Die Evidenz ist jedoch schwach: Es liegt **1 klinische Studie** vor, in der Hydr
 |------|------|
 | Ursprüngliche Indikation | Nebenniereninsuffizienz; angeborenes adrenogenitales Syndrom |
 | Vorhergesagte neue Indikation | Alopecia areata |
-| TxGNN-Vorhersagewert | 99,97 % |
+| TxGNN-Vorhersagewert | 0,9997 |
 | Evidenzlevel | L1 (formal; inhaltlich schwach, siehe unten) |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 3 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -95,9 +95,9 @@ Weitere aufgefundene Publikationen betreffen Tiermodelle, Umfragen, nicht verwan
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/002185 | Plenadren | – | Nebenniereninsuffizienz (erloschen) |
-| EMEA/H/C/004416 | Alkindi | – | Nebenniereninsuffizienz (erloschen) |
-| EMEA/H/C/005105 | Efmody | – | Angeborenes adrenogenitales Syndrom (erloschen) |
+| EMEA/H/C/002185 | Plenadren | – | Nebenniereninsuffizienz (gültig) |
+| EMEA/H/C/004416 | Alkindi | – | Nebenniereninsuffizienz (gültig) |
+| EMEA/H/C/005105 | Efmody | – | Angeborenes adrenogenitales Syndrom (gültig) |
 
 ---
 
@@ -114,7 +114,7 @@ Weitere aufgefundene Publikationen betreffen Tiermodelle, Umfragen, nicht verwan
 **Entscheidung: Hold**
 
 **Begründung:**
-Die einzige Phase-3-Studie setzte Hydrocortison nur als niedrig potentes Vergleichspräparat ein und belegt keinen Nutzen. Die übrige Evidenz besteht überwiegend aus historischen Fallberichten. Zudem gibt es in Deutschland derzeit keine gültige Zulassung, und die Packungsbeilagen-Sicherheitsdaten fehlen. Die weiteren vorhergesagten Indikationen (z. B. Alopecia mucinosa, Telogeneffluvium) sind klinisch nicht belegt.
+Die einzige Phase-3-Studie setzte Hydrocortison nur als niedrig potentes Vergleichspräparat ein und belegt keinen Nutzen. Die übrige Evidenz besteht überwiegend aus historischen Fallberichten. Zudem ist das Arzneimittel in Deutschland im Handel (3 von 3 Zulassungen gültig), die Packungsbeilagen-Sicherheitsdaten fehlen jedoch. Die weiteren vorhergesagten Indikationen (z. B. Alopecia mucinosa, Telogeneffluvium) sind klinisch nicht belegt.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Packungsbeilagen-Daten (Warnhinweise, Gegenanzeigen) zur Sicherheitsbewertung

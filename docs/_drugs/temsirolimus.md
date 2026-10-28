@@ -50,10 +50,10 @@ Dafür liegen derzeit **2 klinische Studien** (beide nicht liposarkomspezifisch)
 |------|------|
 | Ursprüngliche Indikation | Nierenzellkarzinom; Mantelzell-Lymphom |
 | Vorhergesagte neue Indikation | Liposarkom |
-| TxGNN-Vorhersagewert | 99,54 % |
-| Evidenzstufe | L2 (laut Datenbasis; siehe Hinweis unten) |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| TxGNN-Vorhersagewert | 0,9954 |
+| Evidenzstufe | L5 (laut Datenbasis; siehe Hinweis unten) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 *Hinweis zur Evidenzstufe:* In den für diesen Bericht zusammengestellten Daten ist L2 vergeben. Die beiden Studien sind jedoch nicht liposarkomspezifisch (Phase I/II bzw. Phase II, Kombinationstherapien, kleine Fallzahlen). Es gibt keine abgeschlossene, auf Liposarkom bezogene Phase-2/3-RCT. Streng nach den Regeln wäre die Evidenz für diese Indikation eher als schwach einzustufen (nahe L4/L5). Deshalb lautet die Empfehlung Hold.
@@ -95,7 +95,7 @@ Weitere vorhergesagte Indikationen sind das ovarielle myxoide Liposarkom (99,47 
 |---------|------|------|-----------|
 | EMEA/H/C/000799 | Torisel (Pfizer Europe MA EEIG) | – | Nierenzellkarzinom; Mantelzell-Lymphom |
 
-Diese Zulassung ist erloschen (Status: cancelled). Es gibt derzeit keine gültige Zulassung.
+Diese Zulassung ist gültig. Es gibt derzeit 1 gültige Zulassung (von 1).
 
 ---
 
@@ -135,7 +135,7 @@ Die Fachinformation (Warnhinweise, Gegenanzeigen) konnte nicht ausgewertet werde
 **Entscheidung: Hold**
 
 **Begründung:**
-Der mTOR-Signalweg ist in Liposarkomen biologisch plausibel, und der TxGNN-Wert ist hoch. Die klinische Evidenz ist jedoch indirekt (nicht liposarkomspezifische Kombinationsstudien mit kleinen Fallzahlen), die Sicherheitsdaten der Fachinformation fehlen (blockierende Datenlücke), und in Deutschland besteht keine gültige Zulassung.
+Der mTOR-Signalweg ist in Liposarkomen biologisch plausibel, und der TxGNN-Wert ist hoch. Die klinische Evidenz ist jedoch indirekt (nicht liposarkomspezifische Kombinationsstudien mit kleinen Fallzahlen), die Sicherheitsdaten der Fachinformation fehlen (blockierende Datenlücke), und in Deutschland ist das Arzneimittel im Handel (1 gültige Zulassung von 1).
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM beschaffen und auswerten, um das Sicherheits-Screening abzuschließen

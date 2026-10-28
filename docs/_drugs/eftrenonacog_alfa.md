@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Hämophilie B |
 | Vorhergesagte neue Indikation | Pseudo-von-Willebrand-Erkrankung |
-| TxGNN-Vorhersagewert | 99,48 % |
+| TxGNN-Vorhersagewert | 0,9948 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -64,9 +64,9 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten d
 
 Die Pseudo-von-Willebrand-Erkrankung (Plättchentyp der von-Willebrand-Erkrankung) beruht dagegen auf einer Gain-of-Function-Veränderung des Plättchen-Glykoproteins GPIbα. Diese erhöht die Affinität zum von-Willebrand-Faktor, führt zur vermehrten Plättchenelimination und zum Verlust hochmolekularer VWF-Multimere. Die Pathologie betrifft Plättchen und VWF, nicht einen Faktor-IX-Mangel. Ein direkter mechanistischer Zusammenhang ist daher nicht belegt.
 
-Der hohe TxGNN-Wert spiegelt vermutlich Assoziationen im Wissensgraphen zu Blutungsstörungen wider und nicht einen biologisch gestützten Mechanismus.
+Der hohe TxGNN-Wert stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht jedoch einen biologisch gestützten Mechanismus.
 
-Auch die weiteren Vorhersagen (primäre Plättchen-Freisetzungsstörung, Rang 2, Wert 99,42 %; Glanzmann-Thrombasthenie, Rang 3, Wert 99,28 %) betreffen Plättchendefekte, die Faktor IX nicht korrigiert. Bei der Glanzmann-Thrombasthenie sind Plättchentransfusion, Antifibrinolytika und rekombinanter Faktor VIIa etablierte Optionen.
+Auch die weiteren Vorhersagen (primäre Plättchen-Freisetzungsstörung, Rang 2, Wert 0,9942; Glanzmann-Thrombasthenie, Rang 3, Wert 0,9928) betreffen Plättchendefekte, die Faktor IX nicht korrigiert. Bei der Glanzmann-Thrombasthenie sind Plättchentransfusion, Antifibrinolytika und rekombinanter Faktor VIIa etablierte Optionen.
 
 ---
 
@@ -88,7 +88,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/004142 | Alprolix | – | Hämophilie B |
 
-Die Zulassung ist erloschen; derzeit besteht keine gültige Zulassung.
+Das Arzneimittel ist in diesem Land im Handel; 1 von 1 Zulassung ist gültig.
 
 ---
 

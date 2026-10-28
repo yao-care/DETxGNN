@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Aliskiren
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 26
-evidence_level: L4
-indication_count: 7
-last_modified_at: 2026-10-14
-description: "Aliskiren: vorhergesagte neue Indikation Pulmonale Hypertonie infolge von Lungenerkrankung und/oder Hypoxie (Evidenzstufe L4). Ursprüngliche Indikation: Hypertonie"
+evidence_level: L5
+indication_count: 6
 monitor_inn: "ALISKIREN"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "cerebrovascular disorder"]
+last_modified_at: 2026-10-27
+description: "Aliskiren: vorhergesagte neue Indikation Pulmonale Hypertonie infolge von Lungenerkrankung und/oder Hypoxie (pulmonary hypertension owing to lung disease and/or… (Evidenzstufe L5). Ursprüngliche Indi…"
 ---
 
 # Aliskiren
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **7** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-## Aliskiren: Von Hypertonie zu pulmonaler Hypertonie infolge von Lungenerkrankung und/oder Hypoxie
+## Aliskiren: Direkter Renin-Inhibitor → Pulmonale Hypertonie infolge von Lungenerkrankung und/oder Hypoxie (pulmonary hypertension owing to lung disease and/or hypoxia)
 {: .text-alpha }
 
-## Zusammenfassung
+## Zusammenfassung in einem Satz
 
-Aliskiren ist ein direkter Renin-Inhibitor, der ursprünglich zur Behandlung der Hypertonie zugelassen wurde.
-Das TxGNN-Modell sagt voraus, dass er bei **pulmonaler Hypertonie infolge von Lungenerkrankung und/oder Hypoxie** wirksam sein könnte.
-Dafür liegen **keine klinischen Studien** und nur **präklinische Publikationen** (4 Arbeiten) vor. Die Vorhersage ist daher bislang rein hypothesengenerierend.
+Aliskiren ist ein direkter Renin-Inhibitor, der das Renin-Angiotensin-System (RAS) an dessen geschwindigkeitsbestimmendem Schritt blockiert.
+Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Pulmonaler Hypertonie infolge von Lungenerkrankung und/oder Hypoxie (pulmonary hypertension owing to lung disease and/or hypoxia)** voraus.
+Die Evidenz ist rein präklinisch: Für diese Erkrankung liegen **keine klinischen Studien** vor, und die **4 gefundenen Publikationen** betreffen Tiermodelle und Mechanismen.
 
 ---
 
@@ -48,23 +48,23 @@ Dafür liegen **keine klinischen Studien** und nur **präklinische Publikationen
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Hypertonie |
-| Vorhergesagte neue Indikation | Pulmonale Hypertonie infolge von Lungenerkrankung und/oder Hypoxie |
-| TxGNN-Vorhersagewert | 99,98 % |
-| Evidenzgrad | L4 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Ursprüngliche Indikation | Hypertension |
+| Vorhergesagte neue Indikation | Pulmonale Hypertonie infolge von Lungenerkrankung und/oder Hypoxie (pulmonary hypertension owing to lung disease and/or hypoxia) |
+| TxGNN-Vorhersagewert | 0,9998 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Aliskiren als direkter Renin-Inhibitor den geschwindigkeitsbestimmenden ersten Schritt des Renin-Angiotensin-Systems (RAS) blockiert. Seine Wirksamkeit bei Hypertonie ist belegt.
+Detaillierte Daten zum Wirkmechanismus liegen in den zusammengestellten Daten nicht vor. Bekannt ist, dass Aliskiren als direkter Renin-Inhibitor den ersten, geschwindigkeitsbestimmenden Schritt des RAS hemmt.
 
-Chronische intermittierende Hypoxie aktiviert das RAS. Dadurch steigt das zirkulierende Angiotensin II, was Sympathikusaktivierung sowie vaskuläres und atriales Remodeling fördert. In einem Rattenmodell milderte Aliskiren das hypoxiebedingte atriale Remodeling. Der biologische Zusammenhang ist daher denkbar.
+Chronische intermittierende Hypoxie aktiviert das RAS, erhöht das zirkulierende Angiotensin II und fördert Sympathikusaktivierung sowie vaskuläres und atriales Remodeling. In einem Rattenmodell mit chronischer intermittierender Hypoxie milderte Aliskiren das hypoxiebedingte atriale Remodeling. Damit ist ein biologischer Zusammenhang denkbar.
 
-Die Evidenz ist jedoch ausschließlich präklinisch und betrifft hypoxiebedingte Umbauprozesse, nicht die pulmonale Hypertonie selbst. Der hohe TxGNN-Wert ist eine reine Modellvorhersage.
+Wichtig ist die Einschränkung: Die Studien sind präklinisch und betreffen hypoxiebedingtes Remodeling, nicht die pulmonale Hypertonie selbst. Keine der gefundenen Arbeiten untersucht Aliskiren direkt bei dieser Erkrankung. Der hohe TxGNN-Wert ist eine reine Modellvorhersage. Daher gilt Evidenzstufe L5.
 
 ---
 
@@ -78,10 +78,10 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [32982180](https://pubmed.ncbi.nlm.nih.gov/32982180/) | 2020 | Präklinisch (Ratte) | Drug Des Devel Ther | Mögliche Wirkung von Aliskiren auf das atriale Remodeling bei chronischer intermittierender Hypoxie |
-| [29645283](https://pubmed.ncbi.nlm.nih.gov/29645283/) | 2018 | Präklinisch (Ratte) | J Physiol | Sympathikusaktivierung nach intermittierender Hypoxie wird durch zirkulierendes Angiotensin II vermittelt; RAS-Hemmung verhindert sie |
-| [39133776](https://pubmed.ncbi.nlm.nih.gov/39133776/) | 2024 | Präklinisch (in vitro) | Am J Physiol Regul Integr Comp Physiol | Angiotensin-II-Aktivität im Gehirn (Lamina terminalis); nur indirekt relevant |
-| [26502369](https://pubmed.ncbi.nlm.nih.gov/26502369/) | 2016 | Präklinisch/mechanistisch | Transplantation | Calcineurin-Inhibitoren steigern lokales Renin in den Sammelrohren der Niere; nur indirekt relevant |
+| [32982180](https://pubmed.ncbi.nlm.nih.gov/32982180/) | 2020 | Präklinisch (Rattenmodell) | Drug Des Devel Ther | Untersuchung der Wirkung von Aliskiren auf atriales Remodeling im Modell der chronischen intermittierenden Hypoxie |
+| [29645283](https://pubmed.ncbi.nlm.nih.gov/29645283/) | 2018 | Präklinisch (Rattenmodell) | J Physiol | Sympathikusaktivierung nach intermittierender Hypoxie wird durch zirkulierendes Angiotensin II vermittelt; RAS-Hemmung verhindert diese Effekte |
+| [39133776](https://pubmed.ncbi.nlm.nih.gov/39133776/) | 2024 | Präklinisch (in vitro) | Am J Physiol Regul Integr Comp Physiol | Spontane und evozierte Angiotensin-II-Aktivität im Gehirngewebe; nur indirekter Bezug |
+| [26502369](https://pubmed.ncbi.nlm.nih.gov/26502369/) | 2016 | Präklinisch/Mechanistisch | Transplantation | Calcineurin-Inhibitoren steigern lokales Renin in Sammelrohren; nur indirekter Bezug |
 
 ---
 
@@ -89,28 +89,20 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000780 | Rasilez | – | Hypertonie (Status: erloschen) |
+| EMEA/H/C/000780 | Rasilez | – | Hypertonie |
 
 ---
 
-## Sicherheitshinweise
+## Sicherheitsaspekte
 
-Aus der Wissensgraph-Analyse (nicht aus dem Beipackzettel) ergeben sich Kontraindikationen bzw. Risikokonstellationen, unter anderem:
+- **Arzneimittelwechselwirkungen**: In den Daten sind 100 Wechselwirkungen verzeichnet; die Einträge der Stufe „mäßig“ umfassen u. a.:
+  - Kortikosteroide (Hydrocortison, Prednisolon, Prednison, Dexamethason, Betamethason, Budesonid)
+  - Kaliumpräparate (Kaliumchlorid, -citrat, -gluconat, -bicarbonat)
+  - SGLT2-Hemmer (Canagliflozin, Dapagliflozin, Empagliflozin, Ertugliflozin)
+  - Acetylsalicylsäure, Aprepitant, Clarithromycin, Clotrimazol, Miconazol, Eliglustat
+- **Hinweis zu Begleiterkrankungen**: Für die Wirkstoffklasse sind u. a. Angioödem, Leber- und Nierenfunktionsstörungen, Diabetes mellitus, Kaliummangel, Gicht und Hypotonie als relevante Erkrankungen verzeichnet; diese stammen nicht aus Fachinformationstexten und müssen anhand der Produktinformation geprüft werden.
 
-- **Leber und Galle:** Leberversagen, Lebererkrankung, hepatische Enzephalopathie/Koma, Pankreatitis, Gallenblasenerkrankung, Neugeborenenikterus
-- **Niere:** Anurie, Nierenfunktionsstörung, Nierenarterienverschluss, Nephrokalzinose
-- **Angioödem:** auch hereditäres, erworbenes und RAAS-Blocker-induziertes Angioödem
-- **Stoffwechsel:** Diabetes mellitus, diabetische Ketoazidose, Kaliummangel, Hyperurikämie, Gicht, Hyperkalzämie, Störungen des Phosphatstoffwechsels, Hyperparathyreoidismus
-- **Blut und Kreislauf:** Neutropenie, Agranulozytose, Hypotonie
-- **Immunologisch:** systemischer Lupus erythematodes (auch pädiatrisch)
-
-**Arzneimittelwechselwirkungen:** Insgesamt wurden 100 Wechselwirkungen erfasst, die gezeigten sind alle von mäßigem Schweregrad. Hierzu zählen:
-- Kortikosteroide (Hydrocortison, Prednisolon, Prednison, Dexamethason, Betamethason, Budesonid)
-- Kaliumpräparate (Kaliumchlorid, -citrat, -gluconat, -bicarbonat)
-- SGLT2-Hemmer (Canagliflozin, Dapagliflozin, Empagliflozin, Ertugliflozin)
-- Acetylsalicylsäure, Clarithromycin, Miconazol, Clotrimazol, Aprepitant, Eliglustat
-
-Für die weiteren Sicherheitsangaben bitte den Beipackzettel heranziehen.
+Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 
 ---
 
@@ -119,14 +111,13 @@ Für die weiteren Sicherheitsangaben bitte den Beipackzettel heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich allein auf ein Modell und auf präklinische, indirekte Daten zu hypoxiebedingtem Remodeling. Klinische Studien zur pulmonalen Hypertonie fehlen. Zudem ist die Zulassung in Deutschland erloschen und das Sicherheitsprofil (z. B. Hyperkaliämie, Angioödem, Nierenfunktion) erfordert Vorsicht.
+Für die pulmonale Hypertonie infolge von Lungenerkrankung und/oder Hypoxie gibt es weder klinische Studien noch direkte Studien; die vorhandene Literatur ist präklinisch und indirekt. Der hohe TxGNN-Wert allein reicht für eine Weiterverfolgung nicht aus.
 
-**Für ein Weiterkommen sind erforderlich:**
-- Präklinische Studien direkt in Modellen der pulmonalen Hypertonie (z. B. hypoxieinduziert)
-- Daten zum Wirkmechanismus (MOA) aus DrugBank
-- Beipackzettel des BfArM mit Warnhinweisen und Kontraindikationen für das Sicherheitsscreening
-- Klärung der Verfügbarkeit des Präparats in Deutschland
-- Bewertung der Sicherheit bei Patienten mit Lungen- und Rechtsherzerkrankung
+**Für ein Weiterkommen ist erforderlich:**
+- Präklinische Studien direkt im Modell der pulmonalen Hypertonie (z. B. hypoxieinduziert)
+- Detaillierte Daten zum Wirkmechanismus (MOA)
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) aus der BfArM-Quelle
+- Sicherheitsbewertung, insbesondere zu Hypotonie, Hyperkaliämie und Nierenfunktion
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

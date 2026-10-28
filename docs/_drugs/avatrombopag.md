@@ -4,17 +4,17 @@ title: Avatrombopag
 parent: Nur Modellvorhersage (L5)
 nav_order: 46
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Avatrombopag: vorhergesagte neue Indikation Makrothrombozytopenie mit Mitralklappeninsuffizienz (Evidenzstufe L5). Ursprüngliche Indikation: Thrombozytopenie"
+indication_count: 9
 monitor_inn: "Avatrombopag"
-predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "transient neonatal thrombocytopenia", "dense granule disease", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "lower motor neuron syndrome with late-adult onset", "amyotrophic lateral sclerosis, susceptibility to", "Mills syndrome", "monomelic amyotrophy"]
+predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "transient neonatal thrombocytopenia", "dense granule disease", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "lower motor neuron syndrome with late-adult onset", "Mills syndrome", "monomelic amyotrophy"]
+last_modified_at: 2026-10-27
+description: "Avatrombopag: vorhergesagte neue Indikation Makrothrombozytopenie mit Mitralklappeninsuffizienz (marcothrombocytopenia with mitral valve insufficiency) (Evidenzstufe L5). Ursprüngliche Indikation: Th…"
 ---
 
 # Avatrombopag
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,101 +33,63 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Avatrombopag: Von Thrombozytopenie zu Makrothrombozytopenie mit Mitralklappeninsuffizienz
+## Avatrombopag: Thrombopoietin-Rezeptor-Agonist → Makrothrombozytopenie mit Mitralklappeninsuffizienz (marcothrombocytopenia with mitral valve insufficiency)
 {: .text-alpha }
 
 ## Zusammenfassung
 
-Avatrombopag ist ein Thrombopoetin-Rezeptor-Agonist (TPO-R-Agonist), der ursprünglich zur Behandlung der Thrombozytopenie zugelassen wurde.
-Das TxGNN-Modell sagt voraus, dass er bei **Makrothrombozytopenie mit Mitralklappeninsuffizienz** wirksam sein könnte.
-Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
+Avatrombopag ist ein Thrombopoietin-Rezeptor-Agonist, der die Bildung von Blutplättchen anregt. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Makrothrombozytopenie mit Mitralklappeninsuffizienz (marcothrombocytopenia with mitral valve insufficiency)** voraus. Für diese Vorhersage liegen in den für diesen Bericht zusammengestellten Daten **keine klinischen Studien** und **keine Publikationen** vor.
 
----
-
-## Kurzüberblick
+## Kurzübersicht
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Thrombozytopenie |
-| Vorhergesagte neue Indikation | Makrothrombozytopenie mit Mitralklappeninsuffizienz |
-| TxGNN-Vorhersagewert | 99,995 % |
-| Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Ursprüngliche Indikation | Thrombocytopenia |
+| Vorhergesagte neue Indikation | Makrothrombozytopenie mit Mitralklappeninsuffizienz (marcothrombocytopenia with mitral valve insufficiency) |
+| TxGNN-Vorhersagewert | 0,9999 |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
-
----
 
 ## Warum ist diese Vorhersage plausibel?
 
-Avatrombopag aktiviert den Thrombopoetin-Rezeptor (MPL) und fördert dadurch die Megakaryopoese und die Bildung von Thrombozyten. In Zellversuchen fördert es die Proliferation von Zellen, die den humanen Thrombopoetin-Rezeptor exprimieren (EC50 3,3 nM), mit einer maximalen Wirkung, die der von rekombinantem humanem Thrombopoetin entspricht. Eine ausführliche Beschreibung des Wirkmechanismus liegt in den für diesen Bericht zusammengestellten Daten nicht vor.
+Avatrombopag bindet an den Thrombopoietin-Rezeptor (MPL) und fördert dosisabhängig die Proliferation von Zellen, die diesen Rezeptor tragen (EC50 3,3 nM in Ba/F3-Zellen). Seine maximale proliferative Wirkung entspricht der von rekombinantem humanem Thrombopoietin. Damit stimuliert es die Megakaryopoese und erhöht die Thrombozytenzahl. Detaillierte Angaben zum Wirkmechanismus liegen in den zusammengestellten Daten darüber hinaus nicht vor.
 
-Die ursprüngliche Indikation (Thrombozytopenie) und die vorhergesagte Indikation haben das Kernmerkmal einer niedrigen Thrombozytenzahl gemeinsam. Mechanistisch ist daher denkbar, dass eine TPO-R-Stimulation die Thrombozytenzahl anhebt. Ob dies gelingt, hängt davon ab, ob die Thrombozytenbildung bei dieser Erkrankung auf Zytokine anspricht. Es dürfte sich um eine seltene, angeborene Makrothrombozytopenie handeln, deren zugrunde liegender Defekt nicht näher bestimmt ist.
+Eine thrombozytopenische Erkrankung könnte grundsätzlich auf eine Stimulation des Thrombopoietin-Rezeptors ansprechen. Die vorhergesagte Erkrankung ist jedoch vermutlich eine seltene, angeborene Makrothrombozytopenie, deren zugrunde liegender Defekt nicht näher bestimmt ist. Ob ein Nutzen besteht, hängt davon ab, ob die Thrombozytenbildung bei dieser Erkrankung auf Zytokine anspricht. Der Vorhersagewert ist eine reine Modellvorhersage und nicht durch Studien gestützt.
 
-Die Vorhersage ist damit mechanistisch nachvollziehbar, aber nicht belegt.
-
-### Weitere vorhergesagte Indikationen (Rang 2–10)
-
-| Rang | Vorhergesagte Indikation | Score | Einschätzung |
-|---|---|---|---|
-| 2 | Hereditäre Thrombozytopenie mit normalen Thrombozyten | 99,995 % | Mechanistisch plausibel, aber unbelegt; Krankheitsbezeichnung in sich widersprüchlich |
-| 3 | Transiente neonatale Thrombozytopenie | 99,995 % | Selbstlimitierend; keine neonatalen Sicherheits- oder Dosierungsdaten |
-| 4 | Dense-Granule-Erkrankung | 99,995 % | Funktionsdefekt der Thrombozyten; eine höhere Zahl behebt ihn kaum |
-| 5 | Amyotrophe Lateralsklerose | 99,993 % | Kein erkennbarer Mechanismus; vermutlich Artefakt des Wissensgraphen |
-| 6 | Bilaterale parasagittale parieto-okzipitale Polymikrogyrie | 99,992 % | Strukturelle Hirnfehlbildung; kein plausibler Mechanismus |
-| 7 | Late-adult-onset-Syndrom des unteren Motoneurons | 99,992 % | Kein Bezug zur Thrombopoetin-Signalgebung |
-| 8 | ALS, Suszeptibilität | 99,991 % | Weitgehend redundant zu Rang 5; nicht als unabhängige Evidenz zu werten |
-| 9 | Mills-Syndrom | 99,991 % | Kein Mechanismus; wahrscheinlich Ähnlichkeitseffekt im Modell |
-| 10 | Monomele Amyotrophie | 99,990 % | Kein plausibler biologischer Bezug |
-
-Für alle zehn Vorhersagen liegen weder klinische Studien noch Literatur vor (Evidenzstufe jeweils L5, Empfehlung jeweils Hold).
-
----
-
-## Klinische Evidenz
+## Klinische Studien
 
 Derzeit sind keine zugehörigen klinischen Studien registriert.
 
----
-
-## Literaturevidenz
+## Literaturbelege
 
 Derzeit liegt keine zugehörige Literatur vor.
 
----
-
-## Marktinformationen Deutschland
+## Informationen zum deutschen Markt
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004722 | Doptelet (Swedish Orphan Biovitrum AB (publ)) | – | Thrombozytopenie |
+| EMEA/H/C/004722 | Doptelet | – | Thrombozytopenie |
 
-Diese Zulassung hat den Status „erloschen/widerrufen“. Eine gültige Zulassung besteht derzeit nicht.
+## Sicherheitshinweise
 
----
+**Wechselwirkungen:** In den zusammengestellten Daten ist lediglich ein pharmakologischer Eintrag zum Zielmolekül (Thrombopoietin-Rezeptor, MPL) vorhanden; konkrete Wechselwirkungen mit anderen Arzneimitteln sind nicht aufgeführt.
 
-## Sicherheitsaspekte
-
-- **Arzneimittelwechselwirkungen**: In der Abfrage wurde lediglich der pharmakologische Zielbezug zum Thrombopoetin-Rezeptor (MPL) ausgewiesen. Konkrete Wechselwirkungen mit anderen Arzneimitteln wurden nicht identifiziert.
-- **Klinische Anwendung (Hintergrund)**: Avatrombopag ist von FDA und EMA zur Behandlung der Thrombozytopenie bei erwachsenen Patienten mit chronischer Lebererkrankung vor elektiven Eingriffen zugelassen. Die FDA-Zulassung wurde im Juni 2019 auf Erwachsene mit chronischer Immunthrombozytopenie (ITP) erweitert, die auf eine Vorbehandlung nicht ausreichend ansprachen.
-
-Zu Warnhinweisen und Gegenanzeigen bitte die Fachinformation heranziehen.
-
----
+Für weitere Sicherheitsinformationen siehe bitte die Packungsbeilage.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert (Evidenzstufe L5). Es gibt weder klinische Studien noch Publikationen, die Wirkmechanismusdaten fehlen, und die einzige deutsche Zulassung ist erloschen. Die Vorhersagen außerhalb der Thrombozytopenie (ALS, motorische Neuronerkrankungen, Hirnfehlbildung) haben keine erkennbare biologische Grundlage.
+Für die vorhergesagte Indikation gibt es weder klinische Studien noch Publikationen; die Vorhersage beruht allein auf dem Modell (Evidenzniveau L5). Zudem ist unklar, ob die zugrunde liegende Erkrankung auf eine Thrombopoietin-Rezeptor-Stimulation anspricht.
 
-**Für ein Weiterverfolgen sind erforderlich:**
-- Ergänzung der Wirkmechanismusdaten (z. B. über die DrugBank-Abfrage)
-- Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) von der BfArM-Website
-- Charakterisierung des zugrunde liegenden Defekts der Makrothrombozytopenie und Prüfung, ob die Thrombozytenbildung auf TPO-R-Agonismus anspricht
-- Systematische Literaturrecherche und Prüfung von Studienregistern zu angeborenen Thrombozytopenien
-- Klärung des Zulassungsstatus in Deutschland (Grund des Erlöschens, mögliche Neuzulassung)
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Genaue Definition der Zielerkrankung und ihres zugrunde liegenden Defekts
+- Literaturrecherche und Prüfung, ob Thrombopoietin-Rezeptor-Agonisten bei dieser Erkrankung untersucht wurden
+- Auswertung der Warnhinweise und Gegenanzeigen aus der Packungsbeilage (derzeit nicht verfügbar)
+- Ausführliche Daten zum Wirkmechanismus
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

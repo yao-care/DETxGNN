@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Nintedanib
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 315
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Nintedanib: vorhergesagte neue Indikation Dermatofibrosarcoma protuberans (Evidenzstufe L4). Ursprüngliche Indikation: Nicht-kleinzelliges Lungenkarzinom (Vargatef)"
@@ -14,7 +14,7 @@ predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovari
 # Nintedanib
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **eine Publikation** (ein
 |------|------|
 | Ursprüngliche Indikation | Nicht-kleinzelliges Lungenkarzinom (Vargatef); idiopathische Lungenfibrose und interstitielle Lungenerkrankungen (Ofev und Generika) |
 | Vorhergesagte neue Indikation | Dermatofibrosarcoma protuberans |
-| TxGNN-Vorhersagewert | 99,15 % |
-| Evidenzstufe | L4 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 4 (alle erloschen) |
+| TxGNN-Vorhersagewert | 0,9915 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 4 von 4) |
+| Anzahl der Zulassungen | 4 (gültig: 4) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -66,7 +66,7 @@ Das Dermatofibrosarcoma protuberans (DFSP) wird in der Regel durch die COL1A1-PD
 
 Es liegen jedoch keine nintedanibspezifischen klinischen Daten vor. Die einzige Referenz ist ein Übersichtsartikel zu niedermolekularen PDGFR-Inhibitoren, also indirekte Evidenz auf Klassenebene. Der hohe TxGNN-Wert ist eine rein computergestützte Vorhersage.
 
-Die Plätze 2 und 3 der Vorhersageliste (Liposarkom, 99,13 %; ovarielles myxoides Liposarkom, 99,12 %) beruhen ausschließlich auf dem Modellwert, ohne Studien oder Literatur. Zudem sind Liposarkome häufig durch MDM2/CDK4-Amplifikationen getrieben, also durch Signalwege, die sich von den Nintedanib-Zielstrukturen weitgehend unterscheiden.
+Die Plätze 2 und 3 der Vorhersageliste (Liposarkom, 0,9913; ovarielles myxoides Liposarkom, 0,9912) beruhen ausschließlich auf dem Modellwert, ohne Studien oder Literatur. Zudem sind Liposarkome häufig durch MDM2/CDK4-Amplifikationen getrieben, also durch Signalwege, die sich von den Nintedanib-Zielstrukturen weitgehend unterscheiden.
 
 ---
 
@@ -88,10 +88,10 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/002569 | Vargatef | – | Nicht-kleinzelliges Lungenkarzinom (erloschen) |
-| EMEA/H/C/003821 | Ofev | – | Idiopathische Lungenfibrose, interstitielle Lungenerkrankungen, systemische Sklerose (erloschen) |
-| EMEA/H/C/006179 | Nintedanib Accord | – | Idiopathische Lungenfibrose, interstitielle Lungenerkrankungen, systemische Sklerose (erloschen) |
-| EMEA/H/C/006486 | Nintedanib Viatris | – | Idiopathische Lungenfibrose, interstitielle Lungenerkrankungen (erloschen) |
+| EMEA/H/C/002569 | Vargatef | – | Nicht-kleinzelliges Lungenkarzinom (gültig) |
+| EMEA/H/C/003821 | Ofev | – | Idiopathische Lungenfibrose, interstitielle Lungenerkrankungen, systemische Sklerose (gültig) |
+| EMEA/H/C/006179 | Nintedanib Accord | – | Idiopathische Lungenfibrose, interstitielle Lungenerkrankungen, systemische Sklerose (gültig) |
+| EMEA/H/C/006486 | Nintedanib Viatris | – | Idiopathische Lungenfibrose, interstitielle Lungenerkrankungen (gültig) |
 
 ---
 
@@ -123,7 +123,7 @@ Für Warnhinweise und Gegenanzeigen liegen keine Daten vor. Bitte die Packungsbe
 **Entscheidung: Hold**
 
 **Begründung:**
-Für DFSP gibt es keine klinischen Studien und nur indirekte Klassenevidenz (ein Übersichtsartikel); der hohe TxGNN-Wert ist eine reine Modellvorhersage. Zudem besitzt Nintedanib in Deutschland derzeit keine gültige Zulassung, und die Sicherheitsdaten aus der Packungsbeilage fehlen.
+Für DFSP gibt es keine klinischen Studien und nur indirekte Klassenevidenz (ein Übersichtsartikel); der hohe TxGNN-Wert ist eine reine Modellvorhersage. Zudem ist Nintedanib in Deutschland im Handel und besitzt 4 gültige Zulassungen (von 4), und die Sicherheitsdaten aus der Packungsbeilage fehlen.
 
 **Für ein Weiterkommen sind folgende Punkte erforderlich:**
 - Präklinische Daten oder Fallserien zu Nintedanib bei DFSP (z. B. in vitro an COL1A1-PDGFB-positiven Zellen) sowie Vergleich mit Imatinib

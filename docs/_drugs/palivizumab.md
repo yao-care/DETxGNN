@@ -6,9 +6,9 @@ nav_order: 339
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Palivizumab: vorhergesagte neue Indikation Gutartige Neubildung der Zunge (Evidenzstufe L5). Ursprüngliche Indikation: RSV-Infektionen (Respiratory Syncytial Virus Infections)"
 monitor_inn: "PALIVIZUMAB"
 predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
+description: "Palivizumab: vorhergesagte neue Indikation Benign neoplasm of tongue (Evidenzstufe L5). Ursprüngliche Indikation: Respiratory Syncytial Virus Infections"
 ---
 
 # Palivizumab
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Palivizumab: Von RSV-Infektionen zu gutartiger Neubildung der Zunge
+## Palivizumab: Benign neoplasm of tongue
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,12 +48,12 @@ allerdings gibt es dafür **keine klinischen Studien** und **keine Publikationen
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | RSV-Infektionen (Respiratory Syncytial Virus Infections) |
-| Vorhergesagte neue Indikation | Gutartige Neubildung der Zunge |
-| TxGNN-Vorhersagewert | 99,94 % |
+| Ursprüngliche Indikation | Respiratory Syncytial Virus Infections |
+| Vorhergesagte neue Indikation | Benign neoplasm of tongue |
+| TxGNN-Vorhersagewert | 0.9994 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,9 +62,9 @@ allerdings gibt es dafür **keine klinischen Studien** und **keine Publikationen
 
 Für die vorliegende Auswertung sind derzeit keine detaillierten Daten zum Wirkmechanismus verfügbar. Bekannt ist, dass Palivizumab ein humanisierter monoklonaler Antikörper ist, der das F-Protein von RSV bindet und das Virus neutralisiert. Seine Wirksamkeit bei der Prävention schwerer RSV-Erkrankungen der unteren Atemwege ist die ursprüngliche Anwendung.
 
-Ein mechanistischer Zusammenhang zu gutartigen Zungentumoren ist nicht erkennbar. Das Zielprotein (RSV-F-Protein) spielt in der Biologie solcher Neubildungen keine bekannte Rolle, und Palivizumab hat keine bekannte tumorgerichtete Aktivität. Der hohe Vorhersagewert spiegelt vermutlich Ähnlichkeiten in der Nachbarschaftsstruktur des Wissensgraphen (z. B. Neubildungen im Kopf-Hals-Bereich) wider, nicht eine biologische Begründung.
+Ein mechanistischer Zusammenhang zu gutartigen Zungentumoren ist nicht erkennbar. Das Zielprotein (RSV-F-Protein) spielt in der Biologie solcher Neubildungen keine bekannte Rolle, und Palivizumab hat keine bekannte tumorgerichtete Aktivität. Der hohe Vorhersagewert stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat (z. B. Neubildungen im Kopf-Hals-Bereich), nicht eine biologische Begründung.
 
-Auch die übrigen Top-10-Vorhersagen (u. a. Neubildung der Epiglottis, zervikales Neuroblastom, Schwannom des Foramen jugulare, Hodentumoren) zeigen durchgehend Werte um 99,93–99,94 %, jedoch ebenfalls ohne mechanistische Verbindung und ohne klinische oder literarische Evidenz.
+Auch die übrigen Top-10-Vorhersagen (u. a. Neubildung der Epiglottis, zervikales Neuroblastom, Schwannom des Foramen jugulare, Hodentumoren) zeigen durchgehend Werte um 99,93–0,9994, jedoch ebenfalls ohne mechanistische Verbindung und ohne klinische oder literarische Evidenz.
 
 ---
 
@@ -84,7 +84,7 @@ Derzeit sind keine zugehörigen Publikationen verfügbar.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000257 | Synagis (AstraZeneca AB) – Status: erloschen | – | Respiratory Syncytial Virus Infections |
+| EMEA/H/C/000257 | Synagis (AstraZeneca AB) – Status: gültig | – | Respiratory Syncytial Virus Infections |
 
 ---
 
@@ -99,14 +99,14 @@ Für Sicherheitsinformationen beachten Sie bitte die Fachinformation. Für die v
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht allein auf einem Computermodell (Evidenzstufe L5). Es gibt weder klinische Studien noch Publikationen, und ein plausibler Wirkmechanismus fehlt. Zudem besteht in Deutschland derzeit keine gültige Zulassung.
+Die Vorhersage beruht allein auf einem Computermodell (Evidenzstufe L5). Es gibt weder klinische Studien noch Publikationen, und ein plausibler Wirkmechanismus fehlt. Das Arzneimittel ist in Deutschland derzeit mit einer gültigen Zulassung (1 von 1) im Handel.
 
 **Für ein Weiterkommen sind folgende Punkte erforderlich:**
 - Daten zum Wirkmechanismus (MOA), um eine mögliche biologische Verbindung zu prüfen
 - Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen), da diese Sicherheitsdaten fehlen und die Sicherheitsprüfung sonst nicht fortgesetzt werden kann
 - Präklinische Hinweise, die eine tumorbezogene Aktivität stützen würden
 - Klärung der Anwendungswege (Verabreichungsroute) für die vorgeschlagene Indikation
-- Überprüfung, ob die hohe Vorhersage ein reines Graph-Artefakt ist
+- Überprüfung, ob die hohe Vorhersage lediglich auf vom Modell gelernten Ähnlichkeiten zwischen verwandten Erkrankungen beruht
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -48,10 +48,10 @@ Glucagon wurde ursprünglich zur Behandlung von Diabetes mellitus (insbesondere 
 |------|------|
 | Ursprüngliche Indikation | Diabetes mellitus |
 | Vorhergesagte neue Indikation | Reizdarmsyndrom (Irritable Bowel Syndrome) |
-| TxGNN-Vorhersagewert | 99,24 % |
+| TxGNN-Vorhersagewert | 0,9924 |
 | Evidenzstufe | L4 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -98,8 +98,8 @@ Keine der aufgeführten Arbeiten untersucht Glucagon selbst beim Reizdarmsyndrom
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/005391 | Ogluo | – | Diabetes mellitus (erloschen) |
-| EMEA/H/C/003848 | Baqsimi | – | Diabetes mellitus (erloschen) |
+| EMEA/H/C/005391 | Ogluo | – | Diabetes mellitus (gültig) |
+| EMEA/H/C/003848 | Baqsimi | – | Diabetes mellitus (gültig) |
 
 ---
 
@@ -116,7 +116,7 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) bitte die Fa
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenz beschränkt sich auf Modellvorhersage und indirekte Hinweise aus dem GLP-1-Signalweg; für Glucagon selbst beim Reizdarmsyndrom gibt es keine direkten Studien (Evidenzstufe L4). Zudem sind alle deutschen Zulassungen erloschen, was die praktische Entwicklung erschwert.
+Die Evidenz beschränkt sich auf Modellvorhersage und indirekte Hinweise aus dem GLP-1-Signalweg; für Glucagon selbst beim Reizdarmsyndrom gibt es keine direkten Studien (Evidenzstufe L4). Das Arzneimittel ist in Deutschland im Handel, beide Zulassungen (2 von 2) sind gültig.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Direkte präklinische oder klinische Daten zu Glucagon (nicht GLP-1) beim Reizdarmsyndrom

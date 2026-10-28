@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-## Selinexor: Von Multiplem Myelom zu Medikamenten-induzierter Osteoporose
+## Selinexor: Medikamenteninduzierte Osteoporose
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Selinexor wurde ursprünglich zur Behandlung des Multiplen Myeloms eingesetzt. D
 |------|------|
 | Ursprüngliche Indikation | Multiples Myelom |
 | Vorhergesagte neue Indikation | Medikamenten-induzierte Osteoporose |
-| TxGNN-Vorhersagescore | 99,22 % |
+| TxGNN-Vorhersagescore | 0.9922 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -82,7 +82,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/005127 | Nexpovio | – | Multiples Myelom |
 
-Die Zulassung ist als erloschen/widerrufen geführt; es besteht derzeit keine gültige Zulassung.
+Die Zulassung ist gültig: Von 1 Zulassung ist 1 gültig; das Arzneimittel ist in diesem Land im Handel.
 
 ---
 

@@ -5,10 +5,10 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 53
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
-description: "Baricitinib: vorhergesagte neue Indikation Kolobomatöses Mikrophthalmie-rhizomeles-Dysplasie-Syndrom (Evidenzstufe L5). Ursprüngliche Indikation: Rheumatoide Arthritis"
 monitor_inn: "BARICITINIB"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
+last_modified_at: 2026-10-27
+description: "Baricitinib: vorhergesagte neue Indikation Kolobomatöse Mikrophthalmie-rhizomele-Dysplasie-Syndrom (colobomatous microphthalmia-rhizomelic dysplasia syndrome) (Evidenzstufe L5). Ursprüngliche Indikat…"
 ---
 
 # Baricitinib
@@ -33,34 +33,32 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-## Baricitinib: Von rheumatoider Arthritis zum kolobomatösen Mikrophthalmie-rhizomelen-Dysplasie-Syndrom
+## Baricitinib: JAK-Inhibitor → Kolobomatöse Mikrophthalmie-rhizomele-Dysplasie-Syndrom (colobomatous microphthalmia-rhizomelic dysplasia syndrome)
 {: .text-alpha }
 
-## Zusammenfassung
+## Zusammenfassung in einem Satz
 
-Baricitinib wurde ursprünglich zur Behandlung der rheumatoiden Arthritis zugelassen. Das TxGNN-Modell sagt voraus, dass es bei dem **kolobomatösen Mikrophthalmie-rhizomelen-Dysplasie-Syndrom** wirksam sein könnte. Für diese Vorhersage liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; sie beruht ausschließlich auf der Modellberechnung.
+Baricitinib ist ein Januskinase-Inhibitor (JAK1/JAK2). Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei dem **kolobomatösen Mikrophthalmie-rhizomelen-Dysplasie-Syndrom (colobomatous microphthalmia-rhizomelic dysplasia syndrome)** voraus. Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ## Kurzübersicht
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Rheumatoide Arthritis |
-| Vorhergesagte neue Indikation | Kolobomatöses Mikrophthalmie-rhizomeles-Dysplasie-Syndrom |
-| TxGNN-Vorhersagewert | 99,94 % |
-| Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Ursprüngliche Indikation | Arthritis, Rheumatoid |
+| Vorhergesagte neue Indikation | Kolobomatöse Mikrophthalmie-rhizomele-Dysplasie-Syndrom (colobomatous microphthalmia-rhizomelic dysplasia syndrome) |
+| TxGNN-Vorhersagewert | 0,9994 |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
-## Warum ist diese Vorhersage plausibel?
+## Warum ist diese Vorhersage nachvollziehbar?
 
-Die für diesen Bericht zusammengestellten Daten enthalten keine detaillierten Angaben zum Wirkmechanismus. Bekannt ist, dass Baricitinib als JAK1/JAK2-Inhibitor in den JAK-STAT-Signalweg eingreift und bei der rheumatoiden Arthritis wirksam ist. Dieses Wissen stammt aus dem Hintergrundwissen, nicht aus den vorliegenden Daten.
+Für diesen Bericht liegen keine detaillierten Daten zum Wirkmechanismus vor. Bekannt ist, dass Baricitinib zur Klasse der JAK-Inhibitoren gehört und den JAK-STAT-Signalweg hemmt. Dieser Hinweis stammt aus allgemeinem Hintergrundwissen, nicht aus den für diesen Bericht zusammengestellten Daten.
 
-Eine mechanistische Verbindung zur vorhergesagten Indikation ist nach derzeitiger Datenlage **nicht erkennbar**. Das Syndrom ist eine seltene, vermutlich genetisch bedingte Entwicklungsstörung mit Fehlbildungen. Es ist unklar, wie eine Hemmung des JAK-STAT-Signalwegs eine strukturelle Fehlbildung beeinflussen sollte.
+Das vorhergesagte Syndrom ist eine seltene Entwicklungsstörung, vermutlich genetischen Ursprungs, mit Fehlbildungen am Auge und am Skelett. Ein plausibler Weg, wie eine JAK-STAT-Hemmung eine solche strukturelle Fehlbildung beeinflussen könnte, ist anhand der vorliegenden Daten nicht erkennbar. Der sehr hohe Vorhersagewert ist eine rein rechnerische Aussage des Modells und kein Beleg für einen therapeutischen Zusammenhang. Er könnte auch auf Artefakten der Netzwerknähe beruhen, etwa auf gemeinsamen Genen im Umfeld.
 
-Der sehr hohe Vorhersagewert spiegelt wahrscheinlich die Netzwerknähe im Wissensgraphen (z. B. gemeinsame Gennachbarn) wider und keine therapeutische Begründung. Auch die zweitplatzierte Vorhersage, das Brachydaktylie-Syndaktylie-Syndrom (Score 99,94 %), ist eine angeborene Gliedmaßenfehlbildung und weist dieselbe Schwäche auf: ebenfalls keine Studien, keine Literatur, kein erkennbarer Mechanismus.
-
-## Klinische Evidenz
+## Klinische Studien
 
 Derzeit sind keine zugehörigen klinischen Studien registriert.
 
@@ -68,39 +66,33 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 Derzeit liegt keine zugehörige Literatur vor.
 
-## Marktinformationen Deutschland
+## Informationen zum deutschen Markt
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004085 | Olumiant (Eli Lilly Nederland B.V.) | – | Rheumatoide Arthritis |
+| EMEA/H/C/004085 | Olumiant | – | Arthritis, Rheumatoid |
 
-Die Zulassung ist als erloschen/zurückgezogen geführt, es existiert keine gültige Zulassung.
+## Sicherheitsaspekte
 
-## Zytotoxizität
+**Arzneimittelwechselwirkungen** (die Abfrage ergab 100 Treffer; nachfolgend eine Auswahl):
+- **Schwerwiegend (Major):** Hydrocortison, Triamcinolon (auch ophthalmisch), Betamethason, Budesonid, Dexamethason, Prednisolon, Prednison, Deferipron, Ibritumomab-Tiuxetan, Iobenguan (I-131), Tositumomab (I-131)
+- **Mittelschwer (Moderate):** Morphin (auch liposomal), Acetylsalicylsäure, Nitisinon, Opium
+- **Gering (Minor):** Zinkacetat, Zinkgluconat, Zinksulfat
 
-Baricitinib ist kein antineoplastisches Arzneimittel, daher entfällt dieser Abschnitt.
-
-## Sicherheitshinweise
-
-- **Arzneimittelwechselwirkungen**: Es wurden 100 Wechselwirkungen erfasst. Die Beispiele aus der Liste:
-  - **Schwerwiegend (Major)**: Kortikosteroide (Hydrocortison, Triamcinolon, Betamethason, Budesonid, Dexamethason, Prednisolon, Prednison), außerdem Deferipron, Ibritumomab tiuxetan, Iobenguan (I-131) und Tositumomab (I-131).
-  - **Mäßig (Moderate)**: Morphin (auch liposomal), Acetylsalicylsäure, Nitisinon, Opium.
-  - **Gering (Minor)**: Zinkacetat, Zinkgluconat, Zinksulfat.
-
-Zu Warnhinweisen und Gegenanzeigen bitte die Fachinformation heranziehen.
+Für weitere Sicherheitsinformationen wie Warnhinweise und Gegenanzeigen siehe die Fachinformation.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht allein auf einem Graphmodell (Evidenzstufe L5) ohne Studien, Literatur oder plausiblen Mechanismus. Zudem besteht in Deutschland keine gültige Zulassung.
+Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzniveau L5). Es gibt keine klinischen Studien, keine Publikationen und keinen erkennbaren mechanistischen Zusammenhang zwischen JAK-Hemmung und dieser angeborenen Fehlbildung.
 
-**Für ein Weiterkommen sind erforderlich:**
-- Daten zum Wirkmechanismus (MOA) und eine biologische Begründung für den Zusammenhang mit dem Syndrom
-- Präklinische Evidenz oder Fallberichte zur vorhergesagten Indikation
-- Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM) für die Sicherheitsbewertung
-- Klärung des Zulassungsstatus in Deutschland
+**Für ein Weiterverfolgen sind erforderlich:**
+- Plausible biologische Hypothese, die den JAK-STAT-Signalweg mit der Pathophysiologie des Syndroms verbindet
+- Präklinische Untersuchungen (z. B. Zell- oder Tiermodelle) als Grundlage
+- Daten zum Wirkmechanismus sowie Warnhinweise und Gegenanzeigen aus der Fachinformation
+- Prüfung der Darreichungsform und Applikationsroute im Hinblick auf die Zielerkrankung
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

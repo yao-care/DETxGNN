@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-## Polatuzumab vedotin: Von B-Zell-Lymphom zu HER2-positivem Mammakarzinom
+## Polatuzumab vedotin: HER2-positives Mammakarzinom
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Polatuzumab vedotin ist ein Antikörper-Wirkstoff-Konjugat, das ursprünglich zu
 |------|------|
 | Ursprüngliche Indikation | B-Zell-Lymphom |
 | Vorhergesagte neue Indikation | HER2-positives Mammakarzinom |
-| TxGNN-Vorhersagewert | 99,34 % |
+| TxGNN-Vorhersagewert | 0,9934 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Zur ursprünglichen Wirkweise liegen in den für diesen Bericht zusammengestellt
 
 Ein direkter mechanistischer Bezug zum HER2-positiven Mammakarzinom ist nicht erkennbar. CD79b ist dort kein anerkanntes Zielmolekül. Ein möglicher indirekter Zusammenhang wäre die gemeinsame MMAE-Nutzlast, die auch in anderen Antikörper-Wirkstoff-Konjugaten gegen solide Tumoren verwendet wird. Dies würde jedoch eine Expression des Zielmoleküls in Brusttumorzellen voraussetzen, und dazu liegen keine Daten vor.
 
-Hinzu kommt, dass für HER2-positiven Brustkrebs bereits etablierte, zugelassene HER2-gerichtete Konjugate existieren (z. B. Trastuzumab-Emtansin, Trastuzumab-Deruxtecan). Für ein CD79b-gerichtetes Präparat ist daher weder eine klare Begründung noch ein erkennbarer ungedeckter Bedarf gegeben. Der sehr hohe TxGNN-Wert (0,993) ist als reine Modellvorhersage zu verstehen.
+Hinzu kommt, dass für HER2-positiven Brustkrebs bereits etablierte, zugelassene HER2-gerichtete Konjugate existieren (z. B. Trastuzumab-Emtansin, Trastuzumab-Deruxtecan). Für ein CD79b-gerichtetes Präparat ist daher weder eine klare Begründung noch ein erkennbarer ungedeckter Bedarf gegeben. Der sehr hohe TxGNN-Wert (0,9934) ist als reine Modellvorhersage zu verstehen.
 
 ---
 
@@ -84,7 +84,7 @@ Derzeit liegt keine einschlägige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/004870 | Polivy | – | B-Zell-Lymphom |
 
-Hinweis: Diese Zulassung ist als erloschen/widerrufen geführt; es besteht keine gültige Zulassung.
+Hinweis: Diese Zulassung ist gültig; das Arzneimittel ist in Deutschland im Verkehr (1 gültige Zulassung von 1).
 
 ---
 
@@ -116,7 +116,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich allein auf das Modell (L5), ohne klinische Studien oder Publikationen. Es fehlt ein plausibler mechanistischer Bezug (CD79b ist beim HER2-positiven Mammakarzinom kein bekanntes Ziel), und es gibt bereits etablierte HER2-gerichtete Konjugate. Zudem besteht in Deutschland keine gültige Zulassung.
+Die Vorhersage stützt sich allein auf das Modell (L5), ohne klinische Studien oder Publikationen. Es fehlt ein plausibler mechanistischer Bezug (CD79b ist beim HER2-positiven Mammakarzinom kein bekanntes Ziel), und es gibt bereits etablierte HER2-gerichtete Konjugate. Zudem ist das Arzneimittel in Deutschland im Verkehr (1 gültige Zulassung von 1).
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Daten zur CD79b-Expression in HER2-positiven Brusttumoren

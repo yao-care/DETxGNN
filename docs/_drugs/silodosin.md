@@ -6,9 +6,9 @@ nav_order: 427
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Silodosin: vorhergesagte neue Indikation Ambras-Typ Hypertrichosis universalis congenita (Evidenzstufe L5). Ursprüngliche Indikation: Benigne Prostatahyperplasie"
 monitor_inn: "SILODOSIN"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
+description: "Silodosin: vorhergesagte neue Indikation Ambras type hypertrichosis universalis congenita (Evidenzstufe L5). Ursprüngliche Indikation: Prostatic Hyperplasia"
 ---
 
 # Silodosin
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-## Silodosin: Von der benignen Prostatahyperplasie zur Ambras-Typ Hypertrichosis universalis congenita
+## Silodosin: Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,12 +48,12 @@ Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vo
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Benigne Prostatahyperplasie |
-| Vorhergesagte neue Indikation | Ambras-Typ Hypertrichosis universalis congenita |
-| TxGNN-Vorhersagewert | 99,99 % |
+| Ursprüngliche Indikation | Prostatic Hyperplasia |
+| Vorhergesagte neue Indikation | Ambras type hypertrichosis universalis congenita |
+| TxGNN-Vorhersagewert | 0.9999 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 3 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -66,7 +66,7 @@ Das Ambras-Syndrom ist eine seltene genetische Erkrankung mit übermäßigem Haa
 
 Auch bei der zweitplatzierten Vorhersage, der Hypertrichose allgemein, ist die Wirkrichtung unklar: Einige gefäßerweiternde oder blutdrucksenkende Substanzen (z. B. Minoxidil) verursachen Hypertrichose, sodass ein Effekt eher als Nebenwirkung denn als Therapie zu erwarten wäre.
 
-Weitere vorhergesagte Indikationen (ebenfalls ohne Evidenz): Fehlbildungssyndrom mit Zahn- bzw. Parodontalbeteiligung, Syndrom mit Dandy-Walker-Malformation, isolierte genetische Haarschaftanomalie und familiäre isolierte Trichomegalie (Werte zwischen 0,992 und 0,9999).
+Weitere vorhergesagte Indikationen (ebenfalls ohne Evidenz): Fehlbildungssyndrom mit Zahn- bzw. Parodontalbeteiligung, Syndrom mit Dandy-Walker-Malformation, isolierte genetische Haarschaftanomalie und familiäre isolierte Trichomegalie (Werte zwischen 0,9923 und 0,9999).
 
 ---
 
@@ -90,7 +90,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 | EMEA/H/C/001209 | Silodyx | – | Benigne Prostatahyperplasie |
 | EMEA/H/C/004964 | Silodosin Recordati | – | Benigne Prostatahyperplasie |
 
-Alle drei Zulassungen (Inhaber: Recordati Ireland Ltd) sind erloschen; es besteht keine gültige Zulassung.
+Alle drei Zulassungen (Inhaber: Recordati Ireland Ltd) sind gültig; das Arzneimittel ist in Deutschland im Handel.
 
 ---
 
@@ -108,7 +108,7 @@ Für Warnhinweise und Gegenanzeigen aus der Fachinformation siehe bitte die Pack
 **Entscheidung: Hold**
 
 **Begründung:**
-Es gibt weder klinische Studien noch Publikationen, und ein biologischer Zusammenhang zwischen Alpha-1A-Blockade und dem Ambras-Syndrom ist nicht erkennbar. Zudem besteht in Deutschland keine gültige Zulassung. Die Vorhersage stützt sich ausschließlich auf den Modellwert.
+Es gibt weder klinische Studien noch Publikationen, und ein biologischer Zusammenhang zwischen Alpha-1A-Blockade und dem Ambras-Syndrom ist nicht erkennbar. Zudem ist das Arzneimittel in Deutschland mit drei gültigen Zulassungen im Handel. Die Vorhersage stützt sich ausschließlich auf den Modellwert des TxGNN-Modells (Deep Learning); dieser kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, und stellt keinen biologischen Beleg dar.
 
 **Für ein Weiterverfolgen sind erforderlich:**
 - Daten zum Wirkmechanismus (MOA) aus DrugBank

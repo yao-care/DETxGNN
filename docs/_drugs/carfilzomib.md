@@ -38,7 +38,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 ## Zusammenfassung in einem Satz
 
-Carfilzomib ist ein Proteasom-Inhibitor, der ursprünglich zur Behandlung des **Multiplen Myeloms** zugelassen wurde. Das TxGNN-Modell sagt voraus, dass er bei **CMM7** wirksam sein könnte (Score 99,37 %). Für diese Vorhersage liegen jedoch **keine klinischen Studien und keine Publikationen** vor; sie beruht ausschließlich auf der Modellberechnung.
+Carfilzomib ist ein Proteasom-Inhibitor, der ursprünglich zur Behandlung des **Multiplen Myeloms** zugelassen wurde. Das TxGNN-Modell sagt voraus, dass er bei **CMM7** wirksam sein könnte (Score 0,9937). Für diese Vorhersage liegen jedoch **keine klinischen Studien und keine Publikationen** vor; sie beruht ausschließlich auf der Modellberechnung.
 
 ---
 
@@ -48,10 +48,10 @@ Carfilzomib ist ein Proteasom-Inhibitor, der ursprünglich zur Behandlung des **
 |------|------|
 | Ursprüngliche Indikation | Multiples Myelom |
 | Vorhergesagte neue Indikation | CMM7 |
-| TxGNN-Vorhersagewert | 99,37 % |
+| TxGNN-Vorhersagewert | 0,9937 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -66,10 +66,10 @@ Das Modell nennt außerdem weitere melanombezogene Vorhersagen mit ähnlich hohe
 
 | Vorhergesagte Indikation | TxGNN-Score | Evidenzlevel | Anmerkung |
 |------|------|------|------|
-| Pädiatrisches leptomeningeales Melanom | 99,30 % | L5 | Große Molekülstruktur, voraussichtlich geringe Penetration von Blut-Hirn-Schranke und Liquor; keine pädiatrischen Sicherheitsdaten |
-| Epitheloidzelliges Uveamelanom | 99,23 % | L5 | Nur theoretische Verbindung (NF-κB- und Unfolded-Protein-Response-Signalwege) |
-| Vulvamelanom | 99,19 % | L5 | Vermutlich aus allgemeinen Melanom-Assoziationen abgeleitet |
-| Melanom | 99,03 % | L4 | Nur präklinische, indirekte Evidenz |
+| Pädiatrisches leptomeningeales Melanom | 0,9930 | L5 | Große Molekülstruktur, voraussichtlich geringe Penetration von Blut-Hirn-Schranke und Liquor; keine pädiatrischen Sicherheitsdaten |
+| Epitheloidzelliges Uveamelanom | 0,9923 | L5 | Nur theoretische Verbindung (NF-κB- und Unfolded-Protein-Response-Signalwege) |
+| Vulvamelanom | 0,9919 | L5 | Vermutlich aus allgemeinen Melanom-Assoziationen abgeleitet |
+| Melanom | 0,9903 | L4 | Nur präklinische, indirekte Evidenz |
 
 ---
 
@@ -96,7 +96,7 @@ Für CMM7 liegt derzeit keine zugehörige Literatur vor. Für die allgemeine Ind
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/003790 | Kyprolis (Amgen Europe B.V.) | – | Multiples Myelom (Status: aufgehoben) |
+| EMEA/H/C/003790 | Kyprolis (Amgen Europe B.V.) | – | Multiples Myelom (Status: gültig) |
 
 ---
 
@@ -126,7 +126,7 @@ Weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) entnehmen Sie bit
 **Entscheidung: Hold**
 
 **Begründung:**
-Für CMM7 liegen weder klinische Studien noch Publikationen vor; der hohe TxGNN-Score von 99,37 % ist eine reine Modellvorhersage (L5). Auch für die übrigen Melanom-Vorhersagen existiert höchstens präklinische, indirekte Evidenz (L4 für Melanom allgemein). Zudem ist die Zulassung in Deutschland aufgehoben.
+Für CMM7 liegen weder klinische Studien noch Publikationen vor; der hohe TxGNN-Score von 0,9937 ist eine reine Modellvorhersage (L5). Auch für die übrigen Melanom-Vorhersagen existiert höchstens präklinische, indirekte Evidenz (L4 für Melanom allgemein). Zudem ist die Zulassung in Deutschland aufgehoben.
 
 **Für ein Weiterkommen sind folgende Punkte erforderlich:**
 - Klärung der Identität und Definition von „CMM7“

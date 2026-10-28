@@ -6,9 +6,9 @@ nav_order: 445
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Tasonermin: vorhergesagte neue Indikation Urothelkarzinom der prostatischen Harnröhre (Evidenzstufe L5). Ursprüngliche Indikation: Sarkom"
 monitor_inn: "TASONERMIN"
 predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "HER2 positive breast carcinoma", "uterine ligament adenocarcinoma", "endocervical carcinoma", "uterine ligament serous adenocarcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament clear cell adenocarcinoma"]
+description: "Tasonermin: vorhergesagte neue Indikation Urothelkarzinom der prostatischen Harnröhre (prostatic urethra urothelial carcinoma) (Evidenzstufe L5). Ursprüngliche Indikation: Sarcoma"
 ---
 
 # Tasonermin
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Tasonermin: Von Sarkom zu Urothelkarzinom der prostatischen Harnröhre
+## Tasonermin: Urothelkarzinom der prostatischen Harnröhre (prostatic urethra urothelial carcinoma)
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -46,12 +46,12 @@ Tasonermin (rekombinantes TNF-alpha) wurde ursprünglich zur Behandlung von **Sa
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Sarkom |
-| Vorhergesagte neue Indikation | Urothelkarzinom der prostatischen Harnröhre |
-| TxGNN-Vorhersagewert | 99,81 % |
+| Ursprüngliche Indikation | Sarcoma |
+| Vorhergesagte neue Indikation | Urothelkarzinom der prostatischen Harnröhre (prostatic urethra urothelial carcinoma) |
+| TxGNN-Vorhersagewert | 0.9981 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -66,15 +66,15 @@ Ein plausibler mechanistischer Zusammenhang zwischen dieser Perfusionstherapie u
 
 | Rang | Vorhergesagte Indikation | TxGNN-Wert | Evidenzstufe |
 |------|------|------|------|
-| 2 | Sarkomatoides Übergangszellkarzinom des Nierenbeckens | 99,80 % | L5 |
-| 3 | Infiltrierendes Urothelkarzinom der Harnblase, sarkomatoide Variante | 99,79 % | L5 |
-| 4 | Papilläres Urothelkarzinom des Nierenbeckens | 99,79 % | L5 |
-| 5 | HER2-positives Mammakarzinom | 99,70 % | L5 |
-| 6 | Adenokarzinom des Lig. uteri | 99,62 % | L5 |
-| 7 | Endozervikales Karzinom | 99,61 % | L5 |
-| 8 | Seröses Adenokarzinom des Lig. uteri | 99,61 % | L5 |
-| 9 | Adenoid-zystisches Karzinom der Cervix uteri | 99,60 % | L5 |
-| 10 | Klarzelliges Adenokarzinom des Lig. uteri | 99,59 % | L5 |
+| 2 | Sarkomatoides Übergangszellkarzinom des Nierenbeckens | 0,9980 | L5 |
+| 3 | Infiltrierendes Urothelkarzinom der Harnblase, sarkomatoide Variante | 0,9979 | L5 |
+| 4 | Papilläres Urothelkarzinom des Nierenbeckens | 0,9979 | L5 |
+| 5 | HER2-positives Mammakarzinom | 0,9970 | L5 |
+| 6 | Adenokarzinom des Lig. uteri | 0,9962 | L5 |
+| 7 | Endozervikales Karzinom | 0,9961 | L5 |
+| 8 | Seröses Adenokarzinom des Lig. uteri | 0,9961 | L5 |
+| 9 | Adenoid-zystisches Karzinom der Cervix uteri | 0,9960 | L5 |
+| 10 | Klarzelliges Adenokarzinom des Lig. uteri | 0,9959 | L5 |
 
 Bei den sarkomatoiden Varianten (Ränge 2 und 3) besteht eine oberflächliche konzeptionelle Nähe zur ursprünglichen Sarkom-Indikation, die jedoch spekulativ ist. Beim HER2-positiven Mammakarzinom existieren bereits etablierte HER2-gerichtete Therapien, und die TNF-alpha-Signalwirkung kann dort kontextabhängig tumorfördernd sein; die Vorhersage ist mit Vorsicht zu betrachten.
 
@@ -98,7 +98,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/000206 | Beromun | – | Sarkom |
 
-Die Zulassung ist erloschen (Hersteller: Belpharma s.a.); derzeit ist kein gültig zugelassenes Präparat auf dem Markt.
 
 ---
 

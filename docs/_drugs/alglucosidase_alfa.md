@@ -4,17 +4,17 @@ title: Alglucosidase Alfa
 parent: Nur Modellvorhersage (L5)
 nav_order: 24
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Alglucosidase Alfa: vorhergesagte neue Indikation Adulte Polyglucosan-Körper-Krankheit (adult polyglucosan body disease) (Evidenzstufe L5). Ursprüngliche Indikation: Glykogenspeicherkrankheit Typ II"
+indication_count: 8
 monitor_inn: "ALGLUCOSIDASE ALFA"
 predicted_indications: ["adult polyglucosan body disease", "congenital entropion", "congenital ectropion", "congenital Horner syndrome (disease)", "ptosis-vocal cord paralysis syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "epiblepharon", "ptosis-strabismus-ectopic pupils syndrome"]
+last_modified_at: 2026-10-27
+description: "Alglucosidase Alfa: vorhergesagte neue Indikation Adulte Polyglucosan-Körper-Krankheit (adult polyglucosan body disease) (Evidenzstufe L5). Ursprüngliche Indikation: Glycogen Storage Disease Type II"
 ---
 
 # Alglucosidase Alfa
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,91 +33,63 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Alglucosidase alfa: Von Glykogenspeicherkrankheit Typ II zur Adulten Polyglucosan-Körper-Krankheit
+## Alglucosidase alfa: rekombinante saure α-Glucosidase (Enzymersatztherapie) → Adulte Polyglucosan-Körper-Krankheit (adult polyglucosan body disease)
 {: .text-alpha }
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Alglucosidase alfa ist eine rekombinante saure alpha-Glucosidase, die ursprünglich zur Behandlung der Glykogenspeicherkrankheit Typ II (Morbus Pompe) eingesetzt wurde. Das TxGNN-Modell sagt voraus, dass sie bei der **adulten Polyglucosan-Körper-Krankheit** (APBD) wirksam sein könnte. Diese Vorhersage beruht jedoch ausschließlich auf einer Netzwerkanalyse: Es liegen **keine klinischen Studien** und **keine Publikationen** vor.
-
----
+Alglucosidase alfa ist ein rekombinantes Enzym zur Enzymersatztherapie. Das TxGNN-Modell sagt voraus, dass es bei **Adulter Polyglucosan-Körper-Krankheit (adult polyglucosan body disease)** wirksam sein könnte (Score 0,9947). Für diese Vorhersage liegen in den für diesen Bericht zusammengestellten Daten **keine klinischen Studien** und **keine Publikationen** vor; sie beruht allein auf einer Modellvorhersage.
 
 ## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Glykogenspeicherkrankheit Typ II |
+| Ursprüngliche Indikation | Glycogen Storage Disease Type II |
 | Vorhergesagte neue Indikation | Adulte Polyglucosan-Körper-Krankheit (adult polyglucosan body disease) |
-| TxGNN-Vorhersagewert | 99,47 % |
-| Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| TxGNN-Vorhersagescore | 0,9947 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
----
+## Warum ist diese Vorhersage nachvollziehbar?
 
-## Warum ist diese Vorhersage plausibel?
+Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist: Alglucosidase alfa ist eine rekombinante saure α-Glucosidase, die lysosomales Glykogen abbaut.
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Alglucosidase alfa ist eine rekombinante saure alpha-Glucosidase als Enzymersatztherapie. Sie baut Glykogen im Lysosom ab, und ihre Wirksamkeit bei Morbus Pompe gilt als etabliert.
+Die adulte Polyglucosan-Körper-Krankheit beruht auf einem Mangel des Glykogen-Verzweigungsenzyms (GBE1). Dadurch sammeln sich schlecht verzweigte, unlösliche Polyglucosane in Neuronen und anderen Geweben an. Ein plausibler, aber unbewiesener Gedanke ist, dass die Substanz die Glykogenlast senken könnte.
 
-Die APBD wird durch einen Mangel am Glykogen-Verzweigungsenzym (GBE1) verursacht. Dadurch häuft sich schlecht verzweigtes, unlösliches Polyglucosan in Neuronen und anderen Geweben an. Eine denkbare, aber unbelegte Überlegung ist, dass das Enzym die Glykogenlast senken könnte. Die Vorhersage ergibt sich aus der gemeinsamen Nachbarschaft im Glykogenstoffwechsel-Netzwerk, nicht aus klinischen Daten.
+Die mechanistische Passung ist jedoch schwach: Polyglucosan reichert sich überwiegend im Zytoplasma an, nicht im Lysosom, und das Enzym überwindet die Blut-Hirn-Schranke kaum. Der hohe Score spiegelt eine netzwerkbasierte Vorhersage (ähnliche Umgebung im Glykogenstoffwechsel) wider, keine klinischen Belege.
 
-Die mechanistische Passung ist **schwach**:
-- Polyglucosan sammelt sich überwiegend im Zytoplasma an, nicht im Lysosom, wo das Enzym wirkt.
-- Das Enzym überwindet die Blut-Hirn-Schranke nur unzureichend, obwohl die APBD vor allem das Nervensystem betrifft.
+## Klinische Studien
 
----
-
-## Klinische Evidenz
-
-Derzeit sind keine einschlägigen klinischen Studien registriert.
-
----
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Literaturevidenz
 
-Derzeit ist keine einschlägige Literatur verfügbar.
+Derzeit liegt keine zugehörige Literatur vor.
 
----
-
-## Informationen zum deutschen Markt
+## Marktinformationen Deutschland
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000636 | Myozyme (Sanofi B.V.) | – | Glykogenspeicherkrankheit Typ II (Status: erloschen) |
-
----
+| EMEA/H/C/000636 | Myozyme | – | Glycogen Storage Disease Type II |
 
 ## Sicherheitsaspekte
 
-Bitte entnehmen Sie die Sicherheitsinformationen der Packungsbeilage. Für Wechselwirkungen wurden keine Einträge gefunden.
-
----
-
-## Weitere Vorhersagen (zur Einordnung)
-
-Neben der APBD wurden neun weitere Indikationen mit ähnlich hohen Scores vorhergesagt (jeweils 99,1–99,3 %). Für keine liegen Studien oder Literatur vor (alle L5):
-
-| Rang | Vorhergesagte Indikation | Einschätzung |
-|------|------|------|
-| 2–3 | Glykogenspeicherkrankheit durch GBE1-Mangel (letale perinatale und kongenitale neuromuskuläre Form) | Primärdefekt liegt in der Glykogenverzweigung, nicht im lysosomalen Abbau; nur indirekter Zusammenhang. Bei der perinatalen Form zudem kaum Zeitfenster für eine Intervention. |
-| 4–6, 9 | Kongenitales Entropium, kongenitales Ektropium, kongenitales Horner-Syndrom, Epiblepharon | Strukturelle bzw. neurogene Fehlbildungen ohne plausiblen Mechanismus; wahrscheinlich Artefakte der Netzwerktopologie. |
-| 7, 8, 10 | Ptosis-Stimmbandlähmung-Syndrom, Camptodaktylie-Myopie-Fibrose des M. rectus medialis, Ptosis-Strabismus-ektope-Pupillen-Syndrom | Seltene Entwicklungs- bzw. neurogene Syndrome; Überschneidungen betreffen nur Symptome, nicht die Ursache. Wahrscheinlich falsch-positive Vorhersagen. |
-
----
+Angaben zur Sicherheit entnehmen Sie bitte der Packungsbeilage.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich allein auf Netzwerkähnlichkeit (Evidenzniveau L5). Es gibt weder Studien noch Publikationen, die mechanistische Passung ist schwach, und die einzige deutsche Zulassung ist erloschen.
+Für die Vorhersage gibt es weder klinische Studien noch Publikationen, und die mechanistische Passung ist schwach (zytoplasmatische Polyglucosan-Ablagerung, eingeschränkte Gängigkeit der Blut-Hirn-Schranke). Es handelt sich um eine reine Forschungsfrage.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
-- Daten zum Wirkmechanismus (MOA) ergänzen
-- Warnhinweise und Gegenanzeigen aus der Packungsbeilage ergänzen; diese Lücke blockiert aktuell das Sicherheitsscreening
-- Präklinische Belege prüfen, ob die Enzymersatztherapie zytoplasmatisches Polyglucosan erreichen und die Blut-Hirn-Schranke überwinden kann
-- Systematische Literatur- und Studienrecherche zur APBD
+- Präklinische Daten, ob das Enzym Polyglucosan in relevanten Zellen und Geweben (insbesondere im Nervensystem) abbauen kann
+- Daten zum Wirkmechanismus (MOA)
+- Sicherheitsinformationen aus der Packungsbeilage (Warnhinweise, Gegenanzeigen)
+- Prüfung der Verabreichungswege und der Zugänglichkeit des Zielgewebes
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

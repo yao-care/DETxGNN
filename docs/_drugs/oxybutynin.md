@@ -50,18 +50,18 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Dranginkontinenz |
 | Vorhergesagte neue Indikation | Restless-Legs-Syndrom |
-| TxGNN-Vorhersagewert | 99,74 % |
+| TxGNN-Vorhersagewert | 0,9974 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 Weitere vom Modell vorhergesagte Indikationen (jeweils ohne klinische Studien):
 
 | Rang | Indikation | TxGNN-Wert | Evidenzgrad | Empfehlung |
 |---|---|---|---|---|
-| 2 | Gastroduodenitis | 99,62 % | L5 | Hold |
-| 3 | Peptisches Ulkus | 99,31 % | L4 | Hold |
+| 2 | Gastroduodenitis | 0,9962 | L5 | Hold |
+| 3 | Peptisches Ulkus | 0,9931 | L5 | Hold |
 
 ---
 
@@ -97,7 +97,7 @@ Zur drittplatzierten Vorhersage (peptisches Ulkus) wurden folgende Quellen gefun
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000532 | Kentera (zuvor Oxybutynin Nicobrand), Teva B.V. | – | Dranginkontinenz (Status: erloschen) |
+| EMEA/H/C/000532 | Kentera (zuvor Oxybutynin Nicobrand), Teva B.V. | – | Dranginkontinenz (Status: gültig) |
 
 ---
 

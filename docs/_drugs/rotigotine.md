@@ -50,10 +50,10 @@ Hierfür liegen derzeit **keine klinischen Studien** und **3 Publikationen** (2 
 |------|------|
 | Ursprüngliche Indikation | Restless-Legs-Syndrom; Parkinson-Krankheit |
 | Vorhergesagte neue Indikation | Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS) |
-| TxGNN-Vorhersagewert | 99,997 % |
-| Evidenzgrad | L4 (nur präklinische/mechanistische und indirekte Literatur) |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (aufgehoben) |
+| TxGNN-Vorhersagewert | 1,0000 |
+| Evidenzgrad | L5 (nur präklinische/mechanistische und indirekte Literatur) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold (Forschungsfrage) |
 
 ---
@@ -88,7 +88,7 @@ Derzeit sind keine relevanten klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000626 | Neupro | – | Restless-Legs-Syndrom; Parkinson-Krankheit (Status: aufgehoben) |
+| EMEA/H/C/000626 | Neupro | – | Restless-Legs-Syndrom; Parkinson-Krankheit (Status: gültig) |
 
 ---
 

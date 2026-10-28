@@ -6,9 +6,9 @@ nav_order: 330
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Orbifloxacin: vorhergesagte neue Indikation Herzerkrankung (Evidenzstufe L5). Ursprüngliche Indikation: In den Daten nicht angegeben (laut Mechanismusbeschreibung: bakteriel…"
 monitor_inn: "ORBIFLOXACIN"
 predicted_indications: ["heart disease", "Laubry-Pezzi syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "genetic syndromic Pierre Robin syndrome", "partial deletion of the long arm of chromosome 7", "orofacial clefting syndrome", "pulmonary valve disease", "disorder of fucoglycosan synthesis", "mitral valve disease", "Jeune syndrome situs inversus"]
+description: "Orbifloxacin: vorhergesagte neue Indikation Heart disease (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
 ---
 
 # Orbifloxacin
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Orbifloxacin: Von einem veterinärmedizinischen Antibiotikum zu Herzerkrankung (vorhergesagt)
+## Orbifloxacin: Heart disease
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -46,12 +46,12 @@ Orbifloxacin ist ein Fluorchinolon-Antibiotikum für die Tiermedizin, das gegen 
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | In den Daten nicht angegeben (laut Mechanismusbeschreibung: bakterielle Infektionen bei Tieren) |
-| Vorhergesagte neue Indikation | Herzerkrankung |
-| TxGNN-Vorhersagewert | 99,94 % |
+| Ursprüngliche Indikation | In den lokalen Daten nicht erfasst |
+| Vorhergesagte neue Indikation | Heart disease |
+| TxGNN-Vorhersagewert | 0.9994 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -91,7 +91,7 @@ Für die Vorhersage auf Rang 8 (Störung der Fucoglykan-Synthese) wurden zwei Ve
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/000122 | Posatex | nicht angegeben | nicht angegeben (Zulassung erloschen) |
+| EMEA/V/C/000122 | Posatex | nicht angegeben | nicht angegeben (Zulassung gültig) |
 
 ---
 

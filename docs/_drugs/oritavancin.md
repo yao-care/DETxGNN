@@ -50,10 +50,10 @@ Dafür liegen jedoch derzeit **keine klinischen Studien** und **keine Publikatio
 |------|------|
 | Ursprüngliche Indikation | Weichteilinfektionen; bakterielle Hauterkrankungen |
 | Vorhergesagte neue Indikation | Bacteroidaceae-Infektionen |
-| TxGNN-Vorhersagewert | 99,48 % |
+| TxGNN-Vorhersagewert | 0,9948 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -65,8 +65,8 @@ Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusamme
 Bacteroidaceae (z. B. *Bacteroides* spp.) sind gramnegative Anaerobier mit einer äußeren Membran, die Glykopeptide in der Regel nicht durchdringen können. Die mechanistische Begründung ist daher schwach. Der hohe TxGNN-Wert ist eine rein computergestützte Vorhersage und wird durch keine Studie oder Publikation gestützt.
 
 Auch die weiteren vorhergesagten Indikationen sind mechanistisch fragwürdig:
-- **Ophthalmischer Herpes zoster** (Wert 99,03 %): Der Erreger ist ein Virus, Oritavancin hat keinen antiviralen Mechanismus. Der hohe Wert ist vermutlich ein Artefakt des Graphen.
-- **Mycoplasma-pneumoniae-Pneumonie** (Wert 99,01 %): Mycoplasmen besitzen keine Zellwand, zellwandwirksame Substanzen sind daher voraussichtlich von Natur aus unwirksam.
+- **Ophthalmischer Herpes zoster** (Wert 0,9903): Der Erreger ist ein Virus, Oritavancin hat keinen antiviralen Mechanismus. Der hohe Wert stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz.
+- **Mycoplasma-pneumoniae-Pneumonie** (Wert 0,9901): Mycoplasmen besitzen keine Zellwand, zellwandwirksame Substanzen sind daher voraussichtlich von Natur aus unwirksam.
 
 ---
 
@@ -88,7 +88,7 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 |---------|------|------|-----------|
 | EMEA/H/C/003785 | Tenkasi (zuvor Orbactiv) | – | Weichteilinfektionen; bakterielle Hauterkrankungen |
 
-Hinweis: Diese Zulassung ist als erloschen/gelöscht geführt. Es besteht keine gültige Zulassung.
+Hinweis: Diese Zulassung ist gültig (1 von 1 Zulassung); das Arzneimittel ist in Deutschland im Handel.
 
 ---
 
@@ -110,7 +110,7 @@ Zu Warnhinweisen und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzlevel L5) ohne Studien oder Publikationen. Der Wirkmechanismus von Oritavancin (gegen grampositive Erreger, an der Zellwand angreifend) passt schlecht zu gramnegativen Bacteroidaceae. Zudem besteht in Deutschland keine gültige Zulassung.
+Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzlevel L5) ohne Studien oder Publikationen. Der Wirkmechanismus von Oritavancin (gegen grampositive Erreger, an der Zellwand angreifend) passt schlecht zu gramnegativen Bacteroidaceae.
 
 **Für ein Weiterkommen erforderlich:**
 - Vollständige Daten zum Wirkmechanismus (MOA)

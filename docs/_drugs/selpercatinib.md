@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-## Selpercatinib: Vom nicht-kleinzelligen Lungenkarzinom und Schilddrüsenkarzinom zur pulmonalen Hypertonie
+## Selpercatinib: Pulmonale Hypertonie
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür liegen **keine klinischen Studien** und **keine direkt unterstützende Li
 |------|------|
 | Ursprüngliche Indikation | Nicht-kleinzelliges Lungenkarzinom; Schilddrüsenneoplasien |
 | Vorhergesagte neue Indikation | Pulmonale Hypertonie |
-| TxGNN-Vorhersagewert | 99,18 % |
+| TxGNN-Vorhersagewert | 0,9918 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -64,7 +64,7 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten k
 
 Ein direkter mechanistischer Zusammenhang zwischen RET-Hemmung und der Pathophysiologie der pulmonalen Hypertonie (Gefäßumbau der Lunge, endotheliale Dysfunktion) ist anhand der vorliegenden Daten nicht erkennbar. Kinase-Inhibitoren als Klasse werden zwar im Zusammenhang mit pulmonalem Gefäßumbau diskutiert (z. B. PDGFR-Hemmung), dies ist jedoch nicht RET-spezifisch und wird durch die vorliegende Evidenz nicht gestützt. Der hohe Modellwert ist daher als Hypothese zu verstehen, nicht als Beleg.
 
-Weitere Vorhersagen des Modells mit ähnlich hohen Werten sind Migräne (99,17 %) und Migräne mit Hirnstammaura (99,05 %). Auch hierfür gibt es weder Studien noch Literatur oder einen belegten Mechanismus; die Hirnstammaura-Vorhersage ist zudem vermutlich stark mit der Migräne-Vorhersage korreliert und keine unabhängige Evidenz.
+Weitere Vorhersagen des Modells mit ähnlich hohen Werten sind Migräne (0,9917) und Migräne mit Hirnstammaura (0,9905). Auch hierfür gibt es weder Studien noch Literatur oder einen belegten Mechanismus; die Hirnstammaura-Vorhersage ist zudem vermutlich stark mit der Migräne-Vorhersage korreliert und keine unabhängige Evidenz.
 
 ---
 
@@ -90,7 +90,7 @@ Die gefundenen Publikationen stützen die vorhergesagte Indikation nicht direkt;
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/005375 | Retsevmo | – | Nicht-kleinzelliges Lungenkarzinom; Schilddrüsenneoplasien (Status: erloschen) |
+| EMEA/H/C/005375 | Retsevmo | – | Nicht-kleinzelliges Lungenkarzinom; Schilddrüsenneoplasien (Status: gültig) |
 
 ---
 
@@ -125,7 +125,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage zur pulmonalen Hypertonie beruht ausschließlich auf einem graphenbasierten Modell (Evidenzlevel L5) ohne klinische Studien, ohne unterstützende Literatur und ohne belegten Mechanismus. Zudem besteht in Deutschland derzeit keine gültige Zulassung.
+Die Vorhersage zur pulmonalen Hypertonie (Score 0.9918) stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. Es liegen keine klinischen Studien, keine unterstützende Literatur und kein belegter Mechanismus vor. In Deutschland ist das Arzneimittel im Handel, 1 von 1 Zulassung ist gültig.
 
 **Für ein Weiterkommen sind folgende Punkte erforderlich:**
 - Daten zum Wirkmechanismus (MOA) und Prüfung einer biologischen Verbindung zwischen RET-Signalweg und pulmonaler Hypertonie

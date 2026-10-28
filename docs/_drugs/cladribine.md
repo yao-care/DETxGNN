@@ -5,10 +5,10 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 117
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
-description: "Cladribine: vorhergesagte neue Indikation Parameningeales embryonales Rhabdomyosarkom (Evidenzstufe L5). Ursprüngliche Indikation: Haarzell-Leukämie (Litak)"
 monitor_inn: "CLADRIBINE"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "liver sarcoma"]
+last_modified_at: 2026-10-27
+description: "Cladribine: vorhergesagte neue Indikation Parameningeales embryonales Rhabdomyosarkom (parameningeal embryonal rhabdomyosarcoma) (Evidenzstufe L5). Ursprüngliche Indikation: Leukemia, Hairy Cell"
 ---
 
 # Cladribine
@@ -33,106 +33,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-## Cladribin: Von Haarzell-Leukämie und Multipler Sklerose zu parameningealem embryonalem Rhabdomyosarkom
+## Cladribin: Purinnukleosid-Analogon → Parameningeales embryonales Rhabdomyosarkom (parameningeal embryonal rhabdomyosarcoma)
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 
-Cladribin ist ein Purinnukleosid-Analogon, das ursprünglich zur Behandlung der Haarzell-Leukämie und der Multiplen Sklerose zugelassen wurde.
-Das TxGNN-Modell sagt voraus, dass es bei **parameningealem embryonalem Rhabdomyosarkom** wirksam sein könnte.
-Dafür liegen bislang **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
-
----
+Cladribin ist ein Purinnukleosid-Analogon, das in der Behandlung lymphatischer Erkrankungen und der Multiplen Sklerose eingesetzt wird. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **parameningealem embryonalem Rhabdomyosarkom (parameningeal embryonal rhabdomyosarcoma)** voraus. Für diese Richtung liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; es handelt sich um eine reine Modellvorhersage.
 
 ## Schnellübersicht
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Haarzell-Leukämie (Litak); Multiple Sklerose (Mavenclad) |
-| Vorhergesagte neue Indikation | Parameningeales embryonales Rhabdomyosarkom |
-| TxGNN-Vorhersagewert | 99,77 % |
-| Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen (aktuell nicht im Verkehr) |
-| Anzahl der Zulassungen | 2 (beide inaktiv) |
+| Ursprüngliche Indikation | Leukemia, Hairy Cell; Multiple Sclerosis |
+| Vorhergesagte neue Indikation | Parameningeales embryonales Rhabdomyosarkom (parameningeal embryonal rhabdomyosarcoma) |
+| TxGNN-Vorhersagewert | 0,9977 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
-
----
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Cladribin ist ein Purinnukleosid-Analogon, das gegen Adenosindeaminase resistent ist. Es führt zu DNA-Strangbrüchen und Apoptose, vor allem in Lymphozyten und Monozyten mit hoher Desoxycytidinkinase-Aktivität. Darauf beruht seine Wirksamkeit bei der Haarzell-Leukämie und, über die Depletion von Lymphozyten, bei der Multiplen Sklerose.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Cladribin ein Purinnukleosid-Analogon ist, das gegenüber der Adenosindeaminase resistent ist. Es führt vor allem in Lymphozyten und Monozyten mit hoher Desoxycytidinkinase-Aktivität zu DNA-Strangbrüchen und Apoptose.
 
-Ein Zusammenhang mit dem embryonalen Rhabdomyosarkom, einem soliden mesenchymalen Tumor, ist nicht belegt. Der hohe Vorhersagewert spiegelt wahrscheinlich Nähe im Wissensgraphen wider, etwa über die gemeinsame Ontologie mit dem übergeordneten Begriff Rhabdomyosarkom, und keine unabhängige Biologie.
+Ein Zusammenhang mit dem embryonalen Rhabdomyosarkom, einem soliden mesenchymalen Tumor, ist durch die Daten nicht belegt. Die bekannte Aktivität von Cladribin beschränkt sich auf lymphatische Neoplasien und auf die Multiple Sklerose über die Depletion von Lymphozyten. Der hohe Vorhersagewert beruht wahrscheinlich eher auf der Nähe zu verwandten Rhabdomyosarkom-Begriffen im Modell als auf unabhängiger Biologie. Mehrere weitere Rhabdomyosarkom-Untertypen weisen ähnlich hohe Werte auf; diese Signale sind daher nicht voneinander unabhängig.
 
-Auffällig ist, dass die ersten sechs Vorhersagen alle Rhabdomyosarkom-Varianten betreffen (parameningeal, vaginal-botryoid, extrahepatischer Gallengang, Prostata, allgemein). Sie sind keine unabhängigen Signale, sondern Varianten desselben Befunds. Der Wert 99,8 % sollte daher nicht als starke Evidenz gelesen werden.
-
----
-
-## Evidenz aus klinischen Studien
+## Klinische Evidenz
 
 Derzeit sind keine zugehörigen klinischen Studien registriert.
 
----
+## Literaturevidenz
 
-## Evidenz aus der Literatur
-
-Für die Top-Vorhersage (parameningeales embryonales Rhabdomyosarkom) liegt derzeit keine zugehörige Literatur vor.
-
-Zur Vollständigkeit: Für die Vorhersage auf Rang 7 (Lebersarkom) wurde eine Publikation gefunden, die aber nur schwach indirekt relevant ist:
-
-| PMID | Jahr | Typ | Zeitschrift | Kernaussagen |
-|------|-----|------|------|---------|
-| [15241520](https://pubmed.ncbi.nlm.nih.gov/15241520/) | 2004 | Fallbericht | Der Hautarzt | Erfolgreiche Cladribin-Therapie bei schwelender systemischer Mastozytose; eine hämatologische Neoplasie, kein Lebersarkom. Der Treffer ist vermutlich ein Recherche-Artefakt. |
-
----
+Derzeit liegt keine Literatur vor, die das vorhergesagte Rhabdomyosarkom direkt untersucht.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
-|---------|------|------|-----------|------|
-| EMEA/H/C/000504 | Litak | – | Haarzell-Leukämie | erloschen |
-| EMEA/H/C/004230 | Mavenclad | – | Multiple Sklerose | erloschen |
-
----
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000504 | Litak | – | Leukemia, Hairy Cell |
+| EMEA/H/C/004230 | Mavenclad | – | Multiple Sclerosis |
 
 ## Zytotoxizität
 
 | Punkt | Inhalt |
 |------|------|
-| Zytotoxizitätsklassifikation | Klassisches Zytostatikum (Purinnukleosid-Analogon, Antimetabolit) |
-| Myelosuppressionsrisiko | Hoch; im Wissensgraphen sind Neutropenie, Thrombozytopenie, Agranulozytose und Anämie als Kontraindikationen verzeichnet |
-| Emetogenitätsklassifikation | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
-| Überwachungsparameter | Differenzialblutbild, Leber- und Nierenfunktion |
-| Handhabungsschutz | Vorgaben für den Umgang mit zytotoxischen Arzneimitteln beachten |
+| Zytotoxizitätsklassifikation | Konventionelles Zytostatikum (Purinnukleosid-Analogon) |
+| Myelosuppressionsrisiko | Hoch; Neutropenie, Thrombozytopenie und Anämie sind relevant |
+| Emetogenität | Niedrig |
+| Überwachungsparameter | Großes Blutbild mit Differenzialblutbild, Leber- und Nierenfunktion |
+| Handhabungsschutz | Vorschriften für den Umgang mit zytotoxischen Arzneimitteln beachten |
 
----
+Hinweis: Detaillierte Toxizitätsdaten liegen in den zusammengestellten Daten nicht vor; bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten.
 
 ## Sicherheitsaspekte
 
-- **Kontraindikationen (aus dem Wissensgraphen, nicht aus dem Packungsbeilagentext):** Nierenerkrankung, Pyoureter, Thrombozytopenie, Neutropenie, Agranulozytose, Anämie (einschließlich makrozytärer Anämie), Erkrankungen des peripheren Nervensystems, periphere Neuropathie sowie Hyperurikämie.
-- **Arzneimittelwechselwirkungen:** Abgefragt wurden 100 Wechselwirkungen; die wichtigsten (Schweregrad „Major“):
-  - Kortikosteroide: Hydrocortison, Triamcinolon (auch ophthalmisch), Dexamethason, Betamethason, Budesonid, Prednisolon, Prednison
-  - Deferipron
-  - Radiopharmaka und radioaktive Antikörper: Ibritumomab-Tiuxetan, Iobenguan (I-131), Tositumomab (auch I-131), Samarium-(153Sm)-Lexidronam, Strontiumchlorid Sr-89
-  - Weitere Wechselwirkungen mit mittlerem Schweregrad („Moderate“): Palifermin, Dipyridamol, Cilostazol, Eltrombopag
+- **Wechselwirkungen:** Insgesamt wurden 100 Wechselwirkungen erfasst. Als schwerwiegend (Major) eingestuft sind unter anderem Kortikosteroide (Hydrocortison, Triamcinolon, Dexamethason, Betamethason, Budesonid, Prednisolon, Prednison), Deferipron sowie mehrere Radiopharmazeutika und Radioimmuntherapeutika (Ibritumomab tiuxetan, Iobenguan [I-131], Tositumomab, Samarium-153-Lexidronam, Strontiumchlorid Sr-89). Moderat sind u. a. Palifermin, Dipyridamol, Cilostazol und Eltrombopag.
+- **Weitere Erkrankungen mit dokumentiertem Kontraindikationsbezug (nicht aus dem Fachinformationstext):** Nierenerkrankung, Thrombozytopenie, Neutropenie, Agranulozytose, Anämie, makrozytäre Anämie, periphere Neuropathie und Erkrankungen des peripheren Nervensystems.
 
-Die Warnhinweise und Kontraindikationen der Fachinformation liegen nicht vor; bitte die Fachinformation heranziehen.
-
----
+Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzgrad L5), ohne Studien oder Publikationen. Die Wirkweise von Cladribin in lymphatischen Zellen lässt sich nicht plausibel auf ein solides Sarkom übertragen, und die hohen Werte der verwandten Rhabdomyosarkom-Vorhersagen sind vermutlich voneinander abhängig. Hinzu kommen erhebliche Myelosuppressions-Risiken und die fehlende aktive Zulassung in Deutschland.
+Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzstufe L5). Es gibt weder klinische Studien noch Publikationen zu dieser Erkrankung, und ein mechanistischer Zusammenhang zwischen Cladribin und dem soliden Tumor Rhabdomyosarkom ist nicht belegt.
 
-**Für ein Weiterkommen ist erforderlich:**
-- Präklinische Daten (Zelllinien, Tiermodelle) zur Aktivität von Cladribin in Rhabdomyosarkomen
-- Systematische Literaturrecherche zu Purinanaloga bei pädiatrischen Weichteilsarkomen
-- Daten zum Wirkmechanismus aus DrugBank
-- Auswertung der Fachinformation (Warnhinweise, Kontraindikationen) für die Sicherheitsbewertung
-- Klärung des Zulassungs- und Versorgungsstatus in Deutschland, da beide Zulassungen erloschen sind
+**Für ein Weiterkommen sind erforderlich:**
+- Präklinische Daten (z. B. In-vitro-Aktivität in Rhabdomyosarkom-Zelllinien)
+- Detaillierte Wirkmechanismusdaten (MOA)
+- Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
+- Prüfung, ob das hohe Myelosuppressionsrisiko in dieser Population vertretbar ist
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -4,7 +4,7 @@ title: Propranolol
 parent: Nur Modellvorhersage (L5)
 nav_order: 373
 evidence_level: L5
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Propranolol: vorhergesagte neue Indikation Distale Myopathie, Typ Tateyama (Evidenzstufe L5). Ursprüngliche Indikation: Hämangiom"
 monitor_inn: "Propranolol"
@@ -14,7 +14,7 @@ predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy w
 # Propranolol
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-## Propranolol: Von Hämangiom zu distaler Myopathie, Typ Tateyama
+## Propranolol: Von Hämangiom zu Distale Myopathie, Typ Tateyama
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -50,10 +50,10 @@ Für andere Vorhersagen mit besserer Datenlage (z. B. zirrhotische Kardiomyopath
 |------|------|
 | Ursprüngliche Indikation | Hämangiom |
 | Vorhergesagte neue Indikation | Distale Myopathie, Typ Tateyama |
-| TxGNN-Vorhersagewert | 99,40 % |
+| TxGNN-Vorhersagewert | 0,9940 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -66,8 +66,8 @@ Ein nachvollziehbarer mechanistischer Zusammenhang zwischen der Betablockade und
 
 Zum Vergleich: Für die weiter hinten gelisteten Vorhersagen liegt etwas mehr Material vor.
 
-- **Zirrhotische Kardiomyopathie** (Score 99,12 %, Evidenzgrad L4): Propranolol wird bei Leberzirrhose zur Prophylaxe von Varizenblutungen eingesetzt. Eine Arbeit von 2024 berichtet, dass es verlängerte QT-Intervalle bei Zirrhose korrigieren kann. Arbeiten von 2020 und 2022 beschreiben jedoch abgeschwächte kardiovaskuläre Wirkungen und mögliche Beeinträchtigungen der Kreislauf- und Nierenfunktion bei fortgeschrittener Erkrankung. Nutzen und Risiko hängen also vom Krankheitsstadium ab.
-- **Kardiomyopathie** (Score 99,12 %, Evidenzgrad L4): Betablockade senkt Herzfrequenz, Sauerstoffbedarf des Herzmuskels und sympathische Aktivität. Ältere, kleine hämodynamische Studien (1980–1983) bei hypertropher Kardiomyopathie stützen dies, ein Nutzen ist aber vermutlich subtypabhängig.
+- **Zirrhotische Kardiomyopathie** (Score 0,9912, Evidenzgrad L4): Propranolol wird bei Leberzirrhose zur Prophylaxe von Varizenblutungen eingesetzt. Eine Arbeit von 2024 berichtet, dass es verlängerte QT-Intervalle bei Zirrhose korrigieren kann. Arbeiten von 2020 und 2022 beschreiben jedoch abgeschwächte kardiovaskuläre Wirkungen und mögliche Beeinträchtigungen der Kreislauf- und Nierenfunktion bei fortgeschrittener Erkrankung. Nutzen und Risiko hängen also vom Krankheitsstadium ab.
+- **Kardiomyopathie** (Score 0,9912, Evidenzgrad L4): Betablockade senkt Herzfrequenz, Sauerstoffbedarf des Herzmuskels und sympathische Aktivität. Ältere, kleine hämodynamische Studien (1980–1983) bei hypertropher Kardiomyopathie stützen dies, ein Nutzen ist aber vermutlich subtypabhängig.
 
 ---
 
@@ -89,7 +89,7 @@ Für die Hauptvorhersage (distale Myopathie, Typ Tateyama) ist derzeit keine zug
 |---------|------|------|-----------|
 | EMEA/H/C/002621 | Hemangiol | – | Hämangiom |
 
-Diese Zulassung ist aufgehoben; es besteht derzeit keine gültige Zulassung.
+Für dieses Arzneimittel besteht in diesem Land 1 gültige Zulassung (von insgesamt 1); es ist im Handel.
 
 ---
 

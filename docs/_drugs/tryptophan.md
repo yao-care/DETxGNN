@@ -48,10 +48,10 @@ Tryptophan (Handelsname Maapliv) wurde ursprünglich für die Behandlung der Aho
 |------|------|
 | Ursprüngliche Indikation | Ahornsirupkrankheit (Maple Syrup Urine Disease) |
 | Vorhergesagte neue Indikation | Restless-Legs-Syndrom |
-| TxGNN-Vorhersagewert | 99,72 % |
+| TxGNN-Vorhersagewert | 0,9972 |
 | Evidenzgrad | L3 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---

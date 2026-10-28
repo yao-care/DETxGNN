@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Perampanel
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 354
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Perampanel: vorhergesagte neue Indikation Visuelle Epilepsie (Evidenzstufe L4). Ursprüngliche Indikation: Partielle Epilepsien (Epilepsies, Partial)"
+description: "Perampanel: vorhergesagte neue Indikation Beta-Ketothiolase-Mangel (Evidenzstufe L4). Ursprüngliche Indikation: Partielle Epilepsien (Epilepsies, Partial)"
 monitor_inn: "PERAMPANEL"
 predicted_indications: ["beta-ketothiolase deficiency"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["beta-ketothiolase deficiency"]
 # Perampanel
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Perampanel: Von fokalen Anfällen zu visueller Epilepsie
+## Perampanel: Von fokalen Anfällen zu Beta-Ketothiolase-Mangel
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -50,10 +50,10 @@ Für diese Indikation liegen **keine klinischen Studien** und nur **allgemeine E
 |------|------|
 | Ursprüngliche Indikation | Partielle Epilepsien (Epilepsies, Partial) |
 | Vorhergesagte neue Indikation | Visuelle Epilepsie |
-| TxGNN-Vorhersagewert | 99,92 % |
-| Evidenzgrad | L4 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung (Cancelled only) |
-| Anzahl der Zulassungen | 1 |
+| TxGNN-Vorhersagewert | 0,9979 |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -99,7 +99,7 @@ Die folgenden Arbeiten betreffen Perampanel bei Epilepsie allgemein, nicht visue
 |---------|------|------|-----------|
 | EMEA/H/C/002434 | Fycompa | – | Epilepsies, Partial |
 
-Die einzige erfasste Zulassung (Eisai GmbH) hat den Status „erloschen/widerrufen"; derzeit ist keine gültige Zulassung gelistet.
+Die einzige erfasste Zulassung (Eisai GmbH) ist gültig; das Arzneimittel ist in Deutschland im Handel.
 
 ---
 
@@ -117,7 +117,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Für visuelle Epilepsie gibt es weder klinische Studien noch spezifische Literatur; die Vorhersage stützt sich auf den hohen Modellwert und einen plausiblen Mechanismus (Evidenzgrad L4). Zudem besteht in Deutschland derzeit keine gültige Zulassung.
+Für Beta-Ketothiolase-Mangel gibt es weder klinische Studien noch spezifische Literatur; die Vorhersage stützt sich auf den hohen Modellwert und einen plausiblen Mechanismus (Evidenzgrad L4). In Deutschland besteht derzeit eine gültige Zulassung.
 
 **Für ein Fortschreiten sind folgende Schritte nötig:**
 - Indikationsspezifische Daten (präklinische Photosensitivitätsmodelle, Fallserien, kontrollierte Studien bei photosensitiver Epilepsie)
@@ -129,19 +129,11 @@ Für visuelle Epilepsie gibt es weder klinische Studien noch spezifische Literat
 
 ## Weitere vorhergesagte Indikationen (Kurzüberblick)
 
-Die folgende Tabelle ordnet weitere Vorhersagen ein. Der Status epilepticus ist die einzige Indikation mit klinisch relevanterer Evidenz.
+Die folgende Tabelle ordnet weitere Vorhersagen ein.
 
 | Rang | Indikation | TxGNN-Wert | Evidenzgrad | Empfehlung |
 |---|---|---|---|---|
-| 2 | Startle-Epilepsie | 99,86 % | L5 | Hold |
-| 3 | Denkinduzierte Anfälle | 99,86 % | L4 | Hold |
-| 4 | Orgasmus-induzierte Anfälle | 99,86 % | L5 | Hold |
-| 5 | Essinduzierte Anfälle | 99,86 % | L4 | Hold |
-| 6 | Miktionsinduzierte Anfälle | 99,86 % | L4 | Hold |
-| 7 | Audiogene Anfälle | 99,86 % | L4 (nur Tiermodelle) | Hold |
-| 8 | Leseanfälle | 99,83 % | L4 | Hold |
-| 9 | Beta-Ketothiolase-Mangel | 99,79 % | L5 | Hold |
-| 10 | Status epilepticus | 99,77 % | L3 | Forschungsfrage |
+| 9 | Beta-Ketothiolase-Mangel | 0,9979 | L5 | Hold |
 
 **Status epilepticus:** Vier Studien sind registriert (NCT05756621: retrospektive Kohorte mit 84 Patienten, abgeschlossen; NCT04309721 und NCT05684978: beendet vorzeitig mit je 1 Teilnehmer, ohne verwertbare Daten; NCT06401707: Phase 2 zur Prophylaxe nach Herzstillstand, 52 Patienten, rekrutierend). Systematische Reviews und Fallserien berichten über ein Sistieren von Anfällen bei refraktärem Status epilepticus, beruhen aber auf retrospektiven, unkontrollierten Daten. Prospektive kontrollierte Evidenz fehlt.
 ## Haftungsausschluss

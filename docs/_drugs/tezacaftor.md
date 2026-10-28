@@ -6,9 +6,9 @@ nav_order: 459
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Tezacaftor: vorhergesagte neue Indikation HIV-Infektionskrankheit (Evidenzstufe L5). Ursprüngliche Indikation: Cystische Fibrose"
 monitor_inn: "TEZACAFTOR"
 predicted_indications: ["HIV infectious disease", "leprosy", "multiple endocrine neoplasia"]
+description: "Tezacaftor: vorhergesagte neue Indikation HIV-Infektionskrankheit (HIV infectious disease) (Evidenzstufe L5). Ursprüngliche Indikation: Cystic Fibrosis"
 ---
 
 # Tezacaftor
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-## Tezacaftor: Von Cystischer Fibrose zu HIV-Infektionskrankheit
+## Tezacaftor: HIV-Infektionskrankheit (HIV infectious disease)
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -46,19 +46,19 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Cystische Fibrose |
-| Vorhergesagte neue Indikation | HIV-Infektionskrankheit |
-| TxGNN-Vorhersagewert | 99,24 % |
+| Ursprüngliche Indikation | Cystic Fibrosis |
+| Vorhergesagte neue Indikation | HIV-Infektionskrankheit (HIV infectious disease) |
+| TxGNN-Vorhersagewert | 0.9924 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 3 (alle aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
 
 Die für diesen Bericht zusammengestellten Daten enthalten keine detaillierte Beschreibung des Wirkmechanismus. Bekannt ist, dass Tezacaftor an CFTR (Cystic Fibrosis Transmembrane Conductance Regulator) bindet und als Korrektor die Faltung und den Transport des Proteins verbessert. Es ist Bestandteil von Kombinationstherapien (Symdeko, Trikafta/Kaftrio, Alyftrek), deren Wirksamkeit bei Cystischer Fibrose belegt ist.
 
-Ein mechanistischer Zusammenhang zwischen CFTR-Korrektur und HIV-Infektion ist durch die vorliegenden Daten **nicht belegt**. Denkbar wäre allenfalls ein Einfluss auf den Proteintransport in Wirtszellen, doch das ist rein spekulativ und nicht überprüft. Der hohe Modellwert (0,992) ist eine rechnerische Vorhersage ohne Bestätigung durch Studien oder Literatur.
+Ein mechanistischer Zusammenhang zwischen CFTR-Korrektur und HIV-Infektion ist durch die vorliegenden Daten **nicht belegt**. Denkbar wäre allenfalls ein Einfluss auf den Proteintransport in Wirtszellen, doch das ist rein spekulativ und nicht überprüft. Der hohe Modellwert (0,9924) ist eine rechnerische Vorhersage ohne Bestätigung durch Studien oder Literatur.
 
 Zwei weitere Vorhersagen des Modells liegen auf ähnlichem Niveau, ebenfalls ohne Evidenz: **Lepra** (99,14 %) und **multiple endokrine Neoplasie** (99,06 %). Auch hier ist kein mechanistischer Bezug zur CFTR-Korrektur belegt.
 
@@ -91,7 +91,7 @@ Weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) sind in den Daten
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage für HIV beruht allein auf einem Modellwert (L5), ohne Studien, Literatur oder belegten Wirkmechanismus. Zudem sind in Deutschland derzeit keine gültigen Zulassungen vorhanden.
+Die Vorhersage für HIV beruht allein auf einem Modellwert (L5), ohne Studien, Literatur oder belegten Wirkmechanismus.
 
 **Um fortzufahren, wird Folgendes benötigt:**
 - Plausible mechanistische Hypothese für CFTR-Korrektur bei HIV, gestützt durch präklinische Daten (In-vitro-Studien)

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Sofosbuvir
-parent: Nur Modellvorhersage (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 433
-evidence_level: L5
+evidence_level: L2
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Sofosbuvir: vorhergesagte neue Indikation Hepatitis-B-Virusinfektion (Evidenzstufe L5). Ursprüngliche Indikation: Hepatitis C, chronisch"
@@ -14,7 +14,7 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 # Sofosbuvir
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8** 
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Sofosbuvir ist ein nukleotidischer Hemmstoff der HCV-NS5B-Polymerase und wird zu
 |------|------|
 | Ursprüngliche Indikation | Hepatitis C, chronisch |
 | Vorhergesagte neue Indikation | Hepatitis-B-Virusinfektion |
-| TxGNN-Vorhersagewert | 99,77 % |
+| TxGNN-Vorhersagewert | 0,9977 |
 | Evidenzstufe | L2 (einzelne abgeschlossene Phase-2/3-Studie, jedoch mit HCV-Endpunkt bzw. in der Koinfektion) |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 4 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 4 von 4) |
+| Anzahl der Zulassungen | 4 (gültig: 4) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -109,7 +109,7 @@ Ein Signal stammt aus einer Phase-2-Pilotstudie mit Ledipasvir/Sofosbuvir bei HB
 | EMEA/H/C/004210 | Epclusa | – | Hepatitis C, chronisch |
 | EMEA/H/C/004350 | Vosevi | – | Hepatitis C, chronisch |
 
-Alle vier Zulassungen sind erloschen bzw. widerrufen.
+Alle 4 Zulassungen sind gültig; das Arzneimittel ist in Deutschland im Handel.
 
 ---
 
@@ -130,7 +130,7 @@ Für Warnhinweise und Gegenanzeigen siehe die Fachinformation.
 **Entscheidung: Hold**
 
 **Begründung:**
-Der mechanistische Zusammenhang mit HBV ist schwach, und die klinischen Daten stammen überwiegend aus HCV/HBV-Koinfektionen, in denen HBV-Reaktivierung ein Sicherheitsproblem und kein Wirksamkeitssignal ist. Die einzige direkt relevante Studie (HBV-Monoinfektion) ist klein und einarmig. Zudem besteht in Deutschland derzeit keine gültige Zulassung.
+Der mechanistische Zusammenhang mit HBV ist schwach, und die klinischen Daten stammen überwiegend aus HCV/HBV-Koinfektionen, in denen HBV-Reaktivierung ein Sicherheitsproblem und kein Wirksamkeitssignal ist. Die einzige direkt relevante Studie (HBV-Monoinfektion) ist klein und einarmig. In Deutschland ist das Arzneimittel im Handel, alle 4 Zulassungen sind gültig.
 
 **Für ein Weiterkommen sind folgende Punkte erforderlich:**
 - Kontrollierte Studien bei HBV-Monoinfektion mit klar definierten Endpunkten (HBsAg, HBV-DNA)

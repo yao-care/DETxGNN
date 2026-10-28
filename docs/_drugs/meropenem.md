@@ -4,7 +4,7 @@ title: Meropenem
 parent: Mittlere Evidenz (L3-L4)
 nav_order: 292
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Meropenem: vorhergesagte neue Indikation Bakterielle Arthritis (Evidenzstufe L4). Ursprüngliche Indikation: Harnwegsinfektionen, Bakteriämie, bakterielle Infektionen…"
 monitor_inn: "Meropenem"
@@ -14,7 +14,7 @@ predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus a
 # Meropenem
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Meropenem: Von bakteriellen Infektionen zu bakterieller Arthritis
+## Meropenem: Bakterielle Arthritis
 {: .text-alpha }
 
 ## Zusammenfassung
 
 Meropenem ist ein Breitspektrum-Carbapenem-Antibiotikum, das ursprünglich zur Behandlung von Harnwegsinfektionen, Bakteriämie, bakteriellen Infektionen, Atemwegsinfektionen, Pneumonie und beatmungsassoziierter Pneumonie zugelassen wurde.
 Das TxGNN-Modell sagt voraus, dass es bei **bakterieller Arthritis** wirksam sein könnte, allerdings gibt es dafür **keine registrierten klinischen Studien** und nur **Fallberichte, Übersichtsarbeiten und Labordaten**.
-Die am besten belegte Vorhersage unter den zehn Kandidaten ist die der **Harnwegsinfektion** (9 Studien, 20 Publikationen), die jedoch der bereits zugelassenen Indikation entspricht und daher keine echte Neuverwendung darstellt.
 
 ---
 
@@ -50,10 +49,10 @@ Die am besten belegte Vorhersage unter den zehn Kandidaten ist die der **Harnweg
 |------|------|
 | Ursprüngliche Indikation | Harnwegsinfektionen, Bakteriämie, bakterielle Infektionen, Atemwegsinfektionen, Pneumonie, beatmungsassoziierte Pneumonie |
 | Vorhergesagte neue Indikation | Bakterielle Arthritis |
-| TxGNN-Vorhersagewert | 99,92 % |
+| TxGNN-Vorhersagewert | 0,9992 |
 | Evidenzlevel | L4 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -72,7 +71,7 @@ Die vorhandene Literatur besteht überwiegend aus Fallberichten (z. B. septische
 
 Zur vorhergesagten Indikation bakterielle Arthritis sind derzeit keine relevanten klinischen Studien registriert.
 
-Zur Einordnung: Für die Harnwegsinfektion (Rang 6), die der ursprünglichen Zulassung entspricht, liegen folgende Studien vor. Meropenem dient dort überwiegend als Vergleichssubstanz:
+Zur Einordnung: Für die Harnwegsinfektion, die der ursprünglichen Zulassung entspricht, liegen folgende Studien vor. Meropenem dient dort überwiegend als Vergleichssubstanz:
 
 | Studiennummer | Phase | Status | Teilnehmer | Kernaussagen |
 |---------|------|------|------|---------|
@@ -106,7 +105,7 @@ Für bakterielle Arthritis (Rang 1):
 | [36678359](https://pubmed.ncbi.nlm.nih.gov/36678359/) | 2022 | Übersichtsarbeit | Pathogens | Melioidose: Antibiotika vs. Phagentherapie |
 | [11869242](https://pubmed.ncbi.nlm.nih.gov/11869242/) | 1997 | Übersichtsarbeit | Clin Microbiol Infect | Therapie der Sepsis |
 
-Zur Harnwegsinfektion (Rang 6) liegen zusätzlich randomisierte Studien vor, etwa [TANGO I (PMID 29486041)](https://pubmed.ncbi.nlm.nih.gov/29486041/) zu Meropenem-Vaborbactam vs. Piperacillin-Tazobactam (JAMA 2018) sowie eine Netzwerk-Metaanalyse zu komplizierten Harnwegsinfektionen ([PMID 39817442](https://pubmed.ncbi.nlm.nih.gov/39817442/), 2025).
+Zur Harnwegsinfektion liegen zusätzlich randomisierte Studien vor, etwa [TANGO I (PMID 29486041)](https://pubmed.ncbi.nlm.nih.gov/29486041/) zu Meropenem-Vaborbactam vs. Piperacillin-Tazobactam (JAMA 2018) sowie eine Netzwerk-Metaanalyse zu komplizierten Harnwegsinfektionen ([PMID 39817442](https://pubmed.ncbi.nlm.nih.gov/39817442/), 2025).
 
 ---
 
@@ -116,7 +115,7 @@ Zur Harnwegsinfektion (Rang 6) liegen zusätzlich randomisierte Studien vor, etw
 |---------|------|------|-----------|
 | EMEA/H/C/004669 | Vaborem | – | Harnwegsinfektionen, Bakteriämie, bakterielle Infektionen, Atemwegsinfektionen, Pneumonie, beatmungsassoziierte Pneumonie |
 
-Diese Zulassung ist erloschen. Aktuell gibt es keine gültige Zulassung in den zusammengestellten Daten.
+Diese Zulassung ist gültig. Aktuell ist 1 von 1 Zulassung in den zusammengestellten Daten gültig, das Arzneimittel ist auf dem Markt.
 
 ---
 

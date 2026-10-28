@@ -5,10 +5,10 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 36
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Aprepitant: vorhergesagte neue Indikation Nephrogenes Syndrom der inadäquaten Antidiurese (NSIAD) (Evidenzstufe L5). Ursprüngliche Indikation: Erbrechen"
 monitor_inn: "APREPITANT"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "hypertrichosis (disease)", "pulmonary hypertension", "leprosy", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "kyphoscoliotic heart disease", "syndrome with a Dandy-Walker malformation as major feature", "subarachnoid hemorrhage (disease)", "isolated genetic hair shaft abnormality"]
+last_modified_at: 2026-10-27
+description: "Aprepitant: vorhergesagte neue Indikation Nephrogenes Syndrom der inadäquaten Antidiurese (nephrogenic syndrome of inappropriate antidiuresis) (Evidenzstufe L5). Ursprüngliche Indikation: Vomiting"
 ---
 
 # Aprepitant
@@ -33,98 +33,68 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Aprepitant: Von Erbrechen und Übelkeit zum nephrogenen Syndrom der inadäquaten Antidiurese (NSIAD)
+## Aprepitant: NK1-Rezeptor-Antagonist → nephrogenes Syndrom der inadäquaten Antidiurese (nephrogenic syndrome of inappropriate antidiuresis)
 {: .text-alpha }
 
 ## Zusammenfassung
 
-Aprepitant wurde ursprünglich zur Behandlung von Erbrechen, postoperativer Übelkeit und Erbrechen sowie in Verbindung mit Krebserkrankungen (Chemotherapie-induzierte Übelkeit) eingesetzt. Das TxGNN-Modell sagt voraus, dass es bei dem **nephrogenen Syndrom der inadäquaten Antidiurese (NSIAD)** wirksam sein könnte. Für diese Vorhersage liegen jedoch **keine klinischen Studien und keine Publikationen** vor; sie beruht ausschließlich auf der Modellvorhersage.
+Aprepitant ist ein Antagonist des Neurokinin-1-Rezeptors (NK1). Das TxGNN-Modell sagt voraus, dass es bei **nephrogenem Syndrom der inadäquaten Antidiurese (nephrogenic syndrome of inappropriate antidiuresis)** wirksam sein könnte. Für diese Vorhersage liegen derzeit **keine klinischen Studien und keine Publikationen** vor; sie beruht ausschließlich auf der Modellberechnung.
 
----
-
-## Schnellübersicht
+## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Erbrechen; postoperative Übelkeit und Erbrechen; Krebs |
-| Vorhergesagte neue Indikation | Nephrogenes Syndrom der inadäquaten Antidiurese (NSIAD) |
-| TxGNN-Vorhersagewert | 99,97 % |
-| Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur gelöschte/erloschene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Ursprüngliche Indikation | Vomiting;Postoperative Nausea and Vomiting;Cancer |
+| Vorhergesagte neue Indikation | Nephrogenes Syndrom der inadäquaten Antidiurese (nephrogenic syndrome of inappropriate antidiuresis) |
+| TxGNN-Vorhersagewert | 0,9997 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
-
----
 
 ## Warum ist diese Vorhersage plausibel?
 
-Aktuell liegen keine detaillierten Daten zum Wirkmechanismus vor. Bekannt ist, dass Aprepitant ein Neurokinin-1-(NK1)-Rezeptorantagonist ist und seine Wirksamkeit bei Erbrechen und Übelkeit belegt ist.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Aprepitant den NK1-Rezeptor blockiert, an den Substanz P bindet.
 
-Die mechanistische Verbindung zum NSIAD ist **spekulativ**. Denkbar wäre ein Zusammenhang über die Substanz-P-Signalübertragung und die zentrale Regulation von Vasopressin. NSIAD wird jedoch durch aktivierende Mutationen des Vasopressin-V2-Rezeptors (AVPR2) verursacht, und genau dieser Mechanismus wird durch eine NK1-Blockade nicht direkt beeinflusst. Die Vorhersage sollte daher als reine Modellvorhersage betrachtet werden.
+Eine Verbindung zum Wasserhaushalt über die Substanz-P-Signalwege und die zentrale Regulation von Vasopressin ist denkbar, aber spekulativ. Das nephrogene Syndrom der inadäquaten Antidiurese wird durch aktivierende Mutationen des Vasopressin-V2-Rezeptors (AVPR2) verursacht. Dieser Mechanismus wird durch eine NK1-Blockade nicht direkt adressiert. Die Vorhersage ist daher als reine Modellvorhersage zu betrachten.
 
-Auch die weiteren vom Modell vorhergesagten Indikationen (u. a. Hypertrichose, pulmonale Hypertonie, Lepra, subarachnoidale Blutung) haben ähnlich hohe Werte (jeweils über 99,8 %), jedoch ebenfalls keine belastbare Evidenz. Bei der pulmonalen Hypertonie und der subarachnoidalen Blutung gibt es lediglich schwache, präklinische Hinweise auf eine Beteiligung der Substanz-P/NK1-Signalübertragung.
-
----
-
-## Klinische Studien
+## Evidenz aus klinischen Studien
 
 Derzeit sind keine zugehörigen klinischen Studien registriert.
 
----
+## Evidenz aus der Literatur
 
-## Literaturevidenz
-
-Derzeit ist keine zugehörige Literatur verfügbar.
-
----
+Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum deutschen Markt
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000527 | Emend | – | Erbrechen; postoperative Übelkeit und Erbrechen; Krebs |
-
-Diese Zulassung (Merck Sharp & Dohme B.V.) ist erloschen bzw. gelöscht; es existiert keine gültige Zulassung.
-
----
+| EMEA/H/C/000527 | Emend | – | Siehe Programmangabe |
 
 ## Zytotoxizität
 
-| Punkt | Inhalt |
-|------|------|
-| Zytotoxizitätsklassifikation | Kein Zytostatikum; Supportivtherapie (Antiemetikum, NK1-Rezeptorantagonist) |
-| Myelosuppressionsrisiko | Nicht zutreffend; bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
-| Emetogenitätsklassifikation | Nicht zutreffend (Aprepitant wirkt antiemetisch) |
-| Überwachungsparameter | Leberfunktion (siehe Hinweis zu Leberversagen unten) |
-| Handhabungsschutz | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
-
----
+Aprepitant ist ein Antiemetikum und kein antineoplastisches Arzneimittel; dieser Abschnitt entfällt daher inhaltlich.
 
 ## Sicherheitsaspekte
 
-- **Kontraindikationen (aus Wissensgraph, nicht aus der Fachinformation):** Im TxGNN-Wissensgraphen (PrimeKG) ist **Leberversagen** als Kontraindikation hinterlegt.
-- **Arzneimittelwechselwirkungen:** Die Abfrage ergab insgesamt 100 Wechselwirkungen. Beispiele aus den vorliegenden Daten:
-  - **Schwerwiegend (Major):** Fentanyl, Alfentanil, Acalabrutinib
-  - **Moderat:** u. a. Paclitaxel, Abemaciclib, Nifedipin, Ibuprofen, Levonorgestrel, Hydrocortison, Lidocain, Dihydrocodein, Rabeprazol, Albendazol, Fluvoxamin, Fosamprenavir, Fosphenytoin, Fostamatinib, Gefitinib, Abametapir (topisch)
-  - **Gering (Minor):** Dolutegravir
+- **Wechselwirkungen:** In der Abfrage wurden 100 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** eingestuft sind u. a. Fentanyl, Alfentanil und Acalabrutinib. Als **moderat** eingestuft sind u. a. Paclitaxel, Abemaciclib, Nifedipin, Ibuprofen, Levonorgestrel, Hydrocortison, Fluvoxamin, Fosphenytoin, Gefitinib und Rabeprazol. Als **gering (Minor)** eingestuft ist Dolutegravir.
+- **Kontraindikationen im Zusammenhang mit Erkrankungen:** Für Leberversagen ist eine Kontraindikationsbeziehung vermerkt; diese stammt nicht aus dem Packungsbeilagentext.
 
-Für weitere Sicherheitsinformationen (Warnhinweise, Kontraindikationen laut Label) bitte die Fachinformation heranziehen.
-
----
+Weitere Sicherheitsinformationen entnehmen Sie bitte der Packungsbeilage.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Der hohe TxGNN-Wert (99,97 %) wird weder durch klinische Studien noch durch Literatur gestützt, und der Zusammenhang zwischen NK1-Antagonismus und der AVPR2-vermittelten Pathologie des NSIAD ist mechanistisch nicht überzeugend. Zudem besteht in Deutschland keine gültige Zulassung.
+Der Vorhersagewert ist sehr hoch (0,9997), es gibt jedoch weder klinische Studien noch Publikationen zu dieser Erkrankung. Der Wirkmechanismus der NK1-Blockade passt zudem nicht zur Ursache der Erkrankung (aktivierende AVPR2-Mutationen). Die Evidenzstufe ist L5.
 
-**Für ein Weiterkommen sind folgende Schritte erforderlich:**
-- Daten zum Wirkmechanismus (MOA) ergänzen (z. B. über die DrugBank-API)
-- Warnhinweise und Kontraindikationen aus der Fachinformation der Zulassungsbehörde beschaffen und auswerten (sicherheitsrelevante Voraussetzung)
-- Präklinische Studien (Zellmodelle oder Tiermodelle mit AVPR2-Aktivierung) zur Prüfung der biologischen Plausibilität
-- Systematische Literaturrecherche zu NK1-Antagonisten und Wasserhaushalt/Vasopressin-Regulation
-- Prüfung des Zulassungsstatus und der Verfügbarkeit in Deutschland, da die einzige Zulassung erloschen ist
+**Für ein Weiterkommen ist Folgendes erforderlich:**
+- Detaillierte Daten zum Wirkmechanismus (MOA)
+- Auswertung der Warnhinweise und Kontraindikationen aus der Packungsbeilage (BfArM)
+- Präklinische Daten, die einen Zusammenhang zwischen NK1-Antagonismus und der Wasserrückresorption in der Niere belegen
+- Prüfung der Anwendbarkeit der Darreichungswege für die neue Indikation
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

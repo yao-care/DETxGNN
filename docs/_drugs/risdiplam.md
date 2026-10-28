@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Spinale Muskelatrophie |
 | Vorhergesagte neue Indikation | Akne |
-| TxGNN-Vorhersagewert | 99,45 % |
+| TxGNN-Vorhersagewert | 0,9945 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 Risdiplam ist ein Spleißmodulator der prä-mRNA von SMN2 und für die spinale Muskelatrophie zugelassen. Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten derzeit nicht vor. Ein mechanistischer Zusammenhang zwischen der SMN2-Spleißmodulation und der Pathophysiologie der Akne (Talgproduktion, Besiedlung mit *C. acnes*, follikuläre Hyperkeratose, Entzündung) lässt sich daher aus den vorhandenen Daten nicht herleiten.
 
-Der hohe Vorhersagewert könnte auf Nähe im Wissensgraphen zurückgehen und nicht auf einen biologisch begründeten Zusammenhang. Eine Hypothese müsste unabhängig geprüft werden, etwa ob die Spleißmodulation die Biologie von Talgdrüsenzellen oder Keratinozyten beeinflusst. Zudem sind unter Risdiplam dermatologische Nebenwirkungen beschrieben, was eher zur Vorsicht mahnt als einen Nutzen nahelegt.
+Der hohe Vorhersagewert stammt vom TxGNN-Modell (Deep Learning) und könnte auf Ähnlichkeiten zurückgehen, die das Modell zwischen verwandten Erkrankungen gelernt hat, und nicht auf einen biologisch begründeten Zusammenhang. Eine Hypothese müsste unabhängig geprüft werden, etwa ob die Spleißmodulation die Biologie von Talgdrüsenzellen oder Keratinozyten beeinflusst. Zudem sind unter Risdiplam dermatologische Nebenwirkungen beschrieben, was eher zur Vorsicht mahnt als einen Nutzen nahelegt.
 
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Trabectedin
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 476
-evidence_level: L2
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Trabectedin: vorhergesagte neue Indikation Weibliches Mammakarzinom (Evidenzstufe L2). Ursprüngliche Indikation: Sarkom"
@@ -14,7 +14,7 @@ predicted_indications: ["female breast carcinoma"]
 # Trabectedin
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **1** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-## Trabectedin: Von Sarkom und Ovarialkarzinom zu weiblichem Mammakarzinom
+## Trabectedin: Mammakarzinom der Frau
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -49,10 +49,10 @@ Das TxGNN-Modell sagt voraus, dass es bei **weiblichem Mammakarzinom** wirksam s
 |------|------|
 | Ursprüngliche Indikation | Sarkom; Ovarialkarzinom |
 | Vorhergesagte neue Indikation | Weibliches Mammakarzinom |
-| TxGNN-Vorhersagewert | 99,73 % |
-| Evidenzgrad | L2 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen (kein aktiver Marktstatus) |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| TxGNN-Vorhersagewert | 0,9973 |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -96,8 +96,8 @@ Präklinisch gibt es Hinweise auf Synergie mit IL-12 beim triple-negativen Mamma
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/006433 | Trabectedin Accord | – | Sarkom; Ovarialkarzinom (erloschen) |
-| EMEA/H/C/000773 | Yondelis | – | Ovarialkarzinom; Sarkom (erloschen) |
+| EMEA/H/C/006433 | Trabectedin Accord | – | Sarkom; Ovarialkarzinom (gültig) |
+| EMEA/H/C/000773 | Yondelis | – | Ovarialkarzinom; Sarkom (gültig) |
 
 ---
 

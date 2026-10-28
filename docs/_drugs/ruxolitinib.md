@@ -6,9 +6,9 @@ nav_order: 416
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ruxolitinib: vorhergesagte neue Indikation Uterines perivaskuläres Epitheloidzelltumor (PEComa des Uterus) (Evidenzstufe L5). Ursprüngliche Indikation: Vitiligo"
 monitor_inn: "Ruxolitinib"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection"]
+description: "Ruxolitinib: vorhergesagte neue Indikation Uterine corpus perivascular epithelioid cell tumor (Evidenzstufe L5). Ursprüngliche Indikation: Vitiligo"
 ---
 
 # Ruxolitinib
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Ruxolitinib: Von Vitiligo zu perivaskulärem Epitheloidzelltumor des Uterus (PEComa)
+## Ruxolitinib: Uterine corpus perivascular epithelioid cell tumor
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,12 +48,12 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Vitiligo |
-| Vorhergesagte neue Indikation | Uterines perivaskuläres Epitheloidzelltumor (PEComa des Uterus) |
-| TxGNN-Vorhersagewert | 99,73 % |
+| Ursprüngliche Indikation | Vitiligo; Myeloproliferative Disorders;Polycythemia Vera;Graft vs Host Disease |
+| Vorhergesagte neue Indikation | Uterine corpus perivascular epithelioid cell tumor |
+| TxGNN-Vorhersagewert | 0.9973 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -85,7 +85,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 | EMEA/H/C/005843 | Opzelura (Incyte Biosciences Distribution B.V.) | – | Vitiligo |
 | EMEA/H/C/002464 | Jakavi (Novartis Europharm Limited) | – | Myeloproliferative Erkrankungen; Polycythaemia vera; Graft-versus-Host-Krankheit |
 
-Beide Zulassungen sind erloschen bzw. zurückgezogen. Derzeit besteht keine gültige Zulassung in Deutschland.
+Beide Zulassungen sind gültig. Das Arzneimittel ist in Deutschland im Handel.
 
 ---
 
@@ -100,7 +100,7 @@ Sicherheitsinformationen sind der Fachinformation zu entnehmen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf dem Modellwert (Evidenzlevel L5). Es gibt weder Studien noch Publikationen, und der mTOR-getriebene Charakter des PEComa spricht nicht für eine JAK-Hemmung. Hinzu kommt, dass derzeit keine gültige Zulassung in Deutschland besteht.
+Die Vorhersage beruht ausschließlich auf dem Modellwert (Evidenzlevel L5). Es gibt weder Studien noch Publikationen, und der mTOR-getriebene Charakter des PEComa spricht nicht für eine JAK-Hemmung. Das Arzneimittel ist in Deutschland im Handel (2 von 2 Zulassungen gültig).
 
 **Für ein Weiterverfolgen ist Folgendes nötig:**
 - Eine mechanistische Begründung für JAK/STAT-Hemmung beim PEComa, etwa durch präklinische Daten

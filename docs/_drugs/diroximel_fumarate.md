@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Multiple Sklerose, schubförmig remittierend |
 | Vorhergesagte neue Indikation | Diabetische Katarakt |
-| TxGNN-Vorhersagewert | 99,999 % |
+| TxGNN-Vorhersagewert | 1,0000 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -66,7 +66,7 @@ Bei diabetischer Katarakt tragen oxidativer Stress und Schäden durch den Polyol
 
 Zu beachten ist, dass ein oral verabreichtes MS-Medikament die Linse möglicherweise nicht in ausreichender Konzentration erreicht. Die Frage ist ungeklärt, und die Verträglichkeit der Routen wurde bisher nicht geprüft.
 
-Weitere vorhergesagte Indikationen sind diabetische Retinopathie, schwere nichtproliferative diabetische Retinopathie sowie mehrere Katarakt-Unterformen (nukleare senile, kortikale, kraniostenotische, tetanische, reife und unreife Katarakt sowie Katarakt bei Typ-2-Diabetes). Fast alle Werte liegen bei etwa 99,999 %. Die identischen Werte über viele Katarakt-Subtypen deuten eher auf eine klassenbezogene Modellvorhersage als auf ein indikationsspezifisches Signal hin. Bei seltenen oder metabolisch bedingten Formen wie der tetanischen oder kraniostenotischen Katarakt ist kein plausibler Mechanismus erkennbar.
+Weitere vorhergesagte Indikationen sind diabetische Retinopathie, schwere nichtproliferative diabetische Retinopathie sowie mehrere Katarakt-Unterformen (nukleare senile, kortikale, kraniostenotische, tetanische, reife und unreife Katarakt sowie Katarakt bei Typ-2-Diabetes). Fast alle Werte liegen bei etwa 1,0000. Die identischen Werte über viele Katarakt-Subtypen deuten eher auf eine klassenbezogene Modellvorhersage als auf ein indikationsspezifisches Signal hin. Bei seltenen oder metabolisch bedingten Formen wie der tetanischen oder kraniostenotischen Katarakt ist kein plausibler Mechanismus erkennbar.
 
 ---
 
@@ -88,7 +88,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/005437 | Vumerity | – | Multiple Sklerose, schubförmig remittierend |
 
-Die Zulassung ist erloschen. Aktuell ist keine gültige Zulassung in Deutschland vorhanden.
+Das Arzneimittel ist in Deutschland im Verkehr. 1 von 1 Zulassung ist gültig.
 
 ---
 

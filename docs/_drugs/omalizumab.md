@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Omalizumab
-parent: Hohe Evidenz (L1-L2)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 328
-evidence_level: L1
+evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Omalizumab: vorhergesagte neue Indikation Bronchitis (Evidenzstufe L1). Ursprüngliche Indikation: Asthma"
@@ -14,7 +14,7 @@ predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease
 # Omalizumab
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Omalizumab ist ein monoklonaler Anti-IgE-Antikörper, der ursprünglich zur Beha
 |------|------|
 | Ursprüngliche Indikation | Asthma; Urtikaria (Xolair zusätzlich: Rhinitis) |
 | Vorhergesagte neue Indikation | Bronchitis |
-| TxGNN-Vorhersagewert | 99,999 % |
+| TxGNN-Vorhersagewert | 1,0000 |
 | Evidenzstufe | L3 (laut Datenlage für Bronchitis jedoch faktisch nur indirekte Evidenz) |
-| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassungen (Cancelled only) |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 Hinweis: Für die weitere Priorisierung bieten die für diesen Bericht zusammengestellten Daten weitaus stärkere Kandidaten als Bronchitis (siehe Abschnitt „Weitere vorhergesagte Indikationen“).
@@ -62,7 +62,7 @@ Hinweis: Für die weitere Priorisierung bieten die für diesen Bericht zusammeng
 
 Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben aus der Arzneistoffdatenbank vor. Aus der Pharmakologie ist bekannt: Omalizumab bindet freies IgE (Zielstruktur: Immunglobulin-Schwerkette Epsilon, IGHE) und verringert dadurch die FcεRI-vermittelte Aktivierung von Mastzellen und Basophilen. Dies ist bei allergischer Atemwegsentzündung relevant.
 
-Die verknüpfte Evidenz betrifft überwiegend Asthma (einschließlich Asthma-COPD-Überlappung), nicht Bronchitis als eigenständige Erkrankung. Ein Nutzen wäre allenfalls bei allergischen oder eosinophilen Phänotypen mit IgE-Komponente zu erwarten, etwa bei eosinophiler Bronchitis. Der sehr hohe TxGNN-Wert spiegelt wahrscheinlich die Nähe von Bronchitis zu Asthma im Wissensgraphen wider und keine direkte Bronchitis-Evidenz.
+Die verknüpfte Evidenz betrifft überwiegend Asthma (einschließlich Asthma-COPD-Überlappung), nicht Bronchitis als eigenständige Erkrankung. Ein Nutzen wäre allenfalls bei allergischen oder eosinophilen Phänotypen mit IgE-Komponente zu erwarten, etwa bei eosinophiler Bronchitis. Der sehr hohe Wert des TxGNN-Modells (Deep Learning) spiegelt möglicherweise Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat, und ist kein biologischer Beleg für eine direkte Wirkung bei Bronchitis.
 
 ---
 
@@ -93,8 +93,8 @@ Die verknüpfte Evidenz betrifft überwiegend Asthma (einschließlich Asthma-COP
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/005958 | Omlyclo | – | Asthma; Urtikaria (erloschen) |
-| EMEA/H/C/000606 | Xolair | – | Asthma; Urtikaria; Rhinitis (erloschen) |
+| EMEA/H/C/005958 | Omlyclo | – | Asthma; Urtikaria (gültig) |
+| EMEA/H/C/000606 | Xolair | – | Asthma; Urtikaria; Rhinitis (gültig) |
 
 Beide Zulassungen sind laut den vorliegenden Daten erloschen.
 
@@ -112,7 +112,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 | Indikation | Evidenzstufe | Empfehlung | Anmerkung |
 |------|------|------|------|
-| Obstruktive Lungenerkrankung | L1 | Proceed with Guardrails | Stützt sich auf Asthma-Studien (bereits zugelassen); bei COPD nur eine laufende Phase-2-Studie ([NCT07059091](https://clinicaltrials.gov/study/NCT07059091)) |
+| Obstruktive Lungenerkrankung | L5 | Proceed with Guardrails | Stützt sich auf Asthma-Studien (bereits zugelassen); bei COPD nur eine laufende Phase-2-Studie ([NCT07059091](https://clinicaltrials.gov/study/NCT07059091)) |
 | Atopisches Ekzem / Dermatitis | L2 | Research Question | Phase-4-Studie bei Kindern ([NCT02300701](https://clinicaltrials.gov/study/NCT02300701)); uneinheitliche Ergebnisse, Leitlinien reihen Omalizumab hinter IL-4/IL-13- und JAK-Hemmer; beide Einträge teilen weitgehend dieselbe Evidenz |
 | Bronchialneoplasma, Akne keloid u. a. | L5 | Hold | Keine plausible Mechanistik oder Evidenz |
 
@@ -123,7 +123,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Für Bronchitis gibt es keine direkte Evidenz: Die beiden zugeordneten Studien sind klein bzw. nicht bronchitisspezifisch, die Literatur betrifft vor allem Asthma. Der hohe TxGNN-Wert ist wahrscheinlich ein Graph-Artefakt. Zudem sind beide deutschen Zulassungen erloschen.
+Für Bronchitis gibt es keine direkte Evidenz: Die beiden zugeordneten Studien sind klein bzw. nicht bronchitisspezifisch, die Literatur betrifft vor allem Asthma. Der hohe Wert des TxGNN-Modells (Deep Learning) spiegelt möglicherweise Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat, und ist kein biologischer Beleg. Beide deutschen Zulassungen sind gültig, das Arzneimittel ist im Handel.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Kontrollierte Studien bei eosinophiler/allergischer Bronchitis mit definierten IgE-Phänotypen

@@ -8,6 +8,7 @@ nav_order: 67
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Blinatumomab
@@ -51,8 +52,8 @@ Dieser Bericht dokumentiert den aktuellen Datenstatus und beschreibt die Schritt
 | Prognostizierte neue Indikation | Keine vom TxGNN zurückgegeben |
 | TxGNN-Vorhersage-Score | Nicht verfügbar |
 | Evidenzebene | L5 — Nur Modellvorhersage (keine Vorhersagen generiert) |
-| Marktstatus in Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | **Aussetzen** |
 
 ---

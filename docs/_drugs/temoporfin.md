@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Temoporfin: Von Kopf-Hals-Tumoren zu nasopharyngealem Teratom
+## Temoporfin: Nasopharyngeales Teratom
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Kopf-Hals-Tumoren; Plattenepithelkarzinom |
 | Vorhergesagte neue Indikation | Nasopharyngeales Teratom |
-| TxGNN-Vorhersagewert | 99,78 % |
+| TxGNN-Vorhersagewert | 0,9978 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -91,7 +91,7 @@ Für andere vorhergesagte Indikationen liegt indirekte Evidenz vor:
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000318 | Foscan | nicht angegeben | Kopf-Hals-Tumoren; Plattenepithelkarzinom (Status: erloschen) |
+| EMEA/H/C/000318 | Foscan | nicht angegeben | Kopf-Hals-Tumoren; Plattenepithelkarzinom (Status: gültig) |
 
 ---
 
@@ -113,15 +113,15 @@ Aus den Begründungen zu einzelnen Vorhersagen ergeben sich folgende allgemeine 
 
 | Rang | Indikation | TxGNN-Wert | Evidenzstufe | Empfehlung |
 |----|-----------|-----------|------|------|
-| 2 | Odontogene Zyste | 99,77 % | L5 | Hold |
-| 3 | Prämaligne Neoplasie | 99,77 % | L5 | Hold |
-| 4 | Neoplasie der Epiglottis | 99,76 % | L5 | Hold |
-| 5 | Tumor von Hoden und Paratestis | 99,76 % | L5 | Hold |
-| 6 | Zystische Neoplasie | 99,76 % | L4 | Forschungsfrage |
-| 7 | Gutartige Neoplasie des Mundbodens | 99,76 % | L5 | Hold |
-| 8 | Gutartige Neoplasie der Zunge | 99,76 % | L4 | Forschungsfrage |
-| 9 | Gutartige Neoplasie des Hypopharynx | 99,76 % | L5 | Hold |
-| 10 | Zervikales Neuroblastom | 99,76 % | L5 | Hold |
+| 2 | Odontogene Zyste | 0,9977 | L5 | Hold |
+| 3 | Prämaligne Neoplasie | 0,9977 | L5 | Hold |
+| 4 | Neoplasie der Epiglottis | 0,9976 | L5 | Hold |
+| 5 | Tumor von Hoden und Paratestis | 0,9976 | L5 | Hold |
+| 6 | Zystische Neoplasie | 0,9976 | L5 | Forschungsfrage |
+| 7 | Gutartige Neoplasie des Mundbodens | 0,9976 | L5 | Hold |
+| 8 | Gutartige Neoplasie der Zunge | 0,9976 | L5 | Forschungsfrage |
+| 9 | Gutartige Neoplasie des Hypopharynx | 0,9976 | L5 | Hold |
+| 10 | Zervikales Neuroblastom | 0,9976 | L5 | Hold |
 
 ---
 

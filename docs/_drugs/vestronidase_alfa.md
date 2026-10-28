@@ -6,9 +6,9 @@ nav_order: 497
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
-description: "Vestronidase Alfa: vorhergesagte neue Indikation Scheie-Syndrom (Evidenzstufe L5). Ursprüngliche Indikation: Mukopolysaccharidose VII"
 monitor_inn: "VESTRONIDASE ALFA"
 predicted_indications: ["Scheie syndrome", "lysosomal storage disease with skeletal involvement", "Hurler syndrome", "Sanfilippo syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "ptosis-vocal cord paralysis syndrome", "ptosis-strabismus-ectopic pupils syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome", "congenital Horner syndrome (disease)"]
+description: "Vestronidase Alfa: vorhergesagte neue Indikation Scheie-Syndrom (Scheie syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: Mucopolysaccharidosis VII"
 ---
 
 # Vestronidase Alfa
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-## Vestronidase alfa: Von Mukopolysaccharidose VII zum Scheie-Syndrom
+## Vestronidase Alfa: Scheie-Syndrom (Scheie syndrome)
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -47,12 +47,12 @@ Das TxGNN-Modell sagt eine mögliche Wirksamkeit beim **Scheie-Syndrom** voraus,
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Mukopolysaccharidose VII |
-| Vorhergesagte neue Indikation | Scheie-Syndrom |
-| TxGNN-Vorhersagewert | 99,90 % |
+| Ursprüngliche Indikation | Mucopolysaccharidosis VII |
+| Vorhergesagte neue Indikation | Scheie-Syndrom (Scheie syndrome) |
+| TxGNN-Vorhersagewert | 0.9990 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung (widerrufen/zurückgegeben) |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -103,7 +103,6 @@ Zur Einordnung die Publikationen zum Wirkstoff (abgerufen unter Sanfilippo-Syndr
 |---------|------|------|-----------|
 | EMEA/H/C/004438 | Mepsevii | – | Mukopolysaccharidose VII |
 
-Diese einzige Zulassung (Ultragenyx Germany GmbH) ist erloschen; derzeit ist kein gültiges Produkt am Markt.
 
 ---
 

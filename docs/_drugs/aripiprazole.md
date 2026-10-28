@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Aripiprazole
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 37
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Aripiprazole: vorhergesagte neue Indikation Major Affective Disorder (schwere affektive Störung) (Evidenzstufe L1). Ursprüngliche Indikation: Schizophrenie"
 monitor_inn: "ARIPIPRAZOLE"
-predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
 ---
 
 # Aripiprazole
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Diese Richtung stützen derzeit **36 klinische Studien** und **19 Publikationen*
 |------|------|
 | Ursprüngliche Indikation | Schizophrenie |
 | Vorhergesagte neue Indikation | Major Affective Disorder (schwere affektive Störung) |
-| TxGNN-Vorhersagewert | 99,62 % |
-| Evidenzstufe | L1 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen |
-| Anzahl der Zulassungen | 6 (alle erloschen) |
+| TxGNN-Vorhersagewert | 0,9962 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 6 von 6) |
+| Anzahl der Zulassungen | 6 (gültig: 6) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortführung mit Schutzmaßnahmen) |
 
 ---
@@ -108,11 +108,11 @@ Hinweis: Eine in den Daten enthaltene Metaanalyse zu Aripiprazol bzw. Bupropion 
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
 |---------|------|------|-----------|------|
-| EMEA/H/C/002755 | Abilify Maintena | – | Schizophrenie | Erloschen |
-| EMEA/H/C/000471 | Abilify | – | Schizophrenie; bipolare Störung | Erloschen |
-| EMEA/H/C/004008 | Aripiprazole Sandoz | – | Schizophrenie; bipolare Störung | Erloschen |
-| EMEA/H/C/003803 | Aripiprazole Mylan Pharma | – | Schizophrenie; bipolare Störung | Erloschen |
-| EMEA/H/C/003899 | Aripiprazole Zentiva | – | Schizophrenie; bipolare Störung | Erloschen |
+| EMEA/H/C/002755 | Abilify Maintena | – | Schizophrenie | Gültig |
+| EMEA/H/C/000471 | Abilify | – | Schizophrenie; bipolare Störung | Gültig |
+| EMEA/H/C/004008 | Aripiprazole Sandoz | – | Schizophrenie; bipolare Störung | Gültig |
+| EMEA/H/C/003803 | Aripiprazole Mylan Pharma | – | Schizophrenie; bipolare Störung | Gültig |
+| EMEA/H/C/003899 | Aripiprazole Zentiva | – | Schizophrenie; bipolare Störung | Gültig |
 
 Eine sechste Zulassung (Aripiprazole Accord, EMEA/H/C/004021) ist ebenfalls erloschen.
 
@@ -131,7 +131,7 @@ Für Warnhinweise und Kontraindikationen aus den Fachinformationen liegen keine 
 
 ## Weitere vorhergesagte Indikationen (Kurzüberblick)
 
-Unter den übrigen Vorhersagen hat nur **Trichotillomanie** (Rang 7, Score 99,26 %) Evidenz: zwei Studien (eine offene Studie mit 12 Teilnehmern, eine geplante Phase-2-Studie), mehrere Fallberichte und eine offene Studie (PMID 21694623). Aripiprazol wurde allerdings auch als Auslöser impulsiv-zwanghafter Verhaltensweisen einschließlich Trichotillomanie berichtet, die Nutzen-Risiko-Richtung ist unklar (Evidenzstufe L3, Einstufung: Forschungsfrage). Für die Ränge 2–6 und 8–10 liegen weder Studien noch Literatur vor (L5, Hold).
+Unter den übrigen Vorhersagen hat nur **Trichotillomanie** (Rang 7, Score 0,9926) Evidenz: zwei Studien (eine offene Studie mit 12 Teilnehmern, eine geplante Phase-2-Studie), mehrere Fallberichte und eine offene Studie (PMID 21694623). Aripiprazol wurde allerdings auch als Auslöser impulsiv-zwanghafter Verhaltensweisen einschließlich Trichotillomanie berichtet, die Nutzen-Risiko-Richtung ist unklar (Evidenzstufe L3, Einstufung: Forschungsfrage). Für die Ränge 2–6 und 8–10 liegen weder Studien noch Literatur vor (L5, Hold).
 
 ---
 
@@ -140,7 +140,7 @@ Unter den übrigen Vorhersagen hat nur **Trichotillomanie** (Rang 7, Score 99,26
 **Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Mehrere große, abgeschlossene, placebokontrollierte Phase-3-Studien (u. a. NCT00095823, NCT00095758, NCT01421342) sowie aktuelle Netzwerk-Metaanalysen stützen die Zusatztherapie bei Major Depression. Da es sich um eine Erweiterung innerhalb des affektiven Spektrums handelt, ist die Evidenz ausreichend. Allerdings sind alle deutschen Zulassungen erloschen, und Sicherheitsdaten aus den Fachinformationen fehlen.
+Mehrere große, abgeschlossene, placebokontrollierte Phase-3-Studien (u. a. NCT00095823, NCT00095758, NCT01421342) sowie aktuelle Netzwerk-Metaanalysen stützen die Zusatztherapie bei Major Depression. Da es sich um eine Erweiterung innerhalb des affektiven Spektrums handelt, ist die Evidenz ausreichend. In Deutschland ist das Arzneimittel im Handel, alle 6 Zulassungen sind gültig; Sicherheitsdaten aus den Fachinformationen fehlen jedoch.
 
 **Für das weitere Vorgehen erforderlich:**
 - Fachinformation (Warnhinweise, Kontraindikationen) von BfArM/EMA beschaffen und auswerten

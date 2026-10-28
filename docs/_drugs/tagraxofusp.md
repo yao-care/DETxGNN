@@ -48,10 +48,10 @@ Tagraxofusp ist ein gegen CD123 gerichtetes Fusionsprotein (Interleukin-3 gekopp
 |------|------|
 | Ursprüngliche Indikation | Lymphom |
 | Vorhergesagte neue Indikation | Esotropie |
-| TxGNN-Vorhersagewert | 99,73 % |
+| TxGNN-Vorhersagewert | 0,9973 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -84,7 +84,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/005031 | Elzonris | – | Lymphom |
 
-Hinweis: Diese Zulassung ist als erloschen geführt; derzeit gibt es keine gültige Zulassung.
+Hinweis: Dieses Arzneimittel ist in Deutschland im Handel; die 1 vorhandene Zulassung ist gültig (1 von 1).
 
 ---
 
@@ -118,7 +118,7 @@ Weitere Sicherheitsinformationen entnehmen Sie bitte der Packungsbeilage; Warnhi
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage für Esotropie beruht ausschließlich auf dem Graphmodell (Evidenzgrad L5) ohne Studien oder Publikationen und ohne plausiblen mechanistischen Zusammenhang. Hinzu kommen das ernste Sicherheitsprofil des Toxins und der Umstand, dass in Deutschland keine gültige Zulassung besteht.
+Die Vorhersage für Esotropie stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz (Evidenzgrad L5); es liegen keine Studien oder Publikationen und kein plausibler mechanistischer Zusammenhang vor. Hinzu kommt das ernste Sicherheitsprofil des Toxins. In Deutschland besteht eine gültige Zulassung (1 von 1).
 
 **Für ein Weiterverfolgen sind erforderlich:**
 - Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation (derzeit blockierende Datenlücke für das Sicherheits-Screening)

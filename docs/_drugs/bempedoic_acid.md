@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Bempedoic Acid
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 56
-evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Bempedoic Acid: vorhergesagte neue Indikation Homozygote familiäre Hypercholesterinämie (Rang 6 von 10 (Evidenzstufe L3). Ursprüngliche Indikation: Hypercholesterinämie"
+evidence_level: L5
+indication_count: 9
 monitor_inn: "BEMPEDOIC ACID"
 predicted_indications: ["hyperthyroidism", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "malignant catarrh", "infectious bovine rhinotracheitis", "cytomegalovirus infection", "hyperthyroxinemia", "drug-induced osteoporosis", "multiple endocrine neoplasia", "pregnancy associated osteoporosis"]
+last_modified_at: 2026-10-27
+description: "Bempedoic Acid: vorhergesagte neue Indikation Hyperthyreose (hyperthyroidism) (Evidenzstufe L5). Ursprüngliche Indikation: Hypercholesterolemia"
 ---
 
 # Bempedoic Acid
 {: .fs-9 }
 
-Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,103 +33,69 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Bempedoinsäure: Von Hypercholesterinämie zu homozygoter familiärer Hypercholesterinämie
+## Bempedoinsäure: ATP-Citrat-Lyase-Hemmer → Hyperthyreose (hyperthyroidism)
 {: .text-alpha }
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Bempedoinsäure wurde ursprünglich zur Behandlung von Hypercholesterinämie und Dyslipidämien entwickelt.
-Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei **homozygoter familiärer Hypercholesterinämie (HoFH)** wirksam sein könnte; diese Indikation wurde ausgewählt, weil nur sie durch Literatur gestützt ist (Rang 6 der Modellvorhersagen).
-Die Evidenzlage ist begrenzt: Es liegen **keine registrierten klinischen Studien**, aber **18 Publikationen** vor, darunter eine Real-World-Kohortenstudie, Übersichtsarbeiten und ein Expertenkonsens.
+Bempedoinsäure ist ein Hemmer der ATP-Citrat-Lyase (ACL) in der Leber und wird zur Cholesterinsenkung eingesetzt. Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei **Hyperthyreose (hyperthyroidism)** wirksam sein könnte. Für diese Richtung liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
----
-
-## Kurzübersicht
+## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Hypercholesterinämie; Dyslipidämien |
-| Vorhergesagte neue Indikation | Homozygote familiäre Hypercholesterinämie (Rang 6 von 10; die höher platzierten Vorhersagen sind ohne jede Evidenz) |
-| TxGNN-Vorhersagewert | 99,48 % |
-| Evidenzlevel | L3 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
-| Empfohlene Entscheidung | Hold (als Forschungsfrage weiterverfolgen) |
-
-Hinweis: Die Vorhersage mit dem höchsten Rang (Hyperthyreose, 99,61 %) hat weder Studien noch Literatur und keine erkennbare mechanistische Verbindung (Evidenzlevel L5). Daher wird hier die am besten belegte Vorhersage ausführlich bewertet.
-
----
+| Ursprüngliche Indikation | Hypercholesterolemia;Dyslipidemias |
+| Vorhergesagte neue Indikation | Hyperthyreose (hyperthyroidism) |
+| TxGNN-Vorhersagewert | 0,9961 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
+| Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu den Daten, die für diesen Bericht zusammengestellt wurden, liegen keine detaillierten Angaben zum Wirkmechanismus vor. Nach dem bekannten Stand hemmt Bempedoinsäure die ATP-Citrat-Lyase (ACL) in der Leber. Diese wirkt oberhalb der HMG-CoA-Reduktase; die Hemmung senkt die hepatische Cholesterinsynthese und führt zu einer vermehrten Expression von LDL-Rezeptoren.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Bempedoinsäure die ATP-Citrat-Lyase in der Leber hemmt und dadurch die Cholesterinsynthese verringert.
 
-Die HoFH ist eine seltene genetische Erkrankung mit extrem hohem LDL-Cholesterin, meist durch biallelische Varianten im LDL-Rezeptor-Gen. Die ursprüngliche Indikation (Hypercholesterinämie) und die HoFH teilen dasselbe Krankheitsprinzip, nämlich erhöhtes LDL-C. Es handelt sich daher eher um eine Erweiterung der bestehenden Indikation als um ein echtes Repurposing.
+Ein erkennbarer mechanistischer Zusammenhang mit der Hyperthyreose besteht nach der vorliegenden Bewertung nicht. Es ist nicht bekannt, dass Bempedoinsäure auf die Synthese oder Signalwirkung von Schilddrüsenhormonen einwirkt. Der hohe Vorhersagewert scheint eine rein modellbasierte Vorhersage ohne klinische oder literaturbasierte Unterstützung zu sein. Die Vorhersage sollte daher als Hypothese und nicht als Hinweis auf eine tatsächliche Wirksamkeit gelesen werden.
 
-Eine Einschränkung: Bei Patienten mit LDLR-Null-Varianten ist kaum Restaktivität des Rezeptors vorhanden, sodass der erwartbare Effekt geringer ausfallen könnte.
-
----
-
-## Evidenz aus klinischen Studien
+## Klinische Studien
 
 Derzeit sind keine zugehörigen klinischen Studien registriert.
 
----
+## Literaturevidenz
 
-## Evidenz aus der Literatur
+Derzeit liegt keine zugehörige Literatur vor.
 
-Die folgende Auswahl ist nach Studientyp und Relevanz priorisiert (Kohorte > Konsens > Übersichtsarbeiten). Die Studientypen stammen aus der Klassifikation der Datenbasis; ein RCT liegt nicht vor.
+## Informationen zum Markt in Deutschland
 
-| PMID | Jahr | Typ | Journal | Kernaussagen |
-|------|-----|------|------|---------|
-| [41274797](https://pubmed.ncbi.nlm.nih.gov/41274797/) | 2026 | Kohorte (Real-World) | Journal of Clinical Lipidology | Bewertung von Wirksamkeit und Verträglichkeit von Bempedoinsäure bei HoFH-Patienten |
-| [41741298](https://pubmed.ncbi.nlm.nih.gov/41741298/) | 2026 | Expertenkonsens | Journal of Clinical Lipidology | Aktualisierte Leitlinie der National Lipid Association zur familiären Hypercholesterinämie |
-| [33766264](https://pubmed.ncbi.nlm.nih.gov/33766264/) | 2021 | Review | J Am Coll Cardiol | Neue LDL-C-senkende Therapien, u. a. Inclisiran und Bempedoinsäure |
-| [42761917](https://pubmed.ncbi.nlm.nih.gov/42761917/) | 2026 | Review | Methodist DeBakey Cardiovasc J | Überblick über familiäre Hypercholesterinämie, Genetik und Prävalenz (ca. 1:311 heterozygot) |
-| [38576462](https://pubmed.ncbi.nlm.nih.gov/38576462/) | 2024 | Review | Am J Prev Cardiol | Bedeutung einer langfristigen LDL-C-Senkung zur Prävention atherosklerotischer Erkrankungen |
-| [35466160](https://pubmed.ncbi.nlm.nih.gov/35466160/) | 2022 | Review | J Atheroscler Thromb | Fortschritte in der Behandlung der HoFH |
-| [41106315](https://pubmed.ncbi.nlm.nih.gov/41106315/) | 2025 | Review | Exp Mol Pathol | Innovative Therapien zur Behandlung der HoFH |
-| [37071085](https://pubmed.ncbi.nlm.nih.gov/37071085/) | 2024 | Review | Cardiology in Review | Evinacumab bei HoFH; Bempedoinsäure als weitere Option erwähnt |
-| [37979722](https://pubmed.ncbi.nlm.nih.gov/37979722/) | 2024 | Review | Indian Heart Journal | Traditionelle und neue Nicht-Statin-Lipidsenker |
-| [34081216](https://pubmed.ncbi.nlm.nih.gov/34081216/) | 2021 | Review | Curr Cardiol Rep | Neuerungen bei familiären und refraktären Hypercholesterinämien jenseits von Statinen und PCSK9-Hemmern |
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004958 | Nilemdo | – | – |
+| EMEA/H/C/004959 | Nustendi | – | – |
 
----
+## Sicherheitshinweise
 
-## Marktinformationen Deutschland
+**Arzneimittelwechselwirkungen:** Für 23 Wechselwirkungen liegen Einträge vor, von denen 20 in den zusammengestellten Daten einzeln aufgeführt sind. Als **schwerwiegend (Major)** eingestuft sind insbesondere:
+- Kortikosteroide: Hydrocortison, Triamcinolon, Dexamethason, Betamethason, Budesonid, Prednisolon, Prednison, Methylprednisolon, Deflazacort, Fludrocortison
+- Simvastatin
+- Levofloxacin
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
-|---------|------|------|-----------|------|
-| EMEA/H/C/004958 | Nilemdo | – | Hypercholesterinämie; Dyslipidämien | Erloschen |
-| EMEA/H/C/004959 | Nustendi | – | Hypercholesterinämie; Dyslipidämien | Erloschen |
+Als **moderat (Moderate)** eingestuft sind u. a. Empagliflozin, Glyburid, Repaglinid, Rifaximin, Rosuvastatin, Selexipag, Fexofenadin und Revefenacin.
 
-Beide Zulassungen (Inhaber: Daiichi Sankyo Europe GmbH) sind als erloschen geführt; derzeit ist keine gültige Zulassung verzeichnet.
-
----
-
-## Sicherheitsaspekte
-
-- **Arzneimittelinteraktionen:** Insgesamt wurden 23 Wechselwirkungen erfasst, von denen 20 im Detail vorliegen.
-  - **Schwerwiegend (Major):** Kortikosteroide (Hydrocortison, Triamcinolon, Dexamethason, Betamethason, Budesonid, Prednisolon, Prednison, Methylprednisolon, Deflazacort, Fludrocortison), außerdem Levofloxacin und Simvastatin.
-  - **Moderat (Moderate):** Empagliflozin, Glyburid, Repaglinid, Rifaximin, Rosuvastatin, Selexipag, Fexofenacin (Fexofenadin), Revefenacin.
-- **Hinweis zu Schwangerschaft:** Bempedoinsäure wird in der Schwangerschaft nicht empfohlen.
-
-Warnhinweise und Gegenanzeigen aus der Fachinformation liegen nicht vor; bitte die Fachinformation heranziehen.
-
----
+Weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) entnehmen Sie bitte der Packungsbeilage.
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Hold (als Forschungsfrage weiterverfolgen)**
+**Entscheidung: Hold**
 
 **Begründung:**
-Für die HoFH existieren nur Beobachtungs- und Übersichtsdaten (Evidenzlevel L3) und keine registrierten Studien. Zudem besteht derzeit keine gültige Zulassung in Deutschland. Die übrigen neun Vorhersagen (u. a. Schilddrüsen-, Virus- und Veterinärerkrankungen) haben keine Evidenz und keine plausible Mechanismusverbindung und gelten als Artefakte des Wissensgraphen.
+Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzstufe L5). Es gibt weder klinische Studien noch Publikationen zur Hyperthyreose und keinen erkennbaren mechanistischen Zusammenhang mit der ACL-Hemmung.
 
 **Für ein Weiterkommen sind erforderlich:**
-- Fachinformation (Warnhinweise, Gegenanzeigen) zur Sicherheitsprüfung
-- Detaillierte Daten zum Wirkmechanismus
-- Auswertung der Real-World-Studie (PMID 41274797) zu Effektgröße und Verträglichkeit, insbesondere nach LDLR-Variantentyp (Null- vs. defekte Varianten)
-- Klärung des Zulassungsstatus und der Verfügbarkeit in Deutschland
-- Kontrollierte klinische Studien bei HoFH
+- Detaillierte Daten zum Wirkmechanismus (MOA)
+- Präklinische Hinweise darauf, ob eine ACL-Hemmung die Schilddrüsenfunktion oder Schilddrüsenhormone beeinflusst
+- Auswertung der Packungsbeilage (Warnhinweise und Gegenanzeigen) vom BfArM
+- Prüfung der Wechselwirkungen, insbesondere mit Kortikosteroiden und Simvastatin, falls eine Anwendung in einer neuen Population in Betracht gezogen wird
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

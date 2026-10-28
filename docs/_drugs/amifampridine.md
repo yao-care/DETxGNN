@@ -50,10 +50,10 @@ Für diese Vorhersage liegen derzeit **keine klinischen Studien** und **keine Pu
 |------|------|
 | Ursprüngliche Indikation | Lambert-Eaton-Myasthenie-Syndrom |
 | Vorhergesagte neue Indikation | Glaukom |
-| TxGNN-Vorhersagewert | 99,71 % |
+| TxGNN-Vorhersagewert | 0,9971 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detaillierte Daten zum Wirkmechanismus sind in den für diesen Bericht zusammeng
 
 Ein möglicher Zusammenhang mit dem Glaukom wäre eine Neuroprotektion retinaler Ganglienzellen oder eine Modulation der neuronalen Erregbarkeit. Dieser Zusammenhang ist jedoch **nicht belegt**. Eine Kaliumkanalblockade könnte zudem die Augenphysiologie in nicht vorhersagbarer Weise beeinflussen. Der hohe TxGNN-Wert ist eine rein rechnerische Vorhersage und wird durch keine klinischen oder Literaturdaten gestützt.
 
-**Zweiter Kandidat: akute intermittierende Porphyrie (TxGNN-Wert 99,32 %, Evidenzstufe L5, Hold).** Hier käme allenfalls ein symptomatischer Nutzen bei neuromuskulärer Schwäche in Betracht, der den zugrunde liegenden Enzymdefekt nicht adressiert. Das Krampfanfallsrisiko von Amifampridin ist besonders kritisch, da Krampfanfälle bei dieser Erkrankung eine bekannte Komplikation sind. Zudem muss die Exposition gegenüber porphyrinogenen Arzneimitteln vermieden werden, was angesichts der Zahl von 68 Wechselwirkungen relevant ist. Auch hierfür gibt es keine Studien oder Publikationen.
+**Zweiter Kandidat: akute intermittierende Porphyrie (TxGNN-Wert 0,9932, Evidenzstufe L5, Hold).** Hier käme allenfalls ein symptomatischer Nutzen bei neuromuskulärer Schwäche in Betracht, der den zugrunde liegenden Enzymdefekt nicht adressiert. Das Krampfanfallsrisiko von Amifampridin ist besonders kritisch, da Krampfanfälle bei dieser Erkrankung eine bekannte Komplikation sind. Zudem muss die Exposition gegenüber porphyrinogenen Arzneimitteln vermieden werden, was angesichts der Zahl von 68 Wechselwirkungen relevant ist. Auch hierfür gibt es keine Studien oder Publikationen.
 
 ---
 
@@ -87,7 +87,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 | EMEA/H/C/005839 (erloschen) | Amifampridine SERB | – | Lambert-Eaton-Myasthenie-Syndrom, paraneoplastische Syndrome des Nervensystems, Neoplasmen des Nervensystems, paraneop... |
 | EMEA/H/C/001032 (erloschen) | Firdapse (zuvor Zenas) | – | Lambert-Eaton-Myasthenie-Syndrom |
 
-Beide Zulassungen (Inhaber: SERB SA) sind als erloschen geführt; derzeit besteht keine gültige Zulassung.
+Beide Zulassungen (Inhaber: SERB SA) sind gültig; das Arzneimittel ist derzeit im Handel.
 
 ---
 
@@ -107,7 +107,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Für beide vorhergesagten Indikationen (Glaukom und akute intermittierende Porphyrie) existieren weder klinische Studien noch Publikationen; die Evidenz beschränkt sich auf die Modellvorhersage (L5). Zudem besteht in Deutschland keine gültige Zulassung, und Daten zu Warnhinweisen und Gegenanzeigen fehlen.
+Für beide vorhergesagten Indikationen (Glaukom und akute intermittierende Porphyrie) existieren weder klinische Studien noch Publikationen; die Evidenz beschränkt sich auf die Modellvorhersage (L5). Zudem sind in Deutschland 2 von 2 Zulassungen gültig und das Arzneimittel ist im Handel, während Daten zu Warnhinweisen und Gegenanzeigen fehlen.
 
 **Für ein Fortschreiten sind folgende Schritte erforderlich:**
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) als Voraussetzung für die Sicherheitsprüfung

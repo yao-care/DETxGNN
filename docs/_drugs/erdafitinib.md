@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-## Erdafitinib: Von urothelialen Neoplasien zu pulmonaler Hypertonie
+## Erdafitinib: Von urothelialen Neoplasien zu Pulmonale Hypertonie
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -50,10 +50,10 @@ Dafür liegen jedoch derzeit **keine klinischen Studien** und **keine Publikatio
 |------|------|
 | Ursprüngliche Indikation | Urologische Neoplasien |
 | Vorhergesagte neue Indikation | Pulmonale Hypertonie |
-| TxGNN-Vorhersagewert | 99,38 % |
+| TxGNN-Vorhersagewert | 0,9938 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung (nicht vermarktet) |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -70,11 +70,11 @@ Zur Vorsicht mahnt, dass Kinase-Inhibitoren Flüssigkeitsretention sowie kardiov
 
 | Rang | Vorhergesagte Erkrankung | Score | Einschätzung |
 |---|---|---|---|
-| 2 | Kyphoskoliotische Herzkrankheit | 99,27 % | Kein erkennbarer mechanistischer Zusammenhang; hoher Score vermutlich durch Netzwerknähe zur pulmonalen Hypertonie |
-| 3 | Amenorrhö | 99,26 % | Kein plausibler Ansatz; FGFR-Hemmung würde FGFR1-abhängige Störungen der Reproduktionsachse eher verschlechtern |
-| 4 | Rheumatoide Arthritis | 99,25 % | Plausibel über Aktivierung synovialer Fibroblasten und Angiogenese, aber unbewiesen |
-| 5 | Amyotrophe Lateralsklerose | 99,06 % | Kein etablierter Ansatz; mögliche Beeinträchtigung der trophischen Unterstützung |
-| 6 | Brachydaktylie-Syndaktylie-Syndrom | 99,03 % | Angeborene Fehlbildung; postnatale Therapie kaum sinnvoll, embryofetales Toxizitätsrisiko |
+| 2 | Kyphoskoliotische Herzkrankheit | 0,9927 | Kein erkennbarer mechanistischer Zusammenhang; hoher Score vermutlich durch Netzwerknähe zur pulmonalen Hypertonie |
+| 3 | Amenorrhö | 0,9926 | Kein plausibler Ansatz; FGFR-Hemmung würde FGFR1-abhängige Störungen der Reproduktionsachse eher verschlechtern |
+| 4 | Rheumatoide Arthritis | 0,9925 | Plausibel über Aktivierung synovialer Fibroblasten und Angiogenese, aber unbewiesen |
+| 5 | Amyotrophe Lateralsklerose | 0,9906 | Kein etablierter Ansatz; mögliche Beeinträchtigung der trophischen Unterstützung |
+| 6 | Brachydaktylie-Syndaktylie-Syndrom | 0,9903 | Angeborene Fehlbildung; postnatale Therapie kaum sinnvoll, embryofetales Toxizitätsrisiko |
 
 ---
 
@@ -100,7 +100,7 @@ Für die vierte Vorhersage (rheumatoide Arthritis) wurde lediglich eine indirekt
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/006050 | Balversa (Janssen-Cilag International N.V.) | – | Urologische Neoplasien (Status: erloschen) |
+| EMEA/H/C/006050 | Balversa (Janssen-Cilag International N.V.) | – | Urologische Neoplasien (Status: gültig) |
 
 ---
 

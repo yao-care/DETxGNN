@@ -50,10 +50,10 @@ Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vo
 |------|------|
 | Ursprüngliche Indikation | Übergangszellkarzinom; urologische Neoplasien |
 | Vorhergesagte neue Indikation | Lepra |
-| TxGNN-Vorhersagescore | 99,53 % |
+| TxGNN-Vorhersagescore | 0,9953 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -64,7 +64,7 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten k
 
 Ein mechanistischer Zusammenhang zwischen dieser zytotoxischen Krebstherapie und Lepra, einer bakteriellen Infektionskrankheit (Mycobacterium leprae), ist nicht erkennbar. Der hohe TxGNN-Score ist ein reines Rechenergebnis und stützt sich weder auf Studien noch auf Literatur. Ein Einsatz eines zytotoxischen Antikörper-Wirkstoff-Konjugats bei einer Infektionskrankheit erscheint wenig plausibel.
 
-Auch die übrigen vorhergesagten Indikationen (u. a. multiple endokrine Neoplasie, Zytomegalievirus-Infektion, Candidiasis, Hirninfarkt, HIV-Infektion, homozygote familiäre Hypercholesterinämie) haben keine belastbare Evidenz. Für Zytomegalievirus-Infektion und Candidiasis wurden lediglich Publikationen zu Nebenwirkungen gefunden, die keinen therapeutischen Nutzen belegen. Die Einträge „maligne Katarrh“ und „infektiöse bovine Rhinotracheitis“ sind Tierkrankheiten und vermutlich Artefakte des Wissensgraphen.
+Auch die übrigen vorhergesagten Indikationen (u. a. multiple endokrine Neoplasie, Zytomegalievirus-Infektion, Candidiasis, Hirninfarkt, HIV-Infektion, homozygote familiäre Hypercholesterinämie) haben keine belastbare Evidenz. Für Zytomegalievirus-Infektion und Candidiasis wurden lediglich Publikationen zu Nebenwirkungen gefunden, die keinen therapeutischen Nutzen belegen. Die Einträge „maligne Katarrh“ und „infektiöse bovine Rhinotracheitis“ sind Tierkrankheiten. Ihre Scores stammen aus dem TxGNN-Modell (Deep Learning) und können vom Modell gelernte Ähnlichkeiten zwischen verwandten Erkrankungen widerspiegeln, keine biologische Evidenz.
 
 ---
 

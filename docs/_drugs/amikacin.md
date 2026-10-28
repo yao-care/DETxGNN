@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Amikacin
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 30
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Amikacin: vorhergesagte neue Indikation Paratyphus (paratyphoid fever) (Evidenzstufe L4). Ursprüngliche Indikation: Atemwegsinfektionen"
@@ -14,7 +14,7 @@ predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate ep
 # Amikacin
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Die Evidenz ist jedoch schwach: Es gibt **keine klinischen Studien** und **8 Pub
 |------|------|
 | Ursprüngliche Indikation | Atemwegsinfektionen |
 | Vorhergesagte neue Indikation | Paratyphus (paratyphoid fever) |
-| TxGNN-Vorhersagewert | 99,82 % |
-| Evidenzgrad | L4 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 erloschen) |
+| TxGNN-Vorhersagewert | 0,9982 |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -115,7 +115,7 @@ Weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) sind der Fachinfo
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf ein Modell und auf indirekte Literatur ohne klinischen Wirksamkeitsnachweis. Zusätzlich sprechen die schlechte intrazelluläre Penetration, die schwache klinische Ansprechrate in einer Vergleichsstudie und die etablierten Standardtherapien gegen einen Nutzen. Zudem ist in Deutschland keine gültige Zulassung vorhanden.
+Die Vorhersage stützt sich ausschließlich auf ein Modell und auf indirekte Literatur ohne klinischen Wirksamkeitsnachweis. Zusätzlich sprechen die schlechte intrazelluläre Penetration, die schwache klinische Ansprechrate in einer Vergleichsstudie und die etablierten Standardtherapien gegen einen Nutzen. Das Arzneimittel ist in Deutschland im Handel, 1 von 1 Zulassung ist gültig.
 
 **Für ein Weiterverfolgen wären erforderlich:**
 - Daten zum Wirkmechanismus (MOA)

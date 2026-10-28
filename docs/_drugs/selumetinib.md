@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Selumetinib: Von Neurofibromatose Typ 1 zu familiärer generalisierter Lentiginose
+## Selumetinib: Familiäre generalisierte Lentiginose
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,10 +48,10 @@ Selumetinib ist ein MEK1/2-Inhibitor, der ursprünglich zur Behandlung der Neuro
 |------|------|
 | Ursprüngliche Indikation | Neurofibromatose 1 |
 | Vorhergesagte neue Indikation | Familiäre generalisierte Lentiginose |
-| TxGNN-Vorhersagewert | 99,96 % |
+| TxGNN-Vorhersagewert | 0,9996 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -107,7 +107,7 @@ Zum Rhabdoidtumor (Rang 3) gibt es außerdem die präklinische Arbeit [25638158]
 |---------|------|------|-----------|
 | EMEA/H/C/005244 | Koselugo (AstraZeneca AB) | nicht angegeben | Neurofibromatose 1 |
 
-Der Status dieser Zulassung ist „erloschen/widerrufen"; derzeit gibt es keine gültige Zulassung in den zusammengestellten Daten.
+Der Status dieser Zulassung ist „gültig"; in den zusammengestellten Daten ist 1 von 1 Zulassung gültig.
 
 ---
 
@@ -136,7 +136,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Packungsbeilage beachten.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Hauptvorhersage (familiäre generalisierte Lentiginose) beruht ausschließlich auf der Modellvorhersage (L5) ohne Studien oder Literatur. Zudem besteht in Deutschland derzeit keine gültige Zulassung. Der vielversprechendste Kandidat unter den Vorhersagen ist das periphere Nervenscheiden-Schwannom (L3, Forschungsfrage), dort stehen jedoch Ergebnisse aus: eine Studie wurde mit nur 10 Teilnehmern abgebrochen, zwei sind noch nicht gestartet.
+Die Hauptvorhersage (familiäre generalisierte Lentiginose) beruht ausschließlich auf der Modellvorhersage (L5) ohne Studien oder Literatur. Zudem ist das Arzneimittel in Deutschland im Handel, mit 1 gültigen Zulassung von 1. Der vielversprechendste Kandidat unter den Vorhersagen ist das periphere Nervenscheiden-Schwannom (L3, Forschungsfrage), dort stehen jedoch Ergebnisse aus: eine Studie wurde mit nur 10 Teilnehmern abgebrochen, zwei sind noch nicht gestartet.
 
 **Für das weitere Vorgehen sind erforderlich:**
 - Packungsbeilage von BfArM mit Warnhinweisen und Gegenanzeigen beschaffen (Voraussetzung für die Sicherheitsprüfung)

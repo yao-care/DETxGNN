@@ -50,10 +50,10 @@ Gestützt wird dies durch **4 Phase-3-/Beobachtungsstudien mit direktem Bezug zu
 |------|------|
 | Ursprüngliche Indikation | Hereditäres Angioödem |
 | Vorhergesagte neue Indikation | C1-Inhibitor-Mangel |
-| TxGNN-Vorhersagewert | 99,996 % |
+| TxGNN-Vorhersagewert | 1,0000 |
 | Evidenzlevel | L1 |
-| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassung |
-| Anzahl Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
 
 ---
@@ -103,7 +103,7 @@ Alle Phase-3-Studien sind einarmig, offen und klein. Kontrollierte Belege stamme
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004806 | Takhzyro | k. A. | Hereditäres Angioödem (Status: erloschen) |
+| EMEA/H/C/004806 | Takhzyro | k. A. | Hereditäres Angioödem (Status: gültig) |
 
 Hinweis: Die einzige erfasste Zulassung ist als erloschen geführt. Die tatsächliche Verfügbarkeit in Deutschland sollte vor einer Empfehlung geprüft werden.
 

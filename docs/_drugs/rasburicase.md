@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Rasburicase: Von Hyperurikämie zu renaler Hypourikämie
+## Rasburicase: Renale Hypourikämie
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -49,10 +49,10 @@ Das TxGNN-Modell sagt voraus, dass sie bei **renaler Hypourikämie** wirksam sei
 |------|------|
 | Ursprüngliche Indikation | Hyperurikämie |
 | Vorhergesagte neue Indikation | Renale Hypourikämie |
-| TxGNN-Vorhersagewert | 99,99 % |
+| TxGNN-Vorhersagewert | 0,9999 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -61,7 +61,7 @@ Das TxGNN-Modell sagt voraus, dass sie bei **renaler Hypourikämie** wirksam sei
 
 Für diesen Bericht liegen derzeit keine detaillierten Daten zum Wirkmechanismus aus der Datenbank vor. Bekannt ist: Rasburicase wandelt Harnsäure in Allantoin um und senkt so den Serum-Harnsäurespiegel. Ihre Wirksamkeit bei Hyperurikämie ist belegt.
 
-Die renale Hypourikämie ist jedoch gerade durch einen **zu niedrigen** Serum-Harnsäurespiegel gekennzeichnet, verursacht durch eine gestörte renale Urat-Rückresorption (z. B. Varianten in SLC22A12/URAT1 oder SLC2A9). Eine weitere Harnsäuresenkung hat keine therapeutische Begründung und könnte sogar das Risiko erhöhen. Der hohe TxGNN-Wert ist daher sehr wahrscheinlich ein Artefakt der Nähe im Wissensgraphen (Harnsäure-Stoffwechselweg) und kein Hinweis auf einen echten Nutzen.
+Die renale Hypourikämie ist jedoch gerade durch einen **zu niedrigen** Serum-Harnsäurespiegel gekennzeichnet, verursacht durch eine gestörte renale Urat-Rückresorption (z. B. Varianten in SLC22A12/URAT1 oder SLC2A9). Eine weitere Harnsäuresenkung hat keine therapeutische Begründung und könnte sogar das Risiko erhöhen. Der hohe Wert von 0.9999 stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, und ist kein biologischer Beleg für einen echten Nutzen.
 
 ### Weitere vorhergesagte Indikationen (Rang 2–10)
 
@@ -69,15 +69,15 @@ Alle weiteren Vorhersagen haben ebenfalls Evidenzgrad L5 und die Empfehlung „H
 
 | Rang | Vorhergesagte Indikation | TxGNN-Wert | Einschätzung |
 |---|---|---|---|
-| 2 | Partieller HPRT-Mangel | 99,97 % | Indirekt plausibel (akute Harnsäuresenkung), korrigiert aber nicht den Enzymdefekt. Für die Langzeitanwendung wegen Immunogenität ungeeignet; Xanthinoxidase-Hemmer sind der Standard. |
-| 3 | Hepatische Porphyrie | 99,97 % | Kein erkennbarer Mechanismus, wahrscheinlich Graph-Artefakt |
-| 4 | Primäre Pfortaderthrombose | 99,97 % | Kein Mechanismus; Behandlung erfolgt durch Antikoagulation |
-| 5 | Idiopathische kupferassoziierte Zirrhose | 99,97 % | Kupferakkumulation, unabhängig vom Purinabbau |
-| 6 | Früh beginnende familiäre nichtzirrhotische portale Hypertonie | 99,97 % | Kein plausibler Mechanismus, gemeinsames Graph-Artefakt |
-| 7 | Hepatoportale Sklerose | 99,97 % | Kein mechanistischer Bezug, gleiches Artefakt |
-| 8 | Hepatopulmonales Syndrom | 99,97 % | Urat-Oxidase spielt hier keine bekannte Rolle |
-| 9 | Renale tubuläre Azidose | 99,85 % | Nur lose Verbindung über die renale Uratverarbeitung; zusätzlich Risiken (Hämolyse bei G6PD-Mangel, Methämoglobinämie, Überempfindlichkeit) |
-| 10 | Störung des Phenylalanin-Stoffwechsels | 99,83 % | Kein Bezug zur Urat-Oxidase-Aktivität |
+| 2 | Partieller HPRT-Mangel | 0,9997 | Indirekt plausibel (akute Harnsäuresenkung), korrigiert aber nicht den Enzymdefekt. Für die Langzeitanwendung wegen Immunogenität ungeeignet; Xanthinoxidase-Hemmer sind der Standard. |
+| 3 | Hepatische Porphyrie | 0,9997 | Kein erkennbarer Mechanismus, Wert wahrscheinlich durch vom Modell gelernte Ähnlichkeiten zwischen verwandten Erkrankungen, keine biologische Evidenz |
+| 4 | Primäre Pfortaderthrombose | 0,9997 | Kein Mechanismus; Behandlung erfolgt durch Antikoagulation |
+| 5 | Idiopathische kupferassoziierte Zirrhose | 0,9997 | Kupferakkumulation, unabhängig vom Purinabbau |
+| 6 | Früh beginnende familiäre nichtzirrhotische portale Hypertonie | 0,9997 | Kein plausibler Mechanismus, Wert wahrscheinlich durch vom Modell gelernte Ähnlichkeiten zwischen verwandten Erkrankungen, keine biologische Evidenz |
+| 7 | Hepatoportale Sklerose | 0,9997 | Kein mechanistischer Bezug, gleiches Artefakt |
+| 8 | Hepatopulmonales Syndrom | 0,9997 | Urat-Oxidase spielt hier keine bekannte Rolle |
+| 9 | Renale tubuläre Azidose | 0,9985 | Nur lose Verbindung über die renale Uratverarbeitung; zusätzlich Risiken (Hämolyse bei G6PD-Mangel, Methämoglobinämie, Überempfindlichkeit) |
+| 10 | Störung des Phenylalanin-Stoffwechsels | 0,9983 | Kein Bezug zur Urat-Oxidase-Aktivität |
 
 ---
 
@@ -99,7 +99,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/000331 | Fasturtec | – | Hyperurikämie |
 
-Die einzige Zulassung (Inhaber: Sanofi Winthrop Industrie) ist erloschen bzw. aufgehoben; derzeit gibt es keine gültige Zulassung.
+Die einzige Zulassung (Inhaber: Sanofi Winthrop Industrie) ist gültig; das Arzneimittel ist in Deutschland im Handel.
 
 ---
 
@@ -120,7 +120,7 @@ Für Warnhinweise und Gegenanzeigen aus der Fachinformation siehe die Packungsbe
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf dem Modell (L5), ohne Studien oder Publikationen. Zudem spricht der Mechanismus gegen den Einsatz bei renaler Hypourikämie, da der Harnsäurespiegel dort bereits zu niedrig ist. Auch bei den übrigen neun Vorhersagen fehlen Evidenz und plausible Mechanismen. Hinzu kommt, dass in Deutschland keine gültige Zulassung besteht.
+Die Vorhersage beruht ausschließlich auf dem Modell (L5), ohne Studien oder Publikationen. Zudem spricht der Mechanismus gegen den Einsatz bei renaler Hypourikämie, da der Harnsäurespiegel dort bereits zu niedrig ist. Auch bei den übrigen neun Vorhersagen fehlen Evidenz und plausible Mechanismen. Das Arzneimittel ist in Deutschland mit einer gültigen Zulassung im Handel.
 
 **Für ein Weiterverfolgen wären erforderlich:**
 - Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) als Voraussetzung für eine Sicherheitsprüfung

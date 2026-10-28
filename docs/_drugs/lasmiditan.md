@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lasmiditan
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 260
-evidence_level: L4
-indication_count: 3
-last_modified_at: 2026-10-14
-description: "Lasmiditan: vorhergesagte neue Indikation Migräne mit Hirnstammaura (Evidenzstufe L4). Ursprüngliche Indikation: Migräne (Migraine Disorders)"
+evidence_level: L5
+indication_count: 2
 monitor_inn: "Lasmiditan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
+last_modified_at: 2026-10-27
+description: "Lasmiditan: vorhergesagte neue Indikation atrophoderma vermiculata (Evidenzstufe L5). Ursprüngliche Indikation: Migraine Disorders"
 ---
 
 # Lasmiditan
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,92 +33,63 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-## Lasmiditan: Von Migräne zu Migräne mit Hirnstammaura
+## Lasmiditan: 5-HT1F-Agonist → atrophoderma vermiculata (atrophoderma vermiculata)
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 
-Lasmiditan ist ein selektiver 5-HT1F-Rezeptoragonist, der ursprünglich zur akuten Behandlung von Migräne zugelassen wurde. Das TxGNN-Modell sagt voraus, dass er bei **Migräne mit Hirnstammaura** wirksam sein könnte. Dafür liegen **keine registrierten klinischen Studien** und **16 Publikationen** vor, von denen jedoch keine die Hirnstammaura direkt untersucht; die Evidenz stützt sich auf Studien zur allgemeinen Migräne.
+Lasmiditan ist ein Wirkstoff, der als selektiver 5-HT1F-Rezeptor-Agonist wirkt. Das TxGNN-Modell sagt voraus, dass er bei **atrophoderma vermiculata (atrophoderma vermiculata)** wirksam sein könnte. Für diese Vorhersage liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; sie beruht ausschließlich auf der Modellberechnung.
 
----
-
-## Kurzüberblick
+## Kurzübersicht
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Migräne (Migraine Disorders) |
-| Vorhergesagte neue Indikation | Migräne mit Hirnstammaura |
-| TxGNN-Vorhersagewert | 99,92 % |
-| Evidenzstufe | L4 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 aufgehoben) |
+| Ursprüngliche Indikation | Migraine Disorders |
+| Vorhergesagte neue Indikation | atrophoderma vermiculata (atrophoderma vermiculata) |
+| TxGNN-Vorhersagewert | 0,9959 |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
----
+## Warum ist diese Vorhersage nachvollziehbar?
 
-## Warum ist diese Vorhersage plausibel?
+Lasmiditan wirkt als Agonist am 5-HT1F-Rezeptor (Gen HTR1F), einem Rezeptor auf neuronalen Bahnen. Detaillierte Daten zum Wirkmechanismus liegen in den zusammengestellten Daten nicht vor.
 
-Zur Wirkungsweise liegen in den für diesen Bericht zusammengestellten Daten keine ausführlichen Angaben vor. Bekannt ist, dass Lasmiditan ein selektiver, zentral wirksamer 5-HT1F-Rezeptoragonist (Gen: HTR1F) ist. Im Gegensatz zu Triptanen wirkt er nicht gefäßverengend und greift an trigeminalen Bahnen an.
+Für die vorhergesagte Erkrankung konnte kein plausibler mechanistischer Zusammenhang identifiziert werden. Atrophoderma vermiculata ist eine seltene follikuläre atrophische Hauterkrankung, während Lasmiditan auf neuronale Signalwege zielt. Der hohe Vorhersagewert (0,9959) ist ein reines Rechenergebnis und kann auf Strukturartefakte im Modellnetzwerk zurückgehen statt auf eine biologische Begründung. Die Vorhersage sollte daher mit großer Zurückhaltung betrachtet werden.
 
-Migräne mit Hirnstammaura ist ein Subtyp der Migräne und damit krankheitssystematisch eng mit der zugelassenen Indikation verwandt. Der hohe TxGNN-Wert spiegelt vermutlich diese enge Verwandtschaft in der Krankheitsontologie wider. Die zulassungsrelevanten Phase-3-Studien (SAMURAI, SPARTAN, MONARCH) schlossen allgemeine Migränepopulationen ein, nicht gezielt Patienten mit Hirnstammaura. Die Evidenz für diesen Subtyp ist daher indirekt.
+## Klinische Studien
 
-Eine Vorsicht ergibt sich aus der Sicherheit: Lasmiditan verursacht Schwindel und Sedierung. Die Symptome der Hirnstammaura (Schwindel, Dysarthrie, Ataxie, Bewusstseinsstörungen) überschneiden sich damit, was Verträglichkeit und Symptombeurteilung erschweren könnte.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
----
+## Literatur
 
-## Klinische Studienevidenz
+Derzeit ist keine zugehörige Literatur verfügbar.
 
-Derzeit sind keine relevanten klinischen Studien registriert.
-
----
-
-## Literaturevidenz
-
-| PMID | Jahr | Typ | Journal | Kernaussagen |
-|------|-----|------|------|---------|
-| [32857291](https://pubmed.ncbi.nlm.nih.gov/32857291/) | 2020 | Systematische Übersicht/Metaanalyse von RCTs | CNS Drugs | Lasmiditan zur akuten Migränebehandlung bei Erwachsenen; Auswertung der RCTs |
-| [31132795](https://pubmed.ncbi.nlm.nih.gov/31132795/) | 2019 | RCT (Phase 3) | Brain | Randomisierte, placebokontrollierte Studie zu Lasmiditan bei akuter Migräne mit und ohne Aura, auch bei kardiovaskulärer Vorgeschichte |
-| [22459549](https://pubmed.ncbi.nlm.nih.gov/22459549/) | 2012 | RCT (Phase 2) | Lancet Neurology | Dosisfindungsstudie zu Wirksamkeit und Verträglichkeit von oralem Lasmiditan |
-| [33990951](https://pubmed.ncbi.nlm.nih.gov/33990951/) | 2021 | RCT (Phase 2) | Headache | Wirksamkeit und Sicherheit bei japanischen Erwachsenen mit Migräne |
-| [36138260](https://pubmed.ncbi.nlm.nih.gov/36138260/) | 2022 | Post-hoc-Analyse eines RCT | Advances in Therapy | Wirksamkeit je nach Patienten- und Migränemerkmalen (MONONOFU-Studie) |
-| [32783644](https://pubmed.ncbi.nlm.nih.gov/32783644/) | 2020 | Post-hoc-Analyse von zwei Phase-3-RCTs | Current Medical Research and Opinion | Wirksamkeit und Sicherheit bei häufigen Komorbiditäten der Migräne |
-| [35790906](https://pubmed.ncbi.nlm.nih.gov/35790906/) | 2022 | Netzwerk-Metaanalyse | Journal of Headache and Pain | Indirekter Vergleich von Lasmiditan mit Rimegepant und Ubrogepant |
-| [35027572](https://pubmed.ncbi.nlm.nih.gov/35027572/) | 2022 | Review | Nature Reviews Disease Primers | Übersicht zu Migräne, einschließlich Aura und Pathophysiologie |
-| [31749059](https://pubmed.ncbi.nlm.nih.gov/31749059/) | 2019 | Zulassungsübersicht | Drugs | FDA-Zulassung 2019 auf Basis zweier Phase-3-Studien |
-| [33907459](https://pubmed.ncbi.nlm.nih.gov/33907459/) | 2021 | Fallbericht | Journal of Pain Research | Migräne mit Hirnstammaura und Bewusstseinsstörung; kein Einsatz von Lasmiditan |
-
----
-
-## Marktinformationen Deutschland
+## Informationen zum deutschen Markt
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/005332 | Rayvow | – | Migräne (Migraine Disorders); Status: aufgehoben |
-
----
+| EMEA/H/C/005332 | Rayvow | – | Migraine Disorders |
 
 ## Sicherheitsaspekte
 
-- **Arzneimittelwechselwirkungen:** In den Daten ist lediglich die pharmakologische Zielstruktur (5-HT1F-Rezeptor) aufgeführt; konkrete Wechselwirkungen mit anderen Arzneimitteln sind nicht dokumentiert.
-- **Klinisch relevante Nebenwirkungen:** Schwindel und Sedierung (siehe oben), die sich mit Symptomen der Hirnstammaura überschneiden können.
+**Arzneimittelwechselwirkungen:** Aus pharmakologischen Daten ist als Zielstruktur der 5-HT1F-Rezeptor (HTR1F) verzeichnet. Konkrete Wechselwirkungen mit anderen Arzneimitteln sind nicht angegeben.
 
-Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) ist die Fachinformation heranzuziehen.
-
----
+Weitere Sicherheitsinformationen entnehmen Sie bitte der Packungsbeilage.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage ist wegen der engen Verwandtschaft zur zugelassenen Migräneindikation plausibel, doch es gibt weder registrierte Studien noch Publikationen, die Lasmiditan speziell bei Migräne mit Hirnstammaura untersuchen (Evidenzstufe L4). Hinzu kommen eine überlappende Nebenwirkungsproblematik und eine in Deutschland aufgehobene Zulassung.
+Die Vorhersage stützt sich allein auf das Modell, ohne klinische Studien, Publikationen oder einen erkennbaren biologischen Wirkzusammenhang. Eine Weiterverfolgung ist auf dieser Basis nicht gerechtfertigt.
 
-**Für ein Weiterverfolgen sind folgende Schritte nötig:**
-- Auswertung von Subgruppen mit Hirnstammaura aus den vorhandenen Phase-3-Daten oder ein gezieltes Studienvorhaben
+**Für ein Weiterkommen ist Folgendes erforderlich:**
+- Nachvollziehbare mechanistische Hypothese, die 5-HT1F-Signalwege mit der Pathophysiologie von atrophoderma vermiculata verbindet
+- Präklinische Daten oder Fallberichte, die die Erkrankung direkt untersuchen
 - Detaillierte Wirkmechanismus-Daten (MOA)
-- Fachinformation mit Warnhinweisen und Gegenanzeigen einholen und auswerten
-- Klärung der Gründe und Folgen der aufgehobenen Zulassung in Deutschland
-- Bewertung der Verträglichkeit (Schwindel, Sedierung) bei Patienten mit Hirnstammaura-Symptomen
+- Sicherheitsangaben aus der Fachinformation (Warnhinweise, Gegenanzeigen)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

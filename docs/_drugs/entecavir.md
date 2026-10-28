@@ -4,7 +4,7 @@ title: Entecavir
 parent: Mittlere Evidenz (L3-L4)
 nav_order: 171
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Entecavir: vorhergesagte neue Indikation Chronische Hepatitis-C-Virusinfektion (Evidenzstufe L4). Ursprüngliche Indikation: Chronische Hepatitis B"
 monitor_inn: "ENTECAVIR"
@@ -14,7 +14,7 @@ predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious d
 # Entecavir
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Entecavir: Von chronischer Hepatitis B zu chronischer Hepatitis-C-Virusinfektion
+## Entecavir: Chronische Hepatitis-C-Virusinfektion
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -41,7 +41,7 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 Entecavir ist ein Nukleosidanalogon, das ursprünglich zur Behandlung der chronischen Hepatitis B zugelassen wurde.
 Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei der **chronischen Hepatitis-C-Virusinfektion** voraus. Die Datenlage stützt diese Vorhersage jedoch nicht: Die **2 zugeordneten klinischen Studien** untersuchen HBV-Reaktivierung bei HCV/HBV-Koinfektion, nicht eine Wirkung gegen HCV. Die Literatur besteht überwiegend aus Übersichtsarbeiten zu Hepatitis B und C.
 
-Hinweis: Die höchstbewertete Vorhersage ist ein Modellartefakt. Die einzige klinisch tragfähige Rolle von Entecavir ist die HBV-Kontrolle bei koinfizierten Patienten. Die Vorhersage zur Hepatitis-B-Virusinfektion (Rang 2) entspricht der bereits bestehenden Zulassung und dient als Positivkontrolle.
+Hinweis: Die höchstbewertete Vorhersage ist ein Modellartefakt. Die einzige klinisch tragfähige Rolle von Entecavir ist die HBV-Kontrolle bei koinfizierten Patienten.
 
 ---
 
@@ -51,10 +51,10 @@ Hinweis: Die höchstbewertete Vorhersage ist ein Modellartefakt. Die einzige kli
 |------|------|
 | Ursprüngliche Indikation | Chronische Hepatitis B |
 | Vorhergesagte neue Indikation | Chronische Hepatitis-C-Virusinfektion |
-| TxGNN-Vorhersagewert | 99,98 % |
+| TxGNN-Vorhersagewert | 0,9998 |
 | Evidenzstufe | L4 |
-| Marktstatus in Deutschland | Nur erloschene Zulassungen (aufgehoben/ausgelaufen) |
-| Anzahl der Zulassungen | 3 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -63,7 +63,7 @@ Hinweis: Die höchstbewertete Vorhersage ist ein Modellartefakt. Die einzige kli
 
 Für die Wirkweise liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Entecavir ist ein Guanosin-Nukleosidanalogon. Es wird zu Entecavir-Triphosphat phosphoryliert, hemmt die HBV-DNA-Polymerase (Priming, Reverse Transkription, DNA-Synthese) und führt zum Kettenabbruch.
 
-HCV ist ein RNA-Virus, das über die RNA-abhängige RNA-Polymerase NS5B repliziert. Ein plausibler direkter antiviraler Mechanismus von Entecavir gegen HCV besteht daher nicht. Der hohe TxGNN-Wert spiegelt vermutlich die Assoziation durch HBV/HCV-Koinfektion und gemeinsame Hepatitis-Netzwerke im Wissensgraphen wider, nicht eine tatsächliche Anti-HCV-Aktivität.
+HCV ist ein RNA-Virus, das über die RNA-abhängige RNA-Polymerase NS5B repliziert. Ein plausibler direkter antiviraler Mechanismus von Entecavir gegen HCV besteht daher nicht. Der hohe Wert stammt vom TxGNN-Modell (Deep Learning) und kann vom Modell gelernte Ähnlichkeiten zwischen verwandten Erkrankungen widerspiegeln, nicht biologische Evidenz oder eine tatsächliche Anti-HCV-Aktivität.
 
 Klinisch relevant ist allenfalls die Unterdrückung von HBV bei HCV/HBV-koinfizierten Patienten, insbesondere zur Vorbeugung einer HBV-Reaktivierung unter direkt wirkenden Virostatika (DAA). Eine randomisierte Studie (PMID 34864158) berichtet, dass Entecavir HBV-Reaktivierungen unter DAA bei HCV/HBV-Doppelinfektion verhindert. Das ist ein HBV-Schutzeffekt, kein HCV-Therapieeffekt.
 
@@ -98,7 +98,7 @@ Klinisch relevant ist allenfalls die Unterdrückung von HBV bei HCV/HBV-koinfizi
 | EMEA/H/C/000623 | Baraclude | – | Chronische Hepatitis B |
 | EMEA/H/C/004377 | Entecavir Viatris (zuvor Entecavir Mylan) | – | Hepatitis B |
 
-Alle drei Zulassungen haben den Status „erloschen“. Es sind keine gültigen Zulassungen vorhanden.
+Alle drei Zulassungen sind gültig (3 von 3). Das Arzneimittel ist im Handel.
 
 ---
 

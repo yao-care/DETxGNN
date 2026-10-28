@@ -4,7 +4,7 @@ title: Nitric Oxide
 parent: Nur Modellvorhersage (L5)
 nav_order: 318
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Nitric Oxide: vorhergesagte neue Indikation Fehlbildungssyndrom mit dentaler und/oder parodontaler Komponente (Evidenzstufe L5). Ursprüngliche Indikation: Pulmonale Hypertonie"
 monitor_inn: "NITRIC OXIDE"
@@ -14,7 +14,7 @@ predicted_indications: ["malformation syndrome with odontal and/or periodontal c
 # Nitric Oxide
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Stickstoffmonoxid (NO, Handelsname INOmax) wurde ursprünglich zur Behandlung de
 |------|------|
 | Ursprüngliche Indikation | Pulmonale Hypertonie; respiratorische Insuffizienz |
 | Vorhergesagte neue Indikation | Fehlbildungssyndrom mit dentaler und/oder parodontaler Komponente |
-| TxGNN-Vorhersagewert | 99,57 % |
+| TxGNN-Vorhersagewert | 0,9957 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene bzw. zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (keine davon gültig) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten k
 
 Zwischen der ursprünglichen Indikation (Gefäßtonus und Oxygenierung der Lunge) und der vorhergesagten Indikation (angeborene Fehlbildung mit Zahn- und Parodontalbeteiligung) besteht kein erkennbarer pathophysiologischer Zusammenhang. Die gefundene Literatur behandelt Parodontitis, die Entzündung gingivaler Fibroblasten und pflanzliche entzündungshemmende Substanzen. NO und oxidativer Stress tauchen dort nur als Randthemen auf, etwa die NO-Produktion in Makrophagen oder die orale Nitrat-Nitrit-NO-Achse.
 
-Die Vorhersage wirkt daher wie ein Artefakt des Wissensgraphen und nicht wie eine mechanistisch gestützte Verbindung.
+Die Vorhersage wirkt daher wie ein Artefakt des TxGNN-Modells (Deep Learning) und nicht wie eine mechanistisch gestützte Verbindung.
 
 ---
 
@@ -95,7 +95,7 @@ Es wurde keine randomisierte kontrollierte Studie gefunden. Aufgeführt sind die
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000337 | INOmax (Linde Healthcare AB) | – | Pulmonale Hypertonie; respiratorische Insuffizienz (Status: erloschen/zurückgezogen) |
+| EMEA/H/C/000337 | INOmax (Linde Healthcare AB) | – | Pulmonale Hypertonie; respiratorische Insuffizienz (Status: gültig/gültig) |
 
 ---
 
@@ -114,7 +114,7 @@ Es wurde keine randomisierte kontrollierte Studie gefunden. Aufgeführt sind die
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf den Modellwert. Es gibt keine klinischen Studien und keine Literatur, die NO bei dieser Indikation untersucht, und ein plausibler Wirkmechanismus ist nicht erkennbar. Außerdem besteht in Deutschland keine gültige Zulassung.
+Die Vorhersage stützt sich ausschließlich auf den Modellwert. Es gibt keine klinischen Studien und keine Literatur, die NO bei dieser Indikation untersucht, und ein plausibler Wirkmechanismus ist nicht erkennbar. In Deutschland ist das Arzneimittel im Handel; die eine vorhandene Zulassung ist gültig (1 von 1).
 
 **Hinweis zu den weiteren Vorhersagen:**
 Andere in den Daten enthaltene Kandidaten sind deutlich besser gestützt:

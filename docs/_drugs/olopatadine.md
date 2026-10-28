@@ -6,9 +6,9 @@ nav_order: 327
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Olopatadine: vorhergesagte neue Indikation Rosazea-Konjunktivitis (Evidenzstufe L5). Ursprüngliche Indikation: Allergische Konjunktivitis"
 monitor_inn: "Olopatadine"
 predicted_indications: ["rosacea conjunctivitis"]
+description: "Olopatadine: vorhergesagte neue Indikation Rosazea-Konjunktivitis (rosacea conjunctivitis) (Evidenzstufe L5). Ursprüngliche Indikation: Conjunctivitis, Allergic"
 ---
 
 # Olopatadine
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-## Olopatadin: Von allergischer Konjunktivitis zu Rosazea-Konjunktivitis
+## Olopatadine: Rosazea-Konjunktivitis (rosacea conjunctivitis)
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -46,12 +46,12 @@ Olopatadin ist ein Antihistaminikum mit mastzellstabilisierender Wirkung und war
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Allergische Konjunktivitis |
-| Vorhergesagte neue Indikation | Rosazea-Konjunktivitis |
-| TxGNN-Vorhersagewert | 99,41 % |
+| Ursprüngliche Indikation | Conjunctivitis, Allergic |
+| Vorhergesagte neue Indikation | Rosazea-Konjunktivitis (rosacea conjunctivitis) |
+| TxGNN-Vorhersagewert | 0.9941 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -84,7 +84,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/000407 | Opatanol | – | Allergische Konjunktivitis |
 
-Die Zulassung (Novartis Europharm Limited) ist erloschen; derzeit ist kein gültiges Präparat auf dem Markt.
 
 ---
 
@@ -102,7 +101,7 @@ Für Warnhinweise und Gegenanzeigen laut Fachinformation liegen keine Daten vor;
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzlevel L5) ohne klinische Studien oder Publikationen. Der Wirkmechanismus passt nur bedingt zur Pathophysiologie der okulären Rosazea, und in Deutschland besteht keine gültige Zulassung.
+Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzlevel L5) ohne klinische Studien oder Publikationen. Der Wirkmechanismus passt nur bedingt zur Pathophysiologie der okulären Rosazea, und in Deutschland ist das Arzneimittel mit einer gültigen Zulassung (1 von 1) im Handel.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) über das BfArM, da die Sicherheitsprüfung ohne diese Daten nicht fortgeführt werden kann

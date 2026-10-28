@@ -6,9 +6,9 @@ nav_order: 389
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Relebactam: vorhergesagte neue Indikation Hyperamylasämie (Evidenzstufe L5). Ursprüngliche Indikation: Gramnegative bakterielle Infektionen"
 monitor_inn: "Relebactam"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
+description: "Relebactam: vorhergesagte neue Indikation Hyperamylasämie (hyperamylasemia) (Evidenzstufe L5). Ursprüngliche Indikation: Gram-Negative Bacterial Infections"
 ---
 
 # Relebactam
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-## Relebactam: Von gramnegativen bakteriellen Infektionen zu Hyperamylasämie
+## Relebactam: Hyperamylasämie (hyperamylasemia)
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -46,12 +46,12 @@ Relebactam ist ein Beta-Lactamase-Inhibitor, der ursprünglich zur Behandlung gr
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Gramnegative bakterielle Infektionen |
-| Vorhergesagte neue Indikation | Hyperamylasämie |
-| TxGNN-Vorhersagewert | 99,22 % |
+| Ursprüngliche Indikation | Gram-Negative Bacterial Infections |
+| Vorhergesagte neue Indikation | Hyperamylasämie (hyperamylasemia) |
+| TxGNN-Vorhersagewert | 0.9922 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -64,8 +64,8 @@ Ein mechanistischer Zusammenhang zwischen dieser Wirkung und der Regulation der 
 
 Die weiteren Vorhersagen weisen ebenfalls keinen plausiblen Mechanismus auf:
 
-- **Polyklonales Hyperviskositätssyndrom** (Wert 99,22 %): Die Ursache sind erhöhte Immunglobuline oder Proteine; die Behandlung zielt auf die Grunderkrankung oder erfolgt per Plasmapherese. Relebactam hat keine immunmodulierende oder proteinsenkende Wirkung. Der identische Wert wie bei Hyperamylasämie deutet auf ein unspezifisches Artefakt der Graph-Einbettung hin.
-- **Kongenitale Analbuminämie** (Wert 99,08 %): Es handelt sich um eine seltene autosomal-rezessive Erkrankung mit Funktionsverlust im ALB-Gen. Relebactam beeinflusst weder Expression noch Synthese von Albumin. Die Vorhersage spiegelt wahrscheinlich Netzwerknähe über gemeinsame Knoten wider, keine therapeutische Begründung.
+- **Polyklonales Hyperviskositätssyndrom** (Wert 0,9922): Die Ursache sind erhöhte Immunglobuline oder Proteine; die Behandlung zielt auf die Grunderkrankung oder erfolgt per Plasmapherese. Relebactam hat keine immunmodulierende oder proteinsenkende Wirkung. Der identische Wert wie bei Hyperamylasämie stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz.
+- **Kongenitale Analbuminämie** (Wert 0,9908): Es handelt sich um eine seltene autosomal-rezessive Erkrankung mit Funktionsverlust im ALB-Gen. Relebactam beeinflusst weder Expression noch Synthese von Albumin. Die Vorhersage spiegelt wahrscheinlich Netzwerknähe über gemeinsame Knoten wider, keine therapeutische Begründung.
 
 ---
 
@@ -87,7 +87,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/004808 | Recarbrio | – | Gramnegative bakterielle Infektionen |
 
-Der Status dieser Zulassung ist „erloschen/zurückgezogen"; es gibt keine aktuell gültige Zulassung.
 
 ---
 
@@ -102,7 +101,7 @@ Bitte entnehmen Sie die Sicherheitsinformationen der Packungsbeilage. Für Wechs
 **Entscheidung: Hold**
 
 **Begründung:**
-Für alle drei vorhergesagten Indikationen gibt es weder klinische Studien noch Literatur (Evidenzstufe L5), und ein plausibler pharmakologischer Zusammenhang ließ sich nicht herstellen. Zudem besteht in Deutschland keine gültige Zulassung.
+Für alle drei vorhergesagten Indikationen gibt es weder klinische Studien noch Literatur (Evidenzstufe L5), und ein plausibler pharmakologischer Zusammenhang ließ sich nicht herstellen. Das Arzneimittel ist in Deutschland im Handel; es besteht 1 gültige Zulassung (von 1).
 
 **Für ein Weiterverfolgen sind folgende Schritte nötig:**
 - Wirkmechanismusdaten (MOA) aus DrugBank ergänzen

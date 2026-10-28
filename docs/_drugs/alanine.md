@@ -49,10 +49,10 @@ Das TxGNN-Modell sagt voraus, dass es bei **Gastroparese** wirksam sein könnte,
 |------|------|
 | Ursprüngliche Indikation | Ahornsirupkrankheit (Maple Syrup Urine Disease) |
 | Vorhergesagte neue Indikation | Gastroparese |
-| TxGNN-Vorhersagewert | 99,37 % |
+| TxGNN-Vorhersagewert | 0,9937 |
 | Evidenzgrad | L5 (nur Modellvorhersage) |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---

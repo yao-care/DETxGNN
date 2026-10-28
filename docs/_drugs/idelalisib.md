@@ -4,7 +4,7 @@ title: Idelalisib
 parent: Hohe Evidenz (L1-L2)
 nav_order: 229
 evidence_level: L2
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
 description: "Idelalisib: vorhergesagte neue Indikation Mantelzell-Lymphom (Evidenzstufe L2). Ursprüngliche Indikation: Non-Hodgkin-Lymphom"
 monitor_inn: "IDELALISIB"
@@ -14,7 +14,7 @@ predicted_indications: ["mantle cell lymphoma", "Hodgkins lymphoma", "myeloid le
 # Idelalisib
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Dafür liegen **5 klinische Studien** (überwiegend Phase 1, eine abgebrochene P
 |------|------|
 | Ursprüngliche Indikation | Non-Hodgkin-Lymphom; chronische lymphatische B-Zell-Leukämie |
 | Vorhergesagte neue Indikation | Mantelzell-Lymphom |
-| TxGNN-Vorhersagewert | 99,84 % |
+| TxGNN-Vorhersagewert | 0,9984 |
 | Evidenzstufe | L2 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung (Zulassung storniert) |
-| Anzahl der Zulassungen | 1 (storniert) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails (mit Schutzmaßnahmen fortfahren) |
 
 ---

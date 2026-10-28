@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Epinephrine
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 173
-evidence_level: L1
-indication_count: 4
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Epinephrine: vorhergesagte neue Indikation Obstruktive Lungenerkrankung (Evidenzstufe L1). Ursprüngliche Indikation: Anaphylaxie"
 monitor_inn: "EPINEPHRINE"
-predicted_indications: ["obstructive lung disease", "food-dependent exercise-induced anaphylaxis", "Rienhoff syndrome", "respiratory malformation"]
+predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
 ---
 
 # Epinephrine
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **4** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-## Epinephrin: Von Anaphylaxie zu obstruktiver Lungenerkrankung
+## Epinephrin: Von Anaphylaxie zu Obstruktive Lungenerkrankung
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Epinephrin (Adrenalin) wird ursprünglich zur Notfallbehandlung der Anaphylaxie 
 |------|------|
 | Ursprüngliche Indikation | Anaphylaxie |
 | Vorhergesagte neue Indikation | Obstruktive Lungenerkrankung |
-| TxGNN-Vorhersagewert | 99,71 % |
-| Evidenzgrad | L1 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 erloschen) |
+| TxGNN-Vorhersagewert | 0,9971 |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortführung mit Schutzmaßnahmen) |
 
 ---
@@ -108,7 +108,7 @@ Weitere erfasste Studien sind überwiegend pharmakokinetische Studien an gesunde
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/006139 | Eurneffy | k. A. | Anaphylaxie (Status: erloschen) |
+| EMEA/H/C/006139 | Eurneffy | k. A. | Anaphylaxie (Status: gültig) |
 
 ---
 
@@ -136,9 +136,9 @@ Mehrere abgeschlossene Phase-3-Studien zu inhalativem Epinephrin bei Asthma stü
 - Sicherheitsüberwachungsplan für Patienten mit Herz-Kreislauf-Erkrankungen und Begleitmedikation mit hohem Wechselwirkungsrisiko
 
 **Weitere vorhergesagte Indikationen (Kurzbewertung):**
-- *Nahrungsabhängige belastungsinduzierte Anaphylaxie* (Score 99,57 %): Evidenzgrad L4; Erweiterung der bestehenden Indikation, keine registrierten Studien, nur Übersichtsarbeiten. Einstufung: Forschungsfrage.
-- *Respiratorische Fehlbildung* (Score 99,56 %): Evidenzgrad L3; nur eine Phase-1-Studie zur transitorischen Tachypnoe des Neugeborenen, schwache Übereinstimmung mit der Zielbezeichnung. Einstufung: Forschungsfrage.
-- *Rienhoff-Syndrom* (Score 99,57 %): Evidenzgrad L5; weder Studien noch Literatur, vermutlich ein Artefakt des Graphmodells. Einstufung: Hold.
+- *Nahrungsabhängige belastungsinduzierte Anaphylaxie* (Score 0,9957): Evidenzgrad L4; Erweiterung der bestehenden Indikation, keine registrierten Studien, nur Übersichtsarbeiten. Einstufung: Forschungsfrage.
+- *Respiratorische Fehlbildung* (Score 0,9956): Evidenzgrad L3; nur eine Phase-1-Studie zur transitorischen Tachypnoe des Neugeborenen, schwache Übereinstimmung mit der Zielbezeichnung. Einstufung: Forschungsfrage.
+- *Rienhoff-Syndrom* (Score 0,9957): Evidenzgrad L5; weder Studien noch Literatur, vermutlich ein Artefakt des Graphmodells. Einstufung: Hold.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

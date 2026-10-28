@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Brinzolamide
-parent: Nur Modellvorhersage (L5)
+parent: Nur bekannte Anwendungen (keine neuen Vorhersagen)
 nav_order: 76
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-14
-description: "Brinzolamide: vorhergesagte neue Indikation Primäres hereditäres Glaukom (Evidenzstufe L5). Ursprüngliche Indikation: Offenwinkelglaukom"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Brinzolamide: Bekannte Anwendungen und Marktstatus in Deutschland; derzeit keine neue Kandidaten-Indikation"
+predicted_indications: []
 ---
 
 # Brinzolamide
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
+Evidenzniveau: **N/A** | Vorhergesagte Indikationen: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,64 +32,47 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-## Brinzolamid: Vom Glaukom (Offenwinkel) zum primären hereditären Glaukom
+<!-- known-uses-page -->
+<!-- description: Brinzolamide: Bekannte Anwendungen und Marktstatus in Deutschland; derzeit keine neue Kandidaten-Indikation -->
+## Brinzolamide: Bekannte Anwendungen und Marktstatus in Deutschland
 {: .text-alpha }
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
+Die vom TxGNN-Modell vorgeschlagenen Kandidaten für Brinzolamide sind ausnahmslos bereits bekannte Anwendungen. Daher gibt es derzeit keine neue vorhergesagte Indikation. Die einzige bekannte Anwendung unter den Kandidaten stützt sich auf eine Zulassung in einem anderen Land.
 
-Brinzolamid ist ein Carboanhydrase-Hemmer, der ursprünglich zur Behandlung des Offenwinkelglaukoms und der okulären Hypertension zugelassen wurde.
-Das TxGNN-Modell sagt voraus, dass er auch bei **primärem hereditärem Glaukom** wirksam sein könnte.
-Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor, die Vorhersage beruht allein auf dem Modell.
-
----
-
-## Schnellübersicht
-
+## Kurzübersicht
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Offenwinkelglaukom; okuläre Hypertension |
-| Vorhergesagte neue Indikation | Primäres hereditäres Glaukom |
-| TxGNN-Vorhersagewert | 99,48 % |
-| Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen |
-| Anzahl der Zulassungen | 3 (alle erloschen) |
-| Empfohlene Entscheidung | Hold |
+| Neue vorhergesagte Indikationen | Keine (alle rückverfolgbaren Modellkandidaten sind bekannte Anwendungen) |
+| Bekannte Anwendungen unter den Modellkandidaten | 1 |
+| Evidenzniveau | Nicht zutreffend |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
 
----
+## Bekannte Anwendungen unter den Kandidaten des Modells
 
-## Warum ist diese Vorhersage plausibel?
+### Zugelassen (durch Zulassung oder Fachinformation gestützt)
+| Indikation | Quelle |
+|------|------|
+| Primäres hereditäres Glaukom (primary hereditary glaucoma) | Zulassung in einem anderen Land; zugelassene Indikation: glaucoma |
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Brinzolamid hemmt die Carboanhydrase II und senkt so den Augeninnendruck, indem es die Kammerwasserproduktion verringert.
+### Verwandt mit einer zugelassenen Indikation (gleiche Krankheitskategorie)
+| Indikation | Zugelassene Kategorie |
+|------|------|
+| Keine | Keine |
 
-Das primäre hereditäre Glaukom (z. B. das primäre kongenitale Glaukom) wird wesentlich durch einen erhöhten Augeninnendruck getrieben, der den Sehnerv schädigt. Die zugelassene Indikation (Offenwinkelglaukom, okuläre Hypertension) betrifft dieselbe Pathophysiologie. Die Vorhersage ist daher mechanistisch stimmig.
-
-Es handelt sich allerdings eher um eine Erweiterung innerhalb derselben Krankheitsfamilie als um ein echtes Repurposing. Zudem gilt als Hintergrundwissen (nicht aus den vorliegenden Daten): Carboanhydrase-Hemmer sind beim pädiatrischen kongenitalen Glaukom nur begrenzt wirksam und mit Sicherheitsfragen verbunden; dort ist in der Regel die Operation die Primärtherapie.
-
----
-
-## Klinische Evidenz
-
-Derzeit sind keine zugehörigen klinischen Studien registriert.
-
----
-
-## Literaturevidenz
-
-Derzeit liegt keine zugehörige Literatur vor.
-
----
+### Bekannte Beziehungen (in Deutschland vermarktet, 3 von 3 Zulassungen gültig)
+| Indikation |
+|------|
+| Keine |
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000267 | Azopt | – | Offenwinkelglaukom; okuläre Hypertension |
-| EMEA/H/C/000960 | Azarga | – | Offenwinkelglaukom; okuläre Hypertension |
-| EMEA/H/C/003698 | Simbrinza | – | Okuläre Hypertension; Offenwinkelglaukom |
-
-Alle drei Zulassungen (Novartis Europharm Limited) sind als erloschen/widerrufen geführt; derzeit ist keine gültige Zulassung vorhanden.
-
----
+| Zulassung | Produkt | Darreichungsform | Status |
+|------|------|------|------|
+| EMEA/H/C/000267 | brinzolamide |  | Gültig |
+| EMEA/H/C/000960 | brinzolamide;timolol maleate |  | Gültig |
+| EMEA/H/C/003698 | brinzolamide;brimonidine tartrate |  | Gültig |
 
 ## Sicherheitsaspekte
 
@@ -98,19 +82,6 @@ Zu Warnhinweisen und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ---
 
-## Fazit und nächste Schritte
-
-**Entscheidung: Hold**
-
-**Begründung:**
-Die Vorhersage ist mechanistisch nachvollziehbar, stützt sich aber ausschließlich auf das Modell (L5) ohne Studien oder Publikationen. Zudem besteht kein gültiger Zulassungsstatus in Deutschland, und die Sicherheitsdaten aus der Fachinformation fehlen.
-
-**Für ein Weiterkommen sind folgende Schritte nötig:**
-- Fachinformation des BfArM beschaffen und auswerten (Warnhinweise, Gegenanzeigen) – Voraussetzung für das Sicherheits-Screening
-- Daten zum Wirkmechanismus (MOA) ergänzen, z. B. über DrugBank
-- Systematische Literatur- und Studienrecherche zu Carboanhydrase-Hemmern beim primären hereditären/kongenitalen Glaukom, insbesondere zu Wirksamkeit und Sicherheit bei Kindern
-- Klärung des Zulassungs- und Marktstatus (erloschene Zulassungen, ggf. nationale Präparate)
-- Klärung der Anwendungswege (Applikationsweg) und des Bezugs zur ursprünglichen Indikation
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

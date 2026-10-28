@@ -48,10 +48,10 @@ Degarelix ist ein GnRH-Rezeptor-Antagonist, der ursprünglich zur Behandlung des
 |------|------|
 | Ursprüngliche Indikation | Prostatakarzinom (Prostatic Neoplasms) |
 | Vorhergesagte neue Indikation | Hypertrichose |
-| TxGNN-Vorhersagewert | 99,99 % |
+| TxGNN-Vorhersagewert | 0,9999 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten k
 
 Die mechanistische Verbindung zur Hypertrichose ist **schwach**. Hypertrichose ist im Gegensatz zum Hirsutismus in der Regel nicht androgenabhängig. Die Vorhersage stützt sich daher allein auf das Modell, nicht auf klinische oder publizierte Belege.
 
-Auch die weiteren vorhergesagten Indikationen sind überwiegend mechanistisch kaum nachvollziehbar (z. B. Ambras-Syndrom, Dandy-Walker-Syndrom, Haarschaftanomalien, Urtikaria). Sie sind wahrscheinlich Artefakte des Wissensgraphen. Biologisch am kohärentesten ist die **zentrale Pubertas praecox**, da hier die vom Wirkstoff direkt unterdrückte Hypothalamus-Hypophysen-Gonaden-Achse beteiligt ist. Allerdings sind GnRH-Agonisten hier der etablierte Standard, und für Degarelix fehlen pädiatrische Daten sowie Studien; die Depotformulierung ist nicht für Kinder konzipiert. Die familiäre männliche Pubertas praecox (Testotoxikose) wird durch aktivierende LHCGR-Mutationen verursacht und ist GnRH-unabhängig, sodass ein GnRH-Antagonist dort kaum wirken würde.
+Auch die weiteren vorhergesagten Indikationen sind überwiegend mechanistisch kaum nachvollziehbar (z. B. Ambras-Syndrom, Dandy-Walker-Syndrom, Haarschaftanomalien, Urtikaria). Ihre Scores stammen aus dem TxGNN-Modell (Deep Learning) und können Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. Biologisch am kohärentesten ist die **zentrale Pubertas praecox**, da hier die vom Wirkstoff direkt unterdrückte Hypothalamus-Hypophysen-Gonaden-Achse beteiligt ist. Allerdings sind GnRH-Agonisten hier der etablierte Standard, und für Degarelix fehlen pädiatrische Daten sowie Studien; die Depotformulierung ist nicht für Kinder konzipiert. Die familiäre männliche Pubertas praecox (Testotoxikose) wird durch aktivierende LHCGR-Mutationen verursacht und ist GnRH-unabhängig, sodass ein GnRH-Antagonist dort kaum wirken würde.
 
 ---
 

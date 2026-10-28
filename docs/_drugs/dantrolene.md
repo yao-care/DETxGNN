@@ -4,17 +4,17 @@ title: Dantrolene
 parent: Nur Modellvorhersage (L5)
 nav_order: 129
 evidence_level: L5
-indication_count: 9
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Dantrolene: vorhergesagte neue Indikation Maligne Hyperthermie… (Evidenzstufe L5). Ursprüngliche Indikation: Maligne Hyperthermie"
+description: "Dantrolen: vorhergesagte neue Indikation moderate multiminicore disease with hand involvement (mittelschwere Multiminicore-Krankheit mit Handbeteiligung), Evidenzstufe L5"
 monitor_inn: "dantrolene"
-predicted_indications: ["moderate multiminicore disease with hand involvement", "King-Denborough syndrome", "congenital multicore myopathy with external ophthalmoplegia", "central core myopathy", "hypokalemic periodic paralysis", "thyrotoxic periodic paralysis, susceptibility to", "thyrotoxic periodic paralysis", "myopathy, centronuclear"]
+predicted_indications: ["moderate multiminicore disease with hand involvement", "King-Denborough syndrome", "congenital multicore myopathy with external ophthalmoplegia", "central core myopathy", "hypokalemic periodic paralysis", "thyrotoxic periodic paralysis", "myopathy, centronuclear"]
 ---
 
 # Dantrolene
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-## Dantrolen: Von Malignem Hyperthermie zu Malignem Hyperthermie (Suszeptibilität)
+## Dantrolen: moderate multiminicore disease with hand involvement (mittelschwere Multiminicore-Krankheit mit Handbeteiligung)
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Dantrolen wurde ursprünglich zur Behandlung der Malignen Hyperthermie zugelasse
 |------|------|
 | Ursprüngliche Indikation | Maligne Hyperthermie |
 | Vorhergesagte neue Indikation | Maligne Hyperthermie, Suszeptibilität (identisch mit der Originalindikation) |
-| TxGNN-Vorhersagewert | 99,93 % |
-| Evidenzniveau | L1 laut Bewertung der Datenbasis (leitlinienbasiert; es sind jedoch keine Phase-3-RCTs aufgeführt, streng nach den Regeln entspräche dies eher L3) |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl Zulassungen | 1 (0 gültig, 1 erloschen) |
+| TxGNN-Vorhersagewert | 0,9990 |
+| Evidenzniveau | L5 laut Bewertung der Datenbasis (leitlinienbasiert; es sind jedoch keine Phase-3-RCTs aufgeführt, streng nach den Regeln entspräche dies eher L3) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails |
 
 ---
@@ -89,7 +89,7 @@ Klinische Studien sind nicht registriert (aktuell keine zugehörigen klinischen 
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/006009 | Agilus (Norgine B.V.) | nicht angegeben | Maligne Hyperthermie (Status: erloschen) |
+| EMEA/H/C/006009 | Agilus (Norgine B.V.) | nicht angegeben | Maligne Hyperthermie (Status: gültig) |
 
 ---
 

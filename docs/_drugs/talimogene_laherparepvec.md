@@ -4,7 +4,7 @@ title: Talimogene Laherparepvec
 parent: Nur Modellvorhersage (L5)
 nav_order: 443
 evidence_level: L5
-indication_count: 7
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Talimogene Laherparepvec: vorhergesagte neue Indikation CMM7 (Bezeichnung nicht eindeutig definiert… (Evidenzstufe L5). Ursprüngliche Indikation: Melanom"
 monitor_inn: "TALIMOGENE LAHERPAREPVEC"
@@ -14,7 +14,7 @@ predicted_indications: ["CMM7", "glottis squamous cell carcinoma", "lung occult 
 # Talimogene Laherparepvec
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Talimogen laherparepvec (T-VEC) ist ein onkolytisches Herpes-simplex-Virus, das 
 |------|------|
 | Ursprüngliche Indikation | Melanom |
 | Vorhergesagte neue Indikation | CMM7 (Bezeichnung nicht eindeutig definiert, vermutlich ein Subtyp bzw. Locus des kutanen malignen Melanoms) |
-| TxGNN-Vorhersagewert | 99,20 % |
+| TxGNN-Vorhersagewert | 0,9920 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -66,12 +66,10 @@ Weitere vom Modell vorhergesagte Indikationen (jeweils nur Modellvorhersage, L5,
 
 | Rang | Vorhergesagte Indikation | Score | Einschätzung |
 |------|------|------|------|
-| 2 | Pädiatrisches leptomeningeales Melanom | 99,15 % | Melanomvariante, aber diffuse ZNS-Erkrankung; Applikation, HSV-Neurovirulenz und Sicherheit bei Kindern ungeklärt |
-| 3 | Epitheloidzelliges Aderhautmelanom (uveal) | 99,13 % | Biologisch vom kutanen Melanom verschieden (GNAQ/GNA11, immunprivilegierter Ort); Verbindung nur über melanozytäre Herkunft |
-| 4 | Plattenepithelkarzinom der Glottis | 99,07 % | Onkolytische Viren plus Immuntherapie bei Kopf-Hals-Tumoren plausibel; Atemwegslage wirft Sicherheitsfragen auf (Schwellung) |
-| 5 | Okkultes Plattenepithelkarzinom der Lunge | 99,05 % | Intraläsionale Injektion nicht machbar, da bildgebend nicht sichtbar |
-| 6 | Kloakogenes Rektumkarzinom | 99,01 % | Lokale Injektion theoretisch möglich; Verbindung spekulativ, HPV-Biologie abweichend |
-| 7 | Adenosquamöses Gallenblasenkarzinom | 99,01 % | Keine spezifische mechanistische Begründung; tiefe viszerale Lage |
+| 4 | Plattenepithelkarzinom der Glottis | 0,9907 | Onkolytische Viren plus Immuntherapie bei Kopf-Hals-Tumoren plausibel; Atemwegslage wirft Sicherheitsfragen auf (Schwellung) |
+| 5 | Okkultes Plattenepithelkarzinom der Lunge | 0,9905 | Intraläsionale Injektion nicht machbar, da bildgebend nicht sichtbar |
+| 6 | Kloakogenes Rektumkarzinom | 0,9901 | Lokale Injektion theoretisch möglich; Verbindung spekulativ, HPV-Biologie abweichend |
+| 7 | Adenosquamöses Gallenblasenkarzinom | 0,9901 | Keine spezifische mechanistische Begründung; tiefe viszerale Lage |
 
 ---
 
@@ -91,7 +89,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/002771 | Imlygic (Amgen Europe B.V.) | – | Melanom (Status: erloschen) |
+| EMEA/H/C/002771 | Imlygic (Amgen Europe B.V.) | – | Melanom (Status: gültig) |
 
 ---
 

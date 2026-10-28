@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Hämophilie A |
 | Vorhergesagte neue Indikation | Primäre Thrombozyten-Freisetzungsstörung |
-| TxGNN-Vorhersagewert | 99,997 % |
+| TxGNN-Vorhersagewert | 1,0000 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -64,7 +64,7 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten k
 
 Die primäre Thrombozyten-Freisetzungsstörung ist ein Defekt der Granula-Sekretion der Blutplättchen und kein FVIII-Mangel. FVIII-Ersatz kann den intrinsischen Thrombozytendefekt nicht korrigieren. Der hohe TxGNN-Wert spiegelt vermutlich vor allem die Nachbarschaft im Netzwerk von Gerinnungs- und Blutungsstörungen wider. Eine belastbare mechanistische Begründung besteht derzeit nicht.
 
-Auch die weiteren neun vom Modell vorhergesagten Erkrankungen sind überwiegend Thrombozytenstörungen, für die FVIII-Ersatz mechanistisch nicht vorgesehen ist. Am ehesten nachvollziehbar ist der **erworbene Gerinnungsfaktormangel** (Rang 4, Score 99,97 %), etwa die erworbene Hämophilie A. Dort neutralisieren jedoch Autoantikörper den FVIII, weshalb Standardtherapien Bypass-Präparate oder rekombinanter Schweine-FVIII mit Immunsuppression sind. Auch dieser Zusammenhang bleibt hypothetisch.
+Auch die weiteren neun vom Modell vorhergesagten Erkrankungen sind überwiegend Thrombozytenstörungen, für die FVIII-Ersatz mechanistisch nicht vorgesehen ist. Am ehesten nachvollziehbar ist der **erworbene Gerinnungsfaktormangel** (Rang 4, Score 0,9997), etwa die erworbene Hämophilie A. Dort neutralisieren jedoch Autoantikörper den FVIII, weshalb Standardtherapien Bypass-Präparate oder rekombinanter Schweine-FVIII mit Immunsuppression sind. Auch dieser Zusammenhang bleibt hypothetisch.
 
 ---
 
@@ -86,7 +86,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/004883 | Esperoct | – | Hämophilie A |
 
-Diese Zulassung (Novo Nordisk A/S) ist als erloschen/aufgehoben geführt. Derzeit gibt es keine gültige Zulassung.
+Diese Zulassung (Novo Nordisk A/S) ist gültig. Das Produkt ist in Deutschland auf dem Markt; 1 von 1 Zulassung ist gültig.
 
 ---
 
@@ -103,7 +103,7 @@ Zu beachten ist zudem: Bei der vorhergesagten Indikation „erbliche Thrombozyto
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf ein Graphmodell, ohne klinische Studien oder Publikationen. Für die meisten vorhergesagten Erkrankungen ist FVIII-Ersatz mechanistisch nicht plausibel, und das Produkt besitzt in Deutschland keine gültige Zulassung.
+Die Vorhersage stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. Es liegen keine klinischen Studien oder Publikationen vor. Für die meisten vorhergesagten Erkrankungen ist FVIII-Ersatz mechanistisch nicht plausibel. Das Produkt ist in Deutschland mit einer gültigen Zulassung auf dem Markt.
 
 **Für ein weiteres Vorgehen sind erforderlich:**
 - Fachinformation und Packungsbeilage mit Warnhinweisen und Gegenanzeigen (Sicherheitsprüfung derzeit nicht möglich)

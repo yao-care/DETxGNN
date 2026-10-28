@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pseudoephedrine
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 375
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Pseudoephedrine: vorhergesagte neue Indikation Erkrankung der Nasenhöhle (nasal cavity disease) (Evidenzstufe L4). Ursprüngliche Indikation: Saisonale allergische Rhinitis"
 monitor_inn: "pseudoephedrine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "allergic urticaria"]
+description: "Pseudoephedrine: vorhergesagte neue Indikation Erkrankung der Nasenhöhle (nasal cavity disease) (Evidenzstufe L5). Ursprüngliche Indikation: Rhinitis, Allergic, Seasonal"
 ---
 
 # Pseudoephedrine
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-## Pseudoephedrin: Von saisonaler allergischer Rhinitis zu Erkrankungen der Nasenhöhle
+## Pseudoephedrine: Erkrankung der Nasenhöhle (nasal cavity disease)
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -46,12 +46,12 @@ Pseudoephedrin wurde ursprünglich zur Behandlung der saisonalen allergischen Rh
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Saisonale allergische Rhinitis |
+| Ursprüngliche Indikation | Rhinitis, Allergic, Seasonal |
 | Vorhergesagte neue Indikation | Erkrankung der Nasenhöhle (nasal cavity disease) |
-| TxGNN-Vorhersagewert | 99,75 % |
-| Evidenzgrad | L4 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| TxGNN-Vorhersagewert | 0.9975 |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -94,7 +94,7 @@ Die Literatur ist indirekt: Nur eine Humanstudie vergleicht Pseudoephedrin direk
 |---------|------|------|-----------|
 | EMEA/H/C/000772 | Aerinaze | – | Saisonale allergische Rhinitis |
 
-Diese Zulassung (Inhaber: Organon N.V.) ist erloschen. Aktuell ist kein gültiges Präparat in den Daten verzeichnet.
+Diese Zulassung (Inhaber: Organon N.V.) ist erloschen.
 
 ---
 
@@ -120,7 +120,7 @@ Der hohe TxGNN-Wert beruht im Wesentlichen auf der bereits bekannten Anwendung b
 - Gezielte klinische Evidenz für nicht-allergische Rhinitis bzw. andere Nasenhöhlenerkrankungen recherchieren
 - Klären, ob für Deutschland überhaupt ein verfügbares Pseudoephedrin-Präparat existiert
 
-**Anmerkung zu den weiteren Vorhersagen:** Für *akute Laryngopharyngitis* (TxGNN 99,73 %) und *allergische Urtikaria* (99,14 %) liegen keine klinischen Studien und keine Pseudoephedrin-spezifische Literatur vor (Evidenzgrad L5, Empfehlung Hold). Für Urtikaria ist zudem kein plausibler Mechanismus erkennbar; die gefundenen Arbeiten betreffen Antihistaminika und stehen vermutlich nur wegen Kombinationspräparaten im Zusammenhang.
+**Anmerkung zu den weiteren Vorhersagen:** Für *allergische Urtikaria* (0,9914) liegen keine klinischen Studien und keine Pseudoephedrin-spezifische Literatur vor (Evidenzgrad L5, Empfehlung Hold). Für Urtikaria ist zudem kein plausibler Mechanismus erkennbar; die gefundenen Arbeiten betreffen Antihistaminika und stehen vermutlich nur wegen Kombinationspräparaten im Zusammenhang.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

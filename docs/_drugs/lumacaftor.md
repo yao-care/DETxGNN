@@ -48,10 +48,10 @@ Lumacaftor wurde ursprünglich zur Behandlung der **Mukoviszidose (Cystic Fibros
 |------|------|
 | Ursprüngliche Indikation | Mukoviszidose (Cystic Fibrosis) |
 | Vorhergesagte neue Indikation | Lepra |
-| TxGNN-Vorhersagewert | 99,44 % |
+| TxGNN-Vorhersagewert | 0,9944 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Zum Wirkmechanismus von Lumacaftor liegen in den für diesen Bericht zusammenges
 
 Ein etablierter mechanistischer Zusammenhang zwischen diesem Wirkprinzip und Lepra wurde nicht gefunden. Lepra ist eine chronische mykobakterielle Infektion (Mycobacterium leprae), die Haut und periphere Nerven betrifft. Spekulativ denkbar wären Verbindungen über Wirt-Erreger-Interaktionen oder über Ionentransport und Proteinfaltung in Epithel- bzw. Schwann-Zellen. Die vorliegenden Daten stützen dies jedoch nicht.
 
-Der sehr hohe TxGNN-Wert (0,994) ist eine reine Modellvorhersage und wird weder durch Studien noch durch Publikationen bestätigt. Er sollte daher mit Vorsicht interpretiert werden.
+Der sehr hohe TxGNN-Wert (0,9944) ist eine reine Modellvorhersage und wird weder durch Studien noch durch Publikationen bestätigt. Er sollte daher mit Vorsicht interpretiert werden.
 
 ---
 
@@ -84,7 +84,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/003954 | Orkambi | – | Mukoviszidose (Cystic Fibrosis) |
 
-Hinweis: Diese Zulassung (Vertex Pharmaceuticals (Ireland) Limited) hat den Status „erloschen/aufgehoben“. Derzeit ist keine gültige Zulassung vorhanden.
+Hinweis: Das Arzneimittel ist im Handel; 1 von 1 Zulassung ist gültig.
 
 ---
 

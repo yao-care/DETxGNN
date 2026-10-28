@@ -49,10 +49,10 @@ Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Hepatitis-B-Virusinfektio
 |------|------|
 | Ursprüngliche Indikation | Chronische Hepatitis C |
 | Vorhergesagte neue Indikation | Hepatitis-B-Virusinfektion |
-| TxGNN-Vorhersagewert | 99,84 % |
+| TxGNN-Vorhersagewert | 0,9984 |
 | Evidenzstufe | L4 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -97,7 +97,7 @@ Die Publikationen betreffen HCV und liefern keinen Beleg für eine Wirkung bei H
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004350 | Vosevi | – | Chronische Hepatitis C (Status: erloschen) |
+| EMEA/H/C/004350 | Vosevi | – | Chronische Hepatitis C (Status: gültig) |
 
 ---
 
@@ -117,7 +117,7 @@ Für Warnhinweise und Gegenanzeigen siehe die Fachinformation.
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die Hepatitis-B-Indikation gibt es keine klinischen Studien, keinen plausiblen Zielstruktur-Zusammenhang und keine Literatur mit anti-HBV-Aktivität. Der hohe Vorhersagewert beruht wahrscheinlich auf Netzwerknähe im Wissensgraphen. Zudem besteht in Deutschland nur eine erloschene Zulassung, und für HBV stehen bereits etablierte Nukleos(t)id-Analoga zur Verfügung.
+Für die Hepatitis-B-Indikation gibt es keine klinischen Studien, keinen plausiblen Zielstruktur-Zusammenhang und keine Literatur mit anti-HBV-Aktivität. Der hohe Vorhersagewert stammt vom TxGNN-Modell (Deep Learning) und spiegelt möglicherweise Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. Zudem besteht in Deutschland eine gültige Zulassung (1 von 1), und für HBV stehen bereits etablierte Nukleos(t)id-Analoga zur Verfügung.
 
 **Für ein Weiterverfolgen wären erforderlich:**
 - Präklinische In-vitro-Daten zur anti-HBV-Aktivität von Voxilaprevir

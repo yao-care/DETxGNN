@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-## Belimumab: Von systemischem Lupus erythematodes zu primärer Thrombozyten-Freisetzungsstörung
+## Belimumab: Von systemischem Lupus erythematodes zu Primäre Thrombozyten-Freisetzungsstörung
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vo
 |------|------|
 | Ursprüngliche Indikation | Systemischer Lupus erythematodes |
 | Vorhergesagte neue Indikation | Primäre Thrombozyten-Freisetzungsstörung |
-| TxGNN-Vorhersagewert | 99,96 % |
+| TxGNN-Vorhersagewert | 0,9996 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -68,11 +68,11 @@ Auch die weiteren Vorhersagen sind überwiegend mechanistisch schwach begründet
 
 | Rang | Vorhergesagte Indikation | TxGNN-Wert | Einschätzung |
 |---|---|---|---|
-| 2 | Pseudo-von-Willebrand-Erkrankung | 99,96 % | Genetischer Defekt des Thrombozytenrezeptors GPIbα; kein bekannter Bezug zur BAFF-Hemmung |
-| 3 | Glanzmann-Thrombasthenie | 99,88 % | Angeborener Defekt von αIIbβ3; allenfalls theoretischer Bezug über Alloantikörper nach Transfusionen |
-| 4 | Fetale und neonatale Alloimmunthrombozytopenie | 99,59 % | Antikörpervermittelt, daher konzeptionell denkbar; Sicherheitsbedenken in der Schwangerschaft |
-| 5 | Schwere nichtproliferative diabetische Retinopathie | 99,05 % | Kein etablierter Bezug von BAFF zur Pathogenese |
-| 6 | Autosomal-dominante Makrothrombozytopenie | 99,04 % | Angeborene Bildungsstörung, nicht immunvermittelt |
+| 2 | Pseudo-von-Willebrand-Erkrankung | 0,9996 | Genetischer Defekt des Thrombozytenrezeptors GPIbα; kein bekannter Bezug zur BAFF-Hemmung |
+| 3 | Glanzmann-Thrombasthenie | 0,9988 | Angeborener Defekt von αIIbβ3; allenfalls theoretischer Bezug über Alloantikörper nach Transfusionen |
+| 4 | Fetale und neonatale Alloimmunthrombozytopenie | 0,9959 | Antikörpervermittelt, daher konzeptionell denkbar; Sicherheitsbedenken in der Schwangerschaft |
+| 5 | Schwere nichtproliferative diabetische Retinopathie | 0,9905 | Kein etablierter Bezug von BAFF zur Pathogenese |
+| 6 | Autosomal-dominante Makrothrombozytopenie | 0,9904 | Angeborene Bildungsstörung, nicht immunvermittelt |
 
 ---
 
@@ -94,7 +94,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/002015 | Benlysta (GlaxoSmithKline Trading Services Limited) | – | Systemischer Lupus erythematodes |
 
-Diese Zulassung ist erloschen; es besteht aktuell keine gültige Zulassung.
+Diese Zulassung ist gültig; das Arzneimittel ist aktuell im Handel.
 
 ---
 
@@ -118,7 +118,7 @@ Angaben zu Warnhinweisen und Gegenanzeigen liegen nicht vor. Bitte die Fachinfor
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf ein Graphmodell. Es gibt weder klinische Studien noch Publikationen, und ein plausibler Wirkmechanismus fehlt. Zudem besteht in Deutschland derzeit keine gültige Zulassung.
+Die Vorhersage stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. Es gibt weder klinische Studien noch Publikationen, und ein plausibler Wirkmechanismus fehlt. Das Arzneimittel ist in Deutschland mit einer gültigen Zulassung im Handel.
 
 **Für ein Weiterverfolgen sind folgende Schritte nötig:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da die Sicherheitsprüfung sonst nicht fortgesetzt werden kann

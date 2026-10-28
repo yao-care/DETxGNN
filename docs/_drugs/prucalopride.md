@@ -49,10 +49,10 @@ Das TxGNN-Modell sagt für den Wirkstoff unter anderem **Hypoalphalipoproteinäm
 |------|------|
 | Ursprüngliche Indikation | Obstipation |
 | Vorhergesagte neue Indikation | Hypoalphalipoproteinämie |
-| TxGNN-Vorhersagewert | 99,82 % |
+| TxGNN-Vorhersagewert | 0,9982 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -61,7 +61,7 @@ Das TxGNN-Modell sagt für den Wirkstoff unter anderem **Hypoalphalipoproteinäm
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Prucalopride wirkt als Agonist am 5-HT4-Rezeptor (Gen HTR4) und fördert die Motilität des Magen-Darm-Trakts. Es ist für Erwachsene mit chronischer Obstipation zugelassen, bei denen Abführmittel nicht ausreichend wirken.
 
-Für Hypoalphalipoproteinämie, eine Störung des HDL-Stoffwechsels, besteht nach der Analyse **kein erkennbarer mechanistischer Zusammenhang**. Der hohe TxGNN-Wert scheint eine reine Vorhersage aus dem Wissensgraphen zu sein, ohne unterstützende Studien oder Literatur.
+Für Hypoalphalipoproteinämie, eine Störung des HDL-Stoffwechsels, besteht nach der Analyse **kein erkennbarer mechanistischer Zusammenhang**. Der hohe TxGNN-Wert scheint eine reine Vorhersage des TxGNN-Modells (Deep Learning) zu sein, ohne unterstützende Studien oder Literatur.
 
 Auch die weiteren Vorhersagen sind überwiegend nicht plausibel (u. a. homozygote familiäre Hypercholesterinämie, orale Candidiasis, Strongyloidiasis, HIV). Eine Ausnahme bilden die **Amyloidose** und die **primäre Amyloidose**: Hier könnte ein Prokinetikum gastrointestinale Dysmotilität (z. B. chronische intestinale Pseudoobstruktion) symptomatisch lindern. Die Grunderkrankung würde dadurch nicht beeinflusst. Diese Indikationen sind als Forschungsfrage (L4) einzustufen.
 
@@ -92,7 +92,7 @@ Für die Amyloidose-Vorhersagen (Rang 6 und 9) wurden folgende Arbeiten gefunden
 |---------|------|------|-----------|
 | EMEA/H/C/001012 | Resolor | – | Obstipation |
 
-Diese Zulassung ist als erloschen geführt (Status: cancelled). Derzeit besteht keine gültige Zulassung.
+Diese Zulassung ist gültig. In Deutschland ist das Arzneimittel derzeit im Handel (1 von 1 Zulassungen gültig).
 
 ---
 
@@ -110,7 +110,7 @@ Für weitere Sicherheitsinformationen ist die Packungsbeilage heranzuziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die Top-Vorhersage Hypoalphalipoproteinämie gibt es weder einen mechanistischen Zusammenhang noch Studien oder Literatur (Evidenzstufe L5). Zudem besteht in Deutschland derzeit keine gültige Zulassung. Lediglich die Amyloidose-bezogene gastrointestinale Dysmotilität wäre als symptomatische Forschungsfrage (L4) weiterverfolgbar.
+Für die Top-Vorhersage Hypoalphalipoproteinämie gibt es weder einen mechanistischen Zusammenhang noch Studien oder Literatur (Evidenzstufe L5). Zudem ist das Arzneimittel in Deutschland derzeit im Handel (1 von 1 Zulassungen gültig). Lediglich die Amyloidose-bezogene gastrointestinale Dysmotilität wäre als symptomatische Forschungsfrage (L4) weiterverfolgbar.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Daten zum Wirkmechanismus (MOA) ergänzen, z. B. über DrugBank

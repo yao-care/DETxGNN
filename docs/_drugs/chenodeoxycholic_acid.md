@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Chenodeoxycholic Acid
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 112
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
-description: "Chenodeoxycholic Acid: vorhergesagte neue Indikation Homozygote familiäre Hypercholesterinämie (Evidenzstufe L4). Ursprüngliche Indikation: Zerebrotendinöse Xanthomatose"
 monitor_inn: "CHENODEOXYCHOLIC ACID"
 predicted_indications: ["homozygous familial hypercholesterolemia", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "obsolete familial combined hyperlipidemia", "obsolete hyperuricemia (disease)"]
+last_modified_at: 2026-10-27
+description: "Chenodeoxycholic Acid: vorhergesagte neue Indikation Homozygote familiäre Hypercholesterinämie (homozygous familial hypercholesterolemia) (Evidenzstufe L5). Ursprüngliche Indikation: Xanthomatosis, C…"
 ---
 
 # Chenodeoxycholic Acid
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **5** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,101 +33,67 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-## Chenodeoxycholsäure: Von zerebrotendinöser Xanthomatose zu homozygoter familiärer Hypercholesterinämie
+## Chenodeoxycholsäure: Gallensäure (FXR-Agonist) → Homozygote familiäre Hypercholesterinämie (homozygous familial hypercholesterolemia)
 {: .text-alpha }
 
 ## Zusammenfassung
 
-Chenodeoxycholsäure (CDCA) wurde ursprünglich zur Behandlung der zerebrotendinösen Xanthomatose (CTX) und angeborener Stoffwechselstörungen zugelassen.
-Das TxGNN-Modell sagt voraus, dass sie bei **homozygoter familiärer Hypercholesterinämie** wirksam sein könnte.
-Die Evidenz ist jedoch dünn: Es liegen **keine klinischen Studien** und nur **1 Publikation** vor (ein Übersichtsartikel zu CTX, nicht zur vorhergesagten Indikation).
-
----
+Chenodeoxycholsäure ist eine Gallensäure, die die körpereigene Gallensäuresynthese hemmt. Das TxGNN-Modell sagt voraus, dass sie bei **homozygoter familiärer Hypercholesterinämie (homozygous familial hypercholesterolemia)** wirksam sein könnte. Für diese Richtung liegen **keine klinischen Studien** und **keine Publikation vor, die die Erkrankung direkt untersucht**; die einzige gefundene Veröffentlichung ist eine Übersichtsarbeit zu einer anderen Erkrankung.
 
 ## Schnellübersicht
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Zerebrotendinöse Xanthomatose; angeborene Stoffwechselstörungen |
-| Vorhergesagte neue Indikation | Homozygote familiäre Hypercholesterinämie |
-| TxGNN-Vorhersagewert | 99,57 % |
-| Evidenzstufe | L4 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Ursprüngliche Indikation | Xanthomatosis, Cerebrotendinous;Metabolism, Inborn Errors |
+| Vorhergesagte neue Indikation | Homozygote familiäre Hypercholesterinämie (homozygous familial hypercholesterolemia) |
+| TxGNN-Vorhersagewert | 0,9957 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
----
+## Warum ist diese Vorhersage plausibel?
 
-## Warum ist diese Vorhersage plausibel (oder nicht)?
+Zur Wirkungsweise liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Chenodeoxycholsäure (CDCA) über die Aktivierung des Farnesoid-X-Rezeptors (FXR) und die Rückkopplungshemmung von CYP7A1 die Gallensäuresynthese in der Leber unterdrückt. Damit besteht ein Bezug zum Cholesterinstoffwechsel.
 
-Die für diesen Bericht zusammengestellten Daten enthalten keine detaillierten Angaben zum Wirkmechanismus. Bekannt ist: CDCA unterdrückt die hepatische Gallensäuresynthese über die Aktivierung des Farnesoid-X-Rezeptors (FXR) und die Rückkopplungshemmung von CYP7A1. Bei der CTX, einer Störung des Cholesterin- und Gallensäurestoffwechsels, ist der Wirkstoff etabliert.
+Bei der homozygoten familiären Hypercholesterinämie liegt der Hauptdefekt jedoch in einer Funktionsstörung des LDL-Rezeptors. Eine verminderte Gallensäuresynthese würde den hepatischen Cholesterinabbau eher senken und könnte das LDL-Cholesterin damit erhöhen statt senken. Die mechanistische Begründung ist daher schwach, möglicherweise sogar kontraproduktiv. Der hohe Vorhersagewert spiegelt wahrscheinlich die Nähe im Lipidstoffwechsel-Netzwerk zu einer verwandten Stoffwechselerkrankung wider und keine belegte Wirksamkeit.
 
-Zwischen CTX und Hypercholesterinämie besteht eine gewisse Nähe im Lipidstoffwechsel. Bei der homozygoten familiären Hypercholesterinämie liegt der Hauptdefekt jedoch in der Funktionsstörung des LDL-Rezeptors. Eine verminderte Gallensäuresynthese würde den hepatischen Cholesterinabbau eher senken und damit das LDL-C eher erhöhen als senken. Die mechanistische Begründung ist daher schwach oder möglicherweise kontraproduktiv.
-
-Der hohe TxGNN-Wert spiegelt vermutlich die Nähe im Netzwerk des Lipidstoffwechsels zur CTX wider und nicht einen belegten therapeutischen Nutzen.
-
----
-
-## Klinische Studien
+## Evidenz aus klinischen Studien
 
 Derzeit sind keine zugehörigen klinischen Studien registriert.
 
----
+## Evidenz aus der Literatur
 
-## Literaturevidenz
-
-| PMID | Jahr | Typ | Journal | Kernaussagen |
+| PMID | Jahr | Typ | Zeitschrift | Kernaussagen |
 |------|-----|------|------|---------|
-| [25424010](https://pubmed.ncbi.nlm.nih.gov/25424010/) | 2014 | Review | Orphanet Journal of Rare Diseases | Umfassender Überblick über Pathogenese, klinische Manifestation, Diagnose und Behandlung der CTX (CYP27A1-Mutation, verminderte Gallensäuresynthese, Cholestanol-Akkumulation). Liefert nur indirekte Evidenz aus einer anderen Erkrankung; CDCA wurde nicht bei HoFH geprüft. |
+| [25424010](https://pubmed.ncbi.nlm.nih.gov/25424010/) | 2014 | Übersichtsarbeit | Orphanet Journal of Rare Diseases | Umfassende Übersicht zur zerebrotendinösen Xanthomatose (Pathogenese, Klinik, Diagnose, Therapie); untersucht CDCA nicht bei homozygoter familiärer Hypercholesterinämie |
 
----
+Die Arbeit liefert nur indirekte Evidenz aus einer anderen Erkrankung. Deshalb gilt Stufe L5.
 
 ## Informationen zum deutschen Markt
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004061 | Chenodeoxycholic acid Leadiant (zuvor Chenodeoxycholic acid sigma-tau) | – | Zerebrotendinöse Xanthomatose; angeborene Stoffwechselstörungen |
-
-Diese Zulassung ist erloschen bzw. aufgehoben; derzeit ist kein gültiges Präparat vermerkt.
-
----
+| EMEA/H/C/004061 | Chenodeoxycholic acid Leadiant (zuvor Chenodeoxycholic acid sigma-tau) | – | Siehe Angaben der lokalen Zulassung |
 
 ## Sicherheitsaspekte
 
-- **Kontraindikationen aus dem Wissensgraphen (kein Packungsbeilagentext):** Lebererkrankung, Gallenblasenerkrankung, Durchfallerkrankungen, Cholestase, benigne rekurrierende intrahepatische Cholestase, familiäre intrahepatische Cholestase, sklerosierende Cholangitis, primär biliäre Cholangitis, Reynolds-Syndrom.
-- **Arzneimittelwechselwirkungen:** 56 Wechselwirkungen verzeichnet; die ersten 20 sind mäßig (Moderate) eingestuft. Wichtige Beispiele:
-  - Östrogene: Ethinylestradiol, Estradiol, konjugierte Estrogene
-  - Lipidsenker: Gemfibrozil, Fenofibrat, Clofibrat, Ezetimib
-  - Gallensäurebinder: Cholestyramin, Colesevelam, Colestipol
-  - Asparaginase-Präparate, Brentuximab vedotin, Clofarabin, Cannabidiol, Aluminiumhydroxid, Anisindion, Bedaquilin
+- **Arzneimittelwechselwirkungen**: In den zusammengestellten Daten sind 56 Wechselwirkungen verzeichnet. Beispiele mit mittlerem Schweregrad: Ethinylestradiol, Estradiol, konjugierte Estrogene, Gemfibrozil, Fenofibrat, Clofibrat, Ezetimib, Colestyramin, Colesevelam, Colestipol, Aluminiumhydroxid, Cannabidiol, Bedaquilin, Brentuximab vedotin, Clofarabin, Asparaginase und Calaspargase pegol.
 
-Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) bitte die Packungsbeilage heranziehen.
-
----
-
-## Weitere vorhergesagte Indikationen (zur Einordnung)
-
-| Rang | Erkrankung | TxGNN-Wert | Evidenzstufe | Einschätzung |
-|---|---|---|---|---|
-| 2 | Hirnkleingefäßerkrankung Typ 1 (COL4A1) | 99,43 % | L5 | Kein mechanistischer Zusammenhang erkennbar |
-| 3 | Autosomal-dominantes Syndrom mit Hämaturie, retinaler Arteriolentortuosität und Kontrakturen | 99,40 % | L5 | Kein mechanistischer Zusammenhang; rein rechnerische Assoziation |
-| 4 | Familiäre kombinierte Hyperlipidämie (veralteter Begriff) | 99,34 % | L5 | Theoretischer Lipid-Zusammenhang; CDCA wurde teils mit erhöhtem LDL-C assoziiert |
-| 5 | Hyperurikämie (veralteter Begriff) | 99,27 % | L5 | Kein etablierter Zusammenhang |
-
----
+Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) siehe die Fachinformation.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die vorhergesagte Indikation gibt es keine klinischen Studien und keine direkte Literatur. Die mechanistische Begründung ist schwach und könnte sogar gegenläufig sein (mögliche Erhöhung des LDL-C). Zudem ist die einzige deutsche Zulassung erloschen.
+- Es gibt weder klinische Studien noch Literatur, die CDCA bei homozygoter familiärer Hypercholesterinämie untersuchen. Der mechanistische Zusammenhang ist schwach und könnte sogar zu einem Anstieg des LDL-Cholesterins führen.
 
-**Für ein Weiterkommen sind folgende Schritte nötig:**
-- Prüfung der Packungsbeilage (Warnhinweise, Gegenanzeigen) über die BfArM-Website, da dies die Sicherheitsprüfung derzeit blockiert
-- Ergänzung der Daten zum Wirkmechanismus (z. B. über die DrugBank-Abfrage)
-- Präklinische oder klinische Daten zu CDCA bei homozygoter familiärer Hypercholesterinämie, insbesondere zur Wirkung auf LDL-C
-- Klärung, warum die Zulassung erloschen ist, und der Verfügbarkeit des Präparats in Deutschland
+**Für ein Weiterkommen sind erforderlich:**
+- Vollständige Daten zur Wirkungsweise (MOA)
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen)
+- Präklinische Daten oder Studien zu Effekten auf LDL-Cholesterin bei LDL-Rezeptor-Defizienz
+- Klärung des Sicherheitsrisikos eines möglichen LDL-C-Anstiegs, bevor klinische Studien erwogen werden
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-## Insulin lispro: Von Diabetes mellitus zu autoimmuner Oophoritis
+## Insulin lispro: Autoimmune Oophoritis
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -50,10 +50,10 @@ hierfür liegen jedoch **keine klinischen Studien** und **keine Publikationen** 
 |------|------|
 | Ursprüngliche Indikation | Diabetes mellitus |
 | Vorhergesagte neue Indikation | Autoimmune Oophoritis |
-| TxGNN-Vorhersagewert | 99,78 % |
+| TxGNN-Vorhersagewert | 0,9978 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 5 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 4 von 5) |
+| Anzahl der Zulassungen | 5 (gültig: 4) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -68,14 +68,14 @@ Ein direkter mechanistischer Zusammenhang mit autoimmuner Oophoritis ist nicht e
 
 | Rang | Vorhergesagte Indikation | TxGNN-Wert | Evidenzniveau | Einordnung |
 |---|---|---|---|---|
-| 2 | Thiaminabhängiges Dysfunktionssyndrom | 99,37 % | L5 | Insulin kann nur die diabetische Komponente symptomatisch behandeln, nicht die Grunderkrankung |
-| 3 | Fokales Stiff-Limb-Syndrom | 99,36 % | L5 | Gemeinsame Anti-GAD65-Autoimmunität, Insulin wirkt nicht auf die Steifigkeit |
-| 4 | Klassisches Stiff-Person-Syndrom | 99,36 % | L5 | Behandlung der Begleiterkrankung Diabetes, nicht krankheitsmodifizierend |
-| 5 | Opsismodysplasie | 99,34 % | L5 | INPPL1 (SHIP2) reguliert den Insulin-/PI3K-Signalweg, Nutzen von Insulin unklar |
-| 6 | Arzneimittelinduzierte lokalisierte Lipodystrophie | 99,09 % | L5 | Insulin ist selbst eine bekannte Ursache, daher keine Therapieoption |
-| 7 | Pankreasagenesie | 99,09 % | L4 | Insulinersatz rational, entspricht aber der ursprünglichen Indikation (Diabetes) |
-| 8 | Zentrifugale Lipodystrophie | 99,04 % | L5 | Keine etablierte mechanistische Begründung |
-| 9 | Druckinduzierte lokalisierte Lipoatrophie | 99,03 % | L5 | Insulininjektionen können selbst Lipoatrophie verursachen, Sicherheitsbedenken |
+| 2 | Thiaminabhängiges Dysfunktionssyndrom | 0,9937 | L5 | Insulin kann nur die diabetische Komponente symptomatisch behandeln, nicht die Grunderkrankung |
+| 3 | Fokales Stiff-Limb-Syndrom | 0,9936 | L5 | Gemeinsame Anti-GAD65-Autoimmunität, Insulin wirkt nicht auf die Steifigkeit |
+| 4 | Klassisches Stiff-Person-Syndrom | 0,9936 | L5 | Behandlung der Begleiterkrankung Diabetes, nicht krankheitsmodifizierend |
+| 5 | Opsismodysplasie | 0,9934 | L5 | INPPL1 (SHIP2) reguliert den Insulin-/PI3K-Signalweg, Nutzen von Insulin unklar |
+| 6 | Arzneimittelinduzierte lokalisierte Lipodystrophie | 0,9909 | L5 | Insulin ist selbst eine bekannte Ursache, daher keine Therapieoption |
+| 7 | Pankreasagenesie | 0,9909 | L5 | Insulinersatz rational, entspricht aber der ursprünglichen Indikation (Diabetes) |
+| 8 | Zentrifugale Lipodystrophie | 0,9904 | L5 | Keine etablierte mechanistische Begründung |
+| 9 | Druckinduzierte lokalisierte Lipoatrophie | 0,9903 | L5 | Insulininjektionen können selbst Lipoatrophie verursachen, Sicherheitsbedenken |
 
 ---
 
@@ -107,7 +107,7 @@ Für die weiter unten gelistete Vorhersage Pankreasagenesie liegt eine einzelne,
 | EMEA/H/C/006158 | Bysumlog | – | Diabetes mellitus |
 | EMEA/H/C/004303 | Insulin lispro Sanofi | – | Diabetes mellitus |
 
-Alle fünf Zulassungen sind derzeit als erloschen/aufgehoben geführt; gültige Zulassungen liegen nicht vor.
+Von den fünf Zulassungen sind derzeit vier gültig; das Arzneimittel ist in Deutschland im Handel.
 
 ---
 
@@ -131,7 +131,7 @@ Für Warnhinweise und Gegenanzeigen siehe die Fachinformation.
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die vorhergesagte Indikation autoimmune Oophoritis gibt es weder klinische Studien noch Literatur, und ein mechanistischer Zusammenhang ist nicht belegt (Evidenzniveau L5). Zudem sind alle deutschen/EU-Zulassungen derzeit erloschen. Auch die übrigen Vorhersagen sind entweder mechanistisch nicht plausibel, symptomatisch (Begleiterkrankung Diabetes) oder betreffen Zustände, die Insulin selbst verursachen kann.
+Für die vorhergesagte Indikation autoimmune Oophoritis gibt es weder klinische Studien noch Literatur, und ein mechanistischer Zusammenhang ist nicht belegt (Evidenzniveau L5). Zudem sind derzeit 4 von 5 Zulassungen gültig, das Arzneimittel ist im Handel. Auch die übrigen Vorhersagen sind entweder mechanistisch nicht plausibel, symptomatisch (Begleiterkrankung Diabetes) oder betreffen Zustände, die Insulin selbst verursachen kann.
 
 **Für ein Weiterverfolgen ist Folgendes erforderlich:**
 - Fachinformation (Warnhinweise und Gegenanzeigen) zur Sicherheitsbewertung

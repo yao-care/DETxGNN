@@ -50,10 +50,10 @@ Für diese Richtung liegen derzeit **keine klinischen Studien** und **keine Publ
 |------|------|
 | Ursprüngliche Indikation | Dyslipidämien |
 | Vorhergesagte neue Indikation | Hämoglobinopathie |
-| TxGNN-Vorhersagewert | 99,09 % |
+| TxGNN-Vorhersagewert | 0,9909 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -101,7 +101,7 @@ Bitte die Packungsbeilage für Sicherheitsinformationen heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf einen hohen TxGNN-Wert (Evidenzgrad L5), ohne klinische Studien oder Publikationen. Zudem besteht in Deutschland derzeit keine gültige Zulassung, und die Sicherheitsdaten sind unvollständig.
+Die Vorhersage stützt sich ausschließlich auf einen hohen TxGNN-Wert (Evidenzgrad L5), ohne klinische Studien oder Publikationen. In Deutschland ist das Arzneimittel zudem im Handel und hat eine gültige Zulassung (1 von 1 Zulassungen gültig), die Sicherheitsdaten sind jedoch unvollständig.
 
 **Für ein Weiterkommen sind folgende Schritte erforderlich:**
 - Systematische Literaturrecherche zu EPA/Icosapent-Ethyl bei Hämoglobinopathien (z. B. Sichelzellkrankheit)

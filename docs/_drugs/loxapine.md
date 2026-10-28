@@ -4,17 +4,17 @@ title: Loxapine
 parent: Nur Modellvorhersage (L5)
 nav_order: 279
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Loxapine: vorhergesagte neue Indikation Manische bipolare affektive Störung (Evidenzstufe L5). Ursprüngliche Indikation: Schizophrenie"
+indication_count: 9
 monitor_inn: "LOXAPINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "atypical glycine encephalopathy"]
+last_modified_at: 2026-10-27
+description: "Loxapine: vorhergesagte neue Indikation Retinale Dystrophie mit oder ohne extraokulare Anomalien (retinal dystrophy with or without extraocular anomalies) (Evidenzstufe L5). Ursprüngliche Indikation:…"
 ---
 
 # Loxapine
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,96 +33,68 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Loxapin: Von Schizophrenie und bipolarer Störung zu manischer bipolarer affektiver Störung
+## Loxapin: Antipsychotikum (Dopamin-/Serotonin-Rezeptorantagonist) → Retinale Dystrophie mit oder ohne extraokulare Anomalien (retinal dystrophy with or without extraocular anomalies)
 {: .text-alpha }
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Loxapin ist ein Antipsychotikum der ersten Generation, das ursprünglich zur Behandlung von Schizophrenie und bipolarer Störung zugelassen wurde. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **manischer bipolarer affektiver Störung** voraus. Dafür liegen **keine registrierten klinischen Studien**, aber **20 Publikationen** vor, die überwiegend Übersichtsarbeiten zur inhalativen Formulierung bei akuter Agitation sind.
+Loxapin ist ein Antipsychotikum. Das TxGNN-Modell sagt voraus, dass es bei **retinaler Dystrophie mit oder ohne extraokulare Anomalien (retinal dystrophy with or without extraocular anomalies)** wirksam sein könnte. Für diese Richtung liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
----
-
-## Kurzüberblick
+## Kurzübersicht
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Schizophrenie; bipolare Störung |
-| Vorhergesagte neue Indikation | Manische bipolare affektive Störung |
-| TxGNN-Vorhersagewert | 99,99 % |
-| Evidenzlevel | L4 (nur Übersichtsarbeiten und mechanistische Überlegungen; keine bestätigten RCTs) |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Ursprüngliche Indikation | Schizophrenia;Bipolar Disorder |
+| Vorhergesagte neue Indikation | Retinale Dystrophie mit oder ohne extraokulare Anomalien (retinal dystrophy with or without extraocular anomalies) |
+| TxGNN-Vorhersagewert | 0,9995 |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
-
----
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach allgemeinem pharmakologischem Wissen ist Loxapin ein Antipsychotikum der Dibenzoxazepin-Klasse mit Antagonismus an Dopamin-D2- und Serotonin-5-HT2A-Rezeptoren. Dieses Profil passt grundsätzlich zu antimanischen und agitationsdämpfenden Effekten.
+Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Loxapin gehört zu den Antipsychotika, und seine Rezeptorpharmakologie (Antagonismus an Dopamin- und Serotoninrezeptoren) wird in der Fachliteratur mit psychiatrischen Erkrankungen verbunden.
 
-Die vorhergesagte Indikation überschneidet sich deutlich mit der ursprünglichen Zulassung (bipolare Störung). Es handelt sich daher nicht um ein echtes Repurposing. Die vorliegende Literatur betrifft vor allem die inhalative Formulierung (Adasuve) zur Behandlung akuter Agitation bei bipolarer Störung und Schizophrenie. Das ist eine etablierte Indikation, aber nicht streng die Behandlung der manischen Episode selbst.
+Ein erkennbarer mechanistischer Zusammenhang mit vererbten Netzhautdegenerationen besteht nicht. Der hohe Vorhersagewert von 0,9995 ist ein reines Modellergebnis ohne unterstützende Studien oder Publikationen. Die Vorhersage sollte daher als Hypothese und nicht als Hinweis auf eine tatsächliche Wirksamkeit verstanden werden.
 
-Hinweis: Das Modell nennt für weitere Indikationen (z. B. erbliche Netzhautdystrophie, Hydranenzephalie, X-chromosomale Myopie, Charcot-Marie-Tooth-Erkrankung) ebenfalls hohe Werte. Für diese gibt es weder Studien noch Literatur noch einen erkennbaren mechanistischen Zusammenhang. Sie sind reine Modellvorhersagen (Evidenzlevel L5) und werden nicht weiterverfolgt.
-
----
-
-## Evidenz aus klinischen Studien
+## Klinische Studien
 
 Derzeit sind keine zugehörigen klinischen Studien registriert.
 
----
+## Literaturevidenz
 
-## Evidenz aus der Literatur
+Derzeit liegt keine zugehörige Literatur vor.
 
-Alle aufgeführten Arbeiten sind Übersichtsarbeiten bzw. Meta-Analysen; ein RCT ist nicht enthalten.
-
-| PMID | Jahr | Typ | Journal | Kernaussagen |
-|------|-----|------|------|---------|
-| [33460070](https://pubmed.ncbi.nlm.nih.gov/33460070/) | 2020 | Review | Acta Psychiatr Scand | Evidenzbasierte Behandlungsoptionen bei bipolarer Manie, Wahl von Stimmungsstabilisator und Antipsychotikum |
-| [27151529](https://pubmed.ncbi.nlm.nih.gov/27151529/) | 2016 | Systematische Übersicht/Meta-Analyse | Hum Psychopharmacol | Kurzzeitige pharmakologische Interventionen bei Agitation im Rahmen von Schizophrenie oder bipolarer Störung |
-| [23740380](https://pubmed.ncbi.nlm.nih.gov/23740380/) | 2013 | Review | CNS Drugs | Loxapin-Inhalationspulver (Adasuve), in USA und EU zugelassen zur akuten Behandlung von Agitation; maximale Plasmakonzentration nach median 2 Minuten; zwei randomisierte, doppelblinde, placebokontrollierte Studien |
-| [31496709](https://pubmed.ncbi.nlm.nih.gov/31496709/) | 2019 | Review | Neuropsychiatr Dis Treat | Sicherheit, Wirksamkeit und Akzeptanz von inhaliertem Loxapin bei Agitation |
-| [30721526](https://pubmed.ncbi.nlm.nih.gov/30721526/) | 2019 | Review | Drugs R D | Expertenübersicht zu inhaliertem Loxapin bei akuter Agitation |
-| [28208695](https://pubmed.ncbi.nlm.nih.gov/28208695/) | 2017 | Review | Int J Mol Sci | Wirksamkeit und Verträglichkeit von inhaliertem Loxapin bei akuter Agitation |
-| [35913401](https://pubmed.ncbi.nlm.nih.gov/35913401/) | 2022 | Review | Expert Rev Neurother | Fünfzig Jahre Erfahrung mit Loxapin zur raschen, nicht-koerzitiven Beruhigung |
-| [38301034](https://pubmed.ncbi.nlm.nih.gov/38301034/) | 2024 | Review | Prim Care Companion CNS Disord | Alternative Ansätze bei akuter Agitation bei Schizophrenie und bipolarer Störung |
-| [37581475](https://pubmed.ncbi.nlm.nih.gov/37581475/) | 2023 | Review | Expert Opin Pharmacother | Verbesserung der medikamentösen Behandlung von Agitation bei bipolarer Störung |
-| [15568205](https://pubmed.ncbi.nlm.nih.gov/15568205/) | 2005 | Review | Hum Psychopharmacol | Behandlung der akuten Manie von klinischen Studien zu Praxisempfehlungen |
-
----
-
-## Marktinformationen Deutschland
+## Informationen zum Markt in Deutschland
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/002400 | Adasuve | nicht angegeben | Schizophrenie; bipolare Störung (Status: erloschen) |
+| EMEA/H/C/002400 | Adasuve | – | Schizophrenie; bipolare Störung |
 
----
+## Sicherheitshinweise
 
-## Sicherheitsaspekte
+- **Wechselwirkungen**: In den zusammengestellten Daten sind 100 Wechselwirkungen verzeichnet. Als schwerwiegend (Major) eingestuft sind unter anderem:
+  - Bupropion
+  - Morphin
+  - Kaliumcitrat
 
-- **Kontraindikationen laut Wissensgraph (PrimeKG, kein Packungsbeilagentext):** Epilepsie, benigne Prostatahyperplasie, Substanzmissbrauch/-abhängigkeit, weibliches Mammakarzinom, Herz-Kreislauf-Erkrankungen, Herzerkrankungen, Glaukom, malignes neuroleptisches Syndrom, Alzheimer-Krankheit, Spätdyskinesie, linguofaziale-bukkale Dyskinesie, Hyperprolaktinämie (einschließlich familiärer und erworbener Formen) sowie prolaktinproduzierender Hypophysentumor.
-- **Arzneimittelwechselwirkungen:** 100 Wechselwirkungen wurden gefunden, 20 davon in den Daten aufgeführt.
-  - **Schwerwiegend (Major):** Bupropion, Morphin, Kaliumcitrat
-  - **Mäßig (Moderate):** u. a. Epinephrin, Atropin, Hyoscyamin, Glycopyrronium, Dicyclomin, Loperamid, Lorcaserin, Dronabinol, Nabilon, Eluxadolin, Trospium, Mepenzolat, Clidinium, Natriumpicosulfat, Natriumsulfat sowie Polyethylenglykol mit Elektrolyten. Auffällig ist die Häufung anticholinerger Substanzen.
+  Zahlreiche weitere Wechselwirkungen sind als moderat eingestuft, darunter Epinephrin, Hyoscyamin, Loperamid, Atropin, Glycopyrronium, Dicyclomin, Dronabinol und Trospium.
 
-Für Warnhinweise und Kontraindikationen aus der Packungsbeilage liegen keine Daten vor; hierzu bitte die Fachinformation heranziehen.
-
----
+Für weitere Sicherheitsinformationen, insbesondere Warnhinweise und Gegenanzeigen, siehe die Fachinformation.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die vorhergesagte Indikation überschneidet sich mit der bereits bekannten Zulassung und ist kein echtes Repurposing. Die Evidenz besteht aus Übersichtsarbeiten, vor allem zur Agitation unter inhalativem Loxapin, ohne registrierte klinische Studien zur manischen Episode selbst. Die einzige deutsche bzw. europäische Zulassung ist erloschen, was die praktische Entwicklung einschränkt.
+Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzlevel L5). Es gibt weder klinische Studien noch Publikationen, und ein plausibler mechanistischer Zusammenhang zwischen Loxapin und vererbter Netzhautdystrophie ist nicht erkennbar.
 
-**Für ein Weiterkommen ist Folgendes nötig:**
-- Klärung, warum die Zulassung erloschen ist (kommerzielle oder sicherheitsbezogene Gründe)
-- Beschaffung und Auswertung der Packungsbeilage (Warnhinweise, Kontraindikationen), da der Sicherheitsabgleich sonst nicht fortgesetzt werden kann
-- Vollständige Mechanismusdaten (MOA), z. B. aus DrugBank
-- Kontrollierte Studien (RCTs) zur Behandlung der manischen Episode selbst, abgegrenzt von der Agitation
-- Prüfung der Verfügbarkeit geeigneter Darreichungsformen in Deutschland
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Daten zum Wirkmechanismus von Loxapin ergänzen und einen möglichen biologischen Zusammenhang mit der Netzhautdystrophie prüfen
+- Präklinische Studien (z. B. in Zell- oder Tiermodellen der Netzhautdegeneration) zur Prüfung der Hypothese
+- Warnhinweise und Gegenanzeigen aus der Fachinformation des BfArM auswerten
+- Systematische Literaturrecherche zu Loxapin und Netzhauterkrankungen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -50,10 +50,10 @@ Derzeit liegen für diese Richtung **keine klinischen Studien** und **keine Publ
 |------|------|
 | Ursprüngliche Indikation | Conscious Sedation (Sedierung bei Eingriffen) |
 | Vorhergesagte neue Indikation | Schlaflosigkeit (Insomnie) |
-| TxGNN-Vorhersagewert | 99,91 % |
+| TxGNN-Vorhersagewert | 0,9991 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -64,7 +64,7 @@ Zur Wirkungsweise liegen in den für diesen Bericht zusammengestellten Daten kei
 
 Es gibt jedoch deutliche Einschränkungen: Die sehr kurze Halbwertszeit und die rasche Clearance könnten die Aufrechterhaltung des Schlafs erschweren. Zudem ist die Substanz für die intravenöse Anwendung im Rahmen von Eingriffen formuliert, was für eine chronische Behandlung der Schlaflosigkeit wenig geeignet ist. Die Verträglichkeit einer Dauer- oder Wiederholtanwendung ist nicht belegt.
 
-Die zweite Vorhersage, **Alkoholentzugsdelir** (Wert 99,30 %), folgt derselben Logik: Benzodiazepine sind Standardtherapie beim Alkoholentzug, da sie die GABAerge Unterfunktion und glutamaterge Übererregung ausgleichen. Die ultrakurze Wirkdauer könnte eine schnelle Titration unter Überwachung erlauben, birgt aber das Risiko von Rebound-Symptomen ohne kontinuierliche Infusion. Auch hierfür liegen keine Studien oder Publikationen vor.
+Die zweite Vorhersage, **Alkoholentzugsdelir** (Wert 0,9930), folgt derselben Logik: Benzodiazepine sind Standardtherapie beim Alkoholentzug, da sie die GABAerge Unterfunktion und glutamaterge Übererregung ausgleichen. Die ultrakurze Wirkdauer könnte eine schnelle Titration unter Überwachung erlauben, birgt aber das Risiko von Rebound-Symptomen ohne kontinuierliche Infusion. Auch hierfür liegen keine Studien oder Publikationen vor.
 
 ---
 
@@ -84,9 +84,9 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/005246 | Byfavo | – | Conscious Sedation (Status: erloschen) |
+| EMEA/H/C/005246 | Byfavo | – | Conscious Sedation (Status: gültig) |
 
-Hinweis: Die einzige Zulassung (Inhaber: Paion Pharma GmbH) ist als erloschen geführt; derzeit besteht keine gültige Zulassung in den zusammengestellten Daten.
+Hinweis: Das Arzneimittel ist in Deutschland im Handel; die einzige Zulassung (Inhaber: Paion Pharma GmbH) ist gültig (1 von 1 Zulassung gültig).
 
 ---
 

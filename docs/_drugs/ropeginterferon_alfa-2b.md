@@ -48,10 +48,10 @@ Ropeginterferon alfa-2b ist ein monopegyliertes Interferon, das ursprünglich zu
 |------|------|
 | Ursprüngliche Indikation | Polycythaemia vera |
 | Vorhergesagte neue Indikation | Laubry-Pezzi-Syndrom |
-| TxGNN-Vorhersagewert | 99,93 % |
+| TxGNN-Vorhersagewert | 0,9993 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -94,7 +94,7 @@ Bei einer anderen Vorhersage (Störung der Fucoglykan-Synthese, Rang 6) wurden f
 |---------|------|------|-----------|
 | EMEA/H/C/004128 | Besremi | – | Polycythaemia vera |
 
-Diese Zulassung ist als erloschen/aufgehoben geführt. Es besteht keine gültige Zulassung.
+Diese Zulassung ist gültig. Es besteht 1 gültige Zulassung von 1.
 
 ---
 
@@ -121,7 +121,7 @@ Für Wechselwirkungen wurden in den zusammengestellten Daten keine Einträge gef
 **Entscheidung: Hold**
 
 **Begründung:**
-Für das Laubry-Pezzi-Syndrom gibt es weder klinische Studien noch Literatur, und es ist kein plausibler Wirkmechanismus erkennbar. Der hohe TxGNN-Wert stützt sich allein auf Graphstrukturen; zudem besteht in Deutschland derzeit keine gültige Zulassung.
+Für das Laubry-Pezzi-Syndrom gibt es weder klinische Studien noch Literatur, und es ist kein plausibler Wirkmechanismus erkennbar. Der hohe TxGNN-Wert stammt aus dem TxGNN-Modell (Deep Learning) und kann vom Modell gelernte Ähnlichkeiten zwischen verwandten Erkrankungen widerspiegeln, nicht biologische Evidenz; in Deutschland ist das Arzneimittel zudem derzeit mit 1 gültigen Zulassung (von 1) im Verkehr.
 
 **Für ein Weiterverfolgen wären erforderlich:**
 - Daten zum Wirkmechanismus (MOA) und eine belastbare biologische Begründung für einen Zusammenhang mit dem Laubry-Pezzi-Syndrom

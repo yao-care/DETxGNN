@@ -50,10 +50,10 @@ jedoch liegen dafür **keine klinischen Studien** und nur **5 Publikationen** vo
 |------|------|
 | Ursprüngliche Indikation | Erkrankungen des Verdauungssystems; angeborene Stoffwechselstörungen |
 | Vorhergesagte neue Indikation | HIV-Infektion |
-| TxGNN-Vorhersagewert | 99,79 % |
+| TxGNN-Vorhersagewert | 0,9979 |
 | Evidenzstufe | L4 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -88,7 +88,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/001250 | Orphacol (Theravia) | k. A. | Erkrankungen des Verdauungssystems; angeborene Stoffwechselstörungen (Status: erloschen) |
+| EMEA/H/C/001250 | Orphacol (Theravia) | k. A. | Erkrankungen des Verdauungssystems; angeborene Stoffwechselstörungen (Status: gültig) |
 
 ---
 
@@ -106,7 +106,7 @@ Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 **Entscheidung: Hold**
 
 **Begründung:**
-Für HIV-Infektion existieren keine klinischen Studien; die präklinischen Daten sind alt und widersprüchlich (antivirale Signale beim Natriumcholat, aber verstärkte Replikation bei Derivaten). Der hohe TxGNN-Wert ist durch Evidenz nicht gedeckt. Zudem besteht in Deutschland keine gültige Zulassung mehr.
+Für HIV-Infektion existieren keine klinischen Studien; die präklinischen Daten sind alt und widersprüchlich (antivirale Signale beim Natriumcholat, aber verstärkte Replikation bei Derivaten). Der hohe TxGNN-Wert ist durch Evidenz nicht gedeckt. Zudem ist das Arzneimittel in Deutschland im Handel; 1 von 1 Zulassung ist gültig.
 
 **Für ein Weiterkommen ist erforderlich:**
 - Detaillierte Wirkmechanismus-Daten (MOA)

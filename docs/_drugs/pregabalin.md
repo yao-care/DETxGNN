@@ -50,10 +50,10 @@ Die Evidenz beschränkt sich im Wesentlichen auf die modellbasierte Vorhersage.
 |------|------|
 | Ursprüngliche Indikation | Angststörungen; Epilepsie (teilweise zusätzlich Neuralgie) |
 | Vorhergesagte neue Indikation | Tendinitis |
-| TxGNN-Vorhersagewert | 99,71 % |
-| Evidenzniveau | L4 (laut Bewertung der compilierten Daten; nur indirekte Hinweise, keine Studien zu Tendinitis) |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 7 (alle erloschen) |
+| TxGNN-Vorhersagewert | 0,9971 |
+| Evidenzniveau | L5 (laut Bewertung der compilierten Daten; nur indirekte Hinweise, keine Studien zu Tendinitis) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 7 von 7) |
+| Anzahl der Zulassungen | 7 (gültig: 7) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -95,7 +95,7 @@ Derzeit sind keine relevanten klinischen Studien zu Pregabalin bei Tendinitis re
 | EMEA/H/C/003900 | Pregabalin Zentiva | – | Angststörungen; Epilepsie |
 | EMEA/H/C/004010 | Pregabalin Sandoz | – | Angststörungen; Neuralgie; Epilepsie |
 
-Alle sieben erfassten Zulassungen sind erloschen; weitere Einträge (Pregabalin Accord, Bonqat) wurden hier nicht aufgeführt.
+Das Arzneimittel ist in Deutschland im Handel; alle 7 erfassten Zulassungen sind gültig.
 
 ---
 
@@ -114,7 +114,7 @@ Für Warnhinweise und Gegenanzeigen laut Fachinformation siehe bitte die Packung
 **Entscheidung: Hold**
 
 **Begründung:**
-Für Tendinitis gibt es keine klinischen Studien, und die Literatur betrifft ausschließlich postoperative Schmerzen oder Nervenengpass-Syndrome. Der Zusammenhang ist indirekt und symptomorientiert. Zudem besteht in Deutschland derzeit keine gültige Zulassung, und die Sicherheitsdaten der Fachinformation fehlen.
+Für Tendinitis gibt es keine klinischen Studien, und die Literatur betrifft ausschließlich postoperative Schmerzen oder Nervenengpass-Syndrome. Der Zusammenhang ist indirekt und symptomorientiert. Das Arzneimittel ist in Deutschland im Handel (7 von 7 Zulassungen gültig), die Sicherheitsdaten der Fachinformation fehlen hier jedoch.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Kontrollierte Studien zu Pregabalin speziell bei Tendinitis (Schmerzendpunkte)

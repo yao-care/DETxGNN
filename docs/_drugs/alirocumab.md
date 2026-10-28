@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Alirocumab: Von Dyslipidämien zu X-chromosomaler Ichthyose (ohne Steroidsulfatase-Mangel)
+## Alirocumab: Neue vorhergesagte Indikation X-chromosomale Ichthyose ohne Steroidsulfatase-Mangel
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -50,10 +50,10 @@ jedoch gibt es dafür **0 klinische Studien** und **0 Publikationen**. Die Vorhe
 |------|------|
 | Ursprüngliche Indikation | Dyslipidämien |
 | Vorhergesagte neue Indikation | X-chromosomale Ichthyose ohne Steroidsulfatase-Mangel |
-| TxGNN-Vorhersagewert | 99,43 % |
+| TxGNN-Vorhersagewert | 0,9943 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -97,7 +97,7 @@ Zur Einordnung die relevantesten Publikationen zu den Vorhersagen mit Literatur:
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/003882 | Praluent | – | Dyslipidämien (Zulassung erloschen) |
+| EMEA/H/C/003882 | Praluent | – | Dyslipidämien (Zulassung gültig) |
 
 ---
 

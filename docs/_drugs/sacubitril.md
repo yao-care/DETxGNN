@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sacubitril
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 418
-evidence_level: L3
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Sacubitril: vorhergesagte neue Indikation Diabetische Nephropathie (Rang 3 der Vorhersagen (Evidenzstufe L3). Ursprüngliche Indikation: Herzinsuffizienz"
 monitor_inn: "SACUBITRIL"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
+description: "Sacubitril: vorhergesagte neue Indikation Brain small vessel disease 1 with or without ocular anomalies (Evidenzstufe L5). Ursprüngliche Indikation: Heart Failure"
 ---
 
 # Sacubitril
 {: .fs-9 }
 
-Evidenzniveau: **L3** | Vorhergesagte Indikationen: **5** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-## Sacubitril: Von Herzinsuffizienz zu diabetischer Nephropathie
+## Sacubitril: Brain small vessel disease 1 with or without ocular anomalies
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -46,12 +46,12 @@ Sacubitril ist ein Neprilysin-Inhibitor und wird zusammen mit Valsartan zur Beha
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Herzinsuffizienz |
-| Vorhergesagte neue Indikation | Diabetische Nephropathie (Rang 3 der Vorhersagen; die Ränge 1 und 2 haben keine tragfähige Evidenz, siehe unten) |
-| TxGNN-Vorhersagewert | 99,50 % |
-| Evidenzlevel | L3 |
-| Marktstatus in Deutschland | Nur Zulassungen erloschen/widerrufen |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Ursprüngliche Indikation | Heart Failure |
+| Vorhergesagte neue Indikation | Brain small vessel disease 1 with or without ocular anomalies |
+| TxGNN-Vorhersagewert | 0.9958 |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 **Hinweis zur Auswahl:** Die beiden höchstrangigen Vorhersagen (zerebrale Kleingefäßerkrankung, Rang 1, und das familiäre Hämaturie-Retinaarteriolen-Syndrom, Rang 2) stützen sich nur auf das Modell bzw. auf eine einzelne thematisch nicht passende Publikation (Evidenzlevel L5). Dieser Bericht betrachtet daher die Indikation mit der meisten Evidenz, die diabetische Nephropathie.
@@ -97,8 +97,8 @@ Offen bleibt, ob Sacubitril gegenüber Valsartan allein einen zusätzlichen Nutz
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004343 | Neparvis | – | Herzinsuffizienz (erloschen) |
-| EMEA/H/C/004062 | Entresto | – | Herzinsuffizienz (erloschen) |
+| EMEA/H/C/004343 | Neparvis | – | Herzinsuffizienz (gültig) |
+| EMEA/H/C/004062 | Entresto | – | Herzinsuffizienz (gültig) |
 
 ---
 

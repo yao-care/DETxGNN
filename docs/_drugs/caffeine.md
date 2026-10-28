@@ -4,17 +4,17 @@ title: Caffeine
 parent: Nur Modellvorhersage (L5)
 nav_order: 91
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Caffeine: vorhergesagte neue Indikation Erkrankung der Nasenhöhle (nasal cavity disease) (Evidenzstufe L5). Ursprüngliche Indikation: Apnoe"
+indication_count: 8
 monitor_inn: "Caffeine"
-predicted_indications: ["nasal cavity disease", "thrombotic disease", "acute laryngopharyngitis", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
+predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
+last_modified_at: 2026-10-27
+description: "Caffeine: vorhergesagte neue Indikation Erkrankung der Nasenhöhle (nasal cavity disease) (Evidenzstufe L5). Ursprüngliche Indikation: Apnea"
 ---
 
 # Caffeine
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,54 +33,44 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Koffein: Von Apnoe zu Erkrankungen der Nasenhöhle
+## Koffein: Adenosinrezeptor-Antagonist und Phosphodiesterase-Hemmer → Erkrankung der Nasenhöhle (nasal cavity disease)
 {: .text-alpha }
 
 ## Zusammenfassung
 
-Koffein wurde ursprünglich zur Behandlung der Apnoe (Atempausen bei Frühgeborenen) eingesetzt. Das TxGNN-Modell sagt voraus, dass es bei **Erkrankungen der Nasenhöhle** wirksam sein könnte. Für diese Richtung liegen jedoch **keine klinischen Studien** und nur **3 Publikationen** mit indirektem Bezug vor, sodass die Vorhersage derzeit rein modellbasiert ist.
-
----
+Koffein ist ein Methylxanthin, das als Adenosinrezeptor-Antagonist wirkt. Das TxGNN-Modell sagt voraus, dass es bei **Erkrankung der Nasenhöhle (nasal cavity disease)** wirksam sein könnte. Die Evidenz dafür ist sehr dünn: Es liegen **keine klinischen Studien** und nur **3 Publikationen** vor, die die Erkrankung nicht direkt untersuchen.
 
 ## Schnellübersicht
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Apnoe |
+| Ursprüngliche Indikation | Apnea |
 | Vorhergesagte neue Indikation | Erkrankung der Nasenhöhle (nasal cavity disease) |
-| TxGNN-Vorhersagewert | 99,91 % |
-| Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide aufgehoben) |
+| TxGNN-Vorhersagewert | 0,9991 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
-
----
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu Koffein liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Bekannt ist, dass Koffein ein Antagonist an Adenosinrezeptoren (A1, A2A, A2B, A3) ist und zudem auf Ryanodin-Rezeptoren (RyR1–3) sowie den IP3-Rezeptor (ITPR1) wirkt. Seine Wirksamkeit bei Apnoe von Frühgeborenen ist belegt.
+Zu Koffein liegen in den für diesen Bericht zusammengestellten Daten keine ausführlichen Angaben zum Wirkmechanismus vor. Die pharmakologischen Daten zeigen jedoch, dass Koffein an Adenosinrezeptoren (A1, A2A, A2B, A3) sowie an Ryanodin-Rezeptoren (RyR1–3) und am IP3-Rezeptor 1 bindet.
 
-Als Bitterstoff kann Koffein Bitterrezeptoren (TAS2R) im Atemwegsepithel aktivieren. Dies schafft eine spekulative Verbindung zur angeborenen Immunabwehr und zur mukoziliären Funktion der Nasennebenhöhlen. Die Verbindung zur ursprünglichen Indikation Apnoe (Atemwegs- bzw. Atemantriebsthema) ist nur lose.
+Ein möglicher, rein spekulativer Zusammenhang besteht über Bitterrezeptoren (TAS2R): Koffein ist ein Bitterstoff-Ligand, und diese Rezeptoren kommen im Atemwegsepithel einschließlich der Nasenhöhle vor. Sie könnten die angeborene Immunabwehr und die mukoziliäre Funktion beeinflussen. Dieser Zusammenhang ist durch keine klinischen Daten belegt. Der hohe Vorhersagewert allein ist kein Wirksamkeitsnachweis.
 
-Die einzige nasenbezogene Arbeit betrifft ein intranasales Koffein-Gel zur Verbesserung der Kognition und hat mit einer Nasenerkrankung nichts zu tun. Der hohe TxGNN-Wert wird durch klinische Daten nicht gestützt.
+## Klinische Studien
 
----
-
-## Klinische Studienevidenz
-
-Derzeit sind keine zugehörigen klinischen Studien registriert.
-
----
+Derzeit sind keine einschlägigen klinischen Studien registriert.
 
 ## Literaturevidenz
 
 | PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [26272040](https://pubmed.ncbi.nlm.nih.gov/26272040/) | 2015 | Review | Pharmacology & Therapeutics | Pharmakologie der Bitterrezeptoren (T2R) und ihre Rolle in den menschlichen Atemwegen, einschließlich der Nasenhöhle |
-| [35579146](https://pubmed.ncbi.nlm.nih.gov/35579146/) | 2022 | Präklinische Formulierungsstudie | Current Drug Delivery | Thermosensitives nasales In-situ-Gel mit Koffein zur Verbesserung der Kognition nach Schlafentzug (kein Bezug zu Nasenerkrankungen) |
-| [9751618](https://pubmed.ncbi.nlm.nih.gov/9751618/) | 1998 | Tierstudie | Cancer Research | Schwarzer Tee und Koffein hemmen die durch NNK induzierte Lungenkarzinogenese bei Ratten (kein Bezug zu Nasenerkrankungen) |
+| [26272040](https://pubmed.ncbi.nlm.nih.gov/26272040/) | 2015 | Review | Pharmacology & Therapeutics | Pharmakologie der Bitterrezeptoren (T2R) und ihre Rolle in den menschlichen Atemwegen; Expression u. a. in Nasenhöhle und Lunge |
+| [35579146](https://pubmed.ncbi.nlm.nih.gov/35579146/) | 2022 | Präklinische Formulierungsstudie | Current Drug Delivery | Nasales, thermosensitives Koffein-In-situ-Gel zur Kognitionssteigerung nach Schlafentzug; kein Bezug zu einer Nasenerkrankung |
+| [9751618](https://pubmed.ncbi.nlm.nih.gov/9751618/) | 1998 | Tierstudie | Cancer Research | Schwarzer Tee und Koffein hemmten die Lungenkarzinogenese bei Ratten; kein Bezug zur Nasenhöhle |
 
----
+Keine dieser Arbeiten untersucht Erkrankungen der Nasenhöhle direkt.
 
 ## Marktinformationen Deutschland
 
@@ -89,44 +79,24 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 | EMEA/H/C/005435 | Gencebok | – | Apnoe |
 | EMEA/H/C/001014 | Peyona (zuvor Nymusa) | – | Apnoe |
 
-Beide Zulassungen sind aufgehoben (Status: cancelled).
-
----
-
 ## Sicherheitsaspekte
 
-Die Packungsbeilage mit Warnhinweisen und Gegenanzeigen lag für diesen Bericht nicht vor. Bitte die Fachinformation zu Sicherheitsaspekten heranziehen.
+- **Wechselwirkungen (pharmakologische Zielstrukturen):** Koffein bindet an Adenosinrezeptoren (A1, A2A, A2B, A3), Ryanodin-Rezeptoren (RyR1, RyR2, RyR3) und den IP3-Rezeptor 1. Klassifizierte Arzneimittelwechselwirkungen liegen nicht vor.
 
-- **Kontraindikationen aus dem Wissensgraphen (nicht aus Beipackzetteln):** Das TxGNN-Wissensnetz (PrimeKG) verzeichnet für Koffein Kontraindikations-Verknüpfungen mit u. a. folgenden Erkrankungen:
-  - Herz-Kreislauf: Bluthochdruck, orthostatische Hypotonie, posturales orthostatisches Tachykardiesyndrom, Multisystematrophie, Long-QT-Syndrom (auch familiär)
-  - Leber und Niere: Leberversagen, Lebererkrankung, Nierenerkrankung
-  - Magen-Darm: Magengeschwür, Ulkuskrankheit, Pankreatitis, Gallenblasenerkrankung, chronisch-entzündliche Darmerkrankung
-  - Neurologie/Psyche: Epilepsie, Schlaflosigkeit, Angststörung, neurotische Störung, dysthyme Störung
-  - Lunge: COPD
-  - Stoffwechsel/Endokrinologie: Porphyrie, Hypothyreose (auch angeboren), Myxödem
-  - Sonstige: Thrombozytopenie, Pyoureter
-- **Wechselwirkungen:** Die Abfrage ergab 8 pharmakologische Zielstrukturen: Adenosinrezeptoren A1, A2A, A2B und A3, IP3R1 sowie RyR1, RyR2 und RyR3. Dies sind Wirkorte, keine klassischen Arzneimittelwechselwirkungen.
-
----
+Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) bitte die Fachinformation heranziehen.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Der hohe TxGNN-Wert (99,91 %) für Erkrankungen der Nasenhöhle wird weder durch klinische Studien noch durch direkte Literatur gestützt (Evidenzlevel L5). Zudem bestehen in Deutschland derzeit keine gültigen Zulassungen, und die Sicherheitsdaten aus der Fachinformation fehlen.
+Der hohe TxGNN-Wert (0,9991) wird durch keine klinische oder direkte Evidenz gestützt. Die gefundenen Publikationen betreffen die Nasenhöhle nur am Rande oder gar nicht, daher gilt Evidenzstufe L5.
 
-**Für ein Weiterkommen sind erforderlich:**
-- Beschaffung und Auswertung der Fachinformation mit Warnhinweisen und Gegenanzeigen (Sicherheitsprüfung)
-- Daten zum Wirkmechanismus aus DrugBank
-- Präklinische oder klinische Studien zu Koffein bei Nasen- bzw. Nasennebenhöhlenerkrankungen (z. B. zur Rolle der Bitterrezeptoren)
-- Klärung des regulatorischen Status, da keine gültige Zulassung besteht
-
----
-
-### Hinweis zu weiteren vorhergesagten Indikationen
-
-Unter den weiteren Vorhersagen mit eigener Literatur zeigen **Neuralgie** (Rang 5, L4), **trigeminoautonome Kopfschmerzen** (Rang 8, L4) und **Hypnic Headache** (Rang 9, L4, Fallberichte und Übersichtsarbeiten, ohne RCTs) mehr indirekte Evidenz als die Nasenhöhle. Sie werden als Forschungsfragen („Research Question") eingestuft. Beim Hypnic Headache ist zugleich das Risiko eines Medikamentenübergebrauch-Kopfschmerzes zu bewerten.
+**Um fortzufahren, wird Folgendes benötigt:**
+- Präklinische Daten zur Wirkung von Koffein bzw. Bitterrezeptor-Aktivierung auf Nasenschleimhaut und mukoziliäre Funktion
+- Detaillierte Angaben zum Wirkmechanismus
+- Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen), da diese Daten derzeit fehlen
+- Prüfung der Verträglichkeit und geeigneten Darreichungsform (z. B. nasale Applikation) vor jeder klinischen Studie
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

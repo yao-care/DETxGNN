@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Deferasirox
-parent: Nur Modellvorhersage (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 136
-evidence_level: L5
+evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Deferasirox: vorhergesagte neue Indikation HIV-Infektion (Evidenzstufe L5). Ursprüngliche Indikation: Eisenüberladung"
@@ -14,7 +14,7 @@ predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus inf
 # Deferasirox
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ doch bislang gibt es **keine klinischen Studien** und nur **2 Publikationen** (d
 |------|------|
 | Ursprüngliche Indikation | Eisenüberladung; β-Thalassämie |
 | Vorhergesagte neue Indikation | HIV-Infektion |
-| TxGNN-Vorhersagewert | 99,40 % |
+| TxGNN-Vorhersagewert | 0,9940 |
 | Evidenzgrad | L4 (nur präklinische/mechanistische Evidenz) |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 3 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -91,7 +91,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 | EMEA/H/C/005156 | Deferasirox Accord | – | Eisenüberladung; β-Thalassämie |
 | EMEA/H/C/000670 | Exjade | – | β-Thalassämie; Eisenüberladung |
 
-Alle drei Zulassungen sind erloschen.
+Alle drei Zulassungen sind gültig.
 
 ---
 
@@ -114,7 +114,7 @@ Angaben zu Warnhinweisen und Kontraindikationen aus der Fachinformation liegen n
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich auf einen hohen Modellwert und eine einzelne indirekte präklinische Arbeit. Es gibt keine klinischen Studien, und die Wirkrichtung der Eisenchelierung bei HIV ist unklar. Zudem hat das Präparat in Deutschland keine gültige Zulassung, und die Fachinformation zur Sicherheit fehlt.
+Die Vorhersage stützt sich auf einen hohen Modellwert und eine einzelne indirekte präklinische Arbeit. Es gibt keine klinischen Studien, und die Wirkrichtung der Eisenchelierung bei HIV ist unklar. Das Präparat ist in Deutschland im Handel (3 von 3 Zulassungen gültig), die Fachinformation zur Sicherheit fehlt.
 
 **Für das weitere Vorgehen wird Folgendes benötigt:**
 - Detaillierte Wirkmechanismus-Daten (MOA)

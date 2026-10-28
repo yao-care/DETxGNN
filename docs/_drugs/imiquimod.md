@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Imiquimod: Von aktinischer Keratose zu prämalignen Neoplasien
+## Imiquimod: Von aktinischer Keratose zu Prämalignes Neoplasma
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür liegen derzeit **2 klinische Studien** (beide klein bzw. vorzeitig beende
 |------|------|
 | Ursprüngliche Indikation | Condylomata acuminata, Keratose, aktinische Keratose, Basalzellkarzinom |
 | Vorhergesagte neue Indikation | Prämalignes Neoplasma (pre-malignant neoplasm) |
-| TxGNN-Vorhersagewert | 99,92 % |
-| Evidenzniveau | L1 (laut Bewertung der Datenzusammenstellung; siehe Hinweis unten) |
-| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassungen |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| TxGNN-Vorhersagewert | 0,9992 |
+| Evidenzniveau | L5 (laut Bewertung der Datenzusammenstellung; siehe Hinweis unten) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Proceed with Guardrails |
 
 **Hinweis zur Evidenzstufe:** Die Datenzusammenstellung ordnet L1 zu. Strikt nach den Regeln (≥2 abgeschlossene Phase-3-RCTs) ist L1 jedoch nicht erfüllt: Es gibt nur eine abgeschlossene, einarmige Phase-3-Studie (n = 20) und eine vorzeitig abgebrochene Phase-3-RCT (n = 9). Die Evidenz ist daher konservativ eher als L3 (Reviews, Fallberichte) einzustufen.
@@ -96,10 +96,10 @@ Die aktinische Keratose, eine der ursprünglichen Indikationen, ist selbst eine 
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000179 | Aldara (erloschen) | – | Condylomata acuminata, Keratose, aktinische Keratose, Basalzellkarzinom |
-| EMEA/H/C/002387 | Zyclara (erloschen) | – | Keratose, aktinische Keratose |
+| EMEA/H/C/000179 | Aldara (gültig) | – | Condylomata acuminata, Keratose, aktinische Keratose, Basalzellkarzinom |
+| EMEA/H/C/002387 | Zyclara (gültig) | – | Keratose, aktinische Keratose |
 
-Beide Zulassungen (Inhaber: Viatris Healthcare Limited) sind erloschen; derzeit ist keine gültige Zulassung vorhanden.
+Beide Zulassungen (Inhaber: Viatris Healthcare Limited) sind gültig; das Arzneimittel ist im Handel.
 
 ---
 
@@ -118,7 +118,7 @@ Für Warnhinweise und Kontraindikationen siehe die Fachinformation.
 **Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Der Wirkmechanismus passt gut zu prämalignen Epithelläsionen, und es gibt Cochrane-Reviews sowie Fallberichte zu intraepithelialen Neoplasien. Die Studienlage ist jedoch dünn (eine kleine einarmige Studie, eine abgebrochene RCT mit 9 Teilnehmern), und es besteht derzeit keine gültige Zulassung in Deutschland.
+Der Wirkmechanismus passt gut zu prämalignen Epithelläsionen, und es gibt Cochrane-Reviews sowie Fallberichte zu intraepithelialen Neoplasien. Die Studienlage ist jedoch dünn (eine kleine einarmige Studie, eine abgebrochene RCT mit 9 Teilnehmern); in Deutschland ist das Arzneimittel im Handel (2 von 2 Zulassungen gültig).
 
 **Für das weitere Vorgehen erforderlich:**
 - Auswertung der Fachinformation (Warnhinweise, Kontraindikationen), da diese Daten fehlen und die Sicherheitsprüfung bislang blockieren

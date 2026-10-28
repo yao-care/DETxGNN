@@ -4,9 +4,9 @@ title: Plerixafor
 parent: Nur Modellvorhersage (L5)
 nav_order: 362
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Plerixafor: vorhergesagte neue Indikation Indolentes Plasmazellmyelom (Evidenzstufe L5). Ursprüngliche Indikation: Multiples Myelom"
+description: "Plerixafor: vorhergesagte neue Indikation CMM7 (Evidenzstufe L5). Ursprüngliche Indikation: Multiples Myelom"
 monitor_inn: "PLERIXAFOR"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioi
 # Plerixafor
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-## Plerixafor: Vom Multiplen Myelom zum indolenten Plasmazellmyelom
+## Plerixafor: Vom Multiplen Myelom zu CMM7
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Plerixafor ist ein CXCR4-Antagonist, der in der Zulassung zur Mobilisierung häm
 |------|------|
 | Ursprüngliche Indikation | Multiples Myelom; hämatopoetische Stammzelltransplantation; Lymphom |
 | Vorhergesagte neue Indikation | Indolentes Plasmazellmyelom |
-| TxGNN-Vorhersagewert | 99,97 % |
+| TxGNN-Vorhersagewert | 0,9934 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -80,7 +80,7 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 
 ## Marktinformationen Deutschland
 
-Beide Zulassungen sind erloschen. Es besteht keine gültige Zulassung. Die Zulassungsnummern sind EU-zentrale Zulassungen.
+Es sind 2 gültige Zulassungen von 2 vorhanden. Das Arzneimittel ist im Handel. Die Zulassungsnummern sind EU-zentrale Zulassungen.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -91,7 +91,7 @@ Beide Zulassungen sind erloschen. Es besteht keine gültige Zulassung. Die Zulas
 
 ## Zusatz: Besser belegte vorhergesagte Indikation – Myeloische Leukämie
 
-Für die an Rang 7 vorhergesagte **myeloische Leukämie** (TxGNN-Wert 99,02 %) liegt die einzige substanzielle Evidenz im gesamten Datensatz vor. Das Evidenzlevel ist **L2**, die Einstufung lautet „Forschungsfrage“.
+Für die an Rang 7 vorhergesagte **myeloische Leukämie** (TxGNN-Wert 0,9902) liegt die einzige substanzielle Evidenz im gesamten Datensatz vor. Das Evidenzlevel ist **L2**, die Einstufung lautet „Forschungsfrage“.
 
 **Mechanismus:** Leukämiezellen und Leukämiestammzellen werden über CXCL12/CXCR4 in der Knochenmarknische gehalten und sind dadurch chemoresistent. Plerixafor mobilisiert sie in die Zirkulation und kann sie für Chemotherapie sensibilisieren.
 

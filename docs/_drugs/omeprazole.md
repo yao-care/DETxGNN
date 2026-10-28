@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Omeprazole
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 329
-evidence_level: L4
-indication_count: 2
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Omeprazole: vorhergesagte neue Indikation Duodenogastrischer Reflux (Evidenzstufe L4). Ursprüngliche Indikation: Magengeschwür, Zwölffingerdarmgeschwür…"
 monitor_inn: "OMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
+description: "Omeprazole: vorhergesagte neue Indikation Duodenal obstruction (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
 ---
 
 # Omeprazole
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **2** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-## Omeprazol: Von säurebedingten Magen-Darm-Erkrankungen zu duodenogastrischem Reflux
+## Omeprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,12 +48,12 @@ Die Evidenz ist jedoch begrenzt: **1 klinische Studie** (ohne direkten Bezug zur
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Magengeschwür, Zwölffingerdarmgeschwür, gastroösophageale Refluxkrankheit, Ösophagitis, Zollinger-Ellison-Syndrom u. a. (laut Wissensgraph; im Zulassungstext nicht hinterlegt) |
-| Vorhergesagte neue Indikation | Duodenogastrischer Reflux |
-| TxGNN-Vorhersagewert | 99,64 % |
-| Evidenzstufe | L4 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (aufgehoben) |
+| Ursprüngliche Indikation | In den lokalen Daten nicht erfasst |
+| Vorhergesagte neue Indikation | Duodenal obstruction |
+| TxGNN-Vorhersagewert | 0.9964 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -96,7 +96,7 @@ Kleine Studien bei Barrett-Ösophagus (PMID 10994616, 9824338) und eine pädiatr
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/005345 | Omeprazole TriviumVet | Nicht angegeben | Nicht angegeben (Status: aufgehoben) |
+| EMEA/V/C/005345 | Omeprazole TriviumVet | Nicht angegeben | Nicht angegeben (Status: gültig) |
 
 ---
 
@@ -133,7 +133,7 @@ Die Vorhersage beruht im Wesentlichen auf der Ähnlichkeit zu den bestehenden s�
 
 ## Ergänzende Bewertung: Duodenalobstruktion (Rang 2)
 
-Für die zweite vorhergesagte Indikation, **Duodenalobstruktion** (TxGNN-Wert 99,64 %), liegt nur Evidenzstufe **L5** vor (Empfehlung: **Hold**). Die einzige gelistete Phase-3-Studie (NCT00557921, Clopidogrel plus Omeprazol zur Vermeidung gastrointestinaler Blutungen, vorzeitig beendet, 5.000 Teilnehmer) hat vermutlich keinen direkten Bezug zu dieser Indikation. Die Literatur besteht aus älteren Fallberichten und unspezifischen Übersichten (1992–1997) ohne omeprazolspezifische Ergebnisse. Eine fixierte mechanische Obstruktion lässt sich durch Säurehemmung nicht beheben; Omeprazol kann allenfalls die zugrunde liegende Ulkuskrankheit indirekt beeinflussen.
+Für die zweite vorhergesagte Indikation, **Duodenalobstruktion** (TxGNN-Wert 0,9964), liegt nur Evidenzstufe **L5** vor (Empfehlung: **Hold**). Die einzige gelistete Phase-3-Studie (NCT00557921, Clopidogrel plus Omeprazol zur Vermeidung gastrointestinaler Blutungen, vorzeitig beendet, 5.000 Teilnehmer) hat vermutlich keinen direkten Bezug zu dieser Indikation. Die Literatur besteht aus älteren Fallberichten und unspezifischen Übersichten (1992–1997) ohne omeprazolspezifische Ergebnisse. Eine fixierte mechanische Obstruktion lässt sich durch Säurehemmung nicht beheben; Omeprazol kann allenfalls die zugrunde liegende Ulkuskrankheit indirekt beeinflussen.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

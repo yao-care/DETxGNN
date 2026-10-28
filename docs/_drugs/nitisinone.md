@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Nitisinon: Von Tyrosinämie zu renaler tubulärer Azidose
+## Nitisinon: Renale tubuläre Azidose
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Tyrosinämien |
 | Vorhergesagte neue Indikation | Renale tubuläre Azidose |
-| TxGNN-Vorhersagewert | 99,96 % |
+| TxGNN-Vorhersagewert | 0,9996 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -84,8 +84,8 @@ Zur Einordnung: Für andere Vorhersagen (Galaktosämie, Glykogenspeicherkrankhei
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004582 | Nityr (Status: aufgehoben) | – | Tyrosinämien |
-| EMEA/H/C/000555 | Orfadin (Status: aufgehoben) | – | Tyrosinämien |
+| EMEA/H/C/004582 | Nityr (Status: gültig) | – | Tyrosinämien |
+| EMEA/H/C/000555 | Orfadin (Status: gültig) | – | Tyrosinämien |
 
 ---
 

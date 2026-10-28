@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-## Ibuprofen: Vom persistierenden Ductus arteriosus zur akromesomelen Dysplasie (Typ Hunter-Thompson)
+## Ibuprofen: Akromesomele Dysplasie, Typ Hunter-Thompson
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Persistierender Ductus arteriosus (Ductus Arteriosus, Patent) |
 | Vorhergesagte neue Indikation | Akromesomele Dysplasie, Typ Hunter-Thompson |
-| TxGNN-Vorhersagewert | 99,74 % |
+| TxGNN-Vorhersagewert | 0,9974 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur aufgehobene Zulassungen (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 2 (beide aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -64,18 +64,18 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten k
 
 Die akromesomele Dysplasie vom Typ Hunter-Thompson ist eine Skelettdysplasie, die durch Funktionsverlust-Varianten im GDF5-Gen (BMP-Signalweg) verursacht wird. Ein etablierter mechanistischer Zusammenhang mit der COX-Hemmung besteht nicht, und die Daten stützen keine Beteiligung von Prostaglandinen an dieser Erkrankung. Ein möglicher Nutzen wäre allenfalls symptomatisch (Schmerzlinderung), nicht krankheitsmodifizierend.
 
-Der hohe TxGNN-Wert (0,997) ist daher eine reine Wissensgraph-Vorhersage und sollte nicht als Hinweis auf Wirksamkeit gewertet werden.
+Der hohe TxGNN-Wert (0,9974) ist daher eine reine Vorhersage des TxGNN-Modells (Deep Learning) und sollte nicht als Hinweis auf Wirksamkeit gewertet werden.
 
 Weitere Vorhersagen des Modells (alle Evidenzlevel L5, alle ohne Studien oder Literatur, Empfehlung jeweils Hold):
 
 | Rang | Erkrankung | TxGNN-Wert | Einschätzung |
 |------|------|------|------|
-| 2 | Brachyolmie-Amelogenesis-imperfecta-Syndrom | 99,71 % | Kein etablierter Mechanismus |
-| 3 | Myosklerose | 99,68 % | Allenfalls symptomatisch (Schmerz/Entzündung) |
-| 4 | Brachyolmie | 99,67 % | Kein etablierter Mechanismus |
-| 5 | Brachydaktylie-Syndaktylie-Syndrom | 99,66 % | Kein plausibler Mechanismus; NSAR mit entwicklungs- und fetaltoxikologischen Vorbehalten |
-| 6 | Pseudoachondroplasie | 99,66 % | Nur symptomatisch bei Gelenkschmerzen |
-| 7 | Kolobomatöse Mikrophthalmie-rhizomele-Dysplasie-Syndrom | 99,60 % | Kein COX-bezogener Mechanismus |
+| 2 | Brachyolmie-Amelogenesis-imperfecta-Syndrom | 0,9971 | Kein etablierter Mechanismus |
+| 3 | Myosklerose | 0,9968 | Allenfalls symptomatisch (Schmerz/Entzündung) |
+| 4 | Brachyolmie | 0,9967 | Kein etablierter Mechanismus |
+| 5 | Brachydaktylie-Syndaktylie-Syndrom | 0,9966 | Kein plausibler Mechanismus; NSAR mit entwicklungs- und fetaltoxikologischen Vorbehalten |
+| 6 | Pseudoachondroplasie | 0,9966 | Nur symptomatisch bei Gelenkschmerzen |
+| 7 | Kolobomatöse Mikrophthalmie-rhizomele-Dysplasie-Syndrom | 0,9960 | Kein COX-bezogener Mechanismus |
 
 ---
 
@@ -98,7 +98,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 | EMEA/H/C/006129 | Ibuprofen Gen.Orph | – | Persistierender Ductus arteriosus |
 | EMEA/H/C/000549 | Pedea | – | Persistierender Ductus arteriosus |
 
-Beide Zulassungen sind aufgehoben; es besteht aktuell keine gültige Zulassung.
+Beide Zulassungen sind gültig; das Arzneimittel ist in Deutschland im Handel.
 
 ---
 
@@ -120,7 +120,7 @@ Angaben aus der Fachinformation (Warnhinweise, Gegenanzeigen) liegen nicht vor; 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem Modellwert, ohne klinische Studien, Publikationen oder plausiblen Wirkmechanismus. Zudem besteht in Deutschland derzeit keine gültige Zulassung, und die Sicherheitsdaten sind unvollständig.
+Die Vorhersage beruht ausschließlich auf einem Modellwert, ohne klinische Studien, Publikationen oder plausiblen Wirkmechanismus. Das Arzneimittel ist in Deutschland zwar im Handel (2 von 2 Zulassungen gültig), die Sicherheitsdaten sind jedoch unvollständig.
 
 **Für ein Weiterverfolgen sind erforderlich:**
 - Fachinformation (Warnhinweise und Gegenanzeigen) der zuständigen Behörde beschaffen und auswerten, da dies die Sicherheitsprüfung derzeit blockiert

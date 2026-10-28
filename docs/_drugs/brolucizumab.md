@@ -6,7 +6,7 @@ nav_order: 79
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Brolucizumab: vorhergesagte neue Indikation Mitochondriale Störung der oxidativen Phosphorylierung durch nukleäre… (Evidenzstufe L5). Ursprüngliche Indikation: Feuchte Makuladegeneration"
+description: "Brolucizumab: vorhergesagte neue Indikation Mitochondriale Störung der oxidativen Phosphorylierung durch Kern-DNA-Anomalien (Evidenzstufe L5). Ursprüngliche Indikation: Feuchte Makuladegeneration"
 monitor_inn: "BROLUCIZUMAB"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "esophageal varices without bleeding", "esophageal varices with bleeding", "exocrine pancreatic insufficiency"]
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-## Brolucizumab: Von feuchter Makuladegeneration zu mitochondrialer Störung der oxidativen Phosphorylierung (nukleäre DNA-Anomalien)
+## Brolucizumab: Von feuchter Makuladegeneration zu Mitochondriale Störung der oxidativen Phosphorylierung durch Kern-DNA-Anomalien
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Feuchte Makuladegeneration |
 | Vorhergesagte neue Indikation | Mitochondriale Störung der oxidativen Phosphorylierung durch nukleäre DNA-Anomalien |
-| TxGNN-Vorhersagewert | 99,67 % |
+| TxGNN-Vorhersagewert | 0,9967 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusamme
 
 Primäre mitochondriale Störungen der oxidativen Phosphorylierung entstehen durch Defekte in nukleär kodierten Untereinheiten oder Assemblierungsfaktoren der Atmungskette. Die Hemmung von VEGF-A greift an dieser Ursache nicht an. Ein klarer mechanistischer Zusammenhang zur ursprünglichen Indikation ist daher nicht erkennbar.
 
-Der sehr hohe TxGNN-Wert spiegelt lediglich eine Vorhersage aus dem Wissensgraphen wider und wird durch keine Studie gestützt. Zudem könnte eine systemische VEGF-Blockade bei metabolisch vulnerablen Patienten eher schaden als nützen.
+Der sehr hohe TxGNN-Wert spiegelt lediglich eine Vorhersage des TxGNN-Modells (Deep Learning) wider und wird durch keine Studie gestützt. Zudem könnte eine systemische VEGF-Blockade bei metabolisch vulnerablen Patienten eher schaden als nützen.
 
 ---
 
@@ -104,9 +104,9 @@ Für weitere Sicherheitsinformationen ist die Fachinformation heranzuziehen.
 
 | Rang | Vorhergesagte Indikation | TxGNN-Wert | Evidenzniveau | Einschätzung |
 |---|---|---|---|---|
-| 2 | Ösophagusvarizen ohne Blutung | 99,12 % | L5 | Hold. Spekulativer Zusammenhang über VEGF-getriebene Angiogenese bei portaler Hypertonie; bei intravitrealer Anwendung ist keine relevante splanchnische Wirkung zu erwarten. Etablierte Standardtherapie vorhanden. |
-| 3 | Ösophagusvarizen mit Blutung | 99,12 % | L5 | Hold. Gleiche Überlegung, zusätzlich Sicherheitsbedenken (Blutungsrisiko unter Anti-VEGF) bei akuter Varizenblutung. |
-| 4 | Exokrine Pankreasinsuffizienz | 99,07 % | L5 | Hold. Kein plausibler mechanistischer Zusammenhang; Therapie erfolgt durch Enzymersatz. |
+| 2 | Ösophagusvarizen ohne Blutung | 0,9912 | L5 | Hold. Spekulativer Zusammenhang über VEGF-getriebene Angiogenese bei portaler Hypertonie; bei intravitrealer Anwendung ist keine relevante splanchnische Wirkung zu erwarten. Etablierte Standardtherapie vorhanden. |
+| 3 | Ösophagusvarizen mit Blutung | 0,9912 | L5 | Hold. Gleiche Überlegung, zusätzlich Sicherheitsbedenken (Blutungsrisiko unter Anti-VEGF) bei akuter Varizenblutung. |
+| 4 | Exokrine Pankreasinsuffizienz | 0,9907 | L5 | Hold. Kein plausibler mechanistischer Zusammenhang; Therapie erfolgt durch Enzymersatz. |
 
 Für alle drei Indikationen liegen weder Studien noch Literatur vor.
 

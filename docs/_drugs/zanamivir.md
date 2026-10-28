@@ -48,10 +48,10 @@ Zanamivir ist ein Neuraminidase-Hemmer, der ursprünglich zur Behandlung der hum
 |------|------|
 | Ursprüngliche Indikation | Influenza (humane Influenza) |
 | Vorhergesagte neue Indikation | Pyelonephritis |
-| TxGNN-Vorhersagescore | 99,84 % |
+| TxGNN-Vorhersagescore | 0,9984 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Zu Zanamivir liegen in den für diesen Bericht zusammengestellten Daten derzeit 
 
 Pyelonephritis ist dagegen überwiegend eine bakterielle Infektion der Niere, meist durch *E. coli*. Ein plausibler Mechanismus, der beide Erkrankungen verbindet, ist nicht erkennbar. Bakterielle Neuraminidasen (Sialidasen) werden zwar gelegentlich als Virulenzfaktoren diskutiert, für Zanamivir ist aber keine etablierte Wirkung gegen sie bei Harnwegsinfektionen belegt.
 
-Die Vorhersage ist daher vermutlich ein Artefakt des Wissensgraphen, das auf der gemeinsamen Kategorie „Infektion“ beruht und nicht auf einem biologischen Zusammenhang.
+Die Vorhersage ist daher vermutlich ein Artefakt des TxGNN-Modells (Deep Learning), das auf der gemeinsamen Kategorie „Infektion“ beruht und nicht auf einem biologischen Zusammenhang.
 
 ---
 
@@ -104,7 +104,7 @@ Für weitere Sicherheitsinformationen, insbesondere Warnhinweise und Gegenanzeig
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem hohen Modellscore (Evidenzlevel L5), ohne klinische Studien und ohne Literatur. Es gibt keinen plausiblen Wirkmechanismus zwischen einem viralen Neuraminidase-Hemmer und einer überwiegend bakteriellen Nierenentzündung. Zudem besteht in Deutschland derzeit keine gültige Zulassung.
+Die Vorhersage beruht ausschließlich auf einem hohen Modellscore (Evidenzlevel L5), ohne klinische Studien und ohne Literatur. Es gibt keinen plausiblen Wirkmechanismus zwischen einem viralen Neuraminidase-Hemmer und einer überwiegend bakteriellen Nierenentzündung. Zudem ist das Arzneimittel in Deutschland derzeit im Handel (1 von 1 Zulassungen gültig).
 
 **Für ein Weiterverfolgen sind folgende Punkte erforderlich:**
 - Belastbare Daten zum Wirkmechanismus (MOA) von Zanamivir
@@ -116,7 +116,7 @@ Die Vorhersage beruht ausschließlich auf einem hohen Modellscore (Evidenzlevel 
 
 ## Anhang: Zweite Vorhersage (kurz bewertet)
 
-Die zweitplatzierte Vorhersage, **Störung des Tyrosinstoffwechsels** (TxGNN-Score 99,02 %), ist ebenfalls nicht belegt (Evidenzlevel L5, Entscheidung: Hold). Die drei aufgefundenen Publikationen betreffen ausschließlich Neuraminidase-Hemmer bei Influenza (Oseltamivir-Resistenz, ein Messverfahren zur Neuraminidase-Hemmung, die N294S-Mutation) und nicht den Tyrosinstoffwechsel. Die Treffer dürften auf Stichwortüberschneidungen beruhen, etwa durch Aminosäurebegriffe. Es gibt keine bekannte Verbindung zwischen Tyrosinstoffwechselstörungen und der Neuraminidase-Hemmung.
+Die zweitplatzierte Vorhersage, **Störung des Tyrosinstoffwechsels** (TxGNN-Score 0,9902), ist ebenfalls nicht belegt (Evidenzlevel L5, Entscheidung: Hold). Die drei aufgefundenen Publikationen betreffen ausschließlich Neuraminidase-Hemmer bei Influenza (Oseltamivir-Resistenz, ein Messverfahren zur Neuraminidase-Hemmung, die N294S-Mutation) und nicht den Tyrosinstoffwechsel. Die Treffer dürften auf Stichwortüberschneidungen beruhen, etwa durch Aminosäurebegriffe. Es gibt keine bekannte Verbindung zwischen Tyrosinstoffwechselstörungen und der Neuraminidase-Hemmung.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

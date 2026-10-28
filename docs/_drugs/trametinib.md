@@ -4,7 +4,7 @@ title: Trametinib
 parent: Nur Modellvorhersage (L5)
 nav_order: 477
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Trametinib: vorhergesagte neue Indikation Choroideremie (Evidenzstufe L5). Ursprüngliche Indikation: Melanom"
 monitor_inn: "TRAMETINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["choroideremia"]
 # Trametinib
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -42,7 +42,7 @@ Hinweis: Die Vorhersage mit dem höchsten TxGNN-Score (Rang 1) ist Choroideremie
 
 ## Zusammenfassung
 
-Trametinib ist ein MEK-Inhibitor, der ursprünglich zur Behandlung des Melanoms zugelassen wurde. Das TxGNN-Modell sagt für **Choroideremie** die höchste Wirksamkeit voraus. Dafür gibt es jedoch **keine klinischen Studien und keine Publikationen**. Die Vorhersage ist wahrscheinlich ein Artefakt des Wissensgraphen.
+Trametinib ist ein MEK-Inhibitor, der ursprünglich zur Behandlung des Melanoms zugelassen wurde. Das TxGNN-Modell sagt für **Choroideremie** die höchste Wirksamkeit voraus. Dafür gibt es jedoch **keine klinischen Studien und keine Publikationen**. Die Vorhersage ist wahrscheinlich ein Artefakt des TxGNN-Modells (Deep Learning).
 
 ---
 
@@ -52,10 +52,10 @@ Trametinib ist ein MEK-Inhibitor, der ursprünglich zur Behandlung des Melanoms 
 |------|------|
 | Ursprüngliche Indikation | Melanom |
 | Vorhergesagte neue Indikation | Choroideremie |
-| TxGNN-Vorhersagewert | 99,31 % |
+| TxGNN-Vorhersagewert | 0,9931 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassung |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -117,15 +117,6 @@ Zu Warnhinweisen und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinforma
 
 | Rang | Indikation | Score | Evidenzstufe | Empfehlung |
 |---|---|---|---|---|
-| 2 | Nicht-kutanes Melanom | 99,30 % | L2 | Forschungsfrage |
-| 3 | Epitheloidzelliges Melanom | 99,28 % | L4 | Forschungsfrage |
-| 4 | Lidmelanom | 99,26 % | L4 | Hold |
-| 5 | Skrotummelanom | 99,21 % | L5 | Hold |
-| 6 | Noduläres malignes Melanom | 99,14 % | L3 | Proceed with Guardrails |
-| 7 | Ballonzell-Melanom | 99,14 % | L5 | Hold |
-| 8 | Superfiziell spreitendes Melanom | 99,14 % | L3 | Proceed with Guardrails |
-| 9 | CDK4-assoziiertes Melanom | 99,14 % | L5 | Hold |
-| 10 | Amelanotisches Hautmelanom | 99,14 % | L4 | Hold |
 
 Die Melanom-Subtypen sind überwiegend Varianten der bereits bekannten Indikation. Am besten belegt ist das nicht-kutane Melanom, mit 10 gelisteten Studien (u. a. NCT02296112, Phase 2, abgeschlossen, n = 9). Die Daten sind jedoch heterogen und nicht subtypspezifisch.
 

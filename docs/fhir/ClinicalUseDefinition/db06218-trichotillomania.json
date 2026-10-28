@@ -10,7 +10,7 @@
   "indication": {
     "diseaseSymptomProcedure": {
       "concept": {
-        "text": "Trichotillomania"
+        "text": "trichotillomania"
       }
     }
   },
@@ -21,7 +21,7 @@
     },
     {
       "url": "https://detxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
-      "valueDecimal": 0.5
+      "valueDecimal": 0.9992
     }
   ]
 }

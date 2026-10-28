@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tocilizumab
-parent: Mittlere Evidenz (L3-L4)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 469
-evidence_level: L4
-indication_count: 10
+evidence_level: L1
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Tocilizumab: vorhergesagte neue Indikation Ankylosierende Spondylitis (Evidenzstufe L4). Ursprüngliche Indikation: Rheumatoide Arthritis, Zytokinfreisetzungssyndrom…"
 monitor_inn: "TOCILIZUMAB"
-predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "spondyloarthropathy, susceptibility to", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency"]
+predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
+description: "Tocilizumab: vorhergesagte neue Indikation Ankylosierende Spondylitis (ankylosing spondylitis) (Evidenzstufe L1). Ursprüngliche Indikation: Arthritis, Rheumatoid"
 ---
 
 # Tocilizumab
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Tocilizumab: Von rheumatoider Arthritis zu ankylosierender Spondylitis
+## Tocilizumab: Ankylosierende Spondylitis (ankylosing spondylitis)
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,12 +48,12 @@ Dafür liegen **2 abgeschlossene bzw. beendete Phase-3-Studien (beide vorzeitig 
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Rheumatoide Arthritis, Zytokinfreisetzungssyndrom, juvenile rheumatoide Arthritis, COVID-19, Riesenzellarteriitis |
-| Vorhergesagte neue Indikation | Ankylosierende Spondylitis |
-| TxGNN-Vorhersagewert | 99,99 % |
+| Ursprüngliche Indikation | Arthritis, Rheumatoid;Cytokine Release Syndrome;Arthritis, Juvenile Rheumatoid;COVID-19 virus infection;Giant Cell Arteritis; Arthritis, Rheumatoid;Arthritis, Juvenile;Cytokine Release Syndrome;Giant Cell Arteritis;COVID-19 virus infection; Arthritis, Rheumatoid;Arthritis, Juvenile Rheumatoid;Cytoki |
+| Vorhergesagte neue Indikation | Ankylosierende Spondylitis (ankylosing spondylitis) |
+| TxGNN-Vorhersagewert | 0.9999 |
 | Evidenzstufe | L1 (formal; beide Phase-3-Studien wurden jedoch vorzeitig beendet, daher faktisch eingeschränkt belastbar) |
-| Marktstatus in Deutschland | Nur erloschene Zulassungen |
-| Anzahl der Zulassungen | 5 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 4 von 5) |
+| Anzahl der Zulassungen | 5 (gültig: 4) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -104,7 +104,7 @@ Interleukin-6 trägt zur systemischen Entzündung und zum Knochenumbau bei, wesh
 | EMEA/H/C/006196 | Avtozma | k. A. | Rheumatoide Arthritis, juvenile rheumatoide Arthritis, Zytokinfreisetzungssyndrom, COVID-19 |
 | EMEA/H/C/005984 | Tocilizumab STADA (zuvor Tofidence) | k. A. | Rheumatoide Arthritis, COVID-19, juvenile rheumatoide Arthritis |
 
-Alle fünf Zulassungen haben den Status „erloschen“.
+Vier von fünf Zulassungen sind gültig.
 
 ---
 
@@ -122,7 +122,7 @@ Für Warnhinweise und Gegenanzeigen lagen keine Daten vor; hierzu bitte die Fach
 **Entscheidung: Hold**
 
 **Begründung:**
-Die beiden Phase-3-Studien bei ankylosierender Spondylitis wurden vorzeitig beendet, und die Literatur zeigt keine belastbare Wirksamkeit. Wirksame Biologika-Klassen sind TNF- und IL-17-Inhibitoren. Zudem sind in Deutschland alle Zulassungen erloschen. Der hohe TxGNN-Wert allein rechtfertigt keine Weiterverfolgung.
+Die beiden Phase-3-Studien bei ankylosierender Spondylitis wurden vorzeitig beendet, und die Literatur zeigt keine belastbare Wirksamkeit. Wirksame Biologika-Klassen sind TNF- und IL-17-Inhibitoren. Der hohe TxGNN-Wert (0.9999) stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. Er allein rechtfertigt keine Weiterverfolgung.
 
 **Für ein Weiterkommen wären erforderlich:**
 - Detaillierte Daten zum Wirkmechanismus
@@ -142,7 +142,7 @@ Die übrigen Vorhersagen wurden bewertet. Hervorzuheben:
 | Rheumatofaktor-positive polyartikuläre JIA | L3 | Proceed with Guardrails | Extrapolation vom pJIA-Subtyp; nur Fallserie und Übersichten |
 | Rheumatoide Vaskulitis | L4 | Forschungsfrage | Nur Einzelfallberichte; auch paradoxe Vaskulitis berichtet |
 | Entzündliche Spondylopathie | L1 | Hold | Gleiche Evidenz wie bei AS |
-| Übrige (Steißbeinhypermobilität, Kümmell-Krankheit, Spondyloarthropathie-Suszeptibilität, Wirbelerkrankung, IL12B-Mangel) | L4–L5 | Hold | Kein plausibler Mechanismus oder keine Evidenz; bei IL12B-Mangel ist der Einsatz wegen erhöhten Infektionsrisikos biologisch eher kontraindiziert |
+| Übrige (Steißbeinhypermobilität, Kümmell-Krankheit, Spondyloarthropathie-Suszeptibilität, Wirbelerkrankung, IL12B-Mangel) | L5–L5 | Hold | Kein plausibler Mechanismus oder keine Evidenz; bei IL12B-Mangel ist der Einsatz wegen erhöhten Infektionsrisikos biologisch eher kontraindiziert |
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

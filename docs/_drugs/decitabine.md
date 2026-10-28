@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Decitabine
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 135
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Decitabine: vorhergesagte neue Indikation Refraktäre Zytopenie des Kindesalters (Evidenzstufe L4). Ursprüngliche Indikation: Myeloische Leukämie"
@@ -14,7 +14,7 @@ predicted_indications: ["refractory cytopenia of childhood"]
 # Decitabine
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-## Decitabin: Von myeloischer Leukämie zu refraktärer Zytopenie des Kindesalters
+## Decitabin: Refraktäre Zytopenie des Kindesalters
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,10 +48,10 @@ Decitabin ist ein hypomethylierender Wirkstoff, der ursprünglich zur Behandlung
 |------|------|
 | Ursprüngliche Indikation | Myeloische Leukämie |
 | Vorhergesagte neue Indikation | Refraktäre Zytopenie des Kindesalters |
-| TxGNN-Vorhersagewert | 99,03 % |
-| Evidenzstufe | L4 |
-| Marktstatus in Deutschland | Nur erloschene Zulassungen (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| TxGNN-Vorhersagewert | 0,9903 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -83,8 +83,8 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/002221 | Dacogen | – | Myeloische Leukämie (erloschen) |
-| EMEA/H/C/005823 | Inaqovi | – | Myeloische Leukämie (erloschen) |
+| EMEA/H/C/002221 | Dacogen | – | Myeloische Leukämie (gültig) |
+| EMEA/H/C/005823 | Inaqovi | – | Myeloische Leukämie (gültig) |
 
 ---
 
@@ -114,7 +114,7 @@ Die Warnhinweise und Kontraindikationen der Fachinformation liegen nicht vor. Bi
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich auf einen hohen Modellwert und einen plausiblen Klassenmechanismus, jedoch nur auf eine retrospektive Einzelzentrum-Kohorte und einen Fallbericht, ohne registrierte klinische Studien (Evidenzstufe L4). Zudem sind alle deutschen Zulassungen erloschen, und die Sicherheitsdaten der Fachinformation fehlen.
+Die Vorhersage stützt sich auf einen hohen Modellwert und einen plausiblen Klassenmechanismus, jedoch nur auf eine retrospektive Einzelzentrum-Kohorte und einen Fallbericht, ohne registrierte klinische Studien (Evidenzstufe L4). Zudem ist das Arzneimittel in Deutschland im Handel (2 von 2 Zulassungen gültig), und die Sicherheitsdaten der Fachinformation fehlen.
 
 **Für das weitere Vorgehen sind erforderlich:**
 - Fachinformation (Warnhinweise, Kontraindikationen) vom BfArM beschaffen und auswerten, da dies die Sicherheitsprüfung derzeit blockiert

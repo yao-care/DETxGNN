@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Panobinostat
-parent: Nur Modellvorhersage (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 342
-evidence_level: L5
+evidence_level: L2
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Panobinostat: vorhergesagte neue Indikation Myeloische Leukämie (Evidenzstufe L5). Ursprüngliche Indikation: Multiples Myelom"
@@ -14,7 +14,7 @@ predicted_indications: ["myeloid leukemia"]
 # Panobinostat
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-## Panobinostat: Vom Multiplen Myelom zur Myeloischen Leukämie
+## Panobinostat: Myeloische Leukämie
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Panobinostat ist ein Histon-Deacetylase-Inhibitor (HDAC-Inhibitor), der ursprün
 |------|------|
 | Ursprüngliche Indikation | Multiples Myelom |
 | Vorhergesagte neue Indikation | Myeloische Leukämie |
-| TxGNN-Vorhersagewert | 99,70 % |
+| TxGNN-Vorhersagewert | 0,9970 |
 | Evidenzstufe | L2 (siehe Hinweis unten) |
-| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassung |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 *Hinweis zur Evidenzstufe:* Die einzige Phase-3-Studie (NCT04326764) wurde vorzeitig mit nur 52 Patienten beendet und ist nicht aussagekräftig genug für L1. Eine abgeschlossene randomisierte Phase-2/3-Studie ist in den vorliegenden Daten nicht eindeutig belegt; die Einstufung L2 ist daher eher wohlwollend und als vorläufig zu betrachten.
@@ -110,9 +110,9 @@ Weitere Studien (u. a. bei CML, pädiatrischer AML/MDS, Phase-4-Langzeitstudie m
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/003725 | Farydak (pharmaand GmbH) | k. A. | Multiples Myelom (Status: erloschen) |
+| EMEA/H/C/003725 | Farydak (pharmaand GmbH) | k. A. | Multiples Myelom (Status: gültig) |
 
-Es besteht derzeit keine gültige Zulassung in Deutschland.
+Das Arzneimittel ist in Deutschland im Handel; 1 von 1 Zulassung ist gültig.
 
 ---
 

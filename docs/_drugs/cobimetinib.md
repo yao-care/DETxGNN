@@ -4,17 +4,17 @@ title: Cobimetinib
 parent: Nur Modellvorhersage (L5)
 nav_order: 122
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Cobimetinib: vorhergesagte neue Indikation Amyotrophe Lateralsklerose (Evidenzstufe L5). Ursprüngliche Indikation: Melanom"
 monitor_inn: "cobimetinib"
-predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "Mills syndrome", "amyotrophic lateral sclerosis, susceptibility to", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "amyotrohpic lateral sclerosis type 22", "monomelic amyotrophy"]
+predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "Mills syndrome", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "amyotrohpic lateral sclerosis type 22", "monomelic amyotrophy"]
 ---
 
 # Cobimetinib
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Cobimetinib: Von Melanom zu Amyotropher Lateralsklerose
+## Cobimetinib: Von Melanom zu Amyotrophe Lateralsklerose
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,10 +48,10 @@ Cobimetinib (Handelsname Cotellic) wurde ursprünglich zur Behandlung des Melano
 |------|------|
 | Ursprüngliche Indikation | Melanom |
 | Vorhergesagte neue Indikation | Amyotrophe Lateralsklerose |
-| TxGNN-Vorhersagewert | 99,73 % |
+| TxGNN-Vorhersagewert | 0,9973 |
 | Evidenzniveau | L5 (nur Modellvorhersage) |
-| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassung |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Cobimetinib geh
 
 Die Verbindung zur ALS ist spekulativ: Eine Aktivierung des ERK-Signalwegs und Neuroinflammation werden in der ALS-Biologie diskutiert. Dies liefert eine plausible, aber nicht validierte Begründung. Ein wichtiger Einwand ist die begrenzte ZNS-Gängigkeit von Cobimetinib (P-Glykoprotein-Substrat), die den Ansatz zusätzlich schwächt.
 
-Der hohe Modellwert (0,997) allein ist kein Wirksamkeitsnachweis. Auch die übrigen Top-10-Vorhersagen sind überwiegend seltene Erkrankungen, bei denen kein belastbarer Mechanismus erkennbar ist:
+Der hohe Modellwert (0,9973) allein ist kein Wirksamkeitsnachweis. Auch die übrigen Top-10-Vorhersagen sind überwiegend seltene Erkrankungen, bei denen kein belastbarer Mechanismus erkennbar ist:
 
 - **Motoneuron-Erkrankungen mit ALS-Bezug** (Mills-Syndrom, ALS-Suszeptibilität, spät beginnendes Syndrom des unteren Motoneurons, ALS Typ 22, monomele Amyotrophie): nur Analogieschluss. Die „ALS-Suszeptibilität" ist zudem eine doppelte Ontologie-Entität und keine unabhängige Indikation.
 - **Strukturelle oder entwicklungsbedingte Erkrankungen** (bilaterale parasagittale parieto-okzipitale Polymikrogyrie, axiale spondylometaphysäre Dysplasie): kein erkennbarer Mechanismus. Ein MEK-Inhibitor dürfte einen bestehenden strukturellen Defekt nicht umkehren.
@@ -89,7 +89,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/003960 | Cotellic | – | Melanom |
 
-Diese Zulassung ist erloschen (Inhaber: Roche Registration GmbH). Derzeit besteht keine gültige Zulassung in Deutschland.
+Diese Zulassung ist gültig (Inhaber: Roche Registration GmbH). Das Arzneimittel ist in Deutschland im Handel; 1 von 1 Zulassung ist gültig.
 
 ---
 
@@ -125,7 +125,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf ein Modell (L5), ohne klinische Studien oder Publikationen. Der Mechanismus ist spekulativ, die ZNS-Gängigkeit ist begrenzt, das Wechselwirkungsprofil umfangreich, und in Deutschland besteht keine gültige Zulassung.
+Die Vorhersage stützt sich ausschließlich auf ein Modell (L5), ohne klinische Studien oder Publikationen. Der Mechanismus ist spekulativ, die ZNS-Gängigkeit ist begrenzt und das Wechselwirkungsprofil umfangreich. In Deutschland ist das Arzneimittel mit einer gültigen Zulassung im Handel.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Daten zum Wirkmechanismus (MOA) aus DrugBank ergänzen

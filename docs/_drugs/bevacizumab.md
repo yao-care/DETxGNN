@@ -5,10 +5,10 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 60
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Bevacizumab: vorhergesagte neue Indikation Epiglottis-Neoplasie (Evidenzstufe L5). Ursprüngliche Indikation: Kolorektale Neoplasien, Brustkrebs…"
 monitor_inn: "BEVACIZUMAB"
 predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "cystic neoplasm", "nasal cavity inverting papilloma", "mesenchymoma", "schwannoma of jugular foramen"]
+last_modified_at: 2026-10-27
+description: "Bevacizumab: vorhergesagte neue Indikation Epiglottis-Neoplasma (epiglottis neoplasm) (Evidenzstufe L5). Ursprüngliche Indikation: Colorectal Neoplasms"
 ---
 
 # Bevacizumab
@@ -33,110 +33,84 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Bevacizumab: Von Darmkrebs und weiteren Tumorerkrankungen zu Epiglottis-Neoplasie
+## Bevacizumab: VEGF-A-Antikörper → Epiglottis-Neoplasma (epiglottis neoplasm)
 {: .text-alpha }
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Bevacizumab ist ein gegen VEGF-A gerichteter monoklonaler Antikörper, der ursprünglich zur Behandlung mehrerer Krebserkrankungen (u. a. Darm-, Brust-, Lungen-, Nierenzell-, Eierstock- und Gebärmutterhalskrebs) sowie der feuchten Makuladegeneration zugelassen wurde.
-Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei **Epiglottis-Neoplasie** (Tumor der Kehldeckelregion) wirksam sein könnte.
-Für diese konkrete Indikation liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
+Bevacizumab ist ein monoklonaler Antikörper, der den vaskulären endothelialen Wachstumsfaktor A (VEGF-A) neutralisiert und in der Onkologie sowie in der Augenheilkunde eingesetzt wird. Das TxGNN-Modell sagt voraus, dass er bei **Epiglottis-Neoplasma (epiglottis neoplasm)** wirksam sein könnte. Für diese Vorhersage liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; sie beruht ausschließlich auf der Modellvorhersage.
 
----
-
-## Schnellübersicht
+## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Kolorektale Neoplasien, Brustkrebs, nicht-kleinzelliges Lungenkarzinom, Nierenzellkarzinom, Gebärmutterhalskrebs |
-| Vorhergesagte neue Indikation | Epiglottis-Neoplasie |
-| TxGNN-Vorhersagewert | 99,90 % |
-| Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 10 (alle erloschen) |
+| Ursprüngliche Indikation | Colorectal Neoplasms;Breast Neoplasms;Carcinoma, Non-Small-Cell Lung;Carcinoma, Renal Cell;Uterine Cervical Neoplasms; Carcinoma, Non-Small-Cell Lung;Breast Neoplasms;Ovarian Neoplasms;Colorectal Neoplasms;Carcinoma, Renal Cell;Fallopian Tube Neoplasms;Peritoneal Neoplasms;Uterine Cervical Neoplasms |
+| Vorhergesagte neue Indikation | Epiglottis-Neoplasma (epiglottis neoplasm) |
+| TxGNN-Vorhersagewert | 0,9990 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 10 von 10) |
+| Anzahl der Zulassungen | 10 (gültig: 10) |
 | Empfohlene Entscheidung | Hold |
-
----
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Bevacizumab VEGF-A neutralisiert und dadurch die Neubildung von Blutgefäßen (Angiogenese) im Tumor hemmt. Seine Wirksamkeit bei mehreren soliden Tumoren ist belegt.
+Zum detaillierten Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine Angaben vor. Bekannt ist, dass Bevacizumab VEGF-A bindet und neutralisiert und damit die Neubildung von Blutgefäßen im Tumor hemmt. Dieser antiangiogene Mechanismus ist bei mehreren soliden Tumoren genutzt worden.
 
-Mechanistisch könnte dies auch auf angiogeneseabhängige Tumoren im Kopf-Hals-Bereich übertragbar sein. Ein direkter Beleg für Epiglottis-Neoplasien wurde jedoch nicht gefunden. Die Ähnlichkeit zur ursprünglichen Indikation ist nicht bewertet. Die Plausibilität bleibt daher spekulativ.
-
----
+Kopf-Hals-Tumoren sind häufig stark vaskularisiert und angiogenesevermittelt, weshalb eine Wirkung von Bevacizumab hier mechanistisch denkbar ist. Für Tumoren der Epiglottis wurden jedoch weder Studien noch Literatur gefunden. Die Plausibilität bleibt daher spekulativ und stützt sich allein auf die Modellvorhersage.
 
 ## Klinische Studien
 
-Derzeit sind keine zugehörigen klinischen Studien für Epiglottis-Neoplasie registriert.
+Derzeit sind keine klinischen Studien zu dieser Indikation registriert.
 
----
+## Literatur
 
-## Literaturevidenz
-
-Derzeit liegt keine zugehörige Literatur vor.
-
----
+Derzeit ist keine Literatur zu dieser Indikation verfügbar.
 
 ## Marktinformationen Deutschland
 
-Alle zehn erfassten Zulassungen sind erloschen. Die Daten stammen aus europäischen Zentralzulassungen (EMEA).
-
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004697 | Zirabev | – | Kolorektale Neoplasien, Brustkrebs, NSCLC, Nierenzellkarzinom, Gebärmutterhalskrebs |
-| EMEA/H/C/000582 | Avastin | – | NSCLC, Brustkrebs, Ovarialkarzinom, kolorektale Neoplasien, Nierenzellkarzinom, Eileiter-... |
-| EMEA/H/C/005534 | Vegzelma | – | Kolorektale Neoplasien, Brustkrebs, Ovarialkarzinom, Eileiter-, Peritonealkarzinom, NSCLC... |
-| EMEA/H/C/005286 | Alymsys | – | Kolorektale Neoplasien, Brustkrebs, Ovarialkarzinom, Peritonealkarzinom, NSCLC, Nierenzell... |
+| EMEA/H/C/004697 | Zirabev | – | Kolorektale Neoplasien, Mammakarzinom, nicht-kleinzelliges Lungenkarzinom, Nierenzellkarzinom, Zervixkarzinom |
+| EMEA/H/C/000582 | Avastin | – | Nicht-kleinzelliges Lungenkarzinom, Mammakarzinom, Ovarialkarzinom, kolorektale Neoplasien, Nierenzellkarzinom... |
+| EMEA/H/C/005534 | Vegzelma | – | Kolorektale Neoplasien, Mammakarzinom, Ovarialkarzinom, Tuben-, Peritonealkarzinom... |
+| EMEA/H/C/005286 | Alymsys | – | Kolorektale Neoplasien, Mammakarzinom, Ovarialkarzinom, Peritonealkarzinom... |
 | EMEA/H/C/005723 | Lytenava | – | Feuchte Makuladegeneration |
-
----
 
 ## Zytotoxizität
 
 | Punkt | Inhalt |
 |------|------|
-| Klassifikation | Zielgerichtete Therapie (monoklonaler Anti-VEGF-Antikörper), kein konventionelles Zytostatikum |
-| Myelosuppressionsrisiko | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
-| Emetogenität | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
-| Überwachungsparameter | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
-| Schutzmaßnahmen bei Handhabung | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
-
----
+| Klassifikation | Zielgerichtete Therapie (monoklonaler Antikörper gegen VEGF-A), kein klassisches Zytostatikum |
+| Myelosuppressionsrisiko | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenität | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Handhabungsschutz | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
 
 ## Sicherheitsaspekte
 
-**Arzneimittelwechselwirkungen:** Insgesamt wurden 22 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** eingestuft sind:
-- Deferipron
-- Samarium-(153Sm)-Lexidronam
-- Panitumumab
-- Sunitinib
-- Thalidomid
+- **Arzneimittelwechselwirkungen**: Es wurden 22 Wechselwirkungen erfasst. Als schwerwiegend (Major) eingestuft sind unter anderem:
+  - Deferipron
+  - Samarium (153Sm) Lexidronam
+  - Panitumumab
+  - Sunitinib
+  - Thalidomid
 
-Zahlreiche weitere sind als **moderat** eingestuft, u. a. Bisphosphonate (Alendronsäure, Risedronsäure, Etidronsäure, Ibandronat, Pamidronsäure, Tiludronsäure), Filgrastim, Pegfilgrastim, Sargramostim, Palifermin, Idelalisib, Romosozumab, Radium-223-dichlorid, Strontium-89-chlorid und Natriumphosphat (P-32).
+  Zahlreiche weitere Wechselwirkungen sind als moderat eingestuft, darunter Bisphosphonate (z. B. Alendronsäure, Risedronsäure, Pamidronsäure, Ibandronat), Filgrastim, Pegfilgrastim, Sargramostim, Palifermin, Idelalisib und Romosozumab.
 
 Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
-
----
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Für Epiglottis-Neoplasie existieren weder klinische Studien noch Publikationen; die Vorhersage stützt sich ausschließlich auf das Modell (L5). Zudem sind in Deutschland derzeit keine gültigen Zulassungen vorhanden.
+Die Vorhersage für Epiglottis-Neoplasma beruht allein auf dem Modellwert (Evidenzstufe L5); es gibt weder klinische Studien noch Publikationen, die diese Erkrankung direkt untersuchen.
 
 **Für ein Weiterkommen sind erforderlich:**
-- Fachinformation mit Warnhinweisen und Gegenanzeigen (derzeit fehlend, blockiert die Sicherheitsprüfung)
-- Detaillierte Wirkmechanismus-Daten (MOA)
-- Prüfung präklinischer und klinischer Evidenz speziell für Kehldeckel- bzw. Kopf-Hals-Tumoren
-- Klärung des Zulassungs- und Marktstatus in Deutschland
-
----
-
-## Ergänzende Hinweise zu weiteren Vorhersagen
-
-Unter den weiteren Top-10-Vorhersagen ist die Evidenz für **zystische Neoplasie** am stärksten (L1). Sie stützt sich auf eine randomisierte Phase-3-Studie ([NCT00565851](https://clinicaltrials.gov/study/NCT00565851), n = 1052, Carboplatin/Paclitaxel ± Bevacizumab bei Ovarial-, Peritoneal- und Eileiterkarzinom) und eine systematische Übersichtsarbeit ([PMID 37754507](https://pubmed.ncbi.nlm.nih.gov/37754507/)) zu niedriggradigen serösen Ovarialkarzinomen. Diese Evidenz gilt jedoch nur für die Ovarialkarzinom-Untergruppe, und die Zuordnung der breiten Bezeichnung „zystische Neoplasie“ ist unsicher. Die zugehörige Empfehlung lautet „Research Question“ und rechtfertigt keine Übertragung auf die Hauptvorhersage.
+- Systematische Literatur- und Studienrecherche zu Bevacizumab bei Kehldeckel- bzw. Kehlkopf-/Kopf-Hals-Tumoren
+- Daten zum Wirkmechanismus (MOA)
+- Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM/EMA)
+- Präklinische Daten oder eine explorative Studie, die die Erkrankung direkt adressiert
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

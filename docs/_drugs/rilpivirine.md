@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Rilpivirine
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 398
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Rilpivirine: vorhergesagte neue Indikation Felines erworbenes Immundefizienzsyndrom (Evidenzstufe L4). Ursprüngliche Indikation: HIV-Infektionen"
 monitor_inn: "RILPIVIRINE"
@@ -14,7 +14,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 # Rilpivirine
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **5** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Dafür liegen bislang **keine klinischen Studien** und **eine Publikation** (pr�
 |------|------|
 | Ursprüngliche Indikation | HIV-Infektionen |
 | Vorhergesagte neue Indikation | Felines erworbenes Immundefizienzsyndrom |
-| TxGNN-Vorhersagewert | 99,97 % |
-| Evidenzgrad | L4 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 6 (alle aufgehoben) |
+| TxGNN-Vorhersagewert | 0,9997 |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 6 von 6) |
+| Anzahl der Zulassungen | 6 (gültig: 6) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -122,7 +122,7 @@ Die Vorhersage stützt sich nur auf eine einzelne präklinische Studie ohne klin
 
 ---
 
-**Hinweis zu weiteren Vorhersagen:** Die Vorhersage „Simian-Immundefizienzvirus-Infektion" (Makakenmodelle mit lang wirksamem Rilpivirin, Evidenz L4) ist ein Tiermodell der bereits zugelassenen HIV-Indikation. „AIDS-related complex" und „angeborenes HIV" entsprechen im Wesentlichen der bestehenden Indikation. Für die Vorhersage „neurologische Entwicklungsstörung mit ataxischem Gang" gibt es weder Studien noch einen erkennbaren mechanistischen Zusammenhang (L5); der hohe Score ist vermutlich ein Artefakt des Graphen.
+**Hinweis zu weiteren Vorhersagen:** Die Vorhersage „Simian-Immundefizienzvirus-Infektion" (Makakenmodelle mit lang wirksamem Rilpivirin, Evidenz L4) ist ein Tiermodell der bereits zugelassenen HIV-Indikation. Für die Vorhersage „neurologische Entwicklungsstörung mit ataxischem Gang" gibt es weder Studien noch einen erkennbaren mechanistischen Zusammenhang (L5); der hohe Score stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

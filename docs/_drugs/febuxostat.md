@@ -33,7 +33,7 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-## Febuxostat: Von Gicht zu renaler Hypourikämie
+## Febuxostat: Renale Hypourikämie
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Febuxostat ist ein nicht-purinerger, selektiver Xanthinoxidase-Hemmer, der urspr
 |------|------|
 | Ursprüngliche Indikation | Gicht |
 | Vorhergesagte neue Indikation | Renale Hypourikämie |
-| TxGNN-Vorhersagewert | 99,99 % |
+| TxGNN-Vorhersagewert | 0,9999 |
 | Evidenzstufe | L4 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
-| Anzahl der Zulassungen | 3 (alle aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
 | Empfohlene Entscheidung | Hold |
 
 ---

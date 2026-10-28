@@ -50,10 +50,10 @@ Dafür liegen **keine klinischen Studien** und **keine Publikationen** vor; die 
 |------|------|
 | Ursprüngliche Indikation | Ovulation; Ovulationsinduktion |
 | Vorhergesagte neue Indikation | Hypertrichose |
-| TxGNN-Vorhersagewert | 99,98 % |
+| TxGNN-Vorhersagewert | 0,9998 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -65,8 +65,8 @@ Für die vorliegende Analyse sind keine detaillierten Daten zum Wirkmechanismus 
 Für Hypertrichose besteht jedoch kein klarer mechanistischer Zusammenhang. Hypertrichose ist typischerweise nicht androgenabhängig, sodass eine GnRH-Blockade kein etablierter Therapieansatz ist. Eine entfernte Verbindung besteht allenfalls zum androgenbedingten Hirsutismus, der jedoch eine andere Erkrankung darstellt. Der hohe TxGNN-Wert ist eine rein computergestützte Vorhersage ohne Rückhalt in Studien oder Literatur.
 
 Auch bei den weiteren vorhergesagten Indikationen ist der Zusammenhang überwiegend schwach (z. B. angeborene Fehlbildungssyndrome, genetisch bedingte Haarschaftanomalien). Biologisch am ehesten nachvollziehbar sind:
-- **Zentrale Pubertas praecox** (Rang 10, Wert 99,29 %): Die Erkrankung wird durch eine frühe Aktivierung der Hypothalamus-Hypophysen-Gonaden-Achse getrieben. Standardtherapie sind GnRH-Agonisten; ein Antagonist wie Cetrorelix ist mechanistisch plausibel. Einschränkungen sind die kurze Wirkdauer, die notwendigen häufigen Injektionen, fehlende pädiatrische Daten und der Marktstatus.
-- **Familiäre männerlimitierte Pubertas praecox** (Rang 8, Wert 99,55 %): Die Ursache sind aktivierende LHCGR-Mutationen, die unabhängig von GnRH wirken. Eine GnRH-Blockade würde die autonome Leydig-Zell-Aktivität nicht direkt unterdrücken; allenfalls bei später auftretender sekundärer zentraler Aktivierung wäre ein Nutzen denkbar. Dies ist nur eine Hypothese.
+- **Zentrale Pubertas praecox** (Rang 10, Wert 0,9929): Die Erkrankung wird durch eine frühe Aktivierung der Hypothalamus-Hypophysen-Gonaden-Achse getrieben. Standardtherapie sind GnRH-Agonisten; ein Antagonist wie Cetrorelix ist mechanistisch plausibel. Einschränkungen sind die kurze Wirkdauer, die notwendigen häufigen Injektionen, fehlende pädiatrische Daten und der Marktstatus.
+- **Familiäre männerlimitierte Pubertas praecox** (Rang 8, Wert 0,9955): Die Ursache sind aktivierende LHCGR-Mutationen, die unabhängig von GnRH wirken. Eine GnRH-Blockade würde die autonome Leydig-Zell-Aktivität nicht direkt unterdrücken; allenfalls bei später auftretender sekundärer zentraler Aktivierung wäre ein Nutzen denkbar. Dies ist nur eine Hypothese.
 
 ---
 

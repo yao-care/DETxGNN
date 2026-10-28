@@ -46,10 +46,10 @@ Defibrotid wurde ursprünglich zur Behandlung der hepatischen veno-okklusiven Er
 |------|------|
 | Ursprüngliche Indikation | Hepatische veno-okklusive Erkrankung |
 | Vorhergesagte neue Indikation | Pseudo-von-Willebrand-Erkrankung |
-| TxGNN-Vorhersagewert | 99,91 % |
+| TxGNN-Vorhersagewert | 0,9991 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 Hinweis: Für die zweitplatzierte bis zehntplatzierte Vorhersage gilt ebenfalls überwiegend L5/Hold. Nur TTP (Rang 4) und thrombozytopenische Purpura (Rang 10) erreichen L4 mit der Einstufung „Forschungsfrage".
@@ -89,7 +89,7 @@ Für die Hauptvorhersage (Pseudo-von-Willebrand-Erkrankung) liegt derzeit keine 
 |---------|------|------|-----------|
 | EMEA/H/C/002393 | Defitelio (Gentium S.r.l.) | – | Hepatische veno-okklusive Erkrankung |
 
-Diese Zulassung ist als erloschen/zurückgezogen geführt; derzeit ist keine gültige Zulassung vorhanden.
+Für dieses Arzneimittel ist in diesem Land 1 gültige Zulassung von 1 vorhanden; es ist im Handel.
 
 ## Sicherheitsaspekte
 

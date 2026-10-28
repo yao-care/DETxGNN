@@ -4,7 +4,7 @@ title: Telmisartan
 parent: Nur Modellvorhersage (L5)
 nav_order: 449
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Telmisartan: vorhergesagte neue Indikation Prinzmetal-Angina (Evidenzstufe L5). Ursprüngliche Indikation: Hypertonie"
 monitor_inn: "TELMISARTAN"
@@ -14,7 +14,7 @@ predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyl
 # Telmisartan
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Hinweis: Unter den weiteren vorhergesagten Indikationen hat **zerebrale Arterien
 |------|------|
 | Ursprüngliche Indikation | Hypertonie |
 | Vorhergesagte neue Indikation | Prinzmetal-Angina |
-| TxGNN-Vorhersagewert | 99,98 % |
+| TxGNN-Vorhersagewert | 0,9998 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassungen (keine aktuell gültige Zulassung) |
-| Anzahl der Zulassungen | 13 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 13 von 13) |
+| Anzahl der Zulassungen | 13 (gültig: 13) |
 | Empfohlene Entscheidung | Hold (Zurückstellen) |
 
 ---
@@ -104,7 +104,7 @@ Die Literatur zur zerebralen Arterienokklusion besteht überwiegend aus Tierdate
 
 ## Marktinformationen Deutschland
 
-Alle 13 Zulassungen sind erloschen; aktuell gültige Zulassungen liegen nicht vor. Es handelt sich um zentrale EU-Zulassungen (EMEA). Auswahl:
+Alle 13 Zulassungen sind gültig (13 von 13); das Arzneimittel ist im Handel. Es handelt sich um zentrale EU-Zulassungen (EMEA). Auswahl:
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -131,7 +131,7 @@ Bitte die Packungsbeilage für vollständige Warnhinweise und Kontraindikationen
 **Entscheidung: Hold (Zurückstellen)**
 
 **Begründung:**
-- Für Prinzmetal-Angina existiert ausschließlich eine Modellvorhersage ohne Studien oder Publikationen (L5). Zudem gibt es in Deutschland derzeit keine gültige Zulassung.
+- Für Prinzmetal-Angina existiert ausschließlich eine Modellvorhersage ohne Studien oder Publikationen (L5). Das Arzneimittel ist in Deutschland im Handel (13 von 13 Zulassungen gültig).
 - Die aussichtsreicheren Kandidaten sind zerebrale Arterienokklusion (L4, überwiegend präklinisch) und intrazerebrale Blutung (TRIDENT-Phase-3-Studie, aber Kombinationstherapie, Beitrag von Telmisartan nicht isolierbar).
 
 **Für ein Fortschreiten sind erforderlich:**

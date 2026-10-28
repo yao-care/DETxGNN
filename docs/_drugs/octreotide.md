@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-## Octreotid: Von Akromegalie zu vulvärer invertierter follikulärer Keratose
+## Octreotid: Vulväre invertierte follikuläre Keratose
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,13 +48,13 @@ Octreotid ist ein Somatostatin-Analogon, das ursprünglich zur Behandlung der **
 |------|------|
 | Ursprüngliche Indikation | Akromegalie |
 | Vorhergesagte neue Indikation | Vulväre invertierte follikuläre Keratose |
-| TxGNN-Vorhersagewert | 99,58 % |
+| TxGNN-Vorhersagewert | 0,9958 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold (zurückstellen) |
 
-Eine zweite Vorhersage, die **seborrhoische Keratose** (TxGNN-Wert 99,55 %), liegt ebenfalls vor. Auch hier fehlen klinische Studien und Literatur (Evidenzniveau L5, Empfehlung Hold).
+Eine zweite Vorhersage, die **seborrhoische Keratose** (TxGNN-Wert 0,9955), liegt ebenfalls vor. Auch hier fehlen klinische Studien und Literatur (Evidenzniveau L5, Empfehlung Hold).
 
 ---
 
@@ -84,7 +84,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/006322 | Oczyesa (Camurus AB) | – | Akromegalie |
 
-Diese Zulassung ist als erloschen/widerrufen geführt; derzeit besteht keine gültige Zulassung.
+Diese Zulassung ist gültig; das Arzneimittel ist in Deutschland im Verkehr.
 
 ---
 
@@ -107,7 +107,7 @@ Für verbindliche Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) ist die
 **Entscheidung: Hold (zurückstellen)**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzniveau L5). Es gibt weder klinische Studien noch Publikationen noch einen plausiblen mechanistischen Zusammenhang, und in Deutschland besteht derzeit keine gültige Zulassung.
+Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzniveau L5). Es gibt weder klinische Studien noch Publikationen noch einen plausiblen mechanistischen Zusammenhang. In Deutschland ist das Arzneimittel im Verkehr und besitzt 1 gültige Zulassung (von 1).
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Daten zum Wirkmechanismus (MOA) ergänzen, z. B. über die DrugBank-Abfrage

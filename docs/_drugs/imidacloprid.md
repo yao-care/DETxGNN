@@ -48,10 +48,10 @@ Imidacloprid ist ein Neonicotinoid-Wirkstoff (nikotinischer Acetylcholinrezeptor
 |------|------|
 | Ursprüngliche Indikation | Keine Angabe in den zusammengestellten Daten (die Zulassungstexte sind leer) |
 | Vorhergesagte neue Indikation | Cauda-equina-Syndrom |
-| TxGNN-Vorhersagescore | 99,99 % |
+| TxGNN-Vorhersagescore | 0,9999 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -60,7 +60,7 @@ Imidacloprid ist ein Neonicotinoid-Wirkstoff (nikotinischer Acetylcholinrezeptor
 
 Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Imidacloprid ein Neonicotinoid-Insektizid ist und als Agonist an nikotinischen Acetylcholinrezeptoren (nAChR) wirkt, mit deutlicher Selektivität für Insektenrezeptoren. Die Affinität zu nAChR von Säugetieren ist gering, und der Stoff ist kein Humantherapeutikum.
 
-Das Cauda-equina-Syndrom ist eine Kompression der lumbosakralen Nervenwurzeln. Eine biologisch plausible Verbindung zwischen einem Insekten-nAChR-Agonisten und dieser strukturellen, kompressiven Erkrankung ist nicht erkennbar. Der hohe Score dürfte eher auf Artefakten der Graphtopologie des Wissensgraphen beruhen als auf pharmakologischer Evidenz.
+Das Cauda-equina-Syndrom ist eine Kompression der lumbosakralen Nervenwurzeln. Eine biologisch plausible Verbindung zwischen einem Insekten-nAChR-Agonisten und dieser strukturellen, kompressiven Erkrankung ist nicht erkennbar. Der hohe Score stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz.
 
 Auch die weiteren Vorhersagen (u. a. obsolete neurogene Blase, Reizdarmsyndrom, Ösophaguserkrankung, Mitralklappenprolaps und verwandte Einträge) stützen sich ausschließlich auf Modellscores. Für sie gibt es keine belastbare mechanistische Begründung.
 
@@ -88,8 +88,8 @@ Zur Orientierung: Für die weiter hinten gereihte Vorhersage „Ösophaguserkran
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/005597 | Imoxat | nicht angegeben | nicht angegeben (Status: erloschen) |
-| EMEA/V/C/000076 | Advocate | nicht angegeben | nicht angegeben (Status: erloschen) |
+| EMEA/V/C/005597 | Imoxat | nicht angegeben | nicht angegeben (Status: gültig) |
+| EMEA/V/C/000076 | Advocate | nicht angegeben | nicht angegeben (Status: gültig) |
 
 ---
 

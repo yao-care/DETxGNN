@@ -4,17 +4,17 @@ title: Vortioxetine
 parent: Nur Modellvorhersage (L5)
 nav_order: 502
 evidence_level: L5
-indication_count: 5
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Vortioxetine: vorhergesagte neue Indikation Neurotische Störung (Evidenzstufe L5). Ursprüngliche Indikation: Major Depression"
 monitor_inn: "VORTIOXETINE"
-predicted_indications: ["neurotic disorder", "melancholia", "benign paroxysmal torticollis of infancy", "dysthymic disorder"]
+predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
 ---
 
 # Vortioxetine
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-## Vortioxetin: Von Major Depression zu Neurotischer Störung
+## Vortioxetin: Neurotische Störung
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -49,10 +49,10 @@ Das TxGNN-Modell sagt voraus, dass es bei der **neurotischen Störung** wirksam 
 |------|------|
 | Ursprüngliche Indikation | Major Depression |
 | Vorhergesagte neue Indikation | Neurotische Störung |
-| TxGNN-Vorhersagewert | 99,24 % |
+| TxGNN-Vorhersagewert | 0,9924 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -61,7 +61,7 @@ Das TxGNN-Modell sagt voraus, dass es bei der **neurotischen Störung** wirksam 
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Aus der Literatur ist jedoch bekannt, dass Vortioxetin die Serotonin-Wiederaufnahme (SERT) hemmt und zudem mehrere Serotoninrezeptoren moduliert (5-HT1A-Agonist, 5-HT1B-Partialagonist, 5-HT3-, 5-HT7- und 5-HT1D-Antagonist). Seine Wirksamkeit bei der Major Depression ist belegt.
 
-„Neurotische Störung" ist eine veraltete, breite diagnostische Kategorie, die sich mit depressiven und Angststörungen überschneidet. Der hohe TxGNN-Wert spiegelt vermutlich vor allem die Nähe im Wissensgraphen zur Major Depression wider und nicht ein unabhängiges mechanistisches Signal. Die serotonerge Wirkung könnte für die depressiven und ängstlichen Anteile relevant sein, dies bleibt aber eine reine Vorhersage.
+„Neurotische Störung" ist eine veraltete, breite diagnostische Kategorie, die sich mit depressiven und Angststörungen überschneidet. Der hohe Wert stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. Die serotonerge Wirkung könnte für die depressiven und ängstlichen Anteile relevant sein, dies bleibt aber eine reine Vorhersage.
 
 ---
 
@@ -83,7 +83,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/002717 | Brintellix | – | Major Depression (Status: erloschen) |
+| EMEA/H/C/002717 | Brintellix | – | Major Depression (Status: gültig) |
 
 ---
 

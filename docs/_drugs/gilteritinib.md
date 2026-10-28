@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-## Gilteritinib: Von akuter myeloischer Leukämie zu bulbärer Poliomyelitis
+## Gilteritinib: Bulbäre Poliomyelitis
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Gilteritinib ist ein Tyrosinkinase-Inhibitor, der ursprünglich zur Behandlung d
 |------|------|
 | Ursprüngliche Indikation | Akute myeloische Leukämie |
 | Vorhergesagte neue Indikation | Bulbäre Poliomyelitis |
-| TxGNN-Vorhersagewert | 99,10 % |
+| TxGNN-Vorhersagewert | 0,9910 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -84,9 +84,9 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004752 | Xospata | – | Akute myeloische Leukämie (Status: erloschen) |
+| EMEA/H/C/004752 | Xospata | – | Akute myeloische Leukämie (Status: gültig) |
 
-Hinweis: Die Zulassung liegt als zentrale europäische Zulassung (EMA) vor und ist als erloschen geführt. Es besteht derzeit keine gültige Zulassung in den zusammengestellten Daten.
+Hinweis: Die Zulassung liegt als zentrale europäische Zulassung (EMA) vor und ist gültig. Das Arzneimittel ist im Handel, in den zusammengestellten Daten ist 1 von 1 Zulassung gültig.
 
 ---
 
@@ -117,7 +117,7 @@ Aus der vorgeschlagenen Indikation ergibt sich ein zusätzliches Bedenken: Gilte
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem Graphmodell (Evidenzstufe L5) ohne Studien oder Publikationen. Ein plausibler Mechanismus fehlt, das Poliovirus nutzt CD155 statt AXL, die Sicherheitsbedenken bei einem immunsuppressiven Onkologikum sind erheblich, und die Erkrankung ist durch Impfung weitgehend verhindert. Zudem besteht in Deutschland derzeit keine gültige Zulassung.
+Die Vorhersage stammt ausschließlich vom TxGNN-Modell (Deep Learning, Evidenzstufe L5) und stützt sich auf keine Studien oder Publikationen. Der Score kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, und ist kein biologischer Beleg. Ein plausibler Mechanismus fehlt, das Poliovirus nutzt CD155 statt AXL, die Sicherheitsbedenken bei einem immunsuppressiven Onkologikum sind erheblich, und die Erkrankung ist durch Impfung weitgehend verhindert. Das Arzneimittel ist derzeit mit 1 gültigen Zulassung von 1 im Handel.
 
 **Für ein Weiterverfolgen wären erforderlich:**
 - Daten zum Wirkmechanismus (MOA) des Wirkstoffs

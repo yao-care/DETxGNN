@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Fremanezumab
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 203
-evidence_level: L4
-indication_count: 2
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Fremanezumab: vorhergesagte neue Indikation Migräne mit Hirnstamm-Aura (Evidenzstufe L4). Ursprüngliche Indikation: Migräne (Migraine Disorders)"
+description: "Fremanezumab: vorhergesagte neue Indikation Atrophoderma vermiculata (Evidenzstufe L4). Ursprüngliche Indikation: Migräne (Migraine Disorders)"
 monitor_inn: "FREMANEZUMAB"
 predicted_indications: ["atrophoderma vermiculata"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["atrophoderma vermiculata"]
 # Fremanezumab
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **2** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-## Fremanezumab: Von Migräne zu Migräne mit Hirnstamm-Aura
+## Fremanezumab: Von Migräne zu Atrophoderma vermiculata
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Fremanezumab ist ein humanisierter monoklonaler Antikörper gegen CGRP (Calciton
 |------|------|
 | Ursprüngliche Indikation | Migräne (Migraine Disorders) |
 | Vorhergesagte neue Indikation | Migräne mit Hirnstamm-Aura |
-| TxGNN-Vorhersagewert | 99,94 % |
-| Evidenzlevel | L4 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| TxGNN-Vorhersagewert | 0,9904 |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold (Forschungsfrage; Nachweis vor Fortführung erforderlich) |
 
 ---
@@ -93,7 +93,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004833 | Ajovy (Teva GmbH) | – | Migräne (Migraine Disorders); Status: erloschen |
+| EMEA/H/C/004833 | Ajovy (Teva GmbH) | – | Migräne (Migraine Disorders); Status: gültig |
 
 ---
 
@@ -122,7 +122,7 @@ Die Vorhersage beruht auf einem plausiblen Mechanismus und indirekter Evidenz au
 ---
 
 **Weitere vorhergesagte Indikation (Rang 2): Atrophoderma vermiculata**
-TxGNN-Wert 99,04 %, Evidenzlevel L5. Es gibt weder klinische Studien noch Literatur und keine erkennbare mechanistische Verbindung zur CGRP-Hemmung. Der hohe Wert ist vermutlich ein graphbasiertes Artefakt. Empfehlung: **Hold**.
+TxGNN-Wert 0,9904, Evidenzlevel L5. Es gibt weder klinische Studien noch Literatur und keine erkennbare mechanistische Verbindung zur CGRP-Hemmung. Der hohe Wert ist vermutlich ein graphbasiertes Artefakt. Empfehlung: **Hold**.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -50,10 +50,10 @@ Dafür liegen **2 klinische Studien** und **20 Publikationen** vor. Die einzige 
 |------|------|
 | Ursprüngliche Indikation | Psoriasis; psoriatische Arthritis; Colitis ulcerosa; Morbus Crohn |
 | Vorhergesagte neue Indikation | Dermatitis |
-| TxGNN-Vorhersagewert | 99,98 % |
+| TxGNN-Vorhersagewert | 0,9998 |
 | Evidenzniveau | L2 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---

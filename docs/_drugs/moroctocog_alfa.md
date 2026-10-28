@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-## Moroctocog alfa: Von Hämophilie A zu primärer Thrombozyten-Freisetzungsstörung
+## Moroctocog alfa: Von Hämophilie A zu Primäre Thrombozyten-Freisetzungsstörung
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien und keine Publikationen** vor, 
 |------|------|
 | Ursprüngliche Indikation | Hämophilie A |
 | Vorhergesagte neue Indikation | Primäre Freisetzungsstörung der Thrombozyten |
-| TxGNN-Vorhersagewert | 99,97 % |
+| TxGNN-Vorhersagewert | 0,9997 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -70,13 +70,13 @@ Alle weiteren Vorhersagen liegen ebenfalls nur auf Evidenzstufe L5 (Empfehlung: 
 
 | Rang | Vorhergesagte Indikation | TxGNN-Wert | Mechanistische Einschätzung |
 |----|------|------|------|
-| 2 | Pseudo-von-Willebrand-Erkrankung | 99,97 % | Gain-of-function-Defekt des thrombozytären GPIbα; FVIII korrigiert diesen nicht, Verbindung spekulativ |
-| 3 | Glanzmann-Thrombasthenie | 99,96 % | Defekt von Integrin αIIbβ3; Standard sind Thrombozytentransfusion oder rFVIIa, keine mechanistische Grundlage für FVIII |
-| 4 | Erworbener Gerinnungsfaktormangel | 99,88 % | Am ehesten plausibel (z. B. erworbene Hämophilie A), doch Inhibitoren neutralisieren den FVIII; Standard sind Bypass-Präparate oder porcines FVIII |
-| 5 | Scott-Syndrom | 99,86 % | Defekt der Phosphatidylserin-Exposition (TMEM16F/ANO6); lose Verbindung über den Tenase-Komplex, zusätzlicher FVIII ersetzt die fehlende Membranoberfläche nicht |
-| 6 | Blutungsneigung durch Kollagenrezeptor-Defekt | 99,73 % | Thrombozyten-intrinsisches Problem, durch FVIII nicht korrigierbar |
-| 7 | Hämorrhagische Störung durch konstitutionelle Thrombozytopenie | 99,72 % | FVIII beeinflusst die Thrombozytenzahl nicht |
-| 8 | „Flood factor deficiency" | 99,11 % | Bezeichnung unklar, möglicherweise ein Ontologie- oder Eingabefehler; Identität vorab prüfen |
+| 2 | Pseudo-von-Willebrand-Erkrankung | 0,9997 | Gain-of-function-Defekt des thrombozytären GPIbα; FVIII korrigiert diesen nicht, Verbindung spekulativ |
+| 3 | Glanzmann-Thrombasthenie | 0,9996 | Defekt von Integrin αIIbβ3; Standard sind Thrombozytentransfusion oder rFVIIa, keine mechanistische Grundlage für FVIII |
+| 4 | Erworbener Gerinnungsfaktormangel | 0,9988 | Am ehesten plausibel (z. B. erworbene Hämophilie A), doch Inhibitoren neutralisieren den FVIII; Standard sind Bypass-Präparate oder porcines FVIII |
+| 5 | Scott-Syndrom | 0,9986 | Defekt der Phosphatidylserin-Exposition (TMEM16F/ANO6); lose Verbindung über den Tenase-Komplex, zusätzlicher FVIII ersetzt die fehlende Membranoberfläche nicht |
+| 6 | Blutungsneigung durch Kollagenrezeptor-Defekt | 0,9973 | Thrombozyten-intrinsisches Problem, durch FVIII nicht korrigierbar |
+| 7 | Hämorrhagische Störung durch konstitutionelle Thrombozytopenie | 0,9972 | FVIII beeinflusst die Thrombozytenzahl nicht |
+| 8 | „Flood factor deficiency" | 0,9911 | Bezeichnung unklar, möglicherweise ein Ontologie- oder Eingabefehler; Identität vorab prüfen |
 
 ---
 

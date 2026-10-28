@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-## Ocrelizumab: Von Multipler Sklerose zu HER2-positivem Mammakarzinom
+## Ocrelizumab: Von Multipler Sklerose zu HER2-positives Mammakarzinom
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Ocrelizumab ist ein humanisierter monoklonaler Anti-CD20-Antikörper, der urspr�
 |------|------|
 | Ursprüngliche Indikation | Multiple Sklerose |
 | Vorhergesagte neue Indikation | HER2-positives Mammakarzinom |
-| TxGNN-Vorhersagewert | 99,89 % |
+| TxGNN-Vorhersagewert | 0,9989 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -60,7 +60,7 @@ Ocrelizumab ist ein humanisierter monoklonaler Anti-CD20-Antikörper, der urspr�
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Ocrelizumab CD20-positive B-Zellen depletiert und bei Multipler Sklerose seine Wirksamkeit in großen Studien gezeigt hat.
 
-Ein mechanistischer Zusammenhang zum HER2-positiven Mammakarzinom ist durch die Daten **nicht gestützt**. Dieser Tumortyp wird durch HER2-Amplifikation und -Signalwege getrieben, und Tumorzellen exprimieren CD20 üblicherweise nicht als therapeutisches Ziel. Der sehr hohe Modellwert (0,999) ist eine reine Modellvorhersage ohne klinische oder literaturbasierte Bestätigung.
+Ein mechanistischer Zusammenhang zum HER2-positiven Mammakarzinom ist durch die Daten **nicht gestützt**. Dieser Tumortyp wird durch HER2-Amplifikation und -Signalwege getrieben, und Tumorzellen exprimieren CD20 üblicherweise nicht als therapeutisches Ziel. Der sehr hohe Modellwert (0,9989) ist eine reine Modellvorhersage ohne klinische oder literaturbasierte Bestätigung.
 
 Weitere vom Modell vorhergesagte Indikationen sind ebenfalls Brustkrebsformen (normal-brustähnlicher Subtyp, progesteronrezeptor-positiv, progesteronrezeptor-negativ, Luminal A/B), ebenfalls ohne belegten mechanistischen Zusammenhang.
 

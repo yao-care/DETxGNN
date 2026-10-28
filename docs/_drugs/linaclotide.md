@@ -50,10 +50,10 @@ Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vo
 |------|------|
 | Ursprüngliche Indikation | Reizdarmsyndrom |
 | Vorhergesagte neue Indikation | Cauda-equina-Syndrom |
-| TxGNN-Vorhersagewert | 99,96 % |
+| TxGNN-Vorhersagewert | 0,9996 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -70,8 +70,8 @@ Allenfalls ließe sich eine sekundäre Obstipation lindern. Das wäre Symptomkon
 
 | Rang | Erkrankung | TxGNN-Wert | Einschätzung |
 |------|------|------|------|
-| 2 | Neurogene Blase (in der Ontologie als veraltet markiert) | 99,89 % | Kein belegter Mechanismus. Mögliche Verbindung über das gemeinsame Auftreten von neurogener Blase und neurogenem Darm. Der veraltete Begriff deutet zudem auf ein überholtes oder doppeltes Konzept hin. |
-| 3 | Insomnie | 99,51 % | Kein glaubwürdiger Mechanismus. Wegen der vernachlässigbaren systemischen Exposition sind keine zentralen Effekte zu erwarten. Ein indirekter Nutzen durch weniger Bauchbeschwerden wäre spekulativ. |
+| 2 | Neurogene Blase (in der Ontologie als veraltet markiert) | 0,9989 | Kein belegter Mechanismus. Mögliche Verbindung über das gemeinsame Auftreten von neurogener Blase und neurogenem Darm. Der veraltete Begriff deutet zudem auf ein überholtes oder doppeltes Konzept hin. |
+| 3 | Insomnie | 0,9951 | Kein glaubwürdiger Mechanismus. Wegen der vernachlässigbaren systemischen Exposition sind keine zentralen Effekte zu erwarten. Ein indirekter Nutzen durch weniger Bauchbeschwerden wäre spekulativ. |
 
 ---
 
@@ -93,7 +93,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/002490 (erloschen) | Constella | – | Reizdarmsyndrom |
 
-Hersteller: AbbVie Deutschland GmbH & Co. KG. Es existiert keine gültige Zulassung in Deutschland.
+Hersteller: AbbVie Deutschland GmbH & Co. Es besteht eine gültige Zulassung in Deutschland (1 von 1 Zulassung gültig).
 
 ---
 
@@ -113,7 +113,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Für alle drei vorhergesagten Indikationen gibt es ausschließlich Modellvorhersagen (L5) ohne Studien oder Literatur, und ein plausibler Wirkmechanismus fehlt. Hinzu kommt, dass in Deutschland keine gültige Zulassung besteht.
+Für alle drei vorhergesagten Indikationen gibt es ausschließlich Modellvorhersagen (L5) ohne Studien oder Literatur, und ein plausibler Wirkmechanismus fehlt. Das Arzneimittel ist in Deutschland mit einer gültigen Zulassung (1 von 1) im Handel.
 
 **Für ein Weiterkommen erforderlich:**
 - Fachinformation (Warnhinweise, Gegenanzeigen) beim BfArM beschaffen, da dies derzeit die Sicherheitsprüfung blockiert

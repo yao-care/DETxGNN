@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Golimumab
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 217
-evidence_level: L4
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Golimumab: vorhergesagte neue Indikation Rheumatoide Vaskulitis (Evidenzstufe L4). Ursprüngliche Indikation: Rheumatoide Arthritis, juvenile Arthritis, Psoriasis-Arthritis…"
+evidence_level: L5
+indication_count: 2
 monitor_inn: "GOLIMUMAB"
-predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease"]
+predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
+last_modified_at: 2026-10-27
+description: "Golimumab: vorhergesagte neue Indikation Hypermobilität des Steißbeins (hypermobility of coccyx) (Evidenzstufe L5). Ursprüngliche Indikation: Arthritis, Rheumatoid"
 ---
 
 # Golimumab
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **5** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,102 +33,67 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-## Golimumab: Von rheumatoider Arthritis zu rheumatoider Vaskulitis
+## Golimumab: TNF-α-Inhibitor → Hypermobilität des Steißbeins (hypermobility of coccyx)
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 
-Golimumab ist ein TNF-alpha-Antikörper, der ursprünglich zur Behandlung entzündlicher rheumatischer Erkrankungen (u. a. rheumatoide Arthritis, Psoriasis-Arthritis, Colitis ulcerosa) zugelassen wurde. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **rheumatoider Vaskulitis** voraus. Dafür liegen jedoch nur **1 klinische Studie ohne direkten Bezug** und **6 Publikationen** (überwiegend Fallberichte und Übersichtsarbeiten) vor, sodass die Vorhersage derzeit nicht durch direkte klinische Daten gestützt ist.
-
----
+Golimumab ist ein Antikörper gegen den Tumornekrosefaktor alpha (TNF-α), der bei entzündlichen Autoimmunerkrankungen eingesetzt wird.
+Das TxGNN-Modell sagt voraus, dass er bei **Hypermobilität des Steißbeins (hypermobility of coccyx)** wirksam sein könnte.
+Für diese Richtung liegen in den zusammengestellten Daten **keine klinischen Studien** und **keine Publikationen** vor.
 
 ## Schnellübersicht
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Rheumatoide Arthritis, juvenile Arthritis, Psoriasis-Arthritis, axiale Spondyloarthritis, Colitis ulcerosa, nicht-röntgenologische axiale Spondyloarthritis |
-| Vorhergesagte neue Indikation | Rheumatoide Vaskulitis |
-| TxGNN-Vorhersagewert | 99,73 % |
-| Evidenzniveau | L4 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen (Status laut den Daten; Abgleich mit aktuellen Zulassungen empfohlen) |
-| Anzahl der Zulassungen | 3 (alle aufgehoben) |
+| Ursprüngliche Indikation | Arthritis, Rheumatoid;Arthritis, Juvenile;Arthritis, Psoriatic;Axial Spondyloarthritis;Colitis, Ulcerative;Non-Radiographic Axial Spondyloarthritis; Arthritis, Psoriatic;Spondylitis, Ankylosing;Colitis, Ulcerative;Arthritis, Rheumatoid; Arthritis, Rheumatoid;Arthritis, Juvenile;Arthritis, Psoriatic; |
+| Vorhergesagte neue Indikation | Hypermobilität des Steißbeins (hypermobility of coccyx) |
+| TxGNN-Vorhersagewert | 0,9967 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
 | Empfohlene Entscheidung | Hold |
-
----
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Golimumab ein TNF-alpha-Inhibitor ist, dessen Wirksamkeit bei rheumatoider Arthritis belegt ist. Mechanistisch könnte er auch bei der rheumatoiden Vaskulitis anwendbar sein, da TNF-getriebene Entzündung plausibel zur Gefäßentzündung beiträgt.
+Zum Wirkmechanismus von Golimumab liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass es als TNF-α-Inhibitor entzündliche Prozesse dämpft, die bei mehreren immunvermittelten Erkrankungen eine Rolle spielen.
 
-Die rheumatoide Vaskulitis ist eine extraartikuläre Komplikation der rheumatoiden Arthritis und tritt vor allem bei seropositiven Patienten auf. Ihre Häufigkeit ging nach Einführung biologischer DMARDs, darunter Anti-TNF-Wirkstoffe, zurück. Die Verbindung zur ursprünglichen Indikation ist daher inhaltlich nachvollziehbar.
-
-Die Evidenz ist allerdings indirekt. Ein Fallbericht beschreibt zudem zwei Fälle von Takayasu-Arteriitis, die unter Anti-TNF-Therapie auftraten. Das deutet eher auf ein Sicherheitssignal als auf Unterstützung hin. Der hohe TxGNN-Wert ist eine reine Modellvorhersage.
-
----
+Für die vorhergesagte Indikation lässt sich jedoch kein klarer mechanistischer Zusammenhang erkennen. Die Hypermobilität des Steißbeins ist in der Regel ein mechanisches oder traumatisches Problem und keine primär TNF-getriebene Entzündungserkrankung. Der hohe TxGNN-Wert von 0,9967 ist eine rein rechnerische Vorhersage und wird weder durch Studien noch durch Literatur gestützt. Die Ähnlichkeit zur ursprünglichen Indikation ist bislang nicht bewertet.
 
 ## Klinische Studien
 
-| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
-|---------|------|------|------|---------|
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Rekrutierend | 80 | Management von Immunsuppressiva bei Rheumapatienten vor einer elektiven Schulterendoprothese (Schübe, Schmerzen, Wundkomplikationen). Prüft Golimumab nicht gegen Vaskulitis und liefert keine Wirksamkeitsevidenz. |
-
----
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Kernaussagen |
-|------|-----|------|------|---------|
-| [31491879](https://pubmed.ncbi.nlm.nih.gov/31491879/) | 2019 | Netzwerk-Metaanalyse (36 RCTs) | Int J Mol Sci | TNF-Inhibitoren, einschließlich Golimumab, reduzieren die Gelenkzerstörung bei rheumatoider Arthritis ähnlich stark. Kein Vaskulitis-Bezug. |
-| [23557513](https://pubmed.ncbi.nlm.nih.gov/23557513/) | 2013 | Übersichtsarbeit | BMC Med | Aktualisierung zu Biologika bei Autoimmunerkrankungen, einschließlich Nachteilen wie Kosten und Nebenwirkungen. |
-| [27591827](https://pubmed.ncbi.nlm.nih.gov/27591827/) | 2017 | Übersichtsarbeit | Semin Arthritis Rheum | Häufigkeit und Ursachen der terminalen Niereninsuffizienz bei rheumatoider Arthritis sowie deren Behandlung. |
-| [29075910](https://pubmed.ncbi.nlm.nih.gov/29075910/) | 2018 | Fallbericht | Rheumatol Int | Pyoderma gangraenosum und pyogene Arthritis mit schwerer Sepsis bei einer RA-Patientin unter Golimumab. Erwähnt rheumatoide Vaskulitis nur als Hintergrund. |
-| [23252659](https://pubmed.ncbi.nlm.nih.gov/23252659/) | 2013 | Fallbericht | Ocul Immunol Inflamm | Erfolgreiche Behandlung einer Behçet-assoziierten Uveitis mit Golimumab. |
-| [22999907](https://pubmed.ncbi.nlm.nih.gov/22999907/) | 2013 | Fallbericht | Joint Bone Spine | Zwei Fälle von Takayasu-Arteriitis, die unter Anti-TNF-Therapie auftraten, ein mögliches Sicherheitssignal. |
+Derzeit liegt keine zugehörige Literatur vor.
 
----
+## Informationen zum Markt in Deutschland
 
-## Marktinformationen Deutschland
-
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/006560 | Gobivaz | – | Rheumatoide Arthritis, juvenile Arthritis, Psoriasis-Arthritis, axiale Spondyloarthritis, Colitis ulcerosa, nicht-röntgenologische axiale Spondyloarthritis (aufgehoben) |
-| EMEA/H/C/000992 | Simponi | – | Psoriasis-Arthritis, Spondylitis ankylosans, Colitis ulcerosa, rheumatoide Arthritis (aufgehoben) |
-| EMEA/H/C/006621 | Gotenfia | – | Rheumatoide Arthritis, juvenile Arthritis, Psoriasis-Arthritis, axiale Spondyloarthritis, nicht-röntgenologische axiale Spondyloarthritis, Colitis ulcerosa (aufgehoben) |
-
----
+Die Zulassungstabelle wird vom Programm aus den lokalen Zulassungsdaten erzeugt und ergänzt.
 
 ## Sicherheitsaspekte
 
-- **Arzneimittelwechselwirkungen**: Für die Abfrage wurden 100 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** eingestuft sind u. a. systemische und lokale Kortikosteroide (Hydrocortison, Prednison, Prednisolon, Dexamethason, Betamethason, Triamcinolon, Budesonid) sowie Deferipron und radioaktive Antikörper-Präparate (Iobenguan I-131, Ibritumomab tiuxetan, Tositumomab). **Moderate** Wechselwirkungen bestehen u. a. mit Metronidazol, Tinidazol, Rosuvastatin und Simvastatin. **Geringfügig (Minor)** sind Zinkpräparate.
-- **Klassenhinweis**: Bei Anti-TNF-Wirkstoffen ist ein erhöhtes Infektionsrisiko bekannt (u. a. Metaanalyse PMID 27924643). Ein Fallbericht beschreibt zudem eine schwere Sepsis unter Golimumab.
+- **Arzneimittelwechselwirkungen:** In den zusammengestellten Daten wurden 100 Wechselwirkungen erfasst. Als schwerwiegend (Major) eingestuft sind unter anderem:
+  - Kortikosteroide: Hydrocortison, Triamcinolon (auch ophthalmisch), Dexamethason, Betamethason, Budesonid, Prednison, Prednisolon
+  - Deferipron
+  - Radiopharmazeutika bzw. radioaktiv markierte Antikörper: Iobenguan (I-131), Ibritumomab-Tiuxetan, Tositumomab (I-131), Tositumomab
+- Moderate Wechselwirkungen bestehen u. a. mit Metronidazol, Tinidazol, Rosuvastatin und Simvastatin; geringfügige mit Zinksalzen (Sulfat, Acetat, Gluconat).
 
-Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
-
----
+Weitere Sicherheitsinformationen, insbesondere Warnhinweise und Gegenanzeigen, entnehmen Sie bitte der Fachinformation.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage für rheumatoide Vaskulitis beruht allein auf dem Modellwert; es gibt keine Studie, die Golimumab bei Vaskulitis prüft, und die Literatur besteht aus indirekten Fallberichten und Übersichten. Ein Fallbericht deutet sogar auf ein mögliches Sicherheitssignal hin. Zudem sind alle drei deutschen Zulassungen laut den Daten aufgehoben.
+Die Vorhersage beruht ausschließlich auf einem Modellwert, ohne klinische Studien, Literatur oder plausiblen mechanistischen Zusammenhang. Die Evidenzstufe ist L5.
 
-**Für ein Weiterkommen sind erforderlich:**
-- Direkte klinische Daten zu Golimumab bei rheumatoider Vaskulitis (z. B. Fallserien, Registerdaten, kontrollierte Studien)
-- Bewertung des Sicherheitssignals (Vaskulitis unter Anti-TNF-Therapie)
-- Daten zum Wirkmechanismus (MOA)
-- Warnhinweise und Gegenanzeigen aus der Fachinformation
-- Überprüfung des Zulassungsstatus gegenüber aktuellen Zulassungen in der EU/Deutschland
-
----
-
-### Hinweis zu weiteren Vorhersagen
-
-Weitere vorhergesagte Indikationen wurden im Rahmen dieser Datenzusammenstellung bewertet:
-
-- **Entzündliche Spondylopathie** (Evidenz L1, Proceed with Guardrails): Mehrere abgeschlossene Phase-3-RCTs (u. a. NCT02186873, NCT02181673, NCT01453725) belegen die Wirksamkeit. Diese Indikationen überlappen jedoch weitgehend mit den bereits zugelassenen Anwendungen und stellen eher eine Bestätigung als echtes Repurposing dar.
-- **Polyartikuläre juvenile rheumatoide Arthritis** (Evidenz L1, Proceed with Guardrails): Pädiatrische Phase-3-Studien (NCT01230827, NCT02277444) mit veröffentlichten Langzeitdaten. Auch hier handelt es sich um eine Bestätigung bestehender Indikationen; NCT01230827 wurde vorzeitig beendet, der Grund sollte geprüft werden.
-- **Hypermobilität des Steißbeins** und **Kümmell-Krankheit** (Evidenz L5, Hold): Keine Studien oder Literatur und kein erkennbarer mechanistischer Zusammenhang mit TNF-getriebener Entzündung.
+**Für ein Weiterverfolgen sind folgende Schritte nötig:**
+- Prüfung, ob TNF-α-vermittelte Entzündung bei Steißbeinhypermobilität überhaupt eine Rolle spielt (Literaturrecherche, präklinische Daten)
+- Daten zum Wirkmechanismus von Golimumab
+- Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation
+- Bewertung der Applikationswege und der Ähnlichkeit zur ursprünglichen Indikation
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -4,17 +4,17 @@ title: Vonicog Alfa
 parent: Nur Modellvorhersage (L5)
 nav_order: 501
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Vonicog Alfa: vorhergesagte neue Indikation Primäre Freisetzungsstörung der Thrombozyten (Evidenzstufe L5). Ursprüngliche Indikation: von-Willebrand-Erkrankung"
+indication_count: 8
 monitor_inn: "VONICOG ALFA"
-predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
+predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "hemophilia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
+last_modified_at: 2026-10-23
+description: "Vonicog Alfa: vorhergesagte neue Indikation Primäre Freisetzungsstörung der Thrombozyten (Evidenzstufe L5). Ursprüngliche Indikation: Von-Willebrand-Erkrankung"
 ---
 
 # Vonicog Alfa
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Vonicog alfa: Von der von-Willebrand-Erkrankung zur primären Thrombozyten-Freisetzungsstörung
+## Vonicog alfa: Primäre Thrombozyten-Freisetzungsstörung
 {: .text-alpha }
 
-## Zusammenfassung
+## Zusammenfassung in einem Satz
 
-Vonicog alfa ist ein rekombinanter von-Willebrand-Faktor (VWF) und wurde ursprünglich zur Behandlung der von-Willebrand-Erkrankung zugelassen.
-Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei der **primären Freisetzungsstörung der Thrombozyten** voraus,
-für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor. Sie beruht ausschließlich auf der Modellvorhersage.
+Vonicog alfa ist rekombinanter von-Willebrand-Faktor (VWF) und wird zur Behandlung der von-Willebrand-Erkrankung eingesetzt.
+Das TxGNN-Modell sagt voraus, dass er bei der **primären Freisetzungsstörung der Thrombozyten** wirksam sein könnte, doch für diese Vorhersage liegen **keine klinischen Studien** und **keine Publikationen** vor. Sie beruht allein auf der Modellvorhersage.
 
 ---
 
@@ -48,58 +47,54 @@ für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Pub
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | von-Willebrand-Erkrankung |
+| Ursprüngliche Indikation | Von-Willebrand-Erkrankung |
 | Vorhergesagte neue Indikation | Primäre Freisetzungsstörung der Thrombozyten |
-| TxGNN-Vorhersagewert | 99,98 % |
+| TxGNN-Vorhersagewert | 0,9998 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Vonicog alfa ist ein rekombinanter VWF. Er unterstützt die Adhäsion und Aggregation von Thrombozyten und stabilisiert den körpereigenen Faktor VIII. Seine Wirksamkeit bei der von-Willebrand-Erkrankung ist belegt.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Vonicog alfa ist rekombinanter VWF, der die Anheftung und Aggregation von Thrombozyten vermittelt und den Gerinnungsfaktor VIII transportiert und stabilisiert. Seine Wirksamkeit bei der von-Willebrand-Erkrankung ist gezeigt.
 
-Bei der vorhergesagten Indikation ist die mechanistische Verbindung jedoch **schwach**. Freisetzungsstörungen der Thrombozyten (Speicherpool- bzw. Sekretionsdefekte) sind intrinsische Thrombozytenerkrankungen. Ein VWF-Ersatz dürfte den Defekt nicht beheben. Der hohe TxGNN-Wert spiegelt vor allem die Nähe im Netzwerk der Blutungserkrankungen wider und hat keine klinische Untermauerung.
+Bei der Freisetzungsstörung der Thrombozyten handelt es sich um einen intrinsischen Defekt der Plättchengranula oder der Signalwege. Ein von außen zugeführter VWF kann diesen Defekt voraussichtlich nicht beheben. Der hohe TxGNN-Wert ist eine netzwerkbasierte Vorhersage ohne klinische Stütze. Die mechanistische Plausibilität ist daher gering.
 
-### Weitere vorhergesagte Indikationen (Rang 2–10)
+### Weitere vorhergesagte Indikationen (zur Einordnung)
 
-Alle weiteren Vorhersagen haben ebenfalls den Evidenzgrad L5 (Ausnahme: Hämophilie, L4) und die Empfehlung „Hold“:
-
-| Rang | Vorhergesagte Indikation | TxGNN-Wert | Einschätzung |
-|---|---|---|---|
-| 2 | Glanzmann-Thrombasthenie | 99,98 % | Defekt des Rezeptors GPIIb/IIIa; VWF kann den fehlenden Rezeptor nicht ersetzen |
-| 3 | Pseudo-von-Willebrand-Erkrankung | 99,97 % | Gain-of-function-Mutation in GPIbα; VWF-Gabe könnte die Thrombozytenclearance verschlechtern, üblicherweise Thrombozytentransfusion |
-| 4 | Hämophilie | 99,95 % | VWF allein ersetzt keinen fehlenden Faktor VIII; Literatur nur indirekt |
-| 5 | Scott-Syndrom | 99,95 % | Intrinsischer Thrombozytendefekt (TMEM16F/ANO6), kein VWF-Mangel |
-| 6 | Erworbener Gerinnungsfaktormangel | 99,94 % | Nur bei erworbenem VWF-Mangel plausibel; Begriff zu breit |
-| 7 | X-chromosomale von-Willebrand-Erkrankung | 99,92 % | Wahrscheinlich Klassifikationsvariante der zugelassenen Indikation, keine echte neue Indikation |
-| 8 | Blutungsneigung durch Kollagenrezeptordefekt | 99,92 % | Nur entfernter theoretischer Bezug; Rezeptordefekt wird nicht umgangen |
-| 9 | Blutungsstörung bei konstitutioneller Thrombozytopenie | 99,92 % | Ursache sind Thrombozytenzahl/-funktion, VWF normal |
-| 10 | „Flood factor deficiency“ | 99,90 % | Begriff unklar, möglicherweise Datenartefakt |
+| Rang | Vorhergesagte Erkrankung | TxGNN-Wert | Evidenzgrad | Einschätzung |
+|---|---|---|---|---|
+| 2 | Glanzmann-Thrombasthenie | 0,9998 | L5 | Defekt des Integrins αIIbβ3 liegt nach dem VWF-Schritt; VWF kann den Fibrinogenrezeptor nicht ersetzen |
+| 3 | Hämophilie | 0,9995 | L5 | Plausibler, aber indirekter Bezug (Stabilisierung von Faktor VIII); keine Studie an Hämophilie-Patienten |
+| 4 | Scott-Syndrom | 0,9995 | L5 | Defekt der Phosphatidylserin-Exposition (TMEM16F); VWF wirkt hier nicht |
+| 5 | Erworbener Gerinnungsfaktormangel | 0,9994 | L5 | Zu breite Kategorie; nur bei Teilformen (z. B. erworbenes von-Willebrand-Syndrom) denkbar |
+| 6 | Blutungsneigung durch Kollagenrezeptor-Defekt | 0,9992 | L5 | Defekt liegt auf Thrombozytenseite und wird durch VWF nicht korrigiert |
+| 7 | Hämorrhagische Störung durch konstitutionelle Thrombozytopenie | 0,9992 | L5 | VWF erhöht die Thrombozytenzahl nicht |
+| 8 | „Flood factor deficiency“ | 0,9990 | L5 | Bezeichnung unklar, möglicherweise ein Datenartefakt; keine Bewertung möglich |
 
 ---
 
-## Klinische Evidenz
+## Klinische Studien
 
-Derzeit sind keine zugehörigen klinischen Studien registriert.
+Derzeit sind keine einschlägigen klinischen Studien registriert.
 
 ---
 
-## Literaturevidenz
+## Literatur
 
-Für die Top-Vorhersage (primäre Freisetzungsstörung der Thrombozyten) ist derzeit keine zugehörige Literatur vorhanden.
+Für die vorhergesagte Hauptindikation (primäre Freisetzungsstörung der Thrombozyten) liegt keine Literatur vor.
 
-Für Rang 4 (Hämophilie) liegen vier Publikationen vor. Keine davon ist eine Wirksamkeitsstudie bei Hämophilie; sie liefern nur indirekten Kontext zur Wirkstoffklasse:
+Für die Hämophilie (Rang 3) wurden vier Publikationen gefunden. Sie untersuchen jedoch Vonicog alfa nicht bei Hämophilie-Patienten, sondern betreffen die von-Willebrand-Erkrankung, perioperative Aspekte, Pharmakokinetik und Labormethoden:
 
-| PMID | Jahr | Typ | Journal | Kernaussagen |
+| PMID | Jahr | Typ | Journal | Kernaussage |
 |------|-----|------|------|---------|
-| [35439298](https://pubmed.ncbi.nlm.nih.gov/35439298/) | 2022 | Phase-3-Studie | Blood | Wirksamkeit und Sicherheit der rVWF-Prophylaxe bei Erwachsenen mit schwerer von-Willebrand-Erkrankung |
-| [31298165](https://pubmed.ncbi.nlm.nih.gov/31298165/) | 2019 | Review | Current Pharmaceutical Design | Neue Hämostatika und perioperative anästhesiologische Aspekte |
-| [37332615](https://pubmed.ncbi.nlm.nih.gov/37332615/) | 2023 | PK/PD-Vergleich | Journal of Blood Medicine | Vergleich von rekombinantem und plasmatischem VWF bei von-Willebrand-Erkrankung Typ 3 |
-| [37926687](https://pubmed.ncbi.nlm.nih.gov/37926687/) | 2024 | Labor-Feldstudie/Umfrage | Haemophilia | Laboranalytik von rekombinanten und plasmatischen VWF-Produkten |
+| [35439298](https://pubmed.ncbi.nlm.nih.gov/35439298/) | 2022 | RCT (Phase 3) | Blood | Prophylaxe mit rekombinantem VWF bei Erwachsenen mit schwerer von-Willebrand-Erkrankung |
+| [37332615](https://pubmed.ncbi.nlm.nih.gov/37332615/) | 2023 | Pharmakokinetische Studie | Journal of Blood Medicine | Vergleich von rekombinantem und plasmatischem VWF bei von-Willebrand-Erkrankung Typ 3 |
+| [31298165](https://pubmed.ncbi.nlm.nih.gov/31298165/) | 2019 | Review | Current Pharmaceutical Design | Neue Hämostatika: perioperative anästhesiologische Aspekte |
+| [37926687](https://pubmed.ncbi.nlm.nih.gov/37926687/) | 2024 | Laborfeldstudie/Umfrage | Haemophilia | Analyse von rekombinanten und plasmatischen VWF-Produkten in Gerinnungslaboren |
 
 ---
 
@@ -107,15 +102,13 @@ Für Rang 4 (Hämophilie) liegen vier Publikationen vor. Keine davon ist eine Wi
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004454 | Veyvondi | – | von-Willebrand-Erkrankung |
-
-Diese Zulassung ist als erloschen/aufgehoben geführt; derzeit ist keine gültige Zulassung vorhanden.
+| EMEA/H/C/004454 | Veyvondi | – | Von-Willebrand-Erkrankung |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte die Fachinformation für Sicherheitsangaben heranziehen. Zu Wechselwirkungen wurden keine Einträge gefunden.
+Zu Warnhinweisen, Gegenanzeigen und Wechselwirkungen liegen in den zusammengestellten Daten keine Angaben vor. Bitte die Fachinformation zur Sicherheit heranziehen.
 
 ---
 
@@ -124,14 +117,13 @@ Bitte die Fachinformation für Sicherheitsangaben heranziehen. Zu Wechselwirkung
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht allein auf der Netzwerknähe im Modell (Evidenzgrad L5). Es gibt weder Studien noch Publikationen, und der Mechanismus spricht eher gegen einen Nutzen, da es sich um intrinsische Thrombozytendefekte handelt. Zudem ist die einzige deutsche Zulassung erloschen.
+Für die vorhergesagte Indikation gibt es weder Studien noch Publikationen (Evidenzgrad L5), und der Mechanismus spricht eher gegen eine Wirkung, da der Defekt auf Thrombozytenseite liegt. Der hohe TxGNN-Wert allein genügt nicht, um weiterzugehen.
 
-**Für ein Weiterverfolgen wären erforderlich:**
-- Daten zum Wirkmechanismus (MOA)
-- Warnhinweise und Gegenanzeigen aus der Fachinformation (Sicherheitsprüfung derzeit nicht möglich)
-- Präklinische oder mechanistische Studien, die einen Nutzen bei Thrombozytenfunktionsstörungen stützen
-- Klärung der unklaren Krankheitsbegriffe („flood factor deficiency“) sowie Abgleich der X-chromosomalen von-Willebrand-Erkrankung mit der zugelassenen Indikation
-- Klärung des aktuellen Zulassungsstatus in Deutschland
+**Für ein Weiterkommen ist Folgendes nötig:**
+- Daten zum Wirkmechanismus (MOA) aus DrugBank
+- Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM bzw. EMA)
+- Gezielte Literaturrecherche und präklinische Belege für Thrombozyten-Funktionsstörungen
+- Falls weiterverfolgt: Priorisierung plausiblerer Kandidaten, z. B. Hämophilie A oder das erworbene von-Willebrand-Syndrom, mit klar definierter Teilindikation
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

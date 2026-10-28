@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Grazoprevir
-parent: Nur Modellvorhersage (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 219
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Grazoprevir: vorhergesagte neue Indikation HIV-Infektion (Evidenzstufe L5). Ursprüngliche Indikation: Chronische Hepatitis C"
@@ -14,7 +14,7 @@ predicted_indications: ["HIV infectious disease", "hepatitis B virus infection",
 # Grazoprevir
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Grazoprevir ist ein NS3/4A-Proteasehemmer, der ursprünglich zur Behandlung der 
 |------|------|
 | Ursprüngliche Indikation | Chronische Hepatitis C |
 | Vorhergesagte neue Indikation | HIV-Infektion |
-| TxGNN-Vorhersagewert | 99,73 % |
+| TxGNN-Vorhersagewert | 0,9973 |
 | Evidenzstufe | L1 (formal; die Studien betreffen jedoch HCV, nicht HIV) |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails |
 
 ---
@@ -60,7 +60,7 @@ Grazoprevir ist ein NS3/4A-Proteasehemmer, der ursprünglich zur Behandlung der 
 
 Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Grazoprevir hemmt die NS3/4A-Protease des Hepatitis-C-Virus und ist Teil der Kombination mit dem NS5A-Hemmer Elbasvir. Bei Hepatitis C ist die Wirksamkeit gut belegt.
 
-Ein direkter Wirkmechanismus gegen HIV ist nicht bekannt. HIV besitzt eine Aspartylprotease, die sich von der HCV-Serinprotease unterscheidet. Der hohe TxGNN-Wert spiegelt vermutlich die Nähe von Virusinfektionen im Wissensgraphen wider. Die vorliegende Evidenz bestätigt vor allem die ursprüngliche HCV-Indikation in der Population mit HIV-Koinfektion. Es handelt sich daher nicht um ein echtes Repurposing für HIV, sondern um eine Bestätigung der bestehenden Indikation in einer Koinfektionspopulation.
+Ein direkter Wirkmechanismus gegen HIV ist nicht bekannt. HIV besitzt eine Aspartylprotease, die sich von der HCV-Serinprotease unterscheidet. Der hohe Wert stammt vom TxGNN-Modell (Deep Learning) und spiegelt vermutlich Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. Die vorliegende Evidenz bestätigt vor allem die ursprüngliche HCV-Indikation in der Population mit HIV-Koinfektion. Es handelt sich daher nicht um ein echtes Repurposing für HIV, sondern um eine Bestätigung der bestehenden Indikation in einer Koinfektionspopulation.
 
 ---
 
@@ -104,7 +104,7 @@ Alle Studien sind auf die HCV-Behandlung ausgerichtet. Ein HIV-spezifisches Wirk
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/004126 | Zepatier | k. A. | Chronische Hepatitis C (Status: erloschen) |
+| EMEA/H/C/004126 | Zepatier | k. A. | Chronische Hepatitis C (Status: gültig) |
 
 ---
 

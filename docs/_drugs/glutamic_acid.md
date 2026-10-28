@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Glutamic Acid
-parent: Nur Modellvorhersage (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 215
-evidence_level: L5
+evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Glutamic Acid: vorhergesagte neue Indikation Postmenopausale Osteoporose (Evidenzstufe L5). Ursprüngliche Indikation: Ahornsirupkrankheit (Maple Syrup Urine Disease)"
@@ -14,7 +14,7 @@ predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated ost
 # Glutamic Acid
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-## Glutaminsäure: Von der Ahornsirupkrankheit zur postmenopausalen Osteoporose
+## Glutaminsäure: Postmenopausale Osteoporose
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -46,10 +46,10 @@ Glutaminsäure (Handelsname Maapliv) war in der EU für die Behandlung der Ahorn
 |------|------|
 | Ursprüngliche Indikation | Ahornsirupkrankheit (Maple Syrup Urine Disease) |
 | Vorhergesagte neue Indikation | Postmenopausale Osteoporose |
-| TxGNN-Vorhersagewert | 99,34 % |
+| TxGNN-Vorhersagewert | 0,9934 |
 | Evidenzgrad | L4 (nur präklinische bzw. indirekte Hinweise) |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold (Forschungsfrage, derzeit nicht weiterverfolgen) |
 
 ## Warum ist diese Vorhersage nachvollziehbar?
@@ -58,7 +58,7 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten k
 
 Eine mögliche Verbindung ist die Vitamin-K-abhängige γ-Carboxylierung von Glutamatresten im Osteocalcin. Das ist jedoch eine Proteinmodifikation und kein pharmakologischer Effekt von zugeführter Glutaminsäure. Ein tierexperimenteller Hinweis (ovarektomierte Mäuse, PMID 26144993) zeigt, dass Glutaminsäure östrogenmangelbedingte menopausenähnliche Symptome lindern kann. Das ist nur indirekte Unterstützung.
 
-Der hohe TxGNN-Wert (0,993) ist eine rein rechnerische Vorhersage. Die Ähnlichkeit zwischen ursprünglicher und neuer Indikation wurde nicht bewertet.
+Der hohe TxGNN-Wert (0,9934) ist eine rein rechnerische Vorhersage. Die Ähnlichkeit zwischen ursprünglicher und neuer Indikation wurde nicht bewertet.
 
 ## Evidenz aus klinischen Studien
 
@@ -85,7 +85,7 @@ Hinweis: Die meisten dieser Arbeiten betreffen Vitamin K2/D3 oder genetische Zus
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/005557 | Maapliv (Recordati Rare Diseases) | – | Ahornsirupkrankheit (Maple Syrup Urine Disease); Status: erloschen |
+| EMEA/H/C/005557 | Maapliv (Recordati Rare Diseases) | – | Ahornsirupkrankheit (Maple Syrup Urine Disease); Status: gültig |
 
 ## Sicherheitsaspekte
 
@@ -111,9 +111,9 @@ Für postmenopausale Osteoporose gibt es keine registrierten klinischen Studien 
 
 | Rang | Indikation | TxGNN-Wert | Evidenzgrad | Einschätzung |
 |---|---|---|---|---|
-| 2 | Schwangerschaftsassoziierte Osteoporose | 99,18 % | L5 | Hold: keine Studien, keine Literatur; Sicherheitsbewertung in der Schwangerschaft nötig |
-| 3 | Primäres hereditäres Glaukom | 99,13 % | L5 | Hold: keine Evidenz; erhöhtes Glutamat gilt als exzitotoxisch für retinale Ganglienzellen, ein Schaden ist plausibler als ein Nutzen |
-| 4 | Gastroparese | 99,11 % | L5 | Hold: die drei gefundenen Arbeiten betreffen autoimmune Gastroparese und prüfen Glutaminsäure nicht |
+| 2 | Schwangerschaftsassoziierte Osteoporose | 0,9918 | L5 | Hold: keine Studien, keine Literatur; Sicherheitsbewertung in der Schwangerschaft nötig |
+| 3 | Primäres hereditäres Glaukom | 0,9913 | L5 | Hold: keine Evidenz; erhöhtes Glutamat gilt als exzitotoxisch für retinale Ganglienzellen, ein Schaden ist plausibler als ein Nutzen |
+| 4 | Gastroparese | 0,9911 | L5 | Hold: die drei gefundenen Arbeiten betreffen autoimmune Gastroparese und prüfen Glutaminsäure nicht |
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -50,10 +50,10 @@ Die Evidenz besteht aus **6 klinischen Studien** (davon 2 direkt relevante Phase
 |------|------|
 | Ursprüngliche Indikation | Psoriasis, Psoriasis-Arthritis, Morbus Crohn |
 | Vorhergesagte neue Indikation | Dermatitis |
-| TxGNN-Vorhersagewert | 99,99 % |
+| TxGNN-Vorhersagewert | 0,9999 |
 | Evidenzstufe | L2 |
-| Marktstatus in Deutschland | Nur erloschene Zulassungen (alle widerrufen/beendet) |
-| Anzahl der Zulassungen | 13 (davon 0 gültig, 13 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 13 von 13) |
+| Anzahl der Zulassungen | 13 (gültig: 13) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -100,7 +100,7 @@ Die Phase-2-Daten bei atopischer Dermatitis zeigen nur einen moderaten oder unei
 
 ## Marktinformationen Deutschland
 
-Alle 13 Zulassungen (zentrale EU-Zulassungen, EMEA/H/C) sind erloschen. Es gibt derzeit keine gültige Zulassung.
+Alle 13 Zulassungen (zentrale EU-Zulassungen, EMEA/H/C) sind gültig. Das Arzneimittel ist derzeit im Handel.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -130,13 +130,13 @@ Zu Warnhinweisen und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinforma
 **Entscheidung: Hold**
 
 **Begründung:**
-Zwei randomisierte Phase-2-Studien (u. a. placebokontrolliert) bei atopischer Dermatitis liefern direkte, aber kleine und nur moderate bzw. uneinheitliche Ergebnisse. Es gibt keine Phase-3-Studie für diese Indikation. In Deutschland ist derzeit keine gültige Zulassung vorhanden, und die Sicherheitsangaben der Fachinformation fehlen.
+Zwei randomisierte Phase-2-Studien (u. a. placebokontrolliert) bei atopischer Dermatitis liefern direkte, aber kleine und nur moderate bzw. uneinheitliche Ergebnisse. Es gibt keine Phase-3-Studie für diese Indikation. In Deutschland ist das Arzneimittel im Handel, und 13 von 13 Zulassungen sind gültig. Die Sicherheitsangaben der Fachinformation fehlen.
 
 **Für ein Fortschreiten sind folgende Schritte nötig:**
 - Auswertung der Phase-2-Ergebnisse (NCT01945086, NCT01806662) im Detail, um Effektstärke und Subgruppen mit möglichem Nutzen zu klären
 - Beschaffung und Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
 - Daten zum Wirkmechanismus (MOA) ergänzen
-- Klärung des Zulassungs- und Marktstatus in Deutschland, da alle 13 Zulassungen als erloschen geführt werden
+- Klärung des Zulassungs- und Marktstatus in Deutschland (13 von 13 Zulassungen gültig, Arzneimittel im Handel)
 - Prüfung, ob andere vorhergesagte Indikationen (z. B. Dermatomyositis, Pityriasis lichenoides) mehr Potenzial bieten; hierzu liegt bisher keine klinische Evidenz vor (Evidenzstufe L5)
 ## Haftungsausschluss
 

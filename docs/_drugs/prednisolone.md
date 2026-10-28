@@ -4,7 +4,7 @@ title: Prednisolone
 parent: Hohe Evidenz (L1-L2)
 nav_order: 369
 evidence_level: L2
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Prednisolone: vorhergesagte neue Indikation Alopecia areata (Evidenzstufe L2). Ursprüngliche Indikation: Autoimmunerkrankungen . Für die Zulassung in Deutschland liegt kein I…"
 monitor_inn: "PREDNISOLONE"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 # Prednisolone
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Dafür liegen **keine registrierten klinischen Studien**, aber **20 Publikatione
 |------|------|
 | Ursprüngliche Indikation | Autoimmunerkrankungen (u. a. Morbus Crohn, chronisch-entzündliche Darmerkrankungen, akute lymphatische Leukämie, Nebenniereninsuffizienz, Morbus Addison, kongenitale adrenale Hyperplasie). Für die Zulassung in Deutschland liegt kein Indikationstext vor. |
 | Vorhergesagte neue Indikation | Alopecia areata |
-| TxGNN-Vorhersagewert | 99,99 % |
+| TxGNN-Vorhersagewert | 0,9999 |
 | Evidenzgrad | L2 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (aufgehoben) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
 
 ---
@@ -95,7 +95,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/002382 | Equisolon | – | – (Status: aufgehoben) |
+| EMEA/V/C/002382 | Equisolon | – | – (Status: gültig) |
 
 ---
 
@@ -127,7 +127,7 @@ Für die Alopecia areata liegen eine randomisierte, placebokontrollierte Studie,
 
 | Rang | Indikation | Evidenzgrad | Empfehlung | Anmerkung |
 |---|---|---|---|---|
-| 2 | Alopecia mucinosa | L4 | Hold | Nur ein Fallbericht (Ciclosporin, nicht Prednisolon) |
+| 2 | Alopecia mucinosa | L5 | Hold | Nur ein Fallbericht (Ciclosporin, nicht Prednisolon) |
 | 3 | Telogen effluvium | L5 | Hold | Keine Studien oder Literatur; kein klarer Mechanismus |
 | 4 | Folliculitis decalvans (Quinquaud) | L4 | Hold | Nur ein Fallbericht mit Dreifachtherapie; Beitrag von Prednisolon nicht abgrenzbar |
 | 5–9 | Seltene genetische bzw. strukturelle Erkrankungen (u. a. Alopezie-Antikörpermangel, hereditäre Hypotrichose, Atrichie mit papulösen Läsionen, Tränendrüsenprolaps) | L5 | Hold | Keine belastbare Evidenz oder plausibler Mechanismus |

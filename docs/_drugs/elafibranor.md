@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Biliäre Leberzirrhose (Liver Cirrhosis, Biliary) |
 | Vorhergesagte neue Indikation | Amenorrhoe |
-| TxGNN-Vorhersagewert | 99,86 % |
+| TxGNN-Vorhersagewert | 0,9986 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgenommene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -64,7 +64,7 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten k
 
 Ein möglicher indirekter Zusammenhang mit Amenorrhoe könnte über die PPAR-vermittelte Modulation von Fett- und Glukosestoffwechsel, Entzündung und eventuell der Hypothalamus-Hypophysen-Gonaden-Achse bestehen, wie sie bei PCOS-bedingten Zyklusstörungen diskutiert wird. Diese Verbindung ist spekulativ und wurde nicht überprüft.
 
-Die ursprüngliche Indikation (Lebererkrankung) liegt mechanistisch nicht nahe an Amenorrhoe. Zudem ist Amenorrhoe ein unspezifisches Symptom mit sehr unterschiedlichen Ursachen (hypothalamisch, hypophysär, ovariell, uterin, Schwangerschaft). Ohne Festlegung des Subtyps wäre eine Indikation schlecht definiert. Der hohe Vorhersagewert könnte auch auf Artefakte in der Graphstruktur des Wissensgraphen zurückgehen.
+Die ursprüngliche Indikation (Lebererkrankung) liegt mechanistisch nicht nahe an Amenorrhoe. Zudem ist Amenorrhoe ein unspezifisches Symptom mit sehr unterschiedlichen Ursachen (hypothalamisch, hypophysär, ovariell, uterin, Schwangerschaft). Ohne Festlegung des Subtyps wäre eine Indikation schlecht definiert. Der hohe Vorhersagewert (0.9986) stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, und stellt keinen biologischen Beleg dar.
 
 ---
 
@@ -84,7 +84,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/006231 | Iqirvo (Ipsen Pharma) | – | Biliäre Leberzirrhose (Status: erloschen/zurückgenommen) |
+| EMEA/H/C/006231 | Iqirvo (Ipsen Pharma) | – | Biliäre Leberzirrhose (Status: gültig/zurückgenommen) |
 
 ---
 

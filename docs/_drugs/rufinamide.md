@@ -4,17 +4,17 @@ title: Rufinamide
 parent: Nur Modellvorhersage (L5)
 nav_order: 415
 evidence_level: L5
-indication_count: 5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Rufinamide: vorhergesagte neue Indikation Febriles infektionsassoziiertes Epilepsiesyndrom (FIRES) (Evidenzstufe L5). Ursprüngliche Indikation: Epilepsie"
 monitor_inn: "RUFINAMIDE"
 predicted_indications: ["perioral myoclonia with absences"]
+description: "Rufinamide: vorhergesagte neue Indikation Perioral myoclonia with absences (Evidenzstufe L5). Ursprüngliche Indikation: Epilepsy"
 ---
 
 # Rufinamide
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-## Rufinamid: Von Epilepsie zum febrilen infektionsassoziierten Epilepsiesyndrom (FIRES)
+## Rufinamide: Perioral myoclonia with absences
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -46,12 +46,12 @@ Rufinamid ist ein Antikonvulsivum, das ursprünglich zur Behandlung von Epilepsi
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Epilepsie |
-| Vorhergesagte neue Indikation | Febriles infektionsassoziiertes Epilepsiesyndrom (FIRES) |
-| TxGNN-Vorhersagewert | 99,57 % |
+| Ursprüngliche Indikation | Epilepsy |
+| Vorhergesagte neue Indikation | Perioral myoclonia with absences |
+| TxGNN-Vorhersagewert | 0.9951 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -60,16 +60,12 @@ Rufinamid ist ein Antikonvulsivum, das ursprünglich zur Behandlung von Epilepsi
 
 Zum Wirkmechanismus von Rufinamid liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach allgemeinem Wissen moduliert Rufinamid spannungsabhängige Natriumkanäle und verlängert deren inaktiven Zustand. Es ist bei Epilepsie, insbesondere beim Lennox-Gastaut-Syndrom, zugelassen.
 
-FIRES ist eine therapierefraktäre epileptische Enzephalopathie mit einer neuroinflammatorischen Komponente. Eine reine Natriumkanalblockade dürfte die Kernpathologie kaum adressieren. Die Verbindung beruht daher ausschließlich auf dem hohen TxGNN-Wert (0,996) und der allgemeinen antikonvulsiven Wirkung des Wirkstoffs. Die Plausibilität ist begrenzt und müsste durch Studien belegt werden.
 
 **Weitere vorhergesagte Indikationen** (jeweils ohne Studien oder Literatur, Evidenzgrad L5, Empfehlung Hold):
 
 | Rang | Erkrankung | TxGNN-Wert | Einschätzung |
 |---|---|---|---|
-| 2 | Perioralle Myoklonien mit Absencen | 99,51 % | Generalisiertes Epilepsiesyndrom; Natriumkanalblocker können manche generalisierten Anfallsformen verschlechtern, daher ist die Passung unsicher |
-| 3 | Photosensitive Okzipitallappenepilepsie | 99,44 % | Natriumkanalmodulation bei fokalen Anfällen plausibel, aber nur indirekt begründet |
-| 4 | Kryptogene epileptische Spasmen mit spätem Beginn | 99,44 % | Lose konzeptionelle Nähe zu schweren kindlichen epileptischen Enzephalopathien |
-| 5 | Atypische kindliche Epilepsie mit zentrotemporalen Spikes | 99,44 % | Fokale Anfallskontrolle plausibel, nur durch Modellwert gestützt |
+| 2 | Perioralle Myoklonien mit Absencen | 0,9951 | Generalisiertes Epilepsiesyndrom; Natriumkanalblocker können manche generalisierten Anfallsformen verschlechtern, daher ist die Passung unsicher |
 
 ---
 
@@ -91,7 +87,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/000660 | Inovelon (Eisai GmbH) | – | Epilepsie |
 
-Diese Zulassung ist erloschen; derzeit besteht keine gültige Zulassung in Deutschland.
+Diese Zulassung ist gültig; in Deutschland besteht derzeit 1 gültige Zulassung von 1.
 
 ---
 
@@ -109,7 +105,7 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Kontraindikationen laut Fac
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf das TxGNN-Modell (Evidenzgrad L5), ohne klinische Studien oder Publikationen. Zudem besteht in Deutschland keine gültige Zulassung, und die Mechanismusverbindung zu FIRES ist schwach.
+Die Vorhersage stützt sich ausschließlich auf das TxGNN-Modell (Evidenzgrad L5), ohne klinische Studien oder Publikationen.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Daten zum Wirkmechanismus (MoA) aus DrugBank

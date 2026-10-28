@@ -4,7 +4,7 @@ title: Sirolimus
 parent: Mittlere Evidenz (L3-L4)
 nav_order: 431
 evidence_level: L3
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Sirolimus: vorhergesagte neue Indikation Liposarkom (Evidenzstufe L3). Ursprüngliche Indikation: Angiofibrom bei Tuberöser Sklerose (weitere Zulassung: Transplantatab…"
 monitor_inn: "SIROLIMUS"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine co
 # Sirolimus
 {: .fs-9 }
 
-Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Sirolimus ist ein mTOR-Inhibitor. In Europa wurde er zur Verhinderung der Transp
 |------|------|
 | Ursprüngliche Indikation | Angiofibrom bei Tuberöser Sklerose (weitere Zulassung: Transplantatabstoßung nach Nierentransplantation) |
 | Vorhergesagte neue Indikation | Liposarkom |
-| TxGNN-Vorhersagewert | 99,89 % |
+| TxGNN-Vorhersagewert | 0,9989 |
 | Evidenzlevel | L3 |
-| Marktstatus in Deutschland | Nur erloschene Zulassungen (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -92,8 +92,8 @@ Die klinische Evidenz ist jedoch dünn. Sie besteht aus einer einarmigen Phase-2
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/005896 | Hyftor (Plusultra pharma GmbH) | – | Angiofibrom, Tuberöse Sklerose (erloschen) |
-| EMEA/H/C/000273 | Rapamune (Pfizer Europe MA EEIG) | – | Transplantatabstoßung, Nierentransplantation (erloschen) |
+| EMEA/H/C/005896 | Hyftor (Plusultra pharma GmbH) | – | Angiofibrom, Tuberöse Sklerose (gültig) |
+| EMEA/H/C/000273 | Rapamune (Pfizer Europe MA EEIG) | – | Transplantatabstoßung, Nierentransplantation (gültig) |
 
 ---
 
@@ -112,7 +112,7 @@ Eine Fachinformation mit Warnhinweisen und Gegenanzeigen liegt in den zusammenge
 
 **Begründung:**
 - Die biologische Plausibilität ist gegeben, die klinische Evidenz für Liposarkom beschränkt sich aber auf eine einarmige Phase-2-Kombinationsstudie ohne verfügbare Ergebnisse.
-- Aktuell existiert in Deutschland keine gültige Zulassung, und die Sicherheitsdaten aus der Fachinformation fehlen.
+- Aktuell sind in Deutschland 2 von 2 Zulassungen gültig, und die Sicherheitsdaten aus der Fachinformation fehlen.
 - Zum Vergleich: Für **Lymphangioleiomyomatose (Lymphangiomyom)**, ebenfalls eine mTOR-getriebene Erkrankung, liegt deutlich stärkere Evidenz vor (Evidenzlevel L1, Phase-3-Studie MILES, NCT00414648, plus weitere Phase-2/3-Studien). Dieser Kandidat sollte vorrangig weiterverfolgt werden.
 
 **Für das weitere Vorgehen wird Folgendes benötigt:**

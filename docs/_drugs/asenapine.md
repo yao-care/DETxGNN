@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Asenapin: Von bipolarer Störung zu retinaler Dystrophie
+## Asenapin: Retinale Dystrophie mit oder ohne extraokulare Anomalien
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Asenapin ist ein atypisches Antipsychotikum, das ursprünglich zur Behandlung de
 |------|------|
 | Ursprüngliche Indikation | Bipolare Störung |
 | Vorhergesagte neue Indikation | Retinale Dystrophie mit oder ohne extraokulare Anomalien |
-| TxGNN-Vorhersagewert | 99,77 % |
+| TxGNN-Vorhersagewert | 0,9977 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -82,7 +82,7 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/001177 | Sycrest (Organon N.V.) | – | Bipolare Störung (Status: erloschen) |
+| EMEA/H/C/001177 | Sycrest (Organon N.V.) | – | Bipolare Störung (Status: gültig) |
 
 ---
 

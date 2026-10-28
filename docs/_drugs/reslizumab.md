@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-## Reslizumab: Von Asthma zu immunvermittelter Thrombozytopenie
+## Reslizumab: Thrombozytopenie durch Immunzerstörung
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -46,10 +46,10 @@ Reslizumab ist ein Anti-IL-5-Antikörper, der ursprünglich zur Behandlung von A
 |------|------|
 | Ursprüngliche Indikation | Asthma |
 | Vorhergesagte neue Indikation | Thrombozytopenie durch Immunzerstörung (immunvermittelte Thrombozytopenie) |
-| TxGNN-Vorhersagewert | 99,53 % |
+| TxGNN-Vorhersagewert | 0,9953 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
@@ -58,7 +58,7 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten k
 
 Die immunvermittelte Thrombozytopenie (ITP) wird dagegen hauptsächlich durch autoantikörpervermittelten Abbau von Thrombozyten und eine gestörte Megakaryopoese verursacht. Eine etablierte Rolle von IL-5 oder Eosinophilen ist nicht bekannt. Ein direkter mechanistischer Zusammenhang ist anhand der vorliegenden Daten daher **nicht erkennbar**. Der hohe TxGNN-Wert ist eine rein graphbasierte Vorhersage und sollte nicht als Hinweis auf Wirksamkeit gewertet werden.
 
-Als weitere Vorhersage mit Rang 2 nennt das Modell die „primäre Freisetzungsstörung der Thrombozyten" (Score 99,25 %). Auch hier fehlt ein plausibler Bezug zu IL-5, da es sich um intrinsische Thrombozytenfunktionsstörungen handelt.
+Als weitere Vorhersage mit Rang 2 nennt das Modell die „primäre Freisetzungsstörung der Thrombozyten" (Score 0,9925). Auch hier fehlt ein plausibler Bezug zu IL-5, da es sich um intrinsische Thrombozytenfunktionsstörungen handelt.
 
 ## Klinische Studien
 
@@ -78,7 +78,7 @@ Für die zweite Vorhersage (primäre Freisetzungsstörung der Thrombozyten) wurd
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/003912 | Cinqaero | – | Asthma (Status: erloschen) |
+| EMEA/H/C/003912 | Cinqaero | – | Asthma (Status: gültig) |
 
 ## Sicherheitshinweise
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Daptomycin
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 130
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Daptomycin: vorhergesagte neue Indikation Osteoarthritis (Evidenzstufe L4). Ursprüngliche Indikation: Grampositive bakterielle Infektionen, Bakteriämie…"
 monitor_inn: "DAPTOMYCIN"
-predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "osteoarthritis susceptibility", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
+predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
 ---
 
 # Daptomycin
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Dafür gibt es jedoch **keine klinischen Studien** und nur **10 Publikationen**,
 |------|------|
 | Ursprüngliche Indikation | Grampositive bakterielle Infektionen, Bakteriämie, Weichteilinfektionen, bakterielle Endokarditis |
 | Vorhergesagte neue Indikation | Osteoarthritis |
-| TxGNN-Vorhersagewert | 99,86 % |
-| Evidenzniveau | L4 |
-| Marktstatus in Deutschland | Nur erloschene Zulassungen (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| TxGNN-Vorhersagewert | 0,9986 |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Dafür gibt es jedoch **keine klinischen Studien** und nur **10 Publikationen**,
 
 Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist, dass Daptomycin ein zyklisches Lipopeptid mit starker antibakterieller Wirkung gegen grampositive Erreger ist. Seine Wirksamkeit bei Haut- und Weichteilinfektionen, Bakteriämie und Endokarditis gilt als belegt.
 
-Die ausgewerteten Publikationen betreffen Daptomycin bei **osteoartikulären Infektionen** und Infektionen von Gelenkprothesen durch grampositive Erreger (z. B. Staphylokokken). Das ist eine Ausweitung der antibakteriellen Anwendung und keine Behandlung der degenerativen Osteoarthritis. Der hohe TxGNN-Wert spiegelt vermutlich die semantische Nähe von „osteoarticular infection“ und „osteoarthritis“ im Wissensgraphen wider. Für nicht infektiöse Osteoarthritis ist kein entzündungshemmender oder chondroprotektiver Mechanismus belegt.
+Die ausgewerteten Publikationen betreffen Daptomycin bei **osteoartikulären Infektionen** und Infektionen von Gelenkprothesen durch grampositive Erreger (z. B. Staphylokokken). Das ist eine Ausweitung der antibakteriellen Anwendung und keine Behandlung der degenerativen Osteoarthritis. Der hohe TxGNN-Wert stammt aus dem TxGNN-Modell (Deep Learning) und spiegelt vermutlich Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. Für nicht infektiöse Osteoarthritis ist kein entzündungshemmender oder chondroprotektiver Mechanismus belegt.
 
 Ein Hinweis auf eine mögliche andere Richtung: Für **rheumatoide Arthritis** (Rang 2) berichtet eine präklinische Studie aus dem Jahr 2025 (PMID 39571268), dass Daptomycin die kollageninduzierte Arthritis im Tiermodell durch Hemmung entzündlicher Zytokine und des NF-κB-Signalwegs abschwächt. Das ist plausibel, aber nicht validiert, und es gibt keine Humandaten.
 
@@ -95,8 +95,8 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000637 | Cubicin | – | Grampositive bakterielle Infektionen, Bakteriämie, Weichteilinfektionen, bakterielle Endokarditis (erloschen) |
-| EMEA/H/C/004310 | Daptomycin Hospira | – | Weichteilinfektionen, bakterielle Hauterkrankungen (erloschen) |
+| EMEA/H/C/000637 | Cubicin | – | Grampositive bakterielle Infektionen, Bakteriämie, Weichteilinfektionen, bakterielle Endokarditis (gültig) |
+| EMEA/H/C/004310 | Daptomycin Hospira | – | Weichteilinfektionen, bakterielle Hauterkrankungen (gültig) |
 
 ---
 
@@ -117,14 +117,14 @@ Weitere Sicherheitsinformationen entnehmen Sie bitte der Packungsbeilage.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage zu Osteoarthritis beruht auf einer begrifflichen Nähe zu Knochen- und Gelenkinfektionen, nicht auf einem therapeutischen Zusammenhang mit degenerativer Osteoarthritis. Es gibt keine klinischen Studien, und in Deutschland besteht derzeit keine gültige Zulassung.
+Die Vorhersage zu Osteoarthritis stammt aus dem TxGNN-Modell (Deep Learning) und spiegelt vermutlich Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen (z. B. Knochen- und Gelenkinfektionen) gelernt hat, nicht einen therapeutischen Zusammenhang mit degenerativer Osteoarthritis. Es gibt keine klinischen Studien. In Deutschland ist das Arzneimittel im Handel, und beide Zulassungen (2 von 2) sind gültig.
 
 **Für ein Weiterkommen wird Folgendes benötigt:**
 - Detaillierte Daten zum Wirkmechanismus (MOA)
 - Packungsbeilagen-Informationen (Warnhinweise, Kontraindikationen) vom BfArM
 - Klärung, ob die Vorhersage nur ein Artefakt der Begriffsähnlichkeit ist
 - Bei Interesse an Entzündungsindikationen: Weiterverfolgung der präklinischen Daten zur rheumatoiden Arthritis (PMID 39571268, 40923559) als Forschungsfrage, einschließlich Sicherheitsbewertung (Myopathie, CPK-Anstieg)
-- Klärung der Marktverfügbarkeit, da alle Zulassungen erloschen sind
+- Klärung der Marktverfügbarkeit: Das Arzneimittel ist im Handel, 2 von 2 Zulassungen sind gültig
 
 **Hinweis zu weiteren Vorhersagen:** Die übrigen Vorhersagen (Gicht, Pseudoachondroplasie, akromesomele Dysplasie Typ Hunter-Thompson, Brachyolmie u. a.) haben Evidenzniveau L5 und keinerlei klinische Unterstützung. Bei Gicht deutet die Literatur sogar auf ein Sicherheitsrisiko hin.
 ## Haftungsausschluss

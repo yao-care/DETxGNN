@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Nevirapine
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 313
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Nevirapine: vorhergesagte neue Indikation Felines erworbenes Immundefizienz-Syndrom (Katzen-Immundefizienz) (Evidenzstufe L4). Ursprüngliche Indikation: HIV-Infektionen"
+description: "Nevirapin: vorhergesagte neue Indikation felines erworbenes Immundefizienz-Syndrom (Evidenzstufe L4). Ursprüngliche Indikation: HIV-Infektionen"
 monitor_inn: "NEVIRAPINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 # Nevirapine
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Nevirapin ist ein nicht-nukleosidischer Reverse-Transkriptase-Hemmer (NNRTI), de
 |------|------|
 | Ursprüngliche Indikation | HIV-Infektionen |
 | Vorhergesagte neue Indikation | Felines erworbenes Immundefizienz-Syndrom (Katzen-Immundefizienz) |
-| TxGNN-Vorhersagewert | 99,85 % |
-| Evidenzstufe | L4 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| TxGNN-Vorhersagewert | 0,9985 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -64,8 +64,8 @@ Das Felines Immundefizienz-Virus (FIV) ist ein Lentivirus mit einer verwandten R
 
 Zu beachten: Es handelt sich um eine veterinärmedizinische Indikation ohne unmittelbare Relevanz für die Humanmedizin. Die weiteren Vorhersagen sind ähnlich schwach begründet:
 
-- **Simian-Immundefizienz-Virus-Infektion** (Score 99,85 %): Die Reverse Transkriptase von SIV ist von Natur aus gegen NNRTIs resistent. Nevirapin ist nur in chimären SHIV-Modellen mit HIV-1-RT wirksam, die als Forschungsmodelle dienen, nicht als Therapie.
-- **Neuroentwicklungsstörung mit ataktischem Gang, fehlender Sprache und verminderter kortikaler weißer Substanz** (Score 99,82 %): Kein erkennbarer mechanistischer Zusammenhang, weder klinische Studien noch Literatur.
+- **Simian-Immundefizienz-Virus-Infektion** (Score 0,9985): Die Reverse Transkriptase von SIV ist von Natur aus gegen NNRTIs resistent. Nevirapin ist nur in chimären SHIV-Modellen mit HIV-1-RT wirksam, die als Forschungsmodelle dienen, nicht als Therapie.
+- **Neuroentwicklungsstörung mit ataktischem Gang, fehlender Sprache und verminderter kortikaler weißer Substanz** (Score 0,9982): Kein erkennbarer mechanistischer Zusammenhang, weder klinische Studien noch Literatur.
 
 ---
 
@@ -89,7 +89,7 @@ Für die erstrangige Vorhersage (felines Immundefizienz-Syndrom):
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000183 | Viramune | – | HIV-Infektionen (Status: erloschen) |
+| EMEA/H/C/000183 | Viramune | – | HIV-Infektionen (Status: gültig) |
 
 ---
 

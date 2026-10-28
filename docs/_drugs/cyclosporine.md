@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Cyclosporine
-parent: Nur Modellvorhersage (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 125
-evidence_level: L5
+evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Cyclosporine: vorhergesagte neue Indikation Chronische Granulomatose, autosomal-rezessiv (Evidenzstufe L5). Ursprüngliche Indikation: Bindehautentzündung"
@@ -14,7 +14,7 @@ predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "
 # Cyclosporine
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-## Ciclosporin: Von Keratokonjunktivitis/Hornhauterkrankungen zu chronischer Granulomatose (autosomal-rezessiv)
+## Ciclosporin: Chronische Granulomatose, autosomal-rezessiv
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Ciclosporin (Cyclosporine) ist ein Calcineurin-Inhibitor, der in Deutschland bzw
 |------|------|
 | Ursprüngliche Indikation | Bindehautentzündung; Keratitis (weitere: Hornhauterkrankungen, Keratoconjunctivitis sicca) |
 | Vorhergesagte neue Indikation | Chronische Granulomatose, autosomal-rezessiv |
-| TxGNN-Vorhersagewert | 99,68 % |
+| TxGNN-Vorhersagewert | 0,9968 |
 | Evidenzstufe | L4 (laut Datenlage; faktisch kaum Evidenz, praktisch nahe L5) |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl Zulassungen | 3 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl Zulassungen | 3 (gültig: 3) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -82,9 +82,9 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
 |---------|------|------|-----------|------|
-| EMEA/H/C/004411 | Verkazia | – | Bindehautentzündung; Keratitis | erloschen |
-| EMEA/H/C/002066 | Ikervis | – | Hornhauterkrankungen | erloschen |
-| EMEA/H/C/006250 | Vevizye | – | Keratoconjunctivitis sicca | erloschen |
+| EMEA/H/C/004411 | Verkazia | – | Bindehautentzündung; Keratitis | gültig |
+| EMEA/H/C/002066 | Ikervis | – | Hornhauterkrankungen | gültig |
+| EMEA/H/C/006250 | Vevizye | – | Keratoconjunctivitis sicca | gültig |
 
 ---
 
@@ -102,7 +102,7 @@ Die Packungsbeilage mit Warnhinweisen und Gegenanzeigen lag für diesen Bericht 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht praktisch nur auf dem Modell. Es gibt keine klinischen Studien, die einzige Publikation betrifft Stammzelltransplantation und nicht Ciclosporin, und ein plausibler Mechanismus fehlt. Hinzu kommt, dass in Deutschland aktuell keine gültige Zulassung besteht.
+Die Vorhersage beruht praktisch nur auf dem Modell. Es gibt keine klinischen Studien, die einzige Publikation betrifft Stammzelltransplantation und nicht Ciclosporin, und ein plausibler Mechanismus fehlt. In Deutschland ist das Arzneimittel aktuell im Handel, alle 3 Zulassungen (3 von 3) sind gültig.
 
 **Für ein Weiterverfolgen wären nötig:**
 - Daten zum Wirkmechanismus (MOA) und eine mechanistische Begründung für CGD

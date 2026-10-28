@@ -50,10 +50,10 @@ Dafür liegen **keine registrierten klinischen Studien** und **4 Publikationen**
 |------|------|
 | Ursprüngliche Indikation | Tinea pedis, Tinea corporis, kutane Candidose, Tinea unguium, Pityriasis versicolor, vulvovaginale Candidose u. a. |
 | Vorhergesagte neue Indikation | Akne |
-| TxGNN-Vorhersagewert | 99,54 % |
+| TxGNN-Vorhersagewert | 0,9954 |
 | Evidenzstufe | L3 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -92,7 +92,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/000140 | Easotic | – | – (Status: erloschen) |
+| EMEA/V/C/000140 | Easotic | – | – (Status: gültig) |
 
 ---
 

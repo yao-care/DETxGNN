@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Regorafenib
-parent: Nur Modellvorhersage (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 388
-evidence_level: L5
+evidence_level: L1
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Regorafenib: vorhergesagte neue Indikation Liposarkom (Evidenzstufe L5). Ursprüngliche Indikation: Kolorektales Karzinom (Colorectal Neoplasms)"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell
 # Regorafenib
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8** 
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Regorafenib ist ein oraler Multikinase-Inhibitor, der ursprünglich zur Behandlu
 |------|------|
 | Ursprüngliche Indikation | Kolorektales Karzinom (Colorectal Neoplasms) |
 | Vorhergesagte neue Indikation | Liposarkom |
-| TxGNN-Vorhersagewert | 99,76 % |
+| TxGNN-Vorhersagewert | 0,9976 |
 | Evidenzstufe | L1 (formale Einstufung; siehe Hinweis im Abschnitt Literatur) |
-| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassung |
-| Anzahl der Zulassungen | 1 (gelöscht) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails (mit Vorbehalt, siehe Fazit) |
 
 ---
@@ -144,7 +144,7 @@ Formal liegen randomisierte Studien vor (Evidenzstufe L1). Die Ergebnisse beim L
 - Klären, ob die Marktverfügbarkeit in Deutschland anderweitig gesichert ist (Zulassung derzeit gelöscht)
 
 **Weitere Vorhersagen (kurzer Überblick):**
-- **Klarzelliges Nierenzellkarzinom** (Score 99,47 %, Evidenzstufe L3): Phase-II-Studie bei unbehandeltem metastasiertem RCC (PMID 22959186) und präklinische Hinweise (PMID 41324163); als Forschungsfrage einzustufen.
+- **Klarzelliges Nierenzellkarzinom** (Score 0,9947, Evidenzstufe L3): Phase-II-Studie bei unbehandeltem metastasiertem RCC (PMID 22959186) und präklinische Hinweise (PMID 41324163); als Forschungsfrage einzustufen.
 - **Ovarielles myxoides Liposarkom, RCC-Subtypen (Xp11.2/TFE3, Neuroblastom-assoziiert, unklassifiziert), kindliches Nierenzellkarzinom, Vulvasarkom:** ausschließlich Modellvorhersage ohne Studien oder Literatur (Evidenzstufe L5, Entscheidung: Hold).
 ## Haftungsausschluss
 

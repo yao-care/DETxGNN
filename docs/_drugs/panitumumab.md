@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-## Panitumumab: Von Kolorektalkarzinom zu medikamenteninduzierter Osteoporose
+## Panitumumab: Medikamenteninduzierte Osteoporose
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,10 +48,10 @@ Panitumumab ist ein gegen EGFR gerichteter monoklonaler Antikörper, der ursprü
 |------|------|
 | Ursprüngliche Indikation | Kolorektalkarzinom (Colorectal Neoplasms) |
 | Vorhergesagte neue Indikation | Medikamenteninduzierte Osteoporose |
-| TxGNN-Vorhersagewert | 99,13 % |
+| TxGNN-Vorhersagewert | 0,9913 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -82,7 +82,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000741 | Vectibix (Amgen Europe B.V.) | – | Colorectal Neoplasms (Status: erloschen) |
+| EMEA/H/C/000741 | Vectibix (Amgen Europe B.V.) | – | Colorectal Neoplasms (Status: gültig) |
 
 ---
 
@@ -126,7 +126,7 @@ Die Vorhersage beruht ausschließlich auf dem Modellwert (Evidenzniveau L5) ohne
 
 ## Ergänzende Betrachtung: Zweite Vorhersage
 
-Das Modell sagt außerdem **schwere nichtproliferative diabetische Retinopathie** voraus (Score 99,05 %, Evidenzniveau L5, Entscheidung: Hold). Auch hier liegen keine Studien oder Publikationen vor. Eine Rolle von EGFR bei retinaler Angiogenese und Gefäßpermeabilität ist spekulativ plausibel. Panitumumab ist jedoch ein großer systemischer Antikörper mit begrenzter Augenpenetration, und EGFR-Inhibitoren haben okuläre Nebenwirkungen (z. B. Keratitis, trockenes Auge, Blepharitis). Da bereits Anti-VEGF-Wirkstoffe mit etablierter Wirksamkeit zur Verfügung stehen, ist die Begründung für eine Umwidmung schwach.
+Das Modell sagt außerdem **schwere nichtproliferative diabetische Retinopathie** voraus (Score 0,9905, Evidenzniveau L5, Entscheidung: Hold). Auch hier liegen keine Studien oder Publikationen vor. Eine Rolle von EGFR bei retinaler Angiogenese und Gefäßpermeabilität ist spekulativ plausibel. Panitumumab ist jedoch ein großer systemischer Antikörper mit begrenzter Augenpenetration, und EGFR-Inhibitoren haben okuläre Nebenwirkungen (z. B. Keratitis, trockenes Auge, Blepharitis). Da bereits Anti-VEGF-Wirkstoffe mit etablierter Wirksamkeit zur Verfügung stehen, ist die Begründung für eine Umwidmung schwach.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

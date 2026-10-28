@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine registrierten klinischen Studien** vor, aber **8 P
 |------|------|
 | Ursprüngliche Indikation | Restless-Legs-Syndrom, Parkinson-Krankheit |
 | Vorhergesagte neue Indikation | Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS) |
-| TxGNN-Vorhersagewert | 99,99 % |
+| TxGNN-Vorhersagewert | 0,9999 |
 | Evidenzniveau | L3 |
-| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold (weitere Forschungsfrage) |
 
 ---
@@ -93,7 +93,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/004417 | Clevor | – | – (Zulassung erloschen) |
+| EMEA/V/C/004417 | Clevor | – | – (Zulassung gültig) |
 
 ---
 
@@ -112,7 +112,7 @@ Für weitere Sicherheitsinformationen siehe die Fachinformation.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenz für ADHS besteht überwiegend aus indirekten Hinweisen (RLS-ADHS-Überlappung), einem Fallbericht und einer möglicherweise kontrollierten Studie, deren Qualität noch nicht geprüft ist. Klinische Studien sind nicht registriert, und in Deutschland besteht keine gültige Zulassung. Das Thema eignet sich als Forschungsfrage, nicht als unmittelbare Umsetzung.
+Die Evidenz für ADHS besteht überwiegend aus indirekten Hinweisen (RLS-ADHS-Überlappung), einem Fallbericht und einer möglicherweise kontrollierten Studie, deren Qualität noch nicht geprüft ist. Klinische Studien sind nicht registriert. Das Arzneimittel ist in Deutschland im Handel (1 von 1 Zulassung gültig). Das Thema eignet sich als Forschungsfrage, nicht als unmittelbare Umsetzung.
 
 **Für das weitere Vorgehen sind erforderlich:**
 - Volltextprüfung der Studie PMID 42640474 (Design, Ergebnisse, Nebenwirkungen)

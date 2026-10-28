@@ -39,7 +39,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 ## Zusammenfassung
 
 Tocofersolan ist eine wasserlösliche Vitamin-E-Formulierung (d-alpha-Tocopherol-Polyethylenglykolsuccinat, TPGS) und wurde ursprünglich zur Behandlung von Vitamin-E-Mangel bei Cholestase zugelassen.
-Das TxGNN-Modell sagt voraus, dass es bei **Amenorrhoe** wirksam sein könnte (Vorhersagewert 99,3 %).
+Das TxGNN-Modell (Deep Learning) sagt voraus, dass es bei **Amenorrhoe** wirksam sein könnte (Vorhersagewert 0,9931).
 Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht ausschließlich auf dem Modell.
 
 ---
@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 |------|------|
 | Ursprüngliche Indikation | Cholestase; Vitamin-E-Mangel |
 | Vorhergesagte neue Indikation | Amenorrhoe |
-| TxGNN-Vorhersagewert | 99,31 % |
+| TxGNN-Vorhersagewert | 0,9931 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist: To
 
 Für Amenorrhoe wird diskutiert, dass Vitamin E die Prostaglandinsynthese und oxidativen Stress bei Menstruationsstörungen beeinflussen könnte. Die für diesen Bericht zusammengestellten Daten enthalten jedoch weder mechanistische noch klinische Belege, die Tocofersolan mit Amenorrhoe verbinden. Der hohe Vorhersagewert ist ein rein rechnerisches Signal.
 
-Als zweite Vorhersage nennt das Modell **Akne** (Wert 99,0 %). Plausibel ist hier eine antioxidative und entzündungshemmende Wirkung auf die Lipidperoxidation der Haut; in einigen Akne-Kohorten wurden niedrige Vitamin-E-Spiegel berichtet. Auch hierfür liegen weder Studien noch Literatur vor.
+Als zweite Vorhersage nennt das TxGNN-Modell (Deep Learning) **Akne** (Wert 0,9903). Plausibel ist hier eine antioxidative und entzündungshemmende Wirkung auf die Lipidperoxidation der Haut; in einigen Akne-Kohorten wurden niedrige Vitamin-E-Spiegel berichtet. Auch hierfür liegen weder Studien noch Literatur vor.
 
 ---
 
@@ -86,7 +86,7 @@ Derzeit ist keine relevante Literatur verfügbar.
 |---------|------|------|-----------|
 | EMEA/H/C/000920 | Vedrop | – | Cholestase; Vitamin-E-Mangel |
 
-Hinweis: Diese Zulassung (Recordati Rare Diseases) ist erloschen; es existiert keine gültige Zulassung.
+Hinweis: Diese Zulassung (Recordati Rare Diseases) ist gültig; das Arzneimittel ist in Deutschland im Handel (1 gültige Zulassung von 1).
 
 ---
 
@@ -101,7 +101,7 @@ Zu Warnhinweisen, Gegenanzeigen und Wechselwirkungen liegen keine Daten vor. Bit
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich allein auf das Modell (L5), ohne klinische Studien oder Publikationen. Zudem ist keine gültige Zulassung in Deutschland vorhanden, und die Sicherheitsdaten sind unvollständig.
+Die Vorhersage stützt sich allein auf das TxGNN-Modell (Deep Learning, L5), ohne klinische Studien oder Publikationen. Das Arzneimittel ist in Deutschland im Handel (1 gültige Zulassung von 1), die Sicherheitsdaten sind jedoch unvollständig.
 
 **Für ein Weiterkommen sind folgende Schritte erforderlich:**
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) als Voraussetzung für die Sicherheitsprüfung

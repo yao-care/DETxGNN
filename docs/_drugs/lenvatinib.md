@@ -4,7 +4,7 @@ title: Lenvatinib
 parent: Hohe Evidenz (L1-L2)
 nav_order: 266
 evidence_level: L2
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Lenvatinib: vorhergesagte neue Indikation Liposarkom (Evidenzstufe L2). Ursprüngliche Indikation: Nierenzellkarzinom"
 monitor_inn: "lenvatinib"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipom
 # Lenvatinib
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Lenvatinib ist ein Multikinase-Inhibitor, der ursprünglich zur Behandlung des N
 |------|------|
 | Ursprüngliche Indikation | Nierenzellkarzinom; Schilddrüsentumoren |
 | Vorhergesagte neue Indikation | Liposarkom |
-| TxGNN-Vorhersagewert | 99,51 % |
+| TxGNN-Vorhersagewert | 0,9951 |
 | Evidenzniveau | L2 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 Hinweis zur Entscheidung: Für das Liposarkom stützt sich die Evidenz auf eine kleine, einarmige Studie ohne Vergleichsgruppe. Die Sicherheitsdaten aus dem Beipackzettel fehlen, und der Marktstatus ist unklar. Daher wird „Hold" empfohlen, bis diese Lücken geschlossen sind.
@@ -89,10 +89,10 @@ Beim dedifferenzierten Liposarkom spielt zudem die CDK4/MDM2-Amplifikation eine 
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/003727 | Lenvima | – | Schilddrüsentumoren (erloschen) |
-| EMEA/H/C/004224 | Kisplyx | – | Nierenzellkarzinom (erloschen) |
+| EMEA/H/C/003727 | Lenvima | – | Schilddrüsentumoren (gültig) |
+| EMEA/H/C/004224 | Kisplyx | – | Nierenzellkarzinom (gültig) |
 
-Beide Zulassungen sind als erloschen geführt. Aktuell besteht daher keine gültige Zulassung in den zusammengestellten Daten; Verfügbarkeit und Zulassungsstatus sollten geprüft werden.
+Beide Zulassungen sind gültig (2 von 2). Das Arzneimittel ist in diesem Land aktuell im Handel.
 
 ---
 
@@ -141,10 +141,6 @@ Im Rahmen der Analyse wurden weitere Indikationen bewertet:
 
 | Indikation | TxGNN-Wert | Evidenzniveau | Einschätzung |
 |------|------|------|------|
-| Nicht klassifiziertes Nierenzellkarzinom | 99,49 % | L2 | Phase-2-Daten bei nicht-klarzelligem RCC; Erweiterung einer bestehenden Indikation |
-| RCC mit Xp11.2-Translokation/TFE3-Fusion | 99,49 % | L4 | Phase-2-Studie geplant, noch nicht rekrutierend |
-| Nierenzellkarzinom (allgemein) | 99,37 % | L1 | Bestehende Indikation; Phase-3-Studie CLEAR belegt Nutzen von Lenvatinib plus Pembrolizumab gegenüber Sunitinib; „Proceed with Guardrails" |
-| RCC bei Neuroblastom, ovarielles myxoides Liposarkom, kindliches Nierenzellkarzinom, Angiolipom, familiärer Spontanpneumothorax, Endokrin-zerebro-osteodysplasie-Syndrom | 99,2–99,5 % | L5 | Keine Studien oder Literatur; Hold |
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

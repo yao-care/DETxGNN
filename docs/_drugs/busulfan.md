@@ -33,7 +33,7 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Busulfan: Von der Konditionierung vor Stammzelltransplantation zum Myelodysplastischen Syndrom
+## Busulfan: Myelodysplastisches Syndrom
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür liegen in den für diesen Bericht zusammengestellten Daten **über 30 kli
 |------|------|
 | Ursprüngliche Indikation | Hämatopoetische Stammzelltransplantation (Konditionierung) |
 | Vorhergesagte neue Indikation | Myelodysplastisches Syndrom |
-| TxGNN-Vorhersagewert | 99,62 % |
+| TxGNN-Vorhersagewert | 0,9962 |
 | Evidenzstufe | L1 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 (0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
 
 ---
@@ -108,7 +108,7 @@ Es werden die relevantesten Studien dargestellt (Auswahl von 10 aus über 30 Stu
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/002806 | Busulfan Fresenius Kabi | Nicht angegeben | Hämatopoetische Stammzelltransplantation (Status: erloschen) |
+| EMEA/H/C/002806 | Busulfan Fresenius Kabi | Nicht angegeben | Hämatopoetische Stammzelltransplantation (Status: gültig) |
 
 ---
 

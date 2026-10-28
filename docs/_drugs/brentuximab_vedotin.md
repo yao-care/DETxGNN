@@ -33,7 +33,7 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Brentuximab Vedotin: Von Hodgkin-Lymphom und Non-Hodgkin-Lymphom zum follikulären Lymphom
+## Brentuximab Vedotin: Follikuläres Lymphom
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür liegen bislang **6 klinische Studien** (keine davon abgeschlossen) und **
 |------|------|
 | Ursprüngliche Indikation | Non-Hodgkin-Lymphom; Hodgkin-Lymphom |
 | Vorhergesagte neue Indikation | Follikuläres Lymphom |
-| TxGNN-Vorhersagewert | 99,89 % |
+| TxGNN-Vorhersagewert | 0,9989 |
 | Evidenzgrad | L3 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung (Zulassung aufgehoben) |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold (zurückstellen; als Forschungsfrage weiterverfolgen) |
 
 ---
@@ -102,7 +102,7 @@ Hinweis: Keine der Publikationen belegt direkt die Wirksamkeit von Brentuximab V
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/002455 | Adcetris (Takeda Pharma A/S) | – | Non-Hodgkin-Lymphom; Hodgkin-Lymphom (Status: erloschen) |
+| EMEA/H/C/002455 | Adcetris (Takeda Pharma A/S) | – | Non-Hodgkin-Lymphom; Hodgkin-Lymphom (Status: gültig) |
 
 ---
 

@@ -5,10 +5,10 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 238
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Indacaterol: vorhergesagte neue Indikation Nephrogenes Syndrom der inadäquaten Antidiurese (Evidenzstufe L5). Ursprüngliche Indikation: Chronisch obstruktive Lungenerkrankung (COPD)"
 monitor_inn: "INDACATEROL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
+last_modified_at: 2026-10-27
+description: "Indacaterol: vorhergesagte neue Indikation Nephrogenes Syndrom der inadäquaten Antidiurese (nephrogenic syndrome of inappropriate antidiuresis) (Evidenzstufe L5). Ursprüngliche Indikation: Pulmonary …"
 ---
 
 # Indacaterol
@@ -33,93 +33,67 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Indacaterol: Von chronisch obstruktiver Lungenerkrankung (COPD) zum nephrogenen Syndrom der inadäquaten Antidiurese
+## Indacaterol: Langwirksamer Beta-2-Agonist → Nephrogenes Syndrom der inadäquaten Antidiurese (nephrogenic syndrome of inappropriate antidiuresis)
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 
-Indacaterol ist ein langwirksamer Beta-2-Agonist zur Inhalation, der ursprünglich zur Behandlung von COPD und Asthma zugelassen wurde.
-Das TxGNN-Modell sagt eine mögliche Wirksamkeit beim **nephrogenen Syndrom der inadäquaten Antidiurese (NSIAD)** voraus.
-Dafür liegen aber **keine klinischen Studien** und **keine Publikationen** vor. Die Vorhersage beruht allein auf dem Wissensgraphen.
-
----
+Indacaterol ist ein langwirksamer Beta-2-Agonist zur Inhalation. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **nephrogenem Syndrom der inadäquaten Antidiurese (nephrogenic syndrome of inappropriate antidiuresis)** voraus. Für diese Vorhersage liegen in den für diesen Bericht zusammengestellten Daten **keine klinischen Studien und keine Publikationen** vor; sie beruht ausschließlich auf der Modellvorhersage.
 
 ## Schnellübersicht
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Chronisch obstruktive Lungenerkrankung (COPD) |
-| Vorhergesagte neue Indikation | Nephrogenes Syndrom der inadäquaten Antidiurese |
-| TxGNN-Vorhersagewert | 99,54 % |
+| Ursprüngliche Indikation | Pulmonary Disease, Chronic Obstructive; Asthma |
+| Vorhergesagte neue Indikation | Nephrogenes Syndrom der inadäquaten Antidiurese (nephrogenic syndrome of inappropriate antidiuresis) |
+| TxGNN-Vorhersagewert | 0,9954 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | ✗ Nur erloschene/widerrufene Zulassungen |
-| Anzahl Zulassungen | 10 (alle erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 10 von 10) |
+| Anzahl der Zulassungen | 10 (gültig: 10) |
 | Empfohlene Entscheidung | Hold |
 
----
+## Warum ist diese Vorhersage plausibel?
 
-## Warum ist diese Vorhersage nachvollziehbar?
+Zum Wirkmechanismus von Indacaterol liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Indacaterol ein ultra-langwirksamer Beta-2-Adrenozeptor-Agonist ist, der über eine cAMP-vermittelte Relaxation der glatten Atemwegsmuskulatur wirkt.
 
-Zum detaillierten Wirkmechanismus liegen für dieses Arzneimittel derzeit keine Daten vor. Nach bekanntem Stand gehört Indacaterol zur Klasse der langwirksamen Beta-2-Adrenozeptor-Agonisten. Seine Wirksamkeit bei COPD und Asthma beruht auf einer cAMP-vermittelten Entspannung der glatten Atemwegsmuskulatur.
+Ein möglicher, rein spekulativer Zusammenhang mit der vorhergesagten Erkrankung betrifft die Beta-2-adrenerge Signalübertragung, die cAMP- und Vasopressin-V2-Rezeptor-Signalwege in der Niere beeinflussen könnte. Dieser Zusammenhang ist durch keine Daten gestützt. Die hohe Modellbewertung ist eine reine graphbasierte Vorhersage und kein Beleg für Wirksamkeit.
 
-Eine mögliche, aber rein spekulative Verbindung zum NSIAD ist die Beta-2-adrenerge Signalübertragung. Sie beeinflusst cAMP und den Vasopressin-V2-Rezeptor-Signalweg in der Niere. Es gibt dafür keine Belege. Da das NSIAD auf einer übermäßigen Aktivierung dieses Signalwegs beruht, ist zudem unklar, ob ein cAMP-steigernder Wirkstoff nützen würde oder eher ungünstig wäre. Beide Indikationen haben pharmakologisch wenig gemeinsam, und der hohe Score spiegelt vermutlich nur Nachbarschaftsbeziehungen im Graphen wider.
+## Evidenz aus klinischen Studien
 
----
+Derzeit sind keine zugehörigen klinischen Studien zu dieser Erkrankung registriert.
 
-## Klinische Evidenz
+## Evidenz aus der Literatur
 
-Derzeit sind keine zugehörigen klinischen Studien registriert.
+Derzeit ist keine zugehörige Literatur zu dieser Erkrankung verfügbar.
 
----
-
-## Literaturevidenz
-
-Derzeit ist keine zugehörige Literatur verfügbar.
-
----
-
-## Informationen zum deutschen Markt
-
-Alle zehn Zulassungen sind zentrale EU-Zulassungen (EMEA) von Novartis Europharm Limited und derzeit **erloschen**. Angaben zur Darreichungsform liegen nicht vor.
+## Informationen zum Markt in Deutschland
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/001211 | Hirobriz Breezhaler | – | COPD |
-| EMEA/H/C/001114 | Onbrez Breezhaler | – | COPD |
-| EMEA/H/C/001210 | Oslif Breezhaler | – | COPD |
+| EMEA/H/C/001211 | Hirobriz Breezhaler | – | Chronisch obstruktive Lungenerkrankung |
+| EMEA/H/C/001114 | Onbrez Breezhaler | – | Chronisch obstruktive Lungenerkrankung |
+| EMEA/H/C/001210 | Oslif Breezhaler | – | Chronisch obstruktive Lungenerkrankung |
 | EMEA/H/C/005516 | Bemrist Breezhaler | – | Asthma |
-| EMEA/H/C/003755 | Xoterna Breezhaler | – | COPD |
-
-Weitere fünf erloschene Zulassungen: Ulunar, Atectura, Ultibro, Zimbus und Enerzair Breezhaler.
-
----
+| EMEA/H/C/003755 | Xoterna Breezhaler | – | Chronisch obstruktive Lungenerkrankung |
 
 ## Sicherheitsaspekte
 
-Die Packungsbeilage mit Warnhinweisen und Gegenanzeigen ist für diesen Bericht nicht verfügbar. Bitte die Fachinformation heranziehen.
+- **Arzneimittelwechselwirkungen** (Auswahl, Schweregrad laut Interaktionsdatenbank): Moderate Wechselwirkungen u. a. mit Acarbose, Isomethepten, Famotidin, Epinephrin, Metformin, Pioglitazon, Clarithromycin, Canagliflozin und Dapagliflozin; geringfügige Wechselwirkungen u. a. mit Hydrocortison, Dexamethason, Budesonid und Triamcinolon. Insgesamt wurden 100 Wechselwirkungen erfasst.
 
-- **Mögliche Kontraindikationen laut Wissensgraph** (modellbasiert, kein Etikettentext): Bluthochdruck, Long-QT-Syndrom (auch familiär), Epilepsie, Hyperglykämie, Kaliummangel, Diabetes mellitus, diabetische Ketoazidose, plötzlicher Herzstillstand, Erregungsleitungsstörungen des Herzens, Thyreotoxikose/Hyperthyreose, Morbus Basedow und koronare Herzkrankheit.
-- **Arzneimittelwechselwirkungen**: Insgesamt wurden 100 Wechselwirkungen gefunden. Zu den Wechselwirkungen mittleren Schweregrads zählen:
-  - Antidiabetika: Acarbose, Alogliptin, Metformin, Pioglitazon, Canagliflozin, Dapagliflozin, Saxagliptin, Chlorpropamid und Albiglutid
-  - Sonstige: Epinephrin, Isomethepten, Famotidin und Clarithromycin
-- Leichte Wechselwirkungen bestehen unter anderem mit Kortikosteroiden (Hydrocortison, Dexamethason, Budesonid, Beclomethason u. a.) sowie mit Aprepitant.
-
----
+Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Für das NSIAD gibt es weder klinische noch Literaturbelege, nur eine graphbasierte Vorhersage (Evidenzniveau L5). Der mechanistische Zusammenhang ist spekulativ. Zudem sind in Deutschland keine gültigen Zulassungen mehr vorhanden.
+Für die vorhergesagte Indikation gibt es weder klinische Studien noch Publikationen; der hohe Vorhersagewert von 0,9954 stützt sich allein auf das Modell, und ein plausibler Wirkmechanismus ist nur spekulativ.
 
-Für die Vorhersage „bronchiale Erkrankung" existieren rund 24 Studien und 20 Publikationen. Sie bestätigt jedoch nur die bereits bekannten Indikationen COPD und Asthma und ist daher keine echte Neuverwendung. Die Phase-3-Evidenz stammt dort überwiegend von Kombinationspräparaten.
-
-**Für ein Weiterverfolgen ist Folgendes nötig:**
-- Daten zum Wirkmechanismus (MOA)
-- Fachinformation mit Warnhinweisen und Gegenanzeigen aus öffentlich zugänglichen Quellen
-- Präklinische Belege, die einen Zusammenhang zwischen Beta-2-Agonismus und dem V2-Rezeptor-Signalweg bei NSIAD stützen, sowie eine Klärung der Wirkrichtung
-- Eine Prüfung der Marktverfügbarkeit, da derzeit keine gültige Zulassung besteht
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Präklinische Daten oder mechanistische Studien zum Zusammenhang zwischen Beta-2-adrenerger Signalübertragung und dem Vasopressin-V2-Signalweg bei dieser Erkrankung
+- Detaillierte Wirkmechanismus-Daten (MOA) zu Indacaterol
+- Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
+- Prüfung der Sicherheit bei Begleiterkrankungen, bei denen Beta-Agonisten problematisch sein können (z. B. Herzrhythmusstörungen, Bluthochdruck, Diabetes)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

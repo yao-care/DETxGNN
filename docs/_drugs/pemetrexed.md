@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pemetrexed
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 351
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Pemetrexed: vorhergesagte neue Indikation Malignes peritoneales Mesotheliom (Evidenzstufe L2). Ursprüngliche Indikation: Nicht-kleinzelliges Lungenkarzinom"
 monitor_inn: "PEMETREXED"
-predicted_indications: ["pleural adenomatoid tumor", "pleural biphasic mesothelioma", "pericardium cancer", "well differentiated papillary mesothelioma", "lymphohistiocytoid mesothelioma", "iminoglycinuria"]
+predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
+description: "Pemetrexed: vorhergesagte neue Indikation Pleural adenomatoid tumor (Evidenzstufe L5). Ursprüngliche Indikation: Carcinoma, Non-Small-Cell Lung"
 ---
 
 # Pemetrexed
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Pemetrexed: Von Nicht-kleinzelligem Lungenkarzinom und Mesotheliom zum malignen peritonealen Mesotheliom
+## Pemetrexed: Pleural adenomatoid tumor
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,12 +48,12 @@ Dafür liegen **7 klinische Studien** (überwiegend Phase 2) und **20 Publikatio
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht-kleinzelliges Lungenkarzinom; Mesotheliom |
-| Vorhergesagte neue Indikation | Malignes peritoneales Mesotheliom |
-| TxGNN-Vorhersagewert | 99,99 % |
-| Evidenzstufe | L2 |
-| Marktstatus in Deutschland | Nur erloschene Zulassungen (keine aktuell gültige Zulassung) |
-| Anzahl der Zulassungen | 4 (alle erloschen) |
+| Ursprüngliche Indikation | Carcinoma, Non-Small-Cell Lung;Mesothelioma; Mesothelioma;Carcinoma, Non-Small-Cell Lung |
+| Vorhergesagte neue Indikation | Pleural adenomatoid tumor |
+| TxGNN-Vorhersagewert | 0.9999 |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 4 von 4) |
+| Anzahl der Zulassungen | 4 (gültig: 4) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
 
 ---
@@ -101,7 +101,7 @@ Wichtig: Die Datenlage speziell für das Peritoneum stammt überwiegend aus Phas
 
 ## Informationen zum deutschen Markt
 
-Alle vier Zulassungen sind zentrale EU-Zulassungen (EMA) und derzeit erloschen.
+Alle vier Zulassungen sind zentrale EU-Zulassungen (EMA) und derzeit gültig.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -151,7 +151,7 @@ Pemetrexed-Platin ist beim Pleuramesotheliom durch Phase-3-Evidenz etabliert und
 - Auswertung der laufenden randomisierten Phase-2-Studien (NCT05001880, NCT03875144, NCT06057935)
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da diese Sicherheitsdaten derzeit fehlen und die Sicherheitsprüfung blockieren
 - Daten zum Wirkmechanismus aus der Arzneimitteldatenbank
-- Klärung des Zulassungsstatus in Deutschland, da alle vier Zulassungen erloschen sind
+- Klärung des Zulassungsstatus in Deutschland; alle vier Zulassungen sind derzeit gültig
 - Überwachungsplan für Blutbild, Nierenfunktion und Folat-/Vitamin-B12-Supplementierung
 
 **Hinweis zu weiteren Vorhersagen:** Die Vorhersagen für Pleuramesotheliom und dessen Subtypen (epitheloid, sarkomatoid, biphasisch) entsprechen bereits der bestehenden Zulassung und stellen keine echte Neuindikation dar. Für pleurales Adenomatoid-Tumor, lymphohistiozytoides Mesotheliom, gut differenziertes papilläres Mesotheliom und Iminoglyzinurie besteht keine tragfähige Rationale (Empfehlung: Hold). Das Perikardkarzinom ist lediglich durch Einzelfallberichte gestützt.

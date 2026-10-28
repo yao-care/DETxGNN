@@ -4,7 +4,7 @@ title: Sorafenib
 parent: Hohe Evidenz (L1-L2)
 nav_order: 435
 evidence_level: L2
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
 description: "Sorafenib: vorhergesagte neue Indikation Liposarkom (Evidenzstufe L2). Ursprüngliche Indikation: Hepatozelluläres Karzinom"
 monitor_inn: "SORAFENIB"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female bre
 # Sorafenib
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Derzeit stützen **1 klinische Studie** (Phase 2, einarmig, gemischte Sarkom-His
 |------|------|
 | Ursprüngliche Indikation | Hepatozelluläres Karzinom; Nierenzellkarzinom |
 | Vorhergesagte neue Indikation | Liposarkom |
-| TxGNN-Vorhersagewert | 99,82 % |
+| TxGNN-Vorhersagewert | 0,9982 |
 | Evidenzniveau | L2 |
-| Marktstatus in Deutschland | Nur gelöschte (erloschene) Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -126,13 +126,11 @@ Für Warnhinweise und Gegenanzeigen aus dem Zulassungstext liegen keine Daten vo
 
 | Rang | Erkrankung | TxGNN-Wert | Evidenzniveau | Einschätzung |
 |---|---|---|---|---|
-| 2 | Ovarielles myxoides Liposarkom | 99,76 % | L5 | Hold |
-| 3 | Nicht klassifiziertes Nierenzellkarzinom | 99,65 % | L4 | Forschungsfrage (nur Fallberichte) |
-| 4–6 | RCC mit Xp11.2/TFE3, RCC bei Neuroblastom, kindliches Nierenzellkarzinom | 99,57–99,65 % | L5 | Hold |
-| 7 | Weibliches Mammakarzinom | 99,53 % | L2 | Forschungsfrage (7 Studien der Phase 1/2, keine Phase 3, mäßige Wirksamkeitssignale, Hand-Fuß-Reaktion limitiert Kombinationsdosierung) |
-| 8 | Nierenbeckenkarzinom | 99,40 % | L2 | Forschungsfrage (Studien beim Urothelkarzinom, begrenzte Aktivität) |
-| 9 | Vulvasarkom | 99,37 % | L5 | Hold |
-| 10 | Dermatofibrosarcoma protuberans | 99,35 % | L4 | Forschungsfrage (Fallbericht mit Ansprechen nach Imatinib-Versagen; mechanistisch über PDGFR plausibel) |
+| 2 | Ovarielles myxoides Liposarkom | 0,9976 | L5 | Hold |
+| 7 | Weibliches Mammakarzinom | 0,9953 | L5 | Forschungsfrage (7 Studien der Phase 1/2, keine Phase 3, mäßige Wirksamkeitssignale, Hand-Fuß-Reaktion limitiert Kombinationsdosierung) |
+| 8 | Nierenbeckenkarzinom | 0,9940 | L2 | Forschungsfrage (Studien beim Urothelkarzinom, begrenzte Aktivität) |
+| 9 | Vulvasarkom | 0,9937 | L5 | Hold |
+| 10 | Dermatofibrosarcoma protuberans | 0,9935 | L4 | Forschungsfrage (Fallbericht mit Ansprechen nach Imatinib-Versagen; mechanistisch über PDGFR plausibel) |
 
 ---
 

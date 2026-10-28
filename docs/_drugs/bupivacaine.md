@@ -48,10 +48,10 @@ Bupivacain ist ein Lokalanästhetikum vom Amid-Typ und wurde ursprünglich zur B
 |------|------|
 | Ursprüngliche Indikation | Akuter Schmerz |
 | Vorhergesagte neue Indikation | Acrodermatitis chronica atrophicans |
-| TxGNN-Vorhersagewert | 99,23 % |
+| TxGNN-Vorhersagewert | 0,9923 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -60,15 +60,15 @@ Bupivacain ist ein Lokalanästhetikum vom Amid-Typ und wurde ursprünglich zur B
 
 Derzeit liegen keine detaillierten Daten zum Wirkmechanismus vor. Bekannt ist, dass Bupivacain ein Amid-Lokalanästhetikum ist, das spannungsabhängige Natriumkanäle blockiert. Seine Wirksamkeit bei akutem Schmerz gilt als belegt.
 
-Ein plausibler mechanistischer Zusammenhang mit der neuen Indikation lässt sich aus den vorliegenden Daten **nicht** ableiten. Die Acrodermatitis chronica atrophicans ist das späte Hautstadium der Lyme-Borreliose und erfordert eine antibiotische Behandlung. Ein Lokalanästhetikum hat bei der zugrunde liegenden Infektion keine plausible Rolle. Der hohe TxGNN-Wert (0,992) ist eine reine Modellvorhersage ohne klinische oder literarische Stützung.
+Ein plausibler mechanistischer Zusammenhang mit der neuen Indikation lässt sich aus den vorliegenden Daten **nicht** ableiten. Die Acrodermatitis chronica atrophicans ist das späte Hautstadium der Lyme-Borreliose und erfordert eine antibiotische Behandlung. Ein Lokalanästhetikum hat bei der zugrunde liegenden Infektion keine plausible Rolle. Der hohe TxGNN-Wert (0,9923) ist eine reine Modellvorhersage ohne klinische oder literarische Stützung.
 
 Weitere vom Modell vorhergesagte Indikationen sind ebenfalls ohne belegten mechanistischen Zusammenhang und ohne Studien oder Publikationen:
 
 | Rang | Vorhergesagte Indikation | TxGNN-Wert | Evidenzgrad | Einschätzung |
 |------|------|------|------|------|
-| 2 | Neonatale Dermatomyositis | 99,15 % | L5 | Hold. Immunvermittelte Erkrankung. Bupivacain ist in hohen lokalen Konzentrationen myotoxisch, zudem bestehen Sicherheitsbedenken bei Neugeborenen (systemische Toxizität von Lokalanästhetika). |
-| 3 | Sekundäre interstitielle Lungenerkrankung des Kindesalters bei Bindegewebserkrankung | 99,11 % | L5 | Hold. Die Therapie beruht auf Immunsuppression. Der hohe Wert spiegelt vermutlich die Nähe im Netzwerk wider, nicht eine pharmakologische Begründung. |
-| 4 | Amyopathische Dermatomyositis | 99,03 % | L5 | Hold. Allenfalls symptomatische Linderung lokaler Schmerzen oder von Juckreiz, keine Repurposing-Indikation. |
+| 2 | Neonatale Dermatomyositis | 0,9915 | L5 | Hold. Immunvermittelte Erkrankung. Bupivacain ist in hohen lokalen Konzentrationen myotoxisch, zudem bestehen Sicherheitsbedenken bei Neugeborenen (systemische Toxizität von Lokalanästhetika). |
+| 3 | Sekundäre interstitielle Lungenerkrankung des Kindesalters bei Bindegewebserkrankung | 0,9911 | L5 | Hold. Die Therapie beruht auf Immunsuppression. Der hohe Wert spiegelt vermutlich die Nähe im Netzwerk wider, nicht eine pharmakologische Begründung. |
+| 4 | Amyopathische Dermatomyositis | 0,9903 | L5 | Hold. Allenfalls symptomatische Linderung lokaler Schmerzen oder von Juckreiz, keine Repurposing-Indikation. |
 
 ---
 
@@ -112,7 +112,7 @@ Hinweise und Gegenanzeigen aus der Fachinformation lagen nicht vor. Bitte die Fa
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzgrad L5) ohne Studien oder Publikationen. Ein mechanistischer Zusammenhang ist nicht erkennbar, da die Acrodermatitis chronica atrophicans eine antibiotisch zu behandelnde Infektion ist. In Deutschland besteht zudem keine gültige Zulassung.
+Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzgrad L5) ohne Studien oder Publikationen. Ein mechanistischer Zusammenhang ist nicht erkennbar, da die Acrodermatitis chronica atrophicans eine antibiotisch zu behandelnde Infektion ist. In Deutschland ist das Arzneimittel zudem im Verkehr; es besteht 1 gültige Zulassung (von 1).
 
 **Für ein Weiterkommen sind erforderlich:**
 - Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) für die Sicherheitsprüfung

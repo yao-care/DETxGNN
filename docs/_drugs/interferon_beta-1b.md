@@ -39,7 +39,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 ## Zusammenfassung in einem Satz
 
 Interferon beta-1b ist ein Immunmodulator, der ursprünglich zur Behandlung der **Multiplen Sklerose** zugelassen wurde.
-Das TxGNN-Modell sagt voraus, dass er bei **Haarzellleukämie** wirksam sein könnte (Score 99,2 %), doch dafür liegen **keine klinischen Studien und keine Publikationen** vor. Für die zweitplatzierte Vorhersage (autoimmune Erkrankung des zentralen Nervensystems) gibt es zwar **6 klinische Studien** und **18 Publikationen**, diese betreffen aber fast ausschließlich die bereits zugelassene Multiple Sklerose.
+Das TxGNN-Modell (Deep Learning) sagt voraus, dass er bei **Haarzellleukämie** wirksam sein könnte (Score 0,9916), doch dafür liegen **keine klinischen Studien und keine Publikationen** vor. Für die zweitplatzierte Vorhersage (autoimmune Erkrankung des zentralen Nervensystems) gibt es zwar **6 klinische Studien** und **18 Publikationen**, diese betreffen aber fast ausschließlich die bereits zugelassene Multiple Sklerose.
 
 ---
 
@@ -49,10 +49,10 @@ Das TxGNN-Modell sagt voraus, dass er bei **Haarzellleukämie** wirksam sein kö
 |------|------|
 | Ursprüngliche Indikation | Multiple Sklerose |
 | Vorhergesagte neue Indikation | Haarzellleukämie |
-| TxGNN-Vorhersagewert | 99,16 % |
+| TxGNN-Vorhersagewert | 0,9916 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -105,7 +105,7 @@ Die folgende Auswahl betrifft die zweitplatzierte Vorhersage (wiederum Multiple 
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000081 | Betaferon (Bayer AG) | – | Multiple Sklerose (Status: erloschen/aufgehoben) |
+| EMEA/H/C/000081 | Betaferon (Bayer AG) | – | Multiple Sklerose (Status: gültig/gültig) |
 
 ---
 

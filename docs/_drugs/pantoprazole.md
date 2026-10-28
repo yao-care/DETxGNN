@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pantoprazole
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 343
-evidence_level: L1
-indication_count: 6
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Pantoprazole: vorhergesagte neue Indikation Aktives peptisches Ulkus (active peptic ulcer disease) (Evidenzstufe L1). Ursprüngliche Indikation: Gastroösophageale Refluxkrankheit"
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
+description: "Pantoprazole: vorhergesagte neue Indikation Duodenal obstruction (Evidenzstufe L5). Ursprüngliche Indikation: Gastroesophageal Reflux"
 ---
 
 # Pantoprazole
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **6** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-## Pantoprazol: Von gastroösophagealer Refluxkrankheit zu aktivem Magengeschwür (Ulcus pepticum)
+## Pantoprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,12 +48,12 @@ Wichtig: Diese Indikation liegt sehr nah an den bereits etablierten säurebezoge
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Gastroösophageale Refluxkrankheit |
-| Vorhergesagte neue Indikation | Aktives peptisches Ulkus (active peptic ulcer disease) |
-| TxGNN-Vorhersagewert | 99,69 % |
-| Evidenzlevel | L1 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 3 (alle aufgehoben) |
+| Ursprüngliche Indikation | Gastroesophageal Reflux |
+| Vorhergesagte neue Indikation | Duodenal obstruction |
+| TxGNN-Vorhersagewert | 0.9921 |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
 
 ---
@@ -68,12 +68,7 @@ Weitere vorhergesagte Indikationen im Überblick:
 
 | Rang | Indikation | Score | Evidenzlevel | Einschätzung |
 |---|---|---|---|---|
-| 1 | Aktives peptisches Ulkus | 99,69 % | L1 | Proceed with Guardrails |
-| 2 | Gastrojejunales Ulkus | 99,63 % | L3 | Forschungsfrage |
-| 3 | Perforiertes peptisches Ulkus | 99,63 % | L3 | Forschungsfrage (nur Zusatztherapie zur Versorgung) |
-| 4 | Duodenogastraler Reflux | 99,27 % | L3 | Forschungsfrage (Effekt auf Gallenreflux unsicher) |
-| 5 | Duodenale Obstruktion | 99,21 % | L5 | Hold (kein plausibler Mechanismus; mechanische Ursache) |
-| 6 | Duodenalulkus | 99,18 % | L1 | Proceed with Guardrails |
+| 5 | Duodenale Obstruktion | 0,9921 | L5 | Hold (kein plausibler Mechanismus; mechanische Ursache) |
 
 ---
 
@@ -127,7 +122,6 @@ Hinweis: Bei NCT02084420 ist der Titel verkürzt; Vergleichssubstanz und Endpunk
 | EMEA/H/C/001098 | Somac Control | – | Gastroösophageale Refluxkrankheit |
 | EMEA/H/C/001013 | Pantozol Control | – | Gastroösophageale Refluxkrankheit |
 
-Alle drei Zulassungen (Inhaber: Takeda GmbH) sind aufgehoben bzw. erloschen; es besteht derzeit keine gültige Einzel- oder Kombinationszulassung in den erfassten Daten.
 
 ---
 
@@ -148,7 +142,7 @@ Für Warnhinweise und Kontraindikationen laut Label bitte die Packungsbeilage bz
 **Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Für das aktive peptische Ulkus und das Duodenalulkus liegen Phase-3-Studien sowie mehrere randomisierte Vergleichsstudien vor (Pantoprazol vs. Ranitidin und vs. Omeprazol), und der Mechanismus ist etabliert. Es handelt sich jedoch um eine säurebedingte Kernindikation und nicht um ein neuartiges Repurposing. Die übrigen Vorhersagen (gastrojejunales Ulkus, Ulkusperforation, duodenogastraler Reflux) sind Forschungsfragen, die duodenale Obstruktion sollte zurückgestellt werden (Hold).
+Für das aktive peptische Ulkus und das Duodenalulkus liegen Phase-3-Studien sowie mehrere randomisierte Vergleichsstudien vor (Pantoprazol vs. Ranitidin und vs. Omeprazol), und der Mechanismus ist etabliert. Es handelt sich jedoch um eine säurebedingte Kernindikation und nicht um ein neuartiges Repurposing. Die duodenale Obstruktion sollte zurückgestellt werden (Hold).
 
 **Für das weitere Vorgehen ist Folgendes erforderlich:**
 - Packungsbeilagen und Fachinformationen des BfArM beschaffen und auswerten (Warnhinweise und Kontraindikationen fehlen derzeit; dies blockiert die Sicherheitsprüfung)

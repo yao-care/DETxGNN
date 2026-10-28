@@ -40,7 +40,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 Teprotumumab ist ein Antikörper gegen den IGF-1-Rezeptor und wurde ursprünglich zur Behandlung der Graves-Ophthalmopathie (endokrine Orbitopathie) zugelassen.
 Das TxGNN-Modell sagt voraus, dass er bei **Monosomie X** (Turner-Syndrom) wirksam sein könnte.
-Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht ausschließlich auf einem Wissensgraphen.
+Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage stammt allein vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz.
 
 ---
 
@@ -50,10 +50,10 @@ Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vo
 |------|------|
 | Ursprüngliche Indikation | Graves-Ophthalmopathie |
 | Vorhergesagte neue Indikation | Monosomie X |
-| TxGNN-Vorhersagewert | 99,79 % |
+| TxGNN-Vorhersagewert | 0,9979 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassung |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -64,7 +64,7 @@ Zum detaillierten Wirkmechanismus liegen in den für diesen Bericht zusammengest
 
 Zwischen der ursprünglichen Indikation und Monosomie X besteht kein erkennbarer pathophysiologischer Zusammenhang. Monosomie X ist eine chromosomale Erkrankung. Die IGF-1-Achse spielt zwar beim Wachstum eine Rolle, eine Blockade des IGF-1R würde das Wachstum aber eher hemmen als fördern. Die Richtung des Mechanismus ist daher fraglich.
 
-Der hohe Vorhersagewert ist eine rein graphbasierte Berechnung ohne klinische Stütze. Auch die übrigen Top-10-Vorhersagen (z. B. Ösophagusvarizen, gemischte Gonadendysgenesie, Varikose, mitochondriale Erkrankung) zeigen keinen plausiblen mechanistischen Bezug. Viele davon betreffen Chromosomenanomalien des X-Chromosoms und spiegeln vermutlich benachbarte Knoten im Graphen wider.
+Der hohe Vorhersagewert stammt allein aus dem TxGNN-Modell (Deep Learning) und hat keine klinische Stütze. Auch die übrigen Top-10-Vorhersagen (z. B. Ösophagusvarizen, gemischte Gonadendysgenesie, Varikose, mitochondriale Erkrankung) zeigen keinen plausiblen mechanistischen Bezug. Viele davon betreffen Chromosomenanomalien des X-Chromosoms und spiegeln vermutlich Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz.
 
 ---
 
@@ -111,7 +111,7 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) ist die Fach
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich allein auf einen Wissensgraphen (Evidenzstufe L5), ohne Studien oder Publikationen. Zudem ist ein plausibler Mechanismus nicht erkennbar, und die IGF-1R-Blockade würde bei Turner-Syndrom eher dem Wachstum entgegenwirken. Hinzu kommt, dass die deutsche Zulassung erloschen ist.
+Die Vorhersage stammt allein aus dem TxGNN-Modell (Deep Learning; Evidenzstufe L5), ohne Studien oder Publikationen, und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. Zudem ist ein plausibler Mechanismus nicht erkennbar, und die IGF-1R-Blockade würde bei Turner-Syndrom eher dem Wachstum entgegenwirken. Das Arzneimittel ist in Deutschland im Verkehr (1 von 1 Zulassung gültig).
 
 **Für ein weiteres Vorgehen ist Folgendes erforderlich:**
 - Daten zum Wirkmechanismus (MOA) aus DrugBank

@@ -4,7 +4,7 @@ title: Zidovudine
 parent: Nur Modellvorhersage (L5)
 nav_order: 507
 evidence_level: L5
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Zidovudine: vorhergesagte neue Indikation Felines erworbenes Immundefizienzsyndrom (veterinärmedizinische Indik… (Evidenzstufe L5). Ursprüngliche Indikation: HIV-Infektion"
 monitor_inn: "ZIDOVUDINE"
@@ -14,7 +14,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 # Zidovudine
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ Zidovudin ist ein Nukleosid-Reverse-Transkriptase-Hemmer, der ursprünglich zur 
 |------|------|
 | Ursprüngliche Indikation | HIV-Infektion |
 | Vorhergesagte neue Indikation | Felines erworbenes Immundefizienzsyndrom (veterinärmedizinische Indikation) |
-| TxGNN-Vorhersagewert | 99,96 % |
-| Evidenzniveau | L3 (tierexperimentelle und veterinärklinische Studien, keine Humanstudien) |
-| Marktstatus in Deutschland | Nur erloschene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| TxGNN-Vorhersagewert | 0,9996 |
+| Evidenzniveau | L5 (tierexperimentelle und veterinärklinische Studien, keine Humanstudien) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold (Forschungsfrage, keine Humanindikation) |
 
 ## Warum ist diese Vorhersage plausibel?
@@ -83,8 +83,8 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000190 | Combivir | nicht angegeben | HIV-Infektionen (erloschen) |
-| EMEA/H/C/000338 | Trizivir | nicht angegeben | HIV-Infektionen (erloschen) |
+| EMEA/H/C/000190 | Combivir | nicht angegeben | HIV-Infektionen (gültig) |
+| EMEA/H/C/000338 | Trizivir | nicht angegeben | HIV-Infektionen (gültig) |
 
 ## Sicherheitshinweise
 
@@ -112,11 +112,9 @@ Die Evidenz für felines AIDS stammt ausschließlich aus Tier- und Veterinärstu
 
 | Rang | Indikation | Score | Evidenz | Empfehlung |
 |---|---|---|---|---|
-| 2 | Infektion mit dem Simianen Immundefizienzvirus | 99,96 % | L3 (Primatenstudien, keine Humanstudien) | Forschungsfrage |
-| 3 | Neuroentwicklungsstörung mit ataktischem Gang, fehlender Sprache und verminderter kortikaler weißer Substanz | 99,96 % | L5 | Hold |
-| 4 | Veraltet: familiäre kombinierte Hyperlipidämie | 99,62 % | L5 | Hold (Zidovudin kann Lipidstörungen eher verschlechtern) |
-| 5 | AIDS-bezogener Symptomkomplex (ARC) | 99,19 % | L1 (u. a. Phase-3-Studie NCT00001011, n = 538) | Proceed with Guardrails (überschneidet sich mit der Originalindikation, keine echte Neuindikation) |
-| 6 | Kongenitale HIV-Infektion | 99,19 % | L1 (u. a. NCT00102960, NCT00001104) | Proceed with Guardrails (etablierte perinatale Prophylaxe, überschneidet sich mit der Originalindikation) |
+| 2 | Infektion mit dem Simianen Immundefizienzvirus | 0,9996 | L5 (Primatenstudien, keine Humanstudien) | Forschungsfrage |
+| 3 | Neuroentwicklungsstörung mit ataktischem Gang, fehlender Sprache und verminderter kortikaler weißer Substanz | 0,9996 | L5 | Hold |
+| 4 | Veraltet: familiäre kombinierte Hyperlipidämie | 0,9962 | L5 | Hold (Zidovudin kann Lipidstörungen eher verschlechtern) |
 
 Bei den Rängen 5 und 6 sind Marktstatus (nur erloschene Zulassungen), Verdrängung durch moderne Kombinations-ART, hämatologische Toxizität und Wechselwirkungen als Leitplanken zu beachten.
 ## Haftungsausschluss

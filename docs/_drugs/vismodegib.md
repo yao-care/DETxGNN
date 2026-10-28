@@ -4,17 +4,17 @@ title: Vismodegib
 parent: Nur Modellvorhersage (L5)
 nav_order: 500
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Vismodegib: vorhergesagte neue Indikation Medulloblastom mit ausgeprägter Nodularität (Evidenzstufe L5). Ursprüngliche Indikation: Basalzellkarzinom"
 monitor_inn: "VISMODEGIB"
-predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "prostate cancer/brain cancer susceptibility", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
+predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
 ---
 
 # Vismodegib
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Vismodegib ist ein oral einzunehmender Hedgehog-Signalweg-Inhibitor, der ursprü
 |------|------|
 | Ursprüngliche Indikation | Basalzellkarzinom |
 | Vorhergesagte neue Indikation | Medulloblastom mit ausgeprägter Nodularität |
-| TxGNN-Vorhersagewert | 99,93 % |
+| TxGNN-Vorhersagewert | 0,9993 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -84,7 +84,7 @@ Derzeit ist keine relevante Literatur für diese Indikation verfügbar.
 |---------|------|------|-----------|
 | EMEA/H/C/002602 | Erivedge (Roche Registration GmbH) | – | Basalzellkarzinom |
 
-Diese Zulassung ist **erloschen**. Derzeit ist in Deutschland keine gültige Zulassung für Vismodegib vorhanden.
+Diese Zulassung ist **gültig**. Derzeit ist in Deutschland eine gültige Zulassung für Vismodegib vorhanden (1 von 1).
 
 ---
 
@@ -115,7 +115,7 @@ Angaben zu Warnhinweisen und Gegenanzeigen aus der Packungsbeilage lagen für di
 **Entscheidung: Hold**
 
 **Begründung:**
-Für Medulloblastom mit ausgeprägter Nodularität gibt es weder klinische Studien noch Publikationen. Der mechanistische Bezug über den Hedgehog-Signalweg ist plausibel, aber unbestätigt. Hinzu kommt, dass in Deutschland keine gültige Zulassung besteht und die Sicherheitsangaben aus der Packungsbeilage fehlen.
+Für Medulloblastom mit ausgeprägter Nodularität gibt es weder klinische Studien noch Publikationen. Der mechanistische Bezug über den Hedgehog-Signalweg ist plausibel, aber unbestätigt. Hinzu kommt, dass die Sicherheitsangaben aus der Packungsbeilage fehlen. In Deutschland ist das Arzneimittel mit einer gültigen Zulassung (1 von 1) im Handel.
 
 **Für ein Weiterverfolgen sind folgende Schritte nötig:**
 - Auswertung von Daten zu SHH-Medulloblastom und Hedgehog-Inhibitoren, um die Hypothese durch präklinische oder klinische Evidenz zu stützen

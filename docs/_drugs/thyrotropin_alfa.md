@@ -4,17 +4,17 @@ title: Thyrotropin Alfa
 parent: Nur Modellvorhersage (L5)
 nav_order: 461
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Thyrotropin Alfa: vorhergesagte neue Indikation Migräne (migraine disorder) (Evidenzstufe L5). Ursprüngliche Indikation: Schilddrüsenneoplasien"
 monitor_inn: "THYROTROPIN ALFA"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease", "postural orthostatic tachycardia syndrome", "hyperthyroidism"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease", "postural orthostatic tachycardia syndrome", "hyperthyroidism"]
 ---
 
 # Thyrotropin Alfa
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Thyrotropin alfa ist ein rekombinantes TSH (Thyreoidea-stimulierendes Hormon). E
 |------|------|
 | Ursprüngliche Indikation | Schilddrüsenneoplasien |
 | Vorhergesagte neue Indikation | Migräne (migraine disorder) |
-| TxGNN-Vorhersagewert | 99,98 % |
+| TxGNN-Vorhersagewert | 0,9998 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -60,22 +60,21 @@ Thyrotropin alfa ist ein rekombinantes TSH (Thyreoidea-stimulierendes Hormon). E
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Thyrotropin alfa ist ein rekombinantes TSH und wirkt am TSH-Rezeptor, vor allem an Schilddrüsenfollikelzellen. Seine Rolle bei Schilddrüsenneoplasien ist etabliert.
 
-Ein mechanistischer Zusammenhang zur Migräne ist nicht belegt. Der sehr hohe Modellwert (0,9998) ist eine reine Vorhersage aus dem Wissensgraphen. Ein möglicher Bezug wäre allenfalls indirekt, etwa über schilddrüsenbezogene hormonelle oder vaskuläre Effekte, wofür es keine Hinweise gibt.
+Ein mechanistischer Zusammenhang zur Migräne ist nicht belegt. Der sehr hohe Modellwert (0,9998) ist eine reine Vorhersage des TxGNN-Modells (Deep Learning). Ein möglicher Bezug wäre allenfalls indirekt, etwa über schilddrüsenbezogene hormonelle oder vaskuläre Effekte, wofür es keine Hinweise gibt.
 
 Auch die übrigen Vorhersagen unter den Top 10 sind überwiegend nicht plausibel:
 
 | Rang | Vorhergesagte Indikation | TxGNN-Wert | Einschätzung |
 |---|---|---|---|
-| 1 | Migräne | 99,98 % | Kein belegter Mechanismus |
-| 2 | Migräne mit Hirnstamm-Aura | 99,98 % | Wahrscheinlich Nähe zum Migräne-Knoten im Graphen |
-| 3 | Raynaud-Krankheit | 99,96 % | Nur Assoziation mit Schilddrüsenautoimmunität, kein Therapieansatz |
-| 4 | Migräne (Suszeptibilität) | 99,91 % | Genetischer Phänotyp, vermutlich Graph-Artefakt |
-| 5 | Atrophoderma vermiculata | 99,86 % | Kein plausibler Mechanismus |
-| 6 | Ulerythema ophryogenes | 99,84 % | Kein bekannter Mechanismus |
-| 7 | Pulmonale Hypertonie | 99,84 % | Möglicherweise schädlich bei kardiopulmonaler Erkrankung |
-| 8 | Kyphoskoliotische Herzerkrankung | 99,81 % | Kein Mechanismus |
-| 9 | Posturales orthostatisches Tachykardiesyndrom | 99,69 % | Könnte durch Tachykardie verschlechtern |
-| 10 | Hyperthyreose | 99,65 % | Biologisch widersprüchlich, eher kontraindiziert |
+| 1 | Migräne | 0,9998 | Kein belegter Mechanismus |
+| 2 | Migräne mit Hirnstamm-Aura | 0,9998 | Der Wert stammt aus dem TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, kein biologischer Beleg |
+| 3 | Raynaud-Krankheit | 0,9996 | Nur Assoziation mit Schilddrüsenautoimmunität, kein Therapieansatz |
+| 5 | Atrophoderma vermiculata | 0,9986 | Kein plausibler Mechanismus |
+| 6 | Ulerythema ophryogenes | 0,9984 | Kein bekannter Mechanismus |
+| 7 | Pulmonale Hypertonie | 0,9984 | Möglicherweise schädlich bei kardiopulmonaler Erkrankung |
+| 8 | Kyphoskoliotische Herzerkrankung | 0,9981 | Kein Mechanismus |
+| 9 | Posturales orthostatisches Tachykardiesyndrom | 0,9969 | Könnte durch Tachykardie verschlechtern |
+| 10 | Hyperthyreose | 0,9965 | Biologisch widersprüchlich, eher kontraindiziert |
 
 ---
 
@@ -97,7 +96,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/000220 | Thyrogen (Sanofi B.V.) | – | Schilddrüsenneoplasien |
 
-Diese Zulassung ist erloschen (Status: cancelled); es besteht derzeit keine gültige Zulassung.
+Diese Zulassung ist gültig; es besteht 1 gültige Zulassung von 1.
 
 ---
 
@@ -122,7 +121,7 @@ Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf ein Wissensgraphen-Modell (Evidenzstufe L5), es gibt weder Studien noch Publikationen, und ein plausibler Mechanismus fehlt. Zudem ist die einzige deutsche Zulassung erloschen.
+Die Vorhersage stützt sich ausschließlich auf das TxGNN-Modell (Deep Learning, Evidenzstufe L5) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, kein biologischer Beleg; es gibt weder Studien noch Publikationen, und ein plausibler Mechanismus fehlt. Die einzige deutsche Zulassung ist gültig.
 
 **Für ein Weiterkommen erforderlich:**
 - Daten zum Wirkmechanismus (MOA)

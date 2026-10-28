@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Desloratadine
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 142
-evidence_level: L1
-indication_count: 6
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Desloratadine: vorhergesagte neue Indikation Kälteurtikaria (Evidenzstufe L1). Ursprüngliche Indikation: Allergische Rhinitis (ganzjährig und saisonal), Urtikaria"
+description: "Desloratadine: vorhergesagte neue Indikation Erkrankung der Nasenhöhle (Evidenzstufe L1). Ursprüngliche Indikation: Allergische Rhinitis (ganzjährig und saisonal), Urtikaria"
 monitor_inn: "DESLORATADINE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
+predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
 ---
 
 # Desloratadine
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **6** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-## Desloratadin: Von allergischer Rhinitis und Urtikaria zu Kälteurtikaria
+## Desloratadin: Von allergischer Rhinitis und Urtikaria zu Erkrankung der Nasenhöhle
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür liegen derzeit **2 klinische Studien** und **6 Publikationen** vor, darun
 |------|------|
 | Ursprüngliche Indikation | Allergische Rhinitis (ganzjährig und saisonal), Urtikaria |
 | Vorhergesagte neue Indikation | Kälteurtikaria |
-| TxGNN-Vorhersagewert | 99,94 % |
-| Evidenzlevel | L1 |
-| Marktstatus in Deutschland | Nur erloschene Zulassungen (keine aktuell gültige Zulassung) |
-| Anzahl der Zulassungen | 8 (alle erloschen) |
+| TxGNN-Vorhersagewert | 0,9987 |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 8 von 8) |
+| Anzahl der Zulassungen | 8 (gültig: 8) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortsetzung mit Schutzmaßnahmen) |
 
 ---
@@ -91,7 +91,7 @@ Hinweis: Für diesen Bericht liegen keine detaillierten Daten zum Wirkmechanismu
 
 ## Marktinformationen Deutschland
 
-Alle acht Zulassungen sind erloschen. Es handelt sich um zentrale EU-Zulassungen (EMEA).
+Alle acht Zulassungen sind gültig. Es handelt sich um zentrale EU-Zulassungen (EMEA).
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -124,12 +124,12 @@ Für Warnhinweise und Kontraindikationen laut Produktinformation siehe bitte die
 **Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Für Kälteurtikaria liegen mehrere randomisierte, kontrollierte Untersuchungen und zwei abgeschlossene Phase-4-Studien vor, die Desloratadin einschließlich Dosiserhöhung direkt untersuchen. Die Studien sind jedoch klein (n = 30–33), und derzeit besteht in Deutschland keine gültige Zulassung. Da die Anwendung bei Urtikaria bereits zugelassen war, ist der Schritt mechanistisch klein.
+Für Kälteurtikaria liegen mehrere randomisierte, kontrollierte Untersuchungen und zwei abgeschlossene Phase-4-Studien vor, die Desloratadin einschließlich Dosiserhöhung direkt untersuchen. Die Studien sind jedoch klein (n = 30–33). Das Arzneimittel ist vermarktet, und alle 8 Zulassungen sind gültig. Da die Anwendung bei Urtikaria bereits zugelassen war, ist der Schritt mechanistisch klein.
 
 **Für das weitere Vorgehen ist erforderlich:**
 - Fachinformation (Warnhinweise, Kontraindikationen) beschaffen und auswerten, da dies für die Sicherheitsprüfung derzeit eine blockierende Datenlücke ist
 - Detaillierte Mechanismusdaten aus der Arzneimitteldatenbank ergänzen
-- Klärung des Zulassungs- und Vertriebsstatus (alle Zulassungen erloschen) sowie ggf. Prüfung der Off-Label-Anwendung bei Dosiserhöhung
+- Klärung des Zulassungs- und Vertriebsstatus (8 von 8 Zulassungen gültig) sowie ggf. Prüfung der Off-Label-Anwendung bei Dosiserhöhung
 - Sicherheitsbewertung höherer Dosen (bis 20 mg) und Abgleich der Wissensgraph-Kontraindikationen mit der Fachinformation
 - Größere Studien zur Bestätigung von Wirksamkeit und Dosis
 

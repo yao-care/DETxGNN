@@ -4,7 +4,7 @@ title: Pembrolizumab
 parent: Nur Modellvorhersage (L5)
 nav_order: 350
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Pembrolizumab: vorhergesagte neue Indikation Gingivale Fibromatose (Evidenzstufe L5). Ursprüngliche Indikation: Melanom"
 monitor_inn: "PEMBROLIZUMAB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with 
 # Pembrolizumab
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Pembrolizumab: Vom Melanom zur gingivalen Fibromatose
+## Pembrolizumab: Gingivale Fibromatose
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -50,10 +50,10 @@ Dafür gibt es **keine klinischen Studien und keine Publikationen**; die Vorhers
 |------|------|
 | Ursprüngliche Indikation | Melanom; Hodgkin-Lymphom; Nierenzellkarzinom; nicht-kleinzelliges Lungenkarzinom; Urothelkarzinom; Plattenepithelkarzinom im Kopf-Hals-Bereich; urologische Neoplasien; Endometriumkarzinom |
 | Vorhergesagte neue Indikation | Gingivale Fibromatose |
-| TxGNN-Vorhersagewert | 99,40 % |
+| TxGNN-Vorhersagewert | 0,9940 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur Zulassungen im Status „gelöscht/erloschen“ (Cancelled only) |
-| Anzahl der Zulassungen | 1 (gelöscht) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -84,7 +84,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/003820 | Keytruda (Merck Sharp & Dohme B.V.) | – | Melanoma;Hodgkin Disease;Carcinoma, Renal Cell;Carcinoma, Non-Small-Cell Lung;Carcinoma, Transitional Cell;Squamous Cell Carcinoma of He... |
 
-Diese Zulassung hat den Status „gelöscht“; derzeit ist keine gültige Zulassung verzeichnet.
+Diese Zulassung ist gültig; das Arzneimittel ist in diesem Land im Handel (1 von 1 Zulassungen gültig).
 
 ---
 

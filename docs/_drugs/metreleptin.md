@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Metreleptin: Von familiärer partieller Lipodystrophie zu familiärer generalisierter Lentiginose
+## Metreleptin: Familiäre generalisierte Lentiginose
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -46,17 +46,17 @@ Metreleptin ist ein rekombinantes Leptin-Analogon, das ursprünglich zur Behandl
 |------|------|
 | Ursprüngliche Indikation | Familiäre partielle Lipodystrophie |
 | Vorhergesagte neue Indikation | Familiäre generalisierte Lentiginose |
-| TxGNN-Vorhersagewert | 99,71 % |
+| TxGNN-Vorhersagewert | 0,9971 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Metreleptin ein rekombinantes Leptin-Analogon ist, das am Leptin-Rezeptor wirkt. Bei Lipodystrophie gleicht es den Leptinmangel aus und verbessert die metabolische Kontrolle, insbesondere die Insulinresistenz.
 
-Für die vorhergesagte Indikation lässt sich kein plausibler mechanistischer Zusammenhang herleiten. Die Lentiginose ist eine Pigmentstörung ohne bekannte Beteiligung des Leptin-Signalwegs. Der hohe Vorhersagewert (0,997) spiegelt vermutlich Ähnlichkeiten im Wissensgraphen wider, nicht aber eine biologische Relevanz für Metreleptin. Das gilt auch für die übrigen Kandidaten unter den Top 10, darunter gastrokutanes Syndrom, Moynahan-Syndrom, Rhabdoidtumor, Akromelanose und Schwannom. Für alle liegen weder Studien noch Literatur vor.
+Für die vorhergesagte Indikation lässt sich kein plausibler mechanistischer Zusammenhang herleiten. Die Lentiginose ist eine Pigmentstörung ohne bekannte Beteiligung des Leptin-Signalwegs. Der hohe Vorhersagewert (0,9971) stammt vom TxGNN-Modell (Deep Learning) und spiegelt vermutlich Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht aber eine biologische Evidenz für Metreleptin. Das gilt auch für die übrigen Kandidaten unter den Top 10, darunter gastrokutanes Syndrom, Moynahan-Syndrom, Rhabdoidtumor, Akromelanose und Schwannom. Für alle liegen weder Studien noch Literatur vor.
 
 Ein schwacher, indirekter Bezug besteht nur beim Syndrom aus Leukonychia totalis, Acanthosis-nigricans-ähnlichen Läsionen und abnormalem Haar (Rang 8): Acanthosis nigricans hängt mit Insulinresistenz zusammen, dem Bereich, in dem Metreleptin bei Lipodystrophie wirkt. Belege für ein Ansprechen fehlen jedoch.
 
@@ -74,7 +74,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/004218 | Myalepta (Chiesi Farmaceutici S.p.A.) | – | Familiäre partielle Lipodystrophie |
 
-Diese Zulassung ist als erloschen/aufgehoben geführt. Es gibt keine gültige Zulassung.
+Diese Zulassung ist gültig. Das Arzneimittel ist in diesem Land im Handel.
 
 ## Sicherheitsaspekte
 

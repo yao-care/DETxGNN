@@ -4,7 +4,7 @@ title: Efmoroctocog Alfa
 parent: Nur Modellvorhersage (L5)
 nav_order: 159
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Efmoroctocog Alfa: vorhergesagte neue Indikation Pseudo-von-Willebrand-Erkrankung (Evidenzstufe L5). Ursprüngliche Indikation: Hämophilie A"
 monitor_inn: "EFMOROCTOCOG ALFA"
@@ -14,7 +14,7 @@ predicted_indications: ["pseudo-von Willebrand disease", "primary release disord
 # Efmoroctocog Alfa
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Pub
 |------|------|
 | Ursprüngliche Indikation | Hämophilie A |
 | Vorhergesagte neue Indikation | Pseudo-von-Willebrand-Erkrankung |
-| TxGNN-Vorhersagewert | 99,997 % |
+| TxGNN-Vorhersagewert | 1,0000 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,7 +62,7 @@ Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Pub
 
 Die Plausibilität ist hier **gering**. Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist, dass Efmoroctocog alfa ein rekombinanter Faktor VIII mit Fc-Fusion ist, dessen Wirksamkeit bei Hämophilie A belegt ist. Er ersetzt den fehlenden Gerinnungsfaktor VIII.
 
-Die pseudo-von-Willebrand-Erkrankung ist dagegen eine Thrombozytenerkrankung. Ursache ist ein Gain-of-Function-Defekt des Thrombozytenrezeptors GPIbα, der die Bindung an den von-Willebrand-Faktor (VWF) verstärkt und hochmolekulare VWF-Multimere abbaut. Dieser Rezeptordefekt wird durch Faktor VIII nicht behoben. Der hohe Vorhersagewert spiegelt vermutlich die Nähe im Netzwerk der Blutungserkrankungen im Wissensgraphen wider, nicht einen validierten Mechanismus.
+Die pseudo-von-Willebrand-Erkrankung ist dagegen eine Thrombozytenerkrankung. Ursache ist ein Gain-of-Function-Defekt des Thrombozytenrezeptors GPIbα, der die Bindung an den von-Willebrand-Faktor (VWF) verstärkt und hochmolekulare VWF-Multimere abbaut. Dieser Rezeptordefekt wird durch Faktor VIII nicht behoben. Der hohe Vorhersagewert stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz.
 
 Auch bei den übrigen neun vorhergesagten Indikationen (z. B. primäre Thrombozyten-Freisetzungsstörung, Glanzmann-Thrombasthenie, Scott-Syndrom, thrombotisch-thrombozytopenische Purpura) betrifft der Defekt meist die Thrombozyten oder andere Faktoren als Faktor VIII. Am ehesten nachvollziehbar sind:
 - **Erworbener Gerinnungsfaktormangel:** Hier ist der Faktor-VIII-Mangel das gemeinsame Kernproblem. Bei erworbener Hämophilie A neutralisieren jedoch Autoantikörper den Faktor VIII, sodass rekombinanter Fc-fusionierter FVIII kaum wirkt.
@@ -88,7 +88,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/003964 | Elocta | – | Hämophilie A |
 
-Hinweis: Diese Zulassung hat den Status „erloschen/aufgehoben“. Es besteht derzeit keine gültige Zulassung.
+Hinweis: Das Arzneimittel ist in diesem Land im Verkehr. 1 von 1 Zulassung ist gültig.
 
 ---
 

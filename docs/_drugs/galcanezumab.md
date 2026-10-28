@@ -48,10 +48,10 @@ Galcanezumab ist ein monoklonaler Antikörper gegen das Calcitonin Gene-Related 
 |------|------|
 | Ursprüngliche Indikation | Migräne |
 | Vorhergesagte neue Indikation | Heparin-Cofaktor-2-Mangel |
-| TxGNN-Vorhersagewert | 99,50 % |
+| TxGNN-Vorhersagewert | 0,9950 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,14 +62,14 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten k
 
 Der Heparin-Cofaktor-2-Mangel ist eine Störung der serpinvermittelten Hemmung von Thrombin (SERPIND1) und damit ein Defekt im Gerinnungssystem. Dieser Signalweg steht in keinem erkennbaren Zusammenhang mit der CGRP-Signalübertragung. Ein belastbarer mechanistischer Zusammenhang zwischen der ursprünglichen und der vorhergesagten Indikation ist daher nicht erkennbar.
 
-Der hohe TxGNN-Wert (0,995) ist eine reine Vorhersage des Wissensgraphen. Er wird weder durch eine biologische Begründung noch durch klinische oder publizierte Daten untermauert.
+Der hohe TxGNN-Wert (0,9950) stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. Er wird weder durch eine biologische Begründung noch durch klinische oder publizierte Daten untermauert.
 
 **Weitere vorhergesagte Indikationen** (jeweils ebenfalls L5, Entscheidung Hold, ohne Studien und Publikationen):
 
 | Rang | Vorhergesagte Indikation | TxGNN-Wert | Einschätzung |
 |---|---|---|---|
-| 2 | Antithrombin-Mangel Typ 2 | 99,41 % | Kein glaubwürdiger mechanistischer Zusammenhang; Galcanezumab wirkt nicht auf Antithrombin, die Gerinnungskaskade oder die Heparinbindung. |
-| 3 | Faktor-V-Überschuss mit spontaner Thrombose | 99,41 % | Kein glaubwürdiger mechanistischer Zusammenhang; zudem ist CGRP ein Vasodilatator, sodass bei Patienten mit Thromboserisiko eine besondere Sicherheitsprüfung nötig wäre. |
+| 2 | Antithrombin-Mangel Typ 2 | 0,9941 | Kein glaubwürdiger mechanistischer Zusammenhang; Galcanezumab wirkt nicht auf Antithrombin, die Gerinnungskaskade oder die Heparinbindung. |
+| 3 | Faktor-V-Überschuss mit spontaner Thrombose | 0,9941 | Kein glaubwürdiger mechanistischer Zusammenhang; zudem ist CGRP ein Vasodilatator, sodass bei Patienten mit Thromboserisiko eine besondere Sicherheitsprüfung nötig wäre. |
 
 ---
 
@@ -91,7 +91,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/004648 | Emgality | – | Migräne |
 
-Diese Zulassung ist als erloschen/widerrufen geführt; derzeit besteht keine gültige Zulassung.
+Diese Zulassung ist gültig; das Arzneimittel ist in Deutschland im Handel (1 von 1 Zulassung gültig).
 
 ---
 
@@ -108,7 +108,7 @@ Hinweis: Bei Faktor-V-Überschuss mit spontaner Thrombose wäre aufgrund der vas
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzlevel L5) ohne klinische Studien, Publikationen oder plausiblen biologischen Mechanismus. Zudem besteht in Deutschland keine gültige Zulassung.
+Die Vorhersage beruht ausschließlich auf einem Modellwert des TxGNN-Modells (Deep Learning, Evidenzlevel L5) ohne klinische Studien, Publikationen oder plausiblen biologischen Mechanismus. In Deutschland ist das Arzneimittel im Handel (1 von 1 Zulassung gültig).
 
 **Für ein Weiterkommen sind folgende Schritte erforderlich:**
 - Fachinformation (Warnhinweise und Gegenanzeigen) zur Sicherheitsbewertung beschaffen

@@ -6,9 +6,9 @@ nav_order: 436
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Sotatercept: vorhergesagte neue Indikation Akute lymphoblastische Leukämie (Evidenzstufe L5). Ursprüngliche Indikation: Pulmonale Hypertonie"
 monitor_inn: "SOTATERCEPT"
 predicted_indications: ["acute lymphoblastic leukemia (disease)", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis", "diabetic cataract", "HER2 positive breast carcinoma", "transitional cell carcinoma", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant"]
+description: "Sotatercept: vorhergesagte neue Indikation Akute lymphoblastische Leukämie (acute lymphoblastic leukemia (disease)) (Evidenzstufe L5). Ursprüngliche Indikation: Hypertension, Pulmonary"
 ---
 
 # Sotatercept
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Sotatercept: Von pulmonaler Hypertonie zu akuter lymphoblastischer Leukämie
+## Sotatercept: Akute lymphoblastische Leukämie (acute lymphoblastic leukemia (disease))
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -46,12 +46,12 @@ Sotatercept wurde ursprünglich zur Behandlung der pulmonalen Hypertonie zugelas
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Pulmonale Hypertonie |
-| Vorhergesagte neue Indikation | Akute lymphoblastische Leukämie |
-| TxGNN-Vorhersagewert | 99,78 % |
+| Ursprüngliche Indikation | Hypertension, Pulmonary |
+| Vorhergesagte neue Indikation | Akute lymphoblastische Leukämie (acute lymphoblastic leukemia (disease)) |
+| TxGNN-Vorhersagewert | 0.9978 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -60,18 +60,18 @@ Sotatercept wurde ursprünglich zur Behandlung der pulmonalen Hypertonie zugelas
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Sotatercept ein Fusionsprotein aus Activin-Rezeptor Typ IIA und Fc-Teil ist und als Ligandenfalle für Activine und verwandte Mitglieder der TGF-beta-Superfamilie wirkt. Seine Wirksamkeit bei pulmonaler Hypertonie ist belegt.
 
-Eine Verbindung zur akuten lymphoblastischen Leukämie ergibt sich bislang nur aus der Vorhersage des Wissensgraphen. Ein konkreter Signalweg, der Activin-Signale mit der Biologie dieser Leukämie verbindet, wird durch die vorliegenden Daten nicht gestützt. Die Vorhersage sollte daher als Hypothese und nicht als Evidenz betrachtet werden.
+Eine Verbindung zur akuten lymphoblastischen Leukämie ergibt sich bislang nur aus der Vorhersage des TxGNN-Modells (Deep Learning). Der Score kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, und ist keine biologische Evidenz. Ein konkreter Signalweg, der Activin-Signale mit der Biologie dieser Leukämie verbindet, wird durch die vorliegenden Daten nicht gestützt. Die Vorhersage sollte daher als Hypothese und nicht als Evidenz betrachtet werden.
 
 Weitere vorhergesagte Indikationen (jeweils nur Modellvorhersage, Evidenzgrad L5, Empfehlung Hold):
 
 | Rang | Indikation | TxGNN-Wert | Einschätzung |
 |---|---|---|---|
-| 2 | Schwere nichtproliferative diabetische Retinopathie | 99,77 % | Lose biologische Plausibilität über Gefäßumbau und Fibrose, ohne Studien |
-| 3 | Diabetische Retinopathie | 99,72 % | Wahrscheinlich redundant zu Rang 2 |
-| 4 | Medikamenteninduzierte Osteoporose | 99,65 % | Activin spielt im Knochenstoffwechsel eine Rolle, die Wirkrichtung (nützlich oder schädlich) ist ungeklärt |
-| 5 | Diabetische Katarakt | 99,49 % | Kein plausibler Mechanismus in den Daten |
-| 6 | HER2-positives Mammakarzinom | 99,43 % | Kein spezifischer Mechanismus, bereits etablierte Therapien |
-| 7–10 | Urothelkarzinome (Übergangszellkarzinom und seltene Varianten) | 99,34–99,39 % | Wahrscheinlich korrelierte Vorhersagen benachbarter Krankheitsbegriffe |
+| 2 | Schwere nichtproliferative diabetische Retinopathie | 0,9977 | Lose biologische Plausibilität über Gefäßumbau und Fibrose, ohne Studien |
+| 3 | Diabetische Retinopathie | 0,9972 | Wahrscheinlich redundant zu Rang 2 |
+| 4 | Medikamenteninduzierte Osteoporose | 0,9965 | Activin spielt im Knochenstoffwechsel eine Rolle, die Wirkrichtung (nützlich oder schädlich) ist ungeklärt |
+| 5 | Diabetische Katarakt | 0,9949 | Kein plausibler Mechanismus in den Daten |
+| 6 | HER2-positives Mammakarzinom | 0,9943 | Kein spezifischer Mechanismus, bereits etablierte Therapien |
+| 7–10 | Urothelkarzinome (Übergangszellkarzinom und seltene Varianten) | 99,34–0,9939 | Wahrscheinlich korrelierte Vorhersagen benachbarter Krankheitsbegriffe |
 
 ---
 

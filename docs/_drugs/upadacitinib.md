@@ -6,9 +6,9 @@ nav_order: 488
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Upadacitinib: vorhergesagte neue Indikation Kolobomatöses-Mikrophthalmie-rhizomeles-Dysplasie-Syndrom (Evidenzstufe L5). Ursprüngliche Indikation: Rheumatoide Arthritis"
 monitor_inn: "UPADACITINIB"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
+description: "Upadacitinib: vorhergesagte neue Indikation Kolobomatöses-Mikrophthalmie-rhizomeles-Dysplasie-Syndrom (colobomatous microphthalmia-rhizomelic dysplasia syndrome) (Evidenzstufe L5). Ursprüngliche Indi…"
 ---
 
 # Upadacitinib
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-## Upadacitinib: Von rheumatoider Arthritis zum Kolobomatösen-Mikrophthalmie-rhizomelen-Dysplasie-Syndrom
+## Upadacitinib: Kolobomatöses-Mikrophthalmie-rhizomeles-Dysplasie-Syndrom (colobomatous microphthalmia-rhizomelic dysplasia syndrome)
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,12 +48,12 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Rheumatoide Arthritis |
-| Vorhergesagte neue Indikation | Kolobomatöses-Mikrophthalmie-rhizomeles-Dysplasie-Syndrom |
-| TxGNN-Vorhersagewert | 99,61 % |
+| Ursprüngliche Indikation | Arthritis, Rheumatoid |
+| Vorhergesagte neue Indikation | Kolobomatöses-Mikrophthalmie-rhizomeles-Dysplasie-Syndrom (colobomatous microphthalmia-rhizomelic dysplasia syndrome) |
+| TxGNN-Vorhersagewert | 0.9961 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur gelöschte (cancelled) Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -62,9 +62,9 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 Derzeit liegen keine detaillierten Daten zum Wirkmechanismus vor. Bekannt ist, dass Upadacitinib ein JAK-Inhibitor (überwiegend JAK1) ist, der bei Autoimmun- und Entzündungserkrankungen eingesetzt wird. Seine Wirksamkeit bei rheumatoider Arthritis ist belegt.
 
-Das vorhergesagte Syndrom ist eine seltene Entwicklungsstörung. Ein Zusammenhang mit dem JAK-STAT-Signalweg ist anhand der vorliegenden Daten nicht erkennbar und wäre spekulativ. Der hohe Vorhersagewert könnte auf Artefakte der Graphstruktur des Wissensgraphen zurückgehen statt auf biologische Zusammenhänge. Die Vorhersage ist daher als rein rechnerische Hypothese zu betrachten.
+Das vorhergesagte Syndrom ist eine seltene Entwicklungsstörung. Ein Zusammenhang mit dem JAK-STAT-Signalweg ist anhand der vorliegenden Daten nicht erkennbar und wäre spekulativ. Der hohe Vorhersagewert (0.9961) stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht aber biologische Evidenz. Die Vorhersage ist daher als rein rechnerische Hypothese zu betrachten.
 
-Zur Einordnung: Für die zweitplatzierte Vorhersage, das **Brachydaktylie-Syndaktylie-Syndrom** (Score 99,58 %), gilt dasselbe. Es handelt sich um eine angeborene Fehlbildung der Gliedmaßen, für die weder Studien noch Literatur noch ein plausibler Mechanismus vorliegen.
+Zur Einordnung: Für die zweitplatzierte Vorhersage, das **Brachydaktylie-Syndaktylie-Syndrom** (Score 0,9958), gilt dasselbe. Es handelt sich um eine angeborene Fehlbildung der Gliedmaßen, für die weder Studien noch Literatur noch ein plausibler Mechanismus vorliegen.
 
 ---
 
@@ -82,9 +82,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004760 | Rinvoq (AbbVie Deutschland GmbH & Co. KG) | – | Rheumatoide Arthritis |
 
 Diese Zulassung hat den Status „gelöscht“ (cancelled); eine gültige Einzel- oder Kombizulassung besteht laut den zusammengestellten Daten nicht.
 

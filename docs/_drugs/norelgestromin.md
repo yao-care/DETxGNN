@@ -48,10 +48,10 @@ Norelgestromin ist ein Gestagen, das ursprünglich zur Kontrazeption eingesetzt 
 |------|------|
 | Ursprüngliche Indikation | Kontrazeption |
 | Vorhergesagte neue Indikation | Amenorrhoe |
-| TxGNN-Vorhersagewert | 99,51 % |
+| TxGNN-Vorhersagewert | 0,9951 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
-| Anzahl der Zulassungen | 1 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -84,7 +84,7 @@ Derzeit liegt keine relevante Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/000410 | Evra | – | Kontrazeption |
 
-Diese Zulassung ist erloschen bzw. zurückgezogen; es besteht keine gültige Zulassung.
+Diese Zulassung ist gültig; es besteht 1 gültige Zulassung von 1, und das Arzneimittel ist im Handel.
 
 ---
 
@@ -102,7 +102,7 @@ Für weitere Sicherheitsinformationen ist die Packungsbeilage heranzuziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich allein auf das Modell (L5) ohne Studien oder Publikationen. Zudem könnte das Signal eher eine Nebenwirkung der hormonellen Kontrazeption widerspiegeln, und es existiert in Deutschland keine gültige Zulassung.
+Die Vorhersage stützt sich allein auf das Modell (L5) ohne Studien oder Publikationen. Zudem könnte das Signal eher eine Nebenwirkung der hormonellen Kontrazeption widerspiegeln, und in Deutschland besteht 1 gültige Zulassung von 1 (Arzneimittel im Handel).
 
 **Für ein Weiterverfolgen sind folgende Schritte nötig:**
 - Systematische Literatur- und Studiensuche zu Gestagenen bei Amenorrhoe

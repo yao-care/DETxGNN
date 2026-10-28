@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fenofibrate
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 193
-evidence_level: L4
-indication_count: 7
-last_modified_at: 2026-10-14
-description: "Fenofibrate: vorhergesagte neue Indikation Homozygote familiäre Hypercholesterinämie (Evidenzstufe L4). Ursprüngliche Indikation: Dyslipidämien"
+evidence_level: L5
+indication_count: 1
 monitor_inn: "FENOFIBRATE"
-predicted_indications: ["homozygous familial hypercholesterolemia", "hyperlipoproteinemia", "cholesterol-ester transfer protein deficiency", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "hypercholesterolemia, autosomal dominant"]
+predicted_indications: ["cholesterol-ester transfer protein deficiency"]
+last_modified_at: 2026-10-23
+description: "Fenofibrate: vorhergesagte neue Indikation Cholesterinester-Transferprotein-Mangel (Evidenzstufe L5). Ursprüngliche Indikation: Dyslipidämien"
 ---
 
 # Fenofibrate
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **7** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,85 +33,77 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-## Fenofibrat: Von Dyslipidämien zur homozygoten familiären Hypercholesterinämie
+## Fenofibrat: Von Dyslipidämien zu Cholesterinester-Transferprotein-Mangel
 {: .text-alpha }
 
 ## Zusammenfassung
 
-Fenofibrat wird ursprünglich zur Behandlung von Dyslipidämien eingesetzt. Das TxGNN-Modell sagt voraus, dass es bei der **homozygoten familiären Hypercholesterinämie (HoFH)** wirksam sein könnte. Die Evidenz dafür ist **sehr dünn**: Die einzige gelistete klinische Studie (1 Studie) prüft einen anderen Wirkstoff, und unter den 10 Publikationen gibt es keine einzige fenofibratspezifische Studie zur HoFH, die über eine Einzelfallbeobachtung hinausgeht.
+Fenofibrat wird ursprünglich zur Behandlung von Dyslipidämien eingesetzt. Das TxGNN-Modell sagt voraus, dass es bei **Cholesterinester-Transferprotein-Mangel (CETP-Mangel)** wirksam sein könnte. Dafür liegen **keine klinischen Studien** und **3 Publikationen** (ausschließlich präklinisch bzw. mechanistisch) vor.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
 | Ursprüngliche Indikation | Dyslipidämien |
-| Vorhergesagte neue Indikation | Homozygote familiäre Hypercholesterinämie |
-| TxGNN-Vorhersagewert | 99,91 % |
-| Evidenzlevel | L4 |
-| Marktstatus in Deutschland | Nur erloschene Zulassungen |
-| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Vorhergesagte neue Indikation | Cholesterinester-Transferprotein-Mangel |
+| TxGNN-Vorhersagewert | 0,9961 |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für diesen Bericht liegen keine detaillierten Daten zum Wirkmechanismus aus der Arzneimitteldatenbank vor. Bekannt ist: Fenofibrat ist ein PPAR-alpha-Agonist. Es senkt vor allem Triglyceride und senkt LDL-Cholesterin nur mäßig. Zudem erhöht es HDL-Cholesterin leicht. Seine Wirksamkeit bei Dyslipidämien ist gut belegt.
+Zum Wirkmechanismus von Fenofibrat liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt aus den ausgewerteten Publikationen ist, dass Fenofibrat als PPARα-Agonist das HDL-Cholesterin erhöht und Triglyceride senkt. In Mäusen induziert es zudem die Expression des Phospholipid-Transferprotein-Gens (PLTP), was die Vergrößerung der HDL-Partikel erklärt (PMID 11342537).
 
-Die HoFH entsteht durch eine Funktionsstörung des LDL-Rezeptors. Eine PPAR-alpha-Aktivierung behebt diesen Kerndefekt nicht. Die mechanistische Verbindung ist daher schwach und beruht im Wesentlichen auf der gemeinsamen Zugehörigkeit zu den Fettstoffwechselstörungen. Die Hochrangigkeit des Modellwertes allein ist keine ausreichende Begründung. Der Standard bei HoFH besteht aus anderen Wirkstoffklassen, etwa PCSK9-Inhibitoren, wie die gelistete Studie zeigt.
+Der Zusammenhang zwischen der ursprünglichen und der vorhergesagten Indikation ist nur indirekt: Beide betreffen den Lipoproteinstoffwechsel. Fenofibrat beeinflusst den Umbau von Lipoproteinen über einen verwandten Signalweg, behebt aber nicht den zugrunde liegenden genetischen CETP-Defekt. Eine Studie zur Kombination von CETP-Hemmung und PPARα-Agonismus (PMID 20332533) deutet auf additive Effekte beider Mechanismen hin, nicht darauf, dass Fenofibrat einen CETP-Mangel korrigiert.
 
----
-
-## Klinische Evidenz
-
-| Studiennummer | Phase | Status | Teilnehmer | Kernaussagen |
-|---------|------|------|------|---------|
-| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | Abgeschlossen | 18 | Offene Studie mit Alirocumab (PCSK9-Inhibitor) bei Kindern und Jugendlichen (8–17 Jahre) mit HoFH; **kein Fenofibrat**, liefert daher keine direkte Evidenz |
+Der sehr hohe TxGNN-Wert ist eine rechnerische Vorhersage und spiegelt wahrscheinlich die Nähe im Netzwerk des Lipidstoffwechsels wider, nicht eine therapeutische Begründung. Zudem ist der CETP-Mangel meist ein biochemischer Phänotyp mit erhöhtem HDL, und ein Behandlungsbedarf ist fraglich.
 
 ---
 
-## Literaturevidenz
+## Evidenz aus klinischen Studien
+
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Evidenz aus der Literatur
 
 | PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [6593751](https://pubmed.ncbi.nlm.nih.gov/6593751/) | 1984 | Kohortenstudie | Pharmacological Research Communications | 22 Patienten mit Typ-II-Hyperlipoproteinämie unter Fenofibrat: Gesamtcholesterin im Mittel −22 %, LDL-C −24 %. Ein Patient mit HoFH zeigte den größten Abfall von Gesamt- und LDL-Cholesterin (Einzelbeobachtung) |
-| [37979722](https://pubmed.ncbi.nlm.nih.gov/37979722/) | 2024 | Übersichtsarbeit | Indian Heart Journal | Nicht-Statin-Lipidsenker; Fenofibrat-Monotherapie vor allem bei Triglyceriden >500 mg/dl zur Senkung des Pankreatitisrisikos |
-| [2042836](https://pubmed.ncbi.nlm.nih.gov/2042836/) | 1991 | Übersichtsarbeit | Ann N Y Acad Sci | Medikamentöse und chirurgische Therapie bei dyslipidämischen Kindern; Fenofibrat unter den Substanzen, die Lipide senken konnten |
-| [35499807](https://pubmed.ncbi.nlm.nih.gov/35499807/) | 2022 | Übersichtsarbeit | Curr Atheroscler Rep | Dyslipidämie-Management in der Schwangerschaft |
-| [26432726](https://pubmed.ncbi.nlm.nih.gov/26432726/) | 2015 | Übersichtsarbeit | Indian Heart Journal | LDL-Cholesterin, Statine und PCSK9-Inhibitoren |
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Leitlinie | Endocrine Practice | AACE/ACE-Leitlinie zum Management von Dyslipidämie und kardiovaskulärer Prävention |
-| [14620392](https://pubmed.ncbi.nlm.nih.gov/14620392/) | 2003 | Übersichtsarbeit | Pharmacotherapy | Ezetimib als selektiver Cholesterinabsorptionshemmer |
-| [9129869](https://pubmed.ncbi.nlm.nih.gov/9129869/) | 1997 | Übersichtsarbeit | Drugs | Atorvastatin: Pharmakologie und therapeutisches Potenzial bei Hyperlipidämien |
-| [9627539](https://pubmed.ncbi.nlm.nih.gov/9627539/) | 1998 | Übersichtsarbeit | Can J Cardiol | Fortschritte der Dyslipidämie-Therapie mit Fokus auf Atorvastatin |
-| [24734312](https://pubmed.ncbi.nlm.nih.gov/24734312/) | 2014 | Pharmakokinetische Studie | Pharmacotherapy | Wechselwirkungen von Lomitapid (zugelassen bei HoFH) mit Lipidsenkern, darunter Fenofibrat |
+| [20332533](https://pubmed.ncbi.nlm.nih.gov/20332533/) | 2010 | Präklinisch | J Cardiovasc Pharmacol Ther | An Mäusen mit humanem ApoB100/CETP: CETP-Hemmung (Torcetrapib) und PPARα-Agonismus (Fenofibrat) beeinflussen das Lipidprofil, HDL-Cholesterin steigt, LDL-Cholesterin sinkt |
+| [11342537](https://pubmed.ncbi.nlm.nih.gov/11342537/) | 2001 | Mechanistisch/präklinisch | J Biol Chem | Induktion des PLTP-Gens erklärt die HDL-Vergrößerung bei mit Fenofibrat behandelten Mäusen |
+| [30271349](https://pubmed.ncbi.nlm.nih.gov/30271349/) | 2018 | Mechanistisch/präklinisch | Front Physiol | Keine Korrelation von Plasma-HDL mit fäkaler Cholesterinausscheidung und Cholesterin-Efflux; Bedeutung der HDL-Funktion bei der Atheroskleroseminderung |
+
+Keine dieser Arbeiten untersucht Fenofibrat direkt bei CETP-Mangel beim Menschen.
 
 ---
 
-## Marktinformationen Deutschland
+## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Zugelassene Indikation | Status |
-|---------|------|-----------|------|
-| EMEA/H/C/002559 | Cholib | Dyslipidämien | Erloschen |
-| EMEA/H/C/001243 | Pravafenix | Dyslipidämien | Erloschen |
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002559 | Cholib | – | Dyslipidämien |
+| EMEA/H/C/001243 | Pravafenix | – | Dyslipidämien |
 
 ---
 
 ## Sicherheitsaspekte
 
-**Kontraindikationen aus dem Wissensgraphen (keine Packungsbeilagen-Angaben):** Im Wissensgraphen (PrimeKG) sind für Fenofibrat unter anderem folgende Erkrankungen als Kontraindikationen hinterlegt:
-- Leber: Leberversagen, Lebererkrankung
-- Gallenwege und Pankreas: Gallenblasenerkrankung, Cholelithiasis, Cholezystolithiasis, Pankreatitis
-- Muskulatur: Myopathie, Muskelerkrankungen, Rhabdomyolyse
-- Niere: eingeschränkte Nierenfunktion
-- Blutbild: Thrombozytopenie, Anämie, Leukopenie, Agranulozytose, Neutropenie (einschließlich angeborener Formen)
+**Kontraindikationen/Risikoerkrankungen aus dem Wissensgraphen (keine Packungsbeilagen-Angaben):** Im Wissensgraphen sind unter anderem folgende Erkrankungen als Kontraindikationsbeziehungen hinterlegt: Leberversagen und Lebererkrankung, Pankreatitis, Gallenblasenerkrankung, Cholelithiasis, Thrombozytopenie, Myopathie und Rhabdomyolyse, Beeinträchtigung der Nierenfunktion, Anämie sowie Leukopenie, Neutropenie und Agranulozytose.
 
-**Arzneimittelwechselwirkungen:** Insgesamt wurden 100 Wechselwirkungen erfasst. Die 20 hier vorliegenden sind durchweg als „moderat" eingestuft:
-- Blutzuckersenker: Sulfonylharnstoffe (Acetohexamid, Chlorpropamid, Glimepirid, Glipizid, Glyburid) und zahlreiche Insuline (u. a. Humaninsulin, Aspart, Degludec, Detemir, Glargin, Glulisin, Lispro)
-- Weitere: Chenodeoxycholsäure, Esomeprazol
+**Arzneimittelwechselwirkungen:** Insgesamt 100 Wechselwirkungen verzeichnet, die aufgeführten sind jeweils von moderatem Schweregrad:
+- Sulfonylharnstoffe (Acetohexamid, Chlorpropamid, Glimepirid, Glipizid, Glyburid)
+- Verschiedene Insuline (u. a. Humaninsulin, Insulin aspart, degludec, detemir, glargin, glulisin, lispro)
+- Chenodeoxycholsäure
+- Esomeprazol
 
-Für weitere Sicherheitsinformationen (Warnhinweise, Kontraindikationen laut Label) bitte die Packungsbeilage beachten.
+Für Warnhinweise und Gegenanzeigen laut Fachinformation siehe die Packungsbeilage.
 
 ---
 
@@ -120,17 +112,13 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Kontraindikationen laut Lab
 **Entscheidung: Hold**
 
 **Begründung:**
-- Es gibt keine klinische Studie mit Fenofibrat bei HoFH. Die Literatur enthält nur eine Einzelfallbeobachtung von 1984.
-- Der Wirkmechanismus adressiert den LDL-Rezeptor-Defekt nicht, und für HoFH existieren etablierte Therapien.
-- Die Vorhersage bleibt rein rechnerisch.
+Es gibt keine Studie, die Fenofibrat direkt bei CETP-Mangel untersucht; die vorhandenen Arbeiten sind präklinisch und betreffen nur verwandte Mechanismen. Der Behandlungsbedarf beim CETP-Mangel ist zudem fraglich, sodass der hohe TxGNN-Wert allein keine Weiterverfolgung rechtfertigt.
 
-**Für ein Weiterkommen wäre erforderlich:**
-- Daten zum Wirkmechanismus (MOA) aus der Arzneimitteldatenbank
-- Packungsbeilage mit Warnhinweisen und Kontraindikationen (BfArM)
-- Klinische Daten zu Fenofibrat bei HoFH, z. B. als Zusatztherapie zu etablierten Behandlungen
-- Klärung des Zulassungsstatus in Deutschland, da beide Zulassungen erloschen sind
-
-**Hinweis:** Die zweitplatzierte Vorhersage (Hyperlipoproteinämie) hat deutlich stärkere Evidenz (mehrere abgeschlossene Phase-3-Studien). Sie überschneidet sich jedoch mit der bereits zugelassenen Indikation und ist daher eher eine Bestätigung als ein echtes Repurposing.
+**Für ein Weiterkommen sind erforderlich:**
+- Klärung, ob beim CETP-Mangel überhaupt ein klinischer Behandlungsbedarf besteht
+- Direkte präklinische oder klinische Daten zu Fenofibrat bei CETP-Mangel
+- Daten zum Wirkmechanismus (MOA) von Fenofibrat
+- Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation des BfArM
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

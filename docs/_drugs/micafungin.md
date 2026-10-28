@@ -50,10 +50,10 @@ Dafür liegen derzeit **keine registrierten klinischen Studien**, aber **12 Publ
 |------|------|
 | Ursprüngliche Indikation | Candidiasis |
 | Vorhergesagte neue Indikation | Harnwegsinfektion (urinary tract infection) |
-| TxGNN-Vorhersagewert | 99,03 % |
+| TxGNN-Vorhersagewert | 0,9903 |
 | Evidenzstufe | L3 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung (keine gültige Zulassung) |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -95,7 +95,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000734 | Mycamine | – | Candidiasis (Status: erloschen) |
+| EMEA/H/C/000734 | Mycamine | – | Candidiasis (Status: gültig) |
 
 ---
 
@@ -118,7 +118,7 @@ Für Warnhinweise und Gegenanzeigen der Fachinformation liegen keine Daten vor; 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenz besteht fast ausschließlich aus Fallberichten, Fallserien und kleinen Kohortenstudien (Stufe L3); es gibt keine registrierten klinischen Studien. Die pharmakokinetische Eignung bei Harnwegsinfektionen ist umstritten, und in Deutschland besteht keine gültige Zulassung. Zudem fehlen die Sicherheitsdaten aus der Fachinformation, sodass die Sicherheitsprüfung nicht abgeschlossen werden kann.
+Die Evidenz besteht fast ausschließlich aus Fallberichten, Fallserien und kleinen Kohortenstudien (Stufe L3); es gibt keine registrierten klinischen Studien. Die pharmakokinetische Eignung bei Harnwegsinfektionen ist umstritten. In Deutschland ist das Arzneimittel im Handel, und die eine vorhandene Zulassung ist gültig (1 von 1). Zudem fehlen die Sicherheitsdaten aus der Fachinformation, sodass die Sicherheitsprüfung nicht abgeschlossen werden kann.
 
 **Für das weitere Vorgehen sind erforderlich:**
 - Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM bzw. EMA) beschaffen und auswerten

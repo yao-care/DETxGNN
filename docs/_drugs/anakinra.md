@@ -6,7 +6,7 @@ nav_order: 33
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Anakinra: vorhergesagte neue Indikation Familiäres Mittelmeerfieber (autosomal-rezessiv) – bestbelegte Vorher… (Evidenzstufe L5). Ursprüngliche Indikation: Rheumatoide Arthritis"
+description: "Anakinra: vorhergesagte neue Indikation Extrakutanes Mastozytom (Evidenzstufe L5). Ursprüngliche Indikation: Rheumatoide Arthritis"
 monitor_inn: "ANAKINRA"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "peliosis hepatis", "oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies", "oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies", "pyogenic autoinflammatory syndrome", "unclassified autoinflammatory syndrome"]
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Anakinra: Von rheumatoider Arthritis zum familiären Mittelmeerfieber
+## Anakinra: Extrakutanes Mastozytom
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -49,11 +49,11 @@ Dafür liegen **keine registrierten klinischen Studien**, aber **19 Publikatione
 | Punkt | Inhalt |
 |------|------|
 | Ursprüngliche Indikation | Rheumatoide Arthritis; COVID-19-Virusinfektion |
-| Vorhergesagte neue Indikation | Familiäres Mittelmeerfieber (autosomal-rezessiv) – bestbelegte Vorhersage; die Vorhersage mit dem höchsten Score ist extrakutanes Mastozytom (99,93 %) ohne jegliche Evidenz |
-| TxGNN-Vorhersagewert | 99,89 % (FMF); 99,93 % (Rang 1, extrakutanes Mastozytom) |
-| Evidenzstufe | L3 (FMF) |
-| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Vorhergesagte neue Indikation | Extrakutanes Mastozytom |
+| TxGNN-Vorhersagewert | 0,9989 (FMF); 0,9993 (Rang 1, extrakutanes Mastozytom) |
+| Evidenzstufe | L5 (FMF) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold (Forschungsfrage; weitere Prüfung nötig) |
 
 ---
@@ -104,7 +104,7 @@ Zu weiteren Vorhersagen (jeweils nur indirekte Evidenz):
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/000363 | Kineret (Swedish Orphan Biovitrum AB) | – | Rheumatoide Arthritis; COVID-19-Virusinfektion (Status: erloschen) |
+| EMEA/H/C/000363 | Kineret (Swedish Orphan Biovitrum AB) | – | Rheumatoide Arthritis; COVID-19-Virusinfektion (Status: gültig) |
 
 ---
 
