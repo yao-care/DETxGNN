@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-27T23:34:53.747611+00:00",
+  "fetched_at": "2026-10-28T04:33:36.285632+00:00",
   "source": "Google News Health RSS",
   "count": 25,
   "articles": [
@@ -14,10 +14,10 @@
       }
     },
     {
-      "id": "e1e585763f66",
-      "title": "Zwangsstörungen: 4-Tage-Therapie zeigt erstaunliche Erfolge - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVVFZV0lGb2JoMHdMMDRnTFNXRVZ1RU5QQjc0ZmFlYV9NWVpHXzVkZDVncnk1TTBkSlVZTkM1NTlGLUk0MHFKN3VKUGlPQ25fdHdpVk44MTNncWtXc2JsOWhZb2tIc1NBUDdrQm9sMUticnlURlUtM2FvNWRScnRHYVdMM0hmSjRNbzNnMWNHMFhLNEJRS1pHdmlwNA?oc=5",
-      "published": "2026-10-27T10:03:22+00:00",
+      "id": "05ccc139d8cd",
+      "title": "Süßstoffe können Darmbakterien verändern: Medikamente verstärken den Effekt - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcE9PVDdjbURYU1JzeTltZm9zbm5tX2p4Z2JOMFNhRTZnMVQ4M1ZiVkxGLVhqcGUxTF9Yd1NWMXV6ekJhR09sSi04RHRpaGdaVUxQUkowOTBtclJwOXZlc01qM3h1TkZsM1NsRHkyN0JjR1RZWFViZjNzVzhOWm93T2ZlOXFwdXgtN1k5Yjd5ZmpYdzJOa0pwM2d5d1RGbnNNWUZGWnltcFJsVGg1c19Nc1RaY1hmdw?oc=5",
+      "published": "2026-10-24T08:39:00+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
@@ -34,40 +34,10 @@
       }
     },
     {
-      "id": "9fa13ce5acf5",
-      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
-      "published": "2026-03-31T20:25:43+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "4e6d48112005",
-      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
-      "published": "2026-05-22T07:00:00+00:00",
-      "source": {
-        "name": "Bundesministerium für Gesundheit (BMG)",
-        "url": "https://www.bundesgesundheitsministerium.de"
-      }
-    },
-    {
-      "id": "2a4cd6eb6d1d",
-      "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
-      "published": "2026-03-31T07:00:00+00:00",
-      "source": {
-        "name": "European Parliament",
-        "url": "https://www.europarl.europa.eu"
-      }
-    },
-    {
-      "id": "05ccc139d8cd",
-      "title": "Süßstoffe können Darmbakterien verändern: Medikamente verstärken den Effekt - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcE9PVDdjbURYU1JzeTltZm9zbm5tX2p4Z2JOMFNhRTZnMVQ4M1ZiVkxGLVhqcGUxTF9Yd1NWMXV6ekJhR09sSi04RHRpaGdaVUxQUkowOTBtclJwOXZlc01qM3h1TkZsM1NsRHkyN0JjR1RZWFViZjNzVzhOWm93T2ZlOXFwdXgtN1k5Yjd5ZmpYdzJOa0pwM2d5d1RGbnNNWUZGWnltcFJsVGg1c19Nc1RaY1hmdw?oc=5",
-      "published": "2026-10-24T08:39:00+00:00",
+      "id": "e1e585763f66",
+      "title": "Zwangsstörungen: 4-Tage-Therapie zeigt erstaunliche Erfolge - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVVFZV0lGb2JoMHdMMDRnTFNXRVZ1RU5QQjc0ZmFlYV9NWVpHXzVkZDVncnk1TTBkSlVZTkM1NTlGLUk0MHFKN3VKUGlPQ25fdHdpVk44MTNncWtXc2JsOWhZb2tIc1NBUDdrQm9sMUticnlURlUtM2FvNWRScnRHYVdMM0hmSjRNbzNnMWNHMFhLNEJRS1pHdmlwNA?oc=5",
+      "published": "2026-10-27T10:03:22+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
@@ -84,13 +54,63 @@
       }
     },
     {
-      "id": "7556a34adb3d",
-      "title": "Zeitumstellung: Muss ich meine Medikamente dann wann anders nehmen? - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTko3bnVDNkNKQ1pHeDNyWTh0X3JBU1NIem9OZ1NNbmpQSWlYNlpZUThGUGhFZXhsLWZGZlRlQnRBQUZDS01ITGd4bVRLSmRLRU9QRTlZLWRCLXB2MTh2NXp5U185OFNtQ1hqYVhoZUl2ejdCSWtSTm1qZ01BS3BTWjNNQQ?oc=5",
-      "published": "2026-10-20T13:27:03+00:00",
+      "id": "4e6d48112005",
+      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
+      "published": "2026-05-22T07:00:00+00:00",
       "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
+        "name": "Bundesministerium für Gesundheit (BMG)",
+        "url": "https://www.bundesgesundheitsministerium.de"
+      }
+    },
+    {
+      "id": "d4163e4461fc",
+      "title": "Fakt versus Fiktion: Ärzte bewerten Sicherheit und Wirksamkeit von Peptiden - aktien.news",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcWh6UTU2cGdPbFBmSW1BN1kxZEl0RnpVQ2tvVHF0aVZGdWlBeWdybTRteENqSmdlZ0t5T01Odkc4akpCZkw3ZEM5MXVYQ2szdk4wQVdTRFlCZ0JPRU1oZlJmd2RDNkp0TW40bXZQbkRjU19RM3hkZ1lBQ3Z0YlE2T1k3dTY5OThrQ0Rtd2JlR1lRYzBzWXppQTI2YkZVWlU?oc=5",
+      "published": "2026-10-24T07:00:00+00:00",
+      "source": {
+        "name": "aktien.news",
+        "url": "https://www.aktien.news"
+      }
+    },
+    {
+      "id": "23cc1b882457",
+      "title": "Depressionen: Warum Antidepressiva bei manchen Menschen schlechter wirken könnten - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNGY0UldmNXlXOWVwYmdPUzBEX3NGVTdFUXJFNzR4YnNNb2NhckFTbzB2UlROUHRSR0V6VGc3TnhKcWdFUGhaeFcyZjkzWGtNUms0R2hyX0phRjVROWJ5ZnF5ZXc2NWFnSmxnMTZUTXRSLXViR25VTngwU2xqT002cWlTNmdzZWlSNzluQkRibGprRVZaNEtHRV9COUtLbDJ0LWRTMUl4MVktRjF2Zy0wUjRxX2hBcElT?oc=5",
+      "published": "2026-10-26T10:47:35+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "0b1776a1b8de",
+      "title": "Alzheimer vor 65: Diese Beschwerden fallen schon Jahre vor der Diagnose auf - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbXRfbmQybDlsVy1KQ29MNWl0bjNNZnVoLU0xMmNqdDUzSDFRSi1JSjFUSjFRa0RoVWZ1SHJsd3g5Uzh1aE82UGYyb3cyVWxFOVI0RGQ4dkZtTXNxQWxvSy1DVEpodk5YRnNrVS1ZYTJUWDdQV3gzcUZKX2VyV1dPdE50SGF5a3drUTNVS2xDVWpGUHlxZHdOQU5QTUpoa2FpeE1NU3A2X1U4RFhBMEU0?oc=5",
+      "published": "2026-10-26T07:00:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "9fa13ce5acf5",
+      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
+      "published": "2026-03-31T20:25:43+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "2a4cd6eb6d1d",
+      "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
+      "published": "2026-03-31T07:00:00+00:00",
+      "source": {
+        "name": "European Parliament",
+        "url": "https://www.europarl.europa.eu"
       }
     },
     {
@@ -124,26 +144,6 @@
       }
     },
     {
-      "id": "d4163e4461fc",
-      "title": "Fakt versus Fiktion: Ärzte bewerten Sicherheit und Wirksamkeit von Peptiden - aktien.news",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcWh6UTU2cGdPbFBmSW1BN1kxZEl0RnpVQ2tvVHF0aVZGdWlBeWdybTRteENqSmdlZ0t5T01Odkc4akpCZkw3ZEM5MXVYQ2szdk4wQVdTRFlCZ0JPRU1oZlJmd2RDNkp0TW40bXZQbkRjU19RM3hkZ1lBQ3Z0YlE2T1k3dTY5OThrQ0Rtd2JlR1lRYzBzWXppQTI2YkZVWlU?oc=5",
-      "published": "2026-10-24T07:00:00+00:00",
-      "source": {
-        "name": "aktien.news",
-        "url": "https://www.aktien.news"
-      }
-    },
-    {
-      "id": "23cc1b882457",
-      "title": "Depressionen: Warum Antidepressiva bei manchen Menschen schlechter wirken könnten - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNGY0UldmNXlXOWVwYmdPUzBEX3NGVTdFUXJFNzR4YnNNb2NhckFTbzB2UlROUHRSR0V6VGc3TnhKcWdFUGhaeFcyZjkzWGtNUms0R2hyX0phRjVROWJ5ZnF5ZXc2NWFnSmxnMTZUTXRSLXViR25VTngwU2xqT002cWlTNmdzZWlSNzluQkRibGprRVZaNEtHRV9COUtLbDJ0LWRTMUl4MVktRjF2Zy0wUjRxX2hBcElT?oc=5",
-      "published": "2026-10-26T10:47:35+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
       "id": "df18e205d41a",
       "title": "Neue Arzneimittel bezahlbar halten - vdek - Verband der Ersatzkassen",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObzE3cHpIZEo2Q0VEc0xrTzlCRHFTbW1GZ1dpbXhiSk55cmZpVFZaN3dtSkhvc2dqYkx0ekRicVhHTHhWTzFsSFVKZlVJZG1EUXBxZGZCU0kycm5yaVczSThMRHA3YkRHN3dPYXl3UTNEU1RWamFXdDBrZ2tTWWhqNjBjQk43VGNhdEFhMXF6Nmx6WHdkXzhwY25kTzVCMmp5?oc=5",
@@ -151,6 +151,16 @@
       "source": {
         "name": "vdek - Verband der Ersatzkassen",
         "url": "https://www.vdek.com"
+      }
+    },
+    {
+      "id": "a0783a974cdd",
+      "title": "Medikamente: Wer über die Preise entscheidet und warum die Krankenkassen so viel ausgeben - ZDFheute",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYW5MbnAweERrMmNGSF9EVUZQUjBoQlR1UTFlX3NyTjlJcGpERjZxSURMWmd6bUFvcm9oalNLdUpHWURhWXlHcWxnYnZieUF6NEhqQ3d2QW9LMGdUam5VallpbE9EamhoSFdlc3RNaHBlYUloTTdLQUV5SGpMeFlGdVM2Q21QV21NR0NOZlppOFhMbVJhaGdOZA?oc=5",
+      "published": "2026-10-27T09:22:00+00:00",
+      "source": {
+        "name": "ZDFheute",
+        "url": "https://www.zdfheute.de"
       }
     },
     {
@@ -174,23 +184,13 @@
       }
     },
     {
-      "id": "a0783a974cdd",
-      "title": "Medikamente: Wer über die Preise entscheidet und warum die Krankenkassen so viel ausgeben - ZDFheute",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYW5MbnAweERrMmNGSF9EVUZQUjBoQlR1UTFlX3NyTjlJcGpERjZxSURMWmd6bUFvcm9oalNLdUpHWURhWXlHcWxnYnZieUF6NEhqQ3d2QW9LMGdUam5VallpbE9EamhoSFdlc3RNaHBlYUloTTdLQUV5SGpMeFlGdVM2Q21QV21NR0NOZlppOFhMbVJhaGdOZA?oc=5",
-      "published": "2026-10-27T09:22:00+00:00",
+      "id": "7cd0e6b47bfd",
+      "title": "Warum Grapefruit bei bestimmten Medikamenten tabu ist - WEB.DE",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaEJ1RUJGd21kbldxZGF5eUNIeW9pNkxTMkx2dXVHbDI2eEthUDlYSzVfRDQyb1BfcnFmZmgxRVZvbDNFY2hyYnI1STdNYjF2QWxWTXhSTXVYSzlOMzdGSVd4TVdScU55c2xjUW1LTDAxUGlfbnZXZkF6VlJSMGNJSlJaaTNBSWFZLWVv?oc=5",
+      "published": "2026-10-22T13:42:05+00:00",
       "source": {
-        "name": "ZDFheute",
-        "url": "https://www.zdfheute.de"
-      }
-    },
-    {
-      "id": "0b1776a1b8de",
-      "title": "Alzheimer vor 65: Diese Beschwerden fallen schon Jahre vor der Diagnose auf - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbXRfbmQybDlsVy1KQ29MNWl0bjNNZnVoLU0xMmNqdDUzSDFRSi1JSjFUSjFRa0RoVWZ1SHJsd3g5Uzh1aE82UGYyb3cyVWxFOVI0RGQ4dkZtTXNxQWxvSy1DVEpodk5YRnNrVS1ZYTJUWDdQV3gzcUZKX2VyV1dPdE50SGF5a3drUTNVS2xDVWpGUHlxZHdOQU5QTUpoa2FpeE1NU3A2X1U4RFhBMEU0?oc=5",
-      "published": "2026-10-26T07:00:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
+        "name": "WEB.DE",
+        "url": "https://web.de"
       }
     },
     {
@@ -204,16 +204,6 @@
       }
     },
     {
-      "id": "7cd0e6b47bfd",
-      "title": "Warum Grapefruit bei bestimmten Medikamenten tabu ist - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaEJ1RUJGd21kbldxZGF5eUNIeW9pNkxTMkx2dXVHbDI2eEthUDlYSzVfRDQyb1BfcnFmZmgxRVZvbDNFY2hyYnI1STdNYjF2QWxWTXhSTXVYSzlOMzdGSVd4TVdScU55c2xjUW1LTDAxUGlfbnZXZkF6VlJSMGNJSlJaaTNBSWFZLWVv?oc=5",
-      "published": "2026-10-22T13:42:05+00:00",
-      "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
-      }
-    },
-    {
       "id": "5d81cd09e3f7",
       "title": "Gesundheit - Arzneimittel-Experten: Viagra weiter nicht ohne Rezept - Gesundheit - SZ.de - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWktNUkFDTmVsMmlKeW5kaDAzQjlZUDVuczZyeGo0WExZMTlIUWNzYzVOTllKeVRMZkpvLW9pbGFDRHJScks3dEVTd3BBRW9fWmJ0TFpxbm9SVm9RU2RYdEhHQ29FYmNEdUNuUDRzalRBWGdwNm1NU2J2cUJpRHR2T1hjYmllakVuMDctbkt5bkc3S1ZabGc3eWQ4RVJWS3k3bG96UVJXRFNYenhGSUhvZDhUMDR6Nm9aNmhiaF9DRHM4NnFRZ2IwbEQzNVhfWWpCUjZ2b05iSjUzdmR1SjVNTHMyekNxWk0?oc=5",
@@ -221,6 +211,16 @@
       "source": {
         "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
+      }
+    },
+    {
+      "id": "7ec96f444290",
+      "title": "Medikamente knapp: Philippi warnt vor Hamsterkäufen – diese Mittel sind betroffen - HAZ",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOR3lZNXFZLXFfd2tVcUNPZFVoNFF5QnZmbGs5Ti1ueDRZMHhodkdsY1dhd19yX2JONWd3QTFlMFlta3FvdnFYcUZYYkdDRUpPTVNwV2pWUnBtU2E0N0NTc0tRcWt0Ml94OWVlTC0zQW16TGI4SC1ZWWJDb2pXUWp1WEVaMlVaa1NPWnJzbS1WTjQwYXdSTXBnbGtlNDRMZzEyT1pGejNwdmhfWHc3TV92YnJZWS00RFpNYUlaNklLaUdBM1hrOW9yQ3g3MW9JLTNDQjc0VDRFeUvSAfQBQVVfeXFMT3dCZXc3MF9rVTZQY05nWnBfSVpQNGl1VTg0ZjVFRFY0M2Qtb3JYQmtJWExUTkNST2Yxa2wtTl9ITmszSWJkOFlvMHBSWFRKZWN5ZVZLdzB1U1FPUS1LLXpRWnhidlRtekdKMTRoVmJxdFAtUjlwUWxVRUxnMjRvcFNiXzlVM0JvaUtFdHBRX3VXNGRRZG1LQlZUdmN6V0h2WWZyWnBYYkxtdzZSMkQxdENKY2pEaEtBblk3cC0yblo0NnJsVk15VVBOdy01Y0lkSEwxSmczZ1VTM0Fpb2JUX0l2NjhFdE9ZVmVPbTg3RXl2UzRSWQ?oc=5",
+      "published": "2026-10-28T03:36:57+00:00",
+      "source": {
+        "name": "HAZ",
+        "url": "https://www.haz.de"
       }
     },
     {
