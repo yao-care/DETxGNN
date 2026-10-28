@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 438
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Sunitinib: vorhergesagte neue Indikation Liposarkom (Evidenzstufe L2). Ursprüngliche Indikation: Gastrointestinale Stromatumoren"
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]

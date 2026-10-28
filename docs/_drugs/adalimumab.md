@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ADALIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Adalimumab: vorhergesagte neue Indikation Hypermobilität des Steißbeins (hypermobility of coccyx) (Evidenzstufe L5). Ursprüngliche Indikation: Spondylitis, Ankylosing"
 ---
 

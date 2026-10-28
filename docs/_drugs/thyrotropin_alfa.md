@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 461
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Thyrotropin Alfa: vorhergesagte neue Indikation Migräne (migraine disorder) (Evidenzstufe L5). Ursprüngliche Indikation: Schilddrüsenneoplasien"
 monitor_inn: "THYROTROPIN ALFA"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease", "postural orthostatic tachycardia syndrome", "hyperthyroidism"]

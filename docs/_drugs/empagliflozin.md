@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "EMPAGLIFLOZIN"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Empagliflozin: vorhergesagte neue Indikation Klassisches Stiff-Person-Syndrom (classic stiff person syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes Mellitus, Type 2"
 ---
 

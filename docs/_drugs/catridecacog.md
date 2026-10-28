@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 103
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Catridecacog: vorhergesagte neue Indikation Primäre Thrombozyten-Freisetzungsstörung (Evidenzstufe L5). Ursprüngliche Indikation: Angeborene Blutgerinnungsstörungen"
 monitor_inn: "CATRIDECACOG"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia"]

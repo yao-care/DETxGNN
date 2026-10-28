@@ -7,7 +7,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 73
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-09-19
+last_modified_at: 2026-10-28
 predicted_indications: []
 ---
 

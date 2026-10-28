@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 424
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Selumetinib: vorhergesagte neue Indikation Familiäre generalisierte Lentiginose (Evidenzstufe L5). Ursprüngliche Indikation: Neurofibromatose 1"
 monitor_inn: "Selumetinib"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "rhabdoid tumor", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "acromelanosis", "Moynahan syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "peripheral nerve schwannoma", "trigeminal schwannoma"]

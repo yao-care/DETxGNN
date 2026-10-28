@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "GOLIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Golimumab: vorhergesagte neue Indikation Hypermobilität des Steißbeins (hypermobility of coccyx) (Evidenzstufe L5). Ursprüngliche Indikation: Arthritis, Rheumatoid"
 ---
 

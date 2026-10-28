@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 331
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Oritavancin: vorhergesagte neue Indikation Bacteroidaceae-Infektionen (Evidenzstufe L5). Ursprüngliche Indikation: Weichteilinfektionen"
 monitor_inn: "ORITAVANCIN"
 predicted_indications: ["Bacteroidaceae infectious disease", "ophthalmic herpes zoster", "Mycoplasma pneumoniae pneumonia"]

@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 209
 evidence_level: L1
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Gimeracil: vorhergesagte neue Indikation Kolonneoplasie (colonic neoplasm) (Evidenzstufe L1). Ursprüngliche Indikation: Magenneoplasien (Stomach Neoplasms)"
 monitor_inn: "GIMERACIL"
 predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colonic lymphangioma", "colon leiomyoma"]

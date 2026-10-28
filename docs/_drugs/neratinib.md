@@ -5,7 +5,7 @@ parent: Nur bekannte Anwendungen (keine neuen Vorhersagen)
 nav_order: 311
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Neratinib: bekannte Anwendungen und Marktstatus in Deutschland; derzeit keine neue Kandidaten-Indikation"
 predicted_indications: []
 ---

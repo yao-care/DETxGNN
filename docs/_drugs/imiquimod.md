@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 236
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Imiquimod: vorhergesagte neue Indikation Prämalignes Neoplasma (pre-malignant neoplasm) (Evidenzstufe L5). Ursprüngliche Indikation: Condylomata acuminata, Keratose, aktinische Keratose…"
 monitor_inn: "IMIQUIMOD"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]

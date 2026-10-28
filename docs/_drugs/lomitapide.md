@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "LOMITAPIDE"
 predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "platelet storage pool deficiency"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Lomitapide: vorhergesagte neue Indikation Marcothrombozytopenie mit Mitralklappeninsuffizienz (marcothrombocytopenia with mitral valve insufficiency) (Evidenzstufe L5). Ursprüngliche Indikation: Hype…"
 ---
 

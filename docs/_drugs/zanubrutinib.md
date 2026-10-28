@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 505
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Zanubrutinib: vorhergesagte neue Indikation Myeloische Leukämie (Evidenzstufe L4). Ursprüngliche Indikation: Waldenström-Makroglobulinämie"
 monitor_inn: "ZANUBRUTINIB"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]

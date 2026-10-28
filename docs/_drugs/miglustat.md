@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 302
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Miglustat: vorhergesagte neue Indikation Autosomal-rezessives ichthyotisches Syndrom mit letalem Verlauf (Evidenzstufe L5). Ursprüngliche Indikation: Glykogenspeicherkrankheit Typ II (Morbus Pompe)"
 monitor_inn: "MIGLUSTAT"
 predicted_indications: ["autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "Krabbe disease", "metachromatic leukodystrophy", "Wolman disease with hypolipoproteinemia and acanthocytosis", "encephalopathy due to prosaposin deficiency", "Tay-Sachs disease", "benign neoplasm of adrenal gland", "recessive X-linked ichthyosis", "fatty acid hydroxylase-associated neurodegeneration"]

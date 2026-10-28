@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 426
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "SEVOFLURANE"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "fibromyalgia", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "migraine disorder", "inclusion body myositis"]
 description: "Sevoflurane: vorhergesagte neue Indikation Prinzmetal-Angina (Prinzmetal angina) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"

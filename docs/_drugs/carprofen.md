@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 101
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Carprofen: vorhergesagte neue Indikation Rheumatoide Arthritis (Evidenzstufe L3). Ursprüngliche Indikation: In der deutschen Zulassung nicht angegeben (die Zulassung enthält kei…"
 monitor_inn: "CARPROFEN"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "tendinitis", "headache disorder", "idiopathic granulomatous myositis", "myositis fibrosa", "trigeminal autonomic cephalalgia", "gout"]

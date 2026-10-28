@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 216
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Glycine: vorhergesagte neue Indikation Erkrankung der Nasenhöhle (nasal cavity disease) (Evidenzstufe L5). Ursprüngliche Indikation: Ahornsirupkrankheit (Maple Syrup Urine Disease)"
 monitor_inn: "glycine"
 predicted_indications: ["nasal cavity disease"]

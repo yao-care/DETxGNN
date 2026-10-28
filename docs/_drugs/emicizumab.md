@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "EMICIZUMAB"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "thrombotic thrombocytopenic purpura", "fetal and neonatal alloimmune thrombocytopenia", "flood factor deficiency"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Emicizumab: vorhergesagte neue Indikation Pseudo-von-Willebrand-Krankheit (pseudo-von Willebrand disease) (Evidenzstufe L5). Ursprüngliche Indikation: Hemophilia A"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Avatrombopag"
 predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "transient neonatal thrombocytopenia", "dense granule disease", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "lower motor neuron syndrome with late-adult onset", "Mills syndrome", "monomelic amyotrophy"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Avatrombopag: vorhergesagte neue Indikation Makrothrombozytopenie mit Mitralklappeninsuffizienz (marcothrombocytopenia with mitral valve insufficiency) (Evidenzstufe L5). Ursprüngliche Indikation: Th…"
 ---
 

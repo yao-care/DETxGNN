@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 437
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "SPIRONOLACTONE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 description: "Spironolactone: vorhergesagte neue Indikation Hypotrichosis simplex der Kopfhaut (hypotrichosis simplex of the scalp) (Evidenzstufe L5). Ursprüngliche Indikation: Edema"

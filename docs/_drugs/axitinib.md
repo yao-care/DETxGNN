@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "AXITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Axitinib: vorhergesagte neue Indikation Liposarkom (liposarcoma) (Evidenzstufe L5). Ursprüngliche Indikation: Carcinoma, Renal Cell"
 ---
 

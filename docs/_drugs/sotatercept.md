@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 436
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "SOTATERCEPT"
 predicted_indications: ["acute lymphoblastic leukemia (disease)", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis", "diabetic cataract", "HER2 positive breast carcinoma", "transitional cell carcinoma", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant"]
 description: "Sotatercept: vorhergesagte neue Indikation Akute lymphoblastische Leukämie (acute lymphoblastic leukemia (disease)) (Evidenzstufe L5). Ursprüngliche Indikation: Hypertension, Pulmonary"

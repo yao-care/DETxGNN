@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 469
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 description: "Tocilizumab: vorhergesagte neue Indikation Ankylosierende Spondylitis (ankylosing spondylitis) (Evidenzstufe L1). Ursprüngliche Indikation: Arthritis, Rheumatoid"

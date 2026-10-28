@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 440
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 description: "Tacrolimus: vorhergesagte neue Indikation Seborrheic dermatitis (Evidenzstufe L1). Ursprüngliche Indikation: Graft Rejection"

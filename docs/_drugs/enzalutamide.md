@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ENZALUTAMIDE"
 predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Enzalutamide: vorhergesagte neue Indikation Prostata-Leiomyom (prostate leiomyoma) (Evidenzstufe L5). Ursprüngliche Indikation: Prostatic Neoplasms"
 ---
 

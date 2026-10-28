@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 404
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Risankizumab: vorhergesagte neue Indikation Dermatitis (Evidenzstufe L2). Ursprüngliche Indikation: Psoriasis"
 monitor_inn: "RISANKIZUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]

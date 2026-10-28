@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 89
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Cabotegravir: vorhergesagte neue Indikation Rheumatoide Arthritis (Evidenzstufe L5). Ursprüngliche Indikation: HIV-Infektionen"
 monitor_inn: "CABOTEGRAVIR"
 predicted_indications: ["rheumatoid arthritis", "sclerosing cholangitis", "bronchitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "severe nonproliferative diabetic retinopathy"]

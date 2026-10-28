@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 110
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Cetrorelix: vorhergesagte neue Indikation Hypertrichose (Evidenzstufe L5). Ursprüngliche Indikation: Ovulation"
 monitor_inn: "CETRORELIX"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "persistent fetal circulation syndrome", "familial isolated trichomegaly", "familial male-limited precocious puberty", "aromatase excess syndrome", "centra precocious puberty 1"]

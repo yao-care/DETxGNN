@@ -3,7 +3,7 @@ layout: default
 title: Erenumab
 parent: Nur bekannte Anwendungen (keine neuen Vorhersagen)
 nav_order: 177
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Erenumab: Bekannte Anwendungen und Marktstatus in Deutschland; derzeit keine neue Kandidaten-Indikation"
 predicted_indications: []
 indication_count: 0

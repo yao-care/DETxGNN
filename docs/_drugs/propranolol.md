@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 373
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Propranolol: vorhergesagte neue Indikation Distale Myopathie, Typ Tateyama (Evidenzstufe L5). Ursprüngliche Indikation: Hämangiom"
 monitor_inn: "Propranolol"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 475
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Toremifene: vorhergesagte neue Indikation HIV-Infektionskrankheit (Evidenzstufe L4). Ursprüngliche Indikation: Brustkrebs (Mammakarzinom)"
 monitor_inn: "TOREMIFENE"
 predicted_indications: ["HIV infectious disease"]

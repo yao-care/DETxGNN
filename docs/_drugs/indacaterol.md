@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "INDACATEROL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Indacaterol: vorhergesagte neue Indikation Nephrogenes Syndrom der inadäquaten Antidiurese (nephrogenic syndrome of inappropriate antidiuresis) (Evidenzstufe L5). Ursprüngliche Indikation: Pulmonary …"
 ---
 

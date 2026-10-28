@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "MANNITOL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "acute pulmonary heart disease", "exercise-induced malignant hyperthermia", "familial periodic paralysis", "hypokalemic periodic paralysis", "congenital multicore myopathy with external ophthalmoplegia", "moderate multiminicore disease with hand involvement", "nephrogenic diabetes insipidus", "central core myopathy"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Mannitol: vorhergesagte neue Indikation Nephrogenes Syndrom der inadäquaten Antidiurese (nephrogenic syndrome of inappropriate antidiuresis) (Evidenzstufe L5). Ursprüngliche Indikation: Cystic Fibros…"
 ---
 

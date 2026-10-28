@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "DEFERIPRONE"
 predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "hepatoportal sclerosis", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Deferiprone: vorhergesagte neue Indikation Hepatische Porphyrie (hepatic porphyria) (Evidenzstufe L5). Ursprüngliche Indikation: Iron Overload"
 ---
 

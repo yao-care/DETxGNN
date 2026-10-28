@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 352
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Pemigatinib: vorhergesagte neue Indikation Multiple endokrine Neoplasie (Evidenzstufe L5). Ursprüngliche Indikation: Cholangiokarzinom"
 monitor_inn: "PEMIGATINIB"
 predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "HER2 positive breast carcinoma", "cytomegalovirus infection", "malignant catarrh", "infectious bovine rhinotracheitis", "amyotrophic lateral sclerosis", "amyotrohpic lateral sclerosis type 22", "axial spondylometaphyseal dysplasia"]

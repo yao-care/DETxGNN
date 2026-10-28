@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 393
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Remimazolam: vorhergesagte neue Indikation Schlaflosigkeit (Insomnie) (Evidenzstufe L5). Ursprüngliche Indikation: Conscious Sedation (Sedierung bei Eingriffen)"
 monitor_inn: "remimazolam"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium"]

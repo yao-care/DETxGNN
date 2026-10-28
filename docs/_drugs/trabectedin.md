@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 476
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Trabectedin: vorhergesagte neue Indikation Weibliches Mammakarzinom (Evidenzstufe L2). Ursprüngliche Indikation: Sarkom"
 monitor_inn: "TRABECTEDIN"
 predicted_indications: ["female breast carcinoma"]

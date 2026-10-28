@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 287
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Meloxicam: vorhergesagte neue Indikation Akromesomele Dysplasie, Typ Hunter-Thompson (Evidenzstufe L5). Ursprüngliche Indikation: Rheumatoide Arthritis, Arthrose, Arthropathie…"
 monitor_inn: "MELOXICAM"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]

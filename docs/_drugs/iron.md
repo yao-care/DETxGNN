@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "IRON"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Iron: vorhergesagte neue Indikation Vitamin-B12- und folatunabhängige konstitutionelle megaloblastäre Anämie (vitamin B12- and folate-independent constitut… (Evidenzstufe L5). Ursprüngliche Indikatio…"
 ---
 

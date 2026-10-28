@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 184
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Etelcalcetide: vorhergesagte neue Indikation Hyperphosphatämie (Evidenzstufe L3). Ursprüngliche Indikation: Sekundärer Hyperparathyreoidismus"
 monitor_inn: "Etelcalcetide"
 predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices without bleeding", "esophageal varices with bleeding", "varicose disease"]

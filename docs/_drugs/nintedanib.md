@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 315
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Nintedanib: vorhergesagte neue Indikation Dermatofibrosarcoma protuberans (Evidenzstufe L4). Ursprüngliche Indikation: Nicht-kleinzelliges Lungenkarzinom (Vargatef)"
 monitor_inn: "NINTEDANIB"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]

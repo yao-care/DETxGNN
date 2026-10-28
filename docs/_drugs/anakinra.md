@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 33
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Anakinra: vorhergesagte neue Indikation Extrakutanes Mastozytom (Evidenzstufe L5). Ursprüngliche Indikation: Rheumatoide Arthritis"
 monitor_inn: "ANAKINRA"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "peliosis hepatis", "oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies", "oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies", "pyogenic autoinflammatory syndrome", "unclassified autoinflammatory syndrome"]

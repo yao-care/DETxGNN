@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 316
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "NIRAPARIB"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
 description: "Niraparib: vorhergesagte neue Indikation Epiglottis neoplasm (Evidenzstufe L5). Ursprüngliche Indikation: Fallopian Tube Neoplasms"

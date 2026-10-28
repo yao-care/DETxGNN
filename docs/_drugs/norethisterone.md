@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 320
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Norethisterone: vorhergesagte neue Indikation Amenorrhoe (Evidenzstufe L4). Ursprüngliche Indikation: Leiomyom"
 monitor_inn: "Norethisterone"
 predicted_indications: ["amenorrhea (disease)"]

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 222
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Histidine: vorhergesagte neue Indikation Gastroparese (Evidenzstufe L5). Ursprüngliche Indikation: Ahornsirupkrankheit (Maple Syrup Urine Disease)"
 monitor_inn: "histidine"
 predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis"]

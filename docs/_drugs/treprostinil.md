@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 483
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Treprostinil: vorhergesagte neue Indikation Pulmonale arteriovenöse Malformation (Evidenzstufe L5). Ursprüngliche Indikation: Pulmonale Hypertonie"
 monitor_inn: "Treprostinil"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita"]

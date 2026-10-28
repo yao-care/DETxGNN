@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "MEMANTINE"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Memantine: vorhergesagte neue Indikation Pulmonale Hypertonie (pulmonary hypertension) (Evidenzstufe L5). Ursprüngliche Indikation: Alzheimer Disease"
 ---
 

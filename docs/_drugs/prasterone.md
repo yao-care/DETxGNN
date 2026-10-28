@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 366
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Prasterone: vorhergesagte neue Indikation Heparin-Cofaktor-2-Mangel (Evidenzstufe L5). Ursprüngliche Indikation: Postmenopause"
 monitor_inn: "PRASTERONE"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "severe nonproliferative diabetic retinopathy", "thrombophilia due to protein S deficiency, autosomal recessive", "scleroderma (disease)", "complement component 4a deficiency", "pseudo-von Willebrand disease", "primary release disorder of platelets"]

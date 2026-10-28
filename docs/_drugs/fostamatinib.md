@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 202
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Fostamatinib: vorhergesagte neue Indikation Autosomale Thrombozytopenie mit normalen Thrombozyten (Evidenzstufe L5). Ursprüngliche Indikation: Thrombozytopenie"
 monitor_inn: "Fostamatinib"
 predicted_indications: ["autosomal thrombocytopenia with normal platelets", "non-syndromic esophageal malformation"]

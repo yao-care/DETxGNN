@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 180
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Esketamine: vorhergesagte neue Indikation Agoraphobie (Evidenzstufe L5). Ursprüngliche Indikation: Depressive Störung"
 monitor_inn: "Esketamine"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]

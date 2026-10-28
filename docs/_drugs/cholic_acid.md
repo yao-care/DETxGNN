@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 114
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Cholic Acid: vorhergesagte neue Indikation HIV-Infektion (Evidenzstufe L4). Ursprüngliche Indikation: Erkrankungen des Verdauungssystems"
 monitor_inn: "CHOLIC ACID"
 predicted_indications: ["HIV infectious disease", "obsolete familial combined hyperlipidemia", "homozygous familial hypercholesterolemia", "biotin metabolic disease", "vitamin deficiency disorder", "hereditary hemochromatosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hemosiderosis", "disorder of phenylalanine metabolism", "bone Paget disease"]

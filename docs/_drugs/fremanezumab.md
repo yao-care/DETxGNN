@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 203
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Fremanezumab: vorhergesagte neue Indikation Atrophoderma vermiculata (Evidenzstufe L4). Ursprüngliche Indikation: Migräne (Migraine Disorders)"
 monitor_inn: "FREMANEZUMAB"
 predicted_indications: ["atrophoderma vermiculata"]

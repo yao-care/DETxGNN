@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 272
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Linaclotide: vorhergesagte neue Indikation Cauda-equina-Syndrom (Evidenzstufe L5). Ursprüngliche Indikation: Reizdarmsyndrom"
 monitor_inn: "LINACLOTIDE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "insomnia (disease)"]

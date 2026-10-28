@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 495
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Vernakalant: vorhergesagte neue Indikation Schlaganfall-Erkrankung (stroke disorder) (Evidenzstufe L4). Ursprüngliche Indikation: Vorhofflimmern"
 monitor_inn: "Vernakalant"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]

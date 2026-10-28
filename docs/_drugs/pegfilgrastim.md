@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 347
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "PEGFILGRASTIM"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
 description: "Pegfilgrastim: vorhergesagte neue Indikation Schwere nichtproliferative diabetische Retinopathie (severe nonproliferative diabetic retinopathy) (Evidenzstufe L5). Ursprüngliche Indikation: Neutropeni"

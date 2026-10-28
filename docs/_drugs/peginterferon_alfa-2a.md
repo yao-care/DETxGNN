@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 348
 evidence_level: L1
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "PEGINTERFERON ALFA-2A"
 predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
 description: "Peginterferon Alfa-2A: vorhergesagte neue Indikation Hepatitis E virus infection (Evidenzstufe L1). Ursprüngliche Indikation: Hepatitis C, Chronic"

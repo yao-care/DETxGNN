@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 342
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Panobinostat: vorhergesagte neue Indikation Myeloische Leukämie (Evidenzstufe L5). Ursprüngliche Indikation: Multiples Myelom"
 monitor_inn: "panobinostat"
 predicted_indications: ["myeloid leukemia"]

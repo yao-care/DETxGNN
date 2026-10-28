@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 307
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Mycophenolate Mofetil: vorhergesagte neue Indikation HIV-Infektionskrankheit (Evidenzstufe L5). Ursprüngliche Indikation: Transplantatabstoßung"
 monitor_inn: "MYCOPHENOLATE MOFETIL"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 442
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Tagraxofusp: vorhergesagte neue Indikation Esotropie (Evidenzstufe L5). Ursprüngliche Indikation: Lymphom"
 monitor_inn: "TAGRAXOFUSP"
 predicted_indications: ["esotropia", "pre-malignant neoplasm", "inner ear neoplasm", "benign neoplasm of tongue", "non-seminomatous lesion", "chondroid hamartoma", "bronchial adenomas/carcinoids childhood", "ductal or ductular proliferation", "cystic neoplasm", "thyroglossal duct cyst"]

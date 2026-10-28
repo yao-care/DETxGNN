@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 448
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Tegafur: vorhergesagte neue Indikation Kolonneoplasie (colonic neoplasm) (Evidenzstufe L1). Ursprüngliche Indikation: Magenkarzinom (Stomach Neoplasms)"
 monitor_inn: "TEGAFUR"
 predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "rectosigmoid junction neoplasm", "colonic lymphangioma", "cavernous hemangioma of colon"]

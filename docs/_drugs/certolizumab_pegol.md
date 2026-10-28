@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CERTOLIZUMAB PEGOL"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Certolizumab Pegol: vorhergesagte neue Indikation Steißbein-Hypermobilität (hypermobility of coccyx) (Evidenzstufe L5). Ursprüngliche Indikation: Arthritis, Rheumatoid"
 ---
 
