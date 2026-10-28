@@ -5,10 +5,10 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 234
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
-description: "Imiglucerase: vorhergesagte neue Indikation Hurler-Syndrom (Evidenzstufe L4). Ursprüngliche Indikation: Morbus Gaucher"
+last_modified_at: 2026-10-28
 monitor_inn: "IMIGLUCERASE"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
+description: "Imiglucerase: vorhergesagte neue Indikation Hurler-Syndrom (Hurler syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: Gaucher Disease"
 ---
 
 # Imiglucerase
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-## Imiglucerase: Von Morbus Gaucher zu Hurler-Syndrom
+## Imiglucerase: Hurler-Syndrom (Hurler syndrome)
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,9 +48,9 @@ Dafür liegen **keine klinischen Studien** und nur **eine Übersichtsarbeit** zu
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Morbus Gaucher |
-| Vorhergesagte neue Indikation | Hurler-Syndrom |
-| TxGNN-Vorhersagewert | 0,9952 |
+| Ursprüngliche Indikation | Gaucher Disease |
+| Vorhergesagte neue Indikation | Hurler-Syndrom (Hurler syndrome) |
+| TxGNN-Vorhersagewert | 0.9952 |
 | Evidenzgrad | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
@@ -67,10 +67,10 @@ Das Hurler-Syndrom (MPS I) beruht auf einem Mangel an alpha-L-Iduronidase, wodur
 Die Verbindung besteht daher nur auf Klassenebene (Konzept der Enzymersatztherapie). Der hohe TxGNN-Wert dürfte vor allem auf gemeinsamen Netzwerkmerkmalen lysosomaler Erkrankungen beruhen. Für MPS I ist mit Laronidase bereits eine gezielte Enzymersatztherapie zugelassen.
 
 Weitere Vorhersagen im Überblick (alle Hold):
-- **Scheie-Syndrom** (99,29 %, L4): abgeschwächte Form von MPS I, gleiche Einschränkung wie oben.
-- **Gutartige Neubildung der Nebenniere** (99,28 %, L5): kein erkennbarer mechanistischer Zusammenhang.
-- **Autosomale Ichthyose mit tödlichem Verlauf** (99,24 %, L5): plausibler, aber nicht belegter Bezug zur Ceramid-Barriere; Imiglucerase überwindet die Blut-Hirn-Schranke nur begrenzt.
-- **Cholesterinester-Speicherkrankheit** (99,12 %, L5): Imiglucerase spaltet keine Cholesterinester; spezifische Therapie ist Sebelipase alfa.
+- **Scheie-Syndrom** (0.9929, L4): abgeschwächte Form von MPS I, gleiche Einschränkung wie oben.
+- **Gutartige Neubildung der Nebenniere** (0.9928, L5): kein erkennbarer mechanistischer Zusammenhang.
+- **Autosomale Ichthyose mit tödlichem Verlauf** (0.9924, L5): plausibler, aber nicht belegter Bezug zur Ceramid-Barriere; Imiglucerase überwindet die Blut-Hirn-Schranke nur begrenzt.
+- **Cholesterinester-Speicherkrankheit** (0.9912, L5): Imiglucerase spaltet keine Cholesterinester; spezifische Therapie ist Sebelipase alfa.
 
 ---
 

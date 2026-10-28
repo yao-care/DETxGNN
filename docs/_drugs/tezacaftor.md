@@ -5,10 +5,10 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 459
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "TEZACAFTOR"
 predicted_indications: ["HIV infectious disease", "leprosy", "multiple endocrine neoplasia"]
-description: "Tezacaftor: vorhergesagte neue Indikation HIV-Infektionskrankheit (HIV infectious disease) (Evidenzstufe L5). Ursprüngliche Indikation: Cystic Fibrosis"
+description: "Tezacaftor: vorhergesagte neue Indikation HIV-Infektionskrankheit (HIV infectious disease) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
 ---
 
 # Tezacaftor
@@ -46,7 +46,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Cystic Fibrosis |
+| Ursprüngliche Indikation | In den lokalen Daten nicht erfasst |
 | Vorhergesagte neue Indikation | HIV-Infektionskrankheit (HIV infectious disease) |
 | TxGNN-Vorhersagewert | 0.9924 |
 | Evidenzlevel | L5 |
@@ -60,7 +60,7 @@ Die für diesen Bericht zusammengestellten Daten enthalten keine detaillierte Be
 
 Ein mechanistischer Zusammenhang zwischen CFTR-Korrektur und HIV-Infektion ist durch die vorliegenden Daten **nicht belegt**. Denkbar wäre allenfalls ein Einfluss auf den Proteintransport in Wirtszellen, doch das ist rein spekulativ und nicht überprüft. Der hohe Modellwert (0,9924) ist eine rechnerische Vorhersage ohne Bestätigung durch Studien oder Literatur.
 
-Zwei weitere Vorhersagen des Modells liegen auf ähnlichem Niveau, ebenfalls ohne Evidenz: **Lepra** (99,14 %) und **multiple endokrine Neoplasie** (99,06 %). Auch hier ist kein mechanistischer Bezug zur CFTR-Korrektur belegt.
+Zwei weitere Vorhersagen des Modells liegen auf ähnlichem Niveau, ebenfalls ohne Evidenz: **Lepra** (0.9914) und **multiple endokrine Neoplasie** (0.9906). Auch hier ist kein mechanistischer Bezug zur CFTR-Korrektur belegt.
 
 ## Evidenz aus klinischen Studien
 

@@ -5,10 +5,10 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 358
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Pibrentasvir: vorhergesagte neue Indikation Hepatitis-B-Virusinfektion (Evidenzstufe L5). Ursprüngliche Indikation: Chronische Hepatitis C"
+last_modified_at: 2026-10-28
 monitor_inn: "PIBRENTASVIR"
 predicted_indications: ["hepatitis B virus infection", "HIV infectious disease", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Pibrentasvir: vorhergesagte neue Indikation Hepatitis-B-Virusinfektion (hepatitis B virus infection) (Evidenzstufe L4). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
 ---
 
 # Pibrentasvir
@@ -33,7 +33,7 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Pibrentasvir: Von chronischer Hepatitis C zu Hepatitis-B-Virusinfektion
+## Pibrentasvir: Hepatitis-B-Virusinfektion (hepatitis B virus infection)
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -46,9 +46,9 @@ für diese Indikation liegen jedoch **keine klinischen Studien** und **keine HBV
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Chronische Hepatitis C |
-| Vorhergesagte neue Indikation | Hepatitis-B-Virusinfektion |
-| TxGNN-Vorhersagewert | 0,9984 |
+| Ursprüngliche Indikation | In den lokalen Daten nicht erfasst |
+| Vorhergesagte neue Indikation | Hepatitis-B-Virusinfektion (hepatitis B virus infection) |
+| TxGNN-Vorhersagewert | 0.9984 |
 | Evidenzstufe | L4 (formal; faktisch nur Modellvorhersage, da keine HBV-spezifischen Studien vorliegen) |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
@@ -61,7 +61,7 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten k
 Das Hepatitis-B-Virus besitzt kein NS5A-Homolog, ein klares gemeinsames Wirkziel ist daher nicht erkennbar. Der hohe TxGNN-Wert spiegelt wahrscheinlich die Nähe im Wissensnetzwerk zu anderen Medikamenten gegen virale Hepatitis wider. Die gefundene Literatur betrifft fast ausschließlich HCV. Eine Relevanz für HBV ergibt sich allenfalls aus HBV/HCV-Koinfektionen, bei denen eine HBV-Reaktivierung unter HCV-Therapie mit direkt wirkenden Virostatika ein bekanntes Sicherheitsthema ist, nicht ein therapeutischer Effekt.
 
 Auch die übrigen Vorhersagen sind überwiegend nicht belegt:
-- **HIV-Infektion** (99,80 %): Die Studien behandeln HCV bei HIV/HCV-Koinfizierten, Zielgröße ist die HCV-Heilung (SVR12). Das ist die ursprüngliche Indikation, kein Repurposing gegen HIV.
+- **HIV-Infektion** (0.9980): Die Studien behandeln HCV bei HIV/HCV-Koinfizierten, Zielgröße ist die HCV-Heilung (SVR12). Das ist die ursprüngliche Indikation, kein Repurposing gegen HIV.
 - **Hepatitis A und E**: Kein mechanistischer Zusammenhang; die verknüpften Studien sind HCV-Studien.
 - **Omsk-hämorrhagisches Fieber, Kyasanur-Waldkrankheit**: Nur spekulative Verwandtschaft innerhalb der Flaviviren, keine Evidenz.
 - **Tiermodelle/-erkrankungen (virale Hepatitis bei Tieren, feline und simiane Immundefizienz) sowie eine neurologische Entwicklungsstörung**: Kein plausibler Mechanismus, wahrscheinlich Netzwerkartefakte.

@@ -5,10 +5,10 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 125
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-14
-description: "Cyclosporine: vorhergesagte neue Indikation Chronische Granulomatose, autosomal-rezessiv (Evidenzstufe L5). Ursprüngliche Indikation: Bindehautentzündung"
+last_modified_at: 2026-10-28
 monitor_inn: "Cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
+description: "Cyclosporine: vorhergesagte neue Indikation Chronische Granulomatose, autosomal-rezessiv (granulomatous disease, chronic, autosomal recessive) (Evidenzstufe L4). Ursprüngliche Indikation: Conjunctivi…"
 ---
 
 # Cyclosporine
@@ -33,7 +33,7 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-## Ciclosporin: Chronische Granulomatose, autosomal-rezessiv
+## Cyclosporine: Chronische Granulomatose, autosomal-rezessiv (granulomatous disease, chronic, autosomal recessive)
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -46,9 +46,9 @@ Ciclosporin (Cyclosporine) ist ein Calcineurin-Inhibitor, der in Deutschland bzw
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Bindehautentzündung; Keratitis (weitere: Hornhauterkrankungen, Keratoconjunctivitis sicca) |
-| Vorhergesagte neue Indikation | Chronische Granulomatose, autosomal-rezessiv |
-| TxGNN-Vorhersagewert | 0,9968 |
+| Ursprüngliche Indikation | Conjunctivitis;Keratitis; Corneal Diseases; Keratoconjunctivitis Sicca |
+| Vorhergesagte neue Indikation | Chronische Granulomatose, autosomal-rezessiv (granulomatous disease, chronic, autosomal recessive) |
+| TxGNN-Vorhersagewert | 0.9968 |
 | Evidenzstufe | L4 (laut Datenlage; faktisch kaum Evidenz, praktisch nahe L5) |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
 | Anzahl Zulassungen | 3 (gültig: 3) |
@@ -110,7 +110,7 @@ Die Vorhersage beruht praktisch nur auf dem Modell. Es gibt keine klinischen Stu
 - Gezielte Literaturrecherche zu Ciclosporin bei CGD-assoziierter Hyperinflammation
 - Klärung der Zulassungs- und Darreichungsform (aktuell nur Augentropfen, systemische Anwendung wäre ein anderes Sicherheitsprofil)
 
-**Hinweis zu weiteren Vorhersagen:** Bei der zweitplatzierten Vorhersage, **Hirnaneurysma** (Evidenz L3, 99,50 %), gibt es kleine frühe Studien aus den 1990er-Jahren zu Vasospasmus nach Subarachnoidalblutung (PMID 9007860, 1763680). Eine Arbeit von 2017 (PMID 28437485) spricht jedoch gegen eine T-Zell-Beteiligung an der Aneurysmabildung. Dies bleibt eine Forschungsfrage. Die übrigen Vorhersagen (Rang 3–7) beruhen nur auf dem Modell und haben keine Evidenz.
+**Hinweis zu weiteren Vorhersagen:** Bei der zweitplatzierten Vorhersage, **Hirnaneurysma** (Evidenz L3, 0.9950), gibt es kleine frühe Studien aus den 1990er-Jahren zu Vasospasmus nach Subarachnoidalblutung (PMID 9007860, 1763680). Eine Arbeit von 2017 (PMID 28437485) spricht jedoch gegen eine T-Zell-Beteiligung an der Aneurysmabildung. Dies bleibt eine Forschungsfrage. Die übrigen Vorhersagen (Rang 3–7) beruhen nur auf dem Modell und haben keine Evidenz.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

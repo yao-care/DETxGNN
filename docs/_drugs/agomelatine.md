@@ -5,10 +5,10 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 20
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
-description: "Agomelatine: vorhergesagte neue Indikation Benigne paroxysmale Tortikollis des Säuglingsalters (Rang 1) (Evidenzstufe L5). Ursprüngliche Indikation: Major Depression"
+last_modified_at: 2026-10-28
 monitor_inn: "AGOMELATINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
+description: "Agomelatine: vorhergesagte neue Indikation Benign paroxysmal torticollis of infancy (Evidenzstufe L5). Ursprüngliche Indikation: Depressive Disorder, Major"
 ---
 
 # Agomelatine
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-## Agomelatin: Benigne paroxysmale Tortikollis des Säuglingsalters
+## Agomelatine: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,9 +48,9 @@ Hinweis: Dieser Kandidat hat keinen erkennbaren biologischen Bezug zu Agomelatin
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Major Depression |
-| Vorhergesagte neue Indikation | Benigne paroxysmale Torticollis des Säuglingsalters (Rang 1) |
-| TxGNN-Vorhersagewert | 0,9996 |
+| Ursprüngliche Indikation | Depressive Disorder, Major |
+| Vorhergesagte neue Indikation | Benign paroxysmal torticollis of infancy |
+| TxGNN-Vorhersagewert | 0.9996 |
 | Evidenzstufe | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
@@ -66,8 +66,7 @@ Für die benigne paroxysmale Torticollis des Säuglingsalters, eine episodische 
 
 Mechanistisch deutlich besser begründet sind andere Vorhersagen aus der Liste:
 
-- **Neurotische Depression** (99,88 %) und **dysthymische Störung** (99,86 %): mildere bzw. chronische depressive Störungen, auf die sich der antidepressive Mechanismus plausibel übertragen lässt.
-- **Agoraphobie** (99,95 %) und **neurotische Störung** (99,90 %): indirekte Begründung über anxiolytische Effekte und gemeinsame serotonerge/zirkadiane Signalwege.
+- **Agoraphobie** (0.9995) und **neurotische Störung** (0.9990): indirekte Begründung über anxiolytische Effekte und gemeinsame serotonerge/zirkadiane Signalwege.
 - Seltene genetische Syndrome (Ohdo-Syndrom, Keppen-Lubinsky-Syndrom) und die Conjunctivitis lignosa zeigen keinen biologischen Bezug.
 
 ---

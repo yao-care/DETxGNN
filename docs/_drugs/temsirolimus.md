@@ -5,10 +5,10 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 452
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
-description: "Temsirolimus: vorhergesagte neue Indikation Liposarkom (Evidenzstufe L5). Ursprüngliche Indikation: Nierenzellkarzinom"
+last_modified_at: 2026-10-28
 monitor_inn: "TEMSIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "vulva sarcoma"]
+description: "Temsirolimus: vorhergesagte neue Indikation Liposarkom (liposarcoma) (Evidenzstufe L5). Ursprüngliche Indikation: Carcinoma, Renal Cell"
 ---
 
 # Temsirolimus
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-## Temsirolimus: Vom Nierenzellkarzinom und Mantelzell-Lymphom zum Liposarkom
+## Temsirolimus: Liposarkom (liposarcoma)
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,9 +48,9 @@ Dafür liegen derzeit **2 klinische Studien** (beide nicht liposarkomspezifisch)
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nierenzellkarzinom; Mantelzell-Lymphom |
-| Vorhergesagte neue Indikation | Liposarkom |
-| TxGNN-Vorhersagewert | 0,9954 |
+| Ursprüngliche Indikation | Carcinoma, Renal Cell;Lymphoma, Mantle-Cell |
+| Vorhergesagte neue Indikation | Liposarkom (liposarcoma) |
+| TxGNN-Vorhersagewert | 0.9954 |
 | Evidenzstufe | L5 (laut Datenbasis; siehe Hinweis unten) |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
@@ -68,7 +68,7 @@ Der PI3K/AKT/mTOR-Signalweg ist in Weichteilsarkomen häufig aktiviert, einschli
 
 Der Wert ist allerdings eine rechnerische Vorhersage und kein klinischer Beleg. Die ursprünglichen Indikationen (Nierenzellkarzinom, Mantelzell-Lymphom) betreffen andere Tumorentitäten. Die Übertragbarkeit beruht allein auf dem gemeinsamen Signalweg.
 
-Weitere vorhergesagte Indikationen sind das ovarielle myxoide Liposarkom (99,47 %) und das Vulvasarkom (99,09 %). Für beide gibt es keine Studien oder Publikationen. Beim myxoiden Liposarkom ist zudem die mTOR-Abhängigkeit weniger gut belegt, da es typischerweise durch die FUS-DDIT3-Fusion getrieben wird.
+Weitere vorhergesagte Indikationen sind das ovarielle myxoide Liposarkom (0.9947) und das Vulvasarkom (0.9909). Für beide gibt es keine Studien oder Publikationen. Beim myxoiden Liposarkom ist zudem die mTOR-Abhängigkeit weniger gut belegt, da es typischerweise durch die FUS-DDIT3-Fusion getrieben wird.
 
 ---
 

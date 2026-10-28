@@ -5,10 +5,10 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 265
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-10-14
-description: "Lenalidomide: vorhergesagte neue Indikation Myeloische Leukämie (Evidenzstufe L2). Ursprüngliche Indikation: Multiples Myelom"
+last_modified_at: 2026-10-28
 monitor_inn: "LENALIDOMIDE"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
+description: "Lenalidomide: vorhergesagte neue Indikation Myeloische Leukämie (myeloid leukemia) (Evidenzstufe L2). Ursprüngliche Indikation: Multiple Myeloma"
 ---
 
 # Lenalidomide
@@ -33,7 +33,7 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-## Lenalidomid: Myeloische Leukämie
+## Lenalidomide: Myeloische Leukämie (myeloid leukemia)
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,9 +48,9 @@ Die Evidenz stammt überwiegend aus kleinen, einarmigen Phase-1/2-Studien. Rando
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Multiples Myelom; Mantelzell-Lymphom; Myelodysplastische Syndrome |
-| Vorhergesagte neue Indikation | Myeloische Leukämie |
-| TxGNN-Vorhersagewert | 0,9949 |
+| Ursprüngliche Indikation | Multiple Myeloma;Lymphoma, Mantle-Cell;Myelodysplastic Syndromes; Multiple Myeloma |
+| Vorhergesagte neue Indikation | Myeloische Leukämie (myeloid leukemia) |
+| TxGNN-Vorhersagewert | 0.9949 |
 | Evidenzstufe | L2 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
 | Anzahl der Zulassungen | 3 (gültig: 3) |
@@ -147,11 +147,10 @@ Für Warnhinweise und Kontraindikationen aus der Fachinformation bitte die Fachi
 Für myeloische Leukämie liegen mehrere Phase-2-Studien (u. a. Erhaltungstherapie bei AML in Remission) und ein plausibler Mechanismus vor, jedoch keine abgeschlossene randomisierte Phase-3-Studie. Die Evidenzstufe ist L2. Die vorhandenen Daten stammen überwiegend aus kleinen, einarmigen Studien. Das Myelosuppressionsrisiko ist hoch.
 
 Weitere Indikationen im Überblick:
-- **Unklassifiziertes MDS** (99,43 %, L3): Nutzen vor allem bei del(5q) zu erwarten; Evidenz nur aus Kohorten- und Fallberichten. Empfehlung: Forschungsfrage.
-- **Refraktäre Zytopenie des Kindesalters** (99,35 %, L3): Nur eine pädiatrische Phase-1-Studie (n=24), die Sicherheit und Dosierung, aber nicht Wirksamkeit belegt. Empfehlung: Hold.
-- **Aregenerative Anämie** (99,32 %, L3): Nur Phase-1/2-Studien bei MDS bzw. pädiatrischen Patienten; die Literatur betrifft überwiegend Myelom und Lymphom. Empfehlung: Forschungsfrage.
-- **Schwere kongenitale hypochrome Anämie mit Ringsideroblasten** (99,28 %, L5): Nur Modellvorhersage, keine Studien oder Literatur. Empfehlung: Hold.
-- **Partielle Deletion des langen Arms von Chromosom 5** (99,27 %, L5): Biologisch am plausibelsten, überschneidet sich aber vermutlich mit der bereits zugelassenen del(5q)-MDS-Indikation und ist wahrscheinlich eher ein Zuordnungsproblem der Terminologie als ein echter Repurposing-Kandidat.
+- Empfehlung: Forschungsfrage.
+- **Refraktäre Zytopenie des Kindesalters** (0.9935, L3): Nur eine pädiatrische Phase-1-Studie (n=24), die Sicherheit und Dosierung, aber nicht Wirksamkeit belegt. Empfehlung: Hold.
+- **Aregenerative Anämie** (0.9932, L3): Nur Phase-1/2-Studien bei MDS bzw. pädiatrischen Patienten; die Literatur betrifft überwiegend Myelom und Lymphom. Empfehlung: Forschungsfrage.
+- **Schwere kongenitale hypochrome Anämie mit Ringsideroblasten** (0.9928, L5): Nur Modellvorhersage, keine Studien oder Literatur. Empfehlung: Hold.
 
 **Für das weitere Vorgehen sind erforderlich:**
 - Fachinformation (Warnhinweise, Kontraindikationen) des BfArM bzw. der EMA, da diese Daten fehlen und die Sicherheitsprüfung blockieren
