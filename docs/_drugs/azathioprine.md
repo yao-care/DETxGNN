@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 50
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "AZATHIOPRINE"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
 description: "Azathioprine: vorhergesagte neue Indikation Colobomatous microphthalmia-rhizomelic dysplasia syndrome (Evidenzstufe L5). Ursprüngliche Indikation: Graft Rejection"
@@ -48,7 +48,6 @@ Azathioprin ist ein Purin-Antimetabolit mit immunsuppressiver Wirkung und wurde 
 |------|------|
 | Ursprüngliche Indikation | Graft Rejection |
 | Vorhergesagte neue Indikation (Rang 1 laut Modell) | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
-| Klinisch relevanteste Kandidaten | Chronisch-entzündliche Darmerkrankung (Score 99,52 %) und Colitis ulcerosa (Score 99,33 %) |
 | TxGNN-Score (Rang 1) | 1.0000 |
 | Evidenzstufe | L5 für Rang 1; L1 für CED und Colitis ulcerosa |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |

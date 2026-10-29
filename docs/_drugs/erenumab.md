@@ -3,7 +3,7 @@ layout: default
 title: Erenumab
 parent: Nur bekannte Anwendungen (keine neuen Vorhersagen)
 nav_order: 177
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Erenumab: Bekannte Anwendungen und Marktstatus in Deutschland; derzeit keine neue Kandidaten-Indikation"
 predicted_indications: []
 indication_count: 0
@@ -58,11 +58,6 @@ Die Kandidaten des TxGNN-Modells (Score ≥ 0,99) für Erenumab sind ausnahmslos
 | Indikation | Zugelassene Kategorie |
 |------|------|
 | Migräne mit Hirnstammaura (migraine with brainstem aura) | Migräne (migraine) |
-
-### Im Wissensgraphen erfasste Beziehungen (1 gültige Zulassung von 1, im Handel)
-| Indikation |
-|------|
-| keine |
 
 ## Marktinformationen Deutschland
 
