@@ -22,7 +22,9 @@ aufgebaut auf dem Modell TxGNN, das vom Zitnik Lab der Harvard University in <em
 veröffentlicht wurde. Sie sagt Indikationserweiterungen für Arzneimittel voraus, die in Deutschland
 von BfArM zugelassen sind. Über die KI-Vorhersagewerte hinaus bindet die Plattform klinische Evidenz
 aus ClinicalTrials.gov und PubMed ein, damit Forschende rasch beurteilen können, wie belastbar jede
-Vorhersage ist.
+Vorhersage ist. Die Einstufungskriterien sind auf der Seite
+<a href="{{ '/methodology/' | relative_url }}">Methodik</a> beschrieben; eine Anleitung zum Lesen
+der Berichte bietet das <a href="{{ '/guide/' | relative_url }}">Benutzerhandbuch</a>.
 </p>
 
 ---
@@ -116,7 +118,7 @@ Arzneimitteln gegen seltene Krankheiten vorherzusagen.“
 
 | Position | Wert |
 |------|-------|
-| Arzneimittelberichte | {{ site.data.drug_stats.total_drugs }} |
+| Arzneimittelberichte | <a href="{{ '/drugs/' | relative_url }}">{{ site.data.drug_stats.total_drugs }}</a> |
 | Zulassungsbehörde | BfArM |
 | Bereitgestellte Websites | 30 Länder / Regionen |
 
