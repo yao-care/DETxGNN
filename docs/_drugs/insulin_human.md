@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 244
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Insulin Human: vorhergesagte neue Indikation Autoimmune Oophoritis (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes mellitus"
 monitor_inn: "INSULIN HUMAN"
 predicted_indications: ["autoimmune oophoritis", "classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "pancreatic agenesis", "idiopathic localized lipodystrophy"]
@@ -50,8 +50,8 @@ Humaninsulin wurde ursprünglich zur Behandlung von Diabetes mellitus eingesetzt
 | Vorhergesagte neue Indikation | Autoimmune Oophoritis |
 | TxGNN-Vorhersagewert | 0,9984 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 6 von 6) |
-| Anzahl der Zulassungen | 6 (gültig: 6) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 5 von 5) |
+| Anzahl der Zulassungen | 5 (gültig: 5) |
 | Empfohlene Entscheidung | Hold |
 
 ---

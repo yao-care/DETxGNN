@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "FLUOXETINE"
 predicted_indications: ["schizotypal personality disorder", "paranoid personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Fluoxetine: vorhergesagte neue Indikation Schizotypische Persönlichkeitsstörung (schizotypal personality disorder) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
 ---
 
@@ -48,8 +48,8 @@ Fluoxetin ist ein selektiver Serotonin-Wiederaufnahmehemmer (SSRI). Das TxGNN-Mo
 | Vorhergesagte neue Indikation | Schizotypische Persönlichkeitsstörung (schizotypal personality disorder) |
 | TxGNN-Vorhersagewert | 0,9992 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
-| Anzahl der Zulassungen | 1 (gültig: 1) |
+| Marktstatus in Deutschland | Keine zentrale EU-Zulassung (EMA) erfasst – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten |
+| Anzahl der Zulassungen | 0 (gültig: 0) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?

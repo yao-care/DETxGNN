@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 8
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Betamethasone: vorhergesagte neue Indikation Alopecia areata (Evidenzstufe L2). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
 ---
 
@@ -48,8 +48,8 @@ Betamethasone ist ein synthetisches Glukokortikoid mit entzündungshemmender und
 | Vorhergesagte neue Indikation | Alopecia areata (alopecia areata) |
 | TxGNN-Vorhersagewert | 0,9997 |
 | Evidenzstufe | L2 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
-| Anzahl der Zulassungen | 2 (gültig: 2) |
+| Marktstatus in Deutschland | Keine zentrale EU-Zulassung (EMA) erfasst – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten |
+| Anzahl der Zulassungen | 0 (gültig: 0) |
 | Empfohlene Entscheidung | Mit Schutzmaßnahmen fortfahren |
 
 ## Warum ist diese Vorhersage plausibel?
@@ -88,8 +88,6 @@ Alopecia areata ist eine T-Zell-vermittelte Autoimmunerkrankung, bei der der Imm
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/006102 | Duotic | – | – |
-| EMEA/V/C/003753 | Osurnia | – | – |
 
 ## Sicherheitshinweise
 

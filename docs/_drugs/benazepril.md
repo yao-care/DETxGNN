@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Benazepril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Benazepril: vorhergesagte neue Indikation Maligne hypertensive Nierenerkrankung (malignant hypertensive renal disease) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
 ---
 
@@ -48,8 +48,8 @@ Benazepril ist ein ACE-Hemmer (Angiotensin-Converting-Enzyme-Hemmer), der zur Bl
 | Vorhergesagte neue Indikation | Maligne hypertensive Nierenerkrankung (malignant hypertensive renal disease) |
 | TxGNN-Vorhersagewert | 0,9965 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
-| Anzahl der Zulassungen | 2 (gültig: 2) |
+| Marktstatus in Deutschland | Keine zentrale EU-Zulassung (EMA) erfasst – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten |
+| Anzahl der Zulassungen | 0 (gültig: 0) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
@@ -70,8 +70,6 @@ Derzeit liegt keine einschlägige Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/002524 | Cardalis | – | – |
-| EMEA/V/C/002804 | Fortekor Plus | – | – |
 
 ## Sicherheitshinweise
 

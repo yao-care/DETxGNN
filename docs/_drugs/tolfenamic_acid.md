@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 472
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Tolfenamic Acid: vorhergesagte neue Indikation Kopfschmerzerkrankung (headache disorder) (Evidenzstufe L2). Ursprüngliche Indikation: Im deutschen Zulassungsdatensatz nicht angegeben (Zulassung ohne …"
 monitor_inn: "TOLFENAMIC ACID"
 predicted_indications: ["headache disorder", "tendinitis", "rheumatoid arthritis", "trigeminal autonomic cephalalgia", "idiopathic granulomatous myositis", "myositis fibrosa", "fibromyalgia", "exostosis", "inclusion body myositis"]
@@ -50,8 +50,8 @@ Tolfenaminsäure ist ein nichtsteroidales Antirheumatikum (NSAR) aus der Gruppe 
 | Vorhergesagte neue Indikation | Kopfschmerzerkrankung (headache disorder) |
 | TxGNN-Vorhersagewert | 0,9974 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
-| Anzahl der Zulassungen | 1 (gültig: 1) |
+| Marktstatus in Deutschland | Keine zentrale EU-Zulassung (EMA) erfasst – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten |
+| Anzahl der Zulassungen | 0 (gültig: 0) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
 
 ---
@@ -93,7 +93,6 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/006234 | Tolfenamic acid VMD | nicht angegeben | nicht angegeben (Status: gültig) |
 
 ---
 

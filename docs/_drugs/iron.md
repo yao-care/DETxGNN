@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "IRON"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Iron: vorhergesagte neue Indikation Vitamin-B12- und folatunabhängige konstitutionelle megaloblastäre Anämie (vitamin B12- and folate-independent constitut… (Evidenzstufe L5). Ursprüngliche Indikatio…"
 ---
 
@@ -48,8 +48,8 @@ Eisen ist ein Mineralstoff- bzw. Eisenpräparat, das in der Behandlung von Eisen
 | Vorhergesagte neue Indikation | Vitamin-B12- und folatunabhängige konstitutionelle megaloblastäre Anämie (vitamin B12- and folate-independent constitutional megaloblastic anemia) |
 | TxGNN-Vorhersagewert | 0,9989 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
-| Anzahl der Zulassungen | 2 (gültig: 2) |
+| Marktstatus in Deutschland | Keine zentrale EU-Zulassung (EMA) erfasst – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten |
+| Anzahl der Zulassungen | 0 (gültig: 0) |
 | Empfohlene Entscheidung | Hold (zurückstellen) |
 
 ## Warum ist diese Vorhersage plausibel?
@@ -70,8 +70,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/004329 | Forceris | – | Nicht erfasst |
-| EMEA/V/C/004794 | Baycox Iron | – | Nicht erfasst |
 
 Die Einträge sind zentrale EU-Zulassungsnummern (EMEA/V/C). In den lokalen Daten ist kein Indikationstext hinterlegt.
 

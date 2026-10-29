@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 369
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Prednisolone: vorhergesagte neue Indikation Alopecia areata (Evidenzstufe L2). Ursprüngliche Indikation: Autoimmunerkrankungen . Für die Zulassung in Deutschland liegt kein I…"
 monitor_inn: "PREDNISOLONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
@@ -52,8 +52,8 @@ Dafür liegen **keine registrierten klinischen Studien**, aber **20 Publikatione
 | Vorhergesagte neue Indikation | Alopecia areata |
 | TxGNN-Vorhersagewert | 0,9999 |
 | Evidenzgrad | L2 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
-| Anzahl der Zulassungen | 1 (gültig: 1) |
+| Marktstatus in Deutschland | Keine zentrale EU-Zulassung (EMA) erfasst – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten |
+| Anzahl der Zulassungen | 0 (gültig: 0) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
 
 ---
@@ -95,7 +95,6 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/002382 | Equisolon | – | – (Status: gültig) |
 
 ---
 

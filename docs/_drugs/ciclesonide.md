@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CICLESONIDE"
 predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "bronchitis", "contact dermatitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ciclesonide: vorhergesagte neue Indikation Atopisches Ekzem (atopic eczema) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
 ---
 
@@ -48,8 +48,8 @@ Ciclesonid ist ein inhalatives Kortikosteroid, das als Prodrug zum aktiven Metab
 | Vorhergesagte neue Indikation | Atopisches Ekzem (atopic eczema) |
 | TxGNN-Vorhersagewert | 0,9996 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
-| Anzahl der Zulassungen | 1 (gültig: 1) |
+| Marktstatus in Deutschland | Keine zentrale EU-Zulassung (EMA) erfasst – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten |
+| Anzahl der Zulassungen | 0 (gültig: 0) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
@@ -72,7 +72,6 @@ Derzeit ist keine zugehörige Literatur zu dieser Indikation verfügbar.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/004991 | Aservo EquiHaler | – | – |
 
 ## Sicherheitshinweise
 

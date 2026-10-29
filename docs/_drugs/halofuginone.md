@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "HALOFUGINONE"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Halofuginone: vorhergesagte neue Indikation Schwere nichtproliferative diabetische Retinopathie (severe nonproliferative diabetic retinopathy) (Evidenzstufe L5). Ursprüngliche Indikation: In den loka…"
 ---
 
@@ -50,8 +50,8 @@ Halofuginon ist ein Wirkstoff, der nach allgemeinem Kenntnisstand die Prolyl-tRN
 | Vorhergesagte neue Indikation | Schwere nichtproliferative diabetische Retinopathie (severe nonproliferative diabetic retinopathy) |
 | TxGNN-Vorhersagewert | 0,9946 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
-| Anzahl der Zulassungen | 2 (gültig: 2) |
+| Marktstatus in Deutschland | Keine zentrale EU-Zulassung (EMA) erfasst – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten |
+| Anzahl der Zulassungen | 0 (gültig: 0) |
 | Empfohlene Entscheidung | Hold |
 
 ---

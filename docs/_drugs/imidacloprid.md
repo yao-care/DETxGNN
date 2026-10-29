@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 233
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Imidacloprid: vorhergesagte neue Indikation Cauda-equina-Syndrom (Evidenzstufe L5). Ursprüngliche Indikation: Keine Angabe in den zusammengestellten Daten (die Zulassungstexte sin…"
 monitor_inn: "IMIDACLOPRID"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "non-syndromic esophageal malformation", "esophageal disease", "mitral valve prolapse (disease)", "neurocirculatory asthenia", "familial mitral valve prolapse", "MVP1"]
@@ -50,8 +50,8 @@ Imidacloprid ist ein Neonicotinoid-Wirkstoff (nikotinischer Acetylcholinrezeptor
 | Vorhergesagte neue Indikation | Cauda-equina-Syndrom |
 | TxGNN-Vorhersagescore | 0,9999 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
-| Anzahl der Zulassungen | 2 (gültig: 2) |
+| Marktstatus in Deutschland | Keine zentrale EU-Zulassung (EMA) erfasst – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten |
+| Anzahl der Zulassungen | 0 (gültig: 0) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -88,8 +88,6 @@ Zur Orientierung: Für die weiter hinten gereihte Vorhersage „Ösophaguserkran
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/005597 | Imoxat | nicht angegeben | nicht angegeben (Status: gültig) |
-| EMEA/V/C/000076 | Advocate | nicht angegeben | nicht angegeben (Status: gültig) |
 
 ---
 

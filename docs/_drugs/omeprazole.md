@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 329
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "OMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Omeprazole: vorhergesagte neue Indikation Duodenal obstruction (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
@@ -52,8 +52,8 @@ Die Evidenz ist jedoch begrenzt: **1 klinische Studie** (ohne direkten Bezug zur
 | Vorhergesagte neue Indikation | Duodenal obstruction |
 | TxGNN-Vorhersagewert | 0.9964 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
-| Anzahl der Zulassungen | 1 (gültig: 1) |
+| Marktstatus in Deutschland | Keine zentrale EU-Zulassung (EMA) erfasst – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten |
+| Anzahl der Zulassungen | 0 (gültig: 0) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -96,7 +96,6 @@ Kleine Studien bei Barrett-Ösophagus (PMID 10994616, 9824338) und eine pädiatr
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/005345 | Omeprazole TriviumVet | Nicht angegeben | Nicht angegeben (Status: gültig) |
 
 ---
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 437
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "SPIRONOLACTONE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 description: "Spironolactone: vorhergesagte neue Indikation Hypotrichosis simplex der Kopfhaut (hypotrichosis simplex of the scalp) (Evidenzstufe L5). Ursprüngliche Indikation: Edema"
@@ -52,8 +52,8 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 | Vorhergesagte neue Indikation | Hypotrichosis simplex der Kopfhaut (hypotrichosis simplex of the scalp) |
 | TxGNN-Vorhersagewert | 0.9926 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
-| Anzahl der Zulassungen | 3 (gültig: 3) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -85,8 +85,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/005535 | Qaialdo | – | Ödeme, Herzinsuffizienz, Leberzirrhose, Aszites, nephrotisches Syndrom, Hyperaldosteronismus, essenzielle Hypertonie |
-| EMEA/V/C/006254 | Cepeloron | – | – |
-| EMEA/V/C/002524 | Cardalis | – | – |
 
 Alle drei Zulassungen sind gültig.
 

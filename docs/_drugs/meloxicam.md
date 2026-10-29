@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 287
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Meloxicam: vorhergesagte neue Indikation Akromesomele Dysplasie, Typ Hunter-Thompson (Evidenzstufe L5). Ursprüngliche Indikation: Rheumatoide Arthritis, Arthrose, Arthropathie…"
 monitor_inn: "MELOXICAM"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -52,8 +52,8 @@ Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vo
 | Vorhergesagte neue Indikation | Akromesomele Dysplasie, Typ Hunter-Thompson |
 | TxGNN-Vorhersagewert | 0,9992 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 16 von 16) |
-| Anzahl der Zulassungen | 16 (gültig: 16) |
+| Marktstatus in Deutschland | Keine zentrale EU-Zulassung (EMA) erfasst – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten |
+| Anzahl der Zulassungen | 0 (gültig: 0) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -104,11 +104,6 @@ Alle 16 erfassten Zulassungen sind aufgehoben. Es handelt sich um Zentralzulassu
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/002497 | Inflacam | – | – |
-| EMEA/V/C/000115 | Meloxidyl | – | – |
-| EMEA/V/C/002001 | Melosus | – | – |
-| EMEA/V/C/002590 | Meloxidolor | – | – |
-| EMEA/V/C/000033 | Metacam | – | – |
 
 ---
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 370
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Pregabalin: vorhergesagte neue Indikation Tendinitis (Evidenzstufe L5). Ursprüngliche Indikation: Angststörungen"
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
@@ -52,8 +52,8 @@ Die Evidenz beschränkt sich im Wesentlichen auf die modellbasierte Vorhersage.
 | Vorhergesagte neue Indikation | Tendinitis |
 | TxGNN-Vorhersagewert | 0,9971 |
 | Evidenzniveau | L5 (laut Bewertung der compilierten Daten; nur indirekte Hinweise, keine Studien zu Tendinitis) |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 7 von 7) |
-| Anzahl der Zulassungen | 7 (gültig: 7) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 6 von 6) |
+| Anzahl der Zulassungen | 6 (gültig: 6) |
 | Empfohlene Entscheidung | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 426
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "SEVOFLURANE"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "fibromyalgia", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "migraine disorder", "inclusion body myositis"]
 description: "Sevoflurane: vorhergesagte neue Indikation Prinzmetal-Angina (Prinzmetal angina) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
@@ -50,8 +50,8 @@ Sevofluran ist ein inhalatives Narkosemittel (volatiles Anästhetikum), das für
 | Vorhergesagte neue Indikation | Prinzmetal-Angina (Prinzmetal angina) |
 | TxGNN-Vorhersagewert | 0.9978 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
-| Anzahl der Zulassungen | 2 (gültig: 2) |
+| Marktstatus in Deutschland | Keine zentrale EU-Zulassung (EMA) erfasst – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten |
+| Anzahl der Zulassungen | 0 (gültig: 0) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -82,8 +82,6 @@ Zur Prinzmetal-Angina liegen derzeit keine zugehörigen Publikationen vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/000072 | SevoFlo | – | – (gültig) |
-| EMEA/V/C/004199 | Sevohale (früher Sevocalm) | – | – (gültig) |
 
 ---
 

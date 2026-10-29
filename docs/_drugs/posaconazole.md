@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Posaconazole: vorhergesagte neue Indikation Pneumocystose (Evidenzstufe L4). Ursprüngliche Indikation: Candidiasis"
 monitor_inn: "POSACONAZOLE"
 predicted_indications: ["pneumocystosis"]
@@ -50,8 +50,8 @@ Posaconazol ist ein Triazol-Antimykotikum, das ursprünglich zur Behandlung von 
 | Vorhergesagte neue Indikation | Pneumocystose |
 | TxGNN-Vorhersagewert | 0,9977 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 5 von 5) |
-| Anzahl der Zulassungen | 5 (gültig: 5) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -95,8 +95,6 @@ Alle 5 Zulassungen sind gültig (europäische Zentralzulassungen); das Arzneimit
 | EMEA/H/C/000610 | Noxafil | – | Candidiasis; Mykosen; Kokzidioidomykose; Aspergillose |
 | EMEA/H/C/005028 | Posaconazole AHCL | – | Mykosen |
 | EMEA/H/C/005005 | Posaconazole Accord | – | Mykosen |
-| EMEA/V/C/004987 | Mometamax Ultra | – | – |
-| EMEA/V/C/000122 | Posatex | – | – |
 
 ---
 

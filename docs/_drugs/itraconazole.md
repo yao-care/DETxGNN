@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ITRACONAZOLE"
 predicted_indications: ["pneumocystosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Itraconazole: vorhergesagte neue Indikation Pneumocystose (pneumocystosis) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
 ---
 
@@ -50,8 +50,8 @@ Dafür liegen **keine registrierten klinischen Studien** und **20 Publikationen*
 | Vorhergesagte neue Indikation | Pneumocystose (pneumocystosis) |
 | TxGNN-Vorhersagewert | 0,9934 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
-| Anzahl der Zulassungen | 1 (gültig: 1) |
+| Marktstatus in Deutschland | Keine zentrale EU-Zulassung (EMA) erfasst – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten |
+| Anzahl der Zulassungen | 0 (gültig: 0) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
@@ -85,7 +85,6 @@ Keine der gelisteten Publikationen untersucht Itraconazol direkt bei Pneumocysto
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/002722 | Fungitraxx | – | – |
 
 ## Sicherheitsaspekte
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 191
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Fenbendazole: vorhergesagte neue Indikation Harnblasenkarzinom (urinary bladder carcinoma) (Evidenzstufe L5). Ursprüngliche Indikation: Keine Angabe in den Zulassungsdaten"
 monitor_inn: "FENBENDAZOLE"
 predicted_indications: ["urinary bladder carcinoma", "urinary bladder neoplasm", "infiltrating bladder urothelial carcinoma", "non-invasive bladder urothelial carcinoma", "bladder urachal urothelial carcinoma", "bladder squamous papilloma", "bladder signet ring cell adenocarcinoma", "bladder colonic type adenocarcinoma", "bladder mixed adenocarcinoma", "bladder colloid adenocarcinoma"]
@@ -50,8 +50,8 @@ Fenbendazol ist ein Benzimidazol-Anthelminthikum. In den für diesen Bericht zus
 | Vorhergesagte neue Indikation | Harnblasenkarzinom (urinary bladder carcinoma) |
 | TxGNN-Vorhersagescore | 0,9999 |
 | Evidenzlevel | L5 für das Harnblasenkarzinom (reine Modellvorhersage); L4 für das verwandte Harnblasenneoplasma (präklinisch) |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
-| Anzahl der Zulassungen | 1 (gültig: 1) |
+| Marktstatus in Deutschland | Keine zentrale EU-Zulassung (EMA) erfasst – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten |
+| Anzahl der Zulassungen | 0 (gültig: 0) |
 | Empfohlene Entscheidung | Hold (Zurückstellen); für Harnblasenneoplasma als präklinische Forschungsfrage weiterverfolgbar |
 
 ---
@@ -88,7 +88,6 @@ Die Treffer stammen aus der Suche zum Begriff „Harnblasenneoplasma" (urinary b
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/002008 | Panacur AquaSol | Keine Angabe | Keine Angabe (Status: gültig) |
 
 ---
 

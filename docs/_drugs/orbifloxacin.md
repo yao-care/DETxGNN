@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 330
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "ORBIFLOXACIN"
 predicted_indications: ["heart disease", "Laubry-Pezzi syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "genetic syndromic Pierre Robin syndrome", "partial deletion of the long arm of chromosome 7", "orofacial clefting syndrome", "pulmonary valve disease", "disorder of fucoglycosan synthesis", "mitral valve disease", "Jeune syndrome situs inversus"]
 description: "Orbifloxacin: vorhergesagte neue Indikation Heart disease (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
@@ -50,8 +50,8 @@ Orbifloxacin ist ein Fluorchinolon-Antibiotikum für die Tiermedizin, das gegen 
 | Vorhergesagte neue Indikation | Heart disease |
 | TxGNN-Vorhersagewert | 0.9994 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
-| Anzahl der Zulassungen | 1 (gültig: 1) |
+| Marktstatus in Deutschland | Keine zentrale EU-Zulassung (EMA) erfasst – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten |
+| Anzahl der Zulassungen | 0 (gültig: 0) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -91,7 +91,6 @@ Für die Vorhersage auf Rang 8 (Störung der Fucoglykan-Synthese) wurden zwei Ve
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/000122 | Posatex | nicht angegeben | nicht angegeben (Zulassung gültig) |
 
 ---
 

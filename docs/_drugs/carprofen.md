@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 101
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Carprofen: vorhergesagte neue Indikation Rheumatoide Arthritis (Evidenzstufe L3). Ursprüngliche Indikation: In der deutschen Zulassung nicht angegeben (die Zulassung enthält kei…"
 monitor_inn: "CARPROFEN"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "tendinitis", "headache disorder", "idiopathic granulomatous myositis", "myositis fibrosa", "trigeminal autonomic cephalalgia", "gout"]
@@ -50,8 +50,8 @@ Carprofen ist ein nichtsteroidales Antirheumatikum (NSAR), das vor allem in der 
 | Vorhergesagte neue Indikation | Rheumatoide Arthritis |
 | TxGNN-Vorhersagewert | 0,9980 |
 | Evidenzgrad | L3 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
-| Anzahl der Zulassungen | 1 (gültig: 1) |
+| Marktstatus in Deutschland | Keine zentrale EU-Zulassung (EMA) erfasst – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten |
+| Anzahl der Zulassungen | 0 (gültig: 0) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -93,7 +93,6 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/006249 | Carprofen Orion | – | – (Zulassung gültig) |
 
 ---
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 463
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Tildipirosin: vorhergesagte neue Indikation Lepra (Evidenzstufe L5). Ursprüngliche Indikation: Keine Angabe in den Zulassungsdaten"
 monitor_inn: "TILDIPIROSIN"
 predicted_indications: ["leprosy"]
@@ -51,8 +51,8 @@ Das TxGNN-Modell sagt voraus, dass es gegen **Lepra** wirksam sein könnte, alle
 | Vorhergesagte neue Indikation | Lepra |
 | TxGNN-Vorhersagewert | 0,9901 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
-| Anzahl der Zulassungen | 1 (gültig: 1) |
+| Marktstatus in Deutschland | Keine zentrale EU-Zulassung (EMA) erfasst – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten |
+| Anzahl der Zulassungen | 0 (gültig: 0) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -83,7 +83,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/002009 | Zuprevo | – | – (Zulassung gültig) |
 
 ---
 

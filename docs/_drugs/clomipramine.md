@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "agoraphobia", "attention deficit-hyperactivity disorder"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Clomipramine: vorhergesagte neue Indikation Angststörung (anxiety disorder) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
 ---
 
@@ -48,8 +48,8 @@ Clomipramin ist ein trizyklisches Antidepressivum mit starker Hemmung der Seroto
 | Vorhergesagte neue Indikation | Angststörung (anxiety disorder) |
 | TxGNN-Vorhersagewert | 0,9993 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
-| Anzahl der Zulassungen | 1 (gültig: 1) |
+| Marktstatus in Deutschland | Keine zentrale EU-Zulassung (EMA) erfasst – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten |
+| Anzahl der Zulassungen | 0 (gültig: 0) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
@@ -90,7 +90,6 @@ Die abgerufenen Studien betreffen überwiegend Zwangsstörungen (OCD) und stütz
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/000039 | Clomicalm | – | Im Handel; Indikationstext in den lokalen Daten nicht hinterlegt |
 
 ## Sicherheitsaspekte
 

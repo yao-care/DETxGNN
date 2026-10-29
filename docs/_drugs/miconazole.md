@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 300
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Miconazole: vorhergesagte neue Indikation Akne (Evidenzstufe L3). Ursprüngliche Indikation: Tinea pedis, Tinea corporis, kutane Candidose, Tinea unguium…"
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
@@ -52,8 +52,8 @@ Dafür liegen **keine registrierten klinischen Studien** und **4 Publikationen**
 | Vorhergesagte neue Indikation | Akne |
 | TxGNN-Vorhersagewert | 0,9954 |
 | Evidenzstufe | L3 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
-| Anzahl der Zulassungen | 1 (gültig: 1) |
+| Marktstatus in Deutschland | Keine zentrale EU-Zulassung (EMA) erfasst – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten |
+| Anzahl der Zulassungen | 0 (gültig: 0) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -92,7 +92,6 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/000140 | Easotic | – | – (Status: gültig) |
 
 ---
 
