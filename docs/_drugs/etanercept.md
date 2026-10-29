@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ETANERCEPT"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Etanercept: vorhergesagte neue Indikation Steißbeinhypermobilität (hypermobility of coccyx) (Evidenzstufe L5). Ursprüngliche Indikation: Arthritis, Psoriatic"
 ---
 
@@ -48,8 +48,8 @@ Etanercept ist ein löslicher TNF-Rezeptor-Fusionsprotein-Wirkstoff (TNF-Inhibit
 | Vorhergesagte neue Indikation | Steißbeinhypermobilität (hypermobility of coccyx) |
 | TxGNN-Vorhersagewert | 0,9963 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 4 von 5) |
-| Anzahl der Zulassungen | 5 (gültig: 4) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 5 von 5) |
+| Anzahl der Zulassungen | 5 (gültig: 5) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?

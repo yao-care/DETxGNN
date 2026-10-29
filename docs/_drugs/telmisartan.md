@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 449
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Telmisartan: vorhergesagte neue Indikation Prinzmetal-Angina (Evidenzstufe L5). Ursprüngliche Indikation: Hypertonie"
 monitor_inn: "TELMISARTAN"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
@@ -52,8 +52,8 @@ Hinweis: Unter den weiteren vorhergesagten Indikationen hat **zerebrale Arterien
 | Vorhergesagte neue Indikation | Prinzmetal-Angina |
 | TxGNN-Vorhersagewert | 0,9998 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 13 von 13) |
-| Anzahl der Zulassungen | 13 (gültig: 13) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 9 von 13) |
+| Anzahl der Zulassungen | 13 (gültig: 9) |
 | Empfohlene Entscheidung | Hold (Zurückstellen) |
 
 ---

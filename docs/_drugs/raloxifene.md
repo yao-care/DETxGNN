@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 377
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "Raloxifene"
 predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", "duodenal obstruction", "duodenogastric reflux"]
 description: "Raloxifene: vorhergesagte neue Indikation Duodenal ulcer (disease) (Evidenzstufe L5). Ursprüngliche Indikation: Osteoporosis, Postmenopausal"
@@ -52,8 +52,8 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 | Vorhergesagte neue Indikation | Duodenal ulcer (disease) |
 | TxGNN-Vorhersagewert | 0.9972 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
-| Anzahl der Zulassungen | 3 (gültig: 3) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -90,7 +90,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
 |---------|------|------|-----------|------|
-| EMEA/H/C/000185 | Optruma | – | Postmenopausale Osteoporose | Gültig |
+| EMEA/H/C/000185 | Optruma | – | Postmenopausale Osteoporose | Withdrawn |
 | EMEA/H/C/000184 | Evista | – | Postmenopausale Osteoporose | Gültig |
 | EMEA/H/C/001075 | Raloxifene Teva | – | Postmenopausale Osteoporose | Gültig |
 

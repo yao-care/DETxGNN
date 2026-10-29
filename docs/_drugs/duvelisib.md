@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "DUVELISIB"
 predicted_indications: ["Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Duvelisib: vorhergesagte neue Indikation Hodgkin-Lymphom (Hodgkins lymphoma) (Evidenzstufe L5). Ursprüngliche Indikation: Leukemia, Lymphocytic, Chronic, B-Cell"
 ---
 
@@ -48,8 +48,8 @@ Duvelisib ist ein oraler dualer Hemmstoff der Phosphoinositid-3-Kinasen PI3K-δ 
 | Vorhergesagte neue Indikation | Hodgkin-Lymphom (Hodgkins lymphoma) |
 | TxGNN-Vorhersagewert | 0,9994 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
-| Anzahl der Zulassungen | 1 (gültig: 1) |
+| Marktstatus in Deutschland | Nicht im Handel (erloschene Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 0) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?

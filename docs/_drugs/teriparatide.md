@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 458
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Teriparatide: vorhergesagte neue Indikation Duodenalulkus (Evidenzstufe L5). Ursprüngliche Indikation: Osteoporose"
 monitor_inn: "TERIPARATIDE"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
@@ -50,8 +50,8 @@ Teriparatid ist ein Fragment des Parathormons (PTH 1-34) und wird zur Behandlung
 | Vorhergesagte neue Indikation | Duodenalulkus |
 | TxGNN-Vorhersagewert | 0,9986 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 7 von 8) |
-| Anzahl der Zulassungen | 8 (gültig: 7) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 8 von 8) |
+| Anzahl der Zulassungen | 8 (gültig: 8) |
 | Empfohlene Entscheidung | Hold |
 
 ---

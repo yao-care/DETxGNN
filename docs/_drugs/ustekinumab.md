@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 489
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Ustekinumab: vorhergesagte neue Indikation Dermatitis (Evidenzstufe L2). Ursprüngliche Indikation: Psoriasis, Psoriasis-Arthritis, Morbus Crohn"
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
@@ -52,8 +52,8 @@ Die Evidenz besteht aus **6 klinischen Studien** (davon 2 direkt relevante Phase
 | Vorhergesagte neue Indikation | Dermatitis |
 | TxGNN-Vorhersagewert | 0,9999 |
 | Evidenzstufe | L2 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 13 von 13) |
-| Anzahl der Zulassungen | 13 (gültig: 13) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 12 von 13) |
+| Anzahl der Zulassungen | 13 (gültig: 12) |
 | Empfohlene Entscheidung | Hold |
 
 ---

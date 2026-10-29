@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BEZLOTOXUMAB"
 predicted_indications: ["acute female pelvic peritonitis", "embryonic cyst of fallopian tube", "tubal pregnancy", "salpingitis isthmica nodosa", "disease of uterine broad ligament", "lumbar spinal stenosis", "abdominal ectopic pregnancy", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "pelvic varices"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Bezlotoxumab: vorhergesagte neue Indikation Akute weibliche Beckenperitonitis (acute female pelvic peritonitis) (Evidenzstufe L5). Ursprüngliche Indikation: Enterocolitis, Pseudomembranous"
 ---
 
@@ -48,8 +48,8 @@ Bezlotoxumab ist ein monoklonaler Antikörper, der das Toxin B von Clostridioide
 | Vorhergesagte neue Indikation | Akute weibliche Beckenperitonitis (acute female pelvic peritonitis) |
 | TxGNN-Vorhersagewert | 0,9989 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
-| Anzahl der Zulassungen | 1 (gültig: 1) |
+| Marktstatus in Deutschland | Nicht im Handel (erloschene Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 0) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?

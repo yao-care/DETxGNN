@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "EFAVIRENZ"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Efavirenz: vorhergesagte neue Indikation Simian-Immundefizienzvirus-Infektion (simian immunodeficiency virus infection) (Evidenzstufe L5). Ursprüngliche Indikation: HIV Infections"
 ---
 
@@ -48,8 +48,8 @@ Efavirenz ist ein nicht-nukleosidischer Reverse-Transkriptase-Hemmer (NNRTI) geg
 | Vorhergesagte neue Indikation | Simian-Immundefizienzvirus-Infektion (simian immunodeficiency virus infection) |
 | TxGNN-Vorhersagewert | 0,9980 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 5 von 5) |
-| Anzahl der Zulassungen | 5 (gültig: 5) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 4 von 5) |
+| Anzahl der Zulassungen | 5 (gültig: 4) |
 | Empfohlene Entscheidung | Hold (zurückstellen) |
 
 ## Warum ist diese Vorhersage plausibel?

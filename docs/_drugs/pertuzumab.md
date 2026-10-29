@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 355
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 description: "Pertuzumab: vorhergesagte neue Indikation Ectomesenchymoma (Evidenzstufe L5). Ursprüngliche Indikation: Breast Neoplasms"
@@ -52,8 +52,8 @@ Dafür liegen derzeit **1 klinische Studie** und **20 Publikationen** vor, darun
 | Vorhergesagte neue Indikation | Ectomesenchymoma |
 | TxGNN-Vorhersagewert | 0.9971 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 3) |
-| Anzahl der Zulassungen | 3 (gültig: 2) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
 | Empfohlene Entscheidung | Proceed with Guardrails |
 
 ---
