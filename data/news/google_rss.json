@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-29T02:11:21.460306+00:00",
+  "fetched_at": "2026-10-29T09:31:10.426865+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -24,26 +24,6 @@
       }
     },
     {
-      "id": "8275b5e22978",
-      "title": "medphano erweitert Rezepturangebot: Basiscreme ab November in zwei Packungsgrößen erhältlich - gesundheit adhoc",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNemQtZ2xkS3BTbzlwdndkQ3NqNHV1eHZHRUVuTlVUMGlkWEkxTDc2ZFJTSDdFY0VXUVp6dHVTU1BTUW1NcmdzM2JKOF9naHpsdV9jaUZvWlhKU3ljOURZaE8xZjlRcEF0a3hrdDZJd1ZZRHNNa0FKaFJ6eGthYm5MVlEyTVR4R29tQ1J3THh0blBhSUEyLXhmY2ttWlRxd25YRzdGZHRYUFR2RmhkUWJuR0ZfT1Q0dVZUekZ0ZG1FRUd2UzctMWc?oc=5",
-      "published": "2026-10-28T09:05:31+00:00",
-      "source": {
-        "name": "gesundheit adhoc",
-        "url": "https://www.gesundheit-adhoc.de"
-      }
-    },
-    {
-      "id": "c2015b608f86",
-      "title": "Blutdrucktabletten: Wie gefährlich ist es, sie unregelmäßig einzunehmen? - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNc2oxS0Y4VWYtRk5XMHo5ck05THQ1Yy1pa0FWanhrYWZYRlp3S3V6bEQtXzlVTlNwSXg3SDZubEdCSTRiUDIwRW1rcHdTLUdndmtQTmljeWVlU2tvT1ZGY1I4N2ZpNEFiZXhJOTZrVENyYVZVaGh5MTI2NV84SjJLTktUbExPbXVCVndHazExQ3JHSjBHeHhBMndHdnBSOU1HcDh2ODgyUThBWG1s?oc=5",
-      "published": "2026-10-28T11:22:29+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
       "id": "f1e04185f661",
       "title": "AUDIO: Statt Medikamente: Mit Elektronik gegen Diabetes (2 Min) - MDR.de",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb2U1ZXNWTDF4SWo4c2JSZGJYSWMyTzk2TEpraFgzNk9TRlh0TkdUQS11enJyS2xhMDJ3YlJlUC1hZXRYZjBYTU95OTg1Tk5HczRpZmhDbzdXWmRZZXdaNE1VZmc2YUtzeWp5ekJla3N6cko1YTA2ZjQ4M3RrU1ltb0xTMEI2ZVJnV0tXdGUtLUQxc1pmdVg0bWs0RF92VzFzUEI1R0pNdnZRQkdtOVh6emtB?oc=5",
@@ -51,26 +31,6 @@
       "source": {
         "name": "MDR.de",
         "url": "https://www.mdr.de"
-      }
-    },
-    {
-      "id": "57802ebc0b39",
-      "title": "Krankenkassen ab 2027: Gesundheit wird für alle Gesetzlich Versicherten teurer - Gegen Hartz IV",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOT2NHa2xsbnY4aVROVlZjSV8tWWxvb2F1cDdkRnktandub0syTkhrVkNMN0ZHV3VjdFA1aWtJaWhIN1V4TVBTMUU0TktuZTFWbDVINGNBU0ZXZm9BOHNaYUd0aEtsajB4T19xSzNZcE9PQmhVWmQtU2R1OHdxU19hcGlIZmVCanl3U2tYcDZLb1hFSmV2VUJ2cUljT1RicnFuRG1HZHBDUE1YdC1VbmE0?oc=5",
-      "published": "2026-10-28T15:52:59+00:00",
-      "source": {
-        "name": "Gegen Hartz IV",
-        "url": "https://www.gegen-hartz.de"
-      }
-    },
-    {
-      "id": "7d8538027e8c",
-      "title": "Niedersachsens Gesundheitsminister Philippi rät von Hamsterkäufen bei Medikamenten ab - Oldenburger Online Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSEd3NFZhQ2o0QWNkUmNHZlJUcnFSUndLeENRUzRockVfRkZQbEhzWUdkanZ0YktDTGp5UlRJU0h3Z2lvZXFnOWxjX3ZSUGJxS3hlZzZrMmpYRl9wdWs3MmJ3bHlJYmI5cmllX2NUckZic2dNOVowNkFQalFUYkFzdHpNQl9pTy1DckowQU9pTXJzR0toNTliaXh0czJrN0hNQUdOSDR6Mi1odVptZGxWVWI1cVJWTnd6NkRIbU4wQWVSTXhOamItUDJJS3BKcFVlWTFmTkNZWkFXM2ZYYk4wckhOM0RKRVFMRUE?oc=5",
-      "published": "2026-10-28T08:36:00+00:00",
-      "source": {
-        "name": "Oldenburger Online Zeitung",
-        "url": "https://www.oldenburger-onlinezeitung.de"
       }
     },
     {
@@ -84,23 +44,33 @@
       }
     },
     {
-      "id": "7ca5c00cf9ea",
-      "title": "Welche Medikamente bei Erkältung? Diese beliebten Mittel bergen Risiken - Hamburger Abendblatt",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYW1pMXRFOXRyQ2laX1VweWNBWEhDTkpkMDBGSjl6aldWTjZxVTRyNlp6Njd5b2loVG1taXZlUHlQU2hxTzRiRC1Pd01kR2FWWmdiZUppVHhCSVFnc1FPMGlVUVQ0OVdTQ2xrM0ZkM01aci1hWXdJMGFDVS15bUZydEJIVHQ0d1psYkZyQzBocFFCTXJvd19z?oc=5",
-      "published": "2026-10-28T07:51:00+00:00",
+      "id": "c2015b608f86",
+      "title": "Blutdrucktabletten: Wie gefährlich ist es, sie unregelmäßig einzunehmen? - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNc2oxS0Y4VWYtRk5XMHo5ck05THQ1Yy1pa0FWanhrYWZYRlp3S3V6bEQtXzlVTlNwSXg3SDZubEdCSTRiUDIwRW1rcHdTLUdndmtQTmljeWVlU2tvT1ZGY1I4N2ZpNEFiZXhJOTZrVENyYVZVaGh5MTI2NV84SjJLTktUbExPbXVCVndHazExQ3JHSjBHeHhBMndHdnBSOU1HcDh2ODgyUThBWG1s?oc=5",
+      "published": "2026-10-28T11:22:29+00:00",
       "source": {
-        "name": "Hamburger Abendblatt",
-        "url": "https://www.abendblatt.de"
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
-      "id": "41f94d9b6526",
-      "title": "Gesundheit wird 2027 teurer: Diese Mehrkosten kommen auf Millionen Versicherte zu - DerWesten",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPY3ZKNGVVWEF0bEhXS0tlcWVUZjJGWERnN2FWN21UNjhQeVIzMWZjMHRkQ0FTODB4TzYzOG9EcXlnS29FOXBOeFRZRnVrTUNydlFnZG4zM0pQeXAtN1dseFdRTThPYTdkUkdqeUJ0NExzT2MzUzJnekJjOGZKSDBGVHM0b1pvRWN1U0NmSFpxYmo3OUhfQUowNmJWYTJxT21DUHNkUG0tTGs?oc=5",
-      "published": "2026-10-28T05:08:25+00:00",
+      "id": "8275b5e22978",
+      "title": "medphano erweitert Rezepturangebot: Basiscreme ab November in zwei Packungsgrößen erhältlich - gesundheit adhoc",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNemQtZ2xkS3BTbzlwdndkQ3NqNHV1eHZHRUVuTlVUMGlkWEkxTDc2ZFJTSDdFY0VXUVp6dHVTU1BTUW1NcmdzM2JKOF9naHpsdV9jaUZvWlhKU3ljOURZaE8xZjlRcEF0a3hrdDZJd1ZZRHNNa0FKaFJ6eGthYm5MVlEyTVR4R29tQ1J3THh0blBhSUEyLXhmY2ttWlRxd25YRzdGZHRYUFR2RmhkUWJuR0ZfT1Q0dVZUekZ0ZG1FRUd2UzctMWc?oc=5",
+      "published": "2026-10-28T09:05:31+00:00",
       "source": {
-        "name": "DerWesten",
-        "url": "https://www.derwesten.de"
+        "name": "gesundheit adhoc",
+        "url": "https://www.gesundheit-adhoc.de"
+      }
+    },
+    {
+      "id": "57802ebc0b39",
+      "title": "Krankenkassen ab 2027: Gesundheit wird für alle Gesetzlich Versicherten teurer - Gegen Hartz IV",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOT2NHa2xsbnY4aVROVlZjSV8tWWxvb2F1cDdkRnktandub0syTkhrVkNMN0ZHV3VjdFA1aWtJaWhIN1V4TVBTMUU0TktuZTFWbDVINGNBU0ZXZm9BOHNaYUd0aEtsajB4T19xSzNZcE9PQmhVWmQtU2R1OHdxU19hcGlIZmVCanl3U2tYcDZLb1hFSmV2VUJ2cUljT1RicnFuRG1HZHBDUE1YdC1VbmE0?oc=5",
+      "published": "2026-10-28T15:52:59+00:00",
+      "source": {
+        "name": "Gegen Hartz IV",
+        "url": "https://www.gegen-hartz.de"
       }
     },
     {
@@ -114,13 +84,33 @@
       }
     },
     {
-      "id": "a73e7df104c4",
-      "title": "Wirkstoffgehalt stimmt nicht: Hersteller ruft Pilzmittel zurück - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZUJ0cUptekdqTW9uTmRsRks0ZDdWQnNkZ2ZGR3JDT2lTSmRtY3hVNTFJeHFJR1MtSUdMSTBBSUV2NlVFaFlVU2N4Nl9kZHNXTDQwYkt4alZRcnlpUWdWZnh4TzYxOVdaNUVHd0t1SnJPRUpVUzk1dWs1MFZDT0lNVTVFSFoxRnVyNURIX0Q0OG5pLVhpcF8xRXI4QnMxSTRxNkFBYk9NM1ZXWGd0NVE?oc=5",
-      "published": "2026-10-28T13:51:03+00:00",
+      "id": "48be8f0a8437",
+      "title": "Stimmritzenkrampf und Hautreizungen: Warum von einigen Erkältungsbädern für Kleinkinder Gefahr ausgeht - RP Online",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbWpsN1NkNGZpMlFrYUZNUTdvSXI0cE5iaGZsVF8zUXdzcWlLZzZVVEdYVTY4Y25XX19RZ24xTXBBQ0JKQ2ZQUk5XcVUzSmd1ekE1OFQtQV91eXNvWnhlWkRhR0ZoLVo4TjBHUlM4dUs1VV9DeEpJR1lTdS1wcjZLQ2NLeFgwUXRud1N0eUk1bDloUlNOU25mbTNqR25uaVk4dmZqYTNQWW1UdzVIemFKY3RaeFF3ZGNBS0VB?oc=5",
+      "published": "2026-10-29T06:05:00+00:00",
       "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
+        "name": "RP Online",
+        "url": "https://rp-online.de"
+      }
+    },
+    {
+      "id": "982c3ff8e26e",
+      "title": "MEDLATEC und An Khang bündeln ihre Kräfte, um den Menschen ein umfassendes und proaktives Gesundheitsökosystem zu bieten. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQa0lrSUhuWmNONGNweC1FU2ZjTVdQRS1pMHVyT0lobk5YZDgyaFhhb1pFdmpiYkFrTDdmVlo5OEpIdUJkalhrbVV1RXhFaG1aMHk4ZndxU2pVbVBvbmIxMWhURWprT2luSlp4dW4yTUFPT1A1UFpPbUZ0Y05Ud2VBVGlWY29nOVJSSThGTUEwSHRfZU5LaF9BX3cwZmZMQ0I3NVYydDdpc1VIWXVVaHpYYWNjWjJIY3RaMXRta1hYLVJ5eDFuTUpEWHNUaWJyRjJF?oc=5",
+      "published": "2026-10-29T03:27:32+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "41f94d9b6526",
+      "title": "Gesundheit wird 2027 teurer: Diese Mehrkosten kommen auf Millionen Versicherte zu - DerWesten",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPY3ZKNGVVWEF0bEhXS0tlcWVUZjJGWERnN2FWN21UNjhQeVIzMWZjMHRkQ0FTODB4TzYzOG9EcXlnS29FOXBOeFRZRnVrTUNydlFnZG4zM0pQeXAtN1dseFdRTThPYTdkUkdqeUJ0NExzT2MzUzJnekJjOGZKSDBGVHM0b1pvRWN1U0NmSFpxYmo3OUhfQUowNmJWYTJxT21DUHNkUG0tTGs?oc=5",
+      "published": "2026-10-28T05:08:25+00:00",
+      "source": {
+        "name": "DerWesten",
+        "url": "https://www.derwesten.de"
       }
     },
     {
@@ -134,6 +124,16 @@
       }
     },
     {
+      "id": "a73e7df104c4",
+      "title": "Wirkstoffgehalt stimmt nicht: Hersteller ruft Pilzmittel zurück - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZUJ0cUptekdqTW9uTmRsRks0ZDdWQnNkZ2ZGR3JDT2lTSmRtY3hVNTFJeHFJR1MtSUdMSTBBSUV2NlVFaFlVU2N4Nl9kZHNXTDQwYkt4alZRcnlpUWdWZnh4TzYxOVdaNUVHd0t1SnJPRUpVUzk1dWs1MFZDT0lNVTVFSFoxRnVyNURIX0Q0OG5pLVhpcF8xRXI4QnMxSTRxNkFBYk9NM1ZXWGd0NVE?oc=5",
+      "published": "2026-10-28T13:51:03+00:00",
+      "source": {
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
+      }
+    },
+    {
       "id": "00b128a4f365",
       "title": "Revolutionäres Krebsmedikament bald in Europa verfügbar - Gesundheit - SZ.de - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVFNSU1BNSU55UFpTMy12ZmhUVFo4S3JoZTA1WmNrRXJMdlFhMzFrZ0dkMDZBS3pib05aOEpIamxlSUZvMlhDdVphNGdGRGk4dUU5SnlZV3hjQVZfOUotSV9YN1g1OFJOQjE4WjBKTFRqVVUtalJDbmhFamlWVXRLdGhURHg3ZnRlbmpqMmtMcXp0VDZ5UXU4aUZrN0U3SVJGQk1TY3FBV3JxNzhXSWJLdjBxUWdLdw?oc=5",
@@ -141,6 +141,16 @@
       "source": {
         "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
+      }
+    },
+    {
+      "id": "7d8538027e8c",
+      "title": "Niedersachsens Gesundheitsminister Philippi rät von Hamsterkäufen bei Medikamenten ab - Oldenburger Online Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSEd3NFZhQ2o0QWNkUmNHZlJUcnFSUndLeENRUzRockVfRkZQbEhzWUdkanZ0YktDTGp5UlRJU0h3Z2lvZXFnOWxjX3ZSUGJxS3hlZzZrMmpYRl9wdWs3MmJ3bHlJYmI5cmllX2NUckZic2dNOVowNkFQalFUYkFzdHpNQl9pTy1DckowQU9pTXJzR0toNTliaXh0czJrN0hNQUdOSDR6Mi1odVptZGxWVWI1cVJWTnd6NkRIbU4wQWVSTXhOamItUDJJS3BKcFVlWTFmTkNZWkFXM2ZYYk4wckhOM0RKRVFMRUE?oc=5",
+      "published": "2026-10-28T08:36:00+00:00",
+      "source": {
+        "name": "Oldenburger Online Zeitung",
+        "url": "https://www.oldenburger-onlinezeitung.de"
       }
     },
     {
@@ -174,23 +184,13 @@
       }
     },
     {
-      "id": "2a4cd6eb6d1d",
-      "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
-      "published": "2026-03-31T07:00:00+00:00",
+      "id": "dc6300b90e76",
+      "title": "PrEP näher an diejenigen heranführen, die HIV-Prävention benötigen. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9vNF8wZUdYXzhkZnczeW45Uks3X3IzVVpMTnlxSFM4VnZZN1FXTnZXUHBISFBUV0o1SzJYZFYyY1pJa2JhSUl3ZkhoeEFISFlxdkM5Z2dpZnprQVNGd1JINmRydmFJUmFRci1NaURzb2wtYm9UaWUtN0YwXzJMQQ?oc=5",
+      "published": "2026-10-29T05:41:49+00:00",
       "source": {
-        "name": "European Parliament",
-        "url": "https://www.europarl.europa.eu"
-      }
-    },
-    {
-      "id": "23cc1b882457",
-      "title": "Depressionen: Warum Antidepressiva bei manchen Menschen schlechter wirken könnten - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNGY0UldmNXlXOWVwYmdPUzBEX3NGVTdFUXJFNzR4YnNNb2NhckFTbzB2UlROUHRSR0V6VGc3TnhKcWdFUGhaeFcyZjkzWGtNUms0R2hyX0phRjVROWJ5ZnF5ZXc2NWFnSmxnMTZUTXRSLXViR25VTngwU2xqT002cWlTNmdzZWlSNzluQkRibGprRVZaNEtHRV9COUtLbDJ0LWRTMUl4MVktRjF2Zy0wUjRxX2hBcElT?oc=5",
-      "published": "2026-10-26T10:47:35+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -201,6 +201,16 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "2a4cd6eb6d1d",
+      "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
+      "published": "2026-03-31T07:00:00+00:00",
+      "source": {
+        "name": "European Parliament",
+        "url": "https://www.europarl.europa.eu"
       }
     },
     {
@@ -354,13 +364,13 @@
       }
     },
     {
-      "id": "7556a34adb3d",
-      "title": "Zeitumstellung: Muss ich meine Medikamente dann wann anders nehmen? - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTko3bnVDNkNKQ1pHeDNyWTh0X3JBU1NIem9OZ1NNbmpQSWlYNlpZUThGUGhFZXhsLWZGZlRlQnRBQUZDS01ITGd4bVRLSmRLRU9QRTlZLWRCLXB2MTh2NXp5U185OFNtQ1hqYVhoZUl2ejdCSWtSTm1qZ01BS3BTWjNNQQ?oc=5",
-      "published": "2026-10-20T13:27:03+00:00",
+      "id": "81e5dfcc10d6",
+      "title": "Zeitumstellung: Muss ich Medikamente jetzt anders einnehmen? - Utopia.de",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNLUh5bGJfNFUwOEdPQm9RVTk2b2x0ejBWdzVkSWdHSXREYmZWVE9FUWNSaGZ2elQ1NnBPbFFtdFcwcTNIWHRfLXVRQ2tJMGZicnJUNzNsLWFHZEd4d1ltNkpReExVc2NfMTU1SmRsUjVRLTN2UDlBOGxWQmh6NnhtRlhoMVF3SnhyRGlldVRmZXlMRFdmU3RMVQ?oc=5",
+      "published": "2026-10-20T14:45:27+00:00",
       "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
+        "name": "Utopia.de",
+        "url": "https://utopia.de"
       }
     },
     {
@@ -424,26 +434,6 @@
       }
     },
     {
-      "id": "8e580021db84",
-      "title": "Zeitumstellung: Müssen Sie Medikamente jetzt eine Stunde später nehmen? - MOPO",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWlNFQUlKdkx2MkkxQjEtaVVYTGhCN0tjUzJlal9zeEdILTdISWttRm51Ui1SVXNDSnZxdF84MlA1d05TcWhjdjg0eFZHNGhDcm05Q19TTEdoY3kyUy1qYmpINEhLRHdtQXlUajFqNnVPYU42LUZnblVnaXBfMnkyV0FLZGFBOWVpYVJoM1hhVXRGVmtJQnp0VUtWWmtybUNESUVXSy1CMFZuSndtV3FZSU95bGlvdExqcmpF?oc=5",
-      "published": "2026-10-22T15:00:00+00:00",
-      "source": {
-        "name": "MOPO",
-        "url": "https://www.mopo.de"
-      }
-    },
-    {
-      "id": "6b52f6eb74fd",
-      "title": "GKV-Arzneimittelkosten: Umsatzabhängiger Herstellerabschlag könnte Milliardensumme einsparen - Deutsches Ärzteblatt",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQajdSUmJ1c3JnaFdoMk9yQVJBcFFVaWdOZGwySHZ1MThHaWs3X0xuUGdvWDRnZW81UGFUQUJ5XzZzaENKVXhfSDh0MUNmdW5SX3VrazJNbi05MGs4M2syWE8zMnc2YzFsTndQMjNwam5Xc3V4ajhFYndoRjEyMVRJYldrZWU0cC0zd2hPS04wek4yX1Y2TEw0Rm96UFpOSTRHSnpOcXNiVWx1Z1VTLUx5Wk1XZnkyRGJQRlJjV05lTVJtUEJMZ0o1MlZFTFNDdzhTS2E4UTJ6bG5jNE1Fd1hmQlViZ2dodUxQX2NFSVVpMzBXdw?oc=5",
-      "published": "2026-02-18T08:00:00+00:00",
-      "source": {
-        "name": "Deutsches Ärzteblatt",
-        "url": "https://www.aerzteblatt.de"
-      }
-    },
-    {
       "id": "d9edf968b2d7",
       "title": "»Spar­po­li­tik bei Arz­nei­mit­teln ist ein Irr­weg« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3BYbThQLUVqMndzcmZ2RzJRTW5vb1o4dGhibU52alc0SUtlbFkxMkhCS1puYnNnelNOcnVtSl9iejVRNU1sNGxvZ0lZZVZkaWNnRGhWVWsxT1JobThfRzFVdnh6Q25Idzl3aGZZaThYdHBRYTUzNHRpX2VNZ0dGWHBjd3VEbDdERlhjOHhubnhHLXB2OWc?oc=5",
@@ -494,6 +484,16 @@
       }
     },
     {
+      "id": "0f06b40fedaa",
+      "title": "Blutdrucksenker im hohen Alter reduzieren? Bei diesen Patienten könnte das möglich sein - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYXdJQzdpN1hxUGhkSkg0c05VcGh6bXNPZWtOeE02dlAxMlk0bjN5MGpOMXlxdm5lZk84MzRQdWJTLWh4ZFJkY0Rya2RtWVBEWm5TWXZsYl9qRko5RkUxYVdPOXkwTzA5SUZvXzAyX1dYLUpfTjFrYXFnNHZ3UTdBWm9IWTBzMTg4emN3V3ZMOTRwU1Jrd1FJQWVDeDM5QmQ4SWRSS3FrdXJWZk91NEc4Qk5KTDdsOC1FU0VvVkplQ0lBdw?oc=5",
+      "published": "2026-09-09T07:00:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
       "id": "b61485c2b236",
       "title": "Apotheken-Nachrichten von heute beleuchten digitale Gesundheitsdaten, Arzneimittelsicherheit verlangt Kontrolle, Prävention gewinnt Gewicht - PresseBox",
       "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNamtrR0plUjFoMG1ybEtoYUQxWWRNbmMwME9qQjducHF4QUdZcWtveGxMdmdKdEVQelZyREg0TThzQ1hGeFBwUm9CaTY2c2M4LUhEelFsSDVDaEx6RGJNQ21EZHItaGkwelJzLUE4Qy1rMjJldE1sOFV2SEp3aWk4NzVfNjVmSDdfRktTVHB4UVF5c0RsOXdTSlJ0Z3JjWHg3OHVGWHRpb3ZFTEJJLVB6XzBrUHdSN3dnUV9CNlNycDNUdHRja1FXS3pENXVPMGhWQkM1ZjN2RUVoMjVZRkRwMlVvamRIWk5LeTJiNjhLWTNPS1liR0RhUlhaY09fakJnT1hEOEk5M0tESGFiSDJGSzJsaWVnd0pXVHU3ZERCUHRPTWZqMVpaTVVmdC1MQQ?oc=5",
@@ -501,16 +501,6 @@
       "source": {
         "name": "PresseBox",
         "url": "https://www.pressebox.de"
-      }
-    },
-    {
-      "id": "50e574837ee5",
-      "title": "Medikamentenversand bei Hitze: Risiken für Arzneimittel - Apotheken Umschau",
-      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPREY3YjJLY0JhYUEzX3FnRFlGRDJ1Vm9JamNNVTNoR3NOX0tOMTIzWUMweTJ2ekYzbktzUTZha0djdWpuN09lNHVZUWw4bVJxYXhWeWtxWUVxM0tXS2xGcGtMd29yWmdTSlFpUkxpdmRvMV9ZaEJhT3czaTY3a2VhOUVJU2p0VWZWMU9PNHZDQWt2b0FpdFhOQlNESFdTV0l0M3R4SDFVMTBOTmZMVVo5ZV9KSmZremN6cTNzOXR0a3RjT2Y0MGZjQkNMUVdFY0xZejBFanY4aDRNOEdpZzdTMVowbkZHUVNtU1htclVWeE50OUwzaWlXSG44akg3S05Odlh2MUxlYXAxbkZVbDB4eWRhZF9YZw?oc=5",
-      "published": "2026-07-31T07:00:00+00:00",
-      "source": {
-        "name": "Apotheken Umschau",
-        "url": "https://www.apotheken-umschau.de"
       }
     },
     {
@@ -524,6 +514,16 @@
       }
     },
     {
+      "id": "50e574837ee5",
+      "title": "Medikamentenversand bei Hitze: Risiken für Arzneimittel - Apotheken Umschau",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPREY3YjJLY0JhYUEzX3FnRFlGRDJ1Vm9JamNNVTNoR3NOX0tOMTIzWUMweTJ2ekYzbktzUTZha0djdWpuN09lNHVZUWw4bVJxYXhWeWtxWUVxM0tXS2xGcGtMd29yWmdTSlFpUkxpdmRvMV9ZaEJhT3czaTY3a2VhOUVJU2p0VWZWMU9PNHZDQWt2b0FpdFhOQlNESFdTV0l0M3R4SDFVMTBOTmZMVVo5ZV9KSmZremN6cTNzOXR0a3RjT2Y0MGZjQkNMUVdFY0xZejBFanY4aDRNOEdpZzdTMVowbkZHUVNtU1htclVWeE50OUwzaWlXSG44akg3S05Odlh2MUxlYXAxbkZVbDB4eWRhZF9YZw?oc=5",
+      "published": "2026-07-31T07:00:00+00:00",
+      "source": {
+        "name": "Apotheken Umschau",
+        "url": "https://www.apotheken-umschau.de"
+      }
+    },
+    {
       "id": "67e4e08a7431",
       "title": "Bundesverwaltungsgericht: Die feinen Unterschiede zwischen Fertig- und Rezepturarzneimitteln - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeTl1Y01rWHNTMC14UVB3aVFNMmVGTkxHdHlpaHNSc3pmZE5SZjVTRlhhbjVCdC01T0wzMkRJbzBvU0pYY3o0eXlrNEJjaEFkZ3ZXa3BhV3pycGZMN1lOc1EzcFBUNkN0bVFuVWR2aUtHaThDb0hPR3NOMTVBVEZrNVdORXJmbzA0QUpMbFJDTTJ0bi16aDR3aFlQeFR4VUo3SDJXZEtHdGc3NWI3TElkV0dB?oc=5",
@@ -531,16 +531,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "0f06b40fedaa",
-      "title": "Blutdrucksenker im hohen Alter reduzieren? Bei diesen Patienten könnte das möglich sein - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYXdJQzdpN1hxUGhkSkg0c05VcGh6bXNPZWtOeE02dlAxMlk0bjN5MGpOMXlxdm5lZk84MzRQdWJTLWh4ZFJkY0Rya2RtWVBEWm5TWXZsYl9qRko5RkUxYVdPOXkwTzA5SUZvXzAyX1dYLUpfTjFrYXFnNHZ3UTdBWm9IWTBzMTg4emN3V3ZMOTRwU1Jrd1FJQWVDeDM5QmQ4SWRSS3FrdXJWZk91NEc4Qk5KTDdsOC1FU0VvVkplQ0lBdw?oc=5",
-      "published": "2026-09-09T07:00:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
       }
     },
     {
@@ -594,16 +584,6 @@
       }
     },
     {
-      "id": "01a67b85e33b",
-      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Preisdruck auf Medikamente - Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcFliSVZSNlg1cVdjU1p0WVFhUkM4b0FGR1ZaNTJINFFpRUNRV2pkTWVVQXBrUUt0QTNqQmpXTFNhRDB4eEE5dXpaaXR6MmMzZm52RjhlVW1rc200dGMyWjBnVnFkcUVfV042VmFmdHRyNXItOUItWDlWZHJFR3hGd0NQZC1HdE1NOC1IT0d4eEhqY3F4czVGRVRscElSb01pakMzLWZfQXdrOHVLZkE?oc=5",
-      "published": "2026-06-16T07:00:00+00:00",
-      "source": {
-        "name": "Euronews.com",
-        "url": "https://de.euronews.com"
-      }
-    },
-    {
       "id": "5fd73dc2932c",
       "title": "Menschen und Arzneimittel: Hitze gefährdet alle - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SOVJuZkZFZTdsNFlWTmNONVQxN2ZFbnh0M045WmxqeGV6cHZ4Z1c4Z2xnYjkwUXNUcTJvWkptS0NHUUxocGIwZm04ejc3TFM2ZU5hNmtlZUtjQ2VTMWwtcEtRX0YxSXdCcE5UY252Z2dHWURtVGxn?oc=5",
@@ -611,16 +591,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "238d627fd5b2",
-      "title": "Mounjaro zum Abnehmen: Expertin warnt vor Risiken für Gesundheit, Haut und Haare - Frankfurter Rundschau",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPekhkdTRkanJIdWVpUWJha2UtdnE1SzFSMGVVeXR2YXBzcVNRMEFVWkdWQm1rWVVNSXZLQVZ3c3VYMjhJdmV4bGtDUklPZlZ1Rno4X1hhbXhUdDFWdHVTcUw0bUxtZTl4UzFKM1FUdGFpNGZVYjBfZklpU2xZTFluUXRXZXhLVU43cXRxUkdTaHJUcFJKVXFwTXdRYW4zWE1KaUMwUU82dkFtODJuLTBnZVJIWGJSZXZtbWwxTS1B?oc=5",
-      "published": "2026-09-17T07:00:00+00:00",
-      "source": {
-        "name": "Frankfurter Rundschau",
-        "url": "https://www.fr.de"
       }
     },
     {
@@ -654,6 +624,16 @@
       }
     },
     {
+      "id": "238d627fd5b2",
+      "title": "Mounjaro zum Abnehmen: Expertin warnt vor Risiken für Gesundheit, Haut und Haare - Frankfurter Rundschau",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPekhkdTRkanJIdWVpUWJha2UtdnE1SzFSMGVVeXR2YXBzcVNRMEFVWkdWQm1rWVVNSXZLQVZ3c3VYMjhJdmV4bGtDUklPZlZ1Rno4X1hhbXhUdDFWdHVTcUw0bUxtZTl4UzFKM1FUdGFpNGZVYjBfZklpU2xZTFluUXRXZXhLVU43cXRxUkdTaHJUcFJKVXFwTXdRYW4zWE1KaUMwUU82dkFtODJuLTBnZVJIWGJSZXZtbWwxTS1B?oc=5",
+      "published": "2026-09-17T07:00:00+00:00",
+      "source": {
+        "name": "Frankfurter Rundschau",
+        "url": "https://www.fr.de"
+      }
+    },
+    {
       "id": "11cdd0be15c8",
       "title": "Wie viel darf Gesundheit kosten? Streit um Medikamentenpreise eskaliert - WirtschaftsWoche",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMEkzamFzeFFHZEk3NjFIbFJmYjZvajlGOVMtcHo3aUZsWFlvdkcyMzFTODZXZFM1dWhNWU1lT3FVVDk4dlduRjBqV2paSEFVbkE2YWktMVJIanA4U3J2QW1rMnFtOUljc0pXb2hEbVNSWkxYdGlkRHRMRGE3aGpSYjlrU0FzN0RjN1dhWkJWZldkUmVpbm9xbXpSZmR3b0xGR2ZXQmdvVVZ4bWh5bmVNbkdOOU1rNEdiZElEc0NEeDE3LXpqVkE?oc=5",
@@ -674,16 +654,6 @@
       }
     },
     {
-      "id": "f626825233d2",
-      "title": "Medikamenten-Lieferengpässe: Wo die Ursachen liegen und was Patienten tun können - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN0xRSk5YQXRHbVdsaTVXdzc0UlFJS0lLNkMtOHhMUm5qX3kwQ0E2U3VORXY4NXllT2puSkYyWUFRaTF3Z2RLWDd0WXNsaGpMODg2c1h2cXYtdWtOdFdfRjc2R1hUV3NHTUNlZ0RNX3k0cjVlVnUwRUJ3VXhmbUVjQll3UVhtT3B5ZGhjc2QzckpYdTJzM25iMFYyeThnWmJaLXNMRUJzMzU0cXA3ZWtScmYwRjNjQjBM?oc=5",
-      "published": "2026-04-13T07:00:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
       "id": "8308fd9ff3ea",
       "title": "»Ge­ra­de in der Apo­the­ke wird Ge­sund­heit ge­lebt« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWGI5Ni1Wb1RMSGlZbElwcDdtVjF5TzJBTVpUd0xoblBOUHl5UG8tcXlNY1FPTHBPbU5tT2J2S2VTRkFlZlVxejM2S3V6Ty14bHlXVmEtRmRPUnNoeEd0U3pWZlQ5SlZjNGF3bnhWWGF0M2h5MHVSaFZRZjBZZy1KOEZva1l2N1dzbkF0Q2dvRUc1SVN3OVVF?oc=5",
@@ -691,6 +661,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "4f1eeceab428",
+      "title": "(S+) Wie teure Krebsmedikamente das Gesundheitssystem sprengen könnten - Spiegel",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNOUFWLTYwSFp0U194b0duNHVfbTVjbzFKVUV0WG1MS1FkQ2hYdmg2OGp1dnlEQTk4SjVNUEpkWWpRaTVFZFFmcjFiNC02WXNvSEhIbmdUNDk4emxWQ2VnWWtHMUotcWhXUnVsMExGRWNvdllPcUd3dVRZTWR2ZUEteWZTeFEyS1M5ZzZqZUxDSUI2RTRqMnU4MVF4SEthWm1vZEd1YjZWYjZoLUIwRTlaZTVtRXZoZERXWC1DUGhLelpNZ0M2RXFQeDU4XzBfQ3ZWUFJUdDBVcDh2aExzVmc?oc=5",
+      "published": "2026-04-13T07:00:00+00:00",
+      "source": {
+        "name": "Spiegel",
+        "url": "https://www.spiegel.de"
       }
     },
     {
@@ -704,13 +684,13 @@
       }
     },
     {
-      "id": "4f1eeceab428",
-      "title": "(S+) Wie teure Krebsmedikamente das Gesundheitssystem sprengen könnten - Spiegel",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNOUFWLTYwSFp0U194b0duNHVfbTVjbzFKVUV0WG1MS1FkQ2hYdmg2OGp1dnlEQTk4SjVNUEpkWWpRaTVFZFFmcjFiNC02WXNvSEhIbmdUNDk4emxWQ2VnWWtHMUotcWhXUnVsMExGRWNvdllPcUd3dVRZTWR2ZUEteWZTeFEyS1M5ZzZqZUxDSUI2RTRqMnU4MVF4SEthWm1vZEd1YjZWYjZoLUIwRTlaZTVtRXZoZERXWC1DUGhLelpNZ0M2RXFQeDU4XzBfQ3ZWUFJUdDBVcDh2aExzVmc?oc=5",
+      "id": "f626825233d2",
+      "title": "Medikamenten-Lieferengpässe: Wo die Ursachen liegen und was Patienten tun können - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN0xRSk5YQXRHbVdsaTVXdzc0UlFJS0lLNkMtOHhMUm5qX3kwQ0E2U3VORXY4NXllT2puSkYyWUFRaTF3Z2RLWDd0WXNsaGpMODg2c1h2cXYtdWtOdFdfRjc2R1hUV3NHTUNlZ0RNX3k0cjVlVnUwRUJ3VXhmbUVjQll3UVhtT3B5ZGhjc2QzckpYdTJzM25iMFYyeThnWmJaLXNMRUJzMzU0cXA3ZWtScmYwRjNjQjBM?oc=5",
       "published": "2026-04-13T07:00:00+00:00",
       "source": {
-        "name": "Spiegel",
-        "url": "https://www.spiegel.de"
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -788,6 +768,16 @@
       "title": "Arzneimittelrisiken: Apotheken senden 11.000 Verdachtsmeldungen - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUEp3aW42WGtadEhHTmFUVDIwN3RXbEhtVWh5ZVktdDRyN0Q1azB0N0NHbG5hSGViU2lDVG5VZ0xtbzRiTGZackpzdnlfUk1IZjQwZ0ticS1uV2xLcjJMbHZrTTdzUkFuSmh4c19BTkFFODJadGhlVjk0VUVDaXB6T0hJWERDMnRuX3R6ajA2OVVJZWZTT2k3WDk4TjJXdw?oc=5",
       "published": "2026-03-03T08:00:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "b13c8155e55d",
+      "title": "Kinder mit starkem Übergewicht: Neue Leitlinie empfiehlt Einsatz moderner Medikamente - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcWR0VTNuakdTNGtzUGhhb3NyTl9hdXRYb0FCVTE0Y2FqWDlIY1BiT3d3eklHc2tqaDc5dXBDVHhzUUdqUGRrSkliS2xEM1JqdlRPMnlJQmF2czFpVTVFbEVnaTBhQTZScUN4MU1rT1Vkc1EyRGN2UlNTenBLSFhGNC16NXJ6eko2b0lMR3JpTzB5b1MtbDJ1R3Y1cGdJRVlId2dQanB2RlgtM1MtbjFDRkM0TEwwUnRhZVFSMzVn?oc=5",
+      "published": "2026-05-15T07:00:00+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
@@ -924,16 +914,6 @@
       }
     },
     {
-      "id": "b4ecfb75a02b",
-      "title": "Darmbakterien: Über 150 Medikamente werden von Mikroben abgebaut - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWFZJY0xyUFdKWEFIajgxVUpUM2Q0T0s1cXZpN0FaaEdZVHhKUVVTT0FIOUxwR09Nb0RsVEFLaVV6TXlmWG1BVWVLNFpxLTJFLVl2WnhOUGkzSWo1N1FKMTIwM2xwRVYwVlNiVmRyYjNNSzdidjdWQmZZV0txNWIwNXlzVWoxX3AwZC1nVHpjSkk3Qk9xSzRhYnppMGRsWlJHOWFOTkNfZ1NKOXVfMnpfRXdsQQ?oc=5",
-      "published": "2026-10-29T01:53:37+00:00",
-      "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "1d339c1d5ce3",
       "title": "ADHS bei Erwachsenen: Medikamente in Europa häufiger verordnet - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQWNVcTdoeS1oMjlfeGN5TEx4M05fN2tsS2pOdFhSRzUzQlN3MGxXYkd4LXlwM3lVd3dIMGJVM1pVcWlQNnlDOUxfc0FXQUlhMGFHQ0UwQ3h5ZEpHeU5YTGl4T1FGYkNadTlLTUlhQ0o5R05xcG12WTVfRDBvRUo4cEZBdm9HbkFMWHl0N0NYb2lBdVZtbHJkY3N3dzMxc1k?oc=5",
@@ -984,16 +964,6 @@
       }
     },
     {
-      "id": "d4163e4461fc",
-      "title": "Fakt versus Fiktion: Ärzte bewerten Sicherheit und Wirksamkeit von Peptiden - aktien.news",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcWh6UTU2cGdPbFBmSW1BN1kxZEl0RnpVQ2tvVHF0aVZGdWlBeWdybTRteENqSmdlZ0t5T01Odkc4akpCZkw3ZEM5MXVYQ2szdk4wQVdTRFlCZ0JPRU1oZlJmd2RDNkp0TW40bXZQbkRjU19RM3hkZ1lBQ3Z0YlE2T1k3dTY5OThrQ0Rtd2JlR1lRYzBzWXppQTI2YkZVWlU?oc=5",
-      "published": "2026-10-24T07:00:00+00:00",
-      "source": {
-        "name": "aktien.news",
-        "url": "https://www.aktien.news"
-      }
-    },
-    {
       "id": "d6702eea68c6",
       "title": "Intimgesundheit der Frau: Arzneimittel der Selbstmedikation richtig anwenden - Presseportal",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBYWlNEMVdKV0JFOGp6aTR3NHotVFlWc1pUajJ6WVc0SVVLNmo5c2otX0tmbnF3QmhvNFlQS2FJNkwzejFfeXU2a1U1d2ZPSzgwMHdVSThrbw?oc=5",
@@ -1001,6 +971,36 @@
       "source": {
         "name": "Presseportal",
         "url": "https://www.presseportal.de"
+      }
+    },
+    {
+      "id": "08d257ba8207",
+      "title": "Hessisches Landesamt für Gesundheit u. Pflege / Zoll FFM - 1000 Pillen Zopiclon aus Indien - Freispruch statt Geldstrafe - Anwalt.de",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQZDlsbHlFWmE2ZHVlRGlObHE5ek82dWFyd2IxWDlObUdVTTlUZ0dVYWQwYjNpVzNlRHEwbTNxeHZlMUMzelpUWkRWQWhPaGhvSUNzRk82dkxHeG9FLS01a09DNFJHZW1oMXB4dnJvbjFhWkl0dzRvaGFtdkJUYk1XQS1wYnFLcnBEVWxlRUpXR1ZISGM5c1NkWGZ3Vk5jSUcxM255SjI5bllnMDFfeV8zNlZMeVJjZmw5eG4tRVJsOXVENktFelJtVnFsdFFGUjJ4eVF6clZtZC1jVHk1X1EwNWdhLXA0VmdyenNEcm9VUGtuZw?oc=5",
+      "published": "2026-01-12T08:00:00+00:00",
+      "source": {
+        "name": "Anwalt.de",
+        "url": "https://www.anwalt.de"
+      }
+    },
+    {
+      "id": "fac15a53f714",
+      "title": "Sultiam: Gibt es bald ein Medikament gegen Schlafapnoe? - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQclk4TzJaNmtKc0FYX3VJOW1LbkVyM3JmbHh5MlZBU0ZVdlQ2c0k2Q1BNTGp3VjBodllfaWFKeWJsejdpaXRFNXZ0bUZIMExOcWVYVlNTMWZWQi1DRldfa3hRMmxPaXpneXVsTXo0X2EwamVMLU5faDk5bUVtSzR1NzljdWQybXFJOC1EMFVETzkyWm8?oc=5",
+      "published": "2026-03-16T07:00:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "383f1bba56f9",
+      "title": "Medikamente gegen Wechseljahresbeschwerden: Was hilft wirklich? - SWR",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNU9ZQkdqUkNiNVBOWlM5b1pYRXhxOHhBb1ZncHRQZmFDX0RZU1gxWEpQQmJUUFBmV1FfVWxKQTgwd2d2SzZHODBNTEh5Rl83ek8ycEplSXhlVWxiYWZCYl9MZ1lGS2VLMU9hNzFqckc4eEowOWRRaFBGc0MwQlNrQ2VfRENfbzlyNmRQdExsSkJLc2tfeWxhQ241X2h4ckhGVEJwVWw0d0FEdw?oc=5",
+      "published": "2026-02-03T14:58:33+00:00",
+      "source": {
+        "name": "SWR",
+        "url": "https://www.swr.de"
       }
     }
   ]
