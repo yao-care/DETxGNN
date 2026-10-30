@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-30T15:38:45.966804+00:00",
+  "fetched_at": "2026-10-30T20:28:59.008087+00:00",
   "source": "Google News Health RSS",
   "count": 33,
   "articles": [
@@ -44,13 +44,23 @@
       }
     },
     {
-      "id": "b9c8f29df593",
-      "title": "Erhöhtes Sterberisiko bei ADHS – Medikamente könnten helfen - RiffReporter",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbHVha3dsZGEtck5HV0RzcUFjWGFDd1J1Mm1TLUlWak1yVkVIVkFGWkJ3TnhZSDRZdnU4ajRhaE56cUdPS0hKSWhEVUZlQmRTVGJITkpSUmktYXFFNzlZcXdYTnlORklocmV4YktTZVJ4amJWQ1VFZFA1aU9rVzJkY1l4OA?oc=5",
-      "published": "2026-10-29T21:34:51+00:00",
+      "id": "41f94d9b6526",
+      "title": "Gesundheit wird 2027 teurer: Diese Mehrkosten kommen auf Millionen Versicherte zu - DerWesten",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPY3ZKNGVVWEF0bEhXS0tlcWVUZjJGWERnN2FWN21UNjhQeVIzMWZjMHRkQ0FTODB4TzYzOG9EcXlnS29FOXBOeFRZRnVrTUNydlFnZG4zM0pQeXAtN1dseFdRTThPYTdkUkdqeUJ0NExzT2MzUzJnekJjOGZKSDBGVHM0b1pvRWN1U0NmSFpxYmo3OUhfQUowNmJWYTJxT21DUHNkUG0tTGs?oc=5",
+      "published": "2026-10-28T05:08:25+00:00",
       "source": {
-        "name": "RiffReporter",
-        "url": "https://www.riffreporter.de"
+        "name": "DerWesten",
+        "url": "https://www.derwesten.de"
+      }
+    },
+    {
+      "id": "9fa13ce5acf5",
+      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
+      "published": "2026-03-31T20:25:43+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -74,13 +84,23 @@
       }
     },
     {
-      "id": "41f94d9b6526",
-      "title": "Gesundheit wird 2027 teurer: Diese Mehrkosten kommen auf Millionen Versicherte zu - DerWesten",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPY3ZKNGVVWEF0bEhXS0tlcWVUZjJGWERnN2FWN21UNjhQeVIzMWZjMHRkQ0FTODB4TzYzOG9EcXlnS29FOXBOeFRZRnVrTUNydlFnZG4zM0pQeXAtN1dseFdRTThPYTdkUkdqeUJ0NExzT2MzUzJnekJjOGZKSDBGVHM0b1pvRWN1U0NmSFpxYmo3OUhfQUowNmJWYTJxT21DUHNkUG0tTGs?oc=5",
-      "published": "2026-10-28T05:08:25+00:00",
+      "id": "7ca5c00cf9ea",
+      "title": "Welche Medikamente bei Erkältung? Diese beliebten Mittel bergen Risiken - Hamburger Abendblatt",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYW1pMXRFOXRyQ2laX1VweWNBWEhDTkpkMDBGSjl6aldWTjZxVTRyNlp6Njd5b2loVG1taXZlUHlQU2hxTzRiRC1Pd01kR2FWWmdiZUppVHhCSVFnc1FPMGlVUVQ0OVdTQ2xrM0ZkM01aci1hWXdJMGFDVS15bUZydEJIVHQ0d1psYkZyQzBocFFCTXJvd19z?oc=5",
+      "published": "2026-10-28T07:51:00+00:00",
       "source": {
-        "name": "DerWesten",
-        "url": "https://www.derwesten.de"
+        "name": "Hamburger Abendblatt",
+        "url": "https://www.abendblatt.de"
+      }
+    },
+    {
+      "id": "b9c8f29df593",
+      "title": "Erhöhtes Sterberisiko bei ADHS – Medikamente könnten helfen - RiffReporter",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbHVha3dsZGEtck5HV0RzcUFjWGFDd1J1Mm1TLUlWak1yVkVIVkFGWkJ3TnhZSDRZdnU4ajRhaE56cUdPS0hKSWhEVUZlQmRTVGJITkpSUmktYXFFNzlZcXdYTnlORklocmV4YktTZVJ4amJWQ1VFZFA1aU9rVzJkY1l4OA?oc=5",
+      "published": "2026-10-29T21:34:51+00:00",
+      "source": {
+        "name": "RiffReporter",
+        "url": "https://www.riffreporter.de"
       }
     },
     {
@@ -91,16 +111,6 @@
       "source": {
         "name": "Oldenburger Online Zeitung",
         "url": "https://www.oldenburger-onlinezeitung.de"
-      }
-    },
-    {
-      "id": "7ca5c00cf9ea",
-      "title": "Welche Medikamente bei Erkältung? Diese beliebten Mittel bergen Risiken - Hamburger Abendblatt",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYW1pMXRFOXRyQ2laX1VweWNBWEhDTkpkMDBGSjl6aldWTjZxVTRyNlp6Njd5b2loVG1taXZlUHlQU2hxTzRiRC1Pd01kR2FWWmdiZUppVHhCSVFnc1FPMGlVUVQ0OVdTQ2xrM0ZkM01aci1hWXdJMGFDVS15bUZydEJIVHQ0d1psYkZyQzBocFFCTXJvd19z?oc=5",
-      "published": "2026-10-28T07:51:00+00:00",
-      "source": {
-        "name": "Hamburger Abendblatt",
-        "url": "https://www.abendblatt.de"
       }
     },
     {
@@ -121,26 +131,6 @@
       "source": {
         "name": "Bundesministerium für Gesundheit (BMG)",
         "url": "https://www.bundesgesundheitsministerium.de"
-      }
-    },
-    {
-      "id": "783c4b728b19",
-      "title": "Adipositas und Typ-1-Diabetes: Operation schlägt Medikamente bei Gewichtsverlust - AerzteZeitung.de",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNemZEV013VkdyRmg1SDBnVHNZdHlaOVFSU0dPNDRQMHJhWjVBNXRRY3BiMk5ZejFZM0VpM2VhdXRzQ3ZtdGxzTlBFZXFCVkJRR2F0Z003dDdtUTZNOEMxOU9fQTc2UDNZTDlfQzJPeWREcGM5eG8xS0xTejFLblpBRTk2eTVZcmJKUlBWZmtQTDdTa2FuQmhBbE0tdm5VVmNE?oc=5",
-      "published": "2026-10-29T11:52:00+00:00",
-      "source": {
-        "name": "AerzteZeitung.de",
-        "url": "https://www.aerztezeitung.de"
-      }
-    },
-    {
-      "id": "9fa13ce5acf5",
-      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
-      "published": "2026-03-31T20:25:43+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
       }
     },
     {
@@ -204,10 +194,20 @@
       }
     },
     {
+      "id": "0b1776a1b8de",
+      "title": "Alzheimer vor 65: Diese Beschwerden fallen schon Jahre vor der Diagnose auf - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbXRfbmQybDlsVy1KQ29MNWl0bjNNZnVoLU0xMmNqdDUzSDFRSi1JSjFUSjFRa0RoVWZ1SHJsd3g5Uzh1aE82UGYyb3cyVWxFOVI0RGQ4dkZtTXNxQWxvSy1DVEpodk5YRnNrVS1ZYTJUWDdQV3gzcUZKX2VyV1dPdE50SGF5a3drUTNVS2xDVWpGUHlxZHdOQU5QTUpoa2FpeE1NU3A2X1U4RFhBMEU0?oc=5",
+      "published": "2026-10-26T07:00:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
       "id": "10c1dca37dfa",
       "title": "Wiener Apotheken rücken Frauengesundheit in den Fokus - Vienna.at",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTkZ3aGRPV0ItSGVVYm9aYW9OV28zYVJhMDhHRlVjVFRtaGcyUl9RODNmNW5NamNrcDNqQ0Q0MXlUNk9pTEJhbDRtdlNVTW1jc0ZUN2owYTVqUjk3azZ6SnNRV3pHUHdXZFhSMGxPXzBQLWVZeWRFeVduVHRMWmswS1RtNmxGcDRsZkY5el93?oc=5",
-      "published": "2026-10-30T14:36:13+00:00",
+      "published": "2026-10-30T20:18:33+00:00",
       "source": {
         "name": "Vienna.at",
         "url": "https://www.vienna.at"
@@ -264,16 +264,6 @@
       }
     },
     {
-      "id": "e7985331799a",
-      "title": "Diclofenac: Studie mit über 1 Million Patienten zeigt 50 Prozent mehr Herzrisiko - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTWVXaTAtQk1wd3FDNm05ZFY4aGdZSHNNejh3OXdBS25Ldzlna3pNaE9Vc0Yzc05mSzBwWHBtVkxBNk5zMzhYWUJydDlqMTRkcGdMSmNrTmd1Y3NWdkVPZ3VoOURrN3NhTkVyOFRfTXdiZ1RXTUVXU2N1NmFVZFRRc0dZTG5CRE9wbG1iUDhpb1o5Qk4xTkhNWk45TUxRRFVSaXNpdGtsMEo1dmdLcDVVZDFlZXJUMjNqTVNGbEgzRnRYUy1vVUpkZw?oc=5",
-      "published": "2026-10-30T00:18:07+00:00",
-      "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "e4f7e8c57817",
       "title": "Wie läuft die Zulassung von Arzneimitteln ab? - Stiftung Gesundheitswissen",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQc0lKcG51SV96LVpuemVlZ3p2LU1Ubjg1Q2M0VjJMa3pfRGNWM3VKemVDZG9mWm1uY0NlbkZmVDc4QWVad0VIYVAzOGxrY3ZvX1ZnSHB5QXZFYU4tNTAxa0g3N1BxbTljY3hTSVZQZE1GUFNsVF9LNUNfdk5aZGFucjBPWnZ5TGtZazdZQ3NQeEZFMXpBem9Tenh2NUtrWGlp?oc=5",
@@ -281,6 +271,16 @@
       "source": {
         "name": "Stiftung Gesundheitswissen",
         "url": "https://www.stiftung-gesundheitswissen.de"
+      }
+    },
+    {
+      "id": "e7985331799a",
+      "title": "Diclofenac: Studie mit über 1 Million Patienten zeigt 50 Prozent mehr Herzrisiko - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTWVXaTAtQk1wd3FDNm05ZFY4aGdZSHNNejh3OXdBS25Ldzlna3pNaE9Vc0Yzc05mSzBwWHBtVkxBNk5zMzhYWUJydDlqMTRkcGdMSmNrTmd1Y3NWdkVPZ3VoOURrN3NhTkVyOFRfTXdiZ1RXTUVXU2N1NmFVZFRRc0dZTG5CRE9wbG1iUDhpb1o5Qk4xTkhNWk45TUxRRFVSaXNpdGtsMEo1dmdLcDVVZDFlZXJUMjNqTVNGbEgzRnRYUy1vVUpkZw?oc=5",
+      "published": "2026-10-30T00:18:07+00:00",
+      "source": {
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
