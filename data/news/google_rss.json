@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-29T21:35:49.418388+00:00",
+  "fetched_at": "2026-10-30T01:38:25.000992+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -14,16 +14,6 @@
       }
     },
     {
-      "id": "d7977c0c3c58",
-      "title": "Reformationstag und Allerheiligen 2026: Apotheken-Notdienst finden - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdmpDejBkcU9jMXluWTRfcE5GY1lCR3Fia2NtMzIzSVlCaDVEQ3pCLTFQSURocHB6c3lTTmZhdHpoMXNzUVZWdWFzeE14ejBoeXZ4LS1qZi02emNQdy1VNS0xSVlKbzhtQjZKOFdWRFZFV28wWi10SEt0emVvcFRVYVNqVFhJUHhMOHZ5Ul92OHhqU2hYSVVwZFJxMFZ1RnBVa0RJ?oc=5",
-      "published": "2026-10-29T15:53:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
       "id": "c9a448de0c3b",
       "title": "Retail Health oder Retailisierung der Medizin? - Fieldfisher",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTmdOeFFBMGhfYWR6dHpRbTJ6TWxyQWM3TTBUeXFKZW5ENXRuZExaLXJRWE5fOWdfRFBkWjdvS3pUVzJTTGUxTjd5X2tEbVQxSjhNZEItR1dZMmVNTU5HaVE1T2VmN2plVjI5SmdXV2tDOUNMTXN1QlBDd0RGQlItXzZWS2dEdUYtMmdqWVRqR1kxa2pDWFJSaXZzbWVtQzdFbWwwTFgxRVBMdw?oc=5",
@@ -34,6 +24,16 @@
       }
     },
     {
+      "id": "b9c8f29df593",
+      "title": "Erhöhtes Sterberisiko bei ADHS – Medikamente könnten helfen - RiffReporter",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbHVha3dsZGEtck5HV0RzcUFjWGFDd1J1Mm1TLUlWak1yVkVIVkFGWkJ3TnhZSDRZdnU4ajRhaE56cUdPS0hKSWhEVUZlQmRTVGJITkpSUmktYXFFNzlZcXdYTnlORklocmV4YktTZVJ4amJWQ1VFZFA1aU9rVzJkY1l4OA?oc=5",
+      "published": "2026-10-29T21:34:51+00:00",
+      "source": {
+        "name": "RiffReporter",
+        "url": "https://www.riffreporter.de"
+      }
+    },
+    {
       "id": "150805e0e3f6",
       "title": "Apotheker dürfen Medikamenteneinnahme von Senioren in Pflegeheimen überprüfen - GrenzEcho",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNVpxVncyRWtGRUNHeTJOeHBjdmI5VWtrSF9Rb0cyZEt0LS1RZWpkemhGbTFmaU4tUjRsWkhKRXl4MVZ4RmtodHU5OVRXM0FDODYtNDROdlVBRnFaMHU2T0FGSk93VmJka2JLUUVOUndlYWo2TmhYeGJvcWR5aGJab0g4Znk4dFZ0YVlyYlFWUnE4R2RySnVwalFNc1RXZUZOZnVrcUhXT2J5ZU12Z2NRTEJpa0t0bzFKcEZtQ2I4b2NtbERT?oc=5",
@@ -41,16 +41,6 @@
       "source": {
         "name": "GrenzEcho",
         "url": "https://www.grenzecho.net"
-      }
-    },
-    {
-      "id": "783c4b728b19",
-      "title": "Adipositas und Typ-1-Diabetes: Operation schlägt Medikamente bei Gewichtsverlust - AerzteZeitung.de",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNemZEV013VkdyRmg1SDBnVHNZdHlaOVFSU0dPNDRQMHJhWjVBNXRRY3BiMk5ZejFZM0VpM2VhdXRzQ3ZtdGxzTlBFZXFCVkJRR2F0Z003dDdtUTZNOEMxOU9fQTc2UDNZTDlfQzJPeWREcGM5eG8xS0xTejFLblpBRTk2eTVZcmJKUlBWZmtQTDdTa2FuQmhBbE0tdm5VVmNE?oc=5",
-      "published": "2026-10-29T11:52:00+00:00",
-      "source": {
-        "name": "AerzteZeitung.de",
-        "url": "https://www.aerztezeitung.de"
       }
     },
     {
@@ -74,6 +64,26 @@
       }
     },
     {
+      "id": "783c4b728b19",
+      "title": "Adipositas und Typ-1-Diabetes: Operation schlägt Medikamente bei Gewichtsverlust - AerzteZeitung.de",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNemZEV013VkdyRmg1SDBnVHNZdHlaOVFSU0dPNDRQMHJhWjVBNXRRY3BiMk5ZejFZM0VpM2VhdXRzQ3ZtdGxzTlBFZXFCVkJRR2F0Z003dDdtUTZNOEMxOU9fQTc2UDNZTDlfQzJPeWREcGM5eG8xS0xTejFLblpBRTk2eTVZcmJKUlBWZmtQTDdTa2FuQmhBbE0tdm5VVmNE?oc=5",
+      "published": "2026-10-29T11:52:00+00:00",
+      "source": {
+        "name": "AerzteZeitung.de",
+        "url": "https://www.aerztezeitung.de"
+      }
+    },
+    {
+      "id": "05ccc139d8cd",
+      "title": "Süßstoffe können Darmbakterien verändern: Medikamente verstärken den Effekt - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcE9PVDdjbURYU1JzeTltZm9zbm5tX2p4Z2JOMFNhRTZnMVQ4M1ZiVkxGLVhqcGUxTF9Yd1NWMXV6ekJhR09sSi04RHRpaGdaVUxQUkowOTBtclJwOXZlc01qM3h1TkZsM1NsRHkyN0JjR1RZWFViZjNzVzhOWm93T2ZlOXFwdXgtN1k5Yjd5ZmpYdzJOa0pwM2d5d1RGbnNNWUZGWnltcFJsVGg1c19Nc1RaY1hmdw?oc=5",
+      "published": "2026-10-24T08:39:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
       "id": "77712fd4ecd8",
       "title": "\"Öko-Test\" warnt vor Erkältungsbädern für Kleinkinder - WEB.DE",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbVNxZ1NEeWV0TW9qQkNNNnA2eURLVmx4T3F5RDhqUFZaUmlvM0E4ZFh2TmljSFF5NUpfcWV4dUdkR2RQSjd1WDI5SVBPb3BTWG5Za3dOc1VEVDFnNEFEbHM3R09BNy1OVnd1ODZlN1ZwRUF4bWUtUDc3akVHZHFhZlgySjZOUHBnUHRydS1ldkdvc3FpTTJRdXJB?oc=5",
@@ -84,16 +94,6 @@
       }
     },
     {
-      "id": "41f94d9b6526",
-      "title": "Gesundheit wird 2027 teurer: Diese Mehrkosten kommen auf Millionen Versicherte zu - DerWesten",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPY3ZKNGVVWEF0bEhXS0tlcWVUZjJGWERnN2FWN21UNjhQeVIzMWZjMHRkQ0FTODB4TzYzOG9EcXlnS29FOXBOeFRZRnVrTUNydlFnZG4zM0pQeXAtN1dseFdRTThPYTdkUkdqeUJ0NExzT2MzUzJnekJjOGZKSDBGVHM0b1pvRWN1U0NmSFpxYmo3OUhfQUowNmJWYTJxT21DUHNkUG0tTGs?oc=5",
-      "published": "2026-10-28T05:08:25+00:00",
-      "source": {
-        "name": "DerWesten",
-        "url": "https://www.derwesten.de"
-      }
-    },
-    {
       "id": "9fa13ce5acf5",
       "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
@@ -101,6 +101,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "41f94d9b6526",
+      "title": "Gesundheit wird 2027 teurer: Diese Mehrkosten kommen auf Millionen Versicherte zu - DerWesten",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPY3ZKNGVVWEF0bEhXS0tlcWVUZjJGWERnN2FWN21UNjhQeVIzMWZjMHRkQ0FTODB4TzYzOG9EcXlnS29FOXBOeFRZRnVrTUNydlFnZG4zM0pQeXAtN1dseFdRTThPYTdkUkdqeUJ0NExzT2MzUzJnekJjOGZKSDBGVHM0b1pvRWN1U0NmSFpxYmo3OUhfQUowNmJWYTJxT21DUHNkUG0tTGs?oc=5",
+      "published": "2026-10-28T05:08:25+00:00",
+      "source": {
+        "name": "DerWesten",
+        "url": "https://www.derwesten.de"
       }
     },
     {
@@ -134,16 +144,6 @@
       }
     },
     {
-      "id": "982c3ff8e26e",
-      "title": "MEDLATEC und An Khang bündeln ihre Kräfte, um den Menschen ein umfassendes und proaktives Gesundheitsökosystem zu bieten. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQa0lrSUhuWmNONGNweC1FU2ZjTVdQRS1pMHVyT0lobk5YZDgyaFhhb1pFdmpiYkFrTDdmVlo5OEpIdUJkalhrbVV1RXhFaG1aMHk4ZndxU2pVbVBvbmIxMWhURWprT2luSlp4dW4yTUFPT1A1UFpPbUZ0Y05Ud2VBVGlWY29nOVJSSThGTUEwSHRfZU5LaF9BX3cwZmZMQ0I3NVYydDdpc1VIWXVVaHpYYWNjWjJIY3RaMXRta1hYLVJ5eDFuTUpEWHNUaWJyRjJF?oc=5",
-      "published": "2026-10-29T03:27:32+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "57802ebc0b39",
       "title": "Krankenkassen ab 2027: Gesundheit wird für alle Gesetzlich Versicherten teurer - Gegen Hartz IV",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOT2NHa2xsbnY4aVROVlZjSV8tWWxvb2F1cDdkRnktandub0syTkhrVkNMN0ZHV3VjdFA1aWtJaWhIN1V4TVBTMUU0TktuZTFWbDVINGNBU0ZXZm9BOHNaYUd0aEtsajB4T19xSzNZcE9PQmhVWmQtU2R1OHdxU19hcGlIZmVCanl3U2tYcDZLb1hFSmV2VUJ2cUljT1RicnFuRG1HZHBDUE1YdC1VbmE0?oc=5",
@@ -164,10 +164,10 @@
       }
     },
     {
-      "id": "05ccc139d8cd",
-      "title": "Süßstoffe können Darmbakterien verändern: Medikamente verstärken den Effekt - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcE9PVDdjbURYU1JzeTltZm9zbm5tX2p4Z2JOMFNhRTZnMVQ4M1ZiVkxGLVhqcGUxTF9Yd1NWMXV6ekJhR09sSi04RHRpaGdaVUxQUkowOTBtclJwOXZlc01qM3h1TkZsM1NsRHkyN0JjR1RZWFViZjNzVzhOWm93T2ZlOXFwdXgtN1k5Yjd5ZmpYdzJOa0pwM2d5d1RGbnNNWUZGWnltcFJsVGg1c19Nc1RaY1hmdw?oc=5",
-      "published": "2026-10-24T08:39:00+00:00",
+      "id": "c2015b608f86",
+      "title": "Blutdrucktabletten: Wie gefährlich ist es, sie unregelmäßig einzunehmen? - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNc2oxS0Y4VWYtRk5XMHo5ck05THQ1Yy1pa0FWanhrYWZYRlp3S3V6bEQtXzlVTlNwSXg3SDZubEdCSTRiUDIwRW1rcHdTLUdndmtQTmljeWVlU2tvT1ZGY1I4N2ZpNEFiZXhJOTZrVENyYVZVaGh5MTI2NV84SjJLTktUbExPbXVCVndHazExQ3JHSjBHeHhBMndHdnBSOU1HcDh2ODgyUThBWG1s?oc=5",
+      "published": "2026-10-28T11:22:29+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
@@ -184,10 +184,10 @@
       }
     },
     {
-      "id": "c2015b608f86",
-      "title": "Blutdrucktabletten: Wie gefährlich ist es, sie unregelmäßig einzunehmen? - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNc2oxS0Y4VWYtRk5XMHo5ck05THQ1Yy1pa0FWanhrYWZYRlp3S3V6bEQtXzlVTlNwSXg3SDZubEdCSTRiUDIwRW1rcHdTLUdndmtQTmljeWVlU2tvT1ZGY1I4N2ZpNEFiZXhJOTZrVENyYVZVaGh5MTI2NV84SjJLTktUbExPbXVCVndHazExQ3JHSjBHeHhBMndHdnBSOU1HcDh2ODgyUThBWG1s?oc=5",
-      "published": "2026-10-28T11:22:29+00:00",
+      "id": "23cc1b882457",
+      "title": "Depressionen: Warum Antidepressiva bei manchen Menschen schlechter wirken könnten - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNGY0UldmNXlXOWVwYmdPUzBEX3NGVTdFUXJFNzR4YnNNb2NhckFTbzB2UlROUHRSR0V6VGc3TnhKcWdFUGhaeFcyZjkzWGtNUms0R2hyX0phRjVROWJ5ZnF5ZXc2NWFnSmxnMTZUTXRSLXViR25VTngwU2xqT002cWlTNmdzZWlSNzluQkRibGprRVZaNEtHRV9COUtLbDJ0LWRTMUl4MVktRjF2Zy0wUjRxX2hBcElT?oc=5",
+      "published": "2026-10-26T10:47:35+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
@@ -214,6 +214,16 @@
       }
     },
     {
+      "id": "7c1c53f8db05",
+      "title": "Nutzenbewertung neuer Arzneimittel: Plant das BMG ein Update oder einen Systembruch? - AerzteZeitung.de",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNb0VlU0tpUFJvOHZ5OUFCc2NpVDQ0bUpOYXRQRmZ6eFZzYmFxN0ZmSmF2dG9raE5uaTFVWXQ0Sm95X1l3cmNhTUQ5Y1RTYlItV2tHalpyUjljUF9FdDRQV1hKdGZDSmlSUFJNQjRCNXVvek5talpJTk5GY3hQaGQ4VHVNNWwtbFk4OWFfaTNQNXFiMmNCNWFTY3Z2eWdSbloza1p2M3hpMVpzU0tnWjROeVRBcXRvamczUVljYTI2N1AzSHFuYi1PRVp4OA?oc=5",
+      "published": "2026-09-28T07:00:00+00:00",
+      "source": {
+        "name": "AerzteZeitung.de",
+        "url": "https://www.aerztezeitung.de"
+      }
+    },
+    {
       "id": "888d7d553972",
       "title": "Gesundheit: Tabletten aus dem 3D-Drucker - Wie funktioniert das? - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQUU0aE82REdQd1J5MTdaX2xoUVRCYllLMVRaWFY4YXVQR1FMdWp0YVBSUW1BSlFxN1pnb29TeEQyNUdKZWtCdWFoZEgtNTZEREh6QklCd1lrZHFKVXRyR0tEV3BTWWExOW1lMEFqUlBXaDVwS0FKYmFhOHZfdWg3R0EwZzdnTlVQY2x3Mlp3?oc=5",
@@ -224,6 +234,16 @@
       }
     },
     {
+      "id": "982c3ff8e26e",
+      "title": "MEDLATEC und An Khang bündeln ihre Kräfte, um den Menschen ein umfassendes und proaktives Gesundheitsökosystem zu bieten. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQa0lrSUhuWmNONGNweC1FU2ZjTVdQRS1pMHVyT0lobk5YZDgyaFhhb1pFdmpiYkFrTDdmVlo5OEpIdUJkalhrbVV1RXhFaG1aMHk4ZndxU2pVbVBvbmIxMWhURWprT2luSlp4dW4yTUFPT1A1UFpPbUZ0Y05Ud2VBVGlWY29nOVJSSThGTUEwSHRfZU5LaF9BX3cwZmZMQ0I3NVYydDdpc1VIWXVVaHpYYWNjWjJIY3RaMXRta1hYLVJ5eDFuTUpEWHNUaWJyRjJF?oc=5",
+      "published": "2026-10-29T03:27:32+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "27e3605168d6",
       "title": "EU-Notifizierungsverfahren: Regierung verteidigt neue Versandvorgaben - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQb1Jqa3hvckRiQ3MzTWF3RHRtd19DYl9aWTRMSmJrZDd4cGJOSjl6YkNxOFVQMDF1QW4tY3FKTnlZX3BZQUFVNzNLeGFxNDdfOTFGRkg3YUFERlo1TnV0MHd3UlNwdGtsRFVYSndiUHZfdXVXN2g1a0puQVFhNU1OQWh1MkNPb2FJbWFuLXN1N3FwTzdkc0I0THNGMkxlREtjWUtBSVFsa0t3ZWM5bjQ1bFgzLVdlVlRzNHkyT1BrQUtYMDZxcngzc3lSekRMckM1?oc=5",
@@ -231,16 +251,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "dc6300b90e76",
-      "title": "PrEP näher an diejenigen heranführen, die HIV-Prävention benötigen. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9vNF8wZUdYXzhkZnczeW45Uks3X3IzVVpMTnlxSFM4VnZZN1FXTnZXUHBISFBUV0o1SzJYZFYyY1pJa2JhSUl3ZkhoeEFISFlxdkM5Z2dpZnprQVNGd1JINmRydmFJUmFRci1NaURzb2wtYm9UaWUtN0YwXzJMQQ?oc=5",
-      "published": "2026-10-29T05:41:49+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -264,16 +274,6 @@
       }
     },
     {
-      "id": "07ab147c008b",
-      "title": "7 statt 19 Prozent: Medikamente niedriger besteuern – Arbeit entlasten! - openPetition",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOekhKWUxNOFlxOUVnZWF4ZXcxaEZIbW9NclpWeXhDZE9LeXVUY1ZFR1BUMzlXTkJjV3lnVnhUR29UVWI1TlRiS0VBQjVUN2hUOFVadC1naUJZMUs3Y2U1SThyLS14MkJyeWVCc0h4U2F6RTBVODlnbkxnUnEwU1NxYTJ2ZnBNQ25PaXpGUmFjVnhzWUZhTWlocVRnV3gxU3NoZHpuQThkX1BUUVFWaGdfeQ?oc=5",
-      "published": "2026-09-08T10:38:33+00:00",
-      "source": {
-        "name": "openPetition",
-        "url": "https://www.openpetition.de"
-      }
-    },
-    {
       "id": "51e8c4b74840",
       "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
@@ -281,6 +281,16 @@
       "source": {
         "name": "Gesundheit.gv.at",
         "url": "https://www.gesundheit.gv.at"
+      }
+    },
+    {
+      "id": "07ab147c008b",
+      "title": "7 statt 19 Prozent: Medikamente niedriger besteuern – Arbeit entlasten! - openPetition",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOekhKWUxNOFlxOUVnZWF4ZXcxaEZIbW9NclpWeXhDZE9LeXVUY1ZFR1BUMzlXTkJjV3lnVnhUR29UVWI1TlRiS0VBQjVUN2hUOFVadC1naUJZMUs3Y2U1SThyLS14MkJyeWVCc0h4U2F6RTBVODlnbkxnUnEwU1NxYTJ2ZnBNQ25PaXpGUmFjVnhzWUZhTWlocVRnV3gxU3NoZHpuQThkX1BUUVFWaGdfeQ?oc=5",
+      "published": "2026-09-08T10:38:33+00:00",
+      "source": {
+        "name": "openPetition",
+        "url": "https://www.openpetition.de"
       }
     },
     {
@@ -298,16 +308,6 @@
       "title": "Leberschäden stark gestiegen: Paracetamol besonders häufig beteiligt - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNc01Jc3lndldQZGN6YW1pelRYRU5vQ1BiMW9MdExZOU5EQmFRYWk4ZUh1UHRON2tqTU1KQWV0TUNza01zWEhsczV3aFdyVHgzMTBVZnhBdzZxY2RCRUJXSk9tQWF4aDRqVXhwdmRHRFQ0OTlPcHlfMGJSY1JIR0tjbGhLMExoLUVKYjQ0OFh0Sk5RYU9mWHFnd2lTQkVJazJsdUIzWnlzT0w?oc=5",
       "published": "2026-09-23T07:00:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "0d1c92b92378",
-      "title": "Apotheken legen Fünf-Punkte-Plan für eine sichere Arzneimittelversorgung vor - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORnlkOGZudXJ0Ri10MmJYREtUMWsyTl92MGlzT050VU52cjVjZEkyMkdzRVUwMENMalRpaXVSQTlFWTNWY1pZVnR3Tk0tS2pNWm1YeFNBYkdzZWlIUE1rQWZRRFVRanpwdkJPdFlzNGkxcmlJQ0NYTi1jOEFpa2IxUjJ3MXZlWWhvQ2J3X2RMRHBaTnNYNl9BVW5FcXR0QVQtd0tLUFpoRmNHaFI3ZXZIWV9VWEY?oc=5",
-      "published": "2026-09-15T07:00:00+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
@@ -341,6 +341,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "dc6300b90e76",
+      "title": "PrEP näher an diejenigen heranführen, die HIV-Prävention benötigen. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9vNF8wZUdYXzhkZnczeW45Uks3X3IzVVpMTnlxSFM4VnZZN1FXTnZXUHBISFBUV0o1SzJYZFYyY1pJa2JhSUl3ZkhoeEFISFlxdkM5Z2dpZnprQVNGd1JINmRydmFJUmFRci1NaURzb2wtYm9UaWUtN0YwXzJMQQ?oc=5",
+      "published": "2026-10-29T05:41:49+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -454,16 +464,6 @@
       }
     },
     {
-      "id": "12a6f84e648a",
-      "title": "Der Herstellerabschlag im Reformstress - Verband der Ersatzkassen (vdek)",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeXdkMXpjQVBJRzhyd1dCOVloSFpjc1cyNkczZjlHYl9QMlR4aFUwN1JLc3laQ0JWd0cwTWY4cmRnMGhDbE1vTzl3ODBNR2pQR0VLM0pJa2luTURVNGZOOXJlWlFGNG5ybFZkamI2WTlpOEZ1WjNTd19lcWJDdy1vU3V1RVI0TnRUSmNJVEphZkJYbnc?oc=5",
-      "published": "2026-06-12T07:00:00+00:00",
-      "source": {
-        "name": "Verband der Ersatzkassen (vdek)",
-        "url": "https://www.vdek.com"
-      }
-    },
-    {
       "id": "d9edf968b2d7",
       "title": "»Spar­po­li­tik bei Arz­nei­mit­teln ist ein Irr­weg« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3BYbThQLUVqMndzcmZ2RzJRTW5vb1o4dGhibU52alc0SUtlbFkxMkhCS1puYnNnelNOcnVtSl9iejVRNU1sNGxvZ0lZZVZkaWNnRGhWVWsxT1JobThfRzFVdnh6Q25Idzl3aGZZaThYdHBRYTUzNHRpX2VNZ0dGWHBjd3VEbDdERlhjOHhubnhHLXB2OWc?oc=5",
@@ -471,6 +471,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "12a6f84e648a",
+      "title": "Der Herstellerabschlag im Reformstress - Verband der Ersatzkassen (vdek)",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeXdkMXpjQVBJRzhyd1dCOVloSFpjc1cyNkczZjlHYl9QMlR4aFUwN1JLc3laQ0JWd0cwTWY4cmRnMGhDbE1vTzl3ODBNR2pQR0VLM0pJa2luTURVNGZOOXJlWlFGNG5ybFZkamI2WTlpOEZ1WjNTd19lcWJDdy1vU3V1RVI0TnRUSmNJVEphZkJYbnc?oc=5",
+      "published": "2026-06-12T07:00:00+00:00",
+      "source": {
+        "name": "Verband der Ersatzkassen (vdek)",
+        "url": "https://www.vdek.com"
       }
     },
     {
@@ -534,16 +544,6 @@
       }
     },
     {
-      "id": "b61485c2b236",
-      "title": "Apotheken-Nachrichten von heute beleuchten digitale Gesundheitsdaten, Arzneimittelsicherheit verlangt Kontrolle, Prävention gewinnt Gewicht - PresseBox",
-      "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNamtrR0plUjFoMG1ybEtoYUQxWWRNbmMwME9qQjducHF4QUdZcWtveGxMdmdKdEVQelZyREg0TThzQ1hGeFBwUm9CaTY2c2M4LUhEelFsSDVDaEx6RGJNQ21EZHItaGkwelJzLUE4Qy1rMjJldE1sOFV2SEp3aWk4NzVfNjVmSDdfRktTVHB4UVF5c0RsOXdTSlJ0Z3JjWHg3OHVGWHRpb3ZFTEJJLVB6XzBrUHdSN3dnUV9CNlNycDNUdHRja1FXS3pENXVPMGhWQkM1ZjN2RUVoMjVZRkRwMlVvamRIWk5LeTJiNjhLWTNPS1liR0RhUlhaY09fakJnT1hEOEk5M0tESGFiSDJGSzJsaWVnd0pXVHU3ZERCUHRPTWZqMVpaTVVmdC1MQQ?oc=5",
-      "published": "2026-10-13T11:35:00+00:00",
-      "source": {
-        "name": "PresseBox",
-        "url": "https://www.pressebox.de"
-      }
-    },
-    {
       "id": "67e4e08a7431",
       "title": "Bundesverwaltungsgericht: Die feinen Unterschiede zwischen Fertig- und Rezepturarzneimitteln - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeTl1Y01rWHNTMC14UVB3aVFNMmVGTkxHdHlpaHNSc3pmZE5SZjVTRlhhbjVCdC01T0wzMkRJbzBvU0pYY3o0eXlrNEJjaEFkZ3ZXa3BhV3pycGZMN1lOc1EzcFBUNkN0bVFuVWR2aUtHaThDb0hPR3NOMTVBVEZrNVdORXJmbzA0QUpMbFJDTTJ0bi16aDR3aFlQeFR4VUo3SDJXZEtHdGc3NWI3TElkV0dB?oc=5",
@@ -551,6 +551,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "b61485c2b236",
+      "title": "Apotheken-Nachrichten von heute beleuchten digitale Gesundheitsdaten, Arzneimittelsicherheit verlangt Kontrolle, Prävention gewinnt Gewicht - PresseBox",
+      "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNamtrR0plUjFoMG1ybEtoYUQxWWRNbmMwME9qQjducHF4QUdZcWtveGxMdmdKdEVQelZyREg0TThzQ1hGeFBwUm9CaTY2c2M4LUhEelFsSDVDaEx6RGJNQ21EZHItaGkwelJzLUE4Qy1rMjJldE1sOFV2SEp3aWk4NzVfNjVmSDdfRktTVHB4UVF5c0RsOXdTSlJ0Z3JjWHg3OHVGWHRpb3ZFTEJJLVB6XzBrUHdSN3dnUV9CNlNycDNUdHRja1FXS3pENXVPMGhWQkM1ZjN2RUVoMjVZRkRwMlVvamRIWk5LeTJiNjhLWTNPS1liR0RhUlhaY09fakJnT1hEOEk5M0tESGFiSDJGSzJsaWVnd0pXVHU3ZERCUHRPTWZqMVpaTVVmdC1MQQ?oc=5",
+      "published": "2026-10-13T11:35:00+00:00",
+      "source": {
+        "name": "PresseBox",
+        "url": "https://www.pressebox.de"
       }
     },
     {
@@ -824,6 +834,16 @@
       }
     },
     {
+      "id": "0791514ec89d",
+      "title": "Steigende Arzneimittelkosten: Gesundheitsministerin Warken will Zugang zu neuen Medikamenten für alle erhalten - MDR.de",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPenF3ckVCSXl3ZmNka21FSTVtdkdoeGRZaEQ4Nnc4ZktKZk16U0ZUd19vYWRsZDdQUDZZLVFCd2k2anZScnRpSnJtXzRCbEozRm9fMEpkcVhjZ3dwT21zQVZPX2MybWdSUHBNeTZ3TmtESDFOWFNfM0lPV1Z4M3BmUTNkLTRfVGgxRUh4OWNOblh5ZGdCaUs5WXZmR2VVaVV5d1VHR1BHUFhubGtCWlFyZWk3VnhWZjdpWE9jNE5B?oc=5",
+      "published": "2025-12-09T08:00:00+00:00",
+      "source": {
+        "name": "MDR.de",
+        "url": "https://www.mdr.de"
+      }
+    },
+    {
       "id": "6bfae08588af",
       "title": "Neue Medikamente: Hoffnung für Menschen mit Bluthochdruck, Übergewicht und Krebs - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOEpJR3ZTVm5menNfVm41UEo5R3BMZEtYUjg2ZmQyeXNIRVB4Y2VaVEl4amk4XzBjSmVKVk5pYTdyb2tJNWpMbU94Ung0ZjBMR3dpMk1EYV9KSmdpbkNaN3cwa1lGanl6ZktNVExDY09kOHNvU2dTQkh2ZTBfLUtwLWttRV9jV1FPMWQ0cUJzaklrMlczaXVsdDhsLWlibFJGSzllMGN2YzRTRjhMWVVzSjRJXzhSQWM?oc=5",
@@ -834,13 +854,13 @@
       }
     },
     {
-      "id": "0791514ec89d",
-      "title": "Steigende Arzneimittelkosten: Gesundheitsministerin Warken will Zugang zu neuen Medikamenten für alle erhalten - MDR.de",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPenF3ckVCSXl3ZmNka21FSTVtdkdoeGRZaEQ4Nnc4ZktKZk16U0ZUd19vYWRsZDdQUDZZLVFCd2k2anZScnRpSnJtXzRCbEozRm9fMEpkcVhjZ3dwT21zQVZPX2MybWdSUHBNeTZ3TmtESDFOWFNfM0lPV1Z4M3BmUTNkLTRfVGgxRUh4OWNOblh5ZGdCaUs5WXZmR2VVaVV5d1VHR1BHUFhubGtCWlFyZWk3VnhWZjdpWE9jNE5B?oc=5",
-      "published": "2025-12-09T08:00:00+00:00",
+      "id": "e7985331799a",
+      "title": "Diclofenac: Studie mit über 1 Million Patienten zeigt 50 Prozent mehr Herzrisiko - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTWVXaTAtQk1wd3FDNm05ZFY4aGdZSHNNejh3OXdBS25Ldzlna3pNaE9Vc0Yzc05mSzBwWHBtVkxBNk5zMzhYWUJydDlqMTRkcGdMSmNrTmd1Y3NWdkVPZ3VoOURrN3NhTkVyOFRfTXdiZ1RXTUVXU2N1NmFVZFRRc0dZTG5CRE9wbG1iUDhpb1o5Qk4xTkhNWk45TUxRRFVSaXNpdGtsMEo1dmdLcDVVZDFlZXJUMjNqTVNGbEgzRnRYUy1vVUpkZw?oc=5",
+      "published": "2026-10-30T00:18:07+00:00",
       "source": {
-        "name": "MDR.de",
-        "url": "https://www.mdr.de"
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -981,26 +1001,6 @@
       "source": {
         "name": "Presseportal",
         "url": "https://www.presseportal.de"
-      }
-    },
-    {
-      "id": "08d257ba8207",
-      "title": "Hessisches Landesamt für Gesundheit u. Pflege / Zoll FFM - 1000 Pillen Zopiclon aus Indien - Freispruch statt Geldstrafe - Anwalt.de",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQZDlsbHlFWmE2ZHVlRGlObHE5ek82dWFyd2IxWDlObUdVTTlUZ0dVYWQwYjNpVzNlRHEwbTNxeHZlMUMzelpUWkRWQWhPaGhvSUNzRk82dkxHeG9FLS01a09DNFJHZW1oMXB4dnJvbjFhWkl0dzRvaGFtdkJUYk1XQS1wYnFLcnBEVWxlRUpXR1ZISGM5c1NkWGZ3Vk5jSUcxM255SjI5bllnMDFfeV8zNlZMeVJjZmw5eG4tRVJsOXVENktFelJtVnFsdFFGUjJ4eVF6clZtZC1jVHk1X1EwNWdhLXA0VmdyenNEcm9VUGtuZw?oc=5",
-      "published": "2026-01-12T08:00:00+00:00",
-      "source": {
-        "name": "Anwalt.de",
-        "url": "https://www.anwalt.de"
-      }
-    },
-    {
-      "id": "fac15a53f714",
-      "title": "Sultiam: Gibt es bald ein Medikament gegen Schlafapnoe? - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQclk4TzJaNmtKc0FYX3VJOW1LbkVyM3JmbHh5MlZBU0ZVdlQ2c0k2Q1BNTGp3VjBodllfaWFKeWJsejdpaXRFNXZ0bUZIMExOcWVYVlNTMWZWQi1DRldfa3hRMmxPaXpneXVsTXo0X2EwamVMLU5faDk5bUVtSzR1NzljdWQybXFJOC1EMFVETzkyWm8?oc=5",
-      "published": "2026-03-16T07:00:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
       }
     }
   ]
