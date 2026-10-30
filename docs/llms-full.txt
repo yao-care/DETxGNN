@@ -25,7 +25,7 @@ Die Evidenzstufen reichen von L1 (stärkere klinische Evidenz) bis L5 (nur Model
 
 ## Beispiele für Arzneimittelberichte
 
-- Aripiprazole (L1): https://detxgnn.yao.care/drugs/aripiprazole/
+- Aripiprazole (L5): https://detxgnn.yao.care/drugs/aripiprazole/
 - Busulfan (L1): https://detxgnn.yao.care/drugs/busulfan/
 - Clofarabine (L1): https://detxgnn.yao.care/drugs/clofarabine/
 
