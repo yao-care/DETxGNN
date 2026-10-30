@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 257
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Lanadelumab: vorhergesagte neue Indikation C1-Inhibitor-Mangel (Evidenzstufe L1). Ursprüngliche Indikation: Hereditäres Angioödem"
 monitor_inn: "LANADELUMAB"
 predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
@@ -53,7 +53,7 @@ Gestützt wird dies durch **4 Phase-3-/Beobachtungsstudien mit direktem Bezug zu
 | TxGNN-Vorhersagewert | 1,0000 |
 | Evidenzlevel | L1 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
-| Anzahl Zulassungen | 1 (gültig: 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
 
 ---

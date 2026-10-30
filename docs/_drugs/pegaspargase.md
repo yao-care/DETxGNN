@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "PEGASPARGASE"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
 description: "Pegaspargase: vorhergesagte neue Indikation Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (Evidenzstufe L5). Ursprüngliche Indikation: Precursor Cell Lymphoblastic Leukem…"
@@ -53,7 +53,7 @@ Wichtig: Die vorhergesagte Indikation entspricht im Wesentlichen der bereits zug
 | TxGNN-Vorhersagewert | 0.9995 |
 | Evidenzstufe | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
-| Anzahl Zulassungen | 1 (gültig: 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails |
 
 ---

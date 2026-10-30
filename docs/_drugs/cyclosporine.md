@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 125
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
 description: "Cyclosporine: vorhergesagte neue Indikation Chronische Granulomatose, autosomal-rezessiv (granulomatous disease, chronic, autosomal recessive) (Evidenzstufe L4). Ursprüngliche Indikation: Conjunctivi…"
@@ -51,7 +51,7 @@ Ciclosporin (Cyclosporine) ist ein Calcineurin-Inhibitor, der in Deutschland bzw
 | TxGNN-Vorhersagewert | 0.9968 |
 | Evidenzstufe | L4 (laut Datenlage; faktisch kaum Evidenz, praktisch nahe L5) |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
-| Anzahl Zulassungen | 3 (gültig: 3) |
+| Anzahl der Zulassungen | 3 (gültig: 3) |
 | Empfohlene Entscheidung | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 129
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Dantrolen: vorhergesagte neue Indikation moderate multiminicore disease with hand involvement (mittelschwere Multiminicore-Krankheit mit Handbeteiligung), Evidenzstufe L5"
 monitor_inn: "dantrolene"
 predicted_indications: ["moderate multiminicore disease with hand involvement", "King-Denborough syndrome", "congenital multicore myopathy with external ophthalmoplegia", "central core myopathy", "hypokalemic periodic paralysis", "thyrotoxic periodic paralysis", "myopathy, centronuclear"]
@@ -51,7 +51,7 @@ Dantrolen wurde ursprünglich zur Behandlung der Malignen Hyperthermie zugelasse
 | TxGNN-Vorhersagewert | 0,9990 |
 | Evidenzniveau | L5 laut Bewertung der Datenbasis (leitlinienbasiert; es sind jedoch keine Phase-3-RCTs aufgeführt, streng nach den Regeln entspräche dies eher L3) |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
-| Anzahl Zulassungen | 1 (gültig: 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails |
 
 ---

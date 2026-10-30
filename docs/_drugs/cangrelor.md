@@ -5,7 +5,7 @@ layout: default
 title: Cangrelor
 parent: Nur bekannte Anwendungen (keine neuen Vorhersagen)
 nav_order: 95
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,7 +41,7 @@ Evidenzniveau: **N/A** | Vorhergesagte Indikationen: **0**
 | Element | Inhalt |
 |---------|--------|
 | Ursprüngliche Indikation | Acute Coronary Syndrome;Vascular Surgical Procedures |
-| Marktstatus | Im Handel (gültige Zulassungen: 1 von 1) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
 
 ---

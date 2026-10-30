@@ -7,7 +7,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 378
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 ---
 
@@ -50,7 +50,7 @@ Raloxifenhydrochlorid ist ein Arzneistoff mit bestätigtem DrugBank-Eintrag, abe
 | Vorhergesagte neue Indikation | Keine TxGNN-Vorhersagen generiert |
 | TxGNN-Vorhersage-Score | — |
 | Evidenzstufe | L5 (Modellvorhersage noch nicht verfügbar; keine unterstützenden Studien) |
-| Marktstatus | Im Handel (gültige Zulassungen: 2 von 3) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 3) |
 | Anzahl der Zulassungen | 3 (gültig: 2) |
 | Empfohlene Entscheidung | **Zurückstellen** |
 

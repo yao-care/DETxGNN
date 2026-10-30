@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 499
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "VILDAGLIPTIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Vildagliptin: vorhergesagte neue Indikation Fokales Stiff-Limb-Syndrom (focal stiff limb syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes Mellitus, Type 2"
@@ -51,7 +51,7 @@ Vildagliptin ist ein oraler DPP-4-Hemmer, der ursprünglich zur Behandlung des *
 | TxGNN-Vorhersagewert | 0.9988 |
 | Evidenzlevel | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 7 von 7) |
-| Anzahl Zulassungen | 7 (gültig: 7) |
+| Anzahl der Zulassungen | 7 (gültig: 7) |
 | Empfohlene Entscheidung | Hold |
 
 ---
