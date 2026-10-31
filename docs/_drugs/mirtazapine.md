@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 303
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "MIRTAZAPINE"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
 description: "Mirtazapine: vorhergesagte neue Indikation Ohdo-Syndrom und Varianten (Ohdo syndrome and variants) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
@@ -52,8 +52,8 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 | Vorhergesagte neue Indikation | Ohdo-Syndrom und Varianten (Ohdo syndrome and variants) |
 | TxGNN-Vorhersagewert | 0.9942 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
-| Anzahl der Zulassungen | 1 (gültig: 1) |
+| Marktstatus in Deutschland | Keine zentrale EU-Zulassung (EMA) erfasst – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten |
+| Anzahl der Zulassungen | 0 (gültig: 0) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -116,7 +116,7 @@ Hinweis: Angaben aus der Packungsbeilage (Warnhinweise und Gegenanzeigen) liegen
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem Rechenmodell (Evidenzstufe L5) ohne klinische Studien, Publikationen oder belegten Wirkmechanismus. In Deutschland ist das Arzneimittel zudem im Handel, 1 von 1 Zulassung ist gültig. Bei der dritten Vorhersage kommen die Zielgruppe (Säuglinge) und der spontane Verlauf der Erkrankung als zusätzliche Bedenken hinzu.
+Die Vorhersage beruht ausschließlich auf einem Rechenmodell (Evidenzstufe L5) ohne klinische Studien, Publikationen oder belegten Wirkmechanismus. Eine zentrale EU-Zulassung (EMA) ist nicht erfasst; nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten. Bei der dritten Vorhersage kommen die Zielgruppe (Säuglinge) und der spontane Verlauf der Erkrankung als zusätzliche Bedenken hinzu.
 
 **Für ein Weiterkommen ist Folgendes erforderlich:**
 - Daten zum Wirkmechanismus (MOA) von Mirtazapin

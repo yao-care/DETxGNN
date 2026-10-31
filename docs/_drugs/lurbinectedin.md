@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 282
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Lurbinectedin: vorhergesagte neue Indikation Multiple endokrine Neoplasie (Evidenzstufe L5). Ursprüngliche Indikation: Kleinzelliges Lungenkarzinom"
 monitor_inn: "LURBINECTEDIN"
 predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "cytomegalovirus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "malignant catarrh", "infectious bovine rhinotracheitis", "Mills syndrome"]
@@ -50,8 +50,8 @@ Lurbinectedin wurde ursprünglich zur Behandlung des kleinzelligen Lungenkarzino
 | Vorhergesagte neue Indikation | Multiple endokrine Neoplasie |
 | TxGNN-Vorhersagewert | 0,9944 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Nur erloschene Zulassung |
-| Anzahl der Zulassungen | 1 (erloschen) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
+| Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -82,7 +82,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/006673 | Zepzelca (Pharma Mar S.A.) | – | Kleinzelliges Lungenkarzinom (Status: erloschen) |
+| EMEA/H/C/006673 | Zepzelca (Pharma Mar S.A.) | – | Kleinzelliges Lungenkarzinom (Status: gültig) |
 
 ---
 
@@ -120,7 +120,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Für multiple endokrine Neoplasie gibt es weder klinische Studien noch Literatur; die Vorhersage ist rein modellbasiert (L5). Hinzu kommen die erloschene deutsche Zulassung und die fehlende Sicherheitsbewertung anhand der Fachinformation.
+Für multiple endokrine Neoplasie gibt es weder klinische Studien noch Literatur; die Vorhersage ist rein modellbasiert (L5). Hinzu kommt die fehlende Sicherheitsbewertung anhand der Fachinformation.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM bzw. der EMA, da die Sicherheitsprüfung sonst nicht fortgesetzt werden kann
