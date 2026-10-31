@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 292
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Meropenem: vorhergesagte neue Indikation Bakterielle Arthritis (Evidenzstufe L4). Ursprüngliche Indikation: Harnwegsinfektionen, Bakteriämie, bakterielle Infektionen…"
 monitor_inn: "Meropenem"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus aureus infection", "laryngitis", "paratyphoid fever", "Lyme disease", "Peptostreptococcus infectious disease", "Ureaplasma urethritis", "gonococcal urethritis"]
@@ -135,14 +135,13 @@ Für Warnhinweise und Kontraindikationen laut Fachinformation bitte die Packungs
 **Entscheidung: Hold**
 
 **Begründung:**
-Für bakterielle Arthritis existieren keine registrierten Studien. Die Evidenz beschränkt sich auf Fallberichte, Kohorten, Übersichten und Laborarbeiten (L4). Zudem ist der Marktstatus in Deutschland „nur erloschen“, und Carbapeneme sollten aus Gründen des Antibiotic Stewardship zurückhaltend eingesetzt werden. Die Harnwegsinfektion ist zwar gut belegt (L1, „Proceed with Guardrails“), entspricht aber der bestehenden Zulassung und ist keine echte Neuverwendung.
+Für bakterielle Arthritis existieren keine registrierten Studien. Die Evidenz beschränkt sich auf Fallberichte, Kohorten, Übersichten und Laborarbeiten (L4). Die Harnwegsinfektion ist zwar gut belegt (L1, „Proceed with Guardrails“), entspricht aber der bestehenden Zulassung und ist keine echte Neuverwendung.
 
 **Für ein Weiterkommen wird benötigt:**
 - Fachinformation des BfArM mit Warnhinweisen und Kontraindikationen (derzeit fehlend, blockierend für die Sicherheitsprüfung)
 - Detaillierte Wirkmechanismus-Daten (z. B. aus DrugBank)
 - Prospektive Studien oder Registerdaten zu Meropenem bei Knochen- und Gelenkinfektionen
 - Prüfung der Resistenzlage und Stewardship-Vorgaben sowie Dosisanpassung bei Niereninsuffizienz
-- Klärung des Zulassungsstatus in Deutschland (derzeit nur erloschene Zulassung)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

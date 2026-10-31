@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 161
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Elafibranor: vorhergesagte neue Indikation Amenorrhoe (Evidenzstufe L5). Ursprüngliche Indikation: Biliäre Leberzirrhose (Liver Cirrhosis, Biliary)"
 monitor_inn: "ELAFIBRANOR"
 predicted_indications: ["amenorrhea (disease)"]
@@ -105,7 +105,7 @@ Hierbei handelt es sich um Zielstrukturen der Substanz, nicht um klinisch bewert
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert, ohne klinische Studien oder Publikationen (Evidenzniveau L5). Der Mechanismus ist nicht belegt, und Amenorrhoe ist als Indikation unspezifisch. Zudem besteht in Deutschland laut den Daten nur eine erloschene Zulassung.
+Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert, ohne klinische Studien oder Publikationen (Evidenzniveau L5). Der Mechanismus ist nicht belegt, und Amenorrhoe ist als Indikation unspezifisch.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Vollständige Wirkmechanismus-Daten (MOA), z. B. über die DrugBank-API

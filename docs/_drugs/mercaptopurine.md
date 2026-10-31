@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 291
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "mercaptopurine"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
 description: "Mercaptopurine: vorhergesagte neue Indikation Myeloische Leukämie (myeloid leukemia) (Evidenzstufe L2). Ursprüngliche Indikation: Leukemia, Lymphoid"
@@ -157,7 +157,6 @@ Für myeloische Leukämie ist der mechanistische Zusammenhang plausibel, die kli
 - Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM bzw. der EMA einholen; diese Lücke blockiert aktuell die Sicherheitsbewertung.
 - Detaillierte Angaben zum Wirkmechanismus (z. B. aus DrugBank) ergänzen.
 - Mercaptopurin-spezifische Daten bei AML (Ergebnisse von NCT05506332 und NCT06199557, Erhaltungstherapie bei AML) auswerten.
-- Klärung des Zulassungs- und Versorgungsstatus in Deutschland, da nur eine erloschene Zulassung vorliegt.
 - Bei einer Weiterverfolgung: TPMT-/NUDT15-Genotypisierung, Metabolitenmonitoring und ein Management der Wechselwirkungen (v. a. Allopurinol) einplanen.
 ## Haftungsausschluss
 

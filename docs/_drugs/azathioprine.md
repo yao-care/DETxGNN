@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 50
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 monitor_inn: "AZATHIOPRINE"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
 description: "Azathioprine: vorhergesagte neue Indikation Colobomatous microphthalmia-rhizomelic dysplasia syndrome (Evidenzstufe L5). Ursprüngliche Indikation: Graft Rejection"
@@ -142,7 +142,6 @@ Ergänzend bitte die Fachinformation heranziehen.
 **Für das weitere Vorgehen erforderlich:**
 - Fachinformation (Warnhinweise, Kontraindikationen) aus der BfArM-Quelle beschaffen, da diese Daten fehlen und die Sicherheitsprüfung sonst nicht abgeschlossen werden kann.
 - Detaillierte Wirkmechanismusdaten aus der Arzneistoffdatenbank ergänzen.
-- Klären, dass in Deutschland nur eine erloschene Zulassung vorliegt, und den regulatorischen Status der Indikation CED prüfen.
 - Sicherheitsüberwachungsplan (TPMT/NUDT15-Testung, Blutbild, Leberwerte, Malignomrisiko) für die Zielpopulation festlegen.
 ## Haftungsausschluss
 

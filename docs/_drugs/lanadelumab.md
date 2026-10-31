@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 257
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Lanadelumab: vorhergesagte neue Indikation C1-Inhibitor-Mangel (Evidenzstufe L1). Ursprüngliche Indikation: Hereditäres Angioödem"
 monitor_inn: "LANADELUMAB"
 predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
@@ -123,7 +123,7 @@ Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 **Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Für C1-Inhibitor-Mangel (HAE Typ I/II) liegen eine placebokontrollierte RCT, mehrere abgeschlossene Phase-3-Studien und umfangreiche Praxisdaten vor. Es handelt sich allerdings um die bereits zugelassene Indikation und nicht um eine echte Neuanwendung. Der aktuelle deutsche Zulassungsstatus ist „nur erloschen“.
+Für C1-Inhibitor-Mangel (HAE Typ I/II) liegen eine placebokontrollierte RCT, mehrere abgeschlossene Phase-3-Studien und umfangreiche Praxisdaten vor. Es handelt sich allerdings um die bereits zugelassene Indikation und nicht um eine echte Neuanwendung.
 
 **Für das weitere Vorgehen erforderlich:**
 - Prüfung des aktuellen Zulassungs- und Verfügbarkeitsstatus in Deutschland (EU-Zulassung, BfArM)

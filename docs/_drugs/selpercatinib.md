@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 423
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Selpercatinib: vorhergesagte neue Indikation Pulmonale Hypertonie (Evidenzstufe L5). Ursprüngliche Indikation: Nicht-kleinzelliges Lungenkarzinom"
 monitor_inn: "SELPERCATINIB"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura"]
@@ -131,7 +131,6 @@ Die Vorhersage zur pulmonalen Hypertonie (Score 0.9918) stammt vom TxGNN-Modell 
 - Daten zum Wirkmechanismus (MOA) und Prüfung einer biologischen Verbindung zwischen RET-Signalweg und pulmonaler Hypertonie
 - Präklinische Studien (z. B. Modelle des pulmonalen Gefäßumbaus)
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) zur Sicherheitsbewertung, da diese Daten derzeit fehlen
-- Klärung des Zulassungsstatus in Deutschland (aktuell nur erloschene Zulassung)
 - Prüfung der Wechselwirkungen, insbesondere mit Säureblockern und CYP3A-beeinflussenden Substanzen, bei Patienten mit pulmonaler Hypertonie
 ## Haftungsausschluss
 

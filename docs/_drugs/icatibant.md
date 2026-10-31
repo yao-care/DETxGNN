@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 226
 evidence_level: L1
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Icatibant: vorhergesagte neue Indikation C1-Inhibitor-Mangel (Evidenzstufe L1). Ursprüngliche Indikation: Hereditäres Angioödem"
 monitor_inn: "ICATIBANT"
 predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
@@ -126,7 +126,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Mehrere abgeschlossene Phase-3-Studien, darunter randomisierte, kontrollierte Studien, belegen die Wirksamkeit bei C1-INH-Mangel-bedingtem hereditärem Angioödem. Die Indikation ist im Kern On-Label. Für den erworbenen C1-INH-Mangel ist die Evidenz begrenzt, und in Deutschland bestehen derzeit nur erloschene Zulassungen.
+Mehrere abgeschlossene Phase-3-Studien, darunter randomisierte, kontrollierte Studien, belegen die Wirksamkeit bei C1-INH-Mangel-bedingtem hereditärem Angioödem. Die Indikation ist im Kern On-Label.
 
 **Für das weitere Vorgehen erforderlich:**
 - Klärung des aktuellen Zulassungs- und Vermarktungsstatus in Deutschland (Zulassungen erloschen)

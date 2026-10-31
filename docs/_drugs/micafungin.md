@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 299
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Micafungin: vorhergesagte neue Indikation Harnwegsinfektion (urinary tract infection) (Evidenzstufe L3). Ursprüngliche Indikation: Candidiasis"
 monitor_inn: "MICAFUNGIN"
 predicted_indications: ["urinary tract infection (disease)"]
@@ -125,7 +125,6 @@ Die Evidenz besteht fast ausschließlich aus Fallberichten, Fallserien und klein
 - Daten zum Wirkmechanismus aus DrugBank ergänzen
 - Pharmakokinetik von Micafungin im Urin prüfen und die Befunde aus PMID 27424599 bestätigen
 - Kontrollierte Studien oder systematische Auswertungen zur Wirksamkeit bei Candida-Harnwegsinfektionen identifizieren bzw. planen
-- Klärung des Zulassungsstatus in Deutschland (aktuell nur erloschene Zulassung)
 - Bewertung der Nierenfunktion als Risikofaktor und Kontraindikation in der Zielpopulation
 ## Haftungsausschluss
 

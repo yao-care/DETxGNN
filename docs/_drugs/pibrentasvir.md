@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 358
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "PIBRENTASVIR"
 predicted_indications: ["hepatitis B virus infection", "HIV infectious disease", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Pibrentasvir: vorhergesagte neue Indikation Hepatitis-B-Virusinfektion (hepatitis B virus infection) (Evidenzstufe L4). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
@@ -118,7 +118,7 @@ Aus der Literatur ergibt sich ein relevanter Hinweis: Bei HBV/HCV-Koinfektion is
 **Entscheidung: Hold**
 
 **Begründung:**
-Für Hepatitis B gibt es weder klinische Studien noch HBV-spezifische Literatur, und es fehlt ein plausibler gemeinsamer Wirkmechanismus (kein NS5A bei HBV). Der hohe TxGNN-Wert ist eine reine Modellvorhersage. Auch die übrigen Vorhersagen (HIV, HAV, HEV u. a.) sind nicht belegt. Zudem besteht in Deutschland nur eine erloschene Zulassung für Maviret.
+Für Hepatitis B gibt es weder klinische Studien noch HBV-spezifische Literatur, und es fehlt ein plausibler gemeinsamer Wirkmechanismus (kein NS5A bei HBV). Der hohe TxGNN-Wert ist eine reine Modellvorhersage. Auch die übrigen Vorhersagen (HIV, HAV, HEV u. a.) sind nicht belegt.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Beschaffung und Auswertung der Packungsbeilage (Warnhinweise und Gegenanzeigen), da diese Daten fehlen und den Sicherheitsabgleich blockieren

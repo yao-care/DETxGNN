@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 436
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "SOTATERCEPT"
 predicted_indications: ["acute lymphoblastic leukemia (disease)", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis", "diabetic cataract", "HER2 positive breast carcinoma", "transitional cell carcinoma", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant"]
 description: "Sotatercept: vorhergesagte neue Indikation Akute lymphoblastische Leukämie (acute lymphoblastic leukemia (disease)) (Evidenzstufe L5). Ursprüngliche Indikation: Hypertension, Pulmonary"
@@ -108,7 +108,7 @@ Bitte die Packungsbeilage für Sicherheitsinformationen heranziehen. Für Wechse
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem Modellwert ohne klinische Studien, Literatur oder belegten Mechanismus (Evidenzgrad L5). Zudem ist die Zulassung in Deutschland laut den Daten nur noch als erloschen geführt, und Sicherheitsdaten fehlen.
+Die Vorhersage beruht ausschließlich auf einem Modellwert ohne klinische Studien, Literatur oder belegten Mechanismus (Evidenzgrad L5).
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Prüfung des tatsächlichen Zulassungsstatus von Winrevair (der Status „erloschen“ sollte verifiziert werden)

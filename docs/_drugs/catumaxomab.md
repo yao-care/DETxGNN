@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 104
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Catumaxomab: vorhergesagte neue Indikation Schwere nicht-proliferative diabetische Retinopathie (Evidenzstufe L5). Ursprüngliche Indikation: Aszites"
 monitor_inn: "CATUMAXOMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "drug-induced osteoporosis", "diabetic retinopathy"]
@@ -116,7 +116,7 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) bitte die Fa
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzniveau L5) ohne klinische Studien, Literatur oder plausiblen biologischen Mechanismus. Zudem ist die Zulassung in Deutschland derzeit nur als erloschen geführt, und das Sicherheitsprofil spricht gegen eine Anwendung bei Netzhauterkrankungen.
+Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzniveau L5) ohne klinische Studien, Literatur oder plausiblen biologischen Mechanismus.
 
 **Für ein Weiterkommen sind folgende Schritte erforderlich:**
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da ohne diese kein Sicherheitsscreening möglich ist

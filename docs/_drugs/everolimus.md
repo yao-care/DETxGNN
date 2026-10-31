@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 187
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Everolimus: vorhergesagte neue Indikation Liposarkom (Evidenzstufe L2). Ursprüngliche Indikation: Nierenzellkarzinom, Mammakarzinom, Pankreastumoren (Afinitor)"
 monitor_inn: "EVEROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
@@ -137,7 +137,7 @@ Die Fachinformation zu Warnhinweisen und Gegenanzeigen liegt nicht vor und muss 
 **Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Für das Liposarkom liegt eine prospektive Phase-2-Studie (n = 48) mit veröffentlichten Ergebnissen vor. Sie ist jedoch einarmig und untersucht eine Kombination, sodass der Beitrag von Everolimus allein nicht abgrenzbar ist. Der Evidenzgrad L2 stützt eine weitere Prüfung unter Auflagen, aber keine uneingeschränkte Freigabe. Zudem sind in Deutschland derzeit nur erloschene Zulassungen gelistet.
+Für das Liposarkom liegt eine prospektive Phase-2-Studie (n = 48) mit veröffentlichten Ergebnissen vor. Sie ist jedoch einarmig und untersucht eine Kombination, sodass der Beitrag von Everolimus allein nicht abgrenzbar ist. Der Evidenzgrad L2 stützt eine weitere Prüfung unter Auflagen, aber keine uneingeschränkte Freigabe.
 
 **Für das weitere Vorgehen wird Folgendes benötigt:**
 - Fachinformation (Warnhinweise und Gegenanzeigen), da diese Sicherheitsdaten fehlen und den Übergang zur Sicherheitsprüfung blockieren

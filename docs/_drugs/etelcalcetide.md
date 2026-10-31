@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 184
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Etelcalcetide: vorhergesagte neue Indikation Hyperphosphatämie (Evidenzstufe L3). Ursprüngliche Indikation: Sekundärer Hyperparathyreoidismus"
 monitor_inn: "Etelcalcetide"
 predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices without bleeding", "esophageal varices with bleeding", "varicose disease"]
@@ -111,7 +111,7 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) ist die Fach
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Verbindung zwischen Etelcalcetid und Hyperphosphatämie ist biologisch plausibel, aber vermutlich indirekt. Es gibt keine registrierten klinischen Studien, die Literatur besteht überwiegend aus Übersichtsarbeiten und Fallberichten, und der Marktstatus in Deutschland ist nur „erloschen“.
+Die Verbindung zwischen Etelcalcetid und Hyperphosphatämie ist biologisch plausibel, aber vermutlich indirekt.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Auswertung der Phosphat-Endpunkte aus bestehenden RCTs (z. B. DUET) und Zulassungsstudien

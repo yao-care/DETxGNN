@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 129
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Dantrolen: vorhergesagte neue Indikation moderate multiminicore disease with hand involvement (mittelschwere Multiminicore-Krankheit mit Handbeteiligung), Evidenzstufe L5"
 monitor_inn: "dantrolene"
 predicted_indications: ["moderate multiminicore disease with hand involvement", "King-Denborough syndrome", "congenital multicore myopathy with external ophthalmoplegia", "central core myopathy", "hypokalemic periodic paralysis", "thyrotoxic periodic paralysis", "myopathy, centronuclear"]
@@ -62,7 +62,7 @@ Zu Dantrolen liegen in den für diesen Bericht zusammengestellten Daten keine de
 
 Da die vorhergesagte Erkrankung mit der Originalindikation praktisch identisch ist, ist die Vorhersage plausibel, liefert aber keine neue Therapieoption. Interessanter sind die weiteren Vorhersagen mit RYR1-Bezug: King-Denborough-Syndrom, zentrale Kernmyopathie (Central Core Disease), Multiminicore-Erkrankung und zentronukleäre Myopathie. Hier würde Dantrolen vor allem das MH-Risiko senken, nicht die zugrunde liegende Myopathie behandeln. Für periodische Lähmungen (hypokaliämisch, thyreotoxisch) ist ein Mechanismus anhand der vorliegenden Daten nicht erkennbar.
 
-Hinweis: Der Marktstatus „nur erloschen" sollte geprüft werden, da andere Dantrolen-Formulierungen (z. B. Ryanodex) laut Bewertung erhältlich sind.
+B. Ryanodex) laut Bewertung erhältlich sind.
 
 ---
 

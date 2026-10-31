@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 173
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Epinephrine: vorhergesagte neue Indikation Obstruktive Lungenerkrankung (Evidenzstufe L1). Ursprüngliche Indikation: Anaphylaxie"
 monitor_inn: "EPINEPHRINE"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
@@ -62,7 +62,7 @@ Zu dem Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Date
 
 Die ursprüngliche Indikation (Anaphylaxie) und die vorhergesagte Indikation haben einen gemeinsamen pathophysiologischen Anteil: In beiden Fällen kommt es zu Bronchospasmus und Schwellung der Atemwege. Dieselben Rezeptorwirkungen, die bei der Anaphylaxie lebensrettend sind, wirken mechanistisch auch bei Asthma und Bronchiolitis.
 
-Die Anwendung wird durch systemische Beta-1-Effekte (Tachykardie, Arrhythmien) begrenzt. Zudem ist der Marktstatus „nur erloschen“ für inhalative Formulierungen regulatorisch zu klären.
+Die Anwendung wird durch systemische Beta-1-Effekte (Tachykardie, Arrhythmien) begrenzt.
 
 ---
 
@@ -127,7 +127,7 @@ Für Warnhinweise und Gegenanzeigen aus der Fachinformation siehe die Packungsbe
 **Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Mehrere abgeschlossene Phase-3-Studien zu inhalativem Epinephrin bei Asthma stützen die Vorhersage; der Mechanismus ist plausibel. Die Einschränkungen betreffen die kardiovaskuläre Sicherheit, die hohe Zahl an Wechselwirkungen und den Marktstatus „nur erloschen“.
+Mehrere abgeschlossene Phase-3-Studien zu inhalativem Epinephrin bei Asthma stützen die Vorhersage; der Mechanismus ist plausibel.
 
 **Für das weitere Vorgehen sind erforderlich:**
 - Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) des BfArM, da diese Sicherheitsdaten fehlen

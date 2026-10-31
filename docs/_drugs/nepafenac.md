@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 310
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Nepafenac: vorhergesagte neue Indikation Augenerkrankung (eye disease) (Evidenzstufe L1). Ursprüngliche Indikation: Postoperative Schmerzen"
 monitor_inn: "NEPAFENAC"
 predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simplex of the scalp", "seborrheic keratosis", "von Hippel anomaly", "congenital hypotrichosis milia", "mcpherson robertson cammarano syndrome", "lagophthalmos", "vulvar inverted follicular keratosis", "vitreous detachment"]
@@ -134,7 +134,7 @@ Für weitere Sicherheitsinformationen siehe die Packungsbeilage.
 Für Nepafenac liegen umfangreiche Phase-3-Studien mit abgeschlossener Auswertung vor (Entzündung und Schmerz nach Kataraktoperation, Makulaödem bei Diabetikern), sodass die Evidenz für die konkreten ophthalmologischen Anwendungen stark ist. Die Vorhersage „Augenerkrankung“ ist jedoch unspezifisch und weitgehend identisch mit dem bekannten Einsatz; zudem ist die deutsche bzw. europäische Zulassung erloschen.
 
 **Für das weitere Vorgehen sind erforderlich:**
-- Klärung des Zulassungs- und Vermarktungsstatus (derzeit nur erloschene Zulassung) sowie Prüfung, ob aktuelle Nepafenac-Präparate (z. B. Ilevro) in Deutschland verfügbar sind
+B. Ilevro) in Deutschland verfügbar sind
 - Präzisierung der Zielindikation (z. B. Makulaödem-Prävention, postoperative Entzündung) statt der breiten Kategorie „Augenerkrankung“
 - Auswertung der Warnhinweise und Kontraindikationen aus der Packungsbeilage (derzeit nicht verfügbar, blockierende Datenlücke für die Sicherheitsbewertung)
 - Daten zum Wirkmechanismus aus DrugBank

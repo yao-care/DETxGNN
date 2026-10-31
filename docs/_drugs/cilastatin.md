@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 116
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Cilastatin: vorhergesagte neue Indikation Staphylococcus-aureus-Infektion (Evidenzstufe L3). Ursprüngliche Indikation: Gramnegative bakterielle Infektionen"
 monitor_inn: "Cilastatin"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
@@ -114,7 +114,6 @@ Für Warnhinweise und gesicherte Kontraindikationen siehe die Packungsbeilage.
 
 **Begründung:**
 - Die Evidenz für S. aureus stammt aus kleinen, überwiegend historischen Studien, Fallberichten und Labordaten zur Kombination Imipenem/Cilastatin. Die einzige Studie ist indirekt, und ein eigenständiger Beitrag von Cilastatin ist nicht belegt.
-- Der Marktstatus ist „nur erloschen“.
 
 **Für ein Weiterverfolgen ist Folgendes nötig:**
 - Auswertung der Packungsbeilage (Warnhinweise und Kontraindikationen) zur Sicherheitsprüfung

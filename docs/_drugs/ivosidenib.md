@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 252
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Ivosidenib: vorhergesagte neue Indikation Bulbäre Poliomyelitis (Evidenzstufe L5). Ursprüngliche Indikation: Akute myeloische Leukämie"
 monitor_inn: "IVOSIDENIB"
 predicted_indications: ["bulbar polio"]
@@ -129,7 +129,6 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 - Fachinformation (BfArM) mit Warnhinweisen und Gegenanzeigen beschaffen und auswerten (blockierende Datenlücke für die Sicherheitsprüfung)
 - Daten zum Wirkmechanismus aus DrugBank ergänzen
 - Für die AML/MDS-Untergruppen: Literatur- und Studienrecherche zu IDH1-mutierten therapieassoziierten myeloischen Neoplasien
-- Aktuellen Verfügbarkeitsstatus in Deutschland prüfen, da nur eine erloschene Zulassung vorliegt
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

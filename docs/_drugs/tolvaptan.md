@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "TOLVAPTAN"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
 description: "Tolvaptan: vorhergesagte neue Indikation Renal-hepatic-pancreatic dysplasia (Evidenzstufe L5). Ursprüngliche Indikation: Inappropriate ADH Syndrome"
@@ -125,7 +125,6 @@ Für ADPKD liegen zwei Phase-3-RCTs und mehrere Übersichtsarbeiten vor, und der
 - Bestätigung des Genotyps (GANAB-assoziierte PKD3)
 - Engmaschiges Monitoring der Leberenzyme wegen des bekannten Hepatotoxizitätsrisikos
 - Gesonderte Beurteilung des möglichen Nutzens bei Leberzysten
-- Prüfung der regionalen Verfügbarkeit, da in Deutschland nur erloschene Zulassungen vorliegen
 - Auswertung der Packungsbeilage (Warnhinweise und Kontraindikationen)
 - Daten zum detaillierten Wirkmechanismus (MOA)
 

@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 254
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Ketorolac: vorhergesagte neue Indikation Kopfschmerzerkrankung (Headache Disorder) (Evidenzstufe L1). Ursprüngliche Indikation: Intraokulare Linsenimplantation"
 monitor_inn: "KETOROLAC"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
@@ -116,7 +116,6 @@ Für Warnhinweise und Kontraindikationen gemäß Fachinformation: Bitte die Pack
 ## Weitere vorhergesagte Indikationen (zur Einordnung)
 
 - **Rosazea-Konjunktivitis** (TxGNN 0,9940): Nur Modellvorhersage, keine Studien oder Literatur (L5) – Entscheidung: Hold.
-- **Trigeminoautonomer Kopfschmerz** (TxGNN 0,9939): Nur indirekte Evidenz, eine zurückgezogene Studie ohne Teilnehmer (L4); Clusterkopfschmerz spricht allgemein schlecht auf Standard-NSAR an – Entscheidung: Hold.
 
 ## Fazit und nächste Schritte
 

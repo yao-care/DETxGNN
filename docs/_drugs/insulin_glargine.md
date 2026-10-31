@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 242
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 description: "Insulin Glargine: vorhergesagte neue Indikation Autoimmune Oophoritis (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes mellitus"
 monitor_inn: "INSULIN GLARGINE"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
@@ -133,7 +133,6 @@ Für die Vorhersage autoimmune Oophoritis gibt es keine klinischen Studien, kein
 **Für ein Weiterkommen sind erforderlich:**
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da dieser Datenpunkt derzeit eine blockierende Lücke für die Sicherheitsprüfung darstellt
 - Detaillierte Wirkmechanismus-Daten (MOA), z. B. aus DrugBank
-- Klärung des Zulassungs- und Marktstatus in Deutschland (aktuell nur erloschene Zulassungen)
 - Gezielte Literaturrecherche zur autoimmunen Oophoritis und zu Autoimmun-Komorbiditäten
 - Falls weiterverfolgt, wäre allenfalls die Pankreasagenesie (L4) als Forschungsfrage relevant, wobei es sich um Insulinersatz im Rahmen der bestehenden Diabetes-Indikation und nicht um echtes Repurposing handelt
 ## Haftungsausschluss

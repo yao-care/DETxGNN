@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 340
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Palonosetron: vorhergesagte neue Indikation Migräne (migraine disorder) (Evidenzstufe L5). Ursprüngliche Indikation: Erbrechen, Übelkeit, Krebs (Krebstherapie-assoziiert)"
 monitor_inn: "PALONOSETRON"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
@@ -125,7 +125,6 @@ Die Vorhersage beruht allein auf Rechenmodellen. Es gibt keine klinischen Studie
 - Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM beschaffen und auswerten, da dies Voraussetzung für das Sicherheits-Screening ist
 - Systematische Literaturrecherche zu 5-HT3-Antagonisten bei Migräne und zum Kopfschmerz als Nebenwirkung
 - Präklinische oder explorative klinische Belege für einen Nutzen bei Migräne
-- Klärung der Zulassungs- und Verfügbarkeitslage in Deutschland (derzeit nur erloschene Zulassungen)
 - Bewertung der Wechselwirkungen mit Triptanen und der QT-Risiken
 ## Haftungsausschluss
 

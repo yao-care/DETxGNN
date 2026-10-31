@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 156
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Eculizumab: vorhergesagte neue Indikation Zyklische Hämatopoese (Evidenzstufe L5). Ursprüngliche Indikation: Paroxysmale nächtliche Hämoglobinurie"
 monitor_inn: "ECULIZUMAB"
 predicted_indications: ["cyclic hematopoiesis", "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency", "X-linked severe congenital neutropenia", "congenital neutropenia-myelofibrosis-nephromegaly syndrome", "adult idiopathic neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "autosomal recessive severe congenital neutropenia due to CSF3R deficiency", "severe congenital neutropenia", "primary release disorder of platelets"]
@@ -120,7 +120,6 @@ Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzlevel L5). Es gibt 
 - Daten zum Wirkmechanismus (MOA) ergänzen und einen biologisch begründeten Zusammenhang zwischen C5-Hemmung und Neutropenie prüfen
 - Fachinformation des BfArM auswerten (Warnhinweise und Gegenanzeigen fehlen bislang; dies blockiert die Sicherheitsprüfung)
 - Präklinische Belege oder systematische Literaturrecherche zur vorhergesagten Indikation
-- Klärung des Zulassungsstatus in Deutschland (derzeit nur erloschene Zulassungen)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

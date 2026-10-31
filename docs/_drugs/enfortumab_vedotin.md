@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 168
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Enfortumab Vedotin: vorhergesagte neue Indikation Lepra (Evidenzstufe L5). Ursprüngliche Indikation: Übergangszellkarzinom"
 monitor_inn: "ENFORTUMAB VEDOTIN"
 predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovirus infection", "candidiasis", "cerebral infarction", "HIV infectious disease", "homozygous familial hypercholesterolemia", "malignant catarrh", "infectious bovine rhinotracheitis"]
@@ -123,7 +123,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage für Lepra beruht ausschließlich auf einem Modellscore (L5) ohne klinische Studien, Literatur oder plausiblen Wirkmechanismus. Zudem ist die Zulassung in Deutschland nur noch als erloschen geführt.
+Die Vorhersage für Lepra beruht ausschließlich auf einem Modellscore (L5) ohne klinische Studien, Literatur oder plausiblen Wirkmechanismus.
 
 **Für ein Weiterkommen wären erforderlich:**
 - Detaillierte Wirkmechanismus-Daten (MOA)

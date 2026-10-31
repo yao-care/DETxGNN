@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 439
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Susoctocog Alfa: vorhergesagte neue Indikation Primäre Thrombozyten-Freisetzungsstörung (Rang 1 des Modells… (Evidenzstufe L5). Ursprüngliche Indikation: Hämophilie A"
 monitor_inn: "SUSOCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "congenital factor XIII deficiency", "adenosine deaminase deficiency"]
@@ -115,7 +115,7 @@ Bitte die Packungsbeilage zu Sicherheitsinformationen heranziehen. Für diese Su
 **Entscheidung: Proceed with Guardrails** (für Hämophilie bzw. erworbene Hämophilie A; **Hold** für alle übrigen vorhergesagten Indikationen)
 
 **Begründung:**
-- Für die erworbene Hämophilie A gibt es einen klaren mechanistischen Hintergrund und konsistente klinische Daten (Phase-II/III-Studie, Real-World-Daten, Fallserien), jedoch keine randomisierte Phase-3-Studie, daher Evidenzniveau L3. Der Marktstatus „nur erloschene Zulassung" erfordert eine Klärung vor einer Empfehlung.
+- Für die erworbene Hämophilie A gibt es einen klaren mechanistischen Hintergrund und konsistente klinische Daten (Phase-II/III-Studie, Real-World-Daten, Fallserien), jedoch keine randomisierte Phase-3-Studie, daher Evidenzniveau L3.
 
 **Für das weitere Vorgehen erforderlich:**
 - Klärung des Zulassungsstatus in Deutschland (erloschene Zulassung) und der aktuellen Verfügbarkeit

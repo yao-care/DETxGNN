@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 163
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Eltrombopag: vorhergesagte neue Indikation HIV-Infektionskrankheit (Evidenzstufe L3). Ursprüngliche Indikation: Idiopathische thrombozytopenische Purpura"
 monitor_inn: "ELTROMBOPAG"
 predicted_indications: ["HIV infectious disease"]
@@ -122,7 +122,6 @@ Die Evidenz für HIV beschränkt sich auf Fallberichte, Übersichtsarbeiten und 
 - Kontrollierte Studien zu Eltrombopag bei HIV-assoziierter Thrombozytopenie bzw. Knochenmarkversagen
 - Klärung, ob ein antiviraler Effekt (proviraler Transkriptionsmodulator) auch über die präklinische Ebene hinaus belegt werden kann
 - Daten zum Wirkmechanismus sowie zu Warnhinweisen und Gegenanzeigen aus der Fachinformation
-- Klärung des Zulassungsstatus in Deutschland (derzeit nur erloschene Zulassung)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

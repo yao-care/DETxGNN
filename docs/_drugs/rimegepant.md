@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 401
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "RIMEGEPANT"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 description: "Rimegepant: vorhergesagte neue Indikation Atrophoderma vermiculata (Evidenzstufe L5). Ursprüngliche Indikation: Migraine Disorders"
@@ -111,7 +111,7 @@ Für Warnhinweise und Gegenanzeigen siehe die Fachinformation.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage betrifft einen Subtyp der bereits behandelten Erkrankung Migräne und stellt damit eher ein Ontologie-Artefakt als ein echtes Repurposing-Signal dar. Es gibt keine Studie speziell zur Hirnstammaura, und die deutsche bzw. europäische Zulassung ist nur noch als erloschen erfasst.
+Die Vorhersage betrifft einen Subtyp der bereits behandelten Erkrankung Migräne und stellt damit eher ein Ontologie-Artefakt als ein echtes Repurposing-Signal dar. Es gibt keine Studie speziell zur Hirnstammaura, und die deutsche bzw.
 
 **Für das weitere Vorgehen wird Folgendes benötigt:**
 - Klärung des aktuellen Zulassungsstatus von Vydura (Gründe für das Erlöschen)

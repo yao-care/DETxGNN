@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 240
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Insulin Degludec: vorhergesagte neue Indikation autoimmune Oophoritis (Evidenzstufe L1). Ursprüngliche Indikation: Diabetes mellitus"
 monitor_inn: "INSULIN DEGLUDEC"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
@@ -64,7 +64,7 @@ Für die für diesen Bericht zusammengestellten Daten liegen keine detaillierten
 
 Beim Typ-1-Diabetes besteht ein absoluter Insulinmangel, daher ist ein basaler Insulinersatz mechanistisch unmittelbar sinnvoll. Es handelt sich dabei weniger um ein echtes Repurposing als um eine Erweiterung innerhalb derselben Krankheitsklasse, da die ursprünglichen Indikationen bereits Diabetes mellitus umfassen.
 
-Die Evidenz stammt aus direkten Vergleichsstudien und systematischen Übersichtsarbeiten, die Degludec mit anderen Basalinsulinen (Glargin, Detemir, Icodec, Efsitora) vergleichen. Zu beachten ist, dass in Deutschland nur erloschene Zulassungen vorliegen; vor einer Empfehlung sind daher regulatorische und Verfügbarkeitsprüfungen nötig.
+Die Evidenz stammt aus direkten Vergleichsstudien und systematischen Übersichtsarbeiten, die Degludec mit anderen Basalinsulinen (Glargin, Detemir, Icodec, Efsitora) vergleichen.
 
 ---
 
@@ -135,7 +135,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen)**
 
 **Begründung:**
-Mehrere abgeschlossene Phase-3-Studien (u. a. SWITCH 1) und hochrangige RCTs sowie systematische Übersichten stützen den Einsatz von Degludec bei Typ-1-Diabetes, sodass der Evidenzgrad L1 erreicht wird. Allerdings handelt es sich um eine Erweiterung innerhalb der Diabetes-Klasse, und in Deutschland bestehen nur erloschene Zulassungen.
+Mehrere abgeschlossene Phase-3-Studien (u. a. SWITCH 1) und hochrangige RCTs sowie systematische Übersichten stützen den Einsatz von Degludec bei Typ-1-Diabetes, sodass der Evidenzgrad L1 erreicht wird.
 
 **Für das weitere Vorgehen ist erforderlich:**
 - Klärung des regulatorischen Status und der Verfügbarkeit in Deutschland (erloschene Zulassungen)

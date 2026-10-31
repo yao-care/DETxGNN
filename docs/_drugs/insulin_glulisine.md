@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 243
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Insulin Glulisine: vorhergesagte neue Indikation thiamine-responsive dysfunction syndrome (Evidenzstufe L1). Ursprüngliche Indikation: Diabetes mellitus"
 monitor_inn: "INSULIN GLULISINE"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
@@ -62,7 +62,6 @@ Zu den Daten, die für diesen Bericht zusammengestellt wurden, liegen derzeit ke
 
 Diabetes mellitus Typ 1 ist der Kernbereich der zugelassenen Indikation „Diabetes mellitus". Die Vorhersage ist daher keine echte Neuausrichtung, sondern bestätigt vorhandene klinische Evidenz. Mechanistisch ist sie naheliegend, da bei Typ 1 ein absoluter Insulinmangel besteht, der durch Insulinersatz ausgeglichen wird.
 
-Zu beachten ist: Da nur eine erloschene Zulassung vorliegt, ist die Verfügbarkeit in Deutschland eingeschränkt.
 
 ---
 

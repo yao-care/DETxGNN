@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 507
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Zidovudine: vorhergesagte neue Indikation Felines erworbenes Immundefizienzsyndrom (veterinärmedizinische Indik… (Evidenzstufe L5). Ursprüngliche Indikation: HIV-Infektion"
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -98,7 +98,7 @@ Für die Packungsbeilage relevante Warnhinweise und Gegenanzeigen liegen in den 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenz für felines AIDS stammt ausschließlich aus Tier- und Veterinärstudien. Es gibt keine Humanstudien, und die Indikation ist veterinärmedizinisch. Zudem sind in Deutschland nur erloschene Zulassungen vorhanden.
+Die Evidenz für felines AIDS stammt ausschließlich aus Tier- und Veterinärstudien. Es gibt keine Humanstudien, und die Indikation ist veterinärmedizinisch.
 
 **Weitere Schritte:**
 - Klärung, ob eine veterinärmedizinische Indikation überhaupt im Projektrahmen liegt
@@ -116,7 +116,6 @@ Die Evidenz für felines AIDS stammt ausschließlich aus Tier- und Veterinärstu
 | 3 | Neuroentwicklungsstörung mit ataktischem Gang, fehlender Sprache und verminderter kortikaler weißer Substanz | 0,9996 | L5 | Hold |
 | 4 | Veraltet: familiäre kombinierte Hyperlipidämie | 0,9962 | L5 | Hold (Zidovudin kann Lipidstörungen eher verschlechtern) |
 
-Bei den Rängen 5 und 6 sind Marktstatus (nur erloschene Zulassungen), Verdrängung durch moderne Kombinations-ART, hämatologische Toxizität und Wechselwirkungen als Leitplanken zu beachten.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

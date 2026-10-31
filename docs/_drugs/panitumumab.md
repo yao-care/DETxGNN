@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 341
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Panitumumab: vorhergesagte neue Indikation Medikamenteninduzierte Osteoporose (Evidenzstufe L5). Ursprüngliche Indikation: Kolorektalkarzinom (Colorectal Neoplasms)"
 monitor_inn: "PANITUMUMAB"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy"]
@@ -114,7 +114,7 @@ Hinweis: Für diese Aufstellung wurden nur die in den Daten enthaltenen Einträg
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf dem Modellwert (Evidenzniveau L5) ohne klinische Studien oder Publikationen. Die Wirkrichtung der EGFR-Hemmung auf den Knochen ist unklar und könnte sogar nachteilig sein. Zudem besteht in Deutschland nur eine erloschene Zulassung, was die praktische Verfügbarkeit einschränkt.
+Die Vorhersage beruht ausschließlich auf dem Modellwert (Evidenzniveau L5) ohne klinische Studien oder Publikationen. Die Wirkrichtung der EGFR-Hemmung auf den Knochen ist unklar und könnte sogar nachteilig sein.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Präklinische und mechanistische Daten zur Rolle von EGFR im Knochenstoffwechsel und zur Wirkrichtung

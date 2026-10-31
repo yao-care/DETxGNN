@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 23
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Alectinib: vorhergesagte neue Indikation Gingivale Fibromatose (Evidenzstufe L5). Ursprüngliche Indikation: Nicht-kleinzelliges Lungenkarzinom (NSCLC)"
 monitor_inn: "Alectinib"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "lung germ cell tumor", "pulmonary sulcus neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa"]
@@ -114,7 +114,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf ein Graphmodell (Evidenzlevel L5), ohne klinische Studien, Literatur oder plausiblen ALK-bezogenen Mechanismus. Zudem besteht in Deutschland nur eine erloschene Zulassung.
+Die Vorhersage stützt sich ausschließlich auf ein Graphmodell (Evidenzlevel L5), ohne klinische Studien, Literatur oder plausiblen ALK-bezogenen Mechanismus.
 
 **Für ein Weiterkommen ist erforderlich:**
 - Detaillierte Wirkmechanismusdaten (MOA)
