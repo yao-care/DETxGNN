@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "INDACATEROL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Indacaterol: vorhergesagte neue Indikation Nephrogenes Syndrom der inadäquaten Antidiurese (nephrogenic syndrome of inappropriate antidiuresis) (Evidenzstufe L5). Ursprüngliche Indikation: Pulmonary …"
 ---
 
@@ -48,8 +48,8 @@ Indacaterol ist ein langwirksamer Beta-2-Agonist zur Inhalation. Das TxGNN-Model
 | Vorhergesagte neue Indikation | Nephrogenes Syndrom der inadäquaten Antidiurese (nephrogenic syndrome of inappropriate antidiuresis) |
 | TxGNN-Vorhersagewert | 0,9954 |
 | Evidenzniveau | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 10 von 10) |
-| Anzahl der Zulassungen | 10 (gültig: 10) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 8 von 10) |
+| Anzahl der Zulassungen | 10 (gültig: 8) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?

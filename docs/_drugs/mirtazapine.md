@@ -86,7 +86,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/004733 | Mirataz | – | – (Status: gültig) |
 
 ---
 

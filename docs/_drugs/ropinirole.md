@@ -93,7 +93,6 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/004417 | Clevor | – | – (Zulassung gültig) |
 
 ---
 
