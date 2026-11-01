@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-01T01:56:15.527137+00:00",
+  "fetched_at": "2026-11-01T08:55:56.386068+00:00",
   "source": "Google News Health RSS",
-  "count": 29,
+  "count": 28,
   "articles": [
     {
       "id": "d048b270f714",
@@ -24,16 +24,6 @@
       }
     },
     {
-      "id": "9fa13ce5acf5",
-      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
-      "published": "2026-03-31T20:25:43+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
       "id": "150805e0e3f6",
       "title": "Apotheker dürfen Medikamenteneinnahme von Senioren in Pflegeheimen überprüfen - GrenzEcho",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNVpxVncyRWtGRUNHeTJOeHBjdmI5VWtrSF9Rb0cyZEt0LS1RZWpkemhGbTFmaU4tUjRsWkhKRXl4MVZ4RmtodHU5OVRXM0FDODYtNDROdlVBRnFaMHU2T0FGSk93VmJka2JLUUVOUndlYWo2TmhYeGJvcWR5aGJab0g4Znk4dFZ0YVlyYlFWUnE4R2RySnVwalFNc1RXZUZOZnVrcUhXT2J5ZU12Z2NRTEJpa0t0bzFKcEZtQ2I4b2NtbERT?oc=5",
@@ -41,26 +31,6 @@
       "source": {
         "name": "GrenzEcho",
         "url": "https://www.grenzecho.net"
-      }
-    },
-    {
-      "id": "f1e04185f661",
-      "title": "AUDIO: Statt Medikamente: Mit Elektronik gegen Diabetes (2 Min) - MDR.de",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb2U1ZXNWTDF4SWo4c2JSZGJYSWMyTzk2TEpraFgzNk9TRlh0TkdUQS11enJyS2xhMDJ3YlJlUC1hZXRYZjBYTU95OTg1Tk5HczRpZmhDbzdXWmRZZXdaNE1VZmc2YUtzeWp5ekJla3N6cko1YTA2ZjQ4M3RrU1ltb0xTMEI2ZVJnV0tXdGUtLUQxc1pmdVg0bWs0RF92VzFzUEI1R0pNdnZRQkdtOVh6emtB?oc=5",
-      "published": "2026-10-25T09:15:00+00:00",
-      "source": {
-        "name": "MDR.de",
-        "url": "https://www.mdr.de"
-      }
-    },
-    {
-      "id": "7d8538027e8c",
-      "title": "Niedersachsens Gesundheitsminister Philippi rät von Hamsterkäufen bei Medikamenten ab - Oldenburger Online Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSEd3NFZhQ2o0QWNkUmNHZlJUcnFSUndLeENRUzRockVfRkZQbEhzWUdkanZ0YktDTGp5UlRJU0h3Z2lvZXFnOWxjX3ZSUGJxS3hlZzZrMmpYRl9wdWs3MmJ3bHlJYmI5cmllX2NUckZic2dNOVowNkFQalFUYkFzdHpNQl9pTy1DckowQU9pTXJzR0toNTliaXh0czJrN0hNQUdOSDR6Mi1odVptZGxWVWI1cVJWTnd6NkRIbU4wQWVSTXhOamItUDJJS3BKcFVlWTFmTkNZWkFXM2ZYYk4wckhOM0RKRVFMRUE?oc=5",
-      "published": "2026-10-28T08:36:00+00:00",
-      "source": {
-        "name": "Oldenburger Online Zeitung",
-        "url": "https://www.oldenburger-onlinezeitung.de"
       }
     },
     {
@@ -74,23 +44,23 @@
       }
     },
     {
-      "id": "4e6d48112005",
-      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
-      "published": "2026-05-22T07:00:00+00:00",
+      "id": "7d8538027e8c",
+      "title": "Niedersachsens Gesundheitsminister Philippi rät von Hamsterkäufen bei Medikamenten ab - Oldenburger Online Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSEd3NFZhQ2o0QWNkUmNHZlJUcnFSUndLeENRUzRockVfRkZQbEhzWUdkanZ0YktDTGp5UlRJU0h3Z2lvZXFnOWxjX3ZSUGJxS3hlZzZrMmpYRl9wdWs3MmJ3bHlJYmI5cmllX2NUckZic2dNOVowNkFQalFUYkFzdHpNQl9pTy1DckowQU9pTXJzR0toNTliaXh0czJrN0hNQUdOSDR6Mi1odVptZGxWVWI1cVJWTnd6NkRIbU4wQWVSTXhOamItUDJJS3BKcFVlWTFmTkNZWkFXM2ZYYk4wckhOM0RKRVFMRUE?oc=5",
+      "published": "2026-10-28T08:36:00+00:00",
       "source": {
-        "name": "Bundesministerium für Gesundheit (BMG)",
-        "url": "https://www.bundesgesundheitsministerium.de"
+        "name": "Oldenburger Online Zeitung",
+        "url": "https://www.oldenburger-onlinezeitung.de"
       }
     },
     {
-      "id": "b9c8f29df593",
-      "title": "Erhöhtes Sterberisiko bei ADHS – Medikamente könnten helfen - RiffReporter",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbHVha3dsZGEtck5HV0RzcUFjWGFDd1J1Mm1TLUlWak1yVkVIVkFGWkJ3TnhZSDRZdnU4ajRhaE56cUdPS0hKSWhEVUZlQmRTVGJITkpSUmktYXFFNzlZcXdYTnlORklocmV4YktTZVJ4amJWQ1VFZFA1aU9rVzJkY1l4OA?oc=5",
-      "published": "2026-10-29T21:34:51+00:00",
+      "id": "4072e264c14b",
+      "title": "Fehler bei Blutdruckmitteln: Dann bleibt der lebensrettende Schutz aus - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNVp2ZkpzclVseExEZjZvTjVnX09DVVlrWFdORmdCd3RZeFFsVVlTSFJCdWl2cXRXeWN1SnI1dzM1ejJqb2lRUzhEazE4eTZRdENsVnM1Rm9NWkdxRTNhUG9SUE00aTJnUTF1T0dUSWNxcUZfZFN1aWYwdHVJd1RoQzl3N0diTHpjdG01WkN0dWJXVjQ3OE91NDZzeHBIOGhVNDlOVXBNdm1DbWdRcHhrWlg1YmhWTFJ3WEhzUEdYMEZhaXd5ejJNbXlxLTJjUk1Y?oc=5",
+      "published": "2026-10-30T13:39:12+00:00",
       "source": {
-        "name": "RiffReporter",
-        "url": "https://www.riffreporter.de"
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
       }
     },
     {
@@ -104,13 +74,13 @@
       }
     },
     {
-      "id": "4072e264c14b",
-      "title": "Fehler bei Blutdruckmitteln: Dann bleibt der lebensrettende Schutz aus - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNVp2ZkpzclVseExEZjZvTjVnX09DVVlrWFdORmdCd3RZeFFsVVlTSFJCdWl2cXRXeWN1SnI1dzM1ejJqb2lRUzhEazE4eTZRdENsVnM1Rm9NWkdxRTNhUG9SUE00aTJnUTF1T0dUSWNxcUZfZFN1aWYwdHVJd1RoQzl3N0diTHpjdG01WkN0dWJXVjQ3OE91NDZzeHBIOGhVNDlOVXBNdm1DbWdRcHhrWlg1YmhWTFJ3WEhzUEdYMEZhaXd5ejJNbXlxLTJjUk1Y?oc=5",
-      "published": "2026-10-30T13:39:12+00:00",
+      "id": "f1e04185f661",
+      "title": "AUDIO: Statt Medikamente: Mit Elektronik gegen Diabetes (2 Min) - MDR.de",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb2U1ZXNWTDF4SWo4c2JSZGJYSWMyTzk2TEpraFgzNk9TRlh0TkdUQS11enJyS2xhMDJ3YlJlUC1hZXRYZjBYTU95OTg1Tk5HczRpZmhDbzdXWmRZZXdaNE1VZmc2YUtzeWp5ekJla3N6cko1YTA2ZjQ4M3RrU1ltb0xTMEI2ZVJnV0tXdGUtLUQxc1pmdVg0bWs0RF92VzFzUEI1R0pNdnZRQkdtOVh6emtB?oc=5",
+      "published": "2026-10-25T09:15:00+00:00",
       "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
+        "name": "MDR.de",
+        "url": "https://www.mdr.de"
       }
     },
     {
@@ -144,6 +114,56 @@
       }
     },
     {
+      "id": "4e6d48112005",
+      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
+      "published": "2026-05-22T07:00:00+00:00",
+      "source": {
+        "name": "Bundesministerium für Gesundheit (BMG)",
+        "url": "https://www.bundesgesundheitsministerium.de"
+      }
+    },
+    {
+      "id": "10c1dca37dfa",
+      "title": "Wiener Apotheken rücken Frauengesundheit in den Fokus - Vienna.at",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTkZ3aGRPV0ItSGVVYm9aYW9OV28zYVJhMDhHRlVjVFRtaGcyUl9RODNmNW5NamNrcDNqQ0Q0MXlUNk9pTEJhbDRtdlNVTW1jc0ZUN2owYTVqUjk3azZ6SnNRV3pHUHdXZFhSMGxPXzBQLWVZeWRFeVduVHRMWmswS1RtNmxGcDRsZkY5el93?oc=5",
+      "published": "2026-10-31T02:18:33+00:00",
+      "source": {
+        "name": "Vienna.at",
+        "url": "https://www.vienna.at"
+      }
+    },
+    {
+      "id": "abc08de4d3af",
+      "title": "Denosumab in Pflegeheimen: Bei jedem Fünften kommt die Dosis zu spät - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ2NhMWZ3MWk2d28xd2ZaSEFGY2ZoT2dqUjFLY09lZ2t5SzRUWXh3cTRxZkQzX1YtSl9odmNNeW10aVM2ZDM1Zmg5MnQxX05MYTBZdVhfcW9VN0dGby1hLWlLbDhmSzQ3cW1CTFhTLUF3X0pVbUhGMm1nOWZYYm5qdTlqR240ZWdvTFZ0eFZDb2hCaFJhWWMtNEhPT29mS2Nfc2hFWll2MlpRaW1vTVZsX2FYZUhraEViYVE?oc=5",
+      "published": "2026-10-30T22:48:54+00:00",
+      "source": {
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
+      "id": "9fa13ce5acf5",
+      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
+      "published": "2026-03-31T20:25:43+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "6e8da91a7b68",
+      "title": "Blutdruck trotz weniger Salz: Sechs Ursachen können dahinterstecken - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWVlxM2pUTno4bThGUFVFR0J2VnFtbzNfNF9tTDIwbWdfdU9oZkhNbW51SV9MT1AwRFFRc0cxdUl1b1pxZ1gtSDdFSWZuUzV2bFQ0dVRBNEpKRTlQQXBBdmxmYUxXWEVXM2RYY0dDbDhjVjZkTHNEMlVLM3dOUTRhRnBrbTc1WjZkc1RQYnVZU2N2X293eVFrdUFMcDVhbmxWdXZuMkR4dl9HWldXaElWV0FzTzBZd1U?oc=5",
+      "published": "2026-10-30T09:09:35+00:00",
+      "source": {
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
       "id": "e5835a315f52",
       "title": "Arzneimittel - Klinische Prüfung - Bezirksregierung Düsseldorf",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQanJqVmFoa1RDaGJaamxwcFU0MUpaZ0RkV2V5SnZRSW9VdzBWdHMwelVRdnlfWUc5WlN6TXFNc0hRNXY1YmRWQ2czQ0N3UG94Zlh6OXAzQlRtVUVTb2RkckNNWjh0TzBrWl9ESENaeGN6LVo4VERrdkdiQ19jT0dnZWx4RnJ3cUtTRFloY3p2OG1NQjFKRkptajhfWXFqeHo1TEx0OEJ4S1JYRVQyc2JBTmt4a2FNNmpFWjhJVg?oc=5",
@@ -164,16 +184,6 @@
       }
     },
     {
-      "id": "10c1dca37dfa",
-      "title": "Wiener Apotheken rücken Frauengesundheit in den Fokus - Vienna.at",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTkZ3aGRPV0ItSGVVYm9aYW9OV28zYVJhMDhHRlVjVFRtaGcyUl9RODNmNW5NamNrcDNqQ0Q0MXlUNk9pTEJhbDRtdlNVTW1jc0ZUN2owYTVqUjk3azZ6SnNRV3pHUHdXZFhSMGxPXzBQLWVZeWRFeVduVHRMWmswS1RtNmxGcDRsZkY5el93?oc=5",
-      "published": "2026-10-31T02:18:33+00:00",
-      "source": {
-        "name": "Vienna.at",
-        "url": "https://www.vienna.at"
-      }
-    },
-    {
       "id": "432315fa2251",
       "title": "Erstmals Medikament gegen Fettleber zugelassen - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQnhCQmdtRXhCd0ZKc1FDYzViaTZEblZ5TjJNWDBvZ3ptX2g0OENQemNDUk1sWGh5T1FrOEtvaGtSSDItcXlieVd0cDVfdDF0a2U3clFWSGlvd21wUWtwVzI4UEZIZ1BBUlVJSC16SExXaWFDTlF6YlNjMk96a2pEYnpVRm1rQQ?oc=5",
@@ -181,26 +191,6 @@
       "source": {
         "name": "tagesschau.de",
         "url": "https://www.tagesschau.de"
-      }
-    },
-    {
-      "id": "abc08de4d3af",
-      "title": "Denosumab in Pflegeheimen: Bei jedem Fünften kommt die Dosis zu spät - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ2NhMWZ3MWk2d28xd2ZaSEFGY2ZoT2dqUjFLY09lZ2t5SzRUWXh3cTRxZkQzX1YtSl9odmNNeW10aVM2ZDM1Zmg5MnQxX05MYTBZdVhfcW9VN0dGby1hLWlLbDhmSzQ3cW1CTFhTLUF3X0pVbUhGMm1nOWZYYm5qdTlqR240ZWdvTFZ0eFZDb2hCaFJhWWMtNEhPT29mS2Nfc2hFWll2MlpRaW1vTVZsX2FYZUhraEViYVE?oc=5",
-      "published": "2026-10-30T22:48:54+00:00",
-      "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
-      "id": "23cc1b882457",
-      "title": "Depressionen: Warum Antidepressiva bei manchen Menschen schlechter wirken könnten - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNGY0UldmNXlXOWVwYmdPUzBEX3NGVTdFUXJFNzR4YnNNb2NhckFTbzB2UlROUHRSR0V6VGc3TnhKcWdFUGhaeFcyZjkzWGtNUms0R2hyX0phRjVROWJ5ZnF5ZXc2NWFnSmxnMTZUTXRSLXViR25VTngwU2xqT002cWlTNmdzZWlSNzluQkRibGprRVZaNEtHRV9COUtLbDJ0LWRTMUl4MVktRjF2Zy0wUjRxX2hBcElT?oc=5",
-      "published": "2026-10-26T10:47:35+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
       }
     },
     {
@@ -234,16 +224,6 @@
       }
     },
     {
-      "id": "6e8da91a7b68",
-      "title": "Blutdruck trotz weniger Salz: Sechs Ursachen können dahinterstecken - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWVlxM2pUTno4bThGUFVFR0J2VnFtbzNfNF9tTDIwbWdfdU9oZkhNbW51SV9MT1AwRFFRc0cxdUl1b1pxZ1gtSDdFSWZuUzV2bFQ0dVRBNEpKRTlQQXBBdmxmYUxXWEVXM2RYY0dDbDhjVjZkTHNEMlVLM3dOUTRhRnBrbTc1WjZkc1RQYnVZU2N2X293eVFrdUFMcDVhbmxWdXZuMkR4dl9HWldXaElWV0FzTzBZd1U?oc=5",
-      "published": "2026-10-30T09:09:35+00:00",
-      "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "e4f7e8c57817",
       "title": "Wie läuft die Zulassung von Arzneimitteln ab? - Stiftung Gesundheitswissen",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQc0lKcG51SV96LVpuemVlZ3p2LU1Ubjg1Q2M0VjJMa3pfRGNWM3VKemVDZG9mWm1uY0NlbkZmVDc4QWVad0VIYVAzOGxrY3ZvX1ZnSHB5QXZFYU4tNTAxa0g3N1BxbTljY3hTSVZQZE1GUFNsVF9LNUNfdk5aZGFucjBPWnZ5TGtZazdZQ3NQeEZFMXpBem9Tenh2NUtrWGlp?oc=5",
@@ -261,6 +241,16 @@
       "source": {
         "name": "HAZ",
         "url": "https://www.haz.de"
+      }
+    },
+    {
+      "id": "9f4e33920cd3",
+      "title": "Grippostad-C-Einnahme: Experte erklärt, warum es deutlich günstiger geht - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPX04zdWJPUGFfdW1PWkxoUEV2S3N3dHVmRDRZRXo3RXYtalo2eHVra3d1VU5NMk9paWlqVGcyWjRIMFhmQkxETkJpNGRmeEc1RmVxdHZZNzVySHRmOWs3YnA4UVNxeE45Z09fZVVwQmZzMFRxUGtwcTJIQTg0RllCZy12TEwwYzVabmZPQXpoVlRLa1RXZ3ZqcDRjLWNQSkdObE5wZ2xpdWFycU9ZalhQYXI2QQ?oc=5",
+      "published": "2026-10-29T13:34:35+00:00",
+      "source": {
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
       }
     },
     {
