@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-01T08:55:56.386068+00:00",
+  "fetched_at": "2026-11-01T15:52:53.370594+00:00",
   "source": "Google News Health RSS",
-  "count": 28,
+  "count": 27,
   "articles": [
     {
       "id": "d048b270f714",
@@ -24,16 +24,6 @@
       }
     },
     {
-      "id": "150805e0e3f6",
-      "title": "Apotheker dürfen Medikamenteneinnahme von Senioren in Pflegeheimen überprüfen - GrenzEcho",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNVpxVncyRWtGRUNHeTJOeHBjdmI5VWtrSF9Rb0cyZEt0LS1RZWpkemhGbTFmaU4tUjRsWkhKRXl4MVZ4RmtodHU5OVRXM0FDODYtNDROdlVBRnFaMHU2T0FGSk93VmJka2JLUUVOUndlYWo2TmhYeGJvcWR5aGJab0g4Znk4dFZ0YVlyYlFWUnE4R2RySnVwalFNc1RXZUZOZnVrcUhXT2J5ZU12Z2NRTEJpa0t0bzFKcEZtQ2I4b2NtbERT?oc=5",
-      "published": "2026-10-29T13:22:00+00:00",
-      "source": {
-        "name": "GrenzEcho",
-        "url": "https://www.grenzecho.net"
-      }
-    },
-    {
       "id": "662d7ab8e930",
       "title": "Vitamin C und Zink als Immunbooster? So empfehlenswert sind die Präparate wirklich - oekotest.de",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPLVM1Rl9ZbjdkbF9RRlB3RG9raG9YNlo3THkyXzV2YjVkUnJSXzNna0loZU43TVRJRlZ4MnZENmdPOEJyQ1ByUkprSjFjaGo3T3p2OUVGUUZnTDNyeFh5dmNfS2RlaWVLUHpNdlMzcmZZM29qUmVuQ2xBWmJIVEk0Vl9NYnFnWUdNMVZrZ0hOZHNqVF9VX1ZlMFVDaWprTWJscFNYNUJmNnhYdFRTSEFHRXBvbmhESmh4RlNsdVhiUWZWdTRNbXhCMGNSLXRFOE93cjNPTDFRekJTT1k?oc=5",
@@ -41,16 +31,6 @@
       "source": {
         "name": "oekotest.de",
         "url": "https://www.oekotest.de"
-      }
-    },
-    {
-      "id": "7d8538027e8c",
-      "title": "Niedersachsens Gesundheitsminister Philippi rät von Hamsterkäufen bei Medikamenten ab - Oldenburger Online Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSEd3NFZhQ2o0QWNkUmNHZlJUcnFSUndLeENRUzRockVfRkZQbEhzWUdkanZ0YktDTGp5UlRJU0h3Z2lvZXFnOWxjX3ZSUGJxS3hlZzZrMmpYRl9wdWs3MmJ3bHlJYmI5cmllX2NUckZic2dNOVowNkFQalFUYkFzdHpNQl9pTy1DckowQU9pTXJzR0toNTliaXh0czJrN0hNQUdOSDR6Mi1odVptZGxWVWI1cVJWTnd6NkRIbU4wQWVSTXhOamItUDJJS3BKcFVlWTFmTkNZWkFXM2ZYYk4wckhOM0RKRVFMRUE?oc=5",
-      "published": "2026-10-28T08:36:00+00:00",
-      "source": {
-        "name": "Oldenburger Online Zeitung",
-        "url": "https://www.oldenburger-onlinezeitung.de"
       }
     },
     {
@@ -134,10 +114,10 @@
       }
     },
     {
-      "id": "abc08de4d3af",
-      "title": "Denosumab in Pflegeheimen: Bei jedem Fünften kommt die Dosis zu spät - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ2NhMWZ3MWk2d28xd2ZaSEFGY2ZoT2dqUjFLY09lZ2t5SzRUWXh3cTRxZkQzX1YtSl9odmNNeW10aVM2ZDM1Zmg5MnQxX05MYTBZdVhfcW9VN0dGby1hLWlLbDhmSzQ3cW1CTFhTLUF3X0pVbUhGMm1nOWZYYm5qdTlqR240ZWdvTFZ0eFZDb2hCaFJhWWMtNEhPT29mS2Nfc2hFWll2MlpRaW1vTVZsX2FYZUhraEViYVE?oc=5",
-      "published": "2026-10-30T22:48:54+00:00",
+      "id": "6e8da91a7b68",
+      "title": "Blutdruck trotz weniger Salz: Sechs Ursachen können dahinterstecken - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWVlxM2pUTno4bThGUFVFR0J2VnFtbzNfNF9tTDIwbWdfdU9oZkhNbW51SV9MT1AwRFFRc0cxdUl1b1pxZ1gtSDdFSWZuUzV2bFQ0dVRBNEpKRTlQQXBBdmxmYUxXWEVXM2RYY0dDbDhjVjZkTHNEMlVLM3dOUTRhRnBrbTc1WjZkc1RQYnVZU2N2X293eVFrdUFMcDVhbmxWdXZuMkR4dl9HWldXaElWV0FzTzBZd1U?oc=5",
+      "published": "2026-10-30T09:09:35+00:00",
       "source": {
         "name": "ad-hoc-news.de",
         "url": "https://www.ad-hoc-news.de"
@@ -151,16 +131,6 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "6e8da91a7b68",
-      "title": "Blutdruck trotz weniger Salz: Sechs Ursachen können dahinterstecken - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWVlxM2pUTno4bThGUFVFR0J2VnFtbzNfNF9tTDIwbWdfdU9oZkhNbW51SV9MT1AwRFFRc0cxdUl1b1pxZ1gtSDdFSWZuUzV2bFQ0dVRBNEpKRTlQQXBBdmxmYUxXWEVXM2RYY0dDbDhjVjZkTHNEMlVLM3dOUTRhRnBrbTc1WjZkc1RQYnVZU2N2X293eVFrdUFMcDVhbmxWdXZuMkR4dl9HWldXaElWV0FzTzBZd1U?oc=5",
-      "published": "2026-10-30T09:09:35+00:00",
-      "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -204,16 +174,6 @@
       }
     },
     {
-      "id": "172d986897fc",
-      "title": "Arzneimittel: Nutzen für Gesundheit, Lebensqualität und Wirtschaft - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc1pKSzRyQWdIYmtZQlZKZE5ZYkRDWjFJRzUySHJWYkJGQU9nSExYb21pSnJBd29vZllZcWNFMU9fcTkyMFZWN3NTbVkxcXpRbFhXZFdCT3BPd2N4ZlVVNHctcVNVaWNiUmFlSDZ4TnIxX2VOYk03Zk5JZ0RSSWxiY21mRGVETjVH?oc=5",
-      "published": "2025-09-26T07:00:00+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
       "id": "cd91c5411083",
       "title": "Neue Arzneimittel bezahlbar halten - Verband der Ersatzkassen e. V.",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObzE3cHpIZEo2Q0VEc0xrTzlCRHFTbW1GZ1dpbXhiSk55cmZpVFZaN3dtSkhvc2dqYkx0ekRicVhHTHhWTzFsSFVKZlVJZG1EUXBxZGZCU0kycm5yaVczSThMRHA3YkRHN3dPYXl3UTNEU1RWamFXdDBrZ2tTWWhqNjBjQk43VGNhdEFhMXF6Nmx6WHdkXzhwY25kTzVCMmp5?oc=5",
@@ -234,6 +194,26 @@
       }
     },
     {
+      "id": "172d986897fc",
+      "title": "Arzneimittel: Nutzen für Gesundheit, Lebensqualität und Wirtschaft - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc1pKSzRyQWdIYmtZQlZKZE5ZYkRDWjFJRzUySHJWYkJGQU9nSExYb21pSnJBd29vZllZcWNFMU9fcTkyMFZWN3NTbVkxcXpRbFhXZFdCT3BPd2N4ZlVVNHctcVNVaWNiUmFlSDZ4TnIxX2VOYk03Zk5JZ0RSSWxiY21mRGVETjVH?oc=5",
+      "published": "2025-09-26T07:00:00+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "8a5dc46a4efd",
+      "title": "Erstattungsbetrag: Preisfestlegung für neue Medikamente - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUHN6Rk0zYW0xanpneTJrREhFdnJPVXFKckJsaHFBTWpYUElxdGN2ZUtydnkteHFHRHl2dERmeEVUMF8xUEh4Z3M4VEhJY0dfNDFpc0Vnc283akhUeTRkZEdSUzZxMjlmTmxBMmdMV2pKWi04UDZENVpvdjJPMXJxZEJ5SS13ZkZlSzVWODd0YjRPTjliYmttdXNUVkR6emgwU09xSQ?oc=5",
+      "published": "2025-02-22T04:19:00+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
       "id": "7ec96f444290",
       "title": "Medikamente knapp: Philippi warnt vor Hamsterkäufen – diese Mittel sind betroffen - HAZ",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOR3lZNXFZLXFfd2tVcUNPZFVoNFF5QnZmbGs5Ti1ueDRZMHhodkdsY1dhd19yX2JONWd3QTFlMFlta3FvdnFYcUZYYkdDRUpPTVNwV2pWUnBtU2E0N0NTc0tRcWt0Ml94OWVlTC0zQW16TGI4SC1ZWWJDb2pXUWp1WEVaMlVaa1NPWnJzbS1WTjQwYXdSTXBnbGtlNDRMZzEyT1pGejNwdmhfWHc3TV92YnJZWS00RFpNYUlaNklLaUdBM1hrOW9yQ3g3MW9JLTNDQjc0VDRFeUvSAfQBQVVfeXFMT3dCZXc3MF9rVTZQY05nWnBfSVpQNGl1VTg0ZjVFRFY0M2Qtb3JYQmtJWExUTkNST2Yxa2wtTl9ITmszSWJkOFlvMHBSWFRKZWN5ZVZLdzB1U1FPUS1LLXpRWnhidlRtekdKMTRoVmJxdFAtUjlwUWxVRUxnMjRvcFNiXzlVM0JvaUtFdHBRX3VXNGRRZG1LQlZUdmN6V0h2WWZyWnBYYkxtdzZSMkQxdENKY2pEaEtBblk3cC0yblo0NnJsVk15VVBOdy01Y0lkSEwxSmczZ1VTM0Fpb2JUX0l2NjhFdE9ZVmVPbTg3RXl2UzRSWQ?oc=5",
@@ -241,6 +221,16 @@
       "source": {
         "name": "HAZ",
         "url": "https://www.haz.de"
+      }
+    },
+    {
+      "id": "5d81cd09e3f7",
+      "title": "Gesundheit - Arzneimittel-Experten: Viagra weiter nicht ohne Rezept - Gesundheit - SZ.de - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWktNUkFDTmVsMmlKeW5kaDAzQjlZUDVuczZyeGo0WExZMTlIUWNzYzVOTllKeVRMZkpvLW9pbGFDRHJScks3dEVTd3BBRW9fWmJ0TFpxbm9SVm9RU2RYdEhHQ29FYmNEdUNuUDRzalRBWGdwNm1NU2J2cUJpRHR2T1hjYmllakVuMDctbkt5bkc3S1ZabGc3eWQ4RVJWS3k3bG96UVJXRFNYenhGSUhvZDhUMDR6Nm9aNmhiaF9DRHM4NnFRZ2IwbEQzNVhfWWpCUjZ2b05iSjUzdmR1SjVNTHMyekNxWk0?oc=5",
+      "published": "2023-07-11T07:00:00+00:00",
+      "source": {
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
       }
     },
     {
@@ -254,13 +244,13 @@
       }
     },
     {
-      "id": "5d81cd09e3f7",
-      "title": "Gesundheit - Arzneimittel-Experten: Viagra weiter nicht ohne Rezept - Gesundheit - SZ.de - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWktNUkFDTmVsMmlKeW5kaDAzQjlZUDVuczZyeGo0WExZMTlIUWNzYzVOTllKeVRMZkpvLW9pbGFDRHJScks3dEVTd3BBRW9fWmJ0TFpxbm9SVm9RU2RYdEhHQ29FYmNEdUNuUDRzalRBWGdwNm1NU2J2cUJpRHR2T1hjYmllakVuMDctbkt5bkc3S1ZabGc3eWQ4RVJWS3k3bG96UVJXRFNYenhGSUhvZDhUMDR6Nm9aNmhiaF9DRHM4NnFRZ2IwbEQzNVhfWWpCUjZ2b05iSjUzdmR1SjVNTHMyekNxWk0?oc=5",
-      "published": "2023-07-11T07:00:00+00:00",
+      "id": "0635d82b6e9a",
+      "title": "„Wick MediNait“: Pharmakologe warnt vor diesen Nebenwirkungen - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOX25Bd0gwR1NiQnF0Z3I3N2ZycVVLcUNfR192bmo3aHJfb01oNFVXdTU3QjhnVl9mQ2hjdFhNSEd4dENIWklsYkJZdHJpVVo0eUFJOE9iLTZnM1RMajlLY0FURW5YLXd2UGFEd2dYUUNiMWNBbFgyWFh6UHR1Y2pEc0ZfcXItTEVxMWJfTjFvV2Q4NU9kRWpj?oc=5",
+      "published": "2026-10-29T13:02:51+00:00",
       "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
       }
     },
     {
