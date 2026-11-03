@@ -5,7 +5,7 @@
 ## Zweck
 
 - Basiert auf der vom Zitnik Lab (Harvard) veröffentlichten TxGNN-Methode und untersucht mögliche Zusammenhänge zwischen bestehenden Arzneimitteln und neuen Indikationen.
-- Modellvorhersagen werden mit ClinicalTrials.gov, PubMed, DrugBank, Daten von BfArM und DDInter zu nachvollziehbaren Berichten zusammengeführt.
+- Modellvorhersagen werden mit ClinicalTrials.gov, PubMed, DrugBank, Daten aus dem EMA Medicines Report und DDInter zu nachvollziehbaren Berichten zusammengeführt.
 - Die Evidenzstufen reichen von L1 (stärkere klinische Evidenz) bis L5 (nur Modellvorhersage); ein Modellwert bedeutet keine klinische Wirksamkeit.
 - Jeder Umwidmungskandidat erfordert weiterhin klinische Studien, behördliche Prüfung und die Beurteilung durch qualifizierte Fachpersonen.
 
