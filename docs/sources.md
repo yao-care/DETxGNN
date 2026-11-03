@@ -3,7 +3,7 @@ layout: default
 title: Datenquellen
 nav_order: 93
 permalink: /sources/
-description: "Die Datenquellen hinter DETxGNN: Zulassungsdaten von BfArM, TxGNN, ClinicalTrials.gov, PubMed und DrugBank."
+description: "Die Datenquellen hinter DETxGNN: zentrale EU-Zulassungen der EMA, TxGNN, ClinicalTrials.gov, PubMed und DrugBank."
 ---
 
 # Datenquellen
@@ -21,7 +21,7 @@ Jede Schlussfolgerung lässt sich auf eine öffentliche Datenquelle zurückführ
 <tr><th>Art</th><th>Quelle</th><th>Verwendet für</th></tr>
 </thead>
 <tbody>
-<tr><td>Zulassungsdaten</td><td><a href="https://www.bfarm.de/">BfArM</a></td><td>Liste der zugelassenen Arzneimittel und Wirkstoffe für Deutschland</td></tr>
+<tr><td>Zulassungsdaten</td><td><a href="https://www.ema.europa.eu/en/medicines/download-medicine-data">EMA Medicines Report</a></td><td>Zentral zugelassene EU-Arzneimittel (gelten auch in Deutschland), ihre Wirkstoffe und ihr Zulassungsstatus</td></tr>
 <tr><td>Vorhersagemodell</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>Vorhersage von Zusammenhängen zwischen Arzneimitteln und Krankheiten</td></tr>
 <tr><td>Klinische Studien</td><td><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a></td><td>Evidenzeinstufung (NCT)</td></tr>
 <tr><td>Literatur</td><td><a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></td><td>Evidenzeinstufung (PMID)</td></tr>
@@ -32,6 +32,22 @@ Jede Schlussfolgerung lässt sich auf eine öffentliche Datenquelle zurückführ
 
 ---
 
+## Lokale Daten dieser Website
+
+Die Arzneimittel und ihr Zulassungsstatus stammen aus dem Medicines Report der Europäischen
+Arzneimittel-Agentur (EMA). Er enthält die **zentralen EU-Zulassungen**, die in allen EU/EWR-Staaten und
+damit auch in Deutschland gelten. Nationale Zulassungen des BfArM sind in diesen Daten nicht enthalten.
+
+| Punkt | Angabe |
+|------|--------|
+| Datensatz | EMA Medicines Report (Excel-Datei, zentral zugelassene Arzneimittel) |
+| Herausgeber | Europäische Arzneimittel-Agentur (EMA) |
+| Download | <https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx> |
+| Kennung | EMA-Produktnummer (EMEA/H/C/…) |
+| Aktualisierung | Automatischer wöchentlicher Download (jeden Montag); der Status wird aus dem Feld «Medicine status» übernommen (Authorised, Withdrawn, Lapsed, Expired …); eine Nummer, die nicht mehr in der Datei steht, behält ihren bisherigen Status |
+
+---
+
 ## Lizenzen
 
 Jede Quelle hat ihre eigene Lizenz — bitte prüfen Sie diese vor dem Zitieren:
@@ -39,7 +55,7 @@ Jede Quelle hat ihre eigene Lizenz — bitte prüfen Sie diese vor dem Zitieren:
 - **TxGNN**: akademische Nutzung; Huang et al. (2024) zitieren
 - **ClinicalTrials.gov / PubMed**: öffentliche Daten der US-amerikanischen NIH
 - **DrugBank**: nicht-kommerzielle Nutzung nach Maßgabe der Lizenzbedingungen
-- **BfArM**: nach Maßgabe der Open-Data-Bedingungen der Zulassungsbehörde von Deutschland
+- **EMA**: nach Maßgabe der Nutzungsbedingungen der Europäischen Arzneimittel-Agentur
 
 ---
 
@@ -47,7 +63,7 @@ Jede Quelle hat ihre eigene Lizenz — bitte prüfen Sie diese vor dem Zitieren:
 
 | Daten | Intervall |
 |------|-----------|
-| Zulassungsdaten | Nach Veröffentlichung durch die Zulassungsbehörde |
+| EMA Medicines Report | Wöchentlich (jeden Montag) |
 | Evidenz aus Studien / Literatur | Regelmäßig erneut erhoben |
 | Wechselwirkungsdaten | Vierteljährlich überprüft |
 
@@ -62,19 +78,8 @@ Jede Quelle hat ihre eigene Lizenz — bitte prüfen Sie diese vor dem Zitieren:
 
 ## Über den Entwickler
 
-Diese Plattform wird von **藥提醒科技有限公司** (yao.care, Unternehmensregisternummer
-83620786, 12F, No. 220, Sec. 2, Taiwan Blvd., West Dist., Taichung City, Taiwan) entwickelt und betrieben.
-
-DETxGNN ist die Deutschland-Website der Produktlinie „TxGNN Drug Repurposing“ des Unternehmens.
-Dasselbe System ist in 30 Ländern und Regionen im Einsatz, jeweils unter dem Namen `{CC}TxGNN`
-(JpTxGNN, UsTxGNN, DETxGNN und so weiter) unter `{cc}txgnn.yao.care`.
-Produktübersicht: <https://www.yao.care/medical/txgnn/>.
-
-Das Modell TxGNN selbst wurde vom Zitnik Lab an der Harvard Medical School entwickelt und in
-*Nature Medicine* veröffentlicht. Diese Plattform ist das Produktivsystem, das 藥提醒科技有限公司 auf
-Basis dieses Modells aufgebaut hat; es umfasst die Integration nationaler Arzneimittelzulassungsdaten,
-die Deep-Learning-Vorhersage unter Ausschluss der bereits im Wissensgraphen erfassten Anwendungen, die Evidenzbewertung aus PubMed /
-ClinicalTrials sowie die Anbindung an elektronische Patientenakten über SMART on FHIR.
+Diese Plattform wird von **藥提醒科技有限公司** (yao.care) entwickelt und betrieben. Den vollständigen
+Hintergrund zum Unternehmen und zur Methodik finden Sie auf der Seite <a href="{{ '/about/' | relative_url }}">Über uns</a>.
 
 ---
 
