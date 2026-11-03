@@ -5,8 +5,8 @@
     "L1": 13,
     "L2": 20,
     "L3": 17,
-    "L4": 26,
-    "L5": 380
+    "L4": 25,
+    "L5": 381
   },
   "all_drugs": [
     {
@@ -31,7 +31,7 @@
       "name": "Acetylsalicylic Acid",
       "slug": "acetylsalicylic_acid",
       "level": "L5",
-      "indication_count": 8
+      "indication_count": 7
     },
     {
       "name": "Adalimumab",
@@ -289,7 +289,7 @@
       "name": "Bexarotene",
       "slug": "bexarotene",
       "level": "L5",
-      "indication_count": 3
+      "indication_count": 2
     },
     {
       "name": "Bezlotoxumab",
@@ -463,7 +463,7 @@
       "name": "Cemiplimab",
       "slug": "cemiplimab",
       "level": "L5",
-      "indication_count": 6
+      "indication_count": 5
     },
     {
       "name": "Ceritinib",
@@ -1027,7 +1027,7 @@
       "name": "Formoterol",
       "slug": "formoterol",
       "level": "L5",
-      "indication_count": 3
+      "indication_count": 2
     },
     {
       "name": "Fosaprepitant",
@@ -1447,7 +1447,7 @@
       "name": "Levofloxacin",
       "slug": "levofloxacin",
       "level": "L5",
-      "indication_count": 10
+      "indication_count": 9
     },
     {
       "name": "Lidocaine",
@@ -1578,8 +1578,8 @@
     {
       "name": "Meropenem",
       "slug": "meropenem",
-      "level": "L4",
-      "indication_count": 9
+      "level": "L5",
+      "indication_count": 7
     },
     {
       "name": "Metformin",
@@ -2293,7 +2293,7 @@
       "name": "Sebelipase Alfa",
       "slug": "sebelipase_alfa",
       "level": "L5",
-      "indication_count": 9
+      "indication_count": 8
     },
     {
       "name": "Selinexor",
@@ -2353,7 +2353,7 @@
       "name": "Sirolimus",
       "slug": "sirolimus",
       "level": "L3",
-      "indication_count": 7
+      "indication_count": 6
     },
     {
       "name": "Sodium Oxybate",
@@ -2557,7 +2557,7 @@
       "name": "Tipiracil",
       "slug": "tipiracil",
       "level": "L5",
-      "indication_count": 10
+      "indication_count": 9
     },
     {
       "name": "Tipranavir",
