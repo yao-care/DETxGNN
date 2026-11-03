@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-03
 monitor_inn: "LARONIDASE"
 predicted_indications: ["Sanfilippo syndrome"]
-description: "Laronidase: vorhergesagte neue Indikation Sanfilippo syndrome (Evidenzstufe L5). Ursprüngliche Indikation: Mucopolysaccharidosis I"
+description: "Laronidase: vorhergesagte neue Indikation Sanfilippo-Syndrom (Sanfilippo syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: Mucopolysaccharidosis I"
 ---
 
 # Laronidase
@@ -33,107 +33,74 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-## Laronidase: Sanfilippo syndrome
+## Laronidase: Sanfilippo-Syndrom (Sanfilippo syndrome)
 {: .text-alpha }
 
 ## Zusammenfassung
 
-Laronidase ist eine rekombinante alpha-L-Iduronidase und wurde ursprünglich als Enzymersatztherapie bei **Mukopolysaccharidose I (MPS I)** zugelassen.
-Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei der **lysosomalen Speicherkrankheit mit Skelettbeteiligung** voraus (zweite Vorhersage: Sanfilippo-Syndrom).
-Es liegen **keine klinischen Studien** und **4 Publikationen** (Übersichtsarbeiten, In-vitro-Studie, Fallbericht) vor, die nur indirekt stützen. Die Vorhersage überschneidet sich weitgehend mit der bereits zugelassenen Indikation.
-
----
+Laronidase ist eine rekombinante α-L-Iduronidase, die als Enzymersatztherapie eingesetzt wird. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Sanfilippo-Syndrom (Sanfilippo syndrome)** voraus. Für diese Vorhersage gibt es **keine klinischen Studien** und **keine Publikation, die die Erkrankung direkt untersucht**; die vorhandene Literatur (8 Publikationen) betrifft überwiegend die Mukopolysaccharidose Typ I.
 
 ## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
 | Ursprüngliche Indikation | Mucopolysaccharidosis I |
-| Vorhergesagte neue Indikation | Sanfilippo syndrome |
+| Vorhergesagte neue Indikation | Sanfilippo-Syndrom (Sanfilippo syndrome) |
 | TxGNN-Vorhersagewert | 0.9922 |
-| Evidenzniveau | L5 |
+| Evidenzstufe | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
----
-
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Laronidase ersetzt das bei MPS I fehlende lysosomale Enzym alpha-L-Iduronidase, das die Glykosaminoglykane Dermatansulfat und Heparansulfat abbaut. Ihre Wirksamkeit bei MPS I ist belegt.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Laronidase die α-L-Iduronidase ersetzt, ein lysosomales Enzym, das am Abbau von Heparansulfat und Dermatansulfat beteiligt ist.
 
-MPS I ist selbst eine lysosomale Speicherkrankheit mit ausgeprägter Skelettbeteiligung (Dysostosis multiplex). Die Vorhersage spiegelt daher überwiegend die Überschneidung mit der bereits zugelassenen Indikation wider und stellt keine wirklich neue Indikation dar. Eine In-vitro-Studie zeigt, dass Laronidase von kultivierten Fibroblasten und Osteoblasten aufgenommen wird, also knochenbildende Zellen erreichen kann.
-
-Da das Enzym spezifisch auf Substrate der Iduronidase wirkt, ist eine Übertragung auf andere lysosomale Speicherkrankheiten mechanistisch nicht begründet.
-
-**Zweite Vorhersage – Sanfilippo-Syndrom (MPS III, Wert 0,9922):** MPS III beruht auf Mangel anderer Enzyme (SGSH, NAGLU, HGSNAT, GNS) des Heparansulfat-Abbaus. Laronidase wirkt an einem anderen Schritt und kann diese Enzyme nicht ersetzen. Zudem passiert intravenös verabreichte Laronidase die Blut-Hirn-Schranke nicht wirksam, MPS III ist aber überwiegend neurologisch. Der hohe Wert dürfte auf gemeinsamen Stoffwechselwegen und Krankheitsnähe beruhen, nicht auf Wirksamkeitsevidenz.
-
----
+Das Sanfilippo-Syndrom (MPS III) entsteht dagegen durch Mangel an anderen Enzymen (SGSH, NAGLU, HGSNAT, GNS), die ebenfalls Heparansulfat abbauen. Laronidase wirkt an einem vorgelagerten, anderen Abbauschritt und kann das fehlende Enzym bei MPS III nicht ersetzen. Zudem überwindet intravenös gegebene Laronidase die Blut-Hirn-Schranke nicht wirksam, während MPS III vor allem eine neurologische Erkrankung ist. Der hohe Vorhersagewert spiegelt vermutlich die Nähe im gemeinsamen Stoffwechselweg und in der Krankheitsklasse wider, nicht echte Wirksamkeitsbelege.
 
 ## Evidenz aus klinischen Studien
 
 Derzeit sind keine zugehörigen klinischen Studien registriert.
 
----
-
 ## Evidenz aus der Literatur
 
-Für die lysosomale Speicherkrankheit mit Skelettbeteiligung:
+Keine der folgenden Publikationen untersucht das Sanfilippo-Syndrom direkt; sie betreffen überwiegend die Mukopolysaccharidose Typ I.
 
-| PMID | Jahr | Typ | Zeitschrift | Kernaussagen |
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [25345091](https://pubmed.ncbi.nlm.nih.gov/25345091/) | 2014 | Übersichtsarbeit | Pediatr Endocrinol Rev | MPS I: Mangel an alpha-L-Iduronidase, Spektrum von Hurler bis Scheie, Diagnose über Urin-GAG und Enzymtest |
-| [12196045](https://pubmed.ncbi.nlm.nih.gov/12196045/) | 2002 | Übersichtsarbeit | BioDrugs | Entwicklung der rekombinanten Laronidase als Enzymersatztherapie bei MPS I |
-| [23127271](https://pubmed.ncbi.nlm.nih.gov/23127271/) | 2012 | Fallbericht | Pediatr Neurol | Scheie-Syndrom: 6,5 Jahre Enzymersatztherapie, dennoch Verschlechterung des Allgemeinzustands |
-| [18758061](https://pubmed.ncbi.nlm.nih.gov/18758061/) | 2008 | In-vitro-Studie | Biol Pharm Bull | Aufnahme von Laronidase in MPS-I-Fibroblasten und Osteoblasten über Mannose-6-Phosphat-Rezeptoren |
+| [15126990](https://pubmed.ncbi.nlm.nih.gov/15126990/) | 2004 | RCT | The Journal of Pediatrics | Randomisierte, doppelblinde, placebokontrollierte Studie zu Wirksamkeit und Sicherheit von Laronidase bei MPS I |
+| [40830667](https://pubmed.ncbi.nlm.nih.gov/40830667/) | 2025 | Phase-III-Studie (Cross-over) | Scientific Reports | Biosimilar-Laronidase vs. Referenzpräparat bei MPS I, Endpunkt: Glykosaminoglykane im Urin |
+| [32340185](https://pubmed.ncbi.nlm.nih.gov/32340185/) | 2020 | Review | International Journal of Molecular Sciences | Wirksamkeit, Sicherheit und Grenzen der intravenösen Enzymersatztherapie bei Mukopolysaccharidosen |
+| [31020996](https://pubmed.ncbi.nlm.nih.gov/31020996/) | 2019 | Systematischer Review | Journal of Inherited Metabolic Disease | Begrenzte Daten zur Wirksamkeit der Enzymersatztherapie bei MPS I im Praxisalltag |
+| [15794739](https://pubmed.ncbi.nlm.nih.gov/15794739/) | 2005 | Review | Expert Opinion on Pharmacotherapy | Klinische Erfahrung der ersten 5 Jahre mit Laronidase bei MPS I |
+| [33139350](https://pubmed.ncbi.nlm.nih.gov/33139350/) | 2021 | Beobachtungsstudie | Archives of Disease in Childhood | Zeit bis zur Behandlung bei MPS I verbessert, Zeit bis zur Diagnose nicht |
+| [12196045](https://pubmed.ncbi.nlm.nih.gov/12196045/) | 2002 | Review | BioDrugs | Entwicklungsübersicht zu Laronidase bei MPS I |
+| [23251908](https://pubmed.ncbi.nlm.nih.gov/23251908/) | 2012 | Präklinisch (Zellkultur) | Acta Biochimica Polonica | Vergleich von siRNA-Substratreduktion und Enzymersatz in Zellkulturen; nur konzeptionell relevant |
 
-Für das Sanfilippo-Syndrom (die Arbeiten betreffen überwiegend MPS I, nicht MPS III):
-
-| PMID | Jahr | Typ | Zeitschrift | Kernaussagen |
-|------|-----|------|------|---------|
-| [15126990](https://pubmed.ncbi.nlm.nih.gov/15126990/) | 2004 | RCT (MPS I) | J Pediatr | Randomisierte, placebokontrollierte Zulassungsstudie zu Wirksamkeit und Sicherheit bei MPS I |
-| [40830667](https://pubmed.ncbi.nlm.nih.gov/40830667/) | 2025 | RCT (Phase III, MPS I) | Sci Rep | Biosimilar versus Referenz-Laronidase bei MPS I, Endpunkt Urin-GAG |
-| [32340185](https://pubmed.ncbi.nlm.nih.gov/32340185/) | 2020 | Übersichtsarbeit | Int J Mol Sci | Wirksamkeit und Grenzen der intravenösen Enzymersatztherapie bei MPS |
-| [31020996](https://pubmed.ncbi.nlm.nih.gov/31020996/) | 2019 | Systematische Übersicht | J Inherit Metab Dis | Begrenzte Daten zur Wirksamkeit der ERT bei MPS I im Versorgungsalltag |
-| [15794739](https://pubmed.ncbi.nlm.nih.gov/15794739/) | 2005 | Übersichtsarbeit | Expert Opin Pharmacother | Die ersten 5 Jahre klinischer Erfahrung mit Laronidase bei MPS I |
-| [33139350](https://pubmed.ncbi.nlm.nih.gov/33139350/) | 2021 | Kohorten-/Registeranalyse | Arch Dis Child | Zeit bis zur Behandlung bei MPS I verbessert, Zeit bis zur Diagnose nicht |
-
----
-
-## Marktinformationen Deutschland
+## Informationen zum Markt in Deutschland
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/000477 | Aldurazyme (Sanofi B.V.) | – | Mukopolysaccharidose I |
 
-Diese Zulassung ist gültig.
+## Sicherheitsaspekte
 
----
+- **Arzneimittelwechselwirkungen** (2 Einträge, jeweils geringfügig): Chloroquin, Procain
 
-## Sicherheitshinweise
-
-**Arzneimittelwechselwirkungen:** Es wurden 2 Wechselwirkungen geringen Schweregrads (Minor) erfasst:
-- Chloroquin
-- Procain
-
-Für weitere Sicherheitsinformationen siehe die Fachinformation.
-
----
+Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) siehe die Fachinformation.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-- Die Evidenz liegt nur auf Niveau L4: keine klinischen Studien für die vorhergesagten Indikationen, die Literatur betrifft überwiegend die bereits zugelassene MPS I. Bei MPS III fehlt zudem die mechanistische Grundlage (anderes Enzym, keine Passage der Blut-Hirn-Schranke).
-- In Deutschland ist das Arzneimittel im Handel; 1 von 1 Zulassung ist gültig.
+Es gibt weder klinische Studien noch Publikationen, die Laronidase beim Sanfilippo-Syndrom direkt untersuchen. Mechanistisch kann das Enzym das bei MPS III fehlende Enzym nicht ersetzen und erreicht das Gehirn nach intravenöser Gabe nur unzureichend. Der hohe Vorhersagewert allein genügt nicht.
 
-**Für ein Weiterkommen sind erforderlich:**
-- Klärung, ob die Skelettbeteiligung bei MPS I eine eigenständige neue Indikation darstellt oder bereits abgedeckt ist
-- Daten zum Wirkmechanismus (z. B. aus DrugBank)
-- Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM)
-- Klärung des Zulassungsstatus in Deutschland
-- Für MPS III: Nachweis eines Ansatzes, der die Blut-Hirn-Schranke überwindet, oder Verzicht auf diese Richtung
+**Für ein Weiterkommen wären nötig:**
+- Präklinische Daten, die eine Wirkung bei MPS III belegen (einschließlich Zugang zum zentralen Nervensystem)
+- Detaillierte Daten zum Wirkmechanismus
+- Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

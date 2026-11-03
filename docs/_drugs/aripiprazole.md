@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-03
 monitor_inn: "ARIPIPRAZOLE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-description: "Aripiprazole: vorhergesagte neue Indikation Gaze palsy, familial horizontal, with progressive scoliosis (Evidenzstufe L5). Ursprüngliche Indikation: Schizophrenia"
+description: "Aripiprazole: vorhergesagte neue Indikation Familiäre horizontale Blickparese mit progressiver Skoliose (gaze palsy, familial horizontal, with progressive scoliosis) (Evidenzstufe L5)."
 ---
 
 # Aripiprazole
@@ -33,78 +33,42 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-## Aripiprazole: Gaze palsy, familial horizontal, with progressive scoliosis
+## Aripiprazole: Familiäre horizontale Blickparese mit progressiver Skoliose (gaze palsy, familial horizontal, with progressive scoliosis)
 {: .text-alpha }
 
-## Zusammenfassung
+## Zusammenfassung in drei Sätzen
 
-Aripiprazol ist ein Antipsychotikum, das ursprünglich zur Behandlung der Schizophrenie und der bipolaren Störung zugelassen wurde.
-Das TxGNN-Modell sagt voraus, dass es bei der **schweren affektiven Störung (Major Affective Disorder)** wirksam sein könnte.
-Diese Richtung stützen derzeit **36 klinische Studien** und **19 Publikationen**, darunter mehrere abgeschlossene Phase-3-Studien.
+Aripiprazol ist ein atypisches Antipsychotikum, das in Deutschland im Handel ist. Das TxGNN-Modell sagt voraus, dass es bei **familiärer horizontaler Blickparese mit progressiver Skoliose (gaze palsy, familial horizontal, with progressive scoliosis)** wirksam sein könnte (Score 0,9960). Dafür liegen in den zusammengestellten Daten **keine klinischen Studien und keine Publikationen** vor. Die Vorhersage beruht allein auf dem Modell.
 
----
-
-## Schnellübersicht
+## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
 | Ursprüngliche Indikation | Schizophrenia; Schizophrenia;Bipolar Disorder |
-| Vorhergesagte neue Indikation | Gaze palsy, familial horizontal, with progressive scoliosis |
-| TxGNN-Vorhersagewert | 0.9960 |
+| Vorhergesagte neue Indikation | Familiäre horizontale Blickparese mit progressiver Skoliose (gaze palsy, familial horizontal, with progressive scoliosis) |
+| TxGNN-Vorhersagescore | 0.9960 |
 | Evidenzstufe | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 6 von 6) |
 | Anzahl der Zulassungen | 6 (gültig: 6) |
-| Empfohlene Entscheidung | Proceed with Guardrails (Fortführung mit Schutzmaßnahmen) |
-
----
+| Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu den Wirkmechanismus-Daten liegen in den für diesen Bericht zusammengestellten Daten keine Angaben vor. Aus der allgemeinen Pharmakologie ist bekannt: Aripiprazol ist ein partieller Agonist an Dopamin-D2/D3-Rezeptoren und am 5-HT1A-Rezeptor sowie ein Antagonist am 5-HT2A-Rezeptor. Dieses Profil moduliert den dopaminergen und serotonergen Tonus, was für die Zusatzbehandlung (Augmentation) einer Depression zusätzlich zu SSRI/SNRI relevant ist.
+Zum Wirkmechanismus von Aripiprazol liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass die Substanz zur Klasse der atypischen Antipsychotika gehört, die vor allem auf dopaminerge und serotonerge Rezeptorsysteme wirken.
 
-Die bipolare Störung gehört bereits zu den zugelassenen Indikationen. Die Zusatzbehandlung der Major Depression bei unzureichendem Ansprechen auf Antidepressiva ist gut etabliert. Es handelt sich daher eher um eine Indikationserweiterung innerhalb des Spektrums affektiver Störungen als um ein völlig neues Repurposing.
+Die Erkrankung ist eine sehr seltene, erblich bedingte Störung der Augenbewegungen mit fortschreitender Wirbelsäulenverkrümmung. Sie ist strukturell und neurodevelopmental bedingt. Ein plausibler pharmakologischer Zusammenhang zwischen dem Rezeptorprofil von Aripiprazol und dieser Erkrankung wurde nicht gefunden. Der hohe Score allein belegt keinen biologischen Wirkzusammenhang. Die Vorhersage ist daher als Hypothese zu verstehen, die ohne ergänzende Daten nicht belastbar ist.
 
----
+## Klinische Studien
 
-## Evidenz aus klinischen Studien
-
-Die folgende Auswahl zeigt die relevantesten der insgesamt 36 Studien (Schwerpunkt: Phase 3, abgeschlossen, große Fallzahl).
-
-| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Ergebnisse |
-|---------|------|------|------|---------|
-| [NCT00095823](https://clinicaltrials.gov/study/NCT00095823) | Phase 3 | Abgeschlossen | 1200 | Randomisierte, doppelblinde, placebokontrollierte Studie zu Aripiprazol als Zusatztherapie bei Major Depression (14 Wochen) |
-| [NCT00095758](https://clinicaltrials.gov/study/NCT00095758) | Phase 3 | Abgeschlossen | 1151 | Doppelblinde, placebokontrollierte Studie zu Sicherheit und Wirksamkeit der Zusatztherapie (14 Wochen) |
-| [NCT01421342](https://clinicaltrials.gov/study/NCT01421342) | Phase 3 | Abgeschlossen | 1522 | VAST-D: Augmentation mit Aripiprazol oder Bupropion vs. Wechsel auf Bupropion bei therapieresistenter Depression |
-| [NCT00105196](https://clinicaltrials.gov/study/NCT00105196) | Phase 3 | Abgeschlossen | 349 | Placebokontrollierte Studie zu Aripiprazol als Zusatz zu einer Antidepressivatherapie (14 Wochen) |
-| [NCT00876343](https://clinicaltrials.gov/study/NCT00876343) | Phase 3 | Abgeschlossen | 586 | Placebokontrollierte Studie zu Aripiprazol als Zusatz zu SSRI/SNRI |
-| [NCT00683852](https://clinicaltrials.gov/study/NCT00683852) | Phase 3 | Abgeschlossen | 225 | Doppelblinde, placebokontrollierte Studie mit reduzierter Aripiprazol-Dosis als Zusatz zur Antidepressivatherapie |
-| [NCT00095745](https://clinicaltrials.gov/study/NCT00095745) | Phase 3 | Abgeschlossen | 1002 | 52-wöchige offene Langzeitstudie zu Sicherheit und Verträglichkeit der Zusatztherapie |
-| [NCT00882362](https://clinicaltrials.gov/study/NCT00882362) | Phase 3 | Abgeschlossen | 155 | Langzeitgabe von Aripiprazol als Zusatz zu SSRI/SNRI |
-| [NCT01111539](https://clinicaltrials.gov/study/NCT01111539) | Phase 3 | Abgebrochen | 211 | Aripiprazol/Escitalopram-Kombination, doppelblind; durch vorzeitigen Abbruch limitiert |
-| [NCT00080314](https://clinicaltrials.gov/study/NCT00080314) | Phase 3 | Abgeschlossen | 400 | Aripiprazol vs. Placebo bei bipolarer Depression |
-
----
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Zentrale Ergebnisse |
-|------|-----|------|------|---------|
-| [34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/) | 2022 | Systematischer Review/Netzwerk-Metaanalyse | Journal of Affective Disorders | Vergleich von Augmentationsstrategien bei therapieresistenter Depression |
-| [42090141](https://pubmed.ncbi.nlm.nih.gov/42090141/) | 2026 | Systematischer Review/Netzwerk-Metaanalyse | JAMA Psychiatry | Zusatztherapie mit Antipsychotika bei Major Depression; fünf atypische Antipsychotika von der FDA zugelassen |
-| [35861202](https://pubmed.ncbi.nlm.nih.gov/35861202/) | 2023 | Systematischer Review/Metaanalyse | Journal of Psychopharmacology | Augmentations- und Kombinationsbehandlungen bei früher therapieresistenter Depression |
-| [34238049](https://pubmed.ncbi.nlm.nih.gov/34238049/) | 2021 | Systematischer Review/Metaanalyse | Journal of Psychopharmacology | Antidepressiva plus Antipsychotika der zweiten Generation vs. Esketamin vs. Lithium |
-| [39739012](https://pubmed.ncbi.nlm.nih.gov/39739012/) | 2025 | Systematischer Review/Netzwerk-Metaanalyse | Neuropsychopharmacology | Relative Wirksamkeit von Behandlungen bei therapieresistenter Depression |
-| [38454079](https://pubmed.ncbi.nlm.nih.gov/38454079/) | 2024 | RCT | Molecular Psychiatry | ASCERTAIN-TRD: Augmentation mit Aripiprazol oder rTMS vs. Wechsel auf Venlafaxin |
-| [37149344](https://pubmed.ncbi.nlm.nih.gov/37149344/) | 2023 | Review | Psychiatric Clinics of North America | Pharmakotherapie bei therapieresistenter Depression; atypische Antipsychotika als am besten untersuchte Augmentationsmittel |
-| [36855876](https://pubmed.ncbi.nlm.nih.gov/36855876/) | 2023 | Review | American Journal of Psychiatry | Stellenwert der Antipsychotika bei therapieresistenter Depression |
-| [25963405](https://pubmed.ncbi.nlm.nih.gov/25963405/) | 2016 | Review | Asia-Pacific Psychiatry | Antipsychotika als Antidepressiva; Wirksamkeit nur in subantipsychotischen Dosen |
-| [37815563](https://pubmed.ncbi.nlm.nih.gov/37815563/) | 2023 | Review | JAMA | Diagnose und Behandlung der bipolaren Störung |
-
-Hinweis: Eine in den Daten enthaltene Metaanalyse zu Aripiprazol bzw. Bupropion (PMID 38669232) wurde zurückgezogen und wird hier nicht berücksichtigt.
-
----
+Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
+
+Der Wirkstoff ist im Handel. Laut den lokalen Daten sind alle erfassten Zulassungen gültig.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
 |---------|------|------|-----------|------|
@@ -114,40 +78,30 @@ Hinweis: Eine in den Daten enthaltene Metaanalyse zu Aripiprazol bzw. Bupropion 
 | EMEA/H/C/003803 | Aripiprazole Mylan Pharma | – | Schizophrenie; bipolare Störung | Gültig |
 | EMEA/H/C/003899 | Aripiprazole Zentiva | – | Schizophrenie; bipolare Störung | Gültig |
 
-Eine sechste Zulassung (Aripiprazole Accord, EMEA/H/C/004021) ist ebenfalls erloschen.
-
----
-
 ## Sicherheitsaspekte
 
-- **Kontraindikationen/Risikokonstellationen aus dem Wissensgraphen** (TxGNN/PrimeKG, keine Angaben aus Fachinformationen): u. a. orthostatische Hypotonie, Epilepsie, Hyperglykämie, Diabetes mellitus, diabetische Ketoazidose, Neutropenie, Agranulozytose, Leukopenie, Hyperlipidämie, Adipositas, Myokardinfarkt, koronare Herzkrankheit, Herzreizleitungsstörungen, plötzlicher Herzstillstand, malignes neuroleptisches Syndrom und zerebrovaskuläre Erkrankungen.
-- **Arzneimittelwechselwirkungen** (100 Einträge insgesamt, Auswahl):
-  - Schwerwiegend (Major): Bupropion
-  - Mittelschwer (Moderate): u. a. Acarbose, Famotidin, Epinephrin, Albiglutid, Alogliptin, Metformin, Pioglitazon, Hyoscyamin, Loperamid, Aprepitant, Atropin, Canagliflozin, Cimetidin, Cisaprid, Clarithromycin
+**Arzneimittelwechselwirkungen** (100 Einträge in den Daten; Auswahl):
+- **Bupropion**: schwerwiegende Wechselwirkung (Major).
+- **Moderate Wechselwirkungen** bestehen unter anderem mit:
+  - Antidiabetika wie Metformin, Pioglitazon, Acarbose, Alogliptin, Albiglutid, Canagliflozin, Acetohexamid und Chlorpropamid,
+  - Anticholinergika wie Atropin, Hyoscyamin und Clidinium,
+  - Clarithromycin, Cimetidin, Famotidin, Cisaprid, Loperamid, Aprepitant, Clotrimazol und Epinephrin.
 
-Für Warnhinweise und Kontraindikationen aus den Fachinformationen liegen keine Daten vor. Bitte die Fachinformation heranziehen.
-
----
-
-## Weitere vorhergesagte Indikationen (Kurzüberblick)
-
-Unter den übrigen Vorhersagen hat nur **Trichotillomanie** (Rang 7, Score 0,9926) Evidenz: zwei Studien (eine offene Studie mit 12 Teilnehmern, eine geplante Phase-2-Studie), mehrere Fallberichte und eine offene Studie (PMID 21694623). Aripiprazol wurde allerdings auch als Auslöser impulsiv-zwanghafter Verhaltensweisen einschließlich Trichotillomanie berichtet, die Nutzen-Risiko-Richtung ist unklar (Evidenzstufe L3, Einstufung: Forschungsfrage). Für die Ränge 2–6 und 8–10 liegen weder Studien noch Literatur vor (L5, Hold).
-
----
+Für weitere Sicherheitsinformationen, insbesondere Warnhinweise und Gegenanzeigen, ist die Fachinformation heranzuziehen.
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Proceed with Guardrails**
+**Entscheidung: Hold**
 
 **Begründung:**
-Mehrere große, abgeschlossene, placebokontrollierte Phase-3-Studien (u. a. NCT00095823, NCT00095758, NCT01421342) sowie aktuelle Netzwerk-Metaanalysen stützen die Zusatztherapie bei Major Depression. Da es sich um eine Erweiterung innerhalb des affektiven Spektrums handelt, ist die Evidenz ausreichend. In Deutschland ist das Arzneimittel im Handel, alle 6 Zulassungen sind gültig; Sicherheitsdaten aus den Fachinformationen fehlen jedoch.
+Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzstufe L5). Es gibt weder Studien noch Publikationen noch einen erkennbaren mechanistischen Zusammenhang.
 
-**Für das weitere Vorgehen erforderlich:**
-- Fachinformation (Warnhinweise, Kontraindikationen) von BfArM/EMA beschaffen und auswerten
-- Detaillierte Wirkmechanismus-Daten (MOA) aus DrugBank ergänzen
-- Klärung des aktuellen Zulassungs- und Marktstatus in Deutschland (alle sechs Einträge erloschen)
-- Sicherheitsüberwachungsplan, insbesondere für Stoffwechselparameter (Glukose, Lipide, Gewicht), Blutbild, kardiovaskuläre Risiken und Wechselwirkungen (z. B. Bupropion)
-- Die ausstehende Relevanzbewertung der übrigen Studien und Publikationen abschließen
+**Für ein Weiterverfolgen wären nötig:**
+- Eine gezielte Literaturrecherche und eine pharmakologische Plausibilitätsprüfung der Verbindung zwischen Aripiprazol und dieser Erkrankung
+- Detaillierte Daten zum Wirkmechanismus
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen)
+- Präklinische Hinweise, bevor klinische Studien erwogen werden
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

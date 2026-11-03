@@ -38,7 +38,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 ## Zusammenfassung
 
-Eisen(III)-maltol ist ein orales Eisenpräparat zur Eisenersatztherapie. Das TxGNN-Modell sagt voraus, dass es bei **Plummer-Vinson-Syndrom (Plummer-Vinson syndrome)** wirksam sein könnte. Die Evidenz ist rein modellbasiert: Für diese Vorhersage liegen in den zusammengestellten Daten **keine klinischen Studien** und **keine Publikationen** vor.
+Ferric Maltol ist ein orales Eisenpräparat. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **vitamin-B12- und folatunabhängiger konstitutioneller megaloblastärer Anämie (vitamin B12- and folate-independent constitutional megaloblastic anemia)** voraus. Für diese Vorhersage liegen in den für diesen Bericht zusammengestellten Daten **keine klinischen Studien** und **keine Publikationen** vor.
 
 ## Kurzüberblick
 
@@ -47,18 +47,16 @@ Eisen(III)-maltol ist ein orales Eisenpräparat zur Eisenersatztherapie. Das TxG
 | Ursprüngliche Indikation | Anemia, Iron-Deficiency |
 | Vorhergesagte neue Indikation | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
 | TxGNN-Vorhersagewert | 0.9998 |
-| Evidenzlevel | L5 |
+| Evidenzniveau | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Eisen(III)-maltol liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass es sich um einen oralen Eisenersatz handelt, dessen Wirksamkeit bei Eisenmangelanämie belegt ist.
+Zum Wirkmechanismus von Ferric Maltol liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass es sich um ein orales Eisenpräparat handelt, das zur Auffüllung der Eisenspeicher dient.
 
-Das Plummer-Vinson-Syndrom ist durch Eisenmangelanämie, Dysphagie und Ösophagusmembranen gekennzeichnet. Mechanistisch ist es daher plausibel, dass der zugrunde liegende Eisenmangel durch Eisenersatz behoben werden kann. Diese Verbindung wird aus der Ausgangsindikation und der TxGNN-Vorhersage abgeleitet.
-
-Ob eine Eisenauffüllung auch die Ösophagusmembranen zurückbilden kann, wird durch die vorliegenden Daten nicht gestützt. Die Vorhersage bleibt daher eine Hypothese.
+Die mechanistische Begründung ist schwach. Megaloblastäre Anämien entstehen typischerweise durch eine gestörte DNA-Synthese (Vitamin-B12- bzw. Folatstoffwechsel) und nicht durch Eisenmangel. Eine Eisengabe dürfte einen B12- und folatunabhängigen Defekt kaum korrigieren, es sei denn, es besteht zusätzlich ein Eisenmangel. Der hohe Vorhersagewert spiegelt möglicherweise eher die Nähe zu anämiebezogenen Begriffen im Modell wider als einen echten mechanistischen Zusammenhang.
 
 ## Klinische Studien
 
@@ -68,7 +66,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 Derzeit liegt keine zugehörige Literatur vor.
 
-## Marktinformationen Deutschland
+## Informationen zum Markt in Deutschland
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -76,8 +74,12 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Sicherheitsaspekte
 
-- **Kontraindikationen:** Die zusammengestellten Daten enthalten keinen Text aus der Fachinformation. Zu beachten ist, dass bei folgenden Eisenstoffwechsel-Erkrankungen eine Eisenzufuhr problematisch sein kann: hereditäre Hämochromatose, Hämosiderose, Eisenstoffwechselstörungen und Morbus Wilson.
-- **Wechselwirkungen:** Keine Wechselwirkungen in den Daten gefunden.
+Das Modell weist auf mögliche Kontraindikationen im Zusammenhang mit folgenden Erkrankungen hin (keine Angaben aus dem Beipackzettel):
+
+- Hereditäre Hämochromatose
+- Hämosiderose
+- Eisenstoffwechselstörung
+- Morbus Wilson
 
 Für weitere Sicherheitsinformationen siehe die Fachinformation.
 
@@ -86,13 +88,14 @@ Für weitere Sicherheitsinformationen siehe die Fachinformation.
 **Entscheidung: Hold**
 
 **Begründung:**
-Der Evidenzlevel ist daher L5.
+Die Vorhersage stützt sich allein auf das Modell (Evidenzniveau L5); es gibt weder Studien noch Publikationen, und der mechanistische Zusammenhang ist schwach.
 
-**Für ein Weiterkommen sind erforderlich:**
-- Systematische Literaturrecherche und gegebenenfalls Pilotstudien zur Wirkung von Eisenersatz auf Ösophagusmembranen und Dysphagie
-- Daten zum Wirkmechanismus (MOA)
-- Fachinformation mit Warnhinweisen und Gegenanzeigen
-- Prüfung der Eisenüberladungsrisiken bei Risikopatienten
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Detaillierte Wirkmechanismus-Daten (MOA)
+- Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation
+- Systematische Literaturrecherche und Prüfung, ob bei dieser Erkrankung überhaupt ein begleitender Eisenmangel vorliegt
+- Prüfung der Applikationswege und der Relevanz für die vorhergesagte Erkrankung
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

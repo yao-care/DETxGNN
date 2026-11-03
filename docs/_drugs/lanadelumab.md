@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "LANADELUMAB"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
-description: "Lanadelumab: vorhergesagte neue Indikation Serpinopathy with toxic serpin polymerization (Evidenzstufe L5). Ursprüngliche Indikation: Angioedemas, Hereditary"
+description: "Lanadelumab: vorhergesagte neue Indikation Serpinopathie mit toxischer Serpin-Polymerisation (serpinopathy with toxic serpin polymerization) (Evidenzstufe L5)."
 ---
 
 # Lanadelumab
@@ -33,103 +33,67 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-## Lanadelumab: Serpinopathy with toxic serpin polymerization
+## Lanadelumab: Serpinopathie mit toxischer Serpin-Polymerisation (serpinopathy with toxic serpin polymerization)
 {: .text-alpha }
 
-## Zusammenfassung
+## Zusammenfassung in Kürze
 
-Lanadelumab ist ein monoklonaler Antikörper gegen Plasma-Kallikrein und wurde ursprünglich zur Prophylaxe von Attacken bei hereditärem Angioödem (HAE) entwickelt.
-Das TxGNN-Modell sagt eine Wirksamkeit bei **C1-Inhibitor-Mangel** voraus. Dabei handelt es sich jedoch um die Grunderkrankung des HAE Typ I/II und damit um die bereits zugelassene Indikation, nicht um eine echte Neuanwendung.
-Gestützt wird dies durch **4 Phase-3-/Beobachtungsstudien mit direktem Bezug zur Erkrankung (5 gelistete Studien insgesamt)** und **20 Publikationen**, darunter eine randomisierte kontrollierte Studie (RCT).
-
----
+Lanadelumab ist ein monoklonaler Antikörper, der Plasma-Kallikrein (KLKB1) hemmt. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Serpinopathie mit toxischer Serpin-Polymerisation (serpinopathy with toxic serpin polymerization)** voraus. Für diese Richtung liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor. Die Vorhersage beruht allein auf dem Modell.
 
 ## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
 | Ursprüngliche Indikation | Angioedemas, Hereditary |
-| Vorhergesagte neue Indikation | Serpinopathy with toxic serpin polymerization |
+| Vorhergesagte neue Indikation | Serpinopathie mit toxischer Serpin-Polymerisation (serpinopathy with toxic serpin polymerization) |
 | TxGNN-Vorhersagewert | 0.9999 |
-| Evidenzlevel | L5 |
+| Evidenzstufe | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
-| Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
+| Empfohlene Entscheidung | Hold |
 
----
+## Warum ist die Vorhersage plausibel?
 
-## Warum ist diese Vorhersage plausibel?
+Zum Wirkmechanismus liegen in den zusammengestellten Daten keine ausführlichen Angaben vor. Pharmakologisch ist Lanadelumab ein Antikörper, der Plasma-Kallikrein (KLKB1) bindet und hemmt, und damit den Kallikrein-Bradykinin-Weg dämpft.
 
-Zur Wirkungsweise liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Lanadelumab ist ein vollständig humaner monoklonaler Antikörper, der Plasma-Kallikrein (KLKB1) hemmt. Bei einem Mangel oder einer Funktionsstörung des C1-Inhibitors (SERPING1-Mutationen) ist die Kallikrein-Aktivität unkontrolliert erhöht. Dadurch entsteht vermehrt Bradykinin, das Gefäßerweiterung und Schwellungsattacken auslöst. Die direkte Hemmung von Kallikrein setzt genau an diesem Punkt an.
+Die Verbindung zur vorhergesagten Erkrankung ist vermutlich eine reine Netzwerkassoziation über ein Serpin, also ein Protein aus der Familie der Serin-Protease-Inhibitoren. Bei Serpinopathien polymerisieren fehlgefaltete Serpine toxisch. Das ist ein anderer Mechanismus als die übermäßige Plasma-Kallikrein-Aktivität, die Lanadelumab hemmt. Ein direkter pharmakologischer Zusammenhang ist daher nicht erkennbar.
 
-Die hohe Vorhersage von TxGNN stimmt daher mit der bekannten Biologie überein. Wichtig: C1-Inhibitor-Mangel (HAE Typ I/II) ist die bereits zugelassene Indikation. Die Vorhersage bestätigt also vor allem das bekannte Wirkprinzip, statt einen neuen Anwendungsbereich zu eröffnen. Dazu passt auch ein Fallbericht zu erworbenem Angioödem mit C1-Inhibitor-Mangel (PMID 33556593), der auf eine mögliche Ausweitung innerhalb dieses Krankheitsspektrums hindeutet, aber nur schwache Evidenz liefert.
+Der hohe Vorhersagewert spiegelt nur die Nähe im Modellnetzwerk wider. Er ist kein Beleg für Wirksamkeit.
 
-Die weiteren neun vorhergesagten Erkrankungen (u. a. Pankreatitis, Glanzmann-Thrombasthenie, Myositis-Formen) beruhen nur auf Netzwerkähnlichkeit. Es gibt dafür weder Studien noch Literatur (Evidenzlevel L5, Empfehlung: Hold).
+## Klinische Studienevidenz
 
----
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-## Klinische Studien
+## Literaturevidenz
 
-| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
-|---------|------|------|------|---------|
-| [NCT05460325](https://clinicaltrials.gov/study/NCT05460325) | Phase 3 | Abgeschlossen | 20 | Offene Studie zu Sicherheit, Pharmakokinetik und Wirksamkeit bei chinesischen HAE-Patienten über 26 Wochen |
-| [NCT04070326](https://clinicaltrials.gov/study/NCT04070326) | Phase 3 | Abgeschlossen | 21 | SPRING-Studie: Sicherheit, Pharmakokinetik und Wirksamkeit bei Kindern von 2 bis unter 12 Jahren mit HAE |
-| [NCT04180163](https://clinicaltrials.gov/study/NCT04180163) | Phase 3 | Abgeschlossen | 12 | Offene Studie zu Wirksamkeit und Sicherheit bei japanischen Patienten mit HAE Typ I/II |
-| [NCT05397431](https://clinicaltrials.gov/study/NCT05397431) | k. A. | Aktiv, nicht rekrutierend | 155 | Anwendungsbeobachtung in Japan zu Langzeitsicherheit und Symptomverbesserung |
-| [NCT04583007](https://clinicaltrials.gov/study/NCT04583007) | k. A. | Nicht mehr verfügbar | k. A. | Expanded-Access-Programm für Kinder mit HAE und für nicht-histaminerges Angioödem; kaum Wirksamkeitsevidenz |
+Derzeit liegt keine zugehörige Literatur vor.
 
-Alle Phase-3-Studien sind einarmig, offen und klein. Kontrollierte Belege stammen aus der Literatur (siehe unten).
-
----
-
-## Literatur
-
-| PMID | Jahr | Typ | Journal | Kernaussagen |
-|------|-----|------|------|---------|
-| [30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/) | 2018 | RCT | JAMA | Lanadelumab versus Placebo zur Prävention von HAE-Attacken (Studie HELP) |
-| [40434599](https://pubmed.ncbi.nlm.nih.gov/40434599/) | 2025 | Netzwerk-Metaanalyse | Drugs in R&D | Vergleich von Langzeitprophylaxen (Garadacimab, Lanadelumab, s.c. C1-INH, Berotralstat) bei HAE |
-| [39508959](https://pubmed.ncbi.nlm.nih.gov/39508959/) | 2024 | Systematische Übersicht | Clin Rev Allergy Immunol | Durchbruchattacken unter Langzeitprophylaxe bei HAE Typ I/II |
-| [34287942](https://pubmed.ncbi.nlm.nih.gov/34287942/) | 2022 | Kohorte | Allergy | HELP-OLE: Langzeitwirksamkeit und -sicherheit bei Patienten ab 12 Jahren |
-| [40504359](https://pubmed.ncbi.nlm.nih.gov/40504359/) | 2025 | Kohorte | Adv Ther | EMPOWER: Praxisdaten über bis zu 36 Monate zu Wirksamkeit und Verträglichkeit |
-| [39836016](https://pubmed.ncbi.nlm.nih.gov/39839016/) | 2025 | Indirekter Vergleich | J Comp Eff Res | Lanadelumab versus C1-Esterase-Inhibitor bei Kindern unter 12 Jahren |
-| [40637159](https://pubmed.ncbi.nlm.nih.gov/40637159/) | 2025 | Indirekter Vergleich (MAIC) | J Comp Eff Res | Garadacimab versus Lanadelumab (300 mg alle 2 bzw. 4 Wochen) |
-| [31560114](https://pubmed.ncbi.nlm.nih.gov/31560114/) | 2019 | Review | Drugs | Übersicht zu Lanadelumab bei HAE; deutliche Senkung der Attackenrate in der HELP-Studie |
-| [33556593](https://pubmed.ncbi.nlm.nih.gov/33556593/) | 2021 | Fallbericht | J Allergy Clin Immunol Pract | Wirksamkeit bei erworbenem Angioödem mit C1-Inhibitor-Mangel |
-| [39399485](https://pubmed.ncbi.nlm.nih.gov/39399485/) | 2024 | Fallbericht | Front Immunol | Lanadelumab bei einer Nierentransplantierten mit HAE und hohem kardiovaskulärem Risiko |
-
----
-
-## Marktinformationen Deutschland
+## Informationen zum deutschen Markt
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/004806 | Takhzyro | k. A. | Hereditäres Angioödem (Status: gültig) |
 
-Hinweis: Die einzige erfasste Zulassung ist als erloschen geführt. Die tatsächliche Verfügbarkeit in Deutschland sollte vor einer Empfehlung geprüft werden.
+## Sicherheitsaspekte
 
----
-
-## Sicherheitshinweise
-
-- **Arzneimittelwechselwirkungen**: Eine pharmakologische Wechselwirkung betrifft das Zielmolekül Kallikrein B1 (KLKB1), also den beabsichtigten Wirkmechanismus. Ein Schweregrad ist nicht angegeben.
-- **Gerinnungsparameter**: Für die vorhergesagten Blutungsstörungen (z. B. Glanzmann-Thrombasthenie, Scott-Syndrom) wäre Vorsicht geboten, da ein Kallikrein-Hemmer Gerinnungswerte wie die aPTT beeinflussen kann.
+- **Arzneimittelwechselwirkungen:** Die Abfrage ergab einen pharmakologischen Eintrag, nämlich die Zielstruktur Kallikrein B1 (KLKB1). Dies ist die erwünschte Zielbindung und keine klinische Wechselwirkung mit einem anderen Arzneimittel.
 
 Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 
----
-
 ## Fazit und nächste Schritte
 
-**Entscheidung: Proceed with Guardrails**
+**Entscheidung: Hold**
 
 **Begründung:**
-Für C1-Inhibitor-Mangel (HAE Typ I/II) liegen eine placebokontrollierte RCT, mehrere abgeschlossene Phase-3-Studien und umfangreiche Praxisdaten vor. Es handelt sich allerdings um die bereits zugelassene Indikation und nicht um eine echte Neuanwendung.
+Für die vorhergesagte Indikation gibt es weder klinische Studien noch Publikationen. Der Mechanismus des Wirkstoffs passt zudem nicht zum Krankheitsmechanismus. Die Evidenzstufe ist daher L5.
 
-**Für das weitere Vorgehen erforderlich:**
-- Prüfung des aktuellen Zulassungs- und Verfügbarkeitsstatus in Deutschland (EU-Zulassung, BfArM)
-- Beschaffung der Fachinformation mit Warnhinweisen und Gegenanzeigen, da Sicherheitsdaten derzeit fehlen
-- Detaillierte Daten zum Wirkmechanismus aus DrugBank
-- Die übrigen Vorhersagen (Rang 2–10) bleiben auf **Hold**, da sie nur auf Modellvorhersagen ohne Studien beruhen.
+**Für ein Weiterkommen wird Folgendes benötigt:**
+- Eine belastbare mechanistische Begründung, ob und wie die Hemmung von Plasma-Kallikrein den Krankheitsprozess der toxischen Serpin-Polymerisation beeinflussen könnte
+- Präklinische Daten (z. B. Zell- oder Tiermodelle) zur vorhergesagten Indikation
+- Eine systematische Literaturrecherche zu Kallikrein-Hemmung und Serpinopathien
+- Warnhinweise und Gegenanzeigen aus der Fachinformation für die Sicherheitsbewertung
+- Detaillierte Daten zum Wirkmechanismus (MOA)
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

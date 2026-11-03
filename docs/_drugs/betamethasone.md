@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Betamethasone
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 59
-evidence_level: L2
+evidence_level: L5
 indication_count: 7
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
 last_modified_at: 2026-11-03
-description: "Betamethasone: vorhergesagte neue Indikation Alopecia mucinosa (Evidenzstufe L2). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
+description: "Betamethasone: vorhergesagte neue Indikation Alopecia mucinosa (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
 ---
 
 # Betamethasone
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **7** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,73 +38,66 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **7**
 
 ## Zusammenfassung
 
-Betamethasone ist ein synthetisches Glukokortikoid mit entzündungshemmender und immunsuppressiver Wirkung. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Alopecia areata (alopecia areata)** voraus. Dafür liegen **6 klinische Studien** und **20 Publikationen** vor, darunter eine abgeschlossene Phase-2-Studie sowie mehrere randomisierte Vergleichsstudien zur oralen, topischen und intraläsionalen Anwendung.
+Betamethason ist ein synthetischer Glukokortikoid-Rezeptor-Agonist mit entzündungshemmender, juckreizstillender und gefäßverengender Wirkung. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Alopecia mucinosa (alopecia mucinosa)** voraus. Die Evidenz ist sehr begrenzt: Es liegen **keine klinischen Studien** und **eine Publikation** (Fallserie von 1964) vor.
 
-## Schnellübersicht
+## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
 | Ursprüngliche Indikation | In den lokalen Daten nicht erfasst |
 | Vorhergesagte neue Indikation | Alopecia mucinosa |
 | TxGNN-Vorhersagewert | 0.9997 |
-| Evidenzstufe | L2 |
+| Evidenzstufe | L5 |
 | Marktstatus in Deutschland | Keine zentrale EU-Zulassung (EMA) erfasst – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten |
 | Anzahl der Zulassungen | 0 (gültig: 0) |
-| Empfohlene Entscheidung | Mit Schutzmaßnahmen fortfahren |
+| Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
 
-Betamethasone ist ein potenter Agonist des Glukokortikoid-Rezeptors (NR3C1). Es wirkt entzündungshemmend, juckreizlindernd und gefäßverengend. Die detaillierten Mechanismusdaten (MOA) sind in den für diesen Bericht zusammengestellten Daten nicht hinterlegt; die pharmakologische Zielstruktur ist jedoch bekannt.
+Betamethason wirkt als Agonist am Glukokortikoid-Rezeptor (NR3C1). Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten nicht vor. Die pharmakologische Grundlage ist jedoch bekannt: Die Aktivierung des Rezeptors dämpft entzündliche Prozesse.
 
-Alopecia areata ist eine T-Zell-vermittelte Autoimmunerkrankung, bei der der Immunprivilegien-Status des Haarfollikels zusammenbricht und es zu nicht vernarbendem Haarausfall kommt. Die Unterdrückung lokaler oder systemischer Entzündung durch topische, intraläsionale oder orale Mini-Puls-Gabe ist mechanistisch schlüssig. Kortikosteroide sind in der Behandlung der Alopecia areata bereits etabliert, daher handelt es sich eher um eine Anwendung innerhalb der bekannten Wirkstoffklasse als um ein echtes Repurposing.
+Die follikuläre Muzinose (Alopecia mucinosa) geht mit perifollikulärer Entzündung und Muzinablagerung einher. Eine entzündungshemmende Kortikosteroidwirkung ist daher mechanistisch denkbar.
 
-## Evidenz aus klinischen Studien
+Die Plausibilität bleibt jedoch hypothetisch. Die einzige verfügbare Publikation ist ein Bericht über drei Fälle mit Therapieübersicht aus dem Jahr 1964; er enthält keinen Abstract in den vorliegenden Daten. Da keine zitierte Studie Betamethason bei dieser Erkrankung belastbar untersucht, wird die Evidenzstufe als L5 eingeordnet.
 
-| Studiennummer | Phase | Status | Teilnehmer | Kernaussagen |
-|---------|------|------|------|---------|
-| [NCT06786689](https://clinicaltrials.gov/study/NCT06786689) | Phase 2 | Abgeschlossen | 60 | Wöchentlicher Azathioprin-Puls versus orale Betamethason-Mini-Puls-Therapie bei mittelschwerer bis schwerer Alopecia areata |
-| [NCT02350023](https://clinicaltrials.gov/study/NCT02350023) | Phase 4 | Abgeschlossen | 50 | Topisches Latanoprost versus topisches Kortikosteroid bei lokalisierter Alopecia areata |
-| [NCT05803070](https://clinicaltrials.gov/study/NCT05803070) | Nicht zutreffend | Unbekannt | 59 | Topisches Cetirizin 1 % versus topisches Betamethasonvalerat 0,1 % |
-| [NCT06087796](https://clinicaltrials.gov/study/NCT06087796) | Phase 1 | Unbekannt | 60 | Topisches Pentoxifyllin/Metformin versus Betamethasonvalerat-Creme bei fleckförmiger Alopecia areata |
-| [NCT07696585](https://clinicaltrials.gov/study/NCT07696585) | Nicht zutreffend | Noch nicht rekrutierend | 60 | Topische Kombination aus Metformin, Simvastatin und Betamethasonvalerat |
-| [NCT04207931](https://clinicaltrials.gov/study/NCT04207931) | Phase 4 | Rekrutierend | 250 | Zentrale zentrifugale vernarbende Alopezie, eine andere Erkrankung; nur indirekt relevant |
+## Klinische Studien
+
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Kernaussagen |
+| PMID | Jahr | Typ | Zeitschrift | Kernaussagen |
 |------|-----|------|------|---------|
-| [39393548](https://pubmed.ncbi.nlm.nih.gov/39393548/) | 2025 | RCT | J Am Acad Dermatol | Mikronadel-Applikation von Compound-Betamethason bei Alopecia areata |
-| [34400956](https://pubmed.ncbi.nlm.nih.gov/34400956/) | 2021 | RCT | Iran J Pharm Res | Orales Betamethason-Puls, Methotrexat und Kombination bei schwerer Alopecia areata, doppelblind, placebokontrolliert |
-| [40510104](https://pubmed.ncbi.nlm.nih.gov/40510104/) | 2025 | RCT | Cureus | Orales Ciclosporin versus orale Betamethason-Mini-Puls-Therapie (60 Patienten) |
-| [32594786](https://pubmed.ncbi.nlm.nih.gov/32594786/) | 2022 | RCT | J Dermatol Treat | Intraläsionales Betamethason versus Triamcinolonacetonid, intraindividueller Vergleich |
-| [37870096](https://pubmed.ncbi.nlm.nih.gov/37870096/) | 2023 | Netzwerk-Metaanalyse | Cochrane Database Syst Rev | Behandlungen der Alopecia areata im Überblick |
-| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | Review | Dermatol Pract Concept | Wirksamkeit und Nebenwirkungen der Kortikosteroid-Pulstherapie |
-| [40519428](https://pubmed.ncbi.nlm.nih.gov/40519428/) | 2025 | Klinische Studie | Cureus | Wirksamkeit und Sicherheit oraler Betamethason-Mini-Pulse |
-| [38623137](https://pubmed.ncbi.nlm.nih.gov/38623137/) | 2024 | Vergleichsstudie | Cureus | Topisches Betamethasondipropionat versus Minoxidil |
-| [27746635](https://pubmed.ncbi.nlm.nih.gov/27746635/) | 2016 | Vergleichsstudie | Ann Dermatol | Orales Ciclosporin versus Betamethason-Mini-Puls |
-| [17642661](https://pubmed.ncbi.nlm.nih.gov/17642661/) | 2004 | Offene unkontrollierte Studie | Indian J Dermatol Venereol Leprol | Ausgedehnte Alopecia areata unter oraler Betamethason-Mini-Puls-Therapie |
+| [14164963](https://pubmed.ncbi.nlm.nih.gov/14164963/) | 1964 | Fallserie/Übersicht | Archives of Dermatology | Bericht über drei Fälle follikulärer Muzinose (Alopecia mucinosa) mit Überblick über Therapieoptionen; kein Abstract verfügbar |
 
 ## Informationen zum deutschen Markt
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
+| EMEA/V/C/006102 | Duotic | nicht angegeben | nicht angegeben |
+| EMEA/V/C/003753 | Osurnia | nicht angegeben | nicht angegeben |
 
-## Sicherheitshinweise
+Beide erfassten Zulassungen haben den Status „erloschen“. Derzeit ist keine gültige Zulassung verzeichnet.
 
-Bitte die Packungsbeilage für Sicherheitsinformationen heranziehen.
+## Sicherheitsaspekte
+
+- **Wechselwirkungen**: Verzeichnet ist lediglich die pharmakologische Wechselwirkung mit dem Glukokortikoid-Rezeptor (Zielstruktur des Wirkstoffs). Weitere konkrete Arzneimittelwechselwirkungen liegen nicht vor.
+
+Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) ist die Fachinformation heranzuziehen.
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Mit Schutzmaßnahmen fortfahren**
+**Entscheidung: Hold**
 
 **Begründung:**
-Für Alopecia areata liegen eine abgeschlossene Phase-2-Studie und mehrere randomisierte Vergleichsstudien zu Betamethason vor, und der Wirkmechanismus ist plausibel. Die meisten Studien sind jedoch klein, und Betamethason dient teils nur als Vergleichssubstanz.
+Der Vorhersagewert ist hoch, die Evidenz beschränkt sich jedoch auf eine Fallserie aus dem Jahr 1964 ohne klinische Studien. Zudem ist derzeit keine gültige Zulassung in Deutschland verzeichnet.
 
-**Für das weitere Vorgehen ist Folgendes erforderlich:**
-- Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) als Grundlage für die Sicherheitsbewertung
-- Ergänzende Daten zum Wirkmechanismus
-- Größere kontrollierte Studien mit Betamethason als Prüfarm
-- Festlegung von Applikationsweg und Dosierschema (topisch, intraläsional oder oraler Mini-Puls) sowie Sicherheitsüberwachung bei systemischer Anwendung
+**Für ein Weiterkommen sind erforderlich:**
+- Systematische Literaturrecherche zu Kortikosteroiden bei follikulärer Muzinose, einschließlich Prüfung der Fallserie von 1964
+- Daten zum Wirkmechanismus (MOA)
+- Fachinformation mit Warnhinweisen und Gegenanzeigen für die Sicherheitsbewertung
+- Klärung der Zulassungs- und Darreichungsformen (z. B. topisch) für eine mögliche Anwendung
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-03
 monitor_inn: "TALIMOGENE LAHERPAREPVEC"
 predicted_indications: ["glottis squamous cell carcinoma", "lung occult squamous cell carcinoma", "rectal cloacogenic carcinoma", "gallbladder adenosquamous carcinoma"]
-description: "Talimogene Laherparepvec: vorhergesagte neue Indikation Glottis squamous cell carcinoma (Evidenzstufe L5). Ursprüngliche Indikation: Melanoma"
+description: "Talimogene Laherparepvec: vorhergesagte neue Indikation Glottis-Plattenepithelkarzinom (glottis squamous cell carcinoma) (Evidenzstufe L5). Ursprüngliche Indikation: Melanoma"
 ---
 
 # Talimogene Laherparepvec
@@ -33,105 +33,69 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-## Talimogene Laherparepvec: Glottis squamous cell carcinoma
+## Talimogene Laherparepvec: Glottis-Plattenepithelkarzinom (glottis squamous cell carcinoma)
 {: .text-alpha }
 
 ## Zusammenfassung
 
-Talimogen laherparepvec (T-VEC) ist ein onkolytisches Herpes-simplex-Virus, das ursprünglich zur Behandlung des Melanoms eingesetzt wurde. Das TxGNN-Modell sagt voraus, dass es bei **CMM7** wirksam sein könnte. Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor; sie beruht ausschließlich auf der Modellvorhersage.
+Talimogen laherparepvec ist ein onkolytisches Virus, das in der Europäischen Union zugelassen ist (Imlygic). Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Glottis-Plattenepithelkarzinom (glottis squamous cell carcinoma)** voraus. Dafür liegen in den zusammengestellten Daten **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
----
-
-## Kurzüberblick
+## Kurzübersicht
 
 | Punkt | Inhalt |
 |------|------|
 | Ursprüngliche Indikation | Melanoma |
-| Vorhergesagte neue Indikation | Glottis squamous cell carcinoma |
+| Vorhergesagte neue Indikation | Glottis-Plattenepithelkarzinom (glottis squamous cell carcinoma) |
 | TxGNN-Vorhersagewert | 0.9907 |
 | Evidenzlevel | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
----
-
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: T-VEC ist ein onkolytisches Herpes-simplex-Virus, das GM-CSF kodiert. Es ist für nicht resezierbare Melanomläsionen zugelassen. Mechanistisch kann es Tumorzellen direkt lysieren und zusätzlich eine lokale und systemische Immunantwort anregen.
+Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Talimogen laherparepvec ein onkolytisches Virus ist, das in Tumorläsionen injiziert wird und dort eine lokale Tumorzerstörung sowie eine immunstimulierende Reaktion auslösen kann.
 
-CMM7 ist in den vorliegenden Daten nicht klar definiert. Vermutlich handelt es sich um einen Subtyp oder eine Locus-Bezeichnung des kutanen malignen Melanoms. Eine melanombezogene Entität ist daher biologisch plausibel, und der hohe Vorhersagewert spiegelt wahrscheinlich die Nähe zur ursprünglichen Melanom-Indikation wider. Die Identität der Erkrankung muss vor jeder weiteren Arbeit verifiziert werden.
+Für Plattenepithelkarzinome im Kopf-Hals-Bereich ist ein onkolytischer Ansatz, ggf. kombiniert mit Immuntherapie, grundsätzlich denkbar, und Läsionen können unter Umständen direkt injizierbar sein. Für den Subtyp der Glottis liegen jedoch keine Daten vor. Zudem wirft die Lage im Atemweg Sicherheitsfragen auf, da nach der Injektion Schwellungen und Entzündungen auftreten könnten. Der Vorhersagewert ist eine reine Modellaussage ohne klinische Bestätigung in diesem Datensatz.
 
-Weitere vom Modell vorhergesagte Indikationen (jeweils nur Modellvorhersage, L5, Hold):
-
-| Rang | Vorhergesagte Indikation | Score | Einschätzung |
-|------|------|------|------|
-| 4 | Plattenepithelkarzinom der Glottis | 0,9907 | Onkolytische Viren plus Immuntherapie bei Kopf-Hals-Tumoren plausibel; Atemwegslage wirft Sicherheitsfragen auf (Schwellung) |
-| 5 | Okkultes Plattenepithelkarzinom der Lunge | 0,9905 | Intraläsionale Injektion nicht machbar, da bildgebend nicht sichtbar |
-| 6 | Kloakogenes Rektumkarzinom | 0,9901 | Lokale Injektion theoretisch möglich; Verbindung spekulativ, HPV-Biologie abweichend |
-| 7 | Adenosquamöses Gallenblasenkarzinom | 0,9901 | Keine spezifische mechanistische Begründung; tiefe viszerale Lage |
-
----
-
-## Klinische Evidenz
+## Klinische Studien
 
 Derzeit sind keine zugehörigen klinischen Studien registriert.
-
----
 
 ## Literaturevidenz
 
 Derzeit liegt keine zugehörige Literatur vor.
 
----
-
-## Marktinformationen Deutschland
+## Informationen zum Markt in Deutschland
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/002771 | Imlygic (Amgen Europe B.V.) | – | Melanom (Status: gültig) |
 
----
+## Sicherheitshinweise
 
-## Zytotoxizität
+- **Arzneimittelwechselwirkungen:** Im Rahmen der Abfrage wurden 100 Wechselwirkungen erfasst. Als schwerwiegend (Major) eingestuft sind unter anderem:
+  - Kortikosteroide: Hydrocortison, Triamcinolon, Dexamethason, Betamethason, Budesonid, Prednison, Prednisolon
+  - Dexrazoxan, Levamisol, Trimetrexat, Mercaptopurin, Dupilumab
+  - Radiopharmazeutika bzw. Radioimmuntherapeutika: Iobenguan (I-131), Ibritumomab tiuxetan, Tositumomab (auch I-131)
+- Als moderat eingestuft sind Wechselwirkungen mit Aciclovir (auch topisch) und Penciclovir (topisch).
 
-| Punkt | Inhalt |
-|------|------|
-| Klassifikation | Onkolytische Virustherapie / Immuntherapie (keine konventionelle Zytostatika-Chemotherapie) |
-| Myelosuppressionsrisiko | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
-| Emetogenität | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
-| Monitoring | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
-| Handhabungsschutz | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
-
----
-
-## Sicherheitsaspekte
-
-Für Warnhinweise und Gegenanzeigen liegen in den zusammengestellten Daten keine Angaben vor; bitte die Fachinformation heranziehen.
-
-**Arzneimittelwechselwirkungen** (Abfrage abgeschlossen, insgesamt 100 Einträge; Auswahl der wichtigsten):
-
-- **Schwerwiegend (Major):** Kortikosteroide (Hydrocortison, Triamcinolon, Dexamethason, Betamethason, Budesonid, Prednison, Prednisolon), Dexrazoxan, Iobenguan (I-131), Ibritumomab tiuxetan, Tositumomab (inkl. I-131), Levamisol, Trimetrexat, Mercaptopurin, Dupilumab
-- **Moderat (Moderate):** Aciclovir (systemisch und topisch), Penciclovir (topisch)
-
-Die Wechselwirkungen mit Aciclovir und Penciclovir sind erwartbar, da antivirale Mittel gegen Herpesviren die Wirkung eines HSV-basierten Vektors beeinträchtigen können.
-
----
+Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) ist die Fachinformation heranzuziehen.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem Modell (L5), ohne klinische Studien oder Publikationen. Die vorhergesagte Erkrankung CMM7 ist nicht eindeutig definiert, und die einzige deutsche Zulassung ist erloschen.
+Die Vorhersage für das Glottis-Plattenepithelkarzinom beruht ausschließlich auf einem Modellwert (0,9907), ohne Studien oder Publikationen. Die Lage im Atemweg wirft zusätzlich Sicherheitsbedenken auf.
 
-**Für ein Weiterkommen sind folgende Schritte nötig:**
-- Klärung der Identität und Definition von CMM7
-- Fachinformation (Warnhinweise, Gegenanzeigen) beschaffen und auswerten
-- Daten zum Wirkmechanismus (MOA) ergänzen
-- Prüfung der Applikationswege (intraläsionale Injektion) für die vorhergesagten Indikationen
-- Systematische Recherche zu klinischen Studien und Literatur
-- Klärung des Zulassungsstatus und der Verfügbarkeit in Deutschland
+**Für ein Fortschreiten sind folgende Schritte erforderlich:**
+- Präklinische und klinische Daten zu Kopf-Hals-Plattenepithelkarzinomen, insbesondere zum Glottis-Subtyp
+- Detaillierte Wirkmechanismus-Daten
+- Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen)
+- Bewertung der Sicherheit bei Injektion im Bereich der Atemwege (Schwellung, Entzündung)
+- Prüfung der Anwendungsweg-Kompatibilität (intraläsionale Injektion im Kehlkopfbereich)
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-03
 monitor_inn: "RILUZOLE"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "autosomal dominant mitochondrial myopathy with exercise intolerance"]
-description: "Riluzole: vorhergesagte neue Indikation Bilateral parasagittal parieto-occipital polymicrogyria (Evidenzstufe L5). Ursprüngliche Indikation: Amyotrophic Lateral Sclerosis"
+description: "Riluzole: vorhergesagte neue Indikation bilaterale parasagittale parieto-okzipitale Polymikrogyrie (bilateral parasagittal parieto-occipital polymicrogyria) (Evidenzstufe L5)."
 ---
 
 # Riluzole
@@ -33,44 +33,38 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-## Riluzole: Bilateral parasagittal parieto-occipital polymicrogyria
+## Riluzole: bilaterale parasagittale parieto-okzipitale Polymikrogyrie (bilateral parasagittal parieto-occipital polymicrogyria)
 {: .text-alpha }
 
 ## Zusammenfassung
 
-Riluzol ist ein Wirkstoff, der ursprünglich zur Behandlung der Amyotrophen Lateralsklerose (ALS) zugelassen wurde.
-Das TxGNN-Modell sagt voraus, dass er bei **bilateraler parasagittaler parieto-okzipitaler Polymikrogyrie** wirksam sein könnte.
-Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht ausschließlich auf dem Modell.
+Riluzol ist ein Wirkstoff, der bereits in Deutschland zugelassen ist. Das TxGNN-Modell sagt für ihn eine mögliche Wirksamkeit bei **bilateraler parasagittaler parieto-okzipitaler Polymikrogyrie (bilateral parasagittal parieto-occipital polymicrogyria)** voraus (Score 0,9999). Für diese Vorhersage liegen in den für diesen Bericht zusammengestellten Daten **keine klinischen Studien** und **keine Publikationen** vor; sie beruht ausschließlich auf der Modellberechnung.
 
-## Schnellübersicht
+## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
 | Ursprüngliche Indikation | Amyotrophic Lateral Sclerosis |
-| Vorhergesagte neue Indikation | Bilateral parasagittal parieto-occipital polymicrogyria |
+| Vorhergesagte neue Indikation | bilaterale parasagittale parieto-okzipitale Polymikrogyrie (bilateral parasagittal parieto-occipital polymicrogyria) |
 | TxGNN-Vorhersagewert | 0.9999 |
-| Evidenzlevel | L5 |
+| Evidenzstufe | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
 | Anzahl der Zulassungen | 2 (gültig: 2) |
-| Empfohlene Entscheidung | Hold |
+| Empfohlene Entscheidung | Hold (zurückstellen) |
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für diesen Wirkstoff liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Aus der Literatur ist bekannt, dass Riluzol die glutamaterge Neurotransmission dämpft und damit exzitotoxische Schäden an Motoneuronen verringern soll. Seine Wirksamkeit bei ALS ist belegt, aber nur moderat (Überlebensverlängerung von etwa 2–3 Monaten laut den Übersichtsarbeiten).
+Zum Wirkmechanismus von Riluzol liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Riluzol glutamatmodulierend wirkt. Spekulativ ließe sich daraus ein Bezug zur Übererregbarkeit der Hirnrinde bei kortikalen Malformationen ableiten.
 
-Ob sich dieser Mechanismus auf die Polymikrogyrie übertragen lässt, ist spekulativ. Man könnte vermuten, dass eine Hyperexzitabilität im Zusammenhang mit kortikalen Malformationen eine Rolle spielt. Die vorliegenden Daten stützen diese Annahme jedoch nicht. Der sehr hohe Modellwert (0,9999) ist eine rein rechnerische Vorhersage ohne klinische oder literaturbasierte Absicherung.
-
-Auch die übrigen Top-10-Vorhersagen sind überwiegend reine Modellvorhersagen. Einige Motoneuron-Erkrankungen (z. B. spätadulte Erkrankung des unteren Motoneurons, monomelische Amyotrophie, genetische ALS-Subtypen) liegen mechanistisch näher an der ursprünglichen Indikation, sind aber ebenfalls ohne Studien- oder Literaturbelege.
+Die Daten stützen diesen Zusammenhang jedoch nicht. Es gibt weder Studien noch Literatur, die Riluzol bei dieser Fehlbildung der Hirnrinde untersuchen. Der sehr hohe Modellwert von 0,9999 ist eine rein rechnerische Vorhersage und kein Wirksamkeitsnachweis. Die Plausibilität ist daher als gering belegt einzustufen.
 
 ## Klinische Studien
 
 Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-## Literaturevidenz
+## Literatur
 
-Derzeit liegt keine zugehörige Literatur zur vorhergesagten Indikation (Rang 1) vor.
-
-Hinweis: Die umfangreichere Literatur im Datensatz betrifft den Vorhersageeintrag „ALS, Suszeptibilität", also die bereits zugelassene Indikation und keine echte Neuindikation. Sie besteht überwiegend aus Übersichtsarbeiten und mechanistischen Arbeiten, etwa zur Glutamat-Exzitotoxizität (PMID 9178165), sowie einer Assoziationsstudie zu CYP2D6-Varianten bei ALS (PMID 42161327, 2026).
+Derzeit ist keine zugehörige Literatur verfügbar.
 
 ## Marktinformationen Deutschland
 
@@ -79,31 +73,28 @@ Hinweis: Die umfangreichere Literatur im Datensatz betrifft den Vorhersageeintra
 | EMEA/H/C/002622 | Riluzole Zentiva | – | Amyotrophe Lateralsklerose |
 | EMEA/H/C/000109 | Rilutek | – | Amyotrophe Lateralsklerose |
 
-Beide Zulassungen sind gültig; das Arzneimittel ist aktuell im Handel.
+Beide Zulassungen (Riluzole Zentiva, Zentiva k.s.; Rilutek, Sanofi Winthrop Industrie) sind gültig.
 
 ## Sicherheitsaspekte
 
-- **Kontraindikationen/Risikokonstellationen aus dem Wissensgraphen (PrimeKG, keine Packungsbeilagen-Angaben):** Neutropenie, Agranulozytose, Substanzmissbrauch/-abhängigkeit, Hyperbilirubinämie (auch hereditär), Gilbert-Syndrom, interstitielle Lungenerkrankung, arzneimittelbedingte Leberschädigung.
-- **Arzneimittelwechselwirkungen:** Insgesamt 44 Wechselwirkungen erfasst. Auszug:
-  - Moderat: Obeticholsäure, Naltrexon, Deferasirox, Osilodrostat, Anagrelid, Asparaginase, Brentuximab vedotin, Clofarabin, Methotrexat, Epirubicin
-  - Gering: Omeprazol, Koffein, Theophyllin, Aminophyllin
-  - Einstufung unbekannt: Metformin, Simvastatin, Ranitidin, Cyanocobalamin, Salbutamol, Ibuprofen
+- **Mögliche Kontraindikationen (aus Wirkstoff-Krankheits-Beziehungen des Modells, nicht aus Fachinformationstexten):** Neutropenie, Agranulozytose, Substanzmissbrauch/-abhängigkeit, Hyperbilirubinämie (auch hereditär), Gilbert-Syndrom, interstitielle Lungenerkrankung, arzneimittelinduzierte Leberschädigung.
+- **Arzneimittelwechselwirkungen:** Insgesamt 44 Wechselwirkungen erfasst. Zu den als **moderat** eingestuften gehören u. a. Obeticholsäure, Naltrexon, Deferasirox, Osilodrostat, Anagrelid, Asparaginase (E. coli), Brentuximab vedotin, Clofarabin, Methotrexat und Epirubicin. Als **geringfügig** eingestuft sind u. a. Omeprazol, Coffein, Theophyllin und Aminophyllin.
 
-Für Warnhinweise und Kontraindikationen aus der Fachinformation liegen keine Daten vor; bitte die Packungsbeilage bzw. Fachinformation konsultieren.
+Weitere Sicherheitsinformationen entnehmen Sie bitte der Packungsbeilage bzw. Fachinformation.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage zur Polymikrogyrie beruht allein auf dem Modell (Evidenzlevel L5), ohne Studien, Literatur oder belegbaren mechanistischen Zusammenhang. Das Arzneimittel ist in Deutschland derzeit im Handel (2 gültige Zulassungen von 2).
+Die Vorhersage beruht allein auf dem Modellwert (Evidenzstufe L5). Es gibt weder klinische Studien noch Publikationen zu dieser Erkrankung, und ein mechanistischer Zusammenhang ist durch die Daten nicht belegt.
 
 **Für ein Weiterkommen sind erforderlich:**
-- Fachinformation (Warnhinweise, Kontraindikationen) aus BfArM bzw. EMA beschaffen, da die Sicherheitsprüfung sonst nicht fortgesetzt werden kann
-- Detaillierte Wirkmechanismus-Daten (z. B. aus DrugBank) ergänzen
-- Systematische Literatur- und Studienrecherche zu Riluzol bei kortikalen Malformationen
-- Prüfung, ob die näher an ALS liegenden Vorhersagen (z. B. Erkrankung des unteren Motoneurons, monomelische Amyotrophie) als Kandidaten sinnvoller sind
-- Prüfung der Schreibweise des Krankheitsnamens „amyotrohpic lateral sclerosis type 22" in der Krankheitszuordnung
+- Präklinische oder mechanistische Studien zu Riluzol bei kortikalen Malformationen
+- Recherche und Auswertung von Literatur sowie Studienregistern zu dieser Erkrankung
+- Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM/EMA)
+- Detaillierte Wirkmechanismus-Daten aus DrugBank
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

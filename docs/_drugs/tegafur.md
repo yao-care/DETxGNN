@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-03
 monitor_inn: "TEGAFUR"
 predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "colonic lymphangioma", "cavernous hemangioma of colon"]
-description: "Tegafur: vorhergesagte neue Indikation Cecum villous adenoma (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
+description: "Tegafur: vorhergesagte neue Indikation Villöses Adenom des Zäkums (cecum villous adenoma) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
 ---
 
 # Tegafur
@@ -33,120 +33,76 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-## Tegafur: Cecum villous adenoma
+## Tegafur: Villöses Adenom des Zäkums (cecum villous adenoma)
 {: .text-alpha }
 
 ## Zusammenfassung
 
-Tegafur ist ein orales Prodrug von 5-Fluorouracil (5-FU) und war ursprünglich für die Behandlung des Magenkarzinoms zugelassen. Das TxGNN-Modell sagt voraus, dass es bei **Kolonneoplasie (colonic neoplasm)** wirksam sein könnte. Diese Richtung wird derzeit durch **16 klinische Studien** und **20 Publikationen** gestützt, darunter mehrere abgeschlossene Phase-3-Studien mit tegafurhaltigen Regimen (überwiegend UFT, also Tegafur plus Uracil).
-
----
+Tegafur ist ein oral verfügbares Fluoropyrimidin, das im Körper zu 5-Fluorouracil umgewandelt wird. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **villösem Adenom des Zäkums (cecum villous adenoma)** voraus. Für diese Vorhersage liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor, sie beruht allein auf der Modellrechnung.
 
 ## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
 | Ursprüngliche Indikation | In den lokalen Daten nicht erfasst |
-| Vorhergesagte neue Indikation | Cecum villous adenoma |
+| Vorhergesagte neue Indikation | Villöses Adenom des Zäkums (cecum villous adenoma) |
 | TxGNN-Vorhersagewert | 0.9986 |
 | Evidenzstufe | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
-| Empfohlene Entscheidung | Proceed with Guardrails (Fortführung mit Schutzmaßnahmen) |
-
----
+| Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu den Wirkmechanismus-Daten liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach bekanntem Wissen wird Tegafur überwiegend über das Leberenzym CYP2A6 zu 5-FU umgewandelt. 5-FU ist ein Fluoropyrimidin-Antimetabolit, der die Thymidylat-Synthase hemmt und damit die DNA-Synthese von Tumorzellen stört.
+Zum Wirkmechanismus von Tegafur liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Tegafur ein Prodrug von 5-Fluorouracil ist. Es gehört zu den Fluoropyrimidinen und wirkt als Antimetabolit, der die DNA-Synthese in sich schnell teilenden Zellen stört.
 
-Das Magenkarzinom und das Kolonkarzinom sind beides gastrointestinale Adenokarzinome, die klassisch mit Fluoropyrimidinen behandelt werden. Der Wirkmechanismus von Tegafur ist daher direkt auf das Kolonkarzinom übertragbar. In UFT-Regimen hemmt zusätzlich Uracil den DPD-vermittelten Abbau von 5-FU, und Leucovorin verstärkt die Wirkung biochemisch.
+Ein villöses Adenom des Zäkums ist eine gutartige Vorläuferläsion im Dickdarm. Das Modell verknüpft sie vermutlich wegen der Nähe zu Darmtumoren mit Tegafur. Eine zytotoxische Fluoropyrimidin-Therapie ist bei gutartigen Läsionen kein Standardvorgehen. Die Standardbehandlung ist in der Regel die endoskopische oder chirurgische Entfernung. Ein belastbarer mechanistischer Zusammenhang ist daher derzeit nicht erkennbar. Die Vorhersage bleibt eine Hypothese.
 
-Wichtig: Die unterstützenden Studien verwenden überwiegend UFT- oder S-1-Kombinationen, nicht Tegafur als Einzelsubstanz.
+## Klinische Studien
 
----
-
-## Klinische Evidenz
-
-| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Ergebnisse |
-|---------|------|------|------|---------|
-| [NCT00378716](https://clinicaltrials.gov/study/NCT00378716) | Phase 3 | Abgeschlossen | 1608 | Orales UFT + Leucovorin vs. 5-FU + Leucovorin bei resezierten Kolonkarzinomen Stadium II/III |
-| [NCT00392899](https://clinicaltrials.gov/study/NCT00392899) | Phase 3 | Abgeschlossen | 2025 | Adjuvantes UFT vs. Beobachtung bei kurativ resezierten Kolonkarzinomen Stadium II |
-| [NCT00660894](https://clinicaltrials.gov/study/NCT00660894) | Phase 3 | Abgeschlossen | 1535 | UFT + Leucovorin vs. S-1 als adjuvante Therapie bei Kolonkarzinom Stadium III |
-| [NCT00152230](https://clinicaltrials.gov/study/NCT00152230) | Phase 3 | Abgeschlossen | 900 | Adjuvantes UFT vs. alleinige Operation bei Dukes-C-Kolorektalkarzinom (NSAS-CC) |
-| [NCT03448549](https://clinicaltrials.gov/study/NCT03448549) | Phase 3 | Unbekannt | 1191 | SOX (Oxaliplatin + S-1) vs. XELOX als adjuvante Therapie bei Kolorektalkarzinom Stadium III |
-| [NCT00385970](https://clinicaltrials.gov/study/NCT00385970) | Phase 3 | Unbekannt | 380 | UFT + PSK vs. UFT + Leucovorin bei Kolorektalkarzinom Stadium IIB/III |
-| [NCT00209742](https://clinicaltrials.gov/study/NCT00209742) | Phase 3 | Unbekannt | 340 | Postoperative UFT+LV-, UFT+LV/UFT- und UFT+LV+PSK/UFT+PSK-Therapien bei Stadium III |
-| [NCT00905047](https://clinicaltrials.gov/study/NCT00905047) | Phase 3 | Abgeschlossen | 89 | Cross-over-Präferenzstudie Xeloda vs. UFT + Folinsäure bei fortgeschrittenem/metastasiertem Kolorektalkarzinom |
-| [NCT02887365](https://clinicaltrials.gov/study/NCT02887365) | Phase 4 | Unbekannt | 300 | Tegafur-Uracil als metronomische Erhaltungstherapie bei MSS/MSI-L-Kolonkarzinom Stadium II |
-| [NCT00974389](https://clinicaltrials.gov/study/NCT00974389) | Phase 2 | Unbekannt | 40 | S-1 + Bevacizumab bei nicht resezierbarem/rezidiviertem Kolorektalkarzinom |
-
-Weitere Studien (Auswahl, hier nicht aufgeführt) betreffen unter anderem eine Phase-2-Studie zu UFT + Leucovorin bei älteren Patienten (NCT00004860), eine Phase-1-Studie mit Strahlentherapie bei Rektumkarzinom (NCT00002801) und eine Phase-2-Studie zu Fruquintinib + S-1 in der Drittlinie (NCT06255379).
-
----
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Zentrale Ergebnisse |
-|------|-----|------|------|---------|
-| [31917122](https://pubmed.ncbi.nlm.nih.gov/31917122/) | 2020 | RCT | Clin Colorectal Cancer | ACTS-CC 02: SOX vs. UFT/LV als adjuvante Therapie bei Hochrisiko-Kolonkarzinom Stadium III |
-| [33714860](https://pubmed.ncbi.nlm.nih.gov/33714860/) | 2021 | RCT | ESMO Open | 5-Jahres-Überleben von ACTS-CC 02: SOX war UFT/LV im krankheitsfreien Überleben nicht überlegen |
-| [33950962](https://pubmed.ncbi.nlm.nih.gov/33950962/) | 2021 | Kohortenstudie und Metaanalyse | Medicine | UFT vs. 5-FU als adjuvante Therapie bei Kolonkarzinom Stadium II/III (taiwanische Registerdaten) |
-| [27056996](https://pubmed.ncbi.nlm.nih.gov/27056996/) | 2016 | RCT (Phase 3) | Ann Oncol | ACTS-RC: S-1 vs. UFT als adjuvante Therapie bei Rektumkarzinom Stadium II/III |
-| [10089948](https://pubmed.ncbi.nlm.nih.gov/10089948/) | 1999 | Metaanalyse | Jpn J Clin Oncol | Individuelle Patientendaten: orale Fluoropyrimidine als adjuvante Therapie nach Resektion |
-| [17952521](https://pubmed.ncbi.nlm.nih.gov/17952521/) | 2007 | Review | Surg Today | UFT als adjuvante Chemotherapie: klinische Evidenz und Wirkmechanismus |
-| [16111469](https://pubmed.ncbi.nlm.nih.gov/16111469/) | 2005 | Review | Expert Rev Anticancer Ther | Stadienspezifische Chemotherapieoptionen beim Kolonkarzinom |
-| [25209093](https://pubmed.ncbi.nlm.nih.gov/25209093/) | 2014 | Konsensus/Leitlinie | Clin Colorectal Cancer | Asiatischer Konsens zur Behandlung des metastasierten Kolorektalkarzinoms |
-| [36676634](https://pubmed.ncbi.nlm.nih.gov/36676634/) | 2022 | Kohortenstudie | Medicina (Kaunas) | Nutzen von UFT als adjuvante Therapie bei Kolonkarzinom Stadium IIA |
-| [11320674](https://pubmed.ncbi.nlm.nih.gov/11320674/) | 2001 | Fallbericht (Nebenwirkung) | Cancer Chemother Pharmacol | UFT-induzierte hämolytische Anämie bei metastasiertem Kolonkarzinom |
-
----
+Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
+
+Laut den lokalen Zulassungsdaten ist eine gültige Zulassung erfasst.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/001242 | Teysuno | – | Magenkarzinom (Stomach Neoplasms) |
 
-Der Status dieser Zulassung lautet „gültig“. Derzeit besteht 1 gültige Zulassung von 1; das Arzneimittel ist in diesem Land im Handel. Die regulatorische Verfügbarkeit muss je nach Region gesondert geprüft werden.
-
----
-
 ## Zytotoxizität
+
+Tegafur ist ein antineoplastisches Fluoropyrimidin. Die folgenden Angaben beruhen auf der Wirkstoffklasse. Für Details gelten die Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage.
 
 | Punkt | Inhalt |
 |------|------|
-| Zytotoxizitätsklassifikation | Konventionelles Zytostatikum (Fluoropyrimidin-Antimetabolit, Prodrug von 5-FU) |
-| Myelosuppressionsrisiko | Mittel (typisch für Fluoropyrimidine; Hinweis: UFT gilt als vergleichsweise mild) |
-| Emetogenität | Niedrig bis mittel |
-| Überwachungsparameter | Blutbild mit Differenzialblutbild, Leber- und Nierenfunktion, Elektrolyte |
-| Handhabungsschutz | Vorgaben für den Umgang mit Zytostatika beachten |
-
-Genauere Angaben bitte den Warnhinweisen und Vorsichtsmaßnahmen der Fachinformation entnehmen.
-
----
+| Zytotoxizitätsklassifikation | Klassisch zytotoxisch (Fluoropyrimidin-Klasse) |
+| Myelosuppressionsrisiko | Klassenüblich relevant (z. B. Neutropenie, Thrombozytopenie), Details siehe Packungsbeilage |
+| Emetogenitätsklassifikation | Klassenüblich niedrig bis mittel, Details siehe Packungsbeilage |
+| Monitoring | Großes Blutbild mit Differenzialblutbild, Leber- und Nierenfunktion, Elektrolyte |
+| Handhabungsschutz | Vorschriften für den Umgang mit zytotoxischen Arzneimitteln beachten |
 
 ## Sicherheitsaspekte
 
-Für Warnhinweise, Gegenanzeigen und Wechselwirkungen liegen in den zusammengestellten Daten keine Angaben vor. Bitte die Fachinformation für Sicherheitsinformationen heranziehen.
-
-Ein Hinweis aus der Literatur: Berichtet wurde ein Fall einer hämolytischen Anämie unter UFT (PMID 11320674).
-
----
+Bitte die Packungsbeilage für Sicherheitsinformationen beachten.
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Proceed with Guardrails (Fortführung mit Schutzmaßnahmen)**
+**Entscheidung: Hold**
 
 **Begründung:**
-Mehrere abgeschlossene Phase-3-Studien (u. a. NCT00378716, NCT00392899, NCT00152230, NCT00660894) belegen die Wirksamkeit tegafurhaltiger Regimen (UFT) bei Kolonkarzinom. Allerdings stammt die Evidenz überwiegend aus UFT- oder S-1-Kombinationen, nicht aus Tegafur als Einzelsubstanz, und die einzige deutsche/europäische Zulassung ist erloschen.
+Die Vorhersage (Wert 0,9986) stützt sich nur auf das Modell, es gibt weder Studien noch Publikationen (Evidenzstufe L5). Bei einer gutartigen Vorläuferläsion ist zudem eine zytotoxische Therapie biologisch und klinisch kaum begründbar.
 
-**Für das weitere Vorgehen erforderlich:**
-- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da die Sicherheitsdaten bislang fehlen und dies den Übergang zur Sicherheitsprüfung blockiert
-- Detaillierte Wirkmechanismus-Daten (z. B. aus DrugBank)
-- Klärung der regulatorischen Verfügbarkeit je Region (Zulassung in Deutschland erloschen)
-- Klärung, inwieweit sich die Evidenz aus UFT- und S-1-Regimen auf Tegafur übertragen lässt
-- Sicherheitsüberwachungsplan, u. a. zur DPD-Defizienz und zu Blutbildveränderungen
+**Für ein Weiterverfolgen ist Folgendes erforderlich:**
+- Eine belastbare mechanistische und klinische Begründung, warum eine Fluoropyrimidin-Therapie bei dieser gutartigen Läsion sinnvoll wäre, mit Abwägung gegenüber der Standardentfernung.
+- Eine systematische Literaturrecherche und gegebenenfalls präklinische Daten zu dieser Erkrankung.
+- Detaillierte Wirkmechanismus-Daten (MOA).
+- Vollständige Sicherheitsinformationen aus der aktuellen Packungsbeilage, einschließlich Warnhinweisen und Gegenanzeigen.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

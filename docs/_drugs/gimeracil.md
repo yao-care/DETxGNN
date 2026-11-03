@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-03
 monitor_inn: "GIMERACIL"
 predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colonic lymphangioma", "colon leiomyoma"]
-description: "Gimeracil: vorhergesagte neue Indikation Cecum villous adenoma (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
+description: "Gimeracil: vorhergesagte neue Indikation Zäkum-Zottenadenom (cecum villous adenoma) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
 ---
 
 # Gimeracil
@@ -33,108 +33,61 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-## Gimeracil: Cecum villous adenoma
+## Gimeracil: Zäkum-Zottenadenom (cecum villous adenoma)
 {: .text-alpha }
 
 ## Zusammenfassung
 
-Gimeracil ist ein Bestandteil der S-1-Kombination (Tegafur/Gimeracil/Oteracil) und wurde ursprünglich zur Behandlung von Magenkarzinomen eingesetzt. Das TxGNN-Modell sagt voraus, dass es bei **Kolonneoplasie (Kolonkarzinom)** wirksam sein könnte. Derzeit stützen **6 klinische Studien** und **12 Publikationen** diese Richtung, wobei die Publikationen überwiegend Fallberichte sind.
+Gimeracil ist ein Bestandteil einer Kombinationstherapie mit Fluoropyrimidinen und wird in Deutschland als Einzelsubstanz-Zulassung geführt. Das TxGNN-Modell sagt voraus, dass es bei **Zäkum-Zottenadenom (cecum villous adenoma)** wirksam sein könnte. Für diese Vorhersage liegen **keine klinischen Studien** und **keine Publikationen** vor; sie beruht allein auf der Modellrechnung.
 
----
-
-## Kurzüberblick
+## Kurzübersicht
 
 | Punkt | Inhalt |
 |------|------|
 | Ursprüngliche Indikation | In den lokalen Daten nicht erfasst |
-| Vorhergesagte neue Indikation | Cecum villous adenoma |
+| Vorhergesagte neue Indikation | Zäkum-Zottenadenom (cecum villous adenoma) |
 | TxGNN-Vorhersagewert | 0.9982 |
-| Evidenzstufe | L5 |
+| Evidenzniveau | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
-| Empfohlene Entscheidung | Proceed with Guardrails (Fortführung mit Schutzmaßnahmen) |
-
----
+| Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
 
-Gimeracil wird nicht als Einzelwirkstoff eingesetzt, sondern ist Teil von S-1. Es hemmt die Dihydropyrimidin-Dehydrogenase (DPD), das Enzym, das 5-Fluorouracil (5-FU) abbaut. Dadurch bleibt die aus Tegafur freigesetzte 5-FU-Exposition über längere Zeit hoch. Die Angabe zum Wirkmechanismus stammt aus der mechanistischen Begründung der Vorhersage; in den für diesen Bericht zusammengestellten Daten ist kein ausführlicher Wirkmechanismus-Eintrag vorhanden.
+Zur Wirkungsweise liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Gimeracil als Hemmstoff der Dihydropyrimidin-Dehydrogenase (DPD) in Kombinationspräparaten dazu dient, den Abbau von 5-Fluorouracil zu verlangsamen und so dessen Wirkung zu verstärken. Gimeracil selbst ist demnach kein eigenständiges Zytostatikum.
 
-Magenkarzinom und Kolonkarzinom sind beides gastrointestinale Tumoren, und das Kolonkarzinom gilt als klassischer 5-FU-sensitiver Tumor. Der Mechanismus ist daher direkt übertragbar. Präklinische und pharmakokinetische Arbeiten (z. B. PMID 20841935 und 20811661) stützen diese Überlegung. Wichtig: Die Evidenz bezieht sich auf die S-1-Kombination, nicht auf Gimeracil allein.
+Das Modell stützt seine Vorhersage vermutlich auf die Nähe zu Erkrankungen des Dickdarms. Ein plausibler therapeutischer Zusammenhang ist daraus nicht abgeleitet: Ein Zottenadenom ist eine gutartige Veränderung, die in der Regel endoskopisch entfernt wird und für eine zytotoxische Fluoropyrimidin-Therapie ein schlechter Anwendungsfall wäre. Der hohe Vorhersagewert ist daher mit Vorsicht zu interpretieren.
 
----
+## Klinische Studien
 
-## Evidenz aus klinischen Studien
-
-| Studiennummer | Phase | Status | Teilnehmer | Kernaussagen |
-|---------|------|------|------|---------|
-| [NCT00660894](https://clinicaltrials.gov/study/NCT00660894) | Phase 3 | Abgeschlossen | 1535 | UFT+Leucovorin vs. TS-1 (S-1) als adjuvante Therapie bei Kolonkarzinom Stadium III |
-| [NCT03448549](https://clinicaltrials.gov/study/NCT03448549) | Phase 3 | Unbekannt | 1191 | SOX (Oxaliplatin + S-1) vs. XELOX als adjuvante Chemotherapie bei kolorektalem Karzinom Stadium III |
-| [NCT00974389](https://clinicaltrials.gov/study/NCT00974389) | Phase 2 | Unbekannt | 40 | S-1 + Bevacizumab bei nicht resezierbarem oder rezidiviertem kolorektalem Karzinom nach Vortherapie |
-| [NCT02618356](https://clinicaltrials.gov/study/NCT02618356) | Phase 2 | Unbekannt | 82 | Raltitrexed + S-1 bei metastasiertem kolorektalem Karzinom nach Versagen der Standardchemotherapie |
-| [NCT06255379](https://clinicaltrials.gov/study/NCT06255379) | Phase 2 | Noch nicht rekrutierend | 52 | Fruquintinib + Tegafur/Gimeracil/Oteracil in der Drittlinie bei metastasiertem kolorektalem Karzinom |
-| [NCT02216149](https://clinicaltrials.gov/study/NCT02216149) | Phase 2 | Abgebrochen | 20 | Wirkung von S-1 und Capecitabin mit Oxaliplatin auf die Koronardurchblutung (Sicherheitsendpunkt, nicht Wirksamkeit) |
-
----
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Kernaussagen |
-|------|-----|------|------|---------|
-| [20841935](https://pubmed.ncbi.nlm.nih.gov/20841935/) | 2010 | Pharmakokinetische Studie | Gan To Kagaku Ryoho | Pharmakokinetik von S-1 bei Peritonealmetastasen eines Kolonkarzinoms im Mausmodell |
-| [20811661](https://pubmed.ncbi.nlm.nih.gov/20811661/) | 2010 | Präklinisch (Xenograft) | Oncology Reports | Irinotecan überwindet die 5-FU-Resistenz bei Kolonkarzinom-Xenografts in Kombination mit S-1 durch Herunterregulierung der Thymidylatsynthase |
-| [21084813](https://pubmed.ncbi.nlm.nih.gov/21084813/) | 2010 | Klinische Analyse | Gan To Kagaku Ryoho | Risikofaktoren für schwere hämatologische Toxizität (Grad 3–4, 16,1 %) unter S-1/Irinotecan bei 87 Patienten mit fortgeschrittenem oder rezidiviertem Kolonkarzinom |
-| [32936722](https://pubmed.ncbi.nlm.nih.gov/32936722/) | 2021 | Fallbericht/Review | J Oncol Pharm Pract | S-1-induzierte Hypertriglyzeridämie; S-1 gilt als eines der wirksamsten Chemotherapeutika beim kolorektalen Karzinom |
-| [28414195](https://pubmed.ncbi.nlm.nih.gov/28414195/) | 2017 | Fallbericht | Eur J Dermatol | TS-1-induzierte Erythrodermie mit ausgedehntem Schleimhautbefall und Hand-Fuß-Syndrom |
-| [18630468](https://pubmed.ncbi.nlm.nih.gov/18630468/) | 2008 | Fallbericht | Anticancer Research | Komplettremission unter S-1 und CPT-11 bei Lebermetastasen eines Kolonkarzinoms |
-| [29394831](https://pubmed.ncbi.nlm.nih.gov/29394831/) | 2017 | Fallbericht | Gan To Kagaku Ryoho | SOX plus Panitumumab als Downstaging, anschließend zweizeitige Hepatektomie bei nicht resezierbaren kolorektalen Lebermetastasen |
-| [29483452](https://pubmed.ncbi.nlm.nih.gov/29483452/) | 2018 | Fallbericht | Gan To Kagaku Ryoho | Kolonkarzinom mit Lebermetastasen und Pfortadertumorthrombus, wirksam mit Chemotherapie behandelt (CapeOX, danach Regimewechsel) |
-| [35444144](https://pubmed.ncbi.nlm.nih.gov/35444144/) | 2022 | Fallbericht | Gan To Kagaku Ryoho | Laparoskopische Resektion peritonealer Rezidive nach kolorektaler Resektion |
-| [41253353](https://pubmed.ncbi.nlm.nih.gov/41253353/) | 2025 | Fallbericht | Gan To Kagaku Ryoho | Harnverhalt als oxaliplatininduzierte akute periphere Neuropathie; zuvor Behandlung mit Tegafur/Gimeracil/Oteracil |
+Derzeit liegt keine zugehörige Literatur vor.
 
----
-
-## Marktinformationen Deutschland
+## Informationen zum deutschen Markt
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/001242 | Teysuno | – | Magenneoplasien (Stomach Neoplasms) |
 
-Die Zulassung ist aufgehoben (Hersteller: Nordic Group B.V.).
+## Sicherheitshinweise
 
----
-
-## Zytotoxizität
-
-| Punkt | Inhalt |
-|------|------|
-| Zytotoxizitätsklassifikation | Konventionell zytotoxisch (Fluoropyrimidin-Kombination; Gimeracil selbst ist ein DPD-Hemmer und verstärkt die 5-FU-Wirkung) |
-| Myelosuppressionsrisiko | Mittel; in einer Analyse mit S-1/Irinotecan traten Grad-3–4-Hämatotoxizitäten bei 16,1 % der Patienten auf |
-| Emetogenität | Niedrig bis mittel (allgemeine Einordnung für orale Fluoropyrimidine) |
-| Monitoring | Großes Blutbild mit Differenzialblutbild, Leber- und Nierenfunktion, Elektrolyte |
-| Schutzmaßnahmen beim Umgang | Vorgaben für den Umgang mit zytotoxischen Arzneimitteln beachten |
-
----
-
-## Sicherheitsaspekte
-
-Für Warnhinweise und Gegenanzeigen liegen keine verwertbaren Daten vor; bitte die Fachinformation heranziehen. Aus der Literatur sind bei S-1-Regimen unter anderem Hand-Fuß-Syndrom, Erythrodermie, Hypertriglyzeridämie und hämatologische Toxizität berichtet. Zu Arzneimittelwechselwirkungen wurden keine Einträge gefunden.
-
----
+Angaben zu Warnhinweisen, Gegenanzeigen und Wechselwirkungen liegen in den zusammengestellten Daten nicht vor. Bitte die Fachinformation zu Sicherheitsaspekten heranziehen.
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Proceed with Guardrails**
+**Entscheidung: Hold**
 
 **Begründung:**
-Zwei Phase-3-Studien (davon eine abgeschlossen, n = 1535) prüfen die gimeracilhaltige S-1-Kombination direkt beim Kolonkarzinom, und der Mechanismus (DPD-Hemmung, 5-FU-Sensitivität) ist plausibel. Einschränkend ist die Evidenz auf die Kombination bezogen, mehrere Studien haben unbekannten Status, und die Literatur besteht überwiegend aus Fallberichten. In Deutschland ist das Arzneimittel im Handel, 1 von 1 Zulassung ist gültig.
+Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzniveau L5), ohne Studien oder Publikationen zu dieser Erkrankung. Zudem passt ein gutartiges Adenom biologisch schlecht zu einer zytotoxischen Fluoropyrimidin-Therapie.
 
-**Für das weitere Vorgehen erforderlich:**
-- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) als Voraussetzung für die Sicherheitsprüfung
-- Detaillierte Wirkmechanismus-Daten (z. B. aus DrugBank)
-- Ergebnisse bzw. Statusklärung der Studien NCT00660894 und NCT03448549
-- Klärung des Zulassungs- und Verfügbarkeitswegs in Deutschland, da die Zulassung aufgehoben ist
-- Sicherheitsüberwachungsplan (Hämatologie, DPD-Status, Hautreaktionen)
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da diese Sicherheitsdaten derzeit fehlen
+- Daten zum Wirkmechanismus (MOA) ergänzen
+- Prüfung, ob für diese Erkrankung überhaupt ein medikamentöser Therapiebedarf besteht, sowie präklinische oder mechanistische Belege
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

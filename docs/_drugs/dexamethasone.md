@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "DEXAMETHASONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
-description: "Dexamethasone: vorhergesagte neue Indikation Alopecia mucinosa (Evidenzstufe L5). Ursprüngliche Indikation: Macular Edema"
+description: "Dexamethasone: vorhergesagte neue Indikation Mucinosis follicularis (alopecia mucinosa) (Evidenzstufe L5). Ursprüngliche Indikation: Macular Edema"
 ---
 
 # Dexamethasone
@@ -33,109 +33,72 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-## Dexamethasone: Alopecia mucinosa
+## Dexamethasone: Mucinosis follicularis (alopecia mucinosa)
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 
-Dexamethason ist ein starkes Glukokortikoid, das in Deutschland zuletzt zur Behandlung von Makulaödem, Uveitis und Multiplem Myelom zugelassen war.
-Das TxGNN-Modell sagt voraus, dass es bei **Alopecia areata** (kreisrunder Haarausfall) wirksam sein könnte.
-Dafür liegen **keine registrierten klinischen Studien**, aber **20 Publikationen** vor, darunter eine randomisierte kontrollierte Studie (RCT) und mehrere Kohortenstudien zur oralen Mini-Puls-Therapie.
+Dexamethason ist ein synthetisches Glukokortikoid mit entzündungshemmender und immunsuppressiver Wirkung. Das TxGNN-Modell sagt voraus, dass es bei **Mucinosis follicularis (alopecia mucinosa)** wirksam sein könnte. Für diese Richtung liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor, die Vorhersage beruht allein auf dem Modell.
 
----
-
-## Schnellübersicht
+## Kurzübersicht
 
 | Punkt | Inhalt |
 |------|------|
 | Ursprüngliche Indikation | Macular Edema;Uveitis; Multiple Myeloma |
-| Vorhergesagte neue Indikation | Alopecia mucinosa |
+| Vorhergesagte neue Indikation | Mucinosis follicularis (alopecia mucinosa) |
 | TxGNN-Vorhersagewert | 0.9999 |
-| Evidenzlevel | L5 |
+| Evidenzniveau | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
 | Anzahl der Zulassungen | 2 (gültig: 2) |
-| Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
-
----
+| Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Dexamethason liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Dexamethason ist ein potentes Glukokortikoid, das entzündungshemmend und immunsuppressiv wirkt. Seine Wirksamkeit bei entzündlichen Augenerkrankungen (Makulaödem, Uveitis) und beim Multiplen Myelom ist belegt.
+Zum Wirkmechanismus von Dexamethason liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Dexamethason zur Klasse der Glukokortikoide gehört. Diese dämpfen entzündliche und immunvermittelte Prozesse breit.
 
-Alopecia areata ist eine autoimmune, T-Zell-vermittelte Erkrankung, bei der das Haarfollikel seinen Immunprivileg-Schutz verliert. Dexamethason kann proinflammatorische Zytokine und die Lymphozyteninfiltration verringern. Die orale Mini-Puls-Gabe (z. B. 5 mg an zwei aufeinanderfolgenden Tagen pro Woche) ist eine etablierte systemische Kortikosteroid-Strategie bei mittelschwerer bis schwerer Erkrankung. Die Verbindung zur ursprünglichen Indikation liegt somit im gemeinsamen entzündlich-immunologischen Wirkprinzip. Der sehr hohe TxGNN-Wert passt zum Signal in der Literatur.
+Die Vorhersage spiegelt wahrscheinlich eine gemeinsame entzündliche Pathologie an den Haarfollikeln wider. Ein solcher Zusammenhang wäre mechanistisch nachvollziehbar, da eine antiinflammatorische Therapie dort grundsätzlich ansetzen könnte. Er ist aber bislang nicht durch Studien oder Fachliteratur belegt. Die Ähnlichkeit zur ursprünglichen Anwendung wurde noch nicht näher analysiert. Die Vorhersage ist daher als reine Hypothese zu verstehen.
 
----
+## Evidenz aus klinischen Studien
 
-## Klinische Studienevidenz
+Derzeit sind keine einschlägigen klinischen Studien registriert.
 
-Derzeit sind keine zugehörigen klinischen Studien registriert.
+## Evidenz aus der Literatur
 
----
+Derzeit ist keine einschlägige Literatur verfügbar.
 
-## Literaturevidenz
+## Marktinformationen Deutschland
 
-| PMID | Jahr | Typ | Journal | Kernaussagen |
-|------|-----|------|------|---------|
-| [36086930](https://pubmed.ncbi.nlm.nih.gov/36086930/) | 2022 | RCT | Dermatologic Therapy | Orale Dexamethason-Mini-Puls-Therapie (niedrig dosiert) vs. DPCP-Kontaktsensibilisierung bei 30 Kindern mit schwerer Alopecia areata; Vergleich von Wirksamkeit und Sicherheit |
-| [39042154](https://pubmed.ncbi.nlm.nih.gov/39042154/) | 2024 | Netzwerk-Metaanalyse | Archives of Dermatological Research | Vergleich systemischer Steroide, oraler JAK-Inhibitoren und Kontakt-Immuntherapie bei schwerer Alopecia areata |
-| [35330017](https://pubmed.ncbi.nlm.nih.gov/35330017/) | 2022 | Prospektive Kohorte | Journal of Clinical Medicine | Real-World-Daten zu Wirksamkeit und Sicherheit der oralen Dexamethason-Mini-Puls-Therapie sowie Faktoren für ein erfolgreiches Ansprechen |
-| [36070222](https://pubmed.ncbi.nlm.nih.gov/36070222/) | 2022 | Multizentrische klinische Studie | Dermatologic Therapy | Mini-Puls-Therapie mit oralem Dexamethason bei mittelschwerer bis schwerer Alopecia areata |
-| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Review | Pediatric Dermatology | Dosierung und Anwendung der Pulstherapie mit Kortikosteroiden bei Kindern mit Alopecia areata, inkl. Nebenwirkungen |
-| [31579982](https://pubmed.ncbi.nlm.nih.gov/31579982/) | 2019 | Prospektive Studie | Dermatologic Therapy | 73 Kinder mit schwerer Alopecia areata: Vergleich von 1-tägigen und 3-tägigen intravenösen Dexamethason-Pulsen plus topisches Clobetasol |
-| [26179196](https://pubmed.ncbi.nlm.nih.gov/26179196/) | 2015 | Langzeit-Follow-up | Dermatologic Therapy | 65 Kinder und Jugendliche; kombinierte orale Puls- und topische Kortikosteroidtherapie, medianes Follow-up 96 Monate |
-| [41872082](https://pubmed.ncbi.nlm.nih.gov/41872082/) | 2026 | Retrospektive Auswertung | European Journal of Dermatology | Dexamethason-Puls als Rescue-Therapie bei Nonrespondern unter Baricitinib (19 Patienten) |
-| [10535249](https://pubmed.ncbi.nlm.nih.gov/10535249/) | 1999 | Klinische Studie | Journal of Dermatology | Orale Pulstherapie mit 5 mg Dexamethason zweimal wöchentlich bei ausgedehnter Alopecia areata (30 Patienten) |
-| [41243342](https://pubmed.ncbi.nlm.nih.gov/41243342/) | 2025 | Fallbericht mit Review | Journal of Dermatological Treatment | Dauerhafte Remission unter oraler Dexamethason-Mini-Puls-Therapie, wenn JAK-Inhibitoren nicht in Frage kommen |
-
----
-
-## Informationen zum deutschen Markt
+Alle Zulassungen sind derzeit gültig (2 gültige Zulassungen).
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/001140 | Ozurdex | – | Makulaödem, Uveitis |
 | EMEA/H/C/004071 | Neofordex | – | Multiples Myelom |
 
-Das Arzneimittel ist in Deutschland im Handel; 2 von 2 Zulassungen sind gültig.
+## Sicherheitshinweise
 
----
+Für Warnhinweise und Gegenanzeigen liegen keine verwertbaren Angaben vor. Bitte die Fachinformation beachten.
 
-## Zytotoxizität
+**Arzneimittelwechselwirkungen:** Insgesamt sind 100 Wechselwirkungen verzeichnet. Auszug:
 
-| Punkt | Inhalt |
-|------|------|
-| Zytotoxizitätsklassifikation | Kein klassisches Zytostatikum; Glukokortikoid, im Multiplen Myelom als Kombinationspartner eingesetzt |
-| Myelosuppressionsrisiko | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
-| Emetogenität | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
-| Überwachungsparameter | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
-| Schutzmaßnahmen beim Umgang | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
-
----
-
-## Sicherheitsaspekte
-
-- **Kontraindikationen laut Wissensgraph** (aus Arzneimittel-Krankheits-Beziehungen, nicht aus Fachinformationstext): u. a. Bluthochdruck, Epilepsie, Hyperglykämie, Herzinsuffizienz, Masern, Herpes-simplex-Keratitis, Harnstoffzyklusdefekte (z. B. Citrullinämie, Hyperargininämie) sowie verschiedene Formen des Hypophysenmangels und des hypogonadotropen Hypogonadismus (u. a. Kallmann-Syndrom, Sheehan-Syndrom).
-- **Arzneimittelwechselwirkungen**: Für 100 Wechselwirkungen liegen Daten vor. Beispiele für **schwerwiegende (Major)** Wechselwirkungen: Fentanyl, Adalimumab. Beispiele für **mäßige (Moderate)** Wechselwirkungen: Paclitaxel, Zidovudin, Abemaciclib, Acalabrutinib, Ibuprofen, Ketorolac, Nifedipin, Isotretinoin, Codein, Acetazolamid.
-
-Für Warnhinweise und Kontraindikationen aus der Fachinformation siehe die Fachinformation.
-
----
+- **Schwerwiegend (Major):** Fentanyl, Adalimumab
+- **Mäßig (Moderate):** u. a. Zidovudin, Paclitaxel, Isotretinoin, Abemaciclib, Acalabrutinib, Acarbose, Acebutolol, Acetazolamid, Codein, Dihydrocodein, Ketorolac, Nifedipin, Ibuprofen
+- **Gering (Minor):** u. a. Dolutegravir, Lidocain, Formoterol
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Proceed with Guardrails**
+**Entscheidung: Hold**
 
 **Begründung:**
-Für Alopecia areata liegen eine RCT bei Kindern, mehrere prospektive und multizentrische Studien sowie eine Netzwerk-Metaanalyse zur Dexamethason-Mini-Puls-Therapie vor (Evidenzlevel L2). Es fehlen jedoch registrierte klinische Studien, und die RCT ist klein (30 Kinder). In Deutschland ist das Arzneimittel im Handel, 2 von 2 Zulassungen sind gültig.
+Es gibt weder klinische Studien noch Publikationen, die Dexamethason direkt bei Mucinosis follicularis untersuchen. Die Vorhersage stützt sich allein auf das Modell (Evidenzniveau L5). Eine Weiterverfolgung ist erst sinnvoll, wenn belastbare Hinweise auf einen Nutzen vorliegen.
 
-Die übrigen neun vorhergesagten Indikationen (u. a. Alopecia mucinosa, Telogen effluvium, Folliculitis decalvans) stützen sich nur auf die Modellvorhersage (L5) und sind mit **Hold** zu bewerten. Mehrere davon erscheinen mechanistisch unplausibel.
+**Für ein Weiterkommen ist Folgendes erforderlich:**
+- Systematische Literaturrecherche zu Glukokortikoiden bei Mucinosis follicularis, einschließlich Fallberichten und Fallserien
+- Detaillierte Mechanismusdaten (MOA) zu Dexamethason und eine genauere Analyse der Ähnlichkeit zur ursprünglichen Anwendung
+- Prüfung der geeigneten Applikationsform (z. B. topisch oder intraläsional) und ihrer Verfügbarkeit
+- Auswertung der Fachinformation auf Warnhinweise und Gegenanzeigen, insbesondere bei längerer Anwendung
+- Bei positiver Datenlage ein Plan für eine explorative klinische Studie
 
-**Für das Weiterverfolgen sind folgende Schritte nötig:**
-- Auswertung der Fachinformation (Warnhinweise und Kontraindikationen) über das BfArM. Diese Datenlücke blockiert derzeit das Sicherheitsscreening.
-- Ergänzung der Wirkmechanismus-Daten (z. B. über die DrugBank-Abfrage).
-- Klärung des Zulassungsstatus und der verfügbaren Darreichungsformen (oral/systemisch) in Deutschland, da beide bekannten Zulassungen erloschen sind.
-- Größere randomisierte Studien mit Erwachsenen sowie Vergleich mit JAK-Inhibitoren.
-- Sicherheitsplan für die Langzeitanwendung von Kortikosteroiden, insbesondere bei Kindern und bei Patienten mit Bluthochdruck, Diabetes oder Hyperglykämie.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

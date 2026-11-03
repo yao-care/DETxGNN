@@ -3,10 +3,10 @@
   "total_drugs": 468,
   "level_counts": {
     "L1": 13,
-    "L2": 21,
+    "L2": 20,
     "L3": 17,
     "L4": 25,
-    "L5": 380
+    "L5": 381
   },
   "all_drugs": [
     {
@@ -276,7 +276,7 @@
     {
       "name": "Betamethasone",
       "slug": "betamethasone",
-      "level": "L2",
+      "level": "L5",
       "indication_count": 7
     },
     {

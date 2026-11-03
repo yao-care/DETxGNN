@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-03
 monitor_inn: "salmeterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
-description: "Salmeterol: vorhergesagte neue Indikation Respiratory malformation (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
+description: "Salmeterol: vorhergesagte neue Indikation Atemwegsfehlbildung (respiratory malformation) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
 ---
 
 # Salmeterol
@@ -33,71 +33,51 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-## Salmeterol: Respiratory malformation
+## Salmeterol: Atemwegsfehlbildung (respiratory malformation)
 {: .text-alpha }
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Salmeterol ist ein langwirksamer Beta-2-Adrenozeptor-Agonist, der ursprünglich zur Behandlung von **Asthma** eingesetzt wird. Das TxGNN-Modell sagt voraus, dass er bei **Bronchitis** (in der Praxis chronische Bronchitis im Rahmen der COPD) wirksam sein könnte. Hierfür liegen **9 klinische Studien** und **20 Publikationen** vor. Die Evidenz betrifft jedoch eine Ausweitung des bestehenden Atemwegs-Einsatzes und keine neuartige Umwidmung.
-
----
+Salmeterol ist ein langwirksamer Beta-2-Adrenozeptor-Agonist, der in Deutschland als Seffalair Spiromax zugelassen ist. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Atemwegsfehlbildung (respiratory malformation)** voraus (Score 0,9991). Die Evidenz ist sehr schwach: Die zwei gelisteten Studien befassen sich mit Mukoviszidose bzw. Asthma in der Schwangerschaft, nicht mit Fehlbildungen der Atemwege selbst.
 
 ## Schnellübersicht
 
 | Punkt | Inhalt |
 |------|------|
 | Ursprüngliche Indikation | In den lokalen Daten nicht erfasst |
-| Vorhergesagte neue Indikation | Respiratory malformation |
-| TxGNN-Vorhersagewert | 0.9991 |
-| Evidenzstufe | L5 |
+| Vorhergesagte neue Indikation | Atemwegsfehlbildung (respiratory malformation) |
+| TxGNN-Vorhersagescore | 0.9991 |
+| Evidenzniveau | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
-| Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
+| Empfohlene Entscheidung | Hold (zurückstellen) |
 
----
+## Warum ist diese Vorhersage nachvollziehbar?
 
-## Warum ist diese Vorhersage plausibel?
+Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten derzeit nicht vor. Bekannt ist, dass Salmeterol zur Klasse der langwirksamen Beta-2-Agonisten gehört, die eine Bronchodilatation bewirken.
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Salmeterol ist ein langwirksamer Beta-2-Adrenozeptor-Agonist (LABA). Er entspannt die glatte Muskulatur der Atemwege, verringert die Atemwegsobstruktion und kann die mukoziliäre Clearance verbessern.
+Ein direkter mechanistischer Zusammenhang mit strukturellen Fehlbildungen der Atemwege ist nicht erkennbar. Ein möglicher Nutzen wäre allenfalls symptomatisch (Bronchodilatation, Effekte auf die mukoziliäre Clearance, etwa bei Mukoviszidose oder Zilienfunktionsstörungen). Der hohe Score beruht vermutlich auf der Nähe zu anderen Atemwegserkrankungen im Modell und nicht auf belegter Biologie.
 
-Asthma und chronische Bronchitis (als Teil der COPD) sind beides obstruktive Atemwegserkrankungen. Salmeterol, allein oder mit Fluticason kombiniert, ist bei COPD bereits eine etablierte Erhaltungstherapie. Die Vorhersage bildet daher überwiegend die bestehende Anwendung ab. Für die akute Bronchitis liefern die Daten keine Belege.
+## Klinische Studienevidenz
 
-Eine kleine randomisierte Studie (n = 14) zeigte außerdem Effekte von Salmeterol auf die mukoziliäre Clearance und die Hustenclearance bei chronischer Bronchitis.
+Keine der Studien untersucht die vorhergesagte Erkrankung direkt.
 
----
-
-## Evidenz aus klinischen Studien
-
-| Studiennummer | Phase | Status | Teilnehmerzahl | Kernergebnisse |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT00268177](https://clinicaltrials.gov/study/NCT00268177) | Phase 3 | Abgeschlossen | 130 | Salmeterol/Fluticason 50/500 µg vs. Placebo über 13 Wochen: antiinflammatorische Wirkung auf die Bronchien bei COPD |
-| [NCT02173691](https://clinicaltrials.gov/study/NCT02173691) | Phase 3 | Abgeschlossen | 584 | Tiotropium vs. Salmeterol-Aerosol vs. Placebo über 6 Monate: Bronchodilatation und Sicherheit bei COPD |
-| [NCT00269087](https://clinicaltrials.gov/study/NCT00269087) | Phase 3 | Abgeschlossen | 122 | Langzeitstudie (56 Wochen) mit Salmeterol/Fluticason bei COPD (chronische Bronchitis, Emphysem); Kombinationsprodukt |
-| [NCT00064402](https://clinicaltrials.gov/study/NCT00064402) | Phase 3 | Abgeschlossen | 741 | Arformoterol, placebo- und aktivkontrolliert über 12 Wochen bei COPD; Salmeterol vermutlich Vergleichssubstanz |
-| [NCT00064415](https://clinicaltrials.gov/study/NCT00064415) | Phase 3 | Abgeschlossen | 799 | 12-Monats-Sicherheitsstudie zu Arformoterol bei COPD; Salmeterol offenbar aktive Kontrolle |
-| [NCT00269126](https://clinicaltrials.gov/study/NCT00269126) | Phase 3 | Abgeschlossen | 150 | Vergleich zweier Arzneimittel bei COPD; Bezug zu Salmeterol unklar |
-| [NCT00403286](https://clinicaltrials.gov/study/NCT00403286) | Phase 2 | Abgeschlossen | 457 | Dosisfindung Fluticason/Formoterol im Vergleich zu Advair (Salmeterol/Fluticason) bei COPD |
-| [NCT01361984](https://clinicaltrials.gov/study/NCT01361984) | Phase 4 | Unbekannt | 20 | Vernebeltes Arformoterol vs. Salmeterol-Pulverinhalator bei COPD |
-| [NCT00233051](https://clinicaltrials.gov/study/NCT00233051) | Nicht zutreffend | Abgebrochen | 20 | Biomarker-Studie zu Entzündungsmediatoren im induzierten Sputum bei COPD; schwache Wirksamkeitsevidenz |
-
----
+| [NCT00005110](https://clinicaltrials.gov/study/NCT00005110) | Nicht zugewiesen | Ausgesetzt | k. A. | Langzeitwirkung von Salmeterol im Vergleich zu Albuterol oder Placebo bei Mukoviszidose (6 Monate, zweimal täglich inhaliert); Mukoviszidose ist keine strukturelle Fehlbildung |
+| [NCT01681979](https://clinicaltrials.gov/study/NCT01681979) | Nicht zutreffend | Abgeschlossen | 1 | Asthmabehandlung in der Schwangerschaft und Häufigkeit unerwünschter Schwangerschaftsausgänge; keine Behandlung von Fehlbildungen |
 
 ## Literaturevidenz
 
-| PMID | Jahr | Typ | Fachzeitschrift | Kernergebnisse |
-|------|-----|------|------|---------|
-| [15970448](https://pubmed.ncbi.nlm.nih.gov/15970448/) | 2006 | RCT | Pulm Pharmacol Ther | Salmeterol vs. Placebo bei leichter bis mittelschwerer chronischer Bronchitis (n = 14): Wirkung auf mukoziliäre und Hustenclearance |
-| [17557771](https://pubmed.ncbi.nlm.nih.gov/17557771/) | 2007 | RCT | Thorax | Salmeterol/Fluticason und Atemwegsentzündung bei COPD |
-| [17196106](https://pubmed.ncbi.nlm.nih.gov/17196106/) | 2006 | Meta-Analyse | Respir Res | Salmeterol 50 µg zweimal täglich verbessert klinisch relevante Endpunkte bei COPD gegenüber Placebo/Standardtherapie |
-| [15329047](https://pubmed.ncbi.nlm.nih.gov/15329047/) | 2004 | Review | Drugs | Salmeterol/Fluticason-Pulverinhalator bei COPD, zugelassen u. a. bei COPD mit chronischer Bronchitis |
-| [19124357](https://pubmed.ncbi.nlm.nih.gov/19124357/) | 2008 | Studie | Ther Adv Respir Dis | Einjährige Sicherheit und Toleranz von Arformoterol und Salmeterol bei COPD |
-| [12970006](https://pubmed.ncbi.nlm.nih.gov/12970006/) | 2003 | Studie | Chest | Wirksamkeit und Sicherheit von Fluticason 250 µg/Salmeterol 50 µg im Diskus bei COPD |
-| [19210134](https://pubmed.ncbi.nlm.nih.gov/19210134/) | 2009 | Kohortenstudie | Curr Med Res Opin | Versorgungsnutzung und Kosten bei chronischer Bronchitis unter Fluticason/Salmeterol im Vergleich zu anderen inhalativen Therapien |
-| [9916607](https://pubmed.ncbi.nlm.nih.gov/9916607/) | 1998 | Studie | Clin Ther | Inhalatives Salmeterol vs. orales Theophyllin bei leichter bis mittelschwerer COPD |
-| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Leitlinie | Basic Clin Pharmacol Toxicol | Finnische Leitlinie zur Diagnose und Pharmakotherapie der stabilen COPD |
-| [12236842](https://pubmed.ncbi.nlm.nih.gov/12236842/) | 2002 | Review | Br J Clin Pharmacol | Antagonismus der Wirkung langwirksamer Beta-2-Agonisten |
+Die Publikationen betreffen überwiegend Asthma, COPD und Zilienfunktion, nicht Atemwegsfehlbildungen.
 
----
+| PMID | Jahr | Typ | Fachzeitschrift | Kernaussagen |
+|------|-----|------|------|---------|
+| [15293609](https://pubmed.ncbi.nlm.nih.gov/15293609/) | 2004 | RCT | The European Respiratory Journal | Salmeterol verringert in einer randomisierten Cross-over-Studie mit 23 COPD-Patienten die Lungenüberblähung unter Belastung |
+| [34902004](https://pubmed.ncbi.nlm.nih.gov/34902004/) | 2022 | RCT | JAMA Pediatrics | Inhalative Kortikosteroide allein oder mit langwirksamen Beta-2-Agonisten bei verminderter Lungenfunktion von Frühgeborenen |
+| [20528601](https://pubmed.ncbi.nlm.nih.gov/20528601/) | 2010 | Übersichtsarbeit | The Journal of Asthma | Übersicht zu Budesonid/Formoterol bei persistierendem Asthma |
+| [26229457](https://pubmed.ncbi.nlm.nih.gov/26229457/) | 2015 | Übersichtsarbeit | International Journal of COPD | Duale Bronchodilatation mit Indacaterol/Glycopyrronium bei COPD |
+| [20703071](https://pubmed.ncbi.nlm.nih.gov/20703071/) | 2010 | Fallbericht | Arerugi | Fall einer primären Ziliendyskinesie, zunächst als Asthma behandelt |
 
 ## Informationen zum Markt in Deutschland
 
@@ -105,36 +85,24 @@ Eine kleine randomisierte Studie (n = 14) zeigte außerdem Effekte von Salmetero
 |---------|------|------|-----------|
 | EMEA/H/C/004881 | Seffalair Spiromax | Keine Angabe | Asthma |
 
-Das Arzneimittel ist in diesem Land im Handel; 1 von 1 Zulassung ist gültig.
+## Sicherheitshinweise
 
----
+- **Arzneimittelwechselwirkungen** (600 Einträge in den Daten, Auswahl): Als schwerwiegend (Major) eingestuft ist Clarithromycin. Moderate Wechselwirkungen bestehen u. a. mit Acarbose, Isometheptene, Famotidin, Epinephrin, Albiglutid, Alogliptin, Canagliflozin, Dapagliflozin und Empagliflozin. Geringfügige Wechselwirkungen bestehen mit Kortikosteroiden wie Hydrocortison, Dexamethason, Budesonid und Triamcinolon.
 
-## Sicherheitsaspekte
-
-- **Wissensgraph-Hinweise auf Kontraindikationen** (aus dem TxGNN-Wissensgraphen, nicht aus Packungsbeilagentexten): u. a. Hypertonie, Long-QT-Syndrom, Epilepsie, Hyperglykämie, Hypophysenunterfunktion (verschiedene Formen), Osteoporose und Erkrankungen des Thymus.
-- **Arzneimittelwechselwirkungen**: Insgesamt 600 Wechselwirkungen erfasst. Als **schwerwiegend** eingestuft ist **Clarithromycin**. Mittelschwere Wechselwirkungen bestehen u. a. mit Epinephrin, Acarbose, Famotidin, Isometheptene, Dolasetron sowie mit Antidiabetika (z. B. Canagliflozin, Dapagliflozin, Empagliflozin, Alogliptin, Albiglutide, Dulaglutide, Chlorpropamid). Geringfügige Wechselwirkungen bestehen mit Kortikosteroiden (z. B. Hydrocortison, Dexamethason, Budesonid).
-- **Asthma-spezifische Warnung**: Die Monotherapie mit LABA bei Asthma ist mit einem Risiko für asthmabedingte Todesfälle und Krankenhausaufenthalte verbunden. Die Anwendung sollte auf die Kombination mit einem inhalativen Kortikosteroid beschränkt sein.
-
-Die Warnhinweise und Kontraindikationen aus der Packungsbeilage konnten nicht ausgewertet werden; hierzu bitte die Fachinformation heranziehen.
-
----
+Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Proceed with Guardrails**
+**Entscheidung: Hold**
 
 **Begründung:**
-- Mehrere abgeschlossene Phase-3-Studien und systematische Auswertungen stützen den Einsatz von Salmeterol (allein oder mit Fluticason) bei COPD mit chronischer Bronchitis, sodass die Evidenzstufe L1 erreicht wird. Es handelt sich jedoch um eine Erweiterung der bestehenden Atemwegsanwendung und nicht um eine neuartige Umwidmung. Für die akute Bronchitis gibt es keine Belege.
+Für Atemwegsfehlbildungen gibt es weder einen plausiblen Wirkmechanismus noch direkte klinische oder publizierte Evidenz. Der hohe Score ist eine rein rechnerische Vorhersage.
 
-**Für das weitere Vorgehen ist erforderlich:**
-- Auswertung der Fachinformation (Warnhinweise, Kontraindikationen) – diese Lücke blockiert derzeit die Sicherheitsprüfung.
-- Daten zum Wirkmechanismus ergänzen (z. B. über DrugBank).
-- Klärung des Zulassungsstatus in Deutschland, da die einzige erfasste Zulassung erloschen ist.
-- Festlegung eines Sicherheitsplans: Anwendung nur in Kombination mit inhalativem Kortikosteroid bei Asthma sowie Beachtung kardiovaskulärer Risiken und der Wechselwirkung mit Clarithromycin.
+**Für ein Weiterverfolgen sind folgende Schritte nötig:**
+- Daten zum Wirkmechanismus von Salmeterol
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen)
+- Studien oder präklinische Daten, die Salmeterol direkt bei der vorhergesagten Erkrankung untersuchen
 
----
-
-**Hinweis zu weiteren vorhergesagten Indikationen:** Für „Asthma" (Rang 5) und „obstruktive Lungenerkrankung" (Rang 3) liegt ebenfalls Evidenzstufe L1 vor; beides entspricht jedoch der bestehenden Anwendung. „Atopisches Ekzem" (Rang 7) ist nur eine Forschungsfrage (L4, präklinisch/indirekt). Für „Atemwegsfehlbildung", „Rienhoff-Syndrom" und „asthmabezogene Merkmale/Anfälligkeit" gibt es keine tragfähige Evidenz (Hold).
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

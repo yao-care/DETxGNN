@@ -38,75 +38,66 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 ## Zusammenfassung
 
-Asenapin ist ein atypisches Antipsychotikum, das ursprünglich zur Behandlung der **bipolaren Störung** zugelassen wurde. Das TxGNN-Modell sagt voraus, dass es bei **retinaler Dystrophie (mit oder ohne extraokulare Anomalien)** wirksam sein könnte. Für diese Vorhersage liegen jedoch **keine klinischen Studien und keine Publikationen** vor, sie beruht ausschließlich auf einer Modellberechnung.
+Asenapin ist ein Antipsychotikum, das über mehrere Serotonin-, Dopamin- und Histamin-Rezeptoren wirkt. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **retinaler Dystrophie mit oder ohne extraokulare Anomalien (retinal dystrophy with or without extraocular anomalies)** voraus. Für diese Richtung liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; es handelt sich um eine reine Modellvorhersage.
 
----
-
-## Kurzüberblick
+## Schnellübersicht
 
 | Punkt | Inhalt |
 |------|------|
 | Ursprüngliche Indikation | Bipolar Disorder |
 | Vorhergesagte neue Indikation | Retinale Dystrophie mit oder ohne extraokulare Anomalien (retinal dystrophy with or without extraocular anomalies) |
 | TxGNN-Vorhersagewert | 0.9977 |
-| Evidenzstufe | L5 |
+| Evidenzniveau | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
----
-
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Asenapin an mehrere Rezeptoren bindet: Serotonin-Rezeptoren (5-HT1A, 1B, 1D, 1E, 2A), den Dopamin-D2-Rezeptor und den Histamin-H1-Rezeptor. Wirksamkeit bei bipolarer Störung (akute manische und gemischte Episoden) ist belegt.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Asenapin an mehrere Rezeptoren bindet: 5-HT1A, 5-HT1B, 5-HT1D, 5-HT1E, 5-HT2A, Dopamin-D2 und Histamin-H1.
 
-Ein plausibler Zusammenhang zwischen diesem Rezeptorprofil und den (meist genetischen) Ursachen der retinalen Dystrophie lässt sich anhand der vorliegenden Daten nicht herleiten. Der hohe Vorhersagewert ist eine rein rechnerische Aussage. Auch eine inhaltliche Ähnlichkeit zur ursprünglichen Indikation ist nicht belegt.
+Ein plausibler Zusammenhang zwischen diesem Rezeptorprofil und den genetischen Ursachen einer retinalen Dystrophie ist in den vorliegenden Daten nicht belegt. Der hohe Vorhersagewert ist ein rein rechnerisches Ergebnis. Die Vorhersage sollte daher als Hypothese betrachtet werden, nicht als Hinweis auf eine nachgewiesene Wirkung.
 
-Hinweis: Unter den weiteren vorhergesagten Indikationen (z. B. Myopie, Charcot-Marie-Tooth-Erkrankung, Hydranenzephalie) hat nur die „major affective disorder" Literatur, überschneidet sich aber mit der bereits zugelassenen Indikation und ist daher keine echte Neuindikation.
-
----
-
-## Evidenz aus klinischen Studien
+## Klinische Studien
 
 Derzeit sind keine zugehörigen klinischen Studien registriert.
 
----
+## Literaturevidenz
 
-## Evidenz aus der Literatur
+Derzeit liegt keine zugehörige Literatur vor.
 
-Derzeit ist keine zugehörige Literatur verfügbar.
-
----
-
-## Informationen zum deutschen Markt
+## Informationen zum Markt in Deutschland
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/001177 | Sycrest (Organon N.V.) | – | Bipolare Störung (Status: gültig) |
 
----
+## Sicherheitshinweise
 
-## Sicherheitsaspekte
+Zu Warnhinweisen und Gegenanzeigen aus der Fachinformation liegen keine Daten vor. Bitte die Packungsbeilage bzw. Fachinformation zu Rate ziehen.
 
-- **Wechselwirkungen / Rezeptorbindung:** Asenapin bindet an die Rezeptoren 5-HT1A, 5-HT1B, 5-HT1D, 5-HT1E, 5-HT2A, D2 und H1 (pharmakologische Zielstrukturen, keine klassifizierten Arzneimittelwechselwirkungen).
-- **Kontraindikationen aus dem Wissensgraphen** (aus dem TxGNN-Wissensgraphen, nicht aus dem Beipackzettel): u. a. Long-QT-Syndrom, Torsades de pointes, orthostatische Hypotonie, Leberversagen, Epilepsie, Diabetes mellitus, diabetische Ketoazidose, Hyperglykämie, Neutropenie, Agranulozytose, Leukopenie, Adipositas, Schlaganfall und zerebrovaskuläre Erkrankungen, Myokardinfarkt, koronare Herzkrankheit, Myokardischämie, malignes neuroleptisches Syndrom, Kaliummangel sowie multiple Systematrophie.
+Folgende Erkrankungen sind in den zusammengestellten Daten als Kontraindikationen zu Asenapin verzeichnet (keine Angaben aus dem Etikettentext):
+- Herz-Kreislauf: Long-QT-Syndrom (auch familiär), Torsades de pointes, orthostatische Hypotonie, posturales orthostatisches Tachykardiesyndrom, Myokardinfarkt, Myokardischämie, koronare Herzkrankheit, Koronarthrombose
+- Zerebrovaskulär: Schlaganfall, zerebrovaskuläre Erkrankung, Hirninfarkt
+- Hämatologisch: Neutropenie, Agranulozytose, Leukopenie, schwere kongenitale Neutropenie, zyklische Hämatopoese, Hämoglobinopathie
+- Stoffwechsel: Hyperglykämie, Diabetes mellitus, diabetische Ketoazidose, Kaliummangel, Adipositas (auch monogen)
+- Neurologisch und weitere: Epilepsie, Multisystematrophie, malignes neuroleptisches Syndrom, Leberversagen
 
-Für Warnhinweise und Kontraindikationen aus der Fachinformation bitte den Beipackzettel heranziehen.
-
----
+**Wechselwirkungen:** Die Abfrage ergab Bindungen an Zielrezeptoren (5-HT1A/1B/1D/1E/2A, D2, H1). Konkrete Arzneimittelwechselwirkungen mit Wirkstoffen sind nicht aufgeführt.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Für retinale Dystrophie existieren weder klinische Studien noch Publikationen, und ein plausibler Wirkmechanismus ist nicht erkennbar. Zudem ist die Zulassung in Deutschland erloschen, und die Sicherheitsdaten sind unvollständig.
+Für die vorhergesagte Indikation gibt es weder klinische Studien noch Publikationen, und ein mechanistischer Zusammenhang ist nicht erkennbar. Der hohe Vorhersagewert allein reicht nicht aus, um weitere Schritte zu rechtfertigen.
 
-**Für ein Weiterkommen sind folgende Schritte nötig:**
-- Präklinische Daten oder Mechanismusstudien, die einen Zusammenhang zwischen Asenapin und retinaler Dystrophie stützen
-- Detaillierte Angaben zum Wirkmechanismus
-- Warnhinweise und Kontraindikationen aus der Fachinformation (Voraussetzung für das Sicherheitsscreening)
-- Klärung der Verfügbarkeit angesichts der erloschenen Zulassung
+**Um fortzufahren, wären folgende Punkte nötig:**
+- Präklinische oder mechanistische Daten, die eine Rolle des Rezeptorprofils von Asenapin bei retinalen Dystrophien stützen
+- Detaillierte Wirkmechanismus-Daten (MOA)
+- Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
+- Eine systematische Literaturrecherche zur vorhergesagten Erkrankung
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
