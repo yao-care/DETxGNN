@@ -32,7 +32,7 @@ description: "Alle Arzneimittel-Validierungsberichte und Statistiken zu den Evid
 ---
 
 <!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
-Diese Liste basiert auf den Zulassungsdaten von [BfArM](https://www.bfarm.de/) (Deutschland).
+Diese Liste basiert auf den zentralen EU-Zulassungen im [EMA Medicines Report](https://www.ema.europa.eu/en/medicines/download-medicine-data) (gelten auch in Deutschland).
 
 <!-- local-home:end -->
 

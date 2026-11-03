@@ -6,7 +6,7 @@
 [![Website](https://img.shields.io/badge/Website-detxgnn.yao.care-blue)](https://detxgnn.yao.care)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Vorhersagen zur Arzneimittel-Repositionierung fuer Germany BfArM-zugelassene Arzneimittel mit dem TxGNN-Modell.
+Vorhersagen zur Arzneimittel-Repositionierung fuer zentral in der EU (EMA) zugelassene Arzneimittel (gelten auch in Germany) mit dem TxGNN-Modell.
 
 ## Haftungsausschluss
 
@@ -73,7 +73,7 @@ uv run python scripts/run_kg_prediction.py
 
 | Metrik | Wert |
 |------|------|
-| BfArM Gesamtarzneimittel | 2,309 |
+| EMA (zentrale EU-Zulassungen) Gesamtarzneimittel | 2,309 |
 | DrugBank-Zuordnung | 1,458 (63.1%) |
 | Repositionierungskandidaten | 2,763 |
 
@@ -131,7 +131,7 @@ Der TxGNN-Score repraesentiert das Vertrauen des Modells in ein Arzneimittel-Kra
 flowchart TD
     A["TxGNN-Vorhersageergebnisse"] --> B
     subgraph B["Step 1: DrugBundle Collector"]
-        B1["Arzneimittel-Ebene: BfArM, DDI, DrugBank"]
+        B1["Arzneimittel-Ebene: EMA, DDI, DrugBank"]
         B2["Indikations-Ebene: ClinicalTrials, PubMed, ICTRP"]
     end
     B --> |"drug_bundle.json"| C
@@ -154,7 +154,7 @@ flowchart TD
 
 | Datei | Download |
 |------|------|
-| BfArM Daten | [EMA Medicines Data (proxy for German-authorized medicines)](https://www.ema.europa.eu/en/medicines/download-medicine-data) |
+| EMA Daten | [EMA Medicines Report (zentrale EU-Zulassungen)](https://www.ema.europa.eu/en/medicines/download-medicine-data) |
 | node.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144482) |
 | kg.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144484) |
 | edges.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144483) |
@@ -216,7 +216,7 @@ PYTHONPATH=src python -m detxgnn.predict.txgnn_model
 
 | Kategorie | Daten | Quelle | Hinweis |
 |------|------|------|------|
-| **Arzneimitteldaten** | BfArM | [EMA Medicines Data (proxy for German-authorized medicines)](https://www.ema.europa.eu/en/medicines/download-medicine-data) | Germany |
+| **Arzneimitteldaten** | EMA | [EMA Medicines Report (zentrale EU-Zulassungen)](https://www.ema.europa.eu/en/medicines/download-medicine-data) | Germany |
 | **Wissensgraph** | TxGNN KG | [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXA7BM) | 17,080 diseases, 7,957 drugs |
 | **Arzneimitteldatenbank** | DrugBank | [DrugBank](https://go.drugbank.com/) | Wirkstoffzuordnung |
 | **Arzneimittelinteraktionen** | DDInter 2.0 | [DDInter](https://ddinter2.scbdd.com/) | DDI-Paare |
@@ -302,7 +302,7 @@ DETxGNN/
 
 ```mermaid
 flowchart TD
-    FDA["BfArM Daten"] --> proc["process_fda_data.py"]
+    FDA["EMA Daten"] --> proc["process_fda_data.py"]
     TxGNN["TxGNN Daten"] --> prep["prepare_external_data.py"]
 
     proc --> json["de_fda_drugs.json"]

@@ -1,5 +1,5 @@
 title: DETxGNN - Arzneimittel-Umwidmung
-description: Vorhersagen zur Umwidmung der in Deutschland von BfArM zugelassenen Arzneimittel, basierend auf TxGNN
+description: Vorhersagen zur Umwidmung der zentral in der EU (EMA) zugelassenen Arzneimittel, die auch in Deutschland gelten, basierend auf TxGNN
 lang: de
 remote_theme: just-the-docs/just-the-docs
 url: https://detxgnn.yao.care
