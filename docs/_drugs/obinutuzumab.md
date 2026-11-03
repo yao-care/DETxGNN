@@ -5,7 +5,7 @@ parent: Nur bekannte Anwendungen (keine neuen Vorhersagen)
 nav_order: 321
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Obinutuzumab: Bekannte Anwendungen und Marktstatus in Deutschland; derzeit keine neue Kandidaten-Indikation"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidenzniveau: **N/A** | Vorhergesagte Indikationen: **0**
 Das TxGNN-Deep-Learning-Modell (Score ≥ 0,99) hat für Obinutuzumab Kandidaten erzeugt. Alle Kandidaten, die sich einer Quelle zuordnen lassen, sind bereits bekannte Anwendungen. Daher gibt es für diesen Wirkstoff derzeit keine neue vorhergesagte Indikation.
 
 ## Kurzübersicht
+
 | Punkt | Inhalt |
 |------|------|
 | Neue vorhergesagte Indikationen | Keine (alle nachvollziehbaren Modellkandidaten sind bekannte Anwendungen) |
@@ -52,17 +53,20 @@ Das TxGNN-Deep-Learning-Modell (Score ≥ 0,99) hat für Obinutuzumab Kandidaten
 ## Bekannte Anwendungen unter den Kandidaten des Modells
 
 ### Zugelassen (durch Zulassung oder Fachinformation gestützt)
+
 | Indikation | Quelle |
 |------|------|
 | keine | – |
 
 ### Verwandt mit einer zugelassenen Indikation (gleiche Krankheitskategorie)
+
 | Indikation | Zugelassene Kategorie |
 |------|------|
 | Chronische lymphatische Leukämie/kleinzelliges lymphozytisches Lymphom mit somatischer Hypermutation der Gene für die variable Region der Immunglobulin-Schwerkette (chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation) | cll |
 | Prägerminalzentrum-Chronische-lymphatische-Leukämie/kleinzelliges lymphozytisches Lymphom (pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma) | cll |
 
 ### Im Wissensgraphen verzeichnete Beziehungen (keine Zulassung gefunden)
+
 | Indikation |
 |------|
 | keine |

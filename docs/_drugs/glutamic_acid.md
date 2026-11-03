@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 215
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Glutamic Acid: vorhergesagte neue Indikation Postmenopausale Osteoporose (Evidenzstufe L5). Ursprüngliche Indikation: Ahornsirupkrankheit (Maple Syrup Urine Disease)"
 monitor_inn: "glutamic acid"
 predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]
@@ -114,6 +114,7 @@ Für postmenopausale Osteoporose gibt es keine registrierten klinischen Studien 
 | 2 | Schwangerschaftsassoziierte Osteoporose | 0,9918 | L5 | Hold: keine Studien, keine Literatur; Sicherheitsbewertung in der Schwangerschaft nötig |
 | 3 | Primäres hereditäres Glaukom | 0,9913 | L5 | Hold: keine Evidenz; erhöhtes Glutamat gilt als exzitotoxisch für retinale Ganglienzellen, ein Schaden ist plausibler als ein Nutzen |
 | 4 | Gastroparese | 0,9911 | L5 | Hold: die drei gefundenen Arbeiten betreffen autoimmune Gastroparese und prüfen Glutaminsäure nicht |
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

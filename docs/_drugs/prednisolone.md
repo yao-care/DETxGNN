@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 369
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Prednisolone: vorhergesagte neue Indikation Alopecia areata (Evidenzstufe L2). Ursprüngliche Indikation: Autoimmunerkrankungen . Für die Zulassung in Deutschland liegt kein I…"
 monitor_inn: "PREDNISOLONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
@@ -131,6 +131,7 @@ Für die Alopecia areata liegen eine randomisierte, placebokontrollierte Studie,
 | 4 | Folliculitis decalvans (Quinquaud) | L4 | Hold | Nur ein Fallbericht mit Dreifachtherapie; Beitrag von Prednisolon nicht abgrenzbar |
 | 5–9 | Seltene genetische bzw. strukturelle Erkrankungen (u. a. Alopezie-Antikörpermangel, hereditäre Hypotrichose, Atrichie mit papulösen Läsionen, Tränendrüsenprolaps) | L5 | Hold | Keine belastbare Evidenz oder plausibler Mechanismus |
 | 10 | Idiopathisches steroidsensibles nephrotisches Syndrom | L1 | Proceed with Guardrails | Entspricht bereits der etablierten Standardtherapie, keine neuartige Indikation; ein Teil der Literatur betrifft steroidresistente Patienten. Die zugrunde liegenden Phase-3-Studien sollten verifiziert werden |
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -5,7 +5,7 @@ parent: Nur bekannte Anwendungen (keine neuen Vorhersagen)
 nav_order: 335
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Ozanimod: bekannte Anwendungen und Marktstatus in Deutschland; derzeit keine neue Kandidaten-Indikation"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidenzniveau: **N/A** | Vorhergesagte Indikationen: **0**
 Das TxGNN-Modell hat für Ozanimod Kandidaten mit einem Score von ≥ 0,99 geliefert. Alle Kandidaten, die sich einer Quelle zuordnen lassen, sind bereits bekannte Anwendungen. Daher gibt es für Ozanimod derzeit keine neue vorhergesagte Indikation.
 
 ## Kurzübersicht
+
 | Punkt | Inhalt |
 |------|------|
 | Neue vorhergesagte Indikationen | Keine (alle zuordenbaren Modellkandidaten sind bekannte Anwendungen) |
@@ -52,16 +53,19 @@ Das TxGNN-Modell hat für Ozanimod Kandidaten mit einem Score von ≥ 0,99 gelie
 ## Bekannte Anwendungen unter den Kandidaten des Modells
 
 ### Zugelassen (durch Zulassung oder Fachinformation belegt)
+
 | Indikation | Quelle |
 |------|------|
 | Keine | – |
 
 ### Verwandt mit einer zugelassenen Indikation (gleiche Krankheitskategorie)
+
 | Indikation | Zugelassene Kategorie |
 |------|------|
 | Keine | – |
 
 ### Im Wissensgraphen verzeichnete Beziehungen (keine Zulassung gefunden)
+
 | Indikation |
 |------|
 | Progredient-schubförmige multiple Sklerose (progressive relapsing multiple sclerosis) |

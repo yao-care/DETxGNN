@@ -5,7 +5,7 @@ parent: Nur bekannte Anwendungen (keine neuen Vorhersagen)
 nav_order: 480
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Trastuzumab Emtansine: Bekannte Anwendungen und Marktstatus in Deutschland; derzeit keine neue Kandidaten-Indikation"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidenzniveau: **N/A** | Vorhergesagte Indikationen: **0**
 Die vom TxGNN-Modell (Score ≥ 0,99) für Trastuzumab Emtansine erzeugten Kandidaten sind, soweit sie sich auf eine Quelle zurückführen lassen, ausnahmslos bereits bekannte Anwendungen. Derzeit gibt es daher keine neue vorhergesagte Indikation. Die vier bekannten Anwendungen gehören zur selben Krankheitskategorie wie eine zugelassene Indikation (Brustkrebs); sie sind damit nicht selbst als zugelassen belegt.
 
 ## Kurzüberblick
+
 | Punkt | Inhalt |
 |------|------|
 | Neue vorhergesagte Indikationen | Keine (alle rückverfolgbaren Modellkandidaten sind bekannte Anwendungen) |
@@ -52,11 +53,13 @@ Die vom TxGNN-Modell (Score ≥ 0,99) für Trastuzumab Emtansine erzeugten Kandi
 ## Bekannte Anwendungen unter den Kandidaten des Modells
 
 ### Zugelassen (durch Zulassung oder Fachinformation belegt)
+
 | Indikation | Quelle |
 |------|------|
 | keine | keine |
 
 ### Verwandt mit einer zugelassenen Indikation (gleiche Krankheitskategorie)
+
 | Indikation | Zugelassene Kategorie |
 |------|------|
 | Progesteronrezeptor-positiver Brustkrebs (progesterone-receptor positive breast cancer) | Brustkrebs (breast cancer) |
@@ -65,6 +68,7 @@ Die vom TxGNN-Modell (Score ≥ 0,99) für Trastuzumab Emtansine erzeugten Kandi
 | Luminaler Brusttumor Typ A oder B (breast tumor luminal A or B) | Brustkrebs (breast cancer) |
 
 ### Im Wissensgraphen verzeichnete Beziehungen (keine Zulassung gefunden)
+
 | Indikation |
 |------|
 | keine |

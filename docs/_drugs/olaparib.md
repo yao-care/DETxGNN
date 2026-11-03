@@ -5,7 +5,7 @@ parent: Nur bekannte Anwendungen (keine neuen Vorhersagen)
 nav_order: 326
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Olaparib: Bekannte Anwendungen und Marktstatus in Deutschland; derzeit keine neue Kandidaten-Indikation"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidenzniveau: **N/A** | Vorhergesagte Indikationen: **0**
 Die Kandidaten des TxGNN-Modells für Olaparib (Score ≥ 0,99) sind, soweit sie sich auf eine Quelle zurückführen lassen, ausnahmslos bereits bekannte Anwendungen. Daher gibt es für Olaparib derzeit keine neue vorhergesagte Indikation. Der einzige bekannte Treffer gehört zur gleichen Krankheitskategorie wie eine zugelassene Indikation und ist selbst nicht als zugelassen ausgewiesen.
 
 ## Kurzübersicht
+
 | Punkt | Inhalt |
 |------|------|
 | Neue vorhergesagte Indikationen | Keine (alle rückverfolgbaren Modellkandidaten sind bekannte Anwendungen) |
@@ -52,16 +53,19 @@ Die Kandidaten des TxGNN-Modells für Olaparib (Score ≥ 0,99) sind, soweit sie
 ## Bekannte Anwendungen unter den Kandidaten des Modells
 
 ### Zugelassen (durch Zulassung oder Fachinformation belegt)
+
 | Indikation | Quelle |
 |------|------|
 | keine | keine |
 
 ### Verwandt mit einer zugelassenen Indikation (gleiche Krankheitskategorie)
+
 | Indikation | Zugelassene Kategorie |
 |------|------|
 | Weibliches Mammakarzinom (female breast carcinoma) | Brustkrebs (breast cancer) |
 
 ### Im Wissensgraphen verzeichnete Beziehungen (keine Zulassung gefunden)
+
 | Indikation |
 |------|
 | keine |

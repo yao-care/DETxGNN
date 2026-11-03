@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 494
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
 description: "Venetoclax: vorhergesagte neue Indikation Hodgkins lymphoma (Evidenzstufe L5). Ursprüngliche Indikation: Leukemia, Lymphocytic, Chronic, B-Cell"
@@ -174,6 +174,7 @@ Für Venetoclax-basierte Regime bei AML liegen zahlreiche Phase-2-Studien und me
 | 8 | Metastasierte Neoplasie | L3 | Research Question | Unspezifische Kategorie; Phase-1b-Daten bei ER+-Brustkrebs |
 | 9 | Malignes Spiradenom | L5 | Hold | Keine Studien oder Literatur |
 | 10 | AML mit t(8;21) | L4 | Hold | Indirekte Evidenz aus allgemeiner AML |
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

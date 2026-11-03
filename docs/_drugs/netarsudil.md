@@ -5,7 +5,7 @@ parent: Nur bekannte Anwendungen (keine neuen Vorhersagen)
 nav_order: 312
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Netarsudil: Bekannte Anwendungen und Marktstatus in Deutschland; derzeit keine neue Kandidaten-Indikation"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidenzniveau: **N/A** | Vorhergesagte Indikationen: **0**
 Die Kandidaten des TxGNN-Modells (Score ≥ 0,99) für Netarsudil sind ausnahmslos bereits bekannte Anwendungen. Daher gibt es derzeit keine neue vorhergesagte Indikation. Die nachfolgenden Tabellen zeigen, wie sich die bekannten Anwendungen einordnen lassen.
 
 ## Kurzüberblick
+
 | Punkt | Inhalt |
 |------|------|
 | Neue vorhergesagte Indikationen | Keine (alle rückverfolgbaren Modellkandidaten sind bekannte Anwendungen) |
@@ -52,16 +53,19 @@ Die Kandidaten des TxGNN-Modells (Score ≥ 0,99) für Netarsudil sind ausnahmsl
 ## Bekannte Anwendungen unter den Kandidaten des Modells
 
 ### Zugelassen (durch Zulassung oder Fachinformation belegt)
+
 | Indikation | Quelle |
 |------|------|
 | Glaukom (glaucoma) | Zulassung in Deutschland; zugelassene Indikation: Offenwinkelglaukom (open-angle glaucoma) |
 
 ### Verwandt mit einer zugelassenen Indikation (gleiche Krankheitskategorie)
+
 | Indikation | Zugelassene Kategorie |
 |------|------|
 | Primäres hereditäres Glaukom (primary hereditary glaucoma) | Glaukom (glaucoma) |
 
 ### Im Wissensgraphen verzeichnete Beziehungen (keine Zulassung gefunden)
+
 | Indikation |
 |------|
 | keine |

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 392
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "REMDESIVIR"
 predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "homozygous familial hypercholesterolemia"]
 description: "Remdesivir: vorhergesagte neue Indikation Multiple endocrine neoplasia (Evidenzstufe L5). Ursprüngliche Indikation: COVID-19 virus infection"
@@ -138,6 +138,7 @@ Der hohe TxGNN-Wert wird durch keine direkte klinische Evidenz gestützt. Die ei
 | 4 | Felines erworbenes Immundefizienzsyndrom | 0,9907 | L5 | Veterinärindikation, außerhalb des humanmedizinischen Repurposing-Rahmens |
 | 5 | Neuroentwicklungsstörung mit ataktischem Gang, fehlender Sprache und verminderter kortikaler weißer Substanz | 0,9903 | L5 | Kein plausibler Mechanismus; seltene genetische Erkrankung |
 | 6 | Homozygote familiäre Hypercholesterinämie | 0,9903 | L5 | Kein plausibler Mechanismus (Defekte des LDL-Rezeptor-Wegs); keine Evidenz |
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

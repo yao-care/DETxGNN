@@ -5,7 +5,7 @@ parent: Nur bekannte Anwendungen (keine neuen Vorhersagen)
 nav_order: 76
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Brinzolamide: Bekannte Anwendungen und Marktstatus in Deutschland; derzeit keine neue Kandidaten-Indikation"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidenzniveau: **N/A** | Vorhergesagte Indikationen: **0**
 Die vom TxGNN-Modell vorgeschlagenen Kandidaten für Brinzolamide sind ausnahmslos bereits bekannte Anwendungen. Daher gibt es derzeit keine neue vorhergesagte Indikation. Die einzige bekannte Anwendung unter den Kandidaten stützt sich auf eine Zulassung in einem anderen Land.
 
 ## Kurzübersicht
+
 | Punkt | Inhalt |
 |------|------|
 | Neue vorhergesagte Indikationen | Keine (alle rückverfolgbaren Modellkandidaten sind bekannte Anwendungen) |
@@ -52,16 +53,19 @@ Die vom TxGNN-Modell vorgeschlagenen Kandidaten für Brinzolamide sind ausnahmsl
 ## Bekannte Anwendungen unter den Kandidaten des Modells
 
 ### Zugelassen (durch Zulassung oder Fachinformation gestützt)
+
 | Indikation | Quelle |
 |------|------|
 | Primäres hereditäres Glaukom (primary hereditary glaucoma) | Zulassung in einem anderen Land; zugelassene Indikation: glaucoma |
 
 ### Verwandt mit einer zugelassenen Indikation (gleiche Krankheitskategorie)
+
 | Indikation | Zugelassene Kategorie |
 |------|------|
 | Keine | Keine |
 
 ### Bekannte Beziehungen (in Deutschland vermarktet, 3 von 3 Zulassungen gültig)
+
 | Indikation |
 |------|
 | Keine |

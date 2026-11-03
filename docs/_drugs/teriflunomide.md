@@ -5,7 +5,7 @@ parent: Nur bekannte Anwendungen (keine neuen Vorhersagen)
 nav_order: 457
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Teriflunomide: bekannte Anwendungen und Marktstatus in Deutschland; derzeit keine neue Kandidaten-Indikation"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidenzniveau: **N/A** | Vorhergesagte Indikationen: **0**
 Die Kandidaten des TxGNN-Modells (Score ≥ 0,99) für Teriflunomide sind, soweit sie sich auf eine Quelle zurückführen lassen, ausnahmslos bereits bekannte Anwendungen. Daher gibt es derzeit keine neue vorhergesagte Indikation. Die folgende Übersicht zeigt, welche bekannten Anwendungen unter den Kandidaten erscheinen und wie der Marktstatus in Deutschland ist.
 
 ## Kurzübersicht
+
 | Punkt | Inhalt |
 |------|------|
 | Neue vorhergesagte Indikationen | Keine (alle rückverfolgbaren Modellkandidaten sind bekannte Anwendungen) |
@@ -52,16 +53,19 @@ Die Kandidaten des TxGNN-Modells (Score ≥ 0,99) für Teriflunomide sind, sowei
 ## Bekannte Anwendungen unter den Kandidaten des Modells
 
 ### Zugelassen (durch Zulassung oder Fachinformation belegt)
+
 | Indikation | Quelle |
 |------|------|
 | Schubförmig remittierende Multiple Sklerose (relapsing-remitting multiple sclerosis) | Zulassung in Deutschland (zugelassene Indikation: multiple sclerosis) |
 
 ### Verwandt mit einer zugelassenen Indikation (gleiche Krankheitskategorie)
+
 | Indikation | Zugelassene Kategorie |
 |------|------|
 | keine | – |
 
 ### Vom TxGNN-Modell (Deep Learning) gelernte Zusammenhänge zwischen verwandten Erkrankungen (Zulassung vorhanden: 3 von 3 Lizenzen gültig)
+
 | Indikation |
 |------|
 | keine |

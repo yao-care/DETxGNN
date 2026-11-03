@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 357
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Phenylephrine: vorhergesagte neue Indikation Erkrankung der Nasenhöhle (nasal cavity disease) (Evidenzstufe L3). Ursprüngliche Indikation: Intraokulare Linsenimplantation"
 monitor_inn: "PHENYLEPHRINE"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
@@ -129,6 +129,7 @@ Die pharmakologische Plausibilität (Gefäßverengung der Nasenschleimhaut, bere
 |------|------|------|------|------|
 | Akute Laryngopharyngitis | 0,9997 | L5 | Hold | Keine Studien oder Literatur; allenfalls symptomatischer Nutzen, kardiovaskuläres Risiko |
 | Trigeminoautonomer Kopfschmerz | 0,9930 | L4 | Hold | Literatur beschreibt Phenylephrin nur als diagnostische Substanz in der Pupillometrie, kein Therapienachweis |
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

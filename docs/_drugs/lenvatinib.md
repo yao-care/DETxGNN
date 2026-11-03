@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 266
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Lenvatinib: vorhergesagte neue Indikation Liposarkom (Evidenzstufe L2). Ursprüngliche Indikation: Nierenzellkarzinom"
 monitor_inn: "lenvatinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
@@ -141,6 +141,7 @@ Im Rahmen der Analyse wurden weitere Indikationen bewertet:
 
 | Indikation | TxGNN-Wert | Evidenzniveau | Einschätzung |
 |------|------|------|------|
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

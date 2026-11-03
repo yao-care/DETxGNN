@@ -5,7 +5,7 @@ parent: Nur bekannte Anwendungen (keine neuen Vorhersagen)
 nav_order: 311
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Neratinib: bekannte Anwendungen und Marktstatus in Deutschland; derzeit keine neue Kandidaten-Indikation"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidenzniveau: **N/A** | Vorhergesagte Indikationen: **0**
 Alle Kandidaten, die das TxGNN-Modell für Neratinib vorschlägt (Score ≥ 0,99), sind bereits bekannte Anwendungen. Es gibt daher derzeit keine neue vorhergesagte Indikation. Die vier bekannten Anwendungen gehören zur selben Krankheitskategorie wie eine zugelassene Indikation (Brustkrebs). Diese Einträge sind selbst keine Zulassungen.
 
 ## Kurzüberblick
+
 | Punkt | Inhalt |
 |------|------|
 | Neue vorhergesagte Indikationen | Keine (alle nachvollziehbaren Modellkandidaten sind bekannte Anwendungen) |
@@ -52,11 +53,13 @@ Alle Kandidaten, die das TxGNN-Modell für Neratinib vorschlägt (Score ≥ 0,99
 ## Bekannte Anwendungen unter den Kandidaten des Modells
 
 ### Zugelassen (durch Zulassung oder Fachinformation belegt)
+
 | Indikation | Quelle |
 |------|------|
 | keine | – |
 
 ### Verwandt mit einer zugelassenen Indikation (gleiche Krankheitskategorie)
+
 | Indikation | Zugelassene Kategorie |
 |------|------|
 | Progesteronrezeptor-positiver Brustkrebs (progesterone-receptor positive breast cancer) | Brustkrebs (breast cancer) |
@@ -65,6 +68,7 @@ Alle Kandidaten, die das TxGNN-Modell für Neratinib vorschlägt (Score ≥ 0,99
 | Luminaler Brusttumor Typ A oder B (breast tumor luminal A or B) | Brustkrebs (breast cancer) |
 
 ### Bekannte Zusammenhänge (Arzneimittel in diesem Land im Handel, 1 gültige Zulassung von 1)
+
 | Indikation |
 |------|
 | keine |
