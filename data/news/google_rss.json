@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-11-03T00:44:38.179131+00:00",
+  "fetched_at": "2026-11-03T07:39:39.093333+00:00",
   "source": "Google News Health RSS",
-  "count": 35,
+  "count": 36,
   "articles": [
+    {
+      "id": "4d67948e6db6",
+      "title": "Gesundheit wird 2027 teurer: Diese Mehrkosten kommen auf Millionen Versicherte zu - DerWesten",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVzdmdmpsZXBTTUVydjZiYjE0bHp2Q19fZkNOQTI5cmc2SVRvWlp2UVVhRFFMQ3Z4Qm5UYWpWd2Y5TFN2eVlwa3NNRm5peFBvLWZnbkxGUkItR1lPaFE5Z3hKMFo5Ul8ySGJ6aUhqT0QyakR4VjBKb0RVTnJsTXRJaWtWY3pXdEJacHZCOGV5S0Zwa2VENV9sY3hEd1E2aWZOdWswaUtFY3Jqb1BGTjdOd0xma1FsUnc?oc=5",
+      "published": "2026-11-03T01:08:14+00:00",
+      "source": {
+        "name": "DerWesten",
+        "url": "https://www.derwesten.de"
+      }
+    },
     {
       "id": "356cecef52ad",
       "title": "MEDICE: Mit „neuer Therapiequalität“ und „konsequenter Nachhaltigkeitsstrategie“ zum Finalisten des Deutschen Nachhaltigkeitspreises Unternehmen 2027 - gesundheit adhoc",
@@ -14,10 +24,20 @@
       }
     },
     {
-      "id": "359afabe0b8a",
-      "title": "Multiple Sklerose: Neuer Wirkstoff überzeugt in zwei großen Studien - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQN2s4b3hteXlrRUt3Y2o0c25qUWlBRlBMUDJuT1htZnFJSTloYjNZcldlbEMxUm0yWDBhYnFmYXdKSHlrWlgxYmdQSzNrWW1XQWFPVmRTakYzUVZ0RGxMUUNZdjN3dkdoV0FMNkV5VVlIR3FwMXZ5ZFkyQlJiOHFsVGtvSTdHc09WV3pQd3JkV2l1Y1FUWkNzUU9SM1hBZldDMVFJRUtVNA?oc=5",
-      "published": "2026-11-02T12:18:04+00:00",
+      "id": "24af6cd23d3c",
+      "title": "Biologische Arzneimittel: Fresenius baut Geschäft mit Nachahmer-Medikamenten aus - STERN.de",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbEVmNlhlNGNDa2hhdXdyUzhkN0xXdi1uUmlCSnFfTjFtUHlyN0ZtWXM0V1pmeFBRalVvX0NmOWZYSEJQZzFrT1NXWUpLTUN6ck0yU0RJejgyZkRUbmUtaGdvR3pIQkpZT1hNcXlMRFBKWlRlUUc4MWtBTlJIR3VIdTRRaUU2ZncxQXJIOGhEdlYzMXFUMWRhWVBsdHMzN2ZWaDlZbHkwS0h4THNMXzZZQlh5bXdwaVRFbFhFWVRCQ0hMVGhBWElEdnpQUXdRblpVdTJ1aU1JTzZuOUFhWEE?oc=5",
+      "published": "2026-11-02T09:34:17+00:00",
+      "source": {
+        "name": "STERN.de",
+        "url": "https://www.stern.de"
+      }
+    },
+    {
+      "id": "ccd1bd1f0014",
+      "title": "Typ-2-Diabetes: Lebensstilprogramm führte bei jedem Zweiten zur Remission - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZDBUZHZmcE84T3JsT0J5Ri1wcDE0c18tN1k1UnZ3T3hrZ3dfVEtvd1NJUkFlaUUtbGVsYnUwS3o2a3daZF9mTFNBMlBlRlI5V2lIZ21TU29kS21WcWZvbmtxUGw0bHlGUFRMTEtYUlhRT1pHTEFtSmhWMl9kbGdpT3FkZW83UXN3UkdLUlUybDN6OEZEY1dOMW5EUjk4eG5ZTGxzLVVNOWtmcld1MWc?oc=5",
+      "published": "2026-11-02T13:43:16+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
@@ -54,16 +74,6 @@
       }
     },
     {
-      "id": "d048b270f714",
-      "title": "Gesundheit wird 2027 teurer: Diese Mehrkosten kommen auf Millionen Versicherte zu - DerWesten",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPT0ktOHJtNm5OSDlma080QV80N2VXbm1qbTR6QVFwUU9vdGxNSzZyR19sQUFXbXF6RE53ei1JWkVkYzloWTdZODBmdHM3bXEwRXFPRXNoTWJLU1JDWEpoWVdEaTRyZm1CbXp3NUZfMmJWcXJMUG5GVTRYSzM0UnhOdV90VFFOdnc1NEpsYWQ2a2FlandEZFhFRnI0dEFlVk1Zc3daczBJQUhyWmxyX3drMC13?oc=5",
-      "published": "2026-10-31T02:34:10+00:00",
-      "source": {
-        "name": "DerWesten",
-        "url": "https://www.derwesten.de"
-      }
-    },
-    {
       "id": "d076c5f1dada",
       "title": "20-jährige Tochter hungerte, um Parkinson-Medikamente ihres Vaters zu bezahlen - Merkur",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeVRIVHo1SUtZTFBsM0d3aGdmLUpCU2FZSmdxRVc2Vlp6UTJaeDBkX3o3WEZWbk1RYURLZEtpeWh5T2xGUDhmZmhTNF83b3A1UFhmSklPNjZnNVJnbFlXUGpGTXZtNTdHaWF5dURRQzcydTdiNFhIelAxdmlnMWljZUhrTFJaX2VuYTc0OVMxbHZFNnJuZ2dDeW1zYmhZMFd5VDhpRWxjYlA4b0kxcERJ?oc=5",
@@ -71,16 +81,6 @@
       "source": {
         "name": "Merkur",
         "url": "https://www.merkur.de"
-      }
-    },
-    {
-      "id": "c097e0f2ba84",
-      "title": "Entwicklungsvereinbarung: Fresenius baut Geschäft mit Nachahmermedikamenten aus - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMXBpNTQwT0VqbzR3WjJhSTRXalNkcTJjeWJnTVZRMUhJTTYxSThSZnhjTUFrT0tJTWc0Ylgtc1ZlU0d5cTNnMDZnVjEwa3ROQXhERG5uMGRrTGtnNE0yU3dfQVcyeFExejBmWnhQd0R4SEs0dmhXUGxET1RhSnFjZUVyMnc0aFg4OGRFVDk5eFhlQzBzeFV1NGY2dzUwRE00d0xvNmFleVRzSDg0by13NVdlV19OT2xSSjJYMjU1ZTdNOEJiTG5wUVIyektVcWVfeVYxUU5sMTgwdTJS?oc=5",
-      "published": "2026-11-02T06:48:00+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
       }
     },
     {
@@ -94,16 +94,6 @@
       }
     },
     {
-      "id": "ccd1bd1f0014",
-      "title": "Typ-2-Diabetes: Lebensstilprogramm führte bei jedem Zweiten zur Remission - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZDBUZHZmcE84T3JsT0J5Ri1wcDE0c18tN1k1UnZ3T3hrZ3dfVEtvd1NJUkFlaUUtbGVsYnUwS3o2a3daZF9mTFNBMlBlRlI5V2lIZ21TU29kS21WcWZvbmtxUGw0bHlGUFRMTEtYUlhRT1pHTEFtSmhWMl9kbGdpT3FkZW83UXN3UkdLUlUybDN6OEZEY1dOMW5EUjk4eG5ZTGxzLVVNOWtmcld1MWc?oc=5",
-      "published": "2026-11-02T13:43:16+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
       "id": "4e6d48112005",
       "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
@@ -114,23 +104,23 @@
       }
     },
     {
-      "id": "fbb62a1183f5",
-      "title": "PharmaTher plant 3D-gedruckte Peptidtabletten mit gezielter Wirkstoffabgabe - 3Druck.com",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbzk2S2M0Z2ZxVlpGc0Nsb2Vndm9IVHp3UjdEeTE0N280WVJwSzdabEs0TTZQX3dpcDk4RnRydEU3TTRZX1dHeTZPa2QwMVE5MnVPT1AtUGdUa2J2Ql91ZDRsYTVBMW1BSnV3YUhsT3VDM000Rm44MzBiLTlkNklnZ3ZFazc3ajBwQURNaFlvT0RUdEcxRE9QTmJiRlQ5aXk4Y3RON2YxQWU0TTFsUkg0ZmNR?oc=5",
-      "published": "2026-11-02T12:20:09+00:00",
+      "id": "c097e0f2ba84",
+      "title": "Entwicklungsvereinbarung: Fresenius baut Geschäft mit Nachahmermedikamenten aus - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMXBpNTQwT0VqbzR3WjJhSTRXalNkcTJjeWJnTVZRMUhJTTYxSThSZnhjTUFrT0tJTWc0Ylgtc1ZlU0d5cTNnMDZnVjEwa3ROQXhERG5uMGRrTGtnNE0yU3dfQVcyeFExejBmWnhQd0R4SEs0dmhXUGxET1RhSnFjZUVyMnc0aFg4OGRFVDk5eFhlQzBzeFV1NGY2dzUwRE00d0xvNmFleVRzSDg0by13NVdlV19OT2xSSjJYMjU1ZTdNOEJiTG5wUVIyektVcWVfeVYxUU5sMTgwdTJS?oc=5",
+      "published": "2026-11-02T06:48:00+00:00",
       "source": {
-        "name": "3Druck.com",
-        "url": "https://3druck.com"
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
       }
     },
     {
-      "id": "14601b1ecbed",
-      "title": "Sturzrisiko bei Senioren: Jeder Zweite über 80 betroffen - Kurier",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMVhIeGQ1aFVrbHRFMTVQQXhaSWhqbmk2QnRTTWJCU1hhcHJLcm40QU9vYUE2TmdwUnhDNDNJSnlFVlg5Wktzakd5NjhEajN2ei1WNzg1OUMyRzRnb2N2WjRjTlhleTg5Vm4zeW5YSnF5NUd0aEktWWFUODkzOWUxTkx2RVdDRGFHTkhOQkFWT1NrT25CRnpmaGVTYw?oc=5",
-      "published": "2026-11-02T09:45:00+00:00",
+      "id": "359afabe0b8a",
+      "title": "Multiple Sklerose: Neuer Wirkstoff überzeugt in zwei großen Studien - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQN2s4b3hteXlrRUt3Y2o0c25qUWlBRlBMUDJuT1htZnFJSTloYjNZcldlbEMxUm0yWDBhYnFmYXdKSHlrWlgxYmdQSzNrWW1XQWFPVmRTakYzUVZ0RGxMUUNZdjN3dkdoV0FMNkV5VVlIR3FwMXZ5ZFkyQlJiOHFsVGtvSTdHc09WV3pQd3JkV2l1Y1FUWkNzUU9SM1hBZldDMVFJRUtVNA?oc=5",
+      "published": "2026-11-02T12:18:04+00:00",
       "source": {
-        "name": "Kurier",
-        "url": "https://kurier.at"
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -154,6 +144,16 @@
       }
     },
     {
+      "id": "fbb62a1183f5",
+      "title": "PharmaTher plant 3D-gedruckte Peptidtabletten mit gezielter Wirkstoffabgabe - 3Druck.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbzk2S2M0Z2ZxVlpGc0Nsb2Vndm9IVHp3UjdEeTE0N280WVJwSzdabEs0TTZQX3dpcDk4RnRydEU3TTRZX1dHeTZPa2QwMVE5MnVPT1AtUGdUa2J2Ql91ZDRsYTVBMW1BSnV3YUhsT3VDM000Rm44MzBiLTlkNklnZ3ZFazc3ajBwQURNaFlvT0RUdEcxRE9QTmJiRlQ5aXk4Y3RON2YxQWU0TTFsUkg0ZmNR?oc=5",
+      "published": "2026-11-02T12:20:09+00:00",
+      "source": {
+        "name": "3Druck.com",
+        "url": "https://3druck.com"
+      }
+    },
+    {
       "id": "9f7c377ed6d2",
       "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
@@ -164,16 +164,6 @@
       }
     },
     {
-      "id": "8116054bb503",
-      "title": "Können Heidelbeeren die Stimmung verbessern? Kleine Studie liefert erste Hinweise - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQajRXRHp4TEVVTW03dzdvaVBiY3lQeFZqYnFuV3JvRS16eVozSzRIWTBRbUZyVEJzR085SDFSYWtJVTJ4T1Ntbm1WXzM1TmNyclhISmJBTnI2d0tucEd0bDQtWmJZV3dlSVk5N21KSzBaVVpjM2N3LTJqWnNKWG9xeUFKdkNUN2tndHRtN3JaYWhqbGh3TjJpYTRSalBnOHkzRDNQUWRnWHBWeUdPSTgyM2RfbHljaUVi?oc=5",
-      "published": "2026-11-02T11:53:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
       "id": "662d7ab8e930",
       "title": "Vitamin C und Zink als Immunbooster? So empfehlenswert sind die Präparate wirklich - oekotest.de",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPLVM1Rl9ZbjdkbF9RRlB3RG9raG9YNlo3THkyXzV2YjVkUnJSXzNna0loZU43TVRJRlZ4MnZENmdPOEJyQ1ByUkprSjFjaGo3T3p2OUVGUUZnTDNyeFh5dmNfS2RlaWVLUHpNdlMzcmZZM29qUmVuQ2xBWmJIVEk0Vl9NYnFnWUdNMVZrZ0hOZHNqVF9VX1ZlMFVDaWprTWJscFNYNUJmNnhYdFRTSEFHRXBvbmhESmh4RlNsdVhiUWZWdTRNbXhCMGNSLXRFOE93cjNPTDFRekJTT1k?oc=5",
@@ -181,6 +171,16 @@
       "source": {
         "name": "oekotest.de",
         "url": "https://www.oekotest.de"
+      }
+    },
+    {
+      "id": "8116054bb503",
+      "title": "Können Heidelbeeren die Stimmung verbessern? Kleine Studie liefert erste Hinweise - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQajRXRHp4TEVVTW03dzdvaVBiY3lQeFZqYnFuV3JvRS16eVozSzRIWTBRbUZyVEJzR085SDFSYWtJVTJ4T1Ntbm1WXzM1TmNyclhISmJBTnI2d0tucEd0bDQtWmJZV3dlSVk5N21KSzBaVVpjM2N3LTJqWnNKWG9xeUFKdkNUN2tndHRtN3JaYWhqbGh3TjJpYTRSalBnOHkzRDNQUWRnWHBWeUdPSTgyM2RfbHljaUVi?oc=5",
+      "published": "2026-11-02T11:53:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -201,6 +201,16 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "059d6d28dc47",
+      "title": "Sturzrisiko: Jeder Zweite über 80 betroffen - Kurier",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMVhIeGQ1aFVrbHRFMTVQQXhaSWhqbmk2QnRTTWJCU1hhcHJLcm40QU9vYUE2TmdwUnhDNDNJSnlFVlg5Wktzakd5NjhEajN2ei1WNzg1OUMyRzRnb2N2WjRjTlhleTg5Vm4zeW5YSnF5NUd0aEktWWFUODkzOWUxTkx2RVdDRGFHTkhOQkFWT1NrT25CRnpmaGVTYw?oc=5",
+      "published": "2026-11-02T09:45:00+00:00",
+      "source": {
+        "name": "Kurier",
+        "url": "https://kurier.at"
       }
     },
     {
@@ -244,13 +254,13 @@
       }
     },
     {
-      "id": "a0783a974cdd",
-      "title": "Medikamente: Wer über die Preise entscheidet und warum die Krankenkassen so viel ausgeben - ZDFheute",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYW5MbnAweERrMmNGSF9EVUZQUjBoQlR1UTFlX3NyTjlJcGpERjZxSURMWmd6bUFvcm9oalNLdUpHWURhWXlHcWxnYnZieUF6NEhqQ3d2QW9LMGdUam5VallpbE9EamhoSFdlc3RNaHBlYUloTTdLQUV5SGpMeFlGdVM2Q21QV21NR0NOZlppOFhMbVJhaGdOZA?oc=5",
-      "published": "2026-10-27T09:22:00+00:00",
+      "id": "10c1dca37dfa",
+      "title": "Wiener Apotheken rücken Frauengesundheit in den Fokus - Vienna.at",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTkZ3aGRPV0ItSGVVYm9aYW9OV28zYVJhMDhHRlVjVFRtaGcyUl9RODNmNW5NamNrcDNqQ0Q0MXlUNk9pTEJhbDRtdlNVTW1jc0ZUN2owYTVqUjk3azZ6SnNRV3pHUHdXZFhSMGxPXzBQLWVZeWRFeVduVHRMWmswS1RtNmxGcDRsZkY5el93?oc=5",
+      "published": "2026-10-30T14:18:33+00:00",
       "source": {
-        "name": "ZDFheute",
-        "url": "https://www.zdfheute.de"
+        "name": "Vienna.at",
+        "url": "https://www.vienna.at"
       }
     },
     {
@@ -284,16 +294,6 @@
       }
     },
     {
-      "id": "e9ce7cf0dcc9",
-      "title": "Biologische Arzneimittel - Fresenius baut Geschäft mit Nachahmer-Medikamenten aus - Wirtschaft - SZ.de - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNS2pDTFJheVdmczlUVUMxcXZremxKSHk5cWUzNEZPdV9pVDBoa1lGM1RjUXZPUzNNNzZoRmhlaHhGWGdSRml4Njg2R3h1a3cxMlMyb20weUp6WmxnMkdkdl83aW5mMEJSdEN2RDk3WWtDVXI4MXVjaTcxdE1vY3RFcTZDRGRzY3IyVTNMRjUyTzdlYkRNd19UelhfVHBhbGVIVHBuTzlPR1lzX196SWV2SnBwdDZwdmVVSVhiLW1jMG8yS2NDbGh2WWt5Rk5Gb25YMS10b2s3OVZRODlrcVFEVUxHc0RHaVFoZDZyVEpIQkR6SllZQ2czWUt3TGR4QQ?oc=5",
-      "published": "2026-11-02T09:34:17+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
       "id": "e4f7e8c57817",
       "title": "Wie läuft die Zulassung von Arzneimitteln ab? - Stiftung Gesundheitswissen",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQc0lKcG51SV96LVpuemVlZ3p2LU1Ubjg1Q2M0VjJMa3pfRGNWM3VKemVDZG9mWm1uY0NlbkZmVDc4QWVad0VIYVAzOGxrY3ZvX1ZnSHB5QXZFYU4tNTAxa0g3N1BxbTljY3hTSVZQZE1GUFNsVF9LNUNfdk5aZGFucjBPWnZ5TGtZazdZQ3NQeEZFMXpBem9Tenh2NUtrWGlp?oc=5",
@@ -311,6 +311,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "7ec96f444290",
+      "title": "Medikamente knapp: Philippi warnt vor Hamsterkäufen – diese Mittel sind betroffen - HAZ",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOR3lZNXFZLXFfd2tVcUNPZFVoNFF5QnZmbGs5Ti1ueDRZMHhodkdsY1dhd19yX2JONWd3QTFlMFlta3FvdnFYcUZYYkdDRUpPTVNwV2pWUnBtU2E0N0NTc0tRcWt0Ml94OWVlTC0zQW16TGI4SC1ZWWJDb2pXUWp1WEVaMlVaa1NPWnJzbS1WTjQwYXdSTXBnbGtlNDRMZzEyT1pGejNwdmhfWHc3TV92YnJZWS00RFpNYUlaNklLaUdBM1hrOW9yQ3g3MW9JLTNDQjc0VDRFeUvSAfQBQVVfeXFMT3dCZXc3MF9rVTZQY05nWnBfSVpQNGl1VTg0ZjVFRFY0M2Qtb3JYQmtJWExUTkNST2Yxa2wtTl9ITmszSWJkOFlvMHBSWFRKZWN5ZVZLdzB1U1FPUS1LLXpRWnhidlRtekdKMTRoVmJxdFAtUjlwUWxVRUxnMjRvcFNiXzlVM0JvaUtFdHBRX3VXNGRRZG1LQlZUdmN6V0h2WWZyWnBYYkxtdzZSMkQxdENKY2pEaEtBblk3cC0yblo0NnJsVk15VVBOdy01Y0lkSEwxSmczZ1VTM0Fpb2JUX0l2NjhFdE9ZVmVPbTg3RXl2UzRSWQ?oc=5",
+      "published": "2026-10-28T03:36:57+00:00",
+      "source": {
+        "name": "HAZ",
+        "url": "https://www.haz.de"
       }
     },
     {
