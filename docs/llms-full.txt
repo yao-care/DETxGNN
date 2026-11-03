@@ -15,6 +15,7 @@ Die Evidenzstufen reichen von L1 (stärkere klinische Evidenz) bis L5 (nur Model
 - `/` Vorhersagen zur Arzneimittel-Umwidmung — KI-gestützte Vorhersagen zur Arzneimittel-Umwidmung für Deutschland. Evidenzbasierte Analyse zugelassener Arzneimittel auf mögliche neue Anwendungsgebiete.
 - `/drugs/` Alle Arzneimittel — Alle Arzneimittel-Validierungsberichte und Statistiken zu den Evidenzstufen in DETxGNN.
 - `/evidence-high/` Hohe Evidenz (L1-L2) — Kandidaten der Arzneimittel-Umwidmung mit L1-L2 in DETxGNN, gestützt auf klinische Studien oder systematische Übersichtsarbeiten.
+- `/clinical-trial-evidence/` Arzneimittel mit Studienevidenz für eine neue Indikation — Zentral zugelassene EU-Arzneimittel (EMA), deren von TxGNN vorhergesagte neue Indikation Studienevidenz (L1-L2) hat: Indikation, Level, Studien.
 - `/evidence-medium/` Mittlere Evidenz (L3-L4) — Kandidaten der Arzneimittel-Umwidmung mit L3-L4 in DETxGNN, gestützt auf beobachtende oder präklinische Evidenz.
 - `/evidence-low/` Nur Modellvorhersage (L5) — L5-Kandidaten in DETxGNN: nur Modellvorhersage, bislang ohne klinische Evidenz oder Literaturbelege.
 - `/methodology/` Methodik — Wie DETxGNN Vorhersagen erzeugt und validiert: Vorhersage mit dem TxGNN-Modell (Deep Learning), Evidenzsammlung, Einstufung L1-L5 und Entscheidungsempfehlungen.

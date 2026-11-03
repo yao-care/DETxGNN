@@ -12,6 +12,8 @@ description: "Kandidaten der Arzneimittel-Umwidmung mit L1-L2 in DETxGNN, gestü
 Kandidaten, die vorrangig für eine klinische Bewertung infrage kommen
 </p>
 
+Welche dieser Arzneimittel haben Studienevidenz für ihre vorhergesagte neue Indikation, und wie viele registrierte Studien werden zitiert? Siehe [Arzneimittel in Deutschland mit Studienevidenz für eine neue Indikation]({{ '/clinical-trial-evidence/' | relative_url }}).
+
 ---
 
 ## Kriterien

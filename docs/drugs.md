@@ -36,6 +36,8 @@ Diese Liste basiert auf den zentralen EU-Zulassungen im [EMA Medicines Report](h
 
 <!-- local-home:end -->
 
+Auswahl: [Arzneimittel in Deutschland mit Studienevidenz für eine neue Indikation]({{ '/clinical-trial-evidence/' | relative_url }}) (L1–L2, mit vorhergesagter Indikation und Zahl der zitierten registrierten Studien).
+
 ## Aufschlüsselung nach Evidenzstufe
 
 | Evidenzstufe | Arzneimittel | Beschreibung |

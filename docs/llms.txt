@@ -14,6 +14,7 @@
 - Vorhersagen zur Arzneimittel-Umwidmung: https://detxgnn.yao.care/
 - Alle Arzneimittel: https://detxgnn.yao.care/drugs/
 - Hohe Evidenz (L1-L2): https://detxgnn.yao.care/evidence-high/
+- Arzneimittel mit Studienevidenz für eine neue Indikation: https://detxgnn.yao.care/clinical-trial-evidence/
 - Mittlere Evidenz (L3-L4): https://detxgnn.yao.care/evidence-medium/
 - Nur Modellvorhersage (L5): https://detxgnn.yao.care/evidence-low/
 - Methodik: https://detxgnn.yao.care/methodology/
