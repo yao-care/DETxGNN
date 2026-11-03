@@ -4,17 +4,17 @@ title: Cemiplimab
 parent: Nur Modellvorhersage (L5)
 nav_order: 106
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 monitor_inn: "CEMIPLIMAB"
-predicted_indications: ["gallbladder adenosquamous carcinoma", "rectal cloacogenic carcinoma", "external ear basal cell carcinoma", "adenosquamous prostate carcinoma", "urethral verrucous carcinoma", "pancreatic adenosquamous carcinoma"]
-last_modified_at: 2026-10-28
+predicted_indications: ["gallbladder adenosquamous carcinoma", "rectal cloacogenic carcinoma", "adenosquamous prostate carcinoma", "urethral verrucous carcinoma", "pancreatic adenosquamous carcinoma"]
+last_modified_at: 2026-11-03
 description: "Cemiplimab: vorhergesagte neue Indikation Adenosquamöses Gallenblasenkarzinom (gallbladder adenosquamous carcinoma) (Evidenzstufe L5). Ursprüngliche Indikation: Carcinoma, Squamous Cell"
 ---
 
 # Cemiplimab
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,50 +33,52 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-## Cemiplimab: PD-1-blockierender Antikörper → Adenosquamöses Gallenblasenkarzinom (gallbladder adenosquamous carcinoma)
+## Cemiplimab: Adenosquamöses Gallenblasenkarzinom (gallbladder adenosquamous carcinoma)
 {: .text-alpha }
 
 ## Zusammenfassung
 
-Cemiplimab ist ein gegen PD-1 gerichteter Antikörper (Immun-Checkpoint-Inhibitor). Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **adenosquamösem Gallenblasenkarzinom (gallbladder adenosquamous carcinoma)** voraus (Score 0,9999). Für diese Vorhersage liegen derzeit **keine klinischen Studien und keine Publikationen** vor; sie beruht ausschließlich auf der Modellvorhersage.
+Cemiplimab ist ein gegen PD-1 gerichteter Antikörper, der in Deutschland für das Plattenepithelkarzinom zugelassen ist. Das TxGNN-Modell sagt voraus, dass er bei **adenosquamösem Gallenblasenkarzinom (gallbladder adenosquamous carcinoma)** wirksam sein könnte. Für diese Richtung liegen in den für diesen Bericht zusammengestellten Daten **keine klinischen Studien** und **keine Publikationen** vor.
 
-## Schnellübersicht
+## Kurzübersicht
 
 | Punkt | Inhalt |
 |------|------|
 | Ursprüngliche Indikation | Carcinoma, Squamous Cell |
 | Vorhergesagte neue Indikation | Adenosquamöses Gallenblasenkarzinom (gallbladder adenosquamous carcinoma) |
-| TxGNN-Vorhersagewert | 0,9999 |
-| Evidenzgrad | L5 |
+| TxGNN-Vorhersagewert | 0.9999 |
+| Evidenzstufe | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
 
-Cemiplimab bindet an den PD-1-Rezeptor (Gen *PDCD1*) und blockiert die Interaktion mit PD-L1 (IC50 < 1 nM im ELISA). Dadurch wird die Hemmung der T-Zell-Antwort gegen Tumorzellen aufgehoben. Detaillierte Angaben zum Wirkmechanismus liegen in den zusammengestellten Daten sonst nicht vor.
+Cemiplimab blockiert den Immun-Checkpoint-Rezeptor PD-1 (Gen PDCD1) und hebt damit die Hemmung der T-Zell-Antwort durch PD-L1 auf. In präklinischen Untersuchungen blockiert der Antikörper die Interaktion von humanem PD-1 und PD-L1 mit einer IC50 unter 1 nM. Detaillierte Angaben zum Wirkmechanismus aus weiteren Quellen liegen in den zusammengestellten Daten nicht vor.
 
-Das adenosquamöse Gallenblasenkarzinom enthält eine plattenepitheliale Komponente. Eine mögliche Überlegung ist, dass dieser Anteil auf eine PD-1-Blockade ansprechen könnte, da Cemiplimab bei Plattenepithelkarzinomen der Haut klinisch wirksam ist. Dies ist jedoch eine Hypothese: Der hohe Score spiegelt vermutlich die Nähe zu Plattenepithelkarzinomen im Modell wider, nicht klinische Belege.
+Eine mögliche Begründung ist, dass die plattenepitheliale Komponente dieses Tumors auf eine PD-1-Blockade ansprechen könnte, da Cemiplimab bei Plattenepithelkarzinomen der Haut klinisch belegt wirksam ist. Dies ist jedoch eine reine Modellannahme: Der hohe Vorhersagewert spiegelt vermutlich die Nähe im Wissensnetz des Modells zu plattenepithelialen Tumoren wider und keinen klinischen Nachweis. Für diese spezifische Erkrankung wurden keine Studien oder Publikationen gefunden.
 
 ## Klinische Studien
 
 Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-## Literatur
+## Literaturevidenz
 
 Derzeit ist keine zugehörige Literatur verfügbar.
 
-## Marktinformationen Deutschland
+## Informationen zum deutschen Markt
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/004844 | Libtayo | – | Carcinoma, Squamous Cell |
 
+Die Zulassung ist gültig (Inhaber: Regeneron Ireland Designated Activity Company (DAC)).
+
 ## Zytotoxizität
 
 | Punkt | Inhalt |
 |------|------|
-| Klassifikation | Immuntherapie (Immun-Checkpoint-Inhibitor, kein klassisches Zytostatikum) |
+| Klassifikation | Immuntherapie (Immun-Checkpoint-Inhibitor, PD-1-Antikörper) |
 | Myelosuppressionsrisiko | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
 | Emetogenität | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
 | Überwachungsparameter | Bitte Fachinformation beachten |
@@ -84,22 +86,36 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 
 ## Sicherheitsaspekte
 
-- **Arzneimittelwechselwirkungen:** Im Rahmen der Abfrage wurden 10 Einträge gefunden. Neun Wechselwirkungen mit mäßigem Schweregrad betreffen Kortikosteroide: Hydrocortison, Triamcinolon, Dexamethason, Betamethason, Budesonid, Prednisolon, Prednison, Methylprednisolon und Deflazacort. Hinzu kommt die pharmakologische Zielstruktur PD-1 (CD279).
+**Arzneimittelwechselwirkungen:** Für Cemiplimab wurden zehn Einträge erfasst. Neun davon sind Wechselwirkungen mittleren Schweregrads (Moderate) mit Kortikosteroiden:
 
-Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
+- Hydrocortison
+- Triamcinolon
+- Dexamethason
+- Betamethason
+- Budesonid
+- Prednisolon
+- Prednison
+- Methylprednisolon
+- Deflazacort
+
+Der zehnte Eintrag beschreibt das pharmakologische Target (PD-1, CD279) und ist keine Wechselwirkung im engeren Sinne.
+
+Für weitere Sicherheitsinformationen, insbesondere Warnhinweise und Gegenanzeigen, bitte die Fachinformation beachten.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich allein auf das Modell; es gibt weder klinische Studien noch Publikationen zu dieser Erkrankung. Die Evidenz entspricht daher Level L5.
+Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzstufe L5); es gibt weder klinische Studien noch Publikationen zu dieser Erkrankung. Die Plausibilität über die plattenepitheliale Histologie ist nicht belegt.
 
-**Für ein Fortschreiten sind erforderlich:**
-- Publikationen oder Studiendaten zum adenosquamösen Gallenblasenkarzinom unter PD-1-Blockade
+**Für ein Weiterkommen ist Folgendes erforderlich:**
+- Systematische Literaturrecherche und Studienrecherche zu PD-1-Blockade beim adenosquamösen Gallenblasenkarzinom
+- Vollständige Daten zum Wirkmechanismus
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) für die Sicherheitsbewertung
-- Detaillierte Daten zum Wirkmechanismus im Kontext dieser Tumorentität
-- Prüfung der Immunphänotypen (z. B. PD-L1-Expression) beim adenosquamösen Gallenblasenkarzinom
+- Prüfung der biologischen Rationale (z. B. PD-L1-Expression, Tumormutationslast) in dieser Tumorentität
+- Bei positiver Rationale: Planung einer explorativen klinischen Studie
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
