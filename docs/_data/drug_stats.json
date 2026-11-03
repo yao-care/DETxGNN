@@ -3,8 +3,8 @@
   "total_drugs": 468,
   "level_counts": {
     "L1": 13,
-    "L2": 20,
-    "L3": 17,
+    "L2": 21,
+    "L3": 16,
     "L4": 25,
     "L5": 381
   },
@@ -1896,7 +1896,7 @@
     {
       "name": "Pazopanib",
       "slug": "pazopanib",
-      "level": "L3",
+      "level": "L2",
       "indication_count": 6
     },
     {

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pazopanib
-parent: Mittlere Evidenz (L3-L4)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 345
-evidence_level: L3
+evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "PAZOPANIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
-description: "Pazopanib: vorhergesagte neue Indikation Liposarcoma (Evidenzstufe L3). Ursprüngliche Indikation: Carcinoma, Renal Cell"
+description: "Pazopanib: vorhergesagte neue Indikation Liposarkom (liposarcoma) (Evidenzstufe L2). Ursprüngliche Indikation: Carcinoma, Renal Cell"
 ---
 
 # Pazopanib
 {: .fs-9 }
 
-Evidenzniveau: **L3** | Vorhergesagte Indikationen: **6** 
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,59 +33,58 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-## Pazopanib: Liposarcoma
+## Pazopanib: Liposarkom (liposarcoma)
 {: .text-alpha }
 
 ## Zusammenfassung
 
-Pazopanib ist ein Multi-Tyrosinkinase-Inhibitor, der ursprünglich zur Behandlung des Nierenzellkarzinoms zugelassen wurde.
-Das TxGNN-Modell sagt voraus, dass er bei **nicht klassifiziertem Nierenzellkarzinom** wirksam sein könnte. Hierfür liegen **keine registrierten klinischen Studien**, aber **6 Publikationen** (darunter eine einarmige Phase-II-Studie und mehrere retrospektive Kohorten) vor.
-Es handelt sich um einen histologischen Subtyp der ursprünglichen Indikation und nicht um ein echtes Repurposing in ein neues Krankheitsgebiet.
+Pazopanib ist ein Multi-Tyrosinkinase-Inhibitor, der VEGFR, PDGFR und c-Kit hemmt. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Liposarkom (liposarcoma)** voraus. Dafür liegen **6 klinische Studien** und **20 Publikationen** vor, darunter zwei Phase-2-Studien speziell bei fortgeschrittenem Liposarkom. Das Evidenzniveau ist **L2**.
 
----
-
-## Kurzüberblick
+## Schnellübersicht
 
 | Punkt | Inhalt |
 |------|------|
 | Ursprüngliche Indikation | Carcinoma, Renal Cell |
-| Vorhergesagte neue Indikation | Liposarcoma |
+| Vorhergesagte neue Indikation | Liposarkom (liposarcoma) |
 | TxGNN-Vorhersagewert | 0.9959 |
-| Evidenzniveau | L3 |
+| Evidenzniveau | L2 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
-| Empfohlene Entscheidung | Hold |
-
----
+| Empfohlene Entscheidung | Mit Schutzmaßnahmen fortfahren |
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu Pazopanib sind in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus hinterlegt. Bekannt ist, dass Pazopanib ein Multi-Target-Tyrosinkinase-Inhibitor ist, der VEGFR, PDGFR und c-Kit hemmt. Die antiangiogene Wirkung ist derselbe Mechanismus, der dem zugelassenen Einsatz beim klarzelligen Nierenzellkarzinom zugrunde liegt.
+Detaillierte Mechanismusdaten (MOA) liegen in den zusammengestellten Daten nicht vor. Bekannt ist, dass Pazopanib VEGFR, PDGFR und c-Kit hemmt. Diese Signalwege treiben Tumorangiogenese und Tumorwachstum bei Weichteilsarkomen an.
 
-Das nicht klassifizierte Nierenzellkarzinom gehört zu den nicht-klarzelligen Nierenzellkarzinomen. Diese sind in klinischen Studien unterrepräsentiert, und die Behandlung wird häufig aus den Daten zum klarzelligen Typ übertragen. Eine Aktivität von Pazopanib ist daher biologisch plausibel, auch wenn die Tumorbiologie nicht identisch ist.
+Liposarkome gehören zu den Weichteilsarkomen. Die Wirkung eines Antiangiogenese- und Multikinase-Inhibitors ist daher mechanistisch nachvollziehbar. Zwei Phase-2-Studien (NCT01506596, NCT01692496) und eine Phase-2-Publikation (PMID 31010343) untersuchen Pazopanib direkt bei fortgeschrittenem Liposarkom.
 
-Wichtig: Die Vorhersage betrifft einen Subtyp der bereits bekannten Indikation. Die Evidenz stammt überwiegend aus retrospektiven Analysen und nicht aus kontrollierten Studien.
+Einschränkend deuten Daten aus breiteren Weichteilsarkom-Populationen darauf hin, dass die Aktivität beim Liposarkom geringer ausfällt als bei anderen Histologien. Pazopanib ist für nicht-adipozytäre Weichteilsarkome zugelassen, Liposarkom ist von dieser Zulassung ausdrücklich ausgenommen. Nutzen und Risiko müssen daher sorgfältig abgewogen werden.
 
----
+## Klinische Studien
 
-## Evidenz aus klinischen Studien
+| Studiennummer | Phase | Status | Teilnehmende | Kernaussagen |
+|---------|------|------|------|---------|
+| [NCT01506596](https://clinicaltrials.gov/study/NCT01506596) | Phase 2 | Abgeschlossen | 42 | Pazopanib als Monotherapie bei nicht resezierbarem oder metastasiertem Liposarkom |
+| [NCT01692496](https://clinicaltrials.gov/study/NCT01692496) | Phase 2 | Abgeschlossen | 52 | Aktivität und Verträglichkeit bei fortgeschrittenem/metastasiertem Liposarkom nach Vortherapie |
+| [NCT01532687](https://clinicaltrials.gov/study/NCT01532687) | Phase 2 | Abgeschlossen | 54 | Randomisiert, doppelblind: Gemcitabin mit oder ohne Pazopanib bei refraktärem Weichteilsarkom |
+| [NCT02357810](https://clinicaltrials.gov/study/NCT02357810) | Phase 2 | Abgeschlossen | 178 | Pazopanib plus orales Topotecan bei metastasierten Weichteil- und Knochensarkomen |
+| [NCT02180867](https://clinicaltrials.gov/study/NCT02180867) | Phase 2/3 | Abgeschlossen | 140 | Neoadjuvante Therapie bei Nicht-Rhabdomyosarkom-Weichteilsarkomen, mit oder ohne Pazopanib |
+| [NCT06239272](https://clinicaltrials.gov/study/NCT06239272) | Phase 1/2 | Rekrutierend | 139 | Pazopanib-Erhaltungstherapie in risikoadaptiertem Regime bei Nicht-Rhabdomyosarkom-Weichteilsarkomen |
 
-Derzeit sind keine zugehörigen klinischen Studien registriert.
+## Literaturevidenz
 
----
-
-## Evidenz aus der Literatur
-
-| PMID | Jahr | Typ | Journal | Zentrale Ergebnisse |
+| PMID | Jahr | Typ | Zeitschrift | Kernaussagen |
 |------|-----|------|------|---------|
-| [28546525](https://pubmed.ncbi.nlm.nih.gov/28546525/) | 2018 | Einarmige offene multizentrische Phase-II-Studie | Cancer Res Treat | Wirksamkeit und Sicherheit von Pazopanib bei Patienten mit metastasiertem nicht-klarzelligem Nierenzellkarzinom |
-| [28108284](https://pubmed.ncbi.nlm.nih.gov/28108284/) | 2017 | Retrospektive multizentrische Kohorte (PANORAMA) | Clin Genitourin Cancer | Retrospektive Analyse von Wirksamkeit und Toxizität von Pazopanib in der Erstlinie bei nicht-klarzelligem Nierenzellkarzinom (Italien) |
-| [27568124](https://pubmed.ncbi.nlm.nih.gov/27568124/) | 2017 | Retrospektive Kohorte | Clin Genitourin Cancer | Behandlungsergebnisse von Pazopanib bei metastasiertem nicht-klarzelligem Nierenzellkarzinom; Daten bislang begrenzt |
-| [41558869](https://pubmed.ncbi.nlm.nih.gov/41558869/) | 2026 | Retrospektive Kohorte | Eur Urol Oncol | Vergleich moderner (Immuntherapie-Kombinationen, Cabozantinib) und traditioneller Erstlinientherapien bei metastasiertem nicht-klarzelligem Nierenzellkarzinom, auch nach Subtyp |
-| [31921344](https://pubmed.ncbi.nlm.nih.gov/31921344/) | 2019 | Real-World-Studie | Ecancermedicalscience | Vergleich von Sunitinib und Pazopanib in der Erstlinie bei nicht-klarzelligen und sarkomatoiden Histologien |
-| [30268423](https://pubmed.ncbi.nlm.nih.gov/30268423/) | 2019 | Retrospektive Kohorte | Clin Genitourin Cancer | CUP mit Nierenzellkarzinom-Merkmalen, behandelt mit zielgerichteter Therapie, inkl. Literaturübersicht |
-
----
+| [31010343](https://pubmed.ncbi.nlm.nih.gov/31010343/) | 2019 | Phase-2-Studie | Expert Opin Investig Drugs | Pazopanib bei fortgeschrittenem Liposarkom mittleren bis hohen Grades |
+| [34050255](https://pubmed.ncbi.nlm.nih.gov/34050255/) | 2021 | Phase-2-Studie | Br J Cancer | Pazopanib plus orales Topotecan bei metastasierten Weichteil- und Knochensarkomen |
+| [28844815](https://pubmed.ncbi.nlm.nih.gov/28844815/) | 2017 | Kommentar | Lancet Oncol | Pazopanib bei fortgeschrittenem Liposarkom |
+| [32026050](https://pubmed.ncbi.nlm.nih.gov/32026050/) | 2020 | Übersichtsarbeit | Curr Treat Options Oncol | Systemische Therapieoptionen beim dedifferenzierten Liposarkom |
+| [35609512](https://pubmed.ncbi.nlm.nih.gov/35609512/) | 2022 | Übersichtsarbeit | Oncol Res Treat | Etablierte und experimentelle systemische Therapien beim fortgeschrittenen Liposarkom |
+| [28547734](https://pubmed.ncbi.nlm.nih.gov/28547734/) | 2017 | Übersichtsarbeit | Adv Ther | Optimaler Einsatz von Pazopanib, Trabectedin und Eribulin bei Weichteilsarkomen |
+| [30060824](https://pubmed.ncbi.nlm.nih.gov/30060824/) | 2018 | Präklinisch | Tissue Cell | Pazopanib führte im Xenograft-Modell zur Regression eines doxorubicinresistenten pleomorphen Liposarkoms mit PDGFRA-Amplifikation |
+| [37298520](https://pubmed.ncbi.nlm.nih.gov/37298520/) | 2023 | Übersichtsarbeit | Int J Mol Sci | Behandlung des dedifferenzierten Liposarkoms im Zeitalter der Immuntherapie |
+| [27434055](https://pubmed.ncbi.nlm.nih.gov/27434055/) | 2016 | Übersichtsarbeit | Cancer | Chemotherapie bei Weichteilsarkomen |
+| [34356494](https://pubmed.ncbi.nlm.nih.gov/34356494/) | 2021 | Molekulare Analyse | Biology | Molekulares und pathologisches Profiling vor und nach neoadjuvanter Pazopanib-Therapie (GISG-04/NOPASS) |
 
 ## Marktinformationen Deutschland
 
@@ -93,62 +92,40 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 |---------|------|------|-----------|
 | EMEA/H/C/001141 | Votrient | – | Nierenzellkarzinom (Status: gültig) |
 
----
-
 ## Zytotoxizität
 
 | Punkt | Inhalt |
 |------|------|
-| Zytotoxizitätsklassifikation | Zielgerichtete Therapie (Tyrosinkinase-Inhibitor) |
-| Myelosuppressionsrisiko | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
-| Emetogenität | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
-| Handhabungsschutz | Bitte die Fachinformation und die Vorschriften zum Umgang mit Zytostatika beachten |
-
----
+| Zytotoxizitätsklassifikation | Zielgerichtete Therapie (Multi-Tyrosinkinase-Inhibitor) |
+| Myelosuppressionsrisiko | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenität | Bitte Fachinformation beachten |
+| Überwachungsparameter | Blutbild, Leber- und Nierenfunktion, Blutdruck, EKG/QT-Intervall (siehe Fachinformation) |
+| Handhabungsschutz | Bitte Fachinformation und lokale Vorschriften zum Umgang mit onkologischen Arzneimitteln beachten |
 
 ## Sicherheitsaspekte
 
-- **Kontraindikationen laut Wissensgraph (kein Packungsbeilagentext):** Im TxGNN-Wissensgraphen sind Kontraindikations-Verknüpfungen hinterlegt, u. a. für:
-  - Herz-Kreislauf: Hypertonie, Long-QT-Syndrom, Torsades de pointes, Myokardinfarkt, Koronarthrombose
-  - Leber: Leberversagen, arzneimittelinduzierte Leberschädigung, Hyperbilirubinämie, Gilbert-Syndrom
-  - Blutung/Magen-Darm: intrazerebrale Blutung, aktives Magengeschwür, Durchfallerkrankungen, Pankreatitis
-  - Weitere: Hypothyreose, Proteinurie, Störungen von Kalium-, Calcium- und Phosphorhaushalt
-- **Arzneimittelwechselwirkungen:** 100 Wechselwirkungen wurden erfasst. Schwerwiegende (Major) Wechselwirkungen bestehen u. a. mit:
-  - Säureblockern: Famotidin, Ranitidin, Cimetidin
-  - Protonenpumpenhemmern: Omeprazol, Esomeprazol, Rabeprazol, Dexlansoprazol
-  - Weiteren: Clarithromycin, Dolasetron
+**Arzneimittelwechselwirkungen** (100 Einträge erfasst, Auswahl):
+- **Schwerwiegend (Major):** Famotidin, Ranitidin, Cimetidin, Omeprazol, Esomeprazol, Rabeprazol, Dexlansoprazol (säurehemmende Arzneimittel), Clarithromycin, Dolasetron
+- **Mäßig (Moderate):** Pioglitazon, Loperamid, Aprepitant, Dexamethason, Budesonid, Bisacodyl, Magnesiumoxid, Polyethylenglykol, Saxagliptin, Eliglustat
 
-  Moderate Wechselwirkungen bestehen u. a. mit Pioglitazon, Loperamid, Aprepitant, Dexamethason, Budesonid, Saxagliptin, Eliglustat, Bisacodyl und Magnesiumoxid.
+**Mit Vorsicht zu betrachtende Erkrankungen** (aus Beziehungsdaten, nicht aus dem Etikett): Hypertonie, Long-QT-Syndrom/Torsades de Pointes, Leberversagen und arzneimittelbedingte Leberschädigung, Hypothyreose, Myokardinfarkt, Hyperbilirubinämie (einschließlich Gilbert-Syndrom), Durchfallerkrankungen, aktives Magengeschwür, intrazerebrale Blutung, Pankreatitis, Proteinurie.
 
-Hinweis: Warnhinweise und Kontraindikationen aus der Fachinformation liegen nicht vor. Bitte die Fachinformation für verbindliche Sicherheitsangaben heranziehen.
-
----
+Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Hold**
+**Entscheidung: Mit Schutzmaßnahmen fortfahren**
 
 **Begründung:**
-Für das nicht klassifizierte Nierenzellkarzinom gibt es keine registrierten klinischen Studien, und die Evidenz beruht auf einer einarmigen Phase-II-Studie und retrospektiven Kohorten. Zudem ist die einzige deutsche/europäische Zulassung erloschen, und die Sicherheitsdaten aus der Fachinformation fehlen. Damit ist eine belastbare Nutzen-Risiko-Bewertung derzeit nicht möglich.
+Zwei abgeschlossene Phase-2-Studien und eine Phase-2-Publikation untersuchen Pazopanib direkt beim fortgeschrittenen Liposarkom (Evidenzniveau L2). Breitere Sarkomdaten deuten jedoch auf eine geringere Aktivität beim Liposarkom hin, und Liposarkom ist von der bestehenden Sarkomzulassung ausgenommen.
 
-**Für ein Weiterkommen sind folgende Schritte nötig:**
-- Beschaffung und Auswertung der Fachinformation (Warnhinweise, Kontraindikationen), da dies eine blockierende Datenlücke für das Sicherheits-Screening darstellt
-- Ergänzung der Wirkmechanismus-Daten (z. B. aus DrugBank)
-- Klärung des Zulassungsstatus (Gründe für das Erlöschen der Zulassung) und der verfügbaren Darreichungsformen
-- Prüfung vorhandener Therapiealternativen: Die jüngste Registeranalyse (2026) vergleicht Pazopanib mit modernen Immuntherapie-Kombinationen und Cabozantinib
-- Gegebenenfalls Planung einer prospektiven Studie speziell zum nicht klassifizierten Subtyp
+**Für das weitere Vorgehen sind erforderlich:**
+- Auswertung der Ergebnisse von NCT01506596 und NCT01692496 (Ansprechrate, progressionsfreies Überleben) nach Liposarkom-Subtyp
+- Detaillierte Mechanismusdaten (MOA)
+- Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation
+- Prüfung der Wechselwirkungen, insbesondere mit säurehemmenden Arzneimitteln und QT-verlängernden Substanzen
+- Überwachungsplan für Blutdruck, Leberfunktion und QT-Intervall
 
----
-
-## Weitere vorhergesagte Indikationen (Kurzüberblick)
-
-| Rang | Indikation | TxGNN-Wert | Evidenzniveau | Empfehlung |
-|---|---|---|---|---|
-| 4 | Liposarkom | 0,9959 | L2 | Forschungsfrage (Research Question) |
-| 8 | Fibroblastische Neoplasie | 0,9935 | L5 | Forschungsfrage |
-| 10 | Dermatofibrosarcoma protuberans | 0,9929 | L2 | Forschungsfrage |
-
-Beim Liposarkom ist zu beachten, dass Pazopanib für nicht-adipozytäre Weichteilsarkome zugelassen ist und das Liposarkom ausdrücklich von dieser Zulassung ausgenommen ist. Beim Dermatofibrosarcoma protuberans kommt Pazopanib vor allem nach einem Versagen von Imatinib in Betracht.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
