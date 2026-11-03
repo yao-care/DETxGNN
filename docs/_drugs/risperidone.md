@@ -4,17 +4,17 @@ title: Risperidone
 parent: Nur Modellvorhersage (L5)
 nav_order: 406
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-31
+indication_count: 4
+last_modified_at: 2026-11-03
 description: "Risperidone: vorhergesagte neue Indikation Familiäre horizontale Blickparese mit progressiver Skoliose (Evidenzstufe L5). Ursprüngliche Indikation: Schizophrenie"
 monitor_inn: "RISPERIDONE"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 ---
 
 # Risperidone
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -118,7 +118,6 @@ Die Vorhersage stützt sich ausschließlich auf das Modell TxGNN (Deep Learning)
 
 **Hinweis zu weiteren Vorhersagen:**
 Für dieselbe Substanz liegen weitere Vorhersagen mit deutlich besserer Evidenz vor, die gesondert bewertet werden sollten:
-- **Major affective disorder (affektive Störung):** Evidenzlevel L1 mit Empfehlung „Proceed with Guardrails". Grundlage sind unter anderem die Phase-3-Studien NCT00095134 (n=630) und NCT00044681 (n=258) zur Zusatzbehandlung bei therapieresistenter Depression sowie mehrere Metaanalysen. Zu überwachen wären Gewichtszunahme, Stoffwechselwirkungen, Hyperprolaktinämie und extrapyramidale Symptome.
 - **Trichotillomanie:** Evidenzlevel L4 (Fallberichte und kleine Fallserien, keine kontrollierten Studien).
 - **Phelan-McDermid-Syndrom:** Evidenzlevel L4 (Übersichtsarbeit und Zebrafischstudie).
 ## Haftungsausschluss

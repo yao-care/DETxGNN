@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dexamethasone
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 143
-evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Dexamethasone: vorhergesagte neue Indikation Alopecia areata (Evidenzstufe L2). Ursprüngliche Indikation: Makulaödem, Uveitis (Ozurdex)"
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "DEXAMETHASONE"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
+description: "Dexamethasone: vorhergesagte neue Indikation Alopecia mucinosa (Evidenzstufe L5). Ursprüngliche Indikation: Macular Edema"
 ---
 
 # Dexamethasone
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Dexamethason: Von Makulaödem/Uveitis und Multiplem Myelom zu Alopecia areata
+## Dexamethasone: Alopecia mucinosa
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -48,10 +48,10 @@ Dafür liegen **keine registrierten klinischen Studien**, aber **20 Publikatione
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Makulaödem, Uveitis (Ozurdex); Multiples Myelom (Neofordex) |
-| Vorhergesagte neue Indikation | Alopecia areata |
-| TxGNN-Vorhersagewert | 0,9999 |
-| Evidenzlevel | L2 |
+| Ursprüngliche Indikation | Macular Edema;Uveitis; Multiple Myeloma |
+| Vorhergesagte neue Indikation | Alopecia mucinosa |
+| TxGNN-Vorhersagewert | 0.9999 |
+| Evidenzlevel | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
 | Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tegafur
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 448
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Tegafur: vorhergesagte neue Indikation Kolonneoplasie (colonic neoplasm) (Evidenzstufe L1). Ursprüngliche Indikation: Magenkarzinom (Stomach Neoplasms)"
+evidence_level: L5
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "TEGAFUR"
-predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "rectosigmoid junction neoplasm", "colonic lymphangioma", "cavernous hemangioma of colon"]
+predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "colonic lymphangioma", "cavernous hemangioma of colon"]
+description: "Tegafur: vorhergesagte neue Indikation Cecum villous adenoma (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
 ---
 
 # Tegafur
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Tegafur: Von Magenkarzinom zu Kolonneoplasie
+## Tegafur: Cecum villous adenoma
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -46,10 +46,10 @@ Tegafur ist ein orales Prodrug von 5-Fluorouracil (5-FU) und war ursprünglich f
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Magenkarzinom (Stomach Neoplasms) |
-| Vorhergesagte neue Indikation | Kolonneoplasie (colonic neoplasm) |
-| TxGNN-Vorhersagewert | 0,9990 |
-| Evidenzstufe | L1 |
+| Ursprüngliche Indikation | In den lokalen Daten nicht erfasst |
+| Vorhergesagte neue Indikation | Cecum villous adenoma |
+| TxGNN-Vorhersagewert | 0.9986 |
+| Evidenzstufe | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortführung mit Schutzmaßnahmen) |

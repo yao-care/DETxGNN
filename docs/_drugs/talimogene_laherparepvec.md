@@ -4,17 +4,17 @@ title: Talimogene Laherparepvec
 parent: Nur Modellvorhersage (L5)
 nav_order: 443
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-28
-description: "Talimogene Laherparepvec: vorhergesagte neue Indikation CMM7 (Bezeichnung nicht eindeutig definiert… (Evidenzstufe L5). Ursprüngliche Indikation: Melanom"
+indication_count: 4
+last_modified_at: 2026-11-03
 monitor_inn: "TALIMOGENE LAHERPAREPVEC"
-predicted_indications: ["CMM7", "glottis squamous cell carcinoma", "lung occult squamous cell carcinoma", "rectal cloacogenic carcinoma", "gallbladder adenosquamous carcinoma"]
+predicted_indications: ["glottis squamous cell carcinoma", "lung occult squamous cell carcinoma", "rectal cloacogenic carcinoma", "gallbladder adenosquamous carcinoma"]
+description: "Talimogene Laherparepvec: vorhergesagte neue Indikation Glottis squamous cell carcinoma (Evidenzstufe L5). Ursprüngliche Indikation: Melanoma"
 ---
 
 # Talimogene Laherparepvec
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-## Talimogen laherparepvec: Von Melanom zu CMM7
+## Talimogene Laherparepvec: Glottis squamous cell carcinoma
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -46,9 +46,9 @@ Talimogen laherparepvec (T-VEC) ist ein onkolytisches Herpes-simplex-Virus, das 
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Melanom |
-| Vorhergesagte neue Indikation | CMM7 (Bezeichnung nicht eindeutig definiert, vermutlich ein Subtyp bzw. Locus des kutanen malignen Melanoms) |
-| TxGNN-Vorhersagewert | 0,9920 |
+| Ursprüngliche Indikation | Melanoma |
+| Vorhergesagte neue Indikation | Glottis squamous cell carcinoma |
+| TxGNN-Vorhersagewert | 0.9907 |
 | Evidenzlevel | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |

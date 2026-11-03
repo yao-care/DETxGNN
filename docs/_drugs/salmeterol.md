@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Salmeterol
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 420
-evidence_level: L1
-indication_count: 5
-last_modified_at: 2026-10-28
-description: "Salmeterol: vorhergesagte neue Indikation Bronchitis (Evidenzstufe L1). Ursprüngliche Indikation: Asthma"
+evidence_level: L5
+indication_count: 3
+last_modified_at: 2026-11-03
 monitor_inn: "salmeterol"
-predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
+description: "Salmeterol: vorhergesagte neue Indikation Respiratory malformation (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
 ---
 
 # Salmeterol
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **5** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-## Salmeterol: Von Asthma zu Bronchitis
+## Salmeterol: Respiratory malformation
 {: .text-alpha }
 
 ## Zusammenfassung in einem Satz
@@ -46,10 +46,10 @@ Salmeterol ist ein langwirksamer Beta-2-Adrenozeptor-Agonist, der ursprünglich 
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Asthma |
-| Vorhergesagte neue Indikation | Bronchitis |
-| TxGNN-Vorhersagewert | 0,9992 |
-| Evidenzstufe | L1 |
+| Ursprüngliche Indikation | In den lokalen Daten nicht erfasst |
+| Vorhergesagte neue Indikation | Respiratory malformation |
+| TxGNN-Vorhersagewert | 0.9991 |
+| Evidenzstufe | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |

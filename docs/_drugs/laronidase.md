@@ -4,17 +4,17 @@ title: Laronidase
 parent: Nur Modellvorhersage (L5)
 nav_order: 259
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-28
-description: "Laronidase: vorhergesagte neue Indikation Lysosomale Speicherkrankheit mit Skelettbeteiligung (Evidenzstufe L4). Ursprüngliche Indikation: Mukopolysaccharidose I"
+indication_count: 1
+last_modified_at: 2026-11-03
 monitor_inn: "LARONIDASE"
-predicted_indications: ["lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome"]
+predicted_indications: ["Sanfilippo syndrome"]
+description: "Laronidase: vorhergesagte neue Indikation Sanfilippo syndrome (Evidenzstufe L5). Ursprüngliche Indikation: Mucopolysaccharidosis I"
 ---
 
 # Laronidase
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-## Laronidase: Lysosomale Speicherkrankheit mit Skelettbeteiligung
+## Laronidase: Sanfilippo syndrome
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,9 +48,9 @@ Es liegen **keine klinischen Studien** und **4 Publikationen** (Übersichtsarbei
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Mukopolysaccharidose I |
-| Vorhergesagte neue Indikation | Lysosomale Speicherkrankheit mit Skelettbeteiligung |
-| TxGNN-Vorhersagewert | 0,9931 |
+| Ursprüngliche Indikation | Mucopolysaccharidosis I |
+| Vorhergesagte neue Indikation | Sanfilippo syndrome |
+| TxGNN-Vorhersagewert | 0.9922 |
 | Evidenzniveau | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |

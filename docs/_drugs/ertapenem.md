@@ -4,17 +4,17 @@ title: Ertapenem
 parent: Nur Modellvorhersage (L5)
 nav_order: 179
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-28
-description: "Ertapenem: vorhergesagte neue Indikation Bakterielle Arthritis (Evidenzstufe L4). Ursprüngliche Indikation: Ambulant erworbene Infektionen…"
+indication_count: 1
+last_modified_at: 2026-11-03
 monitor_inn: "Ertapenem"
-predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"]
+predicted_indications: ["bacterial arthritis"]
+description: "Ertapenem: vorhergesagte neue Indikation Bakterielle Arthritis (bacterial arthritis) (Evidenzstufe L5). Ursprüngliche Indikation: Community-Acquired Infections"
 ---
 
 # Ertapenem
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-## Ertapenem: Bakterielle Arthritis
+## Ertapenem: Bakterielle Arthritis (bacterial arthritis)
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,9 +48,9 @@ Dafür gibt es **keine registrierten klinischen Studien**. Die Evidenz besteht a
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Ambulant erworbene Infektionen, Streptokokken- und Staphylokokken-Infektionen, gramnegative bakterielle Infektionen, chirurgische Wundinfektionen, bakterielle Pneumonie |
-| Vorhergesagte neue Indikation | Bakterielle Arthritis |
-| TxGNN-Vorhersagewert | 0,9972 |
+| Ursprüngliche Indikation | Community-Acquired Infections;Streptococcal Infections;Staphylococcal Infections;Gram-Negative Bacterial Infections;Surgical Wound Infection;Pneumonia, Bacterial; Bacterial Infections |
+| Vorhergesagte neue Indikation | Bakterielle Arthritis (bacterial arthritis) |
+| TxGNN-Vorhersagewert | 0.9972 |
 | Evidenzlevel | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
 | Anzahl der Zulassungen | 2 (gültig: 2) |
@@ -134,7 +134,7 @@ Die Evidenz für bakterielle Arthritis beschränkt sich auf Fallberichte und kle
 - Klärung der Darreichungsform und Verfügbarkeit in Deutschland, da 2 von 2 Zulassungen gültig sind und das Arzneimittel im Handel ist
 - Bei Bedarf prospektive klinische Studien
 
-**Hinweis zur zweiten Vorhersage:** Für *Staphylococcus-aureus-Infektion* (TxGNN-Wert 0,9928) liegt deutlich mehr Evidenz vor, etwa eine Phase-2-Studie zu Cefazolin plus Ertapenem bei MSSA-Bakteriämie ([NCT04886284](https://clinicaltrials.gov/study/NCT04886284), 60 Teilnehmer, rekrutierend) und eine Phase-4-Studie zur frühen Zweifachtherapie ([NCT07148960](https://clinicaltrials.gov/study/NCT07148960), 300 Teilnehmer). Ergebnisse liegen noch nicht vor. Diese Indikation wäre als eigene Forschungsfrage weiterzuverfolgen.
+Ergebnisse liegen noch nicht vor. Diese Indikation wäre als eigene Forschungsfrage weiterzuverfolgen.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -4,17 +4,17 @@ title: Aripiprazole
 parent: Nur Modellvorhersage (L5)
 nav_order: 37
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-28
-description: "Aripiprazole: vorhergesagte neue Indikation Major Affective Disorder (schwere affektive Störung) (Evidenzstufe L1). Ursprüngliche Indikation: Schizophrenie"
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "ARIPIPRAZOLE"
-predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+description: "Aripiprazole: vorhergesagte neue Indikation Gaze palsy, familial horizontal, with progressive scoliosis (Evidenzstufe L5). Ursprüngliche Indikation: Schizophrenia"
 ---
 
 # Aripiprazole
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-## Aripiprazol: Von Schizophrenie zu Major Affective Disorder (schwere affektive Störung)
+## Aripiprazole: Gaze palsy, familial horizontal, with progressive scoliosis
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,9 +48,9 @@ Diese Richtung stützen derzeit **36 klinische Studien** und **19 Publikationen*
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Schizophrenie |
-| Vorhergesagte neue Indikation | Major Affective Disorder (schwere affektive Störung) |
-| TxGNN-Vorhersagewert | 0,9962 |
+| Ursprüngliche Indikation | Schizophrenia; Schizophrenia;Bipolar Disorder |
+| Vorhergesagte neue Indikation | Gaze palsy, familial horizontal, with progressive scoliosis |
+| TxGNN-Vorhersagewert | 0.9960 |
 | Evidenzstufe | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 6 von 6) |
 | Anzahl der Zulassungen | 6 (gültig: 6) |

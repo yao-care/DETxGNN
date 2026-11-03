@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Gimeracil
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 209
-evidence_level: L1
-indication_count: 7
-last_modified_at: 2026-10-28
-description: "Gimeracil: vorhergesagte neue Indikation Kolonneoplasie (colonic neoplasm) (Evidenzstufe L1). Ursprüngliche Indikation: Magenneoplasien (Stomach Neoplasms)"
+evidence_level: L5
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "GIMERACIL"
-predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colonic lymphangioma", "colon leiomyoma"]
+predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colonic lymphangioma", "colon leiomyoma"]
+description: "Gimeracil: vorhergesagte neue Indikation Cecum villous adenoma (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
 ---
 
 # Gimeracil
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **7** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-## Gimeracil: Vom Magenkarzinom zur Kolonneoplasie
+## Gimeracil: Cecum villous adenoma
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -46,10 +46,10 @@ Gimeracil ist ein Bestandteil der S-1-Kombination (Tegafur/Gimeracil/Oteracil) u
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Magenneoplasien (Stomach Neoplasms) |
-| Vorhergesagte neue Indikation | Kolonneoplasie (colonic neoplasm) |
-| TxGNN-Vorhersagewert | 0,9988 |
-| Evidenzstufe | L1 |
+| Ursprüngliche Indikation | In den lokalen Daten nicht erfasst |
+| Vorhergesagte neue Indikation | Cecum villous adenoma |
+| TxGNN-Vorhersagewert | 0.9982 |
+| Evidenzstufe | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortführung mit Schutzmaßnahmen) |

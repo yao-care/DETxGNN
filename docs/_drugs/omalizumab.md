@@ -4,17 +4,17 @@ title: Omalizumab
 parent: Mittlere Evidenz (L3-L4)
 nav_order: 328
 evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-28
+indication_count: 9
+last_modified_at: 2026-11-03
 description: "Omalizumab: vorhergesagte neue Indikation Bronchitis (Evidenzstufe L1). Ursprüngliche Indikation: Asthma"
 monitor_inn: "OMALIZUMAB"
-predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
+predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
 ---
 
 # Omalizumab
 {: .fs-9 }
 
-Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -112,7 +112,6 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 | Indikation | Evidenzstufe | Empfehlung | Anmerkung |
 |------|------|------|------|
-| Obstruktive Lungenerkrankung | L5 | Proceed with Guardrails | Stützt sich auf Asthma-Studien (bereits zugelassen); bei COPD nur eine laufende Phase-2-Studie ([NCT07059091](https://clinicaltrials.gov/study/NCT07059091)) |
 | Atopisches Ekzem / Dermatitis | L2 | Research Question | Phase-4-Studie bei Kindern ([NCT02300701](https://clinicaltrials.gov/study/NCT02300701)); uneinheitliche Ergebnisse, Leitlinien reihen Omalizumab hinter IL-4/IL-13- und JAK-Hemmer; beide Einträge teilen weitgehend dieselbe Evidenz |
 | Bronchialneoplasma, Akne keloid u. a. | L5 | Hold | Keine plausible Mechanistik oder Evidenz |
 

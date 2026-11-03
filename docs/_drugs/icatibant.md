@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Icatibant
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 226
-evidence_level: L1
-indication_count: 7
-last_modified_at: 2026-10-31
-description: "Icatibant: vorhergesagte neue Indikation C1-Inhibitor-Mangel (Evidenzstufe L1). Ursprüngliche Indikation: Hereditäres Angioödem"
+evidence_level: L5
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "ICATIBANT"
-predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
+predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
+description: "Icatibant: vorhergesagte neue Indikation Serpinopathy with toxic serpin polymerization (Evidenzstufe L5). Ursprüngliche Indikation: Angioedemas, Hereditary"
 ---
 
 # Icatibant
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **7** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-## Icatibant: Von Hereditärem Angioödem zu C1-Inhibitor-Mangel
+## Icatibant: Serpinopathy with toxic serpin polymerization
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Dafür liegen **12 klinische Studien** und **20 Publikationen** vor. Die vorherg
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Hereditäres Angioödem |
-| Vorhergesagte neue Indikation | C1-Inhibitor-Mangel |
-| TxGNN-Vorhersagewert | 0,9999 |
-| Evidenzgrad | L1 |
+| Ursprüngliche Indikation | Angioedemas, Hereditary |
+| Vorhergesagte neue Indikation | Serpinopathy with toxic serpin polymerization |
+| TxGNN-Vorhersagewert | 0.9999 |
+| Evidenzgrad | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
 | Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |

@@ -4,17 +4,17 @@ title: Ferric Maltol
 parent: Nur Modellvorhersage (L5)
 nav_order: 195
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 monitor_inn: "FERRIC MALTOL"
-predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia", "IRIDA syndrome"]
-last_modified_at: 2026-10-28
-description: "Ferric Maltol: vorhergesagte neue Indikation Plummer-Vinson-Syndrom (Plummer-Vinson syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: Anemia, Iron-Deficiency"
+predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "IRIDA syndrome"]
+last_modified_at: 2026-11-03
+description: "Ferric Maltol: vorhergesagte neue Indikation Vitamin B12- and folate-independent constitutional megaloblastic anemia (Evidenzstufe L5). Ursprüngliche Indikation: Anemia, Iron-Deficiency"
 ---
 
 # Ferric Maltol
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-## Eisen(III)-maltol: Eisenpräparat zur oralen Eisenersatztherapie → Plummer-Vinson-Syndrom (Plummer-Vinson syndrome)
+## Ferric Maltol: Vitamin B12- and folate-independent constitutional megaloblastic anemia
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -45,8 +45,8 @@ Eisen(III)-maltol ist ein orales Eisenpräparat zur Eisenersatztherapie. Das TxG
 | Punkt | Inhalt |
 |------|------|
 | Ursprüngliche Indikation | Anemia, Iron-Deficiency |
-| Vorhergesagte neue Indikation | Plummer-Vinson-Syndrom (Plummer-Vinson syndrome) |
-| TxGNN-Vorhersagewert | 0,9998 |
+| Vorhergesagte neue Indikation | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
+| TxGNN-Vorhersagewert | 0.9998 |
 | Evidenzlevel | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
@@ -86,7 +86,7 @@ Für weitere Sicherheitsinformationen siehe die Fachinformation.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf das Modell (Wert 0,9998) ohne Studien oder Publikationen zum Plummer-Vinson-Syndrom. Der Evidenzlevel ist daher L5.
+Der Evidenzlevel ist daher L5.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Systematische Literaturrecherche und gegebenenfalls Pilotstudien zur Wirkung von Eisenersatz auf Ösophagusmembranen und Dysphagie

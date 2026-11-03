@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Oteracil
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 333
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Oteracil: vorhergesagte neue Indikation Kolonneoplasie (colonic neoplasm) (Evidenzstufe L5). Ursprüngliche Indikation: Magenkarzinom (Stomach Neoplasms)"
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "OTERACIL"
-predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "rectosigmoid junction neoplasm", "benign neoplasm of cecum", "colonic lymphangioma", "colon leiomyoma", "cavernous hemangioma of colon"]
+predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "rectosigmoid junction neoplasm", "benign neoplasm of cecum", "colonic lymphangioma", "colon leiomyoma", "cavernous hemangioma of colon"]
+description: "Oteracil: vorhergesagte neue Indikation Cecum villous adenoma (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
 ---
 
 # Oteracil
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Oteracil: Von Magenkarzinom zu Kolonneoplasie
+## Oteracil: Cecum villous adenoma
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -46,10 +46,10 @@ Oteracil ist ein Bestandteil der S-1-Kombination (Tegafur/Gimeracil/Oteracil) un
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Magenkarzinom (Stomach Neoplasms) |
-| Vorhergesagte neue Indikation | Kolonneoplasie (colonic neoplasm) |
-| TxGNN-Vorhersagewert | 0,9999 |
-| Evidenzlevel | L1 (formal; Evidenz bezieht sich auf das S-1-Gesamtschema, nicht auf Oteracil allein) |
+| Ursprüngliche Indikation | In den lokalen Daten nicht erfasst |
+| Vorhergesagte neue Indikation | Cecum villous adenoma |
+| TxGNN-Vorhersagewert | 0.9998 |
+| Evidenzlevel | L5 (formal; Evidenz bezieht sich auf das S-1-Gesamtschema, nicht auf Oteracil allein) |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortsetzen mit Schutzmaßnahmen) |

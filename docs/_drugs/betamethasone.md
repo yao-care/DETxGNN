@@ -4,17 +4,17 @@ title: Betamethasone
 parent: Hohe Evidenz (L1-L2)
 nav_order: 59
 evidence_level: L2
-indication_count: 8
+indication_count: 7
 monitor_inn: "Betamethasone"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
-last_modified_at: 2026-10-30
-description: "Betamethasone: vorhergesagte neue Indikation Alopecia areata (Evidenzstufe L2). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
+last_modified_at: 2026-11-03
+description: "Betamethasone: vorhergesagte neue Indikation Alopecia mucinosa (Evidenzstufe L2). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
 ---
 
 # Betamethasone
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **8** 
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-## Betamethasone: Glukokortikoid-Rezeptor-Agonist → Alopecia areata (alopecia areata)
+## Betamethasone: Alopecia mucinosa
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -45,8 +45,8 @@ Betamethasone ist ein synthetisches Glukokortikoid mit entzündungshemmender und
 | Punkt | Inhalt |
 |------|------|
 | Ursprüngliche Indikation | In den lokalen Daten nicht erfasst |
-| Vorhergesagte neue Indikation | Alopecia areata (alopecia areata) |
-| TxGNN-Vorhersagewert | 0,9997 |
+| Vorhergesagte neue Indikation | Alopecia mucinosa |
+| TxGNN-Vorhersagewert | 0.9997 |
 | Evidenzstufe | L2 |
 | Marktstatus in Deutschland | Keine zentrale EU-Zulassung (EMA) erfasst – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten |
 | Anzahl der Zulassungen | 0 (gültig: 0) |

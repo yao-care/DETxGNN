@@ -4,17 +4,17 @@ title: Vestronidase Alfa
 parent: Nur Modellvorhersage (L5)
 nav_order: 497
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-28
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "VESTRONIDASE ALFA"
-predicted_indications: ["Scheie syndrome", "lysosomal storage disease with skeletal involvement", "Hurler syndrome", "Sanfilippo syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "ptosis-vocal cord paralysis syndrome", "ptosis-strabismus-ectopic pupils syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome", "congenital Horner syndrome (disease)"]
+predicted_indications: ["Scheie syndrome", "Hurler syndrome", "Sanfilippo syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "ptosis-vocal cord paralysis syndrome", "ptosis-strabismus-ectopic pupils syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome", "congenital Horner syndrome (disease)"]
 description: "Vestronidase Alfa: vorhergesagte neue Indikation Scheie-Syndrom (Scheie syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: Mucopolysaccharidosis VII"
 ---
 
 # Vestronidase Alfa
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -64,7 +64,6 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten k
 Das Scheie-Syndrom (abgeschwächte MPS I) wird durch einen Mangel an Alpha-L-Iduronidase (IDUA) verursacht, wodurch sich Dermatan- und Heparansulfat anreichern. Vestronidase alfa wirkt in einem anderen Schritt des Abbauwegs und **kann die fehlende IDUA-Aktivität nicht ersetzen**. Der mechanistische Zusammenhang ist daher schwach. Der hohe TxGNN-Wert spiegelt vermutlich nur die gemeinsame Biologie der GAG-Speicherung wider.
 
 Weitere vorhergesagte Indikationen (nach Rang) stützen das Bild kaum:
-- **Lysosomale Speicherkrankheit mit Skelettbeteiligung** (0.9959): zu unspezifische Kategorie; sie umfasst MPS VII, nur ein GUSB-Mangel wäre ein plausibles Ziel.
 - **Hurler-Syndrom** (0.9943): ebenfalls IDUA-Mangel; Vestronidase alfa kann den Primärdefekt nicht korrigieren.
 - **Sanfilippo-Syndrom** (0.9942): Heparansulfat-Speicherung durch andere Enzymdefekte, überwiegend ZNS-Erkrankung; intravenöse Enzymersatztherapie überwindet die Blut-Hirn-Schranke kaum.
 - **Ränge 5–9** (u. a. Ptosis-Syndrome, kongenitales Horner-Syndrom): kein erkennbarer mechanistischer Zusammenhang, rein rechnerische Vorhersagen.

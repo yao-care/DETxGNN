@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lanadelumab
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 257
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-31
-description: "Lanadelumab: vorhergesagte neue Indikation C1-Inhibitor-Mangel (Evidenzstufe L1). Ursprüngliche Indikation: Hereditäres Angioödem"
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "LANADELUMAB"
-predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
+predicted_indications: ["serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
+description: "Lanadelumab: vorhergesagte neue Indikation Serpinopathy with toxic serpin polymerization (Evidenzstufe L5). Ursprüngliche Indikation: Angioedemas, Hereditary"
 ---
 
 # Lanadelumab
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Lanadelumab: Von hereditärem Angioödem zu C1-Inhibitor-Mangel
+## Lanadelumab: Serpinopathy with toxic serpin polymerization
 {: .text-alpha }
 
 ## Zusammenfassung
@@ -48,10 +48,10 @@ Gestützt wird dies durch **4 Phase-3-/Beobachtungsstudien mit direktem Bezug zu
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Hereditäres Angioödem |
-| Vorhergesagte neue Indikation | C1-Inhibitor-Mangel |
-| TxGNN-Vorhersagewert | 1,0000 |
-| Evidenzlevel | L1 |
+| Ursprüngliche Indikation | Angioedemas, Hereditary |
+| Vorhergesagte neue Indikation | Serpinopathy with toxic serpin polymerization |
+| TxGNN-Vorhersagewert | 0.9999 |
+| Evidenzlevel | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
@@ -129,7 +129,7 @@ Für C1-Inhibitor-Mangel (HAE Typ I/II) liegen eine placebokontrollierte RCT, me
 - Prüfung des aktuellen Zulassungs- und Verfügbarkeitsstatus in Deutschland (EU-Zulassung, BfArM)
 - Beschaffung der Fachinformation mit Warnhinweisen und Gegenanzeigen, da Sicherheitsdaten derzeit fehlen
 - Detaillierte Daten zum Wirkmechanismus aus DrugBank
-- Falls echtes Repurposing gewünscht: gezielte Prüfung weiterer Kandidaten, z. B. erworbenes Angioödem mit C1-Inhibitor-Mangel. Die übrigen Vorhersagen (Rang 2–10) bleiben auf **Hold**, da sie nur auf Modellvorhersagen ohne Studien beruhen.
+- Die übrigen Vorhersagen (Rang 2–10) bleiben auf **Hold**, da sie nur auf Modellvorhersagen ohne Studien beruhen.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
