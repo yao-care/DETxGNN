@@ -3,7 +3,7 @@ layout: default
 title: Über uns
 nav_order: 90
 permalink: /about/
-description: "DETxGNN ist eine Plattform für Vorhersagen zur Arzneimittel-Umwidmung, entwickelt von 藥提醒科技有限公司 (yao.care) auf Basis des Harvard-Modells TxGNN; sie deckt die in Deutschland von BfArM zugelassenen Arzneimittel ab."
+description: "DETxGNN ist eine Plattform für Vorhersagen zur Arzneimittel-Umwidmung, entwickelt von 藥提醒科技有限公司 (yao.care) auf Basis des Harvard-Modells TxGNN; sie deckt die zentral in der EU (EMA) zugelassenen Arzneimittel ab, die auch in Deutschland gelten."
 ---
 
 # Über uns
@@ -19,8 +19,8 @@ Mit KI die Evidenzvalidierung der Arzneimittel-Umwidmung beschleunigen — von d
 <p class="key-answer" data-question="Was ist DETxGNN?">
 <strong>DETxGNN</strong> ist eine forschungsunterstützende Plattform für die Arzneimittel-Umwidmung,
 aufgebaut auf dem Modell TxGNN, das vom Zitnik Lab der Harvard University in <em>Nature Medicine</em>
-veröffentlicht wurde. Sie sagt Indikationserweiterungen für Arzneimittel voraus, die in Deutschland
-von BfArM zugelassen sind. Über die KI-Vorhersagewerte hinaus bindet die Plattform klinische Evidenz
+veröffentlicht wurde. Sie sagt Indikationserweiterungen für Arzneimittel voraus, die über die EMA
+zentral in der EU zugelassen sind und damit auch in Deutschland gelten. Über die KI-Vorhersagewerte hinaus bindet die Plattform klinische Evidenz
 aus ClinicalTrials.gov und PubMed ein, damit Forschende rasch beurteilen können, wie belastbar jede
 Vorhersage ist. Die Einstufungskriterien sind auf der Seite
 <a href="{{ '/methodology/' | relative_url }}">Methodik</a> beschrieben; eine Anleitung zum Lesen
@@ -41,7 +41,7 @@ Produktübersicht: <https://www.yao.care/medical/txgnn/>.
 
 Das Modell TxGNN selbst wurde vom Zitnik Lab an der Harvard Medical School entwickelt und in
 *Nature Medicine* veröffentlicht. Diese Plattform ist das Produktivsystem, das 藥提醒科技有限公司 auf
-Basis dieses Modells aufgebaut hat; es umfasst die Integration nationaler Arzneimittelzulassungsdaten,
+Basis dieses Modells aufgebaut hat; es umfasst die Integration der EU-Zulassungsdaten der EMA,
 die Deep-Learning-Vorhersage unter Ausschluss der bereits im Wissensgraphen erfassten Anwendungen, die Evidenzbewertung aus PubMed /
 ClinicalTrials sowie die Anbindung an elektronische Patientenakten über SMART on FHIR.
 
@@ -110,7 +110,7 @@ lokale Arzneimittelliste) sowie ihre Lizenzen und Aktualisierungsintervalle sind
 | Position | Wert |
 |------|-------|
 | Arzneimittelberichte | <a href="{{ '/drugs/' | relative_url }}">{{ site.data.drug_stats.total_drugs }}</a> |
-| Zulassungsbehörde | BfArM |
+| Zulassungsdaten | EMA (zentrale EU-Zulassungen) |
 | Bereitgestellte Websites | 30 Länder / Regionen |
 
 ---

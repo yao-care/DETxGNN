@@ -25,7 +25,7 @@ Entscheidungsempfehlung ausgesprochen.
 
 <ol class="actionable-steps">
 <li><strong>TxGNN-Vorhersage</strong>: Beziehungen zwischen Arzneimitteln und Krankheiten sagt das TxGNN-Modell vorher (Deep Learning: ein graphbasiertes neuronales Netz, trainiert auf einem biomedizinischen Wissensgraphen).</li>
-<li><strong>Evidenzsammlung</strong>: Für jedes vorhergesagte Paar wird Evidenz aus ClinicalTrials.gov, PubMed, DrugBank und BfArM zusammengetragen.</li>
+<li><strong>Evidenzsammlung</strong>: Für jedes vorhergesagte Paar wird Evidenz aus ClinicalTrials.gov, PubMed, DrugBank und dem Medicines Report der EMA zusammengetragen.</li>
 <li><strong>Evidenzeinstufung</strong>: Einstufung von L1 bis L5, wobei L1 die stärkste Stufe ist (mehrere Phase-3-RCTs) und L5 nur eine Modellvorhersage bedeutet.</li>
 <li><strong>Entscheidungsempfehlung</strong>: Go, Proceed, Consider, Explore oder Hold, je nach Evidenzstufe.</li>
 </ol>
@@ -63,7 +63,7 @@ Das Deep-Learning-Modell (DL) von TxGNN bewertet Arzneimittel-Krankheits-Paare. 
 
 ## Einbindung der Zulassungsdaten
 
-Die Arzneimittelzulassungsdaten für Deutschland stammen von BfArM. Die Wirkstoffnamen werden auf das
+Die Arzneimittelzulassungsdaten für Deutschland stammen aus dem Medicines Report der EMA (zentrale EU-Zulassungen). Die Wirkstoffnamen werden auf das
 Vokabular von DrugBank abgebildet; Wirkstoffe, die sich nicht abbilden lassen — Pflanzenextrakte,
 Impfstoffe, Hilfsstoffe und weitere, die in DrugBank nicht erfasst sind — werden von der Vorhersage
 ausgeschlossen.

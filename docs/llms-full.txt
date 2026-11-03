@@ -19,9 +19,9 @@ Die Evidenzstufen reichen von L1 (stärkere klinische Evidenz) bis L5 (nur Model
 - `/evidence-low/` Nur Modellvorhersage (L5) — L5-Kandidaten in DETxGNN: nur Modellvorhersage, bislang ohne klinische Evidenz oder Literaturbelege.
 - `/methodology/` Methodik — Wie DETxGNN Vorhersagen erzeugt und validiert: Vorhersage mit dem TxGNN-Modell (Deep Learning), Evidenzsammlung, Einstufung L1-L5 und Entscheidungsempfehlungen.
 - `/guide/` Benutzerhandbuch — Benutzerhandbuch zu DETxGNN: wie man Arzneimittel nachschlägt, Evidenzstufen liest und Empfehlungen einordnet.
-- `/sources/` Datenquellen — Die Datenquellen hinter DETxGNN: Zulassungsdaten von BfArM, TxGNN, ClinicalTrials.gov, PubMed und DrugBank.
+- `/sources/` Datenquellen — Die Datenquellen hinter DETxGNN: zentrale EU-Zulassungen der EMA, TxGNN, ClinicalTrials.gov, PubMed und DrugBank.
 - `/downloads/` Downloads — Offene Daten von DETxGNN zum Herunterladen: FHIR-Ressourcen, Vorhersageergebnisse und Suchindex.
-- `/about/` Über uns — DETxGNN ist eine Plattform für Vorhersagen zur Arzneimittel-Umwidmung, entwickelt von 藥提醒科技有限公司 (yao.care) auf Basis des Harvard-Modells TxGNN; sie deckt die in Deutschland von BfArM zugelassenen Arzneimittel ab.
+- `/about/` Über uns — DETxGNN ist eine Plattform für Vorhersagen zur Arzneimittel-Umwidmung, entwickelt von 藥提醒科技有限公司 (yao.care) auf Basis des Harvard-Modells TxGNN; sie deckt die zentral in der EU (EMA) zugelassenen Arzneimittel ab, die auch in Deutschland gelten.
 
 ## Beispiele für Arzneimittelberichte
 
