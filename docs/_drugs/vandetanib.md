@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vandetanib
-parent: Hohe Evidenz (L1-L2)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 491
-evidence_level: L2
+evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
-description: "Vandetanib: vorhergesagte neue Indikation Nierenzellkarzinom (renal cell carcinoma) (Evidenzstufe L2). Ursprüngliche Indikation: Schilddrüsenneoplasmen"
+last_modified_at: 2026-11-04
 monitor_inn: "VANDETANIB"
 predicted_indications: ["renal cell carcinoma (disease)", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "renal pelvis carcinoma", "clear cell renal carcinoma", "childhood kidney cell carcinoma", "renal carcinoma", "angiolipoma", "familial spontaneous pneumothorax"]
+description: "Vandetanib: vorhergesagte neue Indikation Renal cell carcinoma (disease) (Evidenzstufe L3). Ursprüngliche Indikation: Thyroid Neoplasms"
 ---
 
 # Vandetanib
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,61 +33,51 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Vandetanib: Vom Schilddrüsenkarzinom zum Nierenzellkarzinom
+## Vandetanib: Renal cell carcinoma (disease)
 {: .text-alpha }
 
 ## Zusammenfassung
 
-Vandetanib ist ein Multikinase-Inhibitor, der ursprünglich zur Behandlung von Schilddrüsenneoplasmen (medulläres Schilddrüsenkarzinom) zugelassen wurde. Das TxGNN-Modell sagt voraus, dass er bei **Nierenzellkarzinom** wirksam sein könnte. Dafür liegen **4 klinische Studien** und **5 Publikationen** vor, allerdings ohne dokumentierte Wirksamkeitsergebnisse: Zwei Studien wurden mit nur 3 bzw. 7 Patienten vorzeitig abgebrochen.
+Vandetanib ist ein Multikinase-Inhibitor, der VEGFR2, RET und EGFR hemmt. Das TxGNN-Modell sagt voraus, dass er bei **Nierenzellkarzinom (renal cell carcinoma)** wirksam sein könnte. Die Evidenz ist begrenzt (**Evidenzlevel L3**): Es gibt **4 klinische Studien** und **5 Publikationen** zu dieser Vorhersage, darunter eine abgeschlossene Phase-2-Studie bei von-Hippel-Lindau-Erkrankung mit Nierentumoren. Publikationen zur Wirksamkeit von Vandetanib beim Nierenzellkarzinom selbst liegen nicht vor.
 
----
-
-## Kurzüberblick
+## Überblick
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Schilddrüsenneoplasmen |
-| Vorhergesagte neue Indikation | Nierenzellkarzinom (renal cell carcinoma) |
-| TxGNN-Vorhersagewert | 0,9992 |
-| Evidenzniveau | L2 |
+| Ursprüngliche Indikation | Thyroid Neoplasms |
+| Vorhergesagte neue Indikation | Renal cell carcinoma (disease) |
+| TxGNN-Vorhersagewert | 0.9992 |
+| Evidenzlevel | L3 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
----
-
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach bekanntem Stand hemmt Vandetanib VEGFR2, RET und EGFR. Seine Wirksamkeit beim medullären Schilddrüsenkarzinom ist belegt, und mechanistisch könnte es auch beim Nierenzellkarzinom anwendbar sein.
+Zur Wirkungsweise liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Vandetanib VEGFR2, RET und EGFR hemmt. Die VEGFR-getriebene Angiogenese ist beim Nierenzellkarzinom ein gut validiertes Therapieziel, und andere VEGFR-Tyrosinkinaseinhibitoren (z. B. Pazopanib, Cabozantinib) werden dort eingesetzt. Das stützt die biologische Plausibilität.
 
-Beim klarzelligen Nierenzellkarzinom führt der Verlust von VHL typischerweise zu einer HIF-vermittelten VEGF-Überexpression. Die VEGFR-getriebene Angiogenese ist dort ein validiertes Ziel; andere VEGFR-Tyrosinkinase-Inhibitoren (z. B. Pazopanib, Cabozantinib) sind für diese Indikation zugelassen. Das stützt die biologische Plausibilität.
+Beim klarzelligen Nierenzellkarzinom führt der Verlust von VHL typischerweise zu einer HIF-vermittelten VEGF-Überexpression. Die VEGFR2-Hemmung durch Vandetanib setzt genau an dieser Achse an.
 
-Dem stehen die Studiendaten gegenüber: Die verfügbaren Phase-2-Studien waren klein, wurden vorzeitig beendet oder untersuchten ausgewählte Subtypen (VHL, HLRCC). Ein Wirksamkeitssignal ist in den vorliegenden Daten nicht dokumentiert.
-
----
+Einschränkend sind die vorhandenen Studien klein, vorzeitig beendet oder auf Subtypen (VHL, HLRCC) beschränkt. Ein Wirksamkeitssignal ist in den vorliegenden Daten nicht dokumentiert.
 
 ## Evidenz aus klinischen Studien
 
 | Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT00566995](https://clinicaltrials.gov/study/NCT00566995) | Phase 2 | Abgeschlossen | 37 | Vandetanib bei von-Hippel-Lindau-Erkrankung mit Nierentumoren; direkt relevant, Ergebnisse liegen nicht vor |
-| [NCT01372813](https://clinicaltrials.gov/study/NCT01372813) | Phase 2 | Abgebrochen | 3 | Fortgeschrittenes klarzelliges Nierenkarzinom; wegen n=3 ohne Aussage zur Wirksamkeit |
-| [NCT02495103](https://clinicaltrials.gov/study/NCT02495103) | Phase 1/2 | Abgebrochen | 7 | Vandetanib plus Metformin bei HLRCC-/SDH-assoziiertem oder papillärem Nierenzellkarzinom; keine interpretierbaren Daten |
-| [NCT01191892](https://clinicaltrials.gov/study/NCT01191892) | Phase 2 | Abgeschlossen | 82 | Carboplatin/Gemcitabin ± Vandetanib beim fortgeschrittenen Urothelkarzinom; für Nierenzellkarzinom nur indirekt relevant |
-
----
+| [NCT00566995](https://clinicaltrials.gov/study/NCT00566995) | Phase 2 | Abgeschlossen | 37 | Vandetanib bei von-Hippel-Lindau-Erkrankung mit Nierentumoren; Ergebnisse liegen nicht vor |
+| [NCT01372813](https://clinicaltrials.gov/study/NCT01372813) | Phase 2 | Abgebrochen | 3 | Vandetanib bei fortgeschrittenem klarzelligem Nierenzellkarzinom; wegen zu geringer Rekrutierung ohne verwertbare Aussage |
+| [NCT02495103](https://clinicaltrials.gov/study/NCT02495103) | Phase 1/2 | Abgebrochen | 7 | Vandetanib plus Metformin bei HLRCC-/SDH-assoziiertem oder papillärem Nierenzellkarzinom; keine interpretierbaren Wirksamkeitsdaten |
+| [NCT01191892](https://clinicaltrials.gov/study/NCT01191892) | Phase 2 | Abgeschlossen | 82 | Carboplatin/Gemcitabin ± Vandetanib bei fortgeschrittenem Urothelkarzinom; nur indirekter Bezug zum Nierenzellkarzinom |
 
 ## Evidenz aus der Literatur
 
-| PMID | Jahr | Typ | Journal | Kernaussagen |
+| PMID | Jahr | Typ | Zeitschrift | Kernaussagen |
 |------|-----|------|------|---------|
-| [40779213](https://pubmed.ncbi.nlm.nih.gov/40779213/) | 2025 | Review | Clin Exp Metastasis | Gezielte Therapien beim metastasierten Fumarathydratase-defizienten Nierenzellkarzinom; mehrere Phase-2-Studien laufen |
-| [24451769](https://pubmed.ncbi.nlm.nih.gov/24451769/) | 2012 | Review | ASCO Educ Book | Systemtherapien bei fortgeschrittenen Schilddrüsenkarzinomen; Vandetanib als RET-Inhibitor beim MTC |
-| [42107510](https://pubmed.ncbi.nlm.nih.gov/42107510/) | 2026 | Review | Pharmacol Res | RET-Inhibitoren bei RET-getriebenem Schilddrüsen- und Lungenkrebs |
-| [26677336](https://pubmed.ncbi.nlm.nih.gov/26677336/) | 2015 | Review | OncoTargets Ther | Antiangiogene Wirkstoffe bei soliden Tumoren, u. a. Nintedanib |
-| [31043488](https://pubmed.ncbi.nlm.nih.gov/31043488/) | 2019 | Präklinisch (Mausmodell) | Mol Cancer Res | TFE3-Xp11.2-Translokations-Nierenzellkarzinom: neue Therapieziele und Diagnosemarker |
-
----
+| [40779213](https://pubmed.ncbi.nlm.nih.gov/40779213/) | 2025 | Review | Clinical & Experimental Metastasis | Zielgerichtete Therapien beim metastasierten Fumarathydratase-defizienten Nierenzellkarzinom; mehrere Phase-2-Studien laufen |
+| [24451769](https://pubmed.ncbi.nlm.nih.gov/24451769/) | 2012 | Review | ASCO Educational Book | Systemische Therapie fortgeschrittener Schilddrüsenkarzinome; Vandetanib als RET-Inhibitor beim medullären Karzinom |
+| [26677336](https://pubmed.ncbi.nlm.nih.gov/26677336/) | 2015 | Review | OncoTargets and Therapy | Überblick über antiangiogene Wirkstoffe bei soliden Tumoren, u. a. Vandetanib |
+| [42107510](https://pubmed.ncbi.nlm.nih.gov/42107510/) | 2026 | Review | Pharmacological Research | RET-Inhibitoren bei RET-getriebenem Schilddrüsen- und Lungenkrebs |
+| [31043488](https://pubmed.ncbi.nlm.nih.gov/31043488/) | 2019 | Präklinisch (Mausmodell) | Molecular Cancer Research | TFE3-Xp11.2-Translokations-Nierenzellkarzinom im Mausmodell; neue Therapieziele |
 
 ## Marktinformationen Deutschland
 
@@ -95,47 +85,38 @@ Dem stehen die Studiendaten gegenüber: Die verfügbaren Phase-2-Studien waren k
 |---------|------|------|-----------|
 | EMEA/H/C/002315 | Caprelsa (Sanofi B.V.) | – | Schilddrüsenneoplasmen (Status: gültig) |
 
----
-
 ## Zytotoxizität
 
 | Punkt | Inhalt |
 |------|------|
-| Zytotoxizitätsklassifikation | Gezielte Therapie (Multikinase-Inhibitor, VEGFR/RET/EGFR) |
+| Klassifikation | Zielgerichtete Therapie (Tyrosinkinase-Inhibitor) |
 | Myelosuppressionsrisiko | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
-| Emetogenitätsklassifikation | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
-| Überwachungsparameter | Aufgrund der Hinweise auf Leberwerterhöhungen, Proteinurie und QT-Verlängerung: Leber- und Nierenfunktion, Elektrolyte (Kalium, Kalzium), EKG |
-| Schutzmaßnahmen beim Umgang | Bitte Fachinformation beachten |
-
----
+| Emetogenität | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Blutbild, Leber- und Nierenfunktion, Elektrolyte (Kalium, Kalzium), EKG (QT-Zeit); für Schilddrüsenfunktion und Blutdruck ergibt sich der Bedarf aus den gelisteten Risikokonstellationen |
+| Handhabungsschutz | Bitte Hinweise zur Handhabung zytostatischer bzw. antineoplastischer Arzneimittel der Fachinformation beachten |
 
 ## Sicherheitsaspekte
 
-- **Kontraindikationen/Risikokonstellationen aus dem Wissensgraphen** (Beziehungen aus der TxGNN-Wissensdatenbank, kein Zulassungstext): Bluthochdruck, Long-QT-Syndrom und Torsades de pointes, Hypothyreose, Kaliummangel, Hyperkalzämie, eingeschränkte Nierenfunktion, interstitielle Lungenerkrankung, Herzinsuffizienz, Hirnischämie/TIA sowie posteriores Leukoenzephalopathie-Syndrom.
-- **Arzneimittelwechselwirkungen** (100 Einträge insgesamt; Auswahl):
-  - Schwerwiegend (Major): Clarithromycin, Levofloxacin, Dolasetron, Palonosetron, Picosulfursäure, Polyethylenglykol (3350 mit Elektrolyten), Natriumsulfat
-  - Moderat: Famotidin, Metformin, Loperamid, Dexamethason, Bisacodyl, Lactitol
-  - Gering (Minor): Ranitidin, Rabeprazol, Omeprazol, Lansoprazol, Dexlansoprazol, Metronidazol, Naloxegol
-- **Klasseneffekte aus der Literatur**: Lebertoxizität, Proteinurie und behandlungsassoziierte Mortalität bei VEGFR-Tyrosinkinase-Inhibitoren sowie Photosensibilität.
+- **Mögliche Risikokonstellationen** (aus Arzneimittel-Krankheits-Beziehungen, keine Angaben aus einem Beipackzettel): Bluthochdruck, Long-QT-Syndrom und Torsades de pointes, Hypothyreose, Kaliummangel, Hyperkalzämie, eingeschränkte Nierenfunktion, interstitielle Lungenerkrankung, Herzinsuffizienz, zerebrale Ischämie bzw. transitorische ischämische Attacke und posteriores Leukoenzephalopathie-Syndrom.
+- **Arzneimittelwechselwirkungen:** Insgesamt wurden 100 Wechselwirkungen erfasst. Als schwerwiegend (Major) eingestuft sind unter anderem Clarithromycin, Levofloxacin, Dolasetron, Palonosetron, Picosulfursäure, Natriumsulfat und Polyethylenglykol (3350 mit Elektrolyten). Mäßig (Moderate) sind unter anderem Famotidin, Metformin, Loperamid, Dexamethason, Bisacodyl und Lactitol. Gering (Minor) sind unter anderem Ranitidin, Rabeprazol, Omeprazol, Lansoprazol, Dexlansoprazol, Naloxegol und Metronidazol.
+- **Klassenbezogene Sicherheitsdaten:** Meta-Analysen zu VEGFR-Tyrosinkinaseinhibitoren beschreiben Hepatotoxizität, Proteinurie und behandlungsassoziierte Mortalität. Zusätzlich ist die QT-Verlängerung ein praktisches Hindernis.
 
-Angaben aus der Fachinformation (Warnhinweise, Kontraindikationen) liegen nicht vor und sollten ergänzt werden.
-
----
+Für weitere Sicherheitsinformationen die Fachinformation heranziehen.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die biologische Plausibilität über die VEGFR-Hemmung ist gegeben, doch die vorhandenen Phase-2-Studien sind klein oder vorzeitig beendet und liefern keine Wirksamkeitsdaten. Hinzu kommen das QT-Risiko, zahlreiche relevante Wechselwirkungen und die erloschene Zulassung in Deutschland. Die Studienlage rechtfertigt derzeit keine weitere Entwicklung ohne zusätzliche Daten.
+Die Evidenz für das Nierenzellkarzinom (Level L3) beruht im Kern auf einer abgeschlossenen Phase-2-Studie bei VHL-Erkrankung ohne vorliegende Ergebnisse; die übrigen Studien wurden mit sehr wenigen Patienten vorzeitig beendet. Ein Wirksamkeitssignal ist nicht belegt, und das Sicherheitsprofil (u. a. QT-Verlängerung) erfordert eine sorgfältige Nutzen-Risiko-Abwägung.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
-- Ergebnisse der abgeschlossenen Studie NCT00566995 (VHL-Erkrankung) beschaffen und auswerten
-- Fachinformation (Warnhinweise, Kontraindikationen) beim BfArM beziehen und auswerten
-- Detaillierte Wirkmechanismus-Daten aus DrugBank ergänzen
-- Vergleich mit den bereits zugelassenen VEGFR-Inhibitoren beim Nierenzellkarzinom (z. B. Pazopanib, Cabozantinib) durchführen
-- Sicherheits- und Überwachungskonzept (EKG, Elektrolyte, Blutdruck) erarbeiten
-- Klären, ob die erloschene Zulassung eine Verfügbarkeit in Deutschland praktisch ausschließt
+- Auswertung der Ergebnisse von NCT00566995 (Wirksamkeit und Verträglichkeit)
+- Daten zum Wirkmechanismus aus DrugBank
+- Auswertung der Warnhinweise und Gegenanzeigen der Fachinformation
+- Bewertung des Nutzens gegenüber etablierten VEGFR-Tyrosinkinaseinhibitoren beim Nierenzellkarzinom
+- Plan zur Sicherheitsüberwachung, insbesondere EKG-/QT- und Elektrolytkontrollen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

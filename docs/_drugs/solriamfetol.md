@@ -3,18 +3,18 @@ layout: default
 title: Solriamfetol
 parent: Hohe Evidenz (L1-L2)
 nav_order: 434
-evidence_level: L1
+evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
-description: "Solriamfetol: vorhergesagte neue Indikation Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS) (Evidenzstufe L1). Ursprüngliche Indikation: Narkolepsie"
+last_modified_at: 2026-11-04
 monitor_inn: "Solriamfetol"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "insomnia (disease)", "attention deficit hyperactivity disorder, inattentive type", "chondromyxoid fibroma", "specific developmental disorder", "variably protease-sensitive prionopathy", "multiple system atrophy", "postural orthostatic tachycardia syndrome", "disorder of peroxisomal alpha-, beta- and omega-oxidation"]
+description: "Solriamfetol: vorhergesagte neue Indikation Aufmerksamkeitsdefizit-Hyperaktivitätsstörung (attention deficit-hyperactivity disorder) (Evidenzstufe L2). Ursprüngliche Indikation: Narcolepsy"
 ---
 
 # Solriamfetol
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,105 +33,80 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Solriamfetol: Vom Narkolepsie/obstruktiver Schlafapnoe zu Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS)
+## Solriamfetol: Aufmerksamkeitsdefizit-Hyperaktivitätsstörung (attention deficit-hyperactivity disorder)
 {: .text-alpha }
 
 ## Zusammenfassung
 
-Solriamfetol ist ein wachheitsfördernder Wirkstoff, der ursprünglich zur Behandlung der übermäßigen Tagesschläfrigkeit bei **Narkolepsie** und **obstruktiver Schlafapnoe** zugelassen wurde.
-Das TxGNN-Modell sagt voraus, dass er bei **Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS)** wirksam sein könnte.
-Dafür liegen derzeit **5 klinische Studien** (davon 2 abgeschlossen) und **6 Publikationen** vor, darunter eine randomisierte, placebokontrollierte Pilotstudie.
+Solriamfetol ist ein wachheitsfördernder Wirkstoff, der die Wiederaufnahme von Dopamin und Noradrenalin hemmt. Das TxGNN-Modell sagt voraus, dass er bei **Aufmerksamkeitsdefizit-Hyperaktivitätsstörung (attention deficit-hyperactivity disorder)** wirksam sein könnte. Dafür liegen **5 klinische Studien** und **6 Publikationen** vor, darunter eine abgeschlossene Phase-3-Studie bei Erwachsenen und eine randomisierte, placebokontrollierte Pilotstudie.
 
----
-
-## Kurzüberblick
+## Überblick
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Narkolepsie; obstruktive Schlafapnoe |
-| Vorhergesagte neue Indikation | Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS) |
-| TxGNN-Vorhersagewert | 0,9999 |
-| Evidenzlevel | L1 |
+| Ursprüngliche Indikation | Narcolepsy;Sleep Apnea, Obstructive |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
-| Empfohlene Entscheidung | Proceed with Guardrails (Fortführung mit Schutzmaßnahmen) |
-
----
+| Vorhergesagte neue Indikation | Aufmerksamkeitsdefizit-Hyperaktivitätsstörung (attention deficit-hyperactivity disorder) |
+| TxGNN-Vorhersagewert | 0.9999 |
+| Evidenzniveau | L2 |
+| Status in Deutschland | Im Handel |
+| Empfohlene Entscheidung | Mit Schutzmaßnahmen fortfahren |
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Aus der pharmakologischen Literatur ist jedoch bekannt, dass Solriamfetol als **duale Dopamin- und Noradrenalin-Wiederaufnahmehemmung** wirkt. Die Interaktionsdaten bestätigen Bindungen an den Noradrenalintransporter (NET, SLC6A2) und den Dopamintransporter (DAT, SLC6A3).
+Solriamfetol hemmt die Wiederaufnahme von Dopamin und Noradrenalin (Bindung an die Transporter DAT und NET). Detaillierte Mechanismusdaten sind in den für diesen Bericht zusammengestellten Daten nicht hinterlegt; der Mechanismus ist jedoch in der Literatur gut beschrieben.
 
-Die Modulation der katecholaminergen Signalübertragung im präfrontalen Kortex ist der etablierte Mechanismus der ADHS-Pharmakotherapie (z. B. Methylphenidat, Atomoxetin). Die ursprüngliche Indikation (Tagesschläfrigkeit bei Narkolepsie/Schlafapnoe) und ADHS teilen damit den pharmakologischen Angriffspunkt: Wachheit, Aufmerksamkeit und exekutive Funktionen hängen von denselben Dopamin- und Noradrenalinsystemen ab.
+Die katecholaminerge Modulation im präfrontalen Kortex ist der etablierte Wirkmechanismus der ADHS-Pharmakotherapie, etwa bei Methylphenidat und Atomoxetin. Solriamfetol teilt mit diesen Substanzen sympathomimetische Eigenschaften. Daher ist die Pharmakologie direkt plausibel, und die Wirkstoffentwicklung geht bereits in Richtung ADHS, auch als Alternative zu klassischen Stimulanzien.
 
-Solriamfetol wurde bereits als Behandlungsansatz für ADHS untersucht, mit der Überlegung, dass es sympathomimetische Eigenschaften mit bestehenden ADHS-Medikamenten teilt und eine mögliche Alternative zu klassischen Stimulanzien darstellt.
-
----
-
-## Klinische Evidenz
+## Evidenz aus klinischen Studien
 
 | Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT05972044](https://clinicaltrials.gov/study/NCT05972044) | Phase 3 | Abgeschlossen | 516 | FOCUS: randomisierte, doppelblinde, placebokontrollierte Studie bei Erwachsenen mit ADHS; Ergebnisse sind noch aus Register oder Publikation zu prüfen |
-| [NCT04839562](https://clinicaltrials.gov/study/NCT04839562) | Phase 2/3 | Abgeschlossen | 66 | Doppelblinde, placebokontrollierte Pilotstudie bei Erwachsenen (18–65 Jahre) mit ADHS; erstes Wirksamkeitssignal |
-| [NCT07717892](https://clinicaltrials.gov/study/NCT07717892) | Phase 3 | Rekrutierend | 468 | 6-wöchige, placebokontrollierte Studie bei Jugendlichen (12 bis <18 Jahre) mit ADHS |
-| [NCT07717879](https://clinicaltrials.gov/study/NCT07717879) | Phase 3 | Rekrutierend | 468 | 6-wöchige, placebokontrollierte Studie bei Kindern (6 bis <12 Jahre) mit ADHS |
-| [NCT07773883](https://clinicaltrials.gov/study/NCT07773883) | Phase 3 | Einschluss auf Einladung | 300 | Offene Langzeit-Sicherheitsstudie bei Kindern und Jugendlichen mit ADHS |
+| [NCT05972044](https://clinicaltrials.gov/study/NCT05972044) | Phase 3 | Abgeschlossen | 516 | FOCUS: randomisierte, doppelblinde, placebokontrollierte Studie zu Wirksamkeit und Sicherheit bei Erwachsenen mit ADHS; Ergebnisse noch zu verifizieren |
+| [NCT04839562](https://clinicaltrials.gov/study/NCT04839562) | Phase 2/3 | Abgeschlossen | 66 | Doppelblinde, placebokontrollierte Pilotstudie bei Erwachsenen (18–65 Jahre) mit ADHS |
+| [NCT07717892](https://clinicaltrials.gov/study/NCT07717892) | Phase 3 | Rekrutierend | 468 | 6-wöchige, placebokontrollierte Studie bei Jugendlichen (12 bis <18 Jahre); noch keine Ergebnisse |
+| [NCT07717879](https://clinicaltrials.gov/study/NCT07717879) | Phase 3 | Rekrutierend | 468 | 6-wöchige, placebokontrollierte Studie bei Kindern (6 bis <12 Jahre); noch keine Ergebnisse |
+| [NCT07773883](https://clinicaltrials.gov/study/NCT07773883) | Phase 3 | Einladung zur Teilnahme | 300 | Offene Langzeit-Sicherheitsstudie bei Kindern und Jugendlichen |
 
----
-
-## Literaturevidenz
+## Evidenz aus der Literatur
 
 | PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [37819836](https://pubmed.ncbi.nlm.nih.gov/37819836/) | 2023 | RCT | The Journal of Clinical Psychiatry | Randomisierte, doppelblinde, placebokontrollierte 6-Wochen-Pilotstudie (75 mg oder 150 mg) bei 60 Erwachsenen mit ADHS zu Wirkung und Verträglichkeit |
-| [38771653](https://pubmed.ncbi.nlm.nih.gov/38771653/) | 2024 | Review | Expert Opinion on Pharmacotherapy | Neuere pharmakologische Ansätze bei ADHS jenseits der Stimulanzien |
-| [40986064](https://pubmed.ncbi.nlm.nih.gov/40986064/) | 2025 | Review | Expert Opinion on Pharmacotherapy | Übersicht über potenzielle ADHS-Therapien mit Fokus auf Phase-III-Studien |
-| [41621729](https://pubmed.ncbi.nlm.nih.gov/41621729/) | 2026 | Review | Pharmacology & Therapeutics | Pharmakologische, neuromodulatorische und psychotherapeutische Interventionen bei ADHS im Erwachsenenalter |
-| [33870884](https://pubmed.ncbi.nlm.nih.gov/33870884/) | 2022 | Review/Kommentar | CNS Spectrums | Kommentar zu Solriamfetol bei ADHS |
-| [34534876](https://pubmed.ncbi.nlm.nih.gov/34534876/) | 2021 | Review | Epilepsy & Behavior | Medikamente bei Epilepsie und übermäßiger Tagesschläfrigkeit; ADHS als Begleiterkrankung erwähnt |
+| [37819836](https://pubmed.ncbi.nlm.nih.gov/37819836/) | 2023 | RCT | The Journal of Clinical Psychiatry | Randomisierte, doppelblinde, placebokontrollierte 6-Wochen-Pilotstudie mit 60 Erwachsenen mit ADHS (75 mg bzw. 150 mg) zu Wirkung und Verträglichkeit |
+| [38771653](https://pubmed.ncbi.nlm.nih.gov/38771653/) | 2024 | Übersichtsarbeit | Expert Opinion on Pharmacotherapy | Neuere pharmakologische Ansätze bei ADHS jenseits der Stimulanzien |
+| [40986064](https://pubmed.ncbi.nlm.nih.gov/40986064/) | 2025 | Übersichtsarbeit | Expert Opinion on Pharmacotherapy | Potenzielle ADHS-Therapien mit Fokus auf Phase-III-Studien |
+| [41621729](https://pubmed.ncbi.nlm.nih.gov/41621729/) | 2026 | Übersichtsarbeit | Pharmacology & Therapeutics | Pharmakologische, neuromodulatorische und psychotherapeutische Ansätze bei ADHS im Erwachsenenalter |
+| [33870884](https://pubmed.ncbi.nlm.nih.gov/33870884/) | 2022 | Übersicht/Kommentar | CNS Spectrums | Kommentar zu Solriamfetol bei ADHS |
+| [34534876](https://pubmed.ncbi.nlm.nih.gov/34534876/) | 2021 | Übersichtsarbeit | Epilepsy & Behavior | Medikamente bei Epilepsie mit übermäßiger Tagesschläfrigkeit; ADHS als Begleiterkrankung erwähnt |
 
----
-
-## Marktinformationen Deutschland
+## Informationen zum Markt in Deutschland
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/004893 | Sunosi (Atnahs Pharma Netherlands B.V.) | – | Narkolepsie; obstruktive Schlafapnoe (Status: gültig/gültig) |
 
----
-
 ## Sicherheitsaspekte
 
-- **Arzneimittelwechselwirkungen (pharmakologisch):** Solriamfetol hemmt den Noradrenalintransporter (NET) und den Dopamintransporter (DAT). Bei gleichzeitiger Gabe weiterer sympathomimetischer oder katecholaminerg wirkender Substanzen ist mit additiven Effekten zu rechnen.
-- **Kardiovaskuläre Aspekte:** Laut den zusammengestellten Daten kann Solriamfetol Blutdruck und Herzfrequenz erhöhen; dies ist bei kardiovaskulären Vorerkrankungen zu beachten.
+- **Arzneimittelwechselwirkungen:** Solriamfetol bindet pharmakologisch an den Noradrenalintransporter (NET) und den Dopamintransporter (DAT). Dies ist relevant für die gleichzeitige Gabe anderer Substanzen mit Wirkung auf diese Systeme.
+- Wegen sympathomimetischer Effekte (Blutdruck- und Herzfrequenzanstieg) ist bei Herz-Kreislauf-Risiken Vorsicht geboten.
 
-Für Warnhinweise und Gegenanzeigen siehe die Fachinformation.
-
----
+Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Proceed with Guardrails**
+**Entscheidung: Mit Schutzmaßnahmen fortfahren**
 
 **Begründung:**
-Für ADHS liegen eine abgeschlossene Phase-3-Studie bei Erwachsenen (n=516), eine abgeschlossene Phase-2/3-Pilotstudie mit publiziertem RCT sowie mehrere laufende pädiatrische Phase-3-Studien vor, und der Mechanismus (duale Dopamin-/Noradrenalin-Wiederaufnahmehemmung) ist plausibel. Allerdings sind die Ergebnisse der Phase-3-Studie noch nicht verifiziert, und die Zulassung in Deutschland ist erloschen.
+Für ADHS liegt eine abgeschlossene Phase-3-Studie bei Erwachsenen sowie eine Phase-2/3-Pilotstudie mit publizierter RCT vor (Evidenzniveau L2). Die pädiatrischen Phase-3-Studien laufen noch, sodass es keine mehreren abgeschlossenen Phase-3-Studien gibt. Der Wirkmechanismus ist plausibel.
 
-**Für das weitere Vorgehen sind folgende Schritte nötig:**
-- Prüfung der Ergebnisse von NCT05972044 (FOCUS) aus Register oder Publikation
-- Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) als Voraussetzung für die Sicherheitsprüfung
-- Ergänzung detaillierter Wirkmechanismusdaten (z. B. aus DrugBank)
-- Klärung des Zulassungsstatus in Deutschland
-- Sicherheitsüberwachungsplan, insbesondere für kardiovaskuläre Parameter (Blutdruck, Herzfrequenz) und für pädiatrische Populationen
-- Abwarten der Ergebnisse der pädiatrischen Studien (NCT07717892, NCT07717879, NCT07773883)
+**Für das weitere Vorgehen erforderlich:**
+- Verifizierung der Ergebnisse der FOCUS-Studie (NCT05972044) aus Register oder Publikation
+- Abwarten der Ergebnisse der pädiatrischen Phase-3-Studien
+- Auswertung der Sicherheitsdaten, insbesondere zu Herz-Kreislauf-Effekten und Missbrauchspotenzial
+- Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
+- Ergänzende Mechanismusdaten (MOA)
 
----
-
-## Weitere vorhergesagte Indikationen (Kurzeinordnung)
-
-- **Insomnie:** Zwei Studien (u. a. Phase 4, NCT05838430, abgeschlossen), die vermutlich Tagessymptome adressieren. Mechanistisch kontraintuitiv für einen Wachmacher, daher nur als Forschungsfrage einzustufen.
-- **ADHS, unaufmerksamer Typ:** Als Subtyp von ADHS mechanistisch plausibel, aber ohne subtypspezifische Studien (nur indirekte Evidenz).
-- **Übrige Vorhersagen** (z. B. faziodigitogenitales Syndrom, chondromyxoides Fibrom, multiple Systematrophie, posturales orthostatisches Tachykardiesyndrom): Keine klinische Evidenz und kein plausibler Mechanismus; Einstufung „Hold". Beim posturalen orthostatischen Tachykardiesyndrom überwiegt zudem das Sicherheitsbedenken (Herzfrequenzerhöhung).
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Elbasvir
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 162
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
-description: "Elbasvir: vorhergesagte neue Indikation Hepatitis-B-Virusinfektion (Evidenzstufe L4). Ursprüngliche Indikation: Chronische Hepatitis C"
+last_modified_at: 2026-11-04
 monitor_inn: "ELBASVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Elbasvir: vorhergesagte neue Indikation Hepatitis-B-Virus-Infektion (hepatitis B virus infection) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
 ---
 
 # Elbasvir
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,66 +33,60 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-## Elbasvir: Von chronischer Hepatitis C zu Hepatitis-B-Virusinfektion
+## Elbasvir: Hepatitis-B-Virus-Infektion (hepatitis B virus infection)
 {: .text-alpha }
 
 ## Zusammenfassung
 
-Elbasvir ist ein NS5A-Inhibitor und wird in Kombination mit Grazoprevir (Zepatier) zur Behandlung der chronischen Hepatitis C eingesetzt.
-Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei einer **Hepatitis-B-Virusinfektion** voraus, doch die Datenlage stützt diese Vorhersage **nicht**: Die 2 verknüpften klinischen Studien und die Publikationen betreffen ausschließlich Hepatitis C. Die einzige spezifische Evidenz für eine andere Indikation ist eine präklinische In-vitro-Arbeit zur **Hepatitis-E-Virusinfektion**.
+Elbasvir ist ein Hemmstoff des NS5A-Proteins des Hepatitis-C-Virus und wird in Kombination mit Grazoprevir eingesetzt. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Hepatitis-B-Virus-Infektion (hepatitis B virus infection)** voraus. Die Evidenz ist jedoch gering (Evidenzstufe **L5**): Keine der in den zusammengestellten Daten genannten Studien untersucht Elbasvir bei Hepatitis B. Es handelt sich um reine Modellvorhersage.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Chronische Hepatitis C |
-| Vorhergesagte neue Indikation | Hepatitis-B-Virusinfektion |
-| TxGNN-Vorhersagewert | 0,9971 |
-| Evidenzniveau | L4 |
+| Ursprüngliche Indikation | In den lokalen Daten nicht erfasst |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
+| Vorhergesagte neue Indikation | Hepatitis-B-Virus-Infektion (hepatitis B virus infection) |
+| TxGNN-Vorhersagewert | 0.9971 |
+| Evidenzstufe | L5 |
+| Status in Deutschland | Im Handel |
 | Empfohlene Entscheidung | Hold |
 
 ---
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Nach den bekannten Informationen ist Elbasvir ein Hemmer des HCV-NS5A-Proteins und Bestandteil der Kombination mit Grazoprevir, einem NS3/4A-Proteasehemmer. Die Wirksamkeit bei chronischer Hepatitis C ist belegt.
+Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Elbasvir das virale NS5A-Protein des Hepatitis-C-Virus hemmt. Seine Wirksamkeit bei Hepatitis C ist belegt.
 
-Für das Hepatitis-B-Virus gibt es jedoch kein NS5A-Homolog, sodass keine direkte zielstrukturbasierte Begründung besteht. Der hohe Vorhersagewert spiegelt wahrscheinlich die Nähe im Netzwerk zwischen hepatotropen Viren wider. Die Vorhersage ist daher als reine Modellhypothese zu verstehen.
-
-Unter den weiteren vorhergesagten Indikationen ist die **Hepatitis-E-Virusinfektion** die mit der besten spezifischen Begründung: Eine Publikation aus dem Jahr 2026 berichtet, dass Elbasvir die Internalisierung des Hepatitis-E-Virus hemmt und in Kombination mit Ribavirin in vitro eine anhaltende Virussuppression erreicht. Dies ist präklinische Evidenz und muss unabhängig validiert werden. Für Hepatitis A, Omsk-hämorrhagisches Fieber, Kyasanur-Waldkrankheit, HIV und weitere Vorhersagen liegt keine belastbare Evidenz für eine Wirksamkeit von Elbasvir vor.
+Hepatitis B und Hepatitis C sind beides hepatotrope Virusinfektionen. Das Hepatitis-B-Virus besitzt jedoch kein NS5A-Homolog, ein direkter zielstrukturbasierter Ansatz fehlt daher. Der hohe Vorhersagewert spiegelt vermutlich eher die Nähe der Erkrankungen im Netzwerk des Modells wider als einen belegten Mechanismus. Die Vorhersage sollte deshalb als Hypothese verstanden werden.
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Ergebnisse |
-|---------|------|------|------|---------|
-| [NCT02940496](https://clinicaltrials.gov/study/NCT02940496) | Phase 2 | Abgeschlossen | 15 | Pembrolizumab als Zweitlinientherapie beim hepatozellulären Karzinom (HCV-positiv und -negativ); keine HBV-Wirksamkeitsstudie zu Elbasvir |
-| [NCT02115321](https://clinicaltrials.gov/study/NCT02115321) | Phase 2/3 | Abgeschlossen | 40 | Grazoprevir/Elbasvir bei HCV mit fortgeschrittener Zirrhose (Child-Pugh B); keine HBV-Daten |
+Zu Hepatitis B liegt keine klinische Studie mit Elbasvir vor. Die beiden zugeordneten Studien betreffen Hepatitis C bzw. Leberkrebs bei HCV-positiven und -negativen Personen:
 
-Beide Studien betreffen nicht die vorhergesagte Indikation Hepatitis B.
+| Studiennummer | Phase | Status | Teilnehmer | Kernaussagen |
+|---------|------|------|------|---------|
+| [NCT02115321](https://clinicaltrials.gov/study/NCT02115321) | Phase 2/3 | Abgeschlossen | 40 | Grazoprevir + Elbasvir bei chronischer Hepatitis C mit fortgeschrittener Zirrhose (Child-Pugh B); keine Daten zu Hepatitis B |
+| [NCT02940496](https://clinicaltrials.gov/study/NCT02940496) | Phase 2 | Abgeschlossen | 15 | Pembrolizumab beim fortgeschrittenen hepatozellulären Karzinom; keine Elbasvir-Prüfung bei Hepatitis B |
 
 ---
 
-## Literaturevidenz
+## Evidenz aus der Literatur
 
-| PMID | Jahr | Typ | Journal | Zentrale Ergebnisse |
+| PMID | Jahr | Typ | Fachzeitschrift | Kernaussagen |
 |------|-----|------|------|---------|
-| [26904396](https://pubmed.ncbi.nlm.nih.gov/26904396/) | 2016 | Review | Acta Pharm Sin B | Überblick über direkt wirkende antivirale Substanzen gegen HCV; HCV, anders als HBV, heilbar |
-| [25529080](https://pubmed.ncbi.nlm.nih.gov/25529080/) | 2015 | Review | Liver Int | Eradikation von HCV und Heilungsperspektiven bei HBV |
-| [31114957](https://pubmed.ncbi.nlm.nih.gov/31114957/) | 2019 | Review | Clin Pharmacokinet | Pharmakokinetik und Pharmakodynamik der HCV-Therapie, u. a. Elbasvir/Grazoprevir |
-| [34902265](https://pubmed.ncbi.nlm.nih.gov/34902265/) | 2022 | Kohortenstudie (Phase 4) | Antimicrob Agents Chemother | Grazoprevir/Elbasvir bei Leber- oder Nierentransplantierten mit HCV-Genotyp 1b |
-| [32039536](https://pubmed.ncbi.nlm.nih.gov/32039536/) | 2020 | Real-World-Studie | J Viral Hepat | Real-World-Erfahrung mit Elbasvir/Grazoprevir in Taiwan, Fokus auf Leber- und Nierennebenwirkungen |
-| [32306039](https://pubmed.ncbi.nlm.nih.gov/32306039/) | 2020 | Klinische Studie | J Antimicrob Chemother | Grazoprevir/Elbasvir bei kürzlich erworbener HCV-Infektion bei MSM |
-| [29077864](https://pubmed.ncbi.nlm.nih.gov/29077864/) | 2018 | Randomisierte Studie | Clin Infect Dis | Retherapie mit Sofosbuvir plus Grazoprevir/Elbasvir plus Ribavirin nach DAA-Versagen (ANRS HC34 REVENGE) |
-| [41734217](https://pubmed.ncbi.nlm.nih.gov/41734217/) | 2025 | Retrospektive Auswertung | Klin Mikrobiol Infekc Lek | Antivirale Behandlung chronischer Virushepatitis B und C bei Kindern in Ostrava |
-| [42347219](https://pubmed.ncbi.nlm.nih.gov/42347219/) | 2026 | Präklinisch (in vitro) | Pathogens | Elbasvir hemmt die HEV-Internalisierung; mit Ribavirin anhaltende Virussuppression (betrifft die Hepatitis-E-Vorhersage) |
+| [26904396](https://pubmed.ncbi.nlm.nih.gov/26904396/) | 2016 | Übersichtsarbeit | Acta Pharm Sin B | Übersicht direkt wirkender Virostatika gegen HCV; HBV nur im Vergleich erwähnt |
+| [25529080](https://pubmed.ncbi.nlm.nih.gov/25529080/) | 2015 | Übersichtsarbeit | Liver Int | Ausrottung von HCV und Heilung von HBV als Ziele bei Virushepatitis; keine Elbasvir-Daten zu HBV |
+| [31114957](https://pubmed.ncbi.nlm.nih.gov/31114957/) | 2019 | Übersichtsarbeit | Clin Pharmacokinet | Pharmakokinetik und Pharmakodynamik der HCV-Therapien, einschließlich Elbasvir/Grazoprevir |
+| [34902265](https://pubmed.ncbi.nlm.nih.gov/34902265/) | 2022 | Kohortenstudie | Antimicrob Agents Chemother | Grazoprevir/Elbasvir bei Leber- oder Nierentransplantierten mit HCV-Genotyp 1b |
+| [32039536](https://pubmed.ncbi.nlm.nih.gov/32039536/) | 2020 | Beobachtungsstudie | J Viral Hepat | Praxisdaten aus Taiwan zu Leber- und Nierenverträglichkeit von Elbasvir/Grazoprevir bei HCV |
 
-Spezifische Publikationen zur Wirksamkeit von Elbasvir bei Hepatitis B liegen nicht vor.
+Alle genannten Arbeiten betreffen Hepatitis C; keine untersucht Elbasvir bei Hepatitis B.
 
 ---
 
@@ -106,7 +100,9 @@ Spezifische Publikationen zur Wirksamkeit von Elbasvir bei Hepatitis B liegen ni
 
 ## Sicherheitsaspekte
 
-- **Arzneimittelwechselwirkungen**: Insgesamt wurden 15 Wechselwirkungen erfasst, davon 1 mit hohem Schweregrad (**Ozanimod**, Major) und 14 mit mittlerem Schweregrad (Moderate). Zu den wichtigeren gehören Warfarin, Dicoumarol, Betrixaban, Lusutrombopag, Alpelisib, Binimetinib, Ivosidenib, Talazoparib, Elagolix, Griseofulvin, Aminoglutethimid, Metreleptin, Somatotropin und Somatrem.
+**Arzneimittelwechselwirkungen:** Es wurden 15 Wechselwirkungen erfasst, davon eine als schwerwiegend eingestuft:
+- **Schwerwiegend:** Ozanimod
+- **Moderat (Auswahl):** Warfarin, Dicoumarol, Betrixaban, Metreleptin, Lusutrombopag, Griseofulvin, Elagolix, Alpelisib, Ivosidenib, Talazoparib
 
 Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 
@@ -117,14 +113,13 @@ Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage für Hepatitis B beruht allein auf dem Modell; die verknüpften Studien und Publikationen betreffen HCV und belegen keine HBV-Wirksamkeit. Zudem ist die deutsche Zulassung erloschen. Die Hepatitis-E-Hypothese ist als Forschungsfrage interessanter, stützt sich aber nur auf In-vitro-Daten.
+Für die Hepatitis-B-Vorhersage gibt es keine direkte Studie. Die zugeordneten Studien und Publikationen betreffen Hepatitis C, und HBV besitzt kein NS5A-Ziel. Die Evidenzstufe ist L5.
 
 **Für ein Weiterkommen sind erforderlich:**
-- Experimentelle Prüfung der antiviralen Aktivität von Elbasvir gegen HBV (In-vitro-Daten)
-- Unabhängige Validierung der HEV-Entry-Hemmung und anschließend Tiermodell- bzw. frühe klinische Daten
-- Daten zum Wirkmechanismus
-- Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM), die derzeit fehlen
-- Klärung des Zulassungsstatus in Deutschland, da die einzige Zulassung erloschen ist
+- Präklinische Untersuchungen (in vitro) zur Wirkung von Elbasvir auf HBV
+- Daten zum Wirkmechanismus von Elbasvir
+- Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

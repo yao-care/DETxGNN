@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mercaptopurine
-parent: Hohe Evidenz (L1-L2)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 291
-evidence_level: L2
+evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-04
 monitor_inn: "mercaptopurine"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
-description: "Mercaptopurine: vorhergesagte neue Indikation Myeloische Leukämie (myeloid leukemia) (Evidenzstufe L2). Ursprüngliche Indikation: Leukemia, Lymphoid"
+description: "Mercaptopurine: vorhergesagte neue Indikation Myeloische Leukämie (myeloid leukemia) (Evidenzstufe L3). Ursprüngliche Indikation: Leukemia, Lymphoid"
 ---
 
 # Mercaptopurine
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **8** 
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,126 +38,95 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **8**
 
 ## Zusammenfassung in einem Satz
 
-Mercaptopurin ist ein Purin-Antimetabolit, der ursprünglich zur Behandlung der lymphatischen Leukämie zugelassen wurde.
-Das TxGNN-Modell sagt voraus, dass es auch bei **myeloischer Leukämie** wirksam sein könnte.
-Dafür liegen **15 klinische Studien** und **20 Publikationen** vor, die überwiegend Mehrstoff-Protokolle betreffen und nur selten Mercaptopurin allein untersuchen.
-
----
+Mercaptopurin ist ein Purin-Antimetabolit, der in Deutschland als Xaluprine zugelassen ist. Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei **myeloischer Leukämie (myeloid leukemia)** wirksam sein könnte. Dafür liegen **15 klinische Studien** und **20 Publikationen** vor, darunter eine Kohortenstudie und eine prospektive Pilotstudie zur oralen Mercaptopurin-Erhaltungstherapie bei akuter myeloischer Leukämie; der Evidenzgrad ist **L3**.
 
 ## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
 | Ursprüngliche Indikation | Leukemia, Lymphoid |
-| Vorhergesagte neue Indikation | Myeloische Leukämie (myeloid leukemia) |
-| TxGNN-Vorhersagewert | 0.9994 |
-| Evidenzstufe | L2 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
-| Empfohlene Entscheidung | Hold |
-
-Hinweis: Die höchstplatzierte Vorhersage (myeloische Leukämie) ist nur indirekt belegt. Die Vorhersagen „akute lymphatische Leukämie" und „lymphoblastisches Lymphom/Leukämie" entsprechen dagegen der bereits bestehenden Indikation und sind eine Bestätigung der etablierten Anwendung, keine echte Neuausrichtung (siehe Abschnitt „Weitere Vorhersagen").
-
----
+| Vorhergesagte neue Indikation | Myeloische Leukämie (myeloid leukemia) |
+| TxGNN-Vorhersagewert | 0.9994 |
+| Evidenzgrad | L3 |
+| Status in Deutschland | Im Handel |
+| Empfohlene Entscheidung | Proceed with Guardrails |
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu den Wirkmechanismen liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Mercaptopurin ist ein Purin-Antimetabolit. Seine Thioguanin-Nukleotid-Metaboliten werden in DNA und RNA eingebaut und hemmen die de-novo-Purinsynthese. Das wirkt zytotoxisch auf sich schnell teilende Leukämiezellen.
+Detaillierte Daten zum Wirkmechanismus liegen in den zusammengestellten Daten nicht vor. Mercaptopurin ist jedoch ein Purin-Antimetabolit: Seine Thioguanin-Nukleotid-Metaboliten werden in DNA und RNA eingebaut und hemmen die De-novo-Purinsynthese. Das wirkt zytotoxisch auf sich schnell teilende Leukämiezellen.
 
-Da myeloische Leukämiezellen sich ebenfalls schnell teilen, ist eine mechanistische Übertragbarkeit von der lymphatischen auf die myeloische Leukämie plausibel. Die klinischen Daten stammen jedoch überwiegend aus Mehrstoff-Protokollen, sodass der Beitrag von Mercaptopurin nicht isoliert bewertet werden kann. Die Literatur zur Erhaltungstherapie bei AML ist klein (Kohortenstudie, PMID 26425037), und die Berichte zur ALL-ähnlichen Konsolidierung betreffen Kinder (PMID 38828002).
+Dieser Mechanismus ist nicht auf eine einzelne Leukämieform beschränkt, daher ist eine Übertragung auf myeloische Zellen mechanistisch gut denkbar. Die klinischen Daten stammen allerdings überwiegend aus Mehrstoff-Protokollen und lassen den Beitrag von Mercaptopurin allein selten erkennen. Zur Erhaltungstherapie bei AML gibt es eine kleine Kohortenstudie (PMID 26425037), und Berichte zur ALL-ähnlichen Konsolidierung betreffen Kinder (PMID 38828002).
 
----
-
-## Klinische Evidenz
-
-Ausgewählt wurden die zehn für myeloische Leukämie relevantesten Studien. Der Beitrag von Mercaptopurin ist in den meisten Fällen nicht isolierbar.
+## Evidenz aus klinischen Studien
 
 | Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT00003934](https://clinicaltrials.gov/study/NCT00003934) | Phase 3 | Abgeschlossen | 420 | Randomisiert bei akuter Promyelozytenleukämie: Tretinoin plus Chemotherapie mit/ohne Arsentrioxid, danach Erhaltung mit Tretinoin allein oder mit Mercaptopurin und Methotrexat |
-| [NCT00492856](https://clinicaltrials.gov/study/NCT00492856) | Phase 3 | Abgeschlossen | 105 | S0521: randomisierte Erhaltungstherapie versus Beobachtung bei APL mit niedrigem/mittlerem Risiko; Mercaptopurin-Arm nicht bestätigt |
-| [NCT02521493](https://clinicaltrials.gov/study/NCT02521493) | Phase 3 | Aktiv, nicht rekrutierend | 280 | Risikostratifizierte Therapie der AML bei Down-Syndrom; Beitrag von Mercaptopurin nicht isolierbar |
-| [NCT00136084](https://clinicaltrials.gov/study/NCT00136084) | Phase 3 | Abgeschlossen | 238 | Vergleich zweier Mehrstoff-Regime mit unterschiedlichen Cytarabin-Dosen bei neu diagnostizierter AML/Myelodysplasie |
-| [NCT05506332](https://clinicaltrials.gov/study/NCT05506332) | Phase 1 | Rekrutierend | 10 | ApoAML: Venetoclax plus 6-Mercaptopurin bei rezidivierter/refraktärer AML; frühe Phase, sehr kleine Fallzahl |
-| [NCT06199557](https://clinicaltrials.gov/study/NCT06199557) | Phase 1/2 | Rekrutierend | 48 | Hydroxyurea plus Valproinsäure oder 6-Mercaptopurin plus Valproinsäure bei AML/Hochrisiko-MDS, die für die Standardtherapie nicht geeignet sind |
-| [NCT00002701](https://clinicaltrials.gov/study/NCT00002701) | Phase 3 | Unbekannt | 750 | ATRA plus Idarubicin bei APL mit randomisierter Erhaltung; Mercaptopurin möglicherweise Teil der Erhaltung, indirekt |
-| [NCT02688140](https://clinicaltrials.gov/study/NCT02688140) | Phase 3 | Abgeschlossen | 133 | Arsentrioxid plus ATRA und Idarubicin versus AIDA bei Hochrisiko-APL; Mercaptopurin nicht die getestete Variable |
-| [NCT00482833](https://clinicaltrials.gov/study/NCT00482833) | Phase 3 | Abgeschlossen | 276 | Arsentrioxid plus ATRA versus AIDA bei APL ohne Hochrisiko; offen, randomisiert |
+| [NCT00492856](https://clinicaltrials.gov/study/NCT00492856) | Phase 3 | Abgeschlossen | 105 | Randomisierte Erhaltungstherapie vs. Beobachtung bei akuter Promyelozytenleukämie (niedriges/intermediäres Risiko) |
+| [NCT00003934](https://clinicaltrials.gov/study/NCT00003934) | Phase 3 | Abgeschlossen | 420 | Tretinoin und Chemotherapie mit/ohne Arsentrioxid; Erhaltung mit Tretinoin vs. Tretinoin plus Mercaptopurin und Methotrexat bei APL |
+| [NCT02521493](https://clinicaltrials.gov/study/NCT02521493) | Phase 3 | Aktiv, nicht rekrutierend | 280 | Risikoadaptierte Therapie der AML bei Down-Syndrom; Beitrag von Mercaptopurin nicht isolierbar |
+| [NCT00136084](https://clinicaltrials.gov/study/NCT00136084) | Phase 3 | Abgeschlossen | 238 | Zwei Mehrstoff-Regime mit unterschiedlicher Cytarabin-Dosis bei neu diagnostizierter AML |
+| [NCT05506332](https://clinicaltrials.gov/study/NCT05506332) | Phase 1 | Rekrutierend | 10 | Venetoclax plus 6-Mercaptopurin bei rezidivierter/refraktärer AML |
+| [NCT06199557](https://clinicaltrials.gov/study/NCT06199557) | Phase 1/2 | Rekrutierend | 48 | Hydroxyurea oder 6-Mercaptopurin jeweils mit Valproinsäure bei AML/Hochrisiko-MDS, ungeeignet für Standardtherapie |
+| [NCT02688140](https://clinicaltrials.gov/study/NCT02688140) | Phase 3 | Abgeschlossen | 133 | Arsentrioxid plus ATRA und Idarubicin vs. AIDA bei Hochrisiko-APL |
+| [NCT00482833](https://clinicaltrials.gov/study/NCT00482833) | Phase 3 | Abgeschlossen | 276 | Arsentrioxid plus ATRA vs. AIDA bei APL ohne hohes Risiko |
 | [NCT00866918](https://clinicaltrials.gov/study/NCT00866918) | Phase 3 | Abgeschlossen | 106 | Risikoadaptierte Therapie der APL im Kindesalter mit Arsentrioxid in der Konsolidierung |
+| [NCT00551460](https://clinicaltrials.gov/study/NCT00551460) | Phase 2 | Abgeschlossen | 78 | ATRA, Arsentrioxid und Gemtuzumab-Ozogamicin bei Hochrisiko-APL; Rolle von Mercaptopurin unklar |
 
----
+Die meisten Studien prüfen Mehrstoff-Regime. Mercaptopurin ist selten die geprüfte Variable.
 
-## Literaturevidenz
+## Evidenz aus der Literatur
 
-| PMID | Jahr | Typ | Zeitschrift | Kernaussagen |
+| PMID | Jahr | Typ | Fachzeitschrift | Kernaussagen |
 |------|-----|------|------|---------|
-| [26425037](https://pubmed.ncbi.nlm.nih.gov/26425037/) | 2015 | Kohorte | Journal of Korean Medical Science | Orale Erhaltungschemotherapie mit 6-Mercaptopurin und Methotrexat bei AML-Patienten, die für eine Transplantation nicht geeignet sind |
-| [27275453](https://pubmed.ncbi.nlm.nih.gov/27275453/) | 2016 | Pilotstudie | South Asian Journal of Cancer | Metronomische Therapie mit oralem 6-Mercaptopurin bei älteren AML-Patienten |
-| [32459546](https://pubmed.ncbi.nlm.nih.gov/32459546/) | 2020 | Retrospektiv | Pediatric Hematology and Oncology | Ergebnisse bei juveniler myelomonozytärer Leukämie nach sequenzieller Therapie mit Cytarabin und 6-Mercaptopurin |
-| [38828002](https://pubmed.ncbi.nlm.nih.gov/38828002/) | 2024 | Kohorte | Therapeutic Advances in Hematology | Intensive Chemotherapie mit dualer Induktion und ALL-ähnlicher Konsolidierung bei Kinder-AML (China) |
-| [31283407](https://pubmed.ncbi.nlm.nih.gov/31283407/) | 2019 | Kohorte (Phase-3-Studie) | Journal of Clinical Oncology | Interfant-06: Ergebnisse bei Säuglingen mit ALL; Vergleich myeloischer und lymphatischer Konsolidierung |
-| [33183436](https://pubmed.ncbi.nlm.nih.gov/33183436/) | 2021 | Review | Journal of Nanoscience and Nanotechnology | Nanomedizin-Formulierungen von 6-Mercaptopurin zur Leukämietherapie |
-| [34442422](https://pubmed.ncbi.nlm.nih.gov/34442422/) | 2021 | Review | Journal of Personalized Medicine | Bedeutung von NUDT15-Polymorphismen bei Thiopurin-Therapien |
-| [12057059](https://pubmed.ncbi.nlm.nih.gov/12057059/) | 2000 | Review | Current Treatment Options in Oncology | Behandlung der akuten Promyelozytenleukämie |
-| [2676034](https://pubmed.ncbi.nlm.nih.gov/2676034/) | 1989 | Review | Blood Reviews | Purinstoffwechsel als Angriffspunkt der Leukämiechemotherapie; 6-Mercaptopurin als Purinanalogon |
-| [22715121](https://pubmed.ncbi.nlm.nih.gov/22715121/) | 2012 | Kohorte (Phase 2) | Blood | ATRA, Idarubicin und intravenöses Arsentrioxid als Initialtherapie bei APL |
+| [26425037](https://pubmed.ncbi.nlm.nih.gov/26425037/) | 2015 | Kohortenstudie | Journal of Korean Medical Science | Orale Erhaltungstherapie mit 6-Mercaptopurin und Methotrexat bei AML-Patienten, die für eine Transplantation nicht geeignet sind |
+| [27275453](https://pubmed.ncbi.nlm.nih.gov/27275453/) | 2016 | Prospektive Pilotstudie | South Asian Journal of Cancer | Metronomische Therapie mit oralem 6-Mercaptopurin bei älteren AML-Patienten |
+| [38828002](https://pubmed.ncbi.nlm.nih.gov/38828002/) | 2024 | Kohortenstudie | Therapeutic Advances in Hematology | Intensive Chemotherapie mit dualer Induktion und ALL-ähnlicher Konsolidierung bei kindlicher AML |
+| [32459546](https://pubmed.ncbi.nlm.nih.gov/32459546/) | 2020 | Retrospektive Analyse | Pediatric Hematology and Oncology | Sequenzielle Therapie mit Cytarabin und 6-Mercaptopurin bei juveniler myelomonozytärer Leukämie |
+| [33183436](https://pubmed.ncbi.nlm.nih.gov/33183436/) | 2021 | Übersichtsarbeit | Journal of Nanoscience and Nanotechnology | 6-Mercaptopurin-Nanomedizin bei Leukämie |
+| [34442422](https://pubmed.ncbi.nlm.nih.gov/34442422/) | 2021 | Übersichtsarbeit | Journal of Personalized Medicine | NUDT15-Polymorphismen bei Thiopurin-Behandlung und Risiko schwerer Nebenwirkungen |
+| [2676034](https://pubmed.ncbi.nlm.nih.gov/2676034/) | 1989 | Übersichtsarbeit | Blood Reviews | Purinstoffwechsel als Angriffspunkt der Leukämie-Chemotherapie |
+| [3513537](https://pubmed.ncbi.nlm.nih.gov/3513537/) | 1986 | Klinische Studie | American Journal of Clinical Oncology | Hydroxyurea und 6-Mercaptopurin bei chronischer granulozytärer Leukämie |
+| [8383541](https://pubmed.ncbi.nlm.nih.gov/8383541/) | 1993 | Fallserie | Annals of Hematology | Chemotherapie bei minimal differenzierter AML (AML-M0) mit Literaturübersicht |
+| [12057059](https://pubmed.ncbi.nlm.nih.gov/12057059/) | 2000 | Übersichtsarbeit | Current Treatment Options in Oncology | Behandlung der akuten Promyelozytenleukämie |
 
----
-
-## Informationen zum deutschen Markt
+## Informationen zum Markt in Deutschland
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/002022 | Xaluprine (früher Mercaptopurine Nova Laboratories) | – | Lymphatische Leukämie (Status: gültig/gelöscht) |
 
----
-
 ## Zytotoxizität
 
 | Punkt | Inhalt |
 |------|------|
-| Zytotoxizitätsklassifikation | Klassisches Zytostatikum (Purin-Antimetabolit) |
-| Myelosuppressionsrisiko | Hoch (Myelosuppression ist die zentrale Toxizität; die Dosis wird gezielt bis zu einem Zielgrad der Myelosuppression angepasst) |
-| Emetogenität | Gering |
-| Überwachungsparameter | Großes Blutbild mit Differenzialblutbild, Leber- und Nierenfunktion; TPMT-/NUDT15-Genotypisierung und Metabolitenmonitoring (6-TGN, 6-MMP) |
-| Handhabungsschutz | Handhabung gemäß den Vorschriften für zytotoxische Arzneimittel erforderlich |
-
----
+| Zytotoxizitätsklasse | Konventionelles Zytostatikum (Purin-Antimetabolit) |
+| Myelosuppressionsrisiko | Hoch; die Datenlage nennt Neutropenie, Thrombozytopenie, Leukopenie und Agranulozytose als relevante Risiken |
+| Emetogenität | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Differenzialblutbild, Leber- und Nierenfunktion, Bilirubin |
+| Schutzmaßnahmen bei der Handhabung | Die Vorgaben für den Umgang mit Zytostatika sind einzuhalten |
 
 ## Sicherheitsaspekte
 
-- **Kontraindikationen/Risikokonstellationen aus dem Wissensgraphen** (keine Angaben aus dem Beipackzettel): Nierenerkrankung, Pankreatitis, Lebererkrankung, Gallenblasenerkrankung, Thrombozytopenie, Neutropenie, Agranulozytose, Anämie (inkl. makrozytäre Anämie), Leukopenie, Hyperbilirubinämie (inkl. hereditärer Formen und Gilbert-Syndrom), Cholestase (inkl. benigner rezidivierender und familiärer intrahepatischer Cholestase), Pyoureter und hepatosplenisches T-Zell-Lymphom.
-- **Arzneimittelwechselwirkungen**: Es sind 296 Wechselwirkungen erfasst. Mittelschwer eingestuft sind u. a. Mesalazin, Balsalazid, Olsalazin, Sulfasalazin und Naltrexon; gering eingestuft ist Levofloxacin. Für weitere Wirkstoffe (u. a. Prednison, Hydrocortison, Metformin, Omeprazol, Pantoprazol, Lansoprazol, Morphin, Vancomycin) ist der Schweregrad unbekannt. Die Literatur nennt zusätzlich Allopurinol bzw. Xanthinoxidase-Hemmer sowie weitere myelosuppressive Substanzen als besonders relevant.
+- **Erkrankungen mit dokumentierter Kontraindikationsbeziehung:** Nierenerkrankung, Pankreatitis, Lebererkrankung, Gallenblasenerkrankung, Thrombozytopenie, Neutropenie, Agranulozytose, Anämie (einschließlich makrozytärer Anämie), Hyperbilirubinämie (auch hereditär), Gilbert-Syndrom, Cholestase (auch benigne rezidivierende und familiäre intrahepatische Formen), Leukopenie, hepatosplenisches T-Zell-Lymphom. Diese Angaben stammen nicht aus dem Fachinformationstext.
+- **Arzneimittelwechselwirkungen:** Insgesamt 296 Wechselwirkungen verzeichnet. Als moderat eingestuft sind u. a. Mesalazin, Balsalazid, Naltrexon, Olsalazin und Sulfasalazin; als geringfügig Levofloxacin.
 
-Zu Warnhinweisen und Gegenanzeigen aus der Fachinformation liegen keine Daten vor; bitte die Fachinformation heranziehen.
-
----
-
-## Weitere Vorhersagen im Überblick
-
-| Rang | Vorhergesagte Indikation | Evidenzstufe | Empfehlung | Anmerkung |
-|------|------|------|------|------|
-| 9 | Lymphoblastisches Lymphom/Leukämie (Vorläuferzell-Typ) | L1 | Proceed with Guardrails | Etablierte Anwendung (Rückgrat der Erhaltungstherapie), keine echte Neuausrichtung |
-| 10 | Akute lymphoblastische Leukämie | L1 | Proceed with Guardrails | Etablierte Anwendung; Phase-3-Studien und umfangreiche Pharmakogenomik-Literatur (TPMT/NUDT15) |
-| 7 | Kleinzelliges Lungenkarzinom | L3 | Hold | Alte Phase-2-Studie (1985, PMID 2988775) und präklinische Hinweise; hohe Hürde durch heutige Standardtherapie |
-| 5 | Hodgkin-Lymphom | L5 | Hold | Studien betreffen Non-Hodgkin-/lymphoblastische Lymphome; Zusammenhang indirekt |
-| 6 | Primäres pulmonales Lymphom | L4 | Hold | Nur zufällige Literatur |
-| 2, 3, 4, 8 | CLL/SLL (zwei Subtypen), pulmonales Blastom, fetales Adenokarzinom der Lunge | L5 | Hold | Ausschließlich Modellvorhersage, keine Studien oder Publikationen |
-
----
+Weitere Sicherheitsinformationen sind der Fachinformation zu entnehmen.
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Hold**
+**Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Für myeloische Leukämie ist der mechanistische Zusammenhang plausibel, die klinischen Daten stammen jedoch fast ausschließlich aus Mehrstoff-Protokollen (v. a. APL), in denen Mercaptopurin nicht die getestete Variable ist. Die mercaptopurin-spezifischen AML-Daten bestehen nur aus kleinen Kohorten- und Pilotstudien sowie einer Phase-1-Studie mit 10 Patienten. Zudem ist das Arzneimittel in Deutschland im Handel (1 von 1 Zulassungen gültig), und die Sicherheitsdaten aus der Fachinformation fehlen.
+Für die AML liegen eine Kohortenstudie und eine prospektive Pilotstudie zur Mercaptopurin-Erhaltungstherapie vor, eine randomisierte Studie, die Mercaptopurin selbst prüft, fehlt jedoch. Der Mechanismus ist plausibel, die Evidenz bleibt aber auf Regime-Ebene und in kleinen Studien begrenzt.
 
-**Für ein Weiterkommen sind erforderlich:**
-- Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM bzw. der EMA einholen; diese Lücke blockiert aktuell die Sicherheitsbewertung.
-- Detaillierte Angaben zum Wirkmechanismus (z. B. aus DrugBank) ergänzen.
-- Mercaptopurin-spezifische Daten bei AML (Ergebnisse von NCT05506332 und NCT06199557, Erhaltungstherapie bei AML) auswerten.
-- Bei einer Weiterverfolgung: TPMT-/NUDT15-Genotypisierung, Metabolitenmonitoring und ein Management der Wechselwirkungen (v. a. Allopurinol) einplanen.
+**Für das weitere Vorgehen wird benötigt:**
+- Randomisierte Daten, die den Beitrag von Mercaptopurin in der AML-Erhaltungstherapie isolieren
+- Detaillierte Daten zum Wirkmechanismus
+- Auswertung der Fachinformation (Warnhinweise und Kontraindikationen)
+- Überwachungsplan für Myelosuppression, Leber- und Pankreastoxizität, ggf. mit Testung auf NUDT15- und TPMT-Polymorphismen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

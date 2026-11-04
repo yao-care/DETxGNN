@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sorafenib
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 435
-evidence_level: L2
+evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
-description: "Sorafenib: vorhergesagte neue Indikation Liposarkom (Evidenzstufe L2). Ursprüngliche Indikation: Hepatozelluläres Karzinom"
+last_modified_at: 2026-11-04
 monitor_inn: "SORAFENIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
+description: "Sorafenib: vorhergesagte neue Indikation Liposarkom (liposarcoma) (Evidenzstufe L5). Ursprüngliche Indikation: Carcinoma, Hepatocellular"
 ---
 
 # Sorafenib
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **6** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,120 +33,83 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-## Sorafenib: Vom hepatozellulären Karzinom und Nierenzellkarzinom zum Liposarkom
+## Sorafenib: Liposarkom (liposarcoma)
 {: .text-alpha }
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Sorafenib ist ein Multikinase-Inhibitor, der ursprünglich zur Behandlung des hepatozellulären Karzinoms und des Nierenzellkarzinoms eingesetzt wird.
-Das TxGNN-Modell sagt voraus, dass er bei **Liposarkom** wirksam sein könnte.
-Derzeit stützen **1 klinische Studie** (Phase 2, einarmig, gemischte Sarkom-Histologien) und **8 Publikationen** (davon nur eine Phase-2-Studie mit direktem Sarkom-Bezug) diese Richtung.
-
----
+Sorafenib ist ein Multikinase-Inhibitor, der gegen mehrere Kinasen (u. a. RAF, VEGFR, PDGFR, KIT) wirkt. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Liposarkom (liposarcoma)** voraus. Für diese Vorhersage liegt eine direkt zum Liposarkom passende Studie nicht vor: Die vorhandene Phase-2-Studie und die Publikationen betreffen Weichteilsarkome allgemein oder präklinische Modelle. Die Evidenzstufe ist daher **L5**.
 
 ## Schnellübersicht
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Hepatozelluläres Karzinom; Nierenzellkarzinom |
-| Vorhergesagte neue Indikation | Liposarkom |
-| TxGNN-Vorhersagewert | 0,9982 |
-| Evidenzniveau | L2 |
+| Ursprüngliche Indikation | Carcinoma, Hepatocellular;Carcinoma, Renal Cell |
+| Vorhergesagte neue Indikation | Liposarkom (liposarcoma) |
+| TxGNN-Vorhersagewert | 0.9982 |
+| Evidenzstufe | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
----
-
 ## Warum ist diese Vorhersage plausibel?
 
-Für die vorliegende Auswertung sind keine detaillierten Daten zum Wirkmechanismus verfügbar. Sorafenib hemmt bekanntermaßen mehrere Kinasen (RAF, VEGFR, PDGFR, KIT), die Angiogenese und Zellproliferation bei Weichteilsarkomen antreiben. Seine Wirksamkeit bei Leber- und Nierenzellkarzinom ist belegt.
+Zu Sorafenib liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Aus der Literatur ist bekannt, dass Sorafenib mehrere Kinasen hemmt (RAF, VEGFR, PDGFR, KIT), die Angiogenese und Zellproliferation in Weichteilsarkomen antreiben können.
 
-Präklinische Arbeiten an dedifferenzierten Liposarkom-Modellen deuten auf PTEN/PI3K-bezogene Signalwege hin, die die Empfindlichkeit beeinflussen könnten. Die klinische Aktivität bei Sarkomen hängt jedoch stark von der Histologie ab, und das Liposarkom gilt allgemein als ein Subtyp mit geringem Ansprechen. Die Plausibilität ist daher eher mechanistisch-theoretisch als klinisch untermauert.
-
----
+Präklinische Arbeiten an Modellen des dedifferenzierten Liposarkoms deuten auf Signalwege rund um PTEN/PI3K hin, die die Empfindlichkeit beeinflussen könnten. Die klinische Aktivität bei Sarkomen hängt jedoch stark vom histologischen Subtyp ab, und das Liposarkom gilt allgemein als Subtyp mit geringem Ansprechen. Die Vorhersage ist daher als Forschungshypothese zu verstehen, nicht als belegter Nutzen.
 
 ## Evidenz aus klinischen Studien
 
-| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Ergebnisse |
+| Studiennummer | Phase | Status | Teilnehmer | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT00217620](https://clinicaltrials.gov/study/NCT00217620) | Phase 2 | Abgeschlossen | 51 | Einarmige Studie mit Sorafenib bei fortgeschrittenen Weichteilsarkomen; gemischte Histologien, Liposarkom allenfalls kleine Untergruppe (indirekte Evidenz) |
+| [NCT00217620](https://clinicaltrials.gov/study/NCT00217620) | Phase 2 | Abgeschlossen | 51 | Einarmige Studie mit Sorafenib bei fortgeschrittenen Weichteilsarkomen verschiedener Histologien; liposarkomspezifische Aussagen allenfalls indirekt |
 
----
+## Evidenz aus der Literatur
 
-## Literaturevidenz
-
-| PMID | Jahr | Typ | Journal | Zentrale Ergebnisse |
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [21751200](https://pubmed.ncbi.nlm.nih.gov/21751200/) | 2012 | Phase-2-Studie | Cancer | SWOG S0505: Sorafenib bei fortgeschrittenen Weichteilsarkomen |
-| [24554062](https://pubmed.ncbi.nlm.nih.gov/24554062/) | 2014 | Phase-1-Studie | Ann Surg Oncol | Neoadjuvante konformale Strahlentherapie plus Sorafenib bei lokal fortgeschrittenem Extremitäten-Weichteilsarkom |
-| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Übersichtsarbeit | Ann Oncol | Histologiegesteuerte Therapie von Weichteilsarkomen |
-| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Übersichtsarbeit | Magyar Onkologia | Medikamentöse Behandlung von Weichteilsarkomen nach histologischem Subtyp |
-| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Übersichtsarbeit | Front Oncol | PDOX-Mausmodelle bei Sarkomen und Kombinationstherapien mit Palbociclib |
-| [18413802](https://pubmed.ncbi.nlm.nih.gov/18413802/) | 2008 | Präklinisch | Mol Cancer Ther | Sorafenib hemmt Wachstum und MAPK-Signalweg in MPNST-Zellen und dedifferenzierten Liposarkom-Zelllinien |
-| [23416162](https://pubmed.ncbi.nlm.nih.gov/23416162/) | 2013 | Präklinisch | Am J Pathol | Xenograft-Modelle des dedifferenzierten Liposarkoms; PTEN-Herunterregulation und Ansprechen auf PI3K-Hemmung |
-| [25075796](https://pubmed.ncbi.nlm.nih.gov/25075796/) | 2014 | Fallbericht | Anti-Cancer Drugs | Trabectedin bei Synovialsarkom (nicht Sorafenib, geringe Relevanz) |
+| [21751200](https://pubmed.ncbi.nlm.nih.gov/21751200/) | 2012 | Phase-2-Studie | Cancer | SWOG-S0505: Sorafenib bei fortgeschrittenen Weichteilsarkomen, kein liposarkomspezifischer Nachweis |
+| [24554062](https://pubmed.ncbi.nlm.nih.gov/24554062/) | 2014 | Phase-1-Studie | Annals of Surgical Oncology | Neoadjuvante Strahlentherapie plus Sorafenib bei Weichteilsarkomen der Extremität |
+| [18413802](https://pubmed.ncbi.nlm.nih.gov/18413802/) | 2008 | Präklinisch | Molecular Cancer Therapeutics | Sorafenib hemmt Wachstum und MAPK-Signalweg in Zelllinien maligner peripherer Nervenscheidentumoren |
+| [23416162](https://pubmed.ncbi.nlm.nih.gov/23416162/) | 2013 | Präklinisch | American Journal of Pathology | Xenograft-Modelle des dedifferenzierten Liposarkoms; PTEN-Herunterregulation und Ansprechen auf PI3K-Hemmung |
+| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Übersicht | Annals of Oncology | Histologiegesteuerte Therapie von Weichteilsarkomen |
+| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Übersicht | Magyar Onkologia | Medikamentöse Behandlung von Weichteilsarkomen nach histologischem Subtyp |
 
----
-
-## Marktinformationen Deutschland
+## Informationen zum Markt in Deutschland
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/000690 | Nexavar (Bayer AG) | – | Hepatozelluläres Karzinom; Nierenzellkarzinom (Status: gelöscht) |
 
----
-
 ## Zytotoxizität
 
 | Punkt | Inhalt |
 |------|------|
-| Zytotoxizitätsklassifikation | Zielgerichtete Therapie (Multikinase-Inhibitor) |
-| Risiko einer Myelosuppression | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage beachten |
-| Emetogenitätsklassifikation | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage beachten |
-| Überwachungsparameter | Bitte die Packungsbeilage beachten; in den Daten wird u. a. auf Hand-Fuß-Hautreaktionen unter Kombinationstherapien hingewiesen |
-| Schutz beim Umgang | Bitte die Packungsbeilage beachten |
-
----
+| Klassifikation | Zielgerichtete Therapie (Multikinase-Inhibitor) |
+| Myelosuppressionsrisiko | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenität | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Handhabungsschutz | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
 
 ## Sicherheitsaspekte
 
-**Kontraindikationen/Risikokonstellationen aus dem Wissensgraphen** (TxGNN/PrimeKG, kein Zulassungstext): Bluthochdruck, Leberversagen, Angst- und neurotische Störungen, dysthyme Störung, Thrombozytopenie, Neutropenie, Agranulozytose, Blutgerinnungsstörungen, akutes Koronarsyndrom, koronare Herzkrankheit, Myokardinfarkt, Koronarthrombose, Myokardischämie, Hämoglobinopathie, Anämie (inkl. makrozytäre Anämie), Hypophosphatämie, Pankreatitis.
+- **Arzneimittelwechselwirkungen**: In den zusammengestellten Daten sind 100 Wechselwirkungen erfasst. Als schwerwiegend (Major) eingestuft ist die Wechselwirkung mit **Dolasetron**. Mäßige (Moderate) Wechselwirkungen bestehen u. a. mit Famotidin, Loperamid, Dexamethason, Bisacodyl, Clarithromycin, Levofloxacin, Palonosetron und Naltrexon. Geringfügige (Minor) Wechselwirkungen bestehen u. a. mit Dapagliflozin, Naloxegol und Metronidazol.
 
-**Arzneimittelwechselwirkungen** (100 Einträge insgesamt; Auswahl):
-- **Schwerwiegend (Major):** Dolasetron
-- **Moderat:** Famotidin, Loperamid, Dexamethason, Bisacodyl, Cholsäure, Clarithromycin, Picoschwefelsäure, Polyethylenglykol (3350 mit Elektrolyten), Palonosetron, Natriumsulfat, Naldemedin, Naltrexon, Levofloxacin, Metreleptin, Lactitol, Lactulose
-- **Gering (Minor):** Dapagliflozin, Naloxegol, Metronidazol
-
-Für Warnhinweise und Gegenanzeigen aus dem Zulassungstext liegen keine Daten vor; bitte die Packungsbeilage beachten.
-
----
-
-## Weitere vorhergesagte Indikationen (Kurzüberblick)
-
-| Rang | Erkrankung | TxGNN-Wert | Evidenzniveau | Einschätzung |
-|---|---|---|---|---|
-| 2 | Ovarielles myxoides Liposarkom | 0,9976 | L5 | Hold |
-| 7 | Weibliches Mammakarzinom | 0,9953 | L5 | Forschungsfrage (7 Studien der Phase 1/2, keine Phase 3, mäßige Wirksamkeitssignale, Hand-Fuß-Reaktion limitiert Kombinationsdosierung) |
-| 8 | Nierenbeckenkarzinom | 0,9940 | L2 | Forschungsfrage (Studien beim Urothelkarzinom, begrenzte Aktivität) |
-| 9 | Vulvasarkom | 0,9937 | L5 | Hold |
-| 10 | Dermatofibrosarcoma protuberans | 0,9935 | L4 | Forschungsfrage (Fallbericht mit Ansprechen nach Imatinib-Versagen; mechanistisch über PDGFR plausibel) |
-
----
+Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) bitte die Fachinformation heranziehen.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Für das Liposarkom liegt nur eine einarmige Phase-2-Studie in gemischten Sarkom-Histologien vor, die Liposarkom-spezifische Evidenz ist indirekt, und das Liposarkom gilt als schlecht ansprechender Subtyp. Zudem besteht in Deutschland nur noch eine gelöschte Zulassung, und für Warnhinweise und Gegenanzeigen fehlt die Grundlage der Packungsbeilage (Sicherheitsprüfung nicht möglich).
+Für Liposarkom gibt es keine Studie, die Sorafenib direkt prüft; die vorhandenen Studien betreffen Weichteilsarkome allgemein oder präklinische Modelle. Der hohe Vorhersagewert allein genügt nicht, zumal das Liposarkom als gering ansprechender Subtyp gilt.
 
-**Für ein Fortschreiten sind folgende Schritte nötig:**
-- Auswertung der Liposarkom-Untergruppe aus NCT00217620 und der SWOG-S0505-Studie (PMID 21751200)
-- Beschaffung und Auswertung der Packungsbeilage (Warnhinweise, Gegenanzeigen) über das BfArM
-- Daten zum Wirkmechanismus aus DrugBank
-- Klärung des aktuellen Zulassungs- und Verfügbarkeitsstatus in Deutschland
-- Bei Interesse an anderen Indikationen: gezielte Prüfung der besser belegten Kandidaten (z. B. Dermatofibrosarcoma protuberans, nicht klassifiziertes Nierenzellkarzinom)
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Auswertung liposarkomspezifischer Subgruppendaten aus den bestehenden Weichteilsarkom-Studien
+- Präklinische oder klinische Studien, die Sorafenib direkt bei Liposarkom prüfen
+- Daten zum Wirkmechanismus
+- Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

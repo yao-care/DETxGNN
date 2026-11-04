@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tocilizumab
-parent: Hohe Evidenz (L1-L2)
+parent: Nur Modellvorhersage (L5)
 nav_order: 469
-evidence_level: L1
+evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-04
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
-description: "Tocilizumab: vorhergesagte neue Indikation Ankylosierende Spondylitis (ankylosing spondylitis) (Evidenzstufe L1). Ursprüngliche Indikation: Arthritis, Rheumatoid"
+description: "Tocilizumab: vorhergesagte neue Indikation Spondylitis ankylosans (ankylosing spondylitis) (Evidenzstufe L5). Ursprüngliche Indikation: Arthritis, Rheumatoid"
 ---
 
 # Tocilizumab
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **5** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,66 +33,51 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-## Tocilizumab: Ankylosierende Spondylitis (ankylosing spondylitis)
+## Tocilizumab: Spondylitis ankylosans (ankylosing spondylitis)
 {: .text-alpha }
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Tocilizumab ist ein Interleukin-6-Rezeptor-Antikörper und wird ursprünglich bei rheumatoider Arthritis, juveniler Arthritis, Zytokinfreisetzungssyndrom, COVID-19 und Riesenzellarteriitis eingesetzt.
-Das TxGNN-Modell sagt voraus, dass es bei **ankylosierender Spondylitis** wirksam sein könnte.
-Dafür liegen **2 abgeschlossene bzw. beendete Phase-3-Studien (beide vorzeitig abgebrochen)** und **mehrere Publikationen** vor, die jedoch keine klare Wirksamkeit belegen.
+Tocilizumab ist ein Antikörper gegen den Interleukin-6-Rezeptor und wird in Deutschland bei mehreren rheumatischen und entzündlichen Erkrankungen eingesetzt. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Spondylitis ankylosans (ankylosing spondylitis)** voraus. Zwei randomisierte, placebokontrollierte Phase-3-Studien wurden vorzeitig beendet, und die veröffentlichte Auswertung (BUILDER-1 und BUILDER-2) zeigt keinen Nutzen. Die Evidenz ist daher als **L5** einzustufen.
 
----
-
-## Kurzüberblick
+## Kurzübersicht
 
 | Punkt | Inhalt |
 |------|------|
 | Ursprüngliche Indikation | Arthritis, Rheumatoid;Cytokine Release Syndrome;Arthritis, Juvenile Rheumatoid;COVID-19 virus infection;Giant Cell Arteritis; Arthritis, Rheumatoid;Arthritis, Juvenile;Cytokine Release Syndrome;Giant Cell Arteritis;COVID-19 virus infection; Arthritis, Rheumatoid;Arthritis, Juvenile Rheumatoid;Cytoki |
-| Vorhergesagte neue Indikation | Ankylosierende Spondylitis (ankylosing spondylitis) |
+| Vorhergesagte neue Indikation | Spondylitis ankylosans (ankylosing spondylitis) |
 | TxGNN-Vorhersagewert | 0.9999 |
-| Evidenzstufe | L1 (formal; beide Phase-3-Studien wurden jedoch vorzeitig beendet, daher faktisch eingeschränkt belastbar) |
+| Evidenzstufe | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 5 von 5) |
 | Anzahl der Zulassungen | 5 (gültig: 5) |
 | Empfohlene Entscheidung | Hold |
 
----
-
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Tocilizumab ein humanisierter monoklonaler Antikörper gegen den Interleukin-6-Rezeptor ist. Seine Wirksamkeit bei rheumatoider Arthritis und weiteren entzündlichen Erkrankungen ist belegt.
+Zu Wirkmechanismus-Details liegen in den zusammengestellten Daten keine Angaben vor. Bekannt ist, dass Tocilizumab den Interleukin-6-Rezeptor blockiert. Interleukin-6 trägt zur systemischen Entzündung und zum Knochenumbau bei, weshalb eine Blockade bei der axialen Spondyloarthritis biologisch denkbar erscheint.
 
-Interleukin-6 trägt zur systemischen Entzündung und zum Knochenumbau bei, weshalb eine IL-6-Blockade bei axialer Spondyloarthritis biologisch plausibel erscheint. Die klinische Evidenz stützt dies jedoch nicht: Die beiden Phase-3-Studien wurden abgebrochen, und die Literatur belegt keine klare Wirksamkeit. Wirksam sind bei dieser Erkrankung vielmehr TNF- und IL-17-Inhibitoren. Hinweise auf einen Nutzen stammen nur aus Einzelfallberichten, etwa zur AA-Amyloidose bei ankylosierender Spondylitis.
+Die klinische Realität spricht jedoch dagegen: Die beiden Phase-3-Studien wurden beendet, und die ausgewerteten placebokontrollierten Studien fanden keinen Nutzen von Tocilizumab bei Spondylitis ankylosans. Als wirksame Biologika-Klassen gelten in diesem Feld TNF- und IL-17-Hemmer. Für einzelne Patienten mit sekundärer AA-Amyloidose bei Spondylitis ankylosans gibt es lediglich Fallberichte über einen Nutzen. Die hohe Modellbewertung ist deshalb als Hypothese zu verstehen, nicht als Wirksamkeitsbeleg.
 
----
+## Klinische Studien
 
-## Klinische Evidenz
-
-| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
+| Studiennummer | Phase | Status | Teilnehmer | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT01209689](https://clinicaltrials.gov/study/NCT01209689) | Phase 3 | Abgebrochen | 113 | Randomisiert, doppelblind, placebokontrolliert; Tocilizumab 8 bzw. 4 mg/kg i.v. bei AS mit unzureichendem Ansprechen auf TNF-Antagonisten |
-| [NCT01209702](https://clinicaltrials.gov/study/NCT01209702) | Phase 3 (Phase II/III nahtlos) | Abgebrochen | 306 | Placebokontrolliert bei AS nach NSAR-Versagen, TNF-naiv; Tocilizumab 8 mg/kg i.v. |
-| [NCT01965132](https://clinicaltrials.gov/study/NCT01965132) | k. A. | Rekrutierend | 10.000 | Koreanisches Biologika-Register; allgemeiner Praxiskontext, keine tocilizumab-spezifische AS-Wirksamkeit |
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Rekrutierend | 80 | Perioperatives Immunsuppressiva-Management bei Schulterarthroplastik; nicht auf AS-Wirksamkeit ausgelegt |
+| [NCT01209689](https://clinicaltrials.gov/study/NCT01209689) | Phase 3 | Beendet (vorzeitig) | 113 | Placebokontrolliert, Tocilizumab 4 bzw. 8 mg/kg alle 4 Wochen bei Patienten mit unzureichendem Ansprechen auf TNF-Hemmer |
+| [NCT01209702](https://clinicaltrials.gov/study/NCT01209702) | Phase 2/3 (als Phase 3 geführt) | Beendet (vorzeitig) | 306 | Placebokontrolliert bei TNF-naiven Patienten nach NSAR-Versagen; Tocilizumab 8 mg/kg alle 4 Wochen |
+| [NCT01965132](https://clinicaltrials.gov/study/NCT01965132) | Keine Angabe | Rekrutierend | 10.000 | Koreanisches Register zur Sicherheit von Biologika bei rheumatischen Erkrankungen; keine Wirksamkeitsaussage zu Tocilizumab |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Rekrutierend | 80 | Management von Immunsuppressiva vor Schulterprothesen-Operation; nicht auf Spondylitis ankylosans ausgelegt |
 
----
-
-## Literaturevidenz
+## Literatur
 
 | PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [23765873](https://pubmed.ncbi.nlm.nih.gov/23765873/) | 2014 | Auswertung randomisierter Studien (BUILDER-1/-2) | Ann Rheum Dis | Kurzzeit-Wirksamkeit und Sicherheit von Tocilizumab bei AS in placebokontrollierten Studien |
-| [26986130](https://pubmed.ncbi.nlm.nih.gov/26986130/) | 2016 | Systematische Übersicht / Netzwerk-Metaanalyse | Medicine | Vergleichende Wirksamkeit von Biologika bei ankylosierender Spondylitis |
-| [31852268](https://pubmed.ncbi.nlm.nih.gov/31852268/) | 2020 | Systematische Übersicht | Expert Rev Clin Immunol | Infektionsrisiko unter Biologika und konventionellen DMARDs bei entzündlicher Arthritis |
-| [28413099](https://pubmed.ncbi.nlm.nih.gov/28413099/) | 2017 | Übersichtsarbeit | Semin Arthritis Rheum | Optimierung der Zweitlinien-Biologikatherapie bei RA, PsA und AS |
-| [25488787](https://pubmed.ncbi.nlm.nih.gov/25488787/) | 2014 | Übersichtsarbeit | Best Pract Res Clin Rheumatol | Behandlung der Spondyloarthritis jenseits der TNF-Blockade |
-| [22452603](https://pubmed.ncbi.nlm.nih.gov/22452603/) | 2012 | Kurzübersicht | Inflamm Allergy Drug Targets | IL-6-Antagonismus bei ankylosierender Spondylitis |
-| [22450391](https://pubmed.ncbi.nlm.nih.gov/22450391/) | 2012 | Übersichtsarbeit | Curr Opin Rheumatol | Alternativen bei TNF-refraktärer AS |
-| [33981717](https://pubmed.ncbi.nlm.nih.gov/33981717/) | 2021 | Fallbericht | Front Med | Erfolgreiche Behandlung einer AA-Amyloidose bei AS mit Tocilizumab (zwei Fälle) |
-| [36260501](https://pubmed.ncbi.nlm.nih.gov/36260501/) | 2022 | Systematische Übersicht | RMD Open | Wirksamkeit und Sicherheit der IL-6-Hemmung bei immunvermittelten entzündlichen Erkrankungen |
-| [20959960](https://pubmed.ncbi.nlm.nih.gov/20959960/) | 2011 | Übersichtsarbeit | Osteoporos Int | Systemische Knocheneffekte von Biologika bei RA und AS |
-
----
+| [23765873](https://pubmed.ncbi.nlm.nih.gov/23765873/) | 2014 | Auswertung randomisierter Studien (BUILDER-1/-2) | Annals of the Rheumatic Diseases | Kurzzeit-Wirksamkeit von Tocilizumab bei Spondylitis ankylosans in placebokontrollierten Studien; kein Nutzen nachgewiesen |
+| [26986130](https://pubmed.ncbi.nlm.nih.gov/26986130/) | 2016 | Systematische Übersicht / Netzwerk-Metaanalyse | Medicine | Vergleich von Biologika-Regimen bei Spondylitis ankylosans |
+| [22452603](https://pubmed.ncbi.nlm.nih.gov/22452603/) | 2012 | Übersichtsarbeit | Inflammation & Allergy Drug Targets | Kurzübersicht zur IL-6-Hemmung bei Spondylitis ankylosans |
+| [22450391](https://pubmed.ncbi.nlm.nih.gov/22450391/) | 2012 | Übersichtsarbeit | Current Opinion in Rheumatology | Alternativen bei TNF-refraktärer Spondylitis ankylosans |
+| [25488787](https://pubmed.ncbi.nlm.nih.gov/25488787/) | 2014 | Übersichtsarbeit | Best Practice & Research Clinical Rheumatology | Behandlung der Spondyloarthritis jenseits der TNF-Blockade |
+| [28413099](https://pubmed.ncbi.nlm.nih.gov/28413099/) | 2017 | Übersichtsarbeit | Seminars in Arthritis and Rheumatism | Optimierung der Zweitlinien-Biologikatherapie |
+| [33981717](https://pubmed.ncbi.nlm.nih.gov/33981717/) | 2021 | Fallbericht | Frontiers in Medicine | Erfolgreiche Behandlung einer AA-Amyloidose bei Spondylitis ankylosans mit Tocilizumab (zwei Fälle) |
 
 ## Marktinformationen Deutschland
 
@@ -104,45 +89,26 @@ Interleukin-6 trägt zur systemischen Entzündung und zum Knochenumbau bei, wesh
 | EMEA/H/C/006196 | Avtozma | k. A. | Rheumatoide Arthritis, juvenile rheumatoide Arthritis, Zytokinfreisetzungssyndrom, COVID-19 |
 | EMEA/H/C/005984 | Tocilizumab STADA (zuvor Tofidence) | k. A. | Rheumatoide Arthritis, COVID-19, juvenile rheumatoide Arthritis |
 
-Vier von fünf Zulassungen sind gültig.
-
----
-
 ## Sicherheitsaspekte
 
-- **Arzneimittelwechselwirkungen**: In der Abfrage wurden 100 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** eingestuft ist **Deferipron**. Als **mäßig (Moderate)** eingestuft sind unter anderem Antikoagulanzien (Apixaban, Warfarin, Rivaroxaban, Dicoumarol), Statine (Simvastatin, Rosuvastatin), Chloroquin und Hydroxychloroquin, Nitroimidazole (Metronidazol, Tinidazol, Secnidazol, Benznidazol), Naltrexon, Disulfiram und Lidocain. **Geringfügig (Minor)** sind Zinksalze (Sulfat, Acetat, Gluconat, Chlorid).
-- **Weitere Hinweise aus der Literatur**: Tocilizumab ist immunsuppressiv und erhöht das Infektionsrisiko, einschließlich Tuberkulose. Über paradoxe, durch Tocilizumab ausgelöste Vaskulitiden und über Leberschäden wurde in Einzelfällen berichtet.
+**Arzneimittelwechselwirkungen** (100 Einträge in den zusammengestellten Daten, Auswahl):
+- **Schwerwiegend:** Deferipron
+- **Mäßig:** Naltrexon, Metronidazol, Rosuvastatin, Simvastatin, Tinidazol, Apixaban, Warfarin, Rivaroxaban, Dicumarol, Chloroquin, Hydroxychloroquin, Disulfiram, Secnidazol, Benznidazol, Lidocain
+- **Gering:** Zinksulfat, Zinkacetat, Zinkgluconat, Zinkchlorid
 
-Für Warnhinweise und Gegenanzeigen lagen keine Daten vor; hierzu bitte die Fachinformation heranziehen.
-
----
+Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die beiden Phase-3-Studien bei ankylosierender Spondylitis wurden vorzeitig beendet, und die Literatur zeigt keine belastbare Wirksamkeit. Wirksame Biologika-Klassen sind TNF- und IL-17-Inhibitoren. Der hohe TxGNN-Wert (0.9999) stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. Er allein rechtfertigt keine Weiterverfolgung.
+Die einzigen direkten Studien zur Spondylitis ankylosans wurden vorzeitig beendet, und die placebokontrollierten Auswertungen zeigen keinen Nutzen. Es besteht daher nur eine Modellvorhersage ohne unterstützende Studie (Evidenzstufe L5), und etablierte Alternativen (TNF- und IL-17-Hemmer) stehen zur Verfügung.
 
-**Für ein Weiterkommen wären erforderlich:**
-- Detaillierte Daten zum Wirkmechanismus
-- Auswertung der Ergebnisse und Abbruchgründe der Studien NCT01209689 und NCT01209702 (BUILDER-1/-2)
-- Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM)
-- Klärung des aktuellen Zulassungsstatus in Deutschland
-
----
-
-## Hinweise zu weiteren vorhergesagten Indikationen
-
-Die übrigen Vorhersagen wurden bewertet. Hervorzuheben:
-
-| Vorhergesagte Indikation | Evidenzstufe | Empfehlung | Anmerkung |
-|------|------|------|------|
-| Polyartikuläre juvenile rheumatoide Arthritis | L1 | Proceed with Guardrails | Abgeschlossene Phase-3-Studie (NCT00988221); weitgehend bereits zugelassene Indikation, daher eher Bestätigung als echtes Repurposing |
-| Rheumatofaktor-positive polyartikuläre JIA | L3 | Proceed with Guardrails | Extrapolation vom pJIA-Subtyp; nur Fallserie und Übersichten |
-| Rheumatoide Vaskulitis | L4 | Forschungsfrage | Nur Einzelfallberichte; auch paradoxe Vaskulitis berichtet |
-| Entzündliche Spondylopathie | L1 | Hold | Gleiche Evidenz wie bei AS |
-| Übrige (Steißbeinhypermobilität, Kümmell-Krankheit, Spondyloarthropathie-Suszeptibilität, Wirbelerkrankung, IL12B-Mangel) | L5–L5 | Hold | Kein plausibler Mechanismus oder keine Evidenz; bei IL12B-Mangel ist der Einsatz wegen erhöhten Infektionsrisikos biologisch eher kontraindiziert |
+**Für ein Weiterkommen wäre erforderlich:**
+- Neue, ausreichend große kontrollierte Studien, die einen Nutzen belegen
+- Daten zum Wirkmechanismus und eine Begründung, warum eine IL-6-Blockade in dieser Erkrankung wirken sollte
+- Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
 
 ## Haftungsausschluss
 

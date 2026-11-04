@@ -3,18 +3,18 @@ layout: default
 title: Etelcalcetide
 parent: Mittlere Evidenz (L3-L4)
 nav_order: 184
-evidence_level: L3
+evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-31
-description: "Etelcalcetide: vorhergesagte neue Indikation Hyperphosphatämie (Evidenzstufe L3). Ursprüngliche Indikation: Sekundärer Hyperparathyreoidismus"
+last_modified_at: 2026-11-04
 monitor_inn: "Etelcalcetide"
 predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices without bleeding", "esophageal varices with bleeding", "varicose disease"]
+description: "Etelcalcetide: vorhergesagte neue Indikation Hyperphosphatämie (hyperphosphatemia (disease)) (Evidenzstufe L4). Ursprüngliche Indikation: Hyperparathyroidism, Secondary"
 ---
 
 # Etelcalcetide
 {: .fs-9 }
 
-Evidenzniveau: **L3** | Vorhergesagte Indikationen: **4** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-## Etelcalcetid: Von sekundärem Hyperparathyreoidismus zu Hyperphosphatämie
+## Etelcalcetide: Hyperphosphatämie (hyperphosphatemia (disease))
 {: .text-alpha }
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Etelcalcetid ist ein intravenös verabreichtes Calcimimetikum, das ursprünglich zur Behandlung des sekundären Hyperparathyreoidismus eingesetzt wird.
-Das TxGNN-Modell sagt voraus, dass es bei **Hyperphosphatämie** wirksam sein könnte.
-Dafür liegen derzeit **keine registrierten klinischen Studien** und **6 Publikationen** vor (darunter 1 RCT zur Ausgangsindikation, die Phosphat-Ergebnisse sind daraus nicht bestätigt).
+Etelcalcetide ist ein intravenös verabreichtes Calcimimetikum, das den Calcium-Sensing-Rezeptor aktiviert und den Parathormonspiegel senkt.
+Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Hyperphosphatämie (hyperphosphatemia)** voraus.
+Hierzu liegen **keine registrierten klinischen Studien** und **6 Publikationen** vor, von denen nur eine präklinische Arbeit die Hyperphosphatämie direkt untersucht. Der Evidenzgrad ist **L4**.
 
 ---
 
@@ -48,10 +48,10 @@ Dafür liegen derzeit **keine registrierten klinischen Studien** und **6 Publika
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Sekundärer Hyperparathyreoidismus |
-| Vorhergesagte neue Indikation | Hyperphosphatämie |
-| TxGNN-Vorhersagewert | 0,9942 |
-| Evidenzstufe | L3 |
+| Ursprüngliche Indikation | Hyperparathyroidism, Secondary |
+| Vorhergesagte neue Indikation | Hyperphosphatämie (hyperphosphatemia (disease)) |
+| TxGNN-Vorhersagewert | 0.9942 |
+| Evidenzgrad | L4 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
@@ -60,49 +60,46 @@ Dafür liegen derzeit **keine registrierten klinischen Studien** und **6 Publika
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Nach bekanntem Stand ist Etelcalcetid ein Calcimimetikum, das den Calcium-Sensing-Rezeptor (CaSR) aktiviert und dadurch das Parathormon (PTH) senkt. Seine Wirksamkeit beim sekundären Hyperparathyreoidismus von Dialysepatienten mit chronischer Nierenerkrankung ist belegt.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Etelcalcetide den Calcium-Sensing-Rezeptor (CaSR) aktiviert und dadurch das Parathormon (PTH) senkt.
 
-Hyperphosphatämie und sekundärer Hyperparathyreoidismus sind bei CKD-MBD (Mineral- und Knochenstoffwechselstörung bei chronischer Nierenerkrankung) pathophysiologisch eng verknüpft. Ein niedrigeres PTH kann den Knochenumsatz und die Mobilisierung von Calcium und Phosphat verringern, sodass das Serumphosphat als Sekundäreffekt sinken könnte. Die Verbindung ist biologisch plausibel, der Effekt ist jedoch wahrscheinlich indirekt und rechtfertigt möglicherweise keine eigenständige Indikation.
+Hyperphosphatämie und sekundärer Hyperparathyreoidismus sind bei chronischer Nierenerkrankung (CKD-MBD) pathophysiologisch eng verknüpft. Ein niedrigerer PTH-Spiegel kann den Knochenumsatz und die Freisetzung von Calcium und Phosphat verringern, sodass das Serumphosphat sekundär sinken könnte. Die Verbindung ist biologisch plausibel, der Effekt dürfte jedoch indirekt sein und rechtfertigt möglicherweise keine eigenständige Indikation.
 
-Eine präklinische Arbeit (PMID 42044867) berichtet zudem über einen kardialen Nutzen von Etelcalcetid bei chronischer Hyperphosphatämie über CaSR-cAMP-Signalwege.
+Eine präklinische Arbeit (PMID 42044867) beschreibt zudem, dass Etelcalcetide die Herzfunktion bei chronischer Hyperphosphatämie über CaSR-cAMP-Aktivierung verbessert.
 
 ---
 
-## Evidenz aus klinischen Studien
+## Klinische Studien
 
 Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Evidenz aus der Literatur
+## Literaturevidenz
 
 | PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [33305109](https://pubmed.ncbi.nlm.nih.gov/33305109/) | 2020 | RCT | Kidney Int Rep | DUET-Studie: Wirksamkeit von Etelcalcetid bei Hämodialysepatienten mit sekundärem Hyperparathyreoidismus |
-| [29440923](https://pubmed.ncbi.nlm.nih.gov/29440923/) | 2018 | Review | Int J Nephrol Renovasc Dis | Etelcalcetid zur PTH-Senkung bei Hämodialyse; dreimal wöchentlich i.v. nach der Dialyse |
-| [42495460](https://pubmed.ncbi.nlm.nih.gov/42495460/) | 2026 | Review | Cureus | Narrative Übersicht zu Calcimimetika, Vitamin-D-Analoga und Phosphatbindern beim sekundären Hyperparathyreoidismus |
-| [42044867](https://pubmed.ncbi.nlm.nih.gov/42044867/) | 2026 | Präklinisch/Mechanistisch | Kidney Int | Etelcalcetid stellt bei chronischer Hyperphosphatämie die Herzfunktion über CaSR-cAMP-Aktivierung wieder her |
-| [42853437](https://pubmed.ncbi.nlm.nih.gov/42853437/) | 2026 | Fallbericht | CEN Case Rep | Rückbildung einer urämischen tumorösen Kalzinose nach Umstellung von Cinacalcet auf Etelcalcetid |
-| [33211001](https://pubmed.ncbi.nlm.nih.gov/33211001/) | 2021 | Fallbericht | Clin Nephrol | Temporäre metastatische Lungenverkalkung bei Hyperparathyreoidismus unter Peritonealdialyse |
+| [33305109](https://pubmed.ncbi.nlm.nih.gov/33305109/) | 2020 | RCT | Kidney Int Rep | DUET-Studie: Wirksamkeit von Etelcalcetide bei Hämodialysepatienten mit sekundärem Hyperparathyreoidismus; Phosphat-Endpunkte nicht aus dem Abstract ersichtlich |
+| [42044867](https://pubmed.ncbi.nlm.nih.gov/42044867/) | 2026 | Präklinische/mechanistische Studie | Kidney Int | Etelcalcetide stellt die Herzfunktion bei chronischer Hyperphosphatämie über CaSR-cAMP-Aktivierung wieder her |
+| [29440923](https://pubmed.ncbi.nlm.nih.gov/29440923/) | 2018 | Übersichtsarbeit | Int J Nephrol Renovasc Dis | Rolle von Etelcalcetide bei der PTH-Senkung in der Hämodialyse |
+| [42495460](https://pubmed.ncbi.nlm.nih.gov/42495460/) | 2026 | Übersichtsarbeit | Cureus | Pharmakologisches Management des sekundären Hyperparathyreoidismus bei Dialyse: Calcimimetika, Vitamin-D-Analoga, Phosphatbinder |
+| [42853437](https://pubmed.ncbi.nlm.nih.gov/42853437/) | 2026 | Fallbericht | CEN Case Rep | Rückbildung einer urämischen tumorösen Kalzinose nach Wechsel von Cinacalcet auf Etelcalcetide |
+| [33211001](https://pubmed.ncbi.nlm.nih.gov/33211001/) | 2021 | Fallbericht | Clin Nephrol | Vorübergehende metastatische Lungenverkalkung bei Hyperparathyreoidismus unter Peritonealdialyse |
 
 ---
 
-## Marktinformationen Deutschland
+## Informationen zum Markt in Deutschland
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/003995 | Parsabiv (Amgen Europe B.V.) | – | Sekundärer Hyperparathyreoidismus |
 
-Die Zulassung ist als erloschen geführt.
-
 ---
 
 ## Sicherheitsaspekte
 
-- **Pharmakologische Wechselwirkung**: Zielstruktur ist der Calcium-Sensing-Rezeptor (CaSR, Gen CASR). Konkrete Arzneimittel-Wechselwirkungen sind in den vorliegenden Daten nicht aufgeführt.
-- **Hinweise aus der Vorhersageanalyse**: Hypokalzämie und QT-Verlängerung gelten als relevante Risiken, insbesondere in akuten Situationen.
+Hinweise zu Warnungen und Gegenanzeigen sind in den zusammengestellten Daten nicht enthalten; bitte die Fachinformation heranziehen.
 
-Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) ist die Fachinformation heranzuziehen.
+- **Wechselwirkungen**: Verzeichnet ist lediglich die pharmakologische Zielstruktur, der CaS-Rezeptor (CASR). Klinisch relevante Arzneimittelwechselwirkungen sind nicht angegeben.
 
 ---
 
@@ -111,26 +108,14 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) ist die Fach
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Verbindung zwischen Etelcalcetid und Hyperphosphatämie ist biologisch plausibel, aber vermutlich indirekt.
+Die einzige Arbeit, die die Hyperphosphatämie direkt untersucht, ist eine präklinische Studie (Evidenzgrad L4). Die klinischen Daten betreffen den sekundären Hyperparathyreoidismus, und ein möglicher Phosphateffekt dürfte indirekt sein.
 
-**Für ein Weiterkommen sind folgende Schritte nötig:**
-- Auswertung der Phosphat-Endpunkte aus bestehenden RCTs (z. B. DUET) und Zulassungsstudien
+**Für ein Fortschreiten sind erforderlich:**
+- Auswertung der Phosphat-Endpunkte aus vorhandenen Studien, insbesondere der DUET-Studie
+- Klinische Studien mit Serumphosphat als primärem Endpunkt
 - Detaillierte Daten zum Wirkmechanismus
-- Fachinformation mit Warnhinweisen und Gegenanzeigen (derzeit blockierende Datenlücke für das Sicherheits-Screening)
-- Klärung des Zulassungsstatus in Deutschland
-- Gegebenenfalls Planung einer klinischen Studie mit Serumphosphat als primärem Endpunkt
+- Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen (u. a. Hypokalzämie, QT-Verlängerung)
 
----
-
-### Weitere vorhergesagte Indikationen (nur Modellvorhersage, ohne Evidenz)
-
-| Indikation | TxGNN-Wert | Evidenzstufe | Empfehlung |
-|------|------|------|------|
-| Ösophagusvarizen ohne Blutung | 0,9935 | L5 | Hold |
-| Ösophagusvarizen mit Blutung | 0,9935 | L5 | Hold |
-| Varikose | 0,9909 | L5 | Hold |
-
-Für diese Vorhersagen ist kein mechanistischer Zusammenhang erkennbar, und es liegen weder Studien noch Literatur vor.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

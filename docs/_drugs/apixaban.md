@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Apixaban
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 35
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
-description: "Apixaban: vorhergesagte neue Indikation Migräne (migraine disorder) (Evidenzstufe L4). Ursprüngliche Indikation: Venöse Thromboembolie, Schlaganfall, Arthroplastik"
+last_modified_at: 2026-11-04
 monitor_inn: "APIXABAN"
 predicted_indications: ["migraine disorder"]
+description: "Apixaban: vorhergesagte neue Indikation Migräne (migraine disorder) (Evidenzstufe L5). Ursprüngliche Indikation: Venous Thromboembolism"
 ---
 
 # Apixaban
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,23 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-## Apixaban: Von Venöser Thromboembolie zu Migräne
+## Apixaban: Migräne (migraine disorder)
 {: .text-alpha }
 
 ## Zusammenfassung
 
-Apixaban ist ein oraler Gerinnungshemmer, der ursprünglich zur Behandlung und Vorbeugung venöser Thromboembolien, zur Schlaganfallprävention und nach Gelenkersatzoperationen (Arthroplastik) eingesetzt wurde.
-Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei **Migräne** wirksam sein könnte.
-Die Evidenz ist jedoch schwach: Es liegt **1 klinische Studie** mit nur indirektem Bezug vor, dazu **3 Publikationen**, von denen zwei Einzelfallberichte sind und **gegen** einen Nutzen von Apixaban sprechen.
+Apixaban ist ein direkter oraler Faktor-Xa-Inhibitor, der als Antikoagulans eingesetzt wird. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Migräne (migraine disorder)** voraus (Score 0,9902). Für diese Richtung gibt es jedoch keine unterstützende Evidenz (**Evidenzstufe L5**): Die beiden verfügbaren Fallberichte beschreiben eine Migräne mit Aura, die unter Apixaban eher schlechter wurde oder nicht abklang.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Venöse Thromboembolie, Schlaganfall, Arthroplastik |
+| Ursprüngliche Indikation | Venous Thromboembolism;Stroke;Arthroplasty; Arthroplasty;Venous Thromboembolism |
 | Vorhergesagte neue Indikation | Migräne (migraine disorder) |
-| TxGNN-Vorhersagewert | 0,9902 |
-| Evidenzstufe | L4 |
+| TxGNN-Vorhersagewert | 0.9902 |
+| Evidenzstufe | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
 | Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
@@ -60,29 +58,29 @@ Die Evidenz ist jedoch schwach: Es liegt **1 klinische Studie** mit nur indirekt
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zur Wirkungsweise von Apixaban liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Apixaban zu den direkten oralen Antikoagulanzien (Faktor-Xa-Hemmer) gehört und seine Wirksamkeit bei der Vorbeugung von Thromboembolien belegt ist.
+Der hohe TxGNN-Wert von 0,9902 beruht auf einer graphbasierten Modellvorhersage und ist kein klinischer Beleg. Zum Wirkmechanismus von Apixaban liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Der mechanistische Zusammenhang lässt sich daher nicht anhand der Pharmakologie des Wirkstoffs prüfen.
 
-Ein denkbarer Zusammenhang besteht zwischen Migräne mit Aura und paradoxen Embolien über ein offenes Foramen ovale (PFO) oder einem prothrombotischen Zustand, etwa bei Antiphospholipid-Antikörpern. In diesem Fall könnte eine Antikoagulation mikroembolische Ereignisse theoretisch verringern.
+Denkbar ist ein Zusammenhang zwischen Migräne mit Aura und paradoxen Embolien über ein offenes Foramen ovale (PFO) oder einen prothrombotischen Zustand, etwa bei Antiphospholipid-Antikörpern. In diesem Fall könnte eine Antikoagulation theoretisch Mikroembolien verringern.
 
-Die vorliegenden Fallberichte stützen diese Hypothese allerdings nicht: Ein Bericht beschreibt eine Verschlechterung der Migräne mit Aura nach Beginn von Apixaban, ein weiterer eine Remission unter Warfarin, aber nicht unter Apixaban. Ein möglicher Nutzen scheint daher kein Klasseneffekt der Antikoagulation zu sein und gilt möglicherweise nicht für die direkte Faktor-Xa-Hemmung. Der hohe TxGNN-Wert ist eine graphbasierte Vorhersage und kein klinischer Beleg.
+Die vorliegenden Fallberichte stützen diese Hypothese nicht. Ein Bericht beschreibt eine Verschlechterung der Migräne mit Aura nach Beginn von Apixaban. Ein anderer beschreibt eine Beschwerdefreiheit unter Warfarin, nicht aber unter Apixaban. Ein möglicher Nutzen wäre demnach kein Klasseneffekt der Antikoagulation und träfe auf die direkte Faktor-Xa-Hemmung möglicherweise nicht zu.
 
 ---
 
-## Evidenz aus klinischen Studien
+## Klinische Studienevidenz
 
-| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Ergebnisse |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) | Phase 3 | Abgeschlossen | 664 | Verschluss eines offenen Foramen ovale oder Antikoagulation versus Thrombozytenaggregationshemmung zur Vermeidung erneuter Schlaganfälle. Migräne war weder primäres Ziel noch Endpunkt; der Antikoagulationsarm war vermutlich Warfarin-basiert. Nur indirekte Evidenz. |
+| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) | Phase 3 | Abgeschlossen | 664 | Verschluss des offenen Foramen ovale oder Antikoagulation versus Thrombozytenaggregationshemmung zur Verhinderung eines erneuten Schlaganfalls. Migräne war weder primäre Indikation noch Endpunkt; Apixaban wurde nicht gezielt bei Migräne geprüft. Nur indirekte Evidenz. |
 
 ---
 
 ## Literaturevidenz
 
-| PMID | Jahr | Typ | Zeitschrift | Zentrale Ergebnisse |
+| PMID | Jahr | Typ | Fachzeitschrift | Kernaussagen |
 |------|-----|------|------|---------|
-| [33402037](https://pubmed.ncbi.nlm.nih.gov/33402037/) | 2021 | Retrospektive Studie (75 Patienten) | Lupus | Antithrombotische Therapie bei therapierefraktärer Migräne mit Antiphospholipid-Antikörpern; Design und Wirkstoffarme anhand der vorliegenden Angaben nicht bestätigt. |
-| [28960288](https://pubmed.ncbi.nlm.nih.gov/28960288/) | 2017 | Fallbericht | Headache | Migräne mit Aura in Remission unter Warfarin, Rückkehr der Symptome unter Apixaban, erneute Besserung nach Rückkehr zu Warfarin. |
-| [37582651](https://pubmed.ncbi.nlm.nih.gov/37582651/) | 2023 | Fallbericht mit Literaturübersicht | The Neurologist | Verschlechterung einer Migräne mit Aura nach Beginn von Apixaban; die Datenlage zu direkten oralen Antikoagulanzien bei Migräne ist spärlich und uneinheitlich. |
+| [37582651](https://pubmed.ncbi.nlm.nih.gov/37582651/) | 2023 | Fallbericht mit Literaturübersicht | The Neurologist | Migräne mit Aura verschlechterte sich nach Beginn von Apixaban; die Literatur zu direkten oralen Antikoagulanzien bei Migräne ist spärlich und uneinheitlich. |
+| [28960288](https://pubmed.ncbi.nlm.nih.gov/28960288/) | 2017 | Fallbericht | Headache | Migräne mit Aura bildete sich unter Warfarin zurück, kehrte aber nach dem Wechsel auf Apixaban wieder und verschwand nach erneuter Gabe von Warfarin. |
+| [33402037](https://pubmed.ncbi.nlm.nih.gov/33402037/) | 2021 | Retrospektive Studie (75 Patienten) | Lupus | Antithrombotische Therapie bei therapierefraktärer Migräne mit Antiphospholipid-Antikörpern; Studiendesign und eingesetzte Wirkstoffe sind nicht bestätigt. |
 
 ---
 
@@ -93,17 +91,15 @@ Die vorliegenden Fallberichte stützen diese Hypothese allerdings nicht: Ein Ber
 | EMEA/H/C/005358 | Apixaban Accord | – | Venöse Thromboembolie, Schlaganfall, Arthroplastik |
 | EMEA/H/C/002148 | Eliquis | – | Arthroplastik, venöse Thromboembolie |
 
-Beide Zulassungen sind laut den Daten erloschen (Status „cancelled“).
-
 ---
 
 ## Sicherheitsaspekte
 
-- **Arzneimittelwechselwirkungen:** Insgesamt wurden 100 Wechselwirkungen erfasst. Ausgewählte Beispiele:
-  - **Schwerwiegend (Major):** Acetylsalicylsäure, Cobicistat, Deferasirox, Ibritumomab tiuxetan, Tositumomab (I-131)
-  - **Moderat:** u. a. Aprepitant, Clarithromycin, Clotrimazol, Dexamethason, Miconazol, Rolapitant
+- **Arzneimittelwechselwirkungen** (100 Wechselwirkungen in der Abfrage erfasst; Auswahl):
+  - Schwerwiegend (Major): Acetylsalicylsäure, Cobicistat, Deferasirox, Ibritumomab tiuxetan, Tositumomab, Tositumomab (I-131)
+  - Moderat: Aprepitant, Clarithromycin, Clotrimazol, Dexamethason, Dexfenfluramin, Eliglustat, Fenfluramin, Miconazol, Rolapitant, Sibutramin, Troglitazon, Iodid I-123, Iodid I-131, Sugammadex
 
-Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
+Für Warnhinweise und Gegenanzeigen siehe die Fachinformation.
 
 ---
 
@@ -112,14 +108,14 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht allein auf einem Graphmodell. Die einzige Studie hat nur indirekten Bezug, und die beiden Fallberichte zu Apixaban sprechen eher gegen einen Nutzen. Zudem sind die in Deutschland geführten Zulassungen erloschen und die Sicherheitsdaten aus der Fachinformation fehlen.
+Die Vorhersage beruht allein auf einem Modellwert; keine Studie belegt einen Nutzen von Apixaban bei Migräne (Evidenzstufe L5). Die vorliegenden Fallberichte sprechen eher gegen eine Wirksamkeit, da sich die Migräne unter Apixaban verschlechterte oder nicht abklang.
 
-**Für ein Weiterkommen ist erforderlich:**
-- Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) für die Sicherheitsprüfung
-- Daten zum Wirkmechanismus (MOA) aus DrugBank
-- Kontrollierte Studien zu Apixaban bei Migräne, idealerweise in Subgruppen mit PFO oder Antiphospholipid-Antikörpern
-- Klärung des aktuellen Zulassungs- und Marktstatus in Deutschland
-- Klärung von Studiendesign und Wirkstoffarmen der Lupus-Studie (PMID 33402037)
+**Für ein Weiterkommen wären erforderlich:**
+- Kontrollierte Studien, die Apixaban direkt bei Migräne untersuchen
+- Daten zum Wirkmechanismus von Apixaban, um den mechanistischen Zusammenhang zu prüfen
+- Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
+- Klärung, ob bestimmte Patientengruppen (z. B. mit PFO oder Antiphospholipid-Antikörpern) profitieren könnten
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
