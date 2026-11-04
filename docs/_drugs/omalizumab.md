@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Omalizumab
-parent: Mittlere Evidenz (L3-L4)
+parent: Nur Modellvorhersage (L5)
 nav_order: 328
-evidence_level: L3
+evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
-description: "Omalizumab: vorhergesagte neue Indikation Bronchitis (Evidenzstufe L1). Ursprüngliche Indikation: Asthma"
+last_modified_at: 2026-11-04
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
+description: "Omalizumab: vorhergesagte neue Indikation Bronchitis (Evidenzstufe L5). Ursprüngliche Indikation: Asthma"
 ---
 
 # Omalizumab
 {: .fs-9 }
 
-Evidenzniveau: **L3** | Vorhergesagte Indikationen: **9** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,102 +33,81 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-## Omalizumab: Von Asthma/Urtikaria zu Bronchitis
+## Omalizumab: Bronchitis
 {: .text-alpha }
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Omalizumab ist ein monoklonaler Anti-IgE-Antikörper, der ursprünglich zur Behandlung von Asthma und Urtikaria (in einer Zulassung auch Rhinitis) eingesetzt wurde. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Bronchitis** voraus. Dafür liegen jedoch nur **2 indirekte klinische Studien** und **7 überwiegend asthmabezogene Publikationen** vor, sodass die Evidenz für Bronchitis sehr schwach ist.
+Omalizumab ist ein humanisierter monoklonaler Antikörper, der freies IgE bindet und vor allem bei allergischen Erkrankungen eingesetzt wird. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Bronchitis (bronchitis)** voraus. Die Evidenz dafür ist jedoch dünn: Es liegen **2 zugeordnete klinische Studien** und **7 zugeordnete Publikationen** vor, die sich überwiegend mit Asthma und nicht mit Bronchitis befassen. Die Evidenzstufe ist **L5**.
 
----
-
-## Schnellübersicht
+## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Asthma; Urtikaria (Xolair zusätzlich: Rhinitis) |
+| Ursprüngliche Indikation | Asthma;Urticaria; Asthma;Urticaria;Rhinitis |
 | Vorhergesagte neue Indikation | Bronchitis |
-| TxGNN-Vorhersagewert | 1,0000 |
-| Evidenzstufe | L3 (laut Datenlage für Bronchitis jedoch faktisch nur indirekte Evidenz) |
+| TxGNN-Vorhersagewert | 1.0000 |
+| Evidenzstufe | L5 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
 | Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
-Hinweis: Für die weitere Priorisierung bieten die für diesen Bericht zusammengestellten Daten weitaus stärkere Kandidaten als Bronchitis (siehe Abschnitt „Weitere vorhergesagte Indikationen“).
-
----
-
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben aus der Arzneistoffdatenbank vor. Aus der Pharmakologie ist bekannt: Omalizumab bindet freies IgE (Zielstruktur: Immunglobulin-Schwerkette Epsilon, IGHE) und verringert dadurch die FcεRI-vermittelte Aktivierung von Mastzellen und Basophilen. Dies ist bei allergischer Atemwegsentzündung relevant.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Omalizumab freies IgE bindet und dadurch die Aktivierung von Mastzellen und Basophilen über den hochaffinen IgE-Rezeptor (FcεRI) verringert. Das ist für allergische Entzündungen der Atemwege relevant.
 
-Die verknüpfte Evidenz betrifft überwiegend Asthma (einschließlich Asthma-COPD-Überlappung), nicht Bronchitis als eigenständige Erkrankung. Ein Nutzen wäre allenfalls bei allergischen oder eosinophilen Phänotypen mit IgE-Komponente zu erwarten, etwa bei eosinophiler Bronchitis. Der sehr hohe Wert des TxGNN-Modells (Deep Learning) spiegelt möglicherweise Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat, und ist kein biologischer Beleg für eine direkte Wirkung bei Bronchitis.
+Ein Nutzen bei Bronchitis wäre daher am ehesten bei allergischen oder eosinophilen Verlaufsformen mit IgE-Beteiligung denkbar. Die verknüpfte Evidenz betrifft aber überwiegend Asthma, auch in Überlappung mit COPD, und nicht Bronchitis als eigenständige Erkrankung. Der hohe Vorhersagewert spiegelt wahrscheinlich die Nähe zu Asthma im Modell wider und nicht direkte Belege für Bronchitis.
 
----
+## Evidenz aus klinischen Studien
 
-## Klinische Studien
-
-| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
+| Studiennummer | Phase | Status | Teilnehmer | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT02049294](https://clinicaltrials.gov/study/NCT02049294) | Phase 2/3 | Abgeschlossen | 11 | Placebokontrollierte Studie zum steroidsparenden Effekt von Omalizumab bei Asthma mit eosinophiler Bronchitis; sehr klein, für Bronchitis nur indirekt aussagekräftig |
-| [NCT02477332](https://clinicaltrials.gov/study/NCT02477332) | Phase 2 | Abgeschlossen | 382 | Dosisfindungsstudie (Phase 2b) mit QGE031 bei chronischer spontaner Urtikaria; nicht bronchitisspezifisch |
+| [NCT02049294](https://clinicaltrials.gov/study/NCT02049294) | Phase 2/3 | Abgeschlossen | 11 | Placebokontrollierte Studie zum Steroid-sparenden Effekt von Omalizumab bei Patienten mit Asthma und eosinophiler Bronchitis; sehr kleine Stichprobe, nur indirekter Bezug zur Bronchitis |
+| [NCT02477332](https://clinicaltrials.gov/study/NCT02477332) | Phase 2 | Abgeschlossen | 382 | Dosisfindungsstudie (QGE031) bei chronischer spontaner Urtikaria; kein Bezug zur Bronchitis |
 
----
+Keine der Studien belegt eine Wirksamkeit von Omalizumab bei Bronchitis.
 
 ## Literaturevidenz
 
 | PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
+| [35369622](https://pubmed.ncbi.nlm.nih.gov/35369622/) | 2022 | Kohortenstudie | Postepy Dermatol Alergol | Omalizumab bei älteren Patienten mit schwerem allergischem Asthma-COPD-Overlap |
 | [21121874](https://pubmed.ncbi.nlm.nih.gov/21121874/) | 2011 | Gepoolte Sicherheitsanalyse | Curr Med Res Opin | Sicherheit und Verträglichkeit von Omalizumab bei Kindern mit allergischem Asthma |
-| [35369622](https://pubmed.ncbi.nlm.nih.gov/35369622/) | 2022 | Kohortenstudie | Postepy Dermatol Alergol | Omalizumab bei mittelalten/älteren Patienten mit schwerem allergischem Asthma-COPD-Overlap |
-| [16222080](https://pubmed.ncbi.nlm.nih.gov/16222080/) | 2005 | Review | Clin Rev Allergy Immunol | Zulassung und Erfahrungen nach Zulassung bei Asthma |
-| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Review | Expert Opin Pharmacother | Asthma bei rauchinduzierten Atemwegserkrankungen (u. a. chronische Bronchitis) |
+| [16222080](https://pubmed.ncbi.nlm.nih.gov/16222080/) | 2005 | Review | Clin Rev Allergy Immunol | Zulassung und Erfahrungen mit Omalizumab bei Asthma |
+| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Review | Expert Opin Pharmacother | Asthma-Management bei rauchbedingten Atemwegserkrankungen, darunter chronische Bronchitis |
 | [26466493](https://pubmed.ncbi.nlm.nih.gov/26466493/) | 2015 | Review | Masui | Präoperatives Management bei Asthma oder chronischer Bronchitis |
 | [17663923](https://pubmed.ncbi.nlm.nih.gov/17663923/) | 2007 | Review | Allergol Immunopathol | Monoklonale Antikörper in der Pädiatrie |
 | [31478531](https://pubmed.ncbi.nlm.nih.gov/31478531/) | 2019 | Fallbericht | J Investig Allergol Clin Immunol | Seltener Fall einer plastischen Bronchitis nach bronchialer Thermoplastie |
 
----
+Keine dieser Publikationen untersucht Omalizumab als Behandlung der Bronchitis.
 
-## Informationen zum deutschen Markt
+## Marktinformationen Deutschland
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/005958 | Omlyclo | – | Asthma; Urtikaria (gültig) |
 | EMEA/H/C/000606 | Xolair | – | Asthma; Urtikaria; Rhinitis (gültig) |
 
-Beide Zulassungen sind laut den vorliegenden Daten erloschen.
-
----
-
 ## Sicherheitsaspekte
 
-- **Arzneimittelwechselwirkungen** (8 Einträge): Überwiegend geringfügig (Zinksulfat, Zinkacetat, Zinkgluconat, Zinkchlorid, Echinacea, Vitamin E). **Moderate** Wechselwirkung mit Omacetaxin-Mepesuccinat. Zusätzlich ist die pharmakologische Zielstruktur IGHE (Immunglobulin-Schwerkette Epsilon) aufgeführt.
+**Arzneimittelwechselwirkungen** (8 Einträge in den zusammengestellten Daten):
+- Moderat: Omacetaxin-mepesuccinat
+- Gering: Zinksulfat, Zinkacetat, Zinkgluconat, Zinkchlorid, Echinacea, Vitamin E
 
-Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
-
----
-
-## Weitere vorhergesagte Indikationen (zur Einordnung)
-
-| Indikation | Evidenzstufe | Empfehlung | Anmerkung |
-|------|------|------|------|
-| Atopisches Ekzem / Dermatitis | L2 | Research Question | Phase-4-Studie bei Kindern ([NCT02300701](https://clinicaltrials.gov/study/NCT02300701)); uneinheitliche Ergebnisse, Leitlinien reihen Omalizumab hinter IL-4/IL-13- und JAK-Hemmer; beide Einträge teilen weitgehend dieselbe Evidenz |
-| Bronchialneoplasma, Akne keloid u. a. | L5 | Hold | Keine plausible Mechanistik oder Evidenz |
-
----
+Zu Warnhinweisen und Gegenanzeigen siehe die Fachinformation.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Für Bronchitis gibt es keine direkte Evidenz: Die beiden zugeordneten Studien sind klein bzw. nicht bronchitisspezifisch, die Literatur betrifft vor allem Asthma. Der hohe Wert des TxGNN-Modells (Deep Learning) spiegelt möglicherweise Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat, und ist kein biologischer Beleg. Beide deutschen Zulassungen sind gültig, das Arzneimittel ist im Handel.
+Es gibt keine publizierte Studie, die eine Wirksamkeit von Omalizumab bei Bronchitis stützt. Die vorhandenen Studien und Arbeiten betreffen Asthma, Asthma-COPD-Overlap oder sind Übersichtsarbeiten. Der hohe Vorhersagewert allein reicht daher nicht aus (Evidenzstufe L5).
 
 **Für ein Weiterkommen sind erforderlich:**
-- Kontrollierte Studien bei eosinophiler/allergischer Bronchitis mit definierten IgE-Phänotypen
-- Detaillierte Mechanismusdaten (MOA) aus der Arzneistoffdatenbank
-- Fachinformation des BfArM mit Warnhinweisen und Gegenanzeigen (derzeit nicht verfügbar; blockierende Datenlücke für die Sicherheitsprüfung)
-- Klärung des aktuellen Zulassungs- und Vermarktungsstatus in Deutschland
+- Kontrollierte klinische Studien bei klar definierten Bronchitis-Phänotypen (z. B. allergisch oder eosinophil mit IgE-Beteiligung)
+- Daten zum Wirkmechanismus
+- Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation des BfArM
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
