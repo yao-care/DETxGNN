@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-04T16:56:46.049551+00:00",
+  "fetched_at": "2026-11-04T22:29:32.928577+00:00",
   "source": "Google News Health RSS",
-  "count": 31,
+  "count": 33,
   "articles": [
     {
       "id": "2573a0f41494",
@@ -11,6 +11,16 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "8ed581a140cf",
+      "title": "Ein Medikament für die Tonne? Blister & Co. richtig entsorgen - oekotest.de",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRWF3MFc1OVVXMklkdUZpMkdybTk4aUIyVE82ZTI2YUtPTl95M2U3TjVIREEteXQ3clpXNV8xdldmODB1bmh3cE9kd2NOYS1keTNOSnU4OFhyMHFjRGYwek5ZQUZRdzMzOFEtNkNRVjR1Q3NYYzE3OXBiNFg1S3V1eWJsQ0dHdmJfYV9DTXI1bVJFdERmbWpmdGdZRVpucW9oV0hMM0RGWm5ySzFwbHRfUUplT0p1RFlGV0xz?oc=5",
+      "published": "2026-11-04T09:11:14+00:00",
+      "source": {
+        "name": "oekotest.de",
+        "url": "https://www.oekotest.de"
       }
     },
     {
@@ -34,6 +44,16 @@
       }
     },
     {
+      "id": "088d7e6ec53d",
+      "title": "Medi24-Übernahme: DocMorris kündigt europaweite Telemed-Expansion an - Ärzte Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNenhYbjQ1engyVnFYNlhXVFNqRjAzOVp0WmVDQ1VaNGJtbUJGWlB0Q3Y5N0VTOWMzMUl2dmtUSmFUY1hOM2NqdDRrY1pzTWF1ZFBtcE9jMDl1Yi0tMVIzaUVyeUduTDZEU25TdlotY3BuU0hhQmx1WWNFS2RVSjU1cTBMaElhYmxYcDkxa3o4MDNNZ2I0UWVTM3o5bUtBRHlBZUpuMC1lTlJyWGVFSU5jcktxZmlSRmdDSFBIYlFB?oc=5",
+      "published": "2026-11-04T12:46:55+00:00",
+      "source": {
+        "name": "Ärzte Zeitung",
+        "url": "https://www.aerztezeitung.de"
+      }
+    },
+    {
       "id": "4d67948e6db6",
       "title": "Gesundheit wird 2027 teurer: Diese Mehrkosten kommen auf Millionen Versicherte zu - DerWesten",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVzdmdmpsZXBTTUVydjZiYjE0bHp2Q19fZkNOQTI5cmc2SVRvWlp2UVVhRFFMQ3Z4Qm5UYWpWd2Y5TFN2eVlwa3NNRm5peFBvLWZnbkxGUkItR1lPaFE5Z3hKMFo5Ul8ySGJ6aUhqT0QyakR4VjBKb0RVTnJsTXRJaWtWY3pXdEJacHZCOGV5S0Zwa2VENV9sY3hEd1E2aWZOdWswaUtFY3Jqb1BGTjdOd0xma1FsUnc?oc=5",
@@ -54,36 +74,6 @@
       }
     },
     {
-      "id": "b2703be2615b",
-      "title": "Apotheker hoffen, ärztliches Dispensierrecht doch noch zu verhindern - Ärzte Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeU9OalR0ai1NclJQamw1UEQweVItZUM0ZHFRT0ZHRXdWYkVYSlFheTlEZkdoWXNkSnUzcGx4ZmtoaTJuQ1dFRDg4MmhyaGJjcklqd3hHSWplVXpLTDczc0oyb0g2OER1bExBY2FrQjhIUi13cFRqWFJvWTZHSDNxTUdnWFk4TDhJdTVfb0pBNVR5R2hyNGxUS3RVUEotbURUX0JOdXdsWW9fWWFmZU1ERmRyeW9pcEwzT2VaWA?oc=5",
-      "published": "2026-11-03T15:25:06+00:00",
-      "source": {
-        "name": "Ärzte Zeitung",
-        "url": "https://www.aerztezeitung.de"
-      }
-    },
-    {
-      "id": "9fa13ce5acf5",
-      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
-      "published": "2026-03-31T20:25:43+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "bda234f578ee",
-      "title": "Blutdruck im Blick: Welche Werte als gut gelten – und was Sie selbst dafür tun können - oekotest.de",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSTBIQ2I1SXM5Z3VTMmhqWDRfSXZDUF9fUkcwZDJlbThoRTBzNmZTRzNDR1o3VjJIc2JYMDBDaGl0ZWh6OUY2N2JVRVVieUYzZTg1VjdVRzRoSHJSVTJRbXVIM2ZDXzE5QW5ReWJ2UTVZam9fVHB6MHdkcUZGeWdsbFVtMWpWVVRNSkJtejd3S0lsaExGZlMxVWNyYUpydVp3d3VqSjZiUnBMOUlUNWJsZmVLaGhONUFEZm9kMHlRTldxWVZWVHlWc2RtVmlWT216Y3lQcEFEQ2tzSHgzekE?oc=5",
-      "published": "2026-11-02T09:26:17+00:00",
-      "source": {
-        "name": "oekotest.de",
-        "url": "https://www.oekotest.de"
-      }
-    },
-    {
       "id": "628f9b4b3c6e",
       "title": "Medizinische Nachrichten vom 4. November: Beseitigung von Hindernissen bei der Arzneimittelkennzeichnung, Erleichterung der Impfstoffversorgung. - Vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVGNRRkZNdWNqWmZUTmljdldESk1GM21SYW5mek5HZzNDWHlIc0ZJdUNsOGRCWnlzUmxYUXdfT1U2U1BjN3N5ZkI4TTgtemtiQXpXcnV4VTdqaE5sb09HRkFiZ0dJei1ZSmJCR1VGZWR2d214blhFZ2hmNWpxYThxa2ZhUGRVZFhlbWhqTkZCX1V0bzlqdE9paVJxR2JyUi0tMDNleHJOVFE2R3E3M3RiTjczOEo?oc=5",
@@ -94,23 +84,13 @@
       }
     },
     {
-      "id": "4e6d48112005",
-      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
-      "published": "2026-05-22T07:00:00+00:00",
+      "id": "d076c5f1dada",
+      "title": "20-jährige Tochter hungerte, um Parkinson-Medikamente ihres Vaters zu bezahlen - Merkur",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeVRIVHo1SUtZTFBsM0d3aGdmLUpCU2FZSmdxRVc2Vlp6UTJaeDBkX3o3WEZWbk1RYURLZEtpeWh5T2xGUDhmZmhTNF83b3A1UFhmSklPNjZnNVJnbFlXUGpGTXZtNTdHaWF5dURRQzcydTdiNFhIelAxdmlnMWljZUhrTFJaX2VuYTc0OVMxbHZFNnJuZ2dDeW1zYmhZMFd5VDhpRWxjYlA4b0kxcERJ?oc=5",
+      "published": "2026-11-01T17:00:00+00:00",
       "source": {
-        "name": "Bundesministerium für Gesundheit (BMG)",
-        "url": "https://www.bundesgesundheitsministerium.de"
-      }
-    },
-    {
-      "id": "87a662b7ddb7",
-      "title": "Mega-Deal in Bad Homburg: Das plant Fresenius - Hit Radio FFH",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc0hfWnZHbEw3WjZuXzg0YU96LXVOUjRvY1FnWnVGbEhSV0FYN09WTlpBaENKU2F0X2VVa2NjRndGTFZUd1I5dU5KLXBpR0xHa1IwVUpuWHc0elZwbmhmVkkxc1piNlNvdGFwTm04UWp0UTNvSEcwSFBfX0otZXhCVERwX1htNEF2b21zM3hyelcyUm1VVjEyVGpSWDZrMEZfRVZMeEd2TEFkQ1d5eUNnRUFfb2lmb0Ut?oc=5",
-      "published": "2026-11-02T09:26:29+00:00",
-      "source": {
-        "name": "Hit Radio FFH",
-        "url": "https://www.ffh.de"
+        "name": "Merkur",
+        "url": "https://www.merkur.de"
       }
     },
     {
@@ -134,43 +114,63 @@
       }
     },
     {
-      "id": "e5835a315f52",
-      "title": "Arzneimittel - Klinische Prüfung - Bezirksregierung Düsseldorf",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQanJqVmFoa1RDaGJaamxwcFU0MUpaZ0RkV2V5SnZRSW9VdzBWdHMwelVRdnlfWUc5WlN6TXFNc0hRNXY1YmRWQ2czQ0N3UG94Zlh6OXAzQlRtVUVTb2RkckNNWjh0TzBrWl9ESENaeGN6LVo4VERrdkdiQ19jT0dnZWx4RnJ3cUtTRFloY3p2OG1NQjFKRkptajhfWXFqeHo1TEx0OEJ4S1JYRVQyc2JBTmt4a2FNNmpFWjhJVg?oc=5",
-      "published": "2026-03-19T01:38:59+00:00",
+      "id": "d54784e2d98d",
+      "title": "Einsparziel erreicht – jetzt die Versorgung langfristig sichern - Presseportal.ch",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjTUFKUXpOU3pKeHU4N1ZZbkJtc3M2WGJzTUs4UWdxa1EtS09PSXpYYWIxV3kxeElVUU8xNTRoN0xpWXVBckk4cktXUHRLVjA0Um9zZkp5VlFlRnlKcUxVbzNfSQ?oc=5",
+      "published": "2026-11-02T15:23:17+00:00",
       "source": {
-        "name": "Bezirksregierung Düsseldorf",
-        "url": "https://www.brd.nrw.de"
+        "name": "Presseportal.ch",
+        "url": "https://www.presseportal.ch"
       }
     },
     {
-      "id": "9f7c377ed6d2",
-      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
-      "published": "2026-04-16T07:55:26+00:00",
+      "id": "8b46c8ffa7cb",
+      "title": "Ein Jahr Alzheimer-Antikörper: Was sich getan hat - Ärzte Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPN2ZoUlc0VUw3cTNTSTFJMW9ibmNmQTUwT1V2Mm9pYzhuT2NzUWQwOGJZYWRXY0F6VkZOaExDM1hoVTFNdFF0dEdGNjEyX2lJM0pfZ0JodTRGdE9EU3pJNDM3amU1WnlvcmlIaC1IWjNEdkVMRWp3NU1LVDc0SkV4dEVFZF82aWF4Z1BkR2l5T1ZlNE8yVVVYdzRJX1NIdDQ?oc=5",
+      "published": "2026-11-04T11:54:56+00:00",
       "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "f64329720d0a",
-      "title": "AOK-Umfrage: Viel Zustimmung für Weitergabe von Gesundheitsdaten aus ePA zur Forschung - AerzteZeitung.de",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeGd6NHZKNmVRbHViTlIzWW43YzdFZnktMkJEVzZQaFVCWXF2MnBMd0c4VVJtM1FiUko2QU9rMXRmTV9jWjVPVEtCNllyWjgwbzFLMF9QZ3hMWXVOUmFqZEJVR1AzQUJ4LU54OWxKdnBweHJKSk1LSHFjZUNCeE1UY21LZHFiU0tNWmF1SmtBSEdJNEtBcWgzblkzbm8tWHdWbWZ1YmpaeUlvNERpcm16YUhIWjZCRWpndjUwMXZtTmlJV19Nblg1cXpB?oc=5",
-      "published": "2026-11-02T12:43:00+00:00",
-      "source": {
-        "name": "AerzteZeitung.de",
+        "name": "Ärzte Zeitung",
         "url": "https://www.aerztezeitung.de"
       }
     },
     {
-      "id": "432315fa2251",
-      "title": "Erstmals Medikament gegen Fettleber zugelassen - tagesschau.de",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQnhCQmdtRXhCd0ZKc1FDYzViaTZEblZ5TjJNWDBvZ3ptX2g0OENQemNDUk1sWGh5T1FrOEtvaGtSSDItcXlieVd0cDVfdDF0a2U3clFWSGlvd21wUWtwVzI4UEZIZ1BBUlVJSC16SExXaWFDTlF6YlNjMk96a2pEYnpVRm1rQQ?oc=5",
-      "published": "2025-11-20T08:00:00+00:00",
+      "id": "bda234f578ee",
+      "title": "Blutdruck im Blick: Welche Werte als gut gelten – und was Sie selbst dafür tun können - oekotest.de",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSTBIQ2I1SXM5Z3VTMmhqWDRfSXZDUF9fUkcwZDJlbThoRTBzNmZTRzNDR1o3VjJIc2JYMDBDaGl0ZWh6OUY2N2JVRVVieUYzZTg1VjdVRzRoSHJSVTJRbXVIM2ZDXzE5QW5ReWJ2UTVZam9fVHB6MHdkcUZGeWdsbFVtMWpWVVRNSkJtejd3S0lsaExGZlMxVWNyYUpydVp3d3VqSjZiUnBMOUlUNWJsZmVLaGhONUFEZm9kMHlRTldxWVZWVHlWc2RtVmlWT216Y3lQcEFEQ2tzSHgzekE?oc=5",
+      "published": "2026-11-02T09:26:17+00:00",
       "source": {
-        "name": "tagesschau.de",
-        "url": "https://www.tagesschau.de"
+        "name": "oekotest.de",
+        "url": "https://www.oekotest.de"
+      }
+    },
+    {
+      "id": "fbb62a1183f5",
+      "title": "PharmaTher plant 3D-gedruckte Peptidtabletten mit gezielter Wirkstoffabgabe - 3Druck.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbzk2S2M0Z2ZxVlpGc0Nsb2Vndm9IVHp3UjdEeTE0N280WVJwSzdabEs0TTZQX3dpcDk4RnRydEU3TTRZX1dHeTZPa2QwMVE5MnVPT1AtUGdUa2J2Ql91ZDRsYTVBMW1BSnV3YUhsT3VDM000Rm44MzBiLTlkNklnZ3ZFazc3ajBwQURNaFlvT0RUdEcxRE9QTmJiRlQ5aXk4Y3RON2YxQWU0TTFsUkg0ZmNR?oc=5",
+      "published": "2026-11-02T12:20:09+00:00",
+      "source": {
+        "name": "3Druck.com",
+        "url": "https://3druck.com"
+      }
+    },
+    {
+      "id": "4e6d48112005",
+      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
+      "published": "2026-05-22T07:00:00+00:00",
+      "source": {
+        "name": "Bundesministerium für Gesundheit (BMG)",
+        "url": "https://www.bundesgesundheitsministerium.de"
+      }
+    },
+    {
+      "id": "b2703be2615b",
+      "title": "Apotheker hoffen, ärztliches Dispensierrecht doch noch zu verhindern - Ärzte Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeU9OalR0ai1NclJQamw1UEQweVItZUM0ZHFRT0ZHRXdWYkVYSlFheTlEZkdoWXNkSnUzcGx4ZmtoaTJuQ1dFRDg4MmhyaGJjcklqd3hHSWplVXpLTDczc0oyb0g2OER1bExBY2FrQjhIUi13cFRqWFJvWTZHSDNxTUdnWFk4TDhJdTVfb0pBNVR5R2hyNGxUS3RVUEotbURUX0JOdXdsWW9fWWFmZU1ERmRyeW9pcEwzT2VaWA?oc=5",
+      "published": "2026-11-03T15:25:06+00:00",
+      "source": {
+        "name": "Ärzte Zeitung",
+        "url": "https://www.aerztezeitung.de"
       }
     },
     {
@@ -184,13 +184,13 @@
       }
     },
     {
-      "id": "618e02af3ae9",
-      "title": "Sturzprävention: Elektronische Empfehlungen senken Rate um rund 9 Prozent - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWnNZelhhRWVHQXQ2WDZzcUkwUnpWeDhpSjNkQ0hzdktCeFVWYXo1YkZKa0QzaFlRS0JyMF9FTm4tcjI0NnVYQjhmV1l6aHc0RnN1VXlpd3VWQWZIRHBVdFpPQ3JULS03czRtZ0g3OHpRYW40MDJuQ01LdmtDUW91ZkpBUE55Ni1MLUhvY3pPM1JEMTNfeTkyNl81b3RoSmxuUGpqNzdicE5JRFRBbFk2d0N5akp6WGs1ZnpaQ3VzNA?oc=5",
-      "published": "2026-11-02T09:39:37+00:00",
+      "id": "f64329720d0a",
+      "title": "AOK-Umfrage: Viel Zustimmung für Weitergabe von Gesundheitsdaten aus ePA zur Forschung - AerzteZeitung.de",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeGd6NHZKNmVRbHViTlIzWW43YzdFZnktMkJEVzZQaFVCWXF2MnBMd0c4VVJtM1FiUko2QU9rMXRmTV9jWjVPVEtCNllyWjgwbzFLMF9QZ3hMWXVOUmFqZEJVR1AzQUJ4LU54OWxKdnBweHJKSk1LSHFjZUNCeE1UY21LZHFiU0tNWmF1SmtBSEdJNEtBcWgzblkzbm8tWHdWbWZ1YmpaeUlvNERpcm16YUhIWjZCRWpndjUwMXZtTmlJV19Nblg1cXpB?oc=5",
+      "published": "2026-11-02T12:43:00+00:00",
       "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
+        "name": "AerzteZeitung.de",
+        "url": "https://www.aerztezeitung.de"
       }
     },
     {
@@ -204,13 +204,43 @@
       }
     },
     {
-      "id": "172d986897fc",
-      "title": "Arzneimittel: Nutzen für Gesundheit, Lebensqualität und Wirtschaft - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc1pKSzRyQWdIYmtZQlZKZE5ZYkRDWjFJRzUySHJWYkJGQU9nSExYb21pSnJBd29vZllZcWNFMU9fcTkyMFZWN3NTbVkxcXpRbFhXZFdCT3BPd2N4ZlVVNHctcVNVaWNiUmFlSDZ4TnIxX2VOYk03Zk5JZ0RSSWxiY21mRGVETjVH?oc=5",
-      "published": "2025-09-26T07:00:00+00:00",
+      "id": "9fa13ce5acf5",
+      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
+      "published": "2026-03-31T20:25:43+00:00",
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "9f7c377ed6d2",
+      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
+      "published": "2026-04-16T07:55:26+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "e5835a315f52",
+      "title": "Arzneimittel - Klinische Prüfung - Bezirksregierung Düsseldorf",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQanJqVmFoa1RDaGJaamxwcFU0MUpaZ0RkV2V5SnZRSW9VdzBWdHMwelVRdnlfWUc5WlN6TXFNc0hRNXY1YmRWQ2czQ0N3UG94Zlh6OXAzQlRtVUVTb2RkckNNWjh0TzBrWl9ESENaeGN6LVo4VERrdkdiQ19jT0dnZWx4RnJ3cUtTRFloY3p2OG1NQjFKRkptajhfWXFqeHo1TEx0OEJ4S1JYRVQyc2JBTmt4a2FNNmpFWjhJVg?oc=5",
+      "published": "2026-03-19T01:38:59+00:00",
+      "source": {
+        "name": "Bezirksregierung Düsseldorf",
+        "url": "https://www.brd.nrw.de"
+      }
+    },
+    {
+      "id": "432315fa2251",
+      "title": "Erstmals Medikament gegen Fettleber zugelassen - tagesschau.de",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQnhCQmdtRXhCd0ZKc1FDYzViaTZEblZ5TjJNWDBvZ3ptX2g0OENQemNDUk1sWGh5T1FrOEtvaGtSSDItcXlieVd0cDVfdDF0a2U3clFWSGlvd21wUWtwVzI4UEZIZ1BBUlVJSC16SExXaWFDTlF6YlNjMk96a2pEYnpVRm1rQQ?oc=5",
+      "published": "2025-11-20T08:00:00+00:00",
+      "source": {
+        "name": "tagesschau.de",
+        "url": "https://www.tagesschau.de"
       }
     },
     {
@@ -234,6 +264,16 @@
       }
     },
     {
+      "id": "e9ce7cf0dcc9",
+      "title": "Biologische Arzneimittel - Fresenius baut Geschäft mit Nachahmer-Medikamenten aus - Wirtschaft - SZ.de - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNS2pDTFJheVdmczlUVUMxcXZremxKSHk5cWUzNEZPdV9pVDBoa1lGM1RjUXZPUzNNNzZoRmhlaHhGWGdSRml4Njg2R3h1a3cxMlMyb20weUp6WmxnMkdkdl83aW5mMEJSdEN2RDk3WWtDVXI4MXVjaTcxdE1vY3RFcTZDRGRzY3IyVTNMRjUyTzdlYkRNd19UelhfVHBhbGVIVHBuTzlPR1lzX196SWV2SnBwdDZwdmVVSVhiLW1jMG8yS2NDbGh2WWt5Rk5Gb25YMS10b2s3OVZRODlrcVFEVUxHc0RHaVFoZDZyVEpIQkR6SllZQ2czWUt3TGR4QQ?oc=5",
+      "published": "2026-11-02T09:34:17+00:00",
+      "source": {
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
+      }
+    },
+    {
       "id": "8a5dc46a4efd",
       "title": "Erstattungsbetrag: Preisfestlegung für neue Medikamente - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUHN6Rk0zYW0xanpneTJrREhFdnJPVXFKckJsaHFBTWpYUElxdGN2ZUtydnkteHFHRHl2dERmeEVUMF8xUEh4Z3M4VEhJY0dfNDFpc0Vnc283akhUeTRkZEdSUzZxMjlmTmxBMmdMV2pKWi04UDZENVpvdjJPMXJxZEJ5SS13ZkZlSzVWODd0YjRPTjliYmttdXNUVkR6emgwU09xSQ?oc=5",
@@ -244,13 +284,23 @@
       }
     },
     {
-      "id": "e9ce7cf0dcc9",
-      "title": "Biologische Arzneimittel - Fresenius baut Geschäft mit Nachahmer-Medikamenten aus - Wirtschaft - SZ.de - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNS2pDTFJheVdmczlUVUMxcXZremxKSHk5cWUzNEZPdV9pVDBoa1lGM1RjUXZPUzNNNzZoRmhlaHhGWGdSRml4Njg2R3h1a3cxMlMyb20weUp6WmxnMkdkdl83aW5mMEJSdEN2RDk3WWtDVXI4MXVjaTcxdE1vY3RFcTZDRGRzY3IyVTNMRjUyTzdlYkRNd19UelhfVHBhbGVIVHBuTzlPR1lzX196SWV2SnBwdDZwdmVVSVhiLW1jMG8yS2NDbGh2WWt5Rk5Gb25YMS10b2s3OVZRODlrcVFEVUxHc0RHaVFoZDZyVEpIQkR6SllZQ2czWUt3TGR4QQ?oc=5",
-      "published": "2026-11-02T09:34:17+00:00",
+      "id": "d46f6ce1c2b9",
+      "title": "Ibuprofen, Aspirin und Co.: Schmerzmittel der Gruppe NSAR können Nebenwirkungen haben - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUmwyTW8wT3dfaXgyZ1VyaXFYUG1lWXY5VUZXZkkwWjd4STI2dWVSY1d3bVhub1NxRE9sNGt2bW83blh3T2hPRzlWcnVvUElQSmw4WE9KOHhscFdsSEE4TmF2cnhXaTktUWRfc3NQMnpoWmZDUXF5WWt6czNsbWdLQTRtVVJ3Mzdtb250RGVhbldmNUpVOTNDOTFhOWpldzV0MUlpVFdMRmpfOGM3WW5HbmRYaVJFT1ZzYUxn?oc=5",
+      "published": "2025-09-23T07:00:00+00:00",
       "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
+        "name": "NDR.de",
+        "url": "https://www.ndr.de"
+      }
+    },
+    {
+      "id": "95553e5f0104",
+      "title": "Gesundheit: Arzneimittel-Experten: Viagra weiter nicht ohne Rezept - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQU1lmNkktQnJXOUxNVk4tZFcwZUgwUmY5TmpzSWpCN2tKZ1lzN1pET01VRGhqWTZkR0xzZDJSRzBDdTVjdkpQVmMzdGE3dVRJNjdnZU83ZHluUVI1LVQ3Qm9NVGVLWDEwMmdGY0RRX21WellXXzRGUEhDbkc0Sk5kMm5zU3lFWjk4dW5uLTVyUU9pb0k?oc=5",
+      "published": "2023-07-11T07:00:00+00:00",
+      "source": {
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
       }
     },
     {
@@ -264,26 +314,6 @@
       }
     },
     {
-      "id": "f2a2de79771b",
-      "title": "Philippi reagiert auf Berichte über Lieferengpässe für Arzneimittel - Rundblick Niedersachsen",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNmZ6NDl1c1ROazFOMmkwdnhPNkh5aV9MYnlCemkxQ05YR2g2d2pLYjZ1UF9MdHZyc0pocjR2bGo4RVVWNEdBbUJKbUdEZFB6M0hWYUZha3l0ejgxS3JjQjRzOTlEWEgzUlZyUmFzSnNXY1RyaEd5RG1vWEpSYWJpSE9mbjAzMUp4MnI1dnd3REJGUHhNZWZLRnNUVlJuaGZPY2F0blpNRHo?oc=5",
-      "published": "2026-10-31T13:07:06+00:00",
-      "source": {
-        "name": "Rundblick Niedersachsen",
-        "url": "https://rundblick-niedersachsen.de"
-      }
-    },
-    {
-      "id": "112bb805d0bc",
-      "title": "Gesundheit: Arzneimittel Roactemra erhält EU-Zulassung bei Covid-19 - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVnhLZzlVX2gyNUNFTjJhdnZpVGFyM2tRRVdQR3RnMDV4U0lxUkNRdl9VRmMtN2xKbm9ZWTQ5OFlYOVQtRm8yT2xZb2dNcDVQaFV4eHBuVFZBa19pU0NqSERvUUYtaVRyMElkMHRRT0RjZGVrMUtZb3lCdkFFcDgxbkVzZ3JYWlZzeEdHLWFuQlZpbl9VUWZB?oc=5",
-      "published": "2021-12-07T08:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
-      }
-    },
-    {
       "id": "936d33f2eb65",
       "title": "Arzneimittelversorgung für 6 Kliniken: 50 Jahre Krankenhausapotheke im Landesklinikum Horn - MeinBezirk.at",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVmRZSUlaM0JndXg5dE9XZDdpOE1RaUZCVnNxSk9TWU1lcTNIb2lZU3Y3TXcwNGY1OUxNdTNNeUZYbWFpMHlxc1FYVTN0MElUZ3pzOU43N1dGdG9LM3gtM3oxT2lzSUN3TW9KWU84ODhVb29ZWUN0N3k1UmRBWXZmbmVCN0o0aE5BSVZfWEVNUGFsTDdVSjNuNjVOOU1MdkZUSFg2bWh1SQ?oc=5",
@@ -294,23 +324,13 @@
       }
     },
     {
-      "id": "927c3037031d",
-      "title": "Bundesministerium für Gesundheit (BMG) - Bundesministerium für Gesundheit (BMG)",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1vRVcxTzFiQ0I3OWlwQkFsWXBmX2VTZ25idkc5NFh0c0dZVE9MekdYX0hob1RtODJiRXhoeEs3bmUzUFpiTWRzRFlCUXJwb1pHUlFSMUhlTQ?oc=5",
-      "published": "2010-12-31T19:16:45+00:00",
+      "id": "112bb805d0bc",
+      "title": "Gesundheit: Arzneimittel Roactemra erhält EU-Zulassung bei Covid-19 - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVnhLZzlVX2gyNUNFTjJhdnZpVGFyM2tRRVdQR3RnMDV4U0lxUkNRdl9VRmMtN2xKbm9ZWTQ5OFlYOVQtRm8yT2xZb2dNcDVQaFV4eHBuVFZBa19pU0NqSERvUUYtaVRyMElkMHRRT0RjZGVrMUtZb3lCdkFFcDgxbkVzZ3JYWlZzeEdHLWFuQlZpbl9VUWZB?oc=5",
+      "published": "2021-12-07T08:00:00+00:00",
       "source": {
-        "name": "Bundesministerium für Gesundheit (BMG)",
-        "url": "https://www.bundesgesundheitsministerium.de"
-      }
-    },
-    {
-      "id": "9681510a73f1",
-      "title": "ADHS-Medikamente senken laut Studie das Sterberisiko - SuaraGarut.ID",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA5ZDlZa0tCeGNkTlcxek45SDlaM0E5ZjRMWHk4d2Y4VThhNURFRGVkaW5zdkhqaEVIbmltblN0YTh5OTZQQjVtOGhhSHNNZkdqZzNxeElTX0Z3UFdkLTF4ZnAwSHIzWTN6MjdMVHh3?oc=5",
-      "published": "2026-11-03T19:46:05+00:00",
-      "source": {
-        "name": "SuaraGarut.ID",
-        "url": "https://suaragarut.id"
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
       }
     }
   ]
