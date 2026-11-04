@@ -1,8 +1,28 @@
 {
-  "fetched_at": "2026-11-04T08:55:53.248889+00:00",
+  "fetched_at": "2026-11-04T16:56:46.049551+00:00",
   "source": "Google News Health RSS",
   "count": 31,
   "articles": [
+    {
+      "id": "2573a0f41494",
+      "title": "Rückenschmerzen ohne Medikamente lindern: Sechs Therapien können helfen und sparen Kosten - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQzB0YUZ4bXlFYTdoTEViRmdHeVBZOHppcXdZT1Q0WFd1ajlITmY2ZFc0cU1iNFFheWVodmZBQkN0WHV1anNmd01tTXdjYldGWlFmUkNwLVV6bEdHNEQ5aEFENFdWcktiU2lzbHdGWEVoVUsyR0Y2UENTZURvZHkzd2xWbks2dlZqdk16ZHhuemxvVmpRbEFJT05UWTM5VElpTXpLNlB1elFYcFhCXzVoMWVaVGt4aUdWRTZ0VWJGdjU1WFNw?oc=5",
+      "published": "2026-11-04T13:49:12+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "37687c45d62a",
+      "title": "NEUE ARZNEIMITTEL FÜR DIE SCHWEIZ - https://www.interpharma.ch/",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUTRpRUdpbzZ1R3IxYjFvT0lSUS1BSDlnUHhQU2NwbHRzVnZGTjVFY0QyeVYwTzdBZXQ2WVZza1I5VjRMamFtZVpoQ2ZYZEdyUlVQNFp0X2lTUHQ3S09XM3B6RzdLd0FlM1l3RzF6Vk80dGIzSkFSQ25BdHI2b21LeEdSV2NpTlU?oc=5",
+      "published": "2026-11-04T10:49:59+00:00",
+      "source": {
+        "name": "https://www.interpharma.ch/",
+        "url": "https://www.interpharma.ch"
+      }
+    },
     {
       "id": "e04be0827435",
       "title": "Ausgaben für Arzneimittel treiben Kosten für Krankenkassen - Freie Presse",
@@ -11,26 +31,6 @@
       "source": {
         "name": "Freie Presse",
         "url": "https://www.freiepresse.de"
-      }
-    },
-    {
-      "id": "b2703be2615b",
-      "title": "Apotheker hoffen, ärztliches Dispensierrecht doch noch zu verhindern - Ärzte Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeU9OalR0ai1NclJQamw1UEQweVItZUM0ZHFRT0ZHRXdWYkVYSlFheTlEZkdoWXNkSnUzcGx4ZmtoaTJuQ1dFRDg4MmhyaGJjcklqd3hHSWplVXpLTDczc0oyb0g2OER1bExBY2FrQjhIUi13cFRqWFJvWTZHSDNxTUdnWFk4TDhJdTVfb0pBNVR5R2hyNGxUS3RVUEotbURUX0JOdXdsWW9fWWFmZU1ERmRyeW9pcEwzT2VaWA?oc=5",
-      "published": "2026-11-03T15:25:06+00:00",
-      "source": {
-        "name": "Ärzte Zeitung",
-        "url": "https://www.aerztezeitung.de"
-      }
-    },
-    {
-      "id": "628f9b4b3c6e",
-      "title": "Medizinische Nachrichten vom 4. November: Beseitigung von Hindernissen bei der Arzneimittelkennzeichnung, Erleichterung der Impfstoffversorgung. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVGNRRkZNdWNqWmZUTmljdldESk1GM21SYW5mek5HZzNDWHlIc0ZJdUNsOGRCWnlzUmxYUXdfT1U2U1BjN3N5ZkI4TTgtemtiQXpXcnV4VTdqaE5sb09HRkFiZ0dJei1ZSmJCR1VGZWR2d214blhFZ2hmNWpxYThxa2ZhUGRVZFhlbWhqTkZCX1V0bzlqdE9paVJxR2JyUi0tMDNleHJOVFE2R3E3M3RiTjczOEo?oc=5",
-      "published": "2026-11-04T04:10:07+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -44,13 +44,23 @@
       }
     },
     {
-      "id": "ccd1bd1f0014",
-      "title": "Typ-2-Diabetes: Lebensstilprogramm führte bei jedem Zweiten zur Remission - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZDBUZHZmcE84T3JsT0J5Ri1wcDE0c18tN1k1UnZ3T3hrZ3dfVEtvd1NJUkFlaUUtbGVsYnUwS3o2a3daZF9mTFNBMlBlRlI5V2lIZ21TU29kS21WcWZvbmtxUGw0bHlGUFRMTEtYUlhRT1pHTEFtSmhWMl9kbGdpT3FkZW83UXN3UkdLUlUybDN6OEZEY1dOMW5EUjk4eG5ZTGxzLVVNOWtmcld1MWc?oc=5",
-      "published": "2026-11-02T13:43:16+00:00",
+      "id": "106113902e27",
+      "title": "Prädiabetes: Abnehmspritzen mit 31 Prozent geringerem Diabetesrisiko verbunden - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNm5fTFhZZmRSM2VWTVRfT0xJcXJQNTV0SUFHSjhJSXktUUVCR3pPUkJyWld0N3Vzdkk3eXFSZ24wek1IcnE3bG45VUFvc09JZkkxUlRDeV9UY1g5X2JDejhQSlY2QTNBVjlLOWV2anpLbUY1UWxJQWJyNWkwbjQ2QktESDN1dG1Nb1lvbWJCNEtGeE5kak45SlVqTEZpTzRGWl8wNlI0cjl5WHFFdHR3MHVhR1g?oc=5",
+      "published": "2026-11-04T11:40:49+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "b2703be2615b",
+      "title": "Apotheker hoffen, ärztliches Dispensierrecht doch noch zu verhindern - Ärzte Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeU9OalR0ai1NclJQamw1UEQweVItZUM0ZHFRT0ZHRXdWYkVYSlFheTlEZkdoWXNkSnUzcGx4ZmtoaTJuQ1dFRDg4MmhyaGJjcklqd3hHSWplVXpLTDczc0oyb0g2OER1bExBY2FrQjhIUi13cFRqWFJvWTZHSDNxTUdnWFk4TDhJdTVfb0pBNVR5R2hyNGxUS3RVUEotbURUX0JOdXdsWW9fWWFmZU1ERmRyeW9pcEwzT2VaWA?oc=5",
+      "published": "2026-11-03T15:25:06+00:00",
+      "source": {
+        "name": "Ärzte Zeitung",
+        "url": "https://www.aerztezeitung.de"
       }
     },
     {
@@ -71,6 +81,16 @@
       "source": {
         "name": "oekotest.de",
         "url": "https://www.oekotest.de"
+      }
+    },
+    {
+      "id": "628f9b4b3c6e",
+      "title": "Medizinische Nachrichten vom 4. November: Beseitigung von Hindernissen bei der Arzneimittelkennzeichnung, Erleichterung der Impfstoffversorgung. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVGNRRkZNdWNqWmZUTmljdldESk1GM21SYW5mek5HZzNDWHlIc0ZJdUNsOGRCWnlzUmxYUXdfT1U2U1BjN3N5ZkI4TTgtemtiQXpXcnV4VTdqaE5sb09HRkFiZ0dJei1ZSmJCR1VGZWR2d214blhFZ2hmNWpxYThxa2ZhUGRVZFhlbWhqTkZCX1V0bzlqdE9paVJxR2JyUi0tMDNleHJOVFE2R3E3M3RiTjczOEo?oc=5",
+      "published": "2026-11-04T04:10:07+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -114,16 +134,6 @@
       }
     },
     {
-      "id": "059d6d28dc47",
-      "title": "Sturzrisiko: Jeder Zweite über 80 betroffen - Kurier",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMVhIeGQ1aFVrbHRFMTVQQXhaSWhqbmk2QnRTTWJCU1hhcHJLcm40QU9vYUE2TmdwUnhDNDNJSnlFVlg5Wktzakd5NjhEajN2ei1WNzg1OUMyRzRnb2N2WjRjTlhleTg5Vm4zeW5YSnF5NUd0aEktWWFUODkzOWUxTkx2RVdDRGFHTkhOQkFWT1NrT25CRnpmaGVTYw?oc=5",
-      "published": "2026-11-02T09:45:00+00:00",
-      "source": {
-        "name": "Kurier",
-        "url": "https://kurier.at"
-      }
-    },
-    {
       "id": "e5835a315f52",
       "title": "Arzneimittel - Klinische Prüfung - Bezirksregierung Düsseldorf",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQanJqVmFoa1RDaGJaamxwcFU0MUpaZ0RkV2V5SnZRSW9VdzBWdHMwelVRdnlfWUc5WlN6TXFNc0hRNXY1YmRWQ2czQ0N3UG94Zlh6OXAzQlRtVUVTb2RkckNNWjh0TzBrWl9ESENaeGN6LVo4VERrdkdiQ19jT0dnZWx4RnJ3cUtTRFloY3p2OG1NQjFKRkptajhfWXFqeHo1TEx0OEJ4S1JYRVQyc2JBTmt4a2FNNmpFWjhJVg?oc=5",
@@ -131,16 +141,6 @@
       "source": {
         "name": "Bezirksregierung Düsseldorf",
         "url": "https://www.brd.nrw.de"
-      }
-    },
-    {
-      "id": "fbb62a1183f5",
-      "title": "PharmaTher plant 3D-gedruckte Peptidtabletten mit gezielter Wirkstoffabgabe - 3Druck.com",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbzk2S2M0Z2ZxVlpGc0Nsb2Vndm9IVHp3UjdEeTE0N280WVJwSzdabEs0TTZQX3dpcDk4RnRydEU3TTRZX1dHeTZPa2QwMVE5MnVPT1AtUGdUa2J2Ql91ZDRsYTVBMW1BSnV3YUhsT3VDM000Rm44MzBiLTlkNklnZ3ZFazc3ajBwQURNaFlvT0RUdEcxRE9QTmJiRlQ5aXk4Y3RON2YxQWU0TTFsUkg0ZmNR?oc=5",
-      "published": "2026-11-02T12:20:09+00:00",
-      "source": {
-        "name": "3Druck.com",
-        "url": "https://3druck.com"
       }
     },
     {
@@ -164,16 +164,6 @@
       }
     },
     {
-      "id": "9bb975a5f582",
-      "title": "Vitamin D in Herbst und Winter: Wer braucht Tabletten und wie viel ist sinnvoll? - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVlk4TzU1RXY2bnBvTEp5SC0zZldYWXJLSlUyUG1oNFhKdmk5b2I0UjlaeU5tU1d0Q0w2VlZQVlllU2MtUlFxbVpHb2N2MWktOUxja2NFZVFBMXNfSk1DdGJrZnJpT2ZPZmxaWXZUQm1WWUhiQWN3cm81Y19HYi00ZnpJSjZCTDZyWkVBNllNQ0JobElpSDIwQ2FveHlENGN3ZzVxWmJ1RjBnOEhEal9XNG5xQXo?oc=5",
-      "published": "2026-10-30T07:00:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
       "id": "432315fa2251",
       "title": "Erstmals Medikament gegen Fettleber zugelassen - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQnhCQmdtRXhCd0ZKc1FDYzViaTZEblZ5TjJNWDBvZ3ptX2g0OENQemNDUk1sWGh5T1FrOEtvaGtSSDItcXlieVd0cDVfdDF0a2U3clFWSGlvd21wUWtwVzI4UEZIZ1BBUlVJSC16SExXaWFDTlF6YlNjMk96a2pEYnpVRm1rQQ?oc=5",
@@ -184,6 +174,16 @@
       }
     },
     {
+      "id": "ccd1bd1f0014",
+      "title": "Typ-2-Diabetes: Lebensstilprogramm führte bei jedem Zweiten zur Remission - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZDBUZHZmcE84T3JsT0J5Ri1wcDE0c18tN1k1UnZ3T3hrZ3dfVEtvd1NJUkFlaUUtbGVsYnUwS3o2a3daZF9mTFNBMlBlRlI5V2lIZ21TU29kS21WcWZvbmtxUGw0bHlGUFRMTEtYUlhRT1pHTEFtSmhWMl9kbGdpT3FkZW83UXN3UkdLUlUybDN6OEZEY1dOMW5EUjk4eG5ZTGxzLVVNOWtmcld1MWc?oc=5",
+      "published": "2026-11-02T13:43:16+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
       "id": "618e02af3ae9",
       "title": "Sturzprävention: Elektronische Empfehlungen senken Rate um rund 9 Prozent - ad-hoc-news.de",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWnNZelhhRWVHQXQ2WDZzcUkwUnpWeDhpSjNkQ0hzdktCeFVWYXo1YkZKa0QzaFlRS0JyMF9FTm4tcjI0NnVYQjhmV1l6aHc0RnN1VXlpd3VWQWZIRHBVdFpPQ3JULS03czRtZ0g3OHpRYW40MDJuQ01LdmtDUW91ZkpBUE55Ni1MLUhvY3pPM1JEMTNfeTkyNl81b3RoSmxuUGpqNzdicE5JRFRBbFk2d0N5akp6WGs1ZnpaQ3VzNA?oc=5",
@@ -191,6 +191,16 @@
       "source": {
         "name": "ad-hoc-news.de",
         "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
+      "id": "9bb975a5f582",
+      "title": "Vitamin D in Herbst und Winter: Wer braucht Tabletten und wie viel ist sinnvoll? - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVlk4TzU1RXY2bnBvTEp5SC0zZldYWXJLSlUyUG1oNFhKdmk5b2I0UjlaeU5tU1d0Q0w2VlZQVlllU2MtUlFxbVpHb2N2MWktOUxja2NFZVFBMXNfSk1DdGJrZnJpT2ZPZmxaWXZUQm1WWUhiQWN3cm81Y19HYi00ZnpJSjZCTDZyWkVBNllNQ0JobElpSDIwQ2FveHlENGN3ZzVxWmJ1RjBnOEhEal9XNG5xQXo?oc=5",
+      "published": "2026-10-30T07:00:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -301,16 +311,6 @@
       "source": {
         "name": "SuaraGarut.ID",
         "url": "https://suaragarut.id"
-      }
-    },
-    {
-      "id": "1018169f1627",
-      "title": "AUDIO | Eine Patientin mit einer seltenen Krankheit schmuggelt Medikamente nach Mazedonien, um zu überleben. Nun weiß sie nicht, ob sie die Ausschreibung des Gesundheitsministeriums erfüllen wird. - Слободен печат",
-      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQTFB5VlRIVUd3RlUwN1dxdW5qdEdROHRUNVJ3dmxGRjNJOUx1b05TZXdoeEphbU1aR1ExdlZ4c3JiOGlnUU02bElyeTRQWVBBMkRDdlBxT1AyQ2VGdFhfSkpFQTAtYWdDZGhyTDlzMVFvcnRMb3BnNFdpcUxkdW1DSTliVE1sdnRYQlh4Q21WRnNjWlRDVGFmZWwtQ0xITUI2SnY2cmpJY2NyTGd4c3FNWHhaTnFVS0FNZUhpQ2wySFRvM3N4amlLbS1rdmMzV1FNbGJIUTNsaExiNzc5a1drb2FxbzZDajRXbXVZdm1zalZmYjhaQkNXT2RySWRhOFlGOVUwYzFteVFaM0tFc0ZuMm9VZHE?oc=5",
-      "published": "2026-11-03T11:19:27+00:00",
-      "source": {
-        "name": "Слободен печат",
-        "url": "https://www.slobodenpecat.mk"
       }
     }
   ]
