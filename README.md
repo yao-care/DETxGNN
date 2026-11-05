@@ -20,27 +20,28 @@ Vorhersagen zur Arzneimittel-Repositionierung fuer zentral in der EU (EMA) zugel
 | Element | Anzahl |
 |------|------|
 | **Arzneimittelberichte** | 468 |
-| **Gesamtvorhersagen** | 2,810,877 |
-| **Einzigartige Arzneimittel** | 691 |
+| **Gesamtvorhersagen** | 2,923,566 |
+| **Einzigartige Arzneimittel** | 724 |
 | **Einzigartige Indikationen** | 17,041 |
 | **DDI-Daten** | 160,235 |
-| **FHIR-Ressourcen** | 488 MK / 2,763 CUD |
+| **FHIR-Ressourcen** | 589 MK / 3,205 CUD |
 
 ### Verteilung der Evidenzstufen
 
 | Evidenzstufe | Berichtsanzahl | Beschreibung |
 |---------|-------|------|
-| **L1** | 0 | Mehrere Phase-3-RCTs |
-| **L2** | 0 | Einzelne RCT oder mehrere Phase-2-Studien |
-| **L3** | 0 | Beobachtungsstudien |
-| **L4** | 0 | Praeklinische / mechanistische Studien |
-| **L5** | 488 | Nur computationale Vorhersage |
+| **L1** | 10 | Mehrere Phase-3-RCTs |
+| **L2** | 19 | Einzelne RCT oder mehrere Phase-2-Studien |
+| **L3** | 18 | Beobachtungsstudien |
+| **L4** | 24 | Praeklinische / mechanistische Studien |
+| **L5** | 385 | Nur computationale Vorhersage |
+| **N/A** | 12 | Nur bekannte Anwendungen (keine neuen Vorhersagen) |
 
 ### Nach Quelle
 
 | Quelle | Vorhersagen |
 |------|------|
-| DL | 2,808,114 |
+| DL | 2,920,803 |
 | KG + DL | 2,474 |
 | KG | 289 |
 
@@ -49,9 +50,9 @@ Vorhersagen zur Arzneimittel-Repositionierung fuer zentral in der EU (EMA) zugel
 | Vertrauen | Vorhersagen |
 |------|------|
 | very_high | 1,920 |
-| high | 128,844 |
-| medium | 258,174 |
-| low | 2,421,939 |
+| high | 133,774 |
+| medium | 270,761 |
+| low | 2,517,111 |
 
 ---
 
@@ -70,8 +71,8 @@ uv run python scripts/run_kg_prediction.py
 
 | Metrik | Wert |
 |------|------|
-| EMA (zentrale EU-Zulassungen) Gesamtarzneimittel | 2,309 |
-| DrugBank-Zuordnung | 1,458 (63.1%) |
+| EMA (zentrale EU-Zulassungen) Gesamtarzneimittel | 2,321 |
+| DrugBank-Zuordnung | 1,525 (65.7%) |
 | Repositionierungskandidaten | 2,763 |
 
 ### Deep-Learning-Methode
@@ -83,8 +84,8 @@ PYTHONPATH=src python -m detxgnn.predict.txgnn_model
 
 | Metrik | Wert |
 |------|------|
-| DL-Gesamtvorhersagen | 1,599,614 |
-| Einzigartige Arzneimittel | 691 |
+| DL-Gesamtvorhersagen | 1,664,758 |
+| Einzigartige Arzneimittel | 724 |
 | Einzigartige Indikationen | 17,041 |
 
 ### Score-Interpretation
