@@ -1,10 +1,10 @@
 /**
- * TwTxGNN Drug-Drug Interaction Checker
+ * DETxGNN Drug-Drug Interaction Checker
  *
  * Client-side DDI checking based on DDInter 2.0 database.
  * Provides real-time interaction alerts for drug repurposing candidates.
  *
- * @author TwTxGNN Team
+ * @author DETxGNN Team
  * @version 1.0.0
  */
 (function(global) {
@@ -249,7 +249,7 @@
           summary: rule.summary,
           detail: rule.detail,
           recommendation: rule.recommendation,
-          source: 'TwTxGNN DDI Rules (based on DDInter 2.0)'
+          source: 'DETxGNN DDI Rules (based on DDInter 2.0)'
         });
       }
     }
@@ -355,8 +355,8 @@
       indicator: alert.severity === 'Major' ? 'critical' : alert.severity === 'Moderate' ? 'warning' : 'info',
       detail: `${alert.detail}\n\nRecommendation: ${alert.recommendation}`,
       source: {
-        label: 'TwTxGNN DDI Checker',
-        url: 'https://twtxgnn.yao.care/'
+        label: 'DETxGNN DDI Checker',
+        url: 'https://detxgnn.yao.care/'
       }
     }));
   }
