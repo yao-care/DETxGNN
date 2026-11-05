@@ -23,7 +23,7 @@ Vorhersagen zur Arzneimittel-Repositionierung fuer zentral in der EU (EMA) zugel
 | **Gesamtvorhersagen** | 2,810,877 |
 | **Einzigartige Arzneimittel** | 691 |
 | **Einzigartige Indikationen** | 17,041 |
-| **DDI-Daten** | 302,516 |
+| **DDI-Daten** | 160,235 |
 | **DFI-Daten** | 857 |
 | **DHI-Daten** | 35 |
 | **DDSI-Daten** | 8,359 |
@@ -219,7 +219,7 @@ PYTHONPATH=src python -m detxgnn.predict.txgnn_model
 | **Arzneimitteldaten** | EMA | [EMA Medicines Report (zentrale EU-Zulassungen)](https://www.ema.europa.eu/en/medicines/download-medicine-data) | Germany |
 | **Wissensgraph** | TxGNN KG | [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXA7BM) | 17,080 diseases, 7,957 drugs |
 | **Arzneimitteldatenbank** | DrugBank | [DrugBank](https://go.drugbank.com/) | Wirkstoffzuordnung |
-| **Arzneimittelinteraktionen** | DDInter 2.0 | [DDInter](https://ddinter2.scbdd.com/) | DDI-Paare |
+| **Arzneimittelinteraktionen** | DDInter | [DDInter](https://ddinter2.scbdd.com/) | DDI-Paare |
 | **Arzneimittelinteraktionen** | Guide to PHARMACOLOGY | [IUPHAR/BPS](https://www.guidetopharmacology.org/) | Zugelassene Arzneimittelinteraktionen |
 | **Klinische Studien** | ClinicalTrials.gov | [CT.gov API v2](https://clinicaltrials.gov/data-api/api) | Register klinischer Studien |
 | **Klinische Studien** | WHO ICTRP | [ICTRP API](https://apps.who.int/trialsearch/api/v1/search) | Internationale Plattform klinischer Studien |
