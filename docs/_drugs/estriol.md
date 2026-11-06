@@ -6,7 +6,7 @@ nav_order: 182
 evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-30
-description: "Estriol: vorhergesagte neue Indikation Amenorrhoe (Evidenzstufe L5). Ursprüngliche Indikation: Keine Angabe in der deutschen Zulassung. Laut Pharmakologiedaten: pos…"
+description: "Estriol: vorhergesagte neue Indikation Amenorrhoe (Evidenzstufe L3). Ursprüngliche Indikation: Keine Angabe in der deutschen Zulassung. Laut Pharmakologiedaten: pos…"
 monitor_inn: "ESTRIOL"
 predicted_indications: ["amenorrhea (disease)"]
 ---

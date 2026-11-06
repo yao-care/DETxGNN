@@ -1,0 +1,301 @@
+{
+  "_note": "藥物頁 front matter description 的證據等級字樣改成頁首等級的紀錄（母目錄 .claude/sync_description_levels.py 追加；只換等級字樣，其他文字不動）。還原：把 original_description 寫回該頁 description。",
+  "entries": [
+    {
+      "page": "docs/_drugs/ambrisentan.md",
+      "date": "2026-11-06",
+      "from": "L2",
+      "to": "L5",
+      "original_description": "\"Ambrisentan: vorhergesagte neue Indikation Pulmonale arteriovenöse Malformation (Evidenzstufe L2). Ursprüngliche Indikation: Pulmonale Hypertonie (PAH)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/amikacin.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Amikacin: vorhergesagte neue Indikation Paratyphus (paratyphoid fever) (Evidenzstufe L4). Ursprüngliche Indikation: Atemwegsinfektionen\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/bupropion.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L1",
+      "original_description": "\"Bupropion: vorhergesagte neue Indikation Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS) (Evidenzstufe L5). Ursprüngliche Indikation: Adipositas\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/cabozantinib.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Cabozantinib: vorhergesagte neue Indikation Liposarkom (Evidenzstufe L3). Ursprüngliche Indikation: Nierenzellkarzinom\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/daptomycin.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Daptomycin: vorhergesagte neue Indikation Osteoarthritis (Evidenzstufe L4). Ursprüngliche Indikation: Grampositive bakterielle Infektionen, Bakteriämie…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/daunorubicin.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L2",
+      "original_description": "\"Daunorubicin: vorhergesagte neue Indikation Morbus Hodgkin (Hodgkin-Lymphom) (Evidenzstufe L5). Ursprüngliche Indikation: Akute myeloische Leukämie\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/decitabine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Decitabine: vorhergesagte neue Indikation Refraktäre Zytopenie des Kindesalters (Evidenzstufe L4). Ursprüngliche Indikation: Myeloische Leukämie\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/deferasirox.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L4",
+      "original_description": "\"Deferasirox: vorhergesagte neue Indikation HIV-Infektion (Evidenzstufe L5). Ursprüngliche Indikation: Eisenüberladung\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/desloratadine.md",
+      "date": "2026-11-06",
+      "from": "L1",
+      "to": "L5",
+      "original_description": "\"Desloratadine: vorhergesagte neue Indikation Erkrankung der Nasenhöhle (Evidenzstufe L1). Ursprüngliche Indikation: Allergische Rhinitis (ganzjährig und saisonal), Urtikaria\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/epinephrine.md",
+      "date": "2026-11-06",
+      "from": "L1",
+      "to": "L5",
+      "original_description": "\"Epinephrine: vorhergesagte neue Indikation Obstruktive Lungenerkrankung (Evidenzstufe L1). Ursprüngliche Indikation: Anaphylaxie\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/estriol.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L3",
+      "original_description": "\"Estriol: vorhergesagte neue Indikation Amenorrhoe (Evidenzstufe L5). Ursprüngliche Indikation: Keine Angabe in der deutschen Zulassung. Laut Pharmakologiedaten: pos…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/fremanezumab.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Fremanezumab: vorhergesagte neue Indikation Atrophoderma vermiculata (Evidenzstufe L4). Ursprüngliche Indikation: Migräne (Migraine Disorders)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/glutamic_acid.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L4",
+      "original_description": "\"Glutamic Acid: vorhergesagte neue Indikation Postmenopausale Osteoporose (Evidenzstufe L5). Ursprüngliche Indikation: Ahornsirupkrankheit (Maple Syrup Urine Disease)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/grazoprevir.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L1",
+      "original_description": "\"Grazoprevir: vorhergesagte neue Indikation HIV-Infektion (Evidenzstufe L5). Ursprüngliche Indikation: Chronische Hepatitis C\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/insulin_aspart.md",
+      "date": "2026-11-06",
+      "from": "L1",
+      "to": "L5",
+      "original_description": "\"Insulin Aspart: vorhergesagte neue Indikation autoimmune Oophoritis (Evidenzstufe L1). Ursprüngliche Indikation: Diabetes mellitus\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/insulin_degludec.md",
+      "date": "2026-11-06",
+      "from": "L1",
+      "to": "L5",
+      "original_description": "\"Insulin Degludec: vorhergesagte neue Indikation autoimmune Oophoritis (Evidenzstufe L1). Ursprüngliche Indikation: Diabetes mellitus\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/insulin_glulisine.md",
+      "date": "2026-11-06",
+      "from": "L1",
+      "to": "L5",
+      "original_description": "\"Insulin Glulisine: vorhergesagte neue Indikation thiamine-responsive dysfunction syndrome (Evidenzstufe L1). Ursprüngliche Indikation: Diabetes mellitus\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/lacosamide.md",
+      "date": "2026-11-06",
+      "from": "L1",
+      "to": "L5",
+      "original_description": "\"Lacosamide: vorhergesagte neue Indikation Manische bipolare affektive Störung (Evidenzstufe L1). Ursprüngliche Indikation: Epilepsie\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/mepolizumab.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Mepolizumab: vorhergesagte neue Indikation Thrombozytopenie durch Immunzerstörung (Evidenzstufe L4). Ursprüngliche Indikation: Asthma\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/mycophenolate_mofetil.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L2",
+      "original_description": "\"Mycophenolate Mofetil: vorhergesagte neue Indikation HIV-Infektionskrankheit (Evidenzstufe L5). Ursprüngliche Indikation: Transplantatabstoßung\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/nevirapine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Nevirapin: vorhergesagte neue Indikation felines erworbenes Immundefizienz-Syndrom (Evidenzstufe L4). Ursprüngliche Indikation: HIV-Infektionen\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/nintedanib.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Nintedanib: vorhergesagte neue Indikation Dermatofibrosarcoma protuberans (Evidenzstufe L4). Ursprüngliche Indikation: Nicht-kleinzelliges Lungenkarzinom (Vargatef)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/palonosetron.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L4",
+      "original_description": "\"Palonosetron: vorhergesagte neue Indikation Migräne (migraine disorder) (Evidenzstufe L5). Ursprüngliche Indikation: Erbrechen, Übelkeit, Krebs (Krebstherapie-assoziiert)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/panobinostat.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L2",
+      "original_description": "\"Panobinostat: vorhergesagte neue Indikation Myeloische Leukämie (Evidenzstufe L5). Ursprüngliche Indikation: Multiples Myelom\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/perampanel.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Perampanel: vorhergesagte neue Indikation Beta-Ketothiolase-Mangel (Evidenzstufe L4). Ursprüngliche Indikation: Partielle Epilepsien (Epilepsies, Partial)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/pitolisant.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Pitolisant: vorhergesagte neue Indikation Insomnie (Evidenzstufe L4). Ursprüngliche Indikation: Narkolepsie\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/posaconazole.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Posaconazole: vorhergesagte neue Indikation Pneumocystose (Evidenzstufe L4). Ursprüngliche Indikation: Candidiasis\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/rilpivirine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Rilpivirine: vorhergesagte neue Indikation Felines erworbenes Immundefizienzsyndrom (Evidenzstufe L4). Ursprüngliche Indikation: HIV-Infektionen\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/rivastigmine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Rivastigmine: vorhergesagte neue Indikation Glaukom (Evidenzstufe L4). Ursprüngliche Indikation: Demenz\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/simvastatin.md",
+      "date": "2026-11-06",
+      "from": "L1",
+      "to": "L5",
+      "original_description": "\"Simvastatin: vorhergesagte neue Indikation Hirnstamminfarkt (Evidenzstufe L1). Ursprüngliche Indikation: Dyslipidämien\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/ticagrelor.md",
+      "date": "2026-11-06",
+      "from": "L2",
+      "to": "L5",
+      "original_description": "\"Ticagrelor: vorhergesagte neue Indikation Intrakranielle Arteriosklerose (Evidenzstufe L2). Ursprüngliche Indikation: Periphere Gefäßerkrankungen\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/tolfenamic_acid.md",
+      "date": "2026-11-06",
+      "from": "L2",
+      "to": "L5",
+      "original_description": "\"Tolfenamic Acid: vorhergesagte neue Indikation Kopfschmerzerkrankung (headache disorder) (Evidenzstufe L2). Ursprüngliche Indikation: Im deutschen Zulassungsdatensatz nicht angegeben (Zulassung ohne …\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/topotecan.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Topotecan: vorhergesagte neue Indikation Weibliches Mammakarzinom (Evidenzstufe L3). Ursprüngliche Indikation: Ovarialkarzinom, Zervixkarzinom, kleinzelliges Lungenkarzinom\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/toremifene.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Toremifene: vorhergesagte neue Indikation HIV-Infektionskrankheit (Evidenzstufe L4). Ursprüngliche Indikation: Brustkrebs (Mammakarzinom)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/trabectedin.md",
+      "date": "2026-11-06",
+      "from": "L2",
+      "to": "L5",
+      "original_description": "\"Trabectedin: vorhergesagte neue Indikation Weibliches Mammakarzinom (Evidenzstufe L2). Ursprüngliche Indikation: Sarkom\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/vernakalant.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Vernakalant: vorhergesagte neue Indikation Schlaganfall-Erkrankung (stroke disorder) (Evidenzstufe L4). Ursprüngliche Indikation: Vorhofflimmern\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/zanubrutinib.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Zanubrutinib: vorhergesagte neue Indikation Myeloische Leukämie (Evidenzstufe L4). Ursprüngliche Indikation: Waldenström-Makroglobulinämie\"",
+      "tool": ".claude/sync_description_levels.py"
+    }
+  ]
+}

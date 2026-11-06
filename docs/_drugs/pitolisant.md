@@ -6,7 +6,7 @@ nav_order: 361
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-28
-description: "Pitolisant: vorhergesagte neue Indikation Insomnie (Evidenzstufe L4). Ursprüngliche Indikation: Narkolepsie"
+description: "Pitolisant: vorhergesagte neue Indikation Insomnie (Evidenzstufe L5). Ursprüngliche Indikation: Narkolepsie"
 monitor_inn: "PITOLISANT"
 predicted_indications: ["insomnia (disease)", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome"]
 ---

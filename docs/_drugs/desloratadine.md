@@ -6,7 +6,7 @@ nav_order: 142
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-28
-description: "Desloratadine: vorhergesagte neue Indikation Erkrankung der Nasenhöhle (Evidenzstufe L1). Ursprüngliche Indikation: Allergische Rhinitis (ganzjährig und saisonal), Urtikaria"
+description: "Desloratadine: vorhergesagte neue Indikation Erkrankung der Nasenhöhle (Evidenzstufe L5). Ursprüngliche Indikation: Allergische Rhinitis (ganzjährig und saisonal), Urtikaria"
 monitor_inn: "DESLORATADINE"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
 ---

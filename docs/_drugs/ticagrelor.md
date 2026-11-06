@@ -6,7 +6,7 @@ nav_order: 462
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-28
-description: "Ticagrelor: vorhergesagte neue Indikation Intrakranielle Arteriosklerose (Evidenzstufe L2). Ursprüngliche Indikation: Periphere Gefäßerkrankungen"
+description: "Ticagrelor: vorhergesagte neue Indikation Intrakranielle Arteriosklerose (Evidenzstufe L5). Ursprüngliche Indikation: Periphere Gefäßerkrankungen"
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "venous thromboembolism"]
 ---

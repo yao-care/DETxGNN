@@ -6,7 +6,7 @@ nav_order: 243
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-31
-description: "Insulin Glulisine: vorhergesagte neue Indikation thiamine-responsive dysfunction syndrome (Evidenzstufe L1). Ursprüngliche Indikation: Diabetes mellitus"
+description: "Insulin Glulisine: vorhergesagte neue Indikation thiamine-responsive dysfunction syndrome (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes mellitus"
 monitor_inn: "INSULIN GLULISINE"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 ---

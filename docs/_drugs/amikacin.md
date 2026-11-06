@@ -6,7 +6,7 @@ nav_order: 30
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-28
-description: "Amikacin: vorhergesagte neue Indikation Paratyphus (paratyphoid fever) (Evidenzstufe L4). Ursprüngliche Indikation: Atemwegsinfektionen"
+description: "Amikacin: vorhergesagte neue Indikation Paratyphus (paratyphoid fever) (Evidenzstufe L5). Ursprüngliche Indikation: Atemwegsinfektionen"
 monitor_inn: "Amikacin"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "meningococcemia"]
 ---
