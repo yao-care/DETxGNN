@@ -149,7 +149,7 @@
       "evidence_level": "L5",
       "indication_count": 5,
       "original_indication": "",
-      "predicted_indication": "Pulmonale arteriovenöse Malformation",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/ambrisentan/"
     },
@@ -699,7 +699,7 @@
       "evidence_level": "L5",
       "indication_count": 5,
       "original_indication": "",
-      "predicted_indication": "Vorhergesagte Indikation",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/carfilzomib/"
     },
@@ -1569,7 +1569,7 @@
       "evidence_level": "L2",
       "indication_count": 8,
       "original_indication": "",
-      "predicted_indication": "Erkrankung",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/everolimus/"
     },
@@ -2129,7 +2129,7 @@
       "evidence_level": "L5",
       "indication_count": 9,
       "original_indication": "",
-      "predicted_indication": "Vorhergesagte Indikation",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/insulin-glulisine/"
     },
@@ -3269,7 +3269,7 @@
       "evidence_level": "L3",
       "indication_count": 2,
       "original_indication": "",
-      "predicted_indication": "Vorhergesagte Indikation",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/phenylephrine/"
     },
@@ -3419,7 +3419,7 @@
       "evidence_level": "L5",
       "indication_count": 10,
       "original_indication": "",
-      "predicted_indication": "Indikation",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/prilocaine/"
     },
@@ -3569,7 +3569,7 @@
       "evidence_level": "L5",
       "indication_count": 6,
       "original_indication": "",
-      "predicted_indication": "Multiple endokrine Neoplasie",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/remdesivir/"
     },
@@ -4209,7 +4209,7 @@
       "evidence_level": "L5",
       "indication_count": 9,
       "original_indication": "",
-      "predicted_indication": "Migräne",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/thyrotropin-alfa/"
     },
@@ -4239,7 +4239,7 @@
       "evidence_level": "L5",
       "indication_count": 4,
       "original_indication": "",
-      "predicted_indication": "Vorhergesagte Indikation",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/tildrakizumab/"
     },
@@ -4449,7 +4449,7 @@
       "evidence_level": "L5",
       "indication_count": 10,
       "original_indication": "",
-      "predicted_indication": "Primäre Thrombozyten-Freisetzungsstörung",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/turoctocog-alfa/"
     },
