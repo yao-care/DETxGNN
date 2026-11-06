@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-06T07:44:22.708604+00:00",
+  "fetched_at": "2026-11-06T15:44:10.238961+00:00",
   "source": "Google News Health RSS",
-  "count": 31,
+  "count": 37,
   "articles": [
     {
       "id": "aa6ba7bc2e7c",
@@ -11,6 +11,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "dcaad85fadfe",
+      "title": "Wer im Alter mehr Schritte macht, hat offenbar geringere Gesundheitskosten - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR0s2TFF2VDhfT0tqNGJlclJXc3pUd0FWQW9qQW9CQ0lvY0IyYkJzZDdzbFZITVJyT3lHSGVTZFdqYkdfMFFWN08ycDhaQ2tUNk5ZOTZLVzhiYjZpbG13VWtVNzQ3U3ZFUFhJX1pPOWJ2OENyWEN3WGV4NUtOMHNhcnNNYlZ2R0l3bjNkenptZWE1bk1KOTNRQnFIREZOdm1rY1JVQjZvd1FDUHg5aWc?oc=5",
+      "published": "2026-11-06T08:26:04+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -24,23 +34,23 @@
       }
     },
     {
-      "id": "e10b6e7284d3",
-      "title": "Impfangebot der Apotheken wird zunehmend bekannter - Ärzte Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWV9ZWHVzWk9TdXJQTnNHdUE3T3QwcjZOSGV2eGVyLV9lbVlsc1BKRS1QZmxMa2FGczZLQnI3a1BzeXkxUm9IaEk2NEgtbmhnWWJPakVWOGt4UEpTeklCNktSczhuWlpwX29UZUhlRUl0NjRqSXZ1WDlDakNpLUw0aUgxdTBhc1pwbEVaTlNDTGdqd3lJbko3dXNPQUtmMzBEQ0Q0YQ?oc=5",
-      "published": "2026-11-05T13:51:17+00:00",
+      "id": "784cf623bb11",
+      "title": "Medikamentenkosten laufen bei Volkskrankheiten aus dem Ruder - Nordkurier",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVWQxZllhVW5YeFM0TExULTVvWjdzOGZtaGJpN3JKTmNmMmxIS0hhOTZZOTZ0UURGdi1sRklRb1NRWXNPZV9aSzNmN0R1a29iNFhKVGRrd3dVUjVrVWFxeTFhSDhLTG9DQjVTN0ZqdExvdDlGSkFTRWYzcmFqcmZDNGFIRU9tZGZjYWQzRjdodEUxamptaDUwb0VPb3JQa0lvS0swbnMxN0x6Vkptbjk3dGFLV0NUQTUwbklnakpqZ3VmRkFm?oc=5",
+      "published": "2026-11-06T09:45:00+00:00",
       "source": {
-        "name": "Ärzte Zeitung",
-        "url": "https://www.aerztezeitung.de"
+        "name": "Nordkurier",
+        "url": "https://www.nordkurier.de"
       }
     },
     {
-      "id": "106113902e27",
-      "title": "Prädiabetes: Abnehmspritzen mit 31 Prozent geringerem Diabetesrisiko verbunden - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNm5fTFhZZmRSM2VWTVRfT0xJcXJQNTV0SUFHSjhJSXktUUVCR3pPUkJyWld0N3Vzdkk3eXFSZ24wek1IcnE3bG45VUFvc09JZkkxUlRDeV9UY1g5X2JDejhQSlY2QTNBVjlLOWV2anpLbUY1UWxJQWJyNWkwbjQ2QktESDN1dG1Nb1lvbWJCNEtGeE5kak45SlVqTEZpTzRGWl8wNlI0cjl5WHFFdHR3MHVhR1g?oc=5",
-      "published": "2026-11-04T11:40:49+00:00",
+      "id": "672319b8b87d",
+      "title": "Top 20 Unternehmen im globalen Markt für kardiometabolische Arzneimittel - Spherical Insights",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcGdhZnViV2YteVVBdEliSF9QajNHaVlVQUZQenJDZW1wc3o2cURRNGhFNC04LS0wLWR2SGYtU29PeVFkUTZFTENoSm5XZV9VMHNicDdSYnhLRFFhYlFZMWNacTNGRDVPZ0JpbHBGa3h1bTJTOXJQNkpuVzZ5Q1pJejloUktQcVRGZ1FHS1pJdDNaMVNxanNuRWs2M29ldlAzWXJoOVRDRGQ2NG5UMUt0WDVyV081STd6ZG9HclRhVFduakczWTltTkNfUW5TTWFqUDFZLUdoVUJ3Zw?oc=5",
+      "published": "2026-11-06T08:20:55+00:00",
       "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
+        "name": "Spherical Insights",
+        "url": "https://www.sphericalinsights.com"
       }
     },
     {
@@ -64,16 +74,6 @@
       }
     },
     {
-      "id": "4cf41a2b052f",
-      "title": "Bundesrats-Ausschuss: Länder melden Bedenken gegen Dispensierrecht an - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM3BXdTdxalJHLU95QWNYOG5VVzNiOEFXMmpJWVNlZ1BlMHdtREdUMmVIbVZ3V0xqNmtQV1JoWGI0LXVUM2xnMUo4T0JRa0dNYk0tbThVbWRuSEpGM1pwRm93ZDEtaUstWVNJNm9yVzUtZUR5UTJhOEJhNDd0VHZldHBoYnlFOFdUWHhYN2RrVTM4NnJvc2dXbk1CMA?oc=5",
-      "published": "2026-11-06T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "8ed581a140cf",
       "title": "Ein Medikament für die Tonne? Blister & Co. richtig entsorgen - oekotest.de",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRWF3MFc1OVVXMklkdUZpMkdybTk4aUIyVE82ZTI2YUtPTl95M2U3TjVIREEteXQ3clpXNV8xdldmODB1bmh3cE9kd2NOYS1keTNOSnU4OFhyMHFjRGYwek5ZQUZRdzMzOFEtNkNRVjR1Q3NYYzE3OXBiNFg1S3V1eWJsQ0dHdmJfYV9DTXI1bVJFdERmbWpmdGdZRVpucW9oV0hMM0RGWm5ySzFwbHRfUUplT0p1RFlGV0xz?oc=5",
@@ -84,23 +84,13 @@
       }
     },
     {
-      "id": "cc493b336909",
-      "title": "Markt für Nahrungsergänzungsmittel boomt: Wo sie Sinn machen und wo nicht - Das sagen Experten! - MarktSpiegel",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeHNMaG5SallwSzJJZVJZOTg4N25Uam5QandXSzh2R1NtQTlSQXBIWFFVMnZIR3BLOUVJNnhDUmg2cTBDeTV1Y2RqU0tQMW1DWi0zQkZoMGViSjNIaVR2NmlIckphbHpad2dlU2lwRFRLYWtQTlk1cl9iS1JyckFBQnFQVjA5dk9qUzF4bnJKZzZmN3FwcTZkNDlzbXBWck1MYklyeWs5Zw?oc=5",
-      "published": "2026-11-03T09:20:30+00:00",
+      "id": "4b0c44354d8e",
+      "title": "GKV-Spargesetz: Homöopathie-Verträge des DAV werden beendet - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdHJwU1BudzEtNXFUdkZPNGI4Y05aaWJjNEI2QkxXb0E5cXdkcDJaMENIVXhrb2hmenhBQkxiSGFpMXVtM212NVBrck9DSTFCeXZmdWRfMG9Td2p2RzA3dmg0V3BwX0k4cWt1N3F0SF9pNTc0dndvVzJ5OVJ0Q2JsRnZEdHdBVU9SaWNiSVNkdWJUa1FvQkxv?oc=5",
+      "published": "2026-11-06T15:20:10+00:00",
       "source": {
-        "name": "MarktSpiegel",
-        "url": "https://www.marktspiegel.de"
-      }
-    },
-    {
-      "id": "c097e0f2ba84",
-      "title": "Entwicklungsvereinbarung: Fresenius baut Geschäft mit Nachahmermedikamenten aus - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMXBpNTQwT0VqbzR3WjJhSTRXalNkcTJjeWJnTVZRMUhJTTYxSThSZnhjTUFrT0tJTWc0Ylgtc1ZlU0d5cTNnMDZnVjEwa3ROQXhERG5uMGRrTGtnNE0yU3dfQVcyeFExejBmWnhQd0R4SEs0dmhXUGxET1RhSnFjZUVyMnc0aFg4OGRFVDk5eFhlQzBzeFV1NGY2dzUwRE00d0xvNmFleVRzSDg0by13NVdlV19OT2xSSjJYMjU1ZTdNOEJiTG5wUVIyektVcWVfeVYxUU5sMTgwdTJS?oc=5",
-      "published": "2026-11-02T06:48:00+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -114,13 +104,33 @@
       }
     },
     {
-      "id": "ccd1bd1f0014",
-      "title": "Typ-2-Diabetes: Lebensstilprogramm führte bei jedem Zweiten zur Remission - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZDBUZHZmcE84T3JsT0J5Ri1wcDE0c18tN1k1UnZ3T3hrZ3dfVEtvd1NJUkFlaUUtbGVsYnUwS3o2a3daZF9mTFNBMlBlRlI5V2lIZ21TU29kS21WcWZvbmtxUGw0bHlGUFRMTEtYUlhRT1pHTEFtSmhWMl9kbGdpT3FkZW83UXN3UkdLUlUybDN6OEZEY1dOMW5EUjk4eG5ZTGxzLVVNOWtmcld1MWc?oc=5",
-      "published": "2026-11-02T13:43:16+00:00",
+      "id": "8f1edfeb1592",
+      "title": "Apotheke am Solebad feiert Jubiläum: Seit 25 Jahren mit Herz für Ihre Gesundheit - Werne Plus",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRlQyeGVLcUQxSWtIMC0yY0QyYVgtOGtzbGRER0JScmt0cWRHdUVmR3BXZGN1RnZUTy1rV2FETkRiU2x6MjRBUEVlVGVOaTlzSWpqTGtSdU1PcHVkTGo5YS1kRjAxdVk0YWZPenh2T0tpRlBEaWtZZk1FVlJMRWpremdXVGRxaWhqYWZ5LVN6OVQxVV90SkYySl9BTFgwUkZUQlNWaXFOMHVEZXU1OHVPZFI2U1hhaGJkeDRHMmdwWTQ5Sm9oNHc?oc=5",
+      "published": "2026-11-05T16:00:23+00:00",
+      "source": {
+        "name": "Werne Plus",
+        "url": "https://www.werne-plus.de"
+      }
+    },
+    {
+      "id": "5ede94a7f3f2",
+      "title": "Wie oft dürfen Kinder mit Neurodermitis baden? - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOUVid29EVWdFTk1HeVJqRmFBWE8wcUt3amVpNmJCTmhZcmNka3U3RWRNd0ttRmZCaXhlaDRFNGYtN2w4OEp3SDB3dWl1Smw4RzRtM0ZHS3l1MFJjcXZtRjVaYjlEczkzZ2JzUFY3UVVsNnQ3VVZyVTVlb1lXQ0EzSnlSbTNtZVVydnc?oc=5",
+      "published": "2026-11-06T07:09:00+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "e10b6e7284d3",
+      "title": "Impfangebot der Apotheken wird zunehmend bekannter - Ärzte Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWV9ZWHVzWk9TdXJQTnNHdUE3T3QwcjZOSGV2eGVyLV9lbVlsc1BKRS1QZmxMa2FGczZLQnI3a1BzeXkxUm9IaEk2NEgtbmhnWWJPakVWOGt4UEpTeklCNktSczhuWlpwX29UZUhlRUl0NjRqSXZ1WDlDakNpLUw0aUgxdTBhc1pwbEVaTlNDTGdqd3lJbko3dXNPQUtmMzBEQ0Q0YQ?oc=5",
+      "published": "2026-11-05T13:51:17+00:00",
+      "source": {
+        "name": "Ärzte Zeitung",
+        "url": "https://www.aerztezeitung.de"
       }
     },
     {
@@ -131,6 +141,86 @@
       "source": {
         "name": "oekotest.de",
         "url": "https://www.oekotest.de"
+      }
+    },
+    {
+      "id": "4cf41a2b052f",
+      "title": "Bundesrats-Ausschuss: Länder melden Bedenken gegen Dispensierrecht an - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM3BXdTdxalJHLU95QWNYOG5VVzNiOEFXMmpJWVNlZ1BlMHdtREdUMmVIbVZ3V0xqNmtQV1JoWGI0LXVUM2xnMUo4T0JRa0dNYk0tbThVbWRuSEpGM1pwRm93ZDEtaUstWVNJNm9yVzUtZUR5UTJhOEJhNDd0VHZldHBoYnlFOFdUWHhYN2RrVTM4NnJvc2dXbk1CMA?oc=5",
+      "published": "2026-11-06T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "2573a0f41494",
+      "title": "Rückenschmerzen ohne Medikamente lindern: Sechs Therapien können helfen und sparen Kosten - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQzB0YUZ4bXlFYTdoTEViRmdHeVBZOHppcXdZT1Q0WFd1ajlITmY2ZFc0cU1iNFFheWVodmZBQkN0WHV1anNmd01tTXdjYldGWlFmUkNwLVV6bEdHNEQ5aEFENFdWcktiU2lzbHdGWEVoVUsyR0Y2UENTZURvZHkzd2xWbks2dlZqdk16ZHhuemxvVmpRbEFJT05UWTM5VElpTXpLNlB1elFYcFhCXzVoMWVaVGt4aUdWRTZ0VWJGdjU1WFNw?oc=5",
+      "published": "2026-11-04T13:49:12+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "106113902e27",
+      "title": "Prädiabetes: Abnehmspritzen mit 31 Prozent geringerem Diabetesrisiko verbunden - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNm5fTFhZZmRSM2VWTVRfT0xJcXJQNTV0SUFHSjhJSXktUUVCR3pPUkJyWld0N3Vzdkk3eXFSZ24wek1IcnE3bG45VUFvc09JZkkxUlRDeV9UY1g5X2JDejhQSlY2QTNBVjlLOWV2anpLbUY1UWxJQWJyNWkwbjQ2QktESDN1dG1Nb1lvbWJCNEtGeE5kak45SlVqTEZpTzRGWl8wNlI0cjl5WHFFdHR3MHVhR1g?oc=5",
+      "published": "2026-11-04T11:40:49+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "359afabe0b8a",
+      "title": "Multiple Sklerose: Neuer Wirkstoff überzeugt in zwei großen Studien - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQN2s4b3hteXlrRUt3Y2o0c25qUWlBRlBMUDJuT1htZnFJSTloYjNZcldlbEMxUm0yWDBhYnFmYXdKSHlrWlgxYmdQSzNrWW1XQWFPVmRTakYzUVZ0RGxMUUNZdjN3dkdoV0FMNkV5VVlIR3FwMXZ5ZFkyQlJiOHFsVGtvSTdHc09WV3pQd3JkV2l1Y1FUWkNzUU9SM1hBZldDMVFJRUtVNA?oc=5",
+      "published": "2026-11-02T12:18:04+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "2f0f7b06072d",
+      "title": "Fischölkapseln zeigen nach zwei Jahren keinen Nutzen für das Gehirn - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWElhOGZOdlJxOTBGQjk5WVE0Q0o3U1lNRUIzajRSWlhUNUhTa0RERVRoMlVEanZHUm9WQTBnbzVEa2lhVzFvRUpyT01OMzVjSk04anlDWnVoaTJvNFo2bmlXYkNDN0pZdHI5TVc4MjNWRnZGd1NmLTFBRTI5WUlzX2ZxcWNBVjQyVU8xaXViQmF3Rk9sUWZ6dXNiVDJwQTdpbXdXQWx5WTU?oc=5",
+      "published": "2026-11-05T08:34:36+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "ccd1bd1f0014",
+      "title": "Typ-2-Diabetes: Lebensstilprogramm führte bei jedem Zweiten zur Remission - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZDBUZHZmcE84T3JsT0J5Ri1wcDE0c18tN1k1UnZ3T3hrZ3dfVEtvd1NJUkFlaUUtbGVsYnUwS3o2a3daZF9mTFNBMlBlRlI5V2lIZ21TU29kS21WcWZvbmtxUGw0bHlGUFRMTEtYUlhRT1pHTEFtSmhWMl9kbGdpT3FkZW83UXN3UkdLUlUybDN6OEZEY1dOMW5EUjk4eG5ZTGxzLVVNOWtmcld1MWc?oc=5",
+      "published": "2026-11-02T13:43:16+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "8b46c8ffa7cb",
+      "title": "Ein Jahr Alzheimer-Antikörper: Was sich getan hat - Ärzte Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPN2ZoUlc0VUw3cTNTSTFJMW9ibmNmQTUwT1V2Mm9pYzhuT2NzUWQwOGJZYWRXY0F6VkZOaExDM1hoVTFNdFF0dEdGNjEyX2lJM0pfZ0JodTRGdE9EU3pJNDM3amU1WnlvcmlIaC1IWjNEdkVMRWp3NU1LVDc0SkV4dEVFZF82aWF4Z1BkR2l5T1ZlNE8yVVVYdzRJX1NIdDQ?oc=5",
+      "published": "2026-11-04T11:54:56+00:00",
+      "source": {
+        "name": "Ärzte Zeitung",
+        "url": "https://www.aerztezeitung.de"
+      }
+    },
+    {
+      "id": "c097e0f2ba84",
+      "title": "Entwicklungsvereinbarung: Fresenius baut Geschäft mit Nachahmermedikamenten aus - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMXBpNTQwT0VqbzR3WjJhSTRXalNkcTJjeWJnTVZRMUhJTTYxSThSZnhjTUFrT0tJTWc0Ylgtc1ZlU0d5cTNnMDZnVjEwa3ROQXhERG5uMGRrTGtnNE0yU3dfQVcyeFExejBmWnhQd0R4SEs0dmhXUGxET1RhSnFjZUVyMnc0aFg4OGRFVDk5eFhlQzBzeFV1NGY2dzUwRE00d0xvNmFleVRzSDg0by13NVdlV19OT2xSSjJYMjU1ZTdNOEJiTG5wUVIyektVcWVfeVYxUU5sMTgwdTJS?oc=5",
+      "published": "2026-11-02T06:48:00+00:00",
+      "source": {
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
       }
     },
     {
@@ -154,16 +244,6 @@
       }
     },
     {
-      "id": "088d7e6ec53d",
-      "title": "Medi24-Übernahme: DocMorris kündigt europaweite Telemed-Expansion an - Ärzte Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNenhYbjQ1engyVnFYNlhXVFNqRjAzOVp0WmVDQ1VaNGJtbUJGWlB0Q3Y5N0VTOWMzMUl2dmtUSmFUY1hOM2NqdDRrY1pzTWF1ZFBtcE9jMDl1Yi0tMVIzaUVyeUduTDZEU25TdlotY3BuU0hhQmx1WWNFS2RVSjU1cTBMaElhYmxYcDkxa3o4MDNNZ2I0UWVTM3o5bUtBRHlBZUpuMC1lTlJyWGVFSU5jcktxZmlSRmdDSFBIYlFB?oc=5",
-      "published": "2026-11-04T12:46:55+00:00",
-      "source": {
-        "name": "Ärzte Zeitung",
-        "url": "https://www.aerztezeitung.de"
-      }
-    },
-    {
       "id": "9fa13ce5acf5",
       "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
@@ -171,16 +251,6 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "aca34b7b78e6",
-      "title": "Hypertonie: Wann können Blutdrucksenker im hohen Alter abgesetzt werden? - Ärzte Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVjA1Mm40V3ZtYVRVcmJQVGxRR2RHTjA5Ymt4S1lxTXl6TEVMTnoxLUJvNndhaVRyVmxnQkd3TVVHQ2dvd1dVS2tsU1ItVklPS0ZwS3RtNTVSaGtLdmI1UWJIMVE1SDlEbGl0Ym44RlVQcWhzMWQ4S0wxSTdmS3hPUm9sVjNnQnA4NVI1c1pKMk9nVjRzakFLRi1CTTFyVFlua1JOSEhzYm9IRlN0cXN5RzVFeVBDSnlQVnp5Uw?oc=5",
-      "published": "2026-11-02T07:33:00+00:00",
-      "source": {
-        "name": "Ärzte Zeitung",
-        "url": "https://www.aerztezeitung.de"
       }
     },
     {
@@ -274,16 +344,6 @@
       }
     },
     {
-      "id": "5d81cd09e3f7",
-      "title": "Gesundheit - Arzneimittel-Experten: Viagra weiter nicht ohne Rezept - Gesundheit - SZ.de - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWktNUkFDTmVsMmlKeW5kaDAzQjlZUDVuczZyeGo0WExZMTlIUWNzYzVOTllKeVRMZkpvLW9pbGFDRHJScks3dEVTd3BBRW9fWmJ0TFpxbm9SVm9RU2RYdEhHQ29FYmNEdUNuUDRzalRBWGdwNm1NU2J2cUJpRHR2T1hjYmllakVuMDctbkt5bkc3S1ZabGc3eWQ4RVJWS3k3bG96UVJXRFNYenhGSUhvZDhUMDR6Nm9aNmhiaF9DRHM4NnFRZ2IwbEQzNVhfWWpCUjZ2b05iSjUzdmR1SjVNTHMyekNxWk0?oc=5",
-      "published": "2023-07-11T07:00:00+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
       "id": "29039f0e1605",
       "title": "40 Prozent der Gesundheitskosten werden von den Bürgern getragen. - KOHA.net",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOajZtZTlCYVBORkdiV2NpWjBkNkw0bU9JX1lxTmFKblRnWGxwRXZsZ3BJWjdleHlEbmpueHpDVHQ4X2d5NDROd1haejdyNU5DdFZyS2hBUGFoQU5YZ1FqLUJrdGpMVU02X3J2S3psQjZ4YUZTQzFRUzJTUjgyaVhHRmx3dktFUXdQeUtQMTJlcXpTVDVoMGtv?oc=5",
@@ -294,6 +354,16 @@
       }
     },
     {
+      "id": "5d81cd09e3f7",
+      "title": "Gesundheit - Arzneimittel-Experten: Viagra weiter nicht ohne Rezept - Gesundheit - SZ.de - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWktNUkFDTmVsMmlKeW5kaDAzQjlZUDVuczZyeGo0WExZMTlIUWNzYzVOTllKeVRMZkpvLW9pbGFDRHJScks3dEVTd3BBRW9fWmJ0TFpxbm9SVm9RU2RYdEhHQ29FYmNEdUNuUDRzalRBWGdwNm1NU2J2cUJpRHR2T1hjYmllakVuMDctbkt5bkc3S1ZabGc3eWQ4RVJWS3k3bG96UVJXRFNYenhGSUhvZDhUMDR6Nm9aNmhiaF9DRHM4NnFRZ2IwbEQzNVhfWWpCUjZ2b05iSjUzdmR1SjVNTHMyekNxWk0?oc=5",
+      "published": "2023-07-11T07:00:00+00:00",
+      "source": {
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
+      }
+    },
+    {
       "id": "112bb805d0bc",
       "title": "Gesundheit: Arzneimittel Roactemra erhält EU-Zulassung bei Covid-19 - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVnhLZzlVX2gyNUNFTjJhdnZpVGFyM2tRRVdQR3RnMDV4U0lxUkNRdl9VRmMtN2xKbm9ZWTQ5OFlYOVQtRm8yT2xZb2dNcDVQaFV4eHBuVFZBa19pU0NqSERvUUYtaVRyMElkMHRRT0RjZGVrMUtZb3lCdkFFcDgxbkVzZ3JYWlZzeEdHLWFuQlZpbl9VUWZB?oc=5",
@@ -301,16 +371,6 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
-      }
-    },
-    {
-      "id": "9406fa2d9768",
-      "title": "MedSafetyWeek: 139 Partner in 129 Ländern rufen zum Melden von Nebenwirkungen auf - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQ09sVVYxVThpVi04cHVFTENGR3NvNGlYb2g1SGhNQW9sRGpDWWNhTllJa1pkVzJGV0RaN2lITXF6R3NlcVVQT3FMRDdaWXJiUlFDb3N2dnRCTWMxZG9MOFZ5SjhLVTNJdm9Dd3VabDZCSVRHRW83MDhHMGhkRV95SU1ybmhubkRCVzAwN205dU1QVDVncWJ0NkNTRElVTllHMXFTeEVNem8zRmhUcGVrWGV1NUFPS0lzRnZBOXFrMzFQZWpmcTM3VDdR?oc=5",
-      "published": "2026-11-02T07:48:19+00:00",
-      "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
       }
     }
   ]
