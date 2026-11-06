@@ -72,7 +72,7 @@ Das Nachweispaket enthält zwei blockierende Lücken, die verhindern, dass ein s
 
 ## Informationen zum Marktstatus Deutschland
 
-Für Repaglinide sind derzeit keine Zulassungen in diesem Nachweispaket erfasst. Die `taiwan_regulatory`-Abfrage (BfArM) gab am 2026-03-29 0 Ergebnisse zurück.
+Für Repaglinide sind derzeit keine Zulassungen in diesem Nachweispaket erfasst.
 
 > **Hinweis:** Repaglinid-haltige Produkte (z. B. NovoNorm®) sind in mehreren Märkten weltweit zugelassen. Das Fehlen von Einträgen hier spiegelt wahrscheinlich eine Datenbeschaffungslücke wider und nicht eine echte Nicht-Zulassung. Dies sollte vor der Schlussfolgerung „nicht zugelassen" direkt in der BfArM-Produktdatenbank überprüft werden.
 
