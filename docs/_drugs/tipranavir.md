@@ -81,8 +81,6 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 |---------|------|------|-----------|
 | EMEA/H/C/000631 | Aptivus | – | HIV-Infektionen |
 
-Die einzige Zulassung (Boehringer Ingelheim International GmbH) ist aufgehoben.
-
 ## Sicherheitsaspekte
 
 - **Kontraindikationen aus dem Wissensgraphen** (TxGNN/PrimeKG, nicht aus dem Beipackzettel): Leberversagen, Lebererkrankung, Gallenblasenerkrankung, Hyperglykämie, Diabetes mellitus, diabetische Ketoazidose, chronische Hepatitis C und B, Hepatitis C, Hepatitis, Blutgerinnungsstörungen, Hämophilie (einschließlich symptomatischer Form bei weiblichen Trägerinnen), Hypertriglyceridämie, Hyperbilirubinämie (auch hereditär), Gilbert-Syndrom, Verletzungen, Hirntumor/Hirnneoplasma und intrakranielle Blutungen.
@@ -97,7 +95,7 @@ Warnhinweise und Gegenanzeigen aus der Fachinformation liegen nicht vor. Bitte h
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die vorhergesagte Indikation gibt es weder klinische Studien noch Literatur (Evidenzlevel L5). Die Indikation ist veterinärmedizinisch, und die Zulassung in Deutschland ist aufgehoben. Die übrigen Vorhersagen sind entweder Varianten der bestehenden HIV-Indikation oder mechanistisch nicht plausibel.
+Für die vorhergesagte Indikation gibt es weder klinische Studien noch Literatur (Evidenzlevel L5). Die Indikation ist veterinärmedizinisch. Die übrigen Vorhersagen sind entweder Varianten der bestehenden HIV-Indikation oder mechanistisch nicht plausibel.
 
 **Für ein Weiterkommen ist Folgendes erforderlich:**
 - Fachinformation (Warnhinweise und Gegenanzeigen) aus BfArM-Quellen, da dies derzeit ein blockierendes Datenelement für die Sicherheitsprüfung ist

@@ -103,13 +103,13 @@ Bitte entnehmen Sie die Sicherheitsinformationen der Packungsbeilage. Für Wechs
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf das Modell (L5) ohne Studien oder Publikationen, und der pathophysiologische Mechanismus (Plättchen/VWF) steht in keinem direkten Zusammenhang mit einem Faktor-IX-Mangel. Zudem ist die einzige Zulassung erloschen.
+Die Vorhersage stützt sich ausschließlich auf das Modell (L5) ohne Studien oder Publikationen, und der pathophysiologische Mechanismus (Plättchen/VWF) steht in keinem direkten Zusammenhang mit einem Faktor-IX-Mangel.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Wirkmechanismus-Daten (MOA) ergänzen, z. B. aus DrugBank
 - Warnhinweise und Gegenanzeigen aus der Packungsbeilage des BfArM beschaffen (Sicherheitsprüfung derzeit blockiert)
 - Präklinische oder mechanistische Belege für einen Nutzen bei Plättchen-/VWF-Störungen erarbeiten
-- Klärung der Verfügbarkeit des Produkts angesichts der erloschenen Zulassung
+- Klärung der Verfügbarkeit des Produkts
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

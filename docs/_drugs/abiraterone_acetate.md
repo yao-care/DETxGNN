@@ -42,7 +42,6 @@ Evidenzniveau: **N/A** | Vorhergesagte Indikationen: **0**
 |---------|--------|
 | Ursprüngliche Indikation | Prostatic Neoplasms |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 5 von 5) |
-| Taiwan-Marktstatus | ✗ Nicht vermarktet (Nicht vermarktet) |
 | Anzahl der Zulassungen | 5 (gültig: 5) |
 
 ---

@@ -42,7 +42,6 @@ Evidenzniveau: **N/A** | Vorhergesagte Indikationen: **0**
 |---|---|
 | Ursprüngliche Indikation | Breast Neoplasms |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
-| Taiwan-Marktstatus | Nicht vermarktet (0 Lizenzen) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
 
 ---

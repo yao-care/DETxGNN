@@ -86,8 +86,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/004913 | Beovu (Novartis Europharm Limited) | – | Feuchte Makuladegeneration |
 
-Diese Zulassung ist erloschen (Status: Cancelled).
-
 ---
 
 ## Sicherheitsaspekte
@@ -117,7 +115,7 @@ Für alle drei Indikationen liegen weder Studien noch Literatur vor.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem Modellwert (L5) ohne Studien oder Publikationen. Es gibt keinen plausiblen mechanistischen Zusammenhang, und die einzige deutsche Zulassung ist erloschen. Zudem könnte eine systemische VEGF-Blockade bei dieser Patientengruppe schädlich sein.
+Die Vorhersage beruht ausschließlich auf einem Modellwert (L5) ohne Studien oder Publikationen. Es gibt keinen plausiblen mechanistischen Zusammenhang. Zudem könnte eine systemische VEGF-Blockade bei dieser Patientengruppe schädlich sein.
 
 **Für ein Weiterverfolgen wären erforderlich:**
 - Daten zum Wirkmechanismus (MOA) aus DrugBank

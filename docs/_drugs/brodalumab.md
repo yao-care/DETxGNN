@@ -109,7 +109,7 @@ Die Vorhersage für Strongyloidiasis beruht ausschließlich auf einem Modellwert
 - Fachinformation (Warnhinweise und Kontraindikationen) der Europäischen Arzneimittel-Agentur bzw. des BfArM auswerten
 - Detaillierte Wirkmechanismus-Daten ergänzen
 - Präklinische Daten zur Rolle von IL-17RA bei Strongyloides-Infektionen prüfen
-- Bewertung der Zulassungs- und Verfügbarkeitslage (erloschene Zulassung)
+- Bewertung der Zulassungs- und Verfügbarkeitslage
 - Gegebenenfalls alternative Kandidaten aus der Vorhersageliste mit besserer biologischer Plausibilität priorisieren
 ## Haftungsausschluss
 

@@ -85,11 +85,11 @@ Das Evidence Pack enthält keine TxGNN-Vorhersagen und zwei ungeklärte Datenlü
 
 **Zum Fortfahren ist Folgendes erforderlich:**
 
-- **[DG001 – Blocking]** Laden Sie die Packungsbeilage der TFDA (oder EMA/BfArM) herunter und analysieren Sie diese, um Warnhinweise und Kontraindikationen zu extrahieren; dies muss behoben werden, bevor ein Sicherheits-Screening eingeleitet werden kann.
+- **[DG001 – Blocking]** Laden Sie die Packungsbeilage der EMA/BfArM herunter und analysieren Sie diese, um Warnhinweise und Kontraindikationen zu extrahieren; dies muss behoben werden, bevor ein Sicherheits-Screening eingeleitet werden kann.
 - **[DG002 – High]** Fragen Sie die DrugBank API ab, um die vollständigen MOA-, Pharmakodynamik- und Toxizitätsdaten für DB09128 abzurufen.
 - **TxGNN-Inferenz** Führen Sie die TxGNN-Pipeline für Brexpiprazole aus, um vorhergesagte Indikationskandidaten zu generieren; ohne Vorhersagen kann die Repurposing-Bewertung in diesem Stadium nicht voranschreiten.
 - **DDI-Daten** Fragen Sie eine Datenbank für Arzneimittel-Wechselwirkungen erneut ab (z. B. DrugBank DDI, CREDIBLEMEDS) mit den korrekten Suchparametern; die aktuelle Abfrage ergab keine Ergebnisse.
-- **Deutschland (BfArM) Zulassung** Bestätigen Sie den aktuellen EMA/BfArM-Zulassungsstatus direkt, da das regulatorische Feld keine Lizenzen aufweist.
+- **Deutschland (BfArM) Zulassung** Bestätigen Sie den aktuellen EMA/BfArM-Zulassungsstatus direkt.
 
 ## Haftungsausschluss
 

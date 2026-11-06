@@ -84,8 +84,6 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 |---------|------|------|-----------|
 | EMEA/H/C/003794 | Strensiq | – | Hypophosphatasie |
 
-Hinweis: Diese Zulassung ist als erloschen/aufgehoben geführt.
-
 ---
 
 ## Sicherheitsaspekte
@@ -99,7 +97,7 @@ Bitte die Packungsbeilage bzw. Fachinformation für Sicherheitsinformationen her
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem Modellscore (Evidenzlevel L5), ohne Studien, Literatur oder plausiblen Wirkmechanismus. Zudem ist die einzige Zulassung in Deutschland als erloschen geführt.
+Die Vorhersage beruht ausschließlich auf einem Modellscore (Evidenzlevel L5), ohne Studien, Literatur oder plausiblen Wirkmechanismus.
 
 **Für ein Weiterkommen sind folgende Punkte erforderlich:**
 - Daten zum Wirkmechanismus (MOA), z. B. aus DrugBank

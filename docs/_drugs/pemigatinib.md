@@ -84,8 +84,6 @@ Derzeit liegt keine einschlägige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/005266 | Pemazyre | – | Cholangiokarzinom |
 
-Hinweis: Diese Zulassung (Inhaber: Incyte Biosciences Distribution B.V.) hat den Status „aufgehoben".
-
 ---
 
 ## Zytotoxizität
@@ -126,7 +124,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf dem Modell (L5), ohne klinische Studien oder Publikationen. Ein biologischer Zusammenhang zwischen FGFR-Hemmung und multipler endokriner Neoplasie ist nicht belegt. Zudem ist die einzige deutsche Zulassung aufgehoben.
+Die Vorhersage beruht ausschließlich auf dem Modell (L5), ohne klinische Studien oder Publikationen. Ein biologischer Zusammenhang zwischen FGFR-Hemmung und multipler endokriner Neoplasie ist nicht belegt.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen), da dies derzeit ein blockierendes Datenlücken-Element für das Sicherheitsscreening ist

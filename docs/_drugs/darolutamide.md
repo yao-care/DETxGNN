@@ -84,8 +84,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/004790 | Nubeqa (Bayer AG) | – | Kastrationsresistentes Prostatakarzinom |
 
-Diese Zulassung ist als erloschen geführt.
-
 ---
 
 ## Zytotoxizität
@@ -117,7 +115,7 @@ Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die vorhergesagte Indikation gibt es weder klinische Studien noch Literatur, und ein plausibler Wirkmechanismus ist nicht erkennbar. Zudem ist die einzige deutsche Zulassung erloschen.
+Für die vorhergesagte Indikation gibt es weder klinische Studien noch Literatur, und ein plausibler Wirkmechanismus ist nicht erkennbar.
 
 **Für ein Weiterkommen sind folgende Punkte nötig:**
 - Daten zum Wirkmechanismus (MOA) ergänzen und auf eine mögliche Verbindung zum LDL-Rezeptor-Signalweg prüfen

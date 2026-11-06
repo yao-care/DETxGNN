@@ -97,7 +97,7 @@ Hinweis zu den weiteren Vorhersagen: Bei der Vorhersage „Sick-Sinus-Syndrom 2,
 **Entscheidung: Hold**
 
 **Begründung:**
-Der TxGNN-Wert ist sehr hoch, aber es gibt weder Studien noch Publikationen, die Vernakalant bei Schlaganfall direkt stützen; der Zusammenhang ist nur indirekt über Vorhofflimmern hergeleitet. Zudem ist die Zulassung in Deutschland erloschen, was die praktische Umsetzbarkeit einschränkt.
+Der TxGNN-Wert ist sehr hoch, aber es gibt weder Studien noch Publikationen, die Vernakalant bei Schlaganfall direkt stützen; der Zusammenhang ist nur indirekt über Vorhofflimmern hergeleitet.
 
 **Für ein Weiterkommen ist Folgendes nötig:**
 - Sicherheitsinformationen aus der Packungsbeilage (Warnhinweise und Gegenanzeigen), da diese derzeit fehlen und ein Hindernis für die Sicherheitsprüfung darstellen

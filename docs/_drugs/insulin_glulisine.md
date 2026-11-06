@@ -62,7 +62,6 @@ Zu den Daten, die für diesen Bericht zusammengestellt wurden, liegen derzeit ke
 
 Diabetes mellitus Typ 1 ist der Kernbereich der zugelassenen Indikation „Diabetes mellitus". Die Vorhersage ist daher keine echte Neuausrichtung, sondern bestätigt vorhandene klinische Evidenz. Mechanistisch ist sie naheliegend, da bei Typ 1 ein absoluter Insulinmangel besteht, der durch Insulinersatz ausgeglichen wird.
 
-
 ---
 
 ## Evidenz aus klinischen Studien
@@ -143,10 +142,10 @@ Für weitere Sicherheitsangaben (Warnhinweise, Gegenanzeigen) siehe die Fachinfo
 **Entscheidung: Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen)**
 
 **Begründung:**
-Für Diabetes mellitus Typ 1 liegen mehrere abgeschlossene Phase-3-Studien und randomisierte Studien vor (Evidenzlevel L1). Es handelt sich jedoch um eine Anwendung innerhalb der bestehenden Zulassung und nicht um eine neue Indikation. Da die deutsche Zulassung erloschen ist, bestätigt die Empfehlung vorhandene Evidenz und stellt keinen neuen Repurposing-Vorschlag dar.
+Für Diabetes mellitus Typ 1 liegen mehrere abgeschlossene Phase-3-Studien und randomisierte Studien vor (Evidenzlevel L1). Es handelt sich jedoch um eine Anwendung innerhalb der bestehenden Zulassung und nicht um eine neue Indikation.
 
 **Zum Fortfahren sind folgende Punkte erforderlich:**
-- Klärung der Verfügbarkeit in Deutschland (erloschene Zulassung, ggf. Alternativpräparate oder Neuzulassung)
+- Klärung der Verfügbarkeit in Deutschland
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen (derzeit nicht verfügbar)
 - Daten zum Wirkmechanismus aus DrugBank
 - Prüfung der Wechselwirkungen mit häufigen Begleitmedikamenten (z. B. Betablocker, Kortikosteroide, Sympathomimetika)

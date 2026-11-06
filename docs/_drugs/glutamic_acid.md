@@ -99,7 +99,7 @@ Die Angaben aus der Packungsbeilage (Warnhinweise, Gegenanzeigen) konnten nicht 
 **Entscheidung: Hold**
 
 **Begründung:**
-Für postmenopausale Osteoporose gibt es keine registrierten klinischen Studien und keine direkte klinische Evidenz für Glutaminsäure; der hohe TxGNN-Wert ist eine reine Modellvorhersage. Zudem ist die einzige Zulassung erloschen, und mehrere vom Wissensgraphen gemeldete Kontraindikationen (z. B. Nieren- und Hyperkalzämie-Erkrankungen) betreffen Bevölkerungsgruppen, die bei Osteoporose häufig sind.
+Für postmenopausale Osteoporose gibt es keine registrierten klinischen Studien und keine direkte klinische Evidenz für Glutaminsäure; der hohe TxGNN-Wert ist eine reine Modellvorhersage. Mehrere vom Wissensgraphen gemeldete Kontraindikationen (z. B. Nieren- und Hyperkalzämie-Erkrankungen) betreffen Bevölkerungsgruppen, die bei Osteoporose häufig sind.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Daten zu Warnhinweisen und Gegenanzeigen aus der Packungsbeilage (BfArM/EMA)

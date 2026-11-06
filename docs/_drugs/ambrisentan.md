@@ -130,7 +130,7 @@ Weitere Informationen zu Warnhinweisen und Gegenanzeigen sind der Packungsbeilag
 **Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-- Für CTD-PAH liegen zwei abgeschlossene, aber kleine Studien (Phase 2 mit n=38, Phase 4 mit n=25) sowie Metaanalysen und Post-hoc-Analysen größerer Studien vor. Eine Phase-3-RCT speziell für diese Untergruppe ist in den Daten nicht enthalten. Die Zulassungen in Deutschland sind aufgehoben.
+- Für CTD-PAH liegen zwei abgeschlossene, aber kleine Studien (Phase 2 mit n=38, Phase 4 mit n=25) sowie Metaanalysen und Post-hoc-Analysen größerer Studien vor. Eine Phase-3-RCT speziell für diese Untergruppe ist in den Daten nicht enthalten.
 
 **Für das weitere Vorgehen sind erforderlich:**
 - Prüfung der Packungsbeilage und Fachinformation (Warnhinweise, Gegenanzeigen), da diese Daten fehlen

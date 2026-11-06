@@ -104,7 +104,7 @@ Die Literatur zur zerebralen Arterienokklusion besteht überwiegend aus Tierdate
 
 ## Marktinformationen Deutschland
 
-Alle 13 Zulassungen sind gültig (13 von 13); das Arzneimittel ist im Handel. Es handelt sich um zentrale EU-Zulassungen (EMEA). Auswahl:
+Das Arzneimittel ist im Handel. Es handelt sich um zentrale EU-Zulassungen (EMEA). Auswahl:
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -131,7 +131,7 @@ Bitte die Packungsbeilage für vollständige Warnhinweise und Kontraindikationen
 **Entscheidung: Hold (Zurückstellen)**
 
 **Begründung:**
-- Für Prinzmetal-Angina existiert ausschließlich eine Modellvorhersage ohne Studien oder Publikationen (L5). Das Arzneimittel ist in Deutschland im Handel (13 von 13 Zulassungen gültig).
+- Für Prinzmetal-Angina existiert ausschließlich eine Modellvorhersage ohne Studien oder Publikationen (L5). Das Arzneimittel ist in Deutschland im Handel.
 - Die aussichtsreicheren Kandidaten sind zerebrale Arterienokklusion (L4, überwiegend präklinisch) und intrazerebrale Blutung (TRIDENT-Phase-3-Studie, aber Kombinationstherapie, Beitrag von Telmisartan nicht isolierbar).
 
 **Für ein Fortschreiten sind erforderlich:**

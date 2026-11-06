@@ -100,13 +100,13 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Kontraindikationen) siehe d
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert (Evidenzstufe L5) ohne Studien oder Publikationen. Der mechanistische Bezug zum 16p11.2-Mikrodeletionssyndrom ist nur spekulativ. Hinzu kommt, dass die Zulassung in Deutschland nur noch als gelöscht geführt wird und die Sicherheitsdaten unvollständig sind.
+Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert (Evidenzstufe L5) ohne Studien oder Publikationen. Der mechanistische Bezug zum 16p11.2-Mikrodeletionssyndrom ist nur spekulativ. Hinzu kommt, dass die Sicherheitsdaten unvollständig sind.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Systematische Literatur- und Studienrecherche zu Fenfluramin bei 16p11.2-Deletion bzw. verwandten neuroentwicklungsbedingten Epilepsien
 - Daten zum Wirkmechanismus (MOA) und zur Zielstruktur
 - Auswertung der Fachinformation (Warnhinweise und Kontraindikationen) von BfArM/EMA; dies ist derzeit eine blockierende Datenlücke für die Sicherheitsbewertung
-- Klärung des Zulassungsstatus (warum die Zulassung gelöscht wurde) und der Verfügbarkeit
+- Klärung des Zulassungsstatus und der Verfügbarkeit
 - Besondere Prüfung kardiovaskulärer Risiken (Herzklappenerkrankung, pulmonale Hypertonie), da diese bei Fenfluramin historisch zur Marktrücknahme führten und auch im Wissensgraphen als Kontraindikationen auftauchen
 ## Haftungsausschluss
 

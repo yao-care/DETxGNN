@@ -128,7 +128,7 @@ Eine vertiefte Bewertung sollte bei diesen Indikationen ansetzen.
 - Daten zum Wirkmechanismus (MOA) aus DrugBank.
 - Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM bzw. EMA), da die Sicherheitsprüfung ohne diese Angaben nicht fortgesetzt werden kann.
 - Falls die Indikation weiterverfolgt wird: eine belastbare mechanistische Hypothese sowie präklinische Daten, bevor klinische Studien erwogen werden.
-- Klärung des Zulassungsstatus, da die einzige erfasste Zulassung erloschen ist.
+- Klärung des Zulassungsstatus.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

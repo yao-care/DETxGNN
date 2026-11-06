@@ -97,8 +97,6 @@ Hinweis: Mehrere weitere gefundene Publikationen betreffen Adapalen, das Cushing
 |---------|------|------|-----------|
 | EMEA/H/C/003906 | Ketoconazole Esteve (zuvor Ketoconazole HRA) | – | Cushing-Syndrom |
 
-Diese Zulassung (zentrale EU-Zulassung) ist als erloschen/zurückgezogen geführt. Gültige Zulassungen gibt es derzeit nicht.
-
 ---
 
 ## Sicherheitsaspekte

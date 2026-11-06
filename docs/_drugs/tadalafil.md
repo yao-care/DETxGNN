@@ -98,8 +98,6 @@ Alle sechs erfassten Zulassungen sind gültig (zentrale EU-Zulassungen der EMA):
 | EMEA/H/C/004666 | Tadalafil Lilly | – | Erektile Dysfunktion |
 | EMEA/H/C/003787 | Tadalafil Mylan | – | Erektile Dysfunktion |
 
-Eine weitere erloschene Zulassung (Yuvanci, EMEA/H/C/005001, pulmonale arterielle Hypertonie) ist in der Gesamtzahl von 6 enthalten.
-
 ---
 
 ## Sicherheitsaspekte
@@ -117,7 +115,7 @@ Für Warnhinweise und Gegenanzeigen aus der Fachinformation siehe bitte die Pack
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem Graphmodell (Evidenzstufe L5), ohne Studien oder Publikationen und ohne plausiblen pharmakologischen Zusammenhang zur genetischen Ursache der Ambras-Hypertrichosis. Zudem ist derzeit keine Zulassung in Deutschland aktiv.
+Die Vorhersage beruht ausschließlich auf einem Graphmodell (Evidenzstufe L5), ohne Studien oder Publikationen und ohne plausiblen pharmakologischen Zusammenhang zur genetischen Ursache der Ambras-Hypertrichosis.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) als Voraussetzung für die Sicherheitsprüfung

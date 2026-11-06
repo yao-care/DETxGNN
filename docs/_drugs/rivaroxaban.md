@@ -117,7 +117,7 @@ Zu Warnhinweisen und Kontraindikationen aus der Packungsbeilage bitte die Fachin
 **Entscheidung: Hold**
 
 **Begründung:**
-Für rheumatoide Arthritis gibt es weder klinische Studien noch Literatur, die eine Wirkung von Rivaroxaban belegt. Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzgrad L5). Zudem sind alle deutschen Zulassungen aufgehoben.
+Für rheumatoide Arthritis gibt es weder klinische Studien noch Literatur, die eine Wirkung von Rivaroxaban belegt. Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzgrad L5).
 
 **Für ein Weiterkommen erforderlich:**
 - Detaillierte Wirkmechanismusdaten (MOA) und eine belastbare biologische Hypothese zur RA

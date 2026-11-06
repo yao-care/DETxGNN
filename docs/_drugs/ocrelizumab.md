@@ -86,8 +86,6 @@ Hinweis: Dem Rang-4-Kandidaten (Luminal A/B) wurden 18 Publikationen zugeordnet.
 |---------|------|------|-----------|
 | EMEA/H/C/004043 | Ocrevus | – | Multiple Sklerose |
 
-Status: aufgehoben (Hersteller: Roche Registration GmbH).
-
 ---
 
 ## Sicherheitsaspekte
@@ -105,7 +103,7 @@ Für Warnhinweise und Gegenanzeigen siehe die Fachinformation.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf dem TxGNN-Modellwert (Evidenzgrad L5). Es gibt weder klinische Studien noch relevante Publikationen, und ein biologisch plausibler Zusammenhang zwischen CD20-gerichteter B-Zell-Depletion und HER2-positivem Brustkrebs ist nicht erkennbar. Zudem ist die deutsche Zulassung aufgehoben.
+Die Vorhersage beruht ausschließlich auf dem TxGNN-Modellwert (Evidenzgrad L5). Es gibt weder klinische Studien noch relevante Publikationen, und ein biologisch plausibler Zusammenhang zwischen CD20-gerichteter B-Zell-Depletion und HER2-positivem Brustkrebs ist nicht erkennbar.
 
 **Für ein Weiterverfolgen sind folgende Schritte nötig:**
 - Daten zum Wirkmechanismus (MOA) ergänzen

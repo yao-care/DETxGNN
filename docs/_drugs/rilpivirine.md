@@ -84,8 +84,6 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Marktinformationen Deutschland
 
-Alle sechs Zulassungen sind laut den Daten aufgehoben (zentrale EU-Zulassungen, EMEA-Nummern).
-
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/005060 | Rekambys | – | HIV-Infektionen |
@@ -112,7 +110,7 @@ Für weitere Sicherheitsinformationen, insbesondere Warnhinweise, siehe die Fach
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich nur auf eine einzelne präklinische Studie ohne klinische Studien. Zudem handelt es sich um eine veterinärmedizinische Indikation, und alle deutschen Zulassungen von Rilpivirin sind aufgehoben.
+Die Vorhersage stützt sich nur auf eine einzelne präklinische Studie ohne klinische Studien. Zudem handelt es sich um eine veterinärmedizinische Indikation.
 
 **Für ein Fortschreiten sind folgende Punkte nötig:**
 - Daten zum Wirkmechanismus (MOA)

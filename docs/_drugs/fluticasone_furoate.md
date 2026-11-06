@@ -117,7 +117,7 @@ Die Vorhersage ist biologisch plausibel, stützt sich aber ausschließlich auf d
 - Prüfung der Eignung des Applikationsweges (inhalativ/intranasal vs. kutan) und ggf. Formulierungsentwicklung
 - Detaillierte Wirkmechanismusdaten (MOA)
 - Sicherheitsdaten aus der Fachinformation (Warnhinweise, Kontraindikationen, Wechselwirkungen), die bislang fehlen und für das Sicherheits-Screening erforderlich sind
-- Klärung der regulatorischen Situation angesichts der erloschenen Zulassungen
+- Klärung der regulatorischen Situation
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

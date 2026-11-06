@@ -112,7 +112,7 @@ Von fünf Zulassungen sind vier gültig; das Arzneimittel ist in Deutschland im 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzstufe L5); es gibt weder Studien noch Publikationen, und ein plausibler mechanistischer Zusammenhang fehlt. Hinzu kommen eine mögliche Senkung der Krampfschwelle, die fehlende gültige Zulassung in Deutschland sowie fehlende Daten zu Warnhinweisen und Gegenanzeigen.
+Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzstufe L5); es gibt weder Studien noch Publikationen, und ein plausibler mechanistischer Zusammenhang fehlt. Hinzu kommen eine mögliche Senkung der Krampfschwelle.
 
 **Für ein Fortschreiten ist Folgendes erforderlich:**
 - Packungsbeilage des BfArM mit Warnhinweisen und Gegenanzeigen (blockierende Datenlücke für die Sicherheitsprüfung)

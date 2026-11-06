@@ -131,7 +131,7 @@ Für weitere Sicherheitsinformationen siehe die Packungsbeilage.
 **Entscheidung: Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen)**
 
 **Begründung:**
-Für Nepafenac liegen umfangreiche Phase-3-Studien mit abgeschlossener Auswertung vor (Entzündung und Schmerz nach Kataraktoperation, Makulaödem bei Diabetikern), sodass die Evidenz für die konkreten ophthalmologischen Anwendungen stark ist. Die Vorhersage „Augenerkrankung“ ist jedoch unspezifisch und weitgehend identisch mit dem bekannten Einsatz; zudem ist die deutsche bzw. europäische Zulassung erloschen.
+Für Nepafenac liegen umfangreiche Phase-3-Studien mit abgeschlossener Auswertung vor (Entzündung und Schmerz nach Kataraktoperation, Makulaödem bei Diabetikern), sodass die Evidenz für die konkreten ophthalmologischen Anwendungen stark ist. Die Vorhersage „Augenerkrankung“ ist jedoch unspezifisch und weitgehend identisch mit dem bekannten Einsatz.
 
 **Für das weitere Vorgehen sind erforderlich:**
 B. Ilevro) in Deutschland verfügbar sind

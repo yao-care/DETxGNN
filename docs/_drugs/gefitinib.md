@@ -123,7 +123,7 @@ Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage zur gingivalen Fibromatose beruht ausschließlich auf dem Modell (L5), ohne Studien oder Publikationen. Zudem ist die einzige deutsche Zulassung erloschen, und das Sicherheitsprofil (u. a. interstitielle Lungenerkrankung, Wechselwirkungen) erfordert sorgfältige Abwägung.
+Die Vorhersage zur gingivalen Fibromatose beruht ausschließlich auf dem Modell (L5), ohne Studien oder Publikationen. Das Sicherheitsprofil (u. a. interstitielle Lungenerkrankung, Wechselwirkungen) erfordert sorgfältige Abwägung.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Beschaffung der Fachinformation (Warnhinweise/Kontraindikationen) vom BfArM, da dies derzeit ein blockierender Datenmangel ist

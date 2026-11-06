@@ -93,7 +93,7 @@ Derzeit sind keine klinischen Studien zu dieser Indikation registriert.
 
 ## Marktinformationen Deutschland
 
-Beide Zulassungen sind zentrale EU-Zulassungen (EMEA-Nummern) und derzeit erloschen bzw. widerrufen. Zur Darreichungsform liegen keine Angaben vor.
+Zur Darreichungsform liegen keine Angaben vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -125,7 +125,7 @@ Für Warnhinweise und Kontraindikationen laut Fachinformation siehe bitte die Pa
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenz für bakterielle Arthritis beschränkt sich auf Fallberichte und kleine Beobachtungsstudien. Es gibt keine registrierten Studien, und der hohe Modellwert ersetzt keine klinischen Daten. Zudem sind die Zulassungen in Deutschland erloschen, und die Sicherheitsangaben der Fachinformation fehlen.
+Die Evidenz für bakterielle Arthritis beschränkt sich auf Fallberichte und kleine Beobachtungsstudien. Es gibt keine registrierten Studien, und der hohe Modellwert ersetzt keine klinischen Daten. Die Sicherheitsangaben der Fachinformation fehlen.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Auswertung der Fachinformation (Warnhinweise, Kontraindikationen), da die Sicherheitsprüfung sonst nicht abgeschlossen werden kann

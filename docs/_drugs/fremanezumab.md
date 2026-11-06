@@ -110,13 +110,13 @@ Hinweis aus der Literatur: Zwei Kohortenstudien aus 2026 berichten über möglic
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht auf einem plausiblen Mechanismus und indirekter Evidenz aus der Migräne-Elternindikation. Es gibt jedoch keine registrierten Studien und keine Literatur speziell zur Hirnstamm-Aura. Zudem fehlen Sicherheitsdaten aus der Fachinformation, was eine Sicherheitsbewertung blockiert, und die deutsche Zulassung ist erloschen.
+Die Vorhersage beruht auf einem plausiblen Mechanismus und indirekter Evidenz aus der Migräne-Elternindikation. Es gibt jedoch keine registrierten Studien und keine Literatur speziell zur Hirnstamm-Aura. Zudem fehlen Sicherheitsdaten aus der Fachinformation, was eine Sicherheitsbewertung blockiert.
 
 **Für eine Weiterverfolgung sind erforderlich:**
 - Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM beschaffen und auswerten
 - Mechanismusdaten (MOA) aus DrugBank ergänzen
 - Gezielte Literaturrecherche und Prüfung der Volltexte zu Hirnstamm-Aura
-- Klärung des Zulassungsstatus in Deutschland (Zentralzulassung EMA vs. erloschener Eintrag)
+- Klärung des Zulassungsstatus in Deutschland
 - Prüfung der Sicherheitssignale (Glaukom, zerebrovaskuläre Ereignisse)
 
 ---

@@ -122,12 +122,12 @@ Für Warnhinweise und Kontraindikationen gemäß Fachinformation: Bitte die Pack
 **Entscheidung: Mit Schutzmaßnahmen fortfahren (Proceed with Guardrails)**
 
 **Begründung:**
-Für Kopfschmerzerkrankungen, insbesondere akute Migräne, liegen mehrere abgeschlossene Studien der Phasen 2–4 sowie systematische Übersichten und Leitlinien vor. Das Sicherheitsprofil von Ketorolac (Magen-Darm-, Nieren- und kardiovaskuläre Risiken) erfordert jedoch klare Schutzmaßnahmen. Zudem fehlt in Deutschland derzeit eine gültige Zulassung.
+Für Kopfschmerzerkrankungen, insbesondere akute Migräne, liegen mehrere abgeschlossene Studien der Phasen 2–4 sowie systematische Übersichten und Leitlinien vor. Das Sicherheitsprofil von Ketorolac (Magen-Darm-, Nieren- und kardiovaskuläre Risiken) erfordert jedoch klare Schutzmaßnahmen.
 
 **Für das weitere Vorgehen sind erforderlich:**
 - Fachinformation (Warnhinweise und Kontraindikationen) aus BfArM-Quellen beschaffen; diese Sicherheitsprüfung ist derzeit blockiert
 - Daten zum Wirkmechanismus (MOA) aus DrugBank ergänzen
-- Klärung des Zulassungswegs, da die einzige Zulassung (Omidria) erloschen ist und sich auf eine ophthalmologische Anwendung bezieht
+- Klärung des Zulassungswegs
 - Prüfung der Applikationswege (parenteral/intranasal), da die Zulassungsdaten keine Darreichungsform enthalten
 - Sicherheitsüberwachungsplan für Risikogruppen (Magen-Darm-Geschwüre, Nieren-, Herz-Kreislauf- und Blutungsrisiko) sowie Beachtung der Wechselwirkungen, insbesondere mit Acetylsalicylsäure
 ## Haftungsausschluss

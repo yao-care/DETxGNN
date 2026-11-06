@@ -43,7 +43,6 @@ Evidenzniveau: **N/A** | Vorhergesagte Indikationen: **0**
 | Ursprüngliche Indikation | Hypophosphatemia, Familial;Hypophosphatemic Rickets, X-Linked Dominant;Osteomalacia |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | TxGNN-Vorhersagepunktzahl | N/A |
-| Taiwan-Marktstatus | ✗ Nicht vermarktet |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
 
 ---

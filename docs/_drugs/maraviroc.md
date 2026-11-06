@@ -116,7 +116,7 @@ Die Vorhersage für die multiple endokrine Neoplasie beruht ausschließlich auf 
 - Daten zum Wirkmechanismus ergänzen (z. B. aus DrugBank)
 - Prüfung einer mechanistischen Verbindung zwischen CCR5 und multipler endokriner Neoplasie in der Literatur
 - Für das HER2-positive Mammakarzinom: weitere präklinische Studien zur CCR5-Blockade bei Trastuzumab-Resistenz
-- Klärung der regulatorischen Situation, da die deutsche Zulassung erloschen ist
+- Klärung der regulatorischen Situation
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

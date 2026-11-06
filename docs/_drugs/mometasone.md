@@ -108,7 +108,7 @@ Zu Wechselwirkungen wurde lediglich ein pharmakologischer Eintrag gefunden: Mome
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage ist rein rechnerisch (Evidenzlevel L5), es gibt weder klinische Studien noch belastbare Literatur zu Mometason beim kutanen T-Zell-Lymphom. Hinzu kommen eine aufgehobene Zulassung in Deutschland und fehlende Sicherheitsdaten aus der Fachinformation.
+Die Vorhersage ist rein rechnerisch (Evidenzlevel L5), es gibt weder klinische Studien noch belastbare Literatur zu Mometason beim kutanen T-Zell-Lymphom. Hinzu kommen fehlende Sicherheitsdaten aus der Fachinformation.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM, da die Sicherheitsprüfung sonst nicht fortgesetzt werden kann

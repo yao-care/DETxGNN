@@ -95,8 +95,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/004232 | Poteligeo | – | Sézary-Syndrom; Mycosis fungoides |
 
-Hinweis: Diese Zulassung ist aufgehoben (Status: cancelled).
-
 ---
 
 ## Zytotoxizität
@@ -127,7 +125,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich allein auf das Modell (L5); es gibt weder Studien noch Publikationen, und der mechanistische Bezug ist unbestätigt. Zudem ist die einzige deutsche Zulassung aufgehoben.
+Die Vorhersage stützt sich allein auf das Modell (L5); es gibt weder Studien noch Publikationen, und der mechanistische Bezug ist unbestätigt.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) zur Sicherheitsprüfung

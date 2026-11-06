@@ -151,7 +151,7 @@ Pemetrexed-Platin ist beim Pleuramesotheliom durch Phase-3-Evidenz etabliert und
 - Auswertung der laufenden randomisierten Phase-2-Studien (NCT05001880, NCT03875144, NCT06057935)
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da diese Sicherheitsdaten derzeit fehlen und die Sicherheitsprüfung blockieren
 - Daten zum Wirkmechanismus aus der Arzneimitteldatenbank
-- Klärung des Zulassungsstatus in Deutschland; alle vier Zulassungen sind derzeit gültig
+- Klärung des Zulassungsstatus in Deutschland
 - Überwachungsplan für Blutbild, Nierenfunktion und Folat-/Vitamin-B12-Supplementierung
 
 **Hinweis zu weiteren Vorhersagen:** Die Vorhersagen für Pleuramesotheliom und dessen Subtypen (epitheloid, sarkomatoid, biphasisch) entsprechen bereits der bestehenden Zulassung und stellen keine echte Neuindikation dar. Für pleurales Adenomatoid-Tumor, lymphohistiozytoides Mesotheliom, gut differenziertes papilläres Mesotheliom und Iminoglyzinurie besteht keine tragfähige Rationale (Empfehlung: Hold). Das Perikardkarzinom ist lediglich durch Einzelfallberichte gestützt.

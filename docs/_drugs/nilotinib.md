@@ -89,8 +89,6 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 | EMEA/H/C/006315 | Nilotinib Accord | – | Chronische myeloische Leukämie, BCR-ABL-positiv |
 | EMEA/H/C/000798 | Tasigna | – | Chronische myeloische Leukämie, BCR-ABL-positiv |
 
-Beide Zulassungen haben den Status „erloschen/gelöscht".
-
 ---
 
 ## Zytotoxizität

@@ -86,8 +86,6 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 |---------|------|------|-----------|
 | EMEA/H/C/006396 | Tepezza | – | Graves-Ophthalmopathie |
 
-Diese Zulassung ist als erloschen/gelöscht geführt (Zulassungsinhaber: Amgen Europe B.V.).
-
 ---
 
 ## Sicherheitsaspekte

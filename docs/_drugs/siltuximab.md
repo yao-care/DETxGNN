@@ -96,8 +96,6 @@ Für die Alternativindikation Kaposi-Sarkom wurde eine Publikation gefunden:
 |---------|------|------|-----------|
 | EMEA/H/C/003708 | Sylvant (Recordati Netherlands B.V.) | – | Riesenlymphknotenhyperplasie |
 
-Die Zulassung ist aufgehoben (Status: cancelled).
-
 ---
 
 ## Sicherheitsaspekte
@@ -119,7 +117,7 @@ Angaben zu Warnhinweisen und Gegenanzeigen aus der Fachinformation liegen nicht 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage für extrakutanes Mastozytom beruht ausschließlich auf dem Modell (L5), ohne klinische Studien oder Literatur. Mastzellerkrankungen sind primär KIT-getrieben, und IL-6 gilt dort eher als Biomarker. Zudem ist die deutsche Zulassung aufgehoben.
+Die Vorhersage für extrakutanes Mastozytom beruht ausschließlich auf dem Modell (L5), ohne klinische Studien oder Literatur. Mastzellerkrankungen sind primär KIT-getrieben, und IL-6 gilt dort eher als Biomarker.
 
 **Für ein Weiterkommen erforderlich:**
 - Mechanismusdaten (MOA) aus DrugBank ergänzen

@@ -62,7 +62,7 @@ Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten k
 
 Die ursprüngliche Indikation (Anwendung am Auge, u. a. bei Linsenimplantation) und die vorhergesagte Indikation haben denselben Wirkansatz: die Gefäßverengung über Alpha-1-Rezeptoren. Phenylephrin wird bereits klinisch als abschwellendes Nasenmittel und als topischer Vasokonstriktor bei endoskopischen Nasennebenhöhleneingriffen verwendet. Der hohe TxGNN-Wert passt zu diesem bekannten Mechanismus.
 
-Einschränkungen: Die Zulassung des Ausgangspräparats ist aufgehoben. Bei längerer topischer Anwendung droht eine Rebound-Schwellung (Rhinitis medicamentosa), und eine systemische Aufnahme kann den Blutdruck erhöhen.
+Bei längerer topischer Anwendung droht eine Rebound-Schwellung (Rhinitis medicamentosa), und eine systemische Aufnahme kann den Blutdruck erhöhen.
 
 ---
 
@@ -89,8 +89,6 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/003702 | Omidria | – | Intraokulare Linsenimplantation; postoperative Schmerzen |
-
-Diese Zulassung ist aufgehoben (Status: cancelled).
 
 ---
 
@@ -119,7 +117,7 @@ Die pharmakologische Plausibilität (Gefäßverengung der Nasenschleimhaut, bere
 - Warnhinweise und Kontraindikationen aus der Packungsbeilage beschaffen und auswerten (derzeit blockierende Datenlücke für die Sicherheitsprüfung)
 - Kontrollierte Studien zu Phenylephrin allein bei Erkrankungen der Nasenhöhle
 - Schutzmaßnahmen: Begrenzung der Anwendungsdauer (Rebound-Risiko), Blutdrucküberwachung, Vorsicht bei Hypertonie und gleichzeitiger Gabe von Antidiabetika
-- Klärung der Darreichungsform und des Zulassungswegs, da die einzige Zulassung aufgehoben ist
+- Klärung der Darreichungsform und des Zulassungswegs
 
 ---
 

@@ -119,7 +119,7 @@ Angaben zu Warnhinweisen und Kontraindikationen aus der Packungsbeilage konnten 
 **Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Für ADPKD liegen zwei Phase-3-RCTs und mehrere Übersichtsarbeiten vor, und der zugrunde liegende cAMP-Mechanismus ist auf PKD3 plausibel übertragbar. Für PKD3 selbst gibt es jedoch keine direkten Studien, die Evidenz ist eine Extrapolation, und die Hepatotoxizität sowie der erloschene Zulassungsstatus erfordern Vorsicht.
+Für ADPKD liegen zwei Phase-3-RCTs und mehrere Übersichtsarbeiten vor, und der zugrunde liegende cAMP-Mechanismus ist auf PKD3 plausibel übertragbar. Für PKD3 selbst gibt es jedoch keine direkten Studien, die Evidenz ist eine Extrapolation.
 
 **Für das weitere Vorgehen sind erforderlich:**
 - Bestätigung des Genotyps (GANAB-assoziierte PKD3)

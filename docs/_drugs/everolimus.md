@@ -56,8 +56,6 @@ Dafür liegen derzeit **1 klinische Studie** und **4 Publikationen** vor, von de
 | Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Proceed with Guardrails |
 
-Hinweis: Die Zulassungen wurden zentral über die EMA erteilt (Nummern EMEA/H/C/…) und sind laut den für diesen Bericht zusammengestellten Daten als erloschen gelistet.
-
 ---
 
 ## Warum ist diese Vorhersage plausibel?

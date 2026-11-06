@@ -127,13 +127,12 @@ Zu Warnhinweisen und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Es gibt Phase-2-Daten beim Mammakarzinom (u. a. BRCA-mutierte und vorbehandelte Patientinnen) und ein plausibles Wirkprinzip. Es fehlen jedoch Phase-3-Belege, die in Deutschland eingetragenen Zulassungen sind erloschen, und die Sicherheitsprüfung anhand der Fachinformation ist noch nicht möglich.
+Es gibt Phase-2-Daten beim Mammakarzinom (u. a. BRCA-mutierte und vorbehandelte Patientinnen) und ein plausibles Wirkprinzip. Es fehlen jedoch Phase-3-Belege, und die Sicherheitsprüfung anhand der Fachinformation ist noch nicht möglich.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Fachinformation (Warnhinweise und Gegenanzeigen) beim BfArM beschaffen und auswerten
 - Detaillierte Wirkmechanismus-Daten (z. B. aus DrugBank) ergänzen
 - Ergebnisse der Phase-2-Studien beim Mammakarzinom (insbesondere BRCA-mutierte Subgruppe) im Detail prüfen
-- Klären, warum die Zulassungen in Deutschland erloschen sind und ob eine Wiederzulassung oder ein anderer Zugangsweg möglich ist
 - Kontrollierte Studien in definierten Subgruppen (z. B. BRCA1/2-Mutation, HR-Defizienz) planen
 - Management der Myelosuppression und Lebertoxizität sowie Wechselwirkungsmanagement (insbesondere CYP3A4-Hemmer wie Clarithromycin) planen
 ## Haftungsausschluss

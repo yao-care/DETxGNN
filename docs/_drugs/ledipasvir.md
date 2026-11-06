@@ -123,7 +123,7 @@ Weitere Informationen zu Warnhinweisen und Gegenanzeigen entnehmen Sie bitte der
 **Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Eine abgeschlossene, publizierte Phase-2-Studie (n=21, einarmig) untersucht die Hypothese direkt, und mehrere Koinfektionsstudien liefern ergänzende Daten. Die Belege sind jedoch klein und die mechanistische Basis ist schwach (kein NS5A-Homolog bei HBV); ein möglicher Effekt könnte eher von Sofosbuvir ausgehen. Die erwähnte Evidenzstufe L2 beruht nur auf einer kleinen, nicht randomisierten Studie. Zudem ist die deutsche Zulassung erloschen. Daher sind klare Schutzmaßnahmen nötig.
+Eine abgeschlossene, publizierte Phase-2-Studie (n=21, einarmig) untersucht die Hypothese direkt, und mehrere Koinfektionsstudien liefern ergänzende Daten. Die Belege sind jedoch klein und die mechanistische Basis ist schwach (kein NS5A-Homolog bei HBV); ein möglicher Effekt könnte eher von Sofosbuvir ausgehen. Die erwähnte Evidenzstufe L2 beruht nur auf einer kleinen, nicht randomisierten Studie. Daher sind klare Schutzmaßnahmen nötig.
 
 **Für das weitere Vorgehen sind erforderlich:**
 - Bestätigung der HBsAg- und HBV-DNA-Effekte in größeren, kontrollierten Studien mit Vergleichsarm

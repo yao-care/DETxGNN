@@ -113,7 +113,7 @@ Zusätzlich liegen mehrere Phase-3-Studien bei Asthma vor (z. B. NCT01134042, NC
 | EMEA/H/C/003754 | Laventair Ellipta (zuvor Laventair) | k. A. | Chronisch obstruktive Lungenerkrankung (COPD) |
 | EMEA/H/C/002673 | Relvar Ellipta | k. A. | Chronisch obstruktive Lungenerkrankung (COPD) |
 
-Beide Zulassungen sind erloschen (Status: „Cancelled"). Ob Vilanterol-haltige Kombinationspräparate aktuell in Deutschland vermarktet werden, sollte gesondert geprüft werden.
+Ob Vilanterol-haltige Kombinationspräparate aktuell in Deutschland vermarktet werden, sollte gesondert geprüft werden.
 
 ---
 
@@ -136,7 +136,7 @@ Für Warnhinweise und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinform
 Mehrere große Phase-3-Studien und RCTs (u. a. IMPACT, FULFIL) belegen die Wirksamkeit Vilanterol-haltiger Fixkombinationen bei COPD. Die Evidenz gilt jedoch für Kombinationspräparate und nicht für Vilanterol allein. Zudem handelt es sich im Kern um die bereits bestehende Indikation, nicht um eine neue.
 
 **Für das weitere Vorgehen sind erforderlich:**
-- Prüfung des aktuellen Marktstatus der Vilanterol-haltigen Kombinationspräparate in Deutschland, da die Einzelwirkstoff-Zulassungen erloschen sind
+- Prüfung des aktuellen Marktstatus der Vilanterol-haltigen Kombinationspräparate in Deutschland
 - Beschaffung und Auswertung der Fachinformation des BfArM (Warnhinweise und Gegenanzeigen fehlen; blockierende Datenlücke für die Sicherheitsprüfung)
 - Ergänzung detaillierter Wirkmechanismusdaten (z. B. aus DrugBank)
 - Klarstellung, dass die Evidenz auf Fixkombinationen beschränkt ist

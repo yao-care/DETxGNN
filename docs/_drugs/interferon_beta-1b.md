@@ -126,7 +126,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 **Begründung:**
 - Die Vorhersage zur Haarzellleukämie beruht allein auf dem Modell (L5) ohne Studien oder Publikationen; zudem existieren etablierte, wirksame Standardtherapien.
-- Die umfangreichere Evidenz zur zweiten Vorhersage betrifft die bereits zugelassene Multiple Sklerose und stellt kein echtes Repurposing dar. Interferon beta gilt bei AQP4-IgG-positiver NMOSD als unwirksam oder möglicherweise schädlich. Die Zulassung in Deutschland ist zudem erloschen.
+- Die umfangreichere Evidenz zur zweiten Vorhersage betrifft die bereits zugelassene Multiple Sklerose und stellt kein echtes Repurposing dar. Interferon beta gilt bei AQP4-IgG-positiver NMOSD als unwirksam oder möglicherweise schädlich.
 
 **Für ein Weiterverfolgen sind erforderlich:**
 - Präklinische oder mechanistische Daten zu Interferon beta-1b bei Haarzellleukämie

@@ -135,7 +135,7 @@ Die vorliegenden Studien sind Mehrstoff-Chemotherapien, in denen der Beitrag von
 - Detaillierte Wirkmechanismus-Daten
 - Direkte klinische Evidenz zu Daunorubicin beim Hodgkin-Lymphom, etwa ein Vergleich mit Doxorubicin
 - Klärung der Kardiotoxizität (kumulative Anthracyclin-Dosis) im Hodgkin-Setting
-- Prüfung des regulatorischen Weges, da die Zulassung in Deutschland erloschen ist
+- Prüfung des regulatorischen Weges
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

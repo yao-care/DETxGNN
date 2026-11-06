@@ -103,7 +103,7 @@ Hinweis: Bei den vorhergesagten Krebsindikationen besteht ein theoretisches Risi
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzniveau L5), ohne klinische Studien oder unterstützende Literatur und ohne erkennbare mechanistische Verbindung. Zudem ist die Zulassung in Deutschland aufgehoben, und für die Krebsindikationen besteht ein theoretisches Sicherheitsrisiko.
+Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzniveau L5), ohne klinische Studien oder unterstützende Literatur und ohne erkennbare mechanistische Verbindung. Für die Krebsindikationen besteht ein theoretisches Sicherheitsrisiko.
 
 **Für ein Weiterverfolgen sind erforderlich:**
 - Daten zum Wirkmechanismus (MOA) aus DrugBank

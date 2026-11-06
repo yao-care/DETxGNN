@@ -100,7 +100,7 @@ Weitere Publikationen (z. B. PMID 32470781, ein Fallbericht zu unerwarteten derm
 | EMEA/H/C/000603 | Tysabri (Biogen Netherlands B.V.) | – | Multiple Sklerose |
 | EMEA/H/C/005752 | Tyruko (Sandoz GmbH) | – | Multiple Sklerose, schubförmig-remittierende MS |
 
-Beide Zulassungen haben den Status „erloschen/zurückgezogen". Der Marktstatus sollte vor weiteren Arbeiten verifiziert werden.
+Der Marktstatus sollte vor weiteren Arbeiten verifiziert werden.
 
 ---
 

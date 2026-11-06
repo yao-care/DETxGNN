@@ -124,7 +124,7 @@ Für Hepatitis B gibt es weder klinische Studien noch HBV-spezifische Literatur,
 - Beschaffung und Auswertung der Packungsbeilage (Warnhinweise und Gegenanzeigen), da diese Daten fehlen und den Sicherheitsabgleich blockieren
 - Daten zum Wirkmechanismus (MOA) aus DrugBank
 - Präklinische In-vitro-Daten zur Aktivität von Pibrentasvir gegen HBV, bevor klinische Schritte erwogen werden
-- Klärung des aktuellen Zulassungs- und Marktstatus von Maviret/Glecaprevir-Pibrentasvir in Deutschland (Zulassung nach den Daten erloschen)
+- Klärung des aktuellen Zulassungs- und Marktstatus von Maviret/Glecaprevir-Pibrentasvir in Deutschland
 - Bewertung des HBV-Reaktivierungsrisikos bei HBV/HCV-Koinfektion
 ## Haftungsausschluss
 

@@ -82,9 +82,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-
-Diese Zulassung hat den Status „gelöscht“ (cancelled); eine gültige Einzel- oder Kombizulassung besteht laut den zusammengestellten Daten nicht.
-
 ---
 
 ## Sicherheitsaspekte
@@ -104,7 +101,7 @@ Hinweise zu Warnungen und Kontraindikationen finden Sie in der Fachinformation.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert (Evidenzniveau L5), ohne Studien, Literatur oder plausiblen Mechanismus. Zudem besteht in Deutschland nur eine gelöschte Zulassung.
+Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert (Evidenzniveau L5), ohne Studien, Literatur oder plausiblen Mechanismus.
 
 **Für ein Weiterverfolgen sind erforderlich:**
 - Daten zum Wirkmechanismus (MOA) und eine biologische Begründung für einen Bezug von JAK1/JAK-STAT zum Syndrom

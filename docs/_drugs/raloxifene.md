@@ -117,7 +117,7 @@ Die Vorhersage stützt sich ausschließlich auf einen Modellwert (Evidenzstufe L
 - Vollständige Wirkmechanismus-Daten (MOA) aus DrugBank
 - Präklinische Studien zur Plausibilität eines Effekts auf die Duodenalschleimhaut
 - Systematische Literaturrecherche zu Raloxifen und Ulcus duodeni
-- Klärung des regulatorischen Status, da alle Zulassungen in Deutschland aufgehoben sind
+- Klärung des regulatorischen Status
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

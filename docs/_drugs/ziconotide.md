@@ -105,14 +105,14 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich auf einen hohen Modellwert und einen einzelnen Fallbericht sowie indirekte Übersichtsarbeiten; es gibt keine klinischen Studien. Zudem ist die Zulassung in Deutschland/EU aufgehoben, die intrathekale Gabe ist invasiv, und die Sicherheitsdaten aus der Fachinformation fehlen (Blockade für die Sicherheitsprüfung).
+Die Vorhersage stützt sich auf einen hohen Modellwert und einen einzelnen Fallbericht sowie indirekte Übersichtsarbeiten; es gibt keine klinischen Studien. Die intrathekale Gabe ist invasiv, und die Sicherheitsdaten aus der Fachinformation fehlen (Blockade für die Sicherheitsprüfung).
 
 **Für das weitere Vorgehen ist Folgendes erforderlich:**
 - Fachinformation (Warnhinweise, Kontraindikationen) beschaffen und auswerten – derzeit blockierend
 - Detaillierte Mechanismusdaten (MOA) aus DrugBank ergänzen
 - Systematische Literaturrecherche und ggf. kontrollierte Studien zur Wirksamkeit bei chronischer Migräne planen
 - Nutzen-Risiko-Bewertung der invasiven intrathekalen Gabe (neuropsychiatrische Nebenwirkungen, Kontraindikation bei psychischen Störungen) gegenüber bestehenden Migränetherapien
-- Klärung der Zulassungs- und Verfügbarkeitssituation, da der Wirkstoff aktuell nur mit aufgehobener Zulassung geführt wird
+- Klärung der Zulassungs- und Verfügbarkeitssituation
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -122,14 +122,14 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) siehe die Fa
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf das Modell (L5), ohne klinische Studien oder Publikationen. Zudem ist die einzige deutsche Zulassung erloschen, und das kardiale Sicherheitssignal (QT-Verlängerung) sowie zahlreiche schwerwiegende Wechselwirkungen, insbesondere mit Psychopharmaka, erfordern Vorsicht.
+Die Vorhersage stützt sich ausschließlich auf das Modell (L5), ohne klinische Studien oder Publikationen. Das kardiale Sicherheitssignal (QT-Verlängerung) sowie zahlreiche schwerwiegende Wechselwirkungen, insbesondere mit Psychopharmaka, erfordern Vorsicht.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Systematische Literaturrecherche und Prüfung von Studienregistern zu Granisetron bei Manie
 - Daten zum Wirkmechanismus (MOA)
 - Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM)
 - Bewertung des QT-Risikos und der Wechselwirkungen bei Kombination mit Stimmungsstabilisierern und Antipsychotika
-- Klärung der Verfügbarkeit und Darreichungsform (Zulassung erloschen)
+- Klärung der Verfügbarkeit und Darreichungsform
 - Gegebenenfalls Priorisierung plausiblerer Indikationen (z. B. Tourette-Syndrom, Trichotillomanie) für eine erste Evidenzprüfung
 ## Haftungsausschluss
 

@@ -80,7 +80,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-Beide Zulassungen sind aufgehoben. Es handelt sich um zentrale EU-Zulassungen (EMA). Angaben zur Darreichungsform liegen nicht vor.
+Es handelt sich um zentrale EU-Zulassungen (EMA). Angaben zur Darreichungsform liegen nicht vor.
 
 | Zulassungsnummer | Produktname | Hersteller | Zugelassene Indikation | Status |
 |---------|------|------|-----------|------|
@@ -107,7 +107,6 @@ Die Fachinformation mit Warnhinweisen und Gegenanzeigen lag für diesen Bericht 
 
 **Begründung:**
 - Die Vorhersage für rheumatoide Arthritis beruht nur auf dem hohen Modell-Score (Evidenzlevel L5). Es gibt weder Studien noch Publikationen.
-- Das Blutungsrisiko, die rein intravenöse Anwendung und der aktuell fehlende gültige Zulassungsstatus in Deutschland sprechen gegen eine kurzfristige Weiterverfolgung.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Präklinische Daten oder mechanistische Studien zur Rolle von GP IIb/IIIa bei rheumatoider Arthritis.

@@ -114,14 +114,14 @@ Zu Warnhinweisen und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf das Modell (L5), ohne klinische Studien oder Publikationen. Der mechanistische Zusammenhang ist spekulativ, ein okulärer Wirkansatz fehlt, und mit Anti-VEGF-Therapien existiert ein etablierter Standard. Zudem ist die deutsche Zulassung erloschen.
+Die Vorhersage stützt sich ausschließlich auf das Modell (L5), ohne klinische Studien oder Publikationen. Der mechanistische Zusammenhang ist spekulativ, ein okulärer Wirkansatz fehlt, und mit Anti-VEGF-Therapien existiert ein etablierter Standard.
 
 **Für ein Weiterkommen sind folgende Punkte erforderlich:**
 - Präklinische oder mechanistische Studien zur Rolle der IL-23/IL-17-Achse bei diabetischer Retinopathie
 - Detaillierte Wirkmechanismusdaten (MOA)
 - Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen), da diese Sicherheitsdaten derzeit fehlen
 - Klärung der Machbarkeit (Applikationsweg, okuläre Verfügbarkeit)
-- Klärung des regulatorischen Status in Deutschland/EU (erloschene Zulassung)
+- Klärung des regulatorischen Status in Deutschland/EU
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

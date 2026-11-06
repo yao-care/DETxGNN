@@ -95,7 +95,7 @@ Derzeit sind keine relevanten klinischen Studien zu Pregabalin bei Tendinitis re
 | EMEA/H/C/003900 | Pregabalin Zentiva | – | Angststörungen; Epilepsie |
 | EMEA/H/C/004010 | Pregabalin Sandoz | – | Angststörungen; Neuralgie; Epilepsie |
 
-Das Arzneimittel ist in Deutschland im Handel; alle 7 erfassten Zulassungen sind gültig.
+Das Arzneimittel ist in Deutschland im Handel.
 
 ---
 
@@ -114,7 +114,7 @@ Für Warnhinweise und Gegenanzeigen laut Fachinformation siehe bitte die Packung
 **Entscheidung: Hold**
 
 **Begründung:**
-Für Tendinitis gibt es keine klinischen Studien, und die Literatur betrifft ausschließlich postoperative Schmerzen oder Nervenengpass-Syndrome. Der Zusammenhang ist indirekt und symptomorientiert. Das Arzneimittel ist in Deutschland im Handel (7 von 7 Zulassungen gültig), die Sicherheitsdaten der Fachinformation fehlen hier jedoch.
+Für Tendinitis gibt es keine klinischen Studien, und die Literatur betrifft ausschließlich postoperative Schmerzen oder Nervenengpass-Syndrome. Der Zusammenhang ist indirekt und symptomorientiert. Das Arzneimittel ist in Deutschland im Handel, die Sicherheitsdaten der Fachinformation fehlen hier jedoch.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Kontrollierte Studien zu Pregabalin speziell bei Tendinitis (Schmerzendpunkte)

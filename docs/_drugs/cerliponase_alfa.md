@@ -105,7 +105,7 @@ Zu Warnhinweisen, Gegenanzeigen und Wechselwirkungen liegen keine Daten vor. Bit
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf das Modell (L5) ohne klinische Studien oder Literatur. Zudem fehlt ein mechanistischer Zusammenhang, da TPP1 den Iduronidase-Mangel nicht ausgleicht. Für MPS I existieren bereits zielgerichtete Therapien, und die deutsche Zulassung ist erloschen.
+Die Vorhersage stützt sich ausschließlich auf das Modell (L5) ohne klinische Studien oder Literatur. Zudem fehlt ein mechanistischer Zusammenhang, da TPP1 den Iduronidase-Mangel nicht ausgleicht. Für MPS I existieren bereits zielgerichtete Therapien.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Sicherheitsdaten aus der Fachinformation (derzeit blockierend für das Sicherheits-Screening)

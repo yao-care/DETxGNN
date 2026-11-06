@@ -141,7 +141,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Packungsbeilage bzw. Fachinformati
 **Entscheidung: Hold**
 
 **Begründung:**
-Für das indolente Plasmazellmyelom gibt es weder Studien noch Literatur. Der hohe Vorhersagewert beruht allein auf der Nähe zur zugelassenen Myelom-Indikation (Evidenzlevel L5). Zudem sind beide deutschen Zulassungen erloschen.
+Für das indolente Plasmazellmyelom gibt es weder Studien noch Literatur. Der hohe Vorhersagewert beruht allein auf der Nähe zur zugelassenen Myelom-Indikation (Evidenzlevel L5).
 
 **Für das weitere Vorgehen wird Folgendes benötigt:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) als Voraussetzung für die Sicherheitsprüfung

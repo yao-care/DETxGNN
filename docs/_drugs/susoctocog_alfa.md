@@ -118,7 +118,7 @@ Bitte die Packungsbeilage zu Sicherheitsinformationen heranziehen. Für diese Su
 - Für die erworbene Hämophilie A gibt es einen klaren mechanistischen Hintergrund und konsistente klinische Daten (Phase-II/III-Studie, Real-World-Daten, Fallserien), jedoch keine randomisierte Phase-3-Studie, daher Evidenzniveau L3.
 
 **Für das weitere Vorgehen erforderlich:**
-- Klärung des Zulassungsstatus in Deutschland (erloschene Zulassung) und der aktuellen Verfügbarkeit
+- Klärung des Zulassungsstatus in Deutschland und der aktuellen Verfügbarkeit
 - Auswertung der Packungsbeilage (Warnhinweise, Gegenanzeigen), da dieser Sicherheitsdatenpunkt derzeit blockierend fehlt
 - Detaillierte Wirkmechanismus-Daten (MOA) aus DrugBank
 - Prüfung des Inhibitor-Kreuzreaktivitätsrisikos und Überwachungskonzepts (Einstufentest)

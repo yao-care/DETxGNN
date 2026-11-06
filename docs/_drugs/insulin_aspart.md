@@ -102,7 +102,7 @@ Die Daten enthalten 34 Studien. Aufgeführt sind die zehn relevantesten (bevorzu
 
 ## Marktinformationen Deutschland
 
-Alle in den Daten erfassten Zulassungen sind aufgehoben. Es sind keine Darreichungsformen angegeben.
+Es sind keine Darreichungsformen angegeben.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -111,8 +111,6 @@ Alle in den Daten erfassten Zulassungen sind aufgehoben. Es sind keine Darreichu
 | EMEA/H/C/000308 | NovoMix | – | Diabetes mellitus |
 | EMEA/H/C/005033 | Insulin aspart Sanofi | – | Diabetes mellitus |
 | EMEA/H/C/002499 | Ryzodeg | – | Diabetes mellitus |
-
-Drei weitere aufgehobene Zulassungen (Truvelog Mix 30, Dazparda, Kirsty) sind in der Gesamtzahl von 8 enthalten.
 
 ---
 
@@ -127,7 +125,7 @@ Zur Sicherheit siehe bitte die Fachinformation (Packungsbeilage). Für Wechselwi
 **Entscheidung: Proceed with Guardrails (mit Auflagen fortfahren)**
 
 **Begründung:**
-Die Evidenz für Typ-1-Diabetes ist stark (mehrere abgeschlossene Phase-3-Studien, Cochrane-Übersicht). Es handelt sich aber um eine bereits etablierte Indikation und nicht um echtes Repurposing. Zudem sind alle deutschen Zulassungen in den Daten als aufgehoben geführt, sodass der aktuelle Zulassungs- und Verfügbarkeitsstatus vor einer Empfehlung geprüft werden muss.
+Die Evidenz für Typ-1-Diabetes ist stark (mehrere abgeschlossene Phase-3-Studien, Cochrane-Übersicht). Es handelt sich aber um eine bereits etablierte Indikation und nicht um echtes Repurposing.
 
 **Für das weitere Vorgehen sind erforderlich:**
 - Überprüfung des aktuellen Zulassungs- und Marktstatus in Deutschland (BfArM/EMA)

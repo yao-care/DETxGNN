@@ -130,7 +130,7 @@ Aus den Begründungen zu einzelnen Vorhersagen ergeben sich folgende allgemeine 
 **Entscheidung: Hold**
 
 **Begründung:**
-Für das nasopharyngeale Teratom gibt es nur eine Modellvorhersage ohne Studien oder Publikationen. Die Erkrankung ist meist gutartig und chirurgisch behandelbar, sodass das Nutzen-Risiko-Verhältnis der PDT unklar ist. Zudem ist die einzige deutsche Zulassung erloschen.
+Für das nasopharyngeale Teratom gibt es nur eine Modellvorhersage ohne Studien oder Publikationen. Die Erkrankung ist meist gutartig und chirurgisch behandelbar, sodass das Nutzen-Risiko-Verhältnis der PDT unklar ist.
 
 **Für ein Weiterkommen ist Folgendes erforderlich:**
 - Fachinformation zu Warnhinweisen und Gegenanzeigen (blockierend für die Sicherheitsprüfung)

@@ -116,7 +116,7 @@ Für weitere Sicherheitsinformationen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die Hauptvorhersage liegen weder klinische Studien noch Literatur vor (Evidenzniveau L5), und es handelt sich um eine veterinärmedizinische Indikation. Die SIV-Daten sind rein präklinisch und eher als Translationsmodell für HIV relevant. Zudem ist die einzige deutsche Zulassung erloschen.
+Für die Hauptvorhersage liegen weder klinische Studien noch Literatur vor (Evidenzniveau L5), und es handelt sich um eine veterinärmedizinische Indikation. Die SIV-Daten sind rein präklinisch und eher als Translationsmodell für HIV relevant.
 
 **Für ein Fortschreiten sind folgende Schritte erforderlich:**
 - Daten zum Wirkmechanismus (MOA) ergänzen, z. B. über die DrugBank-API

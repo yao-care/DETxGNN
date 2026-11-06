@@ -108,7 +108,7 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) siehe die Fa
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage für das Trockene-Auge-Syndrom stützt sich allein auf das TxGNN-Modell (Evidenzniveau L5), ohne klinische Studien oder Publikationen. Zudem ist die Zulassung in Deutschland erloschen, und die HIF-Aktivierung birgt theoretische Risiken (Neovaskularisation).
+Die Vorhersage für das Trockene-Auge-Syndrom stützt sich allein auf das TxGNN-Modell (Evidenzniveau L5), ohne klinische Studien oder Publikationen. Die HIF-Aktivierung birgt theoretische Risiken (Neovaskularisation).
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) als Voraussetzung für die Sicherheitsprüfung

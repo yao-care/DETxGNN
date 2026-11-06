@@ -143,7 +143,7 @@ Für Warnhinweise und Gegenanzeigen aus der Fachinformation liegen keine Daten v
 **Entscheidung: Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen)**
 
 **Begründung:**
-Für das MDS liegen zwei abgeschlossene Phase-3-Studien sowie mehrere randomisierte Studien und Phase-2-Studien zu Busulfan-basierten Konditionierungsregimen vor. Die Evidenz ist daher ausreichend (L1). Allerdings ist Busulfan stets Teil von Kombinationsregimen, die Zulassung in Deutschland ist erloschen, und die Sicherheitsdaten aus der Fachinformation fehlen.
+Für das MDS liegen zwei abgeschlossene Phase-3-Studien sowie mehrere randomisierte Studien und Phase-2-Studien zu Busulfan-basierten Konditionierungsregimen vor. Die Evidenz ist daher ausreichend (L1). Allerdings ist Busulfan stets Teil von Kombinationsregimen, und die Sicherheitsdaten aus der Fachinformation fehlen.
 
 **Für das weitere Vorgehen sind erforderlich:**
 - Fachinformation (Warnhinweise und Gegenanzeigen) von der BfArM-Website beschaffen und auswerten (blockierende Datenlücke)

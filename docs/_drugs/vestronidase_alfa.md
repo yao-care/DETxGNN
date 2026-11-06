@@ -102,7 +102,6 @@ Zur Einordnung die Publikationen zum Wirkstoff (abgerufen unter Sanfilippo-Syndr
 |---------|------|------|-----------|
 | EMEA/H/C/004438 | Mepsevii | – | Mukopolysaccharidose VII |
 
-
 ---
 
 ## Sicherheitsaspekte
@@ -116,14 +115,14 @@ Bitte die Fachinformation für Sicherheitsangaben heranziehen. Für diesen Beric
 **Entscheidung: Hold**
 
 **Begründung:**
-Für das Scheie-Syndrom gibt es weder klinische Studien noch Literatur, und der mechanistische Zusammenhang ist schwach, da Vestronidase alfa den IDUA-Mangel nicht ausgleichen kann. Zudem ist die deutsche Zulassung erloschen.
+Für das Scheie-Syndrom gibt es weder klinische Studien noch Literatur, und der mechanistische Zusammenhang ist schwach, da Vestronidase alfa den IDUA-Mangel nicht ausgleichen kann.
 
 **Für ein Weiterkommen sind folgende Punkte nötig:**
 - Beschaffung der Fachinformation (Warnhinweise, Gegenanzeigen) für die Sicherheitsprüfung
 - Detaillierte Wirkmechanismus-Daten (MOA), z. B. aus DrugBank
 - Präklinische Daten (Enzymaktivität, Zell- oder Tiermodelle), die einen Effekt von GUSB bei IDUA-Mangel belegen
 - Klärung der Substratüberlappung (Dermatan-/Heparansulfat) und der Gewebeverteilung
-- Prüfung der Verfügbarkeit des Produkts, da die Zulassung erloschen ist
+- Prüfung der Verfügbarkeit des Produkts
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -142,7 +142,6 @@ Der mTOR-Signalweg ist in Liposarkomen biologisch plausibel, und der TxGNN-Wert 
 - Wirkmechanismusdaten (MOA) aus DrugBank ergänzen
 - Liposarkomspezifische Daten identifizieren (Subgruppenanalysen der Sarkomstudien, ggf. Phase-2-Studien nach Subtyp)
 - Prüfen der Kontraindikationen aus dem Wissensgraphen und der schwerwiegenden Wechselwirkungen (insbesondere CYP3A4-relevante Substanzen wie Clarithromycin) für die Zielpopulation
-- Klären, wie mit der erloschenen Zulassung und der Verfügbarkeit des Präparats in Deutschland umzugehen ist
 - Die Vorhersagen zum ovariellen myxoiden Liposarkom und zum Vulvasarkom nur als Hypothesen betrachten, solange keine Studien oder Publikationen vorliegen
 ## Haftungsausschluss
 

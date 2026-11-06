@@ -110,7 +110,7 @@ Für die vorhergesagte Indikation gibt es weder klinische Studien noch direkt re
 - Daten zum Wirkmechanismus (MOA) aus DrugBank
 - Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM), da diese Lücke eine Sicherheitsbewertung blockiert
 - Prüfung der Vorhersage zu FNAIT als vorrangige Forschungsfrage, einschließlich Studien zu Plazentagängigkeit, fetaler Sicherheit und neonataler Dosierung
-- Klärung des Zulassungsstatus in Deutschland, da die einzige Zulassung erloschen ist
+- Klärung des Zulassungsstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -93,8 +93,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/005647 | Winrevair | – | Pulmonale Hypertonie |
 
-Diese einzige Zulassung (Merck Sharp & Dohme B.V.) hat den Status „erloschen/aufgehoben“. Eine gültige Zulassung liegt laut den zusammengestellten Daten nicht vor.
-
 ---
 
 ## Sicherheitsaspekte
@@ -111,7 +109,7 @@ Bitte die Packungsbeilage für Sicherheitsinformationen heranziehen. Für Wechse
 Die Vorhersage beruht ausschließlich auf einem Modellwert ohne klinische Studien, Literatur oder belegten Mechanismus (Evidenzgrad L5).
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
-- Prüfung des tatsächlichen Zulassungsstatus von Winrevair (der Status „erloschen“ sollte verifiziert werden)
+- Prüfung des tatsächlichen Zulassungsstatus von Winrevair
 - Beschaffung der Warnhinweise und Gegenanzeigen aus der Packungsbeilage (BfArM/EMA)
 - Ergänzung der Wirkmechanismus-Daten (z. B. aus DrugBank)
 - Systematische Literatur- und Studienrecherche zu Activin-/TGF-beta-Signalwegen bei akuter lymphoblastischer Leukämie

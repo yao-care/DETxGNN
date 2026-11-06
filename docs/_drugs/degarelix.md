@@ -85,8 +85,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 | EMEA/H/C/006048 | Degarelix Accord | – | Prostatic Neoplasms (Prostatakarzinom) |
 | EMEA/H/C/000986 | Firmagon | – | Prostatic Neoplasms (Prostatakarzinom) |
 
-Beide Zulassungen haben den Status „erloschen/zurückgezogen“.
-
 ---
 
 ## Zytotoxizität

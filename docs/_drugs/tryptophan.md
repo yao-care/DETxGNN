@@ -89,8 +89,6 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 |---------|------|------|-----------|
 | EMEA/H/C/005557 | Maapliv | – | Ahornsirupkrankheit (Maple Syrup Urine Disease) |
 
-Die Zulassung ist erloschen (Inhaber: Recordati Rare Diseases).
-
 ---
 
 ## Sicherheitsaspekte
@@ -110,13 +108,13 @@ Für weitere Sicherheitsinformationen ist die Packungsbeilage heranzuziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenz für das RLS stützt sich auf kleine, alte Berichte ohne moderne randomisierte Studien, und es sind keine klinischen Studien registriert. Hinzu kommen ein möglicher gegenteiliger Effekt serotonerger Substanzen auf Bewegungsstörungen, zahlreiche schwerwiegende Wechselwirkungen und die erloschene Zulassung in Deutschland.
+Die Evidenz für das RLS stützt sich auf kleine, alte Berichte ohne moderne randomisierte Studien, und es sind keine klinischen Studien registriert. Hinzu kommen ein möglicher gegenteiliger Effekt serotonerger Substanzen auf Bewegungsstörungen, zahlreiche schwerwiegende Wechselwirkungen.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Kontrollierte, randomisierte Studien zu Tryptophan beim RLS
 - Daten zum Wirkmechanismus (MOA) und zur Sicherheit aus der Packungsbeilage (Warnhinweise und Kontraindikationen)
 - Qualitätsgesicherte Produkte sowie ein Screening auf Wechselwirkungen mit serotonergen Arzneimitteln
-- Klärung der Zulassungs- und Marktsituation, da die einzige Zulassung erloschen ist
+- Klärung der Zulassungs- und Marktsituation
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

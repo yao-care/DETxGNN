@@ -88,7 +88,7 @@ Keine dieser Arbeiten liefert direkte Wirksamkeitsdaten für Posaconazol bei Pne
 
 ## Marktinformationen Deutschland
 
-Alle 5 Zulassungen sind gültig (europäische Zentralzulassungen); das Arzneimittel ist im Handel.
+Das Arzneimittel ist im Handel.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -119,7 +119,7 @@ Zu Warnhinweisen und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinforma
 **Entscheidung: Hold**
 
 **Begründung:**
-Der hohe TxGNN-Wert wird durch keine direkte klinische Evidenz gestützt. Die einzige Studie prüft einen anderen Wirkstoff, die Literatur besteht aus allgemeinen Übersichten. Zudem spricht die Biologie von Pneumocystis (kaum Ergosterol) gegen eine Azol-Wirksamkeit. Alle 5 deutschen Zulassungen sind gültig, das Arzneimittel ist im Handel.
+Der hohe TxGNN-Wert wird durch keine direkte klinische Evidenz gestützt. Die einzige Studie prüft einen anderen Wirkstoff, die Literatur besteht aus allgemeinen Übersichten. Zudem spricht die Biologie von Pneumocystis (kaum Ergosterol) gegen eine Azol-Wirksamkeit. Das Arzneimittel ist im Handel.
 
 **Für ein Weiterverfolgen sind erforderlich:**
 - Fachinformation mit Warnhinweisen und Gegenanzeigen (derzeit blockierende Datenlücke für die Sicherheitsbewertung)

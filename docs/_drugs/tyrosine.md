@@ -112,8 +112,6 @@ Zur Einordnung die relevantesten Treffer bei weiteren Kandidaten (alle ohne dire
 |---------|------|------|-----------|
 | EMEA/H/C/005557 | Maapliv | – | Ahornsirupkrankheit (Maple Syrup Urine Disease) |
 
-Diese Zulassung (Inhaber: Recordati Rare Diseases) ist erloschen; eine gültige Zulassung besteht derzeit nicht.
-
 ---
 
 ## Sicherheitsaspekte
@@ -132,7 +130,6 @@ Das Cauda-equina-Syndrom beruht allein auf einer Graphvorhersage (L5) ohne Studi
 **Für ein Weiterverfolgen sind folgende Schritte nötig:**
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da die Sicherheitsprüfung sonst nicht fortgesetzt werden kann
 - Ergänzung der Wirkmechanismus-Daten (MOA), z. B. über DrugBank
-- Klärung des erloschenen Zulassungsstatus in Deutschland
 - Prüfung, ob ein biologisch plausibler Mechanismus für eine der Indikationen (z. B. neurogene Blase mit aktueller Krankheitsdefinition) besteht, bevor Studien geplant werden
 - Bewertung der Ähnlichkeit zur ursprünglichen Indikation und der Anwendungswege (derzeit ausstehend)
 ## Haftungsausschluss

@@ -78,7 +78,7 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 
 ## Marktinformationen Deutschland
 
-Alle acht Zulassungen sind aufgehoben. Es handelt sich um zentrale EU-Zulassungen (EMEA/H/C). Die ersten fünf sind:
+Es handelt sich um zentrale EU-Zulassungen (EMEA/H/C). Die ersten fünf sind:
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -119,13 +119,13 @@ Die Angaben aus der Fachinformation (Warnhinweise, Gegenanzeigen) lagen für die
 **Entscheidung: Hold**
 
 **Begründung:**
-Für Duodenalulkus gibt es weder Studien noch Publikationen, und ein plausibler Wirkmechanismus fehlt. Hinzu kommt, dass in Deutschland derzeit 7 von 8 Zulassungen gültig sind, die Sicherheitsangaben aus der Fachinformation aber fehlen.
+Für Duodenalulkus gibt es weder Studien noch Publikationen, und ein plausibler Wirkmechanismus fehlt. Die Sicherheitsangaben aus der Fachinformation aber fehlen.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Prüfen, ob für Duodenalulkus präklinische oder mechanistische Hinweise existieren (z. B. Literaturrecherche zu PTH-Rezeptoren im Magen-Darm-Trakt).
 - Wirkmechanismus-Daten (MOA) ergänzen, z. B. aus DrugBank.
 - Warnhinweise und Gegenanzeigen aus der Fachinformation beschaffen (derzeit eine blockierende Datenlücke).
-- Verfügbarkeit der Produkte klären, da alle Zulassungen aufgehoben sind.
+- Verfügbarkeit der Produkte klären.
 
 **Hinweis zu anderen Vorhersagen:** Unter den zehn vorhergesagten Indikationen sind zwei deutlich besser belegt als das Duodenalulkus:
 - **Amenorrhoe** (Vorhersagewert 0,9904, Evidenzlevel L4, Empfehlung „Research Question“): Der Bezug besteht indirekt über die Knochengesundheit bei funktioneller hypothalamischer Amenorrhoe.

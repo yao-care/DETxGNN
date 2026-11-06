@@ -107,7 +107,7 @@ Die Vorhersage stützt sich allein auf das TxGNN-Modell (Deep Learning, L5), ohn
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) als Voraussetzung für die Sicherheitsprüfung
 - Daten zum Wirkmechanismus (z. B. aus DrugBank)
 - Systematische Literatur- und Studienrecherche zu Tocofersolan/Vitamin E bei Amenorrhoe (und Akne)
-- Prüfung der Applikationswege und der Zulassungs- bzw. Verfügbarkeitssituation, da die bisherige Zulassung erloschen ist
+- Prüfung der Applikationswege und der Zulassungs- bzw. Verfügbarkeitssituation
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

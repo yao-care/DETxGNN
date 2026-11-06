@@ -109,7 +109,7 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) ist die Fach
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich allein auf ein Modellergebnis und eine allgemeine Übersichtsarbeit. Es gibt keine klinischen Studien, und Imiglucerase besitzt keine katalytische Aktivität gegenüber dem MPS-I-Substrat. Mit Laronidase existiert zudem eine spezifische zugelassene Therapie. Die Zulassung in Deutschland ist erloschen.
+Die Vorhersage stützt sich allein auf ein Modellergebnis und eine allgemeine Übersichtsarbeit. Es gibt keine klinischen Studien, und Imiglucerase besitzt keine katalytische Aktivität gegenüber dem MPS-I-Substrat. Mit Laronidase existiert zudem eine spezifische zugelassene Therapie.
 
 **Für ein Weiterkommen ist Folgendes erforderlich:**
 - Fachinformation mit Warnhinweisen und Gegenanzeigen (derzeit blockierende Datenlücke für die Sicherheitsprüfung)

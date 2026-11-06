@@ -132,7 +132,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Für Pertuzumab liegen eine abgeschlossene Phase-3-Studie sowie mehrere randomisierte Studien (u. a. NeoSphere, WSG-ADAPT, WSG TP-II) vor, die die HER2-gerichtete Therapie in HR+/HER2+-Populationen stützen. Die PR-positive Untergruppe ist jedoch nicht gesondert ausgewertet, und die deutschen Zulassungen sind sämtlich erloschen.
+Für Pertuzumab liegen eine abgeschlossene Phase-3-Studie sowie mehrere randomisierte Studien (u. a. NeoSphere, WSG-ADAPT, WSG TP-II) vor, die die HER2-gerichtete Therapie in HR+/HER2+-Populationen stützen. Die PR-positive Untergruppe ist jedoch nicht gesondert ausgewertet.
 
 **Für das weitere Vorgehen erforderlich:**
 - Auswertung PR-spezifischer Untergruppendaten

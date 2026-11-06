@@ -84,7 +84,7 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 |---------|------|------|-----------|
 | EMEA/H/C/004102 | Dectova | – | Influenza (humane Influenza) |
 
-Diese Zulassung ist aufgehoben (Status: cancelled), der Hersteller ist GlaxoSmithKline Trading Services Limited.
+Der Hersteller ist GlaxoSmithKline Trading Services Limited.
 
 ---
 
@@ -110,7 +110,7 @@ Die Vorhersage beruht ausschließlich auf einem hohen Modellscore (Evidenzlevel 
 - Belastbare Daten zum Wirkmechanismus (MOA) von Zanamivir
 - Präklinische Belege für eine Wirkung gegen Erreger der Pyelonephritis (z. B. bakterielle Sialidasen)
 - Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation, da diese Daten fehlen und ein Sicherheits-Screening bislang nicht möglich ist
-- Klärung der Verfügbarkeit und Darreichungsform, da die einzige deutsche Zulassung aufgehoben ist
+- Klärung der Verfügbarkeit und Darreichungsform
 
 ---
 

@@ -43,7 +43,6 @@ Evidenzniveau: **N/A** | Vorhergesagte Indikationen: **0**
 | Ursprüngliche Indikation | HIV Infections |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 6 von 6) |
 | Anzahl der Zulassungen | 6 (gültig: 6) |
-| Taiwan Marktstatus | Nicht vermarktet (Nicht vermarktet) |
 | Anzahl der Genehmigungen | 0 |
 
 ---

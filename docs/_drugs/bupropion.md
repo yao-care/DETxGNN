@@ -129,7 +129,7 @@ Angaben aus dem Beipackzettel (Warnhinweise, Gegenanzeigen) liegen nicht vor. Bi
 **Entscheidung: Proceed with Guardrails (Fortführung mit Schutzmaßnahmen)**
 
 **Begründung:**
-Es gibt eine abgeschlossene, placebokontrollierte Phase-3-Studie sowie weitere Studien und Übersichtsarbeiten (u. a. ein Cochrane-Review), die Bupropion bei ADHS im Erwachsenenalter stützen. Der Mechanismus (Hemmung der Noradrenalin-/Dopamin-Wiederaufnahme) ist plausibel. Die Sicherheitsdaten sind jedoch lückenhaft, und die deutsche Zulassung ist erloschen.
+Es gibt eine abgeschlossene, placebokontrollierte Phase-3-Studie sowie weitere Studien und Übersichtsarbeiten (u. a. ein Cochrane-Review), die Bupropion bei ADHS im Erwachsenenalter stützen. Der Mechanismus (Hemmung der Noradrenalin-/Dopamin-Wiederaufnahme) ist plausibel. Die Sicherheitsdaten sind jedoch lückenhaft.
 
 **Für das weitere Vorgehen sind erforderlich:**
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) – derzeit blockierende Datenlücke für die Sicherheitsprüfung

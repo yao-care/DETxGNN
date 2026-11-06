@@ -60,7 +60,6 @@ Detaillierte Daten zum Wirkmechanismus von Glycin liegen derzeit nicht vor. Glyc
 
 Der hohe Vorhersagewert (0,9985) beruht ausschließlich auf einer modellbasierten Vorhersage. Allgemein wird Glycin eine entzündungshemmende bzw. zellschützende Wirkung zugeschrieben, doch für diese Indikation wird dies durch die vorliegenden Daten nicht gestützt. Die Ähnlichkeit zwischen ursprünglicher und neuer Indikation ist nicht bewertet.
 
-
 ## Klinische Evidenz
 
 | Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
@@ -98,7 +97,7 @@ Für Arzneimittelwechselwirkungen wurden keine Einträge gefunden. Für weitere 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf das TxGNN-Modell (Evidenzgrad L5). Die einzige Studie und beide Publikationen haben keinen Bezug zu Glycin als Therapie, und die deutsche Zulassung ist erloschen.
+Die Vorhersage stützt sich ausschließlich auf das TxGNN-Modell (Evidenzgrad L5). Die einzige Studie und beide Publikationen haben keinen Bezug zu Glycin als Therapie.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Auswertung der Packungsbeilage (Warnhinweise und Gegenanzeigen) von der BfArM-Website, da dies derzeit den Sicherheits-Screening-Schritt blockiert

@@ -86,7 +86,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/005398 | Vazkepa | – | Dyslipidämien |
 
-Hinweis: Diese Zulassung ist aufgehoben (Status: cancelled). Hersteller: Recordati Industria Chimica e Farmaceutica S.p.A.
+Hersteller: Recordati Industria Chimica e Farmaceutica S.p.A.
 
 ---
 

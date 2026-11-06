@@ -101,7 +101,7 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen, Wechselwirku
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert (Evidenzlevel L5), ohne klinische Studien, Literatur oder belegbaren Wirkmechanismus. Zudem ist die einzige Zulassung erloschen, was einen kurzfristigen Entwicklungsweg einschränkt.
+Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert (Evidenzlevel L5), ohne klinische Studien, Literatur oder belegbaren Wirkmechanismus.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Daten zum Wirkmechanismus (MOA) aus DrugBank

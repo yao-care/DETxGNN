@@ -109,7 +109,7 @@ Die Vorhersage stützt sich allein auf das Modell (L5) ohne Studien oder Publika
 - Klärung, ob es sich um einen therapeutischen Effekt oder um eine Nebenwirkung handelt
 - Daten zum Wirkmechanismus (MOA)
 - Sicherheitsinformationen aus der Packungsbeilage (Warnhinweise und Kontraindikationen)
-- Prüfung der Darreichungswege und der praktischen Entwicklungsmöglichkeiten angesichts des erloschenen Marktstatus
+- Prüfung der Darreichungswege und der praktischen Entwicklungsmöglichkeiten
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

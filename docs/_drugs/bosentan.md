@@ -117,7 +117,7 @@ Beide Zulassungen (Janssen-Cilag) sind gültig; das Arzneimittel ist im Handel.
 **Entscheidung: Hold**
 
 **Begründung:**
-Für rheumatoide Arthritis gibt es keine klinischen Studien; die Evidenz beschränkt sich auf Tiermodelle und Übersichten zur PAH bei Bindegewebserkrankungen. Hinzu kommen der erloschene Zulassungsstatus in Deutschland und ein relevantes Sicherheitsprofil (Leber, Teratogenität).
+Für rheumatoide Arthritis gibt es keine klinischen Studien; die Evidenz beschränkt sich auf Tiermodelle und Übersichten zur PAH bei Bindegewebserkrankungen.
 
 **Für ein Weiterkommen sind folgende Schritte erforderlich:**
 - Daten zum Wirkmechanismus (MOA) aus DrugBank ergänzen

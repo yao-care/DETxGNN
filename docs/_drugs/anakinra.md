@@ -126,13 +126,13 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold (Forschungsfrage)**
 
 **Begründung:**
-Für das familiäre Mittelmeerfieber ist der Mechanismus (IL-1-Überproduktion) stark und durch Fallserien sowie Übersichten gestützt, es fehlen jedoch registrierte Studien und RCTs (Evidenzstufe L3). Die Vorhersagen mit dem höchsten Score (z. B. extrakutanes Mastozytom) haben keinerlei klinische Evidenz (L5). Zudem ist die Zulassung in Deutschland erloschen, und die Sicherheitsdaten aus der Fachinformation fehlen.
+Für das familiäre Mittelmeerfieber ist der Mechanismus (IL-1-Überproduktion) stark und durch Fallserien sowie Übersichten gestützt, es fehlen jedoch registrierte Studien und RCTs (Evidenzstufe L3). Die Vorhersagen mit dem höchsten Score (z. B. extrakutanes Mastozytom) haben keinerlei klinische Evidenz (L5). Die Sicherheitsdaten aus der Fachinformation fehlen.
 
 **Für das weitere Vorgehen sind erforderlich:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) – derzeit blockierende Datenlücke für das Sicherheitsscreening
 - Daten zum Wirkmechanismus (MOA) aus DrugBank
 - Prüfung prospektiver Studien oder RCTs für FMF (Colchicin-resistente Patienten) sowie für PAPA-/PSTPIP1-assoziierte Erkrankungen
-- Klärung des regulatorischen Status in Deutschland (erloschene Zulassung) und der Anwendungswege
+- Klärung des regulatorischen Status in Deutschland und der Anwendungswege
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

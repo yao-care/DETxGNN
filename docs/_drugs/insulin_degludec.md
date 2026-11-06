@@ -138,7 +138,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 Mehrere abgeschlossene Phase-3-Studien (u. a. SWITCH 1) und hochrangige RCTs sowie systematische Übersichten stützen den Einsatz von Degludec bei Typ-1-Diabetes, sodass der Evidenzgrad L1 erreicht wird.
 
 **Für das weitere Vorgehen ist erforderlich:**
-- Klärung des regulatorischen Status und der Verfügbarkeit in Deutschland (erloschene Zulassungen)
+- Klärung des regulatorischen Status und der Verfügbarkeit in Deutschland
 - Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) vom BfArM, da diese Daten derzeit fehlen
 - Detaillierte Wirkmechanismusdaten (z. B. aus DrugBank)
 - Prüfung der Wechselwirkungen, v. a. mit Sympathomimetika, Betablockern und anderen Antidiabetika

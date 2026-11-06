@@ -43,7 +43,6 @@ Evidenzniveau: **N/A** | Vorhergesagte Indikationen: **0**
 | Ursprüngliche Indikation | Apnea |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
 | TxGNN-Vorhersagepunktzahl | Nicht verfügbar |
-| Taiwan-Marktstatus | ✗ Nicht vermarktet (0 Zulassungen) |
 | Anzahl der Zulassungen | 2 (gültig: 2) |
 
 ---

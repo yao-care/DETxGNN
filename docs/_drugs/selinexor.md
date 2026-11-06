@@ -118,7 +118,7 @@ Die Zulassung ist gültig: Von 1 Zulassung ist 1 gültig; das Arzneimittel ist i
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht allein auf einem hohen TxGNN-Score (Evidenzniveau L5), ohne klinische Studien oder Literatur. Zudem ist die Zulassung in Deutschland erloschen, und die Sicherheitsdaten sind lückenhaft.
+Die Vorhersage beruht allein auf einem hohen TxGNN-Score (Evidenzniveau L5), ohne klinische Studien oder Literatur. Die Sicherheitsdaten sind lückenhaft.
 
 **Für ein Weiterkommen sind folgende Schritte erforderlich:**
 - Fachinformation (Warnhinweise und Gegenanzeigen) beschaffen und auswerten, da dies für das Sicherheitsscreening zwingend nötig ist

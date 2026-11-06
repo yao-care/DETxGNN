@@ -121,7 +121,7 @@ Für Warnhinweise und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinform
 **Entscheidung: Hold**
 
 **Begründung:**
-Für diabetische Nephropathie gibt es plausible präklinische Befunde und eine laufende bzw. in ihrem Status unklare Phase-4-Studie ohne Ergebnisse, aber keine abgeschlossene Phase-3-Studie mit renalen Endpunkten. Zudem ist Valsartan allein bereits Standardtherapie, und beide deutschen/EU-Zulassungen sind erloschen. Die übrigen Vorhersagen (Rang 1, 2, 4 und 5) haben nur Modell-Evidenz (L5).
+Für diabetische Nephropathie gibt es plausible präklinische Befunde und eine laufende bzw. in ihrem Status unklare Phase-4-Studie ohne Ergebnisse, aber keine abgeschlossene Phase-3-Studie mit renalen Endpunkten. Zudem ist Valsartan allein bereits Standardtherapie. Die übrigen Vorhersagen (Rang 1, 2, 4 und 5) haben nur Modell-Evidenz (L5).
 
 **Für ein Fortschreiten sind folgende Schritte nötig:**
 - Ergebnisse oder Statusklärung der Studie NCT06501651

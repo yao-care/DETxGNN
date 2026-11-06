@@ -86,8 +86,6 @@ Derzeit ist keine relevante Literatur zu Choroideremie verfügbar.
 |---------|------|------|-----------|
 | EMEA/H/C/002643 | Mekinist (Novartis Europharm Limited) | nicht angegeben | Melanom |
 
-Die einzige erfasste Zulassung hat den Status „erloschen“.
-
 ---
 
 ## Zytotoxizität
@@ -127,7 +125,7 @@ Die Melanom-Subtypen sind überwiegend Varianten der bereits bekannten Indikatio
 **Entscheidung: Hold**
 
 **Begründung:**
-Für Choroideremie fehlen sowohl Studien als auch Literatur, und es gibt keinen plausiblen mechanistischen Zusammenhang zur MEK-Hemmung. Zudem ist die deutsche Zulassung erloschen und die Sicherheitsdaten der Fachinformation fehlen.
+Für Choroideremie fehlen sowohl Studien als auch Literatur, und es gibt keinen plausiblen mechanistischen Zusammenhang zur MEK-Hemmung.
 
 **Für ein Weiterkommen ist Folgendes erforderlich:**
 - Beschaffung der Fachinformation (Warnhinweise, Gegenanzeigen) als Voraussetzung für das Sicherheits-Screening

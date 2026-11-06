@@ -124,7 +124,7 @@ Zur drittplatzierten Vorhersage (peptisches Ulkus) wurden folgende Quellen gefun
 **Entscheidung: Hold**
 
 **Begründung:**
-Der Vorhersagewert für Restless-Legs-Syndrom ist hoch, es gibt jedoch weder klinische Studien noch Literatur, und ein plausibler Mechanismus fehlt. Zudem ist die einzige deutsche Zulassung erloschen. Für die anderen beiden Vorhersagen gilt dasselbe, bei peptischem Ulkus kommen ein Sicherheitssignal und die weitgehende Ablösung der Anticholinergika durch Protonenpumpenhemmer hinzu.
+Der Vorhersagewert für Restless-Legs-Syndrom ist hoch, es gibt jedoch weder klinische Studien noch Literatur, und ein plausibler Mechanismus fehlt. Für die anderen beiden Vorhersagen gilt dasselbe, bei peptischem Ulkus kommen ein Sicherheitssignal und die weitgehende Ablösung der Anticholinergika durch Protonenpumpenhemmer hinzu.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Daten zum Wirkmechanismus (MOA), etwa aus DrugBank

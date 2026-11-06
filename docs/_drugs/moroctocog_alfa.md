@@ -98,8 +98,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/000232 | ReFacto AF | – | Hämophilie A |
 
-Hinweis: Diese Zulassung (Pfizer Europe MA EEIG) ist als erloschen/gelöscht geführt.
-
 ---
 
 ## Sicherheitsaspekte
@@ -113,7 +111,7 @@ Für Sicherheitsinformationen beachten Sie bitte die Packungsbeilage. Zu Wechsel
 **Entscheidung: Hold**
 
 **Begründung:**
-Alle vorhergesagten Indikationen stützen sich ausschließlich auf Modellwerte (Evidenzstufe L5) ohne Studien oder Publikationen. Zudem sprechen die Pathomechanismen überwiegend gegen eine Wirksamkeit von FVIII-Ersatz, und die deutsche Zulassung ist erloschen.
+Alle vorhergesagten Indikationen stützen sich ausschließlich auf Modellwerte (Evidenzstufe L5) ohne Studien oder Publikationen. Zudem sprechen die Pathomechanismen überwiegend gegen eine Wirksamkeit von FVIII-Ersatz.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Beschaffung und Auswertung der Packungsbeilage (Warnhinweise, Gegenanzeigen) als Voraussetzung für die Sicherheitsprüfung

@@ -112,7 +112,7 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) ist die Fach
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage für Hypertrichose beruht ausschließlich auf einem Modellwert (L5) ohne Studien oder Literatur, und der mechanistische Zusammenhang ist schwach. Zudem sind beide deutschen Zulassungen erloschen.
+Die Vorhersage für Hypertrichose beruht ausschließlich auf einem Modellwert (L5) ohne Studien oder Literatur, und der mechanistische Zusammenhang ist schwach.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da die Sicherheitsdaten derzeit lückenhaft sind und eine Sicherheitsprüfung blockieren

@@ -160,7 +160,7 @@ Für die myeloische Leukämie liegen zwei abgeschlossene Phase-3-Studien sowie z
 - Auswertung der Ergebnisse von NCT02085408 und NCT00317642 (Gesamtüberleben, Remissionsrate, Toxizität im Vergleich zur Standardtherapie)
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) – derzeit eine blockierende Datenlücke für die Sicherheitsbewertung
 - Ergänzung der Wirkmechanismus-Daten aus der Arzneimitteldatenbank
-- Klärung des Zulassungs- und Versorgungsstatus in Deutschland, da die einzige Zulassung erloschen ist
+- Klärung des Zulassungs- und Versorgungsstatus in Deutschland
 - Überwachungsplan für Blutbild, Leber- und Nierenfunktion sowie Prüfung relevanter Wechselwirkungen (z. B. nephro- oder hepatotoxische Begleitmedikation)
 ## Haftungsausschluss
 

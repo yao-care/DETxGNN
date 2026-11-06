@@ -137,7 +137,7 @@ Angaben zu Warnhinweisen und Gegenanzeigen aus der Fachinformation lagen nicht v
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage zur pulmonalen Hypertonie beruht ausschließlich auf dem TxGNN-Modell (Evidenzniveau L5) ohne klinische Studien oder Literatur. Zudem ist die deutsche Zulassung erloschen, und die Sicherheitsdaten sind unvollständig.
+Die Vorhersage zur pulmonalen Hypertonie beruht ausschließlich auf dem TxGNN-Modell (Evidenzniveau L5) ohne klinische Studien oder Literatur. Die Sicherheitsdaten sind unvollständig.
 
 **Für ein Fortschreiten sind folgende Schritte erforderlich:**
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) für die Sicherheitsprüfung

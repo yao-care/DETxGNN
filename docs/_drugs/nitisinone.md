@@ -103,7 +103,7 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) ist die Fach
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die renale tubuläre Azidose gibt es ausschließlich eine Modellvorhersage ohne Studien oder Publikationen (Evidenzniveau L5). Der mechanistische Zusammenhang ist nur indirekt, und die deutschen Zulassungen sind aufgehoben.
+Für die renale tubuläre Azidose gibt es ausschließlich eine Modellvorhersage ohne Studien oder Publikationen (Evidenzniveau L5). Der mechanistische Zusammenhang ist nur indirekt.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da diese Sicherheitsdaten derzeit fehlen und eine Sicherheitsprüfung blockieren

@@ -110,7 +110,7 @@ Für Warnhinweise und Kontraindikationen der Fachinformation bitte die Packungsb
 Dantrolen ist bei Maligner Hyperthermie leitlinienkonform etabliert, die Vorhersage bestätigt jedoch nur die Originalindikation. Kontrollierte Studien fehlen, und die Marktverfügbarkeit in Deutschland ist unklar. Die RYR1-verwandten Myopathien (King-Denborough, Central Core Disease, zentronukleäre Myopathie) bleiben Forschungsfragen. Multiminicore-Erkrankung und die periodischen Lähmungen sind rein rechnerische Vorhersagen (Hold).
 
 **Für das weitere Vorgehen erforderlich:**
-- Prüfung der aktuellen Verfügbarkeit von Dantrolen-Präparaten in Deutschland (erloschene Agilus-Zulassung vs. andere Formulierungen)
+- Prüfung der aktuellen Verfügbarkeit von Dantrolen-Präparaten in Deutschland
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise, Kontraindikationen); dies ist derzeit eine blockierende Datenlücke für das Sicherheits-Screening
 - Ergänzung der Wirkmechanismus-Daten aus DrugBank
 - Klärung der Sicherheit bei Leber- und Muskelerkrankungen sowie bei Opioid-Komedikation (insbesondere Morphin)

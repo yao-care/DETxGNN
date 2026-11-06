@@ -99,8 +99,6 @@ Alle 8 Zulassungen (zentrale EU-Zulassungen) sind gültig; das Arzneimittel ist 
 | EMEA/H/C/004449 | Biktarvy | – | HIV-Infektionen |
 | EMEA/H/C/004042 | Genvoya | – | HIV-Infektionen |
 
-Weitere erloschene Zulassungen: Symtuza sowie zwei Viatris-Generika-Kombinationen (Emtricitabin/TAF; Emtricitabin/Rilpivirin/TAF).
-
 ---
 
 ## Sicherheitsaspekte

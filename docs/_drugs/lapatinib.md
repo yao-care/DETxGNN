@@ -122,7 +122,7 @@ Für weitere Sicherheitsinformationen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf einen hohen TxGNN-Wert (Evidenzniveau L5) ohne klinische Studien oder Literatur. Der biologische Zusammenhang ist spekulativ, da Lapatinib PDGFR nicht direkt angreift und für DFSP bereits ein etablierter, gezielter Therapiestandard (Imatinib) besteht. Zudem ist die einzige deutsche bzw. europäische Zulassung erloschen.
+Die Vorhersage stützt sich ausschließlich auf einen hohen TxGNN-Wert (Evidenzniveau L5) ohne klinische Studien oder Literatur. Der biologische Zusammenhang ist spekulativ, da Lapatinib PDGFR nicht direkt angreift und für DFSP bereits ein etablierter, gezielter Therapiestandard (Imatinib) besteht.
 
 **Für ein Fortschreiten sind folgende Schritte nötig:**
 - Beschaffung der Warnhinweise und Kontraindikationen aus der Fachinformation (derzeit blockierende Datenlücke für die Sicherheitsprüfung)

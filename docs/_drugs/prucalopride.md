@@ -116,7 +116,7 @@ Für die Top-Vorhersage Hypoalphalipoproteinämie gibt es weder einen mechanisti
 - Daten zum Wirkmechanismus (MOA) ergänzen, z. B. über DrugBank
 - Warnhinweise und Gegenanzeigen aus der Packungsbeilage (BfArM) beschaffen und prüfen
 - Für die Amyloidose-assoziierte Dysmotilität: gezielte Literaturrecherche und ggf. Pilotstudie zur symptomatischen Wirksamkeit
-- Klärung des Zulassungsstatus in Deutschland (erloschene Zulassung)
+- Klärung des Zulassungsstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

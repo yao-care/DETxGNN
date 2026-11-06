@@ -88,8 +88,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 | EMEA/H/C/001164 | PecFent | – | Schmerz; Krebs |
 | EMEA/H/C/000959 | Instanyl | – | Schmerz; Krebs |
 
-Alle drei Zulassungen sind aufgehoben (Status: cancelled).
-
 ---
 
 ## Sicherheitsaspekte
@@ -106,7 +104,7 @@ Angaben zu Warnhinweisen und Kontraindikationen aus der Packungsbeilage liegen n
 **Entscheidung: Hold**
 
 **Begründung:**
-Für beide vorhergesagten Indikationen gibt es ausschließlich eine Modellvorhersage (Evidenzlevel L5) ohne klinische Studien oder Publikationen. Beim nephrogenen SIAD fehlt zudem ein plausibler Wirkzusammenhang, und alle deutschen Zulassungen sind aufgehoben.
+Für beide vorhergesagten Indikationen gibt es ausschließlich eine Modellvorhersage (Evidenzlevel L5) ohne klinische Studien oder Publikationen. Beim nephrogenen SIAD fehlt zudem ein plausibler Wirkzusammenhang.
 
 **Für ein Weiterkommen wird Folgendes benötigt:**
 - Daten zum Wirkmechanismus (MOA) aus DrugBank

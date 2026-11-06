@@ -36,7 +36,6 @@ Evidenzniveau: **N/A** | Vorhergesagte Indikationen: **0**
 ## Buprenorphine Hydrochloride
 {: .text-alpha }
 
-
 ## Schnelküberblick
 
 | Element | Inhalt |
@@ -44,7 +43,6 @@ Evidenzniveau: **N/A** | Vorhergesagte Indikationen: **0**
 | Ursprüngliche Indikation | Opioid-Related Disorders |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 4 von 4) |
 | Anzahl der Zulassungen | 4 (gültig: 4) |
-| Taiwan-Markt-Status | ✗ Nicht vermarktet |
 | Anzahl der Genehmigungen | 0 |
 
 ---

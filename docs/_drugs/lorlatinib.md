@@ -86,8 +86,6 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 |---------|------|------|-----------|
 | EMEA/H/C/004646 | Lorviqua | – | Nicht-kleinzelliges Lungenkarzinom |
 
-Der Status dieser Zulassung ist „erloschen".
-
 ---
 
 ## Zytotoxizität
@@ -116,7 +114,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Für Fibromatose der Gingiva gibt es weder klinische Studien noch Literatur und keinen plausiblen ALK-bezogenen Mechanismus; der hohe Score ist rein rechnerisch. Zudem ist die deutsche Zulassung erloschen.
+Für Fibromatose der Gingiva gibt es weder klinische Studien noch Literatur und keinen plausiblen ALK-bezogenen Mechanismus; der hohe Score ist rein rechnerisch.
 
 **Für ein Weiterverfolgen sind erforderlich:**
 - Daten zum Wirkmechanismus (MOA) und eine biologische Begründung für eine ALK/ROS1-Beteiligung bei Gingivafibromatose

@@ -122,7 +122,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation beachten.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzstufe L5), ohne klinische Studien oder Publikationen. Zudem ist die einzige deutsche Zulassung erloschen, und die Sicherheitsdaten aus der Fachinformation fehlen.
+Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzstufe L5), ohne klinische Studien oder Publikationen. Die Sicherheitsdaten aus der Fachinformation fehlen.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Systematische Recherche zu klinischen Studien und Literatur zu VEGFR-Inhibitoren bei Zervixkarzinom und gynäkologischen Adenokarzinomen

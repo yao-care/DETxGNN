@@ -122,14 +122,14 @@ Für Warnhinweise und Gegenanzeigen siehe Fachinformation.
 **Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Für die Population mit HIV/HCV-Koinfektion liegt starke Evidenz aus mehreren Phase-3-Studien vor. Diese bestätigt jedoch die ursprüngliche HCV-Indikation und keine Wirkung gegen HIV. Die Zulassung in Deutschland ist erloschen. Die Vorhersage ist daher nicht als echtes Repurposing für HIV zu werten.
+Für die Population mit HIV/HCV-Koinfektion liegt starke Evidenz aus mehreren Phase-3-Studien vor. Diese bestätigt jedoch die ursprüngliche HCV-Indikation und keine Wirkung gegen HIV. Die Vorhersage ist daher nicht als echtes Repurposing für HIV zu werten.
 
 **Für das weitere Vorgehen sind erforderlich:**
 - Klärung, ob tatsächlich eine anti-HIV-Wirkung geprüft werden soll (präklinische und mechanistische Daten fehlen)
 - Daten zum Wirkmechanismus
 - Fachinformation des BfArM mit Warnhinweisen und Gegenanzeigen für das Sicherheits-Screening
 - Interaktionsmanagement mit antiretroviralen Therapien
-- Klärung des Zulassungsstatus (erloschene Zulassung)
+- Klärung des Zulassungsstatus
 
 **Weitere Vorhersagen (zur Einordnung):** Hepatitis B, E und A, Omsk-Fieber, Kyasanur-Waldkrankheit, SIV, felines Immunschwächesyndrom und eine seltene neurologische Entwicklungsstörung wurden ebenfalls vorhergesagt. Für diese besteht jeweils keine belastbare Evidenz oder kein plausibler Mechanismus (Empfehlung: Hold). Bei der Kyasanur-Waldkrankheit gibt es lediglich eine In-silico-Studie, die als Forschungsfrage einzustufen ist.
 ## Haftungsausschluss

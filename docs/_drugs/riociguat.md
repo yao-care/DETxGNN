@@ -42,7 +42,6 @@ Evidenzniveau: **N/A** | Vorhergesagte Indikationen: **0**
 |------|---------|
 | Originalindikation | Hypertension, Pulmonary |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
-| Taiwan-Marktstatus | ✗ Nicht vermarktet |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
 
 ---

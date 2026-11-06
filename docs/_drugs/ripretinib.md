@@ -39,7 +39,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 ## Zusammenfassung in einem Satz
 
 Ripretinib (Qinlock) ist ein Switch-Control-Kinase-Inhibitor, der auf KIT- und PDGFRA-Mutationen abzielt und ursprünglich für fortgeschrittenes gastrointestinales Stroma-Tumor (GIST) bei Patienten zugelassen wurde, die bereits drei oder mehr frühere Kinase-Inhibitor-Therapien erhalten haben.
-Dieses Evidence Pack enthält noch keine TxGNN-vorhergesagten Repurposing-Kandidaten für Ripretinib, da zwei kritische Datenlücken – TFDA-Sicherheitskennzeichnung (Blockierungsschwere) und Mechanismus-der-Wirkung-Details (hohe Schwere) – ungelöst bleiben.
+Dieses Evidence Pack enthält noch keine TxGNN-vorhergesagten Repurposing-Kandidaten für Ripretinib, da zwei kritische Datenlücken – Sicherheitskennzeichnung (Blockierungsschwere) und Mechanismus-der-Wirkung-Details (hohe Schwere) – ungelöst bleiben.
 Keine neue Indikation kann in diesem Stadium formal bewertet oder empfohlen werden.
 
 ---
@@ -108,7 +108,7 @@ Ripretinib ist ein Antineoplastikum (gezielter Kinase-Inhibitor), das für eine 
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Die Datenlücke DG001 – TFDA-Sicherheitskennzeichnung – ist als Blockierungsschwere klassifiziert und wurde in diesem Evidence Pack noch nicht gelöst. Schlüsselwarnungen und Kontraindikationen können nicht gemeldet werden, bis die Packungsbeilage-PDF abgerufen und analysiert wird.)
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Die Datenlücke DG001 – Sicherheitskennzeichnung – ist als Blockierungsschwere klassifiziert und wurde in diesem Evidence Pack noch nicht gelöst. Schlüsselwarnungen und Kontraindikationen können nicht gemeldet werden, bis die Packungsbeilage-PDF abgerufen und analysiert wird.)
 
 ---
 
@@ -121,7 +121,7 @@ Dieses Evidence Pack enthält keine TxGNN-vorhergesagten Repurposing-Indikatione
 
 **Um fortzufahren, ist Folgendes erforderlich:**
 
-- **Beheben Sie DG001 (Blockierung):** Laden Sie die TFDA-Packungsbeilage-PDF herunter und analysieren Sie sie, um Warnungen, Kontraindikationen und Beschränkungen für Spezialgruppen zu extrahieren – erforderlich, bevor das S1-Sicherheits-Screening beginnen kann
+- **Beheben Sie DG001 (Blockierung):** Laden Sie die Packungsbeilage-PDF herunter und analysieren Sie sie, um Warnungen, Kontraindikationen und Beschränkungen für Spezialgruppen zu extrahieren – erforderlich, bevor das S1-Sicherheits-Screening beginnen kann
 - **Beheben Sie DG002 (Hoch):** Fragen Sie die DrugBank-API ab, um vollständige MOA, Pharmakodynamik und Zielprofile für Ripretinib abzurufen (DrugBank-Abfrage am 2026-03-29 gab 1 Ergebnis zurück, aber die Daten wurden nicht im Evidence Pack erfasst)
 - **Führen Sie die TxGNN-Vorhersage-Pipeline erneut aus:** Generieren Sie graphbasierte Repurposing-Kandidaten mit vollständigen Wirkstoff-Feature-Eingaben; ohne Vorhersagen ist keine indikationsspezifische Bewertung möglich
 - **Überprüfen Sie den Marktzulassungsstatus:** Überprüfen Sie die EMA- und lokalen behördlichen Datenbanken, um zu bestätigen, ob Ripretinib unter einer für dieses Projekt relevanten Rechtsprechung autorisiert ist, und aktualisieren Sie `total_licenses` entsprechend

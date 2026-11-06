@@ -108,7 +108,7 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Kontraindikationen laut Lab
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die Hauptvorhersage liegen weder klinische Studien noch Publikationen vor, ein plausibler Mechanismus ist nicht erkennbar, und der Wissensgraph führt Myopathien sogar als mögliche Kontraindikation. Die in Deutschland einzige Zulassung ist aufgehoben.
+Für die Hauptvorhersage liegen weder klinische Studien noch Publikationen vor, ein plausibler Mechanismus ist nicht erkennbar, und der Wissensgraph führt Myopathien sogar als mögliche Kontraindikation.
 
 **Um fortzufahren, wird Folgendes benötigt:**
 - Daten zum Wirkmechanismus (Abfrage über DrugBank)

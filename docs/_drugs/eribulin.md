@@ -116,7 +116,7 @@ Für Warnhinweise und Gegenanzeigen laut Fachinformation bitte den Beipackzettel
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf das Modell (L5), ohne Studien oder Publikationen. Ein plausibler Mechanismus fehlt, und das Toxizitätsprofil von Eribulin spricht gegen den Einsatz bei einer chronischen autoinflammatorischen Erkrankung. Zudem sind in Deutschland derzeit alle Zulassungen aufgehoben.
+Die Vorhersage stützt sich ausschließlich auf das Modell (L5), ohne Studien oder Publikationen. Ein plausibler Mechanismus fehlt, und das Toxizitätsprofil von Eribulin spricht gegen den Einsatz bei einer chronischen autoinflammatorischen Erkrankung.
 
 **Für ein Weiterverfolgen wären nötig:**
 - Daten zum Wirkmechanismus (z. B. über die DrugBank-API)

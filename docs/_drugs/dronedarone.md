@@ -120,14 +120,14 @@ Für vollständige Sicherheitsangaben zu Warnhinweisen und Gegenanzeigen ist die
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich auf indirekte Evidenz aus Vorhofflimmern-Populationen (überwiegend Post-hoc- und Sekundäranalysen), es gibt keine registrierten Studien mit Schlaganfall als Endpunkt. Hinzu kommen erhebliche Sicherheitsbeschränkungen und eine nur noch gelöschte Zulassung in Deutschland.
+Die Vorhersage stützt sich auf indirekte Evidenz aus Vorhofflimmern-Populationen (überwiegend Post-hoc- und Sekundäranalysen), es gibt keine registrierten Studien mit Schlaganfall als Endpunkt. Hinzu kommen erhebliche Sicherheitsbeschränkungen.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da diese Daten bislang fehlen und eine Sicherheitsprüfung blockieren
 - Ergänzung von Wirkmechanismus-Daten (z. B. aus DrugBank)
 - Klärung, ob der mögliche Schlaganfallnutzen über die Rhythmuskontrolle bei Vorhofflimmern hinausgeht (dediziertes Studiendesign mit Schlaganfall als primärem Endpunkt)
 - Bewertung der Wechselwirkungen mit Antikoagulanzien und des Nutzen-Risiko-Profils bei Herzinsuffizienz und permanentem Vorhofflimmern
-- Klärung der regulatorischen Situation (gelöschte Zulassung)
+- Klärung der regulatorischen Situation
 - Zusammenführung redundanter Vorhersagen (Schlaganfall, zerebrovaskuläre Erkrankung, Hirnarterienverschluss, Hirnstamminfarkt) zu einer gemeinsamen Fragestellung
 ## Haftungsausschluss
 

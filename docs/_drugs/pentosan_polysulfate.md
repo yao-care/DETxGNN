@@ -119,14 +119,14 @@ Die Kombination aus gerinnungshemmender Wirkung, den Wissensgraph-Kontraindikati
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzgrad L5), es gibt weder klinische Studien noch Publikationen. Zudem spricht die gerinnungshemmende Wirkung eher für eine Verschlechterung der vorhergesagten Blutungsstörungen, und die deutsche Zulassung ist erloschen.
+Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzgrad L5), es gibt weder klinische Studien noch Publikationen. Zudem spricht die gerinnungshemmende Wirkung eher für eine Verschlechterung der vorhergesagten Blutungsstörungen.
 
 **Für ein Weiterverfolgen ist Folgendes erforderlich:**
 - Beipackzettel von BfArM (Warnhinweise und Gegenanzeigen), da die Sicherheitsprüfung sonst nicht fortgesetzt werden kann
 - Daten zum Wirkmechanismus (z. B. aus DrugBank)
 - Eine Literatur- und Studienrecherche, die belegt, ob ein therapeutischer (und nicht nur ein ungünstiger) Effekt auf die Thrombozytenfunktion plausibel ist
 - Prüfung der Darreichungsform und Applikationsweg, da diese Angaben für die vorhergesagten Indikationen noch nicht vorliegen
-- Klärung, warum die Zulassung erloschen ist, und der aktuellen Verfügbarkeit in Deutschland
+- Klärung, der aktuellen Verfügbarkeit in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

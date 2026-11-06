@@ -42,7 +42,6 @@ Evidenzniveau: **N/A** | Vorhergesagte Indikationen: **0**
 |------|--------|
 | Ursprüngliche Indikation | In den lokalen Daten nicht erfasst |
 | Marktstatus in Deutschland | Keine zentrale EU-Zulassung (EMA) erfasst – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten |
-| Taiwan-Marktstatus | Nicht vermarktet (Nicht vermarktet) |
 | Anzahl der Zulassungen | 0 (gültig: 0) |
 
 ---

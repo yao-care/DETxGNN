@@ -109,7 +109,7 @@ Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzgrad L5), ohn
 - Fachinformation (Warnhinweise und Gegenanzeigen) von der BfArM-Website beschaffen und auswerten, da dies derzeit die Sicherheitsprüfung blockiert
 - Daten zum Wirkmechanismus aus DrugBank ergänzen
 - Systematische Literatur- und Studienrecherche zu den drei vorhergesagten Indikationen
-- Klärung der Verfügbarkeit des Produkts angesichts der erloschenen Zulassung
+- Klärung der Verfügbarkeit des Produkts
 - Präklinische Untersuchungen, die einen möglichen indirekten Nutzen der Fibrinstabilisierung bei Thrombozytenfunktionsstörungen prüfen
 ## Haftungsausschluss
 

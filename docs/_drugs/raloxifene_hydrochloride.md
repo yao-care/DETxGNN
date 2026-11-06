@@ -77,7 +77,7 @@ Das Evidence Pack für Raloxifenhydrochlorid ist unvollständig – es gibt kein
 
 - **TxGNN-Pipeline erneut ausführen** mit Raloxifenhydrochlorid als Eingabe, um vorhergesagte Indikationen und Konfidenzscores zu generieren
 - **DrugBank-ID abrufen**, um den Wirkungsmechanismus (MOA), Arzneistoff-Kategorien und Toxizitätsdaten zu erfassen
-- **PDF der Packungsbeilage analysieren** (Quelle: Offizielle TFDA-Website), um zugelassene Indikationen, Warnungen und Kontraindikationen zu extrahieren
+- **PDF der Packungsbeilage analysieren**, um zugelassene Indikationen, Warnungen und Kontraindikationen zu extrahieren
 - **Marktstatus in der Zielregulierungsbehörde überprüfen** (BfArM/Deutschland), um die Anzahl der Zulassungen und den Text der genehmigten Indikationen zu bestätigen
 - **DDI-Datenbank erneut abfragen**, sobald die DrugBank-ID bestätigt ist, um Arzneimittelwechselwirkungsdaten zu erfassen
 

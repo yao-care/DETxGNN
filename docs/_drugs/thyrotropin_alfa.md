@@ -127,7 +127,7 @@ Die Vorhersage stützt sich ausschließlich auf das TxGNN-Modell (Deep Learning,
 - Daten zum Wirkmechanismus (MOA)
 - Warnhinweise und Gegenanzeigen aus der Fachinformation (zugänglich über BfArM), da diese für die Sicherheitsprüfung fehlen
 - Eine systematische Literaturrecherche und präklinische Hinweise zu einem möglichen Zusammenhang zwischen TSH-Rezeptor-Signalweg und Migräne
-- Klärung der Darreichungswege und der Zulassungssituation, da das Produkt nur injizierbar bekannt ist und die Zulassung erloschen ist
+- Klärung der Darreichungswege und der Zulassungssituation
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

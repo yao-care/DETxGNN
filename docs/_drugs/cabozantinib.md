@@ -116,7 +116,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Für das Liposarkom existieren nur indirekte Belege (eine laufende Phase-2-Studie bei Weichteilsarkomen ohne Ergebnisse und eine Phase-1-Studie). Zudem sind die Zulassungen in Deutschland aufgehoben und die Sicherheitsdaten aus der Fachinformation nicht verfügbar.
+Für das Liposarkom existieren nur indirekte Belege (eine laufende Phase-2-Studie bei Weichteilsarkomen ohne Ergebnisse und eine Phase-1-Studie).
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Auswertung der Ergebnisse von NCT05836571 mit Subgruppenanalyse für das Liposarkom

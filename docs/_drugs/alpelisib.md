@@ -86,7 +86,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 |---------|------|------|-----------|
 | EMEA/H/C/004804 | Piqray | – | Brustneoplasmen |
 
-Diese Zulassung ist aufgehoben (Status: cancelled); der Inhaber ist Novartis Europharm Limited.
+Der Inhaber ist Novartis Europharm Limited.
 
 ---
 
@@ -121,7 +121,7 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) bitte die Pa
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzgrad L5). Es gibt weder klinische Studien noch präklinische Wirksamkeitsdaten, und die einzige Publikation weist auf ein pulmonales Sicherheitsrisiko hin. Zudem ist die Zulassung in Deutschland aufgehoben.
+Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzgrad L5). Es gibt weder klinische Studien noch präklinische Wirksamkeitsdaten, und die einzige Publikation weist auf ein pulmonales Sicherheitsrisiko hin.
 
 **Für ein Weiterkommen sind folgende Punkte nötig:**
 - Präklinische Daten (z. B. Modelle der pulmonalen Hypertonie), die einen Nutzen der PI3K-alpha-Hemmung belegen

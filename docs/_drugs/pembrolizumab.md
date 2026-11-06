@@ -123,7 +123,7 @@ Für die gingivale Fibromatose gibt es weder klinische Studien noch Publikatione
 - Fachinformation (Warnhinweise und Gegenanzeigen) aus der BfArM-Quelle, da die Sicherheitsprüfung sonst nicht fortgesetzt werden kann
 - Detaillierte Mechanismusdaten (MOA), z. B. aus DrugBank
 - Präklinische oder mechanistische Hinweise auf eine Rolle des PD-1-Signalwegs bei der gingivalen Fibromatose
-- Klärung des Zulassungsstatus in Deutschland, da nur eine gelöschte Zulassung vorliegt
+- Klärung des Zulassungsstatus in Deutschland
 
 **Hinweis zu den übrigen Vorhersagen:** Auch die weiteren Kandidaten (Rang 2–10) bleiben auf „Hold“. Bei „Lungenhilus-Karzinom“ (L4) und „pulmonärem Sulcus-Tumor“ handelt es sich wahrscheinlich um Teilmengen der bereits zugelassenen NSCLC-Anwendung und nicht um echtes Repurposing. Die Treffer zu „gutartige Lungenneoplasie“ und „Lungen-Keimzelltumor“ betreffen überwiegend maligne Lungenkarzinome bzw. Pan-Tumor-Studien und sind nicht übertragbar.
 ## Haftungsausschluss

@@ -145,13 +145,13 @@ Auffällig sind die Major-Wechselwirkungen mit mehreren QT-verlängernden Substa
 **Entscheidung: Hold**
 
 **Begründung:**
-Es gibt eine plausible epigenetische Begründung und mehrere Phase-1/2-Studien bei AML/MDS, aber keine aussagekräftige Phase-3-Evidenz (die einzige Phase-3-Studie wurde mit 52 Patienten abgebrochen). Zudem ist die Zulassung in Deutschland erloschen und die Sicherheitsdaten aus der Fachinformation fehlen, sodass eine Sicherheitsprüfung derzeit nicht abgeschlossen werden kann.
+Es gibt eine plausible epigenetische Begründung und mehrere Phase-1/2-Studien bei AML/MDS, aber keine aussagekräftige Phase-3-Evidenz (die einzige Phase-3-Studie wurde mit 52 Patienten abgebrochen).
 
 **Für das weitere Vorgehen werden benötigt:**
 - Warnhinweise und Gegenanzeigen aus der Fachinformation (Blockierende Datenlücke)
 - Detaillierte Wirkmechanismus-Daten (MOA) aus der Arzneimitteldatenbank
 - Auswertung der Wirksamkeitsergebnisse der abgeschlossenen Phase-1/2-Studien (insbesondere NCT00946647, NCT00880269)
-- Klärung der regulatorischen Lage in Deutschland, da die bisherige Zulassung erloschen ist
+- Klärung der regulatorischen Lage in Deutschland
 - Prüfung der Wechselwirkungen, insbesondere QT-relevanter Kombinationspartner
 ## Haftungsausschluss
 

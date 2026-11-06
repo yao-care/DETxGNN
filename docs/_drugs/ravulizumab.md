@@ -86,8 +86,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/004954 | Ultomiris | – | Paroxysmale nächtliche Hämoglobinurie |
 
-Der Status dieser Zulassung ist „erloschen/aufgehoben“. Eine gültige Zulassung ist in den Daten nicht verzeichnet.
-
 ---
 
 ## Sicherheitsaspekte

@@ -114,13 +114,13 @@ Angaben zu Warnhinweisen und Kontraindikationen aus der Packungsbeilage liegen n
 **Entscheidung: Hold**
 
 **Begründung:**
-Für Migräne mit PFO gibt es ein plausibles mechanistisches Signal, aber nur schwache, überwiegend indirekte Evidenz (retrospektive Auswertung, offene Pilotstudie mit anderem Wirkstoff, kleine bzw. abgebrochene Studien ohne Prasugrel-Daten). Die Zulassung in Deutschland ist zudem erloschen, und die Sicherheitsdaten sind unvollständig.
+Für Migräne mit PFO gibt es ein plausibles mechanistisches Signal, aber nur schwache, überwiegend indirekte Evidenz (retrospektive Auswertung, offene Pilotstudie mit anderem Wirkstoff, kleine bzw. abgebrochene Studien ohne Prasugrel-Daten). Die Sicherheitsdaten sind unvollständig.
 
 **Um fortzufahren, sind folgende Schritte nötig:**
 - Beschaffung der Packungsbeilage/Fachinformation (Warnhinweise und Kontraindikationen), da dies derzeit eine blockierende Datenlücke ist
 - Abruf der Wirkmechanismus-Daten (MOA) aus DrugBank
 - Kontrollierte, prasugrelspezifische Studie bei Migräne mit PFO, ggf. nach Auswertung der Ergebnisse von NCT07629635
-- Klärung der Verfügbarkeit von Prasugrel in Deutschland (erloschene Zulassung des Originalpräparats Efient; Generika prüfen)
+- Klärung der Verfügbarkeit von Prasugrel in Deutschland
 - Bewertung des Blutungsrisikos bei dauerhafter Anwendung in einer Population ohne Herz-Kreislauf-Indikation
 ## Haftungsausschluss
 

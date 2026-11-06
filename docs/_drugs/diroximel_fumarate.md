@@ -109,7 +109,7 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) bitte die Fa
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf ein Rechenmodell (Evidenzstufe L5). Es gibt weder klinische Studien noch Publikationen, und die Zulassung in Deutschland ist erloschen. Zudem ist der Mechanismus nur aus allgemeiner Fumarat-Pharmakologie abgeleitet.
+Die Vorhersage stützt sich ausschließlich auf ein Rechenmodell (Evidenzstufe L5). Es gibt weder klinische Studien noch Publikationen. Zudem ist der Mechanismus nur aus allgemeiner Fumarat-Pharmakologie abgeleitet.
 
 **Für ein Weiterkommen sind folgende Punkte nötig:**
 - Daten zum Wirkmechanismus (MOA), z. B. über DrugBank

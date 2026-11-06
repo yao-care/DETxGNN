@@ -92,8 +92,6 @@ Alle 11 erfassten Zulassungen sind gültig. Für die meisten liegt kein Text zur
 | EMEA/H/C/004780 | Stimufend | – | – |
 | EMEA/H/C/004802 | Ziextenzo | – | – |
 
-Weitere erloschene Zulassungen: Grasustek, Cegfila, Pelmeg, Fulphila, Nyvepria, Pelgraz.
-
 ---
 
 ## Zytotoxizität

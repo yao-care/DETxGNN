@@ -94,8 +94,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 | EMEA/H/C/005756 | Apretude | – | HIV-Infektionen |
 | EMEA/H/C/004976 | Vocabria | – | HIV-Infektionen |
 
-Beide Zulassungen (Inhaber: ViiV Healthcare B.V.) haben den Status „erloschen".
-
 ---
 
 ## Sicherheitsaspekte
@@ -118,7 +116,7 @@ Für Warnhinweise und Gegenanzeigen sind keine Daten verfügbar; bitte die Fachi
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf das Modell (L5), ohne klinische Studien, Literatur oder plausiblen Wirkmechanismus. Zudem sind die Zulassungen in Deutschland erloschen, und die Sicherheitsdaten sind unvollständig.
+Die Vorhersage stützt sich ausschließlich auf das Modell (L5), ohne klinische Studien, Literatur oder plausiblen Wirkmechanismus. Die Sicherheitsdaten sind unvollständig.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Wirkmechanismus-Daten (MOA) ergänzen, z. B. über DrugBank

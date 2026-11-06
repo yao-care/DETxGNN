@@ -109,7 +109,7 @@ Diese Angaben sind als Hinweise zu verstehen und nicht als gesicherte Kontraindi
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf dem TxGNN-Modell (Evidenzlevel L5). Es gibt weder klinische Studien noch relevante Literatur, keinen plausiblen Wirkmechanismus, und die einzige Zulassung ist erloschen.
+Die Vorhersage beruht ausschließlich auf dem TxGNN-Modell (Evidenzlevel L5). Es gibt weder klinische Studien noch relevante Literatur, keinen plausiblen Wirkmechanismus.
 
 **Für ein Weiterkommen ist Folgendes erforderlich:**
 - Beschaffung der Warnhinweise und Gegenanzeigen aus der Packungsbeilage (Sicherheitsprüfung derzeit nicht möglich)

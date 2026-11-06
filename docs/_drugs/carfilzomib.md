@@ -126,7 +126,7 @@ Weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) entnehmen Sie bit
 **Entscheidung: Hold**
 
 **Begründung:**
-Für CMM7 liegen weder klinische Studien noch Publikationen vor; der hohe TxGNN-Score von 0,9937 ist eine reine Modellvorhersage (L5). Auch für die übrigen Melanom-Vorhersagen existiert höchstens präklinische, indirekte Evidenz (L4 für Melanom allgemein). Zudem ist die Zulassung in Deutschland aufgehoben.
+Für CMM7 liegen weder klinische Studien noch Publikationen vor; der hohe TxGNN-Score von 0,9937 ist eine reine Modellvorhersage (L5). Auch für die übrigen Melanom-Vorhersagen existiert höchstens präklinische, indirekte Evidenz (L4 für Melanom allgemein).
 
 **Für ein Weiterkommen sind folgende Punkte erforderlich:**
 - Klärung der Identität und Definition von „CMM7“

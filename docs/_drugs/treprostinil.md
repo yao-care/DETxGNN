@@ -129,7 +129,7 @@ Die Daten zu Warnhinweisen und Gegenanzeigen aus der Packungsbeilage sind nicht 
 - Auswertung der BfArM-Fachinformation (Warnhinweise, Gegenanzeigen); diese Lücke blockiert derzeit das Sicherheitsscreening.
 - Daten zum Wirkmechanismus (z. B. aus DrugBank) ergänzen.
 - Prüfung der Studiendesigns der Publikationen zu PAH bei angeborenem Herzfehler und Bindegewebserkrankung anhand der Volltexte; Suche nach registrierten Studien.
-- Klärung, warum die einzige deutsche Zulassung (Trepulmix) aufgehoben ist, und Prüfung der Verfügbarkeit anderer Treprostinil-Präparate.
+- Prüfung der Verfügbarkeit anderer Treprostinil-Präparate.
 - Für die Ränge 7–10 (Haar- und Entwicklungsstörungen): keine Weiterverfolgung ohne mechanistische Begründung.
 ## Haftungsausschluss
 

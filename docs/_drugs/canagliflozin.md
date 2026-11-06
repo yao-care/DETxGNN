@@ -43,7 +43,6 @@ Evidenzniveau: **N/A** | Vorhergesagte Indikationen: **0**
 | Ursprüngliche Indikation | Diabetes Mellitus, Type 2 |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
 | Anzahl der Zulassungen | 2 (gültig: 2) |
-| Taiwan-Marktstatus | Nicht auf dem Markt |
 | Anzahl der Genehmigungen | 0 |
 
 ---

@@ -64,7 +64,6 @@ Ein plausibler Wirkweg von dieser Rezeptorblockade zu erblich bedingter Netzhaut
 
 Auch die weiteren Top-Vorhersagen wirken mechanistisch wenig überzeugend: mehrere Myopie-Formen (X-chromosomal, syndromisch), strukturelle Hirnfehlbildungen (Hydranenzephalie, Polymikrogyrie), eine Glykosylierungsstörung, eine demyelinisierende Neuropathie (Charcot-Marie-Tooth Typ 1G) und die atypische Glycin-Enzephalopathie. Bei Myopie könnte eine D2-Blockade sogar nachteilig sein, da retinales Dopamin als schützend gegen das Fortschreiten der Myopie gilt.
 
-
 ---
 
 ## Klinische Evidenz
@@ -135,7 +134,7 @@ Die Vorhersage zur retinalen Dystrophie beruht allein auf einem Modellwert ohne 
 - Präklinische Untersuchungen zur Plausibilität der Vorhersage
 - Fachinformation mit Warnhinweisen und Gegenanzeigen (derzeit blockierende Datenlücke für die Sicherheitsprüfung)
 - Für therapierefraktäre Schizophrenie: direkte Studien mit Paliperidon als Prüfpräparat im Vergleich zu Clozapin
-- Klärung des Zulassungsstatus in Deutschland, da die einzige Zulassung erloschen ist
+- Klärung des Zulassungsstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

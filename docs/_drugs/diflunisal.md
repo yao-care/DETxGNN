@@ -114,7 +114,7 @@ Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 **Entscheidung: Hold (Rückstellung); für Spondylitis ankylosans als Forschungsfrage weiterverfolgen**
 
 **Begründung:**
-- Die Vorhersagen beruhen überwiegend allein auf dem Modell (L5), für die Skelettdysplasien fehlt jeder plausible Mechanismus. Bei Spondylitis ankylosans ist der Mechanismus kohärent, die Evidenz beschränkt sich jedoch auf eine kleine, ältere Vergleichsstudie zur Symptomlinderung (n = 38). Hinzu kommt, dass die einzige Zulassung erloschen ist und NSAR bei dieser Erkrankung bereits breit etabliert sind.
+- Die Vorhersagen beruhen überwiegend allein auf dem Modell (L5), für die Skelettdysplasien fehlt jeder plausible Mechanismus. Bei Spondylitis ankylosans ist der Mechanismus kohärent, die Evidenz beschränkt sich jedoch auf eine kleine, ältere Vergleichsstudie zur Symptomlinderung (n = 38). Hinzu kommt, dass NSAR bei dieser Erkrankung bereits breit etabliert sind.
 
 **Für ein Weiterkommen ist erforderlich:**
 - Fachinformation des BfArM (Warnhinweise, Gegenanzeigen) beschaffen. Diese Lücke blockiert derzeit die Sicherheitsprüfung.

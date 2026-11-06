@@ -106,7 +106,7 @@ Angaben zu Warnhinweisen und Gegenanzeigen aus der Fachinformation liegen nicht 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersagen beruhen ausschließlich auf einem Rechenmodell (Evidenzlevel L5) ohne klinische Studien oder Publikationen. Zudem sprechen die ultrakurze Wirkdauer und die rein intravenöse Anwendung gegen eine praktikable Behandlung von chronischer Schlaflosigkeit, und die deutsche Zulassung ist erloschen.
+Die Vorhersagen beruhen ausschließlich auf einem Rechenmodell (Evidenzlevel L5) ohne klinische Studien oder Publikationen. Zudem sprechen die ultrakurze Wirkdauer und die rein intravenöse Anwendung gegen eine praktikable Behandlung von chronischer Schlaflosigkeit.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Daten zum Wirkmechanismus (MOA) aus DrugBank

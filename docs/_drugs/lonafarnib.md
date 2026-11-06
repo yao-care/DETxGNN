@@ -72,8 +72,6 @@ Der sehr hohe TxGNN-Wert (0,9914) stammt vom TxGNN-Modell (Deep Learning) und ka
 |---------|------|------|-----------|
 | EMEA/H/C/005271 | Zokinvy | nicht angegeben | Progerie; Laminopathien |
 
-Die einzige Zulassung (Inhaber: TMC Pharma (EU) Limited) hat den Status „erloschen".
-
 ---
 
 ## Sicherheitsaspekte
@@ -110,7 +108,7 @@ Für Warnhinweise und Gegenanzeigen liegen keine Angaben vor. Bitte die Fachinfo
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzniveau L5). Es gibt weder klinische Studien noch Literatur zu Lepra, und die Zulassung in Deutschland ist erloschen. Zudem fehlen Sicherheitsdaten aus der Fachinformation, weshalb eine Sicherheitsprüfung nicht möglich ist.
+Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzniveau L5). Es gibt weder klinische Studien noch Literatur zu Lepra. Zudem fehlen Sicherheitsdaten aus der Fachinformation, weshalb eine Sicherheitsprüfung nicht möglich ist.
 
 **Für ein Weiterkommen sind folgende Schritte erforderlich:**
 - Fachinformation (Warnhinweise, Gegenanzeigen) beschaffen und auswerten

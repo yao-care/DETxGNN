@@ -118,7 +118,6 @@ Für Warnhinweise und Gegenanzeigen laut Fachinformation bitte die Packungsbeila
 
 **Begründung:**
 - Für die Indikation chronische HCV-Infektion fehlt ein plausibler direkter Mechanismus; die zugeordneten Studien sind HBV-gerichtet. Es liegt nur Modellvorhersage mit indirekter Evidenz vor (L4).
-- Die Zulassungen in Deutschland sind sämtlich erloschen.
 
 **Für ein Weiterkommen erforderlich:**
 - Beleg einer direkten Anti-HCV-Aktivität (präklinisch), andernfalls Verzicht auf diese Indikation

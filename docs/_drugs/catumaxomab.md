@@ -86,7 +86,7 @@ Derzeit liegt keine relevante Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/005697 | Korjuny | – | Aszites |
 
-Diese Zulassung ist als erloschen/zurückgezogen geführt. Hinweis: Die EMA-Zulassung für maligne Aszites bei EpCAM-positiven Tumoren wurde 2017 auf Antrag des Zulassungsinhabers aus kommerziellen Gründen zurückgezogen und Anfang 2025 erneut erteilt.
+Hinweis: Die EMA-Zulassung für maligne Aszites bei EpCAM-positiven Tumoren wurde 2017 auf Antrag des Zulassungsinhabers aus kommerziellen Gründen zurückgezogen und Anfang 2025 erneut erteilt.
 
 ---
 

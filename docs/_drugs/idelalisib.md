@@ -129,14 +129,14 @@ Warnhinweise und Gegenanzeigen der Fachinformation liegen in den zusammengestell
 **Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Für das Mantelzell-Lymphom gibt es eine plausible Mechanismus-Verbindung und Phase-1/2-Daten (u. a. NCT01838434 mit 106 Patienten), aber keine Phase-3-Evidenz. Die Zulassung in Deutschland ist erloschen, und die bekannten schweren Toxizitäten sowie abgebrochene Studien erfordern Schutzmaßnahmen.
+Für das Mantelzell-Lymphom gibt es eine plausible Mechanismus-Verbindung und Phase-1/2-Daten (u. a. NCT01838434 mit 106 Patienten), aber keine Phase-3-Evidenz. Die bekannten schweren Toxizitäten sowie abgebrochene Studien erfordern Schutzmaßnahmen.
 
 **Für das weitere Vorgehen werden benötigt:**
 - Auswertung der Ergebnisse von NCT01838434 (Wirksamkeit und Sicherheit von Idelalisib plus Lenalidomid)
 - Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM)
 - Detaillierte Wirkmechanismus-Daten (DrugBank)
 - Sicherheitsüberwachungsplan (Leber, Darm, Lunge, Infektionen)
-- Klärung des regulatorischen Status, da der Markt nur eine stornierte Zulassung aufweist
+- Klärung des regulatorischen Status
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

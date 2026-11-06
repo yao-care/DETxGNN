@@ -131,14 +131,14 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Für das follikuläre Lymphom gibt es nur eine laufende Phase-2-Studie ohne Ergebnisse, die übrigen Studien wurden abgebrochen oder zurückgezogen. Die Literatur betrifft überwiegend T-Zell-Lymphome. Zudem exprimiert das follikuläre Lymphom CD30 nur variabel, und die deutsche Zulassung ist erloschen. Das Thema bleibt eine Forschungsfrage.
+Für das follikuläre Lymphom gibt es nur eine laufende Phase-2-Studie ohne Ergebnisse, die übrigen Studien wurden abgebrochen oder zurückgezogen. Die Literatur betrifft überwiegend T-Zell-Lymphome. Zudem exprimiert das follikuläre Lymphom CD30 nur variabel. Das Thema bleibt eine Forschungsfrage.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Ergebnisse der Phase-2-Studie NCT04587687 (Brentuximab Vedotin + Bendamustin beim rezidivierten/refraktären follikulären Lymphom)
 - Daten zur CD30-Expression beim follikulären Lymphom zur Definition einer geeigneten Patientengruppe
 - Detaillierte Wirkmechanismus-Daten
 - Fachinformation mit Warnhinweisen und Gegenanzeigen, da die Sicherheitsbewertung sonst nicht abgeschlossen werden kann
-- Klärung des Zulassungsstatus in Deutschland (erloschene Zulassung)
+- Klärung des Zulassungsstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

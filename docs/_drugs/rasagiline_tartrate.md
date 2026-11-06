@@ -42,7 +42,6 @@ Evidenzniveau: **N/A** | Vorhergesagte Indikationen: **0**
 |---------|--------|
 | Ursprüngliche Indikation | Parkinson Disease |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
-| Taiwan-Marktstatus | ✗ Nicht vermarktet |
 | Anzahl der Zulassungen | 3 (gültig: 3) |
 
 ---

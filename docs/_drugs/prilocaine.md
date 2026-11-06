@@ -139,13 +139,13 @@ Für alle diese Indikationen lautet die Empfehlung Hold.
 **Entscheidung: Hold (Weiterverfolgung als Forschungsfrage)**
 
 **Begründung:**
-Für Neuralgie gibt es einen plausiblen Mechanismus und kleine, überwiegend ältere, unkontrollierte Studien zu EMLA bei postherpetischer Neuralgie, aber keine abgeschlossene Phase-3-Studie. Zudem ist die einzige deutsche Zulassung aufgehoben, und Daten aus der Packungsbeilage fehlen.
+Für Neuralgie gibt es einen plausiblen Mechanismus und kleine, überwiegend ältere, unkontrollierte Studien zu EMLA bei postherpetischer Neuralgie, aber keine abgeschlossene Phase-3-Studie. Daten aus der Packungsbeilage fehlen.
 
 **Für ein Fortschreiten sind erforderlich:**
 - Beschaffung und Auswertung der Packungsbeilage (Warnhinweise und Kontraindikationen) von der BfArM-Website
 - Detaillierte Wirkmechanismus-Daten (z. B. aus DrugBank)
 - Kontrollierte, ausreichend große Studien zu Prilocain-haltigen Zubereitungen (EMLA) bei postherpetischer bzw. neuropathischer Neuralgie
-- Prüfung der Verfügbarkeit geeigneter Darreichungsformen und Applikationswege in Deutschland, da die Zulassung aufgehoben ist
+- Prüfung der Verfügbarkeit geeigneter Darreichungsformen und Applikationswege in Deutschland
 - Sicherheitskonzept zu Methämoglobinämie, Wechselwirkungen und Anwendung auf geschädigter Haut
 ## Haftungsausschluss
 

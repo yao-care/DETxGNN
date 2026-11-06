@@ -107,7 +107,7 @@ Für Warnhinweise und Gegenanzeigen aus der Fachinformation bitte die Packungsbe
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht allein auf einem Modellwert und einer einzigen präklinischen Studie. Es gibt keine klinischen Studien, die Zielindikation ist veterinärmedizinisch bzw. ein Forschungsmodell, und die Zulassung in Deutschland ist erloschen. Zudem besteht ein erhebliches Sicherheitsprofil (Leber- und Hautreaktionen, viele Wechselwirkungen).
+Die Vorhersage beruht allein auf einem Modellwert und einer einzigen präklinischen Studie. Es gibt keine klinischen Studien, die Zielindikation ist veterinärmedizinisch bzw. ein Forschungsmodell. Zudem besteht ein erhebliches Sicherheitsprofil (Leber- und Hautreaktionen, viele Wechselwirkungen).
 
 **Für ein Weiterverfolgen sind folgende Schritte erforderlich:**
 - Daten zum Wirkmechanismus (MOA) ergänzen

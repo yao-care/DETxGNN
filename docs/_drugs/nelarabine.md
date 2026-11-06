@@ -84,8 +84,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/000752 | Atriance (Sandoz Pharmaceuticals d.d.) | – | Vorläufer-T-Zell-lymphoblastische Leukämie/Lymphom |
 
-Diese Zulassung ist erloschen bzw. aufgehoben (Status: cancelled).
-
 ---
 
 ## Zytotoxizität
@@ -117,7 +115,7 @@ Für Warnhinweise und Gegenanzeigen im Wortlaut der Fachinformation sind die Pac
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzstufe L5) ohne Studien oder Publikationen. Die bekannte Neurotoxizität (Demyelinisierung, Neuropathie) spricht direkt gegen den Einsatz bei MS, und die einzige deutsche Zulassung ist erloschen.
+Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzstufe L5) ohne Studien oder Publikationen. Die bekannte Neurotoxizität (Demyelinisierung, Neuropathie) spricht direkt gegen den Einsatz bei MS.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) vom BfArM, da dies die Sicherheitsprüfung derzeit blockiert

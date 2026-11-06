@@ -78,8 +78,6 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 | EMEA/H/C/005269 | Kaftrio | – | Cystische Fibrose |
 | EMEA/H/C/006382 | Alyftrek | – | Cystische Fibrose |
 
-Alle drei Zulassungen (Inhaber: Vertex Pharmaceuticals (Ireland) Limited) haben laut den Daten den Status „aufgehoben".
-
 ## Sicherheitsaspekte
 
 **Arzneimittelwechselwirkungen:** Es wurde eine pharmakologische Beziehung erfasst: Zielstruktur CFTR (Mensch). Dabei handelt es sich um die Zielbindung, nicht um eine klinische Wechselwirkung mit einem anderen Arzneimittel. Ein Schweregrad ist nicht angegeben.

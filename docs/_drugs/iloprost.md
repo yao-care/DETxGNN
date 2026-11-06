@@ -119,7 +119,7 @@ Für Warnhinweise und Gegenanzeigen laut Fachinformation liegen keine Daten vor;
 
 **Begründung:**
 - Der hohe Wert stammt aus dem TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. Es gibt keine Studien oder Literatur und keinen plausiblen kausalen Mechanismus bei einer genetischen Haarerkrankung.
-- Für die PAH bei angeborenem Herzfehler und die PAH bei Bindegewebserkrankung (jeweils L3) ist eine Einstufung als **Proceed with Guardrails** vertretbar. Die Evidenz besteht jedoch überwiegend aus Beobachtungsstudien, Fallserien und Übersichten, nicht aus Phase-3-Studien. Hinzu kommt, dass die einzige deutsche Zulassung erloschen ist.
+- Für die PAH bei angeborenem Herzfehler und die PAH bei Bindegewebserkrankung (jeweils L3) ist eine Einstufung als **Proceed with Guardrails** vertretbar. Die Evidenz besteht jedoch überwiegend aus Beobachtungsstudien, Fallserien und Übersichten, nicht aus Phase-3-Studien.
 
 **Für das weitere Vorgehen wird benötigt:**
 - Daten zum Wirkmechanismus aus DrugBank

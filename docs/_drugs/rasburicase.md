@@ -125,7 +125,7 @@ Die Vorhersage beruht ausschließlich auf dem Modell (L5), ohne Studien oder Pub
 **Für ein Weiterverfolgen wären erforderlich:**
 - Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) als Voraussetzung für eine Sicherheitsprüfung
 - Detaillierte Daten zum Wirkmechanismus
-- Prüfung der Zulassungs- und Verfügbarkeitssituation (erloschene Zulassung)
+- Prüfung der Zulassungs- und Verfügbarkeitssituation
 - Mechanistische und klinische Belege für jede vorgeschlagene Indikation. Am ehesten kommt der partielle HPRT-Mangel in Frage, und dort nur für die akute Harnsäuresenkung.
 ## Haftungsausschluss
 

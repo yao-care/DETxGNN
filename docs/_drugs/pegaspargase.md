@@ -110,7 +110,7 @@ Bei den meisten Studien ist Pegaspargase Teil des Therapiegerüsts. Der spezifis
 |---------|------|------|-----------|
 | EMEA/H/C/003789 | Oncaspar | – | Vorläuferzell-lymphoblastische Leukämie/Lymphom (Status: gültig) |
 
-Die einzige erfasste Zulassung ist erloschen. Die tatsächliche Produktverfügbarkeit sollte vor einer Weiterverfolgung geprüft werden.
+Die tatsächliche Produktverfügbarkeit sollte vor einer Weiterverfolgung geprüft werden.
 
 ---
 
@@ -140,7 +140,7 @@ Für Warnhinweise und Gegenanzeigen liegen in den zusammengestellten Daten keine
 **Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Mehrere abgeschlossene Phase-3-Studien und eine breite Literaturbasis stützen den Einsatz von Pegaspargase bei lymphoblastischer Leukämie/Lymphom (Evidenzstufe L1). Da dies die bereits zugelassene Kernindikation ist, handelt es sich um eine Bestätigung. Die Zulassung ist jedoch als erloschen verzeichnet, und es fehlen Sicherheitsdaten aus der Packungsbeilage.
+Mehrere abgeschlossene Phase-3-Studien und eine breite Literaturbasis stützen den Einsatz von Pegaspargase bei lymphoblastischer Leukämie/Lymphom (Evidenzstufe L1). Da dies die bereits zugelassene Kernindikation ist, handelt es sich um eine Bestätigung. Es fehlen Sicherheitsdaten aus der Packungsbeilage.
 
 **Zur Weiterverfolgung ist Folgendes erforderlich:**
 - Prüfung der aktuellen Produktverfügbarkeit und des Zulassungsstatus in Deutschland

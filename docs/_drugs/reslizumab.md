@@ -89,13 +89,13 @@ Bitte die Packungsbeilage für Sicherheitsinformationen heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf das TxGNN-Modell (Evidenzstufe L5). Es gibt weder klinische Studien noch relevante Literatur, und ein plausibler mechanistischer Zusammenhang zwischen IL-5-Hemmung und ITP ist nicht erkennbar. Zudem ist die einzige deutsche bzw. europäische Zulassung erloschen.
+Die Vorhersage stützt sich ausschließlich auf das TxGNN-Modell (Evidenzstufe L5). Es gibt weder klinische Studien noch relevante Literatur, und ein plausibler mechanistischer Zusammenhang zwischen IL-5-Hemmung und ITP ist nicht erkennbar.
 
 **Für ein Weiterverfolgen sind folgende Schritte erforderlich:**
 - Detaillierte Wirkmechanismus-Daten (MOA) ergänzen und prüfen, ob ein biologischer Bezug zwischen IL-5/Eosinophilen und Thrombozytopenie besteht
 - Systematische Literatur- und Studienrecherche zu Anti-IL-5-Therapien bei ITP
 - Sicherheitsinformationen aus der Fachinformation beschaffen (Warnhinweise, Gegenanzeigen)
-- Klärung des Zulassungs- und Verfügbarkeitsstatus, da die Zulassung erloschen ist
+- Klärung des Zulassungs- und Verfügbarkeitsstatus
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

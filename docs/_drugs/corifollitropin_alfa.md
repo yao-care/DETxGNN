@@ -109,7 +109,7 @@ Hinweis aus der Mechanismusbetrachtung: Eine ovarielle Stimulation birgt thrombo
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem Netzwerkmodell (L5), ohne klinische Studien, Literatur oder plausiblen Wirkmechanismus. Zudem ist die einzige deutsche Zulassung aufgehoben, und die Sicherheitsdaten sind unvollständig.
+Die Vorhersage beruht ausschließlich auf einem Netzwerkmodell (L5), ohne klinische Studien, Literatur oder plausiblen Wirkmechanismus. Die Sicherheitsdaten sind unvollständig.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Sicherheitsrelevante Angaben der Fachinformation (Warnhinweise, Gegenanzeigen), da die fehlenden Daten ein Blocker für das Sicherheitsscreening sind

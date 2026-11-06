@@ -122,7 +122,6 @@ Hinweis: Bei NCT02084420 ist der Titel verkürzt; Vergleichssubstanz und Endpunk
 | EMEA/H/C/001098 | Somac Control | – | Gastroösophageale Refluxkrankheit |
 | EMEA/H/C/001013 | Pantozol Control | – | Gastroösophageale Refluxkrankheit |
 
-
 ---
 
 ## Sicherheitsaspekte
@@ -147,7 +146,7 @@ Für das aktive peptische Ulkus und das Duodenalulkus liegen Phase-3-Studien sow
 **Für das weitere Vorgehen ist Folgendes erforderlich:**
 - Packungsbeilagen und Fachinformationen des BfArM beschaffen und auswerten (Warnhinweise und Kontraindikationen fehlen derzeit; dies blockiert die Sicherheitsprüfung)
 - Detaillierte Wirkmechanismus-Daten aus DrugBank ergänzen
-- Klärung des Zulassungsstatus in Deutschland, da alle erfassten Zulassungen aufgehoben sind
+- Klärung des Zulassungsstatus in Deutschland
 - Verifizierung von Vergleichssubstanz und Endpunkten bei NCT02084420
 - Prüfung der Kontraindikationssignale (Osteoporose, Knochenbruch, perniziöse Anämie) bei Langzeitanwendung
 - Beachtung der Wechselwirkungen mit schwerwiegender Einstufung (Acalabrutinib, Atazanavir)

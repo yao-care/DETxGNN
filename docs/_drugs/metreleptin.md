@@ -96,7 +96,7 @@ Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersagen stützen sich ausschließlich auf das TxGNN-Modell (Evidenzstufe L5) ohne klinische Studien, Literatur oder plausiblen Mechanismus. Zudem ist die Zulassung in Deutschland erloschen, und die Sicherheitsdaten der Fachinformation fehlen.
+Die Vorhersagen stützen sich ausschließlich auf das TxGNN-Modell (Evidenzstufe L5) ohne klinische Studien, Literatur oder plausiblen Mechanismus. Die Sicherheitsdaten der Fachinformation fehlen.
 
 **Für ein Weiterkommen erforderlich:**
 - Fachinformation (Warnhinweise und Kontraindikationen) von der BfArM-Website beschaffen und auswerten; ohne sie ist keine Sicherheitsprüfung möglich

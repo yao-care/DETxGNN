@@ -148,7 +148,7 @@ Die Vorhersage zur viszeralen Kalziphylaxie beruht allein auf dem Modell (L5), o
 - Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM
 - Präklinische Belege für einen Zusammenhang zwischen FP-Rezeptor-Signalweg und Kalziphylaxe
 - Klärung der Applikationsroute, da topische Augentropfen kaum systemisch wirken
-- Prüfung der Wirkstoffverfügbarkeit angesichts der erloschenen Zulassungen
+- Prüfung der Wirkstoffverfügbarkeit
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

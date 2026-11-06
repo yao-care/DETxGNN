@@ -83,8 +83,6 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 |---------|------|------|-----------|
 | EMEA/H/C/003853 | Ibrance (Pfizer Europe MA EEIG) | nicht angegeben | Brustneoplasmen |
 
-Die einzige Zulassung ist als erloschen geführt.
-
 ## Zytotoxizität
 
 | Punkt | Inhalt |
@@ -119,7 +117,7 @@ Zu Warnhinweisen und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold (als Forschungsfrage weiterverfolgen)**
 
 **Begründung:**
-Die Evidenz für rheumatoide Arthritis beschränkt sich auf präklinische Daten und einen einzelnen Fallbericht, es gibt keine klinischen Studien. Zudem ist die Zulassung in Deutschland erloschen, und die Sicherheitsdaten aus der Fachinformation fehlen, sodass eine Sicherheitsprüfung derzeit nicht abgeschlossen werden kann.
+Die Evidenz für rheumatoide Arthritis beschränkt sich auf präklinische Daten und einen einzelnen Fallbericht, es gibt keine klinischen Studien. Die Sicherheitsdaten aus der Fachinformation fehlen, sodass eine Sicherheitsprüfung derzeit nicht abgeschlossen werden kann.
 
 **Für das weitere Vorgehen sind erforderlich:**
 - Fachinformation (Warnhinweise und Gegenanzeigen) beschaffen und auswerten, da diese Lücke derzeit blockierend ist

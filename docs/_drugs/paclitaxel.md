@@ -106,7 +106,7 @@ Die folgende Tabelle zeigt eine Auswahl der relevantesten Studien. In den Daten 
 
 ## Marktinformationen Deutschland
 
-Alle vier erfassten Zulassungen sind zentrale europäische Zulassungen (EMA-Nummern) und haben den Status „erloschen/gelöscht". Angaben zur Darreichungsform liegen nicht vor.
+Angaben zur Darreichungsform liegen nicht vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|

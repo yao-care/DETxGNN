@@ -121,7 +121,7 @@ Angaben zu Warnhinweisen und Kontraindikationen aus der Fachinformation liegen n
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf das TxGNN-Modell (Evidenzgrad L5). Es gibt weder klinische Studien noch Publikationen für die vorhergesagte Indikation, die Erkrankung ist sehr selten, und die einzige deutsche Zulassung ist erloschen.
+Die Vorhersage stützt sich ausschließlich auf das TxGNN-Modell (Evidenzgrad L5). Es gibt weder klinische Studien noch Publikationen für die vorhergesagte Indikation, die Erkrankung ist sehr selten.
 
 **Für ein Weiterverfolgen sind erforderlich:**
 - Fachinformation des BfArM mit Warnhinweisen und Kontraindikationen (Sicherheitsprüfung kann sonst nicht fortgesetzt werden)

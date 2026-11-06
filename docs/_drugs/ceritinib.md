@@ -84,8 +84,6 @@ Derzeit liegt keine relevante Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/003819 | Zykadia (Novartis Europharm Limited) | – | Nicht-kleinzelliges Lungenkarzinom |
 
-Die einzige Zulassung hat den Status „erloschen".
-
 ---
 
 ## Zytotoxizität

@@ -43,7 +43,6 @@ Evidenzniveau: **N/A** | Vorhergesagte Indikationen: **0**
 | Ursprüngliche Indikation | Leukemia, Myeloid |
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
 | Anzahl der Zulassungen | 1 (gültig: 1) |
-| Taiwan-Marktstatus | Nicht vermarktet (0 Genehmigungen) |
 | Anzahl der Genehmigungen | 0 |
 
 ---

@@ -74,8 +74,6 @@ Derzeit liegt keine einschlägige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/000805 | Ranexa (zuvor Latixa) | – | Angina pectoris |
 
-Hinweis: Diese Zulassung (Inhaber: Menarini International Operations Luxembourg S.A.) ist als aufgehoben geführt.
-
 ## Sicherheitsaspekte
 
 - **Kontraindikationen laut Wissensgraph (TxGNN/PrimeKG, kein Packungsbeilagentext):** Long-QT-Syndrom, familiäres Long-QT-Syndrom, Torsades de pointes, Nierenerkrankung, Pyoureter, Leberzirrhose.

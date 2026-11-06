@@ -95,7 +95,7 @@ Zur Einordnung: Für den septalen Myokardinfarkt (Rang 3) und die Koronarstenose
 |---------|------|------|-----------|
 | EMEA/H/C/000306 | Metalyse | – | Myokardinfarkt |
 
-Die Zulassung ist erloschen (Status: cancelled). Hersteller: Boehringer Ingelheim International GmbH.
+Hersteller: Boehringer Ingelheim International GmbH.
 
 ---
 
@@ -115,7 +115,7 @@ Angaben zu Warnhinweisen und Gegenanzeigen aus der Fachinformation liegen nicht 
 **Entscheidung: Hold**
 
 **Begründung:**
-Der posterolaterale Myokardinfarkt ist ein Untertyp der bereits zugelassenen Indikation. Es gibt weder Studien noch spezifische Literatur, und der hohe Vorhersagewert ist kein echtes Repurposing-Signal. Zudem ist die deutsche Zulassung erloschen. Die Evidenz beschränkt sich auf eine reine Modellvorhersage (L5).
+Der posterolaterale Myokardinfarkt ist ein Untertyp der bereits zugelassenen Indikation. Es gibt weder Studien noch spezifische Literatur, und der hohe Vorhersagewert ist kein echtes Repurposing-Signal. Die Evidenz beschränkt sich auf eine reine Modellvorhersage (L5).
 
 **Für ein Weiterkommen sind erforderlich:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da dies derzeit die Sicherheitsprüfung blockiert

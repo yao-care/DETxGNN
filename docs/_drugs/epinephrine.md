@@ -132,7 +132,7 @@ Mehrere abgeschlossene Phase-3-Studien zu inhalativem Epinephrin bei Asthma stü
 **Für das weitere Vorgehen sind erforderlich:**
 - Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) des BfArM, da diese Sicherheitsdaten fehlen
 - Detaillierte Daten zum Wirkmechanismus aus DrugBank
-- Regulatorische Klärung der inhalativen Formulierungen in Deutschland (Zulassung erloschen)
+- Regulatorische Klärung der inhalativen Formulierungen in Deutschland
 - Sicherheitsüberwachungsplan für Patienten mit Herz-Kreislauf-Erkrankungen und Begleitmedikation mit hohem Wechselwirkungsrisiko
 
 **Weitere vorhergesagte Indikationen (Kurzbewertung):**

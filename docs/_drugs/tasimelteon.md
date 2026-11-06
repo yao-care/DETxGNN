@@ -110,7 +110,7 @@ Für Warnhinweise und Gegenanzeigen liegen in den zusammengestellten Daten keine
 **Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Der Wirkmechanismus (MT1/MT2-Agonismus) passt direkt zu Insomnie, und eine randomisierte Phase-3-Studie (n = 420) prüft die Indikation gezielt. Da diese Studie noch rekrutiert und keine Ergebnisse vorliegen, ist der Evidenzgrad L1 nur vorläufig. Zudem ist die einzige deutsche/EU-Zulassung erloschen.
+Der Wirkmechanismus (MT1/MT2-Agonismus) passt direkt zu Insomnie, und eine randomisierte Phase-3-Studie (n = 420) prüft die Indikation gezielt. Da diese Studie noch rekrutiert und keine Ergebnisse vorliegen, ist der Evidenzgrad L1 nur vorläufig.
 
 **Für das weitere Vorgehen werden benötigt:**
 - Ergebnisse der Phase-3-Studie NCT06953869 (voraussichtlich ab 2028); die Studie betrifft zudem Kinder, die Übertragbarkeit auf Erwachsene ist zu klären

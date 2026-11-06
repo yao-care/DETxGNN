@@ -89,7 +89,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 |---------|------|------|-----------|
 | EMEA/H/C/005557 | Maapliv | – | Ahornsirupkrankheit (Maple Syrup Urine Disease) |
 
-Diese Zulassung ist erloschen bzw. zurückgezogen (Status: cancelled). Der Inhaber war Recordati Rare Diseases.
+Der Inhaber war Recordati Rare Diseases.
 
 ---
 
@@ -112,14 +112,14 @@ Diese Verknüpfungen sind modellbasiert und müssen anhand der Fachinformation v
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf einen hohen TxGNN-Wert (Evidenzgrad L5). Es gibt weder klinische Studien noch Literatur, die Alanin bei Gastroparese untersuchen, und keinen dokumentierten Wirkmechanismus. Zudem ist die einzige deutsche/europäische Zulassung erloschen.
+Die Vorhersage stützt sich ausschließlich auf einen hohen TxGNN-Wert (Evidenzgrad L5). Es gibt weder klinische Studien noch Literatur, die Alanin bei Gastroparese untersuchen, und keinen dokumentierten Wirkmechanismus.
 
 **Für ein Weiterverfolgen sind folgende Schritte nötig:**
 - Wirkmechanismus-Daten (MOA) ergänzen, z. B. über DrugBank
 - Fachinformation (Warnhinweise, Kontraindikationen) über BfArM beschaffen und die Sicherheitsprüfung durchführen, da dies derzeit ein blockierendes Datenlücken-Element ist
 - Präklinische oder mechanistische Studien, die einen Zusammenhang zwischen Alanin und der Magenentleerung belegen
 - Bewertung der modellbasierten Kontraindikationen (insbesondere Nierenerkrankungen, die bei Gastroparese-Patienten häufig vorkommen)
-- Prüfung der Applikationswege und der Verfügbarkeit eines geeigneten Präparats, da die Zulassung erloschen ist
+- Prüfung der Applikationswege und der Verfügbarkeit eines geeigneten Präparats
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

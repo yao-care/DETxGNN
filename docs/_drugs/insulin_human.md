@@ -100,7 +100,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 | EMEA/H/C/000441 | Insulatard | – | Diabetes mellitus |
 | EMEA/H/C/000201 | Insuman | – | Diabetes mellitus |
 
-Alle 6 genannten Zulassungen sind gültig, das Arzneimittel ist im Handel. Eine weitere erloschene Zulassung (ProZinc, EMEA/V/C/002634) enthält keine Angaben zur Indikation.
+Das Arzneimittel ist im Handel. Eine weitere erloschene Zulassung (ProZinc, EMEA/V/C/002634) enthält keine Angaben zur Indikation.
 
 ---
 
@@ -127,7 +127,7 @@ Für die Vorhersage gibt es weder klinische Studien noch Publikationen (Evidenzl
 - Warnhinweise und Gegenanzeigen aus der BfArM-Packungsbeilage beschaffen (derzeit blockierende Datenlücke für das Sicherheitsscreening)
 - Systematische Literatur- und Studienrecherche zu Insulin bei autoimmuner Oophoritis
 - Präklinische Belege für einen plausiblen Mechanismus erarbeiten
-- Prüfung von Applikationsweg und Zulassungsstatus (derzeit 6 gültige Zulassungen in Deutschland)
+- Prüfung von Applikationsweg und Zulassungsstatus
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

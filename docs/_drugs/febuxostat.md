@@ -91,8 +91,6 @@ Der hohe TxGNN-Wert spiegelt vermutlich die Nähe im Netzwerk (Harnsäurestoffwe
 | EMEA/H/C/004773 | Febuxostat Krka | – | Hyperurikämie; Gicht |
 | EMEA/H/C/004374 | Febuxostat Viatris (zuvor Febuxostat Mylan) | – | Hyperurikämie; Gichtarthritis; Gicht |
 
-Alle drei Zulassungen haben den Status „aufgehoben".
-
 ---
 
 ## Sicherheitsaspekte
@@ -109,7 +107,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage ist mechanistisch nicht schlüssig, da bei renaler Hypourikämie die Harnsäure bereits niedrig ist. Die einzige Studie ist thematisch nicht passend, und die Literatur besteht aus einem Review und einem Einzelfallbericht. Zudem sind in Deutschland alle Zulassungen aufgehoben.
+Die Vorhersage ist mechanistisch nicht schlüssig, da bei renaler Hypourikämie die Harnsäure bereits niedrig ist. Die einzige Studie ist thematisch nicht passend, und die Literatur besteht aus einem Review und einem Einzelfallbericht.
 
 **Für ein Weiterkommen erforderlich:**
 - Prüfung des Registereintrags von NCT04398251 (Bedingung, Intervention, Design)

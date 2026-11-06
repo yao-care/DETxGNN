@@ -86,8 +86,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/005535 | Qaialdo | – | Ödeme, Herzinsuffizienz, Leberzirrhose, Aszites, nephrotisches Syndrom, Hyperaldosteronismus, essenzielle Hypertonie |
 
-Alle drei Zulassungen sind gültig.
-
 ---
 
 ## Sicherheitsaspekte

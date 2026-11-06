@@ -97,8 +97,6 @@ Hinweis: Die genannten Publikationen betreffen B-Zell-Malignome (CLL/SLL, Morbus
 |---------|------|------|-----------|
 | EMEA/H/C/004978 | Brukinsa | – | Waldenström-Makroglobulinämie |
 
-Die einzige erfasste Zulassung hat den Status „erloschen/zurückgezogen“.
-
 ---
 
 ## Zytotoxizität

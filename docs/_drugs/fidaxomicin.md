@@ -103,8 +103,6 @@ Für die Vorhersage „Staphylococcus-aureus-Pneumonie" wurde lediglich eine all
 |---------|------|------|-----------|
 | EMEA/H/C/002087 | Dificlir | – | Clostridien-Infektionen |
 
-Hinweis: Die Zulassung ist als erloschen/aufgehoben geführt (Inhaber: Tillotts Pharma GmbH).
-
 ---
 
 ## Sicherheitsaspekte
@@ -124,7 +122,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzlevel L5) ohne Studien oder Publikationen. Die geringe systemische Resorption von Fidaxomicin und die toxinvermittelte Natur des SSSS sprechen gegen eine sinnvolle Anwendung. Zudem ist die deutsche Zulassung erloschen.
+Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzlevel L5) ohne Studien oder Publikationen. Die geringe systemische Resorption von Fidaxomicin und die toxinvermittelte Natur des SSSS sprechen gegen eine sinnvolle Anwendung.
 
 **Für ein Weiterkommen wären erforderlich:**
 - Daten zum Wirkmechanismus (MOA)

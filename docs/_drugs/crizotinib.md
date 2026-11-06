@@ -120,7 +120,7 @@ Weitere Sicherheitsinformationen (Warnhinweise, Kontraindikationen) entnehmen Si
 **Entscheidung: Hold**
 
 **Begründung:**
-Der Vorhersage fehlen klinische Studien, Literatur und ein plausibler Wirkmechanismus; sie beruht allein auf dem Modellscore. Zudem ist die einzige deutsche Zulassung aufgehoben, und die Fachinformation mit Sicherheitsangaben konnte nicht ausgewertet werden.
+Der Vorhersage fehlen klinische Studien, Literatur und ein plausibler Wirkmechanismus; sie beruht allein auf dem Modellscore. Die Fachinformation mit Sicherheitsangaben konnte nicht ausgewertet werden.
 
 **Für ein Weiterkommen sind folgende Schritte erforderlich:**
 - Fachinformation des BfArM beschaffen und auswerten (Warnhinweise, Kontraindikationen); dies ist eine blockierende Datenlücke für das Sicherheits-Screening

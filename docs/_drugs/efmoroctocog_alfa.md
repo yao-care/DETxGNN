@@ -107,7 +107,7 @@ Wechselwirkungen: In den vorliegenden Daten wurden keine Einträge gefunden.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem Modell (Evidenzstufe L5), es gibt weder klinische Studien noch Publikationen. Zudem spricht der Mechanismus gegen einen Nutzen: Der Defekt liegt bei der pseudo-von-Willebrand-Erkrankung im Thrombozytenrezeptor und nicht im Faktor VIII. Die einzige deutsche Zulassung ist erloschen.
+Die Vorhersage beruht ausschließlich auf einem Modell (Evidenzstufe L5), es gibt weder klinische Studien noch Publikationen. Zudem spricht der Mechanismus gegen einen Nutzen: Der Defekt liegt bei der pseudo-von-Willebrand-Erkrankung im Thrombozytenrezeptor und nicht im Faktor VIII.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Auswertung der Packungsbeilage (Warnhinweise und Gegenanzeigen) über die BfArM-Website, da ohne diese Daten kein Sicherheitsscreening möglich ist

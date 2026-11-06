@@ -143,11 +143,11 @@ Detaillierte Warnhinweise und Gegenanzeigen aus der Packungsbeilage liegen nicht
 **Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Mehrere abgeschlossene Phase-3-Studien (u. a. ENHANCE und die Jugendlichenstudie mit Ezetimib plus Simvastatin) sowie Cochrane-Reviews und Leitlinien stützen den Einsatz bei familiärer Hypercholesterinämie. Der Mechanismus ist direkt plausibel. Da dies im Kern der bestehenden Indikation Dyslipidämie entspricht, handelt es sich nicht um ein echtes Repurposing. Zudem ist die einzige deutsche Zulassung erloschen.
+Mehrere abgeschlossene Phase-3-Studien (u. a. ENHANCE und die Jugendlichenstudie mit Ezetimib plus Simvastatin) sowie Cochrane-Reviews und Leitlinien stützen den Einsatz bei familiärer Hypercholesterinämie. Der Mechanismus ist direkt plausibel. Da dies im Kern der bestehenden Indikation Dyslipidämie entspricht, handelt es sich nicht um ein echtes Repurposing.
 
 **Für das weitere Vorgehen sind erforderlich:**
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen (Sicherheitsprüfung ist bislang nicht abgeschlossen)
-- Klärung des aktuellen Zulassungsstatus von Simvastatin-Monopräparaten in Deutschland (die erfasste Zulassung betrifft ein Kombinationspräparat und ist erloschen)
+- Klärung des aktuellen Zulassungsstatus von Simvastatin-Monopräparaten in Deutschland
 - Detaillierte Wirkmechanismus-Daten aus einer Arzneimitteldatenbank
 - Sicherheitsüberwachung (Myopathie, Leberwerte, Wechselwirkungen), besonders bei Kindern und Jugendlichen
 - Zusatztherapiekonzept für homozygote FH oder LDL-Rezeptor-Nullmutationen

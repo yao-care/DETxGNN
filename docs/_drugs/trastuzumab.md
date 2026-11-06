@@ -156,7 +156,7 @@ Die Evidenz (Stufe L1) für Trastuzumab bei HER2-positivem Brustkrebs einschlie�
 **Zur Umsetzung sind folgende Schritte nötig:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) zur Schließung der Sicherheitslücke. Diese ist als blockierend für das Sicherheitsscreening eingestuft.
 - Daten zum Wirkmechanismus (z. B. aus DrugBank) ergänzen.
-- Klärung der Marktsituation in Deutschland, da alle Zulassungen aufgehoben sind.
+- Klärung der Marktsituation in Deutschland.
 - Verpflichtende HER2-Testung vor Therapiebeginn sowie Überwachungsplan der Herzfunktion.
 ## Haftungsausschluss
 

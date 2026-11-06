@@ -90,7 +90,7 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 |---------|------|------|-----------|
 | EMEA/H/C/004586 | Exparel liposomal | – | Akuter Schmerz |
 
-Diese Zulassung ist erloschen. Der Hersteller ist Pacira Ireland Limited.
+Der Hersteller ist Pacira Ireland Limited.
 
 ---
 

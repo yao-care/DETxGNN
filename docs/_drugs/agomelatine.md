@@ -106,13 +106,13 @@ Für Warnhinweise und Gegenanzeigen siehe die Packungsbeilage bzw. Fachinformati
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die benigne paroxysmale Torticollis des Säuglingsalters liegt ausschließlich eine Modellvorhersage ohne Studien, Literatur oder mechanistische Begründung vor (Evidenzstufe L5). Zudem ist die deutsche Zulassung aufgehoben.
+Für die benigne paroxysmale Torticollis des Säuglingsalters liegt ausschließlich eine Modellvorhersage ohne Studien, Literatur oder mechanistische Begründung vor (Evidenzstufe L5).
 
 **Für ein Weiterkommen sind erforderlich:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen); derzeit fehlt diese Information und blockiert die Sicherheitsprüfung.
 - Daten zum Wirkmechanismus aus einer verlässlichen Arzneimitteldatenbank.
 - Priorisierung der Kandidaten mit plausiblerem Bezug (Melancholie, neurotische Depression, dysthymische Störung) und gezielte Suche nach agomelatin-spezifischen Studien in diesen Subtypen. Diese tragen derzeit die Stufe L4 mit der Einstufung „Forschungsfrage".
-- Klärung des Zulassungsstatus in Deutschland, da nur eine aufgehobene Zulassung vorliegt.
+- Klärung des Zulassungsstatus in Deutschland.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

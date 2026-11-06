@@ -131,7 +131,7 @@ Für Warnhinweise und Gegenanzeigen siehe die Fachinformation.
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die vorhergesagte Indikation autoimmune Oophoritis gibt es weder klinische Studien noch Literatur, und ein mechanistischer Zusammenhang ist nicht belegt (Evidenzniveau L5). Zudem sind derzeit 4 von 5 Zulassungen gültig, das Arzneimittel ist im Handel. Auch die übrigen Vorhersagen sind entweder mechanistisch nicht plausibel, symptomatisch (Begleiterkrankung Diabetes) oder betreffen Zustände, die Insulin selbst verursachen kann.
+Für die vorhergesagte Indikation autoimmune Oophoritis gibt es weder klinische Studien noch Literatur, und ein mechanistischer Zusammenhang ist nicht belegt (Evidenzniveau L5). Das Arzneimittel ist im Handel. Auch die übrigen Vorhersagen sind entweder mechanistisch nicht plausibel, symptomatisch (Begleiterkrankung Diabetes) oder betreffen Zustände, die Insulin selbst verursachen kann.
 
 **Für ein Weiterverfolgen ist Folgendes erforderlich:**
 - Fachinformation (Warnhinweise und Gegenanzeigen) zur Sicherheitsbewertung

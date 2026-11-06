@@ -95,8 +95,6 @@ Derzeit sind keine einschlägigen klinischen Studien registriert.
 |---------|------|------|-----------|
 | EMEA/H/C/005264 | Arikayce liposomal | – | Atemwegsinfektionen |
 
-Diese Zulassung ist erloschen bzw. widerrufen.
-
 ---
 
 ## Sicherheitshinweise

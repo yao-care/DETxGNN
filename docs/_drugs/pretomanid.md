@@ -115,7 +115,7 @@ Für Warnhinweise und Gegenanzeigen siehe die Fachinformation.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage für Candidiasis beruht allein auf dem Modell (Evidenzstufe L5). Es gibt weder Studien noch Literatur, und der bekannte Wirkmechanismus von Pretomanid spricht gegen eine Wirkung auf Pilze. Zudem ist die einzige deutsche Zulassung erloschen.
+Die Vorhersage für Candidiasis beruht allein auf dem Modell (Evidenzstufe L5). Es gibt weder Studien noch Literatur, und der bekannte Wirkmechanismus von Pretomanid spricht gegen eine Wirkung auf Pilze.
 
 **Für eine Weiterverfolgung sind folgende Schritte nötig:**
 - Prüfung, ob die Fachinformation (Warnhinweise, Gegenanzeigen) vorliegt; diese Sicherheitsdaten fehlen derzeit und blockieren die Sicherheitsprüfung

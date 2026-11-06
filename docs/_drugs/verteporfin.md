@@ -86,8 +86,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/000305 | Visudyne (CHEPLAPHARM Arzneimittel GmbH) | – | Degenerative Myopie; Makuladegeneration |
 
-Diese Zulassung ist erloschen; gültige Zulassungen bestehen derzeit nicht.
-
 ---
 
 ## Sicherheitsaspekte
@@ -108,7 +106,7 @@ Warnhinweise und Kontraindikationen aus der Fachinformation liegen nicht vor; bi
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht nur auf einem hohen Modellwert (Evidenzstufe L5) ohne klinische oder literarische Belege. Die ROS-erzeugende Wirkung könnte bei mitochondrialen Erkrankungen sogar schädlich sein, und die lokale, lichtabhängige Anwendung passt schlecht zu einer systemischen Erkrankung. Zudem ist die einzige Zulassung in Deutschland erloschen.
+Die Vorhersage beruht nur auf einem hohen Modellwert (Evidenzstufe L5) ohne klinische oder literarische Belege. Die ROS-erzeugende Wirkung könnte bei mitochondrialen Erkrankungen sogar schädlich sein, und die lokale, lichtabhängige Anwendung passt schlecht zu einer systemischen Erkrankung.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Daten zum Wirkmechanismus (MOA)

@@ -66,15 +66,13 @@ Das Nachweispaket enthält zwei blockierende Lücken, die verhindern, dass ein s
 
 **2. Wirkmechanismus (MOA)-Daten fehlen (DG002, Schweregrad: Hoch).** Bekannt ist, dass Repaglinide ATP-sensitive Kaliumkanäle auf pankreatischen β-Zellen schließt und die glukoseabhängige Insulinsekretion stimuliert. Diese Information ist jedoch nicht im Nachweispaket vorhanden und wurde als Datenlücke gekennzeichnet. Der Lösungsweg (DrugBank-API-Abfrage) wurde identifiziert, aber noch nicht ausgeführt.
 
-**3. Sicherheitsdaten fehlen vollständig (DG001, Schweregrad: Blockierend).** Alle Einträge in `key_warnings`, `contraindications` und DDI tragen den Status `[Data Gap]` oder `not_found`. Dies wird im Meta-Bereich als blockierende Lücke klassifiziert, was bedeutet, dass die Pipeline nicht zum Sicherheitsscreening (S1) voranschreiten sollte, ohne zunächst das Beipackzettel-PDF von der TFDA/BfArM-offiziellen Quelle herunterzuladen und zu analysieren.
+**3. Sicherheitsdaten fehlen vollständig (DG001, Schweregrad: Blockierend).** Alle Einträge in `key_warnings`, `contraindications` und DDI tragen den Status `[Data Gap]` oder `not_found`. Dies wird im Meta-Bereich als blockierende Lücke klassifiziert, was bedeutet, dass die Pipeline nicht zum Sicherheitsscreening (S1) voranschreiten sollte, ohne zunächst das Beipackzettel-PDF von der BfArM-offiziellen Quelle herunterzuladen und zu analysieren.
 
 ---
 
 ## Informationen zum Marktstatus Deutschland
 
-Für Repaglinide sind derzeit keine Zulassungen in diesem Nachweispaket erfasst.
-
-> **Hinweis:** Repaglinid-haltige Produkte (z. B. NovoNorm®) sind in mehreren Märkten weltweit zugelassen. Das Fehlen von Einträgen hier spiegelt wahrscheinlich eine Datenbeschaffungslücke wider und nicht eine echte Nicht-Zulassung. Dies sollte vor der Schlussfolgerung „nicht zugelassen" direkt in der BfArM-Produktdatenbank überprüft werden.
+> **Hinweis:** Repaglinid-haltige Produkte (z. B. NovoNorm®) sind in mehreren Märkten weltweit zugelassen.
 
 ---
 
@@ -96,9 +94,9 @@ Das Nachweispaket ist strukturell unvollständig – es gibt keine TxGNN-Vorhers
 **Zum Fortfahren ist Folgendes erforderlich:**
 
 - [ ] **TxGNN-Pipeline neu ausführen** für Repaglinide (DB00912) und `predicted_indications` mit mindestens den Top-bewerteten Krankheitskandidaten und ihren Scores füllen.
-- [ ] **DG001 (Blockierend) beheben:** Beipackzettel-PDF für Repaglinide von TFDA/BfArM herunterladen und analysieren, um wichtige Warnungen und Kontraindikationen zu extrahieren.
+- [ ] **DG001 (Blockierend) beheben:** Beipackzettel-PDF für Repaglinide von BfArM herunterladen und analysieren, um wichtige Warnungen und Kontraindikationen zu extrahieren.
 - [ ] **DG002 (Hoch) beheben:** DrugBank-API für den vollständigen MOA-Eintrag abfragen und `original_moa` füllen.
-- [ ] **Marktstatus Deutschland überprüfen:** BfArM-Produktdatenbank auf Zulassungen für NovoNorm® oder äquivalente Repaglinide-Produkte überprüfen; das aktuelle 0-Ergebnis ist wahrscheinlich eine Datenlücke und kein tatsächliches Fehlen der behördlichen Zulassung.
+- [ ] **Marktstatus Deutschland überprüfen:** BfArM-Produktdatenbank auf Zulassungen für NovoNorm® oder äquivalente Repaglinide-Produkte überprüfen.
 - [ ] **Nachweispaket neu generieren** (v5+), sobald die oben genannten Lücken geschlossen sind, und dann diese Berichtvorlage mit gefülltem `predicted_indications[0]` neu ausführen.
 
 ## Haftungsausschluss

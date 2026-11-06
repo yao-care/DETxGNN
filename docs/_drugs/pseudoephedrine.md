@@ -94,8 +94,6 @@ Die Literatur ist indirekt: Nur eine Humanstudie vergleicht Pseudoephedrin direk
 |---------|------|------|-----------|
 | EMEA/H/C/000772 | Aerinaze | – | Saisonale allergische Rhinitis |
 
-Diese Zulassung (Inhaber: Organon N.V.) ist erloschen.
-
 ---
 
 ## Sicherheitsaspekte
@@ -112,7 +110,7 @@ Warnhinweise und Kontraindikationen aus der Fachinformation liegen nicht vor. Bi
 **Entscheidung: Hold**
 
 **Begründung:**
-Der hohe TxGNN-Wert beruht im Wesentlichen auf der bereits bekannten Anwendung bei allergischer Rhinitis, und die Evidenz für die neue Indikation ist indirekt (Evidenzgrad L4, ohne klinische Studien). Zudem ist die einzige Zulassung erloschen, und das Sicherheitsprofil ist für viele Herz-Kreislauf- und Stoffwechselerkrankungen kritisch.
+Der hohe TxGNN-Wert beruht im Wesentlichen auf der bereits bekannten Anwendung bei allergischer Rhinitis, und die Evidenz für die neue Indikation ist indirekt (Evidenzgrad L4, ohne klinische Studien). Das Sicherheitsprofil ist für viele Herz-Kreislauf- und Stoffwechselerkrankungen kritisch.
 
 **Für das weitere Vorgehen ist Folgendes nötig:**
 - Fachinformation der BfArM beschaffen und auswerten, da eine Sicherheitsprüfung ohne diese nicht möglich ist

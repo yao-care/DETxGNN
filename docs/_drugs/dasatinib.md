@@ -98,8 +98,6 @@ Beim Ewing-Sarkom treiben SRC-Kinasen laut präklinischen Arbeiten die Bildung v
 | EMEA/H/C/000709 | Sprycel | – | Vorläuferzell-lymphoblastische Leukämie/Lymphom; BCR-ABL-positive chronische myeloische Leukämie |
 | EMEA/H/C/006251 | Dasatinib Accord Healthcare | – | Vorläuferzell-lymphoblastische Leukämie/Lymphom; BCR-ABL-positive chronische myeloische Leukämie |
 
-Beide Zulassungen sind laut den Daten als erloschen/zurückgezogen geführt.
-
 ---
 
 ## Zytotoxizität
@@ -132,7 +130,7 @@ Angaben zu Warnhinweisen und Gegenanzeigen aus der Fachinformation liegen nicht 
 **Entscheidung: Hold (Forschungsfrage)**
 
 **Begründung:**
-Die präklinische Datenlage (SRC-Abhängigkeit des Ewing-Sarkoms) ist plausibel. Die einzige größere Studie war jedoch ein gemischtes Sarkomkollektiv, und Dasatinib als Monotherapie zeigte beim Ewing-Sarkom keine ausreichende Wirkung. Zudem sind die deutschen Zulassungen erloschen.
+Die präklinische Datenlage (SRC-Abhängigkeit des Ewing-Sarkoms) ist plausibel. Die einzige größere Studie war jedoch ein gemischtes Sarkomkollektiv, und Dasatinib als Monotherapie zeigte beim Ewing-Sarkom keine ausreichende Wirkung.
 
 **Für ein Weiterkommen erforderlich:**
 - Ewing-spezifische Auswertung der Phase-2-Studie NCT00464620 sowie Daten zu Kombinationsregimen (z. B. RIST) in prospektiven Studien

@@ -120,7 +120,7 @@ Für weitere Sicherheitsinformationen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Für HIV liegen nur präklinische Mechanismusdaten und keine klinischen Studien vor (Evidenzniveau L4). Die Zulassungen in Deutschland sind aufgehoben, und der Nutzen von Fulvestrant bei HIV ist nicht belegt.
+Für HIV liegen nur präklinische Mechanismusdaten und keine klinischen Studien vor (Evidenzniveau L4). Der Nutzen von Fulvestrant bei HIV ist nicht belegt.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Ergänzung von Warnhinweisen und Kontraindikationen aus der Fachinformation (BfArM)

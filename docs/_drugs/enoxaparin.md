@@ -105,7 +105,7 @@ Für Warnhinweise und Gegenanzeigen aus der Packungsbeilage liegen keine Daten v
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage ist mechanistisch plausibel und der TxGNN-Wert ist hoch, doch es gibt weder klinische Studien noch Literatur zu Enoxaparin bei dieser Erkrankung (Evidenzstufe L5). Zudem ist die einzige erfasste Zulassung in Deutschland erloschen, und die Sicherheitsdaten aus der Packungsbeilage fehlen.
+Die Vorhersage ist mechanistisch plausibel und der TxGNN-Wert ist hoch, doch es gibt weder klinische Studien noch Literatur zu Enoxaparin bei dieser Erkrankung (Evidenzstufe L5). Die Sicherheitsdaten aus der Packungsbeilage fehlen.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Beschaffung und Auswertung der Packungsbeilage/Fachinformation (Warnhinweise, Kontraindikationen) über das BfArM

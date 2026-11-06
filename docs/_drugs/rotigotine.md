@@ -110,13 +110,13 @@ Weitere Sicherheitsangaben entnehmen Sie bitte der Fachinformation.
 **Entscheidung: Hold**
 
 **Begründung:**
-Für ADHS gibt es weder klinische Studien noch direkte Literatur zu Rotigotin; die Evidenz beschränkt sich auf indirekte mechanistische Hinweise. Zudem ist die deutsche Zulassung aufgehoben, und die Sicherheitsdaten aus der Fachinformation fehlen.
+Für ADHS gibt es weder klinische Studien noch direkte Literatur zu Rotigotin; die Evidenz beschränkt sich auf indirekte mechanistische Hinweise. Die Sicherheitsdaten aus der Fachinformation fehlen.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM beschaffen und auswerten
 - Detaillierte Wirkmechanismusdaten (z. B. aus DrugBank) ergänzen
 - Präklinische Daten oder Pilotstudien zu Rotigotin bei ADHS
-- Klärung der Zulassungs- und Verfügbarkeitssituation in Deutschland (aufgehobene Zulassung)
+- Klärung der Zulassungs- und Verfügbarkeitssituation in Deutschland
 - Bewertung von Risiko und Nutzen im Vergleich zu etablierten ADHS-Therapien
 ## Haftungsausschluss
 

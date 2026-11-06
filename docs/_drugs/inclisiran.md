@@ -81,8 +81,6 @@ Derzeit liegt keine einschlägige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/005333 | Leqvio | – | Hypercholesterinämie; Dyslipidämien |
 
-Die einzige Zulassung (Novartis Europharm Limited) ist als aufgehoben geführt.
-
 ## Sicherheitshinweise
 
 Für Sicherheitsinformationen beachten Sie bitte die Packungsbeilage. Zu Wechselwirkungen wurden in den zusammengestellten Daten keine Einträge gefunden.

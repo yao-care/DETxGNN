@@ -118,13 +118,13 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold (zurückstellen)**
 
 **Begründung:**
-Für gingivale Fibromatose gibt es weder klinische Studien noch Literatur und keinen erkennbaren mechanistischen Zusammenhang; die Vorhersage ist rein modellbasiert (L5). Zudem ist die einzige deutsche Zulassung gelöscht.
+Für gingivale Fibromatose gibt es weder klinische Studien noch Literatur und keinen erkennbaren mechanistischen Zusammenhang; die Vorhersage ist rein modellbasiert (L5).
 
 **Für ein Weiterkommen erforderlich:**
 - Daten zum Wirkmechanismus (MOA) ergänzen
 - Fachinformation (Warnhinweise, Gegenanzeigen) beschaffen und auswerten, da dies die Sicherheitsprüfung derzeit blockiert
 - Die Forschungsfrage auf **NF2-assoziierte Schwannomatose** umlenken, wo erste klinische und präklinische Signale vorliegen, und dort Evidenz sowie Sicherheit (u. a. Tumorlysesyndrom) gezielt prüfen
-- Klärung des Zulassungsstatus in Deutschland (gelöschte Zulassung)
+- Klärung des Zulassungsstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

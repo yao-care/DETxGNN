@@ -100,8 +100,6 @@ Zudem gibt es in der Literatur Berichte über paradoxe Ekzeme unter IL-23- und I
 |---------|------|------|-----------|
 | EMEA/H/C/004759 | Skyrizi | – | Psoriasis; psoriatische Arthritis; Colitis ulcerosa; Morbus Crohn |
 
-Diese Zulassung ist laut den für diesen Bericht zusammengestellten Daten als erloschen/aufgehoben geführt.
-
 ---
 
 ## Sicherheitsaspekte
@@ -126,7 +124,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die einzige randomisierte Studie (Phase 2, atopische Dermatitis) zeigte keinen klaren Wirksamkeitsvorteil, und der Wirkmechanismus passt nur schwach zur Th2-getriebenen Erkrankung. Hinzu kommen Berichte über paradoxe Ekzeme unter IL-23-Hemmung. Die Zulassung in Deutschland ist zudem erloschen.
+Die einzige randomisierte Studie (Phase 2, atopische Dermatitis) zeigte keinen klaren Wirksamkeitsvorteil, und der Wirkmechanismus passt nur schwach zur Th2-getriebenen Erkrankung. Hinzu kommen Berichte über paradoxe Ekzeme unter IL-23-Hemmung.
 
 **Für ein Weiterverfolgen sind folgende Schritte nötig:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da diese Daten derzeit fehlen

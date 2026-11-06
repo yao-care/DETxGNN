@@ -95,7 +95,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem Graphmodell, ohne Studien oder Publikationen, und es besteht kein plausibler mechanistischer Zusammenhang zwischen PCSK9-Hemmung und Hämophilie bei Trägerinnen. Zudem ist die einzige in Deutschland erfasste Zulassung erloschen.
+Die Vorhersage beruht ausschließlich auf einem Graphmodell, ohne Studien oder Publikationen, und es besteht kein plausibler mechanistischer Zusammenhang zwischen PCSK9-Hemmung und Hämophilie bei Trägerinnen.
 
 **Für ein Weiterverfolgen wäre erforderlich:**
 - Fachinformation (Warnhinweise und Gegenanzeigen) von BfArM bzw. EMA, da die Sicherheitsprüfung sonst nicht fortgesetzt werden kann

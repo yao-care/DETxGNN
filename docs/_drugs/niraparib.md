@@ -128,7 +128,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation beachten.
 **Entscheidung: Hold**
 
 **Begründung:**
-Der TxGNN-Wert ist sehr hoch, die Evidenz stützt jedoch keine eindeutig neue Indikation: Die einzige relevante Studie (Phase 2, seröses Endometriumkarzinom) rekrutiert noch ohne Ergebnisse, und der Treffer „zystische Neoplasie“ ist teilweise ein Ontologie-Artefakt, das stark mit den bereits zugelassenen Ovarialindikationen überlappt. Zudem sind beide deutschen Zulassungen aufgehoben, und die Sicherheitsdaten aus der Fachinformation fehlen, sodass keine Sicherheitsprüfung möglich ist.
+Der TxGNN-Wert ist sehr hoch, die Evidenz stützt jedoch keine eindeutig neue Indikation: Die einzige relevante Studie (Phase 2, seröses Endometriumkarzinom) rekrutiert noch ohne Ergebnisse, und der Treffer „zystische Neoplasie“ ist teilweise ein Ontologie-Artefakt, das stark mit den bereits zugelassenen Ovarialindikationen überlappt. Die Sicherheitsdaten aus der Fachinformation fehlen, sodass keine Sicherheitsprüfung möglich ist.
 
 **Für das weitere Vorgehen sind erforderlich:**
 - Fachinformation des BfArM (Warnhinweise, Gegenanzeigen) beschaffen und auswerten

@@ -127,10 +127,10 @@ Warnhinweise und Gegenanzeigen aus der Fachinformation liegen nicht vor. Bitte d
 **Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Für Hepatitis B liegen mehrere Phase-3/4-Studien und randomisierte Studien sowie Metaanalysen vor (Evidenzlevel L1). Es handelt sich jedoch um eine bereits zugelassene Indikation, und die EU-Zulassung in Deutschland ist erloschen. Mehrere Studien sind klein oder haben einen unbekannten Status.
+Für Hepatitis B liegen mehrere Phase-3/4-Studien und randomisierte Studien sowie Metaanalysen vor (Evidenzlevel L1). Es handelt sich jedoch um eine bereits zugelassene Indikation. Mehrere Studien sind klein oder haben einen unbekannten Status.
 
 **Für das weitere Vorgehen erforderlich:**
-- Klärung des Zulassungs- bzw. Vermarktungsstatus (erloschene Zulassung; ggf. Verfügbarkeit anderer Peginterferon-Präparate)
+- Klärung des Zulassungs- bzw. Vermarktungsstatus
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen (Sicherheitsprüfung ist derzeit blockiert)
 - Daten zum Wirkmechanismus (MOA) aus DrugBank ergänzen
 - Sicherheitsüberwachungsplan, insbesondere für kardiale und neuropsychiatrische Risiken sowie die Wechselwirkungen mit hohem Schweregrad

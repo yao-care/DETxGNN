@@ -84,8 +84,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/005012 | Tavlesse | – | Thrombozytopenie |
 
-Diese Zulassung ist erloschen (Hersteller: Instituto Grifols S.A.).
-
 ---
 
 ## Sicherheitsaspekte

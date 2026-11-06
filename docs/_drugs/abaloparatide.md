@@ -92,7 +92,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/005928 | Eladynos (Theramex Ireland Limited) | – | Postmenopausale Osteoporose; Osteoporose |
 
-Die einzige Zulassung ist erloschen (Status: cancelled). Das schränkt die praktische Entwicklung ein.
+Das schränkt die praktische Entwicklung ein.
 
 ---
 

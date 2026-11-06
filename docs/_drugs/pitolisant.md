@@ -114,12 +114,11 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage „Insomnie" widerspricht dem Wirkmechanismus (wachheitsfördernd), Schlaflosigkeit ist eine bekannte Nebenwirkung, und es gibt weder klinische Studien noch spezifische Literatur. Zudem sind beide deutschen bzw. europäischen Zulassungen erloschen.
+Die Vorhersage „Insomnie" widerspricht dem Wirkmechanismus (wachheitsfördernd), Schlaflosigkeit ist eine bekannte Nebenwirkung, und es gibt weder klinische Studien noch spezifische Literatur.
 
 **Für ein Weiterkommen erforderlich:**
 - Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM beschaffen und auswerten
 - Detaillierte Wirkmechanismus-Daten (MOA) ergänzen
-- Klärung der Gründe für den Zulassungsstatus „erloschen"
 - Falls Interesse besteht: ADHS als aussichtsreichere Hypothese mit präklinischen bzw. explorativen klinischen Arbeiten prüfen
 ## Haftungsausschluss
 

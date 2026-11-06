@@ -93,7 +93,7 @@ Das Evidence Pack enthält keine TxGNN-Umwidmungskandidaten und es fehlen sowohl
 
 **Zum Fortfahren ist Folgendes erforderlich:**
 
-- **[Blockierend]** Packungsbeilage von EMA/TFDA abrufen und analysieren für Warnungen und Kontraindikationen (Datenlücke DG001)
+- **[Blockierend]** Packungsbeilage von EMA abrufen und analysieren für Warnungen und Kontraindikationen (Datenlücke DG001)
 - **[Hoch]** Vollständige MOA-Datenintegration von DrugBank API abschließen (Datenlücke DG002)
 - **[Erforderlich]** TxGNN-Inferenz-Pipeline ausführen, um Umwidmungskandidaten-Vorhersagen für RELUGOLIX (DB11853) zu generieren
 - **[Erforderlich]** Klinische Versuchs- und Literaturbeweise für die am höchsten bewertete vorhergesagte Indikation sammeln

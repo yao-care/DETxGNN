@@ -100,7 +100,7 @@ Für Warnhinweise und Gegenanzeigen siehe die Fachinformation.
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die neurotische Störung gibt es weder klinische Studien noch spezifische Literatur; die Vorhersage beruht allein auf dem Modell (L5) und dürfte vor allem die Nähe zur Major Depression abbilden. Zudem ist die einzige deutsche Zulassung erloschen.
+Für die neurotische Störung gibt es weder klinische Studien noch spezifische Literatur; die Vorhersage beruht allein auf dem Modell (L5) und dürfte vor allem die Nähe zur Major Depression abbilden.
 
 **Für ein Weiterverfolgen ist Folgendes erforderlich:**
 - Detaillierte Daten zum Wirkmechanismus (MOA)

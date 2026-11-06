@@ -63,7 +63,7 @@ Für die zweitplatzierte Vorhersage, **Liposarkom**, existiert immerhin **1 prä
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Ponatinib ein Multi-Kinase-Inhibitor ist (u. a. BCR-ABL, FGFR, PDGFR, VEGFR, SRC). Seine Wirksamkeit bei Leukämien ist belegt, und mechanistisch könnte er theoretisch auch bei Erkrankungen wirken, in denen PDGFR- oder FGFR-Signalwege an fibrotischen oder proliferativen Prozessen beteiligt sind.
 
-Für die gingivale Fibromatose ist diese Verbindung jedoch rein spekulativ und durch keine Evidenz gestützt. Es handelt sich um eine seltene, gutartige Erkrankung. Das Sicherheitsprofil von Ponatinib (arterielle Verschlussereignisse, Gefäßverschlüsse, Hepatotoxizität, Pankreatitis) spräche gegen einen Einsatz bei einer solchen Indikation. Die erloschene Zulassung in Deutschland erschwert zudem den praktischen Zugang.
+Für die gingivale Fibromatose ist diese Verbindung jedoch rein spekulativ und durch keine Evidenz gestützt. Es handelt sich um eine seltene, gutartige Erkrankung. Das Sicherheitsprofil von Ponatinib (arterielle Verschlussereignisse, Gefäßverschlüsse, Hepatotoxizität, Pankreatitis) spräche gegen einen Einsatz bei einer solchen Indikation.
 
 Die zweite Vorhersage, **Liposarkom** (Score 0,9900), ist mechanistisch plausibler: Die Multi-Kinase-Aktivität (FGFR, PDGFR, SRC, KIT, RET) passt zu einem Tumor, bei dem Kinasen als therapeutische Zielstrukturen gelten. Die Evidenz ist aber indirekt und präklinisch (Evidenzlevel L4).
 
@@ -125,14 +125,14 @@ Die Angaben zu Warnhinweisen und Gegenanzeigen aus der Fachinformation fehlen in
 **Entscheidung: Hold (zurückstellen)**
 
 **Begründung:**
-Die Vorhersage für gingivale Fibromatose stützt sich ausschließlich auf einen hohen Modellwert (Evidenzlevel L5), ohne klinische Studien oder Literatur. Bei einer gutartigen Erkrankung wiegt das Risikoprofil von Ponatinib schwer, und die Zulassung in Deutschland ist erloschen. Das Liposarkom wäre als eigene Forschungsfrage (L4) interessanter, ist aber ebenfalls nur präklinisch und indirekt belegt.
+Die Vorhersage für gingivale Fibromatose stützt sich ausschließlich auf einen hohen Modellwert (Evidenzlevel L5), ohne klinische Studien oder Literatur. Bei einer gutartigen Erkrankung wiegt das Risikoprofil von Ponatinib schwer. Das Liposarkom wäre als eigene Forschungsfrage (L4) interessanter, ist aber ebenfalls nur präklinisch und indirekt belegt.
 
 **Für ein Weiterverfolgen sind folgende Schritte nötig:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) zur Sicherheitsbewertung
 - Detaillierte Wirkmechanismusdaten (z. B. aus DrugBank)
 - Prüfung der Originalpublikation PMID 29132397, ob Ponatinib im Liposarkom-Screening aktiv war
 - Gezielte Literatur- und Studienrecherche zu PDGFR-/FGFR-Signalwegen bei gingivaler Fibromatose
-- Klärung der Zugänglichkeit des Arzneimittels in Deutschland angesichts der erloschenen Zulassung
+- Klärung der Zugänglichkeit des Arzneimittels in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

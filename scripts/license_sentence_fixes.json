@@ -3,6 +3,111 @@
   {
    "sentence": "Die `taiwan_regulatory`-Abfrage (BfArM) gab am 2026-03-29 0 Ergebnisse zurück.",
    "reason": "M5：整句在講 TwTxGNN 模板的 taiwan_regulatory 欄位查詢結果，與本站無關；只刪「taiwan_regulatory」會留下「Die -Abfrage」殘句，整句刪（2026-11-06）"
+  },
+  {
+   "sentence": "Dies sollte vor der Schlussfolgerung „nicht zugelassen\" direkt in der BfArM-Produktdatenbank überprüft werden.",
+   "reason": "前一句（「欄位沒有紀錄是資料擷取缺口」）已依事實刪除；本句以「目前查無許可」為前提（事實：EMA 集中許可 6 張、有效 5 張），且以「Dies」指涉被刪句，整句刪（2026-11-06）"
+  },
+  {
+   "sentence": "ohne zunächst das Beipackzettel-PDF von der TFDA/BfArM-offiziellen Quelle herunterzuladen und zu analysieren",
+   "reason": "「TFDA」是 TwTxGNN 模板殘留（台灣食藥署），與本站無關；只刪「TFDA/」，句意（向 BfArM 官方來源取仿單）不變（2026-11-06）",
+   "cut": "TFDA/"
+  },
+  {
+   "sentence": "Beipackzettel-PDF für Repaglinide von TFDA/BfArM herunterladen",
+   "reason": "「TFDA」是 TwTxGNN 模板殘留，只刪「TFDA/」（2026-11-06）",
+   "cut": "TFDA/"
+  }
+ ],
+ "brexpiprazole": [
+  {
+   "sentence": "Laden Sie die Packungsbeilage der TFDA (oder EMA/BfArM) herunter",
+   "reason": "「TFDA」是 TwTxGNN 模板殘留；只刪「TFDA (oder 」與對應的右括號，留下「der EMA/BfArM」（2026-11-06）",
+   "cut": [
+    "TFDA (oder ",
+    ")"
+   ]
+  }
+ ],
+ "relugolix": [
+  {
+   "sentence": "Packungsbeilage von EMA/TFDA abrufen",
+   "reason": "「TFDA」是 TwTxGNN 模板殘留，只刪「/TFDA」（2026-11-06）",
+   "cut": "/TFDA"
+  }
+ ],
+ "ripretinib": [
+  {
+   "sentence": "da zwei kritische Datenlücken – TFDA-Sicherheitskennzeichnung",
+   "reason": "「TFDA」是 TwTxGNN 模板殘留，只刪「TFDA-」，兩個資料缺口的說明保留（2026-11-06）",
+   "cut": "TFDA-"
+  },
+  {
+   "sentence": "(Die Datenlücke DG001 – TFDA-Sicherheitskennzeichnung",
+   "reason": "「TFDA」是 TwTxGNN 模板殘留，只刪「TFDA-」（2026-11-06）",
+   "cut": "TFDA-"
+  },
+  {
+   "sentence": "Laden Sie die TFDA-Packungsbeilage-PDF herunter",
+   "reason": "「TFDA」是 TwTxGNN 模板殘留，只刪「TFDA-」（2026-11-06）",
+   "cut": "TFDA-"
+  }
+ ],
+ "diflunisal": [
+  {
+   "sentence": "Hinzu kommt, dass die einzige Zulassung erloschen ist und NSAR bei dieser Erkrankung bereits breit etabliert sind.",
+   "reason": "事實：EMA 集中許可 1 張、有效，沒有註銷；只刪「die einzige Zulassung erloschen ist und 」，NSAR 已廣泛使用的內容保留（2026-11-06）",
+   "cut": "die einzige Zulassung erloschen ist und "
+  }
+ ],
+ "dronedarone": [
+  {
+   "sentence": "Hinzu kommen erhebliche Sicherheitsbeschränkungen und eine nur noch gelöschte Zulassung in Deutschland.",
+   "reason": "事實：EMA 集中許可 1 張、有效，沒有註銷；只刪「 und eine nur noch gelöschte Zulassung in Deutschland」（2026-11-06）",
+   "cut": " und eine nur noch gelöschte Zulassung in Deutschland"
+  }
+ ],
+ "fenfluramine": [
+  {
+   "sentence": "Hinzu kommt, dass die Zulassung in Deutschland nur noch als gelöscht geführt wird und die Sicherheitsdaten unvollständig sind.",
+   "reason": "事實：EMA 集中許可 1 張、有效，沒有註銷；只刪許可子句，安全性資料不完整的內容保留（2026-11-06）",
+   "cut": "die Zulassung in Deutschland nur noch als gelöscht geführt wird und "
+  }
+ ],
+ "mometasone": [
+  {
+   "sentence": "Hinzu kommen eine aufgehobene Zulassung in Deutschland und fehlende Sicherheitsdaten aus der Fachinformation.",
+   "reason": "事實：EMA 集中許可 1 張、有效，沒有註銷；只刪「eine aufgehobene Zulassung in Deutschland und 」（2026-11-06）",
+   "cut": "eine aufgehobene Zulassung in Deutschland und "
+  }
+ ],
+ "pentosan_polysulfate": [
+  {
+   "sentence": "Klärung, warum die Zulassung erloschen ist, und der aktuellen Verfügbarkeit in Deutschland",
+   "reason": "事實：EMA 集中許可 1 張、有效，沒有註銷；只刪「warum die Zulassung erloschen ist, und 」，留下「Klärung der aktuellen Verfügbarkeit in Deutschland」（2026-11-06）",
+   "cut": "warum die Zulassung erloschen ist, und "
+  }
+ ],
+ "toremifene": [
+  {
+   "sentence": "Hinzu kommen ein erhebliches QT-Risiko, eine hohe Wechselwirkungslast und das Fehlen einer gültigen Zulassung in Deutschland.",
+   "reason": "事實：EMA 集中許可 1 張、有效；只刪「 und das Fehlen einer gültigen Zulassung in Deutschland」，QT 風險與交互作用保留（2026-11-06）",
+   "cut": " und das Fehlen einer gültigen Zulassung in Deutschland"
+  }
+ ],
+ "treprostinil": [
+  {
+   "sentence": "Klärung, warum die einzige deutsche Zulassung (Trepulmix) aufgehoben ist, und Prüfung der Verfügbarkeit anderer Treprostinil-Präparate.",
+   "reason": "事實：EMA 集中許可有效、沒有註銷；只刪前半的許可子句，留下「Prüfung der Verfügbarkeit anderer Treprostinil-Präparate.」（2026-11-06）",
+   "cut": "Klärung, warum die einzige deutsche Zulassung (Trepulmix) aufgehoben ist, und ",
+   "capitalize": true
+  }
+ ],
+ "tryptophan": [
+  {
+   "sentence": "zahlreiche schwerwiegende Wechselwirkungen und die erloschene Zulassung in Deutschland.",
+   "reason": "事實：EMA 集中許可 1 張、有效，沒有註銷；只刪「 und die erloschene Zulassung in Deutschland」（2026-11-06）",
+   "cut": " und die erloschene Zulassung in Deutschland"
   }
  ]
 }

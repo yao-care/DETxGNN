@@ -105,8 +105,6 @@ Für die Hauptvorhersage (Glanzmann-Thrombasthenie) liegt keine Literatur vor. F
 |---------|------|------|-----------|
 | EMEA/H/C/004108 | Ondexxya (AstraZeneca AB) | – | Arzneimittelbedingte Nebenwirkungen (Drug-Related Side Effects and Adverse Reactions) |
 
-Status dieser Zulassung: erloschen/aufgehoben (cancelled).
-
 ---
 
 ## Sicherheitshinweise

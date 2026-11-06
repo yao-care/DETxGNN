@@ -88,7 +88,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/004744 | Palynziq | – | Phenylketonurie |
 
-Diese Zulassung ist erloschen bzw. zurückgezogen (Status: cancelled). Der Inhaber ist BioMarin International Limited.
+Der Inhaber ist BioMarin International Limited.
 
 ---
 

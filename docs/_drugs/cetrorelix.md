@@ -88,8 +88,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/000233 | Cetrotide (Merck Europe B.V.) | – | Ovulation; Ovulationsinduktion |
 
-Hinweis: Diese Zulassung ist als erloschen/aufgehoben geführt.
-
 ---
 
 ## Sicherheitsaspekte
@@ -105,7 +103,7 @@ Pharmakologisch relevant ist die Bindung an den GnRH-Rezeptor (GNRHR) als Zielst
 **Entscheidung: Hold**
 
 **Begründung:**
-Für Hypertrichose und die übrigen vorhergesagten Indikationen liegen weder klinische Studien noch Publikationen vor, und ein plausibler Wirkmechanismus fehlt weitgehend. Zudem ist die einzige deutsche bzw. europäische Zulassung erloschen. Als Forschungsfragen mit mechanistischer Begründung kommen allenfalls die zentrale Pubertas praecox und die familiäre männerlimitierte Pubertas praecox in Betracht.
+Für Hypertrichose und die übrigen vorhergesagten Indikationen liegen weder klinische Studien noch Publikationen vor, und ein plausibler Wirkmechanismus fehlt weitgehend. Als Forschungsfragen mit mechanistischer Begründung kommen allenfalls die zentrale Pubertas praecox und die familiäre männerlimitierte Pubertas praecox in Betracht.
 
 **Für ein Weiterverfolgen sind folgende Schritte nötig:**
 - Auswertung der Packungsbeilage/Fachinformation (Warnhinweise, Gegenanzeigen) als Voraussetzung für eine Sicherheitsbewertung

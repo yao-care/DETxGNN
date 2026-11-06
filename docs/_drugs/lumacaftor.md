@@ -115,7 +115,7 @@ Die Vorhersage für Lepra beruht ausschließlich auf einem Modellwert (Evidenzst
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen), die zur Sicherheitsprüfung zwingend erforderlich sind
 - Systematische Literaturrecherche und präklinische Studien zu einem möglichen Zusammenhang zwischen CFTR-Korrektur und Lepra (Wirt-Erreger-Interaktion, Schwann-Zellen)
 - Prüfung der Verabreichungswege und der Ähnlichkeit zur ursprünglichen Indikation (derzeit nicht bewertet)
-- Klärung des regulatorischen Status, da die einzige Zulassung erloschen ist
+- Klärung des regulatorischen Status
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

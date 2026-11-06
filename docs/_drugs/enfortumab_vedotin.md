@@ -93,8 +93,6 @@ Hinweis zu anderen vorhergesagten Indikationen (keine Wirksamkeitsevidenz, nur S
 |---------|------|------|-----------|
 | EMEA/H/C/005392 | Padcev | – | Übergangszellkarzinom; urologische Neoplasien |
 
-Diese Zulassung ist als erloschen geführt.
-
 ---
 
 ## Zytotoxizität

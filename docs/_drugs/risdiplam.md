@@ -84,8 +84,6 @@ Derzeit liegt keine einschlägige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/005145 | Evrysdi | – | Spinale Muskelatrophie |
 
-Hinweis: Diese Zulassung ist als erloschen/zurückgezogen geführt (Status: cancelled).
-
 ---
 
 ## Sicherheitsaspekte

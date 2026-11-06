@@ -84,8 +84,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/004164 | Alecensa (Roche Registration GmbH) | – | Nicht-kleinzelliges Lungenkarzinom |
 
-Hinweis: Diese Zulassung ist als erloschen/widerrufen (cancelled) geführt; eine gültige Zulassung besteht laut den Daten nicht.
-
 ---
 
 ## Zytotoxizität

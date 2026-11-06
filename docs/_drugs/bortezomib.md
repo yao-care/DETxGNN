@@ -42,7 +42,6 @@ Evidenzniveau: **N/A** | Vorhergesagte Indikationen: **0**
 |---------|--------|
 | Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 4 von 5) |
 | TxGNN-vorhergesagte Indikation | Keine Vorhersage zurückgegeben |
-| Status auf dem Taiwan-Markt | Nicht vermarktet |
 | Anzahl der Zulassungen | 5 (gültig: 4) |
 
 ---

@@ -98,7 +98,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/000206 | Beromun | – | Sarkom |
 
-
 ---
 
 ## Zytotoxizität
@@ -124,7 +123,7 @@ Für Sicherheitsinformationen beachten Sie bitte die Fachinformation. Aus den zu
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich allein auf einen Modellwert (Evidenzstufe L5) ohne Studien, Publikationen oder plausiblen Mechanismus. Die Zulassung in Deutschland ist erloschen, und die Perfusionsbindung sowie die systemische Toxizität sprechen gegen eine einfache Übertragung auf die vorhergesagten Indikationen.
+Die Vorhersage stützt sich allein auf einen Modellwert (Evidenzstufe L5) ohne Studien, Publikationen oder plausiblen Mechanismus. Die Perfusionsbindung sowie die systemische Toxizität sprechen gegen eine einfache Übertragung auf die vorhergesagten Indikationen.
 
 **Für ein Weiterverfolgen sind folgende Schritte nötig:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) über die BfArM-Website, da diese Sicherheitslücke derzeit ein Blocker ist

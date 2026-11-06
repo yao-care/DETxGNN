@@ -88,8 +88,6 @@ Sieben von sieben Zulassungen sind gültig. Es handelt sich um zentrale EU-Zulas
 | EMEA/H/C/001049 | Zomarist | Novartis Europharm Limited | Diabetes mellitus Typ 2 | Gültig |
 | EMEA/H/C/000807 | Eucreas | Novartis Europharm Limited | Diabetes mellitus Typ 2 | Gültig |
 
-Weitere erloschene Zulassungen: Vildagliptin / Metformin hydrochloride Accord (EMEA/H/C/005738) und Icandra (EMEA/H/C/001050).
-
 ---
 
 ## Sicherheitsaspekte

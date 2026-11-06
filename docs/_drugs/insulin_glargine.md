@@ -105,8 +105,6 @@ Fünf der sechs Zulassungen sind gültig. Es handelt sich um zentrale EU-Zulassu
 | EMEA/H/C/006136 | Ondibta | – | Diabetes mellitus |
 | EMEA/H/C/000309 | Toujeo (zuvor Optisulin) | – | Diabetes mellitus |
 
-Eine sechste Zulassung (Suliqua, EMEA/H/C/004243, Diabetes mellitus Typ 2) ist ebenfalls erloschen.
-
 ---
 
 ## Sicherheitsaspekte
@@ -128,7 +126,7 @@ Weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) entnehmen Sie bit
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die Vorhersage autoimmune Oophoritis gibt es keine klinischen Studien, keine Literatur und keinen plausiblen mechanistischen Zusammenhang (Evidenzlevel L5). Der Score stammt vom TxGNN-Modell (Deep Learning) und kann vom Modell gelernte Ähnlichkeiten zwischen verwandten Erkrankungen (gemeinsame Autoimmun- und Diabetes-Komorbidität) widerspiegeln, keine biologische Evidenz. Das Arzneimittel ist in Deutschland/EU im Handel, 5 von 6 Zulassungen sind gültig.
+Für die Vorhersage autoimmune Oophoritis gibt es keine klinischen Studien, keine Literatur und keinen plausiblen mechanistischen Zusammenhang (Evidenzlevel L5). Der Score stammt vom TxGNN-Modell (Deep Learning) und kann vom Modell gelernte Ähnlichkeiten zwischen verwandten Erkrankungen (gemeinsame Autoimmun- und Diabetes-Komorbidität) widerspiegeln, keine biologische Evidenz. Das Arzneimittel ist in Deutschland/EU im Handel.
 
 **Für ein Weiterkommen sind erforderlich:**
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da dieser Datenpunkt derzeit eine blockierende Lücke für die Sicherheitsprüfung darstellt

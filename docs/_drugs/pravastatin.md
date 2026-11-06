@@ -113,7 +113,7 @@ Für Warnhinweise und Gegenanzeigen im Sinne der Fachinformation siehe die Packu
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die homozygote familiäre Hypercholesterinämie gibt es keine direkte Evidenz für Pravastatin; die einzige Studie prüft Alirocumab. Zudem ist bei fehlender LDL-Rezeptorfunktion nur eine begrenzte Statinwirkung zu erwarten, und die deutsche Zulassung ist erloschen.
+Für die homozygote familiäre Hypercholesterinämie gibt es keine direkte Evidenz für Pravastatin; die einzige Studie prüft Alirocumab. Zudem ist bei fehlender LDL-Rezeptorfunktion nur eine begrenzte Statinwirkung zu erwarten.
 
 **Für ein Weiterverfolgen sind folgende Punkte nötig:**
 - Direkte klinische Daten zu Pravastatin bei homozygoter FH (bisher nicht vorhanden)

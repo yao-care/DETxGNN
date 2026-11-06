@@ -123,7 +123,7 @@ Für weitere Sicherheitsinformationen bitte die Packungsbeilage heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht allein auf einem Modellwert. Es gibt keine klinischen Studien, und die einzige Publikation ist präklinisch und betrifft eine opportunistische Pilzinfektion, nicht HIV selbst. Hinzu kommen ein erhebliches QT-Risiko, eine hohe Wechselwirkungslast und das Fehlen einer gültigen Zulassung in Deutschland.
+Die Vorhersage beruht allein auf einem Modellwert. Es gibt keine klinischen Studien, und die einzige Publikation ist präklinisch und betrifft eine opportunistische Pilzinfektion, nicht HIV selbst. Hinzu kommen ein erhebliches QT-Risiko, eine hohe Wechselwirkungslast.
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Präklinische Belege einer direkten Wirkung gegen HIV (z. B. In-vitro-Virologie) oder alternativ eine klare Neudefinition der Zielindikation (z. B. Kryptokokkose als adjuvante Therapie)

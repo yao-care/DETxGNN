@@ -82,8 +82,6 @@ Keine der Publikationen belegt eine therapeutische Wirkung von Phenylalanin bei 
 |---------|------|------|-----------|
 | EMEA/H/C/005557 | Maapliv (Recordati Rare Diseases) | – | Ahornsirupkrankheit (Maple Syrup Urine Disease) |
 
-Diese Zulassung ist erloschen (Status: cancelled).
-
 ## Sicherheitsaspekte
 
 - **Kontraindikationen aus dem Wissensgraphen** (PrimeKG, keine Angaben aus dem Beipackzettel): Nierenerkrankungen (u. a. chronische Niereninsuffizienz, terminales Nierenversagen, Nephrolithiasis, Nephrokalzinose, akute Uratnephropathie), Herz-Kreislauf-Erkrankungen (u. a. Kammerflimmern, Digitalisvergiftung), Hyperkalzämie-bezogene Erkrankungen (u. a. humorale Hyperkalzämie bei Malignität, Sarkoidose), Störungen des Phosphorstoffwechsels, Pyourether sowie **Phenylketonurie** und weitere Störungen des Phenylalaninstoffwechsels.
@@ -96,7 +94,7 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) ist die Fach
 **Entscheidung: Hold**
 
 **Begründung:**
-Für sklerosierende Cholangitis gibt es keine klinischen Studien und nur indirekte, beobachtende Literatur (Evidenzstufe L4). Für den angeborenen Prothrombinmangel liegt ausschließlich eine Modellvorhersage vor (L5). Die einzige deutsche Zulassung ist erloschen, und die Sicherheitsdaten sind unvollständig.
+Für sklerosierende Cholangitis gibt es keine klinischen Studien und nur indirekte, beobachtende Literatur (Evidenzstufe L4). Für den angeborenen Prothrombinmangel liegt ausschließlich eine Modellvorhersage vor (L5). Die Sicherheitsdaten sind unvollständig.
 
 **Für ein Weiterkommen sind folgende Punkte nötig:**
 - Wirkmechanismus (MOA) ergänzen, um einen mechanistischen Bezug zu prüfen
