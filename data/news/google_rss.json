@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-06T00:51:45.538837+00:00",
+  "fetched_at": "2026-11-06T07:44:22.708604+00:00",
   "source": "Google News Health RSS",
-  "count": 36,
+  "count": 31,
   "articles": [
     {
       "id": "aa6ba7bc2e7c",
@@ -14,13 +14,13 @@
       }
     },
     {
-      "id": "2573a0f41494",
-      "title": "Rückenschmerzen ohne Medikamente lindern: Sechs Therapien können helfen und sparen Kosten - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQzB0YUZ4bXlFYTdoTEViRmdHeVBZOHppcXdZT1Q0WFd1ajlITmY2ZFc0cU1iNFFheWVodmZBQkN0WHV1anNmd01tTXdjYldGWlFmUkNwLVV6bEdHNEQ5aEFENFdWcktiU2lzbHdGWEVoVUsyR0Y2UENTZURvZHkzd2xWbks2dlZqdk16ZHhuemxvVmpRbEFJT05UWTM5VElpTXpLNlB1elFYcFhCXzVoMWVaVGt4aUdWRTZ0VWJGdjU1WFNw?oc=5",
-      "published": "2026-11-04T13:49:12+00:00",
+      "id": "1cb238a2aa77",
+      "title": "Gesundheit wird 2027 teurer: Diese Mehrkosten kommen auf Millionen Versicherte zu - DerWesten",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZS1tbXJ5VGhmb1pvT2s2NlJVOWsza0NEWTljbGt6bldreENERlJvTC13aEdLWW5DVVNFVE92bUNFcEp5NXBJbndneEJ5eGNTYXhENTBERDBZRzY5TkhWdHZ6eVN1eExUQ0FJSF9ZTjZGUVpJV3VRaGhYYmdRb3dfRzA1S09NVTRJWnl2YkhyNlhwVkFrN1hyam03bnVMTTVYTHBEUTF5MkF0WmRBdjNPR2ZuSGYtUQ?oc=5",
+      "published": "2026-11-06T02:33:16+00:00",
       "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
+        "name": "DerWesten",
+        "url": "https://www.derwesten.de"
       }
     },
     {
@@ -34,23 +34,13 @@
       }
     },
     {
-      "id": "044758724b3e",
-      "title": "Das Gesundheitsministerium erarbeitet neue Vorschriften zu Standards für die Verarbeitung von Heilkräutern und die Zubereitung traditioneller Arzneimittel. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdmJSWlRVci1qSU8xRVpEZ3A5V2VDVXFSNTFsVi1UTkhCUXFhYlJ5Z3l5ekJMdkxsZHI1WUhOYjdMaVh2STNPWngtMDd0ZEMtc3BOR1dYTW00ODlPOGJuRnNMMDJIakYwdGtOQzV2QUdBcHhmZFFjMWdCWmxOSGhRWHNzY2NVakFCd290LTRLVTlDd1dtVHZvc2t4MWdNenVrM29nMlFZT3hsbE01WlU4Vml3?oc=5",
-      "published": "2026-11-05T11:52:47+00:00",
+      "id": "106113902e27",
+      "title": "Prädiabetes: Abnehmspritzen mit 31 Prozent geringerem Diabetesrisiko verbunden - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNm5fTFhZZmRSM2VWTVRfT0xJcXJQNTV0SUFHSjhJSXktUUVCR3pPUkJyWld0N3Vzdkk3eXFSZ24wek1IcnE3bG45VUFvc09JZkkxUlRDeV9UY1g5X2JDejhQSlY2QTNBVjlLOWV2anpLbUY1UWxJQWJyNWkwbjQ2QktESDN1dG1Nb1lvbWJCNEtGeE5kak45SlVqTEZpTzRGWl8wNlI0cjl5WHFFdHR3MHVhR1g?oc=5",
+      "published": "2026-11-04T11:40:49+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "8f1edfeb1592",
-      "title": "Apotheke am Solebad feiert Jubiläum: Seit 25 Jahren mit Herz für Ihre Gesundheit - Werne Plus",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRlQyeGVLcUQxSWtIMC0yY0QyYVgtOGtzbGRER0JScmt0cWRHdUVmR3BXZGN1RnZUTy1rV2FETkRiU2x6MjRBUEVlVGVOaTlzSWpqTGtSdU1PcHVkTGo5YS1kRjAxdVk0YWZPenh2T0tpRlBEaWtZZk1FVlJMRWpremdXVGRxaWhqYWZ5LVN6OVQxVV90SkYySl9BTFgwUkZUQlNWaXFOMHVEZXU1OHVPZFI2U1hhaGJkeDRHMmdwWTQ5Sm9oNHc?oc=5",
-      "published": "2026-11-05T16:00:23+00:00",
-      "source": {
-        "name": "Werne Plus",
-        "url": "https://www.werne-plus.de"
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -74,6 +64,16 @@
       }
     },
     {
+      "id": "4cf41a2b052f",
+      "title": "Bundesrats-Ausschuss: Länder melden Bedenken gegen Dispensierrecht an - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM3BXdTdxalJHLU95QWNYOG5VVzNiOEFXMmpJWVNlZ1BlMHdtREdUMmVIbVZ3V0xqNmtQV1JoWGI0LXVUM2xnMUo4T0JRa0dNYk0tbThVbWRuSEpGM1pwRm93ZDEtaUstWVNJNm9yVzUtZUR5UTJhOEJhNDd0VHZldHBoYnlFOFdUWHhYN2RrVTM4NnJvc2dXbk1CMA?oc=5",
+      "published": "2026-11-06T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
       "id": "8ed581a140cf",
       "title": "Ein Medikament für die Tonne? Blister & Co. richtig entsorgen - oekotest.de",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRWF3MFc1OVVXMklkdUZpMkdybTk4aUIyVE82ZTI2YUtPTl95M2U3TjVIREEteXQ3clpXNV8xdldmODB1bmh3cE9kd2NOYS1keTNOSnU4OFhyMHFjRGYwek5ZQUZRdzMzOFEtNkNRVjR1Q3NYYzE3OXBiNFg1S3V1eWJsQ0dHdmJfYV9DTXI1bVJFdERmbWpmdGdZRVpucW9oV0hMM0RGWm5ySzFwbHRfUUplT0p1RFlGV0xz?oc=5",
@@ -84,26 +84,6 @@
       }
     },
     {
-      "id": "4d67948e6db6",
-      "title": "Gesundheit wird 2027 teurer: Diese Mehrkosten kommen auf Millionen Versicherte zu - DerWesten",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVzdmdmpsZXBTTUVydjZiYjE0bHp2Q19fZkNOQTI5cmc2SVRvWlp2UVVhRFFMQ3Z4Qm5UYWpWd2Y5TFN2eVlwa3NNRm5peFBvLWZnbkxGUkItR1lPaFE5Z3hKMFo5Ul8ySGJ6aUhqT0QyakR4VjBKb0RVTnJsTXRJaWtWY3pXdEJacHZCOGV5S0Zwa2VENV9sY3hEd1E2aWZOdWswaUtFY3Jqb1BGTjdOd0xma1FsUnc?oc=5",
-      "published": "2026-11-03T01:08:14+00:00",
-      "source": {
-        "name": "DerWesten",
-        "url": "https://www.derwesten.de"
-      }
-    },
-    {
-      "id": "17052c4630eb",
-      "title": "Reimann zur WIdO-Analyse: Entlastungen bei Arzneimittelausgaben dürfen nicht durch ... - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTRzF5aUhVNXJWNUNvdU5BZG40bmZKRUlaaHBWTTdUcVZ0VEN3bWJ0NUdGemFab0t4NV9jUUZPMlNZbm0tZmY1anE4emRxa3A2TlpTTkZB?oc=5",
-      "published": "2026-11-03T12:46:11+00:00",
-      "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
-      }
-    },
-    {
       "id": "cc493b336909",
       "title": "Markt für Nahrungsergänzungsmittel boomt: Wo sie Sinn machen und wo nicht - Das sagen Experten! - MarktSpiegel",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeHNMaG5SallwSzJJZVJZOTg4N25Uam5QandXSzh2R1NtQTlSQXBIWFFVMnZIR3BLOUVJNnhDUmg2cTBDeTV1Y2RqU0tQMW1DWi0zQkZoMGViSjNIaVR2NmlIckphbHpad2dlU2lwRFRLYWtQTlk1cl9iS1JyckFBQnFQVjA5dk9qUzF4bnJKZzZmN3FwcTZkNDlzbXBWck1MYklyeWs5Zw?oc=5",
@@ -111,16 +91,6 @@
       "source": {
         "name": "MarktSpiegel",
         "url": "https://www.marktspiegel.de"
-      }
-    },
-    {
-      "id": "2f0f7b06072d",
-      "title": "Fischölkapseln zeigen nach zwei Jahren keinen Nutzen für das Gehirn - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWElhOGZOdlJxOTBGQjk5WVE0Q0o3U1lNRUIzajRSWlhUNUhTa0RERVRoMlVEanZHUm9WQTBnbzVEa2lhVzFvRUpyT01OMzVjSk04anlDWnVoaTJvNFo2bmlXYkNDN0pZdHI5TVc4MjNWRnZGd1NmLTFBRTI5WUlzX2ZxcWNBVjQyVU8xaXViQmF3Rk9sUWZ6dXNiVDJwQTdpbXdXQWx5WTU?oc=5",
-      "published": "2026-11-05T08:34:36+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
       }
     },
     {
@@ -144,36 +114,6 @@
       }
     },
     {
-      "id": "bda234f578ee",
-      "title": "Blutdruck im Blick: Welche Werte als gut gelten – und was Sie selbst dafür tun können - oekotest.de",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSTBIQ2I1SXM5Z3VTMmhqWDRfSXZDUF9fUkcwZDJlbThoRTBzNmZTRzNDR1o3VjJIc2JYMDBDaGl0ZWh6OUY2N2JVRVVieUYzZTg1VjdVRzRoSHJSVTJRbXVIM2ZDXzE5QW5ReWJ2UTVZam9fVHB6MHdkcUZGeWdsbFVtMWpWVVRNSkJtejd3S0lsaExGZlMxVWNyYUpydVp3d3VqSjZiUnBMOUlUNWJsZmVLaGhONUFEZm9kMHlRTldxWVZWVHlWc2RtVmlWT216Y3lQcEFEQ2tzSHgzekE?oc=5",
-      "published": "2026-11-02T09:26:17+00:00",
-      "source": {
-        "name": "oekotest.de",
-        "url": "https://www.oekotest.de"
-      }
-    },
-    {
-      "id": "106113902e27",
-      "title": "Prädiabetes: Abnehmspritzen mit 31 Prozent geringerem Diabetesrisiko verbunden - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNm5fTFhZZmRSM2VWTVRfT0xJcXJQNTV0SUFHSjhJSXktUUVCR3pPUkJyWld0N3Vzdkk3eXFSZ24wek1IcnE3bG45VUFvc09JZkkxUlRDeV9UY1g5X2JDejhQSlY2QTNBVjlLOWV2anpLbUY1UWxJQWJyNWkwbjQ2QktESDN1dG1Nb1lvbWJCNEtGeE5kak45SlVqTEZpTzRGWl8wNlI0cjl5WHFFdHR3MHVhR1g?oc=5",
-      "published": "2026-11-04T11:40:49+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "088d7e6ec53d",
-      "title": "Medi24-Übernahme: DocMorris kündigt europaweite Telemed-Expansion an - Ärzte Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNenhYbjQ1engyVnFYNlhXVFNqRjAzOVp0WmVDQ1VaNGJtbUJGWlB0Q3Y5N0VTOWMzMUl2dmtUSmFUY1hOM2NqdDRrY1pzTWF1ZFBtcE9jMDl1Yi0tMVIzaUVyeUduTDZEU25TdlotY3BuU0hhQmx1WWNFS2RVSjU1cTBMaElhYmxYcDkxa3o4MDNNZ2I0UWVTM3o5bUtBRHlBZUpuMC1lTlJyWGVFSU5jcktxZmlSRmdDSFBIYlFB?oc=5",
-      "published": "2026-11-04T12:46:55+00:00",
-      "source": {
-        "name": "Ärzte Zeitung",
-        "url": "https://www.aerztezeitung.de"
-      }
-    },
-    {
       "id": "ccd1bd1f0014",
       "title": "Typ-2-Diabetes: Lebensstilprogramm führte bei jedem Zweiten zur Remission - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZDBUZHZmcE84T3JsT0J5Ri1wcDE0c18tN1k1UnZ3T3hrZ3dfVEtvd1NJUkFlaUUtbGVsYnUwS3o2a3daZF9mTFNBMlBlRlI5V2lIZ21TU29kS21WcWZvbmtxUGw0bHlGUFRMTEtYUlhRT1pHTEFtSmhWMl9kbGdpT3FkZW83UXN3UkdLUlUybDN6OEZEY1dOMW5EUjk4eG5ZTGxzLVVNOWtmcld1MWc?oc=5",
@@ -184,23 +124,13 @@
       }
     },
     {
-      "id": "8b46c8ffa7cb",
-      "title": "Ein Jahr Alzheimer-Antikörper: Was sich getan hat - Ärzte Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPN2ZoUlc0VUw3cTNTSTFJMW9ibmNmQTUwT1V2Mm9pYzhuT2NzUWQwOGJZYWRXY0F6VkZOaExDM1hoVTFNdFF0dEdGNjEyX2lJM0pfZ0JodTRGdE9EU3pJNDM3amU1WnlvcmlIaC1IWjNEdkVMRWp3NU1LVDc0SkV4dEVFZF82aWF4Z1BkR2l5T1ZlNE8yVVVYdzRJX1NIdDQ?oc=5",
-      "published": "2026-11-04T11:54:56+00:00",
+      "id": "bda234f578ee",
+      "title": "Blutdruck im Blick: Welche Werte als gut gelten – und was Sie selbst dafür tun können - oekotest.de",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSTBIQ2I1SXM5Z3VTMmhqWDRfSXZDUF9fUkcwZDJlbThoRTBzNmZTRzNDR1o3VjJIc2JYMDBDaGl0ZWh6OUY2N2JVRVVieUYzZTg1VjdVRzRoSHJSVTJRbXVIM2ZDXzE5QW5ReWJ2UTVZam9fVHB6MHdkcUZGeWdsbFVtMWpWVVRNSkJtejd3S0lsaExGZlMxVWNyYUpydVp3d3VqSjZiUnBMOUlUNWJsZmVLaGhONUFEZm9kMHlRTldxWVZWVHlWc2RtVmlWT216Y3lQcEFEQ2tzSHgzekE?oc=5",
+      "published": "2026-11-02T09:26:17+00:00",
       "source": {
-        "name": "Ärzte Zeitung",
-        "url": "https://www.aerztezeitung.de"
-      }
-    },
-    {
-      "id": "aca34b7b78e6",
-      "title": "Hypertonie: Wann können Blutdrucksenker im hohen Alter abgesetzt werden? - Ärzte Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVjA1Mm40V3ZtYVRVcmJQVGxRR2RHTjA5Ymt4S1lxTXl6TEVMTnoxLUJvNndhaVRyVmxnQkd3TVVHQ2dvd1dVS2tsU1ItVklPS0ZwS3RtNTVSaGtLdmI1UWJIMVE1SDlEbGl0Ym44RlVQcWhzMWQ4S0wxSTdmS3hPUm9sVjNnQnA4NVI1c1pKMk9nVjRzakFLRi1CTTFyVFlua1JOSEhzYm9IRlN0cXN5RzVFeVBDSnlQVnp5Uw?oc=5",
-      "published": "2026-11-02T07:33:00+00:00",
-      "source": {
-        "name": "Ärzte Zeitung",
-        "url": "https://www.aerztezeitung.de"
+        "name": "oekotest.de",
+        "url": "https://www.oekotest.de"
       }
     },
     {
@@ -224,6 +154,16 @@
       }
     },
     {
+      "id": "088d7e6ec53d",
+      "title": "Medi24-Übernahme: DocMorris kündigt europaweite Telemed-Expansion an - Ärzte Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNenhYbjQ1engyVnFYNlhXVFNqRjAzOVp0WmVDQ1VaNGJtbUJGWlB0Q3Y5N0VTOWMzMUl2dmtUSmFUY1hOM2NqdDRrY1pzTWF1ZFBtcE9jMDl1Yi0tMVIzaUVyeUduTDZEU25TdlotY3BuU0hhQmx1WWNFS2RVSjU1cTBMaElhYmxYcDkxa3o4MDNNZ2I0UWVTM3o5bUtBRHlBZUpuMC1lTlJyWGVFSU5jcktxZmlSRmdDSFBIYlFB?oc=5",
+      "published": "2026-11-04T12:46:55+00:00",
+      "source": {
+        "name": "Ärzte Zeitung",
+        "url": "https://www.aerztezeitung.de"
+      }
+    },
+    {
       "id": "9fa13ce5acf5",
       "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
@@ -231,6 +171,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "aca34b7b78e6",
+      "title": "Hypertonie: Wann können Blutdrucksenker im hohen Alter abgesetzt werden? - Ärzte Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVjA1Mm40V3ZtYVRVcmJQVGxRR2RHTjA5Ymt4S1lxTXl6TEVMTnoxLUJvNndhaVRyVmxnQkd3TVVHQ2dvd1dVS2tsU1ItVklPS0ZwS3RtNTVSaGtLdmI1UWJIMVE1SDlEbGl0Ym44RlVQcWhzMWQ4S0wxSTdmS3hPUm9sVjNnQnA4NVI1c1pKMk9nVjRzakFLRi1CTTFyVFlua1JOSEhzYm9IRlN0cXN5RzVFeVBDSnlQVnp5Uw?oc=5",
+      "published": "2026-11-02T07:33:00+00:00",
+      "source": {
+        "name": "Ärzte Zeitung",
+        "url": "https://www.aerztezeitung.de"
       }
     },
     {
