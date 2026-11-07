@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-06T21:20:35.204871+00:00",
+  "fetched_at": "2026-11-07T01:41:11.793593+00:00",
   "source": "Google News Health RSS",
-  "count": 36,
+  "count": 35,
   "articles": [
     {
       "id": "aa6ba7bc2e7c",
@@ -54,16 +54,6 @@
       }
     },
     {
-      "id": "672319b8b87d",
-      "title": "Top 20 Unternehmen im globalen Markt für kardiometabolische Arzneimittel - Spherical Insights",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcGdhZnViV2YteVVBdEliSF9QajNHaVlVQUZQenJDZW1wc3o2cURRNGhFNC04LS0wLWR2SGYtU29PeVFkUTZFTENoSm5XZV9VMHNicDdSYnhLRFFhYlFZMWNacTNGRDVPZ0JpbHBGa3h1bTJTOXJQNkpuVzZ5Q1pJejloUktQcVRGZ1FHS1pJdDNaMVNxanNuRWs2M29ldlAzWXJoOVRDRGQ2NG5UMUt0WDVyV081STd6ZG9HclRhVFduakczWTltTkNfUW5TTWFqUDFZLUdoVUJ3Zw?oc=5",
-      "published": "2026-11-06T08:20:55+00:00",
-      "source": {
-        "name": "Spherical Insights",
-        "url": "https://www.sphericalinsights.com"
-      }
-    },
-    {
       "id": "24af6cd23d3c",
       "title": "Biologische Arzneimittel: Fresenius baut Geschäft mit Nachahmer-Medikamenten aus - STERN.de",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbEVmNlhlNGNDa2hhdXdyUzhkN0xXdi1uUmlCSnFfTjFtUHlyN0ZtWXM0V1pmeFBRalVvX0NmOWZYSEJQZzFrT1NXWUpLTUN6ck0yU0RJejgyZkRUbmUtaGdvR3pIQkpZT1hNcXlMRFBKWlRlUUc4MWtBTlJIR3VIdTRRaUU2ZncxQXJIOGhEdlYzMXFUMWRhWVBsdHMzN2ZWaDlZbHkwS0h4THNMXzZZQlh5bXdwaVRFbFhFWVRCQ0hMVGhBWElEdnpQUXdRblpVdTJ1aU1JTzZuOUFhWEE?oc=5",
@@ -91,6 +81,16 @@
       "source": {
         "name": "Ärzte Zeitung",
         "url": "https://www.aerztezeitung.de"
+      }
+    },
+    {
+      "id": "672319b8b87d",
+      "title": "Top 20 Unternehmen im globalen Markt für kardiometabolische Arzneimittel - Spherical Insights",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcGdhZnViV2YteVVBdEliSF9QajNHaVlVQUZQenJDZW1wc3o2cURRNGhFNC04LS0wLWR2SGYtU29PeVFkUTZFTENoSm5XZV9VMHNicDdSYnhLRFFhYlFZMWNacTNGRDVPZ0JpbHBGa3h1bTJTOXJQNkpuVzZ5Q1pJejloUktQcVRGZ1FHS1pJdDNaMVNxanNuRWs2M29ldlAzWXJoOVRDRGQ2NG5UMUt0WDVyV081STd6ZG9HclRhVFduakczWTltTkNfUW5TTWFqUDFZLUdoVUJ3Zw?oc=5",
+      "published": "2026-11-06T08:20:55+00:00",
+      "source": {
+        "name": "Spherical Insights",
+        "url": "https://www.sphericalinsights.com"
       }
     },
     {
@@ -234,16 +234,6 @@
       }
     },
     {
-      "id": "d17ec941210c",
-      "title": "Chronischer Schmerz: SemFYC fordert Bewegung statt Medikamente als erste Wahl - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUEIxQndyRXh3bjVzV2l3S0VwenBNN2IzR2NHVFlkaHlldEh5RW03ejlOZGZVLU9LdDZQaEI3Y3BYSFBzZFRETU5TbG9wVzQ3M3hNSVRIYUgwQlNXWm5iR0tfVExIbUVXd2VGdHJ5OUhmUzkwUDRLRHR5aXBuOXdQdWU3TGtLcVNlaEhPa2Uycy04X05iNDZRRlRzMXF3b1pHLU1TOFZhV3hnNF8taC1KMWtmdXMybFlrQ3RIR0tvRVY0Vmc?oc=5",
-      "published": "2026-11-06T19:39:19+00:00",
-      "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "e5835a315f52",
       "title": "Arzneimittel - Klinische Prüfung - Bezirksregierung Düsseldorf",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQanJqVmFoa1RDaGJaamxwcFU0MUpaZ0RkV2V5SnZRSW9VdzBWdHMwelVRdnlfWUc5WlN6TXFNc0hRNXY1YmRWQ2czQ0N3UG94Zlh6OXAzQlRtVUVTb2RkckNNWjh0TzBrWl9ESENaeGN6LVo4VERrdkdiQ19jT0dnZWx4RnJ3cUtTRFloY3p2OG1NQjFKRkptajhfWXFqeHo1TEx0OEJ4S1JYRVQyc2JBTmt4a2FNNmpFWjhJVg?oc=5",
@@ -251,6 +241,16 @@
       "source": {
         "name": "Bezirksregierung Düsseldorf",
         "url": "https://www.brd.nrw.de"
+      }
+    },
+    {
+      "id": "d17ec941210c",
+      "title": "Chronischer Schmerz: SemFYC fordert Bewegung statt Medikamente als erste Wahl - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUEIxQndyRXh3bjVzV2l3S0VwenBNN2IzR2NHVFlkaHlldEh5RW03ejlOZGZVLU9LdDZQaEI3Y3BYSFBzZFRETU5TbG9wVzQ3M3hNSVRIYUgwQlNXWm5iR0tfVExIbUVXd2VGdHJ5OUhmUzkwUDRLRHR5aXBuOXdQdWU3TGtLcVNlaEhPa2Uycy04X05iNDZRRlRzMXF3b1pHLU1TOFZhV3hnNF8taC1KMWtmdXMybFlrQ3RIR0tvRVY0Vmc?oc=5",
+      "published": "2026-11-06T19:39:19+00:00",
+      "source": {
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -331,16 +331,6 @@
       "source": {
         "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
-      "id": "29039f0e1605",
-      "title": "40 Prozent der Gesundheitskosten werden von den Bürgern getragen. - KOHA.net",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOajZtZTlCYVBORkdiV2NpWjBkNkw0bU9JX1lxTmFKblRnWGxwRXZsZ3BJWjdleHlEbmpueHpDVHQ4X2d5NDROd1haejdyNU5DdFZyS2hBUGFoQU5YZ1FqLUJrdGpMVU02X3J2S3psQjZ4YUZTQzFRUzJTUjgyaVhHRmx3dktFUXdQeUtQMTJlcXpTVDVoMGtv?oc=5",
-      "published": "2026-11-05T18:12:59+00:00",
-      "source": {
-        "name": "KOHA.net",
-        "url": "https://www.koha.net"
       }
     },
     {
