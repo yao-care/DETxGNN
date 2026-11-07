@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-07T15:29:38.764925+00:00",
+  "fetched_at": "2026-11-07T19:57:36.754673+00:00",
   "source": "Google News Health RSS",
   "count": 37,
   "articles": [
@@ -24,16 +24,6 @@
       }
     },
     {
-      "id": "4aa530bee322",
-      "title": "Bundesregierung: 600 Arzneimittel 2026 von Lieferengpässen betroffen - EU-Schwerbehinderung",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSDRraG50dXdLT0JfSW9LZlFFMG1SZ2xRcko3bHlYUjRhREg3dnVUSTR1T3FZUmtLcU51clNmRUJ0cGFVaTlBSFkyZmxYQ2thV2dKVTFfeW1ERFR1MTZJUWNZQjhDbHZMRWQzVUhmOFBFUlZRMWhaVzE4eGN6aGlpaDg5blNzRGhVZlNWajEwdmhpeVlTSU81bEQ5N25IRmVTVVoyNlFReFpJQ2dSTFprNHJsUkNoNjg5Yll1X3dDdDR6SExMSUQzUDhDWFoydw?oc=5",
-      "published": "2026-11-07T03:40:00+00:00",
-      "source": {
-        "name": "EU-Schwerbehinderung",
-        "url": "https://www.eu-schwerbehinderung.eu"
-      }
-    },
-    {
       "id": "dcaad85fadfe",
       "title": "Wer im Alter mehr Schritte macht, hat offenbar geringere Gesundheitskosten - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR0s2TFF2VDhfT0tqNGJlclJXc3pUd0FWQW9qQW9CQ0lvY0IyYkJzZDdzbFZITVJyT3lHSGVTZFdqYkdfMFFWN08ycDhaQ2tUNk5ZOTZLVzhiYjZpbG13VWtVNzQ3U3ZFUFhJX1pPOWJ2OENyWEN3WGV4NUtOMHNhcnNNYlZ2R0l3bjNkenptZWE1bk1KOTNRQnFIREZOdm1rY1JVQjZvd1FDUHg5aWc?oc=5",
@@ -41,6 +31,16 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "4aa530bee322",
+      "title": "Bundesregierung: 600 Arzneimittel 2026 von Lieferengpässen betroffen - EU-Schwerbehinderung",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSDRraG50dXdLT0JfSW9LZlFFMG1SZ2xRcko3bHlYUjRhREg3dnVUSTR1T3FZUmtLcU51clNmRUJ0cGFVaTlBSFkyZmxYQ2thV2dKVTFfeW1ERFR1MTZJUWNZQjhDbHZMRWQzVUhmOFBFUlZRMWhaVzE4eGN6aGlpaDg5blNzRGhVZlNWajEwdmhpeVlTSU81bEQ5N25IRmVTVVoyNlFReFpJQ2dSTFprNHJsUkNoNjg5Yll1X3dDdDR6SExMSUQzUDhDWFoydw?oc=5",
+      "published": "2026-11-07T03:40:00+00:00",
+      "source": {
+        "name": "EU-Schwerbehinderung",
+        "url": "https://www.eu-schwerbehinderung.eu"
       }
     },
     {
@@ -64,16 +64,6 @@
       }
     },
     {
-      "id": "24af6cd23d3c",
-      "title": "Biologische Arzneimittel: Fresenius baut Geschäft mit Nachahmer-Medikamenten aus - STERN.de",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbEVmNlhlNGNDa2hhdXdyUzhkN0xXdi1uUmlCSnFfTjFtUHlyN0ZtWXM0V1pmeFBRalVvX0NmOWZYSEJQZzFrT1NXWUpLTUN6ck0yU0RJejgyZkRUbmUtaGdvR3pIQkpZT1hNcXlMRFBKWlRlUUc4MWtBTlJIR3VIdTRRaUU2ZncxQXJIOGhEdlYzMXFUMWRhWVBsdHMzN2ZWaDlZbHkwS0h4THNMXzZZQlh5bXdwaVRFbFhFWVRCQ0hMVGhBWElEdnpQUXdRblpVdTJ1aU1JTzZuOUFhWEE?oc=5",
-      "published": "2026-11-02T09:34:17+00:00",
-      "source": {
-        "name": "STERN.de",
-        "url": "https://www.stern.de"
-      }
-    },
-    {
       "id": "8ed581a140cf",
       "title": "Ein Medikament für die Tonne? Blister & Co. richtig entsorgen - oekotest.de",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRWF3MFc1OVVXMklkdUZpMkdybTk4aUIyVE82ZTI2YUtPTl95M2U3TjVIREEteXQ3clpXNV8xdldmODB1bmh3cE9kd2NOYS1keTNOSnU4OFhyMHFjRGYwek5ZQUZRdzMzOFEtNkNRVjR1Q3NYYzE3OXBiNFg1S3V1eWJsQ0dHdmJfYV9DTXI1bVJFdERmbWpmdGdZRVpucW9oV0hMM0RGWm5ySzFwbHRfUUplT0p1RFlGV0xz?oc=5",
@@ -84,53 +74,33 @@
       }
     },
     {
-      "id": "b2703be2615b",
-      "title": "Apotheker hoffen, ärztliches Dispensierrecht doch noch zu verhindern - Ärzte Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeU9OalR0ai1NclJQamw1UEQweVItZUM0ZHFRT0ZHRXdWYkVYSlFheTlEZkdoWXNkSnUzcGx4ZmtoaTJuQ1dFRDg4MmhyaGJjcklqd3hHSWplVXpLTDczc0oyb0g2OER1bExBY2FrQjhIUi13cFRqWFJvWTZHSDNxTUdnWFk4TDhJdTVfb0pBNVR5R2hyNGxUS3RVUEotbURUX0JOdXdsWW9fWWFmZU1ERmRyeW9pcEwzT2VaWA?oc=5",
-      "published": "2026-11-03T15:25:06+00:00",
+      "id": "24af6cd23d3c",
+      "title": "Biologische Arzneimittel: Fresenius baut Geschäft mit Nachahmer-Medikamenten aus - STERN.de",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbEVmNlhlNGNDa2hhdXdyUzhkN0xXdi1uUmlCSnFfTjFtUHlyN0ZtWXM0V1pmeFBRalVvX0NmOWZYSEJQZzFrT1NXWUpLTUN6ck0yU0RJejgyZkRUbmUtaGdvR3pIQkpZT1hNcXlMRFBKWlRlUUc4MWtBTlJIR3VIdTRRaUU2ZncxQXJIOGhEdlYzMXFUMWRhWVBsdHMzN2ZWaDlZbHkwS0h4THNMXzZZQlh5bXdwaVRFbFhFWVRCQ0hMVGhBWElEdnpQUXdRblpVdTJ1aU1JTzZuOUFhWEE?oc=5",
+      "published": "2026-11-02T09:34:17+00:00",
+      "source": {
+        "name": "STERN.de",
+        "url": "https://www.stern.de"
+      }
+    },
+    {
+      "id": "e10b6e7284d3",
+      "title": "Impfangebot der Apotheken wird zunehmend bekannter - Ärzte Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWV9ZWHVzWk9TdXJQTnNHdUE3T3QwcjZOSGV2eGVyLV9lbVlsc1BKRS1QZmxMa2FGczZLQnI3a1BzeXkxUm9IaEk2NEgtbmhnWWJPakVWOGt4UEpTeklCNktSczhuWlpwX29UZUhlRUl0NjRqSXZ1WDlDakNpLUw0aUgxdTBhc1pwbEVaTlNDTGdqd3lJbko3dXNPQUtmMzBEQ0Q0YQ?oc=5",
+      "published": "2026-11-05T13:51:17+00:00",
       "source": {
         "name": "Ärzte Zeitung",
         "url": "https://www.aerztezeitung.de"
       }
     },
     {
-      "id": "784cf623bb11",
-      "title": "Medikamentenkosten laufen bei Volkskrankheiten aus dem Ruder - Nordkurier",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVWQxZllhVW5YeFM0TExULTVvWjdzOGZtaGJpN3JKTmNmMmxIS0hhOTZZOTZ0UURGdi1sRklRb1NRWXNPZV9aSzNmN0R1a29iNFhKVGRrd3dVUjVrVWFxeTFhSDhLTG9DQjVTN0ZqdExvdDlGSkFTRWYzcmFqcmZDNGFIRU9tZGZjYWQzRjdodEUxamptaDUwb0VPb3JQa0lvS0swbnMxN0x6Vkptbjk3dGFLV0NUQTUwbklnakpqZ3VmRkFm?oc=5",
-      "published": "2026-11-06T14:37:00+00:00",
+      "id": "cc493b336909",
+      "title": "Markt für Nahrungsergänzungsmittel boomt: Wo sie Sinn machen und wo nicht - Das sagen Experten! - MarktSpiegel",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeHNMaG5SallwSzJJZVJZOTg4N25Uam5QandXSzh2R1NtQTlSQXBIWFFVMnZIR3BLOUVJNnhDUmg2cTBDeTV1Y2RqU0tQMW1DWi0zQkZoMGViSjNIaVR2NmlIckphbHpad2dlU2lwRFRLYWtQTlk1cl9iS1JyckFBQnFQVjA5dk9qUzF4bnJKZzZmN3FwcTZkNDlzbXBWck1MYklyeWs5Zw?oc=5",
+      "published": "2026-11-03T09:20:30+00:00",
       "source": {
-        "name": "Nordkurier",
-        "url": "https://www.nordkurier.de"
-      }
-    },
-    {
-      "id": "9fa13ce5acf5",
-      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
-      "published": "2026-03-31T20:25:43+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "4e6d48112005",
-      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
-      "published": "2026-05-22T07:00:00+00:00",
-      "source": {
-        "name": "Bundesministerium für Gesundheit (BMG)",
-        "url": "https://www.bundesgesundheitsministerium.de"
-      }
-    },
-    {
-      "id": "2a4cd6eb6d1d",
-      "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
-      "published": "2026-03-31T07:00:00+00:00",
-      "source": {
-        "name": "European Parliament",
-        "url": "https://www.europarl.europa.eu"
+        "name": "MarktSpiegel",
+        "url": "https://www.marktspiegel.de"
       }
     },
     {
@@ -154,6 +124,16 @@
       }
     },
     {
+      "id": "c097e0f2ba84",
+      "title": "Entwicklungsvereinbarung: Fresenius baut Geschäft mit Nachahmermedikamenten aus - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMXBpNTQwT0VqbzR3WjJhSTRXalNkcTJjeWJnTVZRMUhJTTYxSThSZnhjTUFrT0tJTWc0Ylgtc1ZlU0d5cTNnMDZnVjEwa3ROQXhERG5uMGRrTGtnNE0yU3dfQVcyeFExejBmWnhQd0R4SEs0dmhXUGxET1RhSnFjZUVyMnc0aFg4OGRFVDk5eFhlQzBzeFV1NGY2dzUwRE00d0xvNmFleVRzSDg0by13NVdlV19OT2xSSjJYMjU1ZTdNOEJiTG5wUVIyektVcWVfeVYxUU5sMTgwdTJS?oc=5",
+      "published": "2026-11-02T06:48:00+00:00",
+      "source": {
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
+      }
+    },
+    {
       "id": "4cf41a2b052f",
       "title": "Bundesrats-Ausschuss: Länder melden Bedenken gegen Dispensierrecht an - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM3BXdTdxalJHLU95QWNYOG5VVzNiOEFXMmpJWVNlZ1BlMHdtREdUMmVIbVZ3V0xqNmtQV1JoWGI0LXVUM2xnMUo4T0JRa0dNYk0tbThVbWRuSEpGM1pwRm93ZDEtaUstWVNJNm9yVzUtZUR5UTJhOEJhNDd0VHZldHBoYnlFOFdUWHhYN2RrVTM4NnJvc2dXbk1CMA?oc=5",
@@ -164,23 +144,33 @@
       }
     },
     {
-      "id": "9f7c377ed6d2",
-      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
-      "published": "2026-04-16T07:55:26+00:00",
+      "id": "059d6d28dc47",
+      "title": "Sturzrisiko: Jeder Zweite über 80 betroffen - Kurier",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMVhIeGQ1aFVrbHRFMTVQQXhaSWhqbmk2QnRTTWJCU1hhcHJLcm40QU9vYUE2TmdwUnhDNDNJSnlFVlg5Wktzakd5NjhEajN2ei1WNzg1OUMyRzRnb2N2WjRjTlhleTg5Vm4zeW5YSnF5NUd0aEktWWFUODkzOWUxTkx2RVdDRGFHTkhOQkFWT1NrT25CRnpmaGVTYw?oc=5",
+      "published": "2026-11-02T09:45:00+00:00",
       "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
+        "name": "Kurier",
+        "url": "https://kurier.at"
       }
     },
     {
-      "id": "e10b6e7284d3",
-      "title": "Impfangebot der Apotheken wird zunehmend bekannter - Ärzte Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWV9ZWHVzWk9TdXJQTnNHdUE3T3QwcjZOSGV2eGVyLV9lbVlsc1BKRS1QZmxMa2FGczZLQnI3a1BzeXkxUm9IaEk2NEgtbmhnWWJPakVWOGt4UEpTeklCNktSczhuWlpwX29UZUhlRUl0NjRqSXZ1WDlDakNpLUw0aUgxdTBhc1pwbEVaTlNDTGdqd3lJbko3dXNPQUtmMzBEQ0Q0YQ?oc=5",
-      "published": "2026-11-05T13:51:17+00:00",
+      "id": "e84b15e587eb",
+      "title": "Forschung bei Stoelzle: Glas, das Gesundheit und Klima schützt - Kleine Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORUZMeFQxOHd2WTlhOXJjMXhkdGJYNVdvM21qbjFBX3lUelU4RU9MQVhaZUZaTnBzNFd0ZlJEOGxCVTVKSDV4b1dUcVZnR1BQMk1OVE5qTG1SUFYxLXVobnAtaTVDVTNLMUtwMmZuYW1OZG5OM0hPVC04X2NVYnJfU0Z5ck5IT1B0SEZyZGZJczNadXQyQ3RmeWJjRXFqWWZTV0FzUHBCX1pUeTQ?oc=5",
+      "published": "2026-11-05T09:39:48+00:00",
       "source": {
-        "name": "Ärzte Zeitung",
-        "url": "https://www.aerztezeitung.de"
+        "name": "Kleine Zeitung",
+        "url": "https://www.kleinezeitung.at"
+      }
+    },
+    {
+      "id": "8666593cd1fe",
+      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesgesundheitsministerium",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
+      "published": "2026-05-22T07:00:00+00:00",
+      "source": {
+        "name": "Bundesgesundheitsministerium",
+        "url": "https://www.bundesgesundheitsministerium.de"
       }
     },
     {
@@ -204,13 +194,43 @@
       }
     },
     {
-      "id": "c097e0f2ba84",
-      "title": "Entwicklungsvereinbarung: Fresenius baut Geschäft mit Nachahmermedikamenten aus - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMXBpNTQwT0VqbzR3WjJhSTRXalNkcTJjeWJnTVZRMUhJTTYxSThSZnhjTUFrT0tJTWc0Ylgtc1ZlU0d5cTNnMDZnVjEwa3ROQXhERG5uMGRrTGtnNE0yU3dfQVcyeFExejBmWnhQd0R4SEs0dmhXUGxET1RhSnFjZUVyMnc0aFg4OGRFVDk5eFhlQzBzeFV1NGY2dzUwRE00d0xvNmFleVRzSDg0by13NVdlV19OT2xSSjJYMjU1ZTdNOEJiTG5wUVIyektVcWVfeVYxUU5sMTgwdTJS?oc=5",
-      "published": "2026-11-02T06:48:00+00:00",
+      "id": "9bb975a5f582",
+      "title": "Vitamin D in Herbst und Winter: Wer braucht Tabletten und wie viel ist sinnvoll? - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVlk4TzU1RXY2bnBvTEp5SC0zZldYWXJLSlUyUG1oNFhKdmk5b2I0UjlaeU5tU1d0Q0w2VlZQVlllU2MtUlFxbVpHb2N2MWktOUxja2NFZVFBMXNfSk1DdGJrZnJpT2ZPZmxaWXZUQm1WWUhiQWN3cm81Y19HYi00ZnpJSjZCTDZyWkVBNllNQ0JobElpSDIwQ2FveHlENGN3ZzVxWmJ1RjBnOEhEal9XNG5xQXo?oc=5",
+      "published": "2026-10-30T07:00:00+00:00",
       "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "d17ec941210c",
+      "title": "Chronischer Schmerz: SemFYC fordert Bewegung statt Medikamente als erste Wahl - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUEIxQndyRXh3bjVzV2l3S0VwenBNN2IzR2NHVFlkaHlldEh5RW03ejlOZGZVLU9LdDZQaEI3Y3BYSFBzZFRETU5TbG9wVzQ3M3hNSVRIYUgwQlNXWm5iR0tfVExIbUVXd2VGdHJ5OUhmUzkwUDRLRHR5aXBuOXdQdWU3TGtLcVNlaEhPa2Uycy04X05iNDZRRlRzMXF3b1pHLU1TOFZhV3hnNF8taC1KMWtmdXMybFlrQ3RIR0tvRVY0Vmc?oc=5",
+      "published": "2026-11-06T19:39:19+00:00",
+      "source": {
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
+      "id": "9fa13ce5acf5",
+      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
+      "published": "2026-03-31T20:25:43+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "9f7c377ed6d2",
+      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
+      "published": "2026-04-16T07:55:26+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -224,16 +244,6 @@
       }
     },
     {
-      "id": "e84b15e587eb",
-      "title": "Forschung bei Stoelzle: Glas, das Gesundheit und Klima schützt - Kleine Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORUZMeFQxOHd2WTlhOXJjMXhkdGJYNVdvM21qbjFBX3lUelU4RU9MQVhaZUZaTnBzNFd0ZlJEOGxCVTVKSDV4b1dUcVZnR1BQMk1OVE5qTG1SUFYxLXVobnAtaTVDVTNLMUtwMmZuYW1OZG5OM0hPVC04X2NVYnJfU0Z5ck5IT1B0SEZyZGZJczNadXQyQ3RmeWJjRXFqWWZTV0FzUHBCX1pUeTQ?oc=5",
-      "published": "2026-11-05T09:39:48+00:00",
-      "source": {
-        "name": "Kleine Zeitung",
-        "url": "https://www.kleinezeitung.at"
-      }
-    },
-    {
       "id": "432315fa2251",
       "title": "Erstmals Medikament gegen Fettleber zugelassen - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQnhCQmdtRXhCd0ZKc1FDYzViaTZEblZ5TjJNWDBvZ3ptX2g0OENQemNDUk1sWGh5T1FrOEtvaGtSSDItcXlieVd0cDVfdDF0a2U3clFWSGlvd21wUWtwVzI4UEZIZ1BBUlVJSC16SExXaWFDTlF6YlNjMk96a2pEYnpVRm1rQQ?oc=5",
@@ -241,16 +251,6 @@
       "source": {
         "name": "tagesschau.de",
         "url": "https://www.tagesschau.de"
-      }
-    },
-    {
-      "id": "d17ec941210c",
-      "title": "Chronischer Schmerz: SemFYC fordert Bewegung statt Medikamente als erste Wahl - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUEIxQndyRXh3bjVzV2l3S0VwenBNN2IzR2NHVFlkaHlldEh5RW03ejlOZGZVLU9LdDZQaEI3Y3BYSFBzZFRETU5TbG9wVzQ3M3hNSVRIYUgwQlNXWm5iR0tfVExIbUVXd2VGdHJ5OUhmUzkwUDRLRHR5aXBuOXdQdWU3TGtLcVNlaEhPa2Uycy04X05iNDZRRlRzMXF3b1pHLU1TOFZhV3hnNF8taC1KMWtmdXMybFlrQ3RIR0tvRVY0Vmc?oc=5",
-      "published": "2026-11-06T19:39:19+00:00",
-      "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -274,16 +274,6 @@
       }
     },
     {
-      "id": "8a5dc46a4efd",
-      "title": "Erstattungsbetrag: Preisfestlegung für neue Medikamente - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUHN6Rk0zYW0xanpneTJrREhFdnJPVXFKckJsaHFBTWpYUElxdGN2ZUtydnkteHFHRHl2dERmeEVUMF8xUEh4Z3M4VEhJY0dfNDFpc0Vnc283akhUeTRkZEdSUzZxMjlmTmxBMmdMV2pKWi04UDZENVpvdjJPMXJxZEJ5SS13ZkZlSzVWODd0YjRPTjliYmttdXNUVkR6emgwU09xSQ?oc=5",
-      "published": "2025-02-22T04:19:00+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
       "id": "d46f6ce1c2b9",
       "title": "Ibuprofen, Aspirin und Co.: Schmerzmittel der Gruppe NSAR können Nebenwirkungen haben - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUmwyTW8wT3dfaXgyZ1VyaXFYUG1lWXY5VUZXZkkwWjd4STI2dWVSY1d3bVhub1NxRE9sNGt2bW83blh3T2hPRzlWcnVvUElQSmw4WE9KOHhscFdsSEE4TmF2cnhXaTktUWRfc3NQMnpoWmZDUXF5WWt6czNsbWdLQTRtVVJ3Mzdtb250RGVhbldmNUpVOTNDOTFhOWpldzV0MUlpVFdMRmpfOGM3WW5HbmRYaVJFT1ZzYUxn?oc=5",
@@ -291,6 +281,16 @@
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
+      }
+    },
+    {
+      "id": "8a5dc46a4efd",
+      "title": "Erstattungsbetrag: Preisfestlegung für neue Medikamente - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUHN6Rk0zYW0xanpneTJrREhFdnJPVXFKckJsaHFBTWpYUElxdGN2ZUtydnkteHFHRHl2dERmeEVUMF8xUEh4Z3M4VEhJY0dfNDFpc0Vnc283akhUeTRkZEdSUzZxMjlmTmxBMmdMV2pKWi04UDZENVpvdjJPMXJxZEJ5SS13ZkZlSzVWODd0YjRPTjliYmttdXNUVkR6emgwU09xSQ?oc=5",
+      "published": "2025-02-22T04:19:00+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
