@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-07T23:33:51.928601+00:00",
+  "fetched_at": "2026-11-08T04:57:17.701732+00:00",
   "source": "Google News Health RSS",
-  "count": 37,
+  "count": 36,
   "articles": [
     {
       "id": "aa6ba7bc2e7c",
@@ -44,16 +44,6 @@
       }
     },
     {
-      "id": "4aa530bee322",
-      "title": "Bundesregierung: 600 Arzneimittel 2026 von Lieferengpässen betroffen - EU-Schwerbehinderung",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSDRraG50dXdLT0JfSW9LZlFFMG1SZ2xRcko3bHlYUjRhREg3dnVUSTR1T3FZUmtLcU51clNmRUJ0cGFVaTlBSFkyZmxYQ2thV2dKVTFfeW1ERFR1MTZJUWNZQjhDbHZMRWQzVUhmOFBFUlZRMWhaVzE4eGN6aGlpaDg5blNzRGhVZlNWajEwdmhpeVlTSU81bEQ5N25IRmVTVVoyNlFReFpJQ2dSTFprNHJsUkNoNjg5Yll1X3dDdDR6SExMSUQzUDhDWFoydw?oc=5",
-      "published": "2026-11-07T03:40:00+00:00",
-      "source": {
-        "name": "EU-Schwerbehinderung",
-        "url": "https://www.eu-schwerbehinderung.eu"
-      }
-    },
-    {
       "id": "c16aef2e9212",
       "title": "Warum gibt es die Abnehmspritze nur für Privatpatienten? - Augsburger Allgemeine",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQRHViandLb21OclV1Y2xjSFpSQTg4ZlJueEdzaGpQdmh5TkJFRGdLYmRmQ3VQVXNNUElEbTFxOWt2Tm1ITjJ6NHdJM1NodzVIZUpLVDNxak8tVEoxdFJiMUlIMEFIMVRZUzN2OWhuUkU2MHMwWXdSdXVxTmpMSWJoUHk2T2xNZ1B5ZDdLRmNZbUhDV0lxMkJMellOeGhMQ2ZLMU85WlA0Mms1Um9xMmt0VU5VYlVUR05RQzU1cHF5QTNOaWNoelU5VzZqQVRiQzQ3MTNkYTN5cVRleExrM2c?oc=5",
@@ -64,43 +54,33 @@
       }
     },
     {
-      "id": "24af6cd23d3c",
-      "title": "Biologische Arzneimittel: Fresenius baut Geschäft mit Nachahmer-Medikamenten aus - STERN.de",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbEVmNlhlNGNDa2hhdXdyUzhkN0xXdi1uUmlCSnFfTjFtUHlyN0ZtWXM0V1pmeFBRalVvX0NmOWZYSEJQZzFrT1NXWUpLTUN6ck0yU0RJejgyZkRUbmUtaGdvR3pIQkpZT1hNcXlMRFBKWlRlUUc4MWtBTlJIR3VIdTRRaUU2ZncxQXJIOGhEdlYzMXFUMWRhWVBsdHMzN2ZWaDlZbHkwS0h4THNMXzZZQlh5bXdwaVRFbFhFWVRCQ0hMVGhBWElEdnpQUXdRblpVdTJ1aU1JTzZuOUFhWEE?oc=5",
-      "published": "2026-11-02T09:34:17+00:00",
+      "id": "17052c4630eb",
+      "title": "Reimann zur WIdO-Analyse: Entlastungen bei Arzneimittelausgaben dürfen nicht durch ... - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTRzF5aUhVNXJWNUNvdU5BZG40bmZKRUlaaHBWTTdUcVZ0VEN3bWJ0NUdGemFab0t4NV9jUUZPMlNZbm0tZmY1anE4emRxa3A2TlpTTkZB?oc=5",
+      "published": "2026-11-03T12:46:11+00:00",
       "source": {
-        "name": "STERN.de",
-        "url": "https://www.stern.de"
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
       }
     },
     {
-      "id": "e10b6e7284d3",
-      "title": "Impfangebot der Apotheken wird zunehmend bekannter - Ärzte Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWV9ZWHVzWk9TdXJQTnNHdUE3T3QwcjZOSGV2eGVyLV9lbVlsc1BKRS1QZmxMa2FGczZLQnI3a1BzeXkxUm9IaEk2NEgtbmhnWWJPakVWOGt4UEpTeklCNktSczhuWlpwX29UZUhlRUl0NjRqSXZ1WDlDakNpLUw0aUgxdTBhc1pwbEVaTlNDTGdqd3lJbko3dXNPQUtmMzBEQ0Q0YQ?oc=5",
-      "published": "2026-11-05T13:51:17+00:00",
+      "id": "4aa530bee322",
+      "title": "Bundesregierung: 600 Arzneimittel 2026 von Lieferengpässen betroffen - EU-Schwerbehinderung",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSDRraG50dXdLT0JfSW9LZlFFMG1SZ2xRcko3bHlYUjRhREg3dnVUSTR1T3FZUmtLcU51clNmRUJ0cGFVaTlBSFkyZmxYQ2thV2dKVTFfeW1ERFR1MTZJUWNZQjhDbHZMRWQzVUhmOFBFUlZRMWhaVzE4eGN6aGlpaDg5blNzRGhVZlNWajEwdmhpeVlTSU81bEQ5N25IRmVTVVoyNlFReFpJQ2dSTFprNHJsUkNoNjg5Yll1X3dDdDR6SExMSUQzUDhDWFoydw?oc=5",
+      "published": "2026-11-07T03:40:00+00:00",
       "source": {
-        "name": "Ärzte Zeitung",
-        "url": "https://www.aerztezeitung.de"
+        "name": "EU-Schwerbehinderung",
+        "url": "https://www.eu-schwerbehinderung.eu"
       }
     },
     {
-      "id": "8ed581a140cf",
-      "title": "Ein Medikament für die Tonne? Blister & Co. richtig entsorgen - oekotest.de",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRWF3MFc1OVVXMklkdUZpMkdybTk4aUIyVE82ZTI2YUtPTl95M2U3TjVIREEteXQ3clpXNV8xdldmODB1bmh3cE9kd2NOYS1keTNOSnU4OFhyMHFjRGYwek5ZQUZRdzMzOFEtNkNRVjR1Q3NYYzE3OXBiNFg1S3V1eWJsQ0dHdmJfYV9DTXI1bVJFdERmbWpmdGdZRVpucW9oV0hMM0RGWm5ySzFwbHRfUUplT0p1RFlGV0xz?oc=5",
-      "published": "2026-11-04T09:11:14+00:00",
+      "id": "bda234f578ee",
+      "title": "Blutdruck im Blick: Welche Werte als gut gelten – und was Sie selbst dafür tun können - oekotest.de",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSTBIQ2I1SXM5Z3VTMmhqWDRfSXZDUF9fUkcwZDJlbThoRTBzNmZTRzNDR1o3VjJIc2JYMDBDaGl0ZWh6OUY2N2JVRVVieUYzZTg1VjdVRzRoSHJSVTJRbXVIM2ZDXzE5QW5ReWJ2UTVZam9fVHB6MHdkcUZGeWdsbFVtMWpWVVRNSkJtejd3S0lsaExGZlMxVWNyYUpydVp3d3VqSjZiUnBMOUlUNWJsZmVLaGhONUFEZm9kMHlRTldxWVZWVHlWc2RtVmlWT216Y3lQcEFEQ2tzSHgzekE?oc=5",
+      "published": "2026-11-02T08:00:00+00:00",
       "source": {
         "name": "oekotest.de",
         "url": "https://www.oekotest.de"
-      }
-    },
-    {
-      "id": "87a662b7ddb7",
-      "title": "Mega-Deal in Bad Homburg: Das plant Fresenius - Hit Radio FFH",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc0hfWnZHbEw3WjZuXzg0YU96LXVOUjRvY1FnWnVGbEhSV0FYN09WTlpBaENKU2F0X2VVa2NjRndGTFZUd1I5dU5KLXBpR0xHa1IwVUpuWHc0elZwbmhmVkkxc1piNlNvdGFwTm04UWp0UTNvSEcwSFBfX0otZXhCVERwX1htNEF2b21zM3hyelcyUm1VVjEyVGpSWDZrMEZfRVZMeEd2TEFkQ1d5eUNnRUFfb2lmb0Ut?oc=5",
-      "published": "2026-11-02T09:26:29+00:00",
-      "source": {
-        "name": "Hit Radio FFH",
-        "url": "https://www.ffh.de"
       }
     },
     {
@@ -114,13 +94,13 @@
       }
     },
     {
-      "id": "4cf41a2b052f",
-      "title": "Bundesrats-Ausschuss: Länder melden Bedenken gegen Dispensierrecht an - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM3BXdTdxalJHLU95QWNYOG5VVzNiOEFXMmpJWVNlZ1BlMHdtREdUMmVIbVZ3V0xqNmtQV1JoWGI0LXVUM2xnMUo4T0JRa0dNYk0tbThVbWRuSEpGM1pwRm93ZDEtaUstWVNJNm9yVzUtZUR5UTJhOEJhNDd0VHZldHBoYnlFOFdUWHhYN2RrVTM4NnJvc2dXbk1CMA?oc=5",
-      "published": "2026-11-06T07:00:00+00:00",
+      "id": "6a3dd47d3689",
+      "title": "Statine absetzen: Neue Studie stellt bisherige Erkenntnisse infrage - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQldPUW4xODJYNWJUbDJjekVwY0RNRE43RW5lWjhWbC01ZUVnQW56cnlycGRrb2VQLTFIcUozN3JmZTB0d0ZxeFFnUzhPQlQtMlduRjZ2bUZNTkJmcmw0MlZhd1VZR19aT0ZFVXYtckhYRUdfOW9UTVNNeFF6aW1GNVREaVEzcklFVHh0Z2dmZ1Bfd2VtX2ZtbGdZc0ZtQzh1akdqSEJMMjdCS01SUzFV?oc=5",
+      "published": "2026-11-06T10:32:00+00:00",
       "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
       }
     },
     {
@@ -134,23 +114,13 @@
       }
     },
     {
-      "id": "6a3dd47d3689",
-      "title": "Statine absetzen: Neue Studie stellt bisherige Erkenntnisse infrage - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQldPUW4xODJYNWJUbDJjekVwY0RNRE43RW5lWjhWbC01ZUVnQW56cnlycGRrb2VQLTFIcUozN3JmZTB0d0ZxeFFnUzhPQlQtMlduRjZ2bUZNTkJmcmw0MlZhd1VZR19aT0ZFVXYtckhYRUdfOW9UTVNNeFF6aW1GNVREaVEzcklFVHh0Z2dmZ1Bfd2VtX2ZtbGdZc0ZtQzh1akdqSEJMMjdCS01SUzFV?oc=5",
-      "published": "2026-11-06T10:32:00+00:00",
+      "id": "4cf41a2b052f",
+      "title": "Bundesrats-Ausschuss: Länder melden Bedenken gegen Dispensierrecht an - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM3BXdTdxalJHLU95QWNYOG5VVzNiOEFXMmpJWVNlZ1BlMHdtREdUMmVIbVZ3V0xqNmtQV1JoWGI0LXVUM2xnMUo4T0JRa0dNYk0tbThVbWRuSEpGM1pwRm93ZDEtaUstWVNJNm9yVzUtZUR5UTJhOEJhNDd0VHZldHBoYnlFOFdUWHhYN2RrVTM4NnJvc2dXbk1CMA?oc=5",
+      "published": "2026-11-06T07:00:00+00:00",
       "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
-      }
-    },
-    {
-      "id": "c097e0f2ba84",
-      "title": "Entwicklungsvereinbarung: Fresenius baut Geschäft mit Nachahmermedikamenten aus - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMXBpNTQwT0VqbzR3WjJhSTRXalNkcTJjeWJnTVZRMUhJTTYxSThSZnhjTUFrT0tJTWc0Ylgtc1ZlU0d5cTNnMDZnVjEwa3ROQXhERG5uMGRrTGtnNE0yU3dfQVcyeFExejBmWnhQd0R4SEs0dmhXUGxET1RhSnFjZUVyMnc0aFg4OGRFVDk5eFhlQzBzeFV1NGY2dzUwRE00d0xvNmFleVRzSDg0by13NVdlV19OT2xSSjJYMjU1ZTdNOEJiTG5wUVIyektVcWVfeVYxUU5sMTgwdTJS?oc=5",
-      "published": "2026-11-02T06:48:00+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -164,13 +134,13 @@
       }
     },
     {
-      "id": "7b7a2be21301",
-      "title": "Novartis meldet zwei mögliche Tumorfälle nach Zolgensma - SuaraGarut.ID",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5la1RJSnB0SVd0WEVENnVqdUZKcGVGZ2lWb0RnekVTakdES2VjM01lWFIxTHFuY052TGJPclN5d09QU3EzUlNVYlhBZ3RnOFlGLUFITU8zTnUzNmpCdG51UFpFRk5paUxyZEVpNFhKY3BhRTJtbXc?oc=5",
-      "published": "2026-11-07T07:03:58+00:00",
+      "id": "8666593cd1fe",
+      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesgesundheitsministerium",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
+      "published": "2026-05-22T07:00:00+00:00",
       "source": {
-        "name": "SuaraGarut.ID",
-        "url": "https://suaragarut.id"
+        "name": "Bundesgesundheitsministerium",
+        "url": "https://www.bundesgesundheitsministerium.de"
       }
     },
     {
@@ -194,23 +164,13 @@
       }
     },
     {
-      "id": "9bb975a5f582",
-      "title": "Vitamin D in Herbst und Winter: Wer braucht Tabletten und wie viel ist sinnvoll? - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVlk4TzU1RXY2bnBvTEp5SC0zZldYWXJLSlUyUG1oNFhKdmk5b2I0UjlaeU5tU1d0Q0w2VlZQVlllU2MtUlFxbVpHb2N2MWktOUxja2NFZVFBMXNfSk1DdGJrZnJpT2ZPZmxaWXZUQm1WWUhiQWN3cm81Y19HYi00ZnpJSjZCTDZyWkVBNllNQ0JobElpSDIwQ2FveHlENGN3ZzVxWmJ1RjBnOEhEal9XNG5xQXo?oc=5",
-      "published": "2026-10-30T07:00:00+00:00",
+      "id": "d17ec941210c",
+      "title": "Chronischer Schmerz: SemFYC fordert Bewegung statt Medikamente als erste Wahl - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUEIxQndyRXh3bjVzV2l3S0VwenBNN2IzR2NHVFlkaHlldEh5RW03ejlOZGZVLU9LdDZQaEI3Y3BYSFBzZFRETU5TbG9wVzQ3M3hNSVRIYUgwQlNXWm5iR0tfVExIbUVXd2VGdHJ5OUhmUzkwUDRLRHR5aXBuOXdQdWU3TGtLcVNlaEhPa2Uycy04X05iNDZRRlRzMXF3b1pHLU1TOFZhV3hnNF8taC1KMWtmdXMybFlrQ3RIR0tvRVY0Vmc?oc=5",
+      "published": "2026-11-06T19:39:19+00:00",
       "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "8666593cd1fe",
-      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesgesundheitsministerium",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
-      "published": "2026-05-22T07:00:00+00:00",
-      "source": {
-        "name": "Bundesgesundheitsministerium",
-        "url": "https://www.bundesgesundheitsministerium.de"
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -221,6 +181,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "9bb975a5f582",
+      "title": "Vitamin D in Herbst und Winter: Wer braucht Tabletten und wie viel ist sinnvoll? - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVlk4TzU1RXY2bnBvTEp5SC0zZldYWXJLSlUyUG1oNFhKdmk5b2I0UjlaeU5tU1d0Q0w2VlZQVlllU2MtUlFxbVpHb2N2MWktOUxja2NFZVFBMXNfSk1DdGJrZnJpT2ZPZmxaWXZUQm1WWUhiQWN3cm81Y19HYi00ZnpJSjZCTDZyWkVBNllNQ0JobElpSDIwQ2FveHlENGN3ZzVxWmJ1RjBnOEhEal9XNG5xQXo?oc=5",
+      "published": "2026-10-30T07:00:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -254,16 +224,6 @@
       }
     },
     {
-      "id": "4fba0ba3e162",
-      "title": "Gesundheitsreform 2026/2027 - Techniker Krankenkasse",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUhpR0Y4Z19LRmRhS1BFMEF0aG10ZHZzOFNKMEJsdklnNjViR09CYmsxSGwxU3BfdWpTQy1XeXhOeWpiSDZqR0RQUkFsTFhlUUMydWIzeFNqNHlIWExJellKZ0h3ay1wdFdmc1pDeVZHQ3N0TEFtR2w5dkVVelJva3FudVlRaU1WQVdZV3RUNk9fZDRXSkYta0dZWVRkZlF5VXdmQVY5SHdmUQ?oc=5",
-      "published": "2026-11-02T08:00:00+00:00",
-      "source": {
-        "name": "Techniker Krankenkasse",
-        "url": "https://www.tk.de"
-      }
-    },
-    {
       "id": "cd91c5411083",
       "title": "Neue Arzneimittel bezahlbar halten - Verband der Ersatzkassen e. V.",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObzE3cHpIZEo2Q0VEc0xrTzlCRHFTbW1GZ1dpbXhiSk55cmZpVFZaN3dtSkhvc2dqYkx0ekRicVhHTHhWTzFsSFVKZlVJZG1EUXBxZGZCU0kycm5yaVczSThMRHA3YkRHN3dPYXl3UTNEU1RWamFXdDBrZ2tTWWhqNjBjQk43VGNhdEFhMXF6Nmx6WHdkXzhwY25kTzVCMmp5?oc=5",
@@ -274,13 +234,13 @@
       }
     },
     {
-      "id": "358d579ccbb7",
-      "title": "Corona 2026: Aktuelle Symptome und Varianten - was Betroffene wissen sollten - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY0dJZGIyTnVnalZ3eHBaNkEwcl8zOG54bUt1YW5iZlJCX1BlcHliWnliRzZtdFpiRDBpVzVCZzlQSURrWTYyeTcxZUZudlZkSW9nZEp3QWc0Q2h1VGRId2lxQlViR04wZFN4Z3FDeUV0LTBVWGdKQ2RGNFJIOFBNZmJJdUUtcUdCWlRLZDFOOEhweThkQU54aFBMcTJmU2M?oc=5",
-      "published": "2026-11-06T08:00:00+00:00",
+      "id": "4fba0ba3e162",
+      "title": "Gesundheitsreform 2026/2027 - Techniker Krankenkasse",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUhpR0Y4Z19LRmRhS1BFMEF0aG10ZHZzOFNKMEJsdklnNjViR09CYmsxSGwxU3BfdWpTQy1XeXhOeWpiSDZqR0RQUkFsTFhlUUMydWIzeFNqNHlIWExJellKZ0h3ay1wdFdmc1pDeVZHQ3N0TEFtR2w5dkVVelJva3FudVlRaU1WQVdZV3RUNk9fZDRXSkYta0dZWVRkZlF5VXdmQVY5SHdmUQ?oc=5",
+      "published": "2026-11-02T08:00:00+00:00",
       "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
+        "name": "Techniker Krankenkasse",
+        "url": "https://www.tk.de"
       }
     },
     {
@@ -294,10 +254,30 @@
       }
     },
     {
+      "id": "8a5dc46a4efd",
+      "title": "Erstattungsbetrag: Preisfestlegung für neue Medikamente - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUHN6Rk0zYW0xanpneTJrREhFdnJPVXFKckJsaHFBTWpYUElxdGN2ZUtydnkteHFHRHl2dERmeEVUMF8xUEh4Z3M4VEhJY0dfNDFpc0Vnc283akhUeTRkZEdSUzZxMjlmTmxBMmdMV2pKWi04UDZENVpvdjJPMXJxZEJ5SS13ZkZlSzVWODd0YjRPTjliYmttdXNUVkR6emgwU09xSQ?oc=5",
+      "published": "2025-02-22T04:19:00+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
       "id": "d46f6ce1c2b9",
       "title": "Ibuprofen, Aspirin und Co.: Schmerzmittel der Gruppe NSAR können Nebenwirkungen haben - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUmwyTW8wT3dfaXgyZ1VyaXFYUG1lWXY5VUZXZkkwWjd4STI2dWVSY1d3bVhub1NxRE9sNGt2bW83blh3T2hPRzlWcnVvUElQSmw4WE9KOHhscFdsSEE4TmF2cnhXaTktUWRfc3NQMnpoWmZDUXF5WWt6czNsbWdLQTRtVVJ3Mzdtb250RGVhbldmNUpVOTNDOTFhOWpldzV0MUlpVFdMRmpfOGM3WW5HbmRYaVJFT1ZzYUxn?oc=5",
       "published": "2025-09-23T07:00:00+00:00",
+      "source": {
+        "name": "NDR.de",
+        "url": "https://www.ndr.de"
+      }
+    },
+    {
+      "id": "358d579ccbb7",
+      "title": "Corona 2026: Aktuelle Symptome und Varianten - was Betroffene wissen sollten - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY0dJZGIyTnVnalZ3eHBaNkEwcl8zOG54bUt1YW5iZlJCX1BlcHliWnliRzZtdFpiRDBpVzVCZzlQSURrWTYyeTcxZUZudlZkSW9nZEp3QWc0Q2h1VGRId2lxQlViR04wZFN4Z3FDeUV0LTBVWGdKQ2RGNFJIOFBNZmJJdUUtcUdCWlRLZDFOOEhweThkQU54aFBMcTJmU2M?oc=5",
+      "published": "2026-11-06T08:00:00+00:00",
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
@@ -314,13 +294,13 @@
       }
     },
     {
-      "id": "8a5dc46a4efd",
-      "title": "Erstattungsbetrag: Preisfestlegung für neue Medikamente - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUHN6Rk0zYW0xanpneTJrREhFdnJPVXFKckJsaHFBTWpYUElxdGN2ZUtydnkteHFHRHl2dERmeEVUMF8xUEh4Z3M4VEhJY0dfNDFpc0Vnc283akhUeTRkZEdSUzZxMjlmTmxBMmdMV2pKWi04UDZENVpvdjJPMXJxZEJ5SS13ZkZlSzVWODd0YjRPTjliYmttdXNUVkR6emgwU09xSQ?oc=5",
-      "published": "2025-02-22T04:19:00+00:00",
+      "id": "95553e5f0104",
+      "title": "Gesundheit: Arzneimittel-Experten: Viagra weiter nicht ohne Rezept - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQU1lmNkktQnJXOUxNVk4tZFcwZUgwUmY5TmpzSWpCN2tKZ1lzN1pET01VRGhqWTZkR0xzZDJSRzBDdTVjdkpQVmMzdGE3dVRJNjdnZU83ZHluUVI1LVQ3Qm9NVGVLWDEwMmdGY0RRX21WellXXzRGUEhDbkc0Sk5kMm5zU3lFWjk4dW5uLTVyUU9pb0k?oc=5",
+      "published": "2023-07-11T07:00:00+00:00",
       "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
       }
     },
     {
@@ -334,6 +314,16 @@
       }
     },
     {
+      "id": "5d81cd09e3f7",
+      "title": "Gesundheit - Arzneimittel-Experten: Viagra weiter nicht ohne Rezept - Gesundheit - SZ.de - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWktNUkFDTmVsMmlKeW5kaDAzQjlZUDVuczZyeGo0WExZMTlIUWNzYzVOTllKeVRMZkpvLW9pbGFDRHJScks3dEVTd3BBRW9fWmJ0TFpxbm9SVm9RU2RYdEhHQ29FYmNEdUNuUDRzalRBWGdwNm1NU2J2cUJpRHR2T1hjYmllakVuMDctbkt5bkc3S1ZabGc3eWQ4RVJWS3k3bG96UVJXRFNYenhGSUhvZDhUMDR6Nm9aNmhiaF9DRHM4NnFRZ2IwbEQzNVhfWWpCUjZ2b05iSjUzdmR1SjVNTHMyekNxWk0?oc=5",
+      "published": "2023-07-11T07:00:00+00:00",
+      "source": {
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
+      }
+    },
+    {
       "id": "29039f0e1605",
       "title": "40 Prozent der Gesundheitskosten werden von den Bürgern getragen. - KOHA.net",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOajZtZTlCYVBORkdiV2NpWjBkNkw0bU9JX1lxTmFKblRnWGxwRXZsZ3BJWjdleHlEbmpueHpDVHQ4X2d5NDROd1haejdyNU5DdFZyS2hBUGFoQU5YZ1FqLUJrdGpMVU02X3J2S3psQjZ4YUZTQzFRUzJTUjgyaVhHRmx3dktFUXdQeUtQMTJlcXpTVDVoMGtv?oc=5",
@@ -341,16 +331,6 @@
       "source": {
         "name": "KOHA.net",
         "url": "https://www.koha.net"
-      }
-    },
-    {
-      "id": "95553e5f0104",
-      "title": "Gesundheit: Arzneimittel-Experten: Viagra weiter nicht ohne Rezept - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQU1lmNkktQnJXOUxNVk4tZFcwZUgwUmY5TmpzSWpCN2tKZ1lzN1pET01VRGhqWTZkR0xzZDJSRzBDdTVjdkpQVmMzdGE3dVRJNjdnZU83ZHluUVI1LVQ3Qm9NVGVLWDEwMmdGY0RRX21WellXXzRGUEhDbkc0Sk5kMm5zU3lFWjk4dW5uLTVyUU9pb0k?oc=5",
-      "published": "2023-07-11T07:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
       }
     },
     {
@@ -364,13 +344,23 @@
       }
     },
     {
-      "id": "d17ec941210c",
-      "title": "Chronischer Schmerz: SemFYC fordert Bewegung statt Medikamente als erste Wahl - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUEIxQndyRXh3bjVzV2l3S0VwenBNN2IzR2NHVFlkaHlldEh5RW03ejlOZGZVLU9LdDZQaEI3Y3BYSFBzZFRETU5TbG9wVzQ3M3hNSVRIYUgwQlNXWm5iR0tfVExIbUVXd2VGdHJ5OUhmUzkwUDRLRHR5aXBuOXdQdWU3TGtLcVNlaEhPa2Uycy04X05iNDZRRlRzMXF3b1pHLU1TOFZhV3hnNF8taC1KMWtmdXMybFlrQ3RIR0tvRVY0Vmc?oc=5",
-      "published": "2026-11-06T19:39:19+00:00",
+      "id": "602985cda9f2",
+      "title": "Gesundheit: Medikamente zur Rauchentwöhnung sind keine Kassenleistung - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORVp5QnRTQzJPTFRLNWJXWW5ocVVKVlZpck5ZZjVhVlU0MWswZ3J2d0loRURvaXM0a0FNZkRFNmtaUDVZdWdBeTFqR05HcHg5c1RveGd1SjBPU1J2b3B3NHQ4d0lqQ3l6ZDhzbWJoazlmQXhkNlAxUmRUcnFQRmI2czhDcFgtTTBuSlUzOXJRYXNXMnltdGYxUTkySHg1UmlXUXR2UnpyNlpEdjNMVXNaWUg1MW5iR3RIb0lteEtRNDlYQWdXWmdLZ1cwbUkxYlBiTVhhbw?oc=5",
+      "published": "2019-05-28T07:00:00+00:00",
       "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "7b7a2be21301",
+      "title": "Novartis meldet zwei mögliche Tumorfälle nach Zolgensma - SuaraGarut.ID",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5la1RJSnB0SVd0WEVENnVqdUZKcGVGZ2lWb0RnekVTakdES2VjM01lWFIxTHFuY052TGJPclN5d09QU3EzUlNVYlhBZ3RnOFlGLUFITU8zTnUzNmpCdG51UFpFRk5paUxyZEVpNFhKY3BhRTJtbXc?oc=5",
+      "published": "2026-11-07T07:03:58+00:00",
+      "source": {
+        "name": "SuaraGarut.ID",
+        "url": "https://suaragarut.id"
       }
     }
   ]
