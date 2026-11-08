@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-11-08T11:49:18.861608+00:00",
+  "fetched_at": "2026-11-08T17:43:44.266567+00:00",
   "source": "Google News Health RSS",
-  "count": 35,
+  "count": 33,
   "articles": [
+    {
+      "id": "aa6ba7bc2e7c",
+      "title": "BMG-Abteilungsleiter Müller: Weitere Einsparungen bei Arzneimitteln möglich - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMmNQaURqS2pETWxhb2dpRHRQMFBXRGE4b3dNOTRoVUktSGFHNVlvSnU2eXRkdVpqNzFLalN2amdQYk1MM1dZaS1NcGFqaGNCeHdldFZWRXdScVppN3NlZXoyZjZwdmZ2MTZxOTNjY0hROVZMNDdEcUNkdlQwb2tvMWMwdWkxNksxLTZPU1JDUTlCM19ZN0pENVNB?oc=5",
+      "published": "2026-11-05T15:00:50+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
     {
       "id": "ca85a24f5909",
       "title": "Verdacht auf Krebs bei Kindern durch Gentherapie - Gesundheit - SZ.de - SZ.de",
@@ -24,16 +34,6 @@
       }
     },
     {
-      "id": "c16aef2e9212",
-      "title": "Warum gibt es die Abnehmspritze nur für Privatpatienten? - Augsburger Allgemeine",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQRHViandLb21OclV1Y2xjSFpSQTg4ZlJueEdzaGpQdmh5TkJFRGdLYmRmQ3VQVXNNUElEbTFxOWt2Tm1ITjJ6NHdJM1NodzVIZUpLVDNxak8tVEoxdFJiMUlIMEFIMVRZUzN2OWhuUkU2MHMwWXdSdXVxTmpMSWJoUHk2T2xNZ1B5ZDdLRmNZbUhDV0lxMkJMellOeGhMQ2ZLMU85WlA0Mms1Um9xMmt0VU5VYlVUR05RQzU1cHF5QTNOaWNoelU5VzZqQVRiQzQ3MTNkYTN5cVRleExrM2c?oc=5",
-      "published": "2026-11-07T02:00:00+00:00",
-      "source": {
-        "name": "Augsburger Allgemeine",
-        "url": "https://www.augsburger-allgemeine.de"
-      }
-    },
-    {
       "id": "1cb238a2aa77",
       "title": "Gesundheit wird 2027 teurer: Diese Mehrkosten kommen auf Millionen Versicherte zu - DerWesten",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZS1tbXJ5VGhmb1pvT2s2NlJVOWsza0NEWTljbGt6bldreENERlJvTC13aEdLWW5DVVNFVE92bUNFcEp5NXBJbndneEJ5eGNTYXhENTBERDBZRzY5TkhWdHZ6eVN1eExUQ0FJSF9ZTjZGUVpJV3VRaGhYYmdRb3dfRzA1S09NVTRJWnl2YkhyNlhwVkFrN1hyam03bnVMTTVYTHBEUTF5MkF0WmRBdjNPR2ZuSGYtUQ?oc=5",
@@ -44,13 +44,23 @@
       }
     },
     {
-      "id": "4cf41a2b052f",
-      "title": "Bundesrats-Ausschuss: Länder melden Bedenken gegen Dispensierrecht an - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM3BXdTdxalJHLU95QWNYOG5VVzNiOEFXMmpJWVNlZ1BlMHdtREdUMmVIbVZ3V0xqNmtQV1JoWGI0LXVUM2xnMUo4T0JRa0dNYk0tbThVbWRuSEpGM1pwRm93ZDEtaUstWVNJNm9yVzUtZUR5UTJhOEJhNDd0VHZldHBoYnlFOFdUWHhYN2RrVTM4NnJvc2dXbk1CMA?oc=5",
-      "published": "2026-11-06T07:00:00+00:00",
+      "id": "c16aef2e9212",
+      "title": "Warum gibt es die Abnehmspritze nur für Privatpatienten? - Augsburger Allgemeine",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQRHViandLb21OclV1Y2xjSFpSQTg4ZlJueEdzaGpQdmh5TkJFRGdLYmRmQ3VQVXNNUElEbTFxOWt2Tm1ITjJ6NHdJM1NodzVIZUpLVDNxak8tVEoxdFJiMUlIMEFIMVRZUzN2OWhuUkU2MHMwWXdSdXVxTmpMSWJoUHk2T2xNZ1B5ZDdLRmNZbUhDV0lxMkJMellOeGhMQ2ZLMU85WlA0Mms1Um9xMmt0VU5VYlVUR05RQzU1cHF5QTNOaWNoelU5VzZqQVRiQzQ3MTNkYTN5cVRleExrM2c?oc=5",
+      "published": "2026-11-07T02:00:00+00:00",
       "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
+        "name": "Augsburger Allgemeine",
+        "url": "https://www.augsburger-allgemeine.de"
+      }
+    },
+    {
+      "id": "e04be0827435",
+      "title": "Ausgaben für Arzneimittel treiben Kosten für Krankenkassen - Freie Presse",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMXhRRjJDdGJGQjViN3ZfaWZjWVdrdTJBMjg3czZISUVPV3dBbDk2NGRkdWlGbUc0SEhIYkVyQVpPZm1feERKSXd3aE5taGw5cmtqeDJ1Q21RQTlsN0dkWGszQktjY0pWREFnVFo0OHNwSmFCbF9iVXhtYzMyLURLdG1MQjItV3dYOGpiRTlQZ0NKV1hGbE1xaWJWTEVUejVTTktYc2VfWmlnV2UxR0VSNk9Ibno1cmVmdVR5eWFIVUM?oc=5",
+      "published": "2026-11-04T08:15:00+00:00",
+      "source": {
+        "name": "Freie Presse",
+        "url": "https://www.freiepresse.de"
       }
     },
     {
@@ -94,16 +104,6 @@
       }
     },
     {
-      "id": "4aa530bee322",
-      "title": "Bundesregierung: 600 Arzneimittel 2026 von Lieferengpässen betroffen - EU-Schwerbehinderung",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSDRraG50dXdLT0JfSW9LZlFFMG1SZ2xRcko3bHlYUjRhREg3dnVUSTR1T3FZUmtLcU51clNmRUJ0cGFVaTlBSFkyZmxYQ2thV2dKVTFfeW1ERFR1MTZJUWNZQjhDbHZMRWQzVUhmOFBFUlZRMWhaVzE4eGN6aGlpaDg5blNzRGhVZlNWajEwdmhpeVlTSU81bEQ5N25IRmVTVVoyNlFReFpJQ2dSTFprNHJsUkNoNjg5Yll1X3dDdDR6SExMSUQzUDhDWFoydw?oc=5",
-      "published": "2026-11-07T03:40:00+00:00",
-      "source": {
-        "name": "EU-Schwerbehinderung",
-        "url": "https://www.eu-schwerbehinderung.eu"
-      }
-    },
-    {
       "id": "2a4cd6eb6d1d",
       "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
@@ -124,16 +124,6 @@
       }
     },
     {
-      "id": "cc493b336909",
-      "title": "Markt für Nahrungsergänzungsmittel boomt: Wo sie Sinn machen und wo nicht - Das sagen Experten! - MarktSpiegel",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeHNMaG5SallwSzJJZVJZOTg4N25Uam5QandXSzh2R1NtQTlSQXBIWFFVMnZIR3BLOUVJNnhDUmg2cTBDeTV1Y2RqU0tQMW1DWi0zQkZoMGViSjNIaVR2NmlIckphbHpad2dlU2lwRFRLYWtQTlk1cl9iS1JyckFBQnFQVjA5dk9qUzF4bnJKZzZmN3FwcTZkNDlzbXBWck1MYklyeWs5Zw?oc=5",
-      "published": "2026-11-03T09:20:30+00:00",
-      "source": {
-        "name": "MarktSpiegel",
-        "url": "https://www.marktspiegel.de"
-      }
-    },
-    {
       "id": "6a3dd47d3689",
       "title": "Statine absetzen: Neue Studie stellt bisherige Erkenntnisse infrage - Berliner Morgenpost",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQldPUW4xODJYNWJUbDJjekVwY0RNRE43RW5lWjhWbC01ZUVnQW56cnlycGRrb2VQLTFIcUozN3JmZTB0d0ZxeFFnUzhPQlQtMlduRjZ2bUZNTkJmcmw0MlZhd1VZR19aT0ZFVXYtckhYRUdfOW9UTVNNeFF6aW1GNVREaVEzcklFVHh0Z2dmZ1Bfd2VtX2ZtbGdZc0ZtQzh1akdqSEJMMjdCS01SUzFV?oc=5",
@@ -144,13 +134,13 @@
       }
     },
     {
-      "id": "106113902e27",
-      "title": "Prädiabetes: Abnehmspritzen mit 31 Prozent geringerem Diabetesrisiko verbunden - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNm5fTFhZZmRSM2VWTVRfT0xJcXJQNTV0SUFHSjhJSXktUUVCR3pPUkJyWld0N3Vzdkk3eXFSZ24wek1IcnE3bG45VUFvc09JZkkxUlRDeV9UY1g5X2JDejhQSlY2QTNBVjlLOWV2anpLbUY1UWxJQWJyNWkwbjQ2QktESDN1dG1Nb1lvbWJCNEtGeE5kak45SlVqTEZpTzRGWl8wNlI0cjl5WHFFdHR3MHVhR1g?oc=5",
-      "published": "2026-11-04T11:40:49+00:00",
+      "id": "4cf41a2b052f",
+      "title": "Bundesrats-Ausschuss: Länder melden Bedenken gegen Dispensierrecht an - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM3BXdTdxalJHLU95QWNYOG5VVzNiOEFXMmpJWVNlZ1BlMHdtREdUMmVIbVZ3V0xqNmtQV1JoWGI0LXVUM2xnMUo4T0JRa0dNYk0tbThVbWRuSEpGM1pwRm93ZDEtaUstWVNJNm9yVzUtZUR5UTJhOEJhNDd0VHZldHBoYnlFOFdUWHhYN2RrVTM4NnJvc2dXbk1CMA?oc=5",
+      "published": "2026-11-06T07:00:00+00:00",
       "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -184,6 +174,16 @@
       }
     },
     {
+      "id": "ccd1bd1f0014",
+      "title": "Typ-2-Diabetes: Lebensstilprogramm führte bei jedem Zweiten zur Remission - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZDBUZHZmcE84T3JsT0J5Ri1wcDE0c18tN1k1UnZ3T3hrZ3dfVEtvd1NJUkFlaUUtbGVsYnUwS3o2a3daZF9mTFNBMlBlRlI5V2lIZ21TU29kS21WcWZvbmtxUGw0bHlGUFRMTEtYUlhRT1pHTEFtSmhWMl9kbGdpT3FkZW83UXN3UkdLUlUybDN6OEZEY1dOMW5EUjk4eG5ZTGxzLVVNOWtmcld1MWc?oc=5",
+      "published": "2026-11-02T13:43:16+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
       "id": "e84b15e587eb",
       "title": "Forschung bei Stoelzle: Glas, das Gesundheit und Klima schützt - Kleine Zeitung",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORUZMeFQxOHd2WTlhOXJjMXhkdGJYNVdvM21qbjFBX3lUelU4RU9MQVhaZUZaTnBzNFd0ZlJEOGxCVTVKSDV4b1dUcVZnR1BQMk1OVE5qTG1SUFYxLXVobnAtaTVDVTNLMUtwMmZuYW1OZG5OM0hPVC04X2NVYnJfU0Z5ck5IT1B0SEZyZGZJczNadXQyQ3RmeWJjRXFqWWZTV0FzUHBCX1pUeTQ?oc=5",
@@ -194,10 +194,10 @@
       }
     },
     {
-      "id": "ccd1bd1f0014",
-      "title": "Typ-2-Diabetes: Lebensstilprogramm führte bei jedem Zweiten zur Remission - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZDBUZHZmcE84T3JsT0J5Ri1wcDE0c18tN1k1UnZ3T3hrZ3dfVEtvd1NJUkFlaUUtbGVsYnUwS3o2a3daZF9mTFNBMlBlRlI5V2lIZ21TU29kS21WcWZvbmtxUGw0bHlGUFRMTEtYUlhRT1pHTEFtSmhWMl9kbGdpT3FkZW83UXN3UkdLUlUybDN6OEZEY1dOMW5EUjk4eG5ZTGxzLVVNOWtmcld1MWc?oc=5",
-      "published": "2026-11-02T13:43:16+00:00",
+      "id": "9bb975a5f582",
+      "title": "Vitamin D in Herbst und Winter: Wer braucht Tabletten und wie viel ist sinnvoll? - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVlk4TzU1RXY2bnBvTEp5SC0zZldYWXJLSlUyUG1oNFhKdmk5b2I0UjlaeU5tU1d0Q0w2VlZQVlllU2MtUlFxbVpHb2N2MWktOUxja2NFZVFBMXNfSk1DdGJrZnJpT2ZPZmxaWXZUQm1WWUhiQWN3cm81Y19HYi00ZnpJSjZCTDZyWkVBNllNQ0JobElpSDIwQ2FveHlENGN3ZzVxWmJ1RjBnOEhEal9XNG5xQXo?oc=5",
+      "published": "2026-10-30T07:00:00+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
@@ -224,13 +224,13 @@
       }
     },
     {
-      "id": "d17ec941210c",
-      "title": "Chronischer Schmerz: SemFYC fordert Bewegung statt Medikamente als erste Wahl - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUEIxQndyRXh3bjVzV2l3S0VwenBNN2IzR2NHVFlkaHlldEh5RW03ejlOZGZVLU9LdDZQaEI3Y3BYSFBzZFRETU5TbG9wVzQ3M3hNSVRIYUgwQlNXWm5iR0tfVExIbUVXd2VGdHJ5OUhmUzkwUDRLRHR5aXBuOXdQdWU3TGtLcVNlaEhPa2Uycy04X05iNDZRRlRzMXF3b1pHLU1TOFZhV3hnNF8taC1KMWtmdXMybFlrQ3RIR0tvRVY0Vmc?oc=5",
-      "published": "2026-11-06T19:39:19+00:00",
+      "id": "e4f7e8c57817",
+      "title": "Wie läuft die Zulassung von Arzneimitteln ab? - Stiftung Gesundheitswissen",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQc0lKcG51SV96LVpuemVlZ3p2LU1Ubjg1Q2M0VjJMa3pfRGNWM3VKemVDZG9mWm1uY0NlbkZmVDc4QWVad0VIYVAzOGxrY3ZvX1ZnSHB5QXZFYU4tNTAxa0g3N1BxbTljY3hTSVZQZE1GUFNsVF9LNUNfdk5aZGFucjBPWnZ5TGtZazdZQ3NQeEZFMXpBem9Tenh2NUtrWGlp?oc=5",
+      "published": "2025-03-24T13:27:32+00:00",
       "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
+        "name": "Stiftung Gesundheitswissen",
+        "url": "https://www.stiftung-gesundheitswissen.de"
       }
     },
     {
@@ -244,26 +244,6 @@
       }
     },
     {
-      "id": "e4f7e8c57817",
-      "title": "Wie läuft die Zulassung von Arzneimitteln ab? - Stiftung Gesundheitswissen",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQc0lKcG51SV96LVpuemVlZ3p2LU1Ubjg1Q2M0VjJMa3pfRGNWM3VKemVDZG9mWm1uY0NlbkZmVDc4QWVad0VIYVAzOGxrY3ZvX1ZnSHB5QXZFYU4tNTAxa0g3N1BxbTljY3hTSVZQZE1GUFNsVF9LNUNfdk5aZGFucjBPWnZ5TGtZazdZQ3NQeEZFMXpBem9Tenh2NUtrWGlp?oc=5",
-      "published": "2025-03-24T13:27:32+00:00",
-      "source": {
-        "name": "Stiftung Gesundheitswissen",
-        "url": "https://www.stiftung-gesundheitswissen.de"
-      }
-    },
-    {
-      "id": "8a5dc46a4efd",
-      "title": "Erstattungsbetrag: Preisfestlegung für neue Medikamente - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUHN6Rk0zYW0xanpneTJrREhFdnJPVXFKckJsaHFBTWpYUElxdGN2ZUtydnkteHFHRHl2dERmeEVUMF8xUEh4Z3M4VEhJY0dfNDFpc0Vnc283akhUeTRkZEdSUzZxMjlmTmxBMmdMV2pKWi04UDZENVpvdjJPMXJxZEJ5SS13ZkZlSzVWODd0YjRPTjliYmttdXNUVkR6emgwU09xSQ?oc=5",
-      "published": "2025-02-22T04:19:00+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
       "id": "d46f6ce1c2b9",
       "title": "Ibuprofen, Aspirin und Co.: Schmerzmittel der Gruppe NSAR können Nebenwirkungen haben - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUmwyTW8wT3dfaXgyZ1VyaXFYUG1lWXY5VUZXZkkwWjd4STI2dWVSY1d3bVhub1NxRE9sNGt2bW83blh3T2hPRzlWcnVvUElQSmw4WE9KOHhscFdsSEE4TmF2cnhXaTktUWRfc3NQMnpoWmZDUXF5WWt6czNsbWdLQTRtVVJ3Mzdtb250RGVhbldmNUpVOTNDOTFhOWpldzV0MUlpVFdMRmpfOGM3WW5HbmRYaVJFT1ZzYUxn?oc=5",
@@ -274,13 +254,13 @@
       }
     },
     {
-      "id": "358d579ccbb7",
-      "title": "Corona 2026: Aktuelle Symptome und Varianten - was Betroffene wissen sollten - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY0dJZGIyTnVnalZ3eHBaNkEwcl8zOG54bUt1YW5iZlJCX1BlcHliWnliRzZtdFpiRDBpVzVCZzlQSURrWTYyeTcxZUZudlZkSW9nZEp3QWc0Q2h1VGRId2lxQlViR04wZFN4Z3FDeUV0LTBVWGdKQ2RGNFJIOFBNZmJJdUUtcUdCWlRLZDFOOEhweThkQU54aFBMcTJmU2M?oc=5",
-      "published": "2026-11-06T08:00:00+00:00",
+      "id": "8a5dc46a4efd",
+      "title": "Erstattungsbetrag: Preisfestlegung für neue Medikamente - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUHN6Rk0zYW0xanpneTJrREhFdnJPVXFKckJsaHFBTWpYUElxdGN2ZUtydnkteHFHRHl2dERmeEVUMF8xUEh4Z3M4VEhJY0dfNDFpc0Vnc283akhUeTRkZEdSUzZxMjlmTmxBMmdMV2pKWi04UDZENVpvdjJPMXJxZEJ5SS13ZkZlSzVWODd0YjRPTjliYmttdXNUVkR6emgwU09xSQ?oc=5",
+      "published": "2025-02-22T04:19:00+00:00",
       "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -314,16 +294,6 @@
       }
     },
     {
-      "id": "5e5edb469ce8",
-      "title": "Alte Medikamente entsorgen: Warum Toilette und Spüle immer tabu sind - 24vita.de",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMU9LUXRMdWloWEZjXzBnSWdrdGFzbWVwZWVTUTk5bzdVODdSRHNxbE9kWlE2T2RhZGVZV3VLSEVKUG4weHk1eU9ZWVRtVjdQQ3pPV1BSbkRvWkJMQzJUQm9UcVR5M3c4LVhUblZDazhrRTdyNFhod1piWTBNdmk2ZzJiTXByUDhib0xXVF94WFpTVEYwZ01kakpJTTVyQUoyRlVCNmFCcjdFbGJBZXNiU3JzaDBWUQ?oc=5",
-      "published": "2026-11-07T08:46:00+00:00",
-      "source": {
-        "name": "24vita.de",
-        "url": "https://www.24vita.de"
-      }
-    },
-    {
       "id": "112bb805d0bc",
       "title": "Gesundheit: Arzneimittel Roactemra erhält EU-Zulassung bei Covid-19 - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVnhLZzlVX2gyNUNFTjJhdnZpVGFyM2tRRVdQR3RnMDV4U0lxUkNRdl9VRmMtN2xKbm9ZWTQ5OFlYOVQtRm8yT2xZb2dNcDVQaFV4eHBuVFZBa19pU0NqSERvUUYtaVRyMElkMHRRT0RjZGVrMUtZb3lCdkFFcDgxbkVzZ3JYWlZzeEdHLWFuQlZpbl9VUWZB?oc=5",
@@ -331,6 +301,16 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "0635d82b6e9a",
+      "title": "„Wick MediNait“: Pharmakologe warnt vor diesen Nebenwirkungen - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOX25Bd0gwR1NiQnF0Z3I3N2ZycVVLcUNfR192bmo3aHJfb01oNFVXdTU3QjhnVl9mQ2hjdFhNSEd4dENIWklsYkJZdHJpVVo0eUFJOE9iLTZnM1RMajlLY0FURW5YLXd2UGFEd2dYUUNiMWNBbFgyWFh6UHR1Y2pEc0ZfcXItTEVxMWJfTjFvV2Q4NU9kRWpj?oc=5",
+      "published": "2026-10-29T07:00:00+00:00",
+      "source": {
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
       }
     },
     {
