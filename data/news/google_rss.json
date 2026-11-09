@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-08T21:47:26.428027+00:00",
+  "fetched_at": "2026-11-09T01:29:16.840684+00:00",
   "source": "Google News Health RSS",
-  "count": 34,
+  "count": 33,
   "articles": [
     {
       "id": "aa6ba7bc2e7c",
@@ -64,6 +64,16 @@
       }
     },
     {
+      "id": "9fa13ce5acf5",
+      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
+      "published": "2026-03-31T20:25:43+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
       "id": "4e6d48112005",
       "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
@@ -71,26 +81,6 @@
       "source": {
         "name": "Bundesministerium für Gesundheit (BMG)",
         "url": "https://www.bundesgesundheitsministerium.de"
-      }
-    },
-    {
-      "id": "9f7c377ed6d2",
-      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
-      "published": "2026-04-16T07:55:26+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "17052c4630eb",
-      "title": "Reimann zur WIdO-Analyse: Entlastungen bei Arzneimittelausgaben dürfen nicht durch ... - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTRzF5aUhVNXJWNUNvdU5BZG40bmZKRUlaaHBWTTdUcVZ0VEN3bWJ0NUdGemFab0t4NV9jUUZPMlNZbm0tZmY1anE4emRxa3A2TlpTTkZB?oc=5",
-      "published": "2026-11-03T12:46:11+00:00",
-      "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
       }
     },
     {
@@ -174,10 +164,10 @@
       }
     },
     {
-      "id": "9fa13ce5acf5",
-      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
-      "published": "2026-03-31T20:25:43+00:00",
+      "id": "9f7c377ed6d2",
+      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
+      "published": "2026-04-16T07:55:26+00:00",
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
@@ -194,16 +184,6 @@
       }
     },
     {
-      "id": "9bb975a5f582",
-      "title": "Vitamin D in Herbst und Winter: Wer braucht Tabletten und wie viel ist sinnvoll? - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVlk4TzU1RXY2bnBvTEp5SC0zZldYWXJLSlUyUG1oNFhKdmk5b2I0UjlaeU5tU1d0Q0w2VlZQVlllU2MtUlFxbVpHb2N2MWktOUxja2NFZVFBMXNfSk1DdGJrZnJpT2ZPZmxaWXZUQm1WWUhiQWN3cm81Y19HYi00ZnpJSjZCTDZyWkVBNllNQ0JobElpSDIwQ2FveHlENGN3ZzVxWmJ1RjBnOEhEal9XNG5xQXo?oc=5",
-      "published": "2026-10-30T07:00:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
       "id": "e84b15e587eb",
       "title": "Forschung bei Stoelzle: Glas, das Gesundheit und Klima schützt - Kleine Zeitung",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORUZMeFQxOHd2WTlhOXJjMXhkdGJYNVdvM21qbjFBX3lUelU4RU9MQVhaZUZaTnBzNFd0ZlJEOGxCVTVKSDV4b1dUcVZnR1BQMk1OVE5qTG1SUFYxLXVobnAtaTVDVTNLMUtwMmZuYW1OZG5OM0hPVC04X2NVYnJfU0Z5ck5IT1B0SEZyZGZJczNadXQyQ3RmeWJjRXFqWWZTV0FzUHBCX1pUeTQ?oc=5",
@@ -211,6 +191,16 @@
       "source": {
         "name": "Kleine Zeitung",
         "url": "https://www.kleinezeitung.at"
+      }
+    },
+    {
+      "id": "9bb975a5f582",
+      "title": "Vitamin D in Herbst und Winter: Wer braucht Tabletten und wie viel ist sinnvoll? - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVlk4TzU1RXY2bnBvTEp5SC0zZldYWXJLSlUyUG1oNFhKdmk5b2I0UjlaeU5tU1d0Q0w2VlZQVlllU2MtUlFxbVpHb2N2MWktOUxja2NFZVFBMXNfSk1DdGJrZnJpT2ZPZmxaWXZUQm1WWUhiQWN3cm81Y19HYi00ZnpJSjZCTDZyWkVBNllNQ0JobElpSDIwQ2FveHlENGN3ZzVxWmJ1RjBnOEhEal9XNG5xQXo?oc=5",
+      "published": "2026-10-30T07:00:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
