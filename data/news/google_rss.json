@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-11-09T01:29:16.840684+00:00",
+  "fetched_at": "2026-11-09T09:18:59.925924+00:00",
   "source": "Google News Health RSS",
-  "count": 33,
+  "count": 31,
   "articles": [
+    {
+      "id": "68714d89b623",
+      "title": "Süßstoffe und Medikamente: Diese Kombination verändert Darmbakterien - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdUZPQWxqS1RvcXdPcDBPOHh4SnU2aU5kZk9wRFZvR0U0LTM3R29BQV8zVkV2WFctNkdWYlBES3NBOGU2RFhBZHcxQjB1V3V0Z0k4ZGRpZ0haeW5TTXE1clFTNjRpQzNkUUk4eFJMZzJiaXBtamhrTlVfdGtVcXJwWi01VDdMdDhDR0kxYUJ5OWVqYkxoWXpfemZpTWtXaF8wV0VtT0xUMlNSZw?oc=5",
+      "published": "2026-11-09T07:51:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
     {
       "id": "aa6ba7bc2e7c",
       "title": "BMG-Abteilungsleiter Müller: Weitere Einsparungen bei Arzneimitteln möglich - Pharmazeutische Zeitung",
@@ -14,6 +24,26 @@
       }
     },
     {
+      "id": "02786da0b432",
+      "title": "Wie Spinat und Grapefruit Medikamente stören - Weser Kurier",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeGlmcERnT2VuQU1Hb19KV1JrM2U3MGw3ZGdHUUxQOE5FZzJBUjBvYUtCbGprd3JfcDUwd0dpMGYtMElxWFFycUd5RzdwSk5IUWNnSWpCLXR2cUZZR3RzbDlIcEhiUnV6U2luS3BFVVJMbDZTalV2X1RnV0Z0MXNoczB4a0xEaGNhWEhjaDFNNG5hT09TN3hVVWJrUTVjQzdHOWM0ajIxNG8?oc=5",
+      "published": "2026-11-09T04:00:00+00:00",
+      "source": {
+        "name": "Weser Kurier",
+        "url": "https://www.weser-kurier.de"
+      }
+    },
+    {
+      "id": "432a5a28a08d",
+      "title": "Medikamente aus der Krankenversicherung näher an die Patienten bringen. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE00SndQVEdReFg3eUZsVERzekRmdjRxRnByc2k0eEhhNXV0UE1xVW5ra1Y0WmZDdXpDbG5zSmhLWTNzNjJkS0NKY1FxdFpKSzlhYzdGU1VwMEQzRGh1b09mYl9IWUNVUnZ0dWFZUXNTb25mWmxnN3F2ZlhONXY?oc=5",
+      "published": "2026-11-09T02:42:20+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "ca85a24f5909",
       "title": "Verdacht auf Krebs bei Kindern durch Gentherapie - Gesundheit - SZ.de - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQm1McTAxeHBGNWM5VHp2ZjQxdU1RZ3d0emh6WjYzRlVEb05wX3N6cnE3ekMzUExRdVlMcUhMT3hHY0JEZGxCRkplU3piQjl5U2JwZ2NhSnZRa0ZRekVhbzhYSjhKUTliX1h1Ni1rUWtpbzJPSldlQjUxUnNyTDlSbkF1QlNkM3JldkJUbmR4UDZXQQ?oc=5",
@@ -21,16 +51,6 @@
       "source": {
         "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
-      "id": "dcaad85fadfe",
-      "title": "Wer im Alter mehr Schritte macht, hat offenbar geringere Gesundheitskosten - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR0s2TFF2VDhfT0tqNGJlclJXc3pUd0FWQW9qQW9CQ0lvY0IyYkJzZDdzbFZITVJyT3lHSGVTZFdqYkdfMFFWN08ycDhaQ2tUNk5ZOTZLVzhiYjZpbG13VWtVNzQ3U3ZFUFhJX1pPOWJ2OENyWEN3WGV4NUtOMHNhcnNNYlZ2R0l3bjNkenptZWE1bk1KOTNRQnFIREZOdm1rY1JVQjZvd1FDUHg5aWc?oc=5",
-      "published": "2026-11-06T08:26:04+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
       }
     },
     {
@@ -54,6 +74,16 @@
       }
     },
     {
+      "id": "9f001f4a2702",
+      "title": "Mein liebes Tagebuch - Deutsche Apotheker Zeitung, DAZ",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYXBNaGtmYWF0V1kydW1EbTdENzFZMGl0dXlXMWJ6OFRoZnJZemJXSm1IRGN1OGE2ZEhKM0drVUtRTjlqQ0laU1JCbFhTMlphS0xxZlZ0TkM0VnIxN0NsSG5vZ1RzaTNuc28zUms4ZU1kQ1hHYWlIRTlST0VlWXVSTkJYdk9NdVl0SzlVVEpjVGhBdW1L?oc=5",
+      "published": "2026-11-07T20:30:00+00:00",
+      "source": {
+        "name": "Deutsche Apotheker Zeitung, DAZ",
+        "url": "https://www.deutsche-apotheker-zeitung.de"
+      }
+    },
+    {
       "id": "e04be0827435",
       "title": "Ausgaben für Arzneimittel treiben Kosten für Krankenkassen - Freie Presse",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMXhRRjJDdGJGQjViN3ZfaWZjWVdrdTJBMjg3czZISUVPV3dBbDk2NGRkdWlGbUc0SEhIYkVyQVpPZm1feERKSXd3aE5taGw5cmtqeDJ1Q21RQTlsN0dkWGszQktjY0pWREFnVFo0OHNwSmFCbF9iVXhtYzMyLURLdG1MQjItV3dYOGpiRTlQZ0NKV1hGbE1xaWJWTEVUejVTTktYc2VfWmlnV2UxR0VSNk9Ibno1cmVmdVR5eWFIVUM?oc=5",
@@ -64,33 +94,13 @@
       }
     },
     {
-      "id": "9fa13ce5acf5",
-      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
-      "published": "2026-03-31T20:25:43+00:00",
+      "id": "4aa530bee322",
+      "title": "Bundesregierung: 600 Arzneimittel 2026 von Lieferengpässen betroffen - EU-Schwerbehinderung",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSDRraG50dXdLT0JfSW9LZlFFMG1SZ2xRcko3bHlYUjRhREg3dnVUSTR1T3FZUmtLcU51clNmRUJ0cGFVaTlBSFkyZmxYQ2thV2dKVTFfeW1ERFR1MTZJUWNZQjhDbHZMRWQzVUhmOFBFUlZRMWhaVzE4eGN6aGlpaDg5blNzRGhVZlNWajEwdmhpeVlTSU81bEQ5N25IRmVTVVoyNlFReFpJQ2dSTFprNHJsUkNoNjg5Yll1X3dDdDR6SExMSUQzUDhDWFoydw?oc=5",
+      "published": "2026-11-07T03:40:00+00:00",
       "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "4e6d48112005",
-      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
-      "published": "2026-05-22T07:00:00+00:00",
-      "source": {
-        "name": "Bundesministerium für Gesundheit (BMG)",
-        "url": "https://www.bundesgesundheitsministerium.de"
-      }
-    },
-    {
-      "id": "075a40db361f",
-      "title": "Medikamente auf Reisen: Das darf ins Handgepäck - ADAC",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZmdDVl81RGdjdDZRNXNXSlRFTVhOSVpSQUlwUTlUelB6bnNFcVFRV09lQ2czNTdja0RsNHJVck00Y2hFVHZUM3kyaTRWOVZXWHQ0M182TVJrcGNGcUxtS1pFaU8wczRRRFRycTVmZnFmWE1lQ2g1eVVNekNQd3pSWWFHMnc1anVBY3plbTNB?oc=5",
-      "published": "2026-10-09T07:00:00+00:00",
-      "source": {
-        "name": "ADAC",
-        "url": "https://www.adac.de"
+        "name": "EU-Schwerbehinderung",
+        "url": "https://www.eu-schwerbehinderung.eu"
       }
     },
     {
@@ -104,13 +114,13 @@
       }
     },
     {
-      "id": "2a4cd6eb6d1d",
-      "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
-      "published": "2026-03-31T07:00:00+00:00",
+      "id": "dcaad85fadfe",
+      "title": "Wer im Alter mehr Schritte macht, hat offenbar geringere Gesundheitskosten - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR0s2TFF2VDhfT0tqNGJlclJXc3pUd0FWQW9qQW9CQ0lvY0IyYkJzZDdzbFZITVJyT3lHSGVTZFdqYkdfMFFWN08ycDhaQ2tUNk5ZOTZLVzhiYjZpbG13VWtVNzQ3U3ZFUFhJX1pPOWJ2OENyWEN3WGV4NUtOMHNhcnNNYlZ2R0l3bjNkenptZWE1bk1KOTNRQnFIREZOdm1rY1JVQjZvd1FDUHg5aWc?oc=5",
+      "published": "2026-11-06T08:26:04+00:00",
       "source": {
-        "name": "European Parliament",
-        "url": "https://www.europarl.europa.eu"
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -144,46 +154,6 @@
       }
     },
     {
-      "id": "e5835a315f52",
-      "title": "Arzneimittel - Klinische Prüfung - Bezirksregierung Düsseldorf",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQanJqVmFoa1RDaGJaamxwcFU0MUpaZ0RkV2V5SnZRSW9VdzBWdHMwelVRdnlfWUc5WlN6TXFNc0hRNXY1YmRWQ2czQ0N3UG94Zlh6OXAzQlRtVUVTb2RkckNNWjh0TzBrWl9ESENaeGN6LVo4VERrdkdiQ19jT0dnZWx4RnJ3cUtTRFloY3p2OG1NQjFKRkptajhfWXFqeHo1TEx0OEJ4S1JYRVQyc2JBTmt4a2FNNmpFWjhJVg?oc=5",
-      "published": "2026-03-19T01:38:59+00:00",
-      "source": {
-        "name": "Bezirksregierung Düsseldorf",
-        "url": "https://www.brd.nrw.de"
-      }
-    },
-    {
-      "id": "d0ac7e08cc39",
-      "title": "Influencer werben für Lithium – doch Präparate sind verboten und riskant - Apotheken Umschau",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNekc5dkdYbzZ1OFlUdk02TUtDY1hWUkNiZHN4dXhWS0ExbExRQkJSZmdQMVF1azJsck5MMElzd1pDQjVYeUZTUXlVWE5iNFBWeDd0bXlKVlBIbzd0a0J1M21ONXB5bjZQeGt3MTl2c2lXQUkwWWoxTlRXc3dvMkdoUlZweC1Nb3MtZWZBU0g2UU43Q0JUR1hWR19MN09QVGgxcm80TWVXeExoRDJ5X0p6UVVKNVJKV0s3YUFTNWxQOUZ1NThjbS1yVWh3?oc=5",
-      "published": "2026-10-09T07:00:00+00:00",
-      "source": {
-        "name": "Apotheken Umschau",
-        "url": "https://www.apotheken-umschau.de"
-      }
-    },
-    {
-      "id": "9f7c377ed6d2",
-      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
-      "published": "2026-04-16T07:55:26+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "4b9e1a56397c",
-      "title": "(S+) GLP-1-Medikamente: Ein Weg aus der Falle - Spiegel",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeWs2RmlJVmg4Zjd1NUw1OU9VTnc3X0kzeWVyUjUwS0d6eENYbVktckhNLVE0ekh1dmJkS0hZNHktSEx1MjhucnZVWlE5TjdlTWRRNFB3cXo4TDlBSklYWEt3R2JoNFZxRHFJcVBzdGRKWVVIVWFYbFdndUZBaHlEb0o3c2VoWnZIaEtXcjd6VEFIMzJJUUc3bnBR?oc=5",
-      "published": "2026-09-22T07:00:00+00:00",
-      "source": {
-        "name": "Spiegel",
-        "url": "https://www.spiegel.de"
-      }
-    },
-    {
       "id": "e84b15e587eb",
       "title": "Forschung bei Stoelzle: Glas, das Gesundheit und Klima schützt - Kleine Zeitung",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORUZMeFQxOHd2WTlhOXJjMXhkdGJYNVdvM21qbjFBX3lUelU4RU9MQVhaZUZaTnBzNFd0ZlJEOGxCVTVKSDV4b1dUcVZnR1BQMk1OVE5qTG1SUFYxLXVobnAtaTVDVTNLMUtwMmZuYW1OZG5OM0hPVC04X2NVYnJfU0Z5ck5IT1B0SEZyZGZJczNadXQyQ3RmeWJjRXFqWWZTV0FzUHBCX1pUeTQ?oc=5",
@@ -194,13 +164,43 @@
       }
     },
     {
-      "id": "9bb975a5f582",
-      "title": "Vitamin D in Herbst und Winter: Wer braucht Tabletten und wie viel ist sinnvoll? - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVlk4TzU1RXY2bnBvTEp5SC0zZldYWXJLSlUyUG1oNFhKdmk5b2I0UjlaeU5tU1d0Q0w2VlZQVlllU2MtUlFxbVpHb2N2MWktOUxja2NFZVFBMXNfSk1DdGJrZnJpT2ZPZmxaWXZUQm1WWUhiQWN3cm81Y19HYi00ZnpJSjZCTDZyWkVBNllNQ0JobElpSDIwQ2FveHlENGN3ZzVxWmJ1RjBnOEhEal9XNG5xQXo?oc=5",
-      "published": "2026-10-30T07:00:00+00:00",
+      "id": "4e6d48112005",
+      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
+      "published": "2026-05-22T07:00:00+00:00",
       "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
+        "name": "Bundesministerium für Gesundheit (BMG)",
+        "url": "https://www.bundesgesundheitsministerium.de"
+      }
+    },
+    {
+      "id": "9fa13ce5acf5",
+      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
+      "published": "2026-03-31T20:25:43+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "e5835a315f52",
+      "title": "Arzneimittel - Klinische Prüfung - Bezirksregierung Düsseldorf",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQanJqVmFoa1RDaGJaamxwcFU0MUpaZ0RkV2V5SnZRSW9VdzBWdHMwelVRdnlfWUc5WlN6TXFNc0hRNXY1YmRWQ2czQ0N3UG94Zlh6OXAzQlRtVUVTb2RkckNNWjh0TzBrWl9ESENaeGN6LVo4VERrdkdiQ19jT0dnZWx4RnJ3cUtTRFloY3p2OG1NQjFKRkptajhfWXFqeHo1TEx0OEJ4S1JYRVQyc2JBTmt4a2FNNmpFWjhJVg?oc=5",
+      "published": "2026-03-19T01:38:59+00:00",
+      "source": {
+        "name": "Bezirksregierung Düsseldorf",
+        "url": "https://www.brd.nrw.de"
+      }
+    },
+    {
+      "id": "9f7c377ed6d2",
+      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
+      "published": "2026-04-16T07:55:26+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -224,16 +224,6 @@
       }
     },
     {
-      "id": "4fba0ba3e162",
-      "title": "Gesundheitsreform 2026/2027 - Techniker Krankenkasse",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUhpR0Y4Z19LRmRhS1BFMEF0aG10ZHZzOFNKMEJsdklnNjViR09CYmsxSGwxU3BfdWpTQy1XeXhOeWpiSDZqR0RQUkFsTFhlUUMydWIzeFNqNHlIWExJellKZ0h3ay1wdFdmc1pDeVZHQ3N0TEFtR2w5dkVVelJva3FudVlRaU1WQVdZV3RUNk9fZDRXSkYta0dZWVRkZlF5VXdmQVY5SHdmUQ?oc=5",
-      "published": "2026-11-02T08:00:00+00:00",
-      "source": {
-        "name": "Techniker Krankenkasse",
-        "url": "https://www.tk.de"
-      }
-    },
-    {
       "id": "e4f7e8c57817",
       "title": "Wie läuft die Zulassung von Arzneimitteln ab? - Stiftung Gesundheitswissen",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQc0lKcG51SV96LVpuemVlZ3p2LU1Ubjg1Q2M0VjJMa3pfRGNWM3VKemVDZG9mWm1uY0NlbkZmVDc4QWVad0VIYVAzOGxrY3ZvX1ZnSHB5QXZFYU4tNTAxa0g3N1BxbTljY3hTSVZQZE1GUFNsVF9LNUNfdk5aZGFucjBPWnZ5TGtZazdZQ3NQeEZFMXpBem9Tenh2NUtrWGlp?oc=5",
@@ -241,26 +231,6 @@
       "source": {
         "name": "Stiftung Gesundheitswissen",
         "url": "https://www.stiftung-gesundheitswissen.de"
-      }
-    },
-    {
-      "id": "d46f6ce1c2b9",
-      "title": "Ibuprofen, Aspirin und Co.: Schmerzmittel der Gruppe NSAR können Nebenwirkungen haben - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUmwyTW8wT3dfaXgyZ1VyaXFYUG1lWXY5VUZXZkkwWjd4STI2dWVSY1d3bVhub1NxRE9sNGt2bW83blh3T2hPRzlWcnVvUElQSmw4WE9KOHhscFdsSEE4TmF2cnhXaTktUWRfc3NQMnpoWmZDUXF5WWt6czNsbWdLQTRtVVJ3Mzdtb250RGVhbldmNUpVOTNDOTFhOWpldzV0MUlpVFdMRmpfOGM3WW5HbmRYaVJFT1ZzYUxn?oc=5",
-      "published": "2025-09-23T07:00:00+00:00",
-      "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
-      }
-    },
-    {
-      "id": "358d579ccbb7",
-      "title": "Corona 2026: Aktuelle Symptome und Varianten - was Betroffene wissen sollten - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY0dJZGIyTnVnalZ3eHBaNkEwcl8zOG54bUt1YW5iZlJCX1BlcHliWnliRzZtdFpiRDBpVzVCZzlQSURrWTYyeTcxZUZudlZkSW9nZEp3QWc0Q2h1VGRId2lxQlViR04wZFN4Z3FDeUV0LTBVWGdKQ2RGNFJIOFBNZmJJdUUtcUdCWlRLZDFOOEhweThkQU54aFBMcTJmU2M?oc=5",
-      "published": "2026-11-06T08:00:00+00:00",
-      "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
       }
     },
     {
@@ -274,13 +244,23 @@
       }
     },
     {
-      "id": "7ec96f444290",
-      "title": "Medikamente knapp: Philippi warnt vor Hamsterkäufen – diese Mittel sind betroffen - HAZ",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOR3lZNXFZLXFfd2tVcUNPZFVoNFF5QnZmbGs5Ti1ueDRZMHhodkdsY1dhd19yX2JONWd3QTFlMFlta3FvdnFYcUZYYkdDRUpPTVNwV2pWUnBtU2E0N0NTc0tRcWt0Ml94OWVlTC0zQW16TGI4SC1ZWWJDb2pXUWp1WEVaMlVaa1NPWnJzbS1WTjQwYXdSTXBnbGtlNDRMZzEyT1pGejNwdmhfWHc3TV92YnJZWS00RFpNYUlaNklLaUdBM1hrOW9yQ3g3MW9JLTNDQjc0VDRFeUvSAfQBQVVfeXFMT3dCZXc3MF9rVTZQY05nWnBfSVpQNGl1VTg0ZjVFRFY0M2Qtb3JYQmtJWExUTkNST2Yxa2wtTl9ITmszSWJkOFlvMHBSWFRKZWN5ZVZLdzB1U1FPUS1LLXpRWnhidlRtekdKMTRoVmJxdFAtUjlwUWxVRUxnMjRvcFNiXzlVM0JvaUtFdHBRX3VXNGRRZG1LQlZUdmN6V0h2WWZyWnBYYkxtdzZSMkQxdENKY2pEaEtBblk3cC0yblo0NnJsVk15VVBOdy01Y0lkSEwxSmczZ1VTM0Fpb2JUX0l2NjhFdE9ZVmVPbTg3RXl2UzRSWQ?oc=5",
-      "published": "2026-10-28T03:36:57+00:00",
+      "id": "d46f6ce1c2b9",
+      "title": "Ibuprofen, Aspirin und Co.: Schmerzmittel der Gruppe NSAR können Nebenwirkungen haben - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUmwyTW8wT3dfaXgyZ1VyaXFYUG1lWXY5VUZXZkkwWjd4STI2dWVSY1d3bVhub1NxRE9sNGt2bW83blh3T2hPRzlWcnVvUElQSmw4WE9KOHhscFdsSEE4TmF2cnhXaTktUWRfc3NQMnpoWmZDUXF5WWt6czNsbWdLQTRtVVJ3Mzdtb250RGVhbldmNUpVOTNDOTFhOWpldzV0MUlpVFdMRmpfOGM3WW5HbmRYaVJFT1ZzYUxn?oc=5",
+      "published": "2025-09-23T07:00:00+00:00",
       "source": {
-        "name": "HAZ",
-        "url": "https://www.haz.de"
+        "name": "NDR.de",
+        "url": "https://www.ndr.de"
+      }
+    },
+    {
+      "id": "73e3792d528e",
+      "title": "hkk-Gesundheitsreport: Neue Diabetesmedikamente auf dem Vormarsch - Versorgungspotenziale bleiben - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE04bS1pNEo3cjBRTDFWWk1DZG5JZlNybFFXcVZJRV9xMWk1b1BLLXRHZjVXLXJsdFNnUTdrVno3TmlIakRPcFVsN3h1VUp3MUw3RGhoeFFscw?oc=5",
+      "published": "2026-11-03T09:00:07+00:00",
+      "source": {
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
       }
     },
     {
@@ -304,16 +284,6 @@
       }
     },
     {
-      "id": "0635d82b6e9a",
-      "title": "„Wick MediNait“: Pharmakologe warnt vor diesen Nebenwirkungen - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOX25Bd0gwR1NiQnF0Z3I3N2ZycVVLcUNfR192bmo3aHJfb01oNFVXdTU3QjhnVl9mQ2hjdFhNSEd4dENIWklsYkJZdHJpVVo0eUFJOE9iLTZnM1RMajlLY0FURW5YLXd2UGFEd2dYUUNiMWNBbFgyWFh6UHR1Y2pEc0ZfcXItTEVxMWJfTjFvV2Q4NU9kRWpj?oc=5",
-      "published": "2026-10-29T07:00:00+00:00",
-      "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
-      }
-    },
-    {
       "id": "112bb805d0bc",
       "title": "Gesundheit: Arzneimittel Roactemra erhält EU-Zulassung bei Covid-19 - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVnhLZzlVX2gyNUNFTjJhdnZpVGFyM2tRRVdQR3RnMDV4U0lxUkNRdl9VRmMtN2xKbm9ZWTQ5OFlYOVQtRm8yT2xZb2dNcDVQaFV4eHBuVFZBa19pU0NqSERvUUYtaVRyMElkMHRRT0RjZGVrMUtZb3lCdkFFcDgxbkVzZ3JYWlZzeEdHLWFuQlZpbl9VUWZB?oc=5",
@@ -324,13 +294,23 @@
       }
     },
     {
-      "id": "7b7a2be21301",
-      "title": "Novartis meldet zwei mögliche Tumorfälle nach Zolgensma - SuaraGarut.ID",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5la1RJSnB0SVd0WEVENnVqdUZKcGVGZ2lWb0RnekVTakdES2VjM01lWFIxTHFuY052TGJPclN5d09QU3EzUlNVYlhBZ3RnOFlGLUFITU8zTnUzNmpCdG51UFpFRk5paUxyZEVpNFhKY3BhRTJtbXc?oc=5",
-      "published": "2026-11-07T07:03:58+00:00",
+      "id": "602985cda9f2",
+      "title": "Gesundheit: Medikamente zur Rauchentwöhnung sind keine Kassenleistung - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORVp5QnRTQzJPTFRLNWJXWW5ocVVKVlZpck5ZZjVhVlU0MWswZ3J2d0loRURvaXM0a0FNZkRFNmtaUDVZdWdBeTFqR05HcHg5c1RveGd1SjBPU1J2b3B3NHQ4d0lqQ3l6ZDhzbWJoazlmQXhkNlAxUmRUcnFQRmI2czhDcFgtTTBuSlUzOXJRYXNXMnltdGYxUTkySHg1UmlXUXR2UnpyNlpEdjNMVXNaWUg1MW5iR3RIb0lteEtRNDlYQWdXWmdLZ1cwbUkxYlBiTVhhbw?oc=5",
+      "published": "2019-05-28T07:00:00+00:00",
       "source": {
-        "name": "SuaraGarut.ID",
-        "url": "https://suaragarut.id"
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "796ba147d6eb",
+      "title": "Gefährdete Kühlketten: Cyberangriffe bedrohen die Arzneimittelversorgung - Il Mattino",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeS1LalA4bmRGdS0yQW41WUZnZjJDLVFwWmN0UjhtaHBqNE1zTVJLUzBMT01RdTBuVFV5cVRQZnBLdjlhUmNsRkViQXZhS2JJTHlhcjVNdUtyY1RkUzlaSGxfT2trcjFmSm1KaTZJNFhfZ0FIMnF3X1lEVEw4anVPU1YybWhGR3FDc1N2RngwSDZnV2pnWmJhWHk5Z1dhUmNZaUtFRXRJVHJqZkc3XzZBOG530gG3AUFVX3lxTE4xc29NSjRQVVpPRG02eTVseGRGd3NhaVUyNFBqY0dnbFV6TkloVlFmQ29qcnlYa3FBdlZkb2s4ZkxGN3U4bVFaQkNTRXBtNkJwNDg4OTFzdmVLbDlubXpiRllkbHEyQXFUcER1SjAwUjVkaG5GNndaZUUtSjZ5SDV6SGZwNXdhbU5rTW56SGFmWHBSY3hzakJGdUN1V2tlQm1pdEFMWUJjZ0dTS0FqTDNyT1BGSUIzUQ?oc=5",
+      "published": "2026-11-09T04:51:47+00:00",
+      "source": {
+        "name": "Il Mattino",
+        "url": "https://www.ilmattino.it"
       }
     }
   ]
