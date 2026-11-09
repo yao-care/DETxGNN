@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "BUPRENORPHINE"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-09
 description: "Buprenorphine: vorhergesagte neue Indikation akute intermittierende Porphyrie (acute intermittent porphyria) (Evidenzstufe L5). Ursprüngliche Indikation: Opioid-Related Disorders"
 ---
 
@@ -48,8 +48,8 @@ Buprenorphin ist ein Opioid, das in Deutschland zugelassen ist. Das TxGNN-Modell
 | Vorhergesagte neue Indikation | akute intermittierende Porphyrie (acute intermittent porphyria) |
 | TxGNN-Vorhersagewert | 0,9941 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 4 von 4) |
-| Anzahl der Zulassungen | 4 (gültig: 4) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 4) |
+| Anzahl der Zulassungen | 4 (gültig: 3) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?

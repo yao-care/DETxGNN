@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 300
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-09
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
 description: "Miconazole: vorhergesagte neue Indikation Akne (acne (disease)) (Evidenzstufe L4). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
@@ -81,7 +81,6 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/000140 | Easotic | – | – |
 
 Die in den lokalen Daten erfasste Zulassung ist erloschen bzw. nicht mehr gültig.
 

@@ -5,7 +5,7 @@ layout: default
 title: Buprenorphine Hydrochloride
 parent: Nur bekannte Anwendungen (keine neuen Vorhersagen)
 nav_order: 83
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-09
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Evidenzniveau: **N/A** | Vorhergesagte Indikationen: **0**
 | Element | Inhalt |
 |---------|--------|
 | Ursprüngliche Indikation | Opioid-Related Disorders |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 4 von 4) |
-| Anzahl der Zulassungen | 4 (gültig: 4) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 4) |
+| Anzahl der Zulassungen | 4 (gültig: 3) |
 | Anzahl der Genehmigungen | 0 |
 
 ---

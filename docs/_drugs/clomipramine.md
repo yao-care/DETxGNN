@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 8
 monitor_inn: "Clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "agoraphobia", "attention deficit-hyperactivity disorder"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-09
 description: "Clomipramine: vorhergesagte neue Indikation Angststörung (anxiety disorder) (Evidenzstufe L1). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
 ---
 
@@ -90,7 +90,6 @@ Die serotonerge Modulation limbischer und präfrontaler Schaltkreise ist ein pla
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/V/C/000039 | Clomicalm | – | – (Zulassung gelöscht) |
 
 ## Sicherheitsaspekte
 
