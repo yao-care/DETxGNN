@@ -1,8 +1,28 @@
 {
-  "fetched_at": "2026-11-10T03:15:15.217310+00:00",
+  "fetched_at": "2026-11-10T12:15:39.416846+00:00",
   "source": "Google News Health RSS",
-  "count": 36,
+  "count": 35,
   "articles": [
+    {
+      "id": "68714d89b623",
+      "title": "Süßstoffe und Medikamente: Diese Kombination verändert Darmbakterien - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdUZPQWxqS1RvcXdPcDBPOHh4SnU2aU5kZk9wRFZvR0U0LTM3R29BQV8zVkV2WFctNkdWYlBES3NBOGU2RFhBZHcxQjB1V3V0Z0k4ZGRpZ0haeW5TTXE1clFTNjRpQzNkUUk4eFJMZzJiaXBtamhrTlVfdGtVcXJwWi01VDdMdDhDR0kxYUJ5OWVqYkxoWXpfemZpTWtXaF8wV0VtT0xUMlNSZw?oc=5",
+      "published": "2026-11-10T09:27:28+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "4167797a83bb",
+      "title": "Abnehmmittel: Nach Absetzen steigt Risiko für Infarkt und Schlaganfall - Gesundheit - SZ.de - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdWRidWIxQ05sYTllaHA5Z1o0dVNrSHh0T1I5WUhjanFEQUpBZXA5UFhsT3RmUkFialZCQ3Y4WTlraWJhZGV5WFJNRnJycWZ1OWRyMklqcWp3LU90T2FfWlk5ZkpkbFBQd05uLXNGWUI3c0Mwems2cWhGU1ZhbDl6VWd1UFc5Z3JxcW00QWh4NzZKaDhZRTBsUzdoRWJRZm1aV19xWU1mcVU4WEJKRElScjFBNkxrYTZMSDJTTDEtb2Vwc0s1?oc=5",
+      "published": "2026-11-10T10:27:54+00:00",
+      "source": {
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
+      }
+    },
     {
       "id": "96c379f294b4",
       "title": "GeSiG: BMG plant Aufbau einer »Personalreserve Gesundheit« - Pharmazeutische Zeitung",
@@ -14,33 +34,13 @@
       }
     },
     {
-      "id": "68714d89b623",
-      "title": "Süßstoffe und Medikamente: Diese Kombination verändert Darmbakterien - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdUZPQWxqS1RvcXdPcDBPOHh4SnU2aU5kZk9wRFZvR0U0LTM3R29BQV8zVkV2WFctNkdWYlBES3NBOGU2RFhBZHcxQjB1V3V0Z0k4ZGRpZ0haeW5TTXE1clFTNjRpQzNkUUk4eFJMZzJiaXBtamhrTlVfdGtVcXJwWi01VDdMdDhDR0kxYUJ5OWVqYkxoWXpfemZpTWtXaF8wV0VtT0xUMlNSZw?oc=5",
-      "published": "2026-11-09T07:51:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "a622d8459b5d",
-      "title": "Vermeiden Sie Unterbrechungen der Arzneimittelversorgung und der Krankenversicherungszahlungen bei Änderungen der Vorschriften. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOU0NyUVU3UlExTFlMMl92VmNBYlBxRTRRT09DWDYtd1hnQ3p0MHk2VEcxTnhIR01MVmlCNERkSTROeFcwN0pLbk9kaWdjU0pnSURzbUwzREdRcHI3ZkxHenZmam40MWYwU05CME81SGhrODEwdEFWNTd6RnVTNWY4UE5nQXRMd0VDOVlDbXA0bkdZVzdVLXZUSnd0M3NXTk0tT0k1OQ?oc=5",
-      "published": "2026-11-10T01:26:41+00:00",
+      "id": "10e147af7d45",
+      "title": "Afrika wetteifert darum, Selbstversorgung bei der Produktion von Medikamenten und Impfstoffen zu erreichen. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQY2U2TndDeFJwMlJYdC10bG14TGt2QnY5MkQ5aURLcEdqTkdhdjNaN1BrWmVRN3dXaFJGeFRnNlRxVmU1RWlXU2pZbXE5bmFMS1Z0UWRKeDBXcTBibTAxZEtGb2pFY0JsM054bkZFODVKZkdtUWVHMlNTb2dvUms0RjR3?oc=5",
+      "published": "2026-11-10T08:36:01+00:00",
       "source": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "6118f5816f8d",
-      "title": "Statine & Co.: Apothekerin warnt vor beliebten Lebensmitteln - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYkEtZ1prYkZZcWREU2NDVE55Y2Y2b0xFSUNSRTNPRkZTeERPT00wLVRkMHM4anUyOXFVN1RNWVR0RVJlS0NHQ29MbkJKandENDhBaERUOWg0NkNJcWJmNE9BVmNaTElTbFlEaXluM3gwNXFRSEIwLU14WmZ1QUloSkdSMzg3bmVrcGpCUVMyaDBCeUs3LUdFbG5JblYyNTg?oc=5",
-      "published": "2026-11-09T09:27:00+00:00",
-      "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
       }
     },
     {
@@ -54,26 +54,6 @@
       }
     },
     {
-      "id": "ca85a24f5909",
-      "title": "Verdacht auf Krebs bei Kindern durch Gentherapie - Gesundheit - SZ.de - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQm1McTAxeHBGNWM5VHp2ZjQxdU1RZ3d0emh6WjYzRlVEb05wX3N6cnE3ekMzUExRdVlMcUhMT3hHY0JEZGxCRkplU3piQjl5U2JwZ2NhSnZRa0ZRekVhbzhYSjhKUTliX1h1Ni1rUWtpbzJPSldlQjUxUnNyTDlSbkF1QlNkM3JldkJUbmR4UDZXQQ?oc=5",
-      "published": "2026-11-08T09:21:34+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
-      "id": "c16aef2e9212",
-      "title": "Warum gibt es die Abnehmspritze nur für Privatpatienten? - Augsburger Allgemeine",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQRHViandLb21OclV1Y2xjSFpSQTg4ZlJueEdzaGpQdmh5TkJFRGdLYmRmQ3VQVXNNUElEbTFxOWt2Tm1ITjJ6NHdJM1NodzVIZUpLVDNxak8tVEoxdFJiMUlIMEFIMVRZUzN2OWhuUkU2MHMwWXdSdXVxTmpMSWJoUHk2T2xNZ1B5ZDdLRmNZbUhDV0lxMkJMellOeGhMQ2ZLMU85WlA0Mms1Um9xMmt0VU5VYlVUR05RQzU1cHF5QTNOaWNoelU5VzZqQVRiQzQ3MTNkYTN5cVRleExrM2c?oc=5",
-      "published": "2026-11-07T02:00:00+00:00",
-      "source": {
-        "name": "Augsburger Allgemeine",
-        "url": "https://www.augsburger-allgemeine.de"
-      }
-    },
-    {
       "id": "1cb238a2aa77",
       "title": "Gesundheit wird 2027 teurer: Diese Mehrkosten kommen auf Millionen Versicherte zu - DerWesten",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZS1tbXJ5VGhmb1pvT2s2NlJVOWsza0NEWTljbGt6bldreENERlJvTC13aEdLWW5DVVNFVE92bUNFcEp5NXBJbndneEJ5eGNTYXhENTBERDBZRzY5TkhWdHZ6eVN1eExUQ0FJSF9ZTjZGUVpJV3VRaGhYYmdRb3dfRzA1S09NVTRJWnl2YkhyNlhwVkFrN1hyam03bnVMTTVYTHBEUTF5MkF0WmRBdjNPR2ZuSGYtUQ?oc=5",
@@ -81,16 +61,6 @@
       "source": {
         "name": "DerWesten",
         "url": "https://www.derwesten.de"
-      }
-    },
-    {
-      "id": "9f001f4a2702",
-      "title": "Mein liebes Tagebuch - Deutsche Apotheker Zeitung, DAZ",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYXBNaGtmYWF0V1kydW1EbTdENzFZMGl0dXlXMWJ6OFRoZnJZemJXSm1IRGN1OGE2ZEhKM0drVUtRTjlqQ0laU1JCbFhTMlphS0xxZlZ0TkM0VnIxN0NsSG5vZ1RzaTNuc28zUms4ZU1kQ1hHYWlIRTlST0VlWXVSTkJYdk9NdVl0SzlVVEpjVGhBdW1L?oc=5",
-      "published": "2026-11-07T20:30:00+00:00",
-      "source": {
-        "name": "Deutsche Apotheker Zeitung, DAZ",
-        "url": "https://www.deutsche-apotheker-zeitung.de"
       }
     },
     {
@@ -104,13 +74,23 @@
       }
     },
     {
-      "id": "9fa13ce5acf5",
-      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
-      "published": "2026-03-31T20:25:43+00:00",
+      "id": "9f7c377ed6d2",
+      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
+      "published": "2026-04-16T07:55:26+00:00",
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "6118f5816f8d",
+      "title": "Statine & Co.: Apothekerin warnt vor beliebten Lebensmitteln - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYkEtZ1prYkZZcWREU2NDVE55Y2Y2b0xFSUNSRTNPRkZTeERPT00wLVRkMHM4anUyOXFVN1RNWVR0RVJlS0NHQ29MbkJKandENDhBaERUOWg0NkNJcWJmNE9BVmNaTElTbFlEaXluM3gwNXFRSEIwLU14WmZ1QUloSkdSMzg3bmVrcGpCUVMyaDBCeUs3LUdFbG5JblYyNTg?oc=5",
+      "published": "2026-11-09T09:27:00+00:00",
+      "source": {
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
       }
     },
     {
@@ -124,16 +104,6 @@
       }
     },
     {
-      "id": "dc2fb960c54a",
-      "title": "Krankenhausapotheke Horn blickt auf 50 Jahre zurück - Guten Tag Österreich",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNVlCWllabmtIeVVvN0pUZEU2N1FDUFVibnJBVjh2eTFhdk44V3dGTE5iMzJEQkQ4eHU0dmxvRmhMVlY0UFI1Wl9fVlRtUmtwSjMwMWlsbWQyRnpVc2RuU0N6aWNOUjBpX1NRSkdGMWJ5WXp5RXhQLW5seEhNbVF4LUthdnN2UQ?oc=5",
-      "published": "2026-11-09T16:20:26+00:00",
-      "source": {
-        "name": "Guten Tag Österreich",
-        "url": "https://www.gutentag.news"
-      }
-    },
-    {
       "id": "4aa530bee322",
       "title": "Bundesregierung: 600 Arzneimittel 2026 von Lieferengpässen betroffen - EU-Schwerbehinderung",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSDRraG50dXdLT0JfSW9LZlFFMG1SZ2xRcko3bHlYUjRhREg3dnVUSTR1T3FZUmtLcU51clNmRUJ0cGFVaTlBSFkyZmxYQ2thV2dKVTFfeW1ERFR1MTZJUWNZQjhDbHZMRWQzVUhmOFBFUlZRMWhaVzE4eGN6aGlpaDg5blNzRGhVZlNWajEwdmhpeVlTSU81bEQ5N25IRmVTVVoyNlFReFpJQ2dSTFprNHJsUkNoNjg5Yll1X3dDdDR6SExMSUQzUDhDWFoydw?oc=5",
@@ -144,40 +114,60 @@
       }
     },
     {
-      "id": "134297de7815",
-      "title": "Durchfall durch Sex: Shigellen breiten sich zunehmend aus - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVFozS1daa1ZFUEJuZTFqbkt5MnRnUndoS3VpaFo4bURaZERfaWZteGdaSk51TnZVNTdCd2wzY3lfdlczcmtpR0ZCYm5aVXIwRWotbHFkNktGcktiRXBHTDNuY2NwVnRUbUZRLTJCcWFWX3BxWlBybmJDOXNZSmo0b0ZySGoyWjFKQVFjUEQ1ejJaYjZTcjNF?oc=5",
-      "published": "2026-11-09T09:50:05+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "9f7c377ed6d2",
-      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
-      "published": "2026-04-16T07:55:26+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "432a5a28a08d",
-      "title": "Medikamente aus der Krankenversicherung näher an die Patienten bringen. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE00SndQVEdReFg3eUZsVERzekRmdjRxRnByc2k0eEhhNXV0UE1xVW5ra1Y0WmZDdXpDbG5zSmhLWTNzNjJkS0NKY1FxdFpKSzlhYzdGU1VwMEQzRGh1b09mYl9IWUNVUnZ0dWFZUXNTb25mWmxnN3F2ZlhONXY?oc=5",
-      "published": "2026-11-09T02:42:20+00:00",
+      "id": "a622d8459b5d",
+      "title": "Vermeiden Sie Unterbrechungen der Arzneimittelversorgung und der Krankenversicherungszahlungen bei Änderungen der Vorschriften. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOU0NyUVU3UlExTFlMMl92VmNBYlBxRTRRT09DWDYtd1hnQ3p0MHk2VEcxTnhIR01MVmlCNERkSTROeFcwN0pLbk9kaWdjU0pnSURzbUwzREdRcHI3ZkxHenZmam40MWYwU05CME81SGhrODEwdEFWNTd6RnVTNWY4UE5nQXRMd0VDOVlDbXA0bkdZVzdVLXZUSnd0M3NXTk0tT0k1OQ?oc=5",
+      "published": "2026-11-10T01:26:41+00:00",
       "source": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
       }
     },
     {
-      "id": "df22134c309d",
-      "title": "31 Prozent weniger Fehltage durch kaltes Duschen? - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdWpFbmZtOVNMUUUzWEdfeERVTnNQVXB6SkxPY0thQzB3ZFRiTTNEbThLU094Q0l2VU1zQ3ZkSFNIa1JfR3lwNzRzS3dLNEwxV0hvWDh4SGtQdTdCM1VqREJxQWp4RV9hcElEWUh2NG9GVGJmUUtvWFFaUXlqMkdvdmZPaFZ3dFZiNXgxdGZSbnB0SU1lUFQzVFZ6bw?oc=5",
-      "published": "2026-11-09T07:33:00+00:00",
+      "id": "ca85a24f5909",
+      "title": "Verdacht auf Krebs bei Kindern durch Gentherapie - Gesundheit - SZ.de - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQm1McTAxeHBGNWM5VHp2ZjQxdU1RZ3d0emh6WjYzRlVEb05wX3N6cnE3ekMzUExRdVlMcUhMT3hHY0JEZGxCRkplU3piQjl5U2JwZ2NhSnZRa0ZRekVhbzhYSjhKUTliX1h1Ni1rUWtpbzJPSldlQjUxUnNyTDlSbkF1QlNkM3JldkJUbmR4UDZXQQ?oc=5",
+      "published": "2026-11-08T09:21:34+00:00",
+      "source": {
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
+      }
+    },
+    {
+      "id": "dcaad85fadfe",
+      "title": "Wer im Alter mehr Schritte macht, hat offenbar geringere Gesundheitskosten - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR0s2TFF2VDhfT0tqNGJlclJXc3pUd0FWQW9qQW9CQ0lvY0IyYkJzZDdzbFZITVJyT3lHSGVTZFdqYkdfMFFWN08ycDhaQ2tUNk5ZOTZLVzhiYjZpbG13VWtVNzQ3U3ZFUFhJX1pPOWJ2OENyWEN3WGV4NUtOMHNhcnNNYlZ2R0l3bjNkenptZWE1bk1KOTNRQnFIREZOdm1rY1JVQjZvd1FDUHg5aWc?oc=5",
+      "published": "2026-11-06T08:26:04+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "9fa13ce5acf5",
+      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
+      "published": "2026-03-31T20:25:43+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "ef2814e5622d",
+      "title": "Dies wird sowohl den Zugang der Bevölkerung zu Medikamenten sicherstellen als auch ihre Eigenständigkeit im pharmazeutischen Sektor stärken. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTXNkdU90a05UMlBmR1VmMklpNU42R0xQZi1DbEhkUmFoejdVM2VDRmg2RG12Rkl1bjJKeE0tZlBiUUhZTmdqelMzX3F6WC05a2c3X3FIR2twZUNxMlVTNmtxalFhbGl0UDlwT3V2SGRWMUtrS2xwbER2NU9YV2NWazZwWGRKRkcxY0VpSkpnSTVoY0F6Z3F5SnpHV3pRLWpjeGNxejY5RDJ3RC1CZ2RzNjdjX28?oc=5",
+      "published": "2026-11-10T10:18:55+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "134297de7815",
+      "title": "Durchfall durch Sex: Shigellen breiten sich zunehmend aus - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVFozS1daa1ZFUEJuZTFqbkt5MnRnUndoS3VpaFo4bURaZERfaWZteGdaSk51TnZVNTdCd2wzY3lfdlczcmtpR0ZCYm5aVXIwRWotbHFkNktGcktiRXBHTDNuY2NwVnRUbUZRLTJCcWFWX3BxWlBybmJDOXNZSmo0b0ZySGoyWjFKQVFjUEQ1ejJaYjZTcjNF?oc=5",
+      "published": "2026-11-09T09:50:05+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
@@ -194,33 +184,53 @@
       }
     },
     {
-      "id": "dcaad85fadfe",
-      "title": "Wer im Alter mehr Schritte macht, hat offenbar geringere Gesundheitskosten - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR0s2TFF2VDhfT0tqNGJlclJXc3pUd0FWQW9qQW9CQ0lvY0IyYkJzZDdzbFZITVJyT3lHSGVTZFdqYkdfMFFWN08ycDhaQ2tUNk5ZOTZLVzhiYjZpbG13VWtVNzQ3U3ZFUFhJX1pPOWJ2OENyWEN3WGV4NUtOMHNhcnNNYlZ2R0l3bjNkenptZWE1bk1KOTNRQnFIREZOdm1rY1JVQjZvd1FDUHg5aWc?oc=5",
-      "published": "2026-11-06T08:26:04+00:00",
+      "id": "df22134c309d",
+      "title": "31 Prozent weniger Fehltage durch kaltes Duschen? - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdWpFbmZtOVNMUUUzWEdfeERVTnNQVXB6SkxPY0thQzB3ZFRiTTNEbThLU094Q0l2VU1zQ3ZkSFNIa1JfR3lwNzRzS3dLNEwxV0hvWDh4SGtQdTdCM1VqREJxQWp4RV9hcElEWUh2NG9GVGJmUUtvWFFaUXlqMkdvdmZPaFZ3dFZiNXgxdGZSbnB0SU1lUFQzVFZ6bw?oc=5",
+      "published": "2026-11-09T07:33:00+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
       }
     },
     {
-      "id": "17052c4630eb",
-      "title": "Reimann zur WIdO-Analyse: Entlastungen bei Arzneimittelausgaben dürfen nicht durch ... - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTRzF5aUhVNXJWNUNvdU5BZG40bmZKRUlaaHBWTTdUcVZ0VEN3bWJ0NUdGemFab0t4NV9jUUZPMlNZbm0tZmY1anE4emRxa3A2TlpTTkZB?oc=5",
-      "published": "2026-11-03T12:46:11+00:00",
+      "id": "432a5a28a08d",
+      "title": "Medikamente aus der Krankenversicherung näher an die Patienten bringen. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE00SndQVEdReFg3eUZsVERzekRmdjRxRnByc2k0eEhhNXV0UE1xVW5ra1Y0WmZDdXpDbG5zSmhLWTNzNjJkS0NKY1FxdFpKSzlhYzdGU1VwMEQzRGh1b09mYl9IWUNVUnZ0dWFZUXNTb25mWmxnN3F2ZlhONXY?oc=5",
+      "published": "2026-11-09T02:42:20+00:00",
       "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
-      "id": "6a3dd47d3689",
-      "title": "Statine absetzen: Neue Studie stellt bisherige Erkenntnisse infrage - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQldPUW4xODJYNWJUbDJjekVwY0RNRE43RW5lWjhWbC01ZUVnQW56cnlycGRrb2VQLTFIcUozN3JmZTB0d0ZxeFFnUzhPQlQtMlduRjZ2bUZNTkJmcmw0MlZhd1VZR19aT0ZFVXYtckhYRUdfOW9UTVNNeFF6aW1GNVREaVEzcklFVHh0Z2dmZ1Bfd2VtX2ZtbGdZc0ZtQzh1akdqSEJMMjdCS01SUzFV?oc=5",
-      "published": "2026-11-06T10:32:00+00:00",
+      "id": "2f0f7b06072d",
+      "title": "Fischölkapseln zeigen nach zwei Jahren keinen Nutzen für das Gehirn - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWElhOGZOdlJxOTBGQjk5WVE0Q0o3U1lNRUIzajRSWlhUNUhTa0RERVRoMlVEanZHUm9WQTBnbzVEa2lhVzFvRUpyT01OMzVjSk04anlDWnVoaTJvNFo2bmlXYkNDN0pZdHI5TVc4MjNWRnZGd1NmLTFBRTI5WUlzX2ZxcWNBVjQyVU8xaXViQmF3Rk9sUWZ6dXNiVDJwQTdpbXdXQWx5WTU?oc=5",
+      "published": "2026-11-05T08:34:36+00:00",
       "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "dc2fb960c54a",
+      "title": "Krankenhausapotheke Horn blickt auf 50 Jahre zurück - Guten Tag Österreich",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNVlCWllabmtIeVVvN0pUZEU2N1FDUFVibnJBVjh2eTFhdk44V3dGTE5iMzJEQkQ4eHU0dmxvRmhMVlY0UFI1Wl9fVlRtUmtwSjMwMWlsbWQyRnpVc2RuU0N6aWNOUjBpX1NRSkdGMWJ5WXp5RXhQLW5seEhNbVF4LUthdnN2UQ?oc=5",
+      "published": "2026-11-09T16:20:26+00:00",
+      "source": {
+        "name": "Guten Tag Österreich",
+        "url": "https://www.gutentag.news"
+      }
+    },
+    {
+      "id": "e4f7a2ee397f",
+      "title": "«Spielen sie mit ihren Enkeln, oder ist es ihnen dauernd übel?» - Infosperber",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQ1NOdGJpUHpUemZ1dkFFaGVZNldEZjJWMGo2WEs0aFZaUGs5cjEydW9qbmtaaUMxcWUwOHNPSlh5Q29idXd2VmxTZlNIX3ZocWFsN1ZaUUVMZ1U1Z2dybFJSRHlwcGVob0piemlvT2pMd1dLMm96WHFKaHdSVWc1cVZoMlhnNEdFR2R2ZjdqZGNIcVpSZXFpOVg1M2hxa1Nj?oc=5",
+      "published": "2026-11-08T09:44:03+00:00",
+      "source": {
+        "name": "Infosperber",
+        "url": "https://www.infosperber.ch"
       }
     },
     {
@@ -274,16 +284,6 @@
       }
     },
     {
-      "id": "8a5dc46a4efd",
-      "title": "Erstattungsbetrag: Preisfestlegung für neue Medikamente - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUHN6Rk0zYW0xanpneTJrREhFdnJPVXFKckJsaHFBTWpYUElxdGN2ZUtydnkteHFHRHl2dERmeEVUMF8xUEh4Z3M4VEhJY0dfNDFpc0Vnc283akhUeTRkZEdSUzZxMjlmTmxBMmdMV2pKWi04UDZENVpvdjJPMXJxZEJ5SS13ZkZlSzVWODd0YjRPTjliYmttdXNUVkR6emgwU09xSQ?oc=5",
-      "published": "2025-02-22T04:19:00+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
       "id": "d46f6ce1c2b9",
       "title": "Ibuprofen, Aspirin und Co.: Schmerzmittel der Gruppe NSAR können Nebenwirkungen haben - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUmwyTW8wT3dfaXgyZ1VyaXFYUG1lWXY5VUZXZkkwWjd4STI2dWVSY1d3bVhub1NxRE9sNGt2bW83blh3T2hPRzlWcnVvUElQSmw4WE9KOHhscFdsSEE4TmF2cnhXaTktUWRfc3NQMnpoWmZDUXF5WWt6czNsbWdLQTRtVVJ3Mzdtb250RGVhbldmNUpVOTNDOTFhOWpldzV0MUlpVFdMRmpfOGM3WW5HbmRYaVJFT1ZzYUxn?oc=5",
@@ -294,13 +294,13 @@
       }
     },
     {
-      "id": "73e3792d528e",
-      "title": "hkk-Gesundheitsreport: Neue Diabetesmedikamente auf dem Vormarsch - Versorgungspotenziale bleiben - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE04bS1pNEo3cjBRTDFWWk1DZG5JZlNybFFXcVZJRV9xMWk1b1BLLXRHZjVXLXJsdFNnUTdrVno3TmlIakRPcFVsN3h1VUp3MUw3RGhoeFFscw?oc=5",
-      "published": "2026-11-03T09:00:07+00:00",
+      "id": "8a5dc46a4efd",
+      "title": "Erstattungsbetrag: Preisfestlegung für neue Medikamente - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUHN6Rk0zYW0xanpneTJrREhFdnJPVXFKckJsaHFBTWpYUElxdGN2ZUtydnkteHFHRHl2dERmeEVUMF8xUEh4Z3M4VEhJY0dfNDFpc0Vnc283akhUeTRkZEdSUzZxMjlmTmxBMmdMV2pKWi04UDZENVpvdjJPMXJxZEJ5SS13ZkZlSzVWODd0YjRPTjliYmttdXNUVkR6emgwU09xSQ?oc=5",
+      "published": "2025-02-22T04:19:00+00:00",
       "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -328,16 +328,6 @@
       "title": "Gesundheit: Arzneimittel Roactemra erhält EU-Zulassung bei Covid-19 - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVnhLZzlVX2gyNUNFTjJhdnZpVGFyM2tRRVdQR3RnMDV4U0lxUkNRdl9VRmMtN2xKbm9ZWTQ5OFlYOVQtRm8yT2xZb2dNcDVQaFV4eHBuVFZBa19pU0NqSERvUUYtaVRyMElkMHRRT0RjZGVrMUtZb3lCdkFFcDgxbkVzZ3JYWlZzeEdHLWFuQlZpbl9VUWZB?oc=5",
       "published": "2021-12-07T08:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
-      }
-    },
-    {
-      "id": "602985cda9f2",
-      "title": "Gesundheit: Medikamente zur Rauchentwöhnung sind keine Kassenleistung - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORVp5QnRTQzJPTFRLNWJXWW5ocVVKVlZpck5ZZjVhVlU0MWswZ3J2d0loRURvaXM0a0FNZkRFNmtaUDVZdWdBeTFqR05HcHg5c1RveGd1SjBPU1J2b3B3NHQ4d0lqQ3l6ZDhzbWJoazlmQXhkNlAxUmRUcnFQRmI2czhDcFgtTTBuSlUzOXJRYXNXMnltdGYxUTkySHg1UmlXUXR2UnpyNlpEdjNMVXNaWUg1MW5iR3RIb0lteEtRNDlYQWdXWmdLZ1cwbUkxYlBiTVhhbw?oc=5",
-      "published": "2019-05-28T07:00:00+00:00",
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
