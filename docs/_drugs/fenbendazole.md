@@ -38,7 +38,13 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 ## Zusammenfassung
 
-Fenbendazol ist ein Benzimidazol-Anthelminthikum. In den für diesen Bericht zusammengestellten Daten ist es nur mit einer inzwischen erloschenen Zulassung für ein Tierarzneimittel (Panacur AquaSol) in Deutschland verzeichnet. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Harnblasenkarzinom** voraus (Score 0,9999). Für die eng verwandte Bezeichnung „Harnblasenneoplasma" liegen **3 Publikationen** vor, davon 2 aktuelle präklinische Arbeiten zum Blasenkrebs. **Klinische Studien am Menschen gibt es derzeit keine.**
+Fenbendazol ist ein Benzimidazol-Anthelminthikum. In den für diesen Bericht zusammengestellten Daten ist es nur mit einer gültigen Zulassung für ein Tierarzneimittel (Panacur AquaSol) in Deutschland verzeichnet. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Harnblasenkarzinom** voraus (Score 0,9999). Für die eng verwandte Bezeichnung „Harnblasenneoplasma" liegen **3 Publikationen** vor, davon 2 aktuelle präklinische Arbeiten zum Blasenkrebs. **Klinische Studien am Menschen gibt es derzeit keine.**
+
+<!-- review:begin de-lic-20261112-fenbendazole-1 -->
+
+> **Prüfkorrektur (2026-11-12)**: Ursprünglich stand hier: „einer inzwischen erloschenen Zulassung“ Laut den EMA-Daten (Stand 2026-11-09) ist die Zulassung für Panacur AquaSol (EMEA/V/C/002008, Tierarzneimittel) gültig („Authorised“). Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261112-fenbendazole-1 -->
 
 ---
 
@@ -110,6 +116,19 @@ Für das vorhergesagte Harnblasenkarzinom besteht lediglich eine Modellvorhersag
 - Prüfung der Originalpublikationen zu Studiendesign und Ergebnissen
 - Klärung der Applikationswege (intravesikal) und der Darreichungsform für den Humangebrauch
 - Gegebenenfalls präklinische In-vivo-Daten und Toxizitätsstudien vor jeder Humanstudie
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-12 | Status der Zulassung (Panacur AquaSol): „erloschen“ → „gültig“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

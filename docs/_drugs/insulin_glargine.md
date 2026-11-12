@@ -95,13 +95,19 @@ Für den Kandidaten auf Rang 6 (Pankreasagenesie, Evidenzlevel L4) wurden indire
 
 ## Marktinformationen Deutschland
 
-Fünf der sechs Zulassungen sind gültig. Es handelt sich um zentrale EU-Zulassungen (EMA-Nummern):
+Alle sechs Zulassungen sind gültig. Es handelt sich um zentrale EU-Zulassungen (EMA-Nummern):
 
 <!-- review:begin de-lic-20261106-insulin_glargine-2 -->
 
 > **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Eine sechste Zulassung (Suliqua, EMEA/H/C/004243, Diabetes mellitus Typ 2) ist ebenfalls erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 6 Zulassungen erfasst, davon 6 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-insulin_glargine-2 -->
+
+<!-- review:begin de-lic-20261112-insulin_glargine-1 -->
+
+> **Prüfkorrektur (2026-11-12)**: Ursprünglich stand hier: „Fünf der sechs Zulassungen sind gültig.“ Laut den EMA-Daten (Stand 2026-11-09) sind alle 6 erfassten Zulassungen gültig („Authorised“), auch Suliqua (EMEA/H/C/004243). Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261112-insulin_glargine-1 -->
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -161,8 +167,9 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Klärung des Zulassungs- und Marktstatus in Deutschland (aktuell nur erloschene Zulassungen)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Entfernt: „Eine sechste Zulassung (Suliqua, EMEA/H/C/004243, Diabetes mellitus Typ 2) ist ebenfalls erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Eine sechste Zulassung (Suliqua, EMEA/H/C/004243, Diabetes mellitus Typ 2) ist ebenfalls erloschen“ | Korrigiert (überarbeitet am 2026-11-12; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „5 von 6 Zulassungen sind gültig“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Zahl der gültigen Zulassungen: 5 von 6 → alle 6 | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

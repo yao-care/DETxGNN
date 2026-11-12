@@ -34,4 +34,4 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 其中 6 筆因報告在 11 月經 AI 重產、原句已不在頁面，標 resolved_by_regeneration）。
 其中 nepafenac、ranibizumab、dantrolene 三頁的原刪句在縮寫「z. B.」處把句子切斷、頁面留下殘句，2026-11-12 依紀錄改成只刪矛盾子句（dantrolene 整句建立在「nur erloschen」錯誤前提上，整句刪），殘句版本留在各筆紀錄的 history。
 
-2026-11-12 正文許可證張數對事實層掃描：meloxicam 正文說 16 張 EMA 集中許可「全部撤銷」，證據包 16 張獸用許可（EMEA/V/C）狀態全是 Authorised，用 3 筆 correct 紀錄更正（`de-lic-20261112-meloxicam-*`）；其餘頁的許可證張數跟事實層一致。
+2026-11-12 正文許可證張數對事實層掃描：meloxicam 正文說 16 張 EMA 集中許可「全部撤銷」，證據包 16 張獸用許可（EMEA/V/C）狀態全是 Authorised，用 3 筆 correct 紀錄更正（`de-lic-20261112-meloxicam-*`）；另 5 頁依事實層與證據包原始狀態更正（fenbendazole、insulin_human 的獸用許可寫成已失效，實際 Authorised；insulin_glargine「6 中 5 有效」→全部 6 張；pertuzumab「3 中 2」→全部 3 張；trastuzumab 刪「目前 1 張有效」），id `de-lic-20261112-*`。

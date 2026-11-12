@@ -103,7 +103,13 @@ Die vorhergesagte Indikation liegt somit im Rahmen des bekannten Wirkprinzips. D
 
 ## Marktinformationen Deutschland
 
-Es besteht derzeit eine gültige Zulassung. Alle 11 erfassten Zulassungen sind gültig. Die Angaben zu Darreichungsformen fehlen in den Daten.
+Alle 11 erfassten Zulassungen sind gültig. Die Angaben zu Darreichungsformen fehlen in den Daten.
+
+<!-- review:begin de-lic-20261112-trastuzumab-1 -->
+
+> **Prüfkorrektur (2026-11-12)**: Ursprünglich stand hier: „Es besteht derzeit eine gültige Zulassung.“ Entfernt: Laut den EMA-Daten (Stand 2026-11-09) sind 11 Zulassungen erfasst, alle gültig; das steht im folgenden Satz. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261112-trastuzumab-1 -->
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -174,6 +180,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „da alle Zulassungen aufgehoben sind“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Entfernt: „Es besteht derzeit eine gültige Zulassung“ (es sind 11 gültige) | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

@@ -101,7 +101,13 @@ Wichtig: Die Studienlage bezieht sich überwiegend auf HER2-positive Kohorten in
 | EMEA/H/C/006583 | Poherdy | – | Mammakarzinom |
 | EMEA/H/C/005386 | Phesgo | – | Mammakarzinom |
 
-Zwei von drei Zulassungen sind gültig.
+Alle drei Zulassungen sind gültig.
+
+<!-- review:begin de-lic-20261112-pertuzumab-1 -->
+
+> **Prüfkorrektur (2026-11-12)**: Ursprünglich stand hier: „Zwei von drei Zulassungen sind gültig.“ Laut den EMA-Daten (Stand 2026-11-09) sind alle 3 erfassten Zulassungen (Perjeta, Poherdy, Phesgo) gültig („Authorised“). Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261112-pertuzumab-1 -->
 
 ---
 
@@ -156,6 +162,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „und die deutschen Zulassungen sind sämtlich erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Zahl der gültigen Zulassungen: 2 von 3 → alle 3 | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

@@ -2478,7 +2478,32 @@
    "checked": "2026-11-06",
    "summary": "Entfernt: „Eine sechste Zulassung (Suliqua, EMEA/H/C/004243, Diabetes mellitus Typ 2) ist ebenfalls erloschen“",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d93da0c4（2026-11-06）",
-   "anchor": "Fünf der sechs Zulassungen sind gültig. Es handelt sich um zentrale EU-Zulassungen (EMA-Nummern):"
+   "anchor": "Es handelt sich um zentrale EU-Zulassungen (EMA-Nummern):",
+   "history": [
+    {
+     "id": "de-lic-20261106-insulin_glargine-2",
+     "drug": "insulin_glargine",
+     "file": "insulin_glargine.md",
+     "action": "correct",
+     "claim": "Eine sechste Zulassung (Suliqua, EMEA/H/C/004243, Diabetes mellitus Typ 2) ist ebenfalls erloschen.",
+     "replacement": "",
+     "note": "Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 6 Zulassungen erfasst, davon 6 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "EMA – Medicines output (European public assessment reports)",
+       "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "summary": "Entfernt: „Eine sechste Zulassung (Suliqua, EMEA/H/C/004243, Diabetes mellitus Typ 2) ist ebenfalls erloschen“",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d93da0c4（2026-11-06）",
+     "anchor": "Fünf der sechs Zulassungen sind gültig. Es handelt sich um zentrale EU-Zulassungen (EMA-Nummern):",
+     "retired": "2026-11-12",
+     "reason": "錨點那句「Fünf der sechs Zulassungen sind gültig.」由 de-lic-20261112-insulin_glargine-1 依事實層更正（6 張全部有效）；錨點改成同段不受更正影響的後半句，框的位置不變"
+    }
+   ]
   },
   {
    "id": "de-lic-20261106-insulin_glargine-3",
@@ -6750,6 +6775,107 @@
    "claim": "Zudem sind alle Zulassungen in Deutschland aufgehoben,",
    "replacement": "Zudem ist keine zentrale EU-Zulassung für Menschen erfasst (nur 16 gültige Zulassungen für Tierarzneimittel),",
    "summary": "„alle Zulassungen aufgehoben“ → keine zentrale EU-Zulassung für Menschen, 16 gültige für Tierarzneimittel"
+  },
+  {
+   "id": "de-lic-20261112-fenbendazole-1",
+   "drug": "fenbendazole",
+   "file": "fenbendazole.md",
+   "action": "correct",
+   "claim": "einer inzwischen erloschenen Zulassung",
+   "replacement": "einer gültigen Zulassung",
+   "summary": "Status der Zulassung (Panacur AquaSol): „erloschen“ → „gültig“",
+   "note": "Laut den EMA-Daten (Stand 2026-11-09) ist die Zulassung für Panacur AquaSol (EMEA/V/C/002008, Tierarzneimittel) gültig („Authorised“).",
+   "finding": "證據包 veterinary_records：Panacur AquaSol EMEA/V/C/002008 狀態 Authorised；正文寫已失效",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數與狀態對事實層與證據包原始狀態）"
+  },
+  {
+   "id": "de-lic-20261112-insulin_human-1",
+   "drug": "insulin_human",
+   "file": "insulin_human.md",
+   "action": "correct",
+   "claim": "Eine weitere erloschene Zulassung",
+   "replacement": "Eine weitere, gültige Zulassung für ein Tierarzneimittel",
+   "summary": "ProZinc: „erloschen“ → gültige Zulassung für ein Tierarzneimittel",
+   "note": "Laut den EMA-Daten (Stand 2026-11-09) ist die Zulassung für ProZinc (EMEA/V/C/002634, Tierarzneimittel) gültig („Authorised“).",
+   "finding": "證據包 veterinary_records：ProZinc EMEA/V/C/002634 狀態 Authorised；正文寫已失效",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數與狀態對事實層與證據包原始狀態）"
+  },
+  {
+   "id": "de-lic-20261112-insulin_glargine-1",
+   "drug": "insulin_glargine",
+   "file": "insulin_glargine.md",
+   "action": "correct",
+   "claim": "Fünf der sechs Zulassungen sind gültig.",
+   "replacement": "Alle sechs Zulassungen sind gültig.",
+   "summary": "Zahl der gültigen Zulassungen: 5 von 6 → alle 6",
+   "note": "Laut den EMA-Daten (Stand 2026-11-09) sind alle 6 erfassten Zulassungen gültig („Authorised“), auch Suliqua (EMEA/H/C/004243).",
+   "finding": "事實層 total 6、valid 6（Suliqua 也是 Authorised）；11-06 刪句工具刪了「Suliqua 已失效」那句，但留下依同一錯誤前提寫的「6 張中 5 張有效」",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數與狀態對事實層與證據包原始狀態）"
+  },
+  {
+   "id": "de-lic-20261112-pertuzumab-1",
+   "drug": "pertuzumab",
+   "file": "pertuzumab.md",
+   "action": "correct",
+   "claim": "Zwei von drei Zulassungen sind gültig.",
+   "replacement": "Alle drei Zulassungen sind gültig.",
+   "summary": "Zahl der gültigen Zulassungen: 2 von 3 → alle 3",
+   "note": "Laut den EMA-Daten (Stand 2026-11-09) sind alle 3 erfassten Zulassungen (Perjeta, Poherdy, Phesgo) gültig („Authorised“).",
+   "finding": "事實層 total 3、valid 3；證據包 3 張（Perjeta、Poherdy、Phesgo）均為 Authorised",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數與狀態對事實層與證據包原始狀態）"
+  },
+  {
+   "id": "de-lic-20261112-trastuzumab-1",
+   "drug": "trastuzumab",
+   "file": "trastuzumab.md",
+   "action": "correct",
+   "claim": "Es besteht derzeit eine gültige Zulassung. ",
+   "replacement": "",
+   "summary": "Entfernt: „Es besteht derzeit eine gültige Zulassung“ (es sind 11 gültige)",
+   "note": "Entfernt: Laut den EMA-Daten (Stand 2026-11-09) sind 11 Zulassungen erfasst, alle gültig; das steht im folgenden Satz.",
+   "finding": "事實層 total 11、valid 11；正文同一段先寫「目前有 1 張有效許可」、下一句寫「11 張全部有效」，刪掉跟事實相反的前一句",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數與狀態對事實層與證據包原始狀態）",
+   "anchor": "Alle 11 erfassten Zulassungen sind gültig."
   }
  ]
 }

@@ -100,13 +100,19 @@ Derzeit liegt keine zugehörige Literatur vor.
 | EMEA/H/C/000441 | Insulatard | – | Diabetes mellitus |
 | EMEA/H/C/000201 | Insuman | – | Diabetes mellitus |
 
-Das Arzneimittel ist im Handel. Eine weitere erloschene Zulassung (ProZinc, EMEA/V/C/002634) enthält keine Angaben zur Indikation.
+Das Arzneimittel ist im Handel. Eine weitere, gültige Zulassung für ein Tierarzneimittel (ProZinc, EMEA/V/C/002634) enthält keine Angaben zur Indikation.
 
 <!-- review:begin de-lic-20261106-insulin_human-1 -->
 
 > **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Alle 6 genannten Zulassungen sind gültig, das Arzneimittel ist im Handel.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 5 Zulassungen erfasst, davon 5 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-insulin_human-1 -->
+
+<!-- review:begin de-lic-20261112-insulin_human-1 -->
+
+> **Prüfkorrektur (2026-11-12)**: Ursprünglich stand hier: „Eine weitere erloschene Zulassung“ Laut den EMA-Daten (Stand 2026-11-09) ist die Zulassung für ProZinc (EMEA/V/C/002634, Tierarzneimittel) gültig („Authorised“). Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261112-insulin_human-1 -->
 
 ---
 
@@ -151,6 +157,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Alle 6 genannten Zulassungen sind gültig, d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „(derzeit 6 gültige Zulassungen in Deutschland)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | ProZinc: „erloschen“ → gültige Zulassung für ein Tierarzneimittel | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 
