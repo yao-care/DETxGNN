@@ -7,7 +7,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 394
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -68,11 +68,29 @@ Das Nachweispaket enthält zwei blockierende Lücken, die verhindern, dass ein s
 
 **3. Sicherheitsdaten fehlen vollständig (DG001, Schweregrad: Blockierend).** Alle Einträge in `key_warnings`, `contraindications` und DDI tragen den Status `[Data Gap]` oder `not_found`. Dies wird im Meta-Bereich als blockierende Lücke klassifiziert, was bedeutet, dass die Pipeline nicht zum Sicherheitsscreening (S1) voranschreiten sollte, ohne zunächst das Beipackzettel-PDF von der BfArM-offiziellen Quelle herunterzuladen und zu analysieren.
 
+<!-- review:begin de-lic-20261106-repaglinide-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Dies wird im Meta-Bereich als blockierende Lücke klassifiziert, was bedeutet, dass die Pipeline nicht zum Sicherheitsscreening (S1) voranschreiten sollte, ohne zunächst das Beipackzettel-PDF von der TFDA/BfArM-offiziellen Quelle herunterzuladen und zu analysieren.“ Entfernt: Textbaustein aus der taiwanischen Vorlage (TFDA), der für diese Seite nicht gilt. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-repaglinide-2 -->
+
 ---
 
 ## Informationen zum Marktstatus Deutschland
 
 > **Hinweis:** Repaglinid-haltige Produkte (z. B. NovoNorm®) sind in mehreren Märkten weltweit zugelassen.
+
+<!-- review:begin de-lic-20261106-repaglinide-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Für Repaglinide sind derzeit keine Zulassungen in diesem Nachweispaket erfasst. Die `taiwan_regulatory`-Abfrage (BfArM) gab am 2026-03-29 0 Ergebnisse zurück.“ Entfernt: Textbaustein aus der taiwanischen Vorlage (TFDA), der für diese Seite nicht gilt. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-repaglinide-1 -->
+
+<!-- review:begin de-lic-20261106-repaglinide-3 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „NovoNorm®) sind in mehreren Märkten weltweit zugelassen. Das Fehlen von Einträgen hier spiegelt wahrscheinlich eine Datenbeschaffungslücke wider und nicht eine echte Nicht-Zulassung. Dies sollte vor der Schlussfolgerung „nicht zugelassen" direkt in der BfArM-Produktdatenbank überprüft werden.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 6 Zulassungen erfasst, davon 5 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-repaglinide-3 -->
 
 ---
 
@@ -98,6 +116,34 @@ Das Nachweispaket ist strukturell unvollständig – es gibt keine TxGNN-Vorhers
 - [ ] **DG002 (Hoch) beheben:** DrugBank-API für den vollständigen MOA-Eintrag abfragen und `original_moa` füllen.
 - [ ] **Marktstatus Deutschland überprüfen:** BfArM-Produktdatenbank auf Zulassungen für NovoNorm® oder äquivalente Repaglinide-Produkte überprüfen.
 - [ ] **Nachweispaket neu generieren** (v5+), sobald die oben genannten Lücken geschlossen sind, und dann diese Berichtvorlage mit gefülltem `predicted_indications[0]` neu ausführen.
+
+<!-- review:begin de-lic-20261106-repaglinide-4 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „[ ] **DG001 (Blockierend) beheben:** Beipackzettel-PDF für Repaglinide von TFDA/BfArM herunterladen und analysieren, um wichtige Warnungen und Kontraindikationen zu extrahieren.“ Entfernt: Textbaustein aus der taiwanischen Vorlage (TFDA), der für diese Seite nicht gilt. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-repaglinide-4 -->
+
+<!-- review:begin de-lic-20261106-repaglinide-5 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „[ ] **Marktstatus Deutschland überprüfen:** BfArM-Produktdatenbank auf Zulassungen für NovoNorm® oder äquivalente Repaglinide-Produkte überprüfen; das aktuelle 0-Ergebnis ist wahrscheinlich eine Datenlücke und kein tatsächliches Fehlen der behördlichen Zulassung.“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 6 Zulassungen erfasst, davon 5 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-repaglinide-5 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Für Repaglinide sind derzeit keine Zulassungen in diesem Nachweispaket erfasst. Die `taiwan_regulatory`-Abfrage (BfArM) gab am 2026-03-29 0 “ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „TFDA/“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Das Fehlen von Einträgen hier spiegelt wahrscheinlich eine Datenbeschaffungslücke wider und nicht eine echte Nicht-Zulassung. Dies sollte vo“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „TFDA/“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „das aktuelle 0-Ergebnis ist wahrscheinlich eine Datenlücke und kein tatsächliches Fehlen der behördlichen Zulassung“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

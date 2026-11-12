@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 481
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "TRAVOPROST"
 predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis", "idiopathic spontaneous coronary artery dissection", "hemangioendothelioma"]
 description: "Travoprost: vorhergesagte neue Indikation Viszerale Kalziphylaxie (visceral calciphylaxis) (Evidenzstufe L5). Ursprüngliche Indikation: Ocular Hypertension"
@@ -149,6 +149,25 @@ Die Vorhersage zur viszeralen Kalziphylaxie beruht allein auf dem Modell (L5), o
 - Präklinische Belege für einen Zusammenhang zwischen FP-Rezeptor-Signalweg und Kalziphylaxe
 - Klärung der Applikationsroute, da topische Augentropfen kaum systemisch wirken
 - Prüfung der Wirkstoffverfügbarkeit
+
+<!-- review:begin de-lic-20261106-travoprost-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Prüfung der Wirkstoffverfügbarkeit angesichts der erloschenen Zulassungen“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 3 Zulassungen erfasst, davon 3 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-travoprost-1 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „angesichts der erloschenen Zulassungen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

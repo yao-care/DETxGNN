@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 464
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Tildrakizumab: vorhergesagte neue Indikation Schwere nichtproliferative diabetische Retinopathie (Evidenzstufe L5). Ursprüngliche Indikation: Psoriasis"
 monitor_inn: "TILDRAKIZUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "drug-induced osteoporosis"]
@@ -116,12 +116,38 @@ Zu Warnhinweisen und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Begründung:**
 Die Vorhersage stützt sich ausschließlich auf das Modell (L5), ohne klinische Studien oder Publikationen. Der mechanistische Zusammenhang ist spekulativ, ein okulärer Wirkansatz fehlt, und mit Anti-VEGF-Therapien existiert ein etablierter Standard.
 
+<!-- review:begin de-lic-20261106-tildrakizumab-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Der mechanistische Zusammenhang ist spekulativ, ein okulärer Wirkansatz fehlt, und mit Anti-VEGF-Therapien existiert ein etablierter Standard. Zudem ist die deutsche Zulassung erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-tildrakizumab-1 -->
+
 **Für ein Weiterkommen sind folgende Punkte erforderlich:**
 - Präklinische oder mechanistische Studien zur Rolle der IL-23/IL-17-Achse bei diabetischer Retinopathie
 - Detaillierte Wirkmechanismusdaten (MOA)
 - Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen), da diese Sicherheitsdaten derzeit fehlen
 - Klärung der Machbarkeit (Applikationsweg, okuläre Verfügbarkeit)
 - Klärung des regulatorischen Status in Deutschland/EU
+
+<!-- review:begin de-lic-20261106-tildrakizumab-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung des regulatorischen Status in Deutschland/EU (erloschene Zulassung)“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-tildrakizumab-2 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem ist die deutsche Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „(erloschene Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 50
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "AZATHIOPRINE"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
 description: "Azathioprine: vorhergesagte neue Indikation Colobomatous microphthalmia-rhizomelic dysplasia syndrome (Evidenzstufe L5). Ursprüngliche Indikation: Graft Rejection"
@@ -143,6 +143,25 @@ Ergänzend bitte die Fachinformation heranziehen.
 - Fachinformation (Warnhinweise, Kontraindikationen) aus der BfArM-Quelle beschaffen, da diese Daten fehlen und die Sicherheitsprüfung sonst nicht abgeschlossen werden kann.
 - Detaillierte Wirkmechanismusdaten aus der Arzneistoffdatenbank ergänzen.
 - Sicherheitsüberwachungsplan (TPMT/NUDT15-Testung, Blutbild, Leberwerte, Malignomrisiko) für die Zielpopulation festlegen.
+
+<!-- review:begin de-lic-20261031-azathioprine-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Klären, dass in Deutschland nur eine erloschene Zulassung vorliegt, und den regulatorischen Status der Indikation CED prüfen. / Sicherheitsüberwachungsplan (TPMT/NUDT15-Testung, Blutbild, Leberwerte, Malignomrisiko) für die Zielpopulation festlegen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-azathioprine-1 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Klären, dass in Deutschland nur eine erloschene Zulassung vorliegt, und den regulatorischen Status der Indikation CED prüfen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

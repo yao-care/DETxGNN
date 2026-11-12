@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 348
 evidence_level: L1
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "PEGINTERFERON ALFA-2A"
 predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
 description: "Peginterferon Alfa-2A: vorhergesagte neue Indikation Hepatitis E virus infection (Evidenzstufe L1). Ursprüngliche Indikation: Hepatitis C, Chronic"
@@ -129,12 +129,38 @@ Warnhinweise und Gegenanzeigen aus der Fachinformation liegen nicht vor. Bitte d
 **Begründung:**
 Für Hepatitis B liegen mehrere Phase-3/4-Studien und randomisierte Studien sowie Metaanalysen vor (Evidenzlevel L1). Es handelt sich jedoch um eine bereits zugelassene Indikation. Mehrere Studien sind klein oder haben einen unbekannten Status.
 
+<!-- review:begin de-lic-20261106-peginterferon_alfa-2a-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Es handelt sich jedoch um eine bereits zugelassene Indikation, und die EU-Zulassung in Deutschland ist erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-peginterferon_alfa-2a-1 -->
+
 **Für das weitere Vorgehen erforderlich:**
 - Klärung des Zulassungs- bzw. Vermarktungsstatus
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen (Sicherheitsprüfung ist derzeit blockiert)
 - Daten zum Wirkmechanismus (MOA) aus DrugBank ergänzen
 - Sicherheitsüberwachungsplan, insbesondere für kardiale und neuropsychiatrische Risiken sowie die Wechselwirkungen mit hohem Schweregrad
 - Die übrigen vorhergesagten Indikationen (Hepatitis E: „Research Question"; alle anderen: „Hold") nicht weiterverfolgen, solange keine direkte Evidenz vorliegt
+
+<!-- review:begin de-lic-20261106-peginterferon_alfa-2a-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Vermarktungsstatus (erloschene Zulassung; ggf. Verfügbarkeit anderer Peginterferon-Präparate)“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-peginterferon_alfa-2a-2 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „und die EU-Zulassung in Deutschland ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „(erloschene Zulassung; ggf. Verfügbarkeit anderer Peginterferon-Präparate)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

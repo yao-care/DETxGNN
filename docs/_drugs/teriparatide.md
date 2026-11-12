@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 458
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-12
 description: "Teriparatide: vorhergesagte neue Indikation Duodenalulkus (Evidenzstufe L5). Ursprüngliche Indikation: Osteoporose"
 monitor_inn: "TERIPARATIDE"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
@@ -80,6 +80,12 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 
 Es handelt sich um zentrale EU-Zulassungen (EMEA/H/C). Die ersten fünf sind:
 
+<!-- review:begin de-lic-20261106-teriparatide-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Alle acht Zulassungen sind aufgehoben. Es handelt sich um zentrale EU-Zulassungen (EMEA/H/C).“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 8 Zulassungen erfasst, davon 8 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-teriparatide-1 -->
+
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/000425 | Forsteo | nicht angegeben | Osteoporose; postmenopausale Osteoporose |
@@ -121,16 +127,43 @@ Die Angaben aus der Fachinformation (Warnhinweise, Gegenanzeigen) lagen für die
 **Begründung:**
 Für Duodenalulkus gibt es weder Studien noch Publikationen, und ein plausibler Wirkmechanismus fehlt. Die Sicherheitsangaben aus der Fachinformation aber fehlen.
 
+<!-- review:begin de-lic-20261106-teriparatide-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Hinzu kommt, dass in Deutschland derzeit 7 von 8 Zulassungen gültig sind, die Sicherheitsangaben aus der Fachinformation aber fehlen.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 8 Zulassungen erfasst, davon 8 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-teriparatide-2 -->
+
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Prüfen, ob für Duodenalulkus präklinische oder mechanistische Hinweise existieren (z. B. Literaturrecherche zu PTH-Rezeptoren im Magen-Darm-Trakt).
 - Wirkmechanismus-Daten (MOA) ergänzen, z. B. aus DrugBank.
 - Warnhinweise und Gegenanzeigen aus der Fachinformation beschaffen (derzeit eine blockierende Datenlücke).
 - Verfügbarkeit der Produkte klären.
 
+<!-- review:begin de-lic-20261106-teriparatide-3 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Verfügbarkeit der Produkte klären, da alle Zulassungen aufgehoben sind.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 8 Zulassungen erfasst, davon 8 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-teriparatide-3 -->
+
 **Hinweis zu anderen Vorhersagen:** Unter den zehn vorhergesagten Indikationen sind zwei deutlich besser belegt als das Duodenalulkus:
 - **Amenorrhoe** (Vorhersagewert 0,9904, Evidenzlevel L4, Empfehlung „Research Question“): Der Bezug besteht indirekt über die Knochengesundheit bei funktioneller hypothalamischer Amenorrhoe.
 
 Eine vertiefte Bewertung dieser beiden Indikationen wäre wahrscheinlich aussichtsreicher als die des Duodenalulkus.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Alle acht Zulassungen sind aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Hinzu kommt, dass in eutschland derzeit 7 von 8 Zulassungen gültig sind, d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „da alle Zulassungen aufgehoben sind“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

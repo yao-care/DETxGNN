@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 368
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "PRAVASTATIN"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin: vorhergesagte neue Indikation HIV infectious disease (Evidenzstufe L4). Ursprüngliche Indikation: Dyslipidemias"
@@ -115,11 +115,30 @@ Für Warnhinweise und Gegenanzeigen im Sinne der Fachinformation siehe die Packu
 **Begründung:**
 Für die homozygote familiäre Hypercholesterinämie gibt es keine direkte Evidenz für Pravastatin; die einzige Studie prüft Alirocumab. Zudem ist bei fehlender LDL-Rezeptorfunktion nur eine begrenzte Statinwirkung zu erwarten.
 
+<!-- review:begin de-lic-20261106-pravastatin-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem ist bei fehlender LDL-Rezeptorfunktion nur eine begrenzte Statinwirkung zu erwarten, und die deutsche Zulassung ist erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-pravastatin-1 -->
+
 **Für ein Weiterverfolgen sind folgende Punkte nötig:**
 - Direkte klinische Daten zu Pravastatin bei homozygoter FH (bisher nicht vorhanden)
 - Daten zum Wirkmechanismus aus DrugBank
 - Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) über das BfArM
 - Prüfung der alternativen Kandidaten: heterozygote FH (L3) und HIV-assoziierte Dyslipidämie (L2) haben deutlich bessere Evidenz und könnten vorrangig als Forschungsfragen verfolgt werden
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „und die deutsche Zulassung ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 131
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Darolutamide: vorhergesagte neue Indikation Homozygote familiäre Hypercholesterinämie (Evidenzstufe L5). Ursprüngliche Indikation: Kastrationsresistentes Prostatakarzinom"
 monitor_inn: "DAROLUTAMIDE"
 predicted_indications: ["homozygous familial hypercholesterolemia", "multiple endocrine neoplasia", "HIV infectious disease"]
@@ -76,6 +76,12 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 Derzeit liegt keine zugehörige Literatur vor.
 
+<!-- review:begin de-lic-20261106-darolutamide-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Diese Zulassung ist als erloschen geführt.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-darolutamide-1 -->
+
 ---
 
 ## Informationen zum Markt in Deutschland
@@ -117,6 +123,12 @@ Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 **Begründung:**
 Für die vorhergesagte Indikation gibt es weder klinische Studien noch Literatur, und ein plausibler Wirkmechanismus ist nicht erkennbar.
 
+<!-- review:begin de-lic-20261106-darolutamide-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Für die vorhergesagte Indikation gibt es weder klinische Studien noch Literatur, und ein plausibler Wirkmechanismus ist nicht erkennbar. Zudem ist die einzige deutsche Zulassung erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-darolutamide-2 -->
+
 **Für ein Weiterkommen sind folgende Punkte nötig:**
 - Daten zum Wirkmechanismus (MOA) ergänzen und auf eine mögliche Verbindung zum LDL-Rezeptor-Signalweg prüfen
 - Warnhinweise und Gegenanzeigen aus der Fachinformation einholen und auswerten
@@ -131,6 +143,20 @@ Zwei weitere Vorhersagen mit ebenfalls hohen TxGNN-Werten wurden geprüft; beide
 
 - **Multiple endokrine Neoplasie** (Wert 0,9906, Evidenzstufe L4): Der Zusammenhang ist nur indirekt. Die Erkrankung wird durch Keimbahnmutationen (z. B. MEN1, RET) getrieben, eine Abhängigkeit vom Androgenrezeptor ist nicht etabliert. Die beiden zugeordneten Studien (NCT07795177, Phase 2, noch nicht rekrutierend, 40 Teilnehmende; NCT03878524, Phase 1, abgebrochen, 2 Teilnehmende) betreffen offenbar das Prostatakarzinom und liefern keine direkte Evidenz.
 - **HIV-Infektion** (Wert 0,9904, Evidenzstufe L5): Es gibt keine bekannte antivirale Wirkung, keine Studien und keine Literatur. Die 100 erfassten Wechselwirkungen wären bei Patienten unter antiretroviraler Therapie besonders zu beachten.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Diese Zulassung ist als erloschen geführt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

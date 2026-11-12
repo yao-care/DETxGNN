@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 467
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Tivozanib: vorhergesagte neue Indikation Endozervikales Karzinom (Evidenzstufe L5). Ursprüngliche Indikation: Nierenzellkarzinom"
 monitor_inn: "TIVOZANIB"
 predicted_indications: ["endocervical carcinoma", "uterine ligament adenocarcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "cervical adenosquamous carcinoma, glassy cell variant", "uterine ligament endometrioid adenocarcinoma", "uterine ligament mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma", "cervical mucinous adenocarcinoma, minimal deviation variant"]
@@ -124,12 +124,31 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation beachten.
 **Begründung:**
 Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzstufe L5), ohne klinische Studien oder Publikationen. Die Sicherheitsdaten aus der Fachinformation fehlen.
 
+<!-- review:begin de-lic-20261106-tivozanib-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem ist die einzige deutsche Zulassung erloschen, und die Sicherheitsdaten aus der Fachinformation fehlen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-tivozanib-1 -->
+
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Systematische Recherche zu klinischen Studien und Literatur zu VEGFR-Inhibitoren bei Zervixkarzinom und gynäkologischen Adenokarzinomen
 - Detaillierte Wirkmechanismus-Daten (MOA) aus DrugBank
 - Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM)
 - Klärung des aktuellen Zulassungs- und Vermarktungsstatus in Deutschland
 - Präklinische Daten oder frühe Studien zur Wirksamkeit bei den vorhergesagten Zervixkarzinom-Subtypen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche Zulassung erloschen, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

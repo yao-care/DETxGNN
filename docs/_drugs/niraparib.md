@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 316
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "NIRAPARIB"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
 description: "Niraparib: vorhergesagte neue Indikation Epiglottis neoplasm (Evidenzstufe L5). Ursprüngliche Indikation: Fallopian Tube Neoplasms"
@@ -130,12 +130,31 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation beachten.
 **Begründung:**
 Der TxGNN-Wert ist sehr hoch, die Evidenz stützt jedoch keine eindeutig neue Indikation: Die einzige relevante Studie (Phase 2, seröses Endometriumkarzinom) rekrutiert noch ohne Ergebnisse, und der Treffer „zystische Neoplasie“ ist teilweise ein Ontologie-Artefakt, das stark mit den bereits zugelassenen Ovarialindikationen überlappt. Die Sicherheitsdaten aus der Fachinformation fehlen, sodass keine Sicherheitsprüfung möglich ist.
 
+<!-- review:begin de-lic-20261106-niraparib-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem sind beide deutschen Zulassungen aufgehoben, und die Sicherheitsdaten aus der Fachinformation fehlen, sodass keine Sicherheitsprüfung möglich ist.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-niraparib-1 -->
+
 **Für das weitere Vorgehen sind erforderlich:**
 - Fachinformation des BfArM (Warnhinweise, Gegenanzeigen) beschaffen und auswerten
 - Daten zum Wirkmechanismus (z. B. über DrugBank) ergänzen
 - Ergebnisse der Studie NCT04716686 abwarten und bewerten
 - Klärung, welche konkrete Erkrankung hinter dem Begriff „zystische Neoplasie“ steht, und Abgrenzung von den bestehenden Ovarialindikationen
 - Klärung des regulatorischen Status (Gründe für die Aufhebung der Zulassungen)
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem sind beide deutschen Zulassungen aufgehoben, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

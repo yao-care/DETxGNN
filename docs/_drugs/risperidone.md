@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 406
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 description: "Risperidone: vorhergesagte neue Indikation Familiäre horizontale Blickparese mit progressiver Skoliose (Evidenzstufe L5). Ursprüngliche Indikation: Schizophrenie"
 monitor_inn: "RISPERIDONE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
@@ -116,10 +116,29 @@ Die Vorhersage stützt sich ausschließlich auf das Modell TxGNN (Deep Learning)
 - Präklinische Daten oder erste klinische Beobachtungen
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
 
+<!-- review:begin de-lic-20261031-risperidone-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen / Klärung der regulatorischen Verfügbarkeit (derzeit nur erloschene Zulassung)“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-risperidone-1 -->
+
 **Hinweis zu weiteren Vorhersagen:**
 Für dieselbe Substanz liegen weitere Vorhersagen mit deutlich besserer Evidenz vor, die gesondert bewertet werden sollten:
 - **Trichotillomanie:** Evidenzlevel L4 (Fallberichte und kleine Fallserien, keine kontrollierten Studien).
 - **Phelan-McDermid-Syndrom:** Evidenzlevel L4 (Übersichtsarbeit und Zebrafischstudie).
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Klärung der regulatorischen Verfügbarkeit (derzeit nur erloschene Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 40
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Asfotase Alfa: vorhergesagte neue Indikation Mitochondriale Störung der oxidativen Phosphorylierung durch Kern-DNA-Anomalien (Evidenzstufe L5). Ursprüngliche Indikation: Hypophosphatasie"
 monitor_inn: "ASFOTASE ALFA"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Steel syndrome", "exocrine pancreatic insufficiency", "Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "familial apolipoprotein C-II deficiency", "esophageal varices with bleeding", "esophageal varices without bleeding", "cystinosis"]
@@ -76,6 +76,12 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 Derzeit ist keine zugehörige Literatur verfügbar.
 
+<!-- review:begin de-lic-20261106-asfotase_alfa-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Hinweis: Diese Zulassung ist als erloschen/aufgehoben geführt.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-asfotase_alfa-1 -->
+
 ---
 
 ## Informationen zum Markt in Deutschland
@@ -99,11 +105,31 @@ Bitte die Packungsbeilage bzw. Fachinformation für Sicherheitsinformationen her
 **Begründung:**
 Die Vorhersage beruht ausschließlich auf einem Modellscore (Evidenzlevel L5), ohne Studien, Literatur oder plausiblen Wirkmechanismus.
 
+<!-- review:begin de-lic-20261106-asfotase_alfa-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die Vorhersage beruht ausschließlich auf einem Modellscore (Evidenzlevel L5), ohne Studien, Literatur oder plausiblen Wirkmechanismus. Zudem ist die einzige Zulassung in Deutschland als erloschen geführt.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-asfotase_alfa-2 -->
+
 **Für ein Weiterkommen sind folgende Punkte erforderlich:**
 - Daten zum Wirkmechanismus (MOA), z. B. aus DrugBank
 - Warnhinweise und Gegenanzeigen aus der Packungsbeilage (BfArM), da ohne sie keine Sicherheitsprüfung möglich ist
 - Präklinische Belege, die eine Rolle der TNAP-Aktivität bei mitochondrialen Störungen der oxidativen Phosphorylierung stützen
 - Klärung des aktuellen Zulassungs- und Marktstatus in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Hinweis: Diese Zulassung ist als erloschen/aufgehoben geführt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Zudem ist die einzige Zulassung in Deutschland als erloschen geführt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

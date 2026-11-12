@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 507
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Zidovudine: vorhergesagte neue Indikation Felines erworbenes Immundefizienzsyndrom (veterinärmedizinische Indik… (Evidenzstufe L5). Ursprüngliche Indikation: HIV-Infektion"
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -100,11 +100,23 @@ Für die Packungsbeilage relevante Warnhinweise und Gegenanzeigen liegen in den 
 **Begründung:**
 Die Evidenz für felines AIDS stammt ausschließlich aus Tier- und Veterinärstudien. Es gibt keine Humanstudien, und die Indikation ist veterinärmedizinisch.
 
+<!-- review:begin de-lic-20261031-zidovudine-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Es gibt keine Humanstudien, und die Indikation ist veterinärmedizinisch. Zudem sind in Deutschland nur erloschene Zulassungen vorhanden.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-zidovudine-1 -->
+
 **Weitere Schritte:**
 - Klärung, ob eine veterinärmedizinische Indikation überhaupt im Projektrahmen liegt
 - Beschaffung der Fachinformation des BfArM (Warnhinweise, Gegenanzeigen)
 - Daten zum Wirkmechanismus (MOA) aus DrugBank
 - Bewertung der Toxizität (u. a. hämatologisch) im Zieltier
+
+<!-- review:begin de-lic-20261031-zidovudine-2 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Bei den Rängen 5 und 6 sind Marktstatus (nur erloschene Zulassungen), Verdrängung durch moderne Kombinations-ART, hämatologische Toxizität und Wechselwirkungen als Leitplanken zu beachten.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-zidovudine-2 -->
 
 ---
 
@@ -115,6 +127,19 @@ Die Evidenz für felines AIDS stammt ausschließlich aus Tier- und Veterinärstu
 | 2 | Infektion mit dem Simianen Immundefizienzvirus | 0,9996 | L5 (Primatenstudien, keine Humanstudien) | Forschungsfrage |
 | 3 | Neuroentwicklungsstörung mit ataktischem Gang, fehlender Sprache und verminderter kortikaler weißer Substanz | 0,9996 | L5 | Hold |
 | 4 | Veraltet: familiäre kombinierte Hyperlipidämie | 0,9962 | L5 | Hold (Zidovudin kann Lipidstörungen eher verschlechtern) |
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Zudem sind in Deutschland nur erloschene Zulassungen vorhanden“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-10-31 | Entfernt: „Bei den Rängen 5 und 6 sind Marktstatus (nur erloschene Zulassungen), Verdrängung durch moderne Kombinations-ART, hämatologische Toxizität u“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

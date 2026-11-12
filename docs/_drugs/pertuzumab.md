@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 355
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-12
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 description: "Pertuzumab: vorhergesagte neue Indikation Ectomesenchymoma (Evidenzstufe L5). Ursprüngliche Indikation: Breast Neoplasms"
@@ -134,12 +134,31 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Begründung:**
 Für Pertuzumab liegen eine abgeschlossene Phase-3-Studie sowie mehrere randomisierte Studien (u. a. NeoSphere, WSG-ADAPT, WSG TP-II) vor, die die HER2-gerichtete Therapie in HR+/HER2+-Populationen stützen. Die PR-positive Untergruppe ist jedoch nicht gesondert ausgewertet.
 
+<!-- review:begin de-lic-20261106-pertuzumab-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die PR-positive Untergruppe ist jedoch nicht gesondert ausgewertet, und die deutschen Zulassungen sind sämtlich erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 3 Zulassungen erfasst, davon 3 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-pertuzumab-1 -->
+
 **Für das weitere Vorgehen erforderlich:**
 - Auswertung PR-spezifischer Untergruppendaten
 - Detaillierte Angaben zum Wirkmechanismus
 - Warnhinweise und Gegenanzeigen aus der aktuellen Fachinformation (insbesondere zur Kardiotoxizität)
 - Klärung des aktuellen Zulassungs- und Erstattungsstatus in Deutschland
 - Überwachungsplan für Herzfunktion und Wechselwirkungen (z. B. mit Idelalisib)
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „und die deutschen Zulassungen sind sämtlich erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

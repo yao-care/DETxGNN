@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 437
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "SPIRONOLACTONE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 description: "Spironolactone: vorhergesagte neue Indikation Hypotrichosis simplex der Kopfhaut (hypotrichosis simplex of the scalp) (Evidenzstufe L5). Ursprüngliche Indikation: Edema"
@@ -78,6 +78,12 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 Derzeit liegt keine zugehörige Literatur vor.
 
+<!-- review:begin de-lic-20261106-spironolactone-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Alle drei Zulassungen sind gültig.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-spironolactone-1 -->
+
 ---
 
 ## Marktinformationen Deutschland
@@ -112,6 +118,19 @@ Die Vorhersage stützt sich allein auf das Modell (Evidenzlevel L5), ohne Studie
 - Detaillierte Wirkmechanismus-Daten (z. B. aus DrugBank) zur Prüfung der mechanistischen Verbindung
 - Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM), da diese für das Sicherheitsscreening zwingend erforderlich sind
 - Klärung der Zulassungs- und Verfügbarkeitssituation in Deutschland sowie der geeigneten Darreichungsform (z. B. topisch oder oral)
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Alle drei Zulassungen sind gültig“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 215
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 description: "Glutamic Acid: vorhergesagte neue Indikation Postmenopausale Osteoporose (Evidenzstufe L4). Ursprüngliche Indikation: Ahornsirupkrankheit (Maple Syrup Urine Disease)"
 monitor_inn: "glutamic acid"
 predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]
@@ -101,6 +101,12 @@ Die Angaben aus der Packungsbeilage (Warnhinweise, Gegenanzeigen) konnten nicht 
 **Begründung:**
 Für postmenopausale Osteoporose gibt es keine registrierten klinischen Studien und keine direkte klinische Evidenz für Glutaminsäure; der hohe TxGNN-Wert ist eine reine Modellvorhersage. Mehrere vom Wissensgraphen gemeldete Kontraindikationen (z. B. Nieren- und Hyperkalzämie-Erkrankungen) betreffen Bevölkerungsgruppen, die bei Osteoporose häufig sind.
 
+<!-- review:begin de-lic-20261106-glutamic_acid-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem ist die einzige Zulassung erloschen, und mehrere vom Wissensgraphen gemeldete Kontraindikationen (z.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-glutamic_acid-1 -->
+
 **Für ein Weiterkommen sind erforderlich:**
 - Daten zu Warnhinweisen und Gegenanzeigen aus der Packungsbeilage (BfArM/EMA)
 - Daten zum Wirkmechanismus (z. B. über DrugBank)
@@ -114,6 +120,18 @@ Für postmenopausale Osteoporose gibt es keine registrierten klinischen Studien 
 | 2 | Schwangerschaftsassoziierte Osteoporose | 0,9918 | L5 | Hold: keine Studien, keine Literatur; Sicherheitsbewertung in der Schwangerschaft nötig |
 | 3 | Primäres hereditäres Glaukom | 0,9913 | L5 | Hold: keine Evidenz; erhöhtes Glutamat gilt als exzitotoxisch für retinale Ganglienzellen, ein Schaden ist plausibler als ein Nutzen |
 | 4 | Gastroparese | 0,9911 | L5 | Hold: die drei gefundenen Arbeiten betreffen autoimmune Gastroparese und prüfen Glutaminsäure nicht |
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem ist die einzige Zulassung erloschen, und m“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

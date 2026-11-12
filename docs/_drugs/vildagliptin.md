@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 499
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "VILDAGLIPTIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Vildagliptin: vorhergesagte neue Indikation Fokales Stiff-Limb-Syndrom (focal stiff limb syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes Mellitus, Type 2"
@@ -80,6 +80,12 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 
 Sieben von sieben Zulassungen sind gültig. Es handelt sich um zentrale EU-Zulassungen (EMEA/H/C), das Arzneimittel ist in Deutschland im Handel.
 
+<!-- review:begin de-lic-20261106-vildagliptin-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Weitere erloschene Zulassungen: Vildagliptin / Metformin hydrochloride Accord (EMEA/H/C/005738) und Icandra (EMEA/H/C/001050).“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 7 Zulassungen erfasst, davon 7 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-vildagliptin-1 -->
+
 | Zulassungsnummer | Produktname | Zulassungsinhaber | Zugelassene Indikation | Status |
 |---------|------|------|-----------|------|
 | EMEA/H/C/001051 | Xiliarx | Novartis Europharm Limited | Diabetes mellitus Typ 2 | Gültig |
@@ -112,6 +118,19 @@ Die Vorhersage zum fokalen Stiff-Limb-Syndrom beruht allein auf dem Modellwert d
 - Klärung des Zulassungs- bzw. Verfügbarkeitsstatus
 
 **Hinweis zu anderen Vorhersagen:** Unter den weiteren Vorhersagen im selben Datensatz hat **Diabetes mellitus Typ 1** die mit Abstand umfangreichste Evidenz. Dazu gehören sieben klinische Studien (u. a. eine abgeschlossene Phase-2-Studie mit Rapamycin und eine Phase-3-Studie mit unbekanntem Status) sowie mehrere Publikationen, darunter eine doppelblinde randomisierte Studie (PMID 33124663). Diese Indikation wäre als Forschungsfrage vorrangig zu prüfen. Die Studien sind jedoch klein, und es fehlen bestätigende Studien größeren Umfangs.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Weitere erloschene Zulassungen: Vildagliptin / Metformin hydrochloride Accord (EMEA/H/C/005738) und Icandra (EMEA/H/C/001050)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

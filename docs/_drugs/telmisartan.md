@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 449
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Telmisartan: vorhergesagte neue Indikation Prinzmetal-Angina (Evidenzstufe L5). Ursprüngliche Indikation: Hypertonie"
 monitor_inn: "TELMISARTAN"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
@@ -106,6 +106,12 @@ Die Literatur zur zerebralen Arterienokklusion besteht überwiegend aus Tierdate
 
 Das Arzneimittel ist im Handel. Es handelt sich um zentrale EU-Zulassungen (EMEA). Auswahl:
 
+<!-- review:begin de-lic-20261106-telmisartan-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Alle 13 Zulassungen sind gültig (13 von 13); das Arzneimittel ist im Handel.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 12 Zulassungen erfasst, davon 8 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-telmisartan-1 -->
+
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/000209 | Micardis | – | Hypertonie |
@@ -134,12 +140,32 @@ Bitte die Packungsbeilage für vollständige Warnhinweise und Kontraindikationen
 - Für Prinzmetal-Angina existiert ausschließlich eine Modellvorhersage ohne Studien oder Publikationen (L5). Das Arzneimittel ist in Deutschland im Handel.
 - Die aussichtsreicheren Kandidaten sind zerebrale Arterienokklusion (L4, überwiegend präklinisch) und intrazerebrale Blutung (TRIDENT-Phase-3-Studie, aber Kombinationstherapie, Beitrag von Telmisartan nicht isolierbar).
 
+<!-- review:begin de-lic-20261106-telmisartan-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Das Arzneimittel ist in Deutschland im Handel (13 von 13 Zulassungen gültig).“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 12 Zulassungen erfasst, davon 8 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-telmisartan-2 -->
+
 **Für ein Fortschreiten sind erforderlich:**
 - Wirkmechanismus-Daten (MOA) aus DrugBank
 - Warnhinweise und Kontraindikationen aus der BfArM-Packungsbeilage (derzeit blockierende Datenlücke für das Sicherheits-Screening)
 - Für Prinzmetal-Angina: Literaturrecherche und ggf. präklinische oder kleine klinische Studien zu Koronarspasmen
 - Für intrazerebrale Blutung: Auswertung der TRIDENT-Ergebnisse hinsichtlich des Telmisartan-Beitrags
 - Klärung des Zulassungsstatus (erloschene Zulassungen) und der Darreichungsformen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Alle 13 Zulassungen sind gültig (13 von 13); d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „(13 von 13 Zulassungen gültig)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 219
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Grazoprevir: vorhergesagte neue Indikation HIV-Infektion (Evidenzstufe L1). Ursprüngliche Indikation: Chronische Hepatitis C"
 monitor_inn: "GRAZOPREVIR"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -124,6 +124,12 @@ Für Warnhinweise und Gegenanzeigen siehe Fachinformation.
 **Begründung:**
 Für die Population mit HIV/HCV-Koinfektion liegt starke Evidenz aus mehreren Phase-3-Studien vor. Diese bestätigt jedoch die ursprüngliche HCV-Indikation und keine Wirkung gegen HIV. Die Vorhersage ist daher nicht als echtes Repurposing für HIV zu werten.
 
+<!-- review:begin de-lic-20261106-grazoprevir-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die Zulassung in Deutschland ist erloschen. Die Vorhersage ist daher nicht als echtes Repurposing für HIV zu werten.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-grazoprevir-1 -->
+
 **Für das weitere Vorgehen sind erforderlich:**
 - Klärung, ob tatsächlich eine anti-HIV-Wirkung geprüft werden soll (präklinische und mechanistische Daten fehlen)
 - Daten zum Wirkmechanismus
@@ -131,7 +137,27 @@ Für die Population mit HIV/HCV-Koinfektion liegt starke Evidenz aus mehreren Ph
 - Interaktionsmanagement mit antiretroviralen Therapien
 - Klärung des Zulassungsstatus
 
+<!-- review:begin de-lic-20261106-grazoprevir-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung des Zulassungsstatus (erloschene Zulassung)“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-grazoprevir-2 -->
+
 **Weitere Vorhersagen (zur Einordnung):** Hepatitis B, E und A, Omsk-Fieber, Kyasanur-Waldkrankheit, SIV, felines Immunschwächesyndrom und eine seltene neurologische Entwicklungsstörung wurden ebenfalls vorhergesagt. Für diese besteht jeweils keine belastbare Evidenz oder kein plausibler Mechanismus (Empfehlung: Hold). Bei der Kyasanur-Waldkrankheit gibt es lediglich eine In-silico-Studie, die als Forschungsfrage einzustufen ist.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Die Zulassung in Deutschland ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „(erloschene Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 334
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Oxybutynin: vorhergesagte neue Indikation Restless-Legs-Syndrom (Evidenzstufe L5). Ursprüngliche Indikation: Dranginkontinenz"
 monitor_inn: "OXYBUTYNIN"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
@@ -126,11 +126,30 @@ Zur drittplatzierten Vorhersage (peptisches Ulkus) wurden folgende Quellen gefun
 **Begründung:**
 Der Vorhersagewert für Restless-Legs-Syndrom ist hoch, es gibt jedoch weder klinische Studien noch Literatur, und ein plausibler Mechanismus fehlt. Für die anderen beiden Vorhersagen gilt dasselbe, bei peptischem Ulkus kommen ein Sicherheitssignal und die weitgehende Ablösung der Anticholinergika durch Protonenpumpenhemmer hinzu.
 
+<!-- review:begin de-lic-20261106-oxybutynin-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem ist die einzige deutsche Zulassung erloschen. Für die anderen beiden Vorhersagen gilt dasselbe, bei peptischem Ulkus kommen ein Sicherheitssignal und die weitgehende Ablösung der Anticholinergika durch Protonenpumpenhemmer hinzu.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-oxybutynin-1 -->
+
 **Für ein Weiterkommen sind erforderlich:**
 - Daten zum Wirkmechanismus (MOA), etwa aus DrugBank
 - Warnhinweise und Gegenanzeigen aus der Fachinformation (derzeit blockierende Datenlücke für die Sicherheitsbewertung)
 - Systematische Literaturrecherche zu Anticholinergika bei RLS, einschließlich möglicher Symptomverschlechterung
 - Klärung der Marktverfügbarkeit in Deutschland und möglicher Darreichungswege
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

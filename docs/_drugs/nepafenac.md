@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 310
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Nepafenac: vorhergesagte neue Indikation Augenerkrankung (eye disease) (Evidenzstufe L1). Ursprüngliche Indikation: Postoperative Schmerzen"
 monitor_inn: "NEPAFENAC"
 predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simplex of the scalp", "seborrheic keratosis", "von Hippel anomaly", "congenital hypotrichosis milia", "mcpherson robertson cammarano syndrome", "lagophthalmos", "vulvar inverted follicular keratosis", "vitreous detachment"]
@@ -133,12 +133,38 @@ Für weitere Sicherheitsinformationen siehe die Packungsbeilage.
 **Begründung:**
 Für Nepafenac liegen umfangreiche Phase-3-Studien mit abgeschlossener Auswertung vor (Entzündung und Schmerz nach Kataraktoperation, Makulaödem bei Diabetikern), sodass die Evidenz für die konkreten ophthalmologischen Anwendungen stark ist. Die Vorhersage „Augenerkrankung“ ist jedoch unspezifisch und weitgehend identisch mit dem bekannten Einsatz.
 
+<!-- review:begin de-lic-20261106-nepafenac-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die Vorhersage „Augenerkrankung“ ist jedoch unspezifisch und weitgehend identisch mit dem bekannten Einsatz; zudem ist die deutsche bzw. europäische Zulassung erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-nepafenac-2 -->
+
 **Für das weitere Vorgehen sind erforderlich:**
-B. Ilevro) in Deutschland verfügbar sind
+- Klärung des Zulassungs- und Vermarktungsstatus sowie Prüfung, ob aktuelle Nepafenac-Präparate (z. B. Ilevro) in Deutschland verfügbar sind
 - Präzisierung der Zielindikation (z. B. Makulaödem-Prävention, postoperative Entzündung) statt der breiten Kategorie „Augenerkrankung“
 - Auswertung der Warnhinweise und Kontraindikationen aus der Packungsbeilage (derzeit nicht verfügbar, blockierende Datenlücke für die Sicherheitsbewertung)
 - Daten zum Wirkmechanismus aus DrugBank
 - Sicherheitsplan für Risikopatienten (Hornhauterkrankungen, trockenes Auge, Diabetes, rheumatoide Arthritis)
+
+<!-- review:begin de-lic-20261031-nepafenac-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Klärung des Zulassungs- und Vermarktungsstatus (derzeit nur erloschene Zulassung) sowie Prüfung, ob aktuelle Nepafenac-Präparate (z. B. Ilevro) in Deutschland verfügbar sind“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Bei der ersten Bereinigung war der Satz an der Abkürzung „z. B.“ abgeschnitten worden; am 2026-11-12 ist nur der widersprüchliche Teilsatz entfernt und der übrige Wortlaut wiederhergestellt. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-nepafenac-1 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Klärung des Zulassungs- und Vermarktungsstatus (derzeit nur erloschene Zulassung) sowie Prüfung, ob aktuelle Nepafenac-Präparate (z“ | Korrigiert (überarbeitet am 2026-11-12; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „zudem ist die deutsche bzw europäische Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

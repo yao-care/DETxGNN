@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 258
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Lapatinib: vorhergesagte neue Indikation Dermatofibrosarcoma protuberans (Evidenzstufe L5). Ursprüngliche Indikation: Brustkrebs (Breast Neoplasms)"
 monitor_inn: "LAPATINIB"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
@@ -124,6 +124,12 @@ Für weitere Sicherheitsinformationen bitte die Fachinformation heranziehen.
 **Begründung:**
 Die Vorhersage stützt sich ausschließlich auf einen hohen TxGNN-Wert (Evidenzniveau L5) ohne klinische Studien oder Literatur. Der biologische Zusammenhang ist spekulativ, da Lapatinib PDGFR nicht direkt angreift und für DFSP bereits ein etablierter, gezielter Therapiestandard (Imatinib) besteht.
 
+<!-- review:begin de-lic-20261106-lapatinib-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Der biologische Zusammenhang ist spekulativ, da Lapatinib PDGFR nicht direkt angreift und für DFSP bereits ein etablierter, gezielter Therapiestandard (Imatinib) besteht. Zudem ist die einzige deutsche bzw. europäische Zulassung erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-lapatinib-1 -->
+
 **Für ein Fortschreiten sind folgende Schritte nötig:**
 - Beschaffung der Warnhinweise und Kontraindikationen aus der Fachinformation (derzeit blockierende Datenlücke für die Sicherheitsprüfung)
 - Ergänzung der Mechanismusdaten (MOA), z. B. über DrugBank
@@ -131,6 +137,19 @@ Die Vorhersage stützt sich ausschließlich auf einen hohen TxGNN-Wert (Evidenzn
 - Systematische Literatur- und Studienrecherche für Lapatinib bei DFSP bzw. Weichteilsarkomen
 - Klärung der Zulassungs- und Verfügbarkeitssituation in Deutschland (das Arzneimittel ist im Handel, 1 von 1 Zulassung ist gültig)
 - Prüfung der Routenkompatibilität und der Ähnlichkeit zur ursprünglichen Indikation (derzeit ausstehend)
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche bzw. europäische Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

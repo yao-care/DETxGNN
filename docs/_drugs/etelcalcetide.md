@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 184
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-12
 monitor_inn: "Etelcalcetide"
 predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices without bleeding", "esophageal varices with bleeding", "varicose disease"]
 description: "Etelcalcetide: vorhergesagte neue Indikation Hyperphosphatämie (hyperphosphatemia (disease)) (Evidenzstufe L4). Ursprüngliche Indikation: Hyperparathyroidism, Secondary"
@@ -115,6 +115,18 @@ Die einzige Arbeit, die die Hyperphosphatämie direkt untersucht, ist eine präk
 - Klinische Studien mit Serumphosphat als primärem Endpunkt
 - Detaillierte Daten zum Wirkmechanismus
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen (u. a. Hypokalzämie, QT-Verlängerung)
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Es gibt keine registrierten klinischen Studien, die Literatur besteht überwiegend aus Übersichtsarbeiten und Fallberichten, und der Marktsta“ | Nach Neuerstellung des Berichts nicht mehr vorhanden (2026-11-12: der Bericht wurde im November 2026 neu erstellt und enthält diese Aussage nicht mehr; vorher: Korrigiert) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

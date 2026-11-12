@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 377
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-12
 monitor_inn: "Raloxifene"
 predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", "duodenal obstruction", "duodenogastric reflux"]
 description: "Raloxifene: vorhergesagte neue Indikation Duodenal ulcer (disease) (Evidenzstufe L5). Ursprüngliche Indikation: Osteoporosis, Postmenopausal"
@@ -118,6 +118,25 @@ Die Vorhersage stützt sich ausschließlich auf einen Modellwert (Evidenzstufe L
 - Präklinische Studien zur Plausibilität eines Effekts auf die Duodenalschleimhaut
 - Systematische Literaturrecherche zu Raloxifen und Ulcus duodeni
 - Klärung des regulatorischen Status
+
+<!-- review:begin de-lic-20261106-raloxifene-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung des regulatorischen Status, da alle Zulassungen in Deutschland aufgehoben sind“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 3 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-raloxifene-1 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „da alle Zulassungen in Deutschland aufgehoben sind“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

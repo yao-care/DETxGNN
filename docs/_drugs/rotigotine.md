@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 413
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Rotigotine: vorhergesagte neue Indikation Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS) (Evidenzstufe L5). Ursprüngliche Indikation: Restless-Legs-Syndrom"
 monitor_inn: "ROTIGOTINE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "schizophrenia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "faciodigitogenital syndrome", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "atypical glycine encephalopathy", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited"]
@@ -112,12 +112,38 @@ Weitere Sicherheitsangaben entnehmen Sie bitte der Fachinformation.
 **Begründung:**
 Für ADHS gibt es weder klinische Studien noch direkte Literatur zu Rotigotin; die Evidenz beschränkt sich auf indirekte mechanistische Hinweise. Die Sicherheitsdaten aus der Fachinformation fehlen.
 
+<!-- review:begin de-lic-20261106-rotigotine-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem ist die deutsche Zulassung aufgehoben, und die Sicherheitsdaten aus der Fachinformation fehlen.“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-rotigotine-1 -->
+
 **Für ein Weiterkommen sind erforderlich:**
 - Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM beschaffen und auswerten
 - Detaillierte Wirkmechanismusdaten (z. B. aus DrugBank) ergänzen
 - Präklinische Daten oder Pilotstudien zu Rotigotin bei ADHS
 - Klärung der Zulassungs- und Verfügbarkeitssituation in Deutschland
 - Bewertung von Risiko und Nutzen im Vergleich zu etablierten ADHS-Therapien
+
+<!-- review:begin de-lic-20261106-rotigotine-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung der Zulassungs- und Verfügbarkeitssituation in Deutschland (aufgehobene Zulassung)“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-rotigotine-2 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem ist die deutsche Zulassung aufgehoben, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „(aufgehobene Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

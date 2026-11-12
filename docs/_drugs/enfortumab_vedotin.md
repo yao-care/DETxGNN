@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 168
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Enfortumab Vedotin: vorhergesagte neue Indikation Lepra (Evidenzstufe L5). Ursprüngliche Indikation: Übergangszellkarzinom"
 monitor_inn: "ENFORTUMAB VEDOTIN"
 predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovirus infection", "candidiasis", "cerebral infarction", "HIV infectious disease", "homozygous familial hypercholesterolemia", "malignant catarrh", "infectious bovine rhinotracheitis"]
@@ -80,6 +80,12 @@ Derzeit ist keine zugehörige Literatur zur Indikation Lepra verfügbar.
 
 Hinweis zu anderen vorhergesagten Indikationen (keine Wirksamkeitsevidenz, nur Sicherheitssignale):
 
+<!-- review:begin de-lic-20261106-enfortumab_vedotin-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Diese Zulassung ist als erloschen geführt.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-enfortumab_vedotin-2 -->
+
 | PMID | Jahr | Typ | Journal | Kernaussage |
 |------|-----|------|------|---------|
 | [42647281](https://pubmed.ncbi.nlm.nih.gov/42647281/) | 2026 | Fallbericht | Reports (MDPI) | Schwere ulzerative Ösophagitis nach Enfortumab Vedotin plus Pembrolizumab bei metastasiertem Urothelkarzinom (Nebenwirkung) |
@@ -123,11 +129,31 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Begründung:**
 Die Vorhersage für Lepra beruht ausschließlich auf einem Modellscore (L5) ohne klinische Studien, Literatur oder plausiblen Wirkmechanismus.
 
+<!-- review:begin de-lic-20261031-enfortumab_vedotin-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Die Vorhersage für Lepra beruht ausschließlich auf einem Modellscore (L5) ohne klinische Studien, Literatur oder plausiblen Wirkmechanismus. Zudem ist die Zulassung in Deutschland nur noch als erloschen geführt.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-enfortumab_vedotin-1 -->
+
 **Für ein Weiterkommen wären erforderlich:**
 - Detaillierte Wirkmechanismus-Daten (MOA)
 - Fachinformation (Warnhinweise, Gegenanzeigen) als Grundlage für die Sicherheitsbewertung
 - Präklinische Belege für einen biologischen Zusammenhang zwischen Nectin-4/MMAE und Lepra
 - Klärung des aktuellen Zulassungs- und Marktstatus in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Zudem ist die Zulassung in Deutschland nur noch als erloschen geführt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Diese Zulassung ist als erloschen geführt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

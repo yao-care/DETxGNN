@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 28
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Ambrisentan: vorhergesagte neue Indikation Pulmonale arteriovenöse Malformation (Evidenzstufe L5). Ursprüngliche Indikation: Pulmonale Hypertonie (PAH)"
 monitor_inn: "AMBRISENTAN"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "malformation syndrome with odontal and/or periodontal component", "hypotrichosis simplex of the scalp", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature"]
@@ -132,12 +132,31 @@ Weitere Informationen zu Warnhinweisen und Gegenanzeigen sind der Packungsbeilag
 **Begründung:**
 - Für CTD-PAH liegen zwei abgeschlossene, aber kleine Studien (Phase 2 mit n=38, Phase 4 mit n=25) sowie Metaanalysen und Post-hoc-Analysen größerer Studien vor. Eine Phase-3-RCT speziell für diese Untergruppe ist in den Daten nicht enthalten.
 
+<!-- review:begin de-lic-20261106-ambrisentan-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Eine Phase-3-RCT speziell für diese Untergruppe ist in den Daten nicht enthalten. Die Zulassungen in Deutschland sind aufgehoben.“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-ambrisentan-1 -->
+
 **Für das weitere Vorgehen sind erforderlich:**
 - Prüfung der Packungsbeilage und Fachinformation (Warnhinweise, Gegenanzeigen), da diese Daten fehlen
 - Mechanistische Detaildaten zum Wirkmechanismus (Abfrage z. B. über DrugBank)
 - Klärung des Zulassungsstatus in Deutschland (Präparat im Handel, 2 von 2 Zulassungen gültig)
 - Überwachungs- und Schwangerschaftsverhütungskonzept (Teratogenität, Leberwerte, Anämie, Flüssigkeitsretention)
 - Bestätigung der Wirksamkeit bei CTD-PAH durch größere kontrollierte Studien
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Die Zulassungen in Deutschland sind aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

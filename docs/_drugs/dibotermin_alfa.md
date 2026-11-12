@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 144
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Dibotermin Alfa: vorhergesagte neue Indikation Esotropie (Evidenzstufe L5). Ursprüngliche Indikation: Tibiafrakturen"
 monitor_inn: "DIBOTERMIN ALFA"
 predicted_indications: ["esotropia", "HER2 positive breast carcinoma", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer", "non-syndromic esophageal malformation", "multifocal choroiditis", "atypical coarctation of aorta"]
@@ -105,11 +105,30 @@ Hinweis: Bei den vorhergesagten Krebsindikationen besteht ein theoretisches Risi
 **Begründung:**
 Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzniveau L5), ohne klinische Studien oder unterstützende Literatur und ohne erkennbare mechanistische Verbindung. Für die Krebsindikationen besteht ein theoretisches Sicherheitsrisiko.
 
+<!-- review:begin de-lic-20261106-dibotermin_alfa-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem ist die Zulassung in Deutschland aufgehoben, und für die Krebsindikationen besteht ein theoretisches Sicherheitsrisiko.“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-dibotermin_alfa-1 -->
+
 **Für ein Weiterverfolgen sind erforderlich:**
 - Daten zum Wirkmechanismus (MOA) aus DrugBank
 - Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM)
 - Präklinische Evidenz und eine plausible mechanistische Hypothese für die vorhergesagte Indikation
 - Sicherheitsbewertung zum Tumorförderungsrisiko, falls onkologische Indikationen weiterverfolgt werden
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem ist die Zulassung in Deutschland aufgehoben, und f“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

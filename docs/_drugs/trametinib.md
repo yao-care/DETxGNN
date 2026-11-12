@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 477
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Trametinib: vorhergesagte neue Indikation Choroideremie (Evidenzstufe L5). Ursprüngliche Indikation: Melanom"
 monitor_inn: "TRAMETINIB"
 predicted_indications: ["choroideremia"]
@@ -78,6 +78,12 @@ Derzeit sind keine relevanten klinischen Studien zu Choroideremie registriert.
 
 Derzeit ist keine relevante Literatur zu Choroideremie verfügbar.
 
+<!-- review:begin de-lic-20261106-trametinib-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die einzige erfasste Zulassung hat den Status „erloschen“.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-trametinib-1 -->
+
 ---
 
 ## Marktinformationen Deutschland
@@ -127,12 +133,32 @@ Die Melanom-Subtypen sind überwiegend Varianten der bereits bekannten Indikatio
 **Begründung:**
 Für Choroideremie fehlen sowohl Studien als auch Literatur, und es gibt keinen plausiblen mechanistischen Zusammenhang zur MEK-Hemmung.
 
+<!-- review:begin de-lic-20261106-trametinib-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Für Choroideremie fehlen sowohl Studien als auch Literatur, und es gibt keinen plausiblen mechanistischen Zusammenhang zur MEK-Hemmung. Zudem ist die deutsche Zulassung erloschen und die Sicherheitsdaten der Fachinformation fehlen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-trametinib-2 -->
+
 **Für ein Weiterkommen ist Folgendes erforderlich:**
 - Beschaffung der Fachinformation (Warnhinweise, Gegenanzeigen) als Voraussetzung für das Sicherheits-Screening
 - Detaillierte Wirkmechanismus-Daten (MOA)
 - Präklinische Hinweise auf eine Rolle der MAPK-Signalkaskade bei Choroideremie, andernfalls Verwerfen der Vorhersage
 - Klärung des Zulassungsstatus in Deutschland/EU
 - Gegebenenfalls Priorisierung der Melanom-Subtypen (Rang 2 und 6 bis 8) mit BRAF-Mutationstest als Schutzmaßnahme
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Die einzige erfasste Zulassung hat den Status „erloschen““ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Zudem ist die deutsche Zulassung erloschen und die Sicherheitsdaten der Fachinformation fehlen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

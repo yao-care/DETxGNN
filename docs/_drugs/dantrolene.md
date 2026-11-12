@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 129
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Dantrolen: vorhergesagte neue Indikation moderate multiminicore disease with hand involvement (mittelschwere Multiminicore-Krankheit mit Handbeteiligung), Evidenzstufe L5"
 monitor_inn: "dantrolene"
 predicted_indications: ["moderate multiminicore disease with hand involvement", "King-Denborough syndrome", "congenital multicore myopathy with external ophthalmoplegia", "central core myopathy", "hypokalemic periodic paralysis", "thyrotoxic periodic paralysis", "myopathy, centronuclear"]
@@ -62,7 +62,11 @@ Zu Dantrolen liegen in den für diesen Bericht zusammengestellten Daten keine de
 
 Da die vorhergesagte Erkrankung mit der Originalindikation praktisch identisch ist, ist die Vorhersage plausibel, liefert aber keine neue Therapieoption. Interessanter sind die weiteren Vorhersagen mit RYR1-Bezug: King-Denborough-Syndrom, zentrale Kernmyopathie (Central Core Disease), Multiminicore-Erkrankung und zentronukleäre Myopathie. Hier würde Dantrolen vor allem das MH-Risiko senken, nicht die zugrunde liegende Myopathie behandeln. Für periodische Lähmungen (hypokaliämisch, thyreotoxisch) ist ein Mechanismus anhand der vorliegenden Daten nicht erkennbar.
 
-B. Ryanodex) laut Bewertung erhältlich sind.
+<!-- review:begin de-lic-20261031-dantrolene-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Hinweis: Der Marktstatus „nur erloschen" sollte geprüft werden, da andere Dantrolen-Formulierungen (z. B. Ryanodex) laut Bewertung erhältlich sind.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Bei der ersten Bereinigung war der Satz an der Abkürzung „z. B.“ abgeschnitten worden; der ganze Satz beruht auf dem falschen Status „nur erloschen“ und ist am 2026-11-12 vollständig entfernt. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-dantrolene-1 -->
 
 ---
 
@@ -115,6 +119,26 @@ Dantrolen ist bei Maligner Hyperthermie leitlinienkonform etabliert, die Vorhers
 - Ergänzung der Wirkmechanismus-Daten aus DrugBank
 - Klärung der Sicherheit bei Leber- und Muskelerkrankungen sowie bei Opioid-Komedikation (insbesondere Morphin)
 - Für die RYR1-assoziierten Erkrankungen: gezielte Bewertung des prophylaktischen Nutzens zur MH-Risikominderung
+
+<!-- review:begin de-lic-20261106-dantrolene-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Prüfung der aktuellen Verfügbarkeit von Dantrolen-Präparaten in Deutschland (erloschene Agilus-Zulassung vs. andere Formulierungen)“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-dantrolene-2 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Hinweis: Der Marktstatus „nur erloschen" sollte geprüft werden, da andere Dantrolen-Formulierungen (z“ | Korrigiert (überarbeitet am 2026-11-12; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „(erloschene Agilus-Zulassung vs. andere Formulierungen)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 25
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Alirocumab: vorhergesagte neue Indikation X-chromosomale Ichthyose ohne Steroidsulfatase-Mangel (Evidenzstufe L5). Ursprüngliche Indikation: Dyslipidämien"
 monitor_inn: "ALIROCUMAB"
 predicted_indications: ["ichthyosis, X-linked, without steroid sulfatase deficiency", "disorder of other vitamins and cofactors metabolism and transport", "xanthomatosis (disease)", "46,XY disorder of sexual development due to dihydrotestosterone backdoor pathway biosynthesis defect", "cholesterol catabolic process disease", "46,XY disorder of sex development due to a cholesterol synthesis defect", "dappled diaphyseal dysplasia", "neutral lipid storage disease", "3-hydroxyacyl-CoA dehydrogenase deficiency", "spastic paraplegia-optic atrophy-neuropathy and spastic paraplegia-optic atrophy-neuropathy-related disorder"]
@@ -120,6 +120,25 @@ Die erstplatzierte Vorhersage beruht ausschließlich auf dem Modell (Evidenzgrad
 - Fachinformation des BfArM mit Warnhinweisen und Gegenanzeigen (derzeit blockierende Datenlücke)
 - Daten zum Wirkmechanismus (z. B. über DrugBank)
 - Bei Interesse an Xanthomatose: gezielte Studien zur Wirkung von Alirocumab auf die Xanthom-Last
+
+<!-- review:begin de-lic-20261031-alirocumab-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Klärung des Marktstatus, da die deutsche Zulassung nur als erloschen geführt wird / Bei Interesse an Xanthomatose: gezielte Studien zur Wirkung von Alirocumab auf die Xanthom-Last“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-alirocumab-1 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Klärung des Marktstatus, da die deutsche Zulassung nur als erloschen geführt wird“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

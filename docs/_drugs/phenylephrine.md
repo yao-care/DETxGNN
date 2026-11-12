@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 357
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 description: "Phenylephrine: vorhergesagte neue Indikation Erkrankung der Nasenhöhle (nasal cavity disease) (Evidenzstufe L3). Ursprüngliche Indikation: Intraokulare Linsenimplantation"
 monitor_inn: "PHENYLEPHRINE"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
@@ -64,6 +64,12 @@ Die ursprüngliche Indikation (Anwendung am Auge, u. a. bei Linsenimplantation) 
 
 Bei längerer topischer Anwendung droht eine Rebound-Schwellung (Rhinitis medicamentosa), und eine systemische Aufnahme kann den Blutdruck erhöhen.
 
+<!-- review:begin de-lic-20261106-phenylephrine-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Einschränkungen: Die Zulassung des Ausgangspräparats ist aufgehoben. Bei längerer topischer Anwendung droht eine Rebound-Schwellung (Rhinitis medicamentosa), und eine systemische Aufnahme kann den Blutdruck erhöhen.“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-phenylephrine-1 -->
+
 ---
 
 ## Evidenz aus klinischen Studien
@@ -101,6 +107,12 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 - **Hinweise aus dem Wissensgraphen (keine Packungsbeilagen-Angaben):** Für Phenylephrin sind im Wissensgraphen u. a. folgende Erkrankungen als Kontraindikationen verzeichnet: Bluthochdruck, Leberversagen bzw. Lebererkrankung, Epilepsie, Schlaflosigkeit, COPD, Magengeschwür/Ulkuskrankheit, Porphyrie, Nierenerkrankung, Pankreatitis, Erkrankungen der Gallenblase, Thrombozytopenie, Nebennierenrindeninsuffizienz (Morbus Addison), Hypothyreose, entzündliche Darmerkrankung, psychotische Störungen, Gastritis und Dermatitis herpetiformis.
 - Aus der Literatur: Mögliche systemische Aufnahme mit Blutdruckanstieg; bei längerer Anwendung Rebound-Schwellung.
 
+<!-- review:begin de-lic-20261106-phenylephrine-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Diese Zulassung ist aufgehoben (Status: cancelled).“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-phenylephrine-2 -->
+
 Weitere Sicherheitsangaben bitte der Packungsbeilage entnehmen.
 
 ---
@@ -119,6 +131,12 @@ Die pharmakologische Plausibilität (Gefäßverengung der Nasenschleimhaut, bere
 - Schutzmaßnahmen: Begrenzung der Anwendungsdauer (Rebound-Risiko), Blutdrucküberwachung, Vorsicht bei Hypertonie und gleichzeitiger Gabe von Antidiabetika
 - Klärung der Darreichungsform und des Zulassungswegs
 
+<!-- review:begin de-lic-20261106-phenylephrine-3 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung der Darreichungsform und des Zulassungswegs, da die einzige Zulassung aufgehoben ist“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-phenylephrine-3 -->
+
 ---
 
 ### Weitere vorhergesagte Indikationen (zur Information)
@@ -127,6 +145,20 @@ Die pharmakologische Plausibilität (Gefäßverengung der Nasenschleimhaut, bere
 |------|------|------|------|------|
 | Akute Laryngopharyngitis | 0,9997 | L5 | Hold | Keine Studien oder Literatur; allenfalls symptomatischer Nutzen, kardiovaskuläres Risiko |
 | Trigeminoautonomer Kopfschmerz | 0,9930 | L4 | Hold | Literatur beschreibt Phenylephrin nur als diagnostische Substanz in der Pupillometrie, kein Therapienachweis |
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Einschränkungen: Die Zulassung des Ausgangspräparats ist aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Diese Zulassung ist aufgehoben (Status: cancelled)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „da die einzige Zulassung aufgehoben ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

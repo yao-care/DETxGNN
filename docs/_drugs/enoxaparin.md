@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 169
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Enoxaparin: vorhergesagte neue Indikation Thrombophilie durch Protein-C-Mangel, autosomal-rezessiv (Evidenzstufe L5). Ursprüngliche Indikation: Venöse Thromboembolie"
 monitor_inn: "Enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
@@ -107,6 +107,12 @@ Für Warnhinweise und Gegenanzeigen aus der Packungsbeilage liegen keine Daten v
 **Begründung:**
 Die Vorhersage ist mechanistisch plausibel und der TxGNN-Wert ist hoch, doch es gibt weder klinische Studien noch Literatur zu Enoxaparin bei dieser Erkrankung (Evidenzstufe L5). Die Sicherheitsdaten aus der Packungsbeilage fehlen.
 
+<!-- review:begin de-lic-20261106-enoxaparin-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem ist die einzige erfasste Zulassung in Deutschland erloschen, und die Sicherheitsdaten aus der Packungsbeilage fehlen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-enoxaparin-1 -->
+
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Beschaffung und Auswertung der Packungsbeilage/Fachinformation (Warnhinweise, Kontraindikationen) über das BfArM
 - Ergänzung der Wirkmechanismus-Daten (z. B. aus DrugBank)
@@ -114,6 +120,19 @@ Die Vorhersage ist mechanistisch plausibel und der TxGNN-Wert ist hoch, doch es 
 - Klärung des Zulassungsstatus und der verfügbaren Handelspräparate in Deutschland
 - Bewertung von Dosierung und Überwachung bei Neugeborenen und Niereninsuffizienz sowie des Risikos von Hautnekrosen/Purpura fulminans
 - Prüfung der Verabreichungswege (Kompatibilität derzeit ungeklärt)
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem ist die einzige erfasste Zulassung in eutschland erloschen, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 254
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Ketorolac: vorhergesagte neue Indikation Kopfschmerzerkrankung (Headache Disorder) (Evidenzstufe L1). Ursprüngliche Indikation: Intraokulare Linsenimplantation"
 monitor_inn: "KETOROLAC"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
@@ -117,6 +117,12 @@ Für Warnhinweise und Kontraindikationen gemäß Fachinformation: Bitte die Pack
 
 - **Rosazea-Konjunktivitis** (TxGNN 0,9940): Nur Modellvorhersage, keine Studien oder Literatur (L5) – Entscheidung: Hold.
 
+<!-- review:begin de-lic-20261031-ketorolac-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „**Rosazea-Konjunktivitis** (TxGNN 0,9940): Nur Modellvorhersage, keine Studien oder Literatur (L5) – Entscheidung: Hold. / **Trigeminoautonomer Kopfschmerz** (TxGNN 0,9939): Nur indirekte Evidenz, eine zurückgezogene Studie ohne Teilnehmer (L4); Clusterkopfschmerz spricht allgemein schlecht auf Standard-NSAR an – Entscheidung: Hold.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-ketorolac-1 -->
+
 ## Fazit und nächste Schritte
 
 **Entscheidung: Mit Schutzmaßnahmen fortfahren (Proceed with Guardrails)**
@@ -124,12 +130,39 @@ Für Warnhinweise und Kontraindikationen gemäß Fachinformation: Bitte die Pack
 **Begründung:**
 Für Kopfschmerzerkrankungen, insbesondere akute Migräne, liegen mehrere abgeschlossene Studien der Phasen 2–4 sowie systematische Übersichten und Leitlinien vor. Das Sicherheitsprofil von Ketorolac (Magen-Darm-, Nieren- und kardiovaskuläre Risiken) erfordert jedoch klare Schutzmaßnahmen.
 
+<!-- review:begin de-lic-20261106-ketorolac-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Das Sicherheitsprofil von Ketorolac (Magen-Darm-, Nieren- und kardiovaskuläre Risiken) erfordert jedoch klare Schutzmaßnahmen. Zudem fehlt in Deutschland derzeit eine gültige Zulassung.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-ketorolac-2 -->
+
 **Für das weitere Vorgehen sind erforderlich:**
 - Fachinformation (Warnhinweise und Kontraindikationen) aus BfArM-Quellen beschaffen; diese Sicherheitsprüfung ist derzeit blockiert
 - Daten zum Wirkmechanismus (MOA) aus DrugBank ergänzen
 - Klärung des Zulassungswegs
 - Prüfung der Applikationswege (parenteral/intranasal), da die Zulassungsdaten keine Darreichungsform enthalten
 - Sicherheitsüberwachungsplan für Risikogruppen (Magen-Darm-Geschwüre, Nieren-, Herz-Kreislauf- und Blutungsrisiko) sowie Beachtung der Wechselwirkungen, insbesondere mit Acetylsalicylsäure
+
+<!-- review:begin de-lic-20261106-ketorolac-3 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung des Zulassungswegs, da die einzige Zulassung (Omidria) erloschen ist und sich auf eine ophthalmologische Anwendung bezieht“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-ketorolac-3 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „**Trigeminoautonomer Kopfschmerz** (TxGNN 0,9939): Nur indirekte Evidenz, eine zurückgezogene Studie ohne Teilnehmer (L4); Clusterkopfschmer“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Zudem fehlt in Deutschland derzeit eine gültige Zulassung“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „da die einzige Zulassung (Omidria) erloschen ist und sich auf eine ophthalmologische Anwendung bezieht“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

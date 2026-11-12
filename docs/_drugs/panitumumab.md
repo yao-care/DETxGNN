@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 341
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Panitumumab: vorhergesagte neue Indikation Medikamenteninduzierte Osteoporose (Evidenzstufe L5). Ursprüngliche Indikation: Kolorektalkarzinom (Colorectal Neoplasms)"
 monitor_inn: "PANITUMUMAB"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy"]
@@ -116,6 +116,12 @@ Hinweis: Für diese Aufstellung wurden nur die in den Daten enthaltenen Einträg
 **Begründung:**
 Die Vorhersage beruht ausschließlich auf dem Modellwert (Evidenzniveau L5) ohne klinische Studien oder Publikationen. Die Wirkrichtung der EGFR-Hemmung auf den Knochen ist unklar und könnte sogar nachteilig sein.
 
+<!-- review:begin de-lic-20261031-panitumumab-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Die Wirkrichtung der EGFR-Hemmung auf den Knochen ist unklar und könnte sogar nachteilig sein. Zudem besteht in Deutschland nur eine erloschene Zulassung, was die praktische Verfügbarkeit einschränkt.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-panitumumab-1 -->
+
 **Für ein Weiterkommen sind erforderlich:**
 - Präklinische und mechanistische Daten zur Rolle von EGFR im Knochenstoffwechsel und zur Wirkrichtung
 - Detaillierte Daten zum Wirkmechanismus (MOA)
@@ -127,6 +133,19 @@ Die Vorhersage beruht ausschließlich auf dem Modellwert (Evidenzniveau L5) ohne
 ## Ergänzende Betrachtung: Zweite Vorhersage
 
 Das Modell sagt außerdem **schwere nichtproliferative diabetische Retinopathie** voraus (Score 0,9905, Evidenzniveau L5, Entscheidung: Hold). Auch hier liegen keine Studien oder Publikationen vor. Eine Rolle von EGFR bei retinaler Angiogenese und Gefäßpermeabilität ist spekulativ plausibel. Panitumumab ist jedoch ein großer systemischer Antikörper mit begrenzter Augenpenetration, und EGFR-Inhibitoren haben okuläre Nebenwirkungen (z. B. Keratitis, trockenes Auge, Blepharitis). Da bereits Anti-VEGF-Wirkstoffe mit etablierter Wirksamkeit zur Verfügung stehen, ist die Begründung für eine Umwidmung schwach.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Zudem besteht in Deutschland nur eine erloschene Zulassung, was die praktische Verfügbarkeit einschränkt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

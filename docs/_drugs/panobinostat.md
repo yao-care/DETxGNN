@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 342
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Panobinostat: vorhergesagte neue Indikation Myeloische Leukämie (Evidenzstufe L2). Ursprüngliche Indikation: Multiples Myelom"
 monitor_inn: "panobinostat"
 predicted_indications: ["myeloid leukemia"]
@@ -147,12 +147,38 @@ Auffällig sind die Major-Wechselwirkungen mit mehreren QT-verlängernden Substa
 **Begründung:**
 Es gibt eine plausible epigenetische Begründung und mehrere Phase-1/2-Studien bei AML/MDS, aber keine aussagekräftige Phase-3-Evidenz (die einzige Phase-3-Studie wurde mit 52 Patienten abgebrochen).
 
+<!-- review:begin de-lic-20261106-panobinostat-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Es gibt eine plausible epigenetische Begründung und mehrere Phase-1/2-Studien bei AML/MDS, aber keine aussagekräftige Phase-3-Evidenz (die einzige Phase-3-Studie wurde mit 52 Patienten abgebrochen). Zudem ist die Zulassung in Deutschland erloschen und die Sicherheitsdaten aus der Fachinformation fehlen, sodass eine Sicherheitsprüfung derzeit nicht abgeschlossen werden kann.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-panobinostat-1 -->
+
 **Für das weitere Vorgehen werden benötigt:**
 - Warnhinweise und Gegenanzeigen aus der Fachinformation (Blockierende Datenlücke)
 - Detaillierte Wirkmechanismus-Daten (MOA) aus der Arzneimitteldatenbank
 - Auswertung der Wirksamkeitsergebnisse der abgeschlossenen Phase-1/2-Studien (insbesondere NCT00946647, NCT00880269)
 - Klärung der regulatorischen Lage in Deutschland
 - Prüfung der Wechselwirkungen, insbesondere QT-relevanter Kombinationspartner
+
+<!-- review:begin de-lic-20261106-panobinostat-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung der regulatorischen Lage in Deutschland, da die bisherige Zulassung erloschen ist“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-panobinostat-2 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem ist die Zulassung in Deutschland erloschen und die Sicherheitsdaten aus der Fachinformation fehlen, sodass eine Sicherheitsprüfung der“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „da die bisherige Zulassung erloschen ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

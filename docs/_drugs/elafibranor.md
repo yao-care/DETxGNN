@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 161
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Elafibranor: vorhergesagte neue Indikation Amenorrhoe (Evidenzstufe L5). Ursprüngliche Indikation: Biliäre Leberzirrhose (Liver Cirrhosis, Biliary)"
 monitor_inn: "ELAFIBRANOR"
 predicted_indications: ["amenorrhea (disease)"]
@@ -107,12 +107,31 @@ Hierbei handelt es sich um Zielstrukturen der Substanz, nicht um klinisch bewert
 **Begründung:**
 Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert, ohne klinische Studien oder Publikationen (Evidenzniveau L5). Der Mechanismus ist nicht belegt, und Amenorrhoe ist als Indikation unspezifisch.
 
+<!-- review:begin de-lic-20261031-elafibranor-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Der Mechanismus ist nicht belegt, und Amenorrhoe ist als Indikation unspezifisch. Zudem besteht in Deutschland laut den Daten nur eine erloschene Zulassung.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-elafibranor-1 -->
+
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Vollständige Wirkmechanismus-Daten (MOA), z. B. über die DrugBank-API
 - Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM; die Sicherheitsprüfung ist ohne diese blockiert
 - Klärung des Amenorrhoe-Subtyps und einer biologisch begründeten Hypothese
 - Präklinische Belege und Literaturrecherche zu PPARα/δ und der Reproduktionsachse
 - Klärung des aktuellen Zulassungsstatus in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Zudem besteht in Deutschland laut den Daten nur eine erloschene Zulassung“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

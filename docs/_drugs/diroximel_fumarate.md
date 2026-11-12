@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 146
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Diroximel Fumarate: vorhergesagte neue Indikation Diabetische Katarakt (Evidenzstufe L5). Ursprüngliche Indikation: Multiple Sklerose, schubförmig remittierend"
 monitor_inn: "DIROXIMEL FUMARATE"
 predicted_indications: ["diabetic cataract", "diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "nuclear senile cataract", "cortical cataract", "craniostenosis cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "mature cataract", "immature cataract"]
@@ -111,12 +111,31 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) bitte die Fa
 **Begründung:**
 Die Vorhersage stützt sich ausschließlich auf ein Rechenmodell (Evidenzstufe L5). Es gibt weder klinische Studien noch Publikationen. Zudem ist der Mechanismus nur aus allgemeiner Fumarat-Pharmakologie abgeleitet.
 
+<!-- review:begin de-lic-20261106-diroximel_fumarate-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Es gibt weder klinische Studien noch Publikationen, und die Zulassung in Deutschland ist erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-diroximel_fumarate-1 -->
+
 **Für ein Weiterkommen sind folgende Punkte nötig:**
 - Daten zum Wirkmechanismus (MOA), z. B. über DrugBank
 - Fachinformation mit Warnhinweisen und Gegenanzeigen (derzeit blockierende Datenlücke für das Sicherheitsscreening)
 - Präklinische Belege zu Nrf2-Aktivierung bei diabetischer Katarakt bzw. Retinopathie
 - Klärung, ob die Substanz bei oraler Gabe die Linse oder Netzhaut erreicht, sowie der Routenkompatibilität
 - Priorisierung: Diabetische Retinopathie und diabetische Katarakt haben die plausibelste biologische Begründung, während seltene syndromische oder metabolische Katarakt-Formen nachrangig sind
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „und die Zulassung in Deutschland ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

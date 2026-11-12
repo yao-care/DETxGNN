@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 218
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Granisetron: vorhergesagte neue Indikation Manische bipolare affektive Störung (Evidenzstufe L5). Ursprüngliche Indikation: Erbrechen"
 monitor_inn: "GRANISETRON"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "acute contagious conjunctivitis", "angioedema", "allergic urticaria", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "bronchitis", "cold urticaria", "conjunctivitis"]
@@ -124,6 +124,12 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) siehe die Fa
 **Begründung:**
 Die Vorhersage stützt sich ausschließlich auf das Modell (L5), ohne klinische Studien oder Publikationen. Das kardiale Sicherheitssignal (QT-Verlängerung) sowie zahlreiche schwerwiegende Wechselwirkungen, insbesondere mit Psychopharmaka, erfordern Vorsicht.
 
+<!-- review:begin de-lic-20261106-granisetron-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem ist die einzige deutsche Zulassung erloschen, und das kardiale Sicherheitssignal (QT-Verlängerung) sowie zahlreiche schwerwiegende Wechselwirkungen, insbesondere mit Psychopharmaka, erfordern Vorsicht.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-granisetron-1 -->
+
 **Für ein Weiterkommen sind erforderlich:**
 - Systematische Literaturrecherche und Prüfung von Studienregistern zu Granisetron bei Manie
 - Daten zum Wirkmechanismus (MOA)
@@ -131,6 +137,26 @@ Die Vorhersage stützt sich ausschließlich auf das Modell (L5), ohne klinische 
 - Bewertung des QT-Risikos und der Wechselwirkungen bei Kombination mit Stimmungsstabilisierern und Antipsychotika
 - Klärung der Verfügbarkeit und Darreichungsform
 - Gegebenenfalls Priorisierung plausiblerer Indikationen (z. B. Tourette-Syndrom, Trichotillomanie) für eine erste Evidenzprüfung
+
+<!-- review:begin de-lic-20261106-granisetron-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung der Verfügbarkeit und Darreichungsform (Zulassung erloschen)“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-granisetron-2 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche Zulassung erloschen, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „(Zulassung erloschen)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

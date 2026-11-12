@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 179
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "Ertapenem"
 predicted_indications: ["bacterial arthritis"]
 description: "Ertapenem: vorhergesagte neue Indikation Bakterielle Arthritis (bacterial arthritis) (Evidenzstufe L5). Ursprüngliche Indikation: Community-Acquired Infections"
@@ -95,6 +95,12 @@ Derzeit sind keine klinischen Studien zu dieser Indikation registriert.
 
 Zur Darreichungsform liegen keine Angaben vor.
 
+<!-- review:begin de-lic-20261106-ertapenem-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Beide Zulassungen sind zentrale EU-Zulassungen (EMEA-Nummern) und derzeit erloschen bzw. widerrufen. Zur Darreichungsform liegen keine Angaben vor.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-ertapenem-1 -->
+
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/000389 | Invanz (Merck Sharp & Dohme B.V.) | – | Ambulant erworbene Infektionen, Streptokokken-Infektionen, Staphylokokken-Infektionen, gramnegative bakterielle Infektionen, chirurgische Wundinfektionen, bakterielle Pneumonie |
@@ -127,6 +133,12 @@ Für Warnhinweise und Kontraindikationen laut Fachinformation siehe bitte die Pa
 **Begründung:**
 Die Evidenz für bakterielle Arthritis beschränkt sich auf Fallberichte und kleine Beobachtungsstudien. Es gibt keine registrierten Studien, und der hohe Modellwert ersetzt keine klinischen Daten. Die Sicherheitsangaben der Fachinformation fehlen.
 
+<!-- review:begin de-lic-20261106-ertapenem-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem sind die Zulassungen in Deutschland erloschen, und die Sicherheitsangaben der Fachinformation fehlen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-ertapenem-2 -->
+
 **Für ein Weiterkommen sind erforderlich:**
 - Auswertung der Fachinformation (Warnhinweise, Kontraindikationen), da die Sicherheitsprüfung sonst nicht abgeschlossen werden kann
 - Detaillierte Mechanismusdaten (MOA) aus einer Arzneimitteldatenbank
@@ -135,6 +147,20 @@ Die Evidenz für bakterielle Arthritis beschränkt sich auf Fallberichte und kle
 - Bei Bedarf prospektive klinische Studien
 
 Ergebnisse liegen noch nicht vor. Diese Indikation wäre als eigene Forschungsfrage weiterzuverfolgen.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Beide Zulassungen sind zentrale EU-Zulassungen (EMEA-Nummern) und derzeit erloschen bzw. widerrufen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Zudem sind die Zulassungen in eutschland erloschen, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

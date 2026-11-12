@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 226
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "ICATIBANT"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
 description: "Icatibant: vorhergesagte neue Indikation Serpinopathie mit toxischer Serpin-Polymerisation (serpinopathy with toxic serpin polymerization) (Evidenzstufe L5)."
@@ -94,6 +94,18 @@ Für die vorhergesagte Indikation gibt es weder klinische Studien noch Publikati
 - Präklinische Daten (z. B. Zell- oder Tiermodelle) zur Prüfung eines möglichen Effekts
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
 - Vollständige Daten zum Wirkmechanismus
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Für den erworbenen C1-INH-Mangel ist die Evidenz begrenzt, und in Deutschland bestehen derzeit nur erloschene Zulassungen“ | Nach Neuerstellung des Berichts nicht mehr vorhanden (2026-11-12: der Bericht wurde im November 2026 neu erstellt und enthält diese Aussage nicht mehr; vorher: Korrigiert) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

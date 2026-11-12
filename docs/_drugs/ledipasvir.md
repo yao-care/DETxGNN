@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 262
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Ledipasvir: vorhergesagte neue Indikation Hepatitis-B-Virusinfektion (Evidenzstufe L2). Ursprüngliche Indikation: Chronische Hepatitis C"
 monitor_inn: "LEDIPASVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "chronic hepatitis B virus infection", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
@@ -125,6 +125,12 @@ Weitere Informationen zu Warnhinweisen und Gegenanzeigen entnehmen Sie bitte der
 **Begründung:**
 Eine abgeschlossene, publizierte Phase-2-Studie (n=21, einarmig) untersucht die Hypothese direkt, und mehrere Koinfektionsstudien liefern ergänzende Daten. Die Belege sind jedoch klein und die mechanistische Basis ist schwach (kein NS5A-Homolog bei HBV); ein möglicher Effekt könnte eher von Sofosbuvir ausgehen. Die erwähnte Evidenzstufe L2 beruht nur auf einer kleinen, nicht randomisierten Studie. Daher sind klare Schutzmaßnahmen nötig.
 
+<!-- review:begin de-lic-20261106-ledipasvir-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem ist die deutsche Zulassung erloschen. Daher sind klare Schutzmaßnahmen nötig.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-ledipasvir-1 -->
+
 **Für das weitere Vorgehen sind erforderlich:**
 - Bestätigung der HBsAg- und HBV-DNA-Effekte in größeren, kontrollierten Studien mit Vergleichsarm
 - Klärung, ob ein Effekt von Ledipasvir oder von Sofosbuvir ausgeht (Einzelsubstanzvergleich)
@@ -132,6 +138,19 @@ Eine abgeschlossene, publizierte Phase-2-Studie (n=21, einarmig) untersucht die 
 - Fachinformation mit Warnhinweisen und Gegenanzeigen (derzeit nicht verfügbar)
 - Überwachungsplan für HBV-Reaktivierung sowie Management der Wechselwirkungen
 - Klärung des Zulassungs- und Verfügbarkeitsstatus in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem ist die deutsche Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

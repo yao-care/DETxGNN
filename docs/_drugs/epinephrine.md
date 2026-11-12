@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 173
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Epinephrine: vorhergesagte neue Indikation Obstruktive Lungenerkrankung (Evidenzstufe L5). Ursprüngliche Indikation: Anaphylaxie"
 monitor_inn: "EPINEPHRINE"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
@@ -63,6 +63,12 @@ Zu dem Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Date
 Die ursprüngliche Indikation (Anaphylaxie) und die vorhergesagte Indikation haben einen gemeinsamen pathophysiologischen Anteil: In beiden Fällen kommt es zu Bronchospasmus und Schwellung der Atemwege. Dieselben Rezeptorwirkungen, die bei der Anaphylaxie lebensrettend sind, wirken mechanistisch auch bei Asthma und Bronchiolitis.
 
 Die Anwendung wird durch systemische Beta-1-Effekte (Tachykardie, Arrhythmien) begrenzt.
+
+<!-- review:begin de-lic-20261031-epinephrine-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Die Anwendung wird durch systemische Beta-1-Effekte (Tachykardie, Arrhythmien) begrenzt. Zudem ist der Marktstatus „nur erloschen“ für inhalative Formulierungen regulatorisch zu klären.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-epinephrine-1 -->
 
 ---
 
@@ -129,16 +135,43 @@ Für Warnhinweise und Gegenanzeigen aus der Fachinformation siehe die Packungsbe
 **Begründung:**
 Mehrere abgeschlossene Phase-3-Studien zu inhalativem Epinephrin bei Asthma stützen die Vorhersage; der Mechanismus ist plausibel.
 
+<!-- review:begin de-lic-20261031-epinephrine-2 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Mehrere abgeschlossene Phase-3-Studien zu inhalativem Epinephrin bei Asthma stützen die Vorhersage; der Mechanismus ist plausibel. Die Einschränkungen betreffen die kardiovaskuläre Sicherheit, die hohe Zahl an Wechselwirkungen und den Marktstatus „nur erloschen“.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-epinephrine-2 -->
+
 **Für das weitere Vorgehen sind erforderlich:**
 - Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) des BfArM, da diese Sicherheitsdaten fehlen
 - Detaillierte Daten zum Wirkmechanismus aus DrugBank
 - Regulatorische Klärung der inhalativen Formulierungen in Deutschland
 - Sicherheitsüberwachungsplan für Patienten mit Herz-Kreislauf-Erkrankungen und Begleitmedikation mit hohem Wechselwirkungsrisiko
 
+<!-- review:begin de-lic-20261106-epinephrine-3 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Regulatorische Klärung der inhalativen Formulierungen in Deutschland (Zulassung erloschen)“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-epinephrine-3 -->
+
 **Weitere vorhergesagte Indikationen (Kurzbewertung):**
 - *Nahrungsabhängige belastungsinduzierte Anaphylaxie* (Score 0,9957): Evidenzgrad L4; Erweiterung der bestehenden Indikation, keine registrierten Studien, nur Übersichtsarbeiten. Einstufung: Forschungsfrage.
 - *Respiratorische Fehlbildung* (Score 0,9956): Evidenzgrad L3; nur eine Phase-1-Studie zur transitorischen Tachypnoe des Neugeborenen, schwache Übereinstimmung mit der Zielbezeichnung. Einstufung: Forschungsfrage.
 - *Rienhoff-Syndrom* (Score 0,9957): Evidenzgrad L5; weder Studien noch Literatur, vermutlich ein Artefakt des Graphmodells. Einstufung: Hold.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Zudem ist der Marktstatus „nur erloschen“ für inhalative Formulierungen regulatorisch zu klären“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-10-31 | Entfernt: „Die Einschränkungen betreffen die kardiovaskuläre Sicherheit, die hohe Zahl an Wechselwirkungen und den Marktstatus „nur erloschen““ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „(Zulassung erloschen)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

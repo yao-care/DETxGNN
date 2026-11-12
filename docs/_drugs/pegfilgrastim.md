@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 347
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "PEGFILGRASTIM"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
 description: "Pegfilgrastim: vorhergesagte neue Indikation Schwere nichtproliferative diabetische Retinopathie (severe nonproliferative diabetic retinopathy) (Evidenzstufe L5). Ursprüngliche Indikation: Neutropeni"
@@ -84,6 +84,12 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 Alle 11 erfassten Zulassungen sind gültig. Für die meisten liegt kein Text zur zugelassenen Indikation vor; die Angaben zur Darreichungsform fehlen durchgängig.
 
+<!-- review:begin de-lic-20261106-pegfilgrastim-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Weitere erloschene Zulassungen: Grasustek, Cegfila, Pelmeg, Fulphila, Nyvepria, Pelgraz.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 11 Zulassungen erfasst, davon 11 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-pegfilgrastim-1 -->
+
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/000420 | Neulasta | – | Krebs, Neutropenie, febrile Neutropenie, chemotherapiebedingte febrile Neutropenie |
@@ -125,6 +131,19 @@ Die Vorhersage beruht allein auf einem hohen Modellwert (Evidenzstufe L5). Es gi
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da die Sicherheitsprüfung derzeit nicht abgeschlossen werden kann
 - Klärung der Anwendungsroute (z. B. systemisch vs. intravitreal), da die Routenkompatibilität noch offen ist
 - Klärung des Zulassungsstatus in Deutschland und der Verfügbarkeit von Präparaten
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Weitere erloschene Zulassungen: Grasustek, Cegfila, Pelmeg, Fulphila, Nyvepria, Pelgraz“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

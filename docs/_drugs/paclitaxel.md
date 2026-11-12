@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 336
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Paclitaxel: vorhergesagte neue Indikation Parameningeal embryonal rhabdomyosarcoma (Evidenzstufe L5). Ursprüngliche Indikation: Breast Neoplasms"
@@ -108,6 +108,12 @@ Die folgende Tabelle zeigt eine Auswahl der relevantesten Studien. In den Daten 
 
 Angaben zur Darreichungsform liegen nicht vor.
 
+<!-- review:begin de-lic-20261106-paclitaxel-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Alle vier erfassten Zulassungen sind zentrale europäische Zulassungen (EMA-Nummern) und haben den Status „erloschen/gelöscht". Angaben zur Darreichungsform liegen nicht vor.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 4 Zulassungen erfasst, davon 4 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-paclitaxel-1 -->
+
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/000778 | Abraxane | k. A. | Brustneoplasmen; Pankreaskarzinom; nicht-kleinzelliges Lungenkarzinom |
@@ -161,6 +167,19 @@ Paclitaxel ist beim Mammakarzinom ein etabliertes Zytostatikum. Es gibt mehrere 
 - Ergänzung der Mechanismusdaten (MOA) aus DrugBank
 - Klärung, welche paclitaxelhaltigen Präparate in Deutschland aktuell verfügbar sind; alle 4 erfassten Zulassungen sind gültig
 - Sicherheitsüberwachungsplan (Blutbild, Neuropathie, Überempfindlichkeit, Wechselwirkungen mit CYP-Inhibitoren und -Induktoren)
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Alle vier erfassten Zulassungen sind zentrale europäische Zulassungen (EMA-Nummern) und haben den Status „erloschen/gelöscht"“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

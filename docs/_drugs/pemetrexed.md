@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 351
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-12
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: vorhergesagte neue Indikation Pleural adenomatoid tumor (Evidenzstufe L5). Ursprüngliche Indikation: Carcinoma, Non-Small-Cell Lung"
@@ -154,7 +154,26 @@ Pemetrexed-Platin ist beim Pleuramesotheliom durch Phase-3-Evidenz etabliert und
 - Klärung des Zulassungsstatus in Deutschland
 - Überwachungsplan für Blutbild, Nierenfunktion und Folat-/Vitamin-B12-Supplementierung
 
+<!-- review:begin de-lic-20261106-pemetrexed-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung des Zulassungsstatus in Deutschland; alle vier Zulassungen sind derzeit gültig“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 4 Zulassungen erfasst, davon 3 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-pemetrexed-1 -->
+
 **Hinweis zu weiteren Vorhersagen:** Die Vorhersagen für Pleuramesotheliom und dessen Subtypen (epitheloid, sarkomatoid, biphasisch) entsprechen bereits der bestehenden Zulassung und stellen keine echte Neuindikation dar. Für pleurales Adenomatoid-Tumor, lymphohistiozytoides Mesotheliom, gut differenziertes papilläres Mesotheliom und Iminoglyzinurie besteht keine tragfähige Rationale (Empfehlung: Hold). Das Perikardkarzinom ist lediglich durch Einzelfallberichte gestützt.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „alle vier Zulassungen sind derzeit gültig“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 291
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-12
 monitor_inn: "mercaptopurine"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
 description: "Mercaptopurine: vorhergesagte neue Indikation Myeloische Leukämie (myeloid leukemia) (Evidenzstufe L3). Ursprüngliche Indikation: Leukemia, Lymphoid"
@@ -126,6 +126,18 @@ Für die AML liegen eine Kohortenstudie und eine prospektive Pilotstudie zur Mer
 - Detaillierte Daten zum Wirkmechanismus
 - Auswertung der Fachinformation (Warnhinweise und Kontraindikationen)
 - Überwachungsplan für Myelosuppression, Leber- und Pankreastoxizität, ggf. mit Testung auf NUDT15- und TPMT-Polymorphismen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Klärung des Zulassungs- und Versorgungsstatus in Deutschland, da nur eine erloschene Zulassung vorliegt“ | Nach Neuerstellung des Berichts nicht mehr vorhanden (2026-11-12: der Bericht wurde im November 2026 neu erstellt und enthält diese Aussage nicht mehr; vorher: Korrigiert) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 475
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Toremifene: vorhergesagte neue Indikation HIV-Infektionskrankheit (Evidenzstufe L5). Ursprüngliche Indikation: Brustkrebs (Mammakarzinom)"
 monitor_inn: "TOREMIFENE"
 predicted_indications: ["HIV infectious disease"]
@@ -125,12 +125,31 @@ Für weitere Sicherheitsinformationen bitte die Packungsbeilage heranziehen.
 **Begründung:**
 Die Vorhersage beruht allein auf einem Modellwert. Es gibt keine klinischen Studien, und die einzige Publikation ist präklinisch und betrifft eine opportunistische Pilzinfektion, nicht HIV selbst. Hinzu kommen ein erhebliches QT-Risiko, eine hohe Wechselwirkungslast.
 
+<!-- review:begin de-lic-20261106-toremifene-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Hinzu kommen ein erhebliches QT-Risiko, eine hohe Wechselwirkungslast und das Fehlen einer gültigen Zulassung in Deutschland.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-toremifene-1 -->
+
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Präklinische Belege einer direkten Wirkung gegen HIV (z. B. In-vitro-Virologie) oder alternativ eine klare Neudefinition der Zielindikation (z. B. Kryptokokkose als adjuvante Therapie)
 - Angaben zum Wirkmechanismus (MOA)
 - Sicherheitsunterlagen aus der Packungsbeilage (Warnhinweise und Kontraindikationen), die derzeit fehlen und für ein Sicherheitsscreening zwingend erforderlich sind
 - Bewertung des QT-Risikos und der Wechselwirkungen mit antiretroviralen Therapien
 - Klärung des Zulassungs- und Verfügbarkeitsstatus in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „und das Fehlen einer gültigen Zulassung in Deutschland“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

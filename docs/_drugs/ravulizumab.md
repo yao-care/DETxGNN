@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 386
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Ravulizumab: vorhergesagte neue Indikation Autosomal-rezessive schwere kongenitale Neutropenie durch G6PC3-Mangel (Evidenzstufe L5). Ursprüngliche Indikation: Paroxysmale nächtliche Hämoglobinurie"
 monitor_inn: "RAVULIZUMAB"
 predicted_indications: ["autosomal recessive severe congenital neutropenia due to G6PC3 deficiency", "cyclic hematopoiesis", "primary hyperoxaluria", "severe congenital neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "pseudo-von Willebrand disease", "X-linked severe congenital neutropenia", "primary release disorder of platelets", "megaloblastic anemia (disease)"]
@@ -78,6 +78,12 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 Derzeit liegt keine zugehörige Literatur vor.
 
+<!-- review:begin de-lic-20261106-ravulizumab-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Der Status dieser Zulassung ist „erloschen/aufgehoben“. Eine gültige Zulassung ist in den Daten nicht verzeichnet.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-ravulizumab-1 -->
+
 ---
 
 ## Informationen zum deutschen Markt
@@ -110,6 +116,19 @@ Für die vorhergesagte Indikation gibt es weder klinische Studien noch Literatur
 - Präklinische oder mechanistische Belege für eine Rolle des Komplements bei der Zielerkrankung prüfen
 - Den Zulassungsstatus in Deutschland klären
 - Das Meningokokken-Infektionsrisiko in einer neutropenischen bzw. immundefizienten Population bewerten
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Der Status dieser Zulassung ist „erloschen/aufgehoben“. Eine gültige Zulassung ist in den Daten nicht verzeichnet“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

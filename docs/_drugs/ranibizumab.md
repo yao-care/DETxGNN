@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 381
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["tetanic cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "mature cataract", "craniostenosis cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "hemorrhagic disease of newborn"]
 description: "Ranibizumab: vorhergesagte neue Indikation Tetanic cataract (Evidenzstufe L5). Ursprüngliche Indikation: Wet Macular Degeneration"
@@ -138,10 +138,29 @@ Die Indikation liegt eng an den bereits zugelassenen Anwendungen, und die Litera
 
 **Für das weitere Vorgehen ist Folgendes erforderlich:**
 - Prüfung der Studiendesigns hinter der L1-Einstufung (insbesondere Pavilion und RIDE/RISE)
-- Klärung der Verfügbarkeit und Formulierung (z. B.
+- Klärung der Verfügbarkeit und Formulierung (z. B. Port-Delivery-System)
 - Beschaffung der Fachinformation mit Warnhinweisen und Gegenanzeigen (derzeit blockierende Datenlücke für das Sicherheits-Screening)
 - Ergänzung der Wirkmechanismus-Daten (MOA) aus DrugBank
 - Verzicht auf weitere Verfolgung der Katarakt- und Neugeborenen-Vorhersagen mangels Evidenz
+
+<!-- review:begin de-lic-20261031-ranibizumab-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Klärung der Verfügbarkeit und Formulierung (z. B. Port-Delivery-System), da nur erloschene Zulassungen verzeichnet sind“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 7 Zulassungen erfasst, davon 7 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Bei der ersten Bereinigung war der Satz an der Abkürzung „z. B.“ abgeschnitten worden; am 2026-11-12 ist nur der widersprüchliche Teilsatz entfernt und der übrige Wortlaut wiederhergestellt. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-ranibizumab-1 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Port-Delivery-System), da nur erloschene Zulassungen verzeichnet sind“ | Korrigiert (überarbeitet am 2026-11-12; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

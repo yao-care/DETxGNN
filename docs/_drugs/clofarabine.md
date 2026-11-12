@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 118
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Clofarabine: vorhergesagte neue Indikation Myeloische Leukämie (Evidenzstufe L1). Ursprüngliche Indikation: Vorläuferzell-lymphoblastische Leukämie/Lymphom"
 monitor_inn: "CLOFARABINE"
 predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"]
@@ -162,6 +162,25 @@ Für die myeloische Leukämie liegen zwei abgeschlossene Phase-3-Studien sowie z
 - Ergänzung der Wirkmechanismus-Daten aus der Arzneimitteldatenbank
 - Klärung des Zulassungs- und Versorgungsstatus in Deutschland
 - Überwachungsplan für Blutbild, Leber- und Nierenfunktion sowie Prüfung relevanter Wechselwirkungen (z. B. nephro- oder hepatotoxische Begleitmedikation)
+
+<!-- review:begin de-lic-20261106-clofarabine-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung des Zulassungs- und Versorgungsstatus in Deutschland, da die einzige Zulassung erloschen ist“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-clofarabine-1 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „da die einzige Zulassung erloschen ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

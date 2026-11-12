@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 506
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Ziconotide: vorhergesagte neue Indikation Migräne (migraine disorder) (Evidenzstufe L4). Ursprüngliche Indikation: Injektionen, spinal"
 monitor_inn: "ZICONOTIDE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "obesity disorder", "transient ischemic attack (disease)", "open-angle glaucoma", "obsolete neurogenic bladder (disease)", "primary hereditary glaucoma", "preeclampsia"]
@@ -107,12 +107,38 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 **Begründung:**
 Die Vorhersage stützt sich auf einen hohen Modellwert und einen einzelnen Fallbericht sowie indirekte Übersichtsarbeiten; es gibt keine klinischen Studien. Die intrathekale Gabe ist invasiv, und die Sicherheitsdaten aus der Fachinformation fehlen (Blockade für die Sicherheitsprüfung).
 
+<!-- review:begin de-lic-20261106-ziconotide-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem ist die Zulassung in Deutschland/EU aufgehoben, die intrathekale Gabe ist invasiv, und die Sicherheitsdaten aus der Fachinformation fehlen (Blockade für die Sicherheitsprüfung).“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-ziconotide-1 -->
+
 **Für das weitere Vorgehen ist Folgendes erforderlich:**
 - Fachinformation (Warnhinweise, Kontraindikationen) beschaffen und auswerten – derzeit blockierend
 - Detaillierte Mechanismusdaten (MOA) aus DrugBank ergänzen
 - Systematische Literaturrecherche und ggf. kontrollierte Studien zur Wirksamkeit bei chronischer Migräne planen
 - Nutzen-Risiko-Bewertung der invasiven intrathekalen Gabe (neuropsychiatrische Nebenwirkungen, Kontraindikation bei psychischen Störungen) gegenüber bestehenden Migränetherapien
 - Klärung der Zulassungs- und Verfügbarkeitssituation
+
+<!-- review:begin de-lic-20261106-ziconotide-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung der Zulassungs- und Verfügbarkeitssituation, da der Wirkstoff aktuell nur mit aufgehobener Zulassung geführt wird“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-ziconotide-2 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem ist die Zulassung in eutschland/EU aufgehoben, d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „da der Wirkstoff aktuell nur mit aufgehobener Zulassung geführt wird“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

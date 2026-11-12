@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 393
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Remimazolam: vorhergesagte neue Indikation Schlaflosigkeit (Insomnie) (Evidenzstufe L5). Ursprüngliche Indikation: Conscious Sedation (Sedierung bei Eingriffen)"
 monitor_inn: "remimazolam"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium"]
@@ -108,12 +108,31 @@ Angaben zu Warnhinweisen und Gegenanzeigen aus der Fachinformation liegen nicht 
 **Begründung:**
 Die Vorhersagen beruhen ausschließlich auf einem Rechenmodell (Evidenzlevel L5) ohne klinische Studien oder Publikationen. Zudem sprechen die ultrakurze Wirkdauer und die rein intravenöse Anwendung gegen eine praktikable Behandlung von chronischer Schlaflosigkeit.
 
+<!-- review:begin de-lic-20261106-remimazolam-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem sprechen die ultrakurze Wirkdauer und die rein intravenöse Anwendung gegen eine praktikable Behandlung von chronischer Schlaflosigkeit, und die deutsche Zulassung ist erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-remimazolam-1 -->
+
 **Für ein Weiterkommen sind erforderlich:**
 - Daten zum Wirkmechanismus (MOA) aus DrugBank
 - Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM) – derzeit ein blockierender Datenmangel für die Sicherheitsprüfung
 - Präklinische und klinische Studien zu Schlaflosigkeit bzw. Alkoholentzugsdelir
 - Prüfung der Darreichungsweg-Kompatibilität (intravenös vs. für die Indikation benötigte Applikation)
 - Klärung des aktuellen Zulassungsstatus in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „und die deutsche Zulassung ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

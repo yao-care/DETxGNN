@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 138
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Defibrotide: vorhergesagte neue Indikation Pseudo-von-Willebrand-Erkrankung (Evidenzstufe L5). Ursprüngliche Indikation: Hepatische veno-okklusive Erkrankung"
 monitor_inn: "DEFIBROTIDE"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "thrombotic thrombocytopenic purpura", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "congenital factor V deficiency", "fetal and neonatal alloimmune thrombocytopenia", "thrombocytopenic purpura"]
@@ -114,6 +114,25 @@ Die Hauptvorhersage (Pseudo-von-Willebrand-Erkrankung) beruht ausschließlich au
 - Daten zum Wirkmechanismus (z. B. aus DrugBank)
 - Für TTP/TMA: gezielte Literaturauswertung und ggf. prospektive Studien, mit klarer Abgrenzung der transplantationsassoziierten TMA von der klassischen TTP
 - Bewertung des Blutungsrisikos und der Wechselwirkungen vor jeder weiteren Prüfung bei blutungsneigenden Erkrankungen
+
+<!-- review:begin de-lic-20261031-defibrotide-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Klärung des Zulassungsstatus in Deutschland (aktuell nur erloschene Zulassung) / Für TTP/TMA: gezielte Literaturauswertung und ggf. prospektive Studien, mit klarer Abgrenzung der transplantationsassoziierten TMA von der klassischen TTP“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-defibrotide-1 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Klärung des Zulassungsstatus in Deutschland (aktuell nur erloschene Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

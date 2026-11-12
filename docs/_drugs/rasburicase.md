@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 385
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Rasburicase: vorhergesagte neue Indikation Renale Hypourikämie (Evidenzstufe L5). Ursprüngliche Indikation: Hyperurikämie"
 monitor_inn: "RASBURICASE"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "hepatic porphyria", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "hepatopulmonary syndrome", "renal tubular acidosis", "disorder of phenylalanine metabolism"]
@@ -127,6 +127,25 @@ Die Vorhersage beruht ausschließlich auf dem Modell (L5), ohne Studien oder Pub
 - Detaillierte Daten zum Wirkmechanismus
 - Prüfung der Zulassungs- und Verfügbarkeitssituation
 - Mechanistische und klinische Belege für jede vorgeschlagene Indikation. Am ehesten kommt der partielle HPRT-Mangel in Frage, und dort nur für die akute Harnsäuresenkung.
+
+<!-- review:begin de-lic-20261106-rasburicase-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Prüfung der Zulassungs- und Verfügbarkeitssituation (erloschene Zulassung)“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-rasburicase-1 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „(erloschene Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

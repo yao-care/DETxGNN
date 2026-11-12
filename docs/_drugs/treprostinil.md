@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 483
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Treprostinil: vorhergesagte neue Indikation Pulmonale arteriovenöse Malformation (Evidenzstufe L5). Ursprüngliche Indikation: Pulmonale Hypertonie"
 monitor_inn: "Treprostinil"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita"]
@@ -131,6 +131,25 @@ Die Daten zu Warnhinweisen und Gegenanzeigen aus der Packungsbeilage sind nicht 
 - Prüfung der Studiendesigns der Publikationen zu PAH bei angeborenem Herzfehler und Bindegewebserkrankung anhand der Volltexte; Suche nach registrierten Studien.
 - Prüfung der Verfügbarkeit anderer Treprostinil-Präparate.
 - Für die Ränge 7–10 (Haar- und Entwicklungsstörungen): keine Weiterverfolgung ohne mechanistische Begründung.
+
+<!-- review:begin de-lic-20261106-treprostinil-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung, warum die einzige deutsche Zulassung (Trepulmix) aufgehoben ist, und Prüfung der Verfügbarkeit anderer Treprostinil-Präparate.“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-treprostinil-1 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Klärung, warum die einzige deutsche Zulassung (Trepulmix) aufgehoben ist, und“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

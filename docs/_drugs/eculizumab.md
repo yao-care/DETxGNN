@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 156
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Eculizumab: vorhergesagte neue Indikation Zyklische Hämatopoese (Evidenzstufe L5). Ursprüngliche Indikation: Paroxysmale nächtliche Hämoglobinurie"
 monitor_inn: "ECULIZUMAB"
 predicted_indications: ["cyclic hematopoiesis", "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency", "X-linked severe congenital neutropenia", "congenital neutropenia-myelofibrosis-nephromegaly syndrome", "adult idiopathic neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "autosomal recessive severe congenital neutropenia due to CSF3R deficiency", "severe congenital neutropenia", "primary release disorder of platelets"]
@@ -120,6 +120,25 @@ Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzlevel L5). Es gibt 
 - Daten zum Wirkmechanismus (MOA) ergänzen und einen biologisch begründeten Zusammenhang zwischen C5-Hemmung und Neutropenie prüfen
 - Fachinformation des BfArM auswerten (Warnhinweise und Gegenanzeigen fehlen bislang; dies blockiert die Sicherheitsprüfung)
 - Präklinische Belege oder systematische Literaturrecherche zur vorhergesagten Indikation
+
+<!-- review:begin de-lic-20261031-eculizumab-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Präklinische Belege oder systematische Literaturrecherche zur vorhergesagten Indikation / Klärung des Zulassungsstatus in Deutschland (derzeit nur erloschene Zulassungen)“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 3 Zulassungen erfasst, davon 3 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-eculizumab-1 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Klärung des Zulassungsstatus in Deutschland (derzeit nur erloschene Zulassungen)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

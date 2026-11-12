@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 453
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "TENECTEPLASE"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
 description: "Tenecteplase: vorhergesagte neue Indikation Congenital coronary artery anomaly (Evidenzstufe L5). Ursprüngliche Indikation: Myocardial Infarction"
@@ -97,6 +97,12 @@ Zur Einordnung: Für den septalen Myokardinfarkt (Rang 3) und die Koronarstenose
 
 Hersteller: Boehringer Ingelheim International GmbH.
 
+<!-- review:begin de-lic-20261106-tenecteplase-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die Zulassung ist erloschen (Status: cancelled). Hersteller: Boehringer Ingelheim International GmbH.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-tenecteplase-1 -->
+
 ---
 
 ## Sicherheitsaspekte
@@ -117,11 +123,31 @@ Angaben zu Warnhinweisen und Gegenanzeigen aus der Fachinformation liegen nicht 
 **Begründung:**
 Der posterolaterale Myokardinfarkt ist ein Untertyp der bereits zugelassenen Indikation. Es gibt weder Studien noch spezifische Literatur, und der hohe Vorhersagewert ist kein echtes Repurposing-Signal. Die Evidenz beschränkt sich auf eine reine Modellvorhersage (L5).
 
+<!-- review:begin de-lic-20261106-tenecteplase-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem ist die deutsche Zulassung erloschen. Die Evidenz beschränkt sich auf eine reine Modellvorhersage (L5).“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-tenecteplase-2 -->
+
 **Für ein Weiterkommen sind erforderlich:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da dies derzeit die Sicherheitsprüfung blockiert
 - Daten zum Wirkmechanismus (z. B. aus DrugBank)
 - Klärung, ob der Fokus eher auf Kandidaten mit echtem Repurposing-Potenzial liegen sollte, etwa der intrakoronaren Anwendung bei Koronarverschluss durch Thrombus (Evidenzstufe L3), und gezielte Recherche dazu
 - Klärung des Zulassungs- und Marktstatus in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Die Zulassung ist erloschen (Status: cancelled)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Zudem ist die deutsche Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

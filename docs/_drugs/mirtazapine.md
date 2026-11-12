@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 303
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "MIRTAZAPINE"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
 description: "Mirtazapine: vorhergesagte neue Indikation Ohdo-Syndrom und Varianten (Ohdo syndrome and variants) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
@@ -117,6 +117,12 @@ Hinweis: Angaben aus der Packungsbeilage (Warnhinweise und Gegenanzeigen) liegen
 **Begründung:**
 Die Vorhersage beruht ausschließlich auf einem Rechenmodell (Evidenzstufe L5) ohne klinische Studien, Publikationen oder belegten Wirkmechanismus. Eine zentrale EU-Zulassung (EMA) ist nicht erfasst; nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten. Bei der dritten Vorhersage kommen die Zielgruppe (Säuglinge) und der spontane Verlauf der Erkrankung als zusätzliche Bedenken hinzu.
 
+<!-- review:begin de-lic-20261031-mirtazapine-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „In Deutschland ist das Arzneimittel zudem im Handel, 1 von 1 Zulassung ist gültig.“ Entfernt: Die Beschreibung der Präparate stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 0 Zulassungen erfasst, davon 0 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-mirtazapine-1 -->
+
 **Für ein Weiterkommen ist Folgendes erforderlich:**
 - Daten zum Wirkmechanismus (MOA) von Mirtazapin
 - Belegbare biologische Verbindung zwischen Mirtazapin und der Pathophysiologie des Ohdo-Syndroms (z. B. KAT6B-Signalwege)
@@ -124,6 +130,19 @@ Die Vorhersage beruht ausschließlich auf einem Rechenmodell (Evidenzstufe L5) o
 - Packungsbeilage mit Warnhinweisen und Gegenanzeigen für die Sicherheitsprüfung
 - Klärung des Zulassungsstatus in Deutschland und der Darreichungsformen
 - Sicherheitsbewertung für pädiatrische Patienten
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „I D tsch d d Arz e mittel zudem im Handel, 1 v 1 gü ig“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

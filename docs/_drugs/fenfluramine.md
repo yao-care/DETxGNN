@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 192
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Fenfluramine: vorhergesagte neue Indikation Proximales 16p11.2-Mikrodeletionssyndrom (Evidenzstufe L5). Ursprüngliche Indikation: Myoklonische Epilepsien"
 monitor_inn: "Fenfluramine"
 predicted_indications: ["proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "obsolete hypertelorism (disease)", "frontorhiny"]
@@ -102,12 +102,38 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Kontraindikationen) siehe d
 **Begründung:**
 Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert (Evidenzstufe L5) ohne Studien oder Publikationen. Der mechanistische Bezug zum 16p11.2-Mikrodeletionssyndrom ist nur spekulativ. Hinzu kommt, dass die Sicherheitsdaten unvollständig sind.
 
+<!-- review:begin de-lic-20261106-fenfluramine-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Hinzu kommt, dass die Zulassung in Deutschland nur noch als gelöscht geführt wird und die Sicherheitsdaten unvollständig sind.“ Entfernt: Die Beschreibung der Präparate stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-fenfluramine-1 -->
+
 **Für ein Weiterkommen sind erforderlich:**
 - Systematische Literatur- und Studienrecherche zu Fenfluramin bei 16p11.2-Deletion bzw. verwandten neuroentwicklungsbedingten Epilepsien
 - Daten zum Wirkmechanismus (MOA) und zur Zielstruktur
 - Auswertung der Fachinformation (Warnhinweise und Kontraindikationen) von BfArM/EMA; dies ist derzeit eine blockierende Datenlücke für die Sicherheitsbewertung
 - Klärung des Zulassungsstatus und der Verfügbarkeit
 - Besondere Prüfung kardiovaskulärer Risiken (Herzklappenerkrankung, pulmonale Hypertonie), da diese bei Fenfluramin historisch zur Marktrücknahme führten und auch im Wissensgraphen als Kontraindikationen auftauchen
+
+<!-- review:begin de-lic-20261106-fenfluramine-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung des Zulassungsstatus (warum die Zulassung gelöscht wurde) und der Verfügbarkeit“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-fenfluramine-2 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „die Zulassung in Deutschland nur noch als gelöscht geführt wird und“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „(warum die Zulassung gelöscht wurde)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

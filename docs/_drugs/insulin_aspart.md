@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 239
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Insulin Aspart: vorhergesagte neue Indikation autoimmune Oophoritis (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes mellitus"
 monitor_inn: "INSULIN ASPART"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
@@ -104,6 +104,18 @@ Die Daten enthalten 34 Studien. Aufgeführt sind die zehn relevantesten (bevorzu
 
 Es sind keine Darreichungsformen angegeben.
 
+<!-- review:begin de-lic-20261106-insulin_aspart-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Alle in den Daten erfassten Zulassungen sind aufgehoben. Es sind keine Darreichungsformen angegeben.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 8 Zulassungen erfasst, davon 7 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-insulin_aspart-1 -->
+
+<!-- review:begin de-lic-20261106-insulin_aspart-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Drei weitere aufgehobene Zulassungen (Truvelog Mix 30, Dazparda, Kirsty) sind in der Gesamtzahl von 8 enthalten.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 8 Zulassungen erfasst, davon 7 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-insulin_aspart-2 -->
+
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/000258 | NovoRapid | – | Diabetes mellitus |
@@ -127,12 +139,33 @@ Zur Sicherheit siehe bitte die Fachinformation (Packungsbeilage). Für Wechselwi
 **Begründung:**
 Die Evidenz für Typ-1-Diabetes ist stark (mehrere abgeschlossene Phase-3-Studien, Cochrane-Übersicht). Es handelt sich aber um eine bereits etablierte Indikation und nicht um echtes Repurposing.
 
+<!-- review:begin de-lic-20261106-insulin_aspart-3 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Es handelt sich aber um eine bereits etablierte Indikation und nicht um echtes Repurposing. Zudem sind alle deutschen Zulassungen in den Daten als aufgehoben geführt, sodass der aktuelle Zulassungs- und Verfügbarkeitsstatus vor einer Empfehlung geprüft werden muss.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 8 Zulassungen erfasst, davon 7 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-insulin_aspart-3 -->
+
 **Für das weitere Vorgehen sind erforderlich:**
 - Überprüfung des aktuellen Zulassungs- und Marktstatus in Deutschland (BfArM/EMA)
 - Beschaffung und Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
 - Daten zum Wirkmechanismus aus DrugBank
 
 **Hinweis zu weiteren vorhergesagten Indikationen:** Für permanenten neonatalen Diabetes mellitus und Pankreasagenesie ist Insulinersatz mechanistisch sinnvoll, die Evidenz ist aber nur indirekt (Forschungsfrage). Die übrigen Vorhersagen (z. B. autoimmune Oophoritis, Stiff-Person-Syndrom, lokalisierte Lipodystrophie) haben keine belastbare Evidenz bzw. keinen plausiblen Mechanismus. Bei der arzneimittelinduzierten Lipodystrophie ist Insulin sogar die Ursache und nicht die Therapie. Für diese gilt: Hold.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Alle in den Daten erfassten Zulassungen sind aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Drei weitere aufgehobene Zulassungen (Truvelog Mix 30, Dazparda, Kirsty) sind in der Gesamtzahl von 8 enthalten“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Zudem sind alle deutschen Zulassungen in den Daten als aufgehoben geführt, sodass der aktuelle Zulassungs- und Verfügbarkeitsstatus vor eine“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 398
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Rilpivirine: vorhergesagte neue Indikation Felines erworbenes Immundefizienzsyndrom (Evidenzstufe L5). Ursprüngliche Indikation: HIV-Infektionen"
 monitor_inn: "RILPIVIRINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -101,6 +101,12 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
   - **Schwerwiegend (Major)**: Famotidin, Ranitidin, Cimetidin, Omeprazol, Esomeprazol, Rabeprazol, Dexlansoprazol (Säureblocker/Protonenpumpenhemmer), Dexamethason, Cisapridin, Dolasetron
   - **Moderat**: Loperamid, Aprepitant, Clarithromycin, Clotrimazol, Bisacodyl, Ricinusöl, Magnesiumoxid, Aluminiumhydroxid, Calciumcarbonat, Polyethylenglykol
 
+<!-- review:begin de-lic-20261106-rilpivirine-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Alle sechs Zulassungen sind laut den Daten aufgehoben (zentrale EU-Zulassungen, EMEA-Nummern).“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 6 Zulassungen erfasst, davon 6 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-rilpivirine-1 -->
+
 Für weitere Sicherheitsinformationen, insbesondere Warnhinweise, siehe die Fachinformation.
 
 ---
@@ -112,6 +118,12 @@ Für weitere Sicherheitsinformationen, insbesondere Warnhinweise, siehe die Fach
 **Begründung:**
 Die Vorhersage stützt sich nur auf eine einzelne präklinische Studie ohne klinische Studien. Zudem handelt es sich um eine veterinärmedizinische Indikation.
 
+<!-- review:begin de-lic-20261106-rilpivirine-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem handelt es sich um eine veterinärmedizinische Indikation, und alle deutschen Zulassungen von Rilpivirin sind aufgehoben.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 6 Zulassungen erfasst, davon 6 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-rilpivirine-2 -->
+
 **Für ein Fortschreiten sind folgende Punkte nötig:**
 - Daten zum Wirkmechanismus (MOA)
 - Fachinformation mit Warnhinweisen und Kontraindikationen (aktuell nicht verfügbar)
@@ -121,6 +133,20 @@ Die Vorhersage stützt sich nur auf eine einzelne präklinische Studie ohne klin
 ---
 
 **Hinweis zu weiteren Vorhersagen:** Die Vorhersage „Simian-Immundefizienzvirus-Infektion" (Makakenmodelle mit lang wirksamem Rilpivirin, Evidenz L4) ist ein Tiermodell der bereits zugelassenen HIV-Indikation. Für die Vorhersage „neurologische Entwicklungsstörung mit ataxischem Gang" gibt es weder Studien noch einen erkennbaren mechanistischen Zusammenhang (L5); der hohe Score stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Alle sechs Zulassungen sind laut den Daten aufgehoben (zentrale EU-Zulassungen, EMEA-Nummern)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „und alle deutschen Zulassungen von Rilpivirin sind aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

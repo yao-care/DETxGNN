@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 404
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Risankizumab: vorhergesagte neue Indikation Dermatitis (Evidenzstufe L2). Ursprüngliche Indikation: Psoriasis"
 monitor_inn: "RISANKIZUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
@@ -106,6 +106,12 @@ Zudem gibt es in der Literatur Berichte über paradoxe Ekzeme unter IL-23- und I
 
 **Arzneimittelwechselwirkungen:** Insgesamt wurden 78 Wechselwirkungen erfasst. Hier eine Auswahl der Einträge der Stufe „Schwerwiegend" (Major):
 
+<!-- review:begin de-lic-20261106-risankizumab-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Diese Zulassung ist laut den für diesen Bericht zusammengestellten Daten als erloschen/aufgehoben geführt.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-risankizumab-1 -->
+
 - Adalimumab
 - Baricitinib
 - Certolizumab pegol
@@ -126,12 +132,32 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Begründung:**
 Die einzige randomisierte Studie (Phase 2, atopische Dermatitis) zeigte keinen klaren Wirksamkeitsvorteil, und der Wirkmechanismus passt nur schwach zur Th2-getriebenen Erkrankung. Hinzu kommen Berichte über paradoxe Ekzeme unter IL-23-Hemmung.
 
+<!-- review:begin de-lic-20261106-risankizumab-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Hinzu kommen Berichte über paradoxe Ekzeme unter IL-23-Hemmung. Die Zulassung in Deutschland ist zudem erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-risankizumab-2 -->
+
 **Für ein Weiterverfolgen sind folgende Schritte nötig:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da diese Daten derzeit fehlen
 - Detaillierte Mechanismusdaten (MOA) aus DrugBank
 - Genauere Analyse der Phase-2-Ergebnisse (NCT03706040, PMID 36588137), ggf. mit Fokus auf Th17-dominierte Dermatitis-Subtypen
 - Klärung des aktuellen Zulassungsstatus in Deutschland
 - Bewertung des Risikos paradoxer Ekzeme
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Diese Zulassung ist laut den für diesen Bericht zusammengestellten Daten als erloschen/aufgehoben geführt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Die Zulassung in Deutschland ist zudem erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 313
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Nevirapin: vorhergesagte neue Indikation felines erworbenes Immundefizienz-Syndrom (Evidenzstufe L5). Ursprüngliche Indikation: HIV-Infektionen"
 monitor_inn: "NEVIRAPINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -109,11 +109,30 @@ Für Warnhinweise und Gegenanzeigen aus der Fachinformation bitte die Packungsbe
 **Begründung:**
 Die Vorhersage beruht allein auf einem Modellwert und einer einzigen präklinischen Studie. Es gibt keine klinischen Studien, die Zielindikation ist veterinärmedizinisch bzw. ein Forschungsmodell. Zudem besteht ein erhebliches Sicherheitsprofil (Leber- und Hautreaktionen, viele Wechselwirkungen).
 
+<!-- review:begin de-lic-20261106-nevirapine-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Es gibt keine klinischen Studien, die Zielindikation ist veterinärmedizinisch bzw. ein Forschungsmodell, und die Zulassung in Deutschland ist erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-nevirapine-1 -->
+
 **Für ein Weiterverfolgen sind folgende Schritte erforderlich:**
 - Daten zum Wirkmechanismus (MOA) ergänzen
 - Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM) beschaffen, da dies derzeit die Sicherheitsprüfung blockiert
 - Belastbare Wirksamkeitsdaten gegen FIV in vitro und in vivo erzeugen, da NNRTIs gegen FIV generell schwach wirken
 - Klären, ob eine veterinärmedizinische Entwicklung überhaupt angestrebt wird, und Prüfung von Alternativen mit besserem Mechanismus-Fit
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „und die Zulassung in Deutschland ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

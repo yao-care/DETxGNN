@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 103
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Catridecacog: vorhergesagte neue Indikation Primäre Thrombozyten-Freisetzungsstörung (Evidenzstufe L5). Ursprüngliche Indikation: Angeborene Blutgerinnungsstörungen"
 monitor_inn: "CATRIDECACOG"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia"]
@@ -111,6 +111,25 @@ Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzgrad L5), ohn
 - Systematische Literatur- und Studienrecherche zu den drei vorhergesagten Indikationen
 - Klärung der Verfügbarkeit des Produkts
 - Präklinische Untersuchungen, die einen möglichen indirekten Nutzen der Fibrinstabilisierung bei Thrombozytenfunktionsstörungen prüfen
+
+<!-- review:begin de-lic-20261106-catridecacog-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung der Verfügbarkeit des Produkts angesichts der erloschenen Zulassung“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-catridecacog-1 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „angesichts der erloschenen Zulassung“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

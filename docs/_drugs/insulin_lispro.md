@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 245
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-12
 description: "Insulin Lispro: vorhergesagte neue Indikation Autoimmune Oophoritis (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes mellitus"
 monitor_inn: "INSULIN LISPRO"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
@@ -133,12 +133,31 @@ Für Warnhinweise und Gegenanzeigen siehe die Fachinformation.
 **Begründung:**
 Für die vorhergesagte Indikation autoimmune Oophoritis gibt es weder klinische Studien noch Literatur, und ein mechanistischer Zusammenhang ist nicht belegt (Evidenzniveau L5). Das Arzneimittel ist im Handel. Auch die übrigen Vorhersagen sind entweder mechanistisch nicht plausibel, symptomatisch (Begleiterkrankung Diabetes) oder betreffen Zustände, die Insulin selbst verursachen kann.
 
+<!-- review:begin de-lic-20261106-insulin_lispro-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem sind derzeit 4 von 5 Zulassungen gültig, das Arzneimittel ist im Handel.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 5 Zulassungen erfasst, davon 5 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-insulin_lispro-1 -->
+
 **Für ein Weiterverfolgen ist Folgendes erforderlich:**
 - Fachinformation (Warnhinweise und Gegenanzeigen) zur Sicherheitsbewertung
 - Daten zum Wirkmechanismus (MOA)
 - Gezielte Literaturrecherche und Studienrecherche zu autoimmuner Oophoritis und Insulin bzw. Autoimmun-Polyendokrinopathie
 - Klärung des aktuellen Zulassungs- und Marktstatus in Deutschland
 - Prüfung der Anwendungswege und der Plausibilität einer Wirkung auf die ovarielle Autoimmunität
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem sind derzeit 4 von 5 Zulassungen gültig, d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

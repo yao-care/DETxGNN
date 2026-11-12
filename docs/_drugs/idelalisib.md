@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 229
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Idelalisib: vorhergesagte neue Indikation Mantelzell-Lymphom (Evidenzstufe L2). Ursprüngliche Indikation: Non-Hodgkin-Lymphom"
 monitor_inn: "IDELALISIB"
 predicted_indications: ["mantle cell lymphoma", "Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "small intestinal Burkitt lymphoma", "colon adenocarcinoma"]
@@ -131,12 +131,38 @@ Warnhinweise und Gegenanzeigen der Fachinformation liegen in den zusammengestell
 **Begründung:**
 Für das Mantelzell-Lymphom gibt es eine plausible Mechanismus-Verbindung und Phase-1/2-Daten (u. a. NCT01838434 mit 106 Patienten), aber keine Phase-3-Evidenz. Die bekannten schweren Toxizitäten sowie abgebrochene Studien erfordern Schutzmaßnahmen.
 
+<!-- review:begin de-lic-20261106-idelalisib-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die Zulassung in Deutschland ist erloschen, und die bekannten schweren Toxizitäten sowie abgebrochene Studien erfordern Schutzmaßnahmen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-idelalisib-1 -->
+
 **Für das weitere Vorgehen werden benötigt:**
 - Auswertung der Ergebnisse von NCT01838434 (Wirksamkeit und Sicherheit von Idelalisib plus Lenalidomid)
 - Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM)
 - Detaillierte Wirkmechanismus-Daten (DrugBank)
 - Sicherheitsüberwachungsplan (Leber, Darm, Lunge, Infektionen)
 - Klärung des regulatorischen Status
+
+<!-- review:begin de-lic-20261106-idelalisib-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung des regulatorischen Status, da der Markt nur eine stornierte Zulassung aufweist“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-idelalisib-2 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „ie Zulassung in Deutschland ist erloschen, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „da der Markt nur eine stornierte Zulassung aufweist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

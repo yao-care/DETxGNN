@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 487
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Tyrosine: vorhergesagte neue Indikation Cauda-equina-Syndrom (Evidenzstufe L5). Ursprüngliche Indikation: Ahornsirupkrankheit (Maple Syrup Urine Disease)"
 monitor_inn: "tyrosine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "angle-closure glaucoma", "hyperthyroidism", "postural orthostatic tachycardia syndrome", "hyperthyroxinemia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "traumatic glaucoma", "aqueous misdirection", "neovascular glaucoma"]
@@ -96,6 +96,12 @@ Für das Cauda-equina-Syndrom liegt derzeit keine zugehörige Literatur vor.
 
 Zur Einordnung die relevantesten Treffer bei weiteren Kandidaten (alle ohne direkten Beleg für Tyrosin):
 
+<!-- review:begin de-lic-20261106-tyrosine-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Diese Zulassung (Inhaber: Recordati Rare Diseases) ist erloschen; eine gültige Zulassung besteht derzeit nicht.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-tyrosine-1 -->
+
 | PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
 | [39063020](https://pubmed.ncbi.nlm.nih.gov/39063020/) | 2024 | Fallbericht | Int J Mol Sci | Stressbedingtes chronisches Erschöpfungssyndrom, Ansprechen auf Alpha-Methyl-p-Tyrosin (Tyrosinhydroxylase-Hemmer); nicht POTS-spezifisch, wirkt entgegengesetzt zu Tyrosin |
@@ -132,6 +138,26 @@ Das Cauda-equina-Syndrom beruht allein auf einer Graphvorhersage (L5) ohne Studi
 - Ergänzung der Wirkmechanismus-Daten (MOA), z. B. über DrugBank
 - Prüfung, ob ein biologisch plausibler Mechanismus für eine der Indikationen (z. B. neurogene Blase mit aktueller Krankheitsdefinition) besteht, bevor Studien geplant werden
 - Bewertung der Ähnlichkeit zur ursprünglichen Indikation und der Anwendungswege (derzeit ausstehend)
+
+<!-- review:begin de-lic-20261106-tyrosine-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung des erloschenen Zulassungsstatus in Deutschland / Prüfung, ob ein biologisch plausibler Mechanismus für eine der Indikationen (z.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-tyrosine-2 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Diese Zulassung (Inhaber: Recordati Rare Diseases) ist erloschen; eine gültige Zulassung besteht derzeit nicht“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Klärung des erloschenen Zulassungsstatus in Deutschland“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 78
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Brodalumab: vorhergesagte neue Indikation Strongyloidiasis (Evidenzstufe L5). Ursprüngliche Indikation: Psoriasis"
 monitor_inn: "BRODALUMAB"
 predicted_indications: ["strongyloidiasis", "eye disease", "vitamin deficiency disorder", "von Hippel anomaly", "isolated optic neuritis", "recurrent idiopathic neuroretinitis", "optic perineuritis", "chronic relapsing inflammatory optic neuropathy", "nodular episcleritis", "episcleritis periodica fugax"]
@@ -111,6 +111,25 @@ Die Vorhersage für Strongyloidiasis beruht ausschließlich auf einem Modellwert
 - Präklinische Daten zur Rolle von IL-17RA bei Strongyloides-Infektionen prüfen
 - Bewertung der Zulassungs- und Verfügbarkeitslage
 - Gegebenenfalls alternative Kandidaten aus der Vorhersageliste mit besserer biologischer Plausibilität priorisieren
+
+<!-- review:begin de-lic-20261106-brodalumab-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Bewertung der Zulassungs- und Verfügbarkeitslage (erloschene Zulassung)“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-brodalumab-1 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „(erloschene Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

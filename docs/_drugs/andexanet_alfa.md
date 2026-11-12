@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 34
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Andexanet Alfa: vorhergesagte neue Indikation Glanzmann-Thrombasthenie (Evidenzstufe L5). Ursprüngliche Indikation: Arzneimittelbedingte Nebenwirkungen (Drug-Related Side Effects and Ad…"
 monitor_inn: "ANDEXANET ALFA"
 predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "hemophilia"]
@@ -85,6 +85,12 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 Für die Hauptvorhersage (Glanzmann-Thrombasthenie) liegt keine Literatur vor. Für die viertplatzierte Vorhersage Hämophilie wurden Publikationen gefunden, die jedoch nur indirekt (Mitnennung in Gerinnungsthemen) und nicht als Beleg für einen therapeutischen Nutzen zu verstehen sind:
 
+<!-- review:begin de-lic-20261106-andexanet_alfa-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Status dieser Zulassung: erloschen/aufgehoben (cancelled).“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-andexanet_alfa-1 -->
+
 | PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
 | [38620086](https://pubmed.ncbi.nlm.nih.gov/38620086/) | 2024 | Kohorte | Circulation | ANNEXA-4-Subanalyse: Wirksamkeit und Sicherheit von Andexanet alfa bei akuten Magen-Darm-Blutungen unter FXa-Inhibitoren |
@@ -128,6 +134,19 @@ Die hohen TxGNN-Werte stammen vom TxGNN-Modell (Deep Learning) und können Ähnl
 - Klärung des Zulassungsstatus in Deutschland bzw. der EU
 - Präklinische Evidenz, die einen Effekt auf Thrombozytenfunktion oder Hämostase bei den vorhergesagten Erkrankungen belegt, bevor klinische Studien erwogen werden
 - Bewertung des Thromboserisikos in Populationen mit Blutgerinnungsstörungen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Status dieser Zulassung: erloschen/aufgehoben (cancelled)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

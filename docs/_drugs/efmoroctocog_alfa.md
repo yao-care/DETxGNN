@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 159
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Efmoroctocog Alfa: vorhergesagte neue Indikation Pseudo-von-Willebrand-Erkrankung (Evidenzstufe L5). Ursprüngliche Indikation: Hämophilie A"
 monitor_inn: "EFMOROCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "thrombotic thrombocytopenic purpura"]
@@ -109,11 +109,30 @@ Wechselwirkungen: In den vorliegenden Daten wurden keine Einträge gefunden.
 **Begründung:**
 Die Vorhersage beruht ausschließlich auf einem Modell (Evidenzstufe L5), es gibt weder klinische Studien noch Publikationen. Zudem spricht der Mechanismus gegen einen Nutzen: Der Defekt liegt bei der pseudo-von-Willebrand-Erkrankung im Thrombozytenrezeptor und nicht im Faktor VIII.
 
+<!-- review:begin de-lic-20261106-efmoroctocog_alfa-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem spricht der Mechanismus gegen einen Nutzen: Der Defekt liegt bei der pseudo-von-Willebrand-Erkrankung im Thrombozytenrezeptor und nicht im Faktor VIII. Die einzige deutsche Zulassung ist erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-efmoroctocog_alfa-1 -->
+
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Auswertung der Packungsbeilage (Warnhinweise und Gegenanzeigen) über die BfArM-Website, da ohne diese Daten kein Sicherheitsscreening möglich ist
 - Daten zum Wirkmechanismus aus DrugBank
 - Systematische Literatur- und Studienrecherche zu den Indikationen mit noch am ehesten plausiblem Zusammenhang (erworbener Gerinnungsfaktormangel, Hämophilie A mit Gefäßanomalie)
 - Klärung des aktuellen Zulassungs- und Verfügbarkeitsstatus in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Die einzige deutsche Zulassung ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Posaconazole: vorhergesagte neue Indikation Pneumocystose (Evidenzstufe L5). Ursprüngliche Indikation: Candidiasis"
 monitor_inn: "POSACONAZOLE"
 predicted_indications: ["pneumocystosis"]
@@ -90,6 +90,12 @@ Keine dieser Arbeiten liefert direkte Wirksamkeitsdaten für Posaconazol bei Pne
 
 Das Arzneimittel ist im Handel.
 
+<!-- review:begin de-lic-20261106-posaconazole-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Alle 5 Zulassungen sind gültig (europäische Zentralzulassungen); das Arzneimittel ist im Handel.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 3 Zulassungen erfasst, davon 3 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-posaconazole-1 -->
+
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/000610 | Noxafil | – | Candidiasis; Mykosen; Kokzidioidomykose; Aspergillose |
@@ -121,11 +127,31 @@ Zu Warnhinweisen und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinforma
 **Begründung:**
 Der hohe TxGNN-Wert wird durch keine direkte klinische Evidenz gestützt. Die einzige Studie prüft einen anderen Wirkstoff, die Literatur besteht aus allgemeinen Übersichten. Zudem spricht die Biologie von Pneumocystis (kaum Ergosterol) gegen eine Azol-Wirksamkeit. Das Arzneimittel ist im Handel.
 
+<!-- review:begin de-lic-20261106-posaconazole-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem spricht die Biologie von Pneumocystis (kaum Ergosterol) gegen eine Azol-Wirksamkeit. Alle 5 deutschen Zulassungen sind gültig, das Arzneimittel ist im Handel.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 3 Zulassungen erfasst, davon 3 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-posaconazole-2 -->
+
 **Für ein Weiterverfolgen sind erforderlich:**
 - Fachinformation mit Warnhinweisen und Gegenanzeigen (derzeit blockierende Datenlücke für die Sicherheitsbewertung)
 - Mechanistische Daten (MOA), insbesondere zur In-vitro-Aktivität von Posaconazol gegen Pneumocystis
 - Präklinische oder klinische Daten, die direkt Posaconazol bei Pneumocystose untersuchen
 - Klärung des aktuellen Zulassungs- und Vertriebsstatus in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Alle 5 Zulassungen sind gültig (europäische Zentralzulassungen); d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Alle 5 deutschen Zulassungen sind gültig, d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

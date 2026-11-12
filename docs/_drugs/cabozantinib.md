@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 90
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Cabozantinib: vorhergesagte neue Indikation Liposarkom (Evidenzstufe L5). Ursprüngliche Indikation: Nierenzellkarzinom"
 monitor_inn: "CABOZANTINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "angiolipoma"]
@@ -118,6 +118,12 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Begründung:**
 Für das Liposarkom existieren nur indirekte Belege (eine laufende Phase-2-Studie bei Weichteilsarkomen ohne Ergebnisse und eine Phase-1-Studie).
 
+<!-- review:begin de-lic-20261106-cabozantinib-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Für das Liposarkom existieren nur indirekte Belege (eine laufende Phase-2-Studie bei Weichteilsarkomen ohne Ergebnisse und eine Phase-1-Studie). Zudem sind die Zulassungen in Deutschland aufgehoben und die Sicherheitsdaten aus der Fachinformation nicht verfügbar.“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-cabozantinib-1 -->
+
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Auswertung der Ergebnisse von NCT05836571 mit Subgruppenanalyse für das Liposarkom
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen)
@@ -131,6 +137,19 @@ Für das Liposarkom existieren nur indirekte Belege (eine laufende Phase-2-Studi
 
 - **Nierenzellkarzinom allgemein** (Rang 7): entspricht der ursprünglichen Indikation und ist kein echtes Repurposing. Mehrere Phase-3-Studien (u. a. CheckMate 9ER, METEOR, CONTACT-03, COSMIC-313) belegen den Nutzen.
 - **Weitere Vorhersagen** (ovariales myxoides Liposarkom, Nierenzellkarzinom bei Neuroblastom, ALS, Polymikrogyrie, Angiolipom): ausschließlich modellbasiert ohne Studien- oder Literaturbelege, daher *Hold*.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem sind die Zulassungen in Deutschland aufgehoben und die Sicherheitsdaten aus der Fachinformation nicht verfügbar“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

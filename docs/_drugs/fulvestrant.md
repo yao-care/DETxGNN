@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 204
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Fulvestrant: vorhergesagte neue Indikation HIV-Infektionskrankheit (Evidenzstufe L4). Ursprüngliche Indikation: Brustneoplasmen (Brustkrebs)"
 monitor_inn: "FULVESTRANT"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -122,11 +122,30 @@ Für weitere Sicherheitsinformationen bitte die Fachinformation heranziehen.
 **Begründung:**
 Für HIV liegen nur präklinische Mechanismusdaten und keine klinischen Studien vor (Evidenzniveau L4). Der Nutzen von Fulvestrant bei HIV ist nicht belegt.
 
+<!-- review:begin de-lic-20261106-fulvestrant-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die Zulassungen in Deutschland sind aufgehoben, und der Nutzen von Fulvestrant bei HIV ist nicht belegt.“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-fulvestrant-1 -->
+
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Ergänzung von Warnhinweisen und Kontraindikationen aus der Fachinformation (BfArM)
 - Ergänzung detaillierter Wirkmechanismusdaten (z. B. aus DrugBank)
 - Weitere präklinische Studien zu ER-Signalweg und HIV-Latenz mit Fulvestrant
 - Klärung des regulatorischen Status; das Arzneimittel ist in Deutschland im Handel, 2 von 2 Zulassungen sind gültig
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „ie Zulassungen in Deutschland sind aufgehoben, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 188
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Evolocumab: vorhergesagte neue Indikation Symptomatische Form der Hämophilie bei weiblichen Trägerinnen (Evidenzstufe L5). Ursprüngliche Indikation: Dyslipidämien"
 monitor_inn: "EVOLOCUMAB"
 predicted_indications: ["symptomatic form of hemophilia in female carriers", "familial apolipoprotein C-II deficiency", "thrombocytopenic purpura", "factor XI deficiency", "hemophilia A with vascular abnormality", "disease of catalytic activity"]
@@ -97,12 +97,31 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Begründung:**
 Die Vorhersage beruht ausschließlich auf einem Graphmodell, ohne Studien oder Publikationen, und es besteht kein plausibler mechanistischer Zusammenhang zwischen PCSK9-Hemmung und Hämophilie bei Trägerinnen.
 
+<!-- review:begin de-lic-20261106-evolocumab-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die Vorhersage beruht ausschließlich auf einem Graphmodell, ohne Studien oder Publikationen, und es besteht kein plausibler mechanistischer Zusammenhang zwischen PCSK9-Hemmung und Hämophilie bei Trägerinnen. Zudem ist die einzige in Deutschland erfasste Zulassung erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-evolocumab-1 -->
+
 **Für ein Weiterverfolgen wäre erforderlich:**
 - Fachinformation (Warnhinweise und Gegenanzeigen) von BfArM bzw. EMA, da die Sicherheitsprüfung sonst nicht fortgesetzt werden kann
 - Detaillierte Wirkmechanismus-Daten (MOA), z. B. aus DrugBank
 - Eine biologisch begründete Hypothese sowie präklinische Daten, die einen Zusammenhang mit der Gerinnung belegen
 - Klärung des aktuellen Zulassungsstatus von Evolocumab (Repatha) in Deutschland
 - Gegebenenfalls Prüfung von Rang 2 (Apolipoprotein-C-II-Mangel) als biologisch am ehesten nachvollziehbarer Kandidat, ebenfalls zunächst mit präklinischer Absicherung
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem ist die einzige in Deutschland erfasste Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

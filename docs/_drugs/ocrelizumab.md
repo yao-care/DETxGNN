@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 322
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Ocrelizumab: vorhergesagte neue Indikation HER2-positives Mammakarzinom (Evidenzstufe L5). Ursprüngliche Indikation: Multiple Sklerose"
 monitor_inn: "OCRELIZUMAB"
 predicted_indications: ["HER2 positive breast carcinoma", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
@@ -78,6 +78,12 @@ Derzeit ist keine zugehörige Literatur verfügbar. Für die vorhergesagte Indik
 
 Hinweis: Dem Rang-4-Kandidaten (Luminal A/B) wurden 18 Publikationen zugeordnet. Diese betreffen Ocrelizumab bei Multipler Sklerose, Anti-CD20-Therapien und Autoimmunerkrankungen; keine behandelt Brustkrebs. Sie stellen keine Evidenz für die vorhergesagte Indikation dar.
 
+<!-- review:begin de-lic-20261106-ocrelizumab-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Status: aufgehoben (Hersteller: Roche Registration GmbH).“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-ocrelizumab-1 -->
+
 ---
 
 ## Marktinformationen Deutschland
@@ -105,12 +111,32 @@ Für Warnhinweise und Gegenanzeigen siehe die Fachinformation.
 **Begründung:**
 Die Vorhersage beruht ausschließlich auf dem TxGNN-Modellwert (Evidenzgrad L5). Es gibt weder klinische Studien noch relevante Publikationen, und ein biologisch plausibler Zusammenhang zwischen CD20-gerichteter B-Zell-Depletion und HER2-positivem Brustkrebs ist nicht erkennbar.
 
+<!-- review:begin de-lic-20261106-ocrelizumab-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Es gibt weder klinische Studien noch relevante Publikationen, und ein biologisch plausibler Zusammenhang zwischen CD20-gerichteter B-Zell-Depletion und HER2-positivem Brustkrebs ist nicht erkennbar. Zudem ist die deutsche Zulassung aufgehoben.“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-ocrelizumab-2 -->
+
 **Für ein Weiterverfolgen sind folgende Schritte nötig:**
 - Daten zum Wirkmechanismus (MOA) ergänzen
 - Präklinische Belege für eine Rolle von CD20 oder B-Zellen beim HER2-positiven Mammakarzinom prüfen
 - Gezielte Literatur- und Studienrecherche zu Anti-CD20-Therapien bei Brustkrebs
 - Warnhinweise und Gegenanzeigen aus der Fachinformation beschaffen und auswerten (derzeit blockierende Datenlücke für das Sicherheitsscreening)
 - Klärung des regulatorischen Status in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Status: aufgehoben (Hersteller: Roche Registration GmbH)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Zudem ist die deutsche Zulassung aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

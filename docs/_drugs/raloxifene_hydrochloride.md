@@ -7,7 +7,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 378
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -80,6 +80,24 @@ Das Evidence Pack für Raloxifenhydrochlorid ist unvollständig – es gibt kein
 - **PDF der Packungsbeilage analysieren**, um zugelassene Indikationen, Warnungen und Kontraindikationen zu extrahieren
 - **Marktstatus in der Zielregulierungsbehörde überprüfen** (BfArM/Deutschland), um die Anzahl der Zulassungen und den Text der genehmigten Indikationen zu bestätigen
 - **DDI-Datenbank erneut abfragen**, sobald die DrugBank-ID bestätigt ist, um Arzneimittelwechselwirkungsdaten zu erfassen
+
+<!-- review:begin de-lic-20261106-raloxifene_hydrochloride-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „**PDF der Packungsbeilage analysieren** (Quelle: Offizielle TFDA-Website), um zugelassene Indikationen, Warnungen und Kontraindikationen zu extrahieren“ Entfernt: Textbaustein aus der taiwanischen Vorlage (TFDA), der für diese Seite nicht gilt. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-raloxifene_hydrochloride-1 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „(Quelle: Offizielle TFDA-Website)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

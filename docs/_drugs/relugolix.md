@@ -7,7 +7,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 391
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -98,6 +98,24 @@ Das Evidence Pack enthält keine TxGNN-Umwidmungskandidaten und es fehlen sowohl
 - **[Erforderlich]** TxGNN-Inferenz-Pipeline ausführen, um Umwidmungskandidaten-Vorhersagen für RELUGOLIX (DB11853) zu generieren
 - **[Erforderlich]** Klinische Versuchs- und Literaturbeweise für die am höchsten bewertete vorhergesagte Indikation sammeln
 - **[Erforderlich]** Ein vollständiges Evidence Pack (v5+) erneut einreichen, sobald alle Datenlücken behoben sind
+
+<!-- review:begin de-lic-20261106-relugolix-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „**[Blockierend]** Packungsbeilage von EMA/TFDA abrufen und analysieren für Warnungen und Kontraindikationen (Datenlücke DG001)“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-relugolix-1 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „A/TFD“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

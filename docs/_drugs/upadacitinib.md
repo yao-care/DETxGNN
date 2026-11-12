@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 488
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "UPADACITINIB"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 description: "Upadacitinib: vorhergesagte neue Indikation Kolobomatöses-Mikrophthalmie-rhizomeles-Dysplasie-Syndrom (colobomatous microphthalmia-rhizomelic dysplasia syndrome) (Evidenzstufe L5). Ursprüngliche Indi…"
@@ -78,6 +78,12 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 Derzeit liegt keine zugehörige Literatur vor.
 
+<!-- review:begin de-lic-20261106-upadacitinib-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Diese Zulassung hat den Status „gelöscht“ (cancelled); eine gültige Einzel- oder Kombizulassung besteht laut den zusammengestellten Daten nicht.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-upadacitinib-1 -->
+
 ---
 
 ## Marktinformationen Deutschland
@@ -103,11 +109,31 @@ Hinweise zu Warnungen und Kontraindikationen finden Sie in der Fachinformation.
 **Begründung:**
 Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert (Evidenzniveau L5), ohne Studien, Literatur oder plausiblen Mechanismus.
 
+<!-- review:begin de-lic-20261106-upadacitinib-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert (Evidenzniveau L5), ohne Studien, Literatur oder plausiblen Mechanismus. Zudem besteht in Deutschland nur eine gelöschte Zulassung.“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-upadacitinib-2 -->
+
 **Für ein Weiterverfolgen sind erforderlich:**
 - Daten zum Wirkmechanismus (MOA) und eine biologische Begründung für einen Bezug von JAK1/JAK-STAT zum Syndrom
 - Auswertung der Fachinformation (Warnhinweise, Kontraindikationen), da die Sicherheitsprüfung sonst nicht fortgesetzt werden kann
 - Präklinische Studien oder Literaturrecherche zur Stützung der Hypothese
 - Klärung des aktuellen Zulassungs- und Marktstatus in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Diese Zulassung hat den Status „gelöscht“ (cancelled); eine gültige Einzel- oder Kombizulassung besteht laut den zusammengestellten Daten ni“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Zudem besteht in Deutschland nur eine gelöschte Zulassung“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

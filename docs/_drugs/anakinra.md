@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 33
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 description: "Anakinra: vorhergesagte neue Indikation Extrakutanes Mastozytom (Evidenzstufe L5). Ursprüngliche Indikation: Rheumatoide Arthritis"
 monitor_inn: "ANAKINRA"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "peliosis hepatis", "oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies", "oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies", "pyogenic autoinflammatory syndrome", "unclassified autoinflammatory syndrome"]
@@ -128,11 +128,37 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Begründung:**
 Für das familiäre Mittelmeerfieber ist der Mechanismus (IL-1-Überproduktion) stark und durch Fallserien sowie Übersichten gestützt, es fehlen jedoch registrierte Studien und RCTs (Evidenzstufe L3). Die Vorhersagen mit dem höchsten Score (z. B. extrakutanes Mastozytom) haben keinerlei klinische Evidenz (L5). Die Sicherheitsdaten aus der Fachinformation fehlen.
 
+<!-- review:begin de-lic-20261106-anakinra-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem ist die Zulassung in Deutschland erloschen, und die Sicherheitsdaten aus der Fachinformation fehlen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-anakinra-1 -->
+
 **Für das weitere Vorgehen sind erforderlich:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) – derzeit blockierende Datenlücke für das Sicherheitsscreening
 - Daten zum Wirkmechanismus (MOA) aus DrugBank
 - Prüfung prospektiver Studien oder RCTs für FMF (Colchicin-resistente Patienten) sowie für PAPA-/PSTPIP1-assoziierte Erkrankungen
 - Klärung des regulatorischen Status in Deutschland und der Anwendungswege
+
+<!-- review:begin de-lic-20261106-anakinra-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung des regulatorischen Status in Deutschland (erloschene Zulassung) und der Anwendungswege“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-anakinra-2 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem ist die Zulassung in eutschland erloschen, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „(erloschene Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

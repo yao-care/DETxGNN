@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 380
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Ramucirumab: vorhergesagte neue Indikation Adenokarzinom des Ligamentum uteri (uterine ligament adenocarcinoma) (Evidenzstufe L5). Ursprüngliche Indikation: Stomach Neoplasms (Magenkarzinom)"
 monitor_inn: "RAMUCIRUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "cervical adenosquamous carcinoma, glassy cell variant", "uterine ligament endometrioid adenocarcinoma", "uterine ligament clear cell adenocarcinoma", "uterine ligament mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
@@ -123,12 +123,31 @@ Angaben zu Warnhinweisen und Kontraindikationen aus der Fachinformation liegen n
 **Begründung:**
 Die Vorhersage stützt sich ausschließlich auf das TxGNN-Modell (Evidenzgrad L5). Es gibt weder klinische Studien noch Publikationen für die vorhergesagte Indikation, die Erkrankung ist sehr selten.
 
+<!-- review:begin de-lic-20261106-ramucirumab-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Es gibt weder klinische Studien noch Publikationen für die vorhergesagte Indikation, die Erkrankung ist sehr selten, und die einzige deutsche Zulassung ist erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-ramucirumab-1 -->
+
 **Für ein Weiterverfolgen sind erforderlich:**
 - Fachinformation des BfArM mit Warnhinweisen und Kontraindikationen (Sicherheitsprüfung kann sonst nicht fortgesetzt werden)
 - Detaillierte Wirkmechanismus-Daten (MOA), z. B. aus DrugBank
 - Systematische Literatur- und Studienrecherche zu Ramucirumab bei gynäkologischen Adenokarzinomen, insbesondere Zervixkarzinom
 - Klärung des Zulassungsstatus und der Verfügbarkeit in Deutschland sowie der Applikationswege
 - Prüfung der Blutungsrisiken im Zusammenhang mit den gelisteten Wechselwirkungen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „und die einzige deutsche Zulassung ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

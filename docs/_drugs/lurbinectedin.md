@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 282
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Lurbinectedin: vorhergesagte neue Indikation Multiple endokrine Neoplasie (Evidenzstufe L5). Ursprüngliche Indikation: Kleinzelliges Lungenkarzinom"
 monitor_inn: "LURBINECTEDIN"
 predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "cytomegalovirus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "malignant catarrh", "infectious bovine rhinotracheitis", "Mills syndrome"]
@@ -122,12 +122,31 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Begründung:**
 Für multiple endokrine Neoplasie gibt es weder klinische Studien noch Literatur; die Vorhersage ist rein modellbasiert (L5). Hinzu kommt die fehlende Sicherheitsbewertung anhand der Fachinformation.
 
+<!-- review:begin de-lic-20261031-lurbinectedin-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Hinzu kommen die erloschene deutsche Zulassung und die fehlende Sicherheitsbewertung anhand der Fachinformation.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-lurbinectedin-1 -->
+
 **Für ein Weiterkommen sind erforderlich:**
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM bzw. der EMA, da die Sicherheitsprüfung sonst nicht fortgesetzt werden kann
 - Daten zum Wirkmechanismus (z. B. aus DrugBank)
 - Systematische Literatur- und Studienrecherche zu Lurbinectedin bei neuroendokrinen Tumoren
 - Klärung der Zulassungslage in Deutschland und der Darreichungsform
 - Prüfung der Bewertung der Wirkstoffähnlichkeit zur ursprünglichen Indikation und der Applikationswege
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „en die erloschene deu sche Zulassung und“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

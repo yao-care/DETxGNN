@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 174
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-12
 description: "Eptifibatide: vorhergesagte neue Indikation Rheumatoide Arthritis (Evidenzstufe L5). Ursprüngliche Indikation: Instabile Angina pectoris"
 monitor_inn: "EPTIFIBATIDE"
 predicted_indications: ["rheumatoid arthritis", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin E disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin d disease syndrome", "hemoglobinopathy", "female breast carcinoma", "beta-thalassemia with other manifestations", "partial deletion of the short arm of chromosome 16"]
@@ -82,6 +82,12 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 Es handelt sich um zentrale EU-Zulassungen (EMA). Angaben zur Darreichungsform liegen nicht vor.
 
+<!-- review:begin de-lic-20261106-eptifibatide-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Beide Zulassungen sind aufgehoben. Es handelt sich um zentrale EU-Zulassungen (EMA).“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-eptifibatide-1 -->
+
 | Zulassungsnummer | Produktname | Hersteller | Zugelassene Indikation | Status |
 |---------|------|------|-----------|------|
 | EMEA/H/C/000230 | Integrilin | GlaxoSmithKline Trading Services Limited | Instabile Angina pectoris; Myokardinfarkt | Withdrawn |
@@ -108,6 +114,12 @@ Die Fachinformation mit Warnhinweisen und Gegenanzeigen lag für diesen Bericht 
 **Begründung:**
 - Die Vorhersage für rheumatoide Arthritis beruht nur auf dem hohen Modell-Score (Evidenzlevel L5). Es gibt weder Studien noch Publikationen.
 
+<!-- review:begin de-lic-20261106-eptifibatide-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Es gibt weder Studien noch Publikationen. / Das Blutungsrisiko, die rein intravenöse Anwendung und der aktuell fehlende gültige Zulassungsstatus in Deutschland sprechen gegen eine kurzfristige Weiterverfolgung.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-eptifibatide-2 -->
+
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Präklinische Daten oder mechanistische Studien zur Rolle von GP IIb/IIIa bei rheumatoider Arthritis.
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), um das Sicherheitsscreening durchführen zu können.
@@ -115,6 +127,20 @@ Die Fachinformation mit Warnhinweisen und Gegenanzeigen lag für diesen Bericht 
 - Prüfung der Anwendungswege und Machbarkeit einer Langzeitgabe.
 
 **Hinweis zu anderen Vorhersagen:** Besser belegt ist die Vorhersage für **Hämoglobinopathie bzw. Sichelzellkrankheit** (Evidenzlevel L2). Dazu liegen eine randomisierte, doppelblinde, placebokontrollierte Phase-1/2-Studie (NCT00834899, vorzeitig mit 13 Teilnehmenden beendet), eine Phase-1-Studie und eine Pilotstudie vor. Diese Indikation wäre als Forschungsfrage vorrangig zu prüfen. Eine Wirksamkeit ist jedoch nicht belegt, und Phase-3-Evidenz fehlt.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Beide Zulassungen sind aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Das Blutungsrisiko, die rein intravenöse Anwendung und der aktuell fehlende gültige Zulassungsstatus in Deutschland sprechen gegen eine kurz“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

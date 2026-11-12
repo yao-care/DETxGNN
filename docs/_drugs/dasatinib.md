@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 133
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Dasatinib: vorhergesagte neue Indikation Ewing-Sarkom (Evidenzstufe L2). Ursprüngliche Indikation: Vorläuferzell-lymphoblastische Leukämie/Lymphom"
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
@@ -117,6 +117,12 @@ Beim Ewing-Sarkom treiben SRC-Kinasen laut präklinischen Arbeiten die Bildung v
 **Mögliche Kontraindikationen/Risikokonstellationen (aus dem Wissensgraphen, nicht aus dem Beipackzettel):**
 Long-QT-Syndrom (auch familiär), Torsades de pointes, Lebererkrankung, Gallenblasenerkrankung, Thrombozytopenie, Neutropenie, Agranulozytose, Anämie (auch makrozytär), Hämoglobinopathie, Herzinsuffizienz, Myokardinfarkt, Koronarthrombose, aktive Magen-Darm-Ulzera, intrazerebrale Blutung, Perikarderguss/Hämoperikard.
 
+<!-- review:begin de-lic-20261106-dasatinib-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Beide Zulassungen sind laut den Daten als erloschen/zurückgezogen geführt.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-dasatinib-1 -->
+
 **Arzneimittelwechselwirkungen** (100 Einträge insgesamt; Auswahl):
 - **Schwer (Major):** Famotidin, Ranitidin, Cimetidin, Rabeprazol, Omeprazol (säurehemmende Mittel), Dexamethason, Acetylsalicylsäure, Clarithromycin
 - **Moderat:** Hydrocortison, Budesonid, Loperamid, Aprepitant, Bisacodyl, Magnesiumoxid, Aluminiumhydroxid, Calciumcarbonat, Saxagliptin, Rizinusöl, Polyethylenglykol
@@ -132,6 +138,12 @@ Angaben zu Warnhinweisen und Gegenanzeigen aus der Fachinformation liegen nicht 
 **Begründung:**
 Die präklinische Datenlage (SRC-Abhängigkeit des Ewing-Sarkoms) ist plausibel. Die einzige größere Studie war jedoch ein gemischtes Sarkomkollektiv, und Dasatinib als Monotherapie zeigte beim Ewing-Sarkom keine ausreichende Wirkung.
 
+<!-- review:begin de-lic-20261106-dasatinib-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die einzige größere Studie war jedoch ein gemischtes Sarkomkollektiv, und Dasatinib als Monotherapie zeigte beim Ewing-Sarkom keine ausreichende Wirkung. Zudem sind die deutschen Zulassungen erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-dasatinib-2 -->
+
 **Für ein Weiterkommen erforderlich:**
 - Ewing-spezifische Auswertung der Phase-2-Studie NCT00464620 sowie Daten zu Kombinationsregimen (z. B. RIST) in prospektiven Studien
 - Detaillierte Wirkmechanismus-Daten
@@ -141,6 +153,20 @@ Die präklinische Datenlage (SRC-Abhängigkeit des Ewing-Sarkoms) ist plausibel.
 **Weitere vorhergesagte Indikationen (Kurzüberblick):**
 - **Liposarkom** (L4), **dermatofibrosarcoma protuberans** (L4): nur präklinische bzw. indirekte Evidenz, Hold.
 - Übrige Vorhersagen (Gingivafibromatose, ovarielles myxoides Liposarkom, Ganglioneuroblastom, u. a.): nur Modellvorhersage (L5), Hold.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Beide Zulassungen sind laut den Daten als erloschen/zurückgezogen geführt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Zudem sind die deutschen Zulassungen erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

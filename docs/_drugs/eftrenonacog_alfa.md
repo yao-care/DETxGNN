@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 160
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Eftrenonacog Alfa: vorhergesagte neue Indikation Pseudo-von-Willebrand-Erkrankung (Evidenzstufe L5). Ursprüngliche Indikation: Hämophilie B"
 monitor_inn: "EFTRENONACOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia"]
@@ -105,11 +105,37 @@ Bitte entnehmen Sie die Sicherheitsinformationen der Packungsbeilage. Für Wechs
 **Begründung:**
 Die Vorhersage stützt sich ausschließlich auf das Modell (L5) ohne Studien oder Publikationen, und der pathophysiologische Mechanismus (Plättchen/VWF) steht in keinem direkten Zusammenhang mit einem Faktor-IX-Mangel.
 
+<!-- review:begin de-lic-20261106-eftrenonacog_alfa-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die Vorhersage stützt sich ausschließlich auf das Modell (L5) ohne Studien oder Publikationen, und der pathophysiologische Mechanismus (Plättchen/VWF) steht in keinem direkten Zusammenhang mit einem Faktor-IX-Mangel. Zudem ist die einzige Zulassung erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-eftrenonacog_alfa-1 -->
+
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Wirkmechanismus-Daten (MOA) ergänzen, z. B. aus DrugBank
 - Warnhinweise und Gegenanzeigen aus der Packungsbeilage des BfArM beschaffen (Sicherheitsprüfung derzeit blockiert)
 - Präklinische oder mechanistische Belege für einen Nutzen bei Plättchen-/VWF-Störungen erarbeiten
 - Klärung der Verfügbarkeit des Produkts
+
+<!-- review:begin de-lic-20261106-eftrenonacog_alfa-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung der Verfügbarkeit des Produkts angesichts der erloschenen Zulassung“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-eftrenonacog_alfa-2 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem ist die einzige Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „angesichts der erloschenen Zulassung“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

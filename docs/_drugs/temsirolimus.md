@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 452
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "TEMSIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "vulva sarcoma"]
 description: "Temsirolimus: vorhergesagte neue Indikation Liposarkom (liposarcoma) (Evidenzstufe L5). Ursprüngliche Indikation: Carcinoma, Renal Cell"
@@ -143,6 +143,25 @@ Der mTOR-Signalweg ist in Liposarkomen biologisch plausibel, und der TxGNN-Wert 
 - Liposarkomspezifische Daten identifizieren (Subgruppenanalysen der Sarkomstudien, ggf. Phase-2-Studien nach Subtyp)
 - Prüfen der Kontraindikationen aus dem Wissensgraphen und der schwerwiegenden Wechselwirkungen (insbesondere CYP3A4-relevante Substanzen wie Clarithromycin) für die Zielpopulation
 - Die Vorhersagen zum ovariellen myxoiden Liposarkom und zum Vulvasarkom nur als Hypothesen betrachten, solange keine Studien oder Publikationen vorliegen
+
+<!-- review:begin de-lic-20261106-temsirolimus-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klären, wie mit der erloschenen Zulassung und der Verfügbarkeit des Präparats in Deutschland umzugehen ist / Die Vorhersagen zum ovariellen myxoiden Liposarkom und zum Vulvasarkom nur als Hypothesen betrachten, solange keine Studien oder Publikationen vorliegen“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-temsirolimus-1 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Klären, wie mit der erloschenen Zulassung und der Verfügbarkeit des Präparats in Deutschland umzugehen ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

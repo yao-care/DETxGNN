@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 408
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Rivaroxaban: vorhergesagte neue Indikation Rheumatoide Arthritis (Evidenzstufe L5). Ursprüngliche Indikation: Akutes Koronarsyndrom, koronare Herzkrankheit…"
 monitor_inn: "RIVAROXABAN"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -119,6 +119,12 @@ Zu Warnhinweisen und Kontraindikationen aus der Packungsbeilage bitte die Fachin
 **Begründung:**
 Für rheumatoide Arthritis gibt es weder klinische Studien noch Literatur, die eine Wirkung von Rivaroxaban belegt. Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzgrad L5).
 
+<!-- review:begin de-lic-20261106-rivaroxaban-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzgrad L5). Zudem sind alle deutschen Zulassungen aufgehoben.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 4 Zulassungen erfasst, davon 4 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-rivaroxaban-1 -->
+
 **Für ein Weiterkommen erforderlich:**
 - Detaillierte Wirkmechanismusdaten (MOA) und eine belastbare biologische Hypothese zur RA
 - Präklinische oder explorative klinische Daten zu Rivaroxaban bei RA
@@ -133,6 +139,19 @@ Die weiteren Vorhersagen wurden ebenfalls als **Hold** bewertet:
 - **Gicht** (Score 0,9951, L5): kein glaubwürdiger mechanistischer Zusammenhang; die Literaturtreffer sind offenbar zufällige Stichwortübereinstimmungen.
 - **HIV-Infektion** (Score 0,9917, L4): Es handelt sich nicht um eine Behandlung von HIV, sondern um Sicherheits- und Wechselwirkungsinformationen für HIV-Patienten mit Antikoagulationsbedarf. Mit ritonavir- oder cobicistat-geboosterten antiretroviralen Therapien steigen Rivaroxaban-Exposition und Blutungsrisiko. Die einzige gefundene Studie (NCT00786422) ist eine Phase-2-Studie zu tiefer Venenthrombose und liefert keine Evidenz für HIV.
 - **Brachydaktylie-Syndaktylie-Syndrom** (Score 0,9910, L5): weder Studien noch Literatur, keine plausible biologische Hypothese.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem sind alle deutschen Zulassungen aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

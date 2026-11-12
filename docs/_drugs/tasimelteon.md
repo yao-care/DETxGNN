@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 444
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "TASIMELTEON"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "insomnia (disease)", "amyotrophic lateral sclerosis", "endogenous depression", "axial spondylometaphyseal dysplasia", "monomelic amyotrophy", "lower motor neuron syndrome with late-adult onset", "Mills syndrome", "amyotrohpic lateral sclerosis type 22"]
 description: "Tasimelteon: vorhergesagte neue Indikation Bilateral parasagittal parieto-occipital polymicrogyria (Evidenzstufe L5). Ursprüngliche Indikation: Sleep Disorders, Circadian Rhythm"
@@ -112,6 +112,12 @@ Für Warnhinweise und Gegenanzeigen liegen in den zusammengestellten Daten keine
 **Begründung:**
 Der Wirkmechanismus (MT1/MT2-Agonismus) passt direkt zu Insomnie, und eine randomisierte Phase-3-Studie (n = 420) prüft die Indikation gezielt. Da diese Studie noch rekrutiert und keine Ergebnisse vorliegen, ist der Evidenzgrad L1 nur vorläufig.
 
+<!-- review:begin de-lic-20261106-tasimelteon-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Da diese Studie noch rekrutiert und keine Ergebnisse vorliegen, ist der Evidenzgrad L1 nur vorläufig. Zudem ist die einzige deutsche/EU-Zulassung erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-tasimelteon-1 -->
+
 **Für das weitere Vorgehen werden benötigt:**
 - Ergebnisse der Phase-3-Studie NCT06953869 (voraussichtlich ab 2028); die Studie betrifft zudem Kinder, die Übertragbarkeit auf Erwachsene ist zu klären
 - Klärung der Studienpopulation (der Studientitel ist in den Daten möglicherweise abgeschnitten)
@@ -119,6 +125,19 @@ Der Wirkmechanismus (MT1/MT2-Agonismus) passt direkt zu Insomnie, und eine rando
 - Detaillierte Wirkmechanismus-Daten, z. B. aus DrugBank
 - Klärung der Gründe für das Erlöschen der Zulassung und der aktuellen Verfügbarkeit in Deutschland
 - Bewertung der Wechselwirkung mit Morphin (schwerwiegend) für ein Risikomanagement
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche/EU-Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

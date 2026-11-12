@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 367
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "PRASUGREL"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
 description: "Prasugrel: vorhergesagte neue Indikation Pulmonary hypertension (Evidenzstufe L5). Ursprüngliche Indikation: Acute Coronary Syndrome"
@@ -116,12 +116,38 @@ Angaben zu Warnhinweisen und Kontraindikationen aus der Packungsbeilage liegen n
 **Begründung:**
 Für Migräne mit PFO gibt es ein plausibles mechanistisches Signal, aber nur schwache, überwiegend indirekte Evidenz (retrospektive Auswertung, offene Pilotstudie mit anderem Wirkstoff, kleine bzw. abgebrochene Studien ohne Prasugrel-Daten). Die Sicherheitsdaten sind unvollständig.
 
+<!-- review:begin de-lic-20261106-prasugrel-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die Zulassung in Deutschland ist zudem erloschen, und die Sicherheitsdaten sind unvollständig.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-prasugrel-1 -->
+
 **Um fortzufahren, sind folgende Schritte nötig:**
 - Beschaffung der Packungsbeilage/Fachinformation (Warnhinweise und Kontraindikationen), da dies derzeit eine blockierende Datenlücke ist
 - Abruf der Wirkmechanismus-Daten (MOA) aus DrugBank
 - Kontrollierte, prasugrelspezifische Studie bei Migräne mit PFO, ggf. nach Auswertung der Ergebnisse von NCT07629635
 - Klärung der Verfügbarkeit von Prasugrel in Deutschland
 - Bewertung des Blutungsrisikos bei dauerhafter Anwendung in einer Population ohne Herz-Kreislauf-Indikation
+
+<!-- review:begin de-lic-20261106-prasugrel-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung der Verfügbarkeit von Prasugrel in Deutschland (erloschene Zulassung des Originalpräparats Efient; Generika prüfen)“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-prasugrel-2 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „ie Zulassung in Deutschland ist zudem erloschen, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „(erloschene Zulassung des Originalpräparats Efient; Generika prüfen)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

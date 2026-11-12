@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 370
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Pregabalin: vorhergesagte neue Indikation Tendinitis (Evidenzstufe L5). Ursprüngliche Indikation: Angststörungen"
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
@@ -97,6 +97,12 @@ Derzeit sind keine relevanten klinischen Studien zu Pregabalin bei Tendinitis re
 
 Das Arzneimittel ist in Deutschland im Handel.
 
+<!-- review:begin de-lic-20261106-pregabalin-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Das Arzneimittel ist in Deutschland im Handel; alle 7 erfassten Zulassungen sind gültig.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 6 Zulassungen erfasst, davon 6 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-pregabalin-1 -->
+
 ---
 
 ## Sicherheitsaspekte
@@ -116,6 +122,12 @@ Für Warnhinweise und Gegenanzeigen laut Fachinformation siehe bitte die Packung
 **Begründung:**
 Für Tendinitis gibt es keine klinischen Studien, und die Literatur betrifft ausschließlich postoperative Schmerzen oder Nervenengpass-Syndrome. Der Zusammenhang ist indirekt und symptomorientiert. Das Arzneimittel ist in Deutschland im Handel, die Sicherheitsdaten der Fachinformation fehlen hier jedoch.
 
+<!-- review:begin de-lic-20261106-pregabalin-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Das Arzneimittel ist in Deutschland im Handel (7 von 7 Zulassungen gültig), die Sicherheitsdaten der Fachinformation fehlen hier jedoch.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 6 Zulassungen erfasst, davon 6 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-pregabalin-2 -->
+
 **Für ein Weiterkommen sind erforderlich:**
 - Kontrollierte Studien zu Pregabalin speziell bei Tendinitis (Schmerzendpunkte)
 - Beschaffung der Fachinformation (Warnhinweise, Gegenanzeigen) von BfArM bzw. EMA
@@ -130,6 +142,20 @@ Die weiteren vorhergesagten Indikationen sind schwächer oder haben einen andere
 - **Idiopathische granulomatöse Myositis, Myositis fibrosa, Einschlusskörpermyositis:** reine Modellvorhersagen (L5) ohne Studien oder plausible Mechanismen, Entscheidung Hold. Der identische Score der ersten beiden deutet auf ein Artefakt der Graphnachbarschaft hin.
 - **Migräne (Rang 5):** Evidenzniveau L2, eingestuft als Forschungsfrage. Die einzige Phase-3-Studie (NCT00447369) wurde zurückgezogen und lieferte keine Daten. Kleine, pädiatrische Einzelzentrum-RCTs (Pregabalin vs. Propranolol bzw. Natriumvalproat) und eine Netzwerk-Metaanalyse deuten auf einen möglichen prophylaktischen Nutzen hin. Präklinisch hemmt Pregabalin die kortikale Streudepolarisation. Dies ist die am besten belegte Richtung unter den Vorhersagen und könnte als Nächstes priorisiert werden.
 - **Migräne mit Hirnstammaura (Rang 6):** nur Tierstudien (L4), Hold.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „alle 7 erfassten Zulassungen sind gültig“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „(7 von 7 Zulassungen gültig)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

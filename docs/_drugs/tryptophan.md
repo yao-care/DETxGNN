@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 484
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Tryptophan: vorhergesagte neue Indikation Restless-Legs-Syndrom (Evidenzstufe L3). Ursprüngliche Indikation: Ahornsirupkrankheit (Maple Syrup Urine Disease)"
 monitor_inn: "tryptophan"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
@@ -99,6 +99,12 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
   - **Moderat:** Morphin, Codein, Hydrocodon, Cyproheptadin, Ozanimod, Ifosfamid.
 - **Historischer Hinweis:** Das Eosinophilie-Myalgie-Syndrom wurde mit verunreinigten L-Tryptophan-Präparaten in Verbindung gebracht.
 
+<!-- review:begin de-lic-20261106-tryptophan-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die Zulassung ist erloschen (Inhaber: Recordati Rare Diseases).“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-tryptophan-1 -->
+
 Für weitere Sicherheitsinformationen ist die Packungsbeilage heranzuziehen.
 
 ---
@@ -110,11 +116,38 @@ Für weitere Sicherheitsinformationen ist die Packungsbeilage heranzuziehen.
 **Begründung:**
 Die Evidenz für das RLS stützt sich auf kleine, alte Berichte ohne moderne randomisierte Studien, und es sind keine klinischen Studien registriert. Hinzu kommen ein möglicher gegenteiliger Effekt serotonerger Substanzen auf Bewegungsstörungen, zahlreiche schwerwiegende Wechselwirkungen.
 
+<!-- review:begin de-lic-20261106-tryptophan-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Hinzu kommen ein möglicher gegenteiliger Effekt serotonerger Substanzen auf Bewegungsstörungen, zahlreiche schwerwiegende Wechselwirkungen und die erloschene Zulassung in Deutschland.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-tryptophan-2 -->
+
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Kontrollierte, randomisierte Studien zu Tryptophan beim RLS
 - Daten zum Wirkmechanismus (MOA) und zur Sicherheit aus der Packungsbeilage (Warnhinweise und Kontraindikationen)
 - Qualitätsgesicherte Produkte sowie ein Screening auf Wechselwirkungen mit serotonergen Arzneimitteln
 - Klärung der Zulassungs- und Marktsituation
+
+<!-- review:begin de-lic-20261106-tryptophan-3 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung der Zulassungs- und Marktsituation, da die einzige Zulassung erloschen ist“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-tryptophan-3 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Die Zulassung ist erloschen (Inhaber: Recordati Rare Diseases)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „und die erloschene Zulassung in Deutschland“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „da die einzige Zulassung erloschen ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

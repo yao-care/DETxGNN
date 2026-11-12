@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 395
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Reslizumab: vorhergesagte neue Indikation Thrombozytopenie durch Immunzerstörung (immunvermittelte Thrombozytop… (Evidenzstufe L5). Ursprüngliche Indikation: Asthma"
 monitor_inn: "RESLIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets"]
@@ -91,11 +91,37 @@ Bitte die Packungsbeilage für Sicherheitsinformationen heranziehen.
 **Begründung:**
 Die Vorhersage stützt sich ausschließlich auf das TxGNN-Modell (Evidenzstufe L5). Es gibt weder klinische Studien noch relevante Literatur, und ein plausibler mechanistischer Zusammenhang zwischen IL-5-Hemmung und ITP ist nicht erkennbar.
 
+<!-- review:begin de-lic-20261106-reslizumab-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Es gibt weder klinische Studien noch relevante Literatur, und ein plausibler mechanistischer Zusammenhang zwischen IL-5-Hemmung und ITP ist nicht erkennbar. Zudem ist die einzige deutsche bzw. europäische Zulassung erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-reslizumab-1 -->
+
 **Für ein Weiterverfolgen sind folgende Schritte erforderlich:**
 - Detaillierte Wirkmechanismus-Daten (MOA) ergänzen und prüfen, ob ein biologischer Bezug zwischen IL-5/Eosinophilen und Thrombozytopenie besteht
 - Systematische Literatur- und Studienrecherche zu Anti-IL-5-Therapien bei ITP
 - Sicherheitsinformationen aus der Fachinformation beschaffen (Warnhinweise, Gegenanzeigen)
 - Klärung des Zulassungs- und Verfügbarkeitsstatus
+
+<!-- review:begin de-lic-20261106-reslizumab-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung des Zulassungs- und Verfügbarkeitsstatus, da die Zulassung erloschen ist“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-reslizumab-2 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche bzw. europäische Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „da die Zulassung erloschen ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

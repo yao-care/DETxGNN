@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 244
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Insulin Human: vorhergesagte neue Indikation Autoimmune Oophoritis (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes mellitus"
 monitor_inn: "INSULIN HUMAN"
 predicted_indications: ["autoimmune oophoritis", "classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "pancreatic agenesis", "idiopathic localized lipodystrophy"]
@@ -102,6 +102,12 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 Das Arzneimittel ist im Handel. Eine weitere erloschene Zulassung (ProZinc, EMEA/V/C/002634) enthält keine Angaben zur Indikation.
 
+<!-- review:begin de-lic-20261106-insulin_human-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Alle 6 genannten Zulassungen sind gültig, das Arzneimittel ist im Handel.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 5 Zulassungen erfasst, davon 5 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-insulin_human-1 -->
+
 ---
 
 ## Sicherheitsaspekte
@@ -128,6 +134,26 @@ Für die Vorhersage gibt es weder klinische Studien noch Publikationen (Evidenzl
 - Systematische Literatur- und Studienrecherche zu Insulin bei autoimmuner Oophoritis
 - Präklinische Belege für einen plausiblen Mechanismus erarbeiten
 - Prüfung von Applikationsweg und Zulassungsstatus
+
+<!-- review:begin de-lic-20261106-insulin_human-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Prüfung von Applikationsweg und Zulassungsstatus (derzeit 6 gültige Zulassungen in Deutschland)“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 5 Zulassungen erfasst, davon 5 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-insulin_human-2 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Alle 6 genannten Zulassungen sind gültig, d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „(derzeit 6 gültige Zulassungen in Deutschland)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

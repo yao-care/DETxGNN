@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 116
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Cilastatin: vorhergesagte neue Indikation Staphylococcus-aureus-Infektion (Evidenzstufe L3). Ursprüngliche Indikation: Gramnegative bakterielle Infektionen"
 monitor_inn: "Cilastatin"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
@@ -115,12 +115,31 @@ Für Warnhinweise und gesicherte Kontraindikationen siehe die Packungsbeilage.
 **Begründung:**
 - Die Evidenz für S. aureus stammt aus kleinen, überwiegend historischen Studien, Fallberichten und Labordaten zur Kombination Imipenem/Cilastatin. Die einzige Studie ist indirekt, und ein eigenständiger Beitrag von Cilastatin ist nicht belegt.
 
+<!-- review:begin de-lic-20261031-cilastatin-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Die einzige Studie ist indirekt, und ein eigenständiger Beitrag von Cilastatin ist nicht belegt. / Der Marktstatus ist „nur erloschen“.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-cilastatin-1 -->
+
 **Für ein Weiterverfolgen ist Folgendes nötig:**
 - Auswertung der Packungsbeilage (Warnhinweise und Kontraindikationen) zur Sicherheitsprüfung
 - Detaillierte Mechanismusdaten (MOA) aus DrugBank
 - Klärung der tatsächlichen Verfügbarkeit des Präparats in Deutschland
 - Kontrollierte Daten, die den Beitrag der Kombination bei S. aureus gegenüber etablierten Alternativen belegen
 - Hinweis: Für die ebenfalls vorhergesagte Indikation **Pneumonie** (Rang 6) liegen Phase-3-Studien zu Imipenem/Cilastatin (mit Relebactam) bei nosokomialer und beatmungsassoziierter Pneumonie vor (Evidenzniveau L1). Es handelt sich aber um eine bestehende Anwendung des Kombinationspräparats und nicht um ein echtes Repurposing von Cilastatin allein. Sie sollte gesondert bewertet werden.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Der Marktstatus ist „nur erloschen““ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

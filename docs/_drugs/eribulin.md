@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 178
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Eribulin: vorhergesagte neue Indikation Autosomal-rezessives familiäres Mittelmeerfieber (Evidenzstufe L5). Ursprüngliche Indikation: Brustkrebs (Brustneoplasien)"
 monitor_inn: "ERIBULIN"
 predicted_indications: ["autosomal recessive familial Mediterranean fever", "dermatofibrosarcoma protuberans", "pleural mesothelioma", "malignant peritoneal mesothelioma", "pleural adenomatoid tumor", "pleural biphasic mesothelioma", "fibroblastic neoplasm", "pleural epithelioid mesothelioma", "heart fibrosarcoma"]
@@ -118,6 +118,12 @@ Für Warnhinweise und Gegenanzeigen laut Fachinformation bitte den Beipackzettel
 **Begründung:**
 Die Vorhersage stützt sich ausschließlich auf das Modell (L5), ohne Studien oder Publikationen. Ein plausibler Mechanismus fehlt, und das Toxizitätsprofil von Eribulin spricht gegen den Einsatz bei einer chronischen autoinflammatorischen Erkrankung.
 
+<!-- review:begin de-lic-20261106-eribulin-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Ein plausibler Mechanismus fehlt, und das Toxizitätsprofil von Eribulin spricht gegen den Einsatz bei einer chronischen autoinflammatorischen Erkrankung. Zudem sind in Deutschland derzeit alle Zulassungen aufgehoben.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 3 Zulassungen erfasst, davon 3 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-eribulin-1 -->
+
 **Für ein Weiterverfolgen wären nötig:**
 - Daten zum Wirkmechanismus (z. B. über die DrugBank-API)
 - Warnhinweise und Gegenanzeigen aus dem Beipackzettel (Download und Auswertung über die BfArM-Website)
@@ -125,6 +131,19 @@ Die Vorhersage stützt sich ausschließlich auf das Modell (L5), ohne Studien od
 - Eine Neubewertung des Nutzen-Risiko-Verhältnisses für eine chronische Erkrankung
 
 **Hinweis zu anderen Kandidaten:** Unter den weiteren Vorhersagen ist das **fibroblastische Neoplasma** (Rang 8) am besten belegt. Dort gibt es die abgeschlossene Phase-2-Studie [NCT03840772](https://clinicaltrials.gov/study/NCT03840772) zu Eribulin bei fortgeschrittenem solitärem fibrösem Tumor (n = 16), ergänzt durch präklinische Daten. Ergebnisse der Studie liegen allerdings nicht vor. Diese Indikation sollte vorrangig als Forschungsfrage geprüft werden.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem sind in Deutschland derzeit alle Zulassungen aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 252
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Ivosidenib: vorhergesagte neue Indikation Bulbäre Poliomyelitis (Evidenzstufe L5). Ursprüngliche Indikation: Akute myeloische Leukämie"
 monitor_inn: "IVOSIDENIB"
 predicted_indications: ["bulbar polio"]
@@ -129,6 +129,25 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 - Fachinformation (BfArM) mit Warnhinweisen und Gegenanzeigen beschaffen und auswerten (blockierende Datenlücke für die Sicherheitsprüfung)
 - Daten zum Wirkmechanismus aus DrugBank ergänzen
 - Für die AML/MDS-Untergruppen: Literatur- und Studienrecherche zu IDH1-mutierten therapieassoziierten myeloischen Neoplasien
+
+<!-- review:begin de-lic-20261031-ivosidenib-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Für die AML/MDS-Untergruppen: Literatur- und Studienrecherche zu IDH1-mutierten therapieassoziierten myeloischen Neoplasien / Aktuellen Verfügbarkeitsstatus in Deutschland prüfen, da nur eine erloschene Zulassung vorliegt“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-ivosidenib-1 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Aktuellen Verfügbarkeitsstatus in Deutschland prüfen, da nur eine erloschene Zulassung vorliegt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

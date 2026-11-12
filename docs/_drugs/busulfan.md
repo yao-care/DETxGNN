@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 87
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Busulfan: vorhergesagte neue Indikation Myelodysplastisches Syndrom (Evidenzstufe L1). Ursprüngliche Indikation: Hämatopoetische Stammzelltransplantation (Konditionierung)"
 monitor_inn: "BUSULFAN"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "simian immunodeficiency virus infection"]
@@ -145,15 +145,41 @@ Für Warnhinweise und Gegenanzeigen aus der Fachinformation liegen keine Daten v
 **Begründung:**
 Für das MDS liegen zwei abgeschlossene Phase-3-Studien sowie mehrere randomisierte Studien und Phase-2-Studien zu Busulfan-basierten Konditionierungsregimen vor. Die Evidenz ist daher ausreichend (L1). Allerdings ist Busulfan stets Teil von Kombinationsregimen, und die Sicherheitsdaten aus der Fachinformation fehlen.
 
+<!-- review:begin de-lic-20261106-busulfan-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Allerdings ist Busulfan stets Teil von Kombinationsregimen, die Zulassung in Deutschland ist erloschen, und die Sicherheitsdaten aus der Fachinformation fehlen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-busulfan-2 -->
+
 **Für das weitere Vorgehen sind erforderlich:**
 - Fachinformation (Warnhinweise und Gegenanzeigen) von der BfArM-Website beschaffen und auswerten (blockierende Datenlücke)
 - Daten zum Wirkmechanismus ergänzen (z. B. über die DrugBank-Abfrage)
 - Pharmakokinetisch gesteuerte Dosierung und Überwachung (hepatische VOD, Krampfanfälle, Markaplasie) festlegen
 - Regimenspezifische Bewertung, da der Effekt nicht isoliert Busulfan zugeordnet werden kann
 
+<!-- review:begin de-lic-20261031-busulfan-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Klärung des Zulassungsstatus in Deutschland (aktuell nur erloschene Zulassung) / Pharmakokinetisch gesteuerte Dosierung und Überwachung (hepatische VOD, Krampfanfälle, Markaplasie) festlegen“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-busulfan-1 -->
+
 ---
 
 **Hinweis zu weiteren vorhergesagten Indikationen:** Für die refraktäre Zytopenie des Kindesalters (L2) und die aregenerative Anämie (L1, aber indirekte Evidenz) ist ebenfalls ein Vorgehen mit Schutzmaßnahmen möglich. Für das unklassifizierte MDS und HIV-Infektion (jeweils L3) handelt es sich um Forschungsfragen. Für alle übrigen Vorhersagen (u. a. seborrhoische Keratose, 5q-Deletion, SIV-Infektion) liegt keine belastbare Evidenz vor, weshalb dort „Hold" empfohlen wird.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Klärung des Zulassungsstatus in Deutschland (aktuell nur erloschene Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „die Zulassung in Deutschland ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

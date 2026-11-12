@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "Meropenem"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "Ureaplasma urethritis", "gonococcal urethritis"]
 description: "Meropenem: vorhergesagte neue Indikation bakterielle Arthritis (bacterial arthritis) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
@@ -105,6 +105,19 @@ Der Vorhersagewert ist sehr hoch, doch es gibt weder registrierte Studien noch L
 - Daten zur Gewebepenetration in Synovia und Knochen
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da diese Daten bislang fehlen
 - Daten zum Wirkmechanismus aus DrugBank
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Zudem ist der Marktstatus in Deutschland „nur erloschen“, und Carbapeneme sollten aus Gründen des Antibiotic Stewardship zurückhaltend einge“ | Nach Neuerstellung des Berichts nicht mehr vorhanden (2026-11-12: der Bericht wurde im November 2026 neu erstellt und enthält diese Aussage nicht mehr; vorher: Korrigiert) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-10-31 | Entfernt: „Klärung des Zulassungsstatus in Deutschland (derzeit nur erloschene Zulassung)“ | Nach Neuerstellung des Berichts nicht mehr vorhanden (2026-11-12: der Bericht wurde im November 2026 neu erstellt und enthält diese Aussage nicht mehr; vorher: Korrigiert) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

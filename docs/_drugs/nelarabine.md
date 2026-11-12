@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 309
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Nelarabine: vorhergesagte neue Indikation Schubförmig-remittierende Multiple Sklerose (Evidenzstufe L5). Ursprüngliche Indikation: Vorläufer-T-Zell-lymphoblastische Leukämie/Lymphom"
 monitor_inn: "NELARABINE"
 predicted_indications: ["relapsing-remitting multiple sclerosis"]
@@ -76,6 +76,12 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 Derzeit liegt keine zugehörige Literatur vor.
 
+<!-- review:begin de-lic-20261106-nelarabine-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Diese Zulassung ist erloschen bzw. aufgehoben (Status: cancelled).“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-nelarabine-1 -->
+
 ---
 
 ## Informationen zum deutschen Markt
@@ -117,12 +123,32 @@ Für Warnhinweise und Gegenanzeigen im Wortlaut der Fachinformation sind die Pac
 **Begründung:**
 Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzstufe L5) ohne Studien oder Publikationen. Die bekannte Neurotoxizität (Demyelinisierung, Neuropathie) spricht direkt gegen den Einsatz bei MS.
 
+<!-- review:begin de-lic-20261106-nelarabine-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die bekannte Neurotoxizität (Demyelinisierung, Neuropathie) spricht direkt gegen den Einsatz bei MS, und die einzige deutsche Zulassung ist erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-nelarabine-2 -->
+
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) vom BfArM, da dies die Sicherheitsprüfung derzeit blockiert
 - Daten zum Wirkmechanismus (MOA) aus DrugBank
 - Präklinische Evidenz zur Wirkung bei MS-Modellen und eine fundierte Nutzen-Risiko-Bewertung der Neurotoxizität
 - Vergleich mit zugelassenen Purinanalogon-Therapien bei MS (z. B. Cladribin)
 - Verfügbarkeit in Deutschland: Das Arzneimittel ist im Handel; 1 von 1 Zulassung ist gültig
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Diese Zulassung ist erloschen bzw. aufgehoben (Status: cancelled)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „und die einzige deutsche Zulassung ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

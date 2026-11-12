@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 12
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Abaloparatide: vorhergesagte neue Indikation Nicht-syndromische Ösophagusfehlbildung (Evidenzstufe L5). Ursprüngliche Indikation: Postmenopausale Osteoporose"
 monitor_inn: "ABALOPARATIDE"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "amenorrhea (disease)", "esophageal ulcer"]
@@ -94,6 +94,12 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 Das schränkt die praktische Entwicklung ein.
 
+<!-- review:begin de-lic-20261106-abaloparatide-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die einzige Zulassung ist erloschen (Status: cancelled). Das schränkt die praktische Entwicklung ein.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-abaloparatide-1 -->
+
 ---
 
 ## Sicherheitsaspekte
@@ -121,6 +127,19 @@ Es gibt weder klinische Studien noch Publikationen; die Vorhersage (Evidenzgrad 
 - Eingrenzung der unspezifischen Vorhersagen (z. B. „Ösophaguserkrankung") auf konkrete Krankheitsbilder
 - Klärung der Zulassungs- und Verfügbarkeitslage, einschließlich der Gründe für das Erlöschen der Zulassung
 - Prüfung der Anwendungswege (Applikationsrouten), die derzeit offen ist
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Die einzige Zulassung ist erloschen (Status: cancelled)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

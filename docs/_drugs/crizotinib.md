@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 124
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Crizotinib: vorhergesagte neue Indikation Gingivale Fibromatose (Evidenzstufe L5). Ursprüngliche Indikation: Nicht-kleinzelliges Lungenkarzinom"
 monitor_inn: "CRIZOTINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "lung germ cell tumor", "pulmonary sulcus neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
@@ -122,6 +122,12 @@ Weitere Sicherheitsinformationen (Warnhinweise, Kontraindikationen) entnehmen Si
 **Begründung:**
 Der Vorhersage fehlen klinische Studien, Literatur und ein plausibler Wirkmechanismus; sie beruht allein auf dem Modellscore. Die Fachinformation mit Sicherheitsangaben konnte nicht ausgewertet werden.
 
+<!-- review:begin de-lic-20261106-crizotinib-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem ist die einzige deutsche Zulassung aufgehoben, und die Fachinformation mit Sicherheitsangaben konnte nicht ausgewertet werden.“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-crizotinib-1 -->
+
 **Für ein Weiterkommen sind folgende Schritte erforderlich:**
 - Fachinformation des BfArM beschaffen und auswerten (Warnhinweise, Kontraindikationen); dies ist eine blockierende Datenlücke für das Sicherheits-Screening
 - Wirkmechanismus (MOA) aus DrugBank ergänzen
@@ -129,6 +135,19 @@ Der Vorhersage fehlen klinische Studien, Literatur und ein plausibler Wirkmechan
 - Klärung des Zulassungs- bzw. Verfügbarkeitsstatus in Deutschland
 
 **Hinweis zu den übrigen Kandidaten:** Der Kandidat „Lungen-Keimzelltumor" (Score 0,9973) erreicht Evidenzstufe L3 und die Einstufung „Research Question". Belegt sind zwei biomarkergesteuerte Basket-Studien (NCT01121588, Phase 1b, abgebrochen; NCT02465060, NCI-MATCH, Phase 2), die jedoch nicht spezifisch für diese Indikation sind. Die meisten übrigen Kandidaten sind entweder reine Vorhersagen (L5) oder stützen sich auf Literatur zum NSCLC, also zur bereits bestehenden Indikation.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche Zulassung aufgehoben, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

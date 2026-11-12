@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 412
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Ropinirole: vorhergesagte neue Indikation Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS) (Evidenzstufe L3). Ursprüngliche Indikation: Restless-Legs-Syndrom, Parkinson-Krankheit"
 monitor_inn: "Ropinirole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
@@ -113,6 +113,12 @@ Für weitere Sicherheitsinformationen siehe die Fachinformation.
 **Begründung:**
 Die Evidenz für ADHS besteht überwiegend aus indirekten Hinweisen (RLS-ADHS-Überlappung), einem Fallbericht und einer möglicherweise kontrollierten Studie, deren Qualität noch nicht geprüft ist. Klinische Studien sind nicht registriert. Eine zentrale EU-Zulassung (EMA) ist nicht erfasst; nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten. Das Thema eignet sich als Forschungsfrage, nicht als unmittelbare Umsetzung.
 
+<!-- review:begin de-lic-20261031-ropinirole-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Das Arzneimittel ist in Deutschland im Handel (1 von 1 Zulassung gültig).“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 0 Zulassungen erfasst, davon 0 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-ropinirole-1 -->
+
 **Für das weitere Vorgehen sind erforderlich:**
 - Volltextprüfung der Studie PMID 42640474 (Design, Ergebnisse, Nebenwirkungen)
 - Daten zum Wirkmechanismus (MOA) aus DrugBank
@@ -123,6 +129,19 @@ Die Evidenz für ADHS besteht überwiegend aus indirekten Hinweisen (RLS-ADHS-Ü
 ---
 
 *Hinweis zu weiteren Vorhersagen:* Für die übrigen neun vorhergesagten Indikationen (u. a. Schizophrenie, X-chromosomale Myopie, Charcot-Marie-Tooth-Krankheit Typ 1G) liegen keine oder nur indirekte bzw. präklinische Belege vor. Bei Schizophrenie besteht zudem ein ungünstiges Nutzen-Risiko-Verhältnis, da Dopaminagonisten Psychosen verschlimmern können. Alle diese Indikationen sind derzeit mit **Hold** zu bewerten.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „D rzneimittel n Deuts l d m Handel (1 v 1 ü ig)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

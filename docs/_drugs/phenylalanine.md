@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 356
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Phenylalanine: vorhergesagte neue Indikation Sklerosierende Cholangitis (Evidenzstufe L4). Ursprüngliche Indikation: Ahornsirupkrankheit (Maple Syrup Urine Disease)"
 monitor_inn: "phenylalanine"
 predicted_indications: ["sclerosing cholangitis", "congenital prothrombin deficiency"]
@@ -76,6 +76,12 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 Keine der Publikationen belegt eine therapeutische Wirkung von Phenylalanin bei sklerosierender Cholangitis.
 
+<!-- review:begin de-lic-20261106-phenylalanine-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Diese Zulassung ist erloschen (Status: cancelled).“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-phenylalanine-1 -->
+
 ## Marktinformationen Deutschland
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
@@ -96,12 +102,32 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) ist die Fach
 **Begründung:**
 Für sklerosierende Cholangitis gibt es keine klinischen Studien und nur indirekte, beobachtende Literatur (Evidenzstufe L4). Für den angeborenen Prothrombinmangel liegt ausschließlich eine Modellvorhersage vor (L5). Die Sicherheitsdaten sind unvollständig.
 
+<!-- review:begin de-lic-20261106-phenylalanine-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die einzige deutsche Zulassung ist erloschen, und die Sicherheitsdaten sind unvollständig.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-phenylalanine-2 -->
+
 **Für ein Weiterkommen sind folgende Punkte nötig:**
 - Wirkmechanismus (MOA) ergänzen, um einen mechanistischen Bezug zu prüfen
 - Warnhinweise und Gegenanzeigen aus der BfArM-Fachinformation beschaffen (blockierende Datenlücke für die Sicherheitsprüfung)
 - Präklinische Daten oder Mechanismusstudien zur Rolle von Phenylalanin bzw. aromatischen Aminosäuren bei sklerosierender Cholangitis
 - Klärung der Kontraindikationen (insbesondere Nieren- und Herz-Kreislauf-Erkrankungen) vor jeder weiteren Bewertung
 - Prüfung der Verabreichungswege und Darreichungsformen (derzeit keine Angaben)
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Diese Zulassung ist erloschen (Status: cancelled)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „ie einzige deutsche Zulassung ist erloschen, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

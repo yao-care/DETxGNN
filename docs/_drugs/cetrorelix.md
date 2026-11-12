@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 110
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Cetrorelix: vorhergesagte neue Indikation Hypertrichose (Evidenzstufe L5). Ursprüngliche Indikation: Ovulation"
 monitor_inn: "CETRORELIX"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "persistent fetal circulation syndrome", "familial isolated trichomegaly", "familial male-limited precocious puberty", "aromatase excess syndrome", "centra precocious puberty 1"]
@@ -80,6 +80,12 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 Derzeit liegt keine zugehörige Literatur vor.
 
+<!-- review:begin de-lic-20261106-cetrorelix-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Hinweis: Diese Zulassung ist als erloschen/aufgehoben geführt.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-cetrorelix-1 -->
+
 ---
 
 ## Marktinformationen Deutschland
@@ -105,11 +111,31 @@ Pharmakologisch relevant ist die Bindung an den GnRH-Rezeptor (GNRHR) als Zielst
 **Begründung:**
 Für Hypertrichose und die übrigen vorhergesagten Indikationen liegen weder klinische Studien noch Publikationen vor, und ein plausibler Wirkmechanismus fehlt weitgehend. Als Forschungsfragen mit mechanistischer Begründung kommen allenfalls die zentrale Pubertas praecox und die familiäre männerlimitierte Pubertas praecox in Betracht.
 
+<!-- review:begin de-lic-20261106-cetrorelix-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem ist die einzige deutsche bzw. europäische Zulassung erloschen. Als Forschungsfragen mit mechanistischer Begründung kommen allenfalls die zentrale Pubertas praecox und die familiäre männerlimitierte Pubertas praecox in Betracht.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-cetrorelix-2 -->
+
 **Für ein Weiterverfolgen sind folgende Schritte nötig:**
 - Auswertung der Packungsbeilage/Fachinformation (Warnhinweise, Gegenanzeigen) als Voraussetzung für eine Sicherheitsbewertung
 - Ergänzung detaillierter Wirkmechanismus-Daten
 - Systematische Literaturrecherche und Prüfung von Studienregistern zur zentralen Pubertas praecox
 - Klärung der Eignung (Kurzwirksamkeit, Injektionshäufigkeit, pädiatrische Sicherheit) und der Verfügbarkeit des Produkts
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Hinweis: Diese Zulassung ist als erloschen/aufgehoben geführt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche bzw. europäische Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

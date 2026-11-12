@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 502
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Vortioxetine: vorhergesagte neue Indikation Neurotische Störung (Evidenzstufe L5). Ursprüngliche Indikation: Major Depression"
 monitor_inn: "VORTIOXETINE"
 predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
@@ -102,12 +102,38 @@ Für Warnhinweise und Gegenanzeigen siehe die Fachinformation.
 **Begründung:**
 Für die neurotische Störung gibt es weder klinische Studien noch spezifische Literatur; die Vorhersage beruht allein auf dem Modell (L5) und dürfte vor allem die Nähe zur Major Depression abbilden.
 
+<!-- review:begin de-lic-20261106-vortioxetine-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Für die neurotische Störung gibt es weder klinische Studien noch spezifische Literatur; die Vorhersage beruht allein auf dem Modell (L5) und dürfte vor allem die Nähe zur Major Depression abbilden. Zudem ist die einzige deutsche Zulassung erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-vortioxetine-2 -->
+
 **Für ein Weiterverfolgen ist Folgendes erforderlich:**
 - Detaillierte Daten zum Wirkmechanismus (MOA)
 - Fachinformation mit Warnhinweisen und Gegenanzeigen (derzeit nicht verfügbar)
 - Eine klar definierte, moderne diagnostische Zielindikation (z. B. Angst- oder depressive Störung) statt der veralteten Kategorie „neurotische Störung"
 
+<!-- review:begin de-lic-20261031-vortioxetine-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Prüfung des Marktstatus, da nur eine erloschene Zulassung vorliegt / Eine klar definierte, moderne diagnostische Zielindikation (z.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-vortioxetine-1 -->
+
 **Hinweis zu anderen Vorhersagen:** Die Vorhersagen „Melancholie" (Evidenzstufe L1; mehrere Phase-3-RCTs bei Major Depression, jedoch ohne subtypspezifische Daten) und „neurotische Depression" (L1, Evidenz im Wesentlichen aus der Major Depression übertragen) sind deutlich besser belegt als die hier berichtete Hauptvorhersage, stellen aber keine echte neue Indikation dar. Die Vorhersage „Dysthymie" (L4) stützt sich nur auf eine unkontrollierte Verlängerungsstudie. Die „benigne paroxysmale Tortikollis des Säuglingsalters" ist ohne mechanistische Grundlage und aus Sicherheitsgründen im Säuglingsalter nicht zu verfolgen.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Prüfung des Marktstatus, da nur eine erloschene Zulassung vorliegt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

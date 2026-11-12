@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "PEGASPARGASE"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
 description: "Pegaspargase: vorhergesagte neue Indikation Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (Evidenzstufe L5). Ursprüngliche Indikation: Precursor Cell Lymphoblastic Leukem…"
@@ -112,6 +112,12 @@ Bei den meisten Studien ist Pegaspargase Teil des Therapiegerüsts. Der spezifis
 
 Die tatsächliche Produktverfügbarkeit sollte vor einer Weiterverfolgung geprüft werden.
 
+<!-- review:begin de-lic-20261106-pegaspargase-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die einzige erfasste Zulassung ist erloschen. Die tatsächliche Produktverfügbarkeit sollte vor einer Weiterverfolgung geprüft werden.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-pegaspargase-1 -->
+
 ---
 
 ## Zytotoxizität
@@ -142,12 +148,32 @@ Für Warnhinweise und Gegenanzeigen liegen in den zusammengestellten Daten keine
 **Begründung:**
 Mehrere abgeschlossene Phase-3-Studien und eine breite Literaturbasis stützen den Einsatz von Pegaspargase bei lymphoblastischer Leukämie/Lymphom (Evidenzstufe L1). Da dies die bereits zugelassene Kernindikation ist, handelt es sich um eine Bestätigung. Es fehlen Sicherheitsdaten aus der Packungsbeilage.
 
+<!-- review:begin de-lic-20261106-pegaspargase-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die Zulassung ist jedoch als erloschen verzeichnet, und es fehlen Sicherheitsdaten aus der Packungsbeilage.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-pegaspargase-2 -->
+
 **Zur Weiterverfolgung ist Folgendes erforderlich:**
 - Prüfung der aktuellen Produktverfügbarkeit und des Zulassungsstatus in Deutschland
 - Packungsbeilage (Warnhinweise, Gegenanzeigen) beschaffen und auswerten
 - Detaillierte Mechanismusdaten (MOA) ergänzen
 - Überwachungsplan für Hepatotoxizität, Pankreatitis, Lipide, Gerinnung und Überempfindlichkeit, mit Dosisanpassung bei älteren Patienten
 - Empfehlung nur auf asparaginabhängige Subtypen beschränken; die übrigen vorhergesagten Indikationen (CLL/SLL, follikuläres Lymphom, cblE, Hodgkin-Lymphom, CML-Blastenphase) bleiben auf Hold
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Die einzige erfasste Zulassung ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Die Zulassung ist jedoch als erloschen verzeichnet, und e“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

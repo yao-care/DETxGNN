@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 23
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Alectinib: vorhergesagte neue Indikation Gingivale Fibromatose (Evidenzstufe L5). Ursprüngliche Indikation: Nicht-kleinzelliges Lungenkarzinom (NSCLC)"
 monitor_inn: "Alectinib"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "lung germ cell tumor", "pulmonary sulcus neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa"]
@@ -76,6 +76,12 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 Derzeit liegt keine zugehörige Literatur vor.
 
+<!-- review:begin de-lic-20261106-alectinib-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Hinweis: Diese Zulassung ist als erloschen/widerrufen (cancelled) geführt; eine gültige Zulassung besteht laut den Daten nicht.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-alectinib-2 -->
+
 ---
 
 ## Marktinformationen Deutschland
@@ -114,6 +120,12 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Begründung:**
 Die Vorhersage stützt sich ausschließlich auf ein Graphmodell (Evidenzlevel L5), ohne klinische Studien, Literatur oder plausiblen ALK-bezogenen Mechanismus.
 
+<!-- review:begin de-lic-20261031-alectinib-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Die Vorhersage stützt sich ausschließlich auf ein Graphmodell (Evidenzlevel L5), ohne klinische Studien, Literatur oder plausiblen ALK-bezogenen Mechanismus. Zudem besteht in Deutschland nur eine erloschene Zulassung.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-alectinib-1 -->
+
 **Für ein Weiterkommen ist erforderlich:**
 - Detaillierte Wirkmechanismusdaten (MOA)
 - Fachinformation mit Warnhinweisen und Gegenanzeigen (derzeit fehlend, blockiert die Sicherheitsprüfung)
@@ -124,6 +136,20 @@ Die Vorhersage stützt sich ausschließlich auf ein Graphmodell (Evidenzlevel L5
 ## Weitere Vorhersagen (Kurzüberblick)
 
 Unter den übrigen Vorhersagen ist **Lungen-Keimzelltumor** (Rang 6) die einzige mit einem indirekten Hinweis (Evidenzlevel L4, Einstufung „Forschungsfrage"). Es gibt keine spezifische Evidenz für Keimzelltumoren; Fallberichte zeigen jedoch Ansprechen auf ALK-Inhibitoren bei ALK-rearrangierten Tumoren anderer Histologie (z. B. neuroendokrine Karzinome der Lunge). Die einzige Phase-2-Studie (NCT04644315, ALK-positive solide Tumoren außerhalb der Lunge) wurde mit nur 1 Teilnehmer abgebrochen. Alle übrigen Vorhersagen (Rang 2–5 und 7–10) sind rein modellbasiert oder durch fehlzugeordnete Literatur zum bereits zugelassenen NSCLC gekennzeichnet und gelten als nicht belegt.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Zudem besteht in Deutschland nur eine erloschene Zulassung“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Hinweis: Diese Zulassung ist als erloschen/widerrufen (cancelled) geführt; eine gültige Zulassung besteht laut den Daten nicht“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

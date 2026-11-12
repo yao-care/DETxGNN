@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 27
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Alpelisib: vorhergesagte neue Indikation Pulmonale Hypertonie (Evidenzstufe L5). Ursprüngliche Indikation: Brustneoplasmen (Brustkrebs)"
 monitor_inn: "ALPELISIB"
 predicted_indications: ["pulmonary hypertension"]
@@ -88,6 +88,12 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 Der Inhaber ist Novartis Europharm Limited.
 
+<!-- review:begin de-lic-20261106-alpelisib-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Diese Zulassung ist aufgehoben (Status: cancelled); der Inhaber ist Novartis Europharm Limited.“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-alpelisib-1 -->
+
 ---
 
 ## Zytotoxizität
@@ -123,12 +129,32 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) bitte die Pa
 **Begründung:**
 Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzgrad L5). Es gibt weder klinische Studien noch präklinische Wirksamkeitsdaten, und die einzige Publikation weist auf ein pulmonales Sicherheitsrisiko hin.
 
+<!-- review:begin de-lic-20261106-alpelisib-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Es gibt weder klinische Studien noch präklinische Wirksamkeitsdaten, und die einzige Publikation weist auf ein pulmonales Sicherheitsrisiko hin. Zudem ist die Zulassung in Deutschland aufgehoben.“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-alpelisib-2 -->
+
 **Für ein Weiterkommen sind folgende Punkte nötig:**
 - Präklinische Daten (z. B. Modelle der pulmonalen Hypertonie), die einen Nutzen der PI3K-alpha-Hemmung belegen
 - Bewertung des Risikos Lungentoxizität/interstitielle Lungenerkrankung bzw. sekundärer pulmonaler Hypertonie
 - Detaillierte Wirkmechanismus-Daten (MOA) aus DrugBank
 - Warnhinweise und Gegenanzeigen aus der Packungsbeilage (BfArM/EMA), da die Sicherheitsprüfung sonst nicht fortgesetzt werden kann
 - Klärung des Zulassungs- und Verfügbarkeitsstatus in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „iese Zulassung ist aufgehoben (Status: cancelled); d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Zudem ist die Zulassung in Deutschland aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

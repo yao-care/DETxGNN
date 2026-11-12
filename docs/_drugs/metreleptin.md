@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 298
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Metreleptin: vorhergesagte neue Indikation Familiäre generalisierte Lentiginose (Evidenzstufe L5). Ursprüngliche Indikation: Familiäre partielle Lipodystrophie"
 monitor_inn: "METRELEPTIN"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "Moynahan syndrome", "rhabdoid tumor", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "acromelanosis", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "benign neoplasm of adrenal gland", "peripheral nerve schwannoma"]
@@ -98,6 +98,12 @@ Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 **Begründung:**
 Die Vorhersagen stützen sich ausschließlich auf das TxGNN-Modell (Evidenzstufe L5) ohne klinische Studien, Literatur oder plausiblen Mechanismus. Die Sicherheitsdaten der Fachinformation fehlen.
 
+<!-- review:begin de-lic-20261106-metreleptin-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem ist die Zulassung in Deutschland erloschen, und die Sicherheitsdaten der Fachinformation fehlen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-metreleptin-1 -->
+
 **Für ein Weiterkommen erforderlich:**
 - Fachinformation (Warnhinweise und Kontraindikationen) von der BfArM-Website beschaffen und auswerten; ohne sie ist keine Sicherheitsprüfung möglich
 - Daten zum Wirkmechanismus aus DrugBank ergänzen
@@ -105,6 +111,19 @@ Die Vorhersagen stützen sich ausschließlich auf das TxGNN-Modell (Evidenzstufe
 - Klärung des Zulassungsstatus und der Gründe für das Erlöschen der Zulassung
 - Prüfung der Anwendungswege (Applikationsweg) für die vorhergesagten Indikationen
 - Bei onkologischen Kandidaten (z. B. Rhabdoidtumor) vorab eine Sicherheitsbewertung zum wachstumsfördernden Potenzial von Leptin
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem ist die Zulassung in eutschland erloschen, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

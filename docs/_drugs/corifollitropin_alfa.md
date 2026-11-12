@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 123
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Corifollitropin Alfa: vorhergesagte neue Indikation Gastroduodenitis (Evidenzstufe L5). Ursprüngliche Indikation: Assistierte Reproduktionstechniken"
 monitor_inn: "CORIFOLLITROPIN ALFA"
 predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer disease", "migraine with brainstem aura", "Raynaud disease", "pulmonary hypertension", "kyphoscoliotic heart disease"]
@@ -111,11 +111,30 @@ Hinweis aus der Mechanismusbetrachtung: Eine ovarielle Stimulation birgt thrombo
 **Begründung:**
 Die Vorhersage beruht ausschließlich auf einem Netzwerkmodell (L5), ohne klinische Studien, Literatur oder plausiblen Wirkmechanismus. Die Sicherheitsdaten sind unvollständig.
 
+<!-- review:begin de-lic-20261106-corifollitropin_alfa-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem ist die einzige deutsche Zulassung aufgehoben, und die Sicherheitsdaten sind unvollständig.“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-corifollitropin_alfa-1 -->
+
 **Für ein Weiterkommen sind erforderlich:**
 - Sicherheitsrelevante Angaben der Fachinformation (Warnhinweise, Gegenanzeigen), da die fehlenden Daten ein Blocker für das Sicherheitsscreening sind
 - Daten zum Wirkmechanismus (MOA) aus DrugBank
 - Präklinische Hinweise auf eine biologische Rolle von FSH-Rezeptoren bei der vorhergesagten Erkrankung
 - Klärung der Darreichungswege und der Kompatibilität mit der Zielindikation
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche Zulassung aufgehoben, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 317
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Nitisinone: vorhergesagte neue Indikation Renale tubuläre Azidose (Evidenzstufe L5). Ursprüngliche Indikation: Tyrosinämien"
 monitor_inn: "NITISINONE"
 predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy with toxic serpin polymerization", "C1 inhibitor deficiency", "glycogen storage disease", "adult polyglucosan body disease", "glycogen storage disease due to glucose-6-phosphatase deficiency", "Griscelli syndrome", "granulomatous disease, chronic, X-linked", "ermine phenotype"]
@@ -105,11 +105,30 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) ist die Fach
 **Begründung:**
 Für die renale tubuläre Azidose gibt es ausschließlich eine Modellvorhersage ohne Studien oder Publikationen (Evidenzniveau L5). Der mechanistische Zusammenhang ist nur indirekt.
 
+<!-- review:begin de-lic-20261106-nitisinone-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Der mechanistische Zusammenhang ist nur indirekt, und die deutschen Zulassungen sind aufgehoben.“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-nitisinone-1 -->
+
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da diese Sicherheitsdaten derzeit fehlen und eine Sicherheitsprüfung blockieren
 - Detaillierte Wirkmechanismusdaten (z. B. aus DrugBank)
 - Präklinische oder klinische Belege für einen Effekt bei primärer renaler tubulärer Azidose, abgegrenzt von der sekundären Tubulopathie bei Tyrosinämie Typ 1
 - Klärung des Zulassungsstatus und der Verfügbarkeit in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „und die deutschen Zulassungen sind aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

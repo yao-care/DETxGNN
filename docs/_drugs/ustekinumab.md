@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 489
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-12
 description: "Ustekinumab: vorhergesagte neue Indikation Dermatitis (Evidenzstufe L2). Ursprüngliche Indikation: Psoriasis, Psoriasis-Arthritis, Morbus Crohn"
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
@@ -102,6 +102,12 @@ Die Phase-2-Daten bei atopischer Dermatitis zeigen nur einen moderaten oder unei
 
 Das Arzneimittel ist derzeit im Handel.
 
+<!-- review:begin de-lic-20261106-ustekinumab-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Alle 13 Zulassungen (zentrale EU-Zulassungen, EMEA/H/C) sind gültig. Das Arzneimittel ist derzeit im Handel.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 13 Zulassungen erfasst, davon 12 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-ustekinumab-1 -->
+
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/000958 | Stelara | k. A. | Psoriasis, Psoriasis-Arthritis, Morbus Crohn, Colitis ulcerosa |
@@ -132,12 +138,39 @@ Zu Warnhinweisen und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinforma
 **Begründung:**
 Zwei randomisierte Phase-2-Studien (u. a. placebokontrolliert) bei atopischer Dermatitis liefern direkte, aber kleine und nur moderate bzw. uneinheitliche Ergebnisse. Es gibt keine Phase-3-Studie für diese Indikation. In Deutschland ist das Arzneimittel im Handel. Die Sicherheitsangaben der Fachinformation fehlen.
 
+<!-- review:begin de-lic-20261106-ustekinumab-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „In Deutschland ist das Arzneimittel im Handel, und 13 von 13 Zulassungen sind gültig.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 13 Zulassungen erfasst, davon 12 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-ustekinumab-2 -->
+
 **Für ein Fortschreiten sind folgende Schritte nötig:**
 - Auswertung der Phase-2-Ergebnisse (NCT01945086, NCT01806662) im Detail, um Effektstärke und Subgruppen mit möglichem Nutzen zu klären
 - Beschaffung und Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
 - Daten zum Wirkmechanismus (MOA) ergänzen
 - Klärung des Zulassungs- und Marktstatus in Deutschland
 - Prüfung, ob andere vorhergesagte Indikationen (z. B. Dermatomyositis, Pityriasis lichenoides) mehr Potenzial bieten; hierzu liegt bisher keine klinische Evidenz vor (Evidenzstufe L5)
+
+<!-- review:begin de-lic-20261106-ustekinumab-3 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung des Zulassungs- und Marktstatus in Deutschland (13 von 13 Zulassungen gültig, Arzneimittel im Handel)“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 13 Zulassungen erfasst, davon 12 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-ustekinumab-3 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Alle 13 Zulassungen (zentrale EU-Zulassungen, EMEA/H/C) sind gültig“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „und 13 von 13 Zulassungen sind gültig“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „(13 von 13 Zulassungen gültig, Arzneimittel im Handel)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

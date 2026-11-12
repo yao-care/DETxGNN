@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 171
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Entecavir: vorhergesagte neue Indikation Chronische Hepatitis-C-Virusinfektion (Evidenzstufe L4). Ursprüngliche Indikation: Chronische Hepatitis B"
 monitor_inn: "ENTECAVIR"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
@@ -119,6 +119,12 @@ Für Warnhinweise und Gegenanzeigen laut Fachinformation bitte die Packungsbeila
 **Begründung:**
 - Für die Indikation chronische HCV-Infektion fehlt ein plausibler direkter Mechanismus; die zugeordneten Studien sind HBV-gerichtet. Es liegt nur Modellvorhersage mit indirekter Evidenz vor (L4).
 
+<!-- review:begin de-lic-20261106-entecavir-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Es liegt nur Modellvorhersage mit indirekter Evidenz vor (L4). / Die Zulassungen in Deutschland sind sämtlich erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 3 Zulassungen erfasst, davon 3 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-entecavir-1 -->
+
 **Für ein Weiterkommen erforderlich:**
 - Beleg einer direkten Anti-HCV-Aktivität (präklinisch), andernfalls Verzicht auf diese Indikation
 - Daten zum Wirkmechanismus (MOA)
@@ -134,6 +140,19 @@ Weitere Vorhersagen der Analyse bieten keine tragfähige Repurposing-Perspektive
 - **HIV-Infektion (Rang 3, L4):** Entecavir hat nur schwache Anti-HIV-1-Aktivität in vitro und kann die M184V-Mutation selektieren. Es darf nicht als HIV-Therapie eingesetzt werden; bei Koinfektion nur mit voll supprimierender antiretroviraler Therapie.
 - **Hepatitis-C-Virusinfektion (Rang 4), Hepatitis E (Rang 9), Hepatitis A (Rang 10):** Keine Mechanismus- oder Studienevidenz; die zugeordneten Studien betreffen HBV.
 - **Tiermedizinische und seltene genetische Indikationen (Ränge 5–8):** Nur Modellvorhersage bzw. präklinische Hinweise ohne humanmedizinische Relevanz.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Die Zulassungen in Deutschland sind sämtlich erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

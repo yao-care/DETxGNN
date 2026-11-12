@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 343
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole: vorhergesagte neue Indikation Duodenal obstruction (Evidenzstufe L5). Ursprüngliche Indikation: Gastroesophageal Reflux"
@@ -150,6 +150,25 @@ Für das aktive peptische Ulkus und das Duodenalulkus liegen Phase-3-Studien sow
 - Verifizierung von Vergleichssubstanz und Endpunkten bei NCT02084420
 - Prüfung der Kontraindikationssignale (Osteoporose, Knochenbruch, perniziöse Anämie) bei Langzeitanwendung
 - Beachtung der Wechselwirkungen mit schwerwiegender Einstufung (Acalabrutinib, Atazanavir)
+
+<!-- review:begin de-lic-20261106-pantoprazole-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung des Zulassungsstatus in Deutschland, da alle erfassten Zulassungen aufgehoben sind“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 3 Zulassungen erfasst, davon 3 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-pantoprazole-1 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „da alle erfassten Zulassungen aufgehoben sind“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

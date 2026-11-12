@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "TOLVAPTAN"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
 description: "Tolvaptan: vorhergesagte neue Indikation Renal-hepatic-pancreatic dysplasia (Evidenzstufe L5). Ursprüngliche Indikation: Inappropriate ADH Syndrome"
@@ -121,6 +121,12 @@ Angaben zu Warnhinweisen und Kontraindikationen aus der Packungsbeilage konnten 
 **Begründung:**
 Für ADPKD liegen zwei Phase-3-RCTs und mehrere Übersichtsarbeiten vor, und der zugrunde liegende cAMP-Mechanismus ist auf PKD3 plausibel übertragbar. Für PKD3 selbst gibt es jedoch keine direkten Studien, die Evidenz ist eine Extrapolation.
 
+<!-- review:begin de-lic-20261106-tolvaptan-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Für PKD3 selbst gibt es jedoch keine direkten Studien, die Evidenz ist eine Extrapolation, und die Hepatotoxizität sowie der erloschene Zulassungsstatus erfordern Vorsicht.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 3 Zulassungen erfasst, davon 3 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-tolvaptan-2 -->
+
 **Für das weitere Vorgehen sind erforderlich:**
 - Bestätigung des Genotyps (GANAB-assoziierte PKD3)
 - Engmaschiges Monitoring der Leberenzyme wegen des bekannten Hepatotoxizitätsrisikos
@@ -128,11 +134,31 @@ Für ADPKD liegen zwei Phase-3-RCTs und mehrere Übersichtsarbeiten vor, und der
 - Auswertung der Packungsbeilage (Warnhinweise und Kontraindikationen)
 - Daten zum detaillierten Wirkmechanismus (MOA)
 
+<!-- review:begin de-lic-20261031-tolvaptan-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Prüfung der regionalen Verfügbarkeit, da in Deutschland nur erloschene Zulassungen vorliegen / Auswertung der Packungsbeilage (Warnhinweise und Kontraindikationen)“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 3 Zulassungen erfasst, davon 3 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-tolvaptan-1 -->
+
 ---
 
 ### Anmerkung zu weiteren Vorhersagen
 
 Die übrigen neun Vorhersagen (u. a. renal-hepatisch-pankreatische Dysplasie, karyomegale interstitielle Nephritis, Joubert-Syndrom mit Nierenbeteiligung) haben sehr hohe Modellwerte, aber keine oder nur indirekte Evidenz. Sie wurden mit „Hold" bzw. „Research Question" bewertet. Das Joubert-Syndrom mit Nierenbeteiligung wäre am ehesten ein Kandidat für präklinische Untersuchungen in Nephronophthise-Modellen.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Prüfung der regionalen Verfügbarkeit, da in Deutschland nur erloschene Zulassungen vorliegen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „und die Hepatotoxizität sowie der erloschene Zulassungsstatus erfordern Vorsicht“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

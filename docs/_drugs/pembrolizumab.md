@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 350
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Pembrolizumab: vorhergesagte neue Indikation Gingivale Fibromatose (Evidenzstufe L5). Ursprüngliche Indikation: Melanom"
 monitor_inn: "PEMBROLIZUMAB"
 predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "fibroma of lung", "lung benign neoplasm", "ovarioleukodystrophy", "lung germ cell tumor", "pulmonary sulcus neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
@@ -125,7 +125,26 @@ Für die gingivale Fibromatose gibt es weder klinische Studien noch Publikatione
 - Präklinische oder mechanistische Hinweise auf eine Rolle des PD-1-Signalwegs bei der gingivalen Fibromatose
 - Klärung des Zulassungsstatus in Deutschland
 
+<!-- review:begin de-lic-20261106-pembrolizumab-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung des Zulassungsstatus in Deutschland, da nur eine gelöschte Zulassung vorliegt“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-pembrolizumab-1 -->
+
 **Hinweis zu den übrigen Vorhersagen:** Auch die weiteren Kandidaten (Rang 2–10) bleiben auf „Hold“. Bei „Lungenhilus-Karzinom“ (L4) und „pulmonärem Sulcus-Tumor“ handelt es sich wahrscheinlich um Teilmengen der bereits zugelassenen NSCLC-Anwendung und nicht um echtes Repurposing. Die Treffer zu „gutartige Lungenneoplasie“ und „Lungen-Keimzelltumor“ betreffen überwiegend maligne Lungenkarzinome bzw. Pan-Tumor-Studien und sind nicht übertragbar.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „da nur eine gelöschte Zulassung vorliegt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

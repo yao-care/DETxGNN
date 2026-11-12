@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 151
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Dronedarone: vorhergesagte neue Indikation Schlaganfall (stroke disorder) (Evidenzstufe L4). Ursprüngliche Indikation: Vorhofflimmern"
 monitor_inn: "DRONEDARONE"
 predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
@@ -122,6 +122,12 @@ Für vollständige Sicherheitsangaben zu Warnhinweisen und Gegenanzeigen ist die
 **Begründung:**
 Die Vorhersage stützt sich auf indirekte Evidenz aus Vorhofflimmern-Populationen (überwiegend Post-hoc- und Sekundäranalysen), es gibt keine registrierten Studien mit Schlaganfall als Endpunkt. Hinzu kommen erhebliche Sicherheitsbeschränkungen.
 
+<!-- review:begin de-lic-20261106-dronedarone-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Hinzu kommen erhebliche Sicherheitsbeschränkungen und eine nur noch gelöschte Zulassung in Deutschland.“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-dronedarone-1 -->
+
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da diese Daten bislang fehlen und eine Sicherheitsprüfung blockieren
 - Ergänzung von Wirkmechanismus-Daten (z. B. aus DrugBank)
@@ -129,6 +135,26 @@ Die Vorhersage stützt sich auf indirekte Evidenz aus Vorhofflimmern-Populatione
 - Bewertung der Wechselwirkungen mit Antikoagulanzien und des Nutzen-Risiko-Profils bei Herzinsuffizienz und permanentem Vorhofflimmern
 - Klärung der regulatorischen Situation
 - Zusammenführung redundanter Vorhersagen (Schlaganfall, zerebrovaskuläre Erkrankung, Hirnarterienverschluss, Hirnstamminfarkt) zu einer gemeinsamen Fragestellung
+
+<!-- review:begin de-lic-20261106-dronedarone-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung der regulatorischen Situation (gelöschte Zulassung)“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-dronedarone-2 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „und eine nur noch gelöschte Zulassung in Deutschland“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „(gelöschte Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

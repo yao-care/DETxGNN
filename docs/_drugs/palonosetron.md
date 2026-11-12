@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 340
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Palonosetron: vorhergesagte neue Indikation Migräne (migraine disorder) (Evidenzstufe L4). Ursprüngliche Indikation: Erbrechen, Übelkeit, Krebs (Krebstherapie-assoziiert)"
 monitor_inn: "PALONOSETRON"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
@@ -126,6 +126,25 @@ Die Vorhersage beruht allein auf Rechenmodellen. Es gibt keine klinischen Studie
 - Systematische Literaturrecherche zu 5-HT3-Antagonisten bei Migräne und zum Kopfschmerz als Nebenwirkung
 - Präklinische oder explorative klinische Belege für einen Nutzen bei Migräne
 - Bewertung der Wechselwirkungen mit Triptanen und der QT-Risiken
+
+<!-- review:begin de-lic-20261031-palonosetron-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Klärung der Zulassungs- und Verfügbarkeitslage in Deutschland (derzeit nur erloschene Zulassungen) / Bewertung der Wechselwirkungen mit Triptanen und der QT-Risiken“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 3 Zulassungen erfasst, davon 3 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-palonosetron-1 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Klärung der Zulassungs- und Verfügbarkeitslage in Deutschland (derzeit nur erloschene Zulassungen)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

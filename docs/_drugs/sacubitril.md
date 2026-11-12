@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 418
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "SACUBITRIL"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 description: "Sacubitril: vorhergesagte neue Indikation Brain small vessel disease 1 with or without ocular anomalies (Evidenzstufe L5). Ursprüngliche Indikation: Heart Failure"
@@ -123,12 +123,31 @@ Für Warnhinweise und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinform
 **Begründung:**
 Für diabetische Nephropathie gibt es plausible präklinische Befunde und eine laufende bzw. in ihrem Status unklare Phase-4-Studie ohne Ergebnisse, aber keine abgeschlossene Phase-3-Studie mit renalen Endpunkten. Zudem ist Valsartan allein bereits Standardtherapie. Die übrigen Vorhersagen (Rang 1, 2, 4 und 5) haben nur Modell-Evidenz (L5).
 
+<!-- review:begin de-lic-20261106-sacubitril-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem ist Valsartan allein bereits Standardtherapie, und beide deutschen/EU-Zulassungen sind erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-sacubitril-1 -->
+
 **Für ein Fortschreiten sind folgende Schritte nötig:**
 - Ergebnisse oder Statusklärung der Studie NCT06501651
 - Ein Phase-3-RCT mit renalen Endpunkten (z. B. Albuminurie, eGFR-Verlauf) gegen Valsartan allein
 - Daten zum Wirkmechanismus (MOA)
 - Fachinformation mit Warnhinweisen und Gegenanzeigen (derzeit lückenhaft, blockierend für die Sicherheitsprüfung)
 - Prüfung des Marktstatus und der Verfügbarkeit des konkreten Produkts bzw. der Darreichungsform
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „und beide deutschen/EU-Zulassungen sind erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

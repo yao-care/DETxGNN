@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 364
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Ponatinib: vorhergesagte neue Indikation Gingivale Fibromatose (Evidenzstufe L5). Ursprüngliche Indikation: Myeloische und lymphatische Leukämie"
 monitor_inn: "PONATINIB"
 predicted_indications: ["fibromatosis, gingival", "liposarcoma"]
@@ -64,6 +64,12 @@ Für die zweitplatzierte Vorhersage, **Liposarkom**, existiert immerhin **1 prä
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Ponatinib ein Multi-Kinase-Inhibitor ist (u. a. BCR-ABL, FGFR, PDGFR, VEGFR, SRC). Seine Wirksamkeit bei Leukämien ist belegt, und mechanistisch könnte er theoretisch auch bei Erkrankungen wirken, in denen PDGFR- oder FGFR-Signalwege an fibrotischen oder proliferativen Prozessen beteiligt sind.
 
 Für die gingivale Fibromatose ist diese Verbindung jedoch rein spekulativ und durch keine Evidenz gestützt. Es handelt sich um eine seltene, gutartige Erkrankung. Das Sicherheitsprofil von Ponatinib (arterielle Verschlussereignisse, Gefäßverschlüsse, Hepatotoxizität, Pankreatitis) spräche gegen einen Einsatz bei einer solchen Indikation.
+
+<!-- review:begin de-lic-20261106-ponatinib-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Das Sicherheitsprofil von Ponatinib (arterielle Verschlussereignisse, Gefäßverschlüsse, Hepatotoxizität, Pankreatitis) spräche gegen einen Einsatz bei einer solchen Indikation. Die erloschene Zulassung in Deutschland erschwert zudem den praktischen Zugang.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-ponatinib-1 -->
 
 Die zweite Vorhersage, **Liposarkom** (Score 0,9900), ist mechanistisch plausibler: Die Multi-Kinase-Aktivität (FGFR, PDGFR, SRC, KIT, RET) passt zu einem Tumor, bei dem Kinasen als therapeutische Zielstrukturen gelten. Die Evidenz ist aber indirekt und präklinisch (Evidenzlevel L4).
 
@@ -127,12 +133,39 @@ Die Angaben zu Warnhinweisen und Gegenanzeigen aus der Fachinformation fehlen in
 **Begründung:**
 Die Vorhersage für gingivale Fibromatose stützt sich ausschließlich auf einen hohen Modellwert (Evidenzlevel L5), ohne klinische Studien oder Literatur. Bei einer gutartigen Erkrankung wiegt das Risikoprofil von Ponatinib schwer. Das Liposarkom wäre als eigene Forschungsfrage (L4) interessanter, ist aber ebenfalls nur präklinisch und indirekt belegt.
 
+<!-- review:begin de-lic-20261106-ponatinib-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Bei einer gutartigen Erkrankung wiegt das Risikoprofil von Ponatinib schwer, und die Zulassung in Deutschland ist erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-ponatinib-2 -->
+
 **Für ein Weiterverfolgen sind folgende Schritte nötig:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) zur Sicherheitsbewertung
 - Detaillierte Wirkmechanismusdaten (z. B. aus DrugBank)
 - Prüfung der Originalpublikation PMID 29132397, ob Ponatinib im Liposarkom-Screening aktiv war
 - Gezielte Literatur- und Studienrecherche zu PDGFR-/FGFR-Signalwegen bei gingivaler Fibromatose
 - Klärung der Zugänglichkeit des Arzneimittels in Deutschland
+
+<!-- review:begin de-lic-20261106-ponatinib-3 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung der Zugänglichkeit des Arzneimittels in Deutschland angesichts der erloschenen Zulassung“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-ponatinib-3 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Die erloschene Zulassung in Deutschland erschwert zudem den praktischen Zugang“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „und die Zulassung in Deutschland ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „angesichts der erloschenen Zulassung“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

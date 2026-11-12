@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 190
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Febuxostat: vorhergesagte neue Indikation Renale Hypourikämie (Evidenzstufe L4). Ursprüngliche Indikation: Gicht"
 monitor_inn: "FEBUXOSTAT"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
@@ -98,6 +98,12 @@ Der hohe TxGNN-Wert spiegelt vermutlich die Nähe im Netzwerk (Harnsäurestoffwe
 - **Kontraindikationen aus dem Wissensgraphen** (PrimeKG, keine Angaben aus dem Beipackzettel): Schlaganfall, zerebrovaskuläre Erkrankungen, Hirninfarkt, Myokardinfarkt, Koronarthrombose, Hämoglobinopathie.
 - **Arzneimittelwechselwirkungen**: 22 Wechselwirkungen erfasst, davon als **schwerwiegend (Major)**: Mercaptopurin, Azathioprin, Leflunomid, Teriflunomid. Moderate Wechselwirkungen u. a. mit Theophyllin, Aminophyllin, Dyphyllin, Methotrexat, Tioguanin, Epirubicin, Clofarabin, Trabectedin, Naltrexon, Interferon-beta-Präparaten und Asparaginase/Pegaspargase.
 
+<!-- review:begin de-lic-20261106-febuxostat-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Alle drei Zulassungen haben den Status „aufgehoben".“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 3 Zulassungen erfasst, davon 3 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-febuxostat-1 -->
+
 Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ---
@@ -109,6 +115,12 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Begründung:**
 Die Vorhersage ist mechanistisch nicht schlüssig, da bei renaler Hypourikämie die Harnsäure bereits niedrig ist. Die einzige Studie ist thematisch nicht passend, und die Literatur besteht aus einem Review und einem Einzelfallbericht.
 
+<!-- review:begin de-lic-20261106-febuxostat-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die einzige Studie ist thematisch nicht passend, und die Literatur besteht aus einem Review und einem Einzelfallbericht. Zudem sind in Deutschland alle Zulassungen aufgehoben.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 3 Zulassungen erfasst, davon 3 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-febuxostat-2 -->
+
 **Für ein Weiterkommen erforderlich:**
 - Prüfung des Registereintrags von NCT04398251 (Bedingung, Intervention, Design)
 - Kontrollierte Daten zur Prävention von EIAKI bei renaler Hypourikämie
@@ -118,6 +130,20 @@ Die Vorhersage ist mechanistisch nicht schlüssig, da bei renaler Hypourikämie 
 ---
 
 *Hinweis zu weiteren Vorhersagen:* Plausibler sind die Kandidaten **partieller HPRT-Mangel** (Rang 2) und **Lesch-Nyhan-Syndrom** (Rang 3). Dort kann Febuxostat die Harnsäurelast senken (nicht die neurologischen Symptome), die Evidenz beschränkt sich jedoch auf Fallberichte, und es besteht das Risiko einer Xanthin-Nephropathie bzw. Urolithiasis. Beide sind als Forschungsfrage (L4) einzustufen.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Alle drei Zulassungen haben den Status „aufgehoben"“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Zudem sind in Deutschland alle Zulassungen aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 401
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "RIMEGEPANT"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 description: "Rimegepant: vorhergesagte neue Indikation Atrophoderma vermiculata (Evidenzstufe L5). Ursprüngliche Indikation: Migraine Disorders"
@@ -62,7 +62,6 @@ Dafür liegen **keine spezifischen klinischen Studien** vor, jedoch **15 Publika
 
 Rimegepant blockiert den CGRP-Rezeptor (Calcitonin Gene-Related Peptide). Dieser Signalweg spielt eine zentrale Rolle in der Pathophysiologie der Migräne. Die Daten zum Wirkmechanismus (MOA) liegen für diesen Bericht nicht im Detail vor. Nach bekanntem Stand gehört Rimegepant jedoch zur Klasse der Gepante, und seine Wirksamkeit bei Migräne ist belegt.
 
-
 Wichtig: In den zusammengestellten Daten wurde keine Studie gefunden, die gezielt Patienten mit Hirnstammaura eingeschlossen hat. Die Phase-3- und Phase-4-Literatur betrifft allgemeine Migränepopulationen. Die Evidenz ist für diesen Subtyp somit indirekt.
 
 ---
@@ -113,12 +112,31 @@ Für Warnhinweise und Gegenanzeigen siehe die Fachinformation.
 **Begründung:**
 Die Vorhersage betrifft einen Subtyp der bereits behandelten Erkrankung Migräne und stellt damit eher ein Ontologie-Artefakt als ein echtes Repurposing-Signal dar. Es gibt keine Studie speziell zur Hirnstammaura, und die deutsche bzw.
 
+<!-- review:begin de-lic-20261031-rimegepant-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Es gibt keine Studie speziell zur Hirnstammaura, und die deutsche bzw. europäische Zulassung ist nur noch als erloschen erfasst.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-rimegepant-1 -->
+
 **Für das weitere Vorgehen wird Folgendes benötigt:**
 - Klärung des aktuellen Zulassungsstatus von Vydura (Gründe für das Erlöschen)
 - Auswertung von Subgruppendaten zu Hirnstammaura aus den vorhandenen Phase-3-Studien
 - Daten zum Wirkmechanismus (MOA) aus DrugBank
 - Warnhinweise und Gegenanzeigen aus der Fachinformation (Blocker für das Sicherheitsscreening)
 - Bewertung der Wechselwirkungen, insbesondere mit starken CYP3A4-Inhibitoren und -Induktoren
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „europäische Zulassung ist nur noch als erloschen erfasst“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

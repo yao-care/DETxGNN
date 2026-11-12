@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 361
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Pitolisant: vorhergesagte neue Indikation Insomnie (Evidenzstufe L5). Ursprüngliche Indikation: Narkolepsie"
 monitor_inn: "PITOLISANT"
 predicted_indications: ["insomnia (disease)", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome"]
@@ -116,10 +116,36 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Begründung:**
 Die Vorhersage „Insomnie" widerspricht dem Wirkmechanismus (wachheitsfördernd), Schlaflosigkeit ist eine bekannte Nebenwirkung, und es gibt weder klinische Studien noch spezifische Literatur.
 
+<!-- review:begin de-lic-20261106-pitolisant-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die Vorhersage „Insomnie" widerspricht dem Wirkmechanismus (wachheitsfördernd), Schlaflosigkeit ist eine bekannte Nebenwirkung, und es gibt weder klinische Studien noch spezifische Literatur. Zudem sind beide deutschen bzw. europäischen Zulassungen erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-pitolisant-1 -->
+
 **Für ein Weiterkommen erforderlich:**
 - Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM beschaffen und auswerten
 - Detaillierte Wirkmechanismus-Daten (MOA) ergänzen
 - Falls Interesse besteht: ADHS als aussichtsreichere Hypothese mit präklinischen bzw. explorativen klinischen Arbeiten prüfen
+
+<!-- review:begin de-lic-20261106-pitolisant-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung der Gründe für den Zulassungsstatus „erloschen" / Falls Interesse besteht: ADHS als aussichtsreichere Hypothese mit präklinischen bzw. explorativen klinischen Arbeiten prüfen“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-pitolisant-2 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem sind beide deutschen bzw. europäischen Zulassungen erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Klärung der Gründe für den Zulassungsstatus „erloschen"“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 196
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Fidaxomicin: vorhergesagte neue Indikation Staphylococcal Scalded Skin Syndrome (Evidenzstufe L5). Ursprüngliche Indikation: Clostridien-Infektionen"
 monitor_inn: "FIDAXOMICIN"
 predicted_indications: ["staphylococcal scalded skin syndrome", "bullous impetigo", "inhalational botulism", "impetigo", "toxin-mediated infectious botulism", "vulvovaginal candidiasis", "hordeolum", "staphylococcus aureus pneumonia", "punctate epithelial keratoconjunctivitis"]
@@ -91,6 +91,12 @@ Für die Hauptvorhersage (SSSS) liegen derzeit keine Publikationen vor.
 
 Für die Vorhersage „Staphylococcus-aureus-Pneumonie" wurde lediglich eine allgemeine Übersichtsarbeit gefunden, die keinen direkten Beleg für diese Anwendung liefert:
 
+<!-- review:begin de-lic-20261106-fidaxomicin-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Hinweis: Die Zulassung ist als erloschen/aufgehoben geführt (Inhaber: Tillotts Pharma GmbH).“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-fidaxomicin-1 -->
+
 | PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
 | [31634096](https://pubmed.ncbi.nlm.nih.gov/31634096/) | 2019 | Review | Journal of Hospital Medicine | Zusammenfassung wichtiger Literatur der Krankenhausmedizin; nennt Vancomycin oder Fidaxomicin als Erstlinientherapie bei C.-difficile-Infektion |
@@ -124,12 +130,32 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Begründung:**
 Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzlevel L5) ohne Studien oder Publikationen. Die geringe systemische Resorption von Fidaxomicin und die toxinvermittelte Natur des SSSS sprechen gegen eine sinnvolle Anwendung.
 
+<!-- review:begin de-lic-20261106-fidaxomicin-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die geringe systemische Resorption von Fidaxomicin und die toxinvermittelte Natur des SSSS sprechen gegen eine sinnvolle Anwendung. Zudem ist die deutsche Zulassung erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-fidaxomicin-2 -->
+
 **Für ein Weiterkommen wären erforderlich:**
 - Daten zum Wirkmechanismus (MOA)
 - Fachinformation mit Warnhinweisen und Gegenanzeigen (derzeit blockierende Datenlücke für die Sicherheitsprüfung)
 - Präklinische Daten zur Aktivität gegen *S. aureus* und zu Exfoliativtoxin-vermittelten Effekten
 - Prüfung von Applikationsweg und Formulierung (systemische bzw. topische Verfügbarkeit)
 - Klärung des aktuellen Zulassungs- und Vermarktungsstatus in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Hinweis: Die Zulassung ist als erloschen/aufgehoben geführt (Inhaber: Tillotts Pharma GmbH)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Zudem ist die deutsche Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 476
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Trabectedin: vorhergesagte neue Indikation Weibliches Mammakarzinom (Evidenzstufe L5). Ursprüngliche Indikation: Sarkom"
 monitor_inn: "TRABECTEDIN"
 predicted_indications: ["female breast carcinoma"]
@@ -129,12 +129,38 @@ Zu Warnhinweisen und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Begründung:**
 Es gibt Phase-2-Daten beim Mammakarzinom (u. a. BRCA-mutierte und vorbehandelte Patientinnen) und ein plausibles Wirkprinzip. Es fehlen jedoch Phase-3-Belege, und die Sicherheitsprüfung anhand der Fachinformation ist noch nicht möglich.
 
+<!-- review:begin de-lic-20261106-trabectedin-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Es fehlen jedoch Phase-3-Belege, die in Deutschland eingetragenen Zulassungen sind erloschen, und die Sicherheitsprüfung anhand der Fachinformation ist noch nicht möglich.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-trabectedin-1 -->
+
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Fachinformation (Warnhinweise und Gegenanzeigen) beim BfArM beschaffen und auswerten
 - Detaillierte Wirkmechanismus-Daten (z. B. aus DrugBank) ergänzen
 - Ergebnisse der Phase-2-Studien beim Mammakarzinom (insbesondere BRCA-mutierte Subgruppe) im Detail prüfen
 - Kontrollierte Studien in definierten Subgruppen (z. B. BRCA1/2-Mutation, HR-Defizienz) planen
 - Management der Myelosuppression und Lebertoxizität sowie Wechselwirkungsmanagement (insbesondere CYP3A4-Hemmer wie Clarithromycin) planen
+
+<!-- review:begin de-lic-20261106-trabectedin-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klären, warum die Zulassungen in Deutschland erloschen sind und ob eine Wiederzulassung oder ein anderer Zugangsweg möglich ist / Kontrollierte Studien in definierten Subgruppen (z.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-trabectedin-2 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „die in Deutschland eingetragenen Zulassungen sind erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Klären, warum die Zulassungen in Deutschland erloschen sind und ob eine Wiederzulassung oder ein anderer Zugangsweg möglich ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

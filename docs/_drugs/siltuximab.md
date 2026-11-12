@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 428
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Siltuximab: vorhergesagte neue Indikation Extrakutanes Mastozytom (Evidenzstufe L5). Ursprüngliche Indikation: Riesenlymphknotenhyperplasie (Giant Lymph Node Hyperplasia)"
 monitor_inn: "SILTUXIMAB"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever"]
@@ -84,6 +84,12 @@ Für die Hauptindikation (extrakutanes Mastozytom) liegt derzeit keine relevante
 
 Für die Alternativindikation Kaposi-Sarkom wurde eine Publikation gefunden:
 
+<!-- review:begin de-lic-20261106-siltuximab-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die Zulassung ist aufgehoben (Status: cancelled).“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-siltuximab-1 -->
+
 | PMID | Jahr | Typ | Journal | Zentrale Aussage |
 |------|-----|------|------|---------|
 | [39970477](https://pubmed.ncbi.nlm.nih.gov/39970477/) | 2024 | Review | AIDS Reviews | Übersicht zu den Ursachen der Castleman-Krankheit (u. a. virale Infektionen) und ihren Subtypen; keine Wirksamkeitsstudie zum Kaposi-Sarkom. |
@@ -119,12 +125,32 @@ Angaben zu Warnhinweisen und Gegenanzeigen aus der Fachinformation liegen nicht 
 **Begründung:**
 Die Vorhersage für extrakutanes Mastozytom beruht ausschließlich auf dem Modell (L5), ohne klinische Studien oder Literatur. Mastzellerkrankungen sind primär KIT-getrieben, und IL-6 gilt dort eher als Biomarker.
 
+<!-- review:begin de-lic-20261106-siltuximab-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Mastzellerkrankungen sind primär KIT-getrieben, und IL-6 gilt dort eher als Biomarker. Zudem ist die deutsche Zulassung aufgehoben.“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-siltuximab-2 -->
+
 **Für ein Weiterkommen erforderlich:**
 - Mechanismusdaten (MOA) aus DrugBank ergänzen
 - Warnhinweise und Gegenanzeigen aus der Fachinformation einholen (derzeit blockierende Datenlücke für die Sicherheitsprüfung)
 - Präklinische Daten zu IL-6 bei Mastzellerkrankungen prüfen
 - Das Kaposi-Sarkom (L4, plausibler KSHV/IL-6-Link) als aussichtsreichere Forschungsfrage vertiefen
 - Klärung des Zulassungs- und Versorgungsstatus in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Die Zulassung ist aufgehoben (Status: cancelled)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Zudem ist die deutsche Zulassung aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

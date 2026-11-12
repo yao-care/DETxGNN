@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 496
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Verteporfin: vorhergesagte neue Indikation Mitochondriale Störung der oxidativen Phosphorylierung durch Kern-DNA-Anomalien (Evidenzstufe L5). Ursprüngliche Indikation: Degenerative Myopie"
 monitor_inn: "VERTEPORFIN"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"]
@@ -78,6 +78,12 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 Derzeit liegt keine zugehörige Literatur vor.
 
+<!-- review:begin de-lic-20261106-verteporfin-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Diese Zulassung ist erloschen; gültige Zulassungen bestehen derzeit nicht.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-verteporfin-1 -->
+
 ---
 
 ## Marktinformationen Deutschland
@@ -108,12 +114,32 @@ Warnhinweise und Kontraindikationen aus der Fachinformation liegen nicht vor; bi
 **Begründung:**
 Die Vorhersage beruht nur auf einem hohen Modellwert (Evidenzstufe L5) ohne klinische oder literarische Belege. Die ROS-erzeugende Wirkung könnte bei mitochondrialen Erkrankungen sogar schädlich sein, und die lokale, lichtabhängige Anwendung passt schlecht zu einer systemischen Erkrankung.
 
+<!-- review:begin de-lic-20261106-verteporfin-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die ROS-erzeugende Wirkung könnte bei mitochondrialen Erkrankungen sogar schädlich sein, und die lokale, lichtabhängige Anwendung passt schlecht zu einer systemischen Erkrankung. Zudem ist die einzige Zulassung in Deutschland erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-verteporfin-2 -->
+
 **Für ein Weiterkommen sind erforderlich:**
 - Daten zum Wirkmechanismus (MOA)
 - Warnhinweise und Kontraindikationen aus der Fachinformation (BfArM)
 - Präklinische Studien zur Wirkung auf Mitochondrienfunktion und oxidativen Stress in Zellmodellen mit gestörter oxidativer Phosphorylierung
 - Prüfung der Machbarkeit von Applikationsweg und Zielgewebe für eine systemische Erkrankung
 - Bewertung der Wechselwirkungen und der Kontraindikationen (insbesondere Porphyrie und Lebererkrankung)
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Diese Zulassung ist erloschen; gültige Zulassungen bestehen derzeit nicht“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Zudem ist die einzige Zulassung in Deutschland erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 240
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Insulin Degludec: vorhergesagte neue Indikation autoimmune Oophoritis (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes mellitus"
 monitor_inn: "INSULIN DEGLUDEC"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
@@ -65,6 +65,12 @@ Für die für diesen Bericht zusammengestellten Daten liegen keine detaillierten
 Beim Typ-1-Diabetes besteht ein absoluter Insulinmangel, daher ist ein basaler Insulinersatz mechanistisch unmittelbar sinnvoll. Es handelt sich dabei weniger um ein echtes Repurposing als um eine Erweiterung innerhalb derselben Krankheitsklasse, da die ursprünglichen Indikationen bereits Diabetes mellitus umfassen.
 
 Die Evidenz stammt aus direkten Vergleichsstudien und systematischen Übersichtsarbeiten, die Degludec mit anderen Basalinsulinen (Glargin, Detemir, Icodec, Efsitora) vergleichen.
+
+<!-- review:begin de-lic-20261031-insulin_degludec-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Die Evidenz stammt aus direkten Vergleichsstudien und systematischen Übersichtsarbeiten, die Degludec mit anderen Basalinsulinen (Glargin, Detemir, Icodec, Efsitora) vergleichen. Zu beachten ist, dass in Deutschland nur erloschene Zulassungen vorliegen; vor einer Empfehlung sind daher regulatorische und Verfügbarkeitsprüfungen nötig.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 3 Zulassungen erfasst, davon 3 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-insulin_degludec-1 -->
 
 ---
 
@@ -137,13 +143,40 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Begründung:**
 Mehrere abgeschlossene Phase-3-Studien (u. a. SWITCH 1) und hochrangige RCTs sowie systematische Übersichten stützen den Einsatz von Degludec bei Typ-1-Diabetes, sodass der Evidenzgrad L1 erreicht wird.
 
+<!-- review:begin de-lic-20261031-insulin_degludec-2 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „SWITCH 1) und hochrangige RCTs sowie systematische Übersichten stützen den Einsatz von Degludec bei Typ-1-Diabetes, sodass der Evidenzgrad L1 erreicht wird. Allerdings handelt es sich um eine Erweiterung innerhalb der Diabetes-Klasse, und in Deutschland bestehen nur erloschene Zulassungen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 3 Zulassungen erfasst, davon 3 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-insulin_degludec-2 -->
+
 **Für das weitere Vorgehen ist erforderlich:**
 - Klärung des regulatorischen Status und der Verfügbarkeit in Deutschland
 - Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) vom BfArM, da diese Daten derzeit fehlen
 - Detaillierte Wirkmechanismusdaten (z. B. aus DrugBank)
 - Prüfung der Wechselwirkungen, v. a. mit Sympathomimetika, Betablockern und anderen Antidiabetika
 
+<!-- review:begin de-lic-20261106-insulin_degludec-3 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung des regulatorischen Status und der Verfügbarkeit in Deutschland (erloschene Zulassungen)“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 3 Zulassungen erfasst, davon 3 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-insulin_degludec-3 -->
+
 **Hinweis zu weiteren Vorhersagen:** Die übrigen vier vorhergesagten Indikationen (Opsismodysplasie, Thiamin-responsives Dysfunktionssyndrom, klassisches Stiff-Person-Syndrom, fokales Stiff-Limb-Syndrom) haben trotz hoher TxGNN-Werte (0,9912; 0,9910; 0,9908; 0,9908) weder klinische Studien noch Literatur, keinen plausiblen therapeutischen Mechanismus und Evidenzgrad L5. Empfehlung für diese: **Hold**.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Zu beachten ist, dass in Deutschland nur erloschene Zulassungen vorliegen; vor einer Empfehlung sind daher regulatorische und Verfügbarkeits“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-10-31 | Entfernt: „Allerdings handelt es sich um eine Erweiterung innerhalb der Diabetes-Klasse, und in Deutschland bestehen nur erloschene Zulassungen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „(erloschene Zulassungen)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

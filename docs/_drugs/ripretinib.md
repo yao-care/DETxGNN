@@ -7,7 +7,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 403
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -41,6 +41,12 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 Ripretinib (Qinlock) ist ein Switch-Control-Kinase-Inhibitor, der auf KIT- und PDGFRA-Mutationen abzielt und ursprünglich für fortgeschrittenes gastrointestinales Stroma-Tumor (GIST) bei Patienten zugelassen wurde, die bereits drei oder mehr frühere Kinase-Inhibitor-Therapien erhalten haben.
 Dieses Evidence Pack enthält noch keine TxGNN-vorhergesagten Repurposing-Kandidaten für Ripretinib, da zwei kritische Datenlücken – Sicherheitskennzeichnung (Blockierungsschwere) und Mechanismus-der-Wirkung-Details (hohe Schwere) – ungelöst bleiben.
 Keine neue Indikation kann in diesem Stadium formal bewertet oder empfohlen werden.
+
+<!-- review:begin de-lic-20261106-ripretinib-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Dieses Evidence Pack enthält noch keine TxGNN-vorhergesagten Repurposing-Kandidaten für Ripretinib, da zwei kritische Datenlücken – TFDA-Sicherheitskennzeichnung (Blockierungsschwere) und Mechanismus-der-Wirkung-Details (hohe Schwere) – ungelöst bleiben.“ Entfernt: Textbaustein aus der taiwanischen Vorlage (TFDA), der für diese Seite nicht gilt. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-ripretinib-1 -->
 
 ---
 
@@ -110,6 +116,12 @@ Ripretinib ist ein Antineoplastikum (gezielter Kinase-Inhibitor), das für eine 
 
 Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Die Datenlücke DG001 – Sicherheitskennzeichnung – ist als Blockierungsschwere klassifiziert und wurde in diesem Evidence Pack noch nicht gelöst. Schlüsselwarnungen und Kontraindikationen können nicht gemeldet werden, bis die Packungsbeilage-PDF abgerufen und analysiert wird.)
 
+<!-- review:begin de-lic-20261106-ripretinib-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „(Die Datenlücke DG001 – TFDA-Sicherheitskennzeichnung – ist als Blockierungsschwere klassifiziert und wurde in diesem Evidence Pack noch nicht gelöst.“ Entfernt: Textbaustein aus der taiwanischen Vorlage (TFDA), der für diese Seite nicht gilt. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-ripretinib-2 -->
+
 ---
 
 ## Schlussfolgerung und nächste Schritte
@@ -126,6 +138,26 @@ Dieses Evidence Pack enthält keine TxGNN-vorhergesagten Repurposing-Indikatione
 - **Führen Sie die TxGNN-Vorhersage-Pipeline erneut aus:** Generieren Sie graphbasierte Repurposing-Kandidaten mit vollständigen Wirkstoff-Feature-Eingaben; ohne Vorhersagen ist keine indikationsspezifische Bewertung möglich
 - **Überprüfen Sie den Marktzulassungsstatus:** Überprüfen Sie die EMA- und lokalen behördlichen Datenbanken, um zu bestätigen, ob Ripretinib unter einer für dieses Projekt relevanten Rechtsprechung autorisiert ist, und aktualisieren Sie `total_licenses` entsprechend
 - **Rufen Sie DDI-Daten ab:** Die DDI-Abfrage gab `not_found` zurück; erwägen Sie die Abfrage alternativer Quellen (z. B. DrugBank-Wechselwirkungen, FDA-Kennzeichnungs-Wechselwirkungen) angesichts des CYP3A4-Metabolismusprofils von Ripretinib
+
+<!-- review:begin de-lic-20261106-ripretinib-3 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „**Beheben Sie DG001 (Blockierung):** Laden Sie die TFDA-Packungsbeilage-PDF herunter und analysieren Sie sie, um Warnungen, Kontraindikationen und Beschränkungen für Spezialgruppen zu extrahieren – erforderlich, bevor das S1-Sicherheits-Screening beginnen kann“ Entfernt: Textbaustein aus der taiwanischen Vorlage (TFDA), der für diese Seite nicht gilt. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-ripretinib-3 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „TFDA“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „TFDA“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „TFDA“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-12
 description: "Levodopa: vorhergesagte neue Indikation Rasmussen-Enzephalitis (Rasmussen subacute encephalitis) (Evidenzstufe L5). Ursprüngliche Indikation: Morbus Parkinson"
 monitor_inn: "LEVODOPA"
 predicted_indications: ["Rasmussen subacute encephalitis"]
@@ -114,12 +114,31 @@ Von fünf Zulassungen sind vier gültig; das Arzneimittel ist in Deutschland im 
 **Begründung:**
 Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzstufe L5); es gibt weder Studien noch Publikationen, und ein plausibler mechanistischer Zusammenhang fehlt. Hinzu kommen eine mögliche Senkung der Krampfschwelle.
 
+<!-- review:begin de-lic-20261106-levodopa-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Hinzu kommen eine mögliche Senkung der Krampfschwelle, die fehlende gültige Zulassung in Deutschland sowie fehlende Daten zu Warnhinweisen und Gegenanzeigen.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 5 Zulassungen erfasst, davon 5 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-levodopa-1 -->
+
 **Für ein Fortschreiten ist Folgendes erforderlich:**
 - Packungsbeilage des BfArM mit Warnhinweisen und Gegenanzeigen (blockierende Datenlücke für die Sicherheitsprüfung)
 - Daten zum Wirkmechanismus von Levodopa (z. B. aus DrugBank)
 - Präklinische oder mechanistische Belege für einen Nutzen bei der Rasmussen-Enzephalitis (Neuroimmunmodulation, Anfallskontrolle)
 - Bewertung des Anfallsrisikos dopaminerger Therapie bei dieser Erkrankung
 - Prüfung der Darreichungsformen/Applikationswege und der Zulassungssituation in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „die fehlende gültige Zulassung in Deutschland sowie fehlende Daten zu Warnhinweisen und Gegenanzeigen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

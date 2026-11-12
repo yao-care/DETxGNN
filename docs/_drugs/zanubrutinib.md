@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 505
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Zanubrutinib: vorhergesagte neue Indikation Myeloische Leukämie (Evidenzstufe L5). Ursprüngliche Indikation: Waldenström-Makroglobulinämie"
 monitor_inn: "ZANUBRUTINIB"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
@@ -89,6 +89,12 @@ Die myeloische Leukämie ist jedoch keine Erkrankung der B-Zell-Linie, sodass si
 
 Hinweis: Die genannten Publikationen betreffen B-Zell-Malignome (CLL/SLL, Morbus Waldenström), nicht die myeloische Leukämie.
 
+<!-- review:begin de-lic-20261106-zanubrutinib-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die einzige erfasste Zulassung hat den Status „erloschen/zurückgezogen“.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-zanubrutinib-1 -->
+
 ---
 
 ## Marktinformationen Deutschland
@@ -144,6 +150,19 @@ Für die myeloische Leukämie gibt es keine direkte klinische Evidenz: Die einzi
 - Präklinische Daten zur BTK-Abhängigkeit in myeloischen Leukämiezellen (insbesondere AML)
 - Klärung des aktuellen Zulassungs- und Marktstatus in Deutschland
 - Gezielte Recherche nach Studien, die Zanubrutinib direkt bei myeloischer Leukämie untersuchen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Die einzige erfasste Zulassung hat den Status „erloschen/zurückgezogen““ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

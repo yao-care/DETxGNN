@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 445
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "TASONERMIN"
 predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "HER2 positive breast carcinoma", "uterine ligament adenocarcinoma", "endocervical carcinoma", "uterine ligament serous adenocarcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament clear cell adenocarcinoma"]
 description: "Tasonermin: vorhergesagte neue Indikation Urothelkarzinom der prostatischen Harnröhre (prostatic urethra urothelial carcinoma) (Evidenzstufe L5). Ursprüngliche Indikation: Sarcoma"
@@ -125,12 +125,31 @@ Für Sicherheitsinformationen beachten Sie bitte die Fachinformation. Aus den zu
 **Begründung:**
 Die Vorhersage stützt sich allein auf einen Modellwert (Evidenzstufe L5) ohne Studien, Publikationen oder plausiblen Mechanismus. Die Perfusionsbindung sowie die systemische Toxizität sprechen gegen eine einfache Übertragung auf die vorhergesagten Indikationen.
 
+<!-- review:begin de-lic-20261106-tasonermin-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die Zulassung in Deutschland ist erloschen, und die Perfusionsbindung sowie die systemische Toxizität sprechen gegen eine einfache Übertragung auf die vorhergesagten Indikationen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-tasonermin-1 -->
+
 **Für ein Weiterverfolgen sind folgende Schritte nötig:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) über die BfArM-Website, da diese Sicherheitslücke derzeit ein Blocker ist
 - Ergänzung der Daten zum Wirkmechanismus (z. B. über DrugBank)
 - Systematische Literatur- und Studienrecherche zu TNF-alpha bei Urothelkarzinomen
 - Prüfung einer geeigneten regionalen Applikationsform (Routenkompatibilität)
 - Präklinische Belege für eine Aktivität in den vorhergesagten Tumorentitäten
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „ie Zulassung in Deutschland ist erloschen, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

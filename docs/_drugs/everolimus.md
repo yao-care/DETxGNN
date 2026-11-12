@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 187
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Everolimus: vorhergesagte neue Indikation Liposarkom (Evidenzstufe L2). Ursprüngliche Indikation: Nierenzellkarzinom, Mammakarzinom, Pankreastumoren (Afinitor)"
 monitor_inn: "EVEROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
@@ -41,6 +41,12 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **8**
 Everolimus ist ein mTOR-Inhibitor, der ursprünglich zur Behandlung von Nierenzellkarzinom, Brustkrebs, Pankreastumoren und der Tuberösen Sklerose zugelassen wurde.
 Das TxGNN-Modell sagt voraus, dass er bei **Liposarkom** wirksam sein könnte.
 Dafür liegen derzeit **1 klinische Studie** und **4 Publikationen** vor, von denen jedoch nur eine direkt auf Everolimus bei dieser Erkrankung eingeht.
+
+<!-- review:begin de-lic-20261106-everolimus-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Hinweis: Die Zulassungen wurden zentral über die EMA erteilt (Nummern EMEA/H/C/…) und sind laut den für diesen Bericht zusammengestellten Daten als erloschen gelistet.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-everolimus-2 -->
 
 ---
 
@@ -137,12 +143,32 @@ Die Fachinformation zu Warnhinweisen und Gegenanzeigen liegt nicht vor und muss 
 **Begründung:**
 Für das Liposarkom liegt eine prospektive Phase-2-Studie (n = 48) mit veröffentlichten Ergebnissen vor. Sie ist jedoch einarmig und untersucht eine Kombination, sodass der Beitrag von Everolimus allein nicht abgrenzbar ist. Der Evidenzgrad L2 stützt eine weitere Prüfung unter Auflagen, aber keine uneingeschränkte Freigabe.
 
+<!-- review:begin de-lic-20261031-everolimus-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Der Evidenzgrad L2 stützt eine weitere Prüfung unter Auflagen, aber keine uneingeschränkte Freigabe. Zudem sind in Deutschland derzeit nur erloschene Zulassungen gelistet.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-everolimus-1 -->
+
 **Für das weitere Vorgehen wird Folgendes benötigt:**
 - Fachinformation (Warnhinweise und Gegenanzeigen), da diese Sicherheitsdaten fehlen und den Übergang zur Sicherheitsprüfung blockieren
 - Detaillierte Wirkmechanismus-Daten (z. B. aus DrugBank)
 - Auswertung der Ergebnisse von NCT03114527 (Ansprechrate, Verträglichkeit) speziell für das Liposarkom
 - Klärung des aktuellen Zulassungs- und Vermarktungsstatus in Deutschland
 - Sicherheitsüberwachungsplan, insbesondere für Blutbild, Stoffwechselparameter und Wechselwirkungen mit CYP3A4-Hemmern und -Induktoren
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Zudem sind in Deutschland derzeit nur erloschene Zulassungen gelistet“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Hinweis: Die Zulassungen wurden zentral über die EMA erteilt (Nummern EMEA/H/C/…) und sind laut den für diesen Bericht zusammengestellten Da“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

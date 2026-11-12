@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 227
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Icosapent Ethyl: vorhergesagte neue Indikation Hämoglobinopathie (Evidenzstufe L5). Ursprüngliche Indikation: Dyslipidämien"
 monitor_inn: "ICOSAPENT ETHYL"
 predicted_indications: ["hemoglobinopathy"]
@@ -88,6 +88,12 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 Hersteller: Recordati Industria Chimica e Farmaceutica S.p.A.
 
+<!-- review:begin de-lic-20261106-icosapent_ethyl-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Hinweis: Diese Zulassung ist aufgehoben (Status: cancelled). Hersteller: Recordati Industria Chimica e Farmaceutica S.p.A.“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-icosapent_ethyl-1 -->
+
 ---
 
 ## Sicherheitsaspekte
@@ -109,6 +115,19 @@ Die Vorhersage stützt sich ausschließlich auf einen hohen TxGNN-Wert (Evidenzg
 - Ergänzung der Daten zum Wirkmechanismus (MOA)
 - Beschaffung und Auswertung der Packungsbeilage (Warnhinweise und Gegenanzeigen) als Voraussetzung für die Sicherheitsprüfung
 - Klärung des Zulassungsstatus und der Verfügbarkeit in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Hinweis: Diese Zulassung ist aufgehoben (Status: cancelled)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

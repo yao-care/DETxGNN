@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 216
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Glycine: vorhergesagte neue Indikation Erkrankung der Nasenhöhle (nasal cavity disease) (Evidenzstufe L5). Ursprüngliche Indikation: Ahornsirupkrankheit (Maple Syrup Urine Disease)"
 monitor_inn: "glycine"
 predicted_indications: ["nasal cavity disease"]
@@ -99,12 +99,31 @@ Für Arzneimittelwechselwirkungen wurden keine Einträge gefunden. Für weitere 
 **Begründung:**
 Die Vorhersage stützt sich ausschließlich auf das TxGNN-Modell (Evidenzgrad L5). Die einzige Studie und beide Publikationen haben keinen Bezug zu Glycin als Therapie.
 
+<!-- review:begin de-lic-20261106-glycine-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die einzige Studie und beide Publikationen haben keinen Bezug zu Glycin als Therapie, und die deutsche Zulassung ist erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-glycine-1 -->
+
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Auswertung der Packungsbeilage (Warnhinweise und Gegenanzeigen) von der BfArM-Website, da dies derzeit den Sicherheits-Screening-Schritt blockiert
 - Daten zum Wirkmechanismus (MOA), z. B. über die DrugBank-API
 - Gezielte Literatur- und Studienrecherche zu Glycin bei Erkrankungen der Nasenhöhle bzw. Laryngopharyngitis
 - Prüfung der Applikationswege (lokal/nasal), da die Routenkompatibilität noch nicht bewertet ist
 - Klärung der Ähnlichkeit zwischen ursprünglicher und neuer Indikation
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „und die deutsche Zulassung ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

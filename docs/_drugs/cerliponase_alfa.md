@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 108
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Cerliponase Alfa: vorhergesagte neue Indikation Scheie-Syndrom (Evidenzstufe L5). Ursprüngliche Indikation: Neuronale Ceroid-Lipofuszinosen"
 monitor_inn: "CERLIPONASE ALFA"
 predicted_indications: ["Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "cholesteryl ester storage disease", "Gaucher disease", "familial encephalopathy with neuroserpin inclusion bodies", "Wolman disease with hypolipoproteinemia and acanthocytosis", "proximal myopathy with extrapyramidal signs", "autosomal ichthyosis syndrome with fatal disease course"]
@@ -107,12 +107,31 @@ Zu Warnhinweisen, Gegenanzeigen und Wechselwirkungen liegen keine Daten vor. Bit
 **Begründung:**
 Die Vorhersage stützt sich ausschließlich auf das Modell (L5) ohne klinische Studien oder Literatur. Zudem fehlt ein mechanistischer Zusammenhang, da TPP1 den Iduronidase-Mangel nicht ausgleicht. Für MPS I existieren bereits zielgerichtete Therapien.
 
+<!-- review:begin de-lic-20261106-cerliponase_alfa-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Für MPS I existieren bereits zielgerichtete Therapien, und die deutsche Zulassung ist erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-cerliponase_alfa-1 -->
+
 **Für ein Weiterkommen sind erforderlich:**
 - Sicherheitsdaten aus der Fachinformation (derzeit blockierend für das Sicherheits-Screening)
 - Detaillierte Wirkmechanismus-Daten (MOA)
 - Präklinische Belege für einen möglichen Nutzen von TPP1 bei MPS I
 - Prüfung der Anwendungsweg-Kompatibilität (intraventrikuläre Gabe vs. Anforderungen der Zielerkrankung)
 - Klärung des Zulassungsstatus in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „und die deutsche Zulassung ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

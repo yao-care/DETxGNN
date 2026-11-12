@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 242
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Insulin Glargine: vorhergesagte neue Indikation Autoimmune Oophoritis (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes mellitus"
 monitor_inn: "INSULIN GLARGINE"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
@@ -97,6 +97,12 @@ Für den Kandidaten auf Rang 6 (Pankreasagenesie, Evidenzlevel L4) wurden indire
 
 Fünf der sechs Zulassungen sind gültig. Es handelt sich um zentrale EU-Zulassungen (EMA-Nummern):
 
+<!-- review:begin de-lic-20261106-insulin_glargine-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Eine sechste Zulassung (Suliqua, EMEA/H/C/004243, Diabetes mellitus Typ 2) ist ebenfalls erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 6 Zulassungen erfasst, davon 6 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-insulin_glargine-2 -->
+
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/004280 | Semglee | – | Diabetes mellitus |
@@ -128,11 +134,38 @@ Weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) entnehmen Sie bit
 **Begründung:**
 Für die Vorhersage autoimmune Oophoritis gibt es keine klinischen Studien, keine Literatur und keinen plausiblen mechanistischen Zusammenhang (Evidenzlevel L5). Der Score stammt vom TxGNN-Modell (Deep Learning) und kann vom Modell gelernte Ähnlichkeiten zwischen verwandten Erkrankungen (gemeinsame Autoimmun- und Diabetes-Komorbidität) widerspiegeln, keine biologische Evidenz. Das Arzneimittel ist in Deutschland/EU im Handel.
 
+<!-- review:begin de-lic-20261106-insulin_glargine-3 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Das Arzneimittel ist in Deutschland/EU im Handel, 5 von 6 Zulassungen sind gültig.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 6 Zulassungen erfasst, davon 6 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-insulin_glargine-3 -->
+
 **Für ein Weiterkommen sind erforderlich:**
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da dieser Datenpunkt derzeit eine blockierende Lücke für die Sicherheitsprüfung darstellt
 - Detaillierte Wirkmechanismus-Daten (MOA), z. B. aus DrugBank
 - Gezielte Literaturrecherche zur autoimmunen Oophoritis und zu Autoimmun-Komorbiditäten
 - Falls weiterverfolgt, wäre allenfalls die Pankreasagenesie (L4) als Forschungsfrage relevant, wobei es sich um Insulinersatz im Rahmen der bestehenden Diabetes-Indikation und nicht um echtes Repurposing handelt
+
+<!-- review:begin de-lic-20261031-insulin_glargine-1 -->
+
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Klärung des Zulassungs- und Marktstatus in Deutschland (aktuell nur erloschene Zulassungen) / Gezielte Literaturrecherche zur autoimmunen Oophoritis und zu Autoimmun-Komorbiditäten“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 6 Zulassungen erfasst, davon 6 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261031-insulin_glargine-1 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-10-31 | Entfernt: „Klärung des Zulassungs- und Marktstatus in Deutschland (aktuell nur erloschene Zulassungen)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Eine sechste Zulassung (Suliqua, EMEA/H/C/004243, Diabetes mellitus Typ 2) ist ebenfalls erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „5 von 6 Zulassungen sind gültig“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

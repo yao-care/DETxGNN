@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 314
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "NILOTINIB"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
 description: "Nilotinib: vorhergesagte neue Indikation Dermatofibrosarcoma protuberans (Evidenzstufe L5). Ursprüngliche Indikation: Leukemia, Myelogenous, Chronic, BCR-ABL Positive"
@@ -72,6 +72,12 @@ Der hohe TxGNN-Wert (0,9931) ist eine rechnerische Vorhersage und kein klinische
 
 Derzeit sind keine zugehörigen klinischen Studien registriert.
 
+<!-- review:begin de-lic-20261106-nilotinib-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Beide Zulassungen haben den Status „erloschen/gelöscht".“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-nilotinib-1 -->
+
 ---
 
 ## Literaturevidenz
@@ -131,6 +137,19 @@ Die mechanistische Verbindung über die PDGFR-Hemmung ist plausibel, die Evidenz
 - Gezielte Literatur- und Studienrecherche zu Nilotinib bei DFSP (Vergleich mit Imatinib)
 - Klärung des Zulassungs- und Verfügbarkeitsstatus in Deutschland
 - Bewertung des kardialen Risikos (QT-Verlängerung) und der Wechselwirkungen für die Zielpopulation
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Beide Zulassungen haben den Status „erloschen/gelöscht"“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

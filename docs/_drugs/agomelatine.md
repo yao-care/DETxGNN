@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 20
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "AGOMELATINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
 description: "Agomelatine: vorhergesagte neue Indikation Benign paroxysmal torticollis of infancy (Evidenzstufe L5). Ursprüngliche Indikation: Depressive Disorder, Major"
@@ -108,11 +108,37 @@ Für Warnhinweise und Gegenanzeigen siehe die Packungsbeilage bzw. Fachinformati
 **Begründung:**
 Für die benigne paroxysmale Torticollis des Säuglingsalters liegt ausschließlich eine Modellvorhersage ohne Studien, Literatur oder mechanistische Begründung vor (Evidenzstufe L5).
 
+<!-- review:begin de-lic-20261106-agomelatine-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Für die benigne paroxysmale Torticollis des Säuglingsalters liegt ausschließlich eine Modellvorhersage ohne Studien, Literatur oder mechanistische Begründung vor (Evidenzstufe L5). Zudem ist die deutsche Zulassung aufgehoben.“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-agomelatine-1 -->
+
 **Für ein Weiterkommen sind erforderlich:**
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen); derzeit fehlt diese Information und blockiert die Sicherheitsprüfung.
 - Daten zum Wirkmechanismus aus einer verlässlichen Arzneimitteldatenbank.
 - Priorisierung der Kandidaten mit plausiblerem Bezug (Melancholie, neurotische Depression, dysthymische Störung) und gezielte Suche nach agomelatin-spezifischen Studien in diesen Subtypen. Diese tragen derzeit die Stufe L4 mit der Einstufung „Forschungsfrage".
 - Klärung des Zulassungsstatus in Deutschland.
+
+<!-- review:begin de-lic-20261106-agomelatine-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung des Zulassungsstatus in Deutschland, da nur eine aufgehobene Zulassung vorliegt.“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-agomelatine-2 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Zudem ist die deutsche Zulassung aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „da nur eine aufgehobene Zulassung vorliegt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

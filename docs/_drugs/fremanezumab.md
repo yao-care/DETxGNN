@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 203
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Fremanezumab: vorhergesagte neue Indikation Atrophoderma vermiculata (Evidenzstufe L5). Ursprüngliche Indikation: Migräne (Migraine Disorders)"
 monitor_inn: "FREMANEZUMAB"
 predicted_indications: ["atrophoderma vermiculata"]
@@ -112,6 +112,12 @@ Hinweis aus der Literatur: Zwei Kohortenstudien aus 2026 berichten über möglic
 **Begründung:**
 Die Vorhersage beruht auf einem plausiblen Mechanismus und indirekter Evidenz aus der Migräne-Elternindikation. Es gibt jedoch keine registrierten Studien und keine Literatur speziell zur Hirnstamm-Aura. Zudem fehlen Sicherheitsdaten aus der Fachinformation, was eine Sicherheitsbewertung blockiert.
 
+<!-- review:begin de-lic-20261106-fremanezumab-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem fehlen Sicherheitsdaten aus der Fachinformation, was eine Sicherheitsbewertung blockiert, und die deutsche Zulassung ist erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-fremanezumab-1 -->
+
 **Für eine Weiterverfolgung sind erforderlich:**
 - Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM beschaffen und auswerten
 - Mechanismusdaten (MOA) aus DrugBank ergänzen
@@ -119,10 +125,30 @@ Die Vorhersage beruht auf einem plausiblen Mechanismus und indirekter Evidenz au
 - Klärung des Zulassungsstatus in Deutschland
 - Prüfung der Sicherheitssignale (Glaukom, zerebrovaskuläre Ereignisse)
 
+<!-- review:begin de-lic-20261106-fremanezumab-2 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung des Zulassungsstatus in Deutschland (Zentralzulassung EMA vs. erloschener Eintrag)“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-fremanezumab-2 -->
+
 ---
 
 **Weitere vorhergesagte Indikation (Rang 2): Atrophoderma vermiculata**
 TxGNN-Wert 0,9904, Evidenzlevel L5. Es gibt weder klinische Studien noch Literatur und keine erkennbare mechanistische Verbindung zur CGRP-Hemmung. Der hohe Wert ist vermutlich ein graphbasiertes Artefakt. Empfehlung: **Hold**.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „und die deutsche Zulassung ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „(Zentralzulassung EMA vs. erloschener Eintrag)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 69
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Bosentan: vorhergesagte neue Indikation Rheumatoide Arthritis (Evidenzstufe L4). Ursprüngliche Indikation: Pulmonale Hypertonie"
 monitor_inn: "BOSENTAN"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
@@ -119,6 +119,12 @@ Beide Zulassungen (Janssen-Cilag) sind gültig; das Arzneimittel ist im Handel.
 **Begründung:**
 Für rheumatoide Arthritis gibt es keine klinischen Studien; die Evidenz beschränkt sich auf Tiermodelle und Übersichten zur PAH bei Bindegewebserkrankungen.
 
+<!-- review:begin de-lic-20261106-bosentan-1 -->
+
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Für rheumatoide Arthritis gibt es keine klinischen Studien; die Evidenz beschränkt sich auf Tiermodelle und Übersichten zur PAH bei Bindegewebserkrankungen. Hinzu kommen der erloschene Zulassungsstatus in Deutschland und ein relevantes Sicherheitsprofil (Leber, Teratogenität).“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261106-bosentan-1 -->
+
 **Für ein Weiterkommen sind folgende Schritte erforderlich:**
 - Daten zum Wirkmechanismus (MOA) aus DrugBank ergänzen
 - Warnhinweise und Kontraindikationen aus dem BfArM-Beipackzettel einholen (aktuell blockierende Datenlücke für das Sicherheits-Screening)
@@ -130,6 +136,19 @@ Für rheumatoide Arthritis gibt es keine klinischen Studien; die Evidenz beschr�
 ### Hinweis zu weiteren Vorhersagen
 
 Der Vorhersage mit dem höchsten Rang (rheumatoide Arthritis) stehen weitere gegenüber. Bemerkenswert ist **limitierte systemische Sklerose** (Evidenzstufe L3, Empfehlung *Proceed with Guardrails*): Dort gibt es u. a. eine systematische Übersicht mit Metaanalyse von 2023 zu digitalen Ulzerationen (PMID 36974107) und präklinische Daten zur Hemmung der endothelial-mesenchymalen Transition (PMID 27716320). Diese Indikation überschneidet sich jedoch weitgehend mit der bereits zugelassenen Indikation und ist teilweise eine Label-Erweiterung statt einer echten Neupositionierung. Die übrigen Vorhersagen (z. B. Brachydaktylie-Syndaktylie-Syndrom, Gicht, Hypertrichose) haben keine tragfähige Evidenz (L5, Hold).
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-06 | Entfernt: „Hinzu kommen der erloschene Zulassungsstatus in Deutschland und ein relevantes Sicherheitsprofil (Leber, Teratogenität)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
