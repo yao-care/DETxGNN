@@ -86,7 +86,13 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/002396 (erloschen) | Xadago (Zambon SpA) | – | Parkinson-Krankheit |
+| EMEA/H/C/002396 | Xadago (Zambon SpA) | – | Parkinson-Krankheit |
+
+<!-- review:begin de-row-20261112-safinamide-1 -->
+
+> **Prüfkorrektur (2026-11-12)**: Ursprünglich stand hier: „EMEA/H/C/002396 (erloschen)“ Laut den EMA-Daten (Stand 2026-11-09) ist die Zulassung von Xadago (EMEA/H/C/002396) gültig („Authorised“); der Vermerk „erloschen“ wurde entfernt. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-row-20261112-safinamide-1 -->
 
 ---
 
@@ -112,6 +118,19 @@ Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzgrad L5); es 
 - Detaillierte Wirkmechanismusdaten (z. B. aus DrugBank)
 - Präklinische Daten oder Fallberichte zur Rasmussen-Enzephalitis
 - Klärung des Zulassungs- und Verfügbarkeitsstatus in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-12 | Tabelle: Xadago (EMEA/H/C/002396) ist gültig, nicht erloschen | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

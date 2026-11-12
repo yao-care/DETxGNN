@@ -88,7 +88,13 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/003861 | Natpar (Takeda Pharmaceuticals International AG Ireland Branch) | – | Hypoparathyreoidismus (Status: gültig) |
+| EMEA/H/C/003861 | Natpar (Takeda Pharmaceuticals International AG Ireland Branch) | – | Hypoparathyreoidismus (Status: zurückgenommen) |
+
+<!-- review:begin de-row-20261112-parathyroid_hormone-1 -->
+
+> **Prüfkorrektur (2026-11-12)**: Ursprünglich stand hier: „Hypoparathyreoidismus (Status: gültig)“ Laut den EMA-Daten (Stand 2026-11-09) ist die Zulassung von Natpar (EMEA/H/C/003861) zurückgenommen („Withdrawn“). Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-row-20261112-parathyroid_hormone-1 -->
 
 ---
 
@@ -123,6 +129,19 @@ Für Migräne gibt es keine klinischen Studien. Die Literatur beschränkt sich a
 - Klärung der Verfügbarkeit des Produkts in Deutschland, da die Zulassung erloschen ist
 
 **Hinweis zu weiteren Vorhersagen:** Die übrigen vorhergesagten Indikationen (u. a. Migräne mit Hirnstammaura, Amenorrhö, Raynaud-Krankheit, Speiseröhrenerkrankungen, erektile Dysfunktion) stützen sich auf noch schwächere Evidenz (L4–L5, ohne klinische Studien) und werden jeweils mit „Hold" bewertet.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-12 | Tabelle: Natpar (EMEA/H/C/003861) ist zurückgenommen, nicht gültig | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

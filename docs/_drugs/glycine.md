@@ -77,7 +77,13 @@ Der hohe Vorhersagewert (0,9985) beruht ausschließlich auf einer modellbasierte
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/005557 (erloschen) | Maapliv | – | Ahornsirupkrankheit (Maple Syrup Urine Disease) |
+| EMEA/H/C/005557 | Maapliv | – | Ahornsirupkrankheit (Maple Syrup Urine Disease) |
+
+<!-- review:begin de-row-20261112-glycine-1 -->
+
+> **Prüfkorrektur (2026-11-12)**: Ursprünglich stand hier: „EMEA/H/C/005557 (erloschen)“ Laut den EMA-Daten (Stand 2026-11-09) ist die Zulassung von Maapliv (EMEA/H/C/005557) gültig („Authorised“); der Vermerk „erloschen“ wurde entfernt. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-row-20261112-glycine-1 -->
 
 ## Sicherheitsaspekte
 
@@ -121,6 +127,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „und die deutsche Zulassung ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Tabelle: Maapliv (EMEA/H/C/005557) ist gültig, nicht erloschen | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

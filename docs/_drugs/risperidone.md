@@ -80,7 +80,13 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/005406 (erloschen) | Okedi | nicht angegeben | Schizophrenie |
+| EMEA/H/C/005406 | Okedi | nicht angegeben | Schizophrenie |
+
+<!-- review:begin de-row-20261112-risperidone-1 -->
+
+> **Prüfkorrektur (2026-11-12)**: Ursprünglich stand hier: „EMEA/H/C/005406 (erloschen)“ Laut den EMA-Daten (Stand 2026-11-09) ist die Zulassung von Okedi (EMEA/H/C/005406) gültig („Authorised“); der Vermerk „erloschen“ wurde entfernt. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-row-20261112-risperidone-1 -->
 
 Es besteht eine gültige Zulassung (1 von 1 Zulassungen gültig). Das Arzneimittel ist im Handel.
 
@@ -136,6 +142,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Klärung der regulatorischen Verfügbarkeit (derzeit nur erloschene Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Tabelle: Okedi (EMEA/H/C/005406) ist gültig, nicht erloschen | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

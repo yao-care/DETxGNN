@@ -2095,6 +2095,26 @@
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d93da0c4（2026-11-06）"
   },
   {
+   "id": "de-row-20261112-glycine-1",
+   "drug": "glycine",
+   "file": "glycine.md",
+   "action": "correct",
+   "claim": "EMEA/H/C/005557 (erloschen)",
+   "replacement": "EMEA/H/C/005557",
+   "summary": "Tabelle: Maapliv (EMEA/H/C/005557) ist gültig, nicht erloschen",
+   "note": "Laut den EMA-Daten (Stand 2026-11-09) ist die Zulassung von Maapliv (EMEA/H/C/005557) gültig („Authorised“); der Vermerk „erloschen“ wurde entfernt.",
+   "finding": "表格列把 Maapliv（EMEA/H/C/005557）標成 erloschen；證據包 EMA：Authorised、事實層 valid",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+  },
+  {
    "id": "de-lic-20261106-granisetron-1",
    "drug": "granisetron",
    "file": "granisetron.md",
@@ -5081,6 +5101,26 @@
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：dcebddc3（2026-10-31）"
   },
   {
+   "id": "de-row-20261112-risperidone-1",
+   "drug": "risperidone",
+   "file": "risperidone.md",
+   "action": "correct",
+   "claim": "EMEA/H/C/005406 (erloschen)",
+   "replacement": "EMEA/H/C/005406",
+   "summary": "Tabelle: Okedi (EMEA/H/C/005406) ist gültig, nicht erloschen",
+   "note": "Laut den EMA-Daten (Stand 2026-11-09) ist die Zulassung von Okedi (EMEA/H/C/005406) gültig („Authorised“); der Vermerk „erloschen“ wurde entfernt.",
+   "finding": "表格列把 Okedi（EMEA/H/C/005406）標成 erloschen；證據包 EMA：Authorised、事實層 valid",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+  },
+  {
    "id": "de-lic-20261106-rivaroxaban-1",
    "drug": "rivaroxaban",
    "file": "rivaroxaban.md",
@@ -6876,6 +6916,126 @@
    "checked": "2026-11-12",
    "method": "2026-11-12 人工查核（正文張數與狀態對事實層與證據包原始狀態）",
    "anchor": "Alle 11 erfassten Zulassungen sind gültig."
+  },
+  {
+   "id": "de-row-20261112-amifampridine-1",
+   "drug": "amifampridine",
+   "file": "amifampridine.md",
+   "action": "correct",
+   "claim": "EMEA/H/C/005839 (erloschen)",
+   "replacement": "EMEA/H/C/005839",
+   "summary": "Tabelle: Amifampridine SERB (EMEA/H/C/005839) ist gültig, nicht erloschen",
+   "note": "Laut den EMA-Daten (Stand 2026-11-09) ist die Zulassung von Amifampridine SERB (EMEA/H/C/005839) gültig („Authorised“); der Vermerk „erloschen“ wurde entfernt.",
+   "finding": "表格列把 Amifampridine SERB（EMEA/H/C/005839）標成 erloschen；證據包 EMA：Authorised、事實層 valid",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+  },
+  {
+   "id": "de-row-20261112-amifampridine-2",
+   "drug": "amifampridine",
+   "file": "amifampridine.md",
+   "action": "correct",
+   "claim": "EMEA/H/C/001032 (erloschen)",
+   "replacement": "EMEA/H/C/001032",
+   "summary": "Tabelle: Firdapse (EMEA/H/C/001032) ist gültig, nicht erloschen",
+   "note": "Laut den EMA-Daten (Stand 2026-11-09) ist die Zulassung von Firdapse (EMEA/H/C/001032) gültig („Authorised“); der Vermerk „erloschen“ wurde entfernt.",
+   "finding": "表格列把 Firdapse（EMEA/H/C/001032）標成 erloschen；證據包 EMA：Authorised、事實層 valid",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+  },
+  {
+   "id": "de-row-20261112-ipilimumab-1",
+   "drug": "ipilimumab",
+   "file": "ipilimumab.md",
+   "action": "correct",
+   "claim": "EMEA/H/C/002213 (erloschen)",
+   "replacement": "EMEA/H/C/002213",
+   "summary": "Tabelle: Yervoy (EMEA/H/C/002213) ist gültig, nicht erloschen",
+   "note": "Laut den EMA-Daten (Stand 2026-11-09) ist die Zulassung von Yervoy (EMEA/H/C/002213) gültig („Authorised“); der Vermerk „erloschen“ wurde entfernt.",
+   "finding": "表格列把 Yervoy（EMEA/H/C/002213）標成 erloschen；證據包 EMA：Authorised、事實層 valid",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+  },
+  {
+   "id": "de-row-20261112-linaclotide-1",
+   "drug": "linaclotide",
+   "file": "linaclotide.md",
+   "action": "correct",
+   "claim": "EMEA/H/C/002490 (erloschen)",
+   "replacement": "EMEA/H/C/002490",
+   "summary": "Tabelle: Constella (EMEA/H/C/002490) ist gültig, nicht erloschen",
+   "note": "Laut den EMA-Daten (Stand 2026-11-09) ist die Zulassung von Constella (EMEA/H/C/002490) gültig („Authorised“); der Vermerk „erloschen“ wurde entfernt.",
+   "finding": "表格列把 Constella（EMEA/H/C/002490）標成 erloschen；證據包 EMA：Authorised、事實層 valid",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+  },
+  {
+   "id": "de-row-20261112-safinamide-1",
+   "drug": "safinamide",
+   "file": "safinamide.md",
+   "action": "correct",
+   "claim": "EMEA/H/C/002396 (erloschen)",
+   "replacement": "EMEA/H/C/002396",
+   "summary": "Tabelle: Xadago (EMEA/H/C/002396) ist gültig, nicht erloschen",
+   "note": "Laut den EMA-Daten (Stand 2026-11-09) ist die Zulassung von Xadago (EMEA/H/C/002396) gültig („Authorised“); der Vermerk „erloschen“ wurde entfernt.",
+   "finding": "表格列把 Xadago（EMEA/H/C/002396）標成 erloschen；證據包 EMA：Authorised、事實層 valid",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+  },
+  {
+   "id": "de-row-20261112-parathyroid_hormone-1",
+   "drug": "parathyroid_hormone",
+   "file": "parathyroid_hormone.md",
+   "action": "correct",
+   "claim": "Hypoparathyreoidismus (Status: gültig)",
+   "replacement": "Hypoparathyreoidismus (Status: zurückgenommen)",
+   "summary": "Tabelle: Natpar (EMEA/H/C/003861) ist zurückgenommen, nicht gültig",
+   "note": "Laut den EMA-Daten (Stand 2026-11-09) ist die Zulassung von Natpar (EMEA/H/C/003861) zurückgenommen („Withdrawn“).",
+   "finding": "表格列把 Natpar（EMEA/H/C/003861）標成 gültig；證據包 EMA：Withdrawn、事實層 cancelled",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
   }
  ]
 }

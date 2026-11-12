@@ -91,7 +91,13 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/002490 (erloschen) | Constella | – | Reizdarmsyndrom |
+| EMEA/H/C/002490 | Constella | – | Reizdarmsyndrom |
+
+<!-- review:begin de-row-20261112-linaclotide-1 -->
+
+> **Prüfkorrektur (2026-11-12)**: Ursprünglich stand hier: „EMEA/H/C/002490 (erloschen)“ Laut den EMA-Daten (Stand 2026-11-09) ist die Zulassung von Constella (EMEA/H/C/002490) gültig („Authorised“); der Vermerk „erloschen“ wurde entfernt. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-row-20261112-linaclotide-1 -->
 
 Hersteller: AbbVie Deutschland GmbH & Co. Es besteht eine gültige Zulassung in Deutschland (1 von 1 Zulassung gültig).
 
@@ -120,6 +126,19 @@ Für alle drei vorhergesagten Indikationen gibt es ausschließlich Modellvorhers
 - Wirkmechanismus-Daten (MOA) aus DrugBank ergänzen
 - Prüfen, ob für die Vorhersagen präklinische oder klinische Hinweise existieren, etwa zu neurogener Obstipation als Symptomkontrolle
 - Den veralteten Ontologiebegriff „neurogene Blase" auf ein aktuelles Konzept abbilden und die Vorhersage neu bewerten
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-12 | Tabelle: Constella (EMEA/H/C/002490) ist gültig, nicht erloschen | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

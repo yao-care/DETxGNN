@@ -82,7 +82,13 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/002213 (erloschen) | Yervoy | – | Melanom, Nierenzellkarzinom, nichtkleinzelliges Lungenkarzinom, malignes Mesotheliom, kolorektale N... |
+| EMEA/H/C/002213 | Yervoy | – | Melanom, Nierenzellkarzinom, nichtkleinzelliges Lungenkarzinom, malignes Mesotheliom, kolorektale N... |
+
+<!-- review:begin de-row-20261112-ipilimumab-1 -->
+
+> **Prüfkorrektur (2026-11-12)**: Ursprünglich stand hier: „EMEA/H/C/002213 (erloschen)“ Laut den EMA-Daten (Stand 2026-11-09) ist die Zulassung von Yervoy (EMEA/H/C/002213) gültig („Authorised“); der Vermerk „erloschen“ wurde entfernt. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-row-20261112-ipilimumab-1 -->
 
 Hersteller ist Bristol-Myers Squibb Pharma EEIG. Das Arzneimittel ist in Deutschland im Handel; 1 von 1 Zulassungen ist gültig.
 
@@ -127,6 +133,19 @@ Die Vorhersage für Choroideremie beruht ausschließlich auf dem Modellwert (Evi
 - eine Klärung des Zulassungsstatus in Deutschland
 
 **Hinweis:** Für dasselbe Arzneimittel existiert in den Daten eine weitere Vorhersage, **nicht-kutanes Melanom**, mit Studien und Publikationen. Sie ist eher eine Ausweitung der bereits zugelassenen Wirkklasse auf einen verwandten Subtyp als ein echtes Repurposing. Das Evidenzlevel L1 gilt dort nur vorläufig, weil die einzige gelistete Phase-3-Studie (NCT02278887) eine Studie zur adoptiven Zelltherapie ist und die Rolle von Ipilimumab darin unbestätigt bleibt. Diese Vorhersage sollte gesondert bewertet werden.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-12 | Tabelle: Yervoy (EMEA/H/C/002213) ist gültig, nicht erloschen | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

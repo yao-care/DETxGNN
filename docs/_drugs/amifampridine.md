@@ -84,8 +84,20 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
-| EMEA/H/C/005839 (erloschen) | Amifampridine SERB | – | Lambert-Eaton-Myasthenie-Syndrom, paraneoplastische Syndrome des Nervensystems, Neoplasmen des Nervensystems, paraneop... |
-| EMEA/H/C/001032 (erloschen) | Firdapse (zuvor Zenas) | – | Lambert-Eaton-Myasthenie-Syndrom |
+| EMEA/H/C/005839 | Amifampridine SERB | – | Lambert-Eaton-Myasthenie-Syndrom, paraneoplastische Syndrome des Nervensystems, Neoplasmen des Nervensystems, paraneop... |
+| EMEA/H/C/001032 | Firdapse (zuvor Zenas) | – | Lambert-Eaton-Myasthenie-Syndrom |
+
+<!-- review:begin de-row-20261112-amifampridine-1 -->
+
+> **Prüfkorrektur (2026-11-12)**: Ursprünglich stand hier: „EMEA/H/C/005839 (erloschen)“ Laut den EMA-Daten (Stand 2026-11-09) ist die Zulassung von Amifampridine SERB (EMEA/H/C/005839) gültig („Authorised“); der Vermerk „erloschen“ wurde entfernt. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-row-20261112-amifampridine-1 -->
+
+<!-- review:begin de-row-20261112-amifampridine-2 -->
+
+> **Prüfkorrektur (2026-11-12)**: Ursprünglich stand hier: „EMEA/H/C/001032 (erloschen)“ Laut den EMA-Daten (Stand 2026-11-09) ist die Zulassung von Firdapse (EMEA/H/C/001032) gültig („Authorised“); der Vermerk „erloschen“ wurde entfernt. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-row-20261112-amifampridine-2 -->
 
 Beide Zulassungen (Inhaber: SERB SA) sind gültig; das Arzneimittel ist derzeit im Handel.
 
@@ -115,6 +127,20 @@ Für beide vorhergesagten Indikationen (Glaukom und akute intermittierende Porph
 - Systematische Literaturrecherche und präklinische Studien zu einer möglichen Neuroprotektion bei Glaukom
 - Klärung der Zulassungs- und Verfügbarkeitssituation in Deutschland
 - Bewertung des Krampfanfallsrisikos und der Wechselwirkungen, insbesondere bei akuter intermittierender Porphyrie
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-12 | Tabelle: Amifampridine SERB (EMEA/H/C/005839) ist gültig, nicht erloschen | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Tabelle: Firdapse (EMEA/H/C/001032) ist gültig, nicht erloschen | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
