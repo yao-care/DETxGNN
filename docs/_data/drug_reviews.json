@@ -6690,6 +6690,66 @@
    "summary": "Entfernt: „Bei den Rängen 5 und 6 sind Marktstatus (nur erloschene Zulassungen), Verdrängung durch moderne Kombinations-ART, hämatologische Toxizität u“",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：dcebddc3（2026-10-31）",
    "anchor": "**Weitere Schritte:**\n- Klärung, ob eine veterinärmedizinische Indikation überhaupt im Projektrahmen liegt\n- Beschaffung der Fachinformation des BfArM (Warnhinweise, Gegenanzeigen)\n- Daten zum Wirkmechanismus (MOA) aus DrugBank\n- Bewertung der Toxizität (u. a. hämatologisch) im Zieltier"
+  },
+  {
+   "drug": "meloxicam",
+   "file": "meloxicam.md",
+   "action": "correct",
+   "finding": "2026-10-14 藥師報告 LLM 寫的正文說證據包裡 16 張 EMA 集中許可「全部撤銷」；證據包（data-20261109-122230）的 veterinary_records 16 張狀態全是 Authorised（EMEA/V/C 獸用程序），人用集中許可 0 張；事實層 total 0、veterinary 16",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數與狀態對事實層與證據包原始狀態）",
+   "note": "Laut den EMA-Daten (Stand 2026-11-09) sind alle 16 erfassten Zulassungen (Nummern EMEA/V/C/…) gültig („Authorised“); es sind Tierarzneimittel, eine zentrale EU-Zulassung für Menschen ist nicht erfasst.",
+   "id": "de-lic-20261112-meloxicam-1",
+   "claim": "Alle 16 erfassten Zulassungen sind aufgehoben.",
+   "replacement": "Alle 16 erfassten Zulassungen sind gültig (EMA-Status „Authorised“).",
+   "summary": "Status der 16 erfassten Zulassungen: „aufgehoben“ → „gültig“"
+  },
+  {
+   "drug": "meloxicam",
+   "file": "meloxicam.md",
+   "action": "correct",
+   "finding": "2026-10-14 藥師報告 LLM 寫的正文說證據包裡 16 張 EMA 集中許可「全部撤銷」；證據包（data-20261109-122230）的 veterinary_records 16 張狀態全是 Authorised（EMEA/V/C 獸用程序），人用集中許可 0 張；事實層 total 0、veterinary 16",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數與狀態對事實層與證據包原始狀態）",
+   "note": "Laut den EMA-Daten (Stand 2026-11-09) sind alle 16 erfassten Zulassungen (Nummern EMEA/V/C/…) gültig („Authorised“); es sind Tierarzneimittel, eine zentrale EU-Zulassung für Menschen ist nicht erfasst.",
+   "id": "de-lic-20261112-meloxicam-2",
+   "claim": "Die Produktnamen deuten auf Tierarzneimittel hin; das ist aus den Daten jedoch nicht eindeutig belegt.",
+   "replacement": "Laut den Daten sind es Tierarzneimittel (EMEA/V = Verfahren für Tierarzneimittel); eine zentrale EU-Zulassung für Menschen ist nicht erfasst.",
+   "summary": "Tierarzneimittel: in den EMA-Daten belegt (EMEA/V/C)"
+  },
+  {
+   "drug": "meloxicam",
+   "file": "meloxicam.md",
+   "action": "correct",
+   "finding": "2026-10-14 藥師報告 LLM 寫的正文說證據包裡 16 張 EMA 集中許可「全部撤銷」；證據包（data-20261109-122230）的 veterinary_records 16 張狀態全是 Authorised（EMEA/V/C 獸用程序），人用集中許可 0 張；事實層 total 0、veterinary 16",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數與狀態對事實層與證據包原始狀態）",
+   "note": "Laut den EMA-Daten (Stand 2026-11-09) sind alle 16 erfassten Zulassungen (Nummern EMEA/V/C/…) gültig („Authorised“); es sind Tierarzneimittel, eine zentrale EU-Zulassung für Menschen ist nicht erfasst.",
+   "id": "de-lic-20261112-meloxicam-3",
+   "claim": "Zudem sind alle Zulassungen in Deutschland aufgehoben,",
+   "replacement": "Zudem ist keine zentrale EU-Zulassung für Menschen erfasst (nur 16 gültige Zulassungen für Tierarzneimittel),",
+   "summary": "„alle Zulassungen aufgehoben“ → keine zentrale EU-Zulassung für Menschen, 16 gültige für Tierarzneimittel"
   }
  ]
 }

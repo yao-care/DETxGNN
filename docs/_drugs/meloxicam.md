@@ -100,7 +100,19 @@ Für Rang 8 (RF-positive polyartikuläre juvenile idiopathische Arthritis) wurde
 
 ## Marktinformationen Deutschland
 
-Alle 16 erfassten Zulassungen sind aufgehoben. Es handelt sich um Zentralzulassungen der EMA (Nummern EMEA/V/C/…). Angaben zu Darreichungsform und zugelassener Indikation liegen nicht vor. Die Produktnamen deuten auf Tierarzneimittel hin; das ist aus den Daten jedoch nicht eindeutig belegt.
+Alle 16 erfassten Zulassungen sind gültig (EMA-Status „Authorised“). Es handelt sich um Zentralzulassungen der EMA (Nummern EMEA/V/C/…). Angaben zu Darreichungsform und zugelassener Indikation liegen nicht vor. Laut den Daten sind es Tierarzneimittel (EMEA/V = Verfahren für Tierarzneimittel); eine zentrale EU-Zulassung für Menschen ist nicht erfasst.
+
+<!-- review:begin de-lic-20261112-meloxicam-1 -->
+
+> **Prüfkorrektur (2026-11-12)**: Ursprünglich stand hier: „Alle 16 erfassten Zulassungen sind aufgehoben.“ Laut den EMA-Daten (Stand 2026-11-09) sind alle 16 erfassten Zulassungen (Nummern EMEA/V/C/…) gültig („Authorised“); es sind Tierarzneimittel, eine zentrale EU-Zulassung für Menschen ist nicht erfasst. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261112-meloxicam-1 -->
+
+<!-- review:begin de-lic-20261112-meloxicam-2 -->
+
+> **Prüfkorrektur (2026-11-12)**: Ursprünglich stand hier: „Die Produktnamen deuten auf Tierarzneimittel hin; das ist aus den Daten jedoch nicht eindeutig belegt.“ Laut den EMA-Daten (Stand 2026-11-09) sind alle 16 erfassten Zulassungen (Nummern EMEA/V/C/…) gültig („Authorised“); es sind Tierarzneimittel, eine zentrale EU-Zulassung für Menschen ist nicht erfasst. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261112-meloxicam-2 -->
 
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
@@ -130,13 +142,34 @@ Die Fach- und Gebrauchsinformation konnte nicht ausgewertet werden. Bitte die Pa
 **Entscheidung: Hold**
 
 **Begründung:**
-Für die Top-Vorhersage gibt es weder Studien noch Literatur und keinen plausiblen Mechanismus (Evidenzstufe L5). Zudem sind alle Zulassungen in Deutschland aufgehoben, und die Sicherheitsdaten aus der Packungsbeilage fehlen.
+Für die Top-Vorhersage gibt es weder Studien noch Literatur und keinen plausiblen Mechanismus (Evidenzstufe L5). Zudem ist keine zentrale EU-Zulassung für Menschen erfasst (nur 16 gültige Zulassungen für Tierarzneimittel), und die Sicherheitsdaten aus der Packungsbeilage fehlen.
+
+<!-- review:begin de-lic-20261112-meloxicam-3 -->
+
+> **Prüfkorrektur (2026-11-12)**: Ursprünglich stand hier: „Zudem sind alle Zulassungen in Deutschland aufgehoben,“ Laut den EMA-Daten (Stand 2026-11-09) sind alle 16 erfassten Zulassungen (Nummern EMEA/V/C/…) gültig („Authorised“); es sind Tierarzneimittel, eine zentrale EU-Zulassung für Menschen ist nicht erfasst. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261112-meloxicam-3 -->
 
 **Für ein Weiterkommen sind erforderlich:**
 - Packungsbeilage mit Warnhinweisen und Gegenanzeigen beschaffen (blockierende Datenlücke für das Sicherheits-Screening)
 - Detaillierte Wirkmechanismus-Daten ergänzen
 - Prüfung der näher an der bestehenden Indikation liegenden Kandidaten (Spondyloarthropathie, rheumatoide Nodulose, juvenile idiopathische Arthritis) als priorisierte Forschungsfragen
 - Klärung des aktuellen Zulassungs- und Marktstatus in Deutschland, einschließlich humanmedizinischer Präparate
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-12 | Status der 16 erfassten Zulassungen: „aufgehoben“ → „gültig“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Tierarzneimittel: in den EMA-Daten belegt (EMEA/V/C) | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | „alle Zulassungen aufgehoben“ → keine zentrale EU-Zulassung für Menschen, 16 gültige für Tierarzneimittel | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
