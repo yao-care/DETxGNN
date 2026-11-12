@@ -93,9 +93,14 @@ def paras(t):
     return [p.strip("\n") for p in out if is_prose(p)]
 
 
+ABBR_END = re.compile(r"(?:^|[\s(])[^\W\d_]{1,2}\.$")  # 「z. B.」「H. pylori」「d. h.」：一兩個字母加句點不是句尾
+
+
 def spans(p):
     out, i = [], 0
     for m in SENT.finditer(p):
+        if "\n" not in p[m.start():m.end()] and ABBR_END.search(p[i:m.start()]):
+            continue  # 縮寫後面不切（換行一律切）
         if m.start() > i:
             out.append((i, m.start()))
         i = m.end()
@@ -119,10 +124,16 @@ def in_para(a, b):
                 x1, x2, y1, y2 = i1 - k1, i2 + k2, j1 - k1, j2 + k2
                 if x1 < 0 or y1 < 0 or x2 > len(ta) or y2 > len(tb) or y2 == y1:
                     continue
-                cands.append((k1 + k2, (a[sa[x1][0]:sa[x2 - 1][1]] if x2 > x1 else "", b[sb[y1][0]:sb[y2 - 1][1]])))
+                # 候選切點兩側留下來的分隔字元（空格或換行）要跟新版一樣，否則套到舊版時會把換行換成空格或反過來
+                # （2026-11-12 IT lansoprazole、perampanel：「**Motivazione:**⏎句子。下一句」刪中間那句）
+                sep = lambda t, s, x: t[s[x - 1][1]:s[x][0]] if 0 < x < len(s) else ""
+                bad = (sep(a, sa, x1) != sep(b, sb, y1)) + (sep(a, sa, x2) != sep(b, sb, y2))
+                cands.append((k1 + k2, bad, k2, (a[sa[x1][0]:sa[x2 - 1][1]] if x2 > x1 else "", b[sb[y1][0]:sb[y2 - 1][1]])))
         if not cands:
             continue  # 段落只剩這句又整句刪：由段落層級處理
-        cands = [c for _, c in sorted(cands, key=lambda x: x[0])]
+        # 同樣大小的候選先取往前帶的（k2 小）：整句刪掉的句子後面接換行時，往後帶會把那個換行一起換掉，
+        # 套到舊版時兩行接成一行（2026-11-12 FI amlodipine 等 21 頁）
+        cands = [c for *_, c in sorted(cands, key=lambda x: x[:3])]
         whole = [(f"\n{c}\n", f"\n{r}\n") for c, r in cands if c == a and r == b]  # 整段＝這幾句：前後帶換行，跟段落中間的同一句區分
         out.append(cands + whole)
     return out
@@ -143,6 +154,8 @@ def changes(before, after):
         # 逐段配對：原段落依序配新段落裡最相似的一段（相似度 ≥0.5），配上的做段內比對，配不上的是整段刪除。
         # 不把多段接成一筆：段落之間常隔著表格，接起來的字串在頁面上不相連，套用時找不到（2026-11-12 atomoxetine 等 4 頁）
         j = j1
+        used = set()
+        gone = []
         for i in range(i1, i2):
             best, bj = 0.0, None
             for k in range(j, j2):
@@ -156,9 +169,20 @@ def changes(before, after):
             if bj is not None and best >= 0.5:
                 for cands in in_para(pa[i], pb[bj]):
                     out.append([(c, r, "") for c, r in cands])
+                used.add(bj)
                 j = bj + 1
             else:
-                deleted(i, j)
+                gone.append((i, j))
+        # 配不上的原段落：同一處有配不上的新段落＝整段改寫（claim＝舊段、replacement＝新段，2026-11-12 FR benazepril、donepezil
+        # 「Aucune AMM n'est enregistrée…」→「… dispose d'AMM actives en France …」）；沒有才是整段刪除
+        free = [k for k in range(j1, j2) if k not in used]
+        for i, jj in gone:
+            k = next((k for k in free if k >= jj - 1), None)
+            if k is not None:
+                free.remove(k)
+                out.append([(pa[i], pb[k], "")])
+            else:
+                deleted(i, jj)
     return out
 
 
@@ -314,6 +338,9 @@ def finalize(by, current, regen, fixes, facts, existing_ids):
             rm = removed_text(r["claim"], r["replacement"])
             reason = manual_reason(fixes, stem, r["claim"])
             kind = classify(rm)
+            # 改寫（replacement 有原句沒有的字）：不是只刪，note 用「已更正、換成現在的寫法」
+            if set(re.findall(r"\w{4,}", r["replacement"].lower())) - set(re.findall(r"\w{4,}", r["claim"].lower())) and "rewrite" in T["notes"]:
+                kind = "rewrite"
             rec = {
                 "id": f"{C['ID_PREFIX']}-lic-{first['date'].replace('-', '')}-{stem}-{n}",
                 "drug": stem, "file": fname, "action": "correct",
@@ -322,7 +349,8 @@ def finalize(by, current, regen, fixes, facts, existing_ids):
                 "finding": reason or f"依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：{kind}）",
                 "sources": [dict(s, accessed=last["date"]) for s in SOURCES],
                 "checked": last["date"],
-                "summary": T["summary"].format(x=" ".join((rm.strip(" ,;.\n-") or r["claim"]).split())[:140]),
+                "summary": (" ".join(r["claim"].split())[:140] if kind == "rewrite" else
+                            T["summary"].format(x=" ".join((rm.strip(" ,;.\n-") or r["claim"]).split())[:140])),
                 "method": ("2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：" +
                            "、".join(f"{m['commit']}（{m['date']}）" for m in r["_meta"])),
             }
@@ -346,10 +374,10 @@ def write(new):
 
 
 DOC = ("藥物頁人工查核紀錄（單一真實來源；2026-11-12 建，核心流程比照 TwTxGNN docs/_data/drug_reviews.json，欄位相同）。"
-       "每筆＝一次查核：drug／file／claim（頁面原句）／replacement（更正後）／note（頁面上顯示的英文說明）／finding（內部查證結論）／"
+       "每筆＝一次查核：drug／file／claim（頁面原句）／replacement（更正後）／note（頁面上顯示的說明，用本站語言）／finding（內部查證結論）／"
        "sources（網址＋查閱日）／checked（查核日）／action（correct 更正｜annotate 加註｜rereview 待重審｜section 附來源段落｜"
        "rereview_result 重審結果｜header_level｜description_level）。由 scripts/apply_drug_reviews.py 套到 docs/_drugs/*.md；"
-       "改寫頁面的程式結尾都會重套，scripts/check_seo_docs.py 第 17 項擋未套用的紀錄。原則：基本事實照主管機關資料更正；"
+       "改寫頁面的程式結尾都會重套，scripts/check_seo_docs.py 的查核紀錄檢查擋未套用的紀錄。原則：基本事實照主管機關資料更正；"
        "模型預測原文不刪不改寫，只加註；證據等級與決策只在重審結果為降級、升級或撤回時更新。"
        "2026-10-31～11-06 正文裡跟許可證事實矛盾、直接刪掉的子句，2026-11-12 由 scripts/reviews_from_edits.py 依 git 前後版本轉入"
        "（id 以 <站碼>-lic- 開頭）；報告在 11 月經 AI 重產、原句已不在頁面的標 status=resolved_by_regeneration。"

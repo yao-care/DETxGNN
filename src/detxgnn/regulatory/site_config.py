@@ -129,6 +129,7 @@ C = _json.loads(r"""{
   "figures": "In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel {total} Zulassungen erfasst, davon {valid} gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen.",
   "data_as_of": "EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand {date}",
   "notes": {
+   "rewrite": "Korrigiert: Die Aussage stimmte nicht mit den Zulassungsdaten überein ({d}) und wurde durch den jetzigen Wortlaut ersetzt.",
    "tw": "Entfernt: Textbaustein aus der taiwanischen Vorlage (TFDA), der für diese Seite nicht gilt.",
    "combo": "Entfernt: Die Angabe zu Einzel- oder Kombinationspräparaten stimmte nicht mit den Zulassungsdaten überein ({d}).",
    "cancel": "Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein ({d}).",
