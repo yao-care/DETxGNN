@@ -1,16 +1,26 @@
 {
-  "fetched_at": "2026-11-11T17:01:04.397086+00:00",
+  "fetched_at": "2026-11-12T00:10:28.686451+00:00",
   "source": "Google News Health RSS",
-  "count": 33,
+  "count": 32,
   "articles": [
     {
       "id": "7446024d9dde",
       "title": "Statine ab 70: Cholesterinsenker mindern Herz-Kreislauf-Risiko um 30 Prozent - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNnp0LWVvSDVaTzhCeVFlb3l4My1qektzYXcxRmtNTzFzdjZkUl9QdWpoc2YwVmNfSlE0eEQ2eFNqS1l6T1FvVXhSRkFSZkFqOGh4S19MM29WeE9INGN4QXl4d296TzVSRnowRmxETld0VWpQcjl2U1RGNVNZNndjczlGRl9vbnAtbl93VmZXRzhwM2ZDamczRmRlamo0YUItRFNXWF9FZjcyc1hDMnlJRA?oc=5",
-      "published": "2026-11-11T16:15:37+00:00",
+      "published": "2026-11-11T23:24:44+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "25a990f3e198",
+      "title": "WHO/Europa startet neue Plattform zur Verbesserung des Zugangs zu neuen und innovativen Arzneimitteln - World Health Organization (WHO)",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWk1McHJHbktrVFhSM2Q4OGZCejQ3cldFUmhKLVZ4QzNvOXpvNmZnRURHSFQ4d2xCYUsxUmRYUFY2TEY0c0VIS0VtNm9saGUwTHBkaktGZzRCazZVUGVvS1JtZGJERW1lNDZ2VGE3M0xLTnQ2T2czdHJRal9Ra2RLZ2R5NUpEcUNVREtkYlNGQ0ZhN1JZb0k4N0xJWS05SnBxQjNkOGZYWTJ4Tjk2Rnh0Wm1URVF4TU01SXJ4d05mXzhOdnZWMDlNZkZFVTV1dw?oc=5",
+      "published": "2026-11-10T08:00:00+00:00",
+      "source": {
+        "name": "World Health Organization (WHO)",
+        "url": "https://www.who.int"
       }
     },
     {
@@ -24,6 +34,16 @@
       }
     },
     {
+      "id": "96c379f294b4",
+      "title": "GeSiG: BMG plant Aufbau einer »Personalreserve Gesundheit« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRUk5R3ZGRVNhX3p5cUYtNk5wTTQ2dFZDbzZwcW9fRXNaNE5UMldBVnhyelR5RGRRN2pRWEUzbGZUeFBjSXJka3FhRGMzNGJZQXZwajMzNGVVNlZRQTdVZ1BxRUpRY2dBdFFRWGxRRkZqSEM1a1JwR3ZfU2ZfQy1EbmF5YmhhYXVmZW45LVEzOXB5SjVfWndfSmE1N3k?oc=5",
+      "published": "2026-11-09T16:30:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
       "id": "9d1c0464616a",
       "title": "Barmherzige Brüder in Österreich: Medikamentenverrechnung soll nachvollziehbarer werden - Presseportal",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9MOElTZUpGb3Ftdy1WUTNzdi1JNFBIdG5VdGFyR2N0UmxIcXVZQmwyQWlTLS1DOVhHQ2tJV3Rsc01fcVFlMVRYMk5GVDcwcWNfZ2RuanZRc28?oc=5",
@@ -34,20 +54,10 @@
       }
     },
     {
-      "id": "8af269fbb412",
-      "title": "»War­ten Sie nicht auf den Staat« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSGxqWHJteUx5cmNoV3VtS1NScDdFVmFvQkFZNDRWc2ZZQzhVcHlQMS1wWnhjWnRLcTJSbi1aVl9kWjl4WkN4blNOUi1NMlZISVlIaUdGU0xua1JLTVlOUlFuTjQydEMwT2tqaDJzeXhBcF83MjhTQU95WHpNR3RLaGJpZw?oc=5",
-      "published": "2026-11-10T19:55:09+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "4167797a83bb",
-      "title": "Abnehmmittel: Nach Absetzen steigt Risiko für Infarkt und Schlaganfall - Gesundheit - SZ.de - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdWRidWIxQ05sYTllaHA5Z1o0dVNrSHh0T1I5WUhjanFEQUpBZXA5UFhsT3RmUkFialZCQ3Y4WTlraWJhZGV5WFJNRnJycWZ1OWRyMklqcWp3LU90T2FfWlk5ZkpkbFBQd05uLXNGWUI3c0Mwems2cWhGU1ZhbDl6VWd1UFc5Z3JxcW00QWh4NzZKaDhZRTBsUzdoRWJRZm1aV19xWU1mcVU4WEJKRElScjFBNkxrYTZMSDJTTDEtb2Vwc0s1?oc=5",
-      "published": "2026-11-10T10:27:54+00:00",
+      "id": "ca85a24f5909",
+      "title": "Verdacht auf Krebs bei Kindern durch Gentherapie - Gesundheit - SZ.de - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQm1McTAxeHBGNWM5VHp2ZjQxdU1RZ3d0emh6WjYzRlVEb05wX3N6cnE3ekMzUExRdVlMcUhMT3hHY0JEZGxCRkplU3piQjl5U2JwZ2NhSnZRa0ZRekVhbzhYSjhKUTliX1h1Ni1rUWtpbzJPSldlQjUxUnNyTDlSbkF1QlNkM3JldkJUbmR4UDZXQQ?oc=5",
+      "published": "2026-11-08T09:21:34+00:00",
       "source": {
         "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
@@ -74,10 +84,10 @@
       }
     },
     {
-      "id": "a4d7db7c4b41",
-      "title": "Neues Gel könnte beschädigten Zahnschmelz wiederherstellen - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOekl0TUFDZVF4b0RmMWwyc0c2dkY0OU5lUkNUeHYwMEdsMlNEaGlZY3hvWGtWMXJYeF9ONDZ5QWdlNnFydHQ3T1ZWZUpIT1U5dExySHNDdnRPNUpmN1dBWWxXYUM3M3Uyb3ZNOFYzOUY2VlZMeUFhQlZqaE10czRkaUxkUFJHaEdCbno0M1NFZDJIemdERUVOa3JNU08?oc=5",
-      "published": "2026-11-11T07:47:51+00:00",
+      "id": "79b090ea448d",
+      "title": "Zahl der Apotheken sinkt weiter: 204 Schließungen in neun Monaten - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNR01SZ2tYRFdkVnJQeDFmdGp5ZldiX1dfcy1EMF9GaHJOUzFYR2gzb2l2RlNLRkU2YXFLTzZhR0FNZGR1N3IzRVEwNGVrdl9xQlU5Vmd4RHZKelJXamp5Q0Z3enZiSmRRT01MVXVHZHJ2aDhCTlJtcVB5Y01FWHZ5U2M1Y2piS3pNT1oydEYxYTR0UzB1NjlLZ2tZSGhoNXlIUjZB?oc=5",
+      "published": "2026-11-11T08:23:05+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
@@ -94,16 +104,6 @@
       }
     },
     {
-      "id": "96c379f294b4",
-      "title": "GeSiG: BMG plant Aufbau einer »Personalreserve Gesundheit« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRUk5R3ZGRVNhX3p5cUYtNk5wTTQ2dFZDbzZwcW9fRXNaNE5UMldBVnhyelR5RGRRN2pRWEUzbGZUeFBjSXJka3FhRGMzNGJZQXZwajMzNGVVNlZRQTdVZ1BxRUpRY2dBdFFRWGxRRkZqSEM1a1JwR3ZfU2ZfQy1EbmF5YmhhYXVmZW45LVEzOXB5SjVfWndfSmE1N3k?oc=5",
-      "published": "2026-11-09T16:30:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "4aa530bee322",
       "title": "Bundesregierung: 600 Arzneimittel 2026 von Lieferengpässen betroffen - EU-Schwerbehinderung",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSDRraG50dXdLT0JfSW9LZlFFMG1SZ2xRcko3bHlYUjRhREg3dnVUSTR1T3FZUmtLcU51clNmRUJ0cGFVaTlBSFkyZmxYQ2thV2dKVTFfeW1ERFR1MTZJUWNZQjhDbHZMRWQzVUhmOFBFUlZRMWhaVzE4eGN6aGlpaDg5blNzRGhVZlNWajEwdmhpeVlTSU81bEQ5N25IRmVTVVoyNlFReFpJQ2dSTFprNHJsUkNoNjg5Yll1X3dDdDR6SExMSUQzUDhDWFoydw?oc=5",
@@ -114,33 +114,13 @@
       }
     },
     {
-      "id": "19d60e55a69d",
-      "title": "Seien Sie sich des Risikos von Schlaganfall und Herzinfarkt bewusst, wenn das Wetter kalt wird. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQUpPa3NrbW91NDllYXRuSEk5eUMtTTMxTEx3NmZTSW0ydy11WUF1YVgtUm5NYmVHY2FqY2F2TVlYOUZOMm0tcFhZT2FjU0ZkNWF6Wk43ZU1qcl83eUNCdUJWb2pDSlBHZERJejZmamZLVzY0T0FFUy1WamItYjhuRXdtelU0bGVyeUp6ZWdHbl96eDBubmc?oc=5",
-      "published": "2026-11-11T06:22:58+00:00",
+      "id": "aa6ba7bc2e7c",
+      "title": "BMG-Abteilungsleiter Müller: Weitere Einsparungen bei Arzneimitteln möglich - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMmNQaURqS2pETWxhb2dpRHRQMFBXRGE4b3dNOTRoVUktSGFHNVlvSnU2eXRkdVpqNzFLalN2amdQYk1MM1dZaS1NcGFqaGNCeHdldFZWRXdScVppN3NlZXoyZjZwdmZ2MTZxOTNjY0hROVZMNDdEcUNkdlQwb2tvMWMwdWkxNksxLTZPU1JDUTlCM19ZN0pENVNB?oc=5",
+      "published": "2026-11-05T15:00:50+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "e4f7a2ee397f",
-      "title": "«Spielen sie mit ihren Enkeln, oder ist es ihnen dauernd übel?» - Infosperber",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQ1NOdGJpUHpUemZ1dkFFaGVZNldEZjJWMGo2WEs0aFZaUGs5cjEydW9qbmtaaUMxcWUwOHNPSlh5Q29idXd2VmxTZlNIX3ZocWFsN1ZaUUVMZ1U1Z2dybFJSRHlwcGVob0piemlvT2pMd1dLMm96WHFKaHdSVWc1cVZoMlhnNEdFR2R2ZjdqZGNIcVpSZXFpOVg1M2hxa1Nj?oc=5",
-      "published": "2026-11-08T09:44:03+00:00",
-      "source": {
-        "name": "Infosperber",
-        "url": "https://www.infosperber.ch"
-      }
-    },
-    {
-      "id": "ca85a24f5909",
-      "title": "Verdacht auf Krebs bei Kindern durch Gentherapie - Gesundheit - SZ.de - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQm1McTAxeHBGNWM5VHp2ZjQxdU1RZ3d0emh6WjYzRlVEb05wX3N6cnE3ekMzUExRdVlMcUhMT3hHY0JEZGxCRkplU3piQjl5U2JwZ2NhSnZRa0ZRekVhbzhYSjhKUTliX1h1Ni1rUWtpbzJPSldlQjUxUnNyTDlSbkF1QlNkM3JldkJUbmR4UDZXQQ?oc=5",
-      "published": "2026-11-08T09:21:34+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -164,10 +144,10 @@
       }
     },
     {
-      "id": "aa6ba7bc2e7c",
-      "title": "BMG-Abteilungsleiter Müller: Weitere Einsparungen bei Arzneimitteln möglich - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMmNQaURqS2pETWxhb2dpRHRQMFBXRGE4b3dNOTRoVUktSGFHNVlvSnU2eXRkdVpqNzFLalN2amdQYk1MM1dZaS1NcGFqaGNCeHdldFZWRXdScVppN3NlZXoyZjZwdmZ2MTZxOTNjY0hROVZMNDdEcUNkdlQwb2tvMWMwdWkxNksxLTZPU1JDUTlCM19ZN0pENVNB?oc=5",
-      "published": "2026-11-05T15:00:50+00:00",
+      "id": "8af269fbb412",
+      "title": "»War­ten Sie nicht auf den Staat« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSGxqWHJteUx5cmNoV3VtS1NScDdFVmFvQkFZNDRWc2ZZQzhVcHlQMS1wWnhjWnRLcTJSbi1aVl9kWjl4WkN4blNOUi1NMlZISVlIaUdGU0xua1JLTVlOUlFuTjQydEMwT2tqaDJzeXhBcF83MjhTQU95WHpNR3RLaGJpZw?oc=5",
+      "published": "2026-11-10T19:55:09+00:00",
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
@@ -181,6 +161,26 @@
       "source": {
         "name": "Bundesministerium für Gesundheit (BMG)",
         "url": "https://www.bundesgesundheitsministerium.de"
+      }
+    },
+    {
+      "id": "a4d7db7c4b41",
+      "title": "Neues Gel könnte beschädigten Zahnschmelz wiederherstellen - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOekl0TUFDZVF4b0RmMWwyc0c2dkY0OU5lUkNUeHYwMEdsMlNEaGlZY3hvWGtWMXJYeF9ONDZ5QWdlNnFydHQ3T1ZWZUpIT1U5dExySHNDdnRPNUpmN1dBWWxXYUM3M3Uyb3ZNOFYzOUY2VlZMeUFhQlZqaE10czRkaUxkUFJHaEdCbno0M1NFZDJIemdERUVOa3JNU08?oc=5",
+      "published": "2026-11-11T07:47:51+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "9f7c377ed6d2",
+      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
+      "published": "2026-04-16T07:55:26+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -201,16 +201,6 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "9f7c377ed6d2",
-      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
-      "published": "2026-04-16T07:55:26+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
       }
     },
     {
@@ -284,20 +274,20 @@
       }
     },
     {
-      "id": "d46f6ce1c2b9",
-      "title": "Ibuprofen, Aspirin und Co.: Schmerzmittel der Gruppe NSAR können Nebenwirkungen haben - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUmwyTW8wT3dfaXgyZ1VyaXFYUG1lWXY5VUZXZkkwWjd4STI2dWVSY1d3bVhub1NxRE9sNGt2bW83blh3T2hPRzlWcnVvUElQSmw4WE9KOHhscFdsSEE4TmF2cnhXaTktUWRfc3NQMnpoWmZDUXF5WWt6czNsbWdLQTRtVVJ3Mzdtb250RGVhbldmNUpVOTNDOTFhOWpldzV0MUlpVFdMRmpfOGM3WW5HbmRYaVJFT1ZzYUxn?oc=5",
-      "published": "2025-09-23T07:00:00+00:00",
+      "id": "8a5dc46a4efd",
+      "title": "Erstattungsbetrag: Preisfestlegung für neue Medikamente - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUHN6Rk0zYW0xanpneTJrREhFdnJPVXFKckJsaHFBTWpYUElxdGN2ZUtydnkteHFHRHl2dERmeEVUMF8xUEh4Z3M4VEhJY0dfNDFpc0Vnc283akhUeTRkZEdSUzZxMjlmTmxBMmdMV2pKWi04UDZENVpvdjJPMXJxZEJ5SS13ZkZlSzVWODd0YjRPTjliYmttdXNUVkR6emgwU09xSQ?oc=5",
+      "published": "2025-02-22T04:19:00+00:00",
       "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
-      "id": "0031dcf387f3",
-      "title": "Lieferengpässe bei 600 Medikamente – Diese Arzneimittel sind betroffen - Nordkurier",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaGhSRDQzQ1hRU29aRWVuMEtmOWhYNUZHWEFFYUxrZk9Mc2h4Sm9OcmtiMVBDXy1XYUxjR0haRHpuS0xuRGFXZWZvanVoel9PT1dfaDBObkhGcUJtV2RNV1lIT2hDMlFzVk5nLWVpLU1BSTkwWXdpci02Q18yejROUjNGMFdUSjB1dmZQWmZuQlplUThfeWdkRXk0TnpaR3R1NFI5SDNTYWZPNGNnbXBpck9R?oc=5",
-      "published": "2026-11-11T11:24:00+00:00",
+      "id": "011e545dd0b6",
+      "title": "Lieferengpässe bei 600 Medikamenten: Welche Arzneimittel jetzt betroffen sind - Nordkurier",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNM0R0aDhzM1RYME5veEgwWEo1dFRoVXUyZndGQWdSeGVJbkFaMVBkb3d6X1BMUy1DOUt1dG1DcjZtaTUwdkxEeE1Ram5kZVpkUVV4SGRXRkNkOS1wa3NpZmcwU2pMRHlaN2doaFZJRHA4dlhhV3EyRFZZajhFemF6bzdISGdQUUlJQkwySHk3QlFCV1VRbVdXRk1SS1h6T2VnaWZvUXF3eTR0YXhEVUlOalg3ampuQjA2SnU4?oc=5",
+      "published": "2026-11-11T18:11:00+00:00",
       "source": {
         "name": "Nordkurier",
         "url": "https://www.nordkurier.de"
