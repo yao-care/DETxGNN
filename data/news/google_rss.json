@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-11-12T00:10:28.686451+00:00",
+  "fetched_at": "2026-11-12T07:59:47.256576+00:00",
   "source": "Google News Health RSS",
-  "count": 32,
+  "count": 29,
   "articles": [
-    {
-      "id": "7446024d9dde",
-      "title": "Statine ab 70: Cholesterinsenker mindern Herz-Kreislauf-Risiko um 30 Prozent - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNnp0LWVvSDVaTzhCeVFlb3l4My1qektzYXcxRmtNTzFzdjZkUl9QdWpoc2YwVmNfSlE0eEQ2eFNqS1l6T1FvVXhSRkFSZkFqOGh4S19MM29WeE9INGN4QXl4d296TzVSRnowRmxETld0VWpQcjl2U1RGNVNZNndjczlGRl9vbnAtbl93VmZXRzhwM2ZDamczRmRlamo0YUItRFNXWF9FZjcyc1hDMnlJRA?oc=5",
-      "published": "2026-11-11T23:24:44+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
     {
       "id": "25a990f3e198",
       "title": "WHO/Europa startet neue Plattform zur Verbesserung des Zugangs zu neuen und innovativen Arzneimitteln - World Health Organization (WHO)",
@@ -21,6 +11,16 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "7446024d9dde",
+      "title": "Statine ab 70: Cholesterinsenker mindern Herz-Kreislauf-Risiko um 30 Prozent - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNnp0LWVvSDVaTzhCeVFlb3l4My1qektzYXcxRmtNTzFzdjZkUl9QdWpoc2YwVmNfSlE0eEQ2eFNqS1l6T1FvVXhSRkFSZkFqOGh4S19MM29WeE9INGN4QXl4d296TzVSRnowRmxETld0VWpQcjl2U1RGNVNZNndjczlGRl9vbnAtbl93VmZXRzhwM2ZDamczRmRlamo0YUItRFNXWF9FZjcyc1hDMnlJRA?oc=5",
+      "published": "2026-11-11T23:24:44+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -34,13 +34,23 @@
       }
     },
     {
-      "id": "96c379f294b4",
-      "title": "GeSiG: BMG plant Aufbau einer »Personalreserve Gesundheit« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRUk5R3ZGRVNhX3p5cUYtNk5wTTQ2dFZDbzZwcW9fRXNaNE5UMldBVnhyelR5RGRRN2pRWEUzbGZUeFBjSXJka3FhRGMzNGJZQXZwajMzNGVVNlZRQTdVZ1BxRUpRY2dBdFFRWGxRRkZqSEM1a1JwR3ZfU2ZfQy1EbmF5YmhhYXVmZW45LVEzOXB5SjVfWndfSmE1N3k?oc=5",
-      "published": "2026-11-09T16:30:00+00:00",
+      "id": "8af269fbb412",
+      "title": "»War­ten Sie nicht auf den Staat« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSGxqWHJteUx5cmNoV3VtS1NScDdFVmFvQkFZNDRWc2ZZQzhVcHlQMS1wWnhjWnRLcTJSbi1aVl9kWjl4WkN4blNOUi1NMlZISVlIaUdGU0xua1JLTVlOUlFuTjQydEMwT2tqaDJzeXhBcF83MjhTQU95WHpNR3RLaGJpZw?oc=5",
+      "published": "2026-11-10T19:55:09+00:00",
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "4167797a83bb",
+      "title": "Abnehmmittel: Nach Absetzen steigt Risiko für Infarkt und Schlaganfall - Gesundheit - SZ.de - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdWRidWIxQ05sYTllaHA5Z1o0dVNrSHh0T1I5WUhjanFEQUpBZXA5UFhsT3RmUkFialZCQ3Y4WTlraWJhZGV5WFJNRnJycWZ1OWRyMklqcWp3LU90T2FfWlk5ZkpkbFBQd05uLXNGWUI3c0Mwems2cWhGU1ZhbDl6VWd1UFc5Z3JxcW00QWh4NzZKaDhZRTBsUzdoRWJRZm1aV19xWU1mcVU4WEJKRElScjFBNkxrYTZMSDJTTDEtb2Vwc0s1?oc=5",
+      "published": "2026-11-10T10:27:54+00:00",
+      "source": {
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
       }
     },
     {
@@ -54,23 +64,23 @@
       }
     },
     {
-      "id": "ca85a24f5909",
-      "title": "Verdacht auf Krebs bei Kindern durch Gentherapie - Gesundheit - SZ.de - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQm1McTAxeHBGNWM5VHp2ZjQxdU1RZ3d0emh6WjYzRlVEb05wX3N6cnE3ekMzUExRdVlMcUhMT3hHY0JEZGxCRkplU3piQjl5U2JwZ2NhSnZRa0ZRekVhbzhYSjhKUTliX1h1Ni1rUWtpbzJPSldlQjUxUnNyTDlSbkF1QlNkM3JldkJUbmR4UDZXQQ?oc=5",
-      "published": "2026-11-08T09:21:34+00:00",
+      "id": "4e6d48112005",
+      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
+      "published": "2026-05-22T07:00:00+00:00",
       "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
+        "name": "Bundesministerium für Gesundheit (BMG)",
+        "url": "https://www.bundesgesundheitsministerium.de"
       }
     },
     {
-      "id": "cd0b781ae93b",
-      "title": "Methodischer Überblick zu den Joint Clinical Assessments im Rahmen von EU HTA - Ärzte Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaGxhcWIyTkVmNHVGN21Lb3pGMFdQUmZjZGVBcHppUnZjTmdZZlBxTjFsT2g1VTloUVhvUFJ5WDNsWlhxbXNoRTlIeEg2U0plY0cxMEhPTkU3X0ZsVTRRa0ZZLU0tYWxBaUEya1dubkN1elVlRklqOUhrcklYSktTRFB4MFNqQmhEeTNTVm1iYmN5UUc4dnZpd3pZY3hhYWZwaG1mQXlxYlBGM0NiQm95VGlmbXRaT1BoQkFRRGg3RFduS3RrcV8xU2NjMGZNZw?oc=5",
-      "published": "2026-11-10T14:20:21+00:00",
+      "id": "9f7c377ed6d2",
+      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
+      "published": "2026-04-16T07:55:26+00:00",
       "source": {
-        "name": "Ärzte Zeitung",
-        "url": "https://www.aerztezeitung.de"
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -84,10 +94,10 @@
       }
     },
     {
-      "id": "79b090ea448d",
-      "title": "Zahl der Apotheken sinkt weiter: 204 Schließungen in neun Monaten - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNR01SZ2tYRFdkVnJQeDFmdGp5ZldiX1dfcy1EMF9GaHJOUzFYR2gzb2l2RlNLRkU2YXFLTzZhR0FNZGR1N3IzRVEwNGVrdl9xQlU5Vmd4RHZKelJXamp5Q0Z3enZiSmRRT01MVXVHZHJ2aDhCTlJtcVB5Y01FWHZ5U2M1Y2piS3pNT1oydEYxYTR0UzB1NjlLZ2tZSGhoNXlIUjZB?oc=5",
-      "published": "2026-11-11T08:23:05+00:00",
+      "id": "68714d89b623",
+      "title": "Süßstoffe und Medikamente: Diese Kombination verändert Darmbakterien - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdUZPQWxqS1RvcXdPcDBPOHh4SnU2aU5kZk9wRFZvR0U0LTM3R29BQV8zVkV2WFctNkdWYlBES3NBOGU2RFhBZHcxQjB1V3V0Z0k4ZGRpZ0haeW5TTXE1clFTNjRpQzNkUUk4eFJMZzJiaXBtamhrTlVfdGtVcXJwWi01VDdMdDhDR0kxYUJ5OWVqYkxoWXpfemZpTWtXaF8wV0VtT0xUMlNSZw?oc=5",
+      "published": "2026-11-10T09:27:28+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
@@ -101,6 +111,16 @@
       "source": {
         "name": "DerWesten",
         "url": "https://www.derwesten.de"
+      }
+    },
+    {
+      "id": "2a4cd6eb6d1d",
+      "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
+      "published": "2026-03-31T07:00:00+00:00",
+      "source": {
+        "name": "European Parliament",
+        "url": "https://www.europarl.europa.eu"
       }
     },
     {
@@ -124,6 +144,16 @@
       }
     },
     {
+      "id": "ca85a24f5909",
+      "title": "Verdacht auf Krebs bei Kindern durch Gentherapie - Gesundheit - SZ.de - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQm1McTAxeHBGNWM5VHp2ZjQxdU1RZ3d0emh6WjYzRlVEb05wX3N6cnE3ekMzUExRdVlMcUhMT3hHY0JEZGxCRkplU3piQjl5U2JwZ2NhSnZRa0ZRekVhbzhYSjhKUTliX1h1Ni1rUWtpbzJPSldlQjUxUnNyTDlSbkF1QlNkM3JldkJUbmR4UDZXQQ?oc=5",
+      "published": "2026-11-08T09:21:34+00:00",
+      "source": {
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
+      }
+    },
+    {
       "id": "a637bbef7569",
       "title": "Jeder Euro für Impfungen zahlt sich vielfach aus - Presseportal",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBKa0w1NEZ5SXY2dEtGQmstRUpqRzZKQ2t3WjNjNm84NkR1R2NhUEVfYXFDVmdqWDB6X0hfaDZkRU5jYTNmV1FfeU5qQ2J4b1pXcGUwcFd3WQ?oc=5",
@@ -134,33 +164,23 @@
       }
     },
     {
-      "id": "68714d89b623",
-      "title": "Süßstoffe und Medikamente: Diese Kombination verändert Darmbakterien - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdUZPQWxqS1RvcXdPcDBPOHh4SnU2aU5kZk9wRFZvR0U0LTM3R29BQV8zVkV2WFctNkdWYlBES3NBOGU2RFhBZHcxQjB1V3V0Z0k4ZGRpZ0haeW5TTXE1clFTNjRpQzNkUUk4eFJMZzJiaXBtamhrTlVfdGtVcXJwWi01VDdMdDhDR0kxYUJ5OWVqYkxoWXpfemZpTWtXaF8wV0VtT0xUMlNSZw?oc=5",
-      "published": "2026-11-10T09:27:28+00:00",
+      "id": "9fa13ce5acf5",
+      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
+      "published": "2026-03-31T20:25:43+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "79b090ea448d",
+      "title": "Zahl der Apotheken sinkt weiter: 204 Schließungen in neun Monaten - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNR01SZ2tYRFdkVnJQeDFmdGp5ZldiX1dfcy1EMF9GaHJOUzFYR2gzb2l2RlNLRkU2YXFLTzZhR0FNZGR1N3IzRVEwNGVrdl9xQlU5Vmd4RHZKelJXamp5Q0Z3enZiSmRRT01MVXVHZHJ2aDhCTlJtcVB5Y01FWHZ5U2M1Y2piS3pNT1oydEYxYTR0UzB1NjlLZ2tZSGhoNXlIUjZB?oc=5",
+      "published": "2026-11-11T08:23:05+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "8af269fbb412",
-      "title": "»War­ten Sie nicht auf den Staat« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSGxqWHJteUx5cmNoV3VtS1NScDdFVmFvQkFZNDRWc2ZZQzhVcHlQMS1wWnhjWnRLcTJSbi1aVl9kWjl4WkN4blNOUi1NMlZISVlIaUdGU0xua1JLTVlOUlFuTjQydEMwT2tqaDJzeXhBcF83MjhTQU95WHpNR3RLaGJpZw?oc=5",
-      "published": "2026-11-10T19:55:09+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "4e6d48112005",
-      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
-      "published": "2026-05-22T07:00:00+00:00",
-      "source": {
-        "name": "Bundesministerium für Gesundheit (BMG)",
-        "url": "https://www.bundesgesundheitsministerium.de"
       }
     },
     {
@@ -168,26 +188,6 @@
       "title": "Neues Gel könnte beschädigten Zahnschmelz wiederherstellen - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOekl0TUFDZVF4b0RmMWwyc0c2dkY0OU5lUkNUeHYwMEdsMlNEaGlZY3hvWGtWMXJYeF9ONDZ5QWdlNnFydHQ3T1ZWZUpIT1U5dExySHNDdnRPNUpmN1dBWWxXYUM3M3Uyb3ZNOFYzOUY2VlZMeUFhQlZqaE10czRkaUxkUFJHaEdCbno0M1NFZDJIemdERUVOa3JNU08?oc=5",
       "published": "2026-11-11T07:47:51+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "9f7c377ed6d2",
-      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
-      "published": "2026-04-16T07:55:26+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "134297de7815",
-      "title": "Durchfall durch Sex: Shigellen breiten sich zunehmend aus - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVFozS1daa1ZFUEJuZTFqbkt5MnRnUndoS3VpaFo4bURaZERfaWZteGdaSk51TnZVNTdCd2wzY3lfdlczcmtpR0ZCYm5aVXIwRWotbHFkNktGcktiRXBHTDNuY2NwVnRUbUZRLTJCcWFWX3BxWlBybmJDOXNZSmo0b0ZySGoyWjFKQVFjUEQ1ejJaYjZTcjNF?oc=5",
-      "published": "2026-11-09T09:50:05+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
@@ -204,26 +204,6 @@
       }
     },
     {
-      "id": "9fa13ce5acf5",
-      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
-      "published": "2026-03-31T20:25:43+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "2a4cd6eb6d1d",
-      "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
-      "published": "2026-03-31T07:00:00+00:00",
-      "source": {
-        "name": "European Parliament",
-        "url": "https://www.europarl.europa.eu"
-      }
-    },
-    {
       "id": "e5835a315f52",
       "title": "Arzneimittel - Klinische Prüfung - Bezirksregierung Düsseldorf",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQanJqVmFoa1RDaGJaamxwcFU0MUpaZ0RkV2V5SnZRSW9VdzBWdHMwelVRdnlfWUc5WlN6TXFNc0hRNXY1YmRWQ2czQ0N3UG94Zlh6OXAzQlRtVUVTb2RkckNNWjh0TzBrWl9ESENaeGN6LVo4VERrdkdiQ19jT0dnZWx4RnJ3cUtTRFloY3p2OG1NQjFKRkptajhfWXFqeHo1TEx0OEJ4S1JYRVQyc2JBTmt4a2FNNmpFWjhJVg?oc=5",
@@ -234,16 +214,6 @@
       }
     },
     {
-      "id": "172d986897fc",
-      "title": "Arzneimittel: Nutzen für Gesundheit, Lebensqualität und Wirtschaft - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc1pKSzRyQWdIYmtZQlZKZE5ZYkRDWjFJRzUySHJWYkJGQU9nSExYb21pSnJBd29vZllZcWNFMU9fcTkyMFZWN3NTbVkxcXpRbFhXZFdCT3BPd2N4ZlVVNHctcVNVaWNiUmFlSDZ4TnIxX2VOYk03Zk5JZ0RSSWxiY21mRGVETjVH?oc=5",
-      "published": "2025-09-26T07:00:00+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
       "id": "432315fa2251",
       "title": "Erstmals Medikament gegen Fettleber zugelassen - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQnhCQmdtRXhCd0ZKc1FDYzViaTZEblZ5TjJNWDBvZ3ptX2g0OENQemNDUk1sWGh5T1FrOEtvaGtSSDItcXlieVd0cDVfdDF0a2U3clFWSGlvd21wUWtwVzI4UEZIZ1BBUlVJSC16SExXaWFDTlF6YlNjMk96a2pEYnpVRm1rQQ?oc=5",
@@ -251,6 +221,16 @@
       "source": {
         "name": "tagesschau.de",
         "url": "https://www.tagesschau.de"
+      }
+    },
+    {
+      "id": "172d986897fc",
+      "title": "Arzneimittel: Nutzen für Gesundheit, Lebensqualität und Wirtschaft - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc1pKSzRyQWdIYmtZQlZKZE5ZYkRDWjFJRzUySHJWYkJGQU9nSExYb21pSnJBd29vZllZcWNFMU9fcTkyMFZWN3NTbVkxcXpRbFhXZFdCT3BPd2N4ZlVVNHctcVNVaWNiUmFlSDZ4TnIxX2VOYk03Zk5JZ0RSSWxiY21mRGVETjVH?oc=5",
+      "published": "2025-09-26T07:00:00+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -291,16 +271,6 @@
       "source": {
         "name": "Nordkurier",
         "url": "https://www.nordkurier.de"
-      }
-    },
-    {
-      "id": "5d81cd09e3f7",
-      "title": "Gesundheit - Arzneimittel-Experten: Viagra weiter nicht ohne Rezept - Gesundheit - SZ.de - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWktNUkFDTmVsMmlKeW5kaDAzQjlZUDVuczZyeGo0WExZMTlIUWNzYzVOTllKeVRMZkpvLW9pbGFDRHJScks3dEVTd3BBRW9fWmJ0TFpxbm9SVm9RU2RYdEhHQ29FYmNEdUNuUDRzalRBWGdwNm1NU2J2cUJpRHR2T1hjYmllakVuMDctbkt5bkc3S1ZabGc3eWQ4RVJWS3k3bG96UVJXRFNYenhGSUhvZDhUMDR6Nm9aNmhiaF9DRHM4NnFRZ2IwbEQzNVhfWWpCUjZ2b05iSjUzdmR1SjVNTHMyekNxWk0?oc=5",
-      "published": "2023-07-11T07:00:00+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
       }
     },
     {
