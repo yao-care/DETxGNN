@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "LAMIVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-13
 description: "Lamivudine: vorhergesagte neue Indikation Feline erworbene Immunschwäche (feline acquired immunodeficiency syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: Hepatitis B, Chronic"
 ---
 
@@ -48,8 +48,8 @@ Lamivudin ist ein Nukleosidanaloger Hemmer der Reverse Transkriptase. Das TxGNN-
 | Vorhergesagte neue Indikation | Feline erworbene Immunschwäche (feline acquired immunodeficiency syndrome) |
 | TxGNN-Vorhersagewert | 0,9993 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 10 von 10) |
-| Anzahl der Zulassungen | 10 (gültig: 10) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 9 von 10) |
+| Anzahl der Zulassungen | 10 (gültig: 9) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 507
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-13
 description: "Zidovudine: vorhergesagte neue Indikation Felines erworbenes Immundefizienzsyndrom (veterinärmedizinische Indik… (Evidenzstufe L5). Ursprüngliche Indikation: HIV-Infektion"
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -48,8 +48,8 @@ Zidovudin ist ein Nukleosid-Reverse-Transkriptase-Hemmer, der ursprünglich zur 
 | Vorhergesagte neue Indikation | Felines erworbenes Immundefizienzsyndrom (veterinärmedizinische Indikation) |
 | TxGNN-Vorhersagewert | 0,9996 |
 | Evidenzniveau | L5 (tierexperimentelle und veterinärklinische Studien, keine Humanstudien) |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
-| Anzahl der Zulassungen | 2 (gültig: 2) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 1) |
 | Empfohlene Entscheidung | Hold (Forschungsfrage, keine Humanindikation) |
 
 ## Warum ist diese Vorhersage plausibel?
@@ -84,7 +84,13 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 | Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
 |---------|------|------|-----------|
 | EMEA/H/C/000190 | Combivir | nicht angegeben | HIV-Infektionen (gültig) |
-| EMEA/H/C/000338 | Trizivir | nicht angegeben | HIV-Infektionen (gültig) |
+| EMEA/H/C/000338 | Trizivir | nicht angegeben | HIV-Infektionen (zurückgenommen) |
+
+<!-- review:begin de-row-20261112-zidovudine-1 -->
+
+> **Prüfkorrektur (2026-11-12)**: Ursprünglich stand hier: „EMEA/H/C/000338 / Trizivir / nicht angegeben / HIV-Infektionen (gültig)“ Laut den EMA-Daten (Stand 2026-11-12) ist die Zulassung von Trizivir (EMEA/H/C/000338) zurückgenommen („Withdrawn“). Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-row-20261112-zidovudine-1 -->
 
 ## Sicherheitshinweise
 
@@ -138,6 +144,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Zudem sind in Deutschland nur erloschene Zulassungen vorhanden“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-10-31 | Entfernt: „Bei den Rängen 5 und 6 sind Marktstatus (nur erloschene Zulassungen), Verdrängung durch moderne Kombinations-ART, hämatologische Toxizität u“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Tabelle: Trizivir (EMEA/H/C/000338) ist zurückgenommen, nicht gültig | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

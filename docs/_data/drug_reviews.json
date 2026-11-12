@@ -6757,6 +6757,26 @@
    "anchor": "**Weitere Schritte:**\n- Klärung, ob eine veterinärmedizinische Indikation überhaupt im Projektrahmen liegt\n- Beschaffung der Fachinformation des BfArM (Warnhinweise, Gegenanzeigen)\n- Daten zum Wirkmechanismus (MOA) aus DrugBank\n- Bewertung der Toxizität (u. a. hämatologisch) im Zieltier"
   },
   {
+   "id": "de-row-20261112-zidovudine-1",
+   "drug": "zidovudine",
+   "file": "zidovudine.md",
+   "action": "correct",
+   "claim": "| EMEA/H/C/000338 | Trizivir | nicht angegeben | HIV-Infektionen (gültig) |",
+   "replacement": "| EMEA/H/C/000338 | Trizivir | nicht angegeben | HIV-Infektionen (zurückgenommen) |",
+   "summary": "Tabelle: Trizivir (EMEA/H/C/000338) ist zurückgenommen, nicht gültig",
+   "note": "Laut den EMA-Daten (Stand 2026-11-12) ist die Zulassung von Trizivir (EMEA/H/C/000338) zurückgenommen („Withdrawn“).",
+   "finding": "2026-11-12 每週許可證更新：EMA 資料 Trizivir（EMEA/H/C/000338）由 Authorised 變 Withdrawn；表格列原寫 gültig，排程因頁面矛盾停損；照 EMA 原文改成 zurückgenommen",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（每週排程停損頁）"
+  },
+  {
    "drug": "meloxicam",
    "file": "meloxicam.md",
    "action": "correct",
@@ -7031,7 +7051,7 @@
     {
      "title": "EMA – Medicines output (European public assessment reports)",
      "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
-     "accessed": "2026-11-09"
+     "accessed": "2026-11-12"
     }
    ],
    "checked": "2026-11-12",

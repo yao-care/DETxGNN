@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ABACAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-13
 description: "Abacavir: vorhergesagte neue Indikation Felines erworbenes Immundefizienz-Syndrom (feline acquired immunodeficiency syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: HIV Infections"
 ---
 
@@ -48,8 +48,8 @@ Abacavir ist ein nukleosidischer Reverse-Transkriptase-Hemmer (NRTI), der gegen 
 | Vorhergesagte neue Indikation | Felines erworbenes Immundefizienz-Syndrom (feline acquired immunodeficiency syndrome) |
 | TxGNN-Vorhersagewert | 0,9979 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 4 von 4) |
-| Anzahl der Zulassungen | 4 (gültig: 4) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 4) |
+| Anzahl der Zulassungen | 4 (gültig: 3) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
