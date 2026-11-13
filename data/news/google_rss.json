@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-12T22:37:00.453103+00:00",
+  "fetched_at": "2026-11-13T03:13:08.587669+00:00",
   "source": "Google News Health RSS",
-  "count": 33,
+  "count": 32,
   "articles": [
     {
       "id": "4d4e48dc921b",
@@ -64,6 +64,16 @@
       }
     },
     {
+      "id": "0a7e421787a1",
+      "title": "Barmer-Chef rechnet mit Änderung: Wird die Abnehmspritze bald von der Kasse bezahlt? - Tagesspiegel",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWnhrRlNEbVAtekExVHBieFR0MC1fYl9oN2pxY2lRUmNNZ0N4TXAtSnMyT1h4UFZZWlRfYXp6X25PeFZudExydjZzbXQyVUZzU1NkT2R3MXJ1VndfQXNQVDMwOGE5MHBRMUU3bncxdTFpb0pnbTUyRDF3YTd4c3FMd2dqNXRrbGFZY25kYzVBVVFCUmxwWlN5eXlHeWNxWVh1UkJQbDhCSFg0NEZqenh4WEdHanNLUzBHejQtWjBRUHliUDdKbzVfSjVZVUxxTUlJ?oc=5",
+      "published": "2026-11-12T08:40:11+00:00",
+      "source": {
+        "name": "Tagesspiegel",
+        "url": "https://www.tagesspiegel.de"
+      }
+    },
+    {
       "id": "8af269fbb412",
       "title": "»War­ten Sie nicht auf den Staat« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSGxqWHJteUx5cmNoV3VtS1NScDdFVmFvQkFZNDRWc2ZZQzhVcHlQMS1wWnhjWnRLcTJSbi1aVl9kWjl4WkN4blNOUi1NMlZISVlIaUdGU0xua1JLTVlOUlFuTjQydEMwT2tqaDJzeXhBcF83MjhTQU95WHpNR3RLaGJpZw?oc=5",
@@ -71,26 +81,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "4e6d48112005",
-      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
-      "published": "2026-05-22T07:00:00+00:00",
-      "source": {
-        "name": "Bundesministerium für Gesundheit (BMG)",
-        "url": "https://www.bundesgesundheitsministerium.de"
-      }
-    },
-    {
-      "id": "9fa13ce5acf5",
-      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
-      "published": "2026-03-31T20:25:43+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
       }
     },
     {
@@ -104,83 +94,23 @@
       }
     },
     {
-      "id": "79b090ea448d",
-      "title": "Zahl der Apotheken sinkt weiter: 204 Schließungen in neun Monaten - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNR01SZ2tYRFdkVnJQeDFmdGp5ZldiX1dfcy1EMF9GaHJOUzFYR2gzb2l2RlNLRkU2YXFLTzZhR0FNZGR1N3IzRVEwNGVrdl9xQlU5Vmd4RHZKelJXamp5Q0Z3enZiSmRRT01MVXVHZHJ2aDhCTlJtcVB5Y01FWHZ5U2M1Y2piS3pNT1oydEYxYTR0UzB1NjlLZ2tZSGhoNXlIUjZB?oc=5",
-      "published": "2026-11-11T08:23:05+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "aa6ba7bc2e7c",
-      "title": "BMG-Abteilungsleiter Müller: Weitere Einsparungen bei Arzneimitteln möglich - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMmNQaURqS2pETWxhb2dpRHRQMFBXRGE4b3dNOTRoVUktSGFHNVlvSnU2eXRkdVpqNzFLalN2amdQYk1MM1dZaS1NcGFqaGNCeHdldFZWRXdScVppN3NlZXoyZjZwdmZ2MTZxOTNjY0hROVZMNDdEcUNkdlQwb2tvMWMwdWkxNksxLTZPU1JDUTlCM19ZN0pENVNB?oc=5",
-      "published": "2026-11-05T15:00:50+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "ca85a24f5909",
-      "title": "Verdacht auf Krebs bei Kindern durch Gentherapie - Gesundheit - SZ.de - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQm1McTAxeHBGNWM5VHp2ZjQxdU1RZ3d0emh6WjYzRlVEb05wX3N6cnE3ekMzUExRdVlMcUhMT3hHY0JEZGxCRkplU3piQjl5U2JwZ2NhSnZRa0ZRekVhbzhYSjhKUTliX1h1Ni1rUWtpbzJPSldlQjUxUnNyTDlSbkF1QlNkM3JldkJUbmR4UDZXQQ?oc=5",
-      "published": "2026-11-08T09:21:34+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
-      "id": "9d1c0464616a",
-      "title": "Barmherzige Brüder in Österreich: Medikamentenverrechnung soll nachvollziehbarer werden - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9MOElTZUpGb3Ftdy1WUTNzdi1JNFBIdG5VdGFyR2N0UmxIcXVZQmwyQWlTLS1DOVhHQ2tJV3Rsc01fcVFlMVRYMk5GVDcwcWNfZ2RuanZRc28?oc=5",
-      "published": "2026-11-11T09:59:35+00:00",
-      "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
-      }
-    },
-    {
-      "id": "9f7c377ed6d2",
-      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
-      "published": "2026-04-16T07:55:26+00:00",
+      "id": "9fa13ce5acf5",
+      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
+      "published": "2026-03-31T20:25:43+00:00",
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
       }
     },
     {
-      "id": "eb1edc172299",
-      "title": "Seltene Augenschäden durch Abnehmspritzen? Das steckt dahinter - RND.de",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNek1Nakc4cUl3Uk9lcVZQU0t2eUhMVFZwWU5vOWl2b0RhVEtGM0J4cGZpYk5QV294V3NXNHJKdmVRTkJjSFBoTGVUVmg2Q0JYNmljbFZvY1hSLV9iM0MwYzhUOGNNTXZuS1V2QUZvQUhJTzJVWmtBOVh1c0VzMDd6Rk1YN1h1RXI1WTdaeG1nTkNmNDh1aEpGQkE5c3kwblZ0ZFljb0lBMjRGdlhGTXNqdGY2N0I0Wmd4TkdPd0RoY05abjdtbWdZMy1nUzRsSTFlSG9YdlpjOWo5eWVWR3luME1DTW5lVGs2WnNoanpUdjE5dw?oc=5",
-      "published": "2026-11-11T15:16:36+00:00",
+      "id": "4e6d48112005",
+      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
+      "published": "2026-05-22T07:00:00+00:00",
       "source": {
-        "name": "RND.de",
-        "url": "https://www.rnd.de"
-      }
-    },
-    {
-      "id": "3fc4f32e0f73",
-      "title": "Verstopfte Nase – steckt eine Allergie dahinter? - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZzBmTUdxZmdwMnV1OHBpcjBpWlZoOGI2bUdhUGNCLUdVTXp2cmo3eXRscG9ZSVRfdnBsbWljWS0ydHl6Q3lxMTdIbElrZ2lIYVMtQi0xT3Z1LW5pMnJJUFBEN0lmZU1EQmVRY0FlaXVuNklUV0RJLVV1b2haVGpxOThRQQ?oc=5",
-      "published": "2026-11-11T15:09:50+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "df22134c309d",
-      "title": "31 Prozent weniger Fehltage durch kaltes Duschen? - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdWpFbmZtOVNMUUUzWEdfeERVTnNQVXB6SkxPY0thQzB3ZFRiTTNEbThLU094Q0l2VU1zQ3ZkSFNIa1JfR3lwNzRzS3dLNEwxV0hvWDh4SGtQdTdCM1VqREJxQWp4RV9hcElEWUh2NG9GVGJmUUtvWFFaUXlqMkdvdmZPaFZ3dFZiNXgxdGZSbnB0SU1lUFQzVFZ6bw?oc=5",
-      "published": "2026-11-09T07:33:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
+        "name": "Bundesministerium für Gesundheit (BMG)",
+        "url": "https://www.bundesgesundheitsministerium.de"
       }
     },
     {
@@ -204,13 +134,63 @@
       }
     },
     {
-      "id": "1cb238a2aa77",
-      "title": "Gesundheit wird 2027 teurer: Diese Mehrkosten kommen auf Millionen Versicherte zu - DerWesten",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZS1tbXJ5VGhmb1pvT2s2NlJVOWsza0NEWTljbGt6bldreENERlJvTC13aEdLWW5DVVNFVE92bUNFcEp5NXBJbndneEJ5eGNTYXhENTBERDBZRzY5TkhWdHZ6eVN1eExUQ0FJSF9ZTjZGUVpJV3VRaGhYYmdRb3dfRzA1S09NVTRJWnl2YkhyNlhwVkFrN1hyam03bnVMTTVYTHBEUTF5MkF0WmRBdjNPR2ZuSGYtUQ?oc=5",
-      "published": "2026-11-06T02:33:16+00:00",
+      "id": "79b090ea448d",
+      "title": "Zahl der Apotheken sinkt weiter: 204 Schließungen in neun Monaten - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNR01SZ2tYRFdkVnJQeDFmdGp5ZldiX1dfcy1EMF9GaHJOUzFYR2gzb2l2RlNLRkU2YXFLTzZhR0FNZGR1N3IzRVEwNGVrdl9xQlU5Vmd4RHZKelJXamp5Q0Z3enZiSmRRT01MVXVHZHJ2aDhCTlJtcVB5Y01FWHZ5U2M1Y2piS3pNT1oydEYxYTR0UzB1NjlLZ2tZSGhoNXlIUjZB?oc=5",
+      "published": "2026-11-11T08:23:05+00:00",
       "source": {
-        "name": "DerWesten",
-        "url": "https://www.derwesten.de"
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "aa6ba7bc2e7c",
+      "title": "BMG-Abteilungsleiter Müller: Weitere Einsparungen bei Arzneimitteln möglich - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMmNQaURqS2pETWxhb2dpRHRQMFBXRGE4b3dNOTRoVUktSGFHNVlvSnU2eXRkdVpqNzFLalN2amdQYk1MM1dZaS1NcGFqaGNCeHdldFZWRXdScVppN3NlZXoyZjZwdmZ2MTZxOTNjY0hROVZMNDdEcUNkdlQwb2tvMWMwdWkxNksxLTZPU1JDUTlCM19ZN0pENVNB?oc=5",
+      "published": "2026-11-05T15:00:50+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "eb1edc172299",
+      "title": "Seltene Augenschäden durch Abnehmspritzen? Das steckt dahinter - RND.de",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNek1Nakc4cUl3Uk9lcVZQU0t2eUhMVFZwWU5vOWl2b0RhVEtGM0J4cGZpYk5QV294V3NXNHJKdmVRTkJjSFBoTGVUVmg2Q0JYNmljbFZvY1hSLV9iM0MwYzhUOGNNTXZuS1V2QUZvQUhJTzJVWmtBOVh1c0VzMDd6Rk1YN1h1RXI1WTdaeG1nTkNmNDh1aEpGQkE5c3kwblZ0ZFljb0lBMjRGdlhGTXNqdGY2N0I0Wmd4TkdPd0RoY05abjdtbWdZMy1nUzRsSTFlSG9YdlpjOWo5eWVWR3luME1DTW5lVGs2WnNoanpUdjE5dw?oc=5",
+      "published": "2026-11-11T15:16:36+00:00",
+      "source": {
+        "name": "RND.de",
+        "url": "https://www.rnd.de"
+      }
+    },
+    {
+      "id": "9d1c0464616a",
+      "title": "Barmherzige Brüder in Österreich: Medikamentenverrechnung soll nachvollziehbarer werden - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9MOElTZUpGb3Ftdy1WUTNzdi1JNFBIdG5VdGFyR2N0UmxIcXVZQmwyQWlTLS1DOVhHQ2tJV3Rsc01fcVFlMVRYMk5GVDcwcWNfZ2RuanZRc28?oc=5",
+      "published": "2026-11-11T09:59:35+00:00",
+      "source": {
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
+      }
+    },
+    {
+      "id": "9f7c377ed6d2",
+      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
+      "published": "2026-04-16T07:55:26+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "3fc4f32e0f73",
+      "title": "Verstopfte Nase – steckt eine Allergie dahinter? - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZzBmTUdxZmdwMnV1OHBpcjBpWlZoOGI2bUdhUGNCLUdVTXp2cmo3eXRscG9ZSVRfdnBsbWljWS0ydHl6Q3lxMTdIbElrZ2lIYVMtQi0xT3Z1LW5pMnJJUFBEN0lmZU1EQmVRY0FlaXVuNklUV0RJLVV1b2haVGpxOThRQQ?oc=5",
+      "published": "2026-11-11T15:09:50+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -314,13 +294,13 @@
       }
     },
     {
-      "id": "2eb547a3aa7d",
-      "title": "Pharma-Standortklausel: Kritik an Abschlag von 15,5 Prozent - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcmJ1UV9BLVluZ21pbjNwZWFaY0drN0FITmF1R1l1UnJZcTBOcHhyZXljMVhvQmFnaWloTGY4cnRaOTh6OWZrV2llRTB3M0JyeDdNMDRPQU0xRmc5Mk94aklhN1FwZmNiUzNHWTRKUlM3aE1fZV9udWVQMVQtMFhiYzJhdDgzZl9FMkIyQnBmUDBkSmowN1pkM01JdDAyclBNSkQxMTR5Z2g?oc=5",
-      "published": "2026-11-09T17:33:18+00:00",
+      "id": "5d81cd09e3f7",
+      "title": "Gesundheit - Arzneimittel-Experten: Viagra weiter nicht ohne Rezept - Gesundheit - SZ.de - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWktNUkFDTmVsMmlKeW5kaDAzQjlZUDVuczZyeGo0WExZMTlIUWNzYzVOTllKeVRMZkpvLW9pbGFDRHJScks3dEVTd3BBRW9fWmJ0TFpxbm9SVm9RU2RYdEhHQ29FYmNEdUNuUDRzalRBWGdwNm1NU2J2cUJpRHR2T1hjYmllakVuMDctbkt5bkc3S1ZabGc3eWQ4RVJWS3k3bG96UVJXRFNYenhGSUhvZDhUMDR6Nm9aNmhiaF9DRHM4NnFRZ2IwbEQzNVhfWWpCUjZ2b05iSjUzdmR1SjVNTHMyekNxWk0?oc=5",
+      "published": "2023-07-11T07:00:00+00:00",
       "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
       }
     },
     {
@@ -331,6 +311,16 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "2eb547a3aa7d",
+      "title": "Pharma-Standortklausel: Kritik an Abschlag von 15,5 Prozent - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcmJ1UV9BLVluZ21pbjNwZWFaY0drN0FITmF1R1l1UnJZcTBOcHhyZXljMVhvQmFnaWloTGY4cnRaOTh6OWZrV2llRTB3M0JyeDdNMDRPQU0xRmc5Mk94aklhN1FwZmNiUzNHWTRKUlM3aE1fZV9udWVQMVQtMFhiYzJhdDgzZl9FMkIyQnBmUDBkSmowN1pkM01JdDAyclBNSkQxMTR5Z2g?oc=5",
+      "published": "2026-11-09T17:33:18+00:00",
+      "source": {
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     }
   ]
