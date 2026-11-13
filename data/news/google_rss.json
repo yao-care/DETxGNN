@@ -1,8 +1,28 @@
 {
-  "fetched_at": "2026-11-13T03:13:08.587669+00:00",
+  "fetched_at": "2026-11-13T11:56:05.781993+00:00",
   "source": "Google News Health RSS",
-  "count": 32,
+  "count": 37,
   "articles": [
+    {
+      "id": "684bd5c2ba6a",
+      "title": "Depression: Diese Medikamente helfen auch langfristig - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaElvQS1wZGMwRDRYWGtIWWM2T2lIVGtNWW92Nl9PdlVUNlJmQ3Jhc1RreXhSOEJhMmdDTko0M1Zrb0hPZjVTclA3OEtnUWxMVjVyNnNtcUVSUkppMGxEY1pfQ3V3U3lhWFUtTXppTkl0Y1VZLW5XRnBVM2htaGZPclpGTEhJM2RXUGM3Yl9rSldFdw?oc=5",
+      "published": "2026-11-13T07:35:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "02e962014647",
+      "title": "Bundessozialgericht: Preismoratorium für Tabletten wird nach Wirkstoffmenge berechnet - gesundheit.de",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ3czMjR6elRhUWJVZXJwQ3c5LTIzVUtsaWhsR2tTTGZ6X2VmWkFnSlNsYTAtX2dPdHRnMzJETVdEMFN3WFBTTE5keHJ2V0gtNUM0a2VFY1BhamV4RGNJTThIUGhZSGNoTFYyVndkNFdsWWttWnhsRjc3RWdJQ3FkbWgxTkhBUHBtV3g3M1dObTZHT21wVmpUdlM5emV2dHVHa2VNZjhIZXI5Mnh6RFh4NTJZck52QWZ3QUFHZEFoSXFnNjg?oc=5",
+      "published": "2026-11-13T10:58:00+00:00",
+      "source": {
+        "name": "gesundheit.de",
+        "url": "https://www.gesundheit.de"
+      }
+    },
     {
       "id": "4d4e48dc921b",
       "title": "Welche Antidepressiva sich für eine Langzeitbehandlung eignen - GEO.de",
@@ -14,43 +34,13 @@
       }
     },
     {
-      "id": "799287dc45c5",
-      "title": "Muskelschmerzen durch Statine: Welche Rolle Entzündungen spielen könnten - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUXZEVXE2aTBkZElfSkRxR1NFWHdIc3JEdWgwZGJYaHBnVGZKY2xvVEtuc2Uta3RzTDMzbkdYR3Bhek4wSjA5QUgyNjIyZVp0N0tpUXpVa0o3b25GcnI4ODJIeDNfOGlmX3NobUZpNVNXRXI2MzBkVUxPUlpZbGRJU2ZXZ0g4QXhRT3Z2bVliUF8xTERYTktSb2R4VHN2X29Qamo3NkVkV3hxRzQyOFE?oc=5",
-      "published": "2026-11-12T22:29:30+00:00",
+      "id": "21753de9d21b",
+      "title": "Überteuerte Arzneimittel: WKStA prüft Ermittlungen gegen Barmherzige Brüder - Kurier",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObS1jTTg3UFZjNTZOb255SHl4UVUxLXNHVl9jWExWamFMbFA4c2VlV1ZnczFuWElSUFFlNkFuZHJIN3dKOUlTeFB0dFpSVXJUSkFWbUF6YjVHcENzNFpRT1FpT1BKeWRqazRXVnpqOVlNMmhzVUVXZGQzOWptbEk2aTVHY2FWQ3FQOU0tcjB2UnJneWVkZlNiSDg2ZGZZRi1yM2ltM0lnUU5tQ3c5?oc=5",
+      "published": "2026-11-13T07:49:00+00:00",
       "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "25a990f3e198",
-      "title": "WHO/Europa startet neue Plattform zur Verbesserung des Zugangs zu neuen und innovativen Arzneimitteln - World Health Organization (WHO)",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWk1McHJHbktrVFhSM2Q4OGZCejQ3cldFUmhKLVZ4QzNvOXpvNmZnRURHSFQ4d2xCYUsxUmRYUFY2TEY0c0VIS0VtNm9saGUwTHBkaktGZzRCazZVUGVvS1JtZGJERW1lNDZ2VGE3M0xLTnQ2T2czdHJRal9Ra2RLZ2R5NUpEcUNVREtkYlNGQ0ZhN1JZb0k4N0xJWS05SnBxQjNkOGZYWTJ4Tjk2Rnh0Wm1URVF4TU01SXJ4d05mXzhOdnZWMDlNZkZFVTV1dw?oc=5",
-      "published": "2026-11-10T08:00:00+00:00",
-      "source": {
-        "name": "World Health Organization (WHO)",
-        "url": "https://www.who.int"
-      }
-    },
-    {
-      "id": "304dfe385abf",
-      "title": "Lipoprotein(a): Neues Medikament senkt Wert um 75 Prozent – doch Patienten hatten nichts davon - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT2d4alNJTHVkWmY5azlhZzYxTGpWUXRHVFdVb2Z1ajhGVjk5aE81VGtkVFh6SWs2YS1lVzZrWGI5SUpCRnQ5Zk1vNURIaElsMkpJTzFIdlpxcDBoOGc5UXJMWU1FbzdzSEJmVGNPYmZBZ1l6Q0x0MHpCYktkQ0tiQjVHQVlmZjFuZXdZc1Q2eTNtX1IxdjRMSFYyXzZLUkhxVEl4U3RfeVpaWTk0UFBYaXBCVGhmUHRqMlBkTHpJTkNoNi1vN0xJ?oc=5",
-      "published": "2026-11-12T12:12:09+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
-      "id": "ffbdd972fa76",
-      "title": "Krankenkassen uneins zur Abnehmspritze als Kassenleistung - Ihre Vorsorge",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOG1GbzJsYUxuWF9YeV95SVZNUU43dmVZRXRDbjVlajlCUy1mZkNiR24yenVybXlIQTFXcjhabUNPc3ladkkxb2ljQTU4WVlSSDdmRVBDYjM2RGg2OWVDTkc2dERKVmViTjUySlpzMDZFRlJJVFZJOExIbm81cC1uU1RXUFJpNDFUTUNiSldZc1lvSzFkeFFmUWRuTFV4bnNQc2k2ZQ?oc=5",
-      "published": "2026-11-12T09:01:12+00:00",
-      "source": {
-        "name": "Ihre Vorsorge",
-        "url": "https://www.ihre-vorsorge.de"
+        "name": "Kurier",
+        "url": "https://kurier.at"
       }
     },
     {
@@ -64,16 +54,6 @@
       }
     },
     {
-      "id": "0a7e421787a1",
-      "title": "Barmer-Chef rechnet mit Änderung: Wird die Abnehmspritze bald von der Kasse bezahlt? - Tagesspiegel",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWnhrRlNEbVAtekExVHBieFR0MC1fYl9oN2pxY2lRUmNNZ0N4TXAtSnMyT1h4UFZZWlRfYXp6X25PeFZudExydjZzbXQyVUZzU1NkT2R3MXJ1VndfQXNQVDMwOGE5MHBRMUU3bncxdTFpb0pnbTUyRDF3YTd4c3FMd2dqNXRrbGFZY25kYzVBVVFCUmxwWlN5eXlHeWNxWVh1UkJQbDhCSFg0NEZqenh4WEdHanNLUzBHejQtWjBRUHliUDdKbzVfSjVZVUxxTUlJ?oc=5",
-      "published": "2026-11-12T08:40:11+00:00",
-      "source": {
-        "name": "Tagesspiegel",
-        "url": "https://www.tagesspiegel.de"
-      }
-    },
-    {
       "id": "8af269fbb412",
       "title": "»War­ten Sie nicht auf den Staat« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSGxqWHJteUx5cmNoV3VtS1NScDdFVmFvQkFZNDRWc2ZZQzhVcHlQMS1wWnhjWnRLcTJSbi1aVl9kWjl4WkN4blNOUi1NMlZISVlIaUdGU0xua1JLTVlOUlFuTjQydEMwT2tqaDJzeXhBcF83MjhTQU95WHpNR3RLaGJpZw?oc=5",
@@ -84,13 +64,53 @@
       }
     },
     {
-      "id": "aac68e97941d",
-      "title": "Abnehmspritze: Was Wegovy, Mounjaro und Co. aktuell ohne Kassenleistung kosten - RND.de",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNemdXT3h1X2VWb2NLOVlpeF9LQUY0ZmJpS05KZFFCSk1wbldMTE9makI3YmxSZG5DNmFaUmlTSlNZa2dzZUZJVmNkY2JfYU51UDU5Y2U5bFp0V2FJUnFBNlF2V0poMWRmTF9SZTB2X3F4MWg4N1VCd29PdVM1b0QzWFpETEZZTjJKRmtRZmwxT1NhYmV4ODRPYnJEWm1EVnhTcmhxUl9PTzg3Vmc4WW1vcHhtMWxPMkJyZVcxd2tQbzRQeTF0cXl4R2hpZVZxTEk?oc=5",
-      "published": "2026-11-12T14:42:52+00:00",
+      "id": "ffbdd972fa76",
+      "title": "Krankenkassen uneins zur Abnehmspritze als Kassenleistung - Ihre Vorsorge",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOG1GbzJsYUxuWF9YeV95SVZNUU43dmVZRXRDbjVlajlCUy1mZkNiR24yenVybXlIQTFXcjhabUNPc3ladkkxb2ljQTU4WVlSSDdmRVBDYjM2RGg2OWVDTkc2dERKVmViTjUySlpzMDZFRlJJVFZJOExIbm81cC1uU1RXUFJpNDFUTUNiSldZc1lvSzFkeFFmUWRuTFV4bnNQc2k2ZQ?oc=5",
+      "published": "2026-11-12T09:01:12+00:00",
+      "source": {
+        "name": "Ihre Vorsorge",
+        "url": "https://www.ihre-vorsorge.de"
+      }
+    },
+    {
+      "id": "eb1edc172299",
+      "title": "Seltene Augenschäden durch Abnehmspritzen? Das steckt dahinter - RND.de",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNek1Nakc4cUl3Uk9lcVZQU0t2eUhMVFZwWU5vOWl2b0RhVEtGM0J4cGZpYk5QV294V3NXNHJKdmVRTkJjSFBoTGVUVmg2Q0JYNmljbFZvY1hSLV9iM0MwYzhUOGNNTXZuS1V2QUZvQUhJTzJVWmtBOVh1c0VzMDd6Rk1YN1h1RXI1WTdaeG1nTkNmNDh1aEpGQkE5c3kwblZ0ZFljb0lBMjRGdlhGTXNqdGY2N0I0Wmd4TkdPd0RoY05abjdtbWdZMy1nUzRsSTFlSG9YdlpjOWo5eWVWR3luME1DTW5lVGs2WnNoanpUdjE5dw?oc=5",
+      "published": "2026-11-11T15:16:36+00:00",
       "source": {
         "name": "RND.de",
         "url": "https://www.rnd.de"
+      }
+    },
+    {
+      "id": "304dfe385abf",
+      "title": "Lipoprotein(a): Neues Medikament senkt Wert um 75 Prozent – doch Patienten hatten nichts davon - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT2d4alNJTHVkWmY5azlhZzYxTGpWUXRHVFdVb2Z1ajhGVjk5aE81VGtkVFh6SWs2YS1lVzZrWGI5SUpCRnQ5Zk1vNURIaElsMkpJTzFIdlpxcDBoOGc5UXJMWU1FbzdzSEJmVGNPYmZBZ1l6Q0x0MHpCYktkQ0tiQjVHQVlmZjFuZXdZc1Q2eTNtX1IxdjRMSFYyXzZLUkhxVEl4U3RfeVpaWTk0UFBYaXBCVGhmUHRqMlBkTHpJTkNoNi1vN0xJ?oc=5",
+      "published": "2026-11-12T12:12:09+00:00",
+      "source": {
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
+      }
+    },
+    {
+      "id": "0a7e421787a1",
+      "title": "Barmer-Chef rechnet mit Änderung: Wird die Abnehmspritze bald von der Kasse bezahlt? - Tagesspiegel",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWnhrRlNEbVAtekExVHBieFR0MC1fYl9oN2pxY2lRUmNNZ0N4TXAtSnMyT1h4UFZZWlRfYXp6X25PeFZudExydjZzbXQyVUZzU1NkT2R3MXJ1VndfQXNQVDMwOGE5MHBRMUU3bncxdTFpb0pnbTUyRDF3YTd4c3FMd2dqNXRrbGFZY25kYzVBVVFCUmxwWlN5eXlHeWNxWVh1UkJQbDhCSFg0NEZqenh4WEdHanNLUzBHejQtWjBRUHliUDdKbzVfSjVZVUxxTUlJ?oc=5",
+      "published": "2026-11-12T08:40:11+00:00",
+      "source": {
+        "name": "Tagesspiegel",
+        "url": "https://www.tagesspiegel.de"
+      }
+    },
+    {
+      "id": "c0df28bcd1df",
+      "title": "Krankenkasse 2027: Zuzahlungen steigen – Warnbriefe bei Beitragserhöhung entfallen - Nord24",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZ0ZyQ1pOSExBcTFwbjlJZFNfblg2QTJxc3NycnFQeDdqWWtSV0x2VlpTZ0hvdTFLYUZVckRvb3lLSHVadEtsT2s4MVpWajE0LWJxek9uZTg3cFNQQW1jNkNIUjZ3Z3ZISS1UQlg5VXNtVjR2ektRbVVnbkEtbEVxaGROWmNNY2YyLVNXbEtfUkRTLVFVRkpIZFZFaEc0djBveDJuUzMxdXpJUDdHTmEzU05fS0RmRVNEY21FRk55WQ?oc=5",
+      "published": "2026-11-13T10:16:00+00:00",
+      "source": {
+        "name": "Nord24",
+        "url": "https://www.nord24.de"
       }
     },
     {
@@ -114,53 +134,13 @@
       }
     },
     {
-      "id": "c16aef2e9212",
-      "title": "Warum gibt es die Abnehmspritze nur für Privatpatienten? - Augsburger Allgemeine",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQRHViandLb21OclV1Y2xjSFpSQTg4ZlJueEdzaGpQdmh5TkJFRGdLYmRmQ3VQVXNNUElEbTFxOWt2Tm1ITjJ6NHdJM1NodzVIZUpLVDNxak8tVEoxdFJiMUlIMEFIMVRZUzN2OWhuUkU2MHMwWXdSdXVxTmpMSWJoUHk2T2xNZ1B5ZDdLRmNZbUhDV0lxMkJMellOeGhMQ2ZLMU85WlA0Mms1Um9xMmt0VU5VYlVUR05RQzU1cHF5QTNOaWNoelU5VzZqQVRiQzQ3MTNkYTN5cVRleExrM2c?oc=5",
-      "published": "2026-11-07T02:00:00+00:00",
-      "source": {
-        "name": "Augsburger Allgemeine",
-        "url": "https://www.augsburger-allgemeine.de"
-      }
-    },
-    {
-      "id": "2a4cd6eb6d1d",
-      "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
-      "published": "2026-03-31T07:00:00+00:00",
-      "source": {
-        "name": "European Parliament",
-        "url": "https://www.europarl.europa.eu"
-      }
-    },
-    {
-      "id": "79b090ea448d",
-      "title": "Zahl der Apotheken sinkt weiter: 204 Schließungen in neun Monaten - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNR01SZ2tYRFdkVnJQeDFmdGp5ZldiX1dfcy1EMF9GaHJOUzFYR2gzb2l2RlNLRkU2YXFLTzZhR0FNZGR1N3IzRVEwNGVrdl9xQlU5Vmd4RHZKelJXamp5Q0Z3enZiSmRRT01MVXVHZHJ2aDhCTlJtcVB5Y01FWHZ5U2M1Y2piS3pNT1oydEYxYTR0UzB1NjlLZ2tZSGhoNXlIUjZB?oc=5",
-      "published": "2026-11-11T08:23:05+00:00",
+      "id": "799287dc45c5",
+      "title": "Muskelschmerzen durch Statine: Welche Rolle Entzündungen spielen könnten - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUXZEVXE2aTBkZElfSkRxR1NFWHdIc3JEdWgwZGJYaHBnVGZKY2xvVEtuc2Uta3RzTDMzbkdYR3Bhek4wSjA5QUgyNjIyZVp0N0tpUXpVa0o3b25GcnI4ODJIeDNfOGlmX3NobUZpNVNXRXI2MzBkVUxPUlpZbGRJU2ZXZ0g4QXhRT3Z2bVliUF8xTERYTktSb2R4VHN2X29Qamo3NkVkV3hxRzQyOFE?oc=5",
+      "published": "2026-11-12T22:29:30+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "aa6ba7bc2e7c",
-      "title": "BMG-Abteilungsleiter Müller: Weitere Einsparungen bei Arzneimitteln möglich - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMmNQaURqS2pETWxhb2dpRHRQMFBXRGE4b3dNOTRoVUktSGFHNVlvSnU2eXRkdVpqNzFLalN2amdQYk1MM1dZaS1NcGFqaGNCeHdldFZWRXdScVppN3NlZXoyZjZwdmZ2MTZxOTNjY0hROVZMNDdEcUNkdlQwb2tvMWMwdWkxNksxLTZPU1JDUTlCM19ZN0pENVNB?oc=5",
-      "published": "2026-11-05T15:00:50+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "eb1edc172299",
-      "title": "Seltene Augenschäden durch Abnehmspritzen? Das steckt dahinter - RND.de",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNek1Nakc4cUl3Uk9lcVZQU0t2eUhMVFZwWU5vOWl2b0RhVEtGM0J4cGZpYk5QV294V3NXNHJKdmVRTkJjSFBoTGVUVmg2Q0JYNmljbFZvY1hSLV9iM0MwYzhUOGNNTXZuS1V2QUZvQUhJTzJVWmtBOVh1c0VzMDd6Rk1YN1h1RXI1WTdaeG1nTkNmNDh1aEpGQkE5c3kwblZ0ZFljb0lBMjRGdlhGTXNqdGY2N0I0Wmd4TkdPd0RoY05abjdtbWdZMy1nUzRsSTFlSG9YdlpjOWo5eWVWR3luME1DTW5lVGs2WnNoanpUdjE5dw?oc=5",
-      "published": "2026-11-11T15:16:36+00:00",
-      "source": {
-        "name": "RND.de",
-        "url": "https://www.rnd.de"
       }
     },
     {
@@ -184,6 +164,26 @@
       }
     },
     {
+      "id": "7446024d9dde",
+      "title": "Statine ab 70: Cholesterinsenker mindern Herz-Kreislauf-Risiko um 30 Prozent - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNnp0LWVvSDVaTzhCeVFlb3l4My1qektzYXcxRmtNTzFzdjZkUl9QdWpoc2YwVmNfSlE0eEQ2eFNqS1l6T1FvVXhSRkFSZkFqOGh4S19MM29WeE9INGN4QXl4d296TzVSRnowRmxETld0VWpQcjl2U1RGNVNZNndjczlGRl9vbnAtbl93VmZXRzhwM2ZDamczRmRlamo0YUItRFNXWF9FZjcyc1hDMnlJRA?oc=5",
+      "published": "2026-11-11T23:24:44+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "79b090ea448d",
+      "title": "Zahl der Apotheken sinkt weiter: 204 Schließungen in neun Monaten - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNR01SZ2tYRFdkVnJQeDFmdGp5ZldiX1dfcy1EMF9GaHJOUzFYR2gzb2l2RlNLRkU2YXFLTzZhR0FNZGR1N3IzRVEwNGVrdl9xQlU5Vmd4RHZKelJXamp5Q0Z3enZiSmRRT01MVXVHZHJ2aDhCTlJtcVB5Y01FWHZ5U2M1Y2piS3pNT1oydEYxYTR0UzB1NjlLZ2tZSGhoNXlIUjZB?oc=5",
+      "published": "2026-11-11T08:23:05+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
       "id": "3fc4f32e0f73",
       "title": "Verstopfte Nase – steckt eine Allergie dahinter? - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZzBmTUdxZmdwMnV1OHBpcjBpWlZoOGI2bUdhUGNCLUdVTXp2cmo3eXRscG9ZSVRfdnBsbWljWS0ydHl6Q3lxMTdIbElrZ2lIYVMtQi0xT3Z1LW5pMnJJUFBEN0lmZU1EQmVRY0FlaXVuNklUV0RJLVV1b2haVGpxOThRQQ?oc=5",
@@ -191,6 +191,26 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "aac68e97941d",
+      "title": "Abnehmspritze: Was Wegovy, Mounjaro und Co. aktuell ohne Kassenleistung kosten - RND.de",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNemdXT3h1X2VWb2NLOVlpeF9LQUY0ZmJpS05KZFFCSk1wbldMTE9makI3YmxSZG5DNmFaUmlTSlNZa2dzZUZJVmNkY2JfYU51UDU5Y2U5bFp0V2FJUnFBNlF2V0poMWRmTF9SZTB2X3F4MWg4N1VCd29PdVM1b0QzWFpETEZZTjJKRmtRZmwxT1NhYmV4ODRPYnJEWm1EVnhTcmhxUl9PTzg3Vmc4WW1vcHhtMWxPMkJyZVcxd2tQbzRQeTF0cXl4R2hpZVZxTEk?oc=5",
+      "published": "2026-11-12T14:42:52+00:00",
+      "source": {
+        "name": "RND.de",
+        "url": "https://www.rnd.de"
+      }
+    },
+    {
+      "id": "2a4cd6eb6d1d",
+      "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
+      "published": "2026-03-31T07:00:00+00:00",
+      "source": {
+        "name": "European Parliament",
+        "url": "https://www.europarl.europa.eu"
       }
     },
     {
@@ -304,6 +324,16 @@
       }
     },
     {
+      "id": "c438dd072741",
+      "title": "Ermittlungen zu Medikamentenpreisen laufen - ooe.ORF.at",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5rRVNoVFdYSHJGTklfOTlzN1Q4QXpJX3N1WUFlQVdFR0Q0eFQxZW83bEtwWWgzbGJmd1o0UlhzcmhIQ2thTFVVdjJEWQ?oc=5",
+      "published": "2026-11-12T11:54:05+00:00",
+      "source": {
+        "name": "ooe.ORF.at",
+        "url": "https://ooe.orf.at"
+      }
+    },
+    {
       "id": "112bb805d0bc",
       "title": "Gesundheit: Arzneimittel Roactemra erhält EU-Zulassung bei Covid-19 - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVnhLZzlVX2gyNUNFTjJhdnZpVGFyM2tRRVdQR3RnMDV4U0lxUkNRdl9VRmMtN2xKbm9ZWTQ5OFlYOVQtRm8yT2xZb2dNcDVQaFV4eHBuVFZBa19pU0NqSERvUUYtaVRyMElkMHRRT0RjZGVrMUtZb3lCdkFFcDgxbkVzZ3JYWlZzeEdHLWFuQlZpbl9VUWZB?oc=5",
@@ -318,6 +348,26 @@
       "title": "Pharma-Standortklausel: Kritik an Abschlag von 15,5 Prozent - ad-hoc-news.de",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcmJ1UV9BLVluZ21pbjNwZWFaY0drN0FITmF1R1l1UnJZcTBOcHhyZXljMVhvQmFnaWloTGY4cnRaOTh6OWZrV2llRTB3M0JyeDdNMDRPQU0xRmc5Mk94aklhN1FwZmNiUzNHWTRKUlM3aE1fZV9udWVQMVQtMFhiYzJhdDgzZl9FMkIyQnBmUDBkSmowN1pkM01JdDAyclBNSkQxMTR5Z2g?oc=5",
       "published": "2026-11-09T17:33:18+00:00",
+      "source": {
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
+      "id": "1eb6e283e6bc",
+      "title": "Barmherzige Brüder im Visier: WKStA prüft möglichen Millionenschaden - KOSMO | Eine starke Verbindung!",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeVI3UzEtX1IyMGdmaV9Oam9tZHBWN0lqRDRiRUpaeVJjZGlsMUdHUlhxWkVpYzYxVlM4MmRkX3c0TWM2QVFtMHFEMXlIdUEtamQ1cnRMaDY3VzVldGtXcUF2dFJlZlVVTndLQ0VpdVo1R3M2MzdhenJCUFQxSi1Dczhvd3BibmVyZG9CcE5OdXRLMjFsanpn?oc=5",
+      "published": "2026-11-13T09:25:33+00:00",
+      "source": {
+        "name": "KOSMO | Eine starke Verbindung!",
+        "url": "https://www.kosmo.at"
+      }
+    },
+    {
+      "id": "01c5e83f368d",
+      "title": "Herzinsuffizienz-Medikamente: Ausgaben in Sachsen-Anhalt steigen um 121 Prozent - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWmdBTkU4NjB5bWZJOWpDZTJiNjVoTGdMbEt6U1Zfc2JFeDJwb01maW5DTkVlNFZSUE9USFAwZEg1TFpXY2pVY3NZVnhMNmpRQkdKU0pocURSOFZQVVFBMzlJUmZaZEJ0bmdEUnRHT0dLTEhzekZ1d1ExTHVEYUEwTXNha1pXZVdLdk16elRteFh6bmNxdkx1S3hBZ3ZuLW5PaTRFMUZkR1hVREtOSzFjNXdQc09rdzZwbGJsSFZLMy1hNGZ4V1E?oc=5",
+      "published": "2026-11-13T04:09:33+00:00",
       "source": {
         "name": "ad-hoc-news.de",
         "url": "https://www.ad-hoc-news.de"
