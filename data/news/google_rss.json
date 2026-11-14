@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-14T00:44:23.560997+00:00",
+  "fetched_at": "2026-11-14T07:25:53.258950+00:00",
   "source": "Google News Health RSS",
-  "count": 36,
+  "count": 35,
   "articles": [
     {
       "id": "684bd5c2ba6a",
@@ -14,13 +14,13 @@
       }
     },
     {
-      "id": "56ba096da637",
-      "title": "Deutscher Pflegetag 2026: So gelingt Interprofessionalität - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSDNfaTFIMklPcFJmZThzUEl4ak9Ucmh2YkFiR0M4aVdIdlFDSnZyQnQ5SGFQM3NhYjl3UGdWN2pZOUZNY3VTdUZ6NkVIanZETXltbkxReGNHR19VNTVVRGxfa1ZZZkhXd1RkMFA0R0dDOHhPdDlodl9BQjBfdHl1YzVaVTA2Wkk?oc=5",
-      "published": "2026-11-13T14:10:10+00:00",
+      "id": "4063c0d5a05f",
+      "title": "Verhinderung von Produktfälschungen im Gesundheitssektor. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBNT0NKa25nWUhwVVVNa09EcjBQaEZzNGd3ay0ydk9aQ1Y5NnNQUzE5R1YzSFBSRURRYnBqdG00eHRadElNQWRsek1iZjVmNUdSVTZjRmNsRkZ1SHhCaW8zSkNXajJwM0hSQlU1RHpnS3MwUQ?oc=5",
+      "published": "2026-11-14T03:03:28+00:00",
       "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -34,13 +34,13 @@
       }
     },
     {
-      "id": "02e962014647",
-      "title": "Bundessozialgericht: Preismoratorium für Tabletten wird nach Wirkstoffmenge berechnet - gesundheit.de",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ3czMjR6elRhUWJVZXJwQ3c5LTIzVUtsaWhsR2tTTGZ6X2VmWkFnSlNsYTAtX2dPdHRnMzJETVdEMFN3WFBTTE5keHJ2V0gtNUM0a2VFY1BhamV4RGNJTThIUGhZSGNoTFYyVndkNFdsWWttWnhsRjc3RWdJQ3FkbWgxTkhBUHBtV3g3M1dObTZHT21wVmpUdlM5emV2dHVHa2VNZjhIZXI5Mnh6RFh4NTJZck52QWZ3QUFHZEFoSXFnNjg?oc=5",
-      "published": "2026-11-13T10:58:00+00:00",
+      "id": "56ba096da637",
+      "title": "Deutscher Pflegetag 2026: So gelingt Interprofessionalität - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSDNfaTFIMklPcFJmZThzUEl4ak9Ucmh2YkFiR0M4aVdIdlFDSnZyQnQ5SGFQM3NhYjl3UGdWN2pZOUZNY3VTdUZ6NkVIanZETXltbkxReGNHR19VNTVVRGxfa1ZZZkhXd1RkMFA0R0dDOHhPdDlodl9BQjBfdHl1YzVaVTA2Wkk?oc=5",
+      "published": "2026-11-13T14:10:10+00:00",
       "source": {
-        "name": "gesundheit.de",
-        "url": "https://www.gesundheit.de"
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -51,6 +51,16 @@
       "source": {
         "name": "RND.de",
         "url": "https://www.rnd.de"
+      }
+    },
+    {
+      "id": "02e962014647",
+      "title": "Bundessozialgericht: Preismoratorium für Tabletten wird nach Wirkstoffmenge berechnet - gesundheit.de",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ3czMjR6elRhUWJVZXJwQ3c5LTIzVUtsaWhsR2tTTGZ6X2VmWkFnSlNsYTAtX2dPdHRnMzJETVdEMFN3WFBTTE5keHJ2V0gtNUM0a2VFY1BhamV4RGNJTThIUGhZSGNoTFYyVndkNFdsWWttWnhsRjc3RWdJQ3FkbWgxTkhBUHBtV3g3M1dObTZHT21wVmpUdlM5emV2dHVHa2VNZjhIZXI5Mnh6RFh4NTJZck52QWZ3QUFHZEFoSXFnNjg?oc=5",
+      "published": "2026-11-13T10:58:00+00:00",
+      "source": {
+        "name": "gesundheit.de",
+        "url": "https://www.gesundheit.de"
       }
     },
     {
@@ -84,13 +94,13 @@
       }
     },
     {
-      "id": "21753de9d21b",
-      "title": "Überteuerte Arzneimittel: WKStA prüft Ermittlungen gegen Barmherzige Brüder - Kurier",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObS1jTTg3UFZjNTZOb255SHl4UVUxLXNHVl9jWExWamFMbFA4c2VlV1ZnczFuWElSUFFlNkFuZHJIN3dKOUlTeFB0dFpSVXJUSkFWbUF6YjVHcENzNFpRT1FpT1BKeWRqazRXVnpqOVlNMmhzVUVXZGQzOWptbEk2aTVHY2FWQ3FQOU0tcjB2UnJneWVkZlNiSDg2ZGZZRi1yM2ltM0lnUU5tQ3c5?oc=5",
-      "published": "2026-11-13T07:49:00+00:00",
+      "id": "9fa13ce5acf5",
+      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
+      "published": "2026-03-31T20:25:43+00:00",
       "source": {
-        "name": "Kurier",
-        "url": "https://kurier.at"
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -104,16 +114,6 @@
       }
     },
     {
-      "id": "9fa13ce5acf5",
-      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
-      "published": "2026-03-31T20:25:43+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
       "id": "4e6d48112005",
       "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
@@ -124,13 +124,13 @@
       }
     },
     {
-      "id": "c0df28bcd1df",
-      "title": "Krankenkasse 2027: Zuzahlungen steigen – Warnbriefe bei Beitragserhöhung entfallen - Nord24",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZ0ZyQ1pOSExBcTFwbjlJZFNfblg2QTJxc3NycnFQeDdqWWtSV0x2VlpTZ0hvdTFLYUZVckRvb3lLSHVadEtsT2s4MVpWajE0LWJxek9uZTg3cFNQQW1jNkNIUjZ3Z3ZISS1UQlg5VXNtVjR2ektRbVVnbkEtbEVxaGROWmNNY2YyLVNXbEtfUkRTLVFVRkpIZFZFaEc0djBveDJuUzMxdXpJUDdHTmEzU05fS0RmRVNEY21FRk55WQ?oc=5",
-      "published": "2026-11-13T10:16:00+00:00",
+      "id": "21753de9d21b",
+      "title": "Überteuerte Arzneimittel: WKStA prüft Ermittlungen gegen Barmherzige Brüder - Kurier",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObS1jTTg3UFZjNTZOb255SHl4UVUxLXNHVl9jWExWamFMbFA4c2VlV1ZnczFuWElSUFFlNkFuZHJIN3dKOUlTeFB0dFpSVXJUSkFWbUF6YjVHcENzNFpRT1FpT1BKeWRqazRXVnpqOVlNMmhzVUVXZGQzOWptbEk2aTVHY2FWQ3FQOU0tcjB2UnJneWVkZlNiSDg2ZGZZRi1yM2ltM0lnUU5tQ3c5?oc=5",
+      "published": "2026-11-13T07:49:00+00:00",
       "source": {
-        "name": "Nord24",
-        "url": "https://www.nord24.de"
+        "name": "Kurier",
+        "url": "https://kurier.at"
       }
     },
     {
@@ -144,23 +144,13 @@
       }
     },
     {
-      "id": "8af269fbb412",
-      "title": "»War­ten Sie nicht auf den Staat« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSGxqWHJteUx5cmNoV3VtS1NScDdFVmFvQkFZNDRWc2ZZQzhVcHlQMS1wWnhjWnRLcTJSbi1aVl9kWjl4WkN4blNOUi1NMlZISVlIaUdGU0xua1JLTVlOUlFuTjQydEMwT2tqaDJzeXhBcF83MjhTQU95WHpNR3RLaGJpZw?oc=5",
-      "published": "2026-11-10T19:55:09+00:00",
+      "id": "c0df28bcd1df",
+      "title": "Krankenkasse 2027: Zuzahlungen steigen – Warnbriefe bei Beitragserhöhung entfallen - Nord24",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZ0ZyQ1pOSExBcTFwbjlJZFNfblg2QTJxc3NycnFQeDdqWWtSV0x2VlpTZ0hvdTFLYUZVckRvb3lLSHVadEtsT2s4MVpWajE0LWJxek9uZTg3cFNQQW1jNkNIUjZ3Z3ZISS1UQlg5VXNtVjR2ektRbVVnbkEtbEVxaGROWmNNY2YyLVNXbEtfUkRTLVFVRkpIZFZFaEc0djBveDJuUzMxdXpJUDdHTmEzU05fS0RmRVNEY21FRk55WQ?oc=5",
+      "published": "2026-11-13T10:16:00+00:00",
       "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "7446024d9dde",
-      "title": "Statine ab 70: Cholesterinsenker mindern Herz-Kreislauf-Risiko um 30 Prozent - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNnp0LWVvSDVaTzhCeVFlb3l4My1qektzYXcxRmtNTzFzdjZkUl9QdWpoc2YwVmNfSlE0eEQ2eFNqS1l6T1FvVXhSRkFSZkFqOGh4S19MM29WeE9INGN4QXl4d296TzVSRnowRmxETld0VWpQcjl2U1RGNVNZNndjczlGRl9vbnAtbl93VmZXRzhwM2ZDamczRmRlamo0YUItRFNXWF9FZjcyc1hDMnlJRA?oc=5",
-      "published": "2026-11-11T23:24:44+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
+        "name": "Nord24",
+        "url": "https://www.nord24.de"
       }
     },
     {
@@ -344,20 +334,20 @@
       }
     },
     {
-      "id": "57729500f8b0",
-      "title": "Entzündungshemmende Lebensmittel: Nur wenige senken Marker beim Menschen - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPemZNR1dmMUNzeWF4S2V6amJyWXJNTDhZNmZpOUJHMEM2UVRYaklzR1hicXdCSnZNU0NfUldQQ0FMSlNsSTMwc2tmV0IydHNTRllMMlVSM3VOajRtMGlCTlh6NWMtRnppQU44RTdtRldocGtVYTRURHUtal9ZNFN6Rm40NGhocERWTlBYdHFhWXlTVlFqcFd1X0NuLVFWQkR3c2IyaVNwSThiU0tsRXFPSnhWbi1pMXczSjB6Qjl3?oc=5",
-      "published": "2026-11-13T21:39:12+00:00",
+      "id": "01c5e83f368d",
+      "title": "Herzinsuffizienz-Medikamente: Ausgaben in Sachsen-Anhalt steigen um 121 Prozent - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWmdBTkU4NjB5bWZJOWpDZTJiNjVoTGdMbEt6U1Zfc2JFeDJwb01maW5DTkVlNFZSUE9USFAwZEg1TFpXY2pVY3NZVnhMNmpRQkdKU0pocURSOFZQVVFBMzlJUmZaZEJ0bmdEUnRHT0dLTEhzekZ1d1ExTHVEYUEwTXNha1pXZVdLdk16elRteFh6bmNxdkx1S3hBZ3ZuLW5PaTRFMUZkR1hVREtOSzFjNXdQc09rdzZwbGJsSFZLMy1hNGZ4V1E?oc=5",
+      "published": "2026-11-13T04:09:33+00:00",
       "source": {
         "name": "ad-hoc-news.de",
         "url": "https://www.ad-hoc-news.de"
       }
     },
     {
-      "id": "01c5e83f368d",
-      "title": "Herzinsuffizienz-Medikamente: Ausgaben in Sachsen-Anhalt steigen um 121 Prozent - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWmdBTkU4NjB5bWZJOWpDZTJiNjVoTGdMbEt6U1Zfc2JFeDJwb01maW5DTkVlNFZSUE9USFAwZEg1TFpXY2pVY3NZVnhMNmpRQkdKU0pocURSOFZQVVFBMzlJUmZaZEJ0bmdEUnRHT0dLTEhzekZ1d1ExTHVEYUEwTXNha1pXZVdLdk16elRteFh6bmNxdkx1S3hBZ3ZuLW5PaTRFMUZkR1hVREtOSzFjNXdQc09rdzZwbGJsSFZLMy1hNGZ4V1E?oc=5",
-      "published": "2026-11-13T04:09:33+00:00",
+      "id": "57729500f8b0",
+      "title": "Entzündungshemmende Lebensmittel: Nur wenige senken Marker beim Menschen - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPemZNR1dmMUNzeWF4S2V6amJyWXJNTDhZNmZpOUJHMEM2UVRYaklzR1hicXdCSnZNU0NfUldQQ0FMSlNsSTMwc2tmV0IydHNTRllMMlVSM3VOajRtMGlCTlh6NWMtRnppQU44RTdtRldocGtVYTRURHUtal9ZNFN6Rm40NGhocERWTlBYdHFhWXlTVlFqcFd1X0NuLVFWQkR3c2IyaVNwSThiU0tsRXFPSnhWbi1pMXczSjB6Qjl3?oc=5",
+      "published": "2026-11-13T21:39:12+00:00",
       "source": {
         "name": "ad-hoc-news.de",
         "url": "https://www.ad-hoc-news.de"
