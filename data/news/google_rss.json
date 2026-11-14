@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-11-14T07:25:53.258950+00:00",
+  "fetched_at": "2026-11-14T14:50:30.089280+00:00",
   "source": "Google News Health RSS",
-  "count": 35,
+  "count": 34,
   "articles": [
+    {
+      "id": "6809fc165f08",
+      "title": "Rabattvertrag schlägt Rezept: Apotheken verlieren Spielraum bei Medikamenten - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUUhhNWxETEI5YjBiOGk2STlISWFPT0tCc3Z5YWJLdGxWVld0R1pzWGt3QUJ1R1F0SkhnbHRma3I0aWZFMDgwVWk4NlVHVjVZNWs4WE0xVDFudk9oeG16NzFMekh3QjNxVlpMeHFCRktmU2xDdE1jWDl0eFhIb2lobTJqSUdZY1NSVzl0YkJiVlBNNHVsTUF4WWNrWGpNM0lFcGVWWkZidXJzMmlZRUZ3SlJiN2pPeHh1eVZXd085UXdnSFpEU1EtaXRHUVZQY1d0MTVv?oc=5",
+      "published": "2026-11-14T10:03:48+00:00",
+      "source": {
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
+      }
+    },
     {
       "id": "684bd5c2ba6a",
       "title": "Depression: Diese Medikamente helfen auch langfristig - aponet.de",
@@ -34,16 +44,6 @@
       }
     },
     {
-      "id": "56ba096da637",
-      "title": "Deutscher Pflegetag 2026: So gelingt Interprofessionalität - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSDNfaTFIMklPcFJmZThzUEl4ak9Ucmh2YkFiR0M4aVdIdlFDSnZyQnQ5SGFQM3NhYjl3UGdWN2pZOUZNY3VTdUZ6NkVIanZETXltbkxReGNHR19VNTVVRGxfa1ZZZkhXd1RkMFA0R0dDOHhPdDlodl9BQjBfdHl1YzVaVTA2Wkk?oc=5",
-      "published": "2026-11-13T14:10:10+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "eb1edc172299",
       "title": "Seltene Augenschäden durch Abnehmspritzen? Das steckt dahinter - RND.de",
       "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNek1Nakc4cUl3Uk9lcVZQU0t2eUhMVFZwWU5vOWl2b0RhVEtGM0J4cGZpYk5QV294V3NXNHJKdmVRTkJjSFBoTGVUVmg2Q0JYNmljbFZvY1hSLV9iM0MwYzhUOGNNTXZuS1V2QUZvQUhJTzJVWmtBOVh1c0VzMDd6Rk1YN1h1RXI1WTdaeG1nTkNmNDh1aEpGQkE5c3kwblZ0ZFljb0lBMjRGdlhGTXNqdGY2N0I0Wmd4TkdPd0RoY05abjdtbWdZMy1nUzRsSTFlSG9YdlpjOWo5eWVWR3luME1DTW5lVGs2WnNoanpUdjE5dw?oc=5",
@@ -54,16 +54,6 @@
       }
     },
     {
-      "id": "02e962014647",
-      "title": "Bundessozialgericht: Preismoratorium für Tabletten wird nach Wirkstoffmenge berechnet - gesundheit.de",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ3czMjR6elRhUWJVZXJwQ3c5LTIzVUtsaWhsR2tTTGZ6X2VmWkFnSlNsYTAtX2dPdHRnMzJETVdEMFN3WFBTTE5keHJ2V0gtNUM0a2VFY1BhamV4RGNJTThIUGhZSGNoTFYyVndkNFdsWWttWnhsRjc3RWdJQ3FkbWgxTkhBUHBtV3g3M1dObTZHT21wVmpUdlM5emV2dHVHa2VNZjhIZXI5Mnh6RFh4NTJZck52QWZ3QUFHZEFoSXFnNjg?oc=5",
-      "published": "2026-11-13T10:58:00+00:00",
-      "source": {
-        "name": "gesundheit.de",
-        "url": "https://www.gesundheit.de"
-      }
-    },
-    {
       "id": "304dfe385abf",
       "title": "Lipoprotein(a): Neues Medikament senkt Wert um 75 Prozent – doch Patienten hatten nichts davon - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT2d4alNJTHVkWmY5azlhZzYxTGpWUXRHVFdVb2Z1ajhGVjk5aE81VGtkVFh6SWs2YS1lVzZrWGI5SUpCRnQ5Zk1vNURIaElsMkpJTzFIdlpxcDBoOGc5UXJMWU1FbzdzSEJmVGNPYmZBZ1l6Q0x0MHpCYktkQ0tiQjVHQVlmZjFuZXdZc1Q2eTNtX1IxdjRMSFYyXzZLUkhxVEl4U3RfeVpaWTk0UFBYaXBCVGhmUHRqMlBkTHpJTkNoNi1vN0xJ?oc=5",
@@ -71,16 +61,6 @@
       "source": {
         "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
-      "id": "70af69c4ae95",
-      "title": "Herausforderungen durch MFN müssen mit Blick auf die Auswirkungen auf die Versorgung eingeordnet werden - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE85UFNGeWlGUFJxUFJPaUNUUGZXREJXZFZvYXViU2dDVUZtcHNPcHBkWmE4VEZBSnFyX1pZd2szZUVwYXhBZmpOZmlVV29pZlVsVG1ERFdMMA?oc=5",
-      "published": "2026-11-12T15:34:43+00:00",
-      "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
       }
     },
     {
@@ -104,16 +84,6 @@
       }
     },
     {
-      "id": "7e62083bb07f",
-      "title": "Abnehmspritze auf Kassenkosten? Barmer-Chef macht Ansage - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOG5Zd2lJN282N2d6QXFqWmtYY3pBdzN5MVlKTk11aGp1VG1CUEYzNkJBNlhWUTAzSmZsUlVGS0tmNkZZSmxFU3NTMjBjUzZOT1NDbnZCUVJ6a0kwWmwxRFNWLVpYNG5RdmhYbEh0RWRoX2JpRTEtbTBZX1hWMEFKelpuYjkzdGR2UGdmM09Kb3AwT0VISE9mWElJUDBtV19ETGxCV2lvbDhvaHl6Tjl3TlowU3NUVFk2MFpwZUZnV1NHcXlIckE?oc=5",
-      "published": "2026-11-12T09:31:32+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
-      }
-    },
-    {
       "id": "4e6d48112005",
       "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
@@ -124,13 +94,23 @@
       }
     },
     {
-      "id": "21753de9d21b",
-      "title": "Überteuerte Arzneimittel: WKStA prüft Ermittlungen gegen Barmherzige Brüder - Kurier",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObS1jTTg3UFZjNTZOb255SHl4UVUxLXNHVl9jWExWamFMbFA4c2VlV1ZnczFuWElSUFFlNkFuZHJIN3dKOUlTeFB0dFpSVXJUSkFWbUF6YjVHcENzNFpRT1FpT1BKeWRqazRXVnpqOVlNMmhzVUVXZGQzOWptbEk2aTVHY2FWQ3FQOU0tcjB2UnJneWVkZlNiSDg2ZGZZRi1yM2ltM0lnUU5tQ3c5?oc=5",
-      "published": "2026-11-13T07:49:00+00:00",
+      "id": "02e962014647",
+      "title": "Bundessozialgericht: Preismoratorium für Tabletten wird nach Wirkstoffmenge berechnet - gesundheit.de",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ3czMjR6elRhUWJVZXJwQ3c5LTIzVUtsaWhsR2tTTGZ6X2VmWkFnSlNsYTAtX2dPdHRnMzJETVdEMFN3WFBTTE5keHJ2V0gtNUM0a2VFY1BhamV4RGNJTThIUGhZSGNoTFYyVndkNFdsWWttWnhsRjc3RWdJQ3FkbWgxTkhBUHBtV3g3M1dObTZHT21wVmpUdlM5emV2dHVHa2VNZjhIZXI5Mnh6RFh4NTJZck52QWZ3QUFHZEFoSXFnNjg?oc=5",
+      "published": "2026-11-13T10:58:00+00:00",
       "source": {
-        "name": "Kurier",
-        "url": "https://kurier.at"
+        "name": "gesundheit.de",
+        "url": "https://www.gesundheit.de"
+      }
+    },
+    {
+      "id": "9d1c0464616a",
+      "title": "Barmherzige Brüder in Österreich: Medikamentenverrechnung soll nachvollziehbarer werden - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9MOElTZUpGb3Ftdy1WUTNzdi1JNFBIdG5VdGFyR2N0UmxIcXVZQmwyQWlTLS1DOVhHQ2tJV3Rsc01fcVFlMVRYMk5GVDcwcWNfZ2RuanZRc28?oc=5",
+      "published": "2026-11-11T09:59:35+00:00",
+      "source": {
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
       }
     },
     {
@@ -141,6 +121,16 @@
       "source": {
         "name": "European Parliament",
         "url": "https://www.europarl.europa.eu"
+      }
+    },
+    {
+      "id": "21753de9d21b",
+      "title": "Überteuerte Arzneimittel: WKStA prüft Ermittlungen gegen Barmherzige Brüder - Kurier",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObS1jTTg3UFZjNTZOb255SHl4UVUxLXNHVl9jWExWamFMbFA4c2VlV1ZnczFuWElSUFFlNkFuZHJIN3dKOUlTeFB0dFpSVXJUSkFWbUF6YjVHcENzNFpRT1FpT1BKeWRqazRXVnpqOVlNMmhzVUVXZGQzOWptbEk2aTVHY2FWQ3FQOU0tcjB2UnJneWVkZlNiSDg2ZGZZRi1yM2ltM0lnUU5tQ3c5?oc=5",
+      "published": "2026-11-13T07:49:00+00:00",
+      "source": {
+        "name": "Kurier",
+        "url": "https://kurier.at"
       }
     },
     {
@@ -174,13 +164,13 @@
       }
     },
     {
-      "id": "9d1c0464616a",
-      "title": "Barmherzige Brüder in Österreich: Medikamentenverrechnung soll nachvollziehbarer werden - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9MOElTZUpGb3Ftdy1WUTNzdi1JNFBIdG5VdGFyR2N0UmxIcXVZQmwyQWlTLS1DOVhHQ2tJV3Rsc01fcVFlMVRYMk5GVDcwcWNfZ2RuanZRc28?oc=5",
-      "published": "2026-11-11T09:59:35+00:00",
+      "id": "7e62083bb07f",
+      "title": "Abnehmspritze auf Kassenkosten? Barmer-Chef macht Ansage - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOG5Zd2lJN282N2d6QXFqWmtYY3pBdzN5MVlKTk11aGp1VG1CUEYzNkJBNlhWUTAzSmZsUlVGS0tmNkZZSmxFU3NTMjBjUzZOT1NDbnZCUVJ6a0kwWmwxRFNWLVpYNG5RdmhYbEh0RWRoX2JpRTEtbTBZX1hWMEFKelpuYjkzdGR2UGdmM09Kb3AwT0VISE9mWElJUDBtV19ETGxCV2lvbDhvaHl6Tjl3TlowU3NUVFk2MFpwZUZnV1NHcXlIckE?oc=5",
+      "published": "2026-11-12T09:31:32+00:00",
       "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
       }
     },
     {
@@ -211,16 +201,6 @@
       "source": {
         "name": "tagesschau.de",
         "url": "https://www.tagesschau.de"
-      }
-    },
-    {
-      "id": "776533002a5a",
-      "title": "NRW: Gesundheitsausgaben 2024 mit 119 Milliarden Euro auf höchstem Stand seit 10 Jahren - IT.NRW",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQU1RKanJKR3hlZU5kcTFqMl9sRFNtdjBhamJRbWJOT3ZHSU5KU09SY2RmNGR5SzBiSGdJcTBBb3RrdTdJVUIwS0RqYi1vSzlaemhBS1ZRaVptN2VQdGVLSmRjczM1bjNncEdhckN2NjZSTGxNN1pWVWJFZm1JbmU2WHdpT0M5QXFJaXc?oc=5",
-      "published": "2026-11-12T09:07:59+00:00",
-      "source": {
-        "name": "IT.NRW",
-        "url": "https://www.it.nrw"
       }
     },
     {
@@ -281,6 +261,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "011e545dd0b6",
+      "title": "Lieferengpässe bei 600 Medikamenten: Welche Arzneimittel jetzt betroffen sind - Nordkurier",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNM0R0aDhzM1RYME5veEgwWEo1dFRoVXUyZndGQWdSeGVJbkFaMVBkb3d6X1BMUy1DOUt1dG1DcjZtaTUwdkxEeE1Ram5kZVpkUVV4SGRXRkNkOS1wa3NpZmcwU2pMRHlaN2doaFZJRHA4dlhhV3EyRFZZajhFemF6bzdISGdQUUlJQkwySHk3QlFCV1VRbVdXRk1SS1h6T2VnaWZvUXF3eTR0YXhEVUlOalg3ampuQjA2SnU4?oc=5",
+      "published": "2026-11-11T18:11:00+00:00",
+      "source": {
+        "name": "Nordkurier",
+        "url": "https://www.nordkurier.de"
       }
     },
     {
