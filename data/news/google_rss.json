@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-15T13:36:25.104005+00:00",
+  "fetched_at": "2026-11-15T19:36:26.027562+00:00",
   "source": "Google News Health RSS",
-  "count": 30,
+  "count": 29,
   "articles": [
     {
       "id": "5778408597ae",
@@ -11,16 +11,6 @@
       "source": {
         "name": "STERN.de",
         "url": "https://www.stern.de"
-      }
-    },
-    {
-      "id": "17ac0f61b8e2",
-      "title": "Wichtiges Medikamente-Urteil: Änderung in Apotheken – diese verlieren Spielraum - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOFRBSzR6WklJV3B4NUQtaXBTOUlDWXpxSnN3dzQzM0lpNF9QcHdjRDhTaEdNSm0ySV93YVdnemVOSjJNWjA3U3ZiYkQ4SUdIQ3VBUURhdFZ6aGpaY0w2N2hhS0hkdGx6Um9FZTFObWJzZ3JyOVBqTU9KZ2w3YTlsWDQtamxEWXRvclJSZDlzVGdfN3FaUWZpUkt6MHY3NWVWelFTWjFKVTFuNkE1NzhwaDE2ZzNUSVR2NHBuQ3pjUkRUdw?oc=5",
-      "published": "2026-11-15T02:28:00+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
       }
     },
     {
@@ -34,12 +24,12 @@
       }
     },
     {
-      "id": "25a6412d5be0",
-      "title": "Welche Antidepressiva sich für eine Langzeitbehandlung eignen - geo.de",
+      "id": "ebc2aeb05aac",
+      "title": "Welche Antidepressiva sich für eine Langzeitbehandlung eignen - Geo.de",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaWM1T08xdTFWT1hrSHc0cW9JMUJQRldlMm5hSU4zVXBleG51dWV5NmxOZ3AtQlF6U3BsenZXaDFXQzlPLWlnSl9qSHB6NWhyZU03VWxnbWh0ZGxvVlg0Qm1IV3JFaTVWMUl3REQtWVJfYUJZMFh0QzJsOTdFaWlFQTR5ckF2YklXOW9vWkNINVViVVFyM1JGejY0VVZESUdYRkFzOEFGRGRwWjRGaGJsdW5fcmtJREREa3djQWNpb19uSzhtWDY4T3EyUQ?oc=5",
       "published": "2026-11-12T15:18:00+00:00",
       "source": {
-        "name": "geo.de",
+        "name": "Geo.de",
         "url": "https://www.geo.de"
       }
     },
@@ -54,6 +44,26 @@
       }
     },
     {
+      "id": "976b59a42dd7",
+      "title": "Alte Heilpflanze ist wieder gefragt - St. Gallen 24",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9zdExScll3S013aWNaRDVaRl9zTmIzZHAxVk5RTkhxZ3lyNDNxUkY0MG52dmI1SnVpUlZ1TEE5S1kwYnZUeDNVV3lEOXpFUGlRYkVfaVpLVVhCcTYyY1pqT0piTktJQ0V3UWJfRkpVRms1b3dHSGVXOW5RU3lVQQ?oc=5",
+      "published": "2026-11-15T13:47:33+00:00",
+      "source": {
+        "name": "St. Gallen 24",
+        "url": "https://stgallen24.ch"
+      }
+    },
+    {
+      "id": "320a3581baf5",
+      "title": "Lipoprotein (a): Neues Medikament senkt Wert um 75 Prozent – doch Patienten hatten nichts davon - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT2d4alNJTHVkWmY5azlhZzYxTGpWUXRHVFdVb2Z1ajhGVjk5aE81VGtkVFh6SWs2YS1lVzZrWGI5SUpCRnQ5Zk1vNURIaElsMkpJTzFIdlpxcDBoOGc5UXJMWU1FbzdzSEJmVGNPYmZBZ1l6Q0x0MHpCYktkQ0tiQjVHQVlmZjFuZXdZc1Q2eTNtX1IxdjRMSFYyXzZLUkhxVEl4U3RfeVpaWTk0UFBYaXBCVGhmUHRqMlBkTHpJTkNoNi1vN0xJ?oc=5",
+      "published": "2026-11-12T12:12:09+00:00",
+      "source": {
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
+      }
+    },
+    {
       "id": "eb1edc172299",
       "title": "Seltene Augenschäden durch Abnehmspritzen? Das steckt dahinter - RND.de",
       "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNek1Nakc4cUl3Uk9lcVZQU0t2eUhMVFZwWU5vOWl2b0RhVEtGM0J4cGZpYk5QV294V3NXNHJKdmVRTkJjSFBoTGVUVmg2Q0JYNmljbFZvY1hSLV9iM0MwYzhUOGNNTXZuS1V2QUZvQUhJTzJVWmtBOVh1c0VzMDd6Rk1YN1h1RXI1WTdaeG1nTkNmNDh1aEpGQkE5c3kwblZ0ZFljb0lBMjRGdlhGTXNqdGY2N0I0Wmd4TkdPd0RoY05abjdtbWdZMy1nUzRsSTFlSG9YdlpjOWo5eWVWR3luME1DTW5lVGs2WnNoanpUdjE5dw?oc=5",
@@ -61,16 +71,6 @@
       "source": {
         "name": "RND.de",
         "url": "https://www.rnd.de"
-      }
-    },
-    {
-      "id": "304dfe385abf",
-      "title": "Lipoprotein(a): Neues Medikament senkt Wert um 75 Prozent – doch Patienten hatten nichts davon - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT2d4alNJTHVkWmY5azlhZzYxTGpWUXRHVFdVb2Z1ajhGVjk5aE81VGtkVFh6SWs2YS1lVzZrWGI5SUpCRnQ5Zk1vNURIaElsMkpJTzFIdlpxcDBoOGc5UXJMWU1FbzdzSEJmVGNPYmZBZ1l6Q0x0MHpCYktkQ0tiQjVHQVlmZjFuZXdZc1Q2eTNtX1IxdjRMSFYyXzZLUkhxVEl4U3RfeVpaWTk0UFBYaXBCVGhmUHRqMlBkTHpJTkNoNi1vN0xJ?oc=5",
-      "published": "2026-11-12T12:12:09+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
       }
     },
     {
@@ -84,16 +84,6 @@
       }
     },
     {
-      "id": "70af69c4ae95",
-      "title": "Herausforderungen durch MFN müssen mit Blick auf die Auswirkungen auf die Versorgung eingeordnet werden - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE85UFNGeWlGUFJxUFJPaUNUUGZXREJXZFZvYXViU2dDVUZtcHNPcHBkWmE4VEZBSnFyX1pZd2szZUVwYXhBZmpOZmlVV29pZlVsVG1ERFdMMA?oc=5",
-      "published": "2026-11-12T15:34:43+00:00",
-      "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
-      }
-    },
-    {
       "id": "4e6d48112005",
       "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
@@ -101,6 +91,16 @@
       "source": {
         "name": "Bundesministerium für Gesundheit (BMG)",
         "url": "https://www.bundesgesundheitsministerium.de"
+      }
+    },
+    {
+      "id": "075a40db361f",
+      "title": "Medikamente auf Reisen: Das darf ins Handgepäck - ADAC",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZmdDVl81RGdjdDZRNXNXSlRFTVhOSVpSQUlwUTlUelB6bnNFcVFRV09lQ2czNTdja0RsNHJVck00Y2hFVHZUM3kyaTRWOVZXWHQ0M182TVJrcGNGcUxtS1pFaU8wczRRRFRycTVmZnFmWE1lQ2g1eVVNekNQd3pSWWFHMnc1anVBY3plbTNB?oc=5",
+      "published": "2026-10-09T07:00:00+00:00",
+      "source": {
+        "name": "ADAC",
+        "url": "https://www.adac.de"
       }
     },
     {
@@ -124,13 +124,13 @@
       }
     },
     {
-      "id": "21753de9d21b",
-      "title": "Überteuerte Arzneimittel: WKStA prüft Ermittlungen gegen Barmherzige Brüder - Kurier",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObS1jTTg3UFZjNTZOb255SHl4UVUxLXNHVl9jWExWamFMbFA4c2VlV1ZnczFuWElSUFFlNkFuZHJIN3dKOUlTeFB0dFpSVXJUSkFWbUF6YjVHcENzNFpRT1FpT1BKeWRqazRXVnpqOVlNMmhzVUVXZGQzOWptbEk2aTVHY2FWQ3FQOU0tcjB2UnJneWVkZlNiSDg2ZGZZRi1yM2ltM0lnUU5tQ3c5?oc=5",
-      "published": "2026-11-13T07:49:00+00:00",
+      "id": "9fa13ce5acf5",
+      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
+      "published": "2026-03-31T20:25:43+00:00",
       "source": {
-        "name": "Kurier",
-        "url": "https://kurier.at"
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -144,26 +144,6 @@
       }
     },
     {
-      "id": "9fa13ce5acf5",
-      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
-      "published": "2026-03-31T20:25:43+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "7a4f754e7223",
-      "title": "Eine alte Heilpflanze ist wieder gefragt - St. Gallen 24",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQVZOc2tuUWctM0Q1VkVHWDhBVWUwa3ctZ2ZBMVBFQVNMLUZUMERRcTA2elA3b2MxZ21CSnJRa2hsTmtKTFZ1VVhHaU9nOWFUX19ud3pYdnFEWFJPbVJhR2tuVF9ack9rSFBRT1NTMld6U0JrVy1EY25pbXhDS0lEYWI0Z1E?oc=5",
-      "published": "2026-11-11T15:49:00+00:00",
-      "source": {
-        "name": "St. Gallen 24",
-        "url": "https://stgallen24.ch"
-      }
-    },
-    {
       "id": "aac68e97941d",
       "title": "Abnehmspritze: Was Wegovy, Mounjaro und Co. aktuell ohne Kassenleistung kosten - RND.de",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNemdXT3h1X2VWb2NLOVlpeF9LQUY0ZmJpS05KZFFCSk1wbldMTE9makI3YmxSZG5DNmFaUmlTSlNZa2dzZUZJVmNkY2JfYU51UDU5Y2U5bFp0V2FJUnFBNlF2V0poMWRmTF9SZTB2X3F4MWg4N1VCd29PdVM1b0QzWFpETEZZTjJKRmtRZmwxT1NhYmV4ODRPYnJEWm1EVnhTcmhxUl9PTzg3Vmc4WW1vcHhtMWxPMkJyZVcxd2tQbzRQeTF0cXl4R2hpZVZxTEk?oc=5",
@@ -171,6 +151,16 @@
       "source": {
         "name": "RND.de",
         "url": "https://www.rnd.de"
+      }
+    },
+    {
+      "id": "dcaad85fadfe",
+      "title": "Wer im Alter mehr Schritte macht, hat offenbar geringere Gesundheitskosten - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR0s2TFF2VDhfT0tqNGJlclJXc3pUd0FWQW9qQW9CQ0lvY0IyYkJzZDdzbFZITVJyT3lHSGVTZFdqYkdfMFFWN08ycDhaQ2tUNk5ZOTZLVzhiYjZpbG13VWtVNzQ3U3ZFUFhJX1pPOWJ2OENyWEN3WGV4NUtOMHNhcnNNYlZ2R0l3bjNkenptZWE1bk1KOTNRQnFIREZOdm1rY1JVQjZvd1FDUHg5aWc?oc=5",
+      "published": "2026-11-06T08:00:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -274,16 +264,6 @@
       }
     },
     {
-      "id": "c438dd072741",
-      "title": "Ermittlungen zu Medikamentenpreisen laufen - ooe.ORF.at",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5rRVNoVFdYSHJGTklfOTlzN1Q4QXpJX3N1WUFlQVdFR0Q0eFQxZW83bEtwWWgzbGJmd1o0UlhzcmhIQ2thTFVVdjJEWQ?oc=5",
-      "published": "2026-11-12T11:54:05+00:00",
-      "source": {
-        "name": "ooe.ORF.at",
-        "url": "https://ooe.orf.at"
-      }
-    },
-    {
       "id": "112bb805d0bc",
       "title": "Gesundheit: Arzneimittel Roactemra erhält EU-Zulassung bei Covid-19 - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVnhLZzlVX2gyNUNFTjJhdnZpVGFyM2tRRVdQR3RnMDV4U0lxUkNRdl9VRmMtN2xKbm9ZWTQ5OFlYOVQtRm8yT2xZb2dNcDVQaFV4eHBuVFZBa19pU0NqSERvUUYtaVRyMElkMHRRT0RjZGVrMUtZb3lCdkFFcDgxbkVzZ3JYWlZzeEdHLWFuQlZpbl9VUWZB?oc=5",
@@ -291,6 +271,16 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "c438dd072741",
+      "title": "Ermittlungen zu Medikamentenpreisen laufen - ooe.ORF.at",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5rRVNoVFdYSHJGTklfOTlzN1Q4QXpJX3N1WUFlQVdFR0Q0eFQxZW83bEtwWWgzbGJmd1o0UlhzcmhIQ2thTFVVdjJEWQ?oc=5",
+      "published": "2026-11-12T11:54:05+00:00",
+      "source": {
+        "name": "ooe.ORF.at",
+        "url": "https://ooe.orf.at"
       }
     },
     {
