@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-15T19:36:26.027562+00:00",
+  "fetched_at": "2026-11-15T23:49:09.209058+00:00",
   "source": "Google News Health RSS",
-  "count": 29,
+  "count": 33,
   "articles": [
     {
       "id": "5778408597ae",
@@ -41,16 +41,6 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "976b59a42dd7",
-      "title": "Alte Heilpflanze ist wieder gefragt - St. Gallen 24",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9zdExScll3S013aWNaRDVaRl9zTmIzZHAxVk5RTkhxZ3lyNDNxUkY0MG52dmI1SnVpUlZ1TEE5S1kwYnZUeDNVV3lEOXpFUGlRYkVfaVpLVVhCcTYyY1pqT0piTktJQ0V3UWJfRkpVRms1b3dHSGVXOW5RU3lVQQ?oc=5",
-      "published": "2026-11-15T13:47:33+00:00",
-      "source": {
-        "name": "St. Gallen 24",
-        "url": "https://stgallen24.ch"
       }
     },
     {
@@ -94,13 +84,13 @@
       }
     },
     {
-      "id": "075a40db361f",
-      "title": "Medikamente auf Reisen: Das darf ins Handgepäck - ADAC",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZmdDVl81RGdjdDZRNXNXSlRFTVhOSVpSQUlwUTlUelB6bnNFcVFRV09lQ2czNTdja0RsNHJVck00Y2hFVHZUM3kyaTRWOVZXWHQ0M182TVJrcGNGcUxtS1pFaU8wczRRRFRycTVmZnFmWE1lQ2g1eVVNekNQd3pSWWFHMnc1anVBY3plbTNB?oc=5",
-      "published": "2026-10-09T07:00:00+00:00",
+      "id": "976b59a42dd7",
+      "title": "Alte Heilpflanze ist wieder gefragt - St. Gallen 24",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9zdExScll3S013aWNaRDVaRl9zTmIzZHAxVk5RTkhxZ3lyNDNxUkY0MG52dmI1SnVpUlZ1TEE5S1kwYnZUeDNVV3lEOXpFUGlRYkVfaVpLVVhCcTYyY1pqT0piTktJQ0V3UWJfRkpVRms1b3dHSGVXOW5RU3lVQQ?oc=5",
+      "published": "2026-11-15T13:47:33+00:00",
       "source": {
-        "name": "ADAC",
-        "url": "https://www.adac.de"
+        "name": "St. Gallen 24",
+        "url": "https://stgallen24.ch"
       }
     },
     {
@@ -114,6 +104,16 @@
       }
     },
     {
+      "id": "9d1c0464616a",
+      "title": "Barmherzige Brüder in Österreich: Medikamentenverrechnung soll nachvollziehbarer werden - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9MOElTZUpGb3Ftdy1WUTNzdi1JNFBIdG5VdGFyR2N0UmxIcXVZQmwyQWlTLS1DOVhHQ2tJV3Rsc01fcVFlMVRYMk5GVDcwcWNfZ2RuanZRc28?oc=5",
+      "published": "2026-11-11T09:59:35+00:00",
+      "source": {
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
+      }
+    },
+    {
       "id": "4196c0c6a41c",
       "title": "Alexandru Rogobete: „Der Arzneimittelmarkt in Rumänien wird zunehmend von den großen Apothekenketten kontrolliert“ - Informat.ro",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTVVuSDViNV93emJkOWtEZHN2Qm9hUHJkaWtBampoRzN5amNFMVh6VGpfM21OQXh2M0dlczA2XzNMejRyRmpjRXlTT0ttWHRjcmlobUNIVXZIZWV2ZU4ydDR5MHlBMFA3cm03SVZSakhvRlJkeUF1Nlprc3VVSTFDNDNYVmNhZVFCWkJoLVhVeWtiWWJpN2pOWDZka2tRVFlpTlRYMVV3MlhxZmNodmFiRG93?oc=5",
@@ -121,6 +121,26 @@
       "source": {
         "name": "Informat.ro",
         "url": "https://informat.ro"
+      }
+    },
+    {
+      "id": "7deca9105ff8",
+      "title": "Warum der Barmer-Chef glaubt, dass die Abnehmspritze bald Kassenleistung wird - STERN.de",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQT1FWaldVRFNFV0VVZXVNdUk5QmVnZExWWFR0a1pBNGZJVnBETnl3ZUxPUWQxb2xma0oyYVB2eTFjQzhOQWdXR0s3aVNGRXlGV3RFOTREckpUakFsMVZuMWloOVVXWmdyd0o3ZUk3cGlMN1drdVRoeUNrQ2ptSDBndy1Zdk1mM1dGX0wxTm1UM1E4WWZ6MWh6UjZIU25HVFIzREE?oc=5",
+      "published": "2026-11-12T12:10:00+00:00",
+      "source": {
+        "name": "STERN.de",
+        "url": "https://www.stern.de"
+      }
+    },
+    {
+      "id": "c0df28bcd1df",
+      "title": "Krankenkasse 2027: Zuzahlungen steigen – Warnbriefe bei Beitragserhöhung entfallen - Nord24",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZ0ZyQ1pOSExBcTFwbjlJZFNfblg2QTJxc3NycnFQeDdqWWtSV0x2VlpTZ0hvdTFLYUZVckRvb3lLSHVadEtsT2s4MVpWajE0LWJxek9uZTg3cFNQQW1jNkNIUjZ3Z3ZISS1UQlg5VXNtVjR2ektRbVVnbkEtbEVxaGROWmNNY2YyLVNXbEtfUkRTLVFVRkpIZFZFaEc0djBveDJuUzMxdXpJUDdHTmEzU05fS0RmRVNEY21FRk55WQ?oc=5",
+      "published": "2026-11-13T10:16:00+00:00",
+      "source": {
+        "name": "Nord24",
+        "url": "https://www.nord24.de"
       }
     },
     {
@@ -134,13 +154,13 @@
       }
     },
     {
-      "id": "c0df28bcd1df",
-      "title": "Krankenkasse 2027: Zuzahlungen steigen – Warnbriefe bei Beitragserhöhung entfallen - Nord24",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZ0ZyQ1pOSExBcTFwbjlJZFNfblg2QTJxc3NycnFQeDdqWWtSV0x2VlpTZ0hvdTFLYUZVckRvb3lLSHVadEtsT2s4MVpWajE0LWJxek9uZTg3cFNQQW1jNkNIUjZ3Z3ZISS1UQlg5VXNtVjR2ektRbVVnbkEtbEVxaGROWmNNY2YyLVNXbEtfUkRTLVFVRkpIZFZFaEc0djBveDJuUzMxdXpJUDdHTmEzU05fS0RmRVNEY21FRk55WQ?oc=5",
-      "published": "2026-11-13T10:16:00+00:00",
+      "id": "d0ac7e08cc39",
+      "title": "Influencer werben für Lithium – doch Präparate sind verboten und riskant - Apotheken Umschau",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNekc5dkdYbzZ1OFlUdk02TUtDY1hWUkNiZHN4dXhWS0ExbExRQkJSZmdQMVF1azJsck5MMElzd1pDQjVYeUZTUXlVWE5iNFBWeDd0bXlKVlBIbzd0a0J1M21ONXB5bjZQeGt3MTl2c2lXQUkwWWoxTlRXc3dvMkdoUlZweC1Nb3MtZWZBU0g2UU43Q0JUR1hWR19MN09QVGgxcm80TWVXeExoRDJ5X0p6UVVKNVJKV0s3YUFTNWxQOUZ1NThjbS1yVWh3?oc=5",
+      "published": "2026-10-09T07:00:00+00:00",
       "source": {
-        "name": "Nord24",
-        "url": "https://www.nord24.de"
+        "name": "Apotheken Umschau",
+        "url": "https://www.apotheken-umschau.de"
       }
     },
     {
@@ -161,6 +181,16 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "a637bbef7569",
+      "title": "Jeder Euro für Impfungen zahlt sich vielfach aus - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBKa0w1NEZ5SXY2dEtGQmstRUpqRzZKQ2t3WjNjNm84NkR1R2NhUEVfYXFDVmdqWDB6X0hfaDZkRU5jYTNmV1FfeU5qQ2J4b1pXcGUwcFd3WQ?oc=5",
+      "published": "2026-11-10T15:37:49+00:00",
+      "source": {
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
       }
     },
     {
@@ -264,16 +294,6 @@
       }
     },
     {
-      "id": "112bb805d0bc",
-      "title": "Gesundheit: Arzneimittel Roactemra erhält EU-Zulassung bei Covid-19 - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVnhLZzlVX2gyNUNFTjJhdnZpVGFyM2tRRVdQR3RnMDV4U0lxUkNRdl9VRmMtN2xKbm9ZWTQ5OFlYOVQtRm8yT2xZb2dNcDVQaFV4eHBuVFZBa19pU0NqSERvUUYtaVRyMElkMHRRT0RjZGVrMUtZb3lCdkFFcDgxbkVzZ3JYWlZzeEdHLWFuQlZpbl9VUWZB?oc=5",
-      "published": "2021-12-07T08:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
-      }
-    },
-    {
       "id": "c438dd072741",
       "title": "Ermittlungen zu Medikamentenpreisen laufen - ooe.ORF.at",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5rRVNoVFdYSHJGTklfOTlzN1Q4QXpJX3N1WUFlQVdFR0Q0eFQxZW83bEtwWWgzbGJmd1o0UlhzcmhIQ2thTFVVdjJEWQ?oc=5",
@@ -284,10 +304,30 @@
       }
     },
     {
+      "id": "112bb805d0bc",
+      "title": "Gesundheit: Arzneimittel Roactemra erhält EU-Zulassung bei Covid-19 - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVnhLZzlVX2gyNUNFTjJhdnZpVGFyM2tRRVdQR3RnMDV4U0lxUkNRdl9VRmMtN2xKbm9ZWTQ5OFlYOVQtRm8yT2xZb2dNcDVQaFV4eHBuVFZBa19pU0NqSERvUUYtaVRyMElkMHRRT0RjZGVrMUtZb3lCdkFFcDgxbkVzZ3JYWlZzeEdHLWFuQlZpbl9VUWZB?oc=5",
+      "published": "2021-12-07T08:00:00+00:00",
+      "source": {
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
+      }
+    },
+    {
       "id": "2eb547a3aa7d",
       "title": "Pharma-Standortklausel: Kritik an Abschlag von 15,5 Prozent - ad-hoc-news.de",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcmJ1UV9BLVluZ21pbjNwZWFaY0drN0FITmF1R1l1UnJZcTBOcHhyZXljMVhvQmFnaWloTGY4cnRaOTh6OWZrV2llRTB3M0JyeDdNMDRPQU0xRmc5Mk94aklhN1FwZmNiUzNHWTRKUlM3aE1fZV9udWVQMVQtMFhiYzJhdDgzZl9FMkIyQnBmUDBkSmowN1pkM01JdDAyclBNSkQxMTR5Z2g?oc=5",
       "published": "2026-11-09T17:33:18+00:00",
+      "source": {
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
+      "id": "01c5e83f368d",
+      "title": "Herzinsuffizienz-Medikamente: Ausgaben in Sachsen-Anhalt steigen um 121 Prozent - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWmdBTkU4NjB5bWZJOWpDZTJiNjVoTGdMbEt6U1Zfc2JFeDJwb01maW5DTkVlNFZSUE9USFAwZEg1TFpXY2pVY3NZVnhMNmpRQkdKU0pocURSOFZQVVFBMzlJUmZaZEJ0bmdEUnRHT0dLTEhzekZ1d1ExTHVEYUEwTXNha1pXZVdLdk16elRteFh6bmNxdkx1S3hBZ3ZuLW5PaTRFMUZkR1hVREtOSzFjNXdQc09rdzZwbGJsSFZLMy1hNGZ4V1E?oc=5",
+      "published": "2026-11-13T04:09:33+00:00",
       "source": {
         "name": "ad-hoc-news.de",
         "url": "https://www.ad-hoc-news.de"
