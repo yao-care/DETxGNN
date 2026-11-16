@@ -19,7 +19,7 @@ Vorhersagen zur Arzneimittel-Repositionierung fuer zentral in der EU (EMA) zugel
 
 | Element | Anzahl |
 |------|------|
-| **Arzneimittelberichte** | 468 |
+| **Arzneimittelberichte** | 469 |
 | **Gesamtvorhersagen** | 2,923,566 |
 | **Einzigartige Arzneimittel** | 724 |
 | **Einzigartige Indikationen** | 17,041 |
@@ -34,7 +34,7 @@ Vorhersagen zur Arzneimittel-Repositionierung fuer zentral in der EU (EMA) zugel
 | **L2** | 19 | Einzelne RCT oder mehrere Phase-2-Studien |
 | **L3** | 18 | Beobachtungsstudien |
 | **L4** | 24 | Praeklinische / mechanistische Studien |
-| **L5** | 385 | Nur computationale Vorhersage |
+| **L5** | 386 | Nur computationale Vorhersage |
 | **N/A** | 12 | Nur bekannte Anwendungen (keine neuen Vorhersagen) |
 
 ### Nach Quelle
