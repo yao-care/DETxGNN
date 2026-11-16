@@ -1,8 +1,58 @@
 {
-  "fetched_at": "2026-11-16T05:18:53.436639+00:00",
+  "fetched_at": "2026-11-16T15:06:20.199311+00:00",
   "source": "Google News Health RSS",
-  "count": 31,
+  "count": 39,
   "articles": [
+    {
+      "id": "c2bc903d0d20",
+      "title": "„Viele Menschen haben Erfahrungen mit Medikamenten gemacht, die nicht richtig wirken“ - WELT",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPNGhaT2wxeU9BeTdLZ3BvYmRFd0t2RGdZVnN1R0s1MXpoS2E5OVF2RmRWaUhoWG05Tk5hVXZaa2NDTENfS2pBNHZIVUo1RTNGcVJDYUhaMUFDbURpejJjQjhJT3BsenpIZm96a3pReWFlOHJrWTNET2h5ZGZEMlRhc1l4eXVEYUV6XzI5cWkzTkxKQWY3Q05DeUtqME84ZWVzeDd0YmJxaHpyUVFQUUdMdnJIYWc1NHd6S1A1dzhtMVRadERfdkNORzhqOUVTMmRONUFORkV4ODNwNFdmX2VyYllfcTl5WkNDU283VndUbFlMMG5EMnc?oc=5",
+      "published": "2026-11-16T06:50:24+00:00",
+      "source": {
+        "name": "WELT",
+        "url": "https://www.welt.de"
+      }
+    },
+    {
+      "id": "93b1afb8778e",
+      "title": "Abnehmspritze und Pille: EMA empfiehlt zusätzliche Verhütung - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNU3B5dEVwbFFsdUYxWUxjLWUyVzJvbDJhbTRVcmlRM3RfbV9jcUhFUElpMUhPM0szV2F6dHg2RGt6d2VxUVNGa3Z3M21BbzRaUDhhR2JvNnZKbThvUTY4d0s3NEpyRFNVdlBDeUJHal9rVTR0T3piekJhTnpabzY0QngtRUROMGw2VE1ZZWZWbnpkYzJIa0kwVjZuTzE5UQ?oc=5",
+      "published": "2026-11-16T12:08:42+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "2ba16a11fdb8",
+      "title": "Warum Sie Ihr Nasenspray besser nicht mit anderen teilen - Vodafone live",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNWc1MEQ0NWJLSTQ3cU9rb3VlbGdtaFVqa2REXy0xSnlmYmNzY2Q1cEJYU2dVQmswdW5iTGdSb0UzT2JEVF93aU1JdHhlU2ZrSmVlZTgxcFoxemJ5dUlXalJZU0o5d1hRdE1pa2ptWXgwUFcxQU9GeFV2OW5WZWV5Y0JPQXJRRmRMQjRDNWRVSlBxdEJOYW04SllucGV1djJpTXlPTlp2UGVUei1iRDFBaU9nbklFUQ?oc=5",
+      "published": "2026-11-16T11:39:00+00:00",
+      "source": {
+        "name": "Vodafone live",
+        "url": "https://live.vodafone.de"
+      }
+    },
+    {
+      "id": "55fd214a5f6f",
+      "title": "Wenn Antibiotika nicht wirken - WHO zu Resistenzen: viele Millionen Todesfälle drohen - Gesundheit - SZ.de - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQUHVXR3lRWUUzQnhmbVQtaHRCZURnMzhBeUFvZzg1NHN2dmZvYVpXcVFLNko5UXpxNTJacEhwWW9MTENZNUZDMUQ5X0JwaHJPS0t0TWJVcGFqQ2pnc05NcENMeVEyeFo3RnBGZkE5cVhyUUVrcktyai1oU0xGRW41Y1liTjlhcFVhX1ZFTUdNbG0wcDA0cWlKdkRyeGxJUndnR3N6czVRR1hEOU1mLXJKTy1iaDl2RW1MYk9DU0U0dXM1OGJyVEJzUmFwOEdRTDJFTWxhVWdHdnA4NkFyZHppcDVtTDNiZGZCTmcwNTJld3lfWGdCZDhabkRxbVg0ckE?oc=5",
+      "published": "2026-11-16T08:00:05+00:00",
+      "source": {
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
+      }
+    },
+    {
+      "id": "6beef145b848",
+      "title": "Seltenes, aber verheerendes Risiko: FDA warnt erstmals offiziell vor dieser Ozempic-Nebenwirkung - Merkur",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWUZKMlhla1BNUk9vRDdDbG9leDByNE5tYU9mMDZoOUZ6VnQ3RFRuSzd5MUYzMVBxX3JDdUxTaHgwcWV5YUpPYTZ5d3ktX090ZFl6eDhNQ1c1ZGtkRUI2VDRHaEd6RkVsX2V3YV9rdXdzRHlWZ3lBcVhUS3ZCamVIdG50ZjB0cGpQeFN4V0NzWEZVQ3l3RXJYZXdGZWlMVS1rTmd5LXR3?oc=5",
+      "published": "2026-11-16T14:45:00+00:00",
+      "source": {
+        "name": "Merkur",
+        "url": "https://www.merkur.de"
+      }
+    },
     {
       "id": "5778408597ae",
       "title": "Abnehmspritze: Warum Forscher bereits an neuen Wirkstoffen arbeiten - STERN.de",
@@ -14,13 +64,43 @@
       }
     },
     {
-      "id": "4d4e48dc921b",
-      "title": "Welche Antidepressiva sich für eine Langzeitbehandlung eignen - GEO.de",
+      "id": "17ac0f61b8e2",
+      "title": "Wichtiges Medikamente-Urteil: Änderung in Apotheken – diese verlieren Spielraum - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOFRBSzR6WklJV3B4NUQtaXBTOUlDWXpxSnN3dzQzM0lpNF9QcHdjRDhTaEdNSm0ySV93YVdnemVOSjJNWjA3U3ZiYkQ4SUdIQ3VBUURhdFZ6aGpaY0w2N2hhS0hkdGx6Um9FZTFObWJzZ3JyOVBqTU9KZ2w3YTlsWDQtamxEWXRvclJSZDlzVGdfN3FaUWZpUkt6MHY3NWVWelFTWjFKVTFuNkE1NzhwaDE2ZzNUSVR2NHBuQ3pjUkRUdw?oc=5",
+      "published": "2026-11-15T02:28:00+00:00",
+      "source": {
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
+      }
+    },
+    {
+      "id": "25a6412d5be0",
+      "title": "Welche Antidepressiva sich für eine Langzeitbehandlung eignen - geo.de",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaWM1T08xdTFWT1hrSHc0cW9JMUJQRldlMm5hSU4zVXBleG51dWV5NmxOZ3AtQlF6U3BsenZXaDFXQzlPLWlnSl9qSHB6NWhyZU03VWxnbWh0ZGxvVlg0Qm1IV3JFaTVWMUl3REQtWVJfYUJZMFh0QzJsOTdFaWlFQTR5ckF2YklXOW9vWkNINVViVVFyM1JGejY0VVZESUdYRkFzOEFGRGRwWjRGaGJsdW5fcmtJREREa3djQWNpb19uSzhtWDY4T3EyUQ?oc=5",
       "published": "2026-11-12T15:18:00+00:00",
       "source": {
-        "name": "GEO.de",
+        "name": "geo.de",
         "url": "https://www.geo.de"
+      }
+    },
+    {
+      "id": "befe6f718e25",
+      "title": "Typ-2-Diabetes: Mit Ernährung und Sport schaffte jeder Zweite die Remission - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeTlBR0syeU10cjM4UHEwQ2RmcWlWdEh6VEFBbm9CaW5BSWt5eXFWOTZER2FKWUxSWXU5LVZNQW01cy1PeGJNT09NdGtPVnVfLXlGdktLVWRFTTNnZXh1OTFtMTRNaEI4WEdOSWFhb3lLTDFzRjJqWWdkLV9yeURsZ2RPeW5nUy1uNmxRQ3B0RXl4REpDdUwtejdLdXZyQ3NkVDVRS3Q3VU5NWmRwUEkzXw?oc=5",
+      "published": "2026-11-16T12:38:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "898e319d55a5",
+      "title": "Apotheker melden begrenzte Lyrica-Bestände in acht Landkreisen, nachdem der Gesundheitsminister einen Medikamentenmangel bestritten hat - Informat.ro",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQmZnQmZ6bi1mQ1BlY0RVaU42TFlZakdWd0JPWFJ0MmpXb2o2UGxaQkdJUVktQUJqVTYzbmVjSWhLcHdYS3Y0R2tlSVdoYy1BWTlLWUtvWkctYjhaQUhycWNoMDNFb3ljd3FfdTVNdU1mR2I4TzNFMllKOWNUMnlESHpBVGJnRFV5N2JEblF3SkJDcmZNQldjRElaemZfQWpWVFdUZE9xaHdqbHZyMWpGNA?oc=5",
+      "published": "2026-11-16T13:43:45+00:00",
+      "source": {
+        "name": "Informat.ro",
+        "url": "https://informat.ro"
       }
     },
     {
@@ -44,16 +124,6 @@
       }
     },
     {
-      "id": "320a3581baf5",
-      "title": "Lipoprotein (a): Neues Medikament senkt Wert um 75 Prozent – doch Patienten hatten nichts davon - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT2d4alNJTHVkWmY5azlhZzYxTGpWUXRHVFdVb2Z1ajhGVjk5aE81VGtkVFh6SWs2YS1lVzZrWGI5SUpCRnQ5Zk1vNURIaElsMkpJTzFIdlpxcDBoOGc5UXJMWU1FbzdzSEJmVGNPYmZBZ1l6Q0x0MHpCYktkQ0tiQjVHQVlmZjFuZXdZc1Q2eTNtX1IxdjRMSFYyXzZLUkhxVEl4U3RfeVpaWTk0UFBYaXBCVGhmUHRqMlBkTHpJTkNoNi1vN0xJ?oc=5",
-      "published": "2026-11-12T12:12:09+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
       "id": "4e6d48112005",
       "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
@@ -64,53 +134,23 @@
       }
     },
     {
-      "id": "976b59a42dd7",
-      "title": "Alte Heilpflanze ist wieder gefragt - St. Gallen 24",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9zdExScll3S013aWNaRDVaRl9zTmIzZHAxVk5RTkhxZ3lyNDNxUkY0MG52dmI1SnVpUlZ1TEE5S1kwYnZUeDNVV3lEOXpFUGlRYkVfaVpLVVhCcTYyY1pqT0piTktJQ0V3UWJfRkpVRms1b3dHSGVXOW5RU3lVQQ?oc=5",
-      "published": "2026-11-15T13:47:33+00:00",
-      "source": {
-        "name": "St. Gallen 24",
-        "url": "https://stgallen24.ch"
-      }
-    },
-    {
-      "id": "9d1c0464616a",
-      "title": "Barmherzige Brüder in Österreich: Medikamentenverrechnung soll nachvollziehbarer werden - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9MOElTZUpGb3Ftdy1WUTNzdi1JNFBIdG5VdGFyR2N0UmxIcXVZQmwyQWlTLS1DOVhHQ2tJV3Rsc01fcVFlMVRYMk5GVDcwcWNfZ2RuanZRc28?oc=5",
-      "published": "2026-11-11T09:59:35+00:00",
+      "id": "70af69c4ae95",
+      "title": "Herausforderungen durch MFN müssen mit Blick auf die Auswirkungen auf die Versorgung eingeordnet werden - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE85UFNGeWlGUFJxUFJPaUNUUGZXREJXZFZvYXViU2dDVUZtcHNPcHBkWmE4VEZBSnFyX1pZd2szZUVwYXhBZmpOZmlVV29pZlVsVG1ERFdMMA?oc=5",
+      "published": "2026-11-12T15:34:43+00:00",
       "source": {
         "name": "Presseportal",
         "url": "https://www.presseportal.de"
       }
     },
     {
-      "id": "4f1872a2fc9a",
-      "title": "Gesundheitsnachrichten-Update vom 16. November: Das Gesundheitsministerium fordert ein striktes Vorgehen gegen diejenigen, die Informationen über mit HIV infizierte Personen weitergeben. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTDJRTVBNdzhMZWd6OWVGVGhqZmlxVUg2eDE4R3RFeFNCRWM0b3YxeW1kT1EzbGVYX3JWNEcwOWtUbC1ydElUZlM0SU1oaTF5Q2hFOHAxU0lRWUprVjlrRnJxOW9sNDlGVHRWTUJYQkhjREdyZDFhMktiUFUyZ3h1UmNqU0xtQWlnc2l3YTJZVVMxdzhIcFd4MlBzeUIxUkVKd0tBdzZyWnlFRFNaQ1VEN3k4ZHdmdW93UFIweQ?oc=5",
-      "published": "2026-11-16T04:28:30+00:00",
+      "id": "0a7e421787a1",
+      "title": "Barmer-Chef rechnet mit Änderung: Wird die Abnehmspritze bald von der Kasse bezahlt? - Tagesspiegel",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWnhrRlNEbVAtekExVHBieFR0MC1fYl9oN2pxY2lRUmNNZ0N4TXAtSnMyT1h4UFZZWlRfYXp6X25PeFZudExydjZzbXQyVUZzU1NkT2R3MXJ1VndfQXNQVDMwOGE5MHBRMUU3bncxdTFpb0pnbTUyRDF3YTd4c3FMd2dqNXRrbGFZY25kYzVBVVFCUmxwWlN5eXlHeWNxWVh1UkJQbDhCSFg0NEZqenh4WEdHanNLUzBHejQtWjBRUHliUDdKbzVfSjVZVUxxTUlJ?oc=5",
+      "published": "2026-11-12T08:40:11+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "f1e04185f661",
-      "title": "AUDIO: Statt Medikamente: Mit Elektronik gegen Diabetes (2 Min) - MDR.de",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb2U1ZXNWTDF4SWo4c2JSZGJYSWMyTzk2TEpraFgzNk9TRlh0TkdUQS11enJyS2xhMDJ3YlJlUC1hZXRYZjBYTU95OTg1Tk5HczRpZmhDbzdXWmRZZXdaNE1VZmc2YUtzeWp5ekJla3N6cko1YTA2ZjQ4M3RrU1ltb0xTMEI2ZVJnV0tXdGUtLUQxc1pmdVg0bWs0RF92VzFzUEI1R0pNdnZRQkdtOVh6emtB?oc=5",
-      "published": "2026-10-25T07:00:00+00:00",
-      "source": {
-        "name": "MDR.de",
-        "url": "https://www.mdr.de"
-      }
-    },
-    {
-      "id": "4196c0c6a41c",
-      "title": "Alexandru Rogobete: „Der Arzneimittelmarkt in Rumänien wird zunehmend von den großen Apothekenketten kontrolliert“ - Informat.ro",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTVVuSDViNV93emJkOWtEZHN2Qm9hUHJkaWtBampoRzN5amNFMVh6VGpfM21OQXh2M0dlczA2XzNMejRyRmpjRXlTT0ttWHRjcmlobUNIVXZIZWV2ZU4ydDR5MHlBMFA3cm03SVZSakhvRlJkeUF1Nlprc3VVSTFDNDNYVmNhZVFCWkJoLVhVeWtiWWJpN2pOWDZka2tRVFlpTlRYMVV3MlhxZmNodmFiRG93?oc=5",
-      "published": "2026-11-15T12:43:39+00:00",
-      "source": {
-        "name": "Informat.ro",
-        "url": "https://informat.ro"
+        "name": "Tagesspiegel",
+        "url": "https://www.tagesspiegel.de"
       }
     },
     {
@@ -124,6 +164,26 @@
       }
     },
     {
+      "id": "3dcc959f3d02",
+      "title": "Kniearthrose: Warum frühes Training Schmerzen stärker lindern kann - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZlRoR1BUNFNFTFlEeGhWX3YxdzVqd1lNT3Y4X2tsV25NbF9zMnlVckVhUUlIZjNlM0lvY19BMm5ZTmpoX1dxRDNhT3N5Zm5pelRWZmZBZ2JQQU1uTWVqYndHS0dZaEtGazJpaW5WT3JlTlRxU2JyMXlHbjAyMWhFQlNNa3dEcmpTWkxPaHd0VXptWkcxUlg0QXNIdTl6WVh0eDdZRDRn?oc=5",
+      "published": "2026-11-16T10:47:52+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "320a3581baf5",
+      "title": "Lipoprotein (a): Neues Medikament senkt Wert um 75 Prozent – doch Patienten hatten nichts davon - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT2d4alNJTHVkWmY5azlhZzYxTGpWUXRHVFdVb2Z1ajhGVjk5aE81VGtkVFh6SWs2YS1lVzZrWGI5SUpCRnQ5Zk1vNURIaElsMkpJTzFIdlpxcDBoOGc5UXJMWU1FbzdzSEJmVGNPYmZBZ1l6Q0x0MHpCYktkQ0tiQjVHQVlmZjFuZXdZc1Q2eTNtX1IxdjRMSFYyXzZLUkhxVEl4U3RfeVpaWTk0UFBYaXBCVGhmUHRqMlBkTHpJTkNoNi1vN0xJ?oc=5",
+      "published": "2026-11-12T12:12:09+00:00",
+      "source": {
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
+      }
+    },
+    {
       "id": "9fa13ce5acf5",
       "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
@@ -131,6 +191,76 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "7446024d9dde",
+      "title": "Statine ab 70: Cholesterinsenker mindern Herz-Kreislauf-Risiko um 30 Prozent - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNnp0LWVvSDVaTzhCeVFlb3l4My1qektzYXcxRmtNTzFzdjZkUl9QdWpoc2YwVmNfSlE0eEQ2eFNqS1l6T1FvVXhSRkFSZkFqOGh4S19MM29WeE9INGN4QXl4d296TzVSRnowRmxETld0VWpQcjl2U1RGNVNZNndjczlGRl9vbnAtbl93VmZXRzhwM2ZDamczRmRlamo0YUItRFNXWF9FZjcyc1hDMnlJRA?oc=5",
+      "published": "2026-11-11T23:24:44+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "56ba096da637",
+      "title": "Deutscher Pflegetag 2026: So gelingt Interprofessionalität - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSDNfaTFIMklPcFJmZThzUEl4ak9Ucmh2YkFiR0M4aVdIdlFDSnZyQnQ5SGFQM3NhYjl3UGdWN2pZOUZNY3VTdUZ6NkVIanZETXltbkxReGNHR19VNTVVRGxfa1ZZZkhXd1RkMFA0R0dDOHhPdDlodl9BQjBfdHl1YzVaVTA2Wkk?oc=5",
+      "published": "2026-11-13T14:10:10+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "4063c0d5a05f",
+      "title": "Verhinderung von Produktfälschungen im Gesundheitssektor. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBNT0NKa25nWUhwVVVNa09EcjBQaEZzNGd3ay0ydk9aQ1Y5NnNQUzE5R1YzSFBSRURRYnBqdG00eHRadElNQWRsek1iZjVmNUdSVTZjRmNsRkZ1SHhCaW8zSkNXajJwM0hSQlU1RHpnS3MwUQ?oc=5",
+      "published": "2026-11-14T03:03:28+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "2a4cd6eb6d1d",
+      "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
+      "published": "2026-03-31T07:00:00+00:00",
+      "source": {
+        "name": "European Parliament",
+        "url": "https://www.europarl.europa.eu"
+      }
+    },
+    {
+      "id": "aac68e97941d",
+      "title": "Abnehmspritze: Was Wegovy, Mounjaro und Co. aktuell ohne Kassenleistung kosten - RND.de",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNemdXT3h1X2VWb2NLOVlpeF9LQUY0ZmJpS05KZFFCSk1wbldMTE9makI3YmxSZG5DNmFaUmlTSlNZa2dzZUZJVmNkY2JfYU51UDU5Y2U5bFp0V2FJUnFBNlF2V0poMWRmTF9SZTB2X3F4MWg4N1VCd29PdVM1b0QzWFpETEZZTjJKRmtRZmwxT1NhYmV4ODRPYnJEWm1EVnhTcmhxUl9PTzg3Vmc4WW1vcHhtMWxPMkJyZVcxd2tQbzRQeTF0cXl4R2hpZVZxTEk?oc=5",
+      "published": "2026-11-12T14:42:52+00:00",
+      "source": {
+        "name": "RND.de",
+        "url": "https://www.rnd.de"
+      }
+    },
+    {
+      "id": "976b59a42dd7",
+      "title": "Alte Heilpflanze ist wieder gefragt - St. Gallen 24",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9zdExScll3S013aWNaRDVaRl9zTmIzZHAxVk5RTkhxZ3lyNDNxUkY0MG52dmI1SnVpUlZ1TEE5S1kwYnZUeDNVV3lEOXpFUGlRYkVfaVpLVVhCcTYyY1pqT0piTktJQ0V3UWJfRkpVRms1b3dHSGVXOW5RU3lVQQ?oc=5",
+      "published": "2026-11-15T13:47:33+00:00",
+      "source": {
+        "name": "St. Gallen 24",
+        "url": "https://stgallen24.ch"
+      }
+    },
+    {
+      "id": "4f1872a2fc9a",
+      "title": "Gesundheitsnachrichten-Update vom 16. November: Das Gesundheitsministerium fordert ein striktes Vorgehen gegen diejenigen, die Informationen über mit HIV infizierte Personen weitergeben. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTDJRTVBNdzhMZWd6OWVGVGhqZmlxVUg2eDE4R3RFeFNCRWM0b3YxeW1kT1EzbGVYX3JWNEcwOWtUbC1ydElUZlM0SU1oaTF5Q2hFOHAxU0lRWUprVjlrRnJxOW9sNDlGVHRWTUJYQkhjREdyZDFhMktiUFUyZ3h1UmNqU0xtQWlnc2l3YTJZVVMxdzhIcFd4MlBzeUIxUkVKd0tBdzZyWnlFRFNaQ1VEN3k4ZHdmdW93UFIweQ?oc=5",
+      "published": "2026-11-16T04:28:30+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -144,33 +274,13 @@
       }
     },
     {
-      "id": "d0ac7e08cc39",
-      "title": "Influencer werben für Lithium – doch Präparate sind verboten und riskant - Apotheken Umschau",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNekc5dkdYbzZ1OFlUdk02TUtDY1hWUkNiZHN4dXhWS0ExbExRQkJSZmdQMVF1azJsck5MMElzd1pDQjVYeUZTUXlVWE5iNFBWeDd0bXlKVlBIbzd0a0J1M21ONXB5bjZQeGt3MTl2c2lXQUkwWWoxTlRXc3dvMkdoUlZweC1Nb3MtZWZBU0g2UU43Q0JUR1hWR19MN09QVGgxcm80TWVXeExoRDJ5X0p6UVVKNVJKV0s3YUFTNWxQOUZ1NThjbS1yVWh3?oc=5",
-      "published": "2026-10-09T07:00:00+00:00",
+      "id": "4196c0c6a41c",
+      "title": "Alexandru Rogobete: „Der Arzneimittelmarkt in Rumänien wird zunehmend von den großen Apothekenketten kontrolliert“ - Informat.ro",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTVVuSDViNV93emJkOWtEZHN2Qm9hUHJkaWtBampoRzN5amNFMVh6VGpfM21OQXh2M0dlczA2XzNMejRyRmpjRXlTT0ttWHRjcmlobUNIVXZIZWV2ZU4ydDR5MHlBMFA3cm03SVZSakhvRlJkeUF1Nlprc3VVSTFDNDNYVmNhZVFCWkJoLVhVeWtiWWJpN2pOWDZka2tRVFlpTlRYMVV3MlhxZmNodmFiRG93?oc=5",
+      "published": "2026-11-15T12:43:39+00:00",
       "source": {
-        "name": "Apotheken Umschau",
-        "url": "https://www.apotheken-umschau.de"
-      }
-    },
-    {
-      "id": "a637bbef7569",
-      "title": "Jeder Euro für Impfungen zahlt sich vielfach aus - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBKa0w1NEZ5SXY2dEtGQmstRUpqRzZKQ2t3WjNjNm84NkR1R2NhUEVfYXFDVmdqWDB6X0hfaDZkRU5jYTNmV1FfeU5qQ2J4b1pXcGUwcFd3WQ?oc=5",
-      "published": "2026-11-10T15:37:49+00:00",
-      "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
-      }
-    },
-    {
-      "id": "9229b6f33d40",
-      "title": "Überteuerte Medikamente: Was läuft in Kärntens Ordensspitälern? - Kleine Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRVQwZHV4NE1KMi0yeFQ5cWNGMldMcnhtLWhHNVZLSFdzZVBrN2JibEtXa1kzYm5NX2JBQkU2NXNBR1REVG5jSXpLX1Y2VHZWendXVXM0em04amZoU0UtR2FwZGJNSGx6UEV3amV4djVLX0lfYnZib2RGZ0ZPMURUUllSYloxWEYyWWpDdHBwdGFJM043N1ZYTXZNRDVPaGZhbDF0OUl6RVNOLUNlbFBPRg?oc=5",
-      "published": "2026-11-12T13:16:18+00:00",
-      "source": {
-        "name": "Kleine Zeitung",
-        "url": "https://www.kleinezeitung.at"
+        "name": "Informat.ro",
+        "url": "https://informat.ro"
       }
     },
     {
@@ -184,26 +294,6 @@
       }
     },
     {
-      "id": "776533002a5a",
-      "title": "NRW: Gesundheitsausgaben 2024 mit 119 Milliarden Euro auf höchstem Stand seit 10 Jahren - IT.NRW",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQU1RKanJKR3hlZU5kcTFqMl9sRFNtdjBhamJRbWJOT3ZHSU5KU09SY2RmNGR5SzBiSGdJcTBBb3RrdTdJVUIwS0RqYi1vSzlaemhBS1ZRaVptN2VQdGVLSmRjczM1bjNncEdhckN2NjZSTGxNN1pWVWJFZm1JbmU2WHdpT0M5QXFJaXc?oc=5",
-      "published": "2026-11-12T09:07:59+00:00",
-      "source": {
-        "name": "IT.NRW",
-        "url": "https://www.it.nrw"
-      }
-    },
-    {
-      "id": "cd91c5411083",
-      "title": "Neue Arzneimittel bezahlbar halten - Verband der Ersatzkassen e. V.",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObzE3cHpIZEo2Q0VEc0xrTzlCRHFTbW1GZ1dpbXhiSk55cmZpVFZaN3dtSkhvc2dqYkx0ekRicVhHTHhWTzFsSFVKZlVJZG1EUXBxZGZCU0kycm5yaVczSThMRHA3YkRHN3dPYXl3UTNEU1RWamFXdDBrZ2tTWWhqNjBjQk43VGNhdEFhMXF6Nmx6WHdkXzhwY25kTzVCMmp5?oc=5",
-      "published": "2025-06-17T07:00:00+00:00",
-      "source": {
-        "name": "Verband der Ersatzkassen e. V.",
-        "url": "https://www.vdek.com"
-      }
-    },
-    {
       "id": "a8b4476cf65c",
       "title": "#nis2know : Gesundheitswesen - BSI - Bundesamt für Sicherheit in der Informationstechnik",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSm81X1pvMk5LUFB0UFpiUGlXaGhUWEZWa2xhTVZXMHVBS2lOUE55MFFZYm90U0g2Vm4xZlhjeVE2U1VzVDlOSjVsRU9Ha3dBOUduUFNuZ2l4M3JNT1NIYXQxaURYR2U5Q2FZY2EzcjlwODRYUUlqamp5QkJJWG1vTkJpR2w1aFpPSHdOLUtCbnltWTdwLWtDNkJ6Q1ZaNngtdmdET1Q5ZENORWNBMjBvR0d3TXlOazQ0dUFEbGNoZ1NLN2pRdV9BeDlrRlhZMjVBejA4VlJLUDRnZ2k4MXc?oc=5",
@@ -214,13 +304,13 @@
       }
     },
     {
-      "id": "4fba0ba3e162",
-      "title": "Gesundheitsreform 2026/2027 - Techniker Krankenkasse",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUhpR0Y4Z19LRmRhS1BFMEF0aG10ZHZzOFNKMEJsdklnNjViR09CYmsxSGwxU3BfdWpTQy1XeXhOeWpiSDZqR0RQUkFsTFhlUUMydWIzeFNqNHlIWExJellKZ0h3ay1wdFdmc1pDeVZHQ3N0TEFtR2w5dkVVelJva3FudVlRaU1WQVdZV3RUNk9fZDRXSkYta0dZWVRkZlF5VXdmQVY5SHdmUQ?oc=5",
-      "published": "2026-11-02T08:00:00+00:00",
+      "id": "cd91c5411083",
+      "title": "Neue Arzneimittel bezahlbar halten - Verband der Ersatzkassen e. V.",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObzE3cHpIZEo2Q0VEc0xrTzlCRHFTbW1GZ1dpbXhiSk55cmZpVFZaN3dtSkhvc2dqYkx0ekRicVhHTHhWTzFsSFVKZlVJZG1EUXBxZGZCU0kycm5yaVczSThMRHA3YkRHN3dPYXl3UTNEU1RWamFXdDBrZ2tTWWhqNjBjQk43VGNhdEFhMXF6Nmx6WHdkXzhwY25kTzVCMmp5?oc=5",
+      "published": "2025-06-17T07:00:00+00:00",
       "source": {
-        "name": "Techniker Krankenkasse",
-        "url": "https://www.tk.de"
+        "name": "Verband der Ersatzkassen e. V.",
+        "url": "https://www.vdek.com"
       }
     },
     {
@@ -244,16 +334,6 @@
       }
     },
     {
-      "id": "d46f6ce1c2b9",
-      "title": "Ibuprofen, Aspirin und Co.: Schmerzmittel der Gruppe NSAR können Nebenwirkungen haben - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUmwyTW8wT3dfaXgyZ1VyaXFYUG1lWXY5VUZXZkkwWjd4STI2dWVSY1d3bVhub1NxRE9sNGt2bW83blh3T2hPRzlWcnVvUElQSmw4WE9KOHhscFdsSEE4TmF2cnhXaTktUWRfc3NQMnpoWmZDUXF5WWt6czNsbWdLQTRtVVJ3Mzdtb250RGVhbldmNUpVOTNDOTFhOWpldzV0MUlpVFdMRmpfOGM3WW5HbmRYaVJFT1ZzYUxn?oc=5",
-      "published": "2025-09-23T07:00:00+00:00",
-      "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
-      }
-    },
-    {
       "id": "8a5dc46a4efd",
       "title": "Erstattungsbetrag: Preisfestlegung für neue Medikamente - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUHN6Rk0zYW0xanpneTJrREhFdnJPVXFKckJsaHFBTWpYUElxdGN2ZUtydnkteHFHRHl2dERmeEVUMF8xUEh4Z3M4VEhJY0dfNDFpc0Vnc283akhUeTRkZEdSUzZxMjlmTmxBMmdMV2pKWi04UDZENVpvdjJPMXJxZEJ5SS13ZkZlSzVWODd0YjRPTjliYmttdXNUVkR6emgwU09xSQ?oc=5",
@@ -261,6 +341,26 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "011e545dd0b6",
+      "title": "Lieferengpässe bei 600 Medikamenten: Welche Arzneimittel jetzt betroffen sind - Nordkurier",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNM0R0aDhzM1RYME5veEgwWEo1dFRoVXUyZndGQWdSeGVJbkFaMVBkb3d6X1BMUy1DOUt1dG1DcjZtaTUwdkxEeE1Ram5kZVpkUVV4SGRXRkNkOS1wa3NpZmcwU2pMRHlaN2doaFZJRHA4dlhhV3EyRFZZajhFemF6bzdISGdQUUlJQkwySHk3QlFCV1VRbVdXRk1SS1h6T2VnaWZvUXF3eTR0YXhEVUlOalg3ampuQjA2SnU4?oc=5",
+      "published": "2026-11-11T18:11:00+00:00",
+      "source": {
+        "name": "Nordkurier",
+        "url": "https://www.nordkurier.de"
+      }
+    },
+    {
+      "id": "c438dd072741",
+      "title": "Ermittlungen zu Medikamentenpreisen laufen - ooe.ORF.at",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5rRVNoVFdYSHJGTklfOTlzN1Q4QXpJX3N1WUFlQVdFR0Q0eFQxZW83bEtwWWgzbGJmd1o0UlhzcmhIQ2thTFVVdjJEWQ?oc=5",
+      "published": "2026-11-12T11:54:05+00:00",
+      "source": {
+        "name": "ooe.ORF.at",
+        "url": "https://ooe.orf.at"
       }
     },
     {
@@ -281,26 +381,6 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
-      }
-    },
-    {
-      "id": "c438dd072741",
-      "title": "Ermittlungen zu Medikamentenpreisen laufen - ooe.ORF.at",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5rRVNoVFdYSHJGTklfOTlzN1Q4QXpJX3N1WUFlQVdFR0Q0eFQxZW83bEtwWWgzbGJmd1o0UlhzcmhIQ2thTFVVdjJEWQ?oc=5",
-      "published": "2026-11-12T11:54:05+00:00",
-      "source": {
-        "name": "ooe.ORF.at",
-        "url": "https://ooe.orf.at"
-      }
-    },
-    {
-      "id": "2eb547a3aa7d",
-      "title": "Pharma-Standortklausel: Kritik an Abschlag von 15,5 Prozent - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcmJ1UV9BLVluZ21pbjNwZWFaY0drN0FITmF1R1l1UnJZcTBOcHhyZXljMVhvQmFnaWloTGY4cnRaOTh6OWZrV2llRTB3M0JyeDdNMDRPQU0xRmc5Mk94aklhN1FwZmNiUzNHWTRKUlM3aE1fZV9udWVQMVQtMFhiYzJhdDgzZl9FMkIyQnBmUDBkSmowN1pkM01JdDAyclBNSkQxMTR5Z2g?oc=5",
-      "published": "2026-11-09T17:33:18+00:00",
-      "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
