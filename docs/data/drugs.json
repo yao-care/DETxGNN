@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-06",
-  "total_count": 468,
+  "generated": "2026-11-16",
+  "total_count": 469,
   "source": "DETxGNN",
   "drugs": [
     {
@@ -3602,6 +3602,16 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/reteplase/"
+    },
+    {
+      "slug": "ribociclib-succinate",
+      "name": "Ribociclib Succinate",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "original_indication": "",
+      "predicted_indication": "",
+      "txgnn_score": "",
+      "url": "/drugs/ribociclib-succinate/"
     },
     {
       "slug": "rilpivirine",

@@ -14,7 +14,7 @@ Die Evidenzstufen reichen von L1 (stärkere klinische Evidenz) bis L5 (nur Model
 ## Daten dieser Website
 
 - Arzneimitteldatensatz: EMA Medicines Report (zentral zugelassene EU-Arzneimittel; nationale BfArM-Zulassungen sind nicht enthalten) — https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx
-- Evidenzstufen der 468 Arzneimittelberichte: L1 10 · L2 19 · L3 18 · L4 24 · L5 385 · N/A 12 (N/A = Nur bekannte Anwendungen (keine neuen Vorhersagen))
+- Evidenzstufen der 469 Arzneimittelberichte: L1 10 · L2 19 · L3 18 · L4 24 · L5 386 · N/A 12 (N/A = Nur bekannte Anwendungen (keine neuen Vorhersagen))
 <!-- site-data:end -->
 
 ## Hauptinhalte

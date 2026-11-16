@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-04",
-  "total_drugs": 468,
+  "generated": "2026-11-16",
+  "total_drugs": 469,
   "level_counts": {
     "L1": 10,
     "L2": 19,
     "L3": 18,
     "L4": 24,
-    "L5": 385
+    "L5": 386
   },
   "all_drugs": [
     {
@@ -2168,6 +2168,12 @@
       "slug": "reteplase",
       "level": "L5",
       "indication_count": 7
+    },
+    {
+      "name": "Ribociclib Succinate",
+      "slug": "ribociclib_succinate",
+      "level": "L5",
+      "indication_count": 4
     },
     {
       "name": "Rilpivirine",
