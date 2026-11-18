@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-11-17T18:14:27.428251+00:00",
+  "fetched_at": "2026-11-18T01:30:00.050740+00:00",
   "source": "Google News Health RSS",
-  "count": 40,
+  "count": 36,
   "articles": [
-    {
-      "id": "98f7226e9e93",
-      "title": "Arzneimittel - EU lässt neues Medikament gegen Bauchspeicheldrüsenkrebs zu - Gesundheit - SZ.de - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQRmp1WkNSQ0ZIMUpvb2xKcGVIS2VJRHRNTklKVHU3VmpXZEh1RFZrZFYzYkF5Q1pIMDN4NmI0ZEdFRm4zVFl4Q1ctYmc1aTBhaFBLeFZfRDF5c3Q3aU8wYmdodkVlaGgyZlVxMlRPSktXVjVJQjdVRW9kc0dNakYwbFZSQjhkQUlwYlpqcHJfYXh1b0VWZmNaSVBsWXdyVUxENDlNNHJsSU1XX2ZMMTNwR3Q0Z3hwYXEyazk3RWl5V0RwRTN6YlVWYm9sV0hjbkRja0Q1VlJURTJFMDFMVFZpU21PVTVrOWJmaV9Xal9sSVYxQUE?oc=5",
-      "published": "2026-11-17T15:41:15+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
-      }
-    },
     {
       "id": "d3c8e33fb113",
       "title": "SPD-Veranstaltung: ABDA kritisiert Missstände bei Arzneimittelzuzahlungen - Pharmazeutische Zeitung",
@@ -27,20 +17,10 @@
       "id": "4e498bf3e4cb",
       "title": "Umfrage: Neun von zehn Bundesbürger befürworten Kostenübernahme von Adipositas-Medikamenten - AerzteZeitung.de",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOc0NNakVteEdvR2FWa1ZQZlBUYVlIMDkyVkFOOWk5WkdDeVM2b29oU3VTYXA4QTlVdkFISXNWNHBoSFRYY3k1Y2Y2QVpqcnpSMVMxbk5tQm96QTZITGJ3a182YzV2bGtWdm02VUJoTUlZMUVSdUNBa0c0bmlHM2IwQ2hReGlzOXpPNlVMb3dpa2ZuNlEtenA3a1Yyc0M3cW9WUkhpWkNabnNCNHlrbUcxSEJrTmhxTkpUQ01lNzZ1SkROOG5FWENpcnRSQ3lTcG5fU0lkcEFsVWxqUQ?oc=5",
-      "published": "2026-11-17T16:30:00+00:00",
+      "published": "2026-11-17T16:14:24+00:00",
       "source": {
         "name": "AerzteZeitung.de",
         "url": "https://www.aerztezeitung.de"
-      }
-    },
-    {
-      "id": "3a8cb7f967f0",
-      "title": "RKI, PEI und BfArM werden zu „Die Gesundheitsinstitute“ - Deutsche Apotheker Zeitung, DAZ",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMWpEQW9yU0xrSnlvVzVhYnFFZlJnRzVzc1pqbFE5UUhJWDBUMXlsQTJWdnJJcjJ1cjQ2MFBLQ2lSZzZPRTdmUG94X2NoengyTEhOYkZvdXJNYjdHSXg2SjM1bkZHYlE5SmpoM2lfdUt4eUhzaEtvU1AxLWpHYnNYWUZJQ21tU241NW03Q3RDejM5blEwMzc3OWxrRWxZOFJrUDh0OXptNW1Lc1hOYnR2VFBNdVlCdThHT1E?oc=5",
-      "published": "2026-11-17T07:00:00+00:00",
-      "source": {
-        "name": "Deutsche Apotheker Zeitung, DAZ",
-        "url": "https://www.deutsche-apotheker-zeitung.de"
       }
     },
     {
@@ -54,23 +34,23 @@
       }
     },
     {
-      "id": "f5d0a04665f0",
-      "title": "„Viele Menschen haben Erfahrungen mit Medikamenten gemacht, die nicht richtig wirken“ - WELT",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOOFpvSEVpbE91S1hWcEpEN0JlRU1zMmtzY3BWOWVvZVBtb0o2THJIM3lfeV9vXzhaU2txUmdIVzhLTnFONGJBcDYwOXp1UmdhMTJnUlFOSHVfZ2tzVk11amVNWUdad3paN18yVjlkN0N3Y2tvLTh4Yy1nNGVrcW5CTWxpb1NZVl9LZTk2aFFWQk1XeFNQN0pCb25Wc1F4R1AxOENEeVYxeE1KeHliZTJzeVdGUXYxaklIVVplUU5mcS1ZRGFSUDBZMFhlSTAwRHdPUVh2LXduNUUzUzRKV1lva0VvQllhbVU?oc=5",
-      "published": "2026-11-17T13:32:22+00:00",
-      "source": {
-        "name": "WELT",
-        "url": "https://www.welt.de"
-      }
-    },
-    {
-      "id": "68b28e6cef75",
-      "title": "Warum Nasenspray nach einer Erkältung in den Müll gehört - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTHNpZmlQUnJaODhkR1Z3MWJNUUdWWlNfRXctZ1B6eXN6NmlfSk5yRWtLLXp0aHo5eDZwUGdhdWFXN0RqVVZ6UnBsa2d5U0FhSUlQOWY5RW9PazI4b09UY3pRb1VBenRyV01pR2p5MEs4N0dNRlBBSlpKYnVMUzRPTDJnZ3dRNWtZNktJZm91VGlLWW50OTZiTHZCSQ?oc=5",
-      "published": "2026-11-17T10:25:25+00:00",
+      "id": "684bd5c2ba6a",
+      "title": "Depression: Diese Medikamente helfen auch langfristig - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaElvQS1wZGMwRDRYWGtIWWM2T2lIVGtNWW92Nl9PdlVUNlJmQ3Jhc1RreXhSOEJhMmdDTko0M1Zrb0hPZjVTclA3OEtnUWxMVjVyNnNtcUVSUkppMGxEY1pfQ3V3U3lhWFUtTXppTkl0Y1VZLW5XRnBVM2htaGZPclpGTEhJM2RXUGM3Yl9rSldFdw?oc=5",
+      "published": "2026-11-12T13:39:59+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "992362782985",
+      "title": "EU lässt neues Medikament gegen Bauchspeicheldrüsenkrebs zu - Onetz",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZm1hNDhOYS1KNVlINVJtdENCdlBMZTJvTzhOc1M5SnJSTnczM2JrVExfMGRHT01SVzMtbTJOVjlsNWl2Nm9naEdXNjNqZ3A4bXp2eEhkN0pDZU9EUFpaWUplZzA3SnRObXlUS0NLMDFJdUgwNTZSYTIwZTBfcWJMajdrZXM2VS04el8xYWw4bjI4TFNjVmkwUHo0OThWejBJSnFFZVFmZmZyWXJta3RNRA?oc=5",
+      "published": "2026-11-17T15:42:33+00:00",
+      "source": {
+        "name": "Onetz",
+        "url": "https://www.onetz.de"
       }
     },
     {
@@ -94,6 +74,16 @@
       }
     },
     {
+      "id": "9ad052dff399",
+      "title": "Unverzichtbar und wichtig: Das darf in der Hausapotheke nicht fehlen - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcGt1YXBKS2J5UUtpVDRBNElvQzBOYzdKYTM0MTJaaWFLZFFiWF82RlN2blVpQ3k3Y0tVaW9kYkMtZTRjQ0h0S0lSallpaFNrV0V4Nm5Da053MTZ4NVZ6ZzZ2SHpwOVA5cGVMSWxub1RFeGpEam0wSktTS2RkdjJ3N0Jtd3llZUZ4bXFvc3hTT3BDbHh6ektnRmZiVHhHcENsdmJ4aGsyMGI1Ylprb2k1NE1uTEY3bFRHYWczYVY4dVJ0eEpKOWQxcDJuVQ?oc=5",
+      "published": "2026-11-15T07:16:32+00:00",
+      "source": {
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
+      }
+    },
+    {
       "id": "31725fa6c2a9",
       "title": "Abnehmspritze schwächt Antibabypille: EMA warnt vor ungewollter Schwangerschaft - T-Online",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOckc5aWhsSEEySmZ4UkE2MWxwdUhqMWc2TlBxQlN2QklkT2hGVXJOby1iV1lJS25tQ1ZUdU9uTGZnMWg5WW1fN2tqSllVNTNCUjM1blY1ei1PRG96djdpdTV3WXEtUkJsX3JCbUhjSnFGUTJTRzNTSnB1OVRYVWUtaFhkMEFkNThaVzdfSk1MNmJaMHFOT2RmYzdWOWpROEVMNzA1eXl3MzhYTGpDSWlYV0ZEbWtHU1FuR1ZpQzd0al8?oc=5",
@@ -114,23 +104,23 @@
       }
     },
     {
-      "id": "9ad052dff399",
-      "title": "Unverzichtbar und wichtig: Das darf in der Hausapotheke nicht fehlen - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcGt1YXBKS2J5UUtpVDRBNElvQzBOYzdKYTM0MTJaaWFLZFFiWF82RlN2blVpQ3k3Y0tVaW9kYkMtZTRjQ0h0S0lSallpaFNrV0V4Nm5Da053MTZ4NVZ6ZzZ2SHpwOVA5cGVMSWxub1RFeGpEam0wSktTS2RkdjJ3N0Jtd3llZUZ4bXFvc3hTT3BDbHh6ektnRmZiVHhHcENsdmJ4aGsyMGI1Ylprb2k1NE1uTEY3bFRHYWczYVY4dVJ0eEpKOWQxcDJuVQ?oc=5",
-      "published": "2026-11-15T07:16:32+00:00",
+      "id": "320a3581baf5",
+      "title": "Lipoprotein (a): Neues Medikament senkt Wert um 75 Prozent – doch Patienten hatten nichts davon - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT2d4alNJTHVkWmY5azlhZzYxTGpWUXRHVFdVb2Z1ajhGVjk5aE81VGtkVFh6SWs2YS1lVzZrWGI5SUpCRnQ5Zk1vNURIaElsMkpJTzFIdlpxcDBoOGc5UXJMWU1FbzdzSEJmVGNPYmZBZ1l6Q0x0MHpCYktkQ0tiQjVHQVlmZjFuZXdZc1Q2eTNtX1IxdjRMSFYyXzZLUkhxVEl4U3RfeVpaWTk0UFBYaXBCVGhmUHRqMlBkTHpJTkNoNi1vN0xJ?oc=5",
+      "published": "2026-11-12T12:12:09+00:00",
       "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
       }
     },
     {
-      "id": "bf44437cdfaa",
-      "title": "Weniger Krebs durch Fleischverzicht? Was Studien mit Millionen Menschen zeigen - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQXBWVnBiX29TTlR3QmVqck1nQjNGZHlFc3B5S21zckpTYWRGa2t4aTVqUGhoZVJwQUhWWjZ6YWQ0bnFlcDhqZU80cjdQdTNLMERTNGg5WF9KLUYwWC1YNVRUNGxHcUhITkU0bWk4cGY4S1gzX0Y0ZGVoX0l1SzZoUXNBN2dxVVZ0LVh1WTZFTzNaY0d0ZGVWbTVubUtMSTlaRVV3WUVNWVdELVVTLWkwTnpTVQ?oc=5",
-      "published": "2026-11-17T11:02:00+00:00",
+      "id": "6c7453c67a98",
+      "title": "Antibiotika: Warum der One Health-Ansatz wichtig ist - Die Furche",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNzZYSWZGbkdlX1NDbXkwclJuN1RBRmdHbWZ1cVJ1QWtHdWpUaU95eEIwb21mU2t6aVVfd2NnMkRsTllZVmt2LWRIZExhWnI1MUwzWkwtc3NJNjY4WjdhVnBpekRiNDh1UnZxNXAtUEUxTTA4T2NGdlBuT1YydF9TVXJLWWVSeDVIQWRFd0FpZC1yWDQ?oc=5",
+      "published": "2026-11-17T05:05:46+00:00",
       "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
+        "name": "Die Furche",
+        "url": "https://www.furche.at"
       }
     },
     {
@@ -144,6 +134,26 @@
       }
     },
     {
+      "id": "93b1afb8778e",
+      "title": "Abnehmspritze und Pille: EMA empfiehlt zusätzliche Verhütung - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNU3B5dEVwbFFsdUYxWUxjLWUyVzJvbDJhbTRVcmlRM3RfbV9jcUhFUElpMUhPM0szV2F6dHg2RGt6d2VxUVNGa3Z3M21BbzRaUDhhR2JvNnZKbThvUTY4d0s3NEpyRFNVdlBDeUJHal9rVTR0T3piekJhTnpabzY0QngtRUROMGw2VE1ZZWZWbnpkYzJIa0kwVjZuTzE5UQ?oc=5",
+      "published": "2026-11-16T12:08:42+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "2ba16a11fdb8",
+      "title": "Warum Sie Ihr Nasenspray besser nicht mit anderen teilen - Vodafone live",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNWc1MEQ0NWJLSTQ3cU9rb3VlbGdtaFVqa2REXy0xSnlmYmNzY2Q1cEJYU2dVQmswdW5iTGdSb0UzT2JEVF93aU1JdHhlU2ZrSmVlZTgxcFoxemJ5dUlXalJZU0o5d1hRdE1pa2ptWXgwUFcxQU9GeFV2OW5WZWV5Y0JPQXJRRmRMQjRDNWRVSlBxdEJOYW04SllucGV1djJpTXlPTlp2UGVUei1iRDFBaU9nbklFUQ?oc=5",
+      "published": "2026-11-16T11:39:00+00:00",
+      "source": {
+        "name": "Vodafone live",
+        "url": "https://live.vodafone.de"
+      }
+    },
+    {
       "id": "ff259a15f21c",
       "title": "Hoffnung bei Volkskrankheit: Neues Medikament vor der Zulassung - T-Online",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVklFUjNXYXVwWGV0RS1iR2RlY2VEem9yWFNlcUJJdDd6aE5jTkNnTk9uRGIxdTBfN1pwN2JZZ2FBS1IyN0RpSHBvSWZ2TUpnZDE3bDVyS0dCbzhxbFA5bVFnZWdnT29WMzNNMXRmbDNZOXFaMWxGMGs2UUtYSjhvc3dUaEs1TzZCM3pwQjYxTVhRWk5qWTNpb19kZDFjUzM5MnQ4ZVFoZWtxelVYbU8wUUVqVmVwc3dVdGc?oc=5",
@@ -154,23 +164,13 @@
       }
     },
     {
-      "id": "684bd5c2ba6a",
-      "title": "Depression: Diese Medikamente helfen auch langfristig - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaElvQS1wZGMwRDRYWGtIWWM2T2lIVGtNWW92Nl9PdlVUNlJmQ3Jhc1RreXhSOEJhMmdDTko0M1Zrb0hPZjVTclA3OEtnUWxMVjVyNnNtcUVSUkppMGxEY1pfQ3V3U3lhWFUtTXppTkl0Y1VZLW5XRnBVM2htaGZPclpGTEhJM2RXUGM3Yl9rSldFdw?oc=5",
-      "published": "2026-11-12T13:39:59+00:00",
+      "id": "00fcb7c4ebf9",
+      "title": "WHO zu Resistenzen: viele Millionen Todesfälle drohen - Onetz",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOUVzVE9mWklYYXFUa0g3eEJoLUpsLURPSGFSYjU2bERsU3drZ0ZMcC1uamNwcl9xQVRMdjU4NEM2Rk1kcW9GdFdPX2xQN3M5S0lCWF9WeUJ5R09xQnVScjV2WGZ6WUQ4UWtJSTFFcFVFbEtpaVhHQ0VsM2ZvRkdUczFMOTNuX2VjUzUyWDltN1lhSjlqWklXUHY3MWZJSk11MjlYOWRB?oc=5",
+      "published": "2026-11-16T08:02:10+00:00",
       "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "93b1afb8778e",
-      "title": "Abnehmspritze und Pille: EMA empfiehlt zusätzliche Verhütung - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNU3B5dEVwbFFsdUYxWUxjLWUyVzJvbDJhbTRVcmlRM3RfbV9jcUhFUElpMUhPM0szV2F6dHg2RGt6d2VxUVNGa3Z3M21BbzRaUDhhR2JvNnZKbThvUTY4d0s3NEpyRFNVdlBDeUJHal9rVTR0T3piekJhTnpabzY0QngtRUROMGw2VE1ZZWZWbnpkYzJIa0kwVjZuTzE5UQ?oc=5",
-      "published": "2026-11-16T12:08:42+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
+        "name": "Onetz",
+        "url": "https://www.onetz.de"
       }
     },
     {
@@ -184,13 +184,43 @@
       }
     },
     {
-      "id": "f728dcbe14a2",
-      "title": "Können Energy-Drinks dem Herzen schaden? - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVUItS0E2RHBsS0tZTzk5bW4xZ3hWeUpvX1hwbklNd09EMmloZkljZ01RVXVPSjRiODBYVWVKeUx6YlBQTGJiQjMzSnRCUjFudVpGcTQ4QTc2Uk1TNHNYOEpmaXhpRkMybmNCUHA5ZTFVZmpDXzI0OGpRSnd6SVRSYk5B?oc=5",
-      "published": "2026-11-16T14:23:56+00:00",
+      "id": "572741304a21",
+      "title": "39 Millionen Todesfälle drohen: WHO warnt vor wachsender Gefahr in Krankenhäusern - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRFBWQ0Q1NW04WjgtUlpqY3lXMnFtSWJmS00wQ0c1QzVGVE5ENFlIeWdVbFRVTHRqa3UxUGJpTThOZHpjdkdzbXVrVDdSZkl5RFVPZDE4ZzU0M1VFbGFYdm5TSjQ1OUM3dnRjeFBDZW5VNmJUa2xmeW43WkVMdTJVdFpCdzRpRjE2SU05MlhSeGkzUTU2NnlaQUFmWGljb1ZNcThGc0owWmZScnUzS3dmU0QwU000QU9kdFNTR1FPTW9xbXo1RE40?oc=5",
+      "published": "2026-11-16T08:01:45+00:00",
       "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
+      }
+    },
+    {
+      "id": "c052e9e12868",
+      "title": "Fortvita erhält erstmals eine positive Stellungnahme des CHMP, in der Zybrivo® (Sintilimab) zur Erstlinienbehandlung von nicht-kleinzelligem nicht-plattenepithelialem Lungenkarzinom empfohlen wird - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxNd3QxSDRBaXBzZExLYmZRVmhHbVN5RTV5RGlqX2luc2Npc215cnBhQ0xfbDQxWUx3M29aY3VOOGxrZWl3Qnh2Vjc1NTg3elVvelNrS3F6b19rOVd6b3VTR001NVNJSWtrbGVYOFFFMkZCNTJRRDJjTmpyWktGWkp4OU1pMGM2WlM1STJIWjRHU083ZURFcklMTnhZT3hIZ0tGVFo1WlNSdHIycWlmeDF4RzBNU1dPYnp1R1cwRnUyOHc4MFhnRGhuaUNhX1FJUFNzcVAzaGhUODRVcWptb3lpQ20wRHU5MUJ3a05OZF8xTWNPU01EdW9LTkRhTGNKdmsxNlMtSG5GQ1E0eVd5QnBZUTRCaktRWEFtcVVQM2thMHpwVWtHWVQ4YWZYelZSUnV0eTdHWHRxdUtVTDhmMkJWRjZySjdwMWEzNVloUndYQjRsWFV4VFV3dU81U1NiWmZ1ckM5TmJlM25NTWNOY1BNSzFR?oc=5",
+      "published": "2026-11-16T23:55:00+00:00",
+      "source": {
+        "name": "PR Newswire",
+        "url": "https://www.prnewswire.com"
+      }
+    },
+    {
+      "id": "4f1872a2fc9a",
+      "title": "Gesundheitsnachrichten-Update vom 16. November: Das Gesundheitsministerium fordert ein striktes Vorgehen gegen diejenigen, die Informationen über mit HIV infizierte Personen weitergeben. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTDJRTVBNdzhMZWd6OWVGVGhqZmlxVUg2eDE4R3RFeFNCRWM0b3YxeW1kT1EzbGVYX3JWNEcwOWtUbC1ydElUZlM0SU1oaTF5Q2hFOHAxU0lRWUprVjlrRnJxOW9sNDlGVHRWTUJYQkhjREdyZDFhMktiUFUyZ3h1UmNqU0xtQWlnc2l3YTJZVVMxdzhIcFd4MlBzeUIxUkVKd0tBdzZyWnlFRFNaQ1VEN3k4ZHdmdW93UFIweQ?oc=5",
+      "published": "2026-11-16T04:28:30+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "4e6d48112005",
+      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
+      "published": "2026-05-22T07:00:00+00:00",
+      "source": {
+        "name": "Bundesministerium für Gesundheit (BMG)",
+        "url": "https://www.bundesgesundheitsministerium.de"
       }
     },
     {
@@ -214,56 +244,6 @@
       }
     },
     {
-      "id": "4e6d48112005",
-      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
-      "published": "2026-05-22T07:00:00+00:00",
-      "source": {
-        "name": "Bundesministerium für Gesundheit (BMG)",
-        "url": "https://www.bundesgesundheitsministerium.de"
-      }
-    },
-    {
-      "id": "6c7453c67a98",
-      "title": "Antibiotika: Warum der One Health-Ansatz wichtig ist - Die Furche",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNzZYSWZGbkdlX1NDbXkwclJuN1RBRmdHbWZ1cVJ1QWtHdWpUaU95eEIwb21mU2t6aVVfd2NnMkRsTllZVmt2LWRIZExhWnI1MUwzWkwtc3NJNjY4WjdhVnBpekRiNDh1UnZxNXAtUEUxTTA4T2NGdlBuT1YydF9TVXJLWWVSeDVIQWRFd0FpZC1yWDQ?oc=5",
-      "published": "2026-11-17T05:05:46+00:00",
-      "source": {
-        "name": "Die Furche",
-        "url": "https://www.furche.at"
-      }
-    },
-    {
-      "id": "320a3581baf5",
-      "title": "Lipoprotein (a): Neues Medikament senkt Wert um 75 Prozent – doch Patienten hatten nichts davon - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT2d4alNJTHVkWmY5azlhZzYxTGpWUXRHVFdVb2Z1ajhGVjk5aE81VGtkVFh6SWs2YS1lVzZrWGI5SUpCRnQ5Zk1vNURIaElsMkpJTzFIdlpxcDBoOGc5UXJMWU1FbzdzSEJmVGNPYmZBZ1l6Q0x0MHpCYktkQ0tiQjVHQVlmZjFuZXdZc1Q2eTNtX1IxdjRMSFYyXzZLUkhxVEl4U3RfeVpaWTk0UFBYaXBCVGhmUHRqMlBkTHpJTkNoNi1vN0xJ?oc=5",
-      "published": "2026-11-12T12:12:09+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
-      "id": "c052e9e12868",
-      "title": "Fortvita erhält erstmals eine positive Stellungnahme des CHMP, in der Zybrivo® (Sintilimab) zur Erstlinienbehandlung von nicht-kleinzelligem nicht-plattenepithelialem Lungenkarzinom empfohlen wird - PR Newswire",
-      "link": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxNd3QxSDRBaXBzZExLYmZRVmhHbVN5RTV5RGlqX2luc2Npc215cnBhQ0xfbDQxWUx3M29aY3VOOGxrZWl3Qnh2Vjc1NTg3elVvelNrS3F6b19rOVd6b3VTR001NVNJSWtrbGVYOFFFMkZCNTJRRDJjTmpyWktGWkp4OU1pMGM2WlM1STJIWjRHU083ZURFcklMTnhZT3hIZ0tGVFo1WlNSdHIycWlmeDF4RzBNU1dPYnp1R1cwRnUyOHc4MFhnRGhuaUNhX1FJUFNzcVAzaGhUODRVcWptb3lpQ20wRHU5MUJ3a05OZF8xTWNPU01EdW9LTkRhTGNKdmsxNlMtSG5GQ1E0eVd5QnBZUTRCaktRWEFtcVVQM2thMHpwVWtHWVQ4YWZYelZSUnV0eTdHWHRxdUtVTDhmMkJWRjZySjdwMWEzNVloUndYQjRsWFV4VFV3dU81U1NiWmZ1ckM5TmJlM25NTWNOY1BNSzFR?oc=5",
-      "published": "2026-11-16T23:55:00+00:00",
-      "source": {
-        "name": "PR Newswire",
-        "url": "https://www.prnewswire.com"
-      }
-    },
-    {
-      "id": "00fcb7c4ebf9",
-      "title": "WHO zu Resistenzen: viele Millionen Todesfälle drohen - Onetz",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOUVzVE9mWklYYXFUa0g3eEJoLUpsLURPSGFSYjU2bERsU3drZ0ZMcC1uamNwcl9xQVRMdjU4NEM2Rk1kcW9GdFdPX2xQN3M5S0lCWF9WeUJ5R09xQnVScjV2WGZ6WUQ4UWtJSTFFcFVFbEtpaVhHQ0VsM2ZvRkdUczFMOTNuX2VjUzUyWDltN1lhSjlqWklXUHY3MWZJSk11MjlYOWRB?oc=5",
-      "published": "2026-11-16T08:02:10+00:00",
-      "source": {
-        "name": "Onetz",
-        "url": "https://www.onetz.de"
-      }
-    },
-    {
       "id": "2a4cd6eb6d1d",
       "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
@@ -271,26 +251,6 @@
       "source": {
         "name": "European Parliament",
         "url": "https://www.europarl.europa.eu"
-      }
-    },
-    {
-      "id": "572741304a21",
-      "title": "39 Millionen Todesfälle drohen: WHO warnt vor wachsender Gefahr in Krankenhäusern - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRFBWQ0Q1NW04WjgtUlpqY3lXMnFtSWJmS00wQ0c1QzVGVE5ENFlIeWdVbFRVTHRqa3UxUGJpTThOZHpjdkdzbXVrVDdSZkl5RFVPZDE4ZzU0M1VFbGFYdm5TSjQ1OUM3dnRjeFBDZW5VNmJUa2xmeW43WkVMdTJVdFpCdzRpRjE2SU05MlhSeGkzUTU2NnlaQUFmWGljb1ZNcThGc0owWmZScnUzS3dmU0QwU000QU9kdFNTR1FPTW9xbXo1RE40?oc=5",
-      "published": "2026-11-16T08:01:45+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
-      }
-    },
-    {
-      "id": "4f1872a2fc9a",
-      "title": "Gesundheitsnachrichten-Update vom 16. November: Das Gesundheitsministerium fordert ein striktes Vorgehen gegen diejenigen, die Informationen über mit HIV infizierte Personen weitergeben. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTDJRTVBNdzhMZWd6OWVGVGhqZmlxVUg2eDE4R3RFeFNCRWM0b3YxeW1kT1EzbGVYX3JWNEcwOWtUbC1ydElUZlM0SU1oaTF5Q2hFOHAxU0lRWUprVjlrRnJxOW9sNDlGVHRWTUJYQkhjREdyZDFhMktiUFUyZ3h1UmNqU0xtQWlnc2l3YTJZVVMxdzhIcFd4MlBzeUIxUkVKd0tBdzZyWnlFRFNaQ1VEN3k4ZHdmdW93UFIweQ?oc=5",
-      "published": "2026-11-16T04:28:30+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -311,16 +271,6 @@
       "source": {
         "name": "tagesschau.de",
         "url": "https://www.tagesschau.de"
-      }
-    },
-    {
-      "id": "a8b4476cf65c",
-      "title": "#nis2know : Gesundheitswesen - BSI - Bundesamt für Sicherheit in der Informationstechnik",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSm81X1pvMk5LUFB0UFpiUGlXaGhUWEZWa2xhTVZXMHVBS2lOUE55MFFZYm90U0g2Vm4xZlhjeVE2U1VzVDlOSjVsRU9Ha3dBOUduUFNuZ2l4M3JNT1NIYXQxaURYR2U5Q2FZY2EzcjlwODRYUUlqamp5QkJJWG1vTkJpR2w1aFpPSHdOLUtCbnltWTdwLWtDNkJ6Q1ZaNngtdmdET1Q5ZENORWNBMjBvR0d3TXlOazQ0dUFEbGNoZ1NLN2pRdV9BeDlrRlhZMjVBejA4VlJLUDRnZ2k4MXc?oc=5",
-      "published": "2026-02-13T14:27:49+00:00",
-      "source": {
-        "name": "BSI - Bundesamt für Sicherheit in der Informationstechnik",
-        "url": "https://www.bsi.bund.de"
       }
     },
     {
@@ -351,6 +301,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "3a8cb7f967f0",
+      "title": "RKI, PEI und BfArM werden zu „Die Gesundheitsinstitute“ - Deutsche Apotheker Zeitung, DAZ",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMWpEQW9yU0xrSnlvVzVhYnFFZlJnRzVzc1pqbFE5UUhJWDBUMXlsQTJWdnJJcjJ1cjQ2MFBLQ2lSZzZPRTdmUG94X2NoengyTEhOYkZvdXJNYjdHSXg2SjM1bkZHYlE5SmpoM2lfdUt4eUhzaEtvU1AxLWpHYnNYWUZJQ21tU241NW03Q3RDejM5blEwMzc3OWxrRWxZOFJrUDh0OXptNW1Lc1hOYnR2VFBNdVlCdThHT1E?oc=5",
+      "published": "2026-11-17T07:00:00+00:00",
+      "source": {
+        "name": "Deutsche Apotheker Zeitung, DAZ",
+        "url": "https://www.deutsche-apotheker-zeitung.de"
       }
     },
     {
