@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 290
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Mepolizumab: vorhergesagte neue Indikation Thrombozytopenie durch Immunzerstörung (Evidenzstufe L5). Ursprüngliche Indikation: Asthma"
 monitor_inn: "MEPOLIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia"]

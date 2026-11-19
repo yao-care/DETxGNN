@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 448
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "TEGAFUR"
 predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "colonic lymphangioma", "cavernous hemangioma of colon"]
 description: "Tegafur: vorhergesagte neue Indikation Villöses Adenom des Zäkums (cecum villous adenoma) (Evidenzstufe L5). Zentrale EU-Zulassungen (EMA): 1 (gültig: 1)"

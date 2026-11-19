@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 20
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "AGOMELATINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
 description: "Agomelatine: vorhergesagte neue Indikation Benign paroxysmal torticollis of infancy (Evidenzstufe L5). Ursprüngliche Indikation: Depressive Disorder, Major"

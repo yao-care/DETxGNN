@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Imipenem"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "eosinophilia-myalgia syndrome"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 description: "Imipenem: vorhergesagte neue Indikation Diffuse Sklerodermie (diffuse scleroderma) (Evidenzstufe L5). Ursprüngliche Indikation: Gram-Negative Bacterial Infections"
 ---
 

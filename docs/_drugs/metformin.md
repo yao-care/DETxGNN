@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "METFORMIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Metformin: vorhergesagte neue Indikation Fokales Stiff-Limb-Syndrom (focal stiff limb syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes Mellitus, Type 2"
 ---
 

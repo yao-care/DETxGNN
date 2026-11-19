@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 361
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Pitolisant: vorhergesagte neue Indikation Insomnie (Evidenzstufe L5). Ursprüngliche Indikation: Narkolepsie"
 monitor_inn: "PITOLISANT"
 predicted_indications: ["insomnia (disease)", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome"]

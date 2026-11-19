@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 143
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "DEXAMETHASONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
 description: "Dexamethasone: vorhergesagte neue Indikation Mucinosis follicularis (alopecia mucinosa) (Evidenzstufe L5). Ursprüngliche Indikation: Macular Edema"

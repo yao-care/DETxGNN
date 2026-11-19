@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB11730
 monitor_inn: "Ribociclib"
 predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Ribociclib Succinate: vorhergesagte neue Indikation Myeloische Leukämie (myeloid leukemia) (Evidenzstufe L5). Ursprüngliche Indikation: Breast Neoplasms"
 ---
 

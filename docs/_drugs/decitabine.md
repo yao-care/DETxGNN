@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 135
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Decitabine: vorhergesagte neue Indikation Refraktäre Zytopenie des Kindesalters (Evidenzstufe L5). Ursprüngliche Indikation: Myeloische Leukämie"
 monitor_inn: "DECITABINE"
 predicted_indications: ["refractory cytopenia of childhood"]

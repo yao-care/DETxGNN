@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 443
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "TALIMOGENE LAHERPAREPVEC"
 predicted_indications: ["glottis squamous cell carcinoma", "lung occult squamous cell carcinoma", "rectal cloacogenic carcinoma", "gallbladder adenosquamous carcinoma"]
 description: "Talimogene Laherparepvec: vorhergesagte neue Indikation Glottis-Plattenepithelkarzinom (glottis squamous cell carcinoma) (Evidenzstufe L5). Ursprüngliche Indikation: Melanoma"

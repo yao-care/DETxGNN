@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 259
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "LARONIDASE"
 predicted_indications: ["Sanfilippo syndrome"]
 description: "Laronidase: vorhergesagte neue Indikation Sanfilippo-Syndrom (Sanfilippo syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: Mucopolysaccharidosis I"

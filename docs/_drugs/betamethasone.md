@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 7
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
-last_modified_at: 2026-11-09
+last_modified_at: 2026-11-20
 description: "Betamethasone: vorhergesagte neue Indikation Alopecia mucinosa (Evidenzstufe L4). Keine zentrale EU-Zulassung (EMA) erfasst"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "FERRIC MALTOL"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "IRIDA syndrome"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 description: "Ferric Maltol: vorhergesagte neue Indikation Vitamin B12- and folate-independent constitutional megaloblastic anemia (Evidenzstufe L5). Ursprüngliche Indikation: Anemia, Iron-Deficiency"
 ---
 

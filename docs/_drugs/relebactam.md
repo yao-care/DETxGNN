@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 389
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "Relebactam"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
 description: "Relebactam: vorhergesagte neue Indikation Hyperamylasämie (hyperamylasemia) (Evidenzstufe L5). Ursprüngliche Indikation: Gram-Negative Bacterial Infections"

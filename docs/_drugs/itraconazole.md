@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ITRACONAZOLE"
 predicted_indications: ["pneumocystosis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Itraconazole: vorhergesagte neue Indikation Pneumocystose (pneumocystosis) (Evidenzstufe L5). Keine zentrale EU-Zulassung (EMA) erfasst"
 ---
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 213
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "GLUCAGON"
 predicted_indications: ["irritable bowel syndrome"]
 description: "Glucagon: vorhergesagte neue Indikation Reizdarmsyndrom (irritable bowel syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes Mellitus"
