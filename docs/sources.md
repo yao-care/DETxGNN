@@ -14,25 +14,25 @@ Jede Schlussfolgerung lässt sich auf eine öffentliche Datenquelle zurückführ
 
 ---
 
-<!-- site-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
-## Deutschland: Daten dieser Website
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## Deutschland: was die lokalen Daten abdecken
 
-Diese Website veröffentlicht Berichte zu **{{ site.data.drug_stats.total_drugs }}** Arzneimitteln mit zentraler EU-Zulassung aus dem [EMA Medicines Report](https://www.ema.europa.eu/en/medicines/download-medicine-data) (gelten auch in Deutschland).
+Lokale Daten: [EMA Medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx). Die lokalen Daten sind zentrale EU-Zulassungen aus dem EMA Medicines Report; sie gelten auch in Deutschland. Nationale Zulassungen des BfArM sind darin nicht enthalten.
 
-Berichte nach Evidenzstufe:
+| Angabe | Wert |
+|---|---|
+| Arzneimittel in den lokalen Daten | {{ site.data.local_facts.licence.drugs_with_data }} |
+| …mit mindestens einem gültigen Eintrag | {{ site.data.local_facts.licence.drugs_with_current }} |
+| …mit Einträgen, aber keinem gültigen | {{ site.data.local_facts.licence.drugs_none_current }} |
+| Arzneimittel nicht in den lokalen Daten | {{ site.data.local_facts.licence.drugs_without_data }} |
+| Lokale Einträge (zentrale EU-Zulassungen (EMA)) | {{ site.data.local_facts.licence.items_total }} |
+| …davon gültige | {{ site.data.local_facts.licence.items_current }} |
 
-| Evidenzstufe | Berichte | Anteil |
-|---|---|---|
-| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+{% if site.data.local_facts.no_current.size > 0 %}Arzneimittel mit zentrale EU-Zulassungen (EMA) in diesen Daten, aber keinem gültigen: {% for r in site.data.local_facts.no_current %}[{{ r.t }}]({{ r.u | relative_url }}){% unless forloop.last %}, {% endunless %}{% endfor %}{% if site.data.local_facts.no_current_more > 0 %}, und {{ site.data.local_facts.no_current_more }} weitere{% endif %}{% endif %}
 
-4 vorhergesagte Arzneimittel-Krankheits-Paare dieser Website kommen auf keiner anderen der 30 TxGNN-Websites vor.
+{% if site.data.local_facts.recent_licence_reviews.size > 0 %}Letzte Korrekturen lokaler Zulassungsangaben: {% for r in site.data.local_facts.recent_licence_reviews %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.d }}): {{ r.s }}{% unless forloop.last %}; {% endunless %}{% endfor %}{% endif %}
 
-<!-- site-data:end -->
+<!-- local-facts:end -->
 
 ## Übersicht der Quellen
 

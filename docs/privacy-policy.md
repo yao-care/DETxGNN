@@ -49,13 +49,32 @@ ClinicalTrials.gov gesendet.
 
 ---
 
-## Rechte der betroffenen Personen
+<!-- privacy-law:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改；法規與連結見 .claude/privacy_text_20261119.py）-->
+## Anwendbares Recht
 
-Diese Website hat keine Benutzerkonten und speichert keine personenbezogenen Datensätze auf eigenen Servern (sie hat
-keine). Die Nutzungsstatistiken erhebt Google Analytics 4; Sie können dessen Cookies in Ihren Browsereinstellungen
-blockieren oder löschen.
-Bei Fragen zu dieser Erklärung wenden Sie sich bitte an
-service@yao.care.
+Für Besucherinnen und Besucher in Deutschland gelten die [Datenschutz-Grundverordnung (DSGVO)](https://eur-lex.europa.eu/eli/reg/2016/679/oj) und das [Bundesdatenschutzgesetz (BDSG)](https://www.gesetze-im-internet.de/bdsg_2018/); für Cookies gilt zusätzlich das TDDDG. Aufsichtsbehörden sind die Landesdatenschutzbehörden sowie auf Bundesebene die [BfDI](https://www.bfdi.bund.de/). Der Betreiber sitzt in Taiwan und hat keine Niederlassung in der EU; betroffen sind die Nutzungsdaten, die Google Analytics 4 über Cookies erhebt.
+
+## Ihre Rechte und wie Sie sie ausüben
+
+- Auskunftsrecht (Art. 15 DSGVO) und Recht auf Berichtigung (Art. 16).
+- Recht auf Löschung (Art. 17) und Einschränkung der Verarbeitung (Art. 18).
+- Widerspruchsrecht (Art. 21), auch gegen die Webanalyse.
+- Beschwerderecht bei einer Aufsichtsbehörde (Art. 77).
+
+Anfragen: service@yao.care (keine Konten: nennen Sie Datum und Seiten Ihres Besuchs). Analyse-Cookies können Sie im Browser sperren oder löschen.
+
+## Urheberrecht und Datenquellen
+
+Die Texte der Website sind nach dem [Urheberrechtsgesetz (UrhG)](https://www.gesetze-im-internet.de/urhg/) geschützt. Der Code der Website steht unter der MIT-Lizenz im [GitHub-Repository](https://github.com/yao-care/DETxGNN); die Berichtstexte sind © 藥提醒科技有限公司 (yao.care).
+
+Datenquellen dieser Website und ihre Bedingungen:
+
+- **TxGNN**-Daten (Harvard Dataverse): CC0 1.0; zitieren Sie Huang et al., *Nature Medicine* 2024.
+- **ClinicalTrials.gov**, **PubMed**: [Bedingungen von ClinicalTrials.gov](https://clinicaltrials.gov/about-site/terms-conditions), [NCBI-Richtlinien](https://www.ncbi.nlm.nih.gov/home/about/policies/).
+- **DrugBank**: Lizenzbedingungen von [DrugBank](https://go.drugbank.com/), nicht kommerziell.
+- **Lokaler Datensatz**: [EMA Medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx), veröffentlicht von European Medicines Agency (EMA); für die Weiterverwendung gelten die Bedingungen des Herausgebers, diese Website räumt keine weiteren Rechte ein.
+
+<!-- privacy-law:end -->
 
 ---
 

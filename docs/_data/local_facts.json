@@ -1,0 +1,457 @@
+{
+ "_about": "本檔由 scripts/local_facts.py 產生（母目錄 .claude/local_facts_lib.py），勿手改；cross 欄位由母目錄 .claude/gen_local_pages_20261119.py 更新",
+ "drugs_total": 469,
+ "level_counts": {
+  "L1": 10,
+  "L2": 19,
+  "L3": 18,
+  "L4": 24,
+  "L5": 386
+ },
+ "level_na": 12,
+ "public_pages": 469,
+ "licence_snapshot": "de_licenses.json.gz",
+ "licence": {
+  "drugs_with_data": 446,
+  "drugs_with_current": 440,
+  "drugs_none_current": 6,
+  "drugs_without_data": 23,
+  "drugs_partial": 0,
+  "items_total": 975,
+  "items_current": 953
+ },
+ "reviews": {
+  "records": 346,
+  "pages": 225,
+  "public_pages_with_records": 220,
+  "by_action": {
+   "correct": 346
+  }
+ },
+ "fhir": {
+  "medication_knowledge": 469,
+  "clinical_use_definition": 2729
+ },
+ "top_licensed": [
+  {
+   "t": "Metformin",
+   "u": "/drugs/metformin/",
+   "l": "L5",
+   "lt": 19,
+   "lv": 19,
+   "r": 0,
+   "i": "Fokales Stiff-Limb-Syndrom"
+  },
+  {
+   "t": "Emtricitabine",
+   "u": "/drugs/emtricitabine/",
+   "l": "L5",
+   "lt": 18,
+   "lv": 18,
+   "r": 0,
+   "i": "Feline erworbene Immunschwäche"
+  },
+  {
+   "t": "Clopidogrel",
+   "u": "/drugs/clopidogrel/",
+   "l": "L5",
+   "lt": 16,
+   "lv": 16,
+   "r": 0,
+   "i": "migraine with brainstem aura"
+  },
+  {
+   "t": "Aflibercept",
+   "u": "/drugs/aflibercept/",
+   "l": "L5",
+   "lt": 14,
+   "lv": 14,
+   "r": 0,
+   "i": "esotropia"
+  },
+  {
+   "t": "Tenofovir Disoproxil",
+   "u": "/drugs/tenofovir-disoproxil/",
+   "l": "L4",
+   "lt": 14,
+   "lv": 14,
+   "r": 0,
+   "i": "simian immunodeficiency virus infection"
+  },
+  {
+   "t": "Ustekinumab",
+   "u": "/drugs/ustekinumab/",
+   "l": "L2",
+   "lt": 13,
+   "lv": 12,
+   "r": 3,
+   "i": "dermatitis"
+  },
+  {
+   "t": "Adalimumab",
+   "u": "/drugs/adalimumab/",
+   "l": "L5",
+   "lt": 11,
+   "lv": 11,
+   "r": 0,
+   "i": "Hypermobilität des Steißbeins"
+  },
+  {
+   "t": "Pegfilgrastim",
+   "u": "/drugs/pegfilgrastim/",
+   "l": "L5",
+   "lt": 11,
+   "lv": 11,
+   "r": 1,
+   "i": "Schwere nichtproliferative diabetische Retinopathie"
+  }
+ ],
+ "no_current": [
+  {
+   "t": "Bezlotoxumab",
+   "u": "/drugs/bezlotoxumab/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "Akute weibliche Beckenperitonitis"
+  },
+  {
+   "t": "Duvelisib",
+   "u": "/drugs/duvelisib/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "Hodgkin-Lymphom"
+  },
+  {
+   "t": "Iloperidone",
+   "u": "/drugs/iloperidone/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "Retinale Dystrophie mit oder ohne extraokulare Anomalien"
+  },
+  {
+   "t": "Lusutrombopag",
+   "u": "/drugs/lusutrombopag/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "Hereditäre Thrombozytopenie mit normalen Thrombozyten"
+  },
+  {
+   "t": "Parathyroid Hormone",
+   "u": "/drugs/parathyroid-hormone/",
+   "l": "L4",
+   "lt": 1,
+   "lv": 0,
+   "r": 1,
+   "i": "Migränestörung"
+  },
+  {
+   "t": "Reteplase",
+   "u": "/drugs/reteplase/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "congenital coronary artery anomaly"
+  }
+ ],
+ "no_current_more": 0,
+ "most_reviewed": [
+  {
+   "t": "Insulin Glargine",
+   "u": "/drugs/insulin-glargine/",
+   "l": "L5",
+   "lt": 6,
+   "lv": 6,
+   "r": 4,
+   "i": "autoimmune oophoritis"
+  },
+  {
+   "t": "Alanine",
+   "u": "/drugs/alanine/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 1,
+   "r": 3,
+   "i": "gastroparesis (disease)"
+  },
+  {
+   "t": "Epinephrine",
+   "u": "/drugs/epinephrine/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 1,
+   "r": 3,
+   "i": "obstructive lung disease"
+  },
+  {
+   "t": "Insulin Aspart",
+   "u": "/drugs/insulin-aspart/",
+   "l": "L5",
+   "lt": 8,
+   "lv": 7,
+   "r": 3,
+   "i": "autoimmune oophoritis"
+  },
+  {
+   "t": "Insulin Degludec",
+   "u": "/drugs/insulin-degludec/",
+   "l": "L5",
+   "lt": 3,
+   "lv": 3,
+   "r": 3,
+   "i": "autoimmune oophoritis"
+  },
+  {
+   "t": "Insulin Glulisine",
+   "u": "/drugs/insulin-glulisine/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 1,
+   "r": 3,
+   "i": "thiamine-responsive dysfunction syndrome"
+  }
+ ],
+ "example": {
+  "t": "Tacrolimus",
+  "u": "/drugs/tacrolimus/",
+  "l": "L1",
+  "lt": 5,
+  "lv": 5,
+  "r": 0,
+  "i": "seborrheic dermatitis"
+ },
+ "recent_reviews": [
+  {
+   "t": "Zidovudine",
+   "u": "/drugs/zidovudine/",
+   "s": "Tabelle: Trizivir (EMEA/H/C/000338) ist zurückgenommen, nicht gültig",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Safinamide",
+   "u": "/drugs/safinamide/",
+   "s": "Tabelle: Xadago (EMEA/H/C/002396) ist gültig, nicht erloschen",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Risperidone",
+   "u": "/drugs/risperidone/",
+   "s": "Tabelle: Okedi (EMEA/H/C/005406) ist gültig, nicht erloschen",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Parathyroid Hormone",
+   "u": "/drugs/parathyroid-hormone/",
+   "s": "Tabelle: Natpar (EMEA/H/C/003861) ist zurückgenommen, nicht gültig",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Linaclotide",
+   "u": "/drugs/linaclotide/",
+   "s": "Tabelle: Constella (EMEA/H/C/002490) ist gültig, nicht erloschen",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Ipilimumab",
+   "u": "/drugs/ipilimumab/",
+   "s": "Tabelle: Yervoy (EMEA/H/C/002213) ist gültig, nicht erloschen",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Glycine",
+   "u": "/drugs/glycine/",
+   "s": "Tabelle: Maapliv (EMEA/H/C/005557) ist gültig, nicht erloschen",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Amifampridine",
+   "u": "/drugs/amifampridine/",
+   "s": "Tabelle: Firdapse (EMEA/H/C/001032) ist gültig, nicht erloschen",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Trastuzumab",
+   "u": "/drugs/trastuzumab/",
+   "s": "Entfernt: „Es besteht derzeit eine gültige Zulassung“ (es sind 11 gültige)",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Pertuzumab",
+   "u": "/drugs/pertuzumab/",
+   "s": "Zahl der gültigen Zulassungen: 2 von 3 → alle 3",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Meloxicam",
+   "u": "/drugs/meloxicam/",
+   "s": "„alle Zulassungen aufgehoben“ → keine zentrale EU-Zulassung für Menschen, 16 gültige für Tierarzneimittel",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Insulin Human",
+   "u": "/drugs/insulin-human/",
+   "s": "ProZinc: „erloschen“ → gültige Zulassung für ein Tierarzneimittel",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Insulin Glargine",
+   "u": "/drugs/insulin-glargine/",
+   "s": "Zahl der gültigen Zulassungen: 5 von 6 → alle 6",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Fenbendazole",
+   "u": "/drugs/fenbendazole/",
+   "s": "Status der Zulassung (Panacur AquaSol): „erloschen“ → „gültig“",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Ziconotide",
+   "u": "/drugs/ziconotide/",
+   "s": "Entfernt: „da der Wirkstoff aktuell nur mit aufgehobener Zulassung geführt wird“",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Zanubrutinib",
+   "u": "/drugs/zanubrutinib/",
+   "s": "Entfernt: „Die einzige erfasste Zulassung hat den Status „erloschen/zurückgezogen““",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Zanamivir",
+   "u": "/drugs/zanamivir/",
+   "s": "Entfernt: „da die einzige deutsche Zulassung aufgehoben ist“",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Vortioxetine",
+   "u": "/drugs/vortioxetine/",
+   "s": "Entfernt: „Zudem ist die einzige deutsche Zulassung erloschen“",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Vildagliptin",
+   "u": "/drugs/vildagliptin/",
+   "s": "Entfernt: „Weitere erloschene Zulassungen: Vildagliptin / Metformin hydrochloride Accord (EMEA/H/C/005738)…",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Vilanterol",
+   "u": "/drugs/vilanterol/",
+   "s": "Entfernt: „da die Einzelwirkstoff-Zulassungen erloschen sind“",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Vestronidase Alfa",
+   "u": "/drugs/vestronidase-alfa/",
+   "s": "Entfernt: „da die Zulassung erloschen ist“",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Verteporfin",
+   "u": "/drugs/verteporfin/",
+   "s": "Entfernt: „Zudem ist die einzige Zulassung in Deutschland erloschen“",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Vernakalant",
+   "u": "/drugs/vernakalant/",
+   "s": "Entfernt: „Zudem ist die Zulassung in Deutschland erloschen, was die praktische Umsetzbarkeit einschränkt“",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Ustekinumab",
+   "u": "/drugs/ustekinumab/",
+   "s": "Entfernt: „(13 von 13 Zulassungen gültig, Arzneimittel im Handel)“",
+   "d": "2026-11-06"
+  }
+ ],
+ "recent_licence_reviews": [
+  {
+   "t": "Zidovudine",
+   "u": "/drugs/zidovudine/",
+   "s": "Tabelle: Trizivir (EMEA/H/C/000338) ist zurückgenommen, nicht gültig",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Safinamide",
+   "u": "/drugs/safinamide/",
+   "s": "Tabelle: Xadago (EMEA/H/C/002396) ist gültig, nicht erloschen",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Risperidone",
+   "u": "/drugs/risperidone/",
+   "s": "Tabelle: Okedi (EMEA/H/C/005406) ist gültig, nicht erloschen",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Parathyroid Hormone",
+   "u": "/drugs/parathyroid-hormone/",
+   "s": "Tabelle: Natpar (EMEA/H/C/003861) ist zurückgenommen, nicht gültig",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Linaclotide",
+   "u": "/drugs/linaclotide/",
+   "s": "Tabelle: Constella (EMEA/H/C/002490) ist gültig, nicht erloschen",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Ipilimumab",
+   "u": "/drugs/ipilimumab/",
+   "s": "Tabelle: Yervoy (EMEA/H/C/002213) ist gültig, nicht erloschen",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Glycine",
+   "u": "/drugs/glycine/",
+   "s": "Tabelle: Maapliv (EMEA/H/C/005557) ist gültig, nicht erloschen",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Amifampridine",
+   "u": "/drugs/amifampridine/",
+   "s": "Tabelle: Firdapse (EMEA/H/C/001032) ist gültig, nicht erloschen",
+   "d": "2026-11-12"
+  }
+ ],
+ "files": {
+  "search_index": 469,
+  "drugs_json": 469
+ },
+ "by_level": {
+  "L1": {
+   "n": 10,
+   "current": 9
+  },
+  "L2": {
+   "n": 19,
+   "current": 18
+  },
+  "L3": {
+   "n": 18,
+   "current": 14
+  },
+  "L4": {
+   "n": 24,
+   "current": 21
+  },
+  "L5": {
+   "n": 386,
+   "current": 367
+  }
+ },
+ "cross": {
+  "unique_pairs": 0,
+  "unique_examples": []
+ }
+}

@@ -14,6 +14,23 @@ Von der KI-Vorhersage bis zur Evidenzeinstufung — für jeden Kandidaten ist di
 
 ---
 
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## Deutschland: wie die Methode auf dieser Website angewendet wird
+
+Lokale Daten: [EMA Medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx). Die lokalen Daten sind zentrale EU-Zulassungen aus dem EMA Medicines Report; sie gelten auch in Deutschland. Nationale Zulassungen des BfArM sind darin nicht enthalten.
+
+| Stufe | Berichte | …mit gültigem lokalem Eintrag |
+|---|---|---|
+| L1 | {{ site.data.local_facts.by_level.L1.n }} | {{ site.data.local_facts.by_level.L1.current }} |
+| L2 | {{ site.data.local_facts.by_level.L2.n }} | {{ site.data.local_facts.by_level.L2.current }} |
+| L3 | {{ site.data.local_facts.by_level.L3.n }} | {{ site.data.local_facts.by_level.L3.current }} |
+| L4 | {{ site.data.local_facts.by_level.L4.n }} | {{ site.data.local_facts.by_level.L4.current }} |
+| L5 | {{ site.data.local_facts.by_level.L5.n }} | {{ site.data.local_facts.by_level.L5.current }} |
+
+Das Prüfprotokoll hat **{{ site.data.local_facts.reviews.records }}** Einträge auf **{{ site.data.local_facts.reviews.public_pages_with_records }}** Arzneimittelseiten; Korrekturen ändern nur Zulassungsangaben, nie die Vorhersagen des Modells.
+
+<!-- local-facts:end -->
+
 ## Gesamter Ablauf
 
 <p class="key-answer" data-question="Wie erzeugt DETxGNN seine Vorhersagen?">
