@@ -6,6 +6,7 @@ nav_order: 221
 evidence_level: L5
 indication_count: 2
 monitor_inn: "HALOFUGINONE"
+drugbank_id: DB04866
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
 last_modified_at: 2026-10-30
 description: "Halofuginone: vorhergesagte neue Indikation Schwere nichtproliferative diabetische Retinopathie (severe nonproliferative diabetic retinopathy) (Evidenzstufe L5). Ursprüngliche Indikation: In den loka…"

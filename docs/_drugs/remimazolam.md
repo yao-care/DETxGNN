@@ -8,6 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 description: "Remimazolam: vorhergesagte neue Indikation Schlaflosigkeit (Insomnie) (Evidenzstufe L5). Ursprüngliche Indikation: Conscious Sedation (Sedierung bei Eingriffen)"
 monitor_inn: "remimazolam"
+drugbank_id: DB12404
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium"]
 ---
 

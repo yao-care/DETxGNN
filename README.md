@@ -24,7 +24,7 @@ Vorhersagen zur Arzneimittel-Repositionierung fuer zentral in der EU (EMA) zugel
 | **Einzigartige Arzneimittel** | 724 |
 | **Einzigartige Indikationen** | 17,041 |
 | **DDI-Daten** | 160,235 |
-| **FHIR-Ressourcen** | 464 MK / 2,702 CUD |
+| **FHIR-Ressourcen** | 469 MK / 2,729 CUD |
 
 ### Verteilung der Evidenzstufen
 

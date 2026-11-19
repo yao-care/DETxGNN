@@ -5,9 +5,9 @@
   "version": "1.0.0",
   "name": "DETxGNNFHIRServer",
   "title": "DETxGNN FHIR Server - Germany Drug Repurposing",
-  "description": "FHIR R4 server for Germany TxGNN drug repurposing predictions. Contains 464 drugs and 2702 predicted indications.",
+  "description": "FHIR R4 server for Germany TxGNN drug repurposing predictions. Contains 469 drugs and 2729 predicted indications.",
   "status": "active",
-  "date": "2026-11-16",
+  "date": "2026-11-19",
   "publisher": "TxGNN Project",
   "kind": "instance",
   "fhirVersion": "4.0.1",
@@ -43,15 +43,15 @@
       "extension": [
         {
           "url": "MedicationKnowledge",
-          "valueInteger": 464
+          "valueInteger": 469
         },
         {
           "url": "ClinicalUseDefinition",
-          "valueInteger": 2702
+          "valueInteger": 2729
         },
         {
           "url": "countedAt",
-          "valueDate": "2026-11-16"
+          "valueDate": "2026-11-19"
         }
       ]
     }

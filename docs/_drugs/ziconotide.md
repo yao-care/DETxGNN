@@ -8,6 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 description: "Ziconotide: vorhergesagte neue Indikation Migräne (migraine disorder) (Evidenzstufe L4). Ursprüngliche Indikation: Injektionen, spinal"
 monitor_inn: "ZICONOTIDE"
+drugbank_id: DB06283
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "obesity disorder", "transient ischemic attack (disease)", "open-angle glaucoma", "obsolete neurogenic bladder (disease)", "primary hereditary glaucoma", "preeclampsia"]
 ---
 
