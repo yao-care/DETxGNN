@@ -5,7 +5,7 @@ layout: default
 title: Acalabrutinib
 parent: Nur bekannte Anwendungen (keine neuen Vorhersagen)
 nav_order: 16
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-07
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
