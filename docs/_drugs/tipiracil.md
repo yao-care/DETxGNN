@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "Tipiracil"
 predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
-description: "Tipiracil: vorhergesagte neue Indikation Zäkum-Zottenadenom (cecum villous adenoma) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
+description: "Tipiracil: vorhergesagte neue Indikation Zäkum-Zottenadenom (cecum villous adenoma) (Evidenzstufe L5). Zentrale EU-Zulassungen (EMA): 1 (gültig: 1)"
 ---
 
 # Tipiracil

@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "formoterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 last_modified_at: 2026-11-03
-description: "Formoterol: vorhergesagte neue Indikation Atemwegsfehlbildung (respiratory malformation) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
+description: "Formoterol: vorhergesagte neue Indikation Atemwegsfehlbildung (respiratory malformation) (Evidenzstufe L5). Zentrale EU-Zulassungen (EMA): 10 (gültig: 10)"
 ---
 
 # Formoterol

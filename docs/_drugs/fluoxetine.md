@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "FLUOXETINE"
 predicted_indications: ["schizotypal personality disorder", "paranoid personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
 last_modified_at: 2026-11-09
-description: "Fluoxetine: vorhergesagte neue Indikation Schizotype Persönlichkeitsstörung (schizotypal personality disorder) (Evidenzstufe L3). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
+description: "Fluoxetine: vorhergesagte neue Indikation Schizotype Persönlichkeitsstörung (schizotypal personality disorder) (Evidenzstufe L3). Keine zentrale EU-Zulassung (EMA) erfasst"
 ---
 
 # Fluoxetine

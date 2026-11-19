@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "CYTARABINE"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
 last_modified_at: 2026-11-04
-description: "Cytarabine: vorhergesagte neue Indikation Kleinzelliges Lungenkarzinom (small cell lung carcinoma) (Evidenzstufe L3). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
+description: "Cytarabine: vorhergesagte neue Indikation Kleinzelliges Lungenkarzinom (small cell lung carcinoma) (Evidenzstufe L3). Zentrale EU-Zulassungen (EMA): 1 (gültig: 1)"
 ---
 
 # Cytarabine

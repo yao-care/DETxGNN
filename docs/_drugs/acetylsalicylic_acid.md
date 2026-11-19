@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "ACETYLSALICYLIC ACID"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
 last_modified_at: 2026-11-03
-description: "Acetylsalicylic Acid: vorhergesagte neue Indikation Atrophoderma vermiculata (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
+description: "Acetylsalicylic Acid: vorhergesagte neue Indikation Atrophoderma vermiculata (Evidenzstufe L5). Zentrale EU-Zulassungen (EMA): 3 (gültig: 3)"
 ---
 
 # Acetylsalicylic Acid

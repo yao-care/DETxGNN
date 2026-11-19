@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-09
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
-description: "Miconazole: vorhergesagte neue Indikation Akne (acne (disease)) (Evidenzstufe L4). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
+description: "Miconazole: vorhergesagte neue Indikation Akne (acne (disease)) (Evidenzstufe L4). Keine zentrale EU-Zulassung (EMA) erfasst"
 ---
 
 # Miconazole

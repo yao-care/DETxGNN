@@ -1,0 +1,283 @@
+{
+  "_note": "藥物頁 front matter description 句尾「原適應症：本地資料未記載」換成本站許可證快照事實層品項數的紀錄（母目錄 .claude/drug_meta_description.py --apply，2026-11-19 起）。pages＝目前產生的句尾（tail）與被換掉的原字樣（original）；entries＝每次改動的前後整行（from／to，可還原：把第一筆的 from 寫回該頁 description）。",
+  "pages": {
+    "acetylsalicylic_acid": {
+      "tail": "Zentrale EU-Zulassungen (EMA): 3 (gültig: 3)",
+      "original": "Ursprüngliche Indikation: In den lokalen Daten nicht erfasst",
+      "date": "2026-11-19"
+    },
+    "benazepril": {
+      "tail": "Keine zentrale EU-Zulassung (EMA) erfasst",
+      "original": "Ursprüngliche Indikation: In den lokalen Daten nicht erfasst",
+      "date": "2026-11-19"
+    },
+    "betamethasone": {
+      "tail": "Keine zentrale EU-Zulassung (EMA) erfasst",
+      "original": "Ursprüngliche Indikation: In den lokalen Daten nicht erfasst",
+      "date": "2026-11-19"
+    },
+    "ciclesonide": {
+      "tail": "Keine zentrale EU-Zulassung (EMA) erfasst",
+      "original": "Ursprüngliche Indikation: In den lokalen Daten nicht erfasst",
+      "date": "2026-11-19"
+    },
+    "clomipramine": {
+      "tail": "Keine zentrale EU-Zulassung (EMA) erfasst",
+      "original": "Ursprüngliche Indikation: In den lokalen Daten nicht erfasst",
+      "date": "2026-11-19"
+    },
+    "cytarabine": {
+      "tail": "Zentrale EU-Zulassungen (EMA): 1 (gültig: 1)",
+      "original": "Ursprüngliche Indikation: In den lokalen Daten nicht erfasst",
+      "date": "2026-11-19"
+    },
+    "elbasvir": {
+      "tail": "Zentrale EU-Zulassungen (EMA): 1 (gültig: 1)",
+      "original": "Ursprüngliche Indikation: In den lokalen Daten nicht erfasst",
+      "date": "2026-11-19"
+    },
+    "fluoxetine": {
+      "tail": "Keine zentrale EU-Zulassung (EMA) erfasst",
+      "original": "Ursprüngliche Indikation: In den lokalen Daten nicht erfasst",
+      "date": "2026-11-19"
+    },
+    "formoterol": {
+      "tail": "Zentrale EU-Zulassungen (EMA): 10 (gültig: 10)",
+      "original": "Ursprüngliche Indikation: In den lokalen Daten nicht erfasst",
+      "date": "2026-11-19"
+    },
+    "gimeracil": {
+      "tail": "Zentrale EU-Zulassungen (EMA): 1 (gültig: 1)",
+      "original": "Ursprüngliche Indikation: In den lokalen Daten nicht erfasst",
+      "date": "2026-11-19"
+    },
+    "itraconazole": {
+      "tail": "Keine zentrale EU-Zulassung (EMA) erfasst",
+      "original": "Ursprüngliche Indikation: In den lokalen Daten nicht erfasst",
+      "date": "2026-11-19"
+    },
+    "meropenem": {
+      "tail": "Zentrale EU-Zulassungen (EMA): 1 (gültig: 1)",
+      "original": "Ursprüngliche Indikation: In den lokalen Daten nicht erfasst",
+      "date": "2026-11-19"
+    },
+    "miconazole": {
+      "tail": "Keine zentrale EU-Zulassung (EMA) erfasst",
+      "original": "Ursprüngliche Indikation: In den lokalen Daten nicht erfasst",
+      "date": "2026-11-19"
+    },
+    "mirtazapine": {
+      "tail": "Keine zentrale EU-Zulassung (EMA) erfasst",
+      "original": "Ursprüngliche Indikation: In den lokalen Daten nicht erfasst",
+      "date": "2026-11-19"
+    },
+    "omeprazole": {
+      "tail": "Keine zentrale EU-Zulassung (EMA) erfasst",
+      "original": "Ursprüngliche Indikation: In den lokalen Daten nicht erfasst",
+      "date": "2026-11-19"
+    },
+    "orbifloxacin": {
+      "tail": "Keine zentrale EU-Zulassung (EMA) erfasst",
+      "original": "Ursprüngliche Indikation: In den lokalen Daten nicht erfasst",
+      "date": "2026-11-19"
+    },
+    "oteracil": {
+      "tail": "Zentrale EU-Zulassungen (EMA): 1 (gültig: 1)",
+      "original": "Ursprüngliche Indikation: In den lokalen Daten nicht erfasst",
+      "date": "2026-11-19"
+    },
+    "pibrentasvir": {
+      "tail": "Zentrale EU-Zulassungen (EMA): 1 (gültig: 1)",
+      "original": "Ursprüngliche Indikation: In den lokalen Daten nicht erfasst",
+      "date": "2026-11-19"
+    },
+    "salmeterol": {
+      "tail": "Zentrale EU-Zulassungen (EMA): 1 (gültig: 1)",
+      "original": "Ursprüngliche Indikation: In den lokalen Daten nicht erfasst",
+      "date": "2026-11-19"
+    },
+    "sevoflurane": {
+      "tail": "Keine zentrale EU-Zulassung (EMA) erfasst",
+      "original": "Ursprüngliche Indikation: In den lokalen Daten nicht erfasst",
+      "date": "2026-11-19"
+    },
+    "tegafur": {
+      "tail": "Zentrale EU-Zulassungen (EMA): 1 (gültig: 1)",
+      "original": "Ursprüngliche Indikation: In den lokalen Daten nicht erfasst",
+      "date": "2026-11-19"
+    },
+    "tezacaftor": {
+      "tail": "Zentrale EU-Zulassungen (EMA): 3 (gültig: 3)",
+      "original": "Ursprüngliche Indikation: In den lokalen Daten nicht erfasst",
+      "date": "2026-11-19"
+    },
+    "tipiracil": {
+      "tail": "Zentrale EU-Zulassungen (EMA): 1 (gültig: 1)",
+      "original": "Ursprüngliche Indikation: In den lokalen Daten nicht erfasst",
+      "date": "2026-11-19"
+    }
+  },
+  "entries": [
+    {
+      "page": "docs/_drugs/acetylsalicylic_acid.md",
+      "date": "2026-11-19",
+      "from": "\"Acetylsalicylic Acid: vorhergesagte neue Indikation Atrophoderma vermiculata (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst\"",
+      "to": "\"Acetylsalicylic Acid: vorhergesagte neue Indikation Atrophoderma vermiculata (Evidenzstufe L5). Zentrale EU-Zulassungen (EMA): 3 (gültig: 3)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/benazepril.md",
+      "date": "2026-11-19",
+      "from": "\"Benazepril: vorhergesagte neue Indikation Maligne hypertensive Nierenerkrankung (malignant hypertensive renal disease) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst\"",
+      "to": "\"Benazepril: vorhergesagte neue Indikation Maligne hypertensive Nierenerkrankung (malignant hypertensive renal disease) (Evidenzstufe L5). Keine zentrale EU-Zulassung (EMA) erfasst\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/betamethasone.md",
+      "date": "2026-11-19",
+      "from": "\"Betamethasone: vorhergesagte neue Indikation Alopecia mucinosa (Evidenzstufe L4). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst\"",
+      "to": "\"Betamethasone: vorhergesagte neue Indikation Alopecia mucinosa (Evidenzstufe L4). Keine zentrale EU-Zulassung (EMA) erfasst\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ciclesonide.md",
+      "date": "2026-11-19",
+      "from": "\"Ciclesonide: vorhergesagte neue Indikation Atopisches Ekzem (atopic eczema) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst\"",
+      "to": "\"Ciclesonide: vorhergesagte neue Indikation Atopisches Ekzem (atopic eczema) (Evidenzstufe L5). Keine zentrale EU-Zulassung (EMA) erfasst\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clomipramine.md",
+      "date": "2026-11-19",
+      "from": "\"Clomipramine: vorhergesagte neue Indikation Angststörung (anxiety disorder) (Evidenzstufe L1). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst\"",
+      "to": "\"Clomipramine: vorhergesagte neue Indikation Angststörung (anxiety disorder) (Evidenzstufe L1). Keine zentrale EU-Zulassung (EMA) erfasst\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cytarabine.md",
+      "date": "2026-11-19",
+      "from": "\"Cytarabine: vorhergesagte neue Indikation Kleinzelliges Lungenkarzinom (small cell lung carcinoma) (Evidenzstufe L3). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst\"",
+      "to": "\"Cytarabine: vorhergesagte neue Indikation Kleinzelliges Lungenkarzinom (small cell lung carcinoma) (Evidenzstufe L3). Zentrale EU-Zulassungen (EMA): 1 (gültig: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/elbasvir.md",
+      "date": "2026-11-19",
+      "from": "\"Elbasvir: vorhergesagte neue Indikation Hepatitis-B-Virus-Infektion (hepatitis B virus infection) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst\"",
+      "to": "\"Elbasvir: vorhergesagte neue Indikation Hepatitis-B-Virus-Infektion (hepatitis B virus infection) (Evidenzstufe L5). Zentrale EU-Zulassungen (EMA): 1 (gültig: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fluoxetine.md",
+      "date": "2026-11-19",
+      "from": "\"Fluoxetine: vorhergesagte neue Indikation Schizotype Persönlichkeitsstörung (schizotypal personality disorder) (Evidenzstufe L3). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst\"",
+      "to": "\"Fluoxetine: vorhergesagte neue Indikation Schizotype Persönlichkeitsstörung (schizotypal personality disorder) (Evidenzstufe L3). Keine zentrale EU-Zulassung (EMA) erfasst\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/formoterol.md",
+      "date": "2026-11-19",
+      "from": "\"Formoterol: vorhergesagte neue Indikation Atemwegsfehlbildung (respiratory malformation) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst\"",
+      "to": "\"Formoterol: vorhergesagte neue Indikation Atemwegsfehlbildung (respiratory malformation) (Evidenzstufe L5). Zentrale EU-Zulassungen (EMA): 10 (gültig: 10)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/gimeracil.md",
+      "date": "2026-11-19",
+      "from": "\"Gimeracil: vorhergesagte neue Indikation Zäkum-Zottenadenom (cecum villous adenoma) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst\"",
+      "to": "\"Gimeracil: vorhergesagte neue Indikation Zäkum-Zottenadenom (cecum villous adenoma) (Evidenzstufe L5). Zentrale EU-Zulassungen (EMA): 1 (gültig: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/itraconazole.md",
+      "date": "2026-11-19",
+      "from": "\"Itraconazole: vorhergesagte neue Indikation Pneumocystose (pneumocystosis) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst\"",
+      "to": "\"Itraconazole: vorhergesagte neue Indikation Pneumocystose (pneumocystosis) (Evidenzstufe L5). Keine zentrale EU-Zulassung (EMA) erfasst\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/meropenem.md",
+      "date": "2026-11-19",
+      "from": "\"Meropenem: vorhergesagte neue Indikation bakterielle Arthritis (bacterial arthritis) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst\"",
+      "to": "\"Meropenem: vorhergesagte neue Indikation bakterielle Arthritis (bacterial arthritis) (Evidenzstufe L5). Zentrale EU-Zulassungen (EMA): 1 (gültig: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/miconazole.md",
+      "date": "2026-11-19",
+      "from": "\"Miconazole: vorhergesagte neue Indikation Akne (acne (disease)) (Evidenzstufe L4). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst\"",
+      "to": "\"Miconazole: vorhergesagte neue Indikation Akne (acne (disease)) (Evidenzstufe L4). Keine zentrale EU-Zulassung (EMA) erfasst\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/mirtazapine.md",
+      "date": "2026-11-19",
+      "from": "\"Mirtazapine: vorhergesagte neue Indikation Ohdo-Syndrom und Varianten (Ohdo syndrome and variants) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst\"",
+      "to": "\"Mirtazapine: vorhergesagte neue Indikation Ohdo-Syndrom und Varianten (Ohdo syndrome and variants) (Evidenzstufe L5). Keine zentrale EU-Zulassung (EMA) erfasst\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/omeprazole.md",
+      "date": "2026-11-19",
+      "from": "\"Omeprazole: vorhergesagte neue Indikation Duodenal obstruction (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst\"",
+      "to": "\"Omeprazole: vorhergesagte neue Indikation Duodenal obstruction (Evidenzstufe L5). Keine zentrale EU-Zulassung (EMA) erfasst\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/orbifloxacin.md",
+      "date": "2026-11-19",
+      "from": "\"Orbifloxacin: vorhergesagte neue Indikation Heart disease (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst\"",
+      "to": "\"Orbifloxacin: vorhergesagte neue Indikation Heart disease (Evidenzstufe L5). Keine zentrale EU-Zulassung (EMA) erfasst\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/oteracil.md",
+      "date": "2026-11-19",
+      "from": "\"Oteracil: vorhergesagte neue Indikation Zäkum-Zottenadenom (cecum villous adenoma) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst\"",
+      "to": "\"Oteracil: vorhergesagte neue Indikation Zäkum-Zottenadenom (cecum villous adenoma) (Evidenzstufe L5). Zentrale EU-Zulassungen (EMA): 1 (gültig: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/pibrentasvir.md",
+      "date": "2026-11-19",
+      "from": "\"Pibrentasvir: vorhergesagte neue Indikation Hepatitis-B-Virusinfektion (hepatitis B virus infection) (Evidenzstufe L4). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst\"",
+      "to": "\"Pibrentasvir: vorhergesagte neue Indikation Hepatitis-B-Virusinfektion (hepatitis B virus infection) (Evidenzstufe L4). Zentrale EU-Zulassungen (EMA): 1 (gültig: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/salmeterol.md",
+      "date": "2026-11-19",
+      "from": "\"Salmeterol: vorhergesagte neue Indikation Atemwegsfehlbildung (respiratory malformation) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst\"",
+      "to": "\"Salmeterol: vorhergesagte neue Indikation Atemwegsfehlbildung (respiratory malformation) (Evidenzstufe L5). Zentrale EU-Zulassungen (EMA): 1 (gültig: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sevoflurane.md",
+      "date": "2026-11-19",
+      "from": "\"Sevoflurane: vorhergesagte neue Indikation Prinzmetal-Angina (Prinzmetal angina) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst\"",
+      "to": "\"Sevoflurane: vorhergesagte neue Indikation Prinzmetal-Angina (Prinzmetal angina) (Evidenzstufe L5). Keine zentrale EU-Zulassung (EMA) erfasst\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tegafur.md",
+      "date": "2026-11-19",
+      "from": "\"Tegafur: vorhergesagte neue Indikation Villöses Adenom des Zäkums (cecum villous adenoma) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst\"",
+      "to": "\"Tegafur: vorhergesagte neue Indikation Villöses Adenom des Zäkums (cecum villous adenoma) (Evidenzstufe L5). Zentrale EU-Zulassungen (EMA): 1 (gültig: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tezacaftor.md",
+      "date": "2026-11-19",
+      "from": "\"Tezacaftor: vorhergesagte neue Indikation HIV-Infektionskrankheit (HIV infectious disease) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst\"",
+      "to": "\"Tezacaftor: vorhergesagte neue Indikation HIV-Infektionskrankheit (HIV infectious disease) (Evidenzstufe L5). Zentrale EU-Zulassungen (EMA): 3 (gültig: 3)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tipiracil.md",
+      "date": "2026-11-19",
+      "from": "\"Tipiracil: vorhergesagte neue Indikation Zäkum-Zottenadenom (cecum villous adenoma) (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst\"",
+      "to": "\"Tipiracil: vorhergesagte neue Indikation Zäkum-Zottenadenom (cecum villous adenoma) (Evidenzstufe L5). Zentrale EU-Zulassungen (EMA): 1 (gültig: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    }
+  ]
+}

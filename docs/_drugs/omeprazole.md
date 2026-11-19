@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-30
 monitor_inn: "OMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
-description: "Omeprazole: vorhergesagte neue Indikation Duodenal obstruction (Evidenzstufe L5). Ursprüngliche Indikation: In den lokalen Daten nicht erfasst"
+description: "Omeprazole: vorhergesagte neue Indikation Duodenal obstruction (Evidenzstufe L5). Keine zentrale EU-Zulassung (EMA) erfasst"
 ---
 
 # Omeprazole
