@@ -60,7 +60,7 @@ Wichtig: Die vorhergesagte Indikation entspricht im Wesentlichen der bereits zug
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach bekanntem Wissen ist Pegaspargase eine PEGylierte L-Asparaginase, die zirkulierendes Asparagin abbaut. Lymphoblasten exprimieren kaum Asparagin-Synthetase und sind auf extrazelluläres Asparagin angewiesen. Der Entzug führt zum Stopp der Proteinsynthese und zur Apoptose.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Pegaspargase (inoffizielle Übersetzung): „L-Asparaginase ist ein Enzym, das die Umwandlung der Aminosäure L-Asparagin in Asparaginsäure und Ammoniak katalysiert. Es wird angenommen, dass die pharmakologische Wirkung von ONCASPAR auf der Abtötung leukämischer Zellen infolge der Depletion von Plasma-Asparagin beruht.“ Englischer Originalwortlaut: "L-asparaginase is an enzyme that catalyzes the conversion of the amino acid L-asparagine into aspartic acid and ammonia. The pharmacological effect of ONCASPAR is thought to be based on the killing of leukemic cells due to depletion of plasma asparagine." ([DailyMed: Oncaspar (pegaspargase) prescribing information, Servier Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac7b6a6f-6ddb-48c6-8088-d8a8e3fea6ce), Fassung vom 2024-10-07; abgerufen am 2026-11-19). Nach bekanntem Wissen ist Pegaspargase eine PEGylierte L-Asparaginase, die zirkulierendes Asparagin abbaut. Lymphoblasten exprimieren kaum Asparagin-Synthetase und sind auf extrazelluläres Asparagin angewiesen. Der Entzug führt zum Stopp der Proteinsynthese und zur Apoptose.
 
 Ursprüngliche und vorhergesagte Indikation sind praktisch identisch. Pegaspargase ist ein Kernbestandteil moderner Mehrstoff-Chemotherapien bei ALL und lymphoblastischem Lymphom. Die Vorhersage bestätigt daher die etablierte Anwendung.
 
@@ -165,12 +165,13 @@ Mehrere abgeschlossene Phase-3-Studien und eine breite Literaturbasis stützen d
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Die einzige erfasste Zulassung ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Die Zulassung ist jedoch als erloschen verzeichnet, und e“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Oncaspar (pegaspargase) prescribing information, Servier Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac7b6a6f-6ddb-48c6-8088-d8a8e3fea6ce) |
 
 <!-- review:end log -->
 

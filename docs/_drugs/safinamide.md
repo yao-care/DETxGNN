@@ -58,7 +58,7 @@ Safinamid wurde ursprünglich zur Behandlung der Parkinson-Krankheit zugelassen.
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Aus der Literatur ist jedoch bekannt, dass Safinamid ein reversibler MAO-B-Hemmer ist, der zudem spannungsabhängige Natriumkanäle blockiert und die Glutamatfreisetzung hemmt. Diese Eigenschaften könnten theoretisch neuronale Übererregbarkeit und Exzitotoxizität verringern.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Safinamide (inoffizielle Übersetzung): „Der genaue Mechanismus, über den XADAGO seine therapeutische Wirkung bei PD ausübt, ist nicht bekannt. XADAGO ist ein Inhibitor der Monoaminoxidase B (MAO-B). Es wird angenommen, dass die Hemmung der MAO-B-Aktivität durch Blockade des Dopaminabbaus zu einem Anstieg der Dopaminspiegel und in der Folge zu einer Zunahme der dopaminergen Aktivität im Gehirn führt.“ Englischer Originalwortlaut: "The precise mechanism by which XADAGO exerts its therapeutic effects in PD is unknown. XADAGO is an inhibitor of monoamine oxidase B (MAO-B). Inhibition of MAO-B activity, by blocking the catabolism of dopamine, is thought to result in an increase in dopamine levels and a subsequent increase in dopaminergic activity in the brain." ([DailyMed: Xadago (safinamide mesylate) prescribing information, MDD US Operations LLC, a subsidiary of Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4d65f28-983f-42b4-bb23-023ae0fe81b2), Fassung vom 2026-10-05; abgerufen am 2026-11-19). Aus der Literatur ist jedoch bekannt, dass Safinamid ein reversibler MAO-B-Hemmer ist, der zudem spannungsabhängige Natriumkanäle blockiert und die Glutamatfreisetzung hemmt. Diese Eigenschaften könnten theoretisch neuronale Übererregbarkeit und Exzitotoxizität verringern.
 
 Die Rasmussen-Enzephalitis ist eine chronisch-entzündliche Epilepsie mit T-Zell-vermitteltem neuronalem Schaden und therapieresistenten Anfällen. Eine antikonvulsive bzw. neuroprotektive Wirkung von Safinamid wäre daher denkbar. Allerdings wird die Erkrankung überwiegend durch immunvermittelte Prozesse getrieben, die Safinamid nicht adressiert.
 
@@ -123,11 +123,12 @@ Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzgrad L5); es 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-12 | Tabelle: Xadago (EMEA/H/C/002396) ist gültig, nicht erloschen | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Xadago (safinamide mesylate) prescribing information, MDD US Operations LLC, a subsidiary of Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4d65f28-983f-42b4-bb23-023ae0fe81b2) |
 
 <!-- review:end log -->
 

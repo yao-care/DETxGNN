@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Spironolacton ein Mineralokortikoid-Rezeptor-Antagonist mit antiandrogener Aktivität ist: Es blockiert den Androgenrezeptor und vermindert die Androgensynthese. Aus diesem Grund wird es in der Praxis off-label bei androgenetischer Alopezie und weiblichem Haarausfall eingesetzt. Damit besteht grundsätzlich ein denkbarer Zusammenhang zu Haarausfallerkrankungen der Kopfhaut.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Spironolactone (inoffizielle Übersetzung): „Spironolacton und seine aktiven Metaboliten sind spezifische pharmakologische Antagonisten von Aldosteron, die hauptsächlich durch kompetitive Bindung an Rezeptoren an der aldosteronabhängigen Natrium-Kalium-Austauschstelle im distalen Tubulus contortus der Niere wirken. Spironolacton bewirkt eine vermehrte Ausscheidung von Natrium und Wasser, während Kalium zurückgehalten wird.“ Englischer Originalwortlaut: "Spironolactone and its active metabolites are specific pharmacologic antagonists of aldosterone, acting primarily through competitive binding of receptors at the aldosterone-dependent sodium-potassium exchange site in the distal convoluted renal tubule. Spironolactone causes increased amounts of sodium and water to be excreted, while potassium is retained." ([DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc), Fassung vom 2025-11-28; abgerufen am 2026-11-19). Bekannt ist, dass Spironolacton ein Mineralokortikoid-Rezeptor-Antagonist mit antiandrogener Aktivität ist: Es blockiert den Androgenrezeptor und vermindert die Androgensynthese. Aus diesem Grund wird es in der Praxis off-label bei androgenetischer Alopezie und weiblichem Haarausfall eingesetzt. Damit besteht grundsätzlich ein denkbarer Zusammenhang zu Haarausfallerkrankungen der Kopfhaut.
 
 Die Plausibilität ist jedoch begrenzt. Die Hypotrichosis simplex der Kopfhaut ist eine seltene erbliche Haarausfallerkrankung (z. B. im Zusammenhang mit Varianten in CDSN, APCDD1 oder RPL21), die nicht primär androgengetrieben ist. Der antiandrogene Ansatz lässt sich daher nicht klar auf diese genetische Ursache übertragen. Der hohe TxGNN-Wert (0,9926) ist eine rein rechnerische Vorhersage.
 
@@ -123,11 +123,12 @@ Die Vorhersage stützt sich allein auf das Modell (Evidenzlevel L5), ohne Studie
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Alle drei Zulassungen sind gültig“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc) |
 
 <!-- review:end log -->
 

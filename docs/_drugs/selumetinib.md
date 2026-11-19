@@ -58,7 +58,7 @@ Selumetinib ist ein MEK1/2-Inhibitor, der ursprünglich zur Behandlung der Neuro
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten derzeit nicht vor. Bekannt ist, dass Selumetinib die Kinase MEK1 (Gen *MAP2K1*) hemmt und damit den RAS/MAPK-Signalweg beeinflusst. Seine Wirksamkeit bei NF1, genauer bei symptomatischen, inoperablen plexiformen Neurofibromen, ist belegt. Mechanistisch könnte es daher auch bei Erkrankungen mit einer Fehlregulation dieses Signalwegs anwendbar sein.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Selumetinib (inoffizielle Übersetzung): „Selumetinib ist ein Inhibitor der mitogenaktivierten Proteinkinase-Kinasen 1 und 2 (MEK1/2). MEK1/2-Proteine sind vorgeschaltete Regulatoren des Signalwegs der extrazellulär signalregulierten Kinase (ERK). Sowohl MEK als auch ERK sind entscheidende Komponenten des RAS-regulierten RAF-MEK-ERK-Signalwegs, der bei verschiedenen Krebsarten häufig aktiviert ist.“ Englischer Originalwortlaut: "Selumetinib is an inhibitor of mitogen-activated protein kinase kinases 1 and 2 (MEK1/2). MEK1/2 proteins are upstream regulators of the extracellular signal-related kinase (ERK) pathway. Both MEK and ERK are critical components of the RAS-regulated RAF-MEK-ERK pathway, which is often activated in different types of cancers." ([DailyMed: Koselugo (selumetinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d042c61-f28f-4ab5-ab10-d7558c0d49ff), Fassung vom 2026-05-26; abgerufen am 2026-11-19). Bekannt ist, dass Selumetinib die Kinase MEK1 (Gen *MAP2K1*) hemmt und damit den RAS/MAPK-Signalweg beeinflusst. Seine Wirksamkeit bei NF1, genauer bei symptomatischen, inoperablen plexiformen Neurofibromen, ist belegt. Mechanistisch könnte es daher auch bei Erkrankungen mit einer Fehlregulation dieses Signalwegs anwendbar sein.
 
 Pigmentstörungen wie Lentiginosen können mit dem RAS/MAPK-Signalweg zusammenhängen, etwa bei NF1-ähnlichen Phänotypen und RASopathien. Café-au-lait-Flecken sind zudem ein Kennzeichen der NF1. Für die Vorhersage „familiäre generalisierte Lentiginose" gibt es jedoch weder Studien noch Literatur. Der mechanistische Zusammenhang ist daher **nicht überprüft**.
 
@@ -144,6 +144,19 @@ Die Hauptvorhersage (familiäre generalisierte Lentiginose) beruht ausschließli
 - Literaturrecherche und gezielte Prüfung des RAS/MAPK-Bezugs für die Lentiginose-Syndrome
 - Ergebnisse der NF2-Schwannomatose-Studien abwarten und Ergebnisse der abgebrochenen Studie NCT03095248 auswerten
 - Klärung des Zulassungsstatus und der Darreichungsformen in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Koselugo (selumetinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d042c61-f28f-4ab5-ab10-d7558c0d49ff) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

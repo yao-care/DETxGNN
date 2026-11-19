@@ -54,7 +54,7 @@ Metformin ist ein Biguanid, das gegen Typ-2-Diabetes eingesetzt wird. Das TxGNN-
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Metformin liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Metformin die AMPK aktiviert, die hepatische Glukoneogenese senkt und den mitochondrialen Komplex I beeinflusst. Seine Wirksamkeit bei Typ-2-Diabetes ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Metformin (inoffizielle Übersetzung): „Metformin ist ein antihyperglykämischer Wirkstoff, der die Glukosetoleranz bei Patienten mit Diabetes mellitus Typ 2 verbessert und sowohl die basale als auch die postprandiale Plasmaglukose senkt. Metformin verringert die hepatische Glukoseproduktion, verringert die intestinale Resorption von Glukose und verbessert die Insulinsensitivität durch Steigerung der peripheren Glukoseaufnahme und -verwertung.“ Englischer Originalwortlaut: "Metformin is an antihyperglycemic agent which improves glucose tolerance in patients with type 2 diabetes mellitus, lowering both basal and postprandial plasma glucose. Metformin decreases hepatic glucose production, decreases intestinal absorption of glucose, and improves insulin sensitivity by increasing peripheral glucose uptake and utilization." ([DailyMed: Metformin Hydrochloride Er (metformin hydrochloride) prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3dca884d-ec44-496f-9eeb-31fd8fa3f574), Fassung vom 2026-09-21; abgerufen am 2026-11-19). Bekannt ist, dass Metformin die AMPK aktiviert, die hepatische Glukoneogenese senkt und den mitochondrialen Komplex I beeinflusst. Seine Wirksamkeit bei Typ-2-Diabetes ist belegt.
 
 Das fokale Stiff-Limb-Syndrom gehört zum Spektrum der Stiff-Person-Erkrankungen, einer seltenen autoimmun-neurologischen Störung mit gestörter GABAerger Hemmung. Ein etablierter Zusammenhang zwischen den bekannten Metformin-Wirkungen und diesem Signalweg besteht nicht. Denkbare Hypothesen, etwa eine immunmodulatorische oder entzündungshemmende Wirkung, sind rein spekulativ. Der Vorhersagewert ist ein reines Modellergebnis und kein Wirksamkeitsnachweis.
 
@@ -99,6 +99,19 @@ Für das fokale Stiff-Limb-Syndrom liegen weder klinische Studien noch Publikati
 - Daten zum Wirkmechanismus (MOA) und eine tragfähige mechanistische Hypothese
 - Präklinische Validierung, z. B. zu GABAerger Signalgebung und Immunmodulation
 - Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) zur Sicherheitsbewertung
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Metformin Hydrochloride Er (metformin hydrochloride) prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3dca884d-ec44-496f-9eeb-31fd8fa3f574) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

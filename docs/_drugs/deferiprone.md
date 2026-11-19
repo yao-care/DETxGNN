@@ -54,7 +54,7 @@ Deferipron ist ein oraler Eisenchelator. Das TxGNN-Modell sagt voraus, dass er b
 
 ## Warum ist diese Vorhersage plausibel?
 
-Deferipron bindet als oraler Eisenchelator überschüssiges Eisen. Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten nicht vor; die Einordnung beruht auf der bekannten Eisenchelator-Wirkung.
+Deferipron bindet als oraler Eisenchelator überschüssiges Eisen. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Deferiprone (inoffizielle Übersetzung): „Deferipron ist ein Chelatbildner mit Affinität zu dreiwertigen Eisenionen (Eisen III). Deferipron bindet an dreiwertige Eisenionen und bildet neutrale 3:1-Komplexe (Deferipron:Eisen), die bei physiologischem pH-Wert stabil sind.“ Englischer Originalwortlaut: "Deferiprone is a chelating agent with an affinity for ferric ions (iron III). Deferiprone binds with ferric ions to form neutral 3:1 (deferiprone:iron) complexes that are stable at physiological pH." ([DailyMed: Ferriprox (deferiprone) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=946718ff-df43-1baa-74d1-e5bcfbe8ad86), Fassung vom 2026-01-28; abgerufen am 2026-11-19).
 
 Eisen trägt zur Pathologie bestimmter Porphyrien bei. In einem Mausmodell der Uroporphyrie (Modell der Porphyria cutanea tarda) verringerten eisenarme Diäten und die orale Eisenchelation die Uroporphyrin-Anhäufung (PMID 17854053). Bei der kongenitalen erythropoetischen Porphyrie wurde berichtet, dass Eisenchelation hämolytische Anämie und Hautlichtempfindlichkeit verbesserte (PMID 32678895). Eisenentzug ist daher für Porphyria-cutanea-tarda-artige Erkrankungen ein plausibler Mechanismus.
 
@@ -95,6 +95,19 @@ Für die hepatische Porphyrie liegen weder klinische Studien noch direkte Studie
 - Direkte präklinische bzw. klinische Daten zur Eisenchelation bei hepatischen Porphyrien (z. B. Porphyria cutanea tarda)
 - Daten zum Wirkmechanismus von Deferipron
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), um das Sicherheitsprofil zu bewerten
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Ferriprox (deferiprone) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=946718ff-df43-1baa-74d1-e5bcfbe8ad86) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

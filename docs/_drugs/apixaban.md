@@ -58,7 +58,7 @@ Apixaban ist ein direkter oraler Faktor-Xa-Inhibitor, der als Antikoagulans eing
 
 ## Warum ist diese Vorhersage plausibel?
 
-Der hohe TxGNN-Wert von 0,9902 beruht auf einer graphbasierten Modellvorhersage und ist kein klinischer Beleg. Zum Wirkmechanismus von Apixaban liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Der mechanistische Zusammenhang lässt sich daher nicht anhand der Pharmakologie des Wirkstoffs prüfen.
+Der hohe TxGNN-Wert von 0,9902 beruht auf einer graphbasierten Modellvorhersage und ist kein klinischer Beleg. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Apixaban (inoffizielle Übersetzung): „Apixaban ist ein selektiver Inhibitor von FXa. Für seine antithrombotische Aktivität benötigt es kein Antithrombin III. Apixaban hemmt freien und gerinnselgebundenen FXa sowie die Prothrombinase-Aktivität. Apixaban hat keine direkte Wirkung auf die Thrombozytenaggregation, hemmt jedoch indirekt die durch Thrombin induzierte Thrombozytenaggregation.“ Englischer Originalwortlaut: "Apixaban is a selective inhibitor of FXa. It does not require antithrombin III for antithrombotic activity. Apixaban inhibits free and clot-bound FXa, and prothrombinase activity. Apixaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin." ([DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25), Fassung vom 2026-09-24; abgerufen am 2026-11-19). Der mechanistische Zusammenhang lässt sich daher nicht anhand der Pharmakologie des Wirkstoffs prüfen.
 
 Denkbar ist ein Zusammenhang zwischen Migräne mit Aura und paradoxen Embolien über ein offenes Foramen ovale (PFO) oder einen prothrombotischen Zustand, etwa bei Antiphospholipid-Antikörpern. In diesem Fall könnte eine Antikoagulation theoretisch Mikroembolien verringern.
 
@@ -115,6 +115,18 @@ Die Vorhersage beruht allein auf einem Modellwert; keine Studie belegt einen Nut
 - Daten zum Wirkmechanismus von Apixaban, um den mechanistischen Zusammenhang zu prüfen
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
 - Klärung, ob bestimmte Patientengruppen (z. B. mit PFO oder Antiphospholipid-Antikörpern) profitieren könnten
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

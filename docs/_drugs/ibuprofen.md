@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Ibuprofen ein nicht-selektiver Hemmer von COX-1 und COX-2 ist und damit die Prostaglandinsynthese reduziert. Beim PDA nutzt man diesen Effekt, um den Verschluss des Ductus anzustoßen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Ibuprofen (inoffizielle Übersetzung): „Ibuprofen besitzt analgetische, entzündungshemmende und antipyretische Eigenschaften. Der Wirkmechanismus von CALDOLOR ist, wie der anderer NSAR, nicht vollständig geklärt, beinhaltet jedoch die Hemmung der Cyclooxygenase (COX-1 und COX-2).“ Englischer Originalwortlaut: "Ibuprofen has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of CALDOLOR, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Caldolor (ibuprofen) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1eaa7790-f1a1-4f51-b10a-cbbaf033f684), Fassung vom 2026-01-29; abgerufen am 2026-11-19). Bekannt ist, dass Ibuprofen ein nicht-selektiver Hemmer von COX-1 und COX-2 ist und damit die Prostaglandinsynthese reduziert. Beim PDA nutzt man diesen Effekt, um den Verschluss des Ductus anzustoßen.
 
 Die akromesomele Dysplasie vom Typ Hunter-Thompson ist eine Skelettdysplasie, die durch Funktionsverlust-Varianten im GDF5-Gen (BMP-Signalweg) verursacht wird. Ein etablierter mechanistischer Zusammenhang mit der COX-Hemmung besteht nicht, und die Daten stützen keine Beteiligung von Prostaglandinen an dieser Erkrankung. Ein möglicher Nutzen wäre allenfalls symptomatisch (Schmerzlinderung), nicht krankheitsmodifizierend.
 
@@ -128,6 +128,19 @@ Die Vorhersage beruht ausschließlich auf einem Modellwert, ohne klinische Studi
 - Präklinische oder mechanistische Belege für eine Rolle des Prostaglandin-/COX-Signalwegs bei der Zielerkrankung (GDF5/BMP-Signalweg) erarbeiten
 - Prüfung der Routen- bzw. Darreichungsform-Kompatibilität und der Ähnlichkeit zur ursprünglichen Indikation (derzeit offen)
 - Klärung des Zulassungsstatus in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Caldolor (ibuprofen) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1eaa7790-f1a1-4f51-b10a-cbbaf033f684) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

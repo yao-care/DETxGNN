@@ -54,7 +54,7 @@ Betamethason ist ein synthetischer Glukokortikoid-Rezeptor-Agonist mit entzündu
 
 ## Warum ist diese Vorhersage plausibel?
 
-Betamethason wirkt als Agonist am Glukokortikoid-Rezeptor (NR3C1). Über diesen Rezeptor werden entzündliche Signalwege gehemmt. Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten nicht vor; die Angaben beruhen auf der bekannten Pharmakologie des Wirkstoffs.
+Betamethason wirkt als Agonist am Glukokortikoid-Rezeptor (NR3C1). Über diesen Rezeptor werden entzündliche Signalwege gehemmt. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Betamethasone (inoffizielle Übersetzung): „Corticosteroide spielen eine Rolle bei der zellulären Signalübertragung, der Immunfunktion, Entzündungen und der Proteinregulation; der genaue Wirkmechanismus von SERNIVO Spray bei Psoriasis ist jedoch unbekannt.“ Englischer Originalwortlaut: "Corticosteroids play a role in cellular signaling, immune function, inflammation, and protein regulation; however, the precise mechanism of action of SERNIVO Spray in psoriasis is unknown." ([DailyMed: Sernivo (betamethasone dipropionate) prescribing information, Primus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b3d1b0-da9b-11eb-ad76-0800200c9a66), Fassung vom 2026-04-22; abgerufen am 2026-11-19).
 
 Die follikuläre Muzinose (Alopecia mucinosa) ist durch perifollikuläre Entzündung und Muzinablagerung gekennzeichnet. Eine entzündungshemmende Therapie mit einem Kortikosteroid ist daher mechanistisch nachvollziehbar. Die Belege dafür sind jedoch begrenzt und stammen nur aus einer älteren Fallserie.
 
@@ -92,6 +92,18 @@ Die einzige Evidenz für Alopecia mucinosa ist ein Bericht über drei Fälle aus
 - Aktuelle Fallserien, Kohortenstudien oder kontrollierte Studien zu Kortikosteroiden bei follikulärer Muzinose
 - Daten zum Wirkmechanismus und zu Warnhinweisen/Gegenanzeigen aus der Fachinformation
 - Prüfung der Applikationswege (topisch bzw. intraläsional) und der Verfügbarkeit geeigneter Präparate in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Sernivo (betamethasone dipropionate) prescribing information, Primus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b3d1b0-da9b-11eb-ad76-0800200c9a66) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

@@ -61,7 +61,7 @@ Deutlich besser belegt sind andere vorhergesagte Indikationen, etwa die **pulmon
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Treprostinil ist ein Prostacyclin-Analogon und wirkt an Prostanoid-Rezeptoren (u. a. IP-, DP1-, EP1–EP4-Rezeptor). Die Wirkung bei pulmonaler Hypertonie ist belegt. Mechanistisch beruht sie auf Gefäßerweiterung in der Lunge sowie auf Hemmung der Thrombozytenaggregation und der Proliferation glatter Muskelzellen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Treprostinil (inoffizielle Übersetzung): „Treprostinil ist ein Prostacyclin-Analogon. Die wichtigsten pharmakologischen Wirkungen von Treprostinil sind eine direkte Vasodilatation der pulmonalen und systemischen arteriellen Gefäßbetten sowie eine Hemmung der Thrombozytenaggregation.“ Englischer Originalwortlaut: "Treprostinil is a prostacyclin analogue. The major pharmacologic actions of treprostinil are direct vasodilation of pulmonary and systemic arterial vascular beds and inhibition of platelet aggregation." ([DailyMed: Tyvaso (treprostinil) prescribing information, United Therapeutics Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbc31ab1-a80f-4b50-a3b1-39910b0fb609), Fassung vom 2026-04-14; abgerufen am 2026-11-19). Bekannt ist: Treprostinil ist ein Prostacyclin-Analogon und wirkt an Prostanoid-Rezeptoren (u. a. IP-, DP1-, EP1–EP4-Rezeptor). Die Wirkung bei pulmonaler Hypertonie ist belegt. Mechanistisch beruht sie auf Gefäßerweiterung in der Lunge sowie auf Hemmung der Thrombozytenaggregation und der Proliferation glatter Muskelzellen.
 
 Für die **pulmonale arteriovenöse Malformation** (Rang 1) ist der Zusammenhang nur theoretisch: Eine Vasodilatation könnte Shunts oder Hypoxämie sogar verschlechtern. Ein Sicherheitsrisiko ist daher denkbar, und der hohe Score ist nicht durch Daten gestützt.
 
@@ -142,11 +142,12 @@ Die Daten zu Warnhinweisen und Gegenanzeigen aus der Packungsbeilage sind nicht 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Klärung, warum die einzige deutsche Zulassung (Trepulmix) aufgehoben ist, und“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Tyvaso (treprostinil) prescribing information, United Therapeutics Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbc31ab1-a80f-4b50-a3b1-39910b0fb609) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ Die Vorhersage stützt sich derzeit auf **38 klinische Studien** und **21 Publik
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für diesen Wirkstoff liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Nach den vorhandenen Informationen ist Nepafenac ein Prodrug: Es wird im Augengewebe durch Hydrolasen zu Amfenac umgewandelt, einem Hemmstoff der Cyclooxygenasen COX-1 und COX-2. Dadurch sinkt die Prostaglandinsynthese, und die entzündungsbedingte Störung der Blut-Retina-Schranke wird abgeschwächt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Nepafenac (inoffizielle Übersetzung): „Nach topischer okulärer Anwendung penetriert Nepafenac die Hornhaut und wird durch Hydrolasen des Augengewebes zu Amfenac, einem NSAR, umgewandelt. Es wird angenommen, dass Nepafenac und Amfenac die Wirkung der Prostaglandin-H-Synthase (Cyclooxygenase) hemmen, eines für die Prostaglandinproduktion erforderlichen Enzyms.“ Englischer Originalwortlaut: "After topical ocular dosing, nepafenac penetrates the cornea and is converted by ocular tissue hydrolases to amfenac, a NSAID. Nepafenac and amfenac are thought to inhibit the action of prostaglandin H synthase (cyclooxygenase), an enzyme required for prostaglandin production." ([DailyMed: Ilevro (nepafenac) prescribing information, Harrow Eye, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10f411d3-a81e-074a-e063-6294a90ab547), Fassung vom 2026-04-01; abgerufen am 2026-11-19). Nach den vorhandenen Informationen ist Nepafenac ein Prodrug: Es wird im Augengewebe durch Hydrolasen zu Amfenac umgewandelt, einem Hemmstoff der Cyclooxygenasen COX-1 und COX-2. Dadurch sinkt die Prostaglandinsynthese, und die entzündungsbedingte Störung der Blut-Retina-Schranke wird abgeschwächt.
 
 Dieser Mechanismus passt zu postoperativer Augenentzündung, Schmerz und zystoidem Makulaödem. Wichtig ist die Einordnung: Die vorhergesagte Indikation „Augenerkrankung“ ist sehr breit und entspricht weitgehend dem bereits etablierten ophthalmologischen Einsatz. Es handelt sich daher eher um eine Erweiterung innerhalb der Augenheilkunde als um ein echtes Repurposing. Die stärkste Evidenz besteht für konkrete Zustände (postoperative Entzündung und Schmerz, Makulaödem), nicht für „Augenerkrankung“ insgesamt.
 
@@ -156,12 +156,13 @@ Für Nepafenac liegen umfangreiche Phase-3-Studien mit abgeschlossener Auswertun
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Klärung des Zulassungs- und Vermarktungsstatus (derzeit nur erloschene Zulassung) sowie Prüfung, ob aktuelle Nepafenac-Präparate (z“ | Korrigiert (überarbeitet am 2026-11-12; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „zudem ist die deutsche bzw europäische Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Ilevro (nepafenac) prescribing information, Harrow Eye, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10f411d3-a81e-074a-e063-6294a90ab547) |
 
 <!-- review:end log -->
 

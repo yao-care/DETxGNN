@@ -60,7 +60,7 @@ Dafür liegen **keine registrierten klinischen Studien**, aber **20 Publikatione
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum genauen Wirkmechanismus von Prednisolon liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Prednisolon ein Glucocorticoid ist, dessen Wirksamkeit bei Autoimmunerkrankungen belegt ist und das mechanistisch auch bei Alopecia areata anwendbar sein könnte.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Prednisolone (inoffizielle Übersetzung): „Prednisolon ist ein synthetisches Nebennierenrinden-Steroid mit überwiegend glucocorticoiden Eigenschaften. Einige dieser Eigenschaften geben die physiologischen Wirkungen endogener Glucocorticosteroide wieder, andere spiegeln jedoch nicht notwendigerweise eine der normalen Funktionen der Nebennierenhormone wider; sie werden erst nach Verabreichung hoher therapeutischer Dosen des Arzneimittels beobachtet.“ Englischer Originalwortlaut: "Prednisolone is a synthetic adrenocortical steroid drug with predominantly glucocorticoid properties. Some of these properties reproduce the physiological actions of endogenous glucocorticosteroids, but others do not necessarily reflect any of the adrenal hormones' normal functions; they are seen only after administration of large therapeutic doses of the drug." ([DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1), Fassung vom 2025-06-03; abgerufen am 2026-11-19). Bekannt ist, dass Prednisolon ein Glucocorticoid ist, dessen Wirksamkeit bei Autoimmunerkrankungen belegt ist und das mechanistisch auch bei Alopecia areata anwendbar sein könnte.
 
 Alopecia areata ist ein T-Zell-vermittelter Autoimmunangriff auf den Haarfollikel, bei dem der Immunprivilegien-Schutz des Follikels verloren geht. Prednisolon unterdrückt die T-Zell-Aktivierung, die Zytokinproduktion und entzündliche Infiltrate um den Follikel. Das passt zum bestehenden Einsatz des Wirkstoffs bei Autoimmunerkrankungen.
 
@@ -131,6 +131,18 @@ Für die Alopecia areata liegen eine randomisierte, placebokontrollierte Studie,
 | 4 | Folliculitis decalvans (Quinquaud) | L4 | Hold | Nur ein Fallbericht mit Dreifachtherapie; Beitrag von Prednisolon nicht abgrenzbar |
 | 5–9 | Seltene genetische bzw. strukturelle Erkrankungen (u. a. Alopezie-Antikörpermangel, hereditäre Hypotrichose, Atrichie mit papulösen Läsionen, Tränendrüsenprolaps) | L5 | Hold | Keine belastbare Evidenz oder plausibler Mechanismus |
 | 10 | Idiopathisches steroidsensibles nephrotisches Syndrom | L1 | Proceed with Guardrails | Entspricht bereits der etablierten Standardtherapie, keine neuartige Indikation; ein Teil der Literatur betrifft steroidresistente Patienten. Die zugrunde liegenden Phase-3-Studien sollten verifiziert werden |
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

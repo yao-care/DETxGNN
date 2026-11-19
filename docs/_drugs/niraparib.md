@@ -59,7 +59,7 @@ Das TxGNN-Modell sagt voraus, dass er bei **zystischer Neoplasie (Cystic Neoplas
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für diesen Wirkstoff liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Bekannt ist, dass Niraparib PARP1/2 hemmt und in Tumoren mit Defekten der homologen Rekombination (HRD) eine synthetische Letalität auslöst. Die Wirksamkeit bei Ovarialkarzinomen ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Niraparib (inoffizielle Übersetzung): „Niraparib ist ein Inhibitor der PARP-Enzyme, einschließlich PARP-1 und PARP-2, die eine Rolle bei der DNA-Reparatur spielen. In-vitro-Studien haben gezeigt, dass die durch Niraparib induzierte Zytotoxizität eine Hemmung der enzymatischen PARP-Aktivität und eine vermehrte Bildung von PARP-DNA-Komplexen umfassen kann, was zu DNA-Schäden, Apoptose und Zelltod führt.“ Englischer Originalwortlaut: "Niraparib is an inhibitor of PARP enzymes, including PARP-1 and PARP-2, that play a role in DNA repair. In vitro studies have shown that niraparib-induced cytotoxicity may involve inhibition of PARP enzymatic activity and increased formation of PARP-DNA complexes resulting in DNA damage, apoptosis, and cell death." ([DailyMed: Zejula (niraparib) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7f675e2-159c-490c-b6f4-3f16d9492b7d), Fassung vom 2026-07-28; abgerufen am 2026-11-19). Bekannt ist, dass Niraparib PARP1/2 hemmt und in Tumoren mit Defekten der homologen Rekombination (HRD) eine synthetische Letalität auslöst. Die Wirksamkeit bei Ovarialkarzinomen ist belegt.
 
 Die Bezeichnung „zystische Neoplasie“ ist ein breiter Ontologiebegriff. Die zugeordnete Evidenz bezieht sich hauptsächlich auf seröse Ovarial- und Endometriumkarzinome, die den ursprünglichen Indikationen stark ähneln. Der Treffer ist daher teilweise ein Ontologie-Artefakt und kein klar abgegrenztes Repurposing-Signal. Die plausibelste Evidenz für eine neue Indikation ist die Phase-2-Studie zum serösen Endometriumkarzinom, das molekular dem hochgradig serösen Ovarialkarzinom ähnelt (Chromosomeninstabilität, Kopienzahlveränderungen, somatische Mutationen).
 
@@ -147,11 +147,12 @@ Der TxGNN-Wert ist sehr hoch, die Evidenz stützt jedoch keine eindeutig neue In
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem sind beide deutschen Zulassungen aufgehoben, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Zejula (niraparib) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7f675e2-159c-490c-b6f4-3f16d9492b7d) |
 
 <!-- review:end log -->
 

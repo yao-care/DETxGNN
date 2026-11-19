@@ -54,7 +54,7 @@ Methotrexat ist ein Antifolat, das die Dihydrofolat-Reduktase hemmt und damit di
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Methotrexat ein Antifolat ist, das die Dihydrofolat-Reduktase hemmt und die Nukleotidsynthese beeinträchtigt. Dieser antiproliferative Mechanismus ist grundsätzlich für schnell wachsende Tumoren denkbar.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Methotrexate (inoffizielle Übersetzung): „Methotrexat hemmt die Dihydrofolsäure-Reduktase. Dihydrofolate müssen durch dieses Enzym zu Tetrahydrofolaten reduziert werden, bevor sie als Träger von Ein-Kohlenstoff-Gruppen bei der Synthese von Purinnukleotiden und Thymidylat genutzt werden können.“ Englischer Originalwortlaut: "Methotrexate inhibits dihydrofolic acid reductase. Dihydrofolates must be reduced to tetrahydrofolates by this enzyme before they can be utilized as carriers of one-carbon groups in the synthesis of purine nucleotides and thymidylate." ([DailyMed: Jylamvo (methotrexate) prescribing information, SHORLA ONCOLOGY INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96e931f5-51ae-4bdf-a441-bb0dd26d4c0e), Fassung vom 2026-11-05; abgerufen am 2026-11-19). Bekannt ist, dass Methotrexat ein Antifolat ist, das die Dihydrofolat-Reduktase hemmt und die Nukleotidsynthese beeinträchtigt. Dieser antiproliferative Mechanismus ist grundsätzlich für schnell wachsende Tumoren denkbar.
 
 Ein direkter Zusammenhang mit dem pulmonalen Blastom wird durch die vorliegenden Daten jedoch nicht gestützt. Die Vorhersage beruht allein auf dem Modell; die Plausibilität ergibt sich lediglich aus dem allgemeinen Wirkprinzip.
 
@@ -104,6 +104,19 @@ Für das pulmonale Blastom liegen weder Studien noch Publikationen vor; die Vorh
 - Daten zum Wirkmechanismus ergänzen
 - Warnhinweise und Gegenanzeigen aus der Fachinformation auswerten
 - Prüfung, ob eine präklinische Untersuchung sinnvoll ist
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Jylamvo (methotrexate) prescribing information, SHORLA ONCOLOGY INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96e931f5-51ae-4bdf-a441-bb0dd26d4c0e) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

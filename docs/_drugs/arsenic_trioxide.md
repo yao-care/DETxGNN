@@ -54,7 +54,7 @@ Arsentrioxid ist ein zytotoxischer Wirkstoff aus der Gruppe der Arsenverbindunge
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Arsentrioxid ist ein bei akuter Promyelozytenleukämie etabliertes Arzneimittel. Aus der Literatur zu myelodysplastischen Syndromen (MDS) im Allgemeinen ist bekannt, dass es Apoptose induziert und Differenzierung fördert. Mechanistisch könnte es daher auch bei MDS-Untergruppen relevant sein.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Arsenic Trioxide (inoffizielle Übersetzung): „Der Wirkmechanismus von TRISENOX ist nicht vollständig geklärt. Arsentrioxid verursacht in vitro in humanen promyelozytären Leukämiezellen der Linie NB4 morphologische Veränderungen und DNA-Fragmentierung, die für Apoptose charakteristisch sind. Arsentrioxid verursacht außerdem eine Schädigung oder einen Abbau des Fusionsproteins Promyelozytenleukämie (PML)-Retinsäurerezeptor (RAR)-alpha.“ Englischer Originalwortlaut: "The mechanism of action of TRISENOX is not completely understood. Arsenic trioxide causes morphological changes and DNA fragmentation characteristic of apoptosis in NB4 human promyelocytic leukemia cells in vitro. Arsenic trioxide also causes damage or degradation of the fusion protein promyelocytic leukemia (PML)-retinoic acid receptor (RAR)-alpha." ([DailyMed: Trisenox (arsenic trioxide) prescribing information, Cephalon, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=101fc347-d0ad-4aee-8b06-9feb187fd741), Fassung vom 2022-06-30; abgerufen am 2026-11-19). Arsentrioxid ist ein bei akuter Promyelozytenleukämie etabliertes Arzneimittel. Aus der Literatur zu myelodysplastischen Syndromen (MDS) im Allgemeinen ist bekannt, dass es Apoptose induziert und Differenzierung fördert. Mechanistisch könnte es daher auch bei MDS-Untergruppen relevant sein.
 
 Wichtig ist die Einschränkung: Diese indirekte Unterstützung betrifft die breite MDS-Kategorie. Für die Untergruppe „unklassifiziertes MDS“ gibt es keine spezifischen Belege. Die hohe Modellbewertung allein genügt nicht, um eine Wirksamkeit anzunehmen.
 
@@ -109,6 +109,19 @@ Für unklassifiziertes MDS liegen weder Studien noch Publikationen vor; es beste
 - Daten zum Wirkmechanismus
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), insbesondere zur Herz-Kreislauf-Sicherheit (QT-Verlängerung)
 - Klärung, ob eine Einordnung als Teil des breiteren MDS-Spektrums fachlich sinnvoll ist
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Trisenox (arsenic trioxide) prescribing information, Cephalon, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=101fc347-d0ad-4aee-8b06-9feb187fd741) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

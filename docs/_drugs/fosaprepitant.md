@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist: Fosaprepitant ist ein Prodrug von Aprepitant, einem NK1-Rezeptor-Antagonisten. Seine Wirksamkeit bei Erbrechen im Zusammenhang mit Krebstherapie ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Fosaprepitant (inoffizielle Übersetzung): „Fosaprepitant ist ein Prodrug von Aprepitant; dementsprechend sind seine antiemetischen Wirkungen auf Aprepitant zurückzuführen. Aprepitant ist ein selektiver, hochaffiner Antagonist an humanen Substanz-P/Neurokinin-1(NK-1)-Rezeptoren. Aprepitant weist nur eine geringe oder keine Affinität zu Serotonin(5-HT 3 )-, Dopamin- und Corticosteroidrezeptoren auf, den Zielstrukturen bestehender Therapien gegen Chemotherapie-induzierte Übelkeit und Erbrechen (CINV).“ Englischer Originalwortlaut: "Fosaprepitant is a prodrug of aprepitant and accordingly, its antiemetic effects are attributable to aprepitant. Aprepitant is a selective high-affinity antagonist of human substance P/neurokinin 1 (NK-1) receptors. Aprepitant has little or no affinity for serotonin (5-HT 3 ), dopamine, and corticosteroid receptors, the targets of existing therapies for chemotherapy-induced nausea and vomiting (CINV)." ([DailyMed: Navitrux (fosaprepitant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a41b7c3a-1376-43a7-b5b9-6ba2eba1e169), Fassung vom 2026-07-29; abgerufen am 2026-11-19). Bekannt ist: Fosaprepitant ist ein Prodrug von Aprepitant, einem NK1-Rezeptor-Antagonisten. Seine Wirksamkeit bei Erbrechen im Zusammenhang mit Krebstherapie ist belegt.
 
 Ein Zusammenhang mit dem Wasserhaushalt über Substanz-P-/NK1-Signalwege im Vasopressin-System ist denkbar, aber spekulativ. Das nephrogene SIAD entsteht durch Gain-of-Function-Mutationen des V2-Rezeptors (AVPR2). Es ist nicht bekannt, dass eine NK1-Blockade diesen Defekt beeinflusst. Der hohe Modellwert ist daher mit Vorsicht zu interpretieren.
 
@@ -116,6 +116,19 @@ Für die vorhergesagte Indikation gibt es weder klinische noch literaturbasierte
 - Warnhinweise und Kontraindikationen aus der Packungsbeilage ergänzen (derzeit blockierende Datenlücke)
 - Präklinische Untersuchungen zu einer möglichen Verbindung zwischen NK1-/Substanz-P-Signalen und dem Vasopressin-V2-Rezeptor-Signalweg
 - Prüfung des Zulassungsstatus und der Verfügbarkeit in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Navitrux (fosaprepitant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a41b7c3a-1376-43a7-b5b9-6ba2eba1e169) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

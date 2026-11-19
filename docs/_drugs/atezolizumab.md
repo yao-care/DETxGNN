@@ -54,7 +54,7 @@ Atezolizumab ist ein Antikörper gegen PD-L1, der in Deutschland als Tecentriq i
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten derzeit keine detaillierten Angaben vor. Bekannt ist, dass Atezolizumab als PD-L1-Antikörper die Hemmung von T-Zellen aufhebt und so die körpereigene Immunantwort gegen Tumorzellen wieder aktivieren kann. Dieser Mechanismus ist bei verschiedenen soliden Tumoren relevant.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Atezolizumab (inoffizielle Übersetzung): „PD L1 kann auf Tumorzellen und/oder tumorinfiltrierenden Immunzellen exprimiert werden und kann zur Hemmung der Antitumor-Immunantwort in der Tumormikroumgebung beitragen. Die Bindung von PD L1 an die auf T-Zellen und antigenpräsentierenden Zellen vorkommenden Rezeptoren PD 1 und B7.1 unterdrückt die zytotoxische T-Zell-Aktivität, die T-Zell-Proliferation und die Zytokinproduktion. […] Atezolizumab ist ein monoklonaler Antikörper, der an PD L1 bindet und dessen Interaktionen sowohl mit dem PD 1- als auch mit dem B7.1-Rezeptor blockiert.“ Englischer Originalwortlaut: "PD L1 may be expressed on tumor cells and/or tumor infiltrating immune cells and can contribute to the inhibition of the anti-tumor immune response in the tumor microenvironment. Binding of PD L1 to the PD 1 and B7.1 receptors found on T cells and antigen presenting cells suppresses cytotoxic T-cell activity, T-cell proliferation and cytokine production. […] Atezolizumab is a monoclonal antibody that binds to PD L1 and blocks its interactions with both PD 1 and B7.1 receptors." ([DailyMed: Tecentriq (atezolizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa682c9-a312-4932-9831-f286908660ee), Fassung vom 2026-10-13; abgerufen am 2026-11-19). Bekannt ist, dass Atezolizumab als PD-L1-Antikörper die Hemmung von T-Zellen aufhebt und so die körpereigene Immunantwort gegen Tumorzellen wieder aktivieren kann. Dieser Mechanismus ist bei verschiedenen soliden Tumoren relevant.
 
 Ein denkbarer Ansatz wäre die PD-L1-Blockade bei gynäkologischen Adenokarzinomen. Für das Gebärmutterband-Adenokarzinom ist das jedoch durch keine abgerufenen Daten belegt. Die hohe Modellbewertung ist eine rein rechnerische Vorhersage; ein Zusammenhang zur bisherigen Anwendung wurde nicht weiter geprüft.
 
@@ -90,6 +90,19 @@ Die Vorhersage stützt sich allein auf den Modellwert, ohne Studien oder Publika
 - Daten zum Wirkmechanismus von Atezolizumab in dieser Entität
 - Auswertung der Packungsbeilage (Warnhinweise, Gegenanzeigen) vor einer Sicherheitsbewertung
 - Prüfung der Wechselwirkungen, v. a. mit Kortikosteroiden und Immunsuppressiva, im Kontext der Immuntherapie
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Tecentriq (atezolizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa682c9-a312-4932-9831-f286908660ee) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -60,7 +60,7 @@ Die Evidenz besteht aus **6 klinischen Studien** (davon 2 direkt relevante Phase
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist jedoch: Ustekinumab blockiert die gemeinsame p40-Untereinheit von IL-12 und IL-23 und hemmt damit die Th1- und Th17-Signalwege. Diese Signalwege tragen zu entzündlichen Hauterkrankungen bei.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Ustekinumab (inoffizielle Übersetzung): „Ustekinumab-Produkte sind humane monoklonale IgG1κ-Antikörper, die spezifisch an die p40-Protein-Untereinheit binden, die sowohl von den Zytokinen IL-12 als auch IL-23 genutzt wird. IL-12 und IL-23 sind natürlich vorkommende Zytokine, die an Entzündungs- und Immunreaktionen beteiligt sind, wie etwa der Aktivierung natürlicher Killerzellen sowie der Differenzierung und Aktivierung von CD4+-T-Zellen.“ Englischer Originalwortlaut: "Ustekinumab products are human IgG1κ monoclonal antibodies that bind with specificity to the p40 protein subunit used by both the IL-12 and IL-23 cytokines. IL-12 and IL-23 are naturally occurring cytokines that are involved in inflammatory and immune responses, such as natural killer cell activation and CD4+ T-cell differentiation and activation." ([DailyMed: Selarsdi (ustekinumab-aekn) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87f75b59-e48b-47c7-a4c0-5fe5965660e7), Fassung vom 2026-11-11; abgerufen am 2026-11-19). Bekannt ist jedoch: Ustekinumab blockiert die gemeinsame p40-Untereinheit von IL-12 und IL-23 und hemmt damit die Th1- und Th17-Signalwege. Diese Signalwege tragen zu entzündlichen Hauterkrankungen bei.
 
 Seine Wirksamkeit bei Psoriasis, einer Th1/Th17-getriebenen Hauterkrankung, stützt die biologische Plausibilität für andere Dermatitis-Formen. Die atopische Dermatitis ist allerdings überwiegend Th2-dominiert, wobei Th1-, Th17- und IL-23-Anteile ebenfalls beteiligt sind.
 
@@ -161,13 +161,14 @@ Zwei randomisierte Phase-2-Studien (u. a. placebokontrolliert) bei atopischer De
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Alle 13 Zulassungen (zentrale EU-Zulassungen, EMEA/H/C) sind gültig“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „und 13 von 13 Zulassungen sind gültig“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „(13 von 13 Zulassungen gültig, Arzneimittel im Handel)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Selarsdi (ustekinumab-aekn) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87f75b59-e48b-47c7-a4c0-5fe5965660e7) |
 
 <!-- review:end log -->
 

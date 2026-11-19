@@ -54,7 +54,7 @@ Ivabradin ist ein herzfrequenzsenkender Wirkstoff, der den If-Strom ("funny curr
 
 ## Warum ist diese Vorhersage plausibel?
 
-Ivabradin hemmt HCN-Kanäle (If-Strom), die vor allem in den Schrittmacherzellen des Herzens untersucht sind. Detaillierte Daten zum Wirkmechanismus liegen in den zusammengestellten Daten derzeit nicht vor. HCN-Kanäle kommen zwar auch in einigen nicht-kardialen Geweben vor, ein belegter Zusammenhang mit der Biologie des Haarfollikels oder der Haarwuchsregulation ist jedoch nicht dokumentiert.
+Ivabradin hemmt HCN-Kanäle (If-Strom), die vor allem in den Schrittmacherzellen des Herzens untersucht sind. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Ivabradine (inoffizielle Übersetzung): „Corlanor blockiert den hyperpolarisationsaktivierten, durch zyklische Nukleotide gesteuerten (HCN-)Kanal, der für den kardialen Schrittmacherstrom I f verantwortlich ist, welcher die Herzfrequenz reguliert. In klinischen elektrophysiologischen Studien waren die kardialen Wirkungen im Sinusknoten (SA-Knoten) am stärksten ausgeprägt, es trat jedoch eine Verlängerung des AH-Intervalls ebenso wie eine Verlängerung des PR-Intervalls auf.“ Englischer Originalwortlaut: "Corlanor blocks the hyperpolarization-activated cyclic nucleotide-gated (HCN) channel responsible for the cardiac pacemaker I f current, which regulates heart rate. In clinical electrophysiology studies, the cardiac effects were most pronounced in the sinoatrial (SA) node, but prolongation of the AH interval has occurred as has PR interval prolongation." ([DailyMed: Corlanor (ivabradine) prescribing information, Amgen Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d), Fassung vom 2026-11-09; abgerufen am 2026-11-19). HCN-Kanäle kommen zwar auch in einigen nicht-kardialen Geweben vor, ein belegter Zusammenhang mit der Biologie des Haarfollikels oder der Haarwuchsregulation ist jedoch nicht dokumentiert.
 
 Der sehr hohe Vorhersagewert (0,9979) ist ein reines Modellergebnis und kein Wirksamkeitsnachweis. Hinzu kommt, dass Hypertrichose bei manchen Arzneimitteln als Nebenwirkung auftritt; die Richtung der Vorhersage (therapeutisch oder auslösend) ist daher unklar. Die Plausibilität ist insgesamt gering und rein spekulativ.
 
@@ -97,6 +97,19 @@ Für Hypertrichose gibt es weder klinische Studien noch Publikationen; die Vorhe
 - Prüfung, ob Hypertrichose als Nebenwirkung von Ivabradin berichtet wird (Richtung des Effekts)
 - Präklinische Daten oder Fallberichte, die die Vorhersage stützen
 - Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen)
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Corlanor (ivabradine) prescribing information, Amgen Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

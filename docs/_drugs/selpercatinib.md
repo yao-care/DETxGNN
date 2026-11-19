@@ -60,7 +60,7 @@ Dafür liegen **keine klinischen Studien** und **keine direkt unterstützende Li
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Selpercatinib ist ein selektiver Inhibitor der RET-Kinase, und seine Wirksamkeit bei RET-getriebenen Tumoren (Lungenkarzinom, Schilddrüsenkarzinom) gilt als belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Selpercatinib (inoffizielle Übersetzung): „Selpercatinib ist ein Kinase-Inhibitor. Selpercatinib hemmte Wildtyp-RET und mehrere mutierte RET-Isoformen sowie VEGFR1 und VEGFR3 mit IC 50-Werten im Bereich von 0,92 nM bis 67,8 nM. In anderen Enzymassays hemmte Selpercatinib auch FGFR 1, 2 und 3 in höheren, aber klinisch noch erreichbaren Konzentrationen.“ Englischer Originalwortlaut: "Selpercatinib is a kinase inhibitor. Selpercatinib inhibited wild-type RET and multiple mutated RET isoforms as well as VEGFR1 and VEGFR3 with IC 50 values ranging from 0.92 nM to 67.8 nM. In other enzyme assays, selpercatinib also inhibited FGFR 1, 2, and 3 at higher concentrations that were still clinically achievable." ([DailyMed: Retevmo (selpercatinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7fa848ba-a59c-4144-9f52-64d090f4d828), Fassung vom 2026-09-11; abgerufen am 2026-11-19). Bekannt ist: Selpercatinib ist ein selektiver Inhibitor der RET-Kinase, und seine Wirksamkeit bei RET-getriebenen Tumoren (Lungenkarzinom, Schilddrüsenkarzinom) gilt als belegt.
 
 Ein direkter mechanistischer Zusammenhang zwischen RET-Hemmung und der Pathophysiologie der pulmonalen Hypertonie (Gefäßumbau der Lunge, endotheliale Dysfunktion) ist anhand der vorliegenden Daten nicht erkennbar. Kinase-Inhibitoren als Klasse werden zwar im Zusammenhang mit pulmonalem Gefäßumbau diskutiert (z. B. PDGFR-Hemmung), dies ist jedoch nicht RET-spezifisch und wird durch die vorliegende Evidenz nicht gestützt. Der hohe Modellwert ist daher als Hypothese zu verstehen, nicht als Beleg.
 
@@ -143,11 +143,12 @@ Die Vorhersage zur pulmonalen Hypertonie (Score 0.9918) stammt vom TxGNN-Modell 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Klärung des Zulassungsstatus in Deutschland (aktuell nur erloschene Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Retevmo (selpercatinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7fa848ba-a59c-4144-9f52-64d090f4d828) |
 
 <!-- review:end log -->
 

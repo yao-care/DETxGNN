@@ -58,7 +58,7 @@ Vilanterol ist ein lang wirksamer Beta-2-Agonist, der ursprünglich zur Behandlu
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach bekanntem Wissen ist Vilanterol ein lang wirksamer Beta-2-Adrenozeptor-Agonist (LABA), der die glatte Atemwegsmuskulatur entspannt und eine anhaltende Bronchodilatation bewirkt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für fluticasone furoate and vilanterol (Kombinationspräparat mit Vilanterol) (inoffizielle Übersetzung): „Die pharmakologischen Wirkungen von Beta-2-Adrenozeptor-Agonisten, einschließlich Vilanterol, sind zumindest teilweise auf eine Stimulation der intrazellulären Adenylatcyclase zurückzuführen, des Enzyms, das die Umwandlung von Adenosintriphosphat (ATP) in zyklisches 3′,5′-Adenosinmonophosphat (zyklisches AMP) katalysiert.“ Englischer Originalwortlaut: "The pharmacologic effects of beta 2 -adrenergic agonist drugs, including vilanterol, are at least in part attributable to stimulation of intracellular adenyl cyclase, the enzyme that catalyzes the conversion of adenosine triphosphate (ATP) to cyclic-3′,5′-adenosine monophosphate (cyclic AMP)." ([DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5), Fassung vom 2024-11-21; abgerufen am 2026-11-19). Nach bekanntem Wissen ist Vilanterol ein lang wirksamer Beta-2-Adrenozeptor-Agonist (LABA), der die glatte Atemwegsmuskulatur entspannt und eine anhaltende Bronchodilatation bewirkt.
 
 Die vorhergesagte „obstruktive Lungenerkrankung" ist der Oberbegriff der bereits zugelassenen Indikation COPD. Es handelt sich daher nicht um ein klassisches Repurposing, sondern um eine Bestätigung der bestehenden Anwendung. Die Wirksamkeit stützt sich vor allem auf Phase-3-Studien mit Fixkombinationen, etwa Fluticasonfuroat/Vilanterol (FF/VI), Umeclidinium/Vilanterol (UMEC/VI) und die Dreifachkombination FF/UMEC/VI (z. B. IMPACT, FULFIL).
 
@@ -158,12 +158,13 @@ Mehrere große Phase-3-Studien und RCTs (u. a. IMPACT, FULFIL) belegen die Wirks
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Beide Zulassungen sind erloschen (Status: „Cancelled")“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „da die Einzelwirkstoff-Zulassungen erloschen sind“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5) |
 
 <!-- review:end log -->
 

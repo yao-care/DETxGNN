@@ -56,7 +56,7 @@ Dafür liegen **keine registrierten klinischen Studien** und **20 Publikationen*
 
 ## Warum ist diese Vorhersage plausibel?
 
-Itraconazol hemmt die fungale Lanosterol-14-alpha-Demethylase (CYP51) und blockiert so die Ergosterol-Synthese. Detaillierte Angaben zum Wirkmechanismus liegen in den zusammengestellten Daten nicht vor.
+Itraconazol hemmt die fungale Lanosterol-14-alpha-Demethylase (CYP51) und blockiert so die Ergosterol-Synthese. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Itraconazole (inoffizielle Übersetzung): „In-vitro-Studien haben gezeigt, dass Itraconazol die Cytochrom-P450-abhängige Synthese von Ergosterol hemmt, einem lebenswichtigen Bestandteil der Zellmembranen von Pilzen.“ Englischer Originalwortlaut: "In vitro studies have demonstrated that itraconazole inhibits the cytochrome P450-dependent synthesis of ergosterol, which is a vital component of fungal cell membranes." ([DailyMed: Sporanox (itraconazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a4d555fa-787c-40fb-bb7d-b0d4f7318fd0), Fassung vom 2026-07-13; abgerufen am 2026-11-19).
 
 Die mechanistische Begründung ist jedoch schwach: Pneumocystis jirovecii enthält in der Zellmembran nur wenig Ergosterol und nutzt vorwiegend Cholesterol als Hauptsterol. Der hohe TxGNN-Wert (0,9934) spiegelt vermutlich eher die Nähe zu anderen antimykotischen Indikationen im Modell wider als eine bestätigte Zielstruktur-Beziehung.
 
@@ -104,6 +104,19 @@ Für Pneumocystose liegt weder eine registrierte klinische Studie noch eine Publ
 - Detaillierte Daten zum Wirkmechanismus (MOA)
 - Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) für die Sicherheitsprüfung
 - Vergleich mit den etablierten Standardtherapien und -prophylaxen (z. B. Trimethoprim-Sulfamethoxazol)
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Sporanox (itraconazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a4d555fa-787c-40fb-bb7d-b0d4f7318fd0) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -58,7 +58,7 @@ Trastuzumab deruxtecan ist ein HER2-gerichtetes Antikörper-Wirkstoff-Konjugat, 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Die Plausibilität ist gering. Trastuzumab deruxtecan ist ein HER2-gerichtetes Antikörper-Wirkstoff-Konjugat mit einem Topoisomerase-I-Inhibitor als Wirkstoffanteil (Deruxtecan). Für das Arzneimittel liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor.
+Die Plausibilität ist gering. Trastuzumab deruxtecan ist ein HER2-gerichtetes Antikörper-Wirkstoff-Konjugat mit einem Topoisomerase-I-Inhibitor als Wirkstoffanteil (Deruxtecan). Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Trastuzumab Deruxtecan (inoffizielle Übersetzung): „Fam-Trastuzumab-Deruxtecan-nxki ist ein gegen HER2 gerichtetes Antikörper-Wirkstoff-Konjugat. Der Antikörper ist ein humanisierter Anti-HER2-IgG1. Das kleine Molekül DXd ist ein Topoisomerase-I-Inhibitor, der über einen spaltbaren Linker an den Antikörper gebunden ist.“ Englischer Originalwortlaut: "Fam-trastuzumab deruxtecan-nxki is a HER2-directed antibody-drug conjugate. The antibody is a humanized anti-HER2 IgG1. The small molecule, DXd, is a topoisomerase I inhibitor attached to the antibody by a cleavable linker." ([DailyMed: Enhertu (fam-trastuzumab deruxtecan-nxki) prescribing information, Daiichi Sankyo Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6), Fassung vom 2026-05-15; abgerufen am 2026-11-19).
 
 Für eine Rolle im Knochenstoffwechsel gibt es keinen belegten mechanistischen Zusammenhang. Der Wirkstoff hat keine bekannte Funktion bei der Regulation von Osteoklasten oder Osteoblasten und nicht in den RANKL- oder Wnt-Signalwegen. Ein möglicher Zusammenhang wäre rein spekulativ, etwa über indirekte Effekte der zytotoxischen Nutzlast auf den Knochenumsatz, und würde eher auf eine Knochentoxizität als auf einen Nutzen hindeuten. Der hohe Vorhersagewert (0.9931) stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht aber biologische Evidenz.
 
@@ -126,6 +126,19 @@ Die Vorhersage beruht ausschließlich auf dem TxGNN-Modell (Deep Learning, Evide
 - Präklinische Hinweise auf einen Zusammenhang mit dem Knochenstoffwechsel, einschließlich einer Bewertung möglicher Knochentoxizität
 - Klärung des Zulassungsstatus in Deutschland und der Darreichungsform
 - Prüfung der Routenkompatibilität und der Ähnlichkeit zur ursprünglichen Indikation (derzeit ausstehend)
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Enhertu (fam-trastuzumab deruxtecan-nxki) prescribing information, Daiichi Sankyo Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

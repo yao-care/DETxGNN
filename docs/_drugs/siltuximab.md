@@ -60,7 +60,7 @@ Dafür liegen jedoch **keine klinischen Studien und keine Publikationen** vor; d
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Siltuximab ist ein gegen IL-6 gerichteter chimärer monoklonaler Antikörper. Seine Wirksamkeit bei der Castleman-Krankheit, einer IL-6-getriebenen lymphoproliferativen Erkrankung, ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Siltuximab (inoffizielle Übersetzung): „Siltuximab bindet humanes IL-6 und verhindert die Bindung von IL-6 sowohl an lösliche als auch an membrangebundene IL-6-Rezeptoren. Es wurde gezeigt, dass IL-6 an verschiedenen normalen physiologischen Prozessen beteiligt ist, wie z. B. an der Induktion der Immunglobulinsekretion.“ Englischer Originalwortlaut: "Siltuximab binds human IL-6 and prevents the binding of IL-6 to both soluble and membrane-bound IL-6 receptors. IL-6 has been shown to be involved in diverse normal physiologic processes such as induction of immunoglobulin secretion." ([DailyMed: Sylvant (siltuximab) prescribing information, Recordati Rare Diseases, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d663642-f52e-49c0-a023-2da083fdfc0b), Fassung vom 2024-08-27; abgerufen am 2026-11-19). Bekannt ist: Siltuximab ist ein gegen IL-6 gerichteter chimärer monoklonaler Antikörper. Seine Wirksamkeit bei der Castleman-Krankheit, einer IL-6-getriebenen lymphoproliferativen Erkrankung, ist belegt.
 
 Die Verbindung zum Mastozytom stützt sich ausschließlich auf die Vorhersage des TxGNN-Modells (Deep Learning, Score 0,9964). Dieser Score kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, und stellt keinen biologischen Beleg dar. Weder klinische Studien noch Literatur belegen eine IL-6-Blockade bei dieser Erkrankung, und die mechanistische Begründung ist nicht etabliert. Der Zusammenhang zur ursprünglichen Indikation wurde bisher nicht bewertet.
 
@@ -142,12 +142,13 @@ Die Vorhersage für extrakutanes Mastozytom beruht ausschließlich auf dem Model
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Die Zulassung ist aufgehoben (Status: cancelled)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Zudem ist die deutsche Zulassung aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Sylvant (siltuximab) prescribing information, Recordati Rare Diseases, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d663642-f52e-49c0-a023-2da083fdfc0b) |
 
 <!-- review:end log -->
 

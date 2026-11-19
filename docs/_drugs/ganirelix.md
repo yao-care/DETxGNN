@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Aus der Pharmakologie ist bekannt: Ganirelix ist ein Peptid-Antagonist am GnRH-Rezeptor (GNRHR). Er unterdrückt LH und FSH und damit die nachgeschaltete Bildung von Sexualsteroiden. In der Reproduktionsmedizin wird dies genutzt, um einen vorzeitigen LH-Anstieg zu verhindern.
+Laut dem Abschnitt „Clinical Pharmacology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Ganirelix (inoffizielle Übersetzung): „Die pulsatile Freisetzung von GnRH stimuliert die Synthese und Sekretion des luteinisierenden Hormons (LH) und des follikelstimulierenden Hormons (FSH). Die Frequenz der LH-Pulse in der mittleren und späten Follikelphase beträgt etwa 1 Puls pro Stunde. […] Ganirelixacetat wirkt durch kompetitive Blockade der GnRH-Rezeptoren auf den gonadotropen Zellen der Hypophyse und des nachgeschalteten Signaltransduktionswegs.“ Englischer Originalwortlaut: "The pulsatile release of GnRH stimulates the synthesis and secretion of luteinizing hormone (LH) and follicle-stimulating hormone (FSH). The frequency of LH pulses in the mid and late follicular phase is approximately 1 pulse per hour. […] Ganirelix acetate acts by competitively blocking the GnRH receptors on the pituitary gonadotroph and subsequent transduction pathway." ([DailyMed: Fyremadel (ganirelix acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f0908b5-3551-47fd-95f7-3669b0dff7f1), Fassung vom 2026-10-16; abgerufen am 2026-11-19). Aus der Pharmakologie ist bekannt: Ganirelix ist ein Peptid-Antagonist am GnRH-Rezeptor (GNRHR). Er unterdrückt LH und FSH und damit die nachgeschaltete Bildung von Sexualsteroiden. In der Reproduktionsmedizin wird dies genutzt, um einen vorzeitigen LH-Anstieg zu verhindern.
 
 Der Zusammenhang zur vorhergesagten Indikation ist **schwach**. Hypertrichose ist im Gegensatz zum Hirsutismus in der Regel nicht androgengetrieben. Ein Nutzen durch Unterdrückung der Hypophysen-Gonaden-Achse ist daher mechanistisch kaum zu begründen. Der hohe Wert stammt vom TxGNN-Modell (Deep Learning) und spiegelt vermutlich eher vom Modell gelernte Ähnlichkeiten zwischen verwandten Erkrankungen (haarbezogene Phänotypen) wider als biologische Evidenz oder Pharmakologie.
 
@@ -130,11 +130,12 @@ Die Vorhersage für Hypertrichose beruht ausschließlich auf einem Modellwert (L
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem sind beide deutschen Zulassungen erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Fyremadel (ganirelix acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f0908b5-3551-47fd-95f7-3669b0dff7f1) |
 
 <!-- review:end log -->
 

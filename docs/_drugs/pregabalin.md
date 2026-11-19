@@ -60,7 +60,7 @@ Die Evidenz beschränkt sich im Wesentlichen auf die modellbasierte Vorhersage.
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Pregabalin an die alpha-2-delta-Untereinheit spannungsabhängiger Calciumkanäle bindet und dadurch die Freisetzung erregender Neurotransmitter vermindert. Dies erklärt die Wirkung bei neuropathischen Schmerzen, Epilepsie und Angststörungen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Pregabalin (inoffizielle Übersetzung): „Pregabalin bindet mit hoher Affinität an die Alpha 2 ‑Delta-Stelle (eine akzessorische Untereinheit spannungsabhängiger Calciumkanäle) in Geweben des zentralen Nervensystems. Obwohl der Wirkmechanismus von Pregabalin nicht vollständig aufgeklärt ist, deuten Ergebnisse mit genetisch veränderten Mäusen und mit Verbindungen, die strukturell mit Pregabalin verwandt sind (wie Gabapentin), darauf hin, dass die Bindung an die Alpha 2 ‑Delta-Untereinheit an den antinozizeptiven und antikonvulsiven Wirkungen von Pregabalin bei Tieren beteiligt sein könnte.“ Englischer Originalwortlaut: "Pregabalin binds with high affinity to the alpha 2 ‑delta site (an auxiliary subunit of voltage‑gated calcium channels) in central nervous system tissues. Although the mechanism of action of pregabalin has not been fully elucidated, results with genetically modified mice and with compounds structurally related to pregabalin (such as gabapentin) suggest that binding to the alpha 2 ‑delta subunit may be involved in pregabalin’s anti‑nociceptive and antiseizure effects in animals." ([DailyMed: Lyrica Cr (pregabalin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280bbd8-2af2-444a-bd96-e409337ca6dd), Fassung vom 2026-03-12; abgerufen am 2026-11-19). Bekannt ist, dass Pregabalin an die alpha-2-delta-Untereinheit spannungsabhängiger Calciumkanäle bindet und dadurch die Freisetzung erregender Neurotransmitter vermindert. Dies erklärt die Wirkung bei neuropathischen Schmerzen, Epilepsie und Angststörungen.
 
 Bei Tendinitis wäre ein Nutzen allenfalls **symptomorientiert**: Pregabalin könnte neuropathische oder nozizeptive Schmerzanteile lindern. Die vorhandene Literatur betrifft jedoch die postoperative Analgesie nach arthroskopischer Rotatorenmanschettenrekonstruktion sowie Nervenengpass-Syndrome (Piriformis-Syndrom, N. cutaneus femoris posterior), nicht die Behandlung der Tendinitis selbst. Eine krankheitsmodifizierende Wirkung ist mechanistisch nicht erkennbar; der Zusammenhang ist indirekt.
 
@@ -147,12 +147,13 @@ Die weiteren vorhergesagten Indikationen sind schwächer oder haben einen andere
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „alle 7 erfassten Zulassungen sind gültig“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „(7 von 7 Zulassungen gültig)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Lyrica Cr (pregabalin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280bbd8-2af2-444a-bd96-e409337ca6dd) |
 
 <!-- review:end log -->
 

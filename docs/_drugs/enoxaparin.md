@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** i
 
 ## Warum ist diese Vorhersage plausibel?
 
-Enoxaparin ist ein niedermolekulares Heparin. Es verstärkt die Wirkung von Antithrombin III und hemmt dadurch vor allem Faktor Xa, in geringerem Maße auch Thrombin. Detaillierte Daten zum Wirkmechanismus liegen in den zusammengestellten Daten nicht vor; die folgenden Angaben beruhen daher auf allgemeinem pharmakologischem Wissen.
+Enoxaparin ist ein niedermolekulares Heparin. Es verstärkt die Wirkung von Antithrombin III und hemmt dadurch vor allem Faktor Xa, in geringerem Maße auch Thrombin. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Enoxaparin (inoffizielle Übersetzung): „Enoxaparin ist ein niedermolekulares Heparin mit antithrombotischen Eigenschaften.“ Englischer Originalwortlaut: "Enoxaparin is a low molecular weight heparin which has antithrombotic properties." ([DailyMed: Lovenox (enoxaparin sodium) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5017a927-2a24-4f27-89f9-27c805bf7d59), Fassung vom 2026-05-28; abgerufen am 2026-11-19).
 
 Beim Protein-C-Mangel ist die Inaktivierung der Faktoren Va und VIIIa gestört, was zu einem hyperkoagulablen Zustand mit unkontrollierter Thrombinbildung führt. Eine Antikoagulation ist deshalb biologisch plausibel. Sie ist bei Thrombosen in dieser Population ein etablierter Ansatz: Heparine werden als Überbrückung vor oder neben Vitamin-K-Antagonisten eingesetzt, bei schwerer neonataler Erkrankung zusammen mit Protein-C-Konzentrat.
 
@@ -125,11 +125,12 @@ Die Vorhersage ist mechanistisch plausibel und der TxGNN-Wert ist hoch, doch es 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die einzige erfasste Zulassung in eutschland erloschen, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Lovenox (enoxaparin sodium) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5017a927-2a24-4f27-89f9-27c805bf7d59) |
 
 <!-- review:end log -->
 

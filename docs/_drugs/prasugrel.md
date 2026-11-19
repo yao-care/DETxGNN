@@ -62,7 +62,7 @@ Derzeit stützen **2 klinische Studien** (beide nur indirekt relevant) und **2 P
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Prasugrel liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Nach bekanntem Wissen ist Prasugrel ein Thienopyridin und ein irreversibler P2Y12-Antagonist, der die Thrombozytenaggregation hemmt. Seine Wirksamkeit beim akuten Koronarsyndrom beruht auf der Verhinderung thrombotischer Ereignisse.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Prasugrel (inoffizielle Übersetzung): „Prasugrel ist ein Inhibitor der Thrombozytenaktivierung und -aggregation durch die irreversible Bindung seines aktiven Metaboliten an die P2Y 12-Klasse der ADP-Rezeptoren auf Thrombozyten.“ Englischer Originalwortlaut: "Prasugrel is an inhibitor of platelet activation and aggregation through the irreversible binding of its active metabolite to the P2Y 12 class of ADP receptors on platelets." ([DailyMed: Effient (prasugrel hydrochloride) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69ea2d58-5353-4222-b61f-cab976fa7e5e), Fassung vom 2022-09-07; abgerufen am 2026-11-19). Nach bekanntem Wissen ist Prasugrel ein Thienopyridin und ein irreversibler P2Y12-Antagonist, der die Thrombozytenaggregation hemmt. Seine Wirksamkeit beim akuten Koronarsyndrom beruht auf der Verhinderung thrombotischer Ereignisse.
 
 Bei einem Teil der Migränepatienten liegt ein offenes Foramen ovale (PFO) vor. Hypothese: Mikroemboli oder vasoaktive Substanzen (z. B. aus Thrombozyten freigesetztes Serotonin) umgehen den Lungenfilter und können Migräne auslösen. Eine P2Y12-Hemmung könnte diese thrombozytär vermittelten Auslöser verringern.
 
@@ -139,12 +139,13 @@ Für Migräne mit PFO gibt es ein plausibles mechanistisches Signal, aber nur sc
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „ie Zulassung in Deutschland ist zudem erloschen, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „(erloschene Zulassung des Originalpräparats Efient; Generika prüfen)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Effient (prasugrel hydrochloride) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69ea2d58-5353-4222-b61f-cab976fa7e5e) |
 
 <!-- review:end log -->
 

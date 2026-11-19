@@ -54,7 +54,7 @@ Talimogen laherparepvec ist ein onkolytisches Virus, das in der Europäischen Un
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Talimogen laherparepvec ein onkolytisches Virus ist, das in Tumorläsionen injiziert wird und dort eine lokale Tumorzerstörung sowie eine immunstimulierende Reaktion auslösen kann.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Talimogene Laherparepvec (inoffizielle Übersetzung): „IMLYGIC wurde gentechnisch so verändert, dass es sich innerhalb von Tumoren repliziert und das immunstimulierende Protein GM-CSF produziert. IMLYGIC bewirkt eine Lyse von Tumoren, gefolgt von der Freisetzung tumorabgeleiteter Antigene, die zusammen mit viral abgeleitetem GM-CSF eine antitumorale Immunantwort fördern können.“ Englischer Originalwortlaut: "IMLYGIC has been genetically modified to replicate within tumors and to produce the immune stimulatory protein GM-CSF. IMLYGIC causes lysis of tumors, followed by release of tumor-derived antigens, which together with virally derived GM-CSF may promote an antitumor immune response." ([DailyMed: Imlygic (talimogene laherparepvec) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=64ffb680-ea8c-42fc-9649-9e8c0eb77ddb), Fassung vom 2024-11-29; abgerufen am 2026-11-19). Bekannt ist, dass Talimogen laherparepvec ein onkolytisches Virus ist, das in Tumorläsionen injiziert wird und dort eine lokale Tumorzerstörung sowie eine immunstimulierende Reaktion auslösen kann.
 
 Für Plattenepithelkarzinome im Kopf-Hals-Bereich ist ein onkolytischer Ansatz, ggf. kombiniert mit Immuntherapie, grundsätzlich denkbar, und Läsionen können unter Umständen direkt injizierbar sein. Für den Subtyp der Glottis liegen jedoch keine Daten vor. Zudem wirft die Lage im Atemweg Sicherheitsfragen auf, da nach der Injektion Schwellungen und Entzündungen auftreten könnten. Der Vorhersagewert ist eine reine Modellaussage ohne klinische Bestätigung in diesem Datensatz.
 
@@ -95,6 +95,18 @@ Die Vorhersage für das Glottis-Plattenepithelkarzinom beruht ausschließlich au
 - Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen)
 - Bewertung der Sicherheit bei Injektion im Bereich der Atemwege (Schwellung, Entzündung)
 - Prüfung der Anwendungsweg-Kompatibilität (intraläsionale Injektion im Kehlkopfbereich)
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Imlygic (talimogene laherparepvec) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=64ffb680-ea8c-42fc-9649-9e8c0eb77ddb) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

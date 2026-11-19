@@ -54,7 +54,7 @@ Etanercept ist ein löslicher TNF-Rezeptor-Fusionsprotein-Wirkstoff (TNF-Inhibit
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Etanercept ein löslicher TNF-Rezeptor-Fusionsprotein ist, das TNF-vermittelte Entzündungsprozesse hemmt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Etanercept (inoffizielle Übersetzung): „TNF ist ein natürlich vorkommendes Zytokin, das an normalen Entzündungs- und Immunreaktionen beteiligt ist. Es spielt eine wichtige Rolle bei den Entzündungsprozessen der RA, der polyartikulären JIA, der PsA und der AS sowie bei der daraus resultierenden Gelenkpathologie. […] Etanercept ist eine dimere lösliche Form des p75-TNF-Rezeptors, die TNF-Moleküle binden kann.“ Englischer Originalwortlaut: "TNF is a naturally occurring cytokine that is involved in normal inflammatory and immune responses. It plays an important role in the inflammatory processes of RA, polyarticular JIA, PsA, and AS and the resulting joint pathology. […] Etanercept is a dimeric soluble form of the p75 TNF receptor that can bind TNF molecules." ([DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f), Fassung vom 2026-05-11; abgerufen am 2026-11-19). Bekannt ist, dass Etanercept ein löslicher TNF-Rezeptor-Fusionsprotein ist, das TNF-vermittelte Entzündungsprozesse hemmt.
 
 Für die Steißbeinhypermobilität ist ein plausibler TNF-getriebener Mechanismus bisher nicht identifiziert worden. Es handelt sich um eine mechanische bzw. strukturelle Erkrankung, nicht primär um eine entzündliche. Der hohe Vorhersagewert ist daher eine rein rechnerische Aussage ohne belastbare mechanistische oder klinische Untermauerung. Die Ähnlichkeit zur ursprünglichen Indikation wurde bislang nicht bewertet.
 
@@ -98,6 +98,19 @@ Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzstufe L5). Es gibt 
 - Detaillierte Wirkmechanismus-Daten (MOA) ergänzen
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) für die Sicherheitsbewertung
 - Klärung der Anwendungswege und Darreichungsformen für die vorgeschlagene Indikation
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

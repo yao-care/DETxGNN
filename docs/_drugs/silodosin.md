@@ -60,7 +60,7 @@ Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vo
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Silodosin ein selektiver Alpha-1A-Adrenozeptor-Antagonist ist, der zur Behandlung der benignen Prostatahyperplasie eingesetzt wird. Seine Wirksamkeit bei dieser Erkrankung beruht auf der Entspannung der glatten Muskulatur in Prostata und Blasenhals.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Silodosin (inoffizielle Übersetzung): „Silodosin ist ein selektiver Antagonist postsynaptischer Alpha-1-Adrenozeptoren, die sich in der menschlichen Prostata, am Blasengrund, im Blasenhals, in der Prostatakapsel und in der prostatischen Harnröhre befinden. Die Blockade dieser Alpha-1-Adrenozeptoren kann zu einer Entspannung der glatten Muskulatur in diesen Geweben führen, was eine Verbesserung des Harnflusses und eine Verringerung der BPH-Symptome bewirkt.“ Englischer Originalwortlaut: "Silodosin is a selective antagonist of post-synaptic alpha-1 adrenoreceptors, which are located in the human prostate, bladder base, bladder neck, prostatic capsule, and prostatic urethra. Blockade of these alpha-1 adrenoreceptors can cause smooth muscle in these tissues to relax, resulting in an improvement in urine flow and a reduction in BPH symptoms." ([DailyMed: silodosin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94bca72c-c74a-4181-8b6a-a0a2f654a0a7), Fassung vom 2026-10-30; abgerufen am 2026-11-19). Bekannt ist, dass Silodosin ein selektiver Alpha-1A-Adrenozeptor-Antagonist ist, der zur Behandlung der benignen Prostatahyperplasie eingesetzt wird. Seine Wirksamkeit bei dieser Erkrankung beruht auf der Entspannung der glatten Muskulatur in Prostata und Blasenhals.
 
 Das Ambras-Syndrom ist eine seltene genetische Erkrankung mit übermäßigem Haarwuchs. Sie wird mit Chromosom-8q-Umlagerungen in Verbindung gebracht, die die Regulation von TRPS1 beeinflussen. Ein plausibler Zusammenhang zwischen der Alpha-1A-Blockade und diesem genetischen Mechanismus ist nicht erkennbar. Der sehr hohe TxGNN-Wert (0,9999) ist eine rein graphbasierte Vorhersage und spiegelt vermutlich die Nähe im Netzwerk zu haarbezogenen Phänotypen wider, nicht eine biologische Begründung.
 
@@ -116,6 +116,19 @@ Es gibt weder klinische Studien noch Publikationen, und ein biologischer Zusamme
 - Präklinische Belege (z. B. Haarfollikel-Modelle) für einen plausiblen Wirkzusammenhang
 - Klärung der Wirkrichtung (therapeutischer Effekt versus unerwünschte Wirkung)
 - Prüfung der Darreichungsform und des Anwendungswegs im Hinblick auf die neue Indikation
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: silodosin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94bca72c-c74a-4181-8b6a-a0a2f654a0a7) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

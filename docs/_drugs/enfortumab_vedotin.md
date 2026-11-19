@@ -60,7 +60,7 @@ Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vo
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Enfortumab Vedotin ist ein gegen Nectin-4 gerichtetes Antikörper-Wirkstoff-Konjugat, das MMAE (Monomethylauristatin E), einen Mikrotubuli-Hemmstoff, in Tumorzellen transportiert. Seine Wirksamkeit beim Urothelkarzinom beruht auf der Nectin-4-Expression der Tumorzellen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Enfortumab Vedotin (inoffizielle Übersetzung): „Enfortumab Vedotin-ejfv ist ein ADC. Der Antikörper ist ein humaner IgG1-Kappa-Antikörper, der gegen Nectin-4 gerichtet ist, ein auf der Zelloberfläche lokalisiertes Adhäsionsprotein. Das kleine Molekül, MMAE, ist eine Mikrotubuli-zerstörende Substanz, die über einen durch Proteasen spaltbaren Linker an den Antikörper gebunden ist.“ Englischer Originalwortlaut: "Enfortumab vedotin-ejfv is an ADC. The antibody is a human IgG1 kappa directed against Nectin-4, an adhesion protein located on the surface of cells. The small molecule, MMAE, is a microtubule-disrupting agent, attached to the antibody via a protease-cleavable linker." ([DailyMed: Padcev Ejfv (enfortumab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed), Fassung vom 2026-08-04; abgerufen am 2026-11-19). Bekannt ist: Enfortumab Vedotin ist ein gegen Nectin-4 gerichtetes Antikörper-Wirkstoff-Konjugat, das MMAE (Monomethylauristatin E), einen Mikrotubuli-Hemmstoff, in Tumorzellen transportiert. Seine Wirksamkeit beim Urothelkarzinom beruht auf der Nectin-4-Expression der Tumorzellen.
 
 Ein mechanistischer Zusammenhang zwischen dieser zytotoxischen Krebstherapie und Lepra, einer bakteriellen Infektionskrankheit (Mycobacterium leprae), ist nicht erkennbar. Der hohe TxGNN-Score ist ein reines Rechenergebnis und stützt sich weder auf Studien noch auf Literatur. Ein Einsatz eines zytotoxischen Antikörper-Wirkstoff-Konjugats bei einer Infektionskrankheit erscheint wenig plausibel.
 
@@ -145,12 +145,13 @@ Die Vorhersage für Lepra beruht ausschließlich auf einem Modellscore (L5) ohne
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Zudem ist die Zulassung in Deutschland nur noch als erloschen geführt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Diese Zulassung ist als erloschen geführt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Padcev Ejfv (enfortumab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ Für diese Richtung liegen in den für diesen Bericht zusammengestellten Daten j
 
 ## Warum ist diese Vorhersage plausibel (oder nicht)?
 
-Detaillierte Daten zum Wirkmechanismus sind derzeit nicht verfügbar. Bekannt ist, dass Letermovir ein CMV-spezifischer Virostatikum ist, das den viralen Terminase-Komplex (pUL56/pUL51/pUL89) hemmt. Seine Wirksamkeit bei Cytomegalovirus-Infektionen ist belegt.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Letermovir (inoffizielle Übersetzung): „PREVYMIS ist ein antivirales Arzneimittel gegen CMV. […] Letermovir hemmt den CMV-DNA-Terminase-Komplex (pUL51, pUL56 und pUL89), der für die Prozessierung und Verpackung der viralen DNA erforderlich ist. Biochemische Charakterisierung und Elektronenmikroskopie zeigten, dass Letermovir die Bildung von Genomen korrekter Einheitslänge beeinträchtigt und die Virionreifung stört.“ Englischer Originalwortlaut: "PREVYMIS is an antiviral drug against CMV. […] Letermovir inhibits the CMV DNA terminase complex (pUL51, pUL56, and pUL89) which is required for viral DNA processing and packaging. Biochemical characterization and electron microscopy demonstrated that letermovir affects the production of proper unit length genomes and interferes with virion maturation." ([DailyMed: Prevymis (letermovir) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1b49df80-be4f-47e0-a0b7-123f3e69395b), Fassung vom 2026-01-14; abgerufen am 2026-11-19). Bekannt ist, dass Letermovir ein CMV-spezifischer Virostatikum ist, das den viralen Terminase-Komplex (pUL56/pUL51/pUL89) hemmt. Seine Wirksamkeit bei Cytomegalovirus-Infektionen ist belegt.
 
 Für diesen Angriffspunkt ist in Candida-Arten (Pilzen) kein bekanntes Homolog beschrieben. Ein mechanistischer Zusammenhang zwischen der ursprünglichen und der vorhergesagten Indikation wird durch die vorliegenden Daten daher nicht gestützt. Der sehr hohe TxGNN-Wert (0,9988) stammt vom TxGNN-Modell (Deep Learning) und kann vom Modell gelernte Ähnlichkeiten zwischen verwandten Erkrankungen widerspiegeln. Er ist kein biologischer Beleg und wird durch keine präklinischen oder klinischen Belege bestätigt.
 
@@ -113,6 +113,19 @@ Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzlevel L5). Es
 - Daten zum Wirkmechanismus (MOA)
 - Präklinische In-vitro-Daten zur Aktivität gegen Candida-Arten
 - Klärung des Zulassungsstatus in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Prevymis (letermovir) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1b49df80-be4f-47e0-a0b7-123f3e69395b) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

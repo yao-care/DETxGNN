@@ -58,7 +58,7 @@ Lurbinectedin wurde ursprünglich zur Behandlung des kleinzelligen Lungenkarzino
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Lurbinectedin ist nach bisherigem Kenntnisstand ein zytotoxischer Wirkstoff, der die onkogene Transkription hemmt und alkylierend wirkt. Seine Wirksamkeit beim kleinzelligen Lungenkarzinom ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Lurbinectedin (inoffizielle Übersetzung): „Lurbinectedin ist ein alkylierender Wirkstoff, der an Guaninreste in der kleinen Furche der DNA bindet, Addukte bildet und eine Biegung der DNA-Helix in Richtung der großen Furche bewirkt. Die Adduktbildung löst eine Kaskade von Ereignissen aus, die die nachfolgende Aktivität DNA-bindender Proteine, einschließlich einiger Transkriptionsfaktoren, sowie DNA-Reparaturwege beeinträchtigen kann, was zu einer Störung des Zellzyklus und letztlich zum Zelltod führt.“ Englischer Originalwortlaut: "Lurbinectedin is an alkylating drug that binds guanine residues in the minor groove of DNA, forming adducts and resulting in a bending of the DNA helix towards the major groove. Adduct formation triggers a cascade of events that can affect the subsequent activity of DNA binding proteins, including some transcription factors, and DNA repair pathways, resulting in perturbation of the cell cycle and eventual cell death." ([DailyMed: Zepzelca (lurbinectedin) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=632bb50c-3bcb-4c85-9056-fc33410550ae), Fassung vom 2026-09-30; abgerufen am 2026-11-19). Lurbinectedin ist nach bisherigem Kenntnisstand ein zytotoxischer Wirkstoff, der die onkogene Transkription hemmt und alkylierend wirkt. Seine Wirksamkeit beim kleinzelligen Lungenkarzinom ist belegt.
 
 Das kleinzellige Lungenkarzinom ist ein neuroendokriner Tumor. Biologisch verwandte neuroendokrine Tumoren, wie sie bei der multiplen endokrinen Neoplasie vorkommen, könnten daher mechanistisch ansprechbar sein. Diese Verbindung ist jedoch **hypothetisch** und durch keine klinischen Daten gestützt. Der hohe Modellwert ist eine reine Vorhersage.
 
@@ -139,11 +139,12 @@ Für multiple endokrine Neoplasie gibt es weder klinische Studien noch Literatur
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „en die erloschene deu sche Zulassung und“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Zepzelca (lurbinectedin) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=632bb50c-3bcb-4c85-9056-fc33410550ae) |
 
 <!-- review:end log -->
 

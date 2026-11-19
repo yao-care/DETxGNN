@@ -58,7 +58,7 @@ Cobimetinib (Handelsname Cotellic) wurde ursprünglich zur Behandlung des Melano
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Cobimetinib gehört nach Wirkstoffklasse jedoch zu den MEK1/2-Inhibitoren, die den MAPK/ERK-Signalweg hemmen. Seine Wirksamkeit beim Melanom, wo dieser Signalweg häufig überaktiviert ist, ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Cobimetinib (inoffizielle Übersetzung): „Cobimetinib ist ein reversibler Inhibitor der Mitogen-aktivierten Proteinkinase (MAPK)/extrazellulär signalregulierten Kinase 1 (MEK1) und MEK2. MEK-Proteine sind vorgeschaltete Regulatoren des Signalwegs der extrazellulär signalverwandten Kinase (ERK), der die Zellproliferation fördert.“ Englischer Originalwortlaut: "Cobimetinib is a reversible inhibitor of mitogen-activated protein kinase (MAPK)/extracellular signal regulated kinase 1 (MEK1) and MEK2. MEK proteins are upstream regulators of the extracellular signal-related kinase (ERK) pathway, which promotes cellular proliferation." ([DailyMed: Cotellic (cobimetinib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c387579e-cee0-4334-bd1e-73f93ac1bde6), Fassung vom 2026-07-29; abgerufen am 2026-11-19). Cobimetinib gehört nach Wirkstoffklasse jedoch zu den MEK1/2-Inhibitoren, die den MAPK/ERK-Signalweg hemmen. Seine Wirksamkeit beim Melanom, wo dieser Signalweg häufig überaktiviert ist, ist belegt.
 
 Die Verbindung zur ALS ist spekulativ: Eine Aktivierung des ERK-Signalwegs und Neuroinflammation werden in der ALS-Biologie diskutiert. Dies liefert eine plausible, aber nicht validierte Begründung. Ein wichtiger Einwand ist die begrenzte ZNS-Gängigkeit von Cobimetinib (P-Glykoprotein-Substrat), die den Ansatz zusätzlich schwächt.
 
@@ -133,6 +133,19 @@ Die Vorhersage stützt sich ausschließlich auf ein Modell (L5), ohne klinische 
 - Präklinische Belege zu MEK/ERK-Hemmung in ALS-Modellen sowie zur ZNS-Penetration prüfen
 - Systematische Literatur- und Studienrecherche zu ALS und MEK-Inhibitoren
 - Klärung des Zulassungsstatus und der verfügbaren Darreichungsformen und Applikationswege in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Cotellic (cobimetinib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c387579e-cee0-4334-bd1e-73f93ac1bde6) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

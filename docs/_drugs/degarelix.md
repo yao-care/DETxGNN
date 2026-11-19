@@ -58,7 +58,7 @@ Degarelix ist ein GnRH-Rezeptor-Antagonist, der ursprünglich zur Behandlung des
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Degarelix blockiert den GnRH-Rezeptor, senkt dadurch LH und FSH und damit Testosteron sowie nachgeschaltete Androgene. Dies ist die Grundlage der Wirksamkeit beim hormonabhängigen Prostatakarzinom.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Degarelix (inoffizielle Übersetzung): „Degarelix ist ein GnRH-Rezeptor-Antagonist. Es bindet reversibel an die GnRH-Rezeptoren der Hypophyse und vermindert dadurch die Freisetzung von Gonadotropinen und folglich von Testosteron.“ Englischer Originalwortlaut: "Degarelix is a GnRH receptor antagonist. It binds reversibly to the pituitary GnRH receptors, thereby reducing the release of gonadotropins and consequently testosterone." ([DailyMed: Firmagon (degarelix) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ab11dd8a-0fd9-4013-89ab-e114557c7e4b), Fassung vom 2024-01-30; abgerufen am 2026-11-19). Bekannt ist: Degarelix blockiert den GnRH-Rezeptor, senkt dadurch LH und FSH und damit Testosteron sowie nachgeschaltete Androgene. Dies ist die Grundlage der Wirksamkeit beim hormonabhängigen Prostatakarzinom.
 
 Die mechanistische Verbindung zur Hypertrichose ist **schwach**. Hypertrichose ist im Gegensatz zum Hirsutismus in der Regel nicht androgenabhängig. Die Vorhersage stützt sich daher allein auf das Modell, nicht auf klinische oder publizierte Belege.
 
@@ -139,12 +139,13 @@ Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzlevel L5), ohne kli
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Zudem sind in Deutschland derzeit nur erloschene Zulassungen vorhanden“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Beide Zulassungen haben den Status „erloschen/zurückgezogen““ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Firmagon (degarelix) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ab11dd8a-0fd9-4013-89ab-e114557c7e4b) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ Cytarabin ist ein Pyrimidin-Nukleosid-Analogon, das die DNA-Synthese hemmt (S-Ph
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Cytarabin ist ein Pyrimidin-Nukleosid-Analogon, das die DNA-Synthese in der S-Phase hemmt. Daraus ergibt sich eine allgemeine antiproliferative Begründung, die grundsätzlich auch für schnell wachsende Tumoren wie das kleinzellige Lungenkarzinom gelten könnte.
+Laut dem Abschnitt „Clinical Pharmacology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Cytarabine (inoffizielle Übersetzung): „Obwohl der Wirkmechanismus nicht vollständig geklärt ist, scheint Cytarabin über die Hemmung der DNA-Polymerase zu wirken. Es wurde außerdem über einen begrenzten, aber signifikanten Einbau von Cytarabin sowohl in DNA als auch in RNA berichtet.“ Englischer Originalwortlaut: "Although the mechanism of action is not completely understood, it appears that cytarabine acts through the inhibition of DNA polymerase. A limited, but significant, incorporation of cytarabine into both DNA and RNA has also been reported." ([DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd), Fassung vom 2026-10-19; abgerufen am 2026-11-19). Bekannt ist: Cytarabin ist ein Pyrimidin-Nukleosid-Analogon, das die DNA-Synthese in der S-Phase hemmt. Daraus ergibt sich eine allgemeine antiproliferative Begründung, die grundsätzlich auch für schnell wachsende Tumoren wie das kleinzellige Lungenkarzinom gelten könnte.
 
 Die vorhandenen Daten stützen dies nur schwach. Der Großteil der gefundenen Literatur betrifft Phase-II-Studien aus dem Jahr 1990 mit hochdosiertem Cytarabin plus Cisplatin beim **nicht**-kleinzelligen Lungenkarzinom, einer anderen Erkrankung. Dort war die Ansprechrate niedrig (z. B. 14 % in einer Studie) bei ausgeprägter Myelosuppression. Direkte Daten zum kleinzelligen Lungenkarzinom beschränken sich auf eine kleine Studie von 1987 ohne verfügbare Zusammenfassung. Der sehr hohe TxGNN-Wert ist eine rein rechnerische Vorhersage.
 
@@ -129,6 +129,18 @@ Die Evidenzstufe ist L3: Es gibt eine kleine klinische Studie zu hochdosiertem C
 - Daten zum Wirkmechanismus und Abgleich mit der heutigen Standardtherapie des kleinzelligen Lungenkarzinoms
 - Fachinformation mit Warnhinweisen und Gegenanzeigen
 - Präklinische oder frühe klinische Daten mit moderner Studienmethodik
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

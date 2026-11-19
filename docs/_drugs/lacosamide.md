@@ -59,7 +59,7 @@ Das TxGNN-Modell sagt voraus, dass es bei **Migräne** wirksam sein könnte (hö
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben aus der Arzneimitteldatenbank vor. Nach bekanntem Stand verstärkt Lacosamid die langsame Inaktivierung spannungsabhängiger Natriumkanäle und moduliert das Protein CRMP2. Beides kann die neuronale Übererregbarkeit dämpfen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Lacosamide (inoffizielle Übersetzung): „Der genaue Mechanismus, über den Lacosamid Lösung zum Einnehmen seine antiepileptische Wirkung beim Menschen entfaltet, ist noch nicht vollständig aufgeklärt. Elektrophysiologische In-vitro-Studien haben gezeigt, dass Lacosamid selektiv die langsame Inaktivierung spannungsabhängiger Natriumkanäle verstärkt, was zu einer Stabilisierung übererregbarer neuronaler Membranen und einer Hemmung repetitiver neuronaler Entladungen führt.“ Englischer Originalwortlaut: "The precise mechanism by which Lacosamide oral solution exerts its antiepileptic effects in humans remains to be fully elucidated. In vitro electrophysiological studies have shown that lacosamide selectively enhances slow inactivation of voltage-gated sodium channels, resulting in stabilization of hyperexcitable neuronal membranes and inhibition of repetitive neuronal firing." ([DailyMed: Lacosamide Oral Solution (lacosamide) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b10986e-0809-b6d1-e063-6394a90a5738), Fassung vom 2026-09-09; abgerufen am 2026-11-19). Nach bekanntem Stand verstärkt Lacosamid die langsame Inaktivierung spannungsabhängiger Natriumkanäle und moduliert das Protein CRMP2. Beides kann die neuronale Übererregbarkeit dämpfen.
 
 Migräne und Epilepsie teilen Mechanismen der neuronalen Übererregbarkeit. Mehrere Antiepileptika (z. B. Topiramat) werden bereits zur Migräneprophylaxe eingesetzt. Hinzu kommt eine spezifische Hypothese: Über CRMP2 könnte Lacosamid die Freisetzung des Calcitonin-Gene-Related Peptide (CGRP) im trigeminalen System hemmen. Präklinische Daten an Mäusen zeigen zudem einen Effekt auf die kortikale Streudepolarisation, ein etabliertes Migränemodell.
 
@@ -136,6 +136,19 @@ Für Migräne liegen mehrere abgeschlossene Phase-3-Studien und eine publizierte
 ### Hinweis zu weiteren Vorhersagen
 
 Die übrigen Vorhersagen haben deutlich schwächere Evidenz. Manische bipolare Störung (Platz 1, TxGNN-Wert 0,9996, Evidenzstufe L3) stützt sich nur auf eine kleine retrospektive Studie, eine offene Pilotstudie und Fallberichte, einschließlich eines Neutropenie-Signals (Empfehlung: Forschungsfrage). Myofasziales Schmerzsyndrom (L2, Phase-2-Studie zu Fibromyalgie, Ergebnis unbekannt) ist ebenfalls eine Forschungsfrage. Tourette-Syndrom, Trichotillomanie, nephrogenes Syndrom der inadäquaten Antidiurese, Schlaflosigkeit, Migräne mit Hirnstammaura, Zwangsstörung und Conjunctivitis papillaris sind reine Modellvorhersagen ohne belastbare Evidenz (Empfehlung: Hold).
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Lacosamide Oral Solution (lacosamide) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b10986e-0809-b6d1-e063-6394a90a5738) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

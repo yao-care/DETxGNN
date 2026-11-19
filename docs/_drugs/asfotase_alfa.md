@@ -58,7 +58,7 @@ Asfotase alfa ist eine rekombinante Enzymersatztherapie, die ursprünglich zur B
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Detaillierte Daten zum Wirkmechanismus sind in den für diesen Bericht zusammengestellten Daten nicht verfügbar. Bekannt ist, dass Asfotase alfa eine rekombinante gewebeunspezifische alkalische Phosphatase (TNAP) ist. Sie hydrolysiert anorganisches Pyrophosphat und andere Phosphatsubstrate und unterstützt so die Knochenmineralisierung. Dies ist bei Hypophosphatasie die Grundlage der Wirkung.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Asfotase Alfa (inoffizielle Übersetzung): „HPP wird durch einen Mangel an TNSALP-Enzymaktivität verursacht, der zu erhöhten Spiegeln mehrerer TNSALP-Substrate führt, darunter anorganisches Pyrophosphat (PPi). TNSALP ist ein Metalloenzym, das die Hydrolyse von Phosphomonoestern unter Freisetzung von anorganischem Phosphat und Alkohol katalysiert.“ Englischer Originalwortlaut: "HPP is caused by a deficiency in TNSALP enzyme activity, which leads to elevations in several TNSALP substrates, including inorganic pyrophosphate (PPi). TNSALP is a metallo-enzyme that catalyzes the hydrolysis of phosphomonoesters with release of inorganic phosphate and alcohol." ([DailyMed: Strensiq (asfotase alfa) prescribing information, Alexion Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3387574f-5eaa-4501-a71d-4cbfbd563031), Fassung vom 2025-12-12; abgerufen am 2026-11-19). Bekannt ist, dass Asfotase alfa eine rekombinante gewebeunspezifische alkalische Phosphatase (TNAP) ist. Sie hydrolysiert anorganisches Pyrophosphat und andere Phosphatsubstrate und unterstützt so die Knochenmineralisierung. Dies ist bei Hypophosphatasie die Grundlage der Wirkung.
 
 Mitochondriale Störungen der oxidativen Phosphorylierung durch nukleäre DNA-Anomalien beruhen dagegen auf einer gestörten Funktion der mitochondrialen Atmungskette. Ein extrazelluläres, auf den Knochen ausgerichtetes Enzym würde diesen Defekt voraussichtlich nicht beheben. Ein mechanistischer Zusammenhang ist daher nicht belegt. Der hohe Score von 0,9995 ist eine rein graphbasierte Modellvorhersage und wird durch keine Pathway-Evidenz gestützt.
 
@@ -121,12 +121,13 @@ Die Vorhersage beruht ausschließlich auf einem Modellscore (Evidenzlevel L5), o
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Hinweis: Diese Zulassung ist als erloschen/aufgehoben geführt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Zudem ist die einzige Zulassung in Deutschland als erloschen geführt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Strensiq (asfotase alfa) prescribing information, Alexion Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3387574f-5eaa-4501-a71d-4cbfbd563031) |
 
 <!-- review:end log -->
 

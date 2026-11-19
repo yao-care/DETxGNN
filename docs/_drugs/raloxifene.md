@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Raloxifen als SERM an die Estrogenrezeptoren α (ESR1) und β (ESR2) sowie an den G-Protein-gekoppelten Estrogenrezeptor GPER bindet. Seine Wirksamkeit bei postmenopausaler Osteoporose ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Raloxifene (inoffizielle Übersetzung): „Raloxifen ist ein Estrogen-Agonist/-Antagonist, der üblicherweise als selektiver Estrogenrezeptormodulator (SERM) bezeichnet wird. Die biologischen Wirkungen von Raloxifen werden größtenteils über die Bindung an Estrogenrezeptoren vermittelt. Diese Bindung führt in einigen Geweben zur Aktivierung estrogener Signalwege (Agonismus) und in anderen zur Blockade estrogener Signalwege (Antagonismus).“ Englischer Originalwortlaut: "Raloxifene is an estrogen agonist/antagonist, commonly referred to as a selective estrogen receptor modulator (SERM). The biological actions of raloxifene are largely mediated through binding to estrogen receptors. This binding results in activation of estrogenic pathways in some tissues (agonism) and blockade of estrogenic pathways in others (antagonism)." ([DailyMed: Evista (raloxifene hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcaaa6dc-74e8-4fb8-800c-5574bf0f8de9), Fassung vom 2026-02-11; abgerufen am 2026-11-19). Bekannt ist, dass Raloxifen als SERM an die Estrogenrezeptoren α (ESR1) und β (ESR2) sowie an den G-Protein-gekoppelten Estrogenrezeptor GPER bindet. Seine Wirksamkeit bei postmenopausaler Osteoporose ist belegt.
 
 Ein mechanistischer Zusammenhang zwischen dieser Rezeptoraktivität und dem Schutz der Magen- bzw. Duodenalschleimhaut ist in den vorliegenden Daten **nicht belegt**. Eine solche Verbindung wäre derzeit spekulativ. Der hohe TxGNN-Wert (0,9972) stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat. Er ist kein biologischer Nachweis einer therapeutischen Wirkung.
 
@@ -129,11 +129,12 @@ Die Vorhersage stützt sich ausschließlich auf einen Modellwert (Evidenzstufe L
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „da alle Zulassungen in Deutschland aufgehoben sind“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Evista (raloxifene hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcaaa6dc-74e8-4fb8-800c-5574bf0f8de9) |
 
 <!-- review:end log -->
 

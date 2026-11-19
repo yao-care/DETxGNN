@@ -54,7 +54,7 @@ Brivaracetam ist ein Antiepileptikum, das über die synaptische Vesikel-Protein-
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Brivaracetam liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Brivaracetam zur Klasse der SV2A-Liganden gehört und bei Epilepsie eingesetzt wird.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Brivaracetam (inoffizielle Übersetzung): „Der genaue Mechanismus, über den BRIVIACT seine antikonvulsive Wirkung entfaltet, ist nicht bekannt. Brivaracetam zeigt eine hohe und selektive Affinität für das synaptische Vesikelprotein 2A (SV2A) im Gehirn, was zur antikonvulsiven Wirkung beitragen kann.“ Englischer Originalwortlaut: "The precise mechanism by which BRIVIACT exerts its anticonvulsant activity is not known. Brivaracetam displays a high and selective affinity for synaptic vesicle protein 2A (SV2A) in the brain, which may contribute to the anticonvulsant effect." ([DailyMed: Briviact (brivaracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cf2f439-0e97-443e-8e33-25ecef616f6c), Fassung vom 2026-11-05; abgerufen am 2026-11-19). Bekannt ist, dass Brivaracetam zur Klasse der SV2A-Liganden gehört und bei Epilepsie eingesetzt wird.
 
 Der β-Ketothiolase-Mangel ist eine Stoffwechselstörung des Ketonkörper- und Isoleucin-Abbaus. Krampfanfälle können im Rahmen ketoazidotischer Krisen auftreten, sind jedoch eine Folge der metabolischen Entgleisung. Der SV2A-Mechanismus von Brivaracetam wirkt nicht auf den zugrunde liegenden Enzymdefekt. Ein direkter mechanistischer Zusammenhang ist daher nicht erkennbar; der hohe Vorhersagewert ist als rechnerisches Artefakt ohne stützende Belege zu werten.
 
@@ -89,6 +89,19 @@ Für die vorhergesagte Indikation gibt es weder klinische Studien noch Publikati
 - Präklinische oder mechanistische Daten, die einen Nutzen von SV2A-Modulation bei β-Ketothiolase-Mangel belegen
 - Detaillierte Daten zum Wirkmechanismus (MOA)
 - Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM) für die Sicherheitsbewertung
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Briviact (brivaracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cf2f439-0e97-443e-8e33-25ecef616f6c) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

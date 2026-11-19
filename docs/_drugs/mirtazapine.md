@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage plausibel?
 
-Derzeit liegen keine detaillierten Daten zum Wirkmechanismus vor. Mirtazapin ist ein Antidepressivum, dessen Wirksamkeit bei Depression und Angststörungen bekannt ist. Ein mechanistischer Bezug zum Ohdo-Syndrom lässt sich aus den vorliegenden Daten jedoch nicht herleiten.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Mirtazapine (inoffizielle Übersetzung): „Der Wirkmechanismus von Mirtazapin bei der Behandlung der Major Depression ist unklar. Seine Wirksamkeit könnte jedoch durch seine Aktivität als Antagonist an zentralen präsynaptischen inhibitorischen α 2-adrenergen Autorezeptoren und Heterorezeptoren sowie durch Verstärkung der zentralen noradrenergen und serotonergen Aktivität vermittelt werden.“ Englischer Originalwortlaut: "The mechanism of action of mirtazapine for the treatment of major depressive disorder, is unclear. However, its efficacy could be mediated through its activity as an antagonist at central presynaptic α 2 -adrenergic inhibitory autoreceptors and heteroreceptors and enhancing central noradrenergic and serotonergic activity." ([DailyMed: Remeronsoltab (mirtazapine) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98ad1917-a094-44f5-a28f-a64a8cfcd887), Fassung vom 2025-08-06; abgerufen am 2026-11-19). Mirtazapin ist ein Antidepressivum, dessen Wirksamkeit bei Depression und Angststörungen bekannt ist. Ein mechanistischer Bezug zum Ohdo-Syndrom lässt sich aus den vorliegenden Daten jedoch nicht herleiten.
 
 Das Ohdo-Syndrom (einschließlich der KAT6B-assoziierten Varianten) ist eine seltene genetische neuroentwicklungsbedingte Erkrankung. Ein plausibler Signalweg zwischen der Pharmakologie von Mirtazapin und der Pathophysiologie dieser Erkrankung ist nicht belegt. Der hohe Vorhersagewert stammt vom TxGNN-Modell (Deep Learning) und spiegelt vermutlich eher Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat (z. B. gemeinsame Symptom- oder Phänotypmerkmale), als eine biologische Relevanz.
 
@@ -135,11 +135,12 @@ Die Vorhersage beruht ausschließlich auf einem Rechenmodell (Evidenzstufe L5) o
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „I D tsch d d Arz e mittel zudem im Handel, 1 v 1 gü ig“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Remeronsoltab (mirtazapine) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98ad1917-a094-44f5-a28f-a64a8cfcd887) |
 
 <!-- review:end log -->
 

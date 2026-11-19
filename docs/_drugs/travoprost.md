@@ -60,7 +60,7 @@ Für diese Vorhersage liegen jedoch **keine klinischen Studien und keine Publika
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Travoprost ein Prostaglandin-F2α-Analogon ist, das über den FP-Rezeptor wirkt und den Augeninnendruck vor allem durch einen verstärkten uveoskleralen Abfluss senkt. Die Wirksamkeit beim Glaukom ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Travoprost (inoffizielle Übersetzung): „Travoprost-Säure, ein Prostaglandin-Analogon, ist ein selektiver FP-Prostanoidrezeptor-Agonist, von dem angenommen wird, dass er den IOD durch Erhöhung des uveoskleralen Abflusses senkt. Der genaue Wirkmechanismus ist derzeit nicht bekannt.“ Englischer Originalwortlaut: "Travoprost free acid, a prostaglandin analog is a selective FP prostanoid receptor agonist, which is believed to reduce IOP by increasing uveoscleral outflow. The exact mechanism of action is unknown at this time." ([DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5), Fassung vom 2026-09-28; abgerufen am 2026-11-19). Bekannt ist, dass Travoprost ein Prostaglandin-F2α-Analogon ist, das über den FP-Rezeptor wirkt und den Augeninnendruck vor allem durch einen verstärkten uveoskleralen Abfluss senkt. Die Wirksamkeit beim Glaukom ist belegt.
 
 Ein plausibler mechanistischer Zusammenhang mit der kalzifizierenden urämischen Arteriolopathie (Kalziphylaxie) ist bislang nicht dokumentiert. Zwar hat Travoprost vasoaktive Eigenschaften, ein konkreter Bezug zur Erkrankung fehlt jedoch. Der sehr hohe Modellwert stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, keine biologische Evidenz. Zudem wird Travoprost topisch am Auge angewendet und hat nur eine geringe systemische Exposition, was die Übertragbarkeit auf systemische Gefäßerkrankungen zusätzlich infrage stellt.
 
@@ -160,11 +160,12 @@ Die Vorhersage zur viszeralen Kalziphylaxie beruht allein auf dem Modell (L5), o
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „angesichts der erloschenen Zulassungen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5) |
 
 <!-- review:end log -->
 

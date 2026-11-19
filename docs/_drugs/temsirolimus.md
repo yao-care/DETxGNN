@@ -62,7 +62,7 @@ Dafür liegen derzeit **2 klinische Studien** (beide nicht liposarkomspezifisch)
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Wirkmechanismusdaten (MOA) liegen derzeit nicht vor. Temsirolimus gehört jedoch zur Klasse der mTOR-Inhibitoren: Es bindet an FKBP12 und hemmt dadurch mTORC1. Dies ist eine Einordnung aus allgemeinem Wissen über die Wirkstoffklasse, nicht aus den kompilierten Daten.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Temsirolimus (inoffizielle Übersetzung): „Temsirolimus ist ein Inhibitor von mTOR (mammalian target of rapamycin). Temsirolimus bindet an ein intrazelluläres Protein (FKBP-12), und der Protein-Arzneimittel-Komplex hemmt die Aktivität von mTOR, das die Zellteilung steuert. Die Hemmung der mTOR-Aktivität führte in behandelten Tumorzellen zu einem Wachstumsstillstand in der G1-Phase.“ Englischer Originalwortlaut: "Temsirolimus is an inhibitor of mTOR (mammalian target of rapamycin). Temsirolimus binds to an intracellular protein (FKBP-12), and the protein-drug complex inhibits the activity of mTOR that controls cell division. Inhibition of mTOR activity resulted in a G1 growth arrest in treated tumor cells." ([DailyMed: temsirolimus prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1c207bed-10e3-46f0-ad2c-69d5e5c97736), Fassung vom 2020-03-30; abgerufen am 2026-11-19). Temsirolimus gehört jedoch zur Klasse der mTOR-Inhibitoren: Es bindet an FKBP12 und hemmt dadurch mTORC1. Dies ist eine Einordnung aus allgemeinem Wissen über die Wirkstoffklasse, nicht aus den kompilierten Daten.
 
 Der PI3K/AKT/mTOR-Signalweg ist in Weichteilsarkomen häufig aktiviert, einschließlich des Liposarkoms. Besonders gut differenzierte und entdifferenzierte Subtypen mit MDM2/CDK4-Amplifikation zeigen eine Abhängigkeit von diesem Signalweg. Eine mTOR-Hemmung ist daher biologisch nachvollziehbar, und der hohe TxGNN-Wert passt dazu.
 
@@ -154,11 +154,12 @@ Der mTOR-Signalweg ist in Liposarkomen biologisch plausibel, und der TxGNN-Wert 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Klären, wie mit der erloschenen Zulassung und der Verfügbarkeit des Präparats in Deutschland umzugehen ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: temsirolimus prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1c207bed-10e3-46f0-ad2c-69d5e5c97736) |
 
 <!-- review:end log -->
 

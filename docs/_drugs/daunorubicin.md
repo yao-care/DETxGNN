@@ -58,7 +58,7 @@ Daunorubicin ist ein Anthracyclin-Zytostatikum, das ursprünglich zur Behandlung
 
 ## Warum ist diese Vorhersage plausibel?
 
-Daunorubicin ist ein Anthracyclin, das als Topoisomerase-II-Hemmer und DNA-Interkalator wirkt. Dieser Mechanismus ist gegen viele lymphatische Tumoren aktiv. Die für diesen Bericht zusammengestellten Daten enthalten allerdings keine ausführlichen Angaben zum Wirkmechanismus aus der Arzneimitteldatenbank; die obige Beschreibung stützt sich auf die mechanistische Einordnung der Vorhersage.
+Daunorubicin ist ein Anthracyclin, das als Topoisomerase-II-Hemmer und DNA-Interkalator wirkt. Dieser Mechanismus ist gegen viele lymphatische Tumoren aktiv. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Daunorubicin (inoffizielle Übersetzung): „Daunorubicin besitzt über eine Reihe vorgeschlagener Wirkmechanismen eine antimitotische und zytotoxische Aktivität. Daunorubicin bildet durch Interkalation zwischen Basenpaaren Komplexe mit DNA. Es hemmt die Aktivität der Topoisomerase II, indem es den DNA-Topoisomerase-II-Komplex stabilisiert und so den Religationsschritt der von der Topoisomerase II katalysierten Ligations-Religations-Reaktion verhindert.“ Englischer Originalwortlaut: "Daunorubicin has antimitotic and cytotoxic activity through a number of proposed mechanisms of action. Daunorubicin forms complexes with DNA by intercalation between base pairs. It inhibits topoisomerase II activity by stabilizing the DNA-topoisomerase II complex, preventing the religation portion of the ligation-religation reaction that topoisomerase II catalyzes." ([DailyMed: daunorubicin hydrochloride prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff6b9bd4-8a9f-400f-a0b9-70e25fa8a28f), Fassung vom 2025-05-21; abgerufen am 2026-11-19).
 
 Akute myeloische Leukämie und Hodgkin-Lymphom sind beide hämatologische Neoplasien, die auf zytotoxische Chemotherapie ansprechen. Anthracycline gehören bei beiden Erkrankungen zu den Grundpfeilern der Therapie. Beim Hodgkin-Lymphom ist jedoch **Doxorubicin** (im ABVD-Schema) das Standard-Anthracyclin, nicht Daunorubicin. Der spezifische Beitrag von Daunorubicin ist in den vorliegenden Daten nicht isoliert nachgewiesen. Die Plausibilität ist daher mechanistisch gegeben, klinisch aber nicht belegt.
 
@@ -147,11 +147,12 @@ Die vorliegenden Studien sind Mehrstoff-Chemotherapien, in denen der Beitrag von
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „da die Zulassung in Deutschland erloschen ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: daunorubicin hydrochloride prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff6b9bd4-8a9f-400f-a0b9-70e25fa8a28f) |
 
 <!-- review:end log -->
 

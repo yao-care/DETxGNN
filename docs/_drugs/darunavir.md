@@ -54,7 +54,7 @@ Darunavir ist ein Protease-Inhibitor, der gegen HIV-Infektionen eingesetzt wird.
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist, dass Darunavir ein HIV-1-Protease-Inhibitor ist. Das feline Immundefizienzvirus (FIV) ist ein Lentivirus und mit HIV-1 verwandt, sodass ein Protease-Inhibitor biologisch denkbar erscheint.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Darunavir (inoffizielle Übersetzung): „Darunavir ist ein antivirales Arzneimittel gegen HIV-1. […] Darunavir ist ein Inhibitor der HIV-1-Protease. Es hemmt selektiv die Spaltung HIV-1-kodierter Gag-Pol-Polyproteine in infizierten Zellen und verhindert dadurch die Bildung reifer Viruspartikel.“ Englischer Originalwortlaut: "Darunavir is an HIV-1 antiviral drug. […] Darunavir is an inhibitor of the HIV-1 protease. It selectively inhibits the cleavage of HIV-1 encoded Gag-Pol polyproteins in infected cells, thereby preventing the formation of mature virus particles." ([DailyMed: Prezista (darunavir) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814301f9-c990-46a5-b481-2879a521a16f), Fassung vom 2025-08-29; abgerufen am 2026-11-19). Bekannt ist, dass Darunavir ein HIV-1-Protease-Inhibitor ist. Das feline Immundefizienzvirus (FIV) ist ein Lentivirus und mit HIV-1 verwandt, sodass ein Protease-Inhibitor biologisch denkbar erscheint.
 
 Allerdings unterscheidet sich die FIV-Protease von der HIV-1-Protease in Substratspezifität und Inhibitor-Empfindlichkeit; HIV-1-Protease-Inhibitoren zeigen bekanntermaßen eine verminderte Aktivität gegen die FIV-Protease. Der hohe Vorhersagewert spiegelt vermutlich die Nähe zur HIV-Infektion im Modell wider und stellt keine unabhängige Evidenz dar. Es handelt sich zudem um eine tiermedizinische Indikation, die für die Umwidmung beim Menschen nicht unmittelbar relevant ist.
 
@@ -95,6 +95,19 @@ Für die Hauptvorhersage gibt es weder klinische Studien noch Literatur, und die
 - Daten zum Wirkmechanismus von Darunavir
 - Warnhinweise und Kontraindikationen aus der Fachinformation (BfArM)
 - Klärung, ob eine tiermedizinische Indikation im Rahmen dieses Umwidmungsprojekts überhaupt verfolgt werden soll
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Prezista (darunavir) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814301f9-c990-46a5-b481-2879a521a16f) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -58,7 +58,7 @@ Mycophenolat-Mofetil wird ursprünglich zur Vorbeugung der Transplantatabstoßun
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten nicht vor. Aus der mechanistischen Analyse ist jedoch bekannt: Mycophenolsäure, der aktive Metabolit, hemmt die Inosinmonophosphat-Dehydrogenase (IMPDH) und senkt dadurch die intrazellulären Guanosin-Nukleotidpools. Dies hat zwei mögliche Effekte: Erstens wird die Lymphozytenproliferation reduziert, wodurch weniger aktivierte Zielzellen für das Virus zur Verfügung stehen. Zweitens kann die antivirale Wirkung von Nukleosidanaloga wie Abacavir und Didanosin verstärkt werden, weil sich die dNTP-Verhältnisse verschieben.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Mycophenolate Mofetil (inoffizielle Übersetzung): „Mycophenolatmofetil (MMF) wird nach oraler Gabe resorbiert und zu Mycophenolsäure (MPA), dem aktiven Metaboliten, hydrolysiert. MPA ist ein selektiver unkompetitiver Inhibitor der beiden Isoformen (Typ I und Typ II) der Inosinmonophosphat-Dehydrogenase (IMPDH), was zur Hemmung des De-novo-Synthesewegs der Guanosinnukleotide führt, und blockiert die DNA-Synthese.“ Englischer Originalwortlaut: "Mycophenolate mofetil (MMF) is absorbed following oral administration and hydrolyzed to mycophenolic acid (MPA), the active metabolite. MPA is a selective uncompetitive inhibitor of the two isoforms (type I and type II) of inosine monophosphate dehydrogenase (IMPDH) leading to inhibition of the de novo pathway of guanosine nucleotide synthesis and blocks DNA synthesis." ([DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9), Fassung vom 2026-07-31; abgerufen am 2026-11-19). Aus der mechanistischen Analyse ist jedoch bekannt: Mycophenolsäure, der aktive Metabolit, hemmt die Inosinmonophosphat-Dehydrogenase (IMPDH) und senkt dadurch die intrazellulären Guanosin-Nukleotidpools. Dies hat zwei mögliche Effekte: Erstens wird die Lymphozytenproliferation reduziert, wodurch weniger aktivierte Zielzellen für das Virus zur Verfügung stehen. Zweitens kann die antivirale Wirkung von Nukleosidanaloga wie Abacavir und Didanosin verstärkt werden, weil sich die dNTP-Verhältnisse verschieben.
 
 Die ursprüngliche Indikation (Immunsuppression nach Transplantation) und die neue Indikation (HIV) teilen den Ansatzpunkt der Lymphozytenaktivierung. Chronische Immunaktivierung gilt als Marker für das Fortschreiten von HIV. Der Mechanismus ist plausibel, es existieren kleine klinische Studien, ein dauerhafter klinischer Nutzen ist jedoch nicht belegt.
 
@@ -128,6 +128,19 @@ Der Mechanismus (IMPDH-Hemmung, Verstärkung von Nukleosidanaloga) ist plausibel
 - **Multiple Sklerose** (Score 0,9954, L2): mehrere kleine Phase-1/2-Studien (u. a. mit Interferon beta-1a) und Cochrane-Übersichten, aber keine Phase-3-Wirksamkeitsevidenz und laut Cochrane unzureichende Evidenz. Als Forschungsfrage weiterverfolgbar.
 - **Hämosiderose** (L4): nur Übersichten und Fallberichte, Forschungsfrage.
 - Übrige Vorhersagen (u. a. Morbus Paget des Knochens, SIV-Infektion, felines erworbenes Immunschwächesyndrom, Heiner-Syndrom, afrikanische Eisenüberladung, neonatale Hämochromatose, ein neuroentwicklungsbezogenes Syndrom): ausschließlich Modellvorhersage (L5) ohne Studien oder Literatur, daher Hold.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

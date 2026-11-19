@@ -54,7 +54,7 @@ Meropenem ist ein Breitband-Carbapenem-Antibiotikum zur Behandlung bakterieller 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Daten zum detaillierten Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten nicht vor. Bekannt ist, dass Meropenem als Carbapenem die bakterielle Zellwandsynthese durch Bindung an Penicillin-bindende Proteine hemmt und ein breites Spektrum gramnegativer, grampositiver und anaerober Erreger erfasst.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Meropenem (inoffizielle Übersetzung): „Meropenem ist ein antibakterielles Arzneimittel. […] Die bakterizide Wirkung von Meropenem beruht auf der Hemmung der Zellwandsynthese. Meropenem durchdringt die Zellwand der meisten grampositiven und gramnegativen Bakterien, um an Zielstrukturen der Penicillin-bindenden Proteine (PBP) zu binden.“ Englischer Originalwortlaut: "Meropenem is an antibacterial drug. […] The bactericidal activity of meropenem results from the inhibition of cell wall synthesis. Meropenem penetrates the cell wall of most gram-positive and gram-negative bacteria to bind penicillin-binding-protein (PBP) targets." ([DailyMed: meropenem prescribing information, Civica, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f), Fassung vom 2026-11-02; abgerufen am 2026-11-19). Bekannt ist, dass Meropenem als Carbapenem die bakterielle Zellwandsynthese durch Bindung an Penicillin-bindende Proteine hemmt und ein breites Spektrum gramnegativer, grampositiver und anaerober Erreger erfasst.
 
 Bakterielle Gelenkinfektionen werden von empfindlichen Erregern verursacht, die prinzipiell im Wirkspektrum liegen, etwa Burkholderia pseudomallei bei osteoartikulärer Melioidose. Daten zur Gewebepenetration von Meropenem existieren, doch sind sie nicht gelenkspezifisch.
 
@@ -110,12 +110,13 @@ Der Vorhersagewert ist sehr hoch, doch es gibt weder registrierte Studien noch L
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Zudem ist der Marktstatus in Deutschland „nur erloschen“, und Carbapeneme sollten aus Gründen des Antibiotic Stewardship zurückhaltend einge“ | Nach Neuerstellung des Berichts nicht mehr vorhanden (2026-11-12: der Bericht wurde im November 2026 neu erstellt und enthält diese Aussage nicht mehr; vorher: Korrigiert) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-10-31 | Entfernt: „Klärung des Zulassungsstatus in Deutschland (derzeit nur erloschene Zulassung)“ | Nach Neuerstellung des Berichts nicht mehr vorhanden (2026-11-12: der Bericht wurde im November 2026 neu erstellt und enthält diese Aussage nicht mehr; vorher: Korrigiert) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: meropenem prescribing information, Civica, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f) |
 
 <!-- review:end log -->
 

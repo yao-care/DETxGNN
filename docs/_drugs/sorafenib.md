@@ -54,7 +54,7 @@ Sorafenib ist ein Multikinase-Inhibitor, der gegen mehrere Kinasen (u. a. RAF, V
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu Sorafenib liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Aus der Literatur ist bekannt, dass Sorafenib mehrere Kinasen hemmt (RAF, VEGFR, PDGFR, KIT), die Angiogenese und Zellproliferation in Weichteilsarkomen antreiben können.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Sorafenib (inoffizielle Übersetzung): „Sorafenib ist ein Kinase-Inhibitor, der die Proliferation von Tumorzellen in vitro verringert. Es wurde gezeigt, dass Sorafenib mehrere intrazelluläre Kinasen (c-CRAF, BRAF und mutiertes BRAF) und Zelloberflächenkinasen (KIT, FLT- 3, RET, RET/PTC, VEGFR-1, VEGFR- 2, VEGFR- 3 und PDGFR-ß) hemmt.“ Englischer Originalwortlaut: "Sorafenib is a kinase inhibitor that decreases tumor cell proliferation in vitro. Sorafenib was shown to inhibit multiple intracellular (c-CRAF, BRAF and mutant BRAF) and cell surface kinases (KIT, FLT- 3, RET, RET/PTC, VEGFR-1, VEGFR- 2, VEGFR- 3, and PDGFR-ß)." ([DailyMed: Nexavar (sorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b50667e4-5ebc-4968-a646-d605058dbef0), Fassung vom 2023-08-28; abgerufen am 2026-11-19). Aus der Literatur ist bekannt, dass Sorafenib mehrere Kinasen hemmt (RAF, VEGFR, PDGFR, KIT), die Angiogenese und Zellproliferation in Weichteilsarkomen antreiben können.
 
 Präklinische Arbeiten an Modellen des dedifferenzierten Liposarkoms deuten auf Signalwege rund um PTEN/PI3K hin, die die Empfindlichkeit beeinflussen könnten. Die klinische Aktivität bei Sarkomen hängt jedoch stark vom histologischen Subtyp ab, und das Liposarkom gilt allgemein als Subtyp mit geringem Ansprechen. Die Vorhersage ist daher als Forschungshypothese zu verstehen, nicht als belegter Nutzen.
 
@@ -109,6 +109,18 @@ Für Liposarkom gibt es keine Studie, die Sorafenib direkt prüft; die vorhanden
 - Präklinische oder klinische Studien, die Sorafenib direkt bei Liposarkom prüfen
 - Daten zum Wirkmechanismus
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Nexavar (sorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b50667e4-5ebc-4968-a646-d605058dbef0) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

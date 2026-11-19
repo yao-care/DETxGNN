@@ -58,7 +58,7 @@ Tecovirimat ist ein antivirales Arzneimittel, das ursprünglich zur Behandlung v
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten nicht vor. Nach bekanntem Stand hemmt Tecovirimat das Hüllprotein VP37 (p37) von Orthopockenviren, das für die Umhüllung und Freisetzung der Viruspartikel erforderlich ist. Seine Wirksamkeit ist auf diese Virusgruppe ausgerichtet.
+Laut ChEMBL (EMBL-EBI) ist für Tecovirimat folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Hemmer der Hüllphospholipase OPG057“ Englischer Originalwortlaut: "Envelope phospholipase OPG057 inhibitor" ([ChEMBL CHEMBL1257073 (tecovirimat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1257073), CC BY-SA 3.0; abgerufen am 2026-11-19). Nach bekanntem Stand hemmt Tecovirimat das Hüllprotein VP37 (p37) von Orthopockenviren, das für die Umhüllung und Freisetzung der Viruspartikel erforderlich ist. Seine Wirksamkeit ist auf diese Virusgruppe ausgerichtet.
 
 Ein Hordeolum ist dagegen in der Regel eine lokalisierte bakterielle Infektion einer Lidranddrüse, meist durch Staphylokokken. Bakterien besitzen kein VP37-Ziel. Der hohe TxGNN-Wert scheint daher ein rein graphbasiertes Ergebnis ohne biologische Stützung zu sein.
 
@@ -120,6 +120,19 @@ Für Hordeolum gibt es weder klinische Studien noch Literatur, und es besteht ke
 - Belastbare Hinweise auf antibakterielle oder entzündungshemmende Aktivität, z. B. präklinische In-vitro-Daten, bevor eine weitere Prüfung sinnvoll ist
 - Prüfung der Darreichungsform und Applikationsroute, da für ein Hordeolum eine topische Anwendung zu erwarten wäre
 - Falls Interesse an einer Weiterverfolgung besteht, wäre die Prüfung virologisch plausiblerer Indikationen (z. B. weitere Orthopockenvirus-Erkrankungen) sinnvoller als die Hordeolum-Vorhersage
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL1257073 (tecovirimat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1257073) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

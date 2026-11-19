@@ -60,7 +60,7 @@ Für diese Richtung liegen derzeit **keine klinischen Studien** und **2 Publikat
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten derzeit keine detaillierten Angaben vor. Bekannt ist, dass Fulvestrant als Estrogenrezeptor-Antagonist und -Degrader bei hormonrezeptorpositivem Brustkrebs eingesetzt wird. Mechanistisch könnte die Hemmung der Estrogenrezeptor-Signalübertragung auch für andere Erkrankungen relevant sein, bei denen dieser Signalweg eine Rolle spielt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Fulvestrant (inoffizielle Übersetzung): „Viele Mammakarzinome besitzen Estrogenrezeptoren (ER), und das Wachstum dieser Tumoren kann durch Estrogen stimuliert werden. Fulvestrant ist ein Estrogenrezeptor-Antagonist, der kompetitiv mit einer mit Estradiol vergleichbaren Affinität an den Estrogenrezeptor bindet und das ER-Protein in humanen Mammakarzinomzellen herunterreguliert.“ Englischer Originalwortlaut: "Many breast cancers have estrogen receptors (ER) and the growth of these tumors can be stimulated by estrogen. Fulvestrant is an estrogen receptor antagonist that binds to the estrogen receptor in a competitive manner with affinity comparable to that of estradiol and downregulates the ER protein in human breast cancer cells." ([DailyMed: Cligavyx (fulvestrant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20d8ca3-8837-4003-8b01-1ebec342062a), Fassung vom 2026-10-16; abgerufen am 2026-11-19). Bekannt ist, dass Fulvestrant als Estrogenrezeptor-Antagonist und -Degrader bei hormonrezeptorpositivem Brustkrebs eingesetzt wird. Mechanistisch könnte die Hemmung der Estrogenrezeptor-Signalübertragung auch für andere Erkrankungen relevant sein, bei denen dieser Signalweg eine Rolle spielt.
 
 Der Estrogenrezeptor α wird in CD4+-T-Zellen exprimiert. Eine Studie aus dem Jahr 2026 (PMID 42430506) untersuchte, wie Estrogenrezeptor-Liganden, darunter Fulvestrant, sowie HIV-Latenz-umkehrende Substanzen den ERα in diesen Zellen beeinflussen. Das deutet auf einen plausiblen Zusammenhang zwischen ER-Signalübertragung und HIV-Latenz hin.
 
@@ -138,11 +138,12 @@ Für HIV liegen nur präklinische Mechanismusdaten und keine klinischen Studien 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „ie Zulassungen in Deutschland sind aufgehoben, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Cligavyx (fulvestrant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20d8ca3-8837-4003-8b01-1ebec342062a) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ für diese Indikation liegen jedoch **keine klinischen Studien** und **keine HBV
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Pibrentasvir hemmt das NS5A-Protein des Hepatitis-C-Virus (HCV) und wird fix mit dem Protease-Inhibitor Glecaprevir kombiniert. Die Wirksamkeit bei chronischer Hepatitis C ist belegt.
+Laut ChEMBL (EMBL-EBI) ist für Pibrentasvir folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Inhibitor des Nichtstrukturproteins 5A“ Englischer Originalwortlaut: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist: Pibrentasvir hemmt das NS5A-Protein des Hepatitis-C-Virus (HCV) und wird fix mit dem Protease-Inhibitor Glecaprevir kombiniert. Die Wirksamkeit bei chronischer Hepatitis C ist belegt.
 
 Das Hepatitis-B-Virus besitzt kein NS5A-Homolog, ein klares gemeinsames Wirkziel ist daher nicht erkennbar. Der hohe TxGNN-Wert spiegelt wahrscheinlich die Nähe im Wissensnetzwerk zu anderen Medikamenten gegen virale Hepatitis wider. Die gefundene Literatur betrifft fast ausschließlich HCV. Eine Relevanz für HBV ergibt sich allenfalls aus HBV/HCV-Koinfektionen, bei denen eine HBV-Reaktivierung unter HCV-Therapie mit direkt wirkenden Virostatika ein bekanntes Sicherheitsthema ist, nicht ein therapeutischer Effekt.
 
@@ -143,12 +143,13 @@ Für Hepatitis B gibt es weder klinische Studien noch HBV-spezifische Literatur,
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Zudem besteht in Deutschland nur eine erloschene Zulassung für Maviret“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „(Zulassung nach den Daten erloschen)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123) |
 
 <!-- review:end log -->
 

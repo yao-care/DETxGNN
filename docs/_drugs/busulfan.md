@@ -60,7 +60,7 @@ Dafür liegen in den für diesen Bericht zusammengestellten Daten **über 30 kli
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Nach bekanntem Wissen ist Busulfan ein alkylierendes Zytostatikum, das als myeloablative oder dosisreduzierte Konditionierungsbasis vor einer allogenen HSZT dient. Es beseitigt maligne hämatopoetische Klone und schafft im Knochenmark Platz für das Spenderengraftment.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Busulfan (inoffizielle Übersetzung): „Busulfan ist ein bifunktionelles Alkylans, bei dem zwei labile Methansulfonatgruppen an gegenüberliegenden Enden einer Alkylkette aus vier Kohlenstoffatomen gebunden sind. In wässrigen Medien hydrolysiert Busulfan unter Freisetzung der Methansulfonatgruppen.“ Englischer Originalwortlaut: "Busulfan is a bifunctional alkylating agent in which two labile methanesulfonate groups are attached to opposite ends of a four-carbon alkyl chain. In aqueous media, busulfan hydrolyzes to release the methanesulfonate groups." ([DailyMed: busulfan prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=086a715e-4958-4bb5-9ebd-86171e6b6203), Fassung vom 2026-07-29; abgerufen am 2026-11-19). Nach bekanntem Wissen ist Busulfan ein alkylierendes Zytostatikum, das als myeloablative oder dosisreduzierte Konditionierungsbasis vor einer allogenen HSZT dient. Es beseitigt maligne hämatopoetische Klone und schafft im Knochenmark Platz für das Spenderengraftment.
 
 Beim MDS ist die allogene HSZT die einzige potenziell kurative Behandlung. Die vorhergesagte Indikation ist daher keine völlig neue Anwendung, sondern eine Erweiterung der bestehenden Konditionierungsindikation auf eine konkrete Erkrankungsgruppe.
 
@@ -171,12 +171,13 @@ Für das MDS liegen zwei abgeschlossene Phase-3-Studien sowie mehrere randomisie
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Klärung des Zulassungsstatus in Deutschland (aktuell nur erloschene Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „die Zulassung in Deutschland ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: busulfan prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=086a715e-4958-4bb5-9ebd-86171e6b6203) |
 
 <!-- review:end log -->
 

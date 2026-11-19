@@ -58,7 +58,7 @@ Tipiracil ist ein Thymidinphosphorylase-Hemmer und wird in Kombination mit Trifl
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Tipiracil die Thymidinphosphorylase hemmt und in der Kombination mit Trifluridin den Abbau des zytotoxischen Partners verringert. Tipiracil allein besitzt keine zytotoxische Aktivität.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für trifluridine and tipiracil (Kombinationspräparat mit Tipiracil) (inoffizielle Übersetzung): „LONSURF besteht aus einem Thymidin-basierten Nukleosidanalogon, Trifluridin, und dem Thymidinphosphorylase-Inhibitor Tipiracil im Molverhältnis 1:0,5 (Gewichtsverhältnis 1:0,471). Die Zugabe von Tipiracil erhöht die Trifluridin-Exposition, indem es dessen Metabolisierung durch die Thymidinphosphorylase hemmt.“ Englischer Originalwortlaut: "LONSURF consists of a thymidine-based nucleoside analog, trifluridine, and the thymidine phosphorylase inhibitor, tipiracil, at a molar ratio 1:0.5 (weight ratio, 1:0.471). Inclusion of tipiracil increases trifluridine exposure by inhibiting its metabolism by thymidine phosphorylase." ([DailyMed: Lonsurf (trifluridine and tipiracil) prescribing information, Taiho Pharmaceutical Co., Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f5beed22-d71d-4c0d-8dca-2c7317d65d85), Fassung vom 2025-11-05; abgerufen am 2026-11-19). Bekannt ist, dass Tipiracil die Thymidinphosphorylase hemmt und in der Kombination mit Trifluridin den Abbau des zytotoxischen Partners verringert. Tipiracil allein besitzt keine zytotoxische Aktivität.
 
 Das Zäkum-Zottenadenom ist eine gutartige Vorläuferläsion im Dickdarm. Die Nähe zum kolorektalen Bereich erklärt den hohen Modellwert, ein klarer biologischer Zusammenhang ist jedoch nicht belegt. Die zytotoxische Wirkung der Kombination ist für eine gutartige Läsion mechanistisch nicht eindeutig relevant. Die Vorhersage bleibt daher eine rein rechnerische Hypothese.
 
@@ -116,6 +116,18 @@ Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzstufe L5). Es
 - Warnhinweise und Gegenanzeigen aus der Fachinformation auswerten (Sicherheitsprüfung derzeit nicht möglich)
 - Präklinische oder mechanistische Hinweise auf eine Wirkung bei Zäkum-Zottenadenomen sammeln
 - Eine Nutzen-Risiko-Abwägung für eine zytotoxische Kombination bei einer gutartigen Läsion vornehmen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Lonsurf (trifluridine and tipiracil) prescribing information, Taiho Pharmaceutical Co., Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f5beed22-d71d-4c0d-8dca-2c7317d65d85) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

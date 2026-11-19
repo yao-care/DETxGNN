@@ -54,7 +54,7 @@ Inclisiran ist eine siRNA, die ursprünglich zur Behandlung von Hypercholesterin
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Inclisiran eine siRNA ist, die PCSK9 in der Leber hemmt und dadurch den LDL-Cholesterinspiegel senkt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Inclisiran (inoffizielle Übersetzung): „Inclisiran ist eine doppelsträngige kleine interferierende Ribonukleinsäure (siRNA), die am Sense-Strang mit triantennärem N-Acetylgalactosamin (GalNAc) konjugiert ist, um die Aufnahme in Hepatozyten zu erleichtern. In Hepatozyten nutzt Inclisiran den Mechanismus der RNA-Interferenz und steuert den katalytischen Abbau der mRNA für PCSK9.“ Englischer Originalwortlaut: "Inclisiran is a double-stranded small interfering ribonucleic acid (siRNA), conjugated on the sense strand with triantennary N-Acetylgalactosamine (GalNAc) to facilitate uptake by hepatocytes. In hepatocytes, inclisiran utilizes the RNA interference mechanism and directs catalytic breakdown of mRNA for PCSK9." ([DailyMed: Leqvio (inclisiran) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fc0afca-4513-4c35-b594-6544aee29a44), Fassung vom 2026-08-19; abgerufen am 2026-11-19). Bekannt ist, dass Inclisiran eine siRNA ist, die PCSK9 in der Leber hemmt und dadurch den LDL-Cholesterinspiegel senkt.
 
 Ein plausibler mechanistischer Zusammenhang zwischen diesem Wirkprinzip und der Kaliumhomöostase ist nicht erkennbar. Die Analyse der Daten kommt zu dem Schluss, dass Inclisiran keine bekannte Rolle im Kaliumhaushalt spielt. Der hohe TxGNN-Wert ist daher als rein rechnerische Modellvorhersage zu werten, die weder durch Studien noch durch Literatur gestützt wird.
 
@@ -109,11 +109,12 @@ Die Vorhersage zur Kaliummangelerkrankung beruht ausschließlich auf einem Model
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Die einzige Zulassung (Novartis Europharm Limited) ist als aufgehoben geführt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Leqvio (inclisiran) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fc0afca-4513-4c35-b594-6544aee29a44) |
 
 <!-- review:end log -->
 

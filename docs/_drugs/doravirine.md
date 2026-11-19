@@ -54,7 +54,7 @@ Doravirin ist ein nicht-nukleosidischer Reverse-Transkriptase-Hemmer (NNRTI), de
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen in den zusammengestellten Daten nicht vor. Bekannt ist, dass Doravirin ein NNRTI ist, der die Reverse Transkriptase von HIV-1 hemmt. Das Feline Immundefizienzvirus (FIV) ist ein mit HIV verwandtes Lentivirus. Daher besteht prinzipiell ein gewisser mechanistischer Ansatzpunkt.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Doravirine (inoffizielle Übersetzung): „Doravirin ist ein antiretroviraler Wirkstoff. […] Doravirin ist ein Pyridinon-Nicht-Nukleosid-Reverse-Transkriptase-Hemmer von HIV-1 und hemmt die HIV-1-Replikation durch nicht-kompetitive Hemmung der HIV-1-Reverse-Transkriptase (RT). Die inhibitorische Konzentration bei 50 % (IC 50 ) von Doravirin für die RNA-abhängige DNA-Polymerisation durch rekombinante Wildtyp-HIV-1-RT betrug in einem biochemischen Assay 12,2±2,0 nM (n=3).“ Englischer Originalwortlaut: "Doravirine is an antiretroviral drug. […] Doravirine is a pyridinone non-nucleoside reverse transcriptase inhibitor of HIV-1 and inhibits HIV-1 replication by non-competitive inhibition of HIV-1 reverse transcriptase (RT). The inhibitory concentration at 50% (IC 50 ) of doravirine for RNA-dependent DNA polymerization of recombinant wild-type HIV-1 RT in a biochemical assay was 12.2±2.0 nM (n=3)." ([DailyMed: Pifeltro (doravirine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff06e5cc-f47a-4779-816b-0e5b13e88a25), Fassung vom 2026-07-09; abgerufen am 2026-11-19). Bekannt ist, dass Doravirin ein NNRTI ist, der die Reverse Transkriptase von HIV-1 hemmt. Das Feline Immundefizienzvirus (FIV) ist ein mit HIV verwandtes Lentivirus. Daher besteht prinzipiell ein gewisser mechanistischer Ansatzpunkt.
 
 Allerdings sind NNRTI gegen FIV in der Regel schlecht wirksam, da sich die Reverse Transkriptase von FIV in der NNRTI-Bindungstasche von der HIV-1-Variante unterscheidet. Der hohe Vorhersagewert spiegelt vermutlich die Nähe zum HIV-Krankheitsknoten im Modell wider und nicht eine belegte Aktivität. Die Vorhersage ist daher mit erheblicher Skepsis zu bewerten. Zudem handelt es sich um eine veterinärmedizinische Fragestellung und nicht um ein humantherapeutisches Ziel.
 
@@ -95,6 +95,19 @@ Für die Vorhersage liegen weder klinische Studien noch direkt einschlägige Pub
 - Detaillierte Daten zum Wirkmechanismus
 - Prüfung, ob eine veterinärmedizinische Entwicklung überhaupt angestrebt wird
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Pifeltro (doravirine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff06e5cc-f47a-4779-816b-0e5b13e88a25) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

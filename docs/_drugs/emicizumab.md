@@ -54,7 +54,7 @@ Emicizumab ist ein bispezifischer Antikörper, der die Cofaktor-Funktion des akt
 
 ## Warum ist diese Vorhersage plausibel?
 
-Emicizumab ist ein bispezifischer Antikörper, der den aktivierten Faktor IX und den Faktor X verbindet und damit die Cofaktor-Funktion von FVIIIa im Tenase-Komplex ersetzt. Detaillierte Daten zum Wirkmechanismus liegen in den zusammengestellten Daten nicht vor; die Angaben zur Bindung an Faktor IXa und Faktor X stammen aus den Zielstruktur-Informationen.
+Emicizumab ist ein bispezifischer Antikörper, der den aktivierten Faktor IX und den Faktor X verbindet und damit die Cofaktor-Funktion von FVIIIa im Tenase-Komplex ersetzt. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Emicizumab (inoffizielle Übersetzung): „HEMLIBRA überbrückt aktivierten Faktor IX und Faktor X und stellt so die Funktion des fehlenden aktivierten Faktors VIII wieder her, der für eine wirksame Hämostase erforderlich ist.“ Englischer Originalwortlaut: "HEMLIBRA bridges activated factor IX and factor X to restore the function of missing activated factor VIII that is needed for effective hemostasis." ([DailyMed: Hemlibra (emicizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2483adba-fab6-4d1b-96c5-c195577ed071), Fassung vom 2025-07-11; abgerufen am 2026-11-19).
 
 Die Pseudo-von-Willebrand-Krankheit ist eine Thrombozytenfunktionsstörung, bei der eine erhöhte Affinität von GPIb-alpha für den von-Willebrand-Faktor vorliegt. Der Defekt liegt also in der Interaktion zwischen Thrombozyten und von-Willebrand-Faktor und nicht im FVIII-abhängigen Tenase-Schritt. Eine klare mechanistische Begründung für den Einsatz von Emicizumab besteht daher nicht. Der hohe Score ist eine rein graphbasierte Modellvorhersage und sollte nicht als Hinweis auf Wirksamkeit gewertet werden.
 
@@ -94,6 +94,19 @@ Für die Pseudo-von-Willebrand-Krankheit gibt es weder klinische Studien noch Pu
 - Präklinische Untersuchungen (z. B. Thrombingenerations- oder Blutungsmodelle)
 - Detaillierte Daten zum Wirkmechanismus (MOA)
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen als Grundlage für eine Sicherheitsbewertung
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Hemlibra (emicizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2483adba-fab6-4d1b-96c5-c195577ed071) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

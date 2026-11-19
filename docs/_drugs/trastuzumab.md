@@ -59,7 +59,7 @@ Das TxGNN-Modell sagt eine Wirksamkeit bei **progesteronrezeptor-positivem Brust
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Trastuzumab richtet sich gegen den HER2-Rezeptor und ist bei HER2-positivem Brustkrebs etabliert. Mechanistisch kann es daher überall dort wirken, wo HER2 amplifiziert oder überexprimiert ist.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Trastuzumab (inoffizielle Übersetzung): „Das HER2- (oder c-erbB2-) Protoonkogen kodiert ein Transmembran-Rezeptorprotein von 185 kDa, das strukturell mit dem epidermalen Wachstumsfaktorrezeptor verwandt ist. Für Trastuzumab-Produkte wurde sowohl in In-vitro-Assays als auch an Tieren gezeigt, dass sie die Proliferation menschlicher Tumorzellen, die HER2 überexprimieren, hemmen.“ Englischer Originalwortlaut: "The HER2 (or c-erbB2) proto-oncogene encodes a transmembrane receptor protein of 185 kDa, which is structurally related to the epidermal growth factor receptor. Trastuzumab products have been shown, in both in vitro assays and in animals, to inhibit the proliferation of human tumor cells that overexpress HER2." ([DailyMed: Ogivri (trastuzumab-dkst) prescribing information, Biocon Biologics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6465b44-a6dd-f99c-d009-6851cf05169c), Fassung vom 2026-06-26; abgerufen am 2026-11-19). Bekannt ist: Trastuzumab richtet sich gegen den HER2-Rezeptor und ist bei HER2-positivem Brustkrebs etabliert. Mechanistisch kann es daher überall dort wirken, wo HER2 amplifiziert oder überexprimiert ist.
 
 Der Progesteronrezeptor-Status ist dabei kein Auswahlkriterium. Entscheidend ist die bestätigte HER2-Amplifikation oder -Überexpression. Bei Tumoren, die sowohl hormonrezeptor- als auch HER2-positiv sind, wird Trastuzumab in der Regel mit Chemotherapie und endokriner Therapie kombiniert. Die duale Blockade von HER2 und Hormonrezeptor-Signalweg wird durch die Wechselwirkung (Crosstalk) beider Rezeptoren begründet.
 
@@ -175,12 +175,13 @@ Die Evidenz (Stufe L1) für Trastuzumab bei HER2-positivem Brustkrebs einschlie�
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „da alle Zulassungen aufgehoben sind“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Entfernt: „Es besteht derzeit eine gültige Zulassung“ (es sind 11 gültige) | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Ogivri (trastuzumab-dkst) prescribing information, Biocon Biologics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6465b44-a6dd-f99c-d009-6851cf05169c) |
 
 <!-- review:end log -->
 

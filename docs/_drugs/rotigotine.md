@@ -60,7 +60,7 @@ Hierfür liegen derzeit **keine klinischen Studien** und **3 Publikationen** (2 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Aus der ausgewerteten Literatur ergibt sich, dass Rotigotin ein Dopaminagonist mit breitem Rezeptorprofil ist: Er wirkt an den Dopaminrezeptoren D1 bis D5 (mit der höchsten Affinität zu D3) sowie zusätzlich an 5-HT1A- und Alpha-2B-Rezeptoren.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Rotigotine (inoffizielle Übersetzung): „Rotigotin ist ein Non-Ergolin-Dopaminagonist. Der genaue Wirkmechanismus von Rotigotin bei der Behandlung der Parkinson-Krankheit ist unbekannt, es wird jedoch angenommen, dass er mit seiner Fähigkeit zusammenhängt, Dopaminrezeptoren im Nucleus caudatus und Putamen des Gehirns zu stimulieren.“ Englischer Originalwortlaut: "Rotigotine is a non-ergoline dopamine agonist. The precise mechanism of action of rotigotine as a treatment for Parkinson's disease is unknown, although it is thought to be related to its ability to stimulate dopamine receptors within the caudate-putamen in the brain." ([DailyMed: Neupro (rotigotine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=939e28c5-f3a9-42c0-9a2d-8d471d82a6e0), Fassung vom 2026-11-11; abgerufen am 2026-11-19). Aus der ausgewerteten Literatur ergibt sich, dass Rotigotin ein Dopaminagonist mit breitem Rezeptorprofil ist: Er wirkt an den Dopaminrezeptoren D1 bis D5 (mit der höchsten Affinität zu D3) sowie zusätzlich an 5-HT1A- und Alpha-2B-Rezeptoren.
 
 ADHS ist mit einer Dysregulation des dopaminergen und noradrenergen Systems verbunden. Eine Arbeit zu Heteromeren aus α2A-Adrenozeptoren und dem Dopamin-D4-Rezeptor liefert eine plausible, aber nur indirekte mechanistische Verbindung. Zudem ist das Restless-Legs-Syndrom eine bekannte Komorbidität von ADHS und teilt mit ihr eine dopaminerge Grundlage.
 
@@ -135,12 +135,13 @@ Für ADHS gibt es weder klinische Studien noch direkte Literatur zu Rotigotin; d
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die deutsche Zulassung aufgehoben, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „(aufgehobene Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Neupro (rotigotine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=939e28c5-f3a9-42c0-9a2d-8d471d82a6e0) |
 
 <!-- review:end log -->
 

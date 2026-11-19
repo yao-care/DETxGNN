@@ -58,7 +58,7 @@ Sotatercept wurde ursprünglich zur Behandlung der pulmonalen Hypertonie zugelas
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Sotatercept ein Fusionsprotein aus Activin-Rezeptor Typ IIA und Fc-Teil ist und als Ligandenfalle für Activine und verwandte Mitglieder der TGF-beta-Superfamilie wirkt. Seine Wirksamkeit bei pulmonaler Hypertonie ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Sotatercept (inoffizielle Übersetzung): „Sotatercept-csrk, ein rekombinantes Activin-Rezeptor-Typ-IIA-Fc (ActRIIA-Fc)-Fusionsprotein, ist ein Inhibitor der Activin-Signalübertragung, der an Activin A und andere Liganden der TGF- β-Superfamilie bindet. Infolgedessen verbessert Sotatercept-csrk das Gleichgewicht zwischen der proproliferativen (ActRIIA/Smad2/3-vermittelten) und der antiproliferativen (BMPRII/Smad1/5/8-vermittelten) Signalübertragung, um die vaskuläre Proliferation zu modulieren.“ Englischer Originalwortlaut: "Sotatercept-csrk, a recombinant activin receptor type IIA-Fc (ActRIIA-Fc) fusion protein, is an activin signaling inhibitor that binds to activin A and other TGF- β superfamily ligands. As a result, sotatercept-csrk improves the balance between the pro-proliferative (ActRIIA/Smad2/3-mediated) and anti-proliferative (BMPRII/Smad1/5/8-mediated) signaling to modulate vascular proliferation." ([DailyMed: Winrevair (sotatercept-csrk) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21693ee2-cd23-4137-ac67-066bb3a4a9b7), Fassung vom 2026-09-21; abgerufen am 2026-11-19). Bekannt ist, dass Sotatercept ein Fusionsprotein aus Activin-Rezeptor Typ IIA und Fc-Teil ist und als Ligandenfalle für Activine und verwandte Mitglieder der TGF-beta-Superfamilie wirkt. Seine Wirksamkeit bei pulmonaler Hypertonie ist belegt.
 
 Eine Verbindung zur akuten lymphoblastischen Leukämie ergibt sich bislang nur aus der Vorhersage des TxGNN-Modells (Deep Learning). Der Score kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, und ist keine biologische Evidenz. Ein konkreter Signalweg, der Activin-Signale mit der Biologie dieser Leukämie verbindet, wird durch die vorliegenden Daten nicht gestützt. Die Vorhersage sollte daher als Hypothese und nicht als Evidenz betrachtet werden.
 
@@ -137,13 +137,14 @@ Die Vorhersage beruht ausschließlich auf einem Modellwert ohne klinische Studie
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Zudem ist die Zulassung in Deutschland laut den Daten nur noch als erloschen geführt, und Sicherheitsdaten fehlen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Diese einzige Zulassung (Merck Sharp & Dohme B.V.) hat den Status „erloschen/aufgehoben“. Eine gültige Zulassung liegt laut den zusammengest“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „(der Status „erloschen“ sollte verifiziert werden)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Winrevair (sotatercept-csrk) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21693ee2-cd23-4137-ac67-066bb3a4a9b7) |
 
 <!-- review:end log -->
 

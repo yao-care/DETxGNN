@@ -58,7 +58,7 @@ Caspofungin ist ein Antimykotikum aus der Klasse der Echinocandine und wurde urs
 
 ## Warum ist diese Vorhersage plausibel?
 
-Derzeit liegen keine detaillierten Daten zum Wirkmechanismus in den für diesen Bericht zusammengestellten Daten vor. Nach allgemeinem Wissen gehört Caspofungin zu den Echinocandinen und hemmt die β-(1,3)-D-Glucan-Synthase der Pilzzellwand. Seine Wirksamkeit bei Candidiasis und Aspergillose ist belegt.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Caspofungin (inoffizielle Übersetzung): „Caspofungin ist ein antimykotisches Arzneimittel aus der Klasse der Echinocandine. […] Caspofungin, ein Echinocandin, hemmt die Synthese von Beta-(1,3)-D-Glucan, einem essenziellen Bestandteil der Zellwand empfindlicher Aspergillus-Arten und Candida-Arten. Beta-(1,3)-D-Glucan ist in Säugetierzellen nicht vorhanden.“ Englischer Originalwortlaut: "Caspofungin is an echinocandin antifungal drug. […] Caspofungin, an echinocandin, inhibits the synthesis of beta (1,3)-D-glucan, an essential component of the cell wall of susceptible Aspergillus species and Candida species. Beta (1,3)-D-glucan is not present in mammalian cells." ([DailyMed: Cancidas (caspofungin acetate) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bad23a6-09a6-4194-9182-093ed61bc71c), Fassung vom 2024-10-11; abgerufen am 2026-11-19). Nach allgemeinem Wissen gehört Caspofungin zu den Echinocandinen und hemmt die β-(1,3)-D-Glucan-Synthase der Pilzzellwand. Seine Wirksamkeit bei Candidiasis und Aspergillose ist belegt.
 
 Für die vorhergesagte Indikation besteht jedoch **kein bekannter mechanistischer Zusammenhang**. Der gastrinbildende Signalweg (G-Zellen, CCK2-Rezeptor, Regulation der Magensäure) besitzt kein bekanntes Glucan-Synthase-Ziel. Der sehr hohe Vorhersagewert (0,9944) stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, keinen biologischen Beleg. Ohne verifizierten Mechanismus lässt sich die Vorhersage biologisch nicht interpretieren.
 
@@ -111,6 +111,19 @@ Die Vorhersage beruht ausschließlich auf dem TxGNN-Modell (Deep Learning) (Evid
 - Eine Prüfung, ob ein biologisch begründeter Zusammenhang zwischen β-Glucan-Synthase-Hemmung und Gastrin-Regulation besteht, z. B. durch präklinische Studien
 - Klärung der Darreichungsformen und Applikationswege (derzeit offen)
 - Klärung des Zulassungs- bzw. Vermarktungsstatus in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Cancidas (caspofungin acetate) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bad23a6-09a6-4194-9182-093ed61bc71c) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

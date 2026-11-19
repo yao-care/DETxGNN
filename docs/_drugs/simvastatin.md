@@ -62,7 +62,7 @@ Simvastatin hemmt die HMG-CoA-Reduktase. Dadurch sinkt die hepatische Cholesteri
 
 Die ursprüngliche Indikation (Dyslipidämien) und die vorhergesagte Indikation überschneiden sich stark. Die Wirkung hängt davon ab, dass mindestens ein funktionsfähiges LDL-Rezeptor-Allel vorhanden ist. Bei homozygoter Erkrankung oder LDL-Rezeptor-Nullmutation ist die Wirksamkeit begrenzt, dort sind Zusatztherapien nötig.
 
-Die für diesen Bericht zusammengestellten Daten enthalten keine detaillierten Angaben zum Wirkmechanismus aus einer Arzneimitteldatenbank. Die obige Beschreibung beruht auf der bekannten Pharmakologie der Statine.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Simvastatin (inoffizielle Übersetzung): „Simvastatin ist ein Prodrug und wird nach der Anwendung zu seiner aktiven β-Hydroxysäureform, der Simvastatinsäure, hydrolysiert. Simvastatinsäure und ihre Metaboliten sind Inhibitoren der HMG-CoA-Reduktase, des geschwindigkeitsbestimmenden Enzyms, das HMG-CoA in Mevalonat, eine Vorstufe von Cholesterin, umwandelt.“ Englischer Originalwortlaut: "Simvastatin is a prodrug and is hydrolyzed to its active β-hydroxyacid form, simvastatin acid, after administration. Simvastatin acid and its metabolites are inhibitors of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol." ([DailyMed: Zocor (simvastatin) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9), Fassung vom 2025-03-28; abgerufen am 2026-11-19). Die obige Beschreibung beruht auf der bekannten Pharmakologie der Statine.
 
 ---
 
@@ -168,12 +168,13 @@ Mehrere abgeschlossene Phase-3-Studien (u. a. ENHANCE und die Jugendlichenstudie
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „(die erfasste Zulassung betrifft ein Kombinationspräparat und ist erloschen)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Zocor (simvastatin) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9) |
 
 <!-- review:end log -->
 

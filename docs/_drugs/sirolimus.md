@@ -58,7 +58,7 @@ Sirolimus ist ein mTOR-Inhibitor, der in Deutschland bei Angiofibromen im Rahmen
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Sirolimus den mTOR-Signalweg hemmt (mechanistic target of rapamycin), der Zellwachstum, Proliferation und Angiogenese steuert.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Sirolimus (inoffizielle Übersetzung): „Sirolimus in FYARRO ist ein Inhibitor der Kinase mechanistic target of rapamycin (mTOR, früher als mammalian target of rapamycin bekannt). mTOR, eine Serin-Threonin-Kinase, ist dem PI3K/AKT-Signalweg nachgeschaltet, steuert zentrale zelluläre Prozesse wie Zellüberleben, Wachstum und Proliferation und ist bei mehreren Krebserkrankungen des Menschen häufig dysreguliert. In Zellen bindet Sirolimus an das Immunophilin FK-bindendes Protein 12 (FKBP-12) und bildet so einen immunsuppressiven Komplex.“ Englischer Originalwortlaut: "Sirolimus in FYARRO is an inhibitor of mechanistic target of rapamycin kinase (mTOR, previously known as mammalian target of rapamycin). mTOR, a serine threonine kinase, is downstream of the PI3K/AKT pathway, controls key cellular processes such as cell survival, growth, and proliferation, and is commonly dysregulated in several human cancers. In cells, sirolimus binds to the immunophilin, FK Binding Protein-12 (FKBP-12), to generate an immunosuppressive complex." ([DailyMed: Fyarro (sirolimus) prescribing information, Aadi Bioscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9bb784-53e2-46f9-a65d-1c6c2a230eaf), Fassung vom 2026-09-09; abgerufen am 2026-11-19). Bekannt ist, dass Sirolimus den mTOR-Signalweg hemmt (mechanistic target of rapamycin), der Zellwachstum, Proliferation und Angiogenese steuert.
 
 Liposarkome zeigen häufig eine Aktivierung des PI3K/AKT/mTOR-Signalwegs. Eine mTOR-Hemmung ist daher biologisch nachvollziehbar, zumal in Mausmodellen die mTOR-Hemmung das Tumorwachstum verringern konnte. Dies ist jedoch eine mechanistische Hypothese und kein klinischer Wirksamkeitsnachweis.
 
@@ -129,6 +129,18 @@ Für Liposarkom gibt es nur eine einarmige Phase-2-Studie mit einer Kombinations
 - Klärung, welche Liposarkom-Subtypen eingeschlossen waren und welchen Beitrag Sirolimus zur Kombination leistet
 - Präklinische oder klinische Daten, die Sirolimus gezielt bei Liposarkom prüfen
 - Daten zum Wirkmechanismus sowie Warnhinweise und Gegenanzeigen aus der Fachinformation
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Fyarro (sirolimus) prescribing information, Aadi Bioscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9bb784-53e2-46f9-a65d-1c6c2a230eaf) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

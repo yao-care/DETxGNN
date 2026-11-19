@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Auf Basis der bekannten Fumarat-Pharmakologie wird Diroximelfumarat im Körper zu Monomethylfumarat (MMF) umgewandelt. MMF aktiviert den antioxidativen Nrf2-Signalweg und wirkt entzündungshemmend. Diese Einordnung stammt aus allgemeinem Wissen und nicht aus den vorliegenden Daten.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Diroximel Fumarate (inoffizielle Übersetzung): „Der Mechanismus, über den Diroximelfumarat seine therapeutische Wirkung bei multipler Sklerose entfaltet, ist nicht bekannt. Für MMF, den aktiven Metaboliten von Diroximelfumarat, wurde gezeigt, dass es den Signalweg des Nuclear factor (erythroid-derived 2)-like 2 (Nrf2) in vitro sowie in vivo bei Tieren und Menschen aktiviert.“ Englischer Originalwortlaut: "The mechanism by which diroximel fumarate exerts its therapeutic effect in multiple sclerosis is unknown. MMF, the active metabolite of diroximel fumarate, has been shown to activate the nuclear factor (erythroid-derived 2)-like 2 (Nrf2) pathway in vitro and in vivo in animals and humans." ([DailyMed: Vumerity (diroximel fumarate) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d74414f-6b83-4ea2-9a95-3cecabbce774), Fassung vom 2025-05-29; abgerufen am 2026-11-19). Auf Basis der bekannten Fumarat-Pharmakologie wird Diroximelfumarat im Körper zu Monomethylfumarat (MMF) umgewandelt. MMF aktiviert den antioxidativen Nrf2-Signalweg und wirkt entzündungshemmend. Diese Einordnung stammt aus allgemeinem Wissen und nicht aus den vorliegenden Daten.
 
 Bei diabetischer Katarakt tragen oxidativer Stress und Schäden durch den Polyolweg zur Trübung der Linse bei. Eine Aktivierung von Nrf2 könnte hier theoretisch schützend wirken. Dieser Zusammenhang ist plausibel, aber nicht getestet. Der sehr hohe Vorhersagewert ist eine reine Rechenvorhersage.
 
@@ -128,11 +128,12 @@ Die Vorhersage stützt sich ausschließlich auf ein Rechenmodell (Evidenzstufe L
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „und die Zulassung in Deutschland ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Vumerity (diroximel fumarate) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d74414f-6b83-4ea2-9a95-3cecabbce774) |
 
 <!-- review:end log -->
 

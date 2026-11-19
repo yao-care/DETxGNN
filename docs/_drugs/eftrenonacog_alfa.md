@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage plausibel (oder nicht)?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten derzeit keine detaillierten Angaben vor. Bekannt ist: Eftrenonacog alfa ersetzt als rekombinantes Faktor-IX-Fc-Fusionsprotein den fehlenden Faktor IX im intrinsischen Gerinnungsweg. Seine Wirksamkeit bei Hämophilie B ist belegt.
+Laut ChEMBL (EMBL-EBI) ist für Eftrenonacog Alfa folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Exogenes Gerinnungsfaktor-IX-Protein“ Englischer Originalwortlaut: "Coagulation factor IX exogenous protein" ([ChEMBL CHEMBL4594598 (eftrenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594598), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist: Eftrenonacog alfa ersetzt als rekombinantes Faktor-IX-Fc-Fusionsprotein den fehlenden Faktor IX im intrinsischen Gerinnungsweg. Seine Wirksamkeit bei Hämophilie B ist belegt.
 
 Die Pseudo-von-Willebrand-Erkrankung (Plättchentyp der von-Willebrand-Erkrankung) beruht dagegen auf einer Gain-of-Function-Veränderung des Plättchen-Glykoproteins GPIbα. Diese erhöht die Affinität zum von-Willebrand-Faktor, führt zur vermehrten Plättchenelimination und zum Verlust hochmolekularer VWF-Multimere. Die Pathologie betrifft Plättchen und VWF, nicht einen Faktor-IX-Mangel. Ein direkter mechanistischer Zusammenhang ist daher nicht belegt.
 
@@ -127,12 +127,13 @@ Die Vorhersage stützt sich ausschließlich auf das Modell (L5) ohne Studien ode
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die einzige Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „angesichts der erloschenen Zulassung“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL4594598 (eftrenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594598) |
 
 <!-- review:end log -->
 

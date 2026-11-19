@@ -54,7 +54,7 @@ Asenapin ist ein Antipsychotikum, das über mehrere Serotonin-, Dopamin- und His
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Asenapin an mehrere Rezeptoren bindet: 5-HT1A, 5-HT1B, 5-HT1D, 5-HT1E, 5-HT2A, Dopamin-D2 und Histamin-H1.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Asenapine (inoffizielle Übersetzung): „Der Wirkmechanismus von Asenapin bei Schizophrenie und Bipolar-I-Störung ist unbekannt. Es wurde vermutet, dass die Wirksamkeit von Asenapin bei Schizophrenie durch eine Kombination aus antagonistischer Aktivität an D 2- und 5-HT 2A-Rezeptoren vermittelt werden könnte.“ Englischer Originalwortlaut: "The mechanism of action of asenapine, in schizophrenia and bipolar I disorder, is unknown. It has been suggested that the efficacy of asenapine in schizophrenia could be mediated through a combination of antagonist activity at D 2 and 5-HT 2A receptors." ([DailyMed: Saphris (asenapine maleate) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5429f134-839f-4ffc-9944-55f51238def8), Fassung vom 2025-01-31; abgerufen am 2026-11-19). Bekannt ist, dass Asenapin an mehrere Rezeptoren bindet: 5-HT1A, 5-HT1B, 5-HT1D, 5-HT1E, 5-HT2A, Dopamin-D2 und Histamin-H1.
 
 Ein plausibler Zusammenhang zwischen diesem Rezeptorprofil und den genetischen Ursachen einer retinalen Dystrophie ist in den vorliegenden Daten nicht belegt. Der hohe Vorhersagewert ist ein rein rechnerisches Ergebnis. Die Vorhersage sollte daher als Hypothese betrachtet werden, nicht als Hinweis auf eine nachgewiesene Wirkung.
 
@@ -97,6 +97,18 @@ Für die vorhergesagte Indikation gibt es weder klinische Studien noch Publikati
 - Detaillierte Wirkmechanismus-Daten (MOA)
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
 - Eine systematische Literaturrecherche zur vorhergesagten Erkrankung
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Saphris (asenapine maleate) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5429f134-839f-4ffc-9944-55f51238def8) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

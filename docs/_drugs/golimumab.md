@@ -56,7 +56,7 @@ Für diese Richtung liegen in den zusammengestellten Daten **keine klinischen St
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Golimumab liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass es als TNF-α-Inhibitor entzündliche Prozesse dämpft, die bei mehreren immunvermittelten Erkrankungen eine Rolle spielen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Golimumab (inoffizielle Übersetzung): „Golimumab ist ein humaner monoklonaler Antikörper, der sowohl an die lösliche als auch an die transmembranöse bioaktive Form des humanen TNFα bindet. Diese Interaktion verhindert die Bindung von TNFα an seine Rezeptoren und hemmt dadurch die biologische Aktivität von TNFα (einem Zytokin-Protein).“ Englischer Originalwortlaut: "Golimumab is a human monoclonal antibody that binds to both the soluble and transmembrane bioactive forms of human TNFα. This interaction prevents the binding of TNFα to its receptors, thereby inhibiting the biological activity of TNFα (a cytokine protein)." ([DailyMed: Simponi (golimumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f86cb4a7-c358-4136-ae57-b32bda9bba00), Fassung vom 2026-11-02; abgerufen am 2026-11-19). Bekannt ist, dass es als TNF-α-Inhibitor entzündliche Prozesse dämpft, die bei mehreren immunvermittelten Erkrankungen eine Rolle spielen.
 
 Für die vorhergesagte Indikation lässt sich jedoch kein klarer mechanistischer Zusammenhang erkennen. Die Hypermobilität des Steißbeins ist in der Regel ein mechanisches oder traumatisches Problem und keine primär TNF-getriebene Entzündungserkrankung. Der hohe TxGNN-Wert von 0,9967 ist eine rein rechnerische Vorhersage und wird weder durch Studien noch durch Literatur gestützt. Die Ähnlichkeit zur ursprünglichen Indikation ist bislang nicht bewertet.
 
@@ -94,6 +94,19 @@ Die Vorhersage beruht ausschließlich auf einem Modellwert, ohne klinische Studi
 - Daten zum Wirkmechanismus von Golimumab
 - Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation
 - Bewertung der Applikationswege und der Ähnlichkeit zur ursprünglichen Indikation
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Simponi (golimumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f86cb4a7-c358-4136-ae57-b32bda9bba00) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

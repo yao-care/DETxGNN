@@ -60,7 +60,7 @@ Dafür gibt es derzeit **keine klinischen Studien** und **keine Publikationen**;
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten derzeit keine detaillierten Angaben vor. Bekannt ist, dass Cabotegravir ein HIV-Integrase-Strangtransfer-Inhibitor ist, dessen Wirksamkeit bei HIV-Infektionen belegt ist.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Cabotegravir (inoffizielle Übersetzung): „Cabotegravir ist ein antiretrovirales Arzneimittel gegen HIV-1. […] Cabotegravir hemmt die HIV-Integrase, indem es an das aktive Zentrum der Integrase bindet und den Strangtransferschritt der Integration der retroviralen Desoxyribonukleinsäure (DNA) blockiert, der für den HIV-Replikationszyklus essenziell ist. Der mittlere Wert der 50%igen Hemmkonzentration (IC 50 ) von Cabotegravir in einem Strangtransfer-Assay mit gereinigter rekombinanter HIV-1-Integrase betrug 3,0 nM.“ Englischer Originalwortlaut: "Cabotegravir is an HIV-1 antiretroviral drug. […] Cabotegravir inhibits HIV integrase by binding to the integrase active site and blocking the strand transfer step of retroviral deoxyribonucleic acid (DNA) integration that is essential for the HIV replication cycle. The mean 50% inhibitory concentration (IC 50 ) value of cabotegravir in a strand transfer assay using purified recombinant HIV-1 integrase was 3.0 nM." ([DailyMed: Vocabria (cabotegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66d450fb-cca4-476c-b0c7-c0730e3e4cf3), Fassung vom 2025-04-11; abgerufen am 2026-11-19). Bekannt ist, dass Cabotegravir ein HIV-Integrase-Strangtransfer-Inhibitor ist, dessen Wirksamkeit bei HIV-Infektionen belegt ist.
 
 Ein mechanistischer Zusammenhang zur rheumatoiden Arthritis ist durch die vorliegenden Daten nicht gestützt. Typische Signalwege der Erkrankung (z. B. TNF, IL-6, JAK/STAT) lassen sich nicht mit der Integrase-Hemmung verknüpfen. Der hohe Vorhersagewert ist eine reine Vorhersage des TxGNN-Modells (Deep Learning) und sollte nicht als biologischer Beleg verstanden werden.
 
@@ -140,12 +140,13 @@ Die Vorhersage stützt sich ausschließlich auf das Modell (L5), ohne klinische 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Beide Zulassungen (Inhaber: ViiV Healthcare B.V.) haben den Status „erloschen"“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Zudem sind die Zulassungen in eutschland erloschen, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Vocabria (cabotegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66d450fb-cca4-476c-b0c7-c0730e3e4cf3) |
 
 <!-- review:end log -->
 

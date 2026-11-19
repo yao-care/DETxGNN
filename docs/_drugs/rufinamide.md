@@ -58,8 +58,7 @@ Rufinamid ist ein Antikonvulsivum, das ursprünglich zur Behandlung von Epilepsi
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Rufinamid liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach allgemeinem Wissen moduliert Rufinamid spannungsabhängige Natriumkanäle und verlängert deren inaktiven Zustand. Es ist bei Epilepsie, insbesondere beim Lennox-Gastaut-Syndrom, zugelassen.
-
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Rufinamide (inoffizielle Übersetzung): „Der genaue Mechanismus bzw. die genauen Mechanismen, durch die Rufinamid seine antiepileptische Wirkung entfaltet, ist bzw. sind unbekannt. Die Ergebnisse von In-vitro-Studien deuten darauf hin, dass der hauptsächliche Wirkmechanismus von Rufinamid in der Modulation der Aktivität von Natriumkanälen und insbesondere in der Verlängerung des inaktiven Zustands des Kanals besteht.“ Englischer Originalwortlaut: "The precise mechanism(s) by which rufinamide exerts its antiepileptic effect is unknown. The results of in vitro studies suggest that the principal mechanism of action of rufinamide is modulation of the activity of sodium channels and, in particular, prolongation of the inactive state of the channel." ([DailyMed: Banzel (rufinamide) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a3fa925-1abd-458a-bd57-4ae780a1ef2d), Fassung vom 2022-12-15; abgerufen am 2026-11-19). Nach allgemeinem Wissen moduliert Rufinamid spannungsabhängige Natriumkanäle und verlängert deren inaktiven Zustand. Es ist bei Epilepsie, insbesondere beim Lennox-Gastaut-Syndrom, zugelassen.
 
 **Weitere vorhergesagte Indikationen** (jeweils ohne Studien oder Literatur, Evidenzgrad L5, Empfehlung Hold):
 
@@ -112,6 +111,19 @@ Die Vorhersage stützt sich ausschließlich auf das TxGNN-Modell (Evidenzgrad L5
 - Warnhinweise und Kontraindikationen aus der Fachinformation (BfArM/EMA); ohne diese ist die Sicherheitsprüfung nicht möglich
 - Literaturrecherche und Prüfung von Studienregistern zu Rufinamid bei FIRES und den weiteren vorhergesagten Epilepsiesyndromen
 - Klärung des Zulassungsstatus und der verfügbaren Darreichungsformen und Applikationswege
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Banzel (rufinamide) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a3fa925-1abd-458a-bd57-4ae780a1ef2d) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

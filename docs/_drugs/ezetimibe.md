@@ -54,7 +54,7 @@ Ezetimib wird zur Behandlung von Hypercholesterinämie und Dyslipidämien einges
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Ezetimib die NPC1L1-vermittelte intestinale Cholesterinaufnahme hemmt und dadurch das LDL-Cholesterin senkt. Seine Wirksamkeit bei Hypercholesterinämie ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Ezetimibe (inoffizielle Übersetzung): „Ezetimib senkt den Cholesterinspiegel im Blut, indem es die Resorption von Cholesterin im Dünndarm hemmt. Als molekulares Target von Ezetimib wurde der Sterol-Transporter Niemann-Pick C1-Like 1 (NPC1L1) identifiziert, der an der intestinalen Aufnahme von Cholesterin und Phytosterolen beteiligt ist.“ Englischer Originalwortlaut: "Ezetimibe reduces blood cholesterol by inhibiting the absorption of cholesterol by the small intestine. The molecular target of ezetimibe has been shown to be the sterol transporter, Niemann-Pick C1-Like 1 (NPC1L1), which is involved in the intestinal uptake of cholesterol and phytosterols." ([DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9), Fassung vom 2026-10-08; abgerufen am 2026-11-19). Bekannt ist, dass Ezetimib die NPC1L1-vermittelte intestinale Cholesterinaufnahme hemmt und dadurch das LDL-Cholesterin senkt. Seine Wirksamkeit bei Hypercholesterinämie ist belegt.
 
 Ein möglicher Zusammenhang besteht über gemeinsame Stoffwechselwege der Lipoproteine: Beim CETP-Mangel ist der Austausch von Cholesterinestern zwischen Lipoproteinen gestört, typischerweise mit deutlich erhöhtem HDL-Cholesterin. Ein direkter Mechanismus, der die NPC1L1-Hemmung mit der Pathophysiologie des CETP-Mangels verbindet, ist jedoch nicht gezeigt.
 
@@ -100,6 +100,19 @@ Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzstufe L5). Es gibt 
 - Daten zum Wirkmechanismus und eine mechanistische Begründung für den Zusammenhang
 - Präklinische oder klinische Studien, die die Erkrankung direkt untersuchen
 - Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) aus der BfArM-Quelle
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

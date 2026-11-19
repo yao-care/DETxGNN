@@ -58,7 +58,7 @@ Aflibercept ist ein VEGF-Fänger (Trap), der ursprünglich zur Behandlung der fe
 
 ## Warum ist diese Vorhersage plausibel?
 
-Aflibercept ist ein Fänger für VEGF-A, VEGF-B und den Plazenta-Wachstumsfaktor (PlGF). Es ist für Netzhauterkrankungen mit pathologischer Gefäßneubildung und erhöhter Gefäßpermeabilität zugelassen. Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten nicht vor; die Einordnung beruht auf allgemeinem Wissen über den Wirkstoff.
+Aflibercept ist ein Fänger für VEGF-A, VEGF-B und den Plazenta-Wachstumsfaktor (PlGF). Es ist für Netzhauterkrankungen mit pathologischer Gefäßneubildung und erhöhter Gefäßpermeabilität zugelassen. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Aflibercept (inoffizielle Übersetzung): „Vaskulärer endothelialer Wachstumsfaktor A (VEGF-A) und Plazenta-Wachstumsfaktor (PlGF) sind Mitglieder der VEGF-Familie angiogener Faktoren, die als mitogene, chemotaktische und die Gefäßpermeabilität steigernde Faktoren für Endothelzellen wirken können. VEGF wirkt über zwei Rezeptor-Tyrosinkinasen, VEGFR-1 und VEGFR-2, die auf der Oberfläche von Endothelzellen vorhanden sind. […] Aflibercept-Produkte wirken als löslicher Köderrezeptor, der VEGF - A und PlGF bindet, und können dadurch die Bindung an diese zugehörigen VEGF-Rezeptoren und deren Aktivierung hemmen.“ Englischer Originalwortlaut: "Vascular endothelial growth factor-A (VEGF-A) and placental growth factor (PlGF) are members of the VEGF family of angiogenic factors that can act as mitogenic, chemotactic, and vascular permeability factors for endothelial cells. VEGF acts via two receptor tyrosine kinases, VEGFR-1 and VEGFR-2, present on the surface of endothelial cells. […] Aflibercept products act as a soluble decoy receptor that binds VEGF - A and PlGF, and thereby can inhibit the binding and activation of these cognate VEGF receptors." ([DailyMed: Pavblu (aflibercept-ayyh) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c61062f3-80ec-4a20-8c28-46e468592a06), Fassung vom 2026-10-29; abgerufen am 2026-11-19).
 
 Der Zusammenhang zwischen der ursprünglichen und der neuen Indikation ist schwach. Esotropie ist eine Störung der Augenstellung, die vor allem durch neuromuskuläre, refraktive, akkommodative oder binokulare Faktoren bedingt ist und nicht primär durch VEGF getrieben wird. Ein direkter biologischer Weg von der VEGF-Hemmung zur Korrektur der Esotropie lässt sich aus den vorliegenden Daten nicht herleiten.
 
@@ -113,6 +113,19 @@ Die Vorhersage für Esotropie (Score 0.9938) stammt vom TxGNN-Modell (Deep Learn
 - Systematische Literaturrecherche, z. B. zu Strabismus nach Anti-VEGF-Therapie bei Frühgeborenenretinopathie
 - Prüfung der Anwendungswege (Applikationsroute) für die neue Indikation
 - Klärung des aktuellen Zulassungs- und Marktstatus in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Pavblu (aflibercept-ayyh) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c61062f3-80ec-4a20-8c28-46e468592a06) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

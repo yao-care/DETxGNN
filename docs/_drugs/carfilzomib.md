@@ -58,7 +58,7 @@ Carfilzomib ist ein Proteasom-Inhibitor, der ursprünglich zur Behandlung des **
 
 ## Warum ist diese Vorhersage nachvollziehbar?
 
-Zum Wirkmechanismus von Carfilzomib liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Carfilzomib zur Klasse der Proteasom-Inhibitoren gehört und seine Wirksamkeit beim Multiplen Myelom belegt ist. Mechanistisch könnte eine Proteasom-Hemmung proteotoxischen Stress und Apoptose in Zellen melanomartiger Tumoren auslösen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Carfilzomib (inoffizielle Übersetzung): „Carfilzomib ist ein Tetrapeptid-Epoxyketon-Proteasominhibitor, der irreversibel an die N-terminalen, Threonin enthaltenden aktiven Zentren des 20S-Proteasoms bindet, des proteolytischen Kernpartikels innerhalb des 26S-Proteasoms. Carfilzomib zeigte in vitro antiproliferative und proapoptotische Aktivitäten in soliden und hämatologischen Tumorzellen.“ Englischer Originalwortlaut: "Carfilzomib is a tetrapeptide epoxyketone proteasome inhibitor that irreversibly binds to the N-terminal threonine-containing active sites of the 20S proteasome, the proteolytic core particle within the 26S proteasome. Carfilzomib had antiproliferative and proapoptotic activities in vitro in solid and hematologic tumor cells." ([DailyMed: Kyprolis (carfilzomib) prescribing information, Onyx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ea66eb30-e665-4693-99a1-a9d3b4bbe2d6), Fassung vom 2025-06-18; abgerufen am 2026-11-19). Bekannt ist, dass Carfilzomib zur Klasse der Proteasom-Inhibitoren gehört und seine Wirksamkeit beim Multiplen Myelom belegt ist. Mechanistisch könnte eine Proteasom-Hemmung proteotoxischen Stress und Apoptose in Zellen melanomartiger Tumoren auslösen.
 
 Für CMM7 ist dieser Zusammenhang durch keine Daten gestützt. Die Bezeichnung scheint ein seltener oder unzureichend definierter Melanom-Subtyp bzw. eine Genlocus-Bezeichnung zu sein; zunächst sollte geklärt werden, um welche Entität es sich genau handelt.
 
@@ -145,11 +145,12 @@ Für CMM7 liegen weder klinische Studien noch Publikationen vor; der hohe TxGNN-
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die Zulassung in Deutschland aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Kyprolis (carfilzomib) prescribing information, Onyx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ea66eb30-e665-4693-99a1-a9d3b4bbe2d6) |
 
 <!-- review:end log -->
 

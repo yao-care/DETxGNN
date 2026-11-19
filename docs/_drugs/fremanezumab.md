@@ -58,7 +58,7 @@ Fremanezumab ist ein humanisierter monoklonaler Antikörper gegen CGRP (Calciton
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Nach bekanntem Stand bindet Fremanezumab den CGRP-Liganden. CGRP-Signalwege im trigeminovaskulären System spielen eine zentrale Rolle in der Pathophysiologie der Migräne.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Fremanezumab (inoffizielle Übersetzung): „Fremanezumab-vfrm ist ein humanisierter monoklonaler Antikörper, der an den Liganden Calcitonin Gene-Related Peptide (CGRP) bindet und dessen Bindung an den Rezeptor blockiert.“ Englischer Originalwortlaut: "Fremanezumab-vfrm is a humanized monoclonal antibody that binds to calcitonin gene-related peptide (CGRP) ligand and blocks its binding to the receptor." ([DailyMed: Ajovy (fremanezumab-vfrm) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e344ea-5916-4947-b6f2-4a76ccc04b6b), Fassung vom 2026-06-05; abgerufen am 2026-11-19). Nach bekanntem Stand bindet Fremanezumab den CGRP-Liganden. CGRP-Signalwege im trigeminovaskulären System spielen eine zentrale Rolle in der Pathophysiologie der Migräne.
 
 Migräne mit Hirnstamm-Aura ist ein Subtyp der Migräne, daher ist der Mechanismus plausibel und eng mit der zugelassenen Indikation (Migräneprophylaxe) verwandt. Es handelt sich weitgehend um eine Erweiterung auf einen Subtyp innerhalb der bestehenden Migräneindikation und nicht um ein echtes Repurposing.
 
@@ -140,12 +140,13 @@ TxGNN-Wert 0,9904, Evidenzlevel L5. Es gibt weder klinische Studien noch Literat
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „und die deutsche Zulassung ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „(Zentralzulassung EMA vs. erloschener Eintrag)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Ajovy (fremanezumab-vfrm) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e344ea-5916-4947-b6f2-4a76ccc04b6b) |
 
 <!-- review:end log -->
 

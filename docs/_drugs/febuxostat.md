@@ -58,7 +58,7 @@ Febuxostat ist ein nicht-purinerger, selektiver Xanthinoxidase-Hemmer, der urspr
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Febuxostat hemmt selektiv die Xanthinoxidase und senkt dadurch die Harnsäurebildung. Seine Wirksamkeit bei Gicht und Hyperurikämie ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Febuxostat (inoffizielle Übersetzung): „ULORIC, ein Xanthinoxidase-Hemmer, erzielt seine therapeutische Wirkung durch Senkung der Harnsäure im Serum. Es ist nicht zu erwarten, dass ULORIC in therapeutischen Konzentrationen andere Enzyme hemmt, die an der Synthese und am Stoffwechsel von Purinen und Pyrimidinen beteiligt sind.“ Englischer Originalwortlaut: "ULORIC, a xanthine oxidase inhibitor, achieves its therapeutic effect by decreasing serum uric acid. ULORIC is not expected to inhibit other enzymes involved in purine and pyrimidine synthesis and metabolism at therapeutic concentrations." ([DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd), Fassung vom 2025-12-24; abgerufen am 2026-11-19). Bekannt ist: Febuxostat hemmt selektiv die Xanthinoxidase und senkt dadurch die Harnsäurebildung. Seine Wirksamkeit bei Gicht und Hyperurikämie ist belegt.
 
 Die renale Hypourikämie ist jedoch bereits durch **niedrige Serumharnsäure** gekennzeichnet, verursacht durch Funktionsverlust von Harnsäure-Rückresorptionstransportern (URAT1/SLC22A12 oder GLUT9/SLC2A9). Eine weitere Harnsäuresenkung ist mechanistisch **kontraproduktiv**. Der einzige denkbare Zusammenhang ist indirekt: Xanthinoxidoreduktase-Hemmer wurden als Hypothese zur Vorbeugung eines belastungsinduzierten akuten Nierenversagens (EIAKI), einer Komplikation der renalen Hypourikämie, diskutiert. Das ist keine Behandlung der Grunderkrankung.
 
@@ -135,12 +135,13 @@ Die Vorhersage ist mechanistisch nicht schlüssig, da bei renaler Hypourikämie 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Alle drei Zulassungen haben den Status „aufgehoben"“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Zudem sind in Deutschland alle Zulassungen aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd) |
 
 <!-- review:end log -->
 

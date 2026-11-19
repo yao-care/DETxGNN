@@ -58,7 +58,7 @@ Glucagon ist ein Peptidhormon, das in der lokalen Zulassung für Diabetes mellit
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Glucagon wirkt am Glucagon-Rezeptor und hemmt die glatte Muskulatur des Magen-Darm-Trakts. Deshalb wird es in der Radiologie als diagnostisches Hilfsmittel eingesetzt. Daraus ergibt sich eine plausible, aber nur indirekte Begründung, Krämpfe oder Hypermotilität beim Reizdarmsyndrom zu verringern.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Glucagon (inoffizielle Übersetzung): „Glucagon erhöht die Blutzuckerkonzentration durch Aktivierung hepatischer Glucagon-Rezeptoren und stimuliert dadurch den Glykogenabbau und die Freisetzung von Glucose aus der Leber. Hepatische Glykogenspeicher sind erforderlich, damit Glucagon eine antihypoglykämische Wirkung entfalten kann.“ Englischer Originalwortlaut: "Glucagon increases blood glucose concentration by activating hepatic glucagon receptors, thereby stimulating glycogen breakdown and release of glucose from the liver. Hepatic stores of glycogen are necessary for glucagon to produce an antihypoglycemic effect." ([DailyMed: glucagon prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e4be1c0e-0fe6-45a0-9229-5cde98434b84), Fassung vom 2020-09-16; abgerufen am 2026-11-19). Bekannt ist: Glucagon wirkt am Glucagon-Rezeptor und hemmt die glatte Muskulatur des Magen-Darm-Trakts. Deshalb wird es in der Radiologie als diagnostisches Hilfsmittel eingesetzt. Daraus ergibt sich eine plausible, aber nur indirekte Begründung, Krämpfe oder Hypermotilität beim Reizdarmsyndrom zu verringern.
 
 Glucagon und GLP-1 stammen zwar vom selben Vorläufer (Proglucagon), sind aber pharmakologisch verschieden. Die vorliegenden Studien zu GLP-1 und dem Analogon ROSE-010 beim Reizdarmsyndrom lassen sich nicht ohne Weiteres auf Glucagon übertragen. Der hohe TxGNN-Wert ist eine rechnerische Vorhersage und kein klinischer Beleg. Insgesamt ist die Verbindung indirekt und für Glucagon beim Reizdarmsyndrom nicht gezeigt.
 
@@ -121,6 +121,18 @@ Keine Studie prüft Glucagon beim Reizdarmsyndrom; die vorhandenen Studien betre
 - Detaillierte Angaben zum Wirkmechanismus
 - Auswertung der Warnhinweise und Gegenanzeigen aus der Packungsbeilage
 - Prüfung der Darreichungsformen und Anwendungswege im Hinblick auf eine mögliche neue Indikation
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: glucagon prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e4be1c0e-0fe6-45a0-9229-5cde98434b84) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

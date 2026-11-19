@@ -54,7 +54,7 @@ Axitinib ist ein Tyrosinkinase-Inhibitor, der gegen die Angiogenese gerichtet is
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu Axitinib liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Bekannt ist, dass Axitinib die Angiogenese über VEGF-Rezeptoren hemmt. Ein solcher Mechanismus kann grundsätzlich auch bei Weichteilsarkomen relevant sein, da diese von der Tumorgefäßversorgung abhängen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Axitinib (inoffizielle Übersetzung): „Es wurde gezeigt, dass Axitinib bei therapeutischen Plasmakonzentrationen Rezeptor-Tyrosinkinasen hemmt, darunter die Rezeptoren des vaskulären endothelialen Wachstumsfaktors (VEGFR)-1, VEGFR-2 und VEGFR-3. Diese Rezeptoren sind an pathologischer Angiogenese, Tumorwachstum und Krebsprogression beteiligt.“ Englischer Originalwortlaut: "Axitinib has been shown to inhibit receptor tyrosine kinases including vascular endothelial growth factor receptors (VEGFR)-1, VEGFR-2, and VEGFR-3 at therapeutic plasma concentrations. These receptors are implicated in pathologic angiogenesis, tumor growth, and cancer progression." ([DailyMed: Inlyta (axitinib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8a903e31-936e-4ed7-8a59-59f32374f338), Fassung vom 2026-03-12; abgerufen am 2026-11-19). Bekannt ist, dass Axitinib die Angiogenese über VEGF-Rezeptoren hemmt. Ein solcher Mechanismus kann grundsätzlich auch bei Weichteilsarkomen relevant sein, da diese von der Tumorgefäßversorgung abhängen.
 
 Eine präklinische Arbeit (2016) zeigte in Zelllinien des myxoiden Liposarkoms antiangiogene und antitumorale Aktivität von Axitinib. Das stützt die Hypothese, ist aber kein klinischer Beleg. Weil keine Studie direkt am Menschen und nur eine Untersuchung an Zellmodellen vorliegt, bleibt die Evidenz indirekt und wird als L5 eingestuft.
 
@@ -104,6 +104,19 @@ Für Liposarkom liegt nur eine präklinische Studie zum myxoiden Subtyp vor, kei
 - Daten zum Wirkmechanismus
 - Auswertung der Packungsbeilage (Warnhinweise, Gegenanzeigen) für ein Sicherheitsscreening
 - Bewertung der Wechselwirkungen, insbesondere mit starken CYP3A4-Hemmern und -Induktoren (z. B. Clarithromycin, Dexamethason)
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Inlyta (axitinib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8a903e31-936e-4ed7-8a59-59f32374f338) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

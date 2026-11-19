@@ -62,7 +62,7 @@ Abgeschlossene Wirksamkeitsdaten liegen bislang nicht vor.
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu diesem Wirkstoff liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Nach der allgemeinen pharmakologischen Einordnung ist Tasimelteon ein Agonist der Melatoninrezeptoren MT1 und MT2 im Nucleus suprachiasmaticus, dem zentralen Taktgeber der zirkadianen Uhr. Über diese Rezeptoren werden der Tag-Nacht-Rhythmus synchronisiert sowie Einschlafen und Durchschlafen gefördert.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Tasimelteon (inoffizielle Übersetzung): „Der Mechanismus, über den Tasimelteon seine therapeutische Wirkung bei Patienten mit Non-24 oder nächtlichen Schlafstörungen bei SMS entfaltet, ist unklar. Tasimelteon ist jedoch ein Agonist an den Melatoninrezeptoren MT 1 und MT 2, von denen angenommen wird, dass sie an der Steuerung der zirkadianen Rhythmen beteiligt sind.“ Englischer Originalwortlaut: "The mechanism by which tasimelteon exerts its therapeutic effect in patients with Non-24 or nighttime sleep disturbances in SMS is unclear. However, tasimelteon is an agonist at melatonin MT 1 and MT 2 receptors which are thought to be involved in the control of circadian rhythms." ([DailyMed: Hetlioz (tasimelteon) prescribing information, Vanda Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ca4a9b63-708e-49e9-8f9b-010625443b90), Fassung vom 2026-08-04; abgerufen am 2026-11-19). Nach der allgemeinen pharmakologischen Einordnung ist Tasimelteon ein Agonist der Melatoninrezeptoren MT1 und MT2 im Nucleus suprachiasmaticus, dem zentralen Taktgeber der zirkadianen Uhr. Über diese Rezeptoren werden der Tag-Nacht-Rhythmus synchronisiert sowie Einschlafen und Durchschlafen gefördert.
 
 Die ursprüngliche Indikation (zirkadiane Schlafrhythmusstörungen) und Insomnie sind eng verwandt: Beide betreffen die Regulation von Schlaf und Wachheit. Melatonerge Wirkstoffe unterscheiden sich grundlegend von GABAergen Hypnotika, da sie vor allem das Einschlafen erleichtern und die innere Uhr in eine für durchgehenden Schlaf günstige Phase verschieben. Die Übersichtsarbeiten bestätigen diesen Mechanismus, liefern aber keine eigenen Wirksamkeitsdaten für Tasimelteon bei Insomnie.
 
@@ -130,11 +130,12 @@ Der Wirkmechanismus (MT1/MT2-Agonismus) passt direkt zu Insomnie, und eine rando
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche/EU-Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Hetlioz (tasimelteon) prescribing information, Vanda Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ca4a9b63-708e-49e9-8f9b-010625443b90) |
 
 <!-- review:end log -->
 

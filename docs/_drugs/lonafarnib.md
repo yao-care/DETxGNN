@@ -58,7 +58,7 @@ Lonafarnib ist ein Farnesyltransferase-Inhibitor, der in der EU für die Behandl
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu Lonafarnib liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Nach allgemeinem Wissen ist Lonafarnib ein Farnesyltransferase-Inhibitor. Er blockiert die Farnesylierung von Proteinen, die für die Membranlokalisierung prenylierter Proteine wie Progerin und Ras-Familien-GTPasen erforderlich ist. Darauf beruht die Wirksamkeit bei Progerie.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Lonafarnib (inoffizielle Übersetzung): „Lonafarnib hemmt die Farnesyltransferase und verhindert so die Farnesylierung und die nachfolgende Akkumulation von Progerin und progerinähnlichen Proteinen in der inneren Kernmembran.“ Englischer Originalwortlaut: "Lonafarnib inhibits farnesyltransferase to prevent farnesylation and subsequent accumulation of progerin and progerin-like proteins in the inner nuclear membrane." ([DailyMed: Zokinvy (lonafarnib) prescribing information, Sentynl Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97391d0c-943e-4c5a-8423-68e163aa7f50), Fassung vom 2025-07-02; abgerufen am 2026-11-19). Nach allgemeinem Wissen ist Lonafarnib ein Farnesyltransferase-Inhibitor. Er blockiert die Farnesylierung von Proteinen, die für die Membranlokalisierung prenylierter Proteine wie Progerin und Ras-Familien-GTPasen erforderlich ist. Darauf beruht die Wirksamkeit bei Progerie.
 
 Ein möglicher, aber unbewiesener Zusammenhang mit Lepra wäre die Beeinflussung prenylierungsabhängiger Signalwege des Wirts (z. B. Ras/Rho-GTPasen). Diese spielen eine Rolle bei der Makrophagenfunktion, beim Überleben intrazellulärer Erreger und bei der Reaktion von Schwann-Zellen auf *Mycobacterium leprae*. Für diesen Mechanismus gibt es bei Lepra keine direkten Belege.
 
@@ -133,12 +133,13 @@ Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzniveau L5). E
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Die einzige Zulassung (Inhaber: TMC Pharma (EU) Limited) hat den Status „erloschen"“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „und die Zulassung in Deutschland ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Zokinvy (lonafarnib) prescribing information, Sentynl Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97391d0c-943e-4c5a-8423-68e163aa7f50) |
 
 <!-- review:end log -->
 

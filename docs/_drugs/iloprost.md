@@ -60,7 +60,7 @@ Deutlich besser belegt sind die weiteren Vorhersagen aus dem PAH-Spektrum, z. B.
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus lagen für diesen Bericht nicht vor. Iloprost gehört jedoch zur Klasse der Prostacyclin-Analoga: Es aktiviert den IP-Rezeptor, erhöht cAMP, führt zu pulmonaler Vasodilatation, hemmt die Thrombozytenaggregation und kann die Proliferation glatter Gefäßmuskelzellen verringern.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Iloprost (inoffizielle Übersetzung): „Iloprost ist ein synthetisches Analogon von Prostacyclin PGI 2. Iloprost ist ein Vasodilatator und hemmt die Thrombozytenaggregation.“ Englischer Originalwortlaut: "Iloprost is a synthetic analog of prostacyclin PGI 2. Iloprost is a vasodilator and inhibits platelet aggregation." ([DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4), Fassung vom 2026-08-13; abgerufen am 2026-11-19). Iloprost gehört jedoch zur Klasse der Prostacyclin-Analoga: Es aktiviert den IP-Rezeptor, erhöht cAMP, führt zu pulmonaler Vasodilatation, hemmt die Thrombozytenaggregation und kann die Proliferation glatter Gefäßmuskelzellen verringern.
 
 Für die Top-Vorhersage (Hypotrichosis simplex der Kopfhaut) ist der mechanistische Zusammenhang **spekulativ**. Theoretisch könnte eine Vasodilatation die Durchblutung der Kopfhaut oder den Haarfollikelzyklus beeinflussen. Die Hypotrichosis simplex ist jedoch eine genetische Erkrankung, die ein Vasodilatator voraussichtlich nicht an der Ursache angreift. Ähnliches gilt für die kongenitale Hypotrichosis mit Milien und die diffuse Alopecia areata (autoimmun): Hier fehlen belastbare Daten.
 
@@ -138,11 +138,12 @@ Für Warnhinweise und Gegenanzeigen laut Fachinformation liegen keine Daten vor;
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Hinzu kommt, dass die einzige deutsche Zulassung erloschen ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4) |
 
 <!-- review:end log -->
 

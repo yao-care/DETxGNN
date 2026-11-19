@@ -54,7 +54,7 @@ Certolizumab pegol ist ein gegen den Tumornekrosefaktor-α (TNF-α) gerichteter,
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Certolizumab pegol TNF-α selektiv neutralisiert und damit entzündliche Prozesse dämpft.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Certolizumab Pegol (inoffizielle Übersetzung): „Certolizumab pegol bindet an humanes TNFα mit einer KD von 90pM. TNFα ist ein wichtiges proinflammatorisches Zytokin mit einer zentralen Rolle bei Entzündungsprozessen. Certolizumab pegol neutralisiert TNFα selektiv (IC 90 von 4 ng/mL für die Hemmung von humanem TNFα im In-vitro-Zytotoxizitäts-Assay mit murinen L929-Fibrosarkomzellen), neutralisiert jedoch nicht Lymphotoxin α (TNFβ).“ Englischer Originalwortlaut: "Certolizumab pegol binds to human TNFα with a KD of 90pM. TNFα is a key pro-inflammatory cytokine with a central role in inflammatory processes. Certolizumab pegol selectively neutralizes TNFα (IC 90 of 4 ng/mL for inhibition of human TNFα in the in vitro L929 murine fibrosarcoma cytotoxicity assay) but does not neutralize lymphotoxin α (TNFβ)." ([DailyMed: Cimzia (certolizumab pegol) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4c2c9dc-a0bb-4d64-a667-a67ebe88392d), Fassung vom 2026-10-29; abgerufen am 2026-11-19). Bekannt ist, dass Certolizumab pegol TNF-α selektiv neutralisiert und damit entzündliche Prozesse dämpft.
 
 Für die vorhergesagte Indikation ist ein TNF-getriebener Entzündungsmechanismus jedoch nicht erkennbar. Die Steißbein-Hypermobilität ist eine mechanisch-strukturelle Störung. Die Plausibilität stützt sich daher allein auf den hohen Modellwert (0,9975), nicht auf eine nachvollziehbare biologische Begründung.
 
@@ -94,6 +94,19 @@ Für die Steißbein-Hypermobilität gibt es weder klinische Studien noch Publika
 - Präklinische oder klinische Daten, die diese Erkrankung direkt untersuchen
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
 - Detaillierte Wirkmechanismus-Daten
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Cimzia (certolizumab pegol) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4c2c9dc-a0bb-4d64-a667-a67ebe88392d) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -58,7 +58,7 @@ Aztreonam ist ein Monobactam-Antibiotikum, das gegen gramnegative Bakterien eing
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu Aztreonam liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Bekannt ist, dass Aztreonam als Monobactam die Zellwandsynthese gramnegativer aerober Bakterien durch Hemmung des Penicillin-bindenden Proteins 3 (PBP3) blockiert.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Aztreonam (inoffizielle Übersetzung): „Aztreonam ist ein bakterizider Wirkstoff, der durch Hemmung der bakteriellen Zellwandsynthese wirkt. Aztreonam ist in Gegenwart einiger Beta-Lactamasen gramnegativer und grampositiver Bakterien, sowohl Penicillinasen als auch Cephalosporinasen, wirksam.“ Englischer Originalwortlaut: "Aztreonam is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Aztreonam has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: aztreonam prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d4500795-3b07-4a7d-b432-73cafbb3dbc6), Fassung vom 2024-06-03; abgerufen am 2026-11-19). Bekannt ist, dass Aztreonam als Monobactam die Zellwandsynthese gramnegativer aerober Bakterien durch Hemmung des Penicillin-bindenden Proteins 3 (PBP3) blockiert.
 
 Hyperamylasämie ist jedoch ein biochemischer Laborbefund und keine Infektionskrankheit. Ein plausibler mechanistischer Zusammenhang zwischen der antibakteriellen Wirkung von Aztreonam und dieser Erkrankung ist nicht erkennbar. Der hohe Vorhersagewert ist daher sehr wahrscheinlich ein Artefakt des Modells und kein Hinweis auf einen echten therapeutischen Nutzen.
 
@@ -108,6 +108,19 @@ Für Hyperamylasämie gibt es weder klinische Studien noch Publikationen, und ei
 - Detaillierte Daten zum Wirkmechanismus (MOA)
 - Warn- und Gegenanzeigen aus der Packungsbeilage
 - Eine biologisch begründete Hypothese, die erklärt, warum ein Antibiotikum einen erhöhten Amylasespiegel beeinflussen sollte, bevor weitere Ressourcen eingesetzt werden
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: aztreonam prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d4500795-3b07-4a7d-b432-73cafbb3dbc6) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

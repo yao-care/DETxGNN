@@ -59,7 +59,7 @@ Das TxGNN-Modell sagt für den Wirkstoff unter anderem **Hypoalphalipoproteinäm
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Prucalopride wirkt als Agonist am 5-HT4-Rezeptor (Gen HTR4) und fördert die Motilität des Magen-Darm-Trakts. Es ist für Erwachsene mit chronischer Obstipation zugelassen, bei denen Abführmittel nicht ausreichend wirken.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Prucalopride (inoffizielle Übersetzung): „Prucaloprid, ein selektiver Serotonin-Typ-4 (5-HT 4 )-Rezeptoragonist, ist ein gastrointestinales (GI) Prokinetikum, das die Kolonperistaltik (hochamplitudige propagierende Kontraktionen [HAPCs]) stimuliert, wodurch die Darmmotilität erhöht wird. Prucaloprid zeigte in vitro keine über 5-HT 2A-, 5-HT 2B-, 5-HT 3-, Motilin- oder CCK-A-Rezeptoren vermittelten Wirkungen bei Konzentrationen, die die Affinität zum 5-HT 4 -Rezeptor um das 150-Fache oder mehr überstiegen.“ Englischer Originalwortlaut: "Prucalopride, a selective serotonin type 4 (5-HT 4 ) receptor agonist, is a gastrointestinal (GI) prokinetic agent that stimulates colonic peristalsis (high-amplitude propagating contractions [HAPCs]), which increases bowel motility. Prucalopride was devoid of effects mediated via 5-HT 2A, 5-HT 2B, 5-HT 3, motilin or CCK-A receptors in vitro at concentrations exceeding 5-HT 4 receptor affinity by 150-fold or greater." ([DailyMed: Motegrity (prucalopride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bca1e4c6-4b2b-4876-8ab3-654629c4ff1b), Fassung vom 2025-07-17; abgerufen am 2026-11-19). Bekannt ist: Prucalopride wirkt als Agonist am 5-HT4-Rezeptor (Gen HTR4) und fördert die Motilität des Magen-Darm-Trakts. Es ist für Erwachsene mit chronischer Obstipation zugelassen, bei denen Abführmittel nicht ausreichend wirken.
 
 Für Hypoalphalipoproteinämie, eine Störung des HDL-Stoffwechsels, besteht nach der Analyse **kein erkennbarer mechanistischer Zusammenhang**. Der hohe TxGNN-Wert scheint eine reine Vorhersage des TxGNN-Modells (Deep Learning) zu sein, ohne unterstützende Studien oder Literatur.
 
@@ -128,11 +128,12 @@ Für die Top-Vorhersage Hypoalphalipoproteinämie gibt es weder einen mechanisti
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „(erloschene Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Motegrity (prucalopride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bca1e4c6-4b2b-4876-8ab3-654629c4ff1b) |
 
 <!-- review:end log -->
 

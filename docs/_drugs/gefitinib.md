@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Gefitinib ein selektiver Inhibitor der EGFR-Tyrosinkinase ist. Seine Wirksamkeit beim EGFR-mutierten NSCLC ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Gefitinib (inoffizielle Übersetzung): „Der epidermale Wachstumsfaktorrezeptor (EGFR) wird auf der Zelloberfläche sowohl normaler Zellen als auch von Krebszellen exprimiert und spielt eine Rolle bei Prozessen des Zellwachstums und der Zellproliferation. Bestimmte aktivierende EGFR-Mutationen (Exon-19-Deletion oder Exon-21-Punktmutation L858R) in NSCLC-Zellen wurden als Faktoren identifiziert, die zur Förderung des Tumorzellwachstums, zur Blockade der Apoptose, zur Steigerung der Produktion angiogener Faktoren und zur Erleichterung der Metastasierungsprozesse beitragen. […] Gefitinib hemmt reversibel die Kinaseaktivität von EGFR-Wildtyp und bestimmten aktivierenden EGFR-Mutationen, verhindert die Autophosphorylierung rezeptorassoziierter Tyrosinreste und hemmt dadurch die weitere nachgeschaltete Signalübertragung und blockiert die EGFR-abhängige Proliferation.“ Englischer Originalwortlaut: "The epidermal growth factor receptor (EGFR) is expressed on the cell surface of both normal and cancer cells and plays a role in the processes of cell growth and proliferation. Some EGFR activating mutations (exon 19 deletion or exon 21 point mutation L858R) within NSCLC cells have been identified as contributing to the promotion of tumor cell growth, blocking of apoptosis, increasing the production of angiogenic factors and facilitating the processes of metastasis. […] Gefitinib reversibly inhibits the kinase activity of wild-type and certain activating mutations of EGFR, preventing autophosphorylation of tyrosine residues associated with the receptor, thereby inhibiting further downstream signaling and blocking EGFR-dependent proliferation." ([DailyMed: Iressa (gefitinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=827d60e8-7e07-41b7-c28b-49ef1c4a5a41), Fassung vom 2023-02-28; abgerufen am 2026-11-19). Bekannt ist, dass Gefitinib ein selektiver Inhibitor der EGFR-Tyrosinkinase ist. Seine Wirksamkeit beim EGFR-mutierten NSCLC ist belegt.
 
 Ein möglicher Zusammenhang mit der gingivalen Fibromatose wäre eine EGFR/ErbB-getriebene Fibroblastenproliferation. Dies ist jedoch spekulativ und durch die vorliegenden Daten nicht gestützt. Die hohe Modellbewertung allein belegt keine Wirksamkeit.
 
@@ -142,11 +142,12 @@ Die Vorhersage zur gingivalen Fibromatose beruht ausschließlich auf dem Modell 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche Zulassung erloschen, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Iressa (gefitinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=827d60e8-7e07-41b7-c28b-49ef1c4a5a41) |
 
 <!-- review:end log -->
 

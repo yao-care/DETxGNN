@@ -9,7 +9,7 @@
   "with_current": 27,
   "none_current": 0,
   "without_data": 2,
-  "with_reviews": 15,
+  "with_reviews": 23,
   "rows": [
    {
     "t": "Bupropion",
@@ -29,7 +29,7 @@
     "i": "myelodysplastic syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „die Zulassung in Deutschland ist erloschen“",
     "x": 0
    },
@@ -40,7 +40,7 @@
     "i": "myeloid leukemia",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „da die einzige Zulassung erloschen ist“",
     "x": 0
    },
@@ -51,8 +51,8 @@
     "i": "Angststörung",
     "lt": 0,
     "lv": 0,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -84,7 +84,7 @@
     "i": "headache disorder",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Entfernt: „da die einzige Zulassung (Omidria) erloschen ist und sich auf eine ophthalmologische Anwendung…",
     "x": 0
    },
@@ -95,7 +95,7 @@
     "i": "Augenerkrankung",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „zudem ist die deutsche bzw europäische Zulassung erloschen“",
     "x": 0
    },
@@ -106,7 +106,7 @@
     "i": "hepatitis E virus infection",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „(erloschene Zulassung; ggf. Verfügbarkeit anderer Peginterferon-Präparate)“",
     "x": 0
    },
@@ -117,8 +117,8 @@
     "i": "seborrheic dermatitis",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -128,7 +128,7 @@
     "i": "Ewing sarcoma",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Zudem sind die deutschen Zulassungen erloschen“",
     "x": 0
    },
@@ -139,7 +139,7 @@
     "i": "Hodgkins lymphoma",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „da die Zulassung in Deutschland erloschen ist“",
     "x": 0
    },
@@ -150,8 +150,8 @@
     "i": "Ewing-Sarkom",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -161,7 +161,7 @@
     "i": "liposarcoma",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Hinweis: Die Zulassungen wurden zentral über die EMA erteilt (Nummern EMEA/H/C/…) und sind laut…",
     "x": 0
    },
@@ -172,8 +172,8 @@
     "i": "alopecia areata",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -183,7 +183,7 @@
     "i": "mantle cell lymphoma",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „da der Markt nur eine stornierte Zulassung aufweist“",
     "x": 0
    },
@@ -194,7 +194,7 @@
     "i": "hepatitis B virus infection",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem ist die deutsche Zulassung erloschen“",
     "x": 0
    },
@@ -216,8 +216,8 @@
     "i": "HIV infectious disease",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -227,8 +227,8 @@
     "i": "follicular lymphoma",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -260,8 +260,8 @@
     "i": "alopecia areata",
     "lt": 0,
     "lv": 0,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -282,7 +282,7 @@
     "i": "dermatitis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Die Zulassung in Deutschland ist zudem erloschen“",
     "x": 0
    },
@@ -315,8 +315,8 @@
     "i": "liposarcoma",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -326,7 +326,7 @@
     "i": "dermatitis",
     "lt": 13,
     "lv": 12,
-    "r": 3,
+    "r": 4,
     "rs": "Entfernt: „(13 von 13 Zulassungen gültig, Arzneimittel im Handel)“",
     "x": 0
    }
@@ -350,7 +350,7 @@
   "with_current": 35,
   "none_current": 1,
   "without_data": 6,
-  "with_reviews": 22,
+  "with_reviews": 37,
   "rows": [
    {
     "t": "Abatacept",
@@ -359,8 +359,8 @@
     "i": "Morbus Bechterew",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -370,7 +370,7 @@
     "i": "follicular lymphoma",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „(erloschene Zulassung)“",
     "x": 0
    },
@@ -381,8 +381,8 @@
     "i": "rheumatoid arthritis",
     "lt": 0,
     "lv": 0,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -392,7 +392,7 @@
     "i": "staphylococcus aureus infection",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Der Marktstatus ist „nur erloschen““",
     "x": 0
    },
@@ -403,8 +403,8 @@
     "i": "Kleinzelliges Lungenkarzinom",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -414,7 +414,7 @@
     "i": "HIV infectious disease",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Klärung des Zulassungsstatus in Deutschland (derzeit nur erloschene Zulassung)“",
     "x": 0
    },
@@ -425,8 +425,8 @@
     "i": "amenorrhea (disease)",
     "lt": 0,
     "lv": 0,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -436,8 +436,8 @@
     "i": "Schizotype Persönlichkeitsstörung",
     "lt": 0,
     "lv": 0,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -458,7 +458,7 @@
     "i": "Myeloische Leukämie",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Klärung des Zulassungs- und Versorgungsstatus in Deutschland, da nur eine erloschene Zulassung…",
     "x": 0
    },
@@ -491,7 +491,7 @@
     "i": "Erkrankung der Nasenhöhle",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Entfernt: „da die einzige Zulassung aufgehoben ist“",
     "x": 0
    },
@@ -502,7 +502,7 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 0,
     "lv": 0,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „D rzneimittel n Deuts l d m Handel (1 v 1 ü ig)“",
     "x": 0
    },
@@ -513,8 +513,8 @@
     "i": "Hepatitis-B-Virus-Infektion",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -546,8 +546,8 @@
     "i": "hepatitis B virus infection",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -557,8 +557,8 @@
     "i": "alopecia mucinosa",
     "lt": 0,
     "lv": 0,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -568,7 +568,7 @@
     "i": "rheumatoid arthritis",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Hinzu kommen der erloschene Zulassungsstatus in Deutschland und ein relevantes Sicherheitsprofil…",
     "x": 0
    },
@@ -590,8 +590,8 @@
     "i": "autosomal-rezessiv",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -601,8 +601,8 @@
     "i": "HIV infectious disease",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -612,7 +612,7 @@
     "i": "Schlaganfall",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „(gelöschte Zulassung)“",
     "x": 0
    },
@@ -634,7 +634,7 @@
     "i": "Hyperphosphatämie",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Es gibt keine registrierten klinischen Studien, die Literatur besteht überwiegend aus…",
     "x": 0
    },
@@ -645,7 +645,7 @@
     "i": "hypouricemia, renal",
     "lt": 3,
     "lv": 3,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Zudem sind in Deutschland alle Zulassungen aufgehoben“",
     "x": 0
    },
@@ -656,7 +656,7 @@
     "i": "HIV infectious disease",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „ie Zulassungen in Deutschland sind aufgehoben, und d“",
     "x": 0
    },
@@ -678,7 +678,7 @@
     "i": "acne (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Diese Zulassung (zentrale EU-Zulassung) ist als erloschen/zurückgezogen geführt. Gültige…",
     "x": 0
    },
@@ -689,8 +689,8 @@
     "i": "Akne",
     "lt": 0,
     "lv": 0,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -700,7 +700,7 @@
     "i": "Migräne",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Klärung der Zulassungs- und Verfügbarkeitslage in Deutschland (derzeit nur erloschene Zulassungen)“",
     "x": 0
    },
@@ -711,7 +711,7 @@
     "i": "Migränestörung",
     "lt": 1,
     "lv": 0,
-    "r": 1,
+    "r": 2,
     "rs": "Tabelle: Natpar (EMEA/H/C/003861) ist zurückgenommen, nicht gültig",
     "x": 0
    },
@@ -733,7 +733,7 @@
     "i": "Hepatitis-B-Virusinfektion",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „(Zulassung nach den Daten erloschen)“",
     "x": 0
    },
@@ -744,7 +744,7 @@
     "i": "HIV infectious disease",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „und die deutsche Zulassung ist erloschen“",
     "x": 0
    },
@@ -755,8 +755,8 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -766,8 +766,8 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 14,
     "lv": 14,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -777,8 +777,8 @@
     "i": "exposure keratitis",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -799,8 +799,8 @@
     "i": "hepatitis B virus infection",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -838,7 +838,7 @@
   "with_current": 367,
   "none_current": 5,
   "without_data": 15,
-  "with_reviews": 183,
+  "with_reviews": 354,
   "rows": [
    {
     "t": "Denosumab",
@@ -847,8 +847,8 @@
     "i": "Schwere nichtproliferative diabetische Retinopathie",
     "lt": 0,
     "lv": 20,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -858,8 +858,8 @@
     "i": "Fokales Stiff-Limb-Syndrom",
     "lt": 19,
     "lv": 19,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -869,8 +869,8 @@
     "i": "Feline erworbene Immunschwäche",
     "lt": 18,
     "lv": 18,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -880,8 +880,8 @@
     "i": "migraine with brainstem aura",
     "lt": 16,
     "lv": 16,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -891,8 +891,8 @@
     "i": "esotropia",
     "lt": 14,
     "lv": 14,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -902,8 +902,8 @@
     "i": "Hypermobilität des Steißbeins",
     "lt": 11,
     "lv": 11,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -913,7 +913,7 @@
     "i": "Schwere nichtproliferative diabetische Retinopathie",
     "lt": 11,
     "lv": 11,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Weitere erloschene Zulassungen: Grasustek, Cegfila, Pelmeg, Fulphila, Nyvepria, Pelgraz“",
     "x": 0
    },
@@ -924,7 +924,7 @@
     "i": "malignant cutaneous granular cell skin tumor",
     "lt": 11,
     "lv": 11,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Es besteht derzeit eine gültige Zulassung“ (es sind 11 gültige)",
     "x": 0
    },
@@ -935,8 +935,8 @@
     "i": "Epiglottis-Neoplasma",
     "lt": 10,
     "lv": 10,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -946,8 +946,8 @@
     "i": "Atemwegsfehlbildung",
     "lt": 10,
     "lv": 10,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -957,8 +957,8 @@
     "i": "Maligne hypertensive Nierenerkrankung",
     "lt": 10,
     "lv": 10,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -979,8 +979,8 @@
     "i": "Beta-Ketothiolase-Mangel",
     "lt": 9,
     "lv": 9,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -990,8 +990,8 @@
     "i": "benign paroxysmal torticollis of infancy",
     "lt": 9,
     "lv": 9,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1001,8 +1001,8 @@
     "i": "brain stem infarction",
     "lt": 8,
     "lv": 8,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1012,8 +1012,8 @@
     "i": "nasal cavity disease",
     "lt": 8,
     "lv": 8,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1034,8 +1034,8 @@
     "i": "Pulmonale Hypertonie",
     "lt": 8,
     "lv": 8,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1045,7 +1045,7 @@
     "i": "Prinzmetal angina",
     "lt": 12,
     "lv": 8,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „(13 von 13 Zulassungen gültig)“",
     "x": 0
    },
@@ -1056,7 +1056,7 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 8,
     "lv": 8,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Weitere erloschene Zulassungen: Symtuza sowie zwei Viatris-Generika-Kombinationen…",
     "x": 0
    },
@@ -1067,7 +1067,7 @@
     "i": "duodenal ulcer (disease)",
     "lt": 8,
     "lv": 8,
-    "r": 3,
+    "r": 4,
     "rs": "Entfernt: „da alle Zulassungen aufgehoben sind“",
     "x": 0
    },
@@ -1078,8 +1078,8 @@
     "i": "PLA2G6-assoziierte Neurodegeneration",
     "lt": 7,
     "lv": 7,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1089,8 +1089,8 @@
     "i": "primary release disorder of platelets",
     "lt": 7,
     "lv": 7,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1100,7 +1100,7 @@
     "i": "autoimmune oophoritis",
     "lt": 8,
     "lv": 7,
-    "r": 3,
+    "r": 4,
     "rs": "Entfernt: „Zudem sind alle deutschen Zulassungen in den Daten als aufgehoben geführt, sodass der aktuelle…",
     "x": 0
    },
@@ -1122,7 +1122,7 @@
     "i": "Fokales Stiff-Limb-Syndrom",
     "lt": 7,
     "lv": 7,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Weitere erloschene Zulassungen: Vildagliptin / Metformin hydrochloride Accord (EMEA/H/C/005738)…",
     "x": 0
    },
@@ -1133,8 +1133,8 @@
     "i": "Familiäre horizontale Blickparese mit progressiver Skoliose",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1144,8 +1144,8 @@
     "i": "Atopisches Ekzem",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1155,8 +1155,8 @@
     "i": "Felines erworbenes Immundefizienz-Syndrom",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1166,7 +1166,7 @@
     "i": "autoimmune oophoritis",
     "lt": 6,
     "lv": 6,
-    "r": 4,
+    "r": 5,
     "rs": "Zahl der gültigen Zulassungen: 5 von 6 → alle 6",
     "x": 0
    },
@@ -1177,8 +1177,8 @@
     "i": "opsismodysplasia",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1188,7 +1188,7 @@
     "i": "tendinitis",
     "lt": 6,
     "lv": 6,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „(7 von 7 Zulassungen gültig)“",
     "x": 0
    },
@@ -1199,7 +1199,7 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 6,
     "lv": 6,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „und alle deutschen Zulassungen von Rilpivirin sind aufgehoben“",
     "x": 0
    },
@@ -1210,8 +1210,8 @@
     "i": "glaucoma",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1221,7 +1221,7 @@
     "i": "Ambras type hypertrichosis universalis congenita",
     "lt": 6,
     "lv": 6,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Zudem ist derzeit keine Zulassung in Deutschland aktiv“",
     "x": 0
    },
@@ -1232,8 +1232,8 @@
     "i": "Magenadenokarzinom und proximale Polyposis des Magens",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1243,8 +1243,8 @@
     "i": "Felines erworbenes Immunschwächesyndrom",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1254,8 +1254,8 @@
     "i": "Benigner paroxysmaler Torticollis des Säuglingsalters",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1265,8 +1265,8 @@
     "i": "Steißbeinhypermobilität",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1276,7 +1276,7 @@
     "i": "atopic eczema",
     "lt": 5,
     "lv": 5,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „angesichts der erloschenen Zulassungen“",
     "x": 0
    },
@@ -1287,7 +1287,7 @@
     "i": "autoimmune oophoritis",
     "lt": 5,
     "lv": 5,
-    "r": 3,
+    "r": 4,
     "rs": "ProZinc: „erloschen“ → gültige Zulassung für ein Tierarzneimittel",
     "x": 0
    },
@@ -1298,7 +1298,7 @@
     "i": "autoimmune oophoritis",
     "lt": 5,
     "lv": 5,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem sind derzeit 4 von 5 Zulassungen gültig, d“",
     "x": 0
    },
@@ -1309,8 +1309,8 @@
     "i": "hypertrichosis (disease)",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1320,7 +1320,7 @@
     "i": "Rasmussen-Enzephalitis",
     "lt": 5,
     "lv": 5,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „die fehlende gültige Zulassung in Deutschland sowie fehlende Daten zu Warnhinweisen und…",
     "x": 0
    },
@@ -1331,8 +1331,8 @@
     "i": "autosomal ichthyosis syndrome with fatal disease course",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1353,8 +1353,8 @@
     "i": "Spondylitis ankylosans",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1364,8 +1364,8 @@
     "i": "Felines erworbenes Immundefizienzsyndrom",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1375,8 +1375,8 @@
     "i": "Simian-Immundefizienzvirus-Infektion",
     "lt": 5,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1386,8 +1386,8 @@
     "i": "manic bipolar affective disorder",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1397,8 +1397,8 @@
     "i": "Brachydaktylie-Syndaktylie-Syndrom",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1430,7 +1430,7 @@
     "i": "rheumatoid arthritis",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem sind alle deutschen Zulassungen aufgehoben“",
     "x": 0
    },
@@ -1441,8 +1441,8 @@
     "i": "Felines erworbenes Immundefizienz-Syndrom",
     "lt": 4,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1452,8 +1452,8 @@
     "i": "atrophoderma vermiculata",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1463,8 +1463,8 @@
     "i": "Unklassifiziertes myelodysplastisches Syndrom",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1474,8 +1474,8 @@
     "i": "Felines erworbenes Immunschwächesyndrom",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1485,8 +1485,8 @@
     "i": "akute intermittierende Porphyrie",
     "lt": 4,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1496,8 +1496,8 @@
     "i": "acromesomelic dysplasia, Campailla Martinelli type",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1507,8 +1507,8 @@
     "i": "Sklerosierende Cholangitis",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1518,7 +1518,7 @@
     "i": "cyclic hematopoiesis",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Klärung des Zulassungsstatus in Deutschland (derzeit nur erloschene Zulassungen)“",
     "x": 0
    },
@@ -1529,8 +1529,8 @@
     "i": "Klassisches Stiff-Person-Syndrom",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1540,8 +1540,8 @@
     "i": "Prostata-Leiomyom",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1551,7 +1551,7 @@
     "i": "autosomal recessive familial Mediterranean fever",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem sind in Deutschland derzeit alle Zulassungen aufgehoben“",
     "x": 0
    },
@@ -1562,7 +1562,7 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 3,
     "lv": 3,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „und alle deutschen Zulassungen sind aufgehoben“",
     "x": 0
    },
@@ -1573,8 +1573,8 @@
     "i": "Hypermobilität des Steißbeins",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1584,8 +1584,8 @@
     "i": "Herzfibrosarkom",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1595,7 +1595,7 @@
     "i": "autoimmune oophoritis",
     "lt": 3,
     "lv": 3,
-    "r": 3,
+    "r": 4,
     "rs": "Entfernt: „(erloschene Zulassungen)“",
     "x": 0
    },
@@ -1606,7 +1606,7 @@
     "i": "duodenal obstruction",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „da alle erfassten Zulassungen aufgehoben sind“",
     "x": 0
    },
@@ -1617,7 +1617,7 @@
     "i": "pleural adenomatoid tumor",
     "lt": 4,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „alle vier Zulassungen sind derzeit gültig“",
     "x": 0
    },
@@ -1628,7 +1628,7 @@
     "i": "ectomesenchymoma",
     "lt": 3,
     "lv": 3,
-    "r": 2,
+    "r": 3,
     "rs": "Zahl der gültigen Zulassungen: 2 von 3 → alle 3",
     "x": 0
    },
@@ -1639,8 +1639,8 @@
     "i": "Extrakutanes Mastozytom",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1650,7 +1650,7 @@
     "i": "pneumocystosis",
     "lt": 3,
     "lv": 3,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Alle 5 deutschen Zulassungen sind gültig, d“",
     "x": 0
    },
@@ -1661,8 +1661,8 @@
     "i": "PLA2G6-associated neurodegeneration",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1672,8 +1672,8 @@
     "i": "Ambras type hypertrichosis universalis congenita",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1683,7 +1683,7 @@
     "i": "HIV-Infektionskrankheit",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Alle drei Zulassungen (Inhaber: Vertex Pharmaceuticals (Ireland) Limited) haben laut den Daten den…",
     "x": 0
    },
@@ -1694,7 +1694,7 @@
     "i": "renal-hepatic-pancreatic dysplasia",
     "lt": 3,
     "lv": 3,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „und die Hepatotoxizität sowie der erloschene Zulassungsstatus erfordern Vorsicht“",
     "x": 0
    },
@@ -1705,8 +1705,8 @@
     "i": "female breast carcinoma",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1716,7 +1716,7 @@
     "i": "Viszerale Kalziphylaxie",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „angesichts der erloschenen Zulassungen“",
     "x": 0
    },
@@ -1727,7 +1727,7 @@
     "i": "pulmonary arteriovenous malformation (disease)",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Die Zulassungen in Deutschland sind aufgehoben“",
     "x": 0
    },
@@ -1738,7 +1738,7 @@
     "i": "glaucoma",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Tabelle: Firdapse (EMEA/H/C/001032) ist gültig, nicht erloschen",
     "x": 0
    },
@@ -1749,8 +1749,8 @@
     "i": "Reaktive Thrombozytose",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1760,8 +1760,8 @@
     "i": "Migräne",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1771,8 +1771,8 @@
     "i": "primary hereditary glaucoma",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1793,8 +1793,8 @@
     "i": "Liposarkom",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1804,8 +1804,8 @@
     "i": "Hyperthyreose",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1837,7 +1837,7 @@
     "i": "rheumatoid arthritis",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Zudem sind die Zulassungen in eutschland erloschen, und d“",
     "x": 0
    },
@@ -1859,8 +1859,8 @@
     "i": "Erkrankung der Nasenhöhle",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1870,8 +1870,8 @@
     "i": "Parameningeales embryonales Rhabdomyosarkom",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1881,8 +1881,8 @@
     "i": "osteoarthritis",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1892,8 +1892,8 @@
     "i": "refractory cytopenia of childhood",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1903,8 +1903,8 @@
     "i": "Hepatische Porphyrie",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1914,7 +1914,7 @@
     "i": "hypertrichosis (disease)",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Beide Zulassungen haben den Status „erloschen/zurückgezogen““",
     "x": 0
    },
@@ -1925,8 +1925,8 @@
     "i": "Mucinosis follicularis",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1936,8 +1936,8 @@
     "i": "Felines erworbenes Immunschwächesyndrom",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1947,8 +1947,8 @@
     "i": "Felines erworbenes Immundefizienzsyndrom",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1969,8 +1969,8 @@
     "i": "cholesterol-ester transfer protein deficiency",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1980,7 +1980,7 @@
     "i": "hypertrichosis (disease)",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem sind beide deutschen Zulassungen erloschen“",
     "x": 0
    },
@@ -1991,8 +1991,8 @@
     "i": "Reizdarmsyndrom",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2002,8 +2002,8 @@
     "i": "Faziodigitogenitales Syndrom",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2013,8 +2013,8 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2024,7 +2024,7 @@
     "i": "Serpinopathie mit toxischer Serpin-Polymerisation",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Für den erworbenen C1-INH-Mangel ist die Evidenz begrenzt, und in Deutschland bestehen derzeit nur…",
     "x": 0
    },
@@ -2046,8 +2046,8 @@
     "i": "Viszerale Kalziphylaxie",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2057,8 +2057,8 @@
     "i": "Simian-Immundefizienzvirus-Infektion",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2068,8 +2068,8 @@
     "i": "Pulmonales Blastom",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2079,7 +2079,7 @@
     "i": "bronchitis",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Beide Zulassungen haben den Status „erloschen/zurückgezogen\"“",
     "x": 0
    },
@@ -2090,7 +2090,7 @@
     "i": "dermatofibrosarcoma protuberans",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Beide Zulassungen haben den Status „erloschen/gelöscht\"“",
     "x": 0
    },
@@ -2101,7 +2101,7 @@
     "i": "epiglottis neoplasm",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem sind beide deutschen Zulassungen aufgehoben, und d“",
     "x": 0
    },
@@ -2112,7 +2112,7 @@
     "i": "renal tubular acidosis",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „und die deutschen Zulassungen sind aufgehoben“",
     "x": 0
    },
@@ -2123,8 +2123,8 @@
     "i": "bronchitis",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2134,8 +2134,8 @@
     "i": "Hypervitaminose",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2145,7 +2145,7 @@
     "i": "insomnia (disease)",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Klärung der Gründe für den Zulassungsstatus „erloschen\"“",
     "x": 0
    },
@@ -2167,7 +2167,7 @@
     "i": "duodenal ulcer (disease)",
     "lt": 3,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „da alle Zulassungen in Deutschland aufgehoben sind“",
     "x": 0
    },
@@ -2178,8 +2178,8 @@
     "i": "bilaterale parasagittale parieto-okzipitale Polymikrogyrie",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2189,8 +2189,8 @@
     "i": "uterine corpus perivascular epithelioid cell tumor",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2200,7 +2200,7 @@
     "i": "brain small vessel disease 1 with or without ocular anomalies",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „und beide deutschen/EU-Zulassungen sind erloschen“",
     "x": 0
    },
@@ -2211,8 +2211,8 @@
     "i": "pseudo-von Willebrand disease",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2222,8 +2222,8 @@
     "i": "Liposarkom",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2233,7 +2233,7 @@
     "i": "female breast carcinoma",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Klären, warum die Zulassungen in Deutschland erloschen sind und ob eine Wiederzulassung oder ein…",
     "x": 0
    },
@@ -2244,7 +2244,7 @@
     "i": "hyperlucent lung",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „da die Einzelwirkstoff-Zulassungen erloschen sind“",
     "x": 0
    },
@@ -2255,8 +2255,8 @@
     "i": "Tourette syndrome",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2277,7 +2277,7 @@
     "i": "benign paroxysmal torticollis of infancy",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „da nur eine aufgehobene Zulassung vorliegt“",
     "x": 0
    },
@@ -2310,7 +2310,7 @@
     "i": "fibromatosis, gingival",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Hinweis: Diese Zulassung ist als erloschen/widerrufen (cancelled) geführt; eine gültige Zulassung…",
     "x": 0
    },
@@ -2321,8 +2321,8 @@
     "i": "Adulte Polyglucosan-Körper-Krankheit",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2332,7 +2332,7 @@
     "i": "ichthyosis, X-linked, without steroid sulfatase deficiency",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Klärung des Marktstatus, da die deutsche Zulassung nur als erloschen geführt wird“",
     "x": 0
    },
@@ -2343,8 +2343,8 @@
     "i": "pulmonary hypertension owing to lung disease and/or hypoxia",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2354,7 +2354,7 @@
     "i": "pulmonary hypertension",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Zudem ist die Zulassung in Deutschland aufgehoben“",
     "x": 0
    },
@@ -2365,7 +2365,7 @@
     "i": "Paratyphus",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Diese Zulassung ist erloschen bzw. widerrufen“",
     "x": 0
    },
@@ -2376,7 +2376,7 @@
     "i": "extracutaneous mastocytoma",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „(erloschene Zulassung)“",
     "x": 0
    },
@@ -2387,7 +2387,7 @@
     "i": "Glanzmann thrombasthenia",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Status dieser Zulassung: erloschen/aufgehoben (cancelled)“",
     "x": 0
    },
@@ -2398,8 +2398,8 @@
     "i": "Nephrogenes Syndrom der inadäquaten Antidiurese",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2409,8 +2409,8 @@
     "i": "Retinale Dystrophie mit oder ohne extraokulare Anomalien",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2420,7 +2420,7 @@
     "i": "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Zudem ist die einzige Zulassung in Deutschland als erloschen geführt“",
     "x": 0
    },
@@ -2442,8 +2442,8 @@
     "i": "Gebärmutterband-Adenokarzinom",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2453,8 +2453,8 @@
     "i": "axiale spondylometaphysäre Dysplasie",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2464,8 +2464,8 @@
     "i": "Makrothrombozytopenie mit Mitralklappeninsuffizienz",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2475,8 +2475,8 @@
     "i": "Humaner Herpesvirus-8-assoziierter Tumor",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2486,7 +2486,7 @@
     "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Klären, dass in Deutschland nur eine erloschene Zulassung vorliegt, und den regulatorischen Status…",
     "x": 0
    },
@@ -2497,8 +2497,8 @@
     "i": "Hyperamylasämie",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2508,8 +2508,8 @@
     "i": "Kolobomatöse Mikrophthalmie-rhizomele-Dysplasie-Syndrom",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2530,8 +2530,8 @@
     "i": "primary release disorder of platelets",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2541,8 +2541,8 @@
     "i": "Thrombozytopenie durch Immunzerstörung",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2552,8 +2552,8 @@
     "i": "Primäres kutanes B-Zell-Lymphom",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2563,8 +2563,8 @@
     "i": "Felines erworbenes Immundefizienzsyndrom",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2574,7 +2574,7 @@
     "i": "fibromatosis, gingival",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „(gelöschte Zulassung)“",
     "x": 0
    },
@@ -2585,8 +2585,8 @@
     "i": "β-Ketothiolase-Mangel",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2596,7 +2596,7 @@
     "i": "strongyloidiasis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „(erloschene Zulassung)“",
     "x": 0
    },
@@ -2607,7 +2607,7 @@
     "i": "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „und die einzige deutsche Zulassung ist erloschen“",
     "x": 0
    },
@@ -2618,7 +2618,7 @@
     "i": "acrodermatitis chronica atrophicans",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Diese Zulassung ist erloschen“",
     "x": 0
    },
@@ -2629,8 +2629,8 @@
     "i": "Leberinfarkt",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2640,8 +2640,8 @@
     "i": "Primäre Thrombozytenfreisetzungsstörung",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2651,7 +2651,7 @@
     "i": "CMM7",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem ist die Zulassung in Deutschland aufgehoben“",
     "x": 0
    },
@@ -2662,8 +2662,8 @@
     "i": "gastrin secretion abnormality",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2673,7 +2673,7 @@
     "i": "primary release disorder of platelets",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „angesichts der erloschenen Zulassung“",
     "x": 0
    },
@@ -2684,7 +2684,7 @@
     "i": "severe nonproliferative diabetic retinopathy",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Diese Zulassung ist als erloschen/zurückgezogen geführt“",
     "x": 0
    },
@@ -2706,8 +2706,8 @@
     "i": "Adenosquamöses Gallenblasenkarzinom",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2717,7 +2717,7 @@
     "i": "fibromatosis, gingival",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Die einzige Zulassung hat den Status „erloschen\"“",
     "x": 0
    },
@@ -2728,7 +2728,7 @@
     "i": "Scheie syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „und die deutsche Zulassung ist erloschen“",
     "x": 0
    },
@@ -2739,8 +2739,8 @@
     "i": "Steißbein-Hypermobilität",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2750,7 +2750,7 @@
     "i": "hypertrichosis (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Zudem ist die einzige deutsche bzw. europäische Zulassung erloschen“",
     "x": 0
    },
@@ -2761,8 +2761,8 @@
     "i": "Chondroides Hamartom",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2783,8 +2783,8 @@
     "i": "amyotrophic lateral sclerosis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2794,7 +2794,7 @@
     "i": "gastroduodenitis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem ist die einzige deutsche Zulassung aufgehoben, und d“",
     "x": 0
    },
@@ -2805,7 +2805,7 @@
     "i": "fibromatosis, gingival",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem ist die einzige deutsche Zulassung aufgehoben, und d“",
     "x": 0
    },
@@ -2816,8 +2816,8 @@
     "i": "postinfektiöse Vaskulitis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2827,7 +2827,7 @@
     "i": "moderate multiminicore disease with hand involvement",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „(erloschene Agilus-Zulassung vs. andere Formulierungen)“",
     "x": 0
    },
@@ -2838,7 +2838,7 @@
     "i": "homozygous familial hypercholesterolemia",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Zudem ist die einzige deutsche Zulassung erloschen“",
     "x": 0
    },
@@ -2849,7 +2849,7 @@
     "i": "pseudo-von Willebrand disease",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Klärung des Zulassungsstatus in Deutschland (aktuell nur erloschene Zulassung)“",
     "x": 0
    },
@@ -2860,8 +2860,8 @@
     "i": "Allergische Urtikaria",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2871,7 +2871,7 @@
     "i": "esotropia",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem ist die Zulassung in Deutschland aufgehoben, und f“",
     "x": 0
    },
@@ -2882,7 +2882,7 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „die einzige Zulassung erloschen ist und“",
     "x": 0
    },
@@ -2893,7 +2893,7 @@
     "i": "diabetic cataract",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „und die Zulassung in Deutschland ist erloschen“",
     "x": 0
    },
@@ -2915,8 +2915,8 @@
     "i": "uterine ligament adenocarcinoma",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2926,8 +2926,8 @@
     "i": "Esotropie",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2937,7 +2937,7 @@
     "i": "pseudo-von Willebrand disease",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Die einzige deutsche Zulassung ist erloschen“",
     "x": 0
    },
@@ -2948,7 +2948,7 @@
     "i": "pseudo-von Willebrand disease",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „angesichts der erloschenen Zulassung“",
     "x": 0
    },
@@ -2959,7 +2959,7 @@
     "i": "amenorrhea (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem besteht in Deutschland laut den Daten nur eine erloschene Zulassung“",
     "x": 0
    },
@@ -2970,8 +2970,8 @@
     "i": "Hepatitis-B-Virus-Infektion",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2981,8 +2981,8 @@
     "i": "Pseudo-von-Willebrand-Krankheit",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2992,7 +2992,7 @@
     "i": "leprosy",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Diese Zulassung ist als erloschen geführt“",
     "x": 0
    },
@@ -3003,7 +3003,7 @@
     "i": "thrombophilia due to protein C deficiency, autosomal recessive",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem ist die einzige erfasste Zulassung in eutschland erloschen, und d“",
     "x": 0
    },
@@ -3014,7 +3014,7 @@
     "i": "obstructive lung disease",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Entfernt: „(Zulassung erloschen)“",
     "x": 0
    },
@@ -3025,7 +3025,7 @@
     "i": "rheumatoid arthritis",
     "lt": 2,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Das Blutungsrisiko, die rein intravenöse Anwendung und der aktuell fehlende gültige…",
     "x": 0
    },
@@ -3036,7 +3036,7 @@
     "i": "pulmonary hypertension",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem ist die deutsche Zulassung erloschen, und d“",
     "x": 0
    },
@@ -3047,8 +3047,8 @@
     "i": "agoraphobia",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3058,8 +3058,8 @@
     "i": "Duodenalobstruktion",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3080,8 +3080,8 @@
     "i": "Felines erworbenes Immundefizienz-Syndrom",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3091,7 +3091,7 @@
     "i": "symptomatic form of hemophilia in female carriers",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem ist die einzige in Deutschland erfasste Zulassung erloschen“",
     "x": 0
    },
@@ -3102,8 +3102,8 @@
     "i": "cholesterol-ester transfer protein deficiency",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3113,7 +3113,7 @@
     "i": "proximal 16p11.2 microdeletion syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „(warum die Zulassung gelöscht wurde)“",
     "x": 0
    },
@@ -3124,8 +3124,8 @@
     "i": "vitamin B12- and folate-independent constitutional megaloblastic anemia",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3135,7 +3135,7 @@
     "i": "staphylococcal scalded skin syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Zudem ist die deutsche Zulassung erloschen“",
     "x": 0
    },
@@ -3146,8 +3146,8 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3157,7 +3157,7 @@
     "i": "autosomal thrombocytopenia with normal platelets",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Diese Zulassung ist erloschen (Hersteller: Instituto Grifols S.A.)“",
     "x": 0
    },
@@ -3168,7 +3168,7 @@
     "i": "atrophoderma vermiculata",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „(Zentralzulassung EMA vs. erloschener Eintrag)“",
     "x": 0
    },
@@ -3179,8 +3179,8 @@
     "i": "heparin cofactor 2 deficiency",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3190,7 +3190,7 @@
     "i": "fibromatosis, gingival",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem ist die einzige deutsche Zulassung erloschen, und d“",
     "x": 0
    },
@@ -3201,8 +3201,8 @@
     "i": "bulbar polio",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3223,8 +3223,8 @@
     "i": "Primäre Pfortaderthrombose",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3234,8 +3234,8 @@
     "i": "HIV-Infektionskrankheit",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3245,8 +3245,8 @@
     "i": "Fokales Stiff-Limb-Syndrom",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3278,7 +3278,7 @@
     "i": "manic bipolar affective disorder",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „(Zulassung erloschen)“",
     "x": 0
    },
@@ -3300,8 +3300,8 @@
     "i": "Ösophagusvarizen mit Blutung",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3311,7 +3311,7 @@
     "i": "hemoglobinopathy",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Hinweis: Diese Zulassung ist aufgehoben (Status: cancelled)“",
     "x": 0
    },
@@ -3322,8 +3322,8 @@
     "i": "Hepatische Porphyrie",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3333,7 +3333,7 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Hinzu kommt, dass die einzige deutsche Zulassung erloschen ist“",
     "x": 0
    },
@@ -3355,8 +3355,8 @@
     "i": "Diffuse Sklerodermie",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3366,7 +3366,7 @@
     "i": "Kaliummangelerkrankung",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Die einzige Zulassung (Novartis Europharm Limited) ist als aufgehoben geführt“",
     "x": 0
    },
@@ -3377,8 +3377,8 @@
     "i": "autoimmune oophoritis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3388,7 +3388,7 @@
     "i": "thiamine-responsive dysfunction syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Entfernt: „(erloschene Zulassung, ggf. Alternativpräparate oder Neuzulassung)“",
     "x": 0
    },
@@ -3399,7 +3399,7 @@
     "i": "hairy cell leukemia",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Die Zulassung in Deutschland ist zudem erloschen“",
     "x": 0
    },
@@ -3410,7 +3410,7 @@
     "i": "choroideremia",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Tabelle: Yervoy (EMEA/H/C/002213) ist gültig, nicht erloschen",
     "x": 0
    },
@@ -3432,7 +3432,7 @@
     "i": "Serpinopathie mit toxischer Serpin-Polymerisation",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Der aktuelle deutsche Zulassungsstatus ist „nur erloschen““",
     "x": 0
    },
@@ -3454,8 +3454,8 @@
     "i": "Sanfilippo-Syndrom",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3465,8 +3465,8 @@
     "i": "atrophoderma vermiculata",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3487,8 +3487,8 @@
     "i": "vulvovaginal candidiasis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3498,8 +3498,8 @@
     "i": "Punktförmige epitheliale Keratokonjunktivitis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3509,8 +3509,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3520,7 +3520,7 @@
     "i": "cauda equina syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Tabelle: Constella (EMEA/H/C/002490) ist gültig, nicht erloschen",
     "x": 0
    },
@@ -3531,8 +3531,8 @@
     "i": "Primäre Thrombozyten-Freisetzungsstörung",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3542,8 +3542,8 @@
     "i": "Marcothrombozytopenie mit Mitralklappeninsuffizienz",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3553,7 +3553,7 @@
     "i": "leprosy",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „und die Zulassung in Deutschland ist erloschen“",
     "x": 0
    },
@@ -3564,8 +3564,8 @@
     "i": "pseudo-von Willebrand disease",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3575,7 +3575,7 @@
     "i": "fibromatosis, gingival",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Zudem ist die deutsche Zulassung erloschen“",
     "x": 0
    },
@@ -3586,8 +3586,8 @@
     "i": "Retinale Dystrophie mit oder ohne extraokulare Anomalien",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3597,7 +3597,7 @@
     "i": "leprosy",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „da die einzige Zulassung erloschen ist“",
     "x": 0
    },
@@ -3608,8 +3608,8 @@
     "i": "Retinale Dystrophie mit oder ohne extraokulare Anomalien",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3619,7 +3619,7 @@
     "i": "multiple endocrine neoplasia",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „en die erloschene deu sche Zulassung und“",
     "x": 0
    },
@@ -3630,8 +3630,8 @@
     "i": "Nephrogenes Syndrom der inadäquaten Antidiurese",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3641,7 +3641,7 @@
     "i": "multiple endocrine neoplasia",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „da die deutsche Zulassung erloschen ist“",
     "x": 0
    },
@@ -3652,8 +3652,8 @@
     "i": "monosomy X",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3663,8 +3663,8 @@
     "i": "Weibliches Mammakarzinom",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3674,8 +3674,8 @@
     "i": "thrombocytopenia due to immune destruction",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3685,7 +3685,7 @@
     "i": "bakterielle Arthritis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Klärung des Zulassungsstatus in Deutschland (derzeit nur erloschene Zulassung)“",
     "x": 0
    },
@@ -3707,8 +3707,8 @@
     "i": "primary release disorder of platelets",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3718,8 +3718,8 @@
     "i": "Faziodigitogenitales Syndrom",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3729,7 +3729,7 @@
     "i": "familial generalized lentiginosis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem ist die Zulassung in eutschland erloschen, und d“",
     "x": 0
    },
@@ -3740,7 +3740,7 @@
     "i": "prostatic urethra urothelial carcinoma",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Zudem ist die einzige deutsche Zulassung aufgehoben“",
     "x": 0
    },
@@ -3751,7 +3751,7 @@
     "i": "primary cutaneous T-cell lymphoma",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „eine aufgehobene Zulassung in Deutschland und“",
     "x": 0
    },
@@ -3762,7 +3762,7 @@
     "i": "primary release disorder of platelets",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „und die deutsche Zulassung ist erloschen“",
     "x": 0
    },
@@ -3773,7 +3773,7 @@
     "i": "relapsing-remitting multiple sclerosis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „und die einzige deutsche Zulassung ist erloschen“",
     "x": 0
    },
@@ -3784,7 +3784,7 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „und die Zulassung in Deutschland ist erloschen“",
     "x": 0
    },
@@ -3795,7 +3795,7 @@
     "i": "malformation syndrome with odontal and/or periodontal component",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „da die einzige erfasste Zulassung erloschen ist“",
     "x": 0
    },
@@ -3806,7 +3806,7 @@
     "i": "amenorrhea (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „angesichts des erloschenen Marktstatus“",
     "x": 0
    },
@@ -3817,7 +3817,7 @@
     "i": "HER2 positive breast carcinoma",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Zudem ist die deutsche Zulassung aufgehoben“",
     "x": 0
    },
@@ -3828,8 +3828,8 @@
     "i": "vulvar inverted follicular keratosis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3839,8 +3839,8 @@
     "i": "Rosazea-Konjunktivitis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3850,8 +3850,8 @@
     "i": "Bacteroidaceae infectious disease",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3872,7 +3872,7 @@
     "i": "restless legs syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem ist die einzige deutsche Zulassung erloschen“",
     "x": 0
    },
@@ -3883,7 +3883,7 @@
     "i": "hyperthyroidism",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Zudem ist die Zulassung in eutschland erloschen, und d“",
     "x": 0
    },
@@ -3894,7 +3894,7 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „da die einzige Zulassung erloschen ist“",
     "x": 0
    },
@@ -3905,8 +3905,8 @@
     "i": "benign neoplasm of tongue",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3916,7 +3916,7 @@
     "i": "drug-induced osteoporosis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem besteht in Deutschland nur eine erloschene Zulassung, was die praktische Verfügbarkeit…",
     "x": 0
    },
@@ -3927,7 +3927,7 @@
     "i": "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Die Zulassung ist jedoch als erloschen verzeichnet, und e“",
     "x": 0
    },
@@ -3938,7 +3938,7 @@
     "i": "diabetic retinopathy",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Diese Zulassung ist erloschen bzw. zurückgezogen (Status: cancelled)“",
     "x": 0
    },
@@ -3949,7 +3949,7 @@
     "i": "fibromatosis, gingival",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „da nur eine gelöschte Zulassung vorliegt“",
     "x": 0
    },
@@ -3960,7 +3960,7 @@
     "i": "multiple endocrine neoplasia",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Zudem ist die einzige deutsche Zulassung aufgehoben“",
     "x": 0
    },
@@ -3971,7 +3971,7 @@
     "i": "primary release disorder of platelets",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „warum die Zulassung erloschen ist, und“",
     "x": 0
    },
@@ -4004,7 +4004,7 @@
     "i": "fibromatosis, gingival",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Entfernt: „angesichts der erloschenen Zulassung“",
     "x": 0
    },
@@ -4015,8 +4015,8 @@
     "i": "heparin cofactor 2 deficiency",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4026,7 +4026,7 @@
     "i": "pulmonary hypertension",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „(erloschene Zulassung des Originalpräparats Efient; Generika prüfen)“",
     "x": 0
    },
@@ -4048,7 +4048,7 @@
     "i": "papillary conjunctivitis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „da die Zulassung aufgehoben ist“",
     "x": 0
    },
@@ -4059,7 +4059,7 @@
     "i": "distal myopathy, Tateyama type",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Die in Deutschland einzige Zulassung ist aufgehoben“",
     "x": 0
    },
@@ -4070,7 +4070,7 @@
     "i": "hypoalphalipoproteinemia",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „(erloschene Zulassung)“",
     "x": 0
    },
@@ -4092,7 +4092,7 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem ist die einzige deutsche Zulassung erloschen“",
     "x": 0
    },
@@ -4103,7 +4103,7 @@
     "i": "Adenokarzinom des Ligamentum uteri",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „und die einzige deutsche Zulassung ist erloschen“",
     "x": 0
    },
@@ -4114,7 +4114,7 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Hinweis: Diese Zulassung (Inhaber: Menarini International Operations Luxembourg S.A.) ist als…",
     "x": 0
    },
@@ -4125,7 +4125,7 @@
     "i": "hypouricemia, renal",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „(erloschene Zulassung)“",
     "x": 0
    },
@@ -4136,7 +4136,7 @@
     "i": "autosomal recessive severe congenital neutropenia due to G6PC3 deficiency",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Der Status dieser Zulassung ist „erloschen/aufgehoben“. Eine gültige Zulassung ist in den Daten…",
     "x": 0
    },
@@ -4147,8 +4147,8 @@
     "i": "anaphylaxis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4158,8 +4158,8 @@
     "i": "Hyperamylasämie",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4169,8 +4169,8 @@
     "i": "multiple endocrine neoplasia",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4191,7 +4191,7 @@
     "i": "thrombocytopenia due to immune destruction",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „da die Zulassung erloschen ist“",
     "x": 0
    },
@@ -4202,8 +4202,8 @@
     "i": "Myeloische Leukämie",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4224,7 +4224,7 @@
     "i": "acne (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Hinweis: Diese Zulassung ist als erloschen/zurückgezogen geführt (Status: cancelled)“",
     "x": 0
    },
@@ -4246,7 +4246,7 @@
     "i": "primary release disorder of platelets",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „da die einzige Zulassung erloschen ist“",
     "x": 0
    },
@@ -4257,8 +4257,8 @@
     "i": "Laubry-Pezzi syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4268,7 +4268,7 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „(aufgehobene Zulassung)“",
     "x": 0
    },
@@ -4279,7 +4279,7 @@
     "i": "Trockenes-Auge-Syndrom",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem ist die Zulassung in eutschland erloschen, und d“",
     "x": 0
    },
@@ -4290,8 +4290,8 @@
     "i": "perioral myoclonia with absences",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4301,8 +4301,8 @@
     "i": "drug-induced osteoporosis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4312,7 +4312,7 @@
     "i": "Rasmussen-Enzephalitis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Tabelle: Xadago (EMEA/H/C/002396) ist gültig, nicht erloschen",
     "x": 0
    },
@@ -4323,8 +4323,8 @@
     "i": "Atemwegsfehlbildung",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4334,8 +4334,8 @@
     "i": "Scheie-Syndrom",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4345,7 +4345,7 @@
     "i": "drug-induced osteoporosis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem ist die Zulassung in eutschland erloschen, und d“",
     "x": 0
    },
@@ -4356,7 +4356,7 @@
     "i": "pulmonary hypertension",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Klärung des Zulassungsstatus in Deutschland (aktuell nur erloschene Zulassung)“",
     "x": 0
    },
@@ -4367,8 +4367,8 @@
     "i": "familial generalized lentiginosis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4389,7 +4389,7 @@
     "i": "extracutaneous mastocytoma",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Zudem ist die deutsche Zulassung aufgehoben“",
     "x": 0
    },
@@ -4400,7 +4400,7 @@
     "i": "brain stem infarction",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „(die erfasste Zulassung betrifft ein Kombinationspräparat und ist erloschen)“",
     "x": 0
    },
@@ -4411,8 +4411,8 @@
     "i": "Liposarkom",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4422,7 +4422,7 @@
     "i": "Akute lymphoblastische Leukämie",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Entfernt: „(der Status „erloschen“ sollte verifiziert werden)“",
     "x": 0
    },
@@ -4433,7 +4433,7 @@
     "i": "Hypotrichosis simplex der Kopfhaut",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Alle drei Zulassungen sind gültig“",
     "x": 0
    },
@@ -4444,7 +4444,7 @@
     "i": "primary release disorder of platelets",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „(erloschene Zulassung)“",
     "x": 0
    },
@@ -4455,8 +4455,8 @@
     "i": "esotropia",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4466,8 +4466,8 @@
     "i": "Glottis-Plattenepithelkarzinom",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4477,7 +4477,7 @@
     "i": "bilateral parasagittal parieto-occipital polymicrogyria",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem ist die einzige deutsche/EU-Zulassung erloschen“",
     "x": 0
    },
@@ -4488,7 +4488,7 @@
     "i": "Urothelkarzinom der prostatischen Harnröhre",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „ie Zulassung in Deutschland ist erloschen, und d“",
     "x": 0
    },
@@ -4499,8 +4499,8 @@
     "i": "hordeolum",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4510,8 +4510,8 @@
     "i": "Villöses Adenom des Zäkums",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4521,7 +4521,7 @@
     "i": "nasopharyngeal teratoma",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem ist die einzige deutsche Zulassung erloschen“",
     "x": 0
    },
@@ -4532,7 +4532,7 @@
     "i": "Liposarkom",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Klären, wie mit der erloschenen Zulassung und der Verfügbarkeit des Präparats in Deutschland…",
     "x": 0
    },
@@ -4543,7 +4543,7 @@
     "i": "congenital coronary artery anomaly",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Zudem ist die deutsche Zulassung erloschen“",
     "x": 0
    },
@@ -4554,7 +4554,7 @@
     "i": "monosomy X",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Diese Zulassung ist als erloschen/gelöscht geführt (Zulassungsinhaber: Amgen Europe B.V.)“",
     "x": 0
    },
@@ -4576,7 +4576,7 @@
     "i": "Migräne",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „da das Produkt nur injizierbar bekannt ist und die Zulassung erloschen ist“",
     "x": 0
    },
@@ -4587,8 +4587,8 @@
     "i": "intracranial arteriosclerosis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4598,7 +4598,7 @@
     "i": "severe nonproliferative diabetic retinopathy",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „(erloschene Zulassung)“",
     "x": 0
    },
@@ -4609,8 +4609,8 @@
     "i": "Zäkum-Zottenadenom",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4620,7 +4620,7 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „und die Zulassung in Deutschland ist aufgehoben“",
     "x": 0
    },
@@ -4631,7 +4631,7 @@
     "i": "endocervical carcinoma",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem ist die einzige deutsche Zulassung erloschen, und d“",
     "x": 0
    },
@@ -4642,7 +4642,7 @@
     "i": "amenorrhea (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „da die bisherige Zulassung erloschen ist“",
     "x": 0
    },
@@ -4653,8 +4653,8 @@
     "i": "Rasmussen subacute encephalitis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4664,7 +4664,7 @@
     "i": "HIV infectious disease",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „und das Fehlen einer gültigen Zulassung in Deutschland“",
     "x": 0
    },
@@ -4675,7 +4675,7 @@
     "i": "choroideremia",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Zudem ist die deutsche Zulassung erloschen und die Sicherheitsdaten der Fachinformation fehlen“",
     "x": 0
    },
@@ -4686,8 +4686,8 @@
     "i": "drug-induced osteoporosis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4697,8 +4697,8 @@
     "i": "diabetic cataract",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4708,7 +4708,7 @@
     "i": "pulmonary arteriovenous malformation (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Klärung, warum die einzige deutsche Zulassung (Trepulmix) aufgehoben ist, und“",
     "x": 0
    },
@@ -4719,8 +4719,8 @@
     "i": "primary release disorder of platelets",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4730,8 +4730,8 @@
     "i": "primary release disorder of platelets",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4752,7 +4752,7 @@
     "i": "Kolobomatöses-Mikrophthalmie-rhizomeles-Dysplasie-Syndrom",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Zudem besteht in Deutschland nur eine gelöschte Zulassung“",
     "x": 0
    },
@@ -4763,8 +4763,8 @@
     "i": "Migräne",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4796,7 +4796,7 @@
     "i": "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Zudem ist die einzige Zulassung in Deutschland erloschen“",
     "x": 0
    },
@@ -4807,7 +4807,7 @@
     "i": "Scheie-Syndrom",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „da die Zulassung erloschen ist“",
     "x": 0
    },
@@ -4829,8 +4829,8 @@
     "i": "primary release disorder of platelets",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4840,7 +4840,7 @@
     "i": "neurotic disorder",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Zudem ist die einzige deutsche Zulassung erloschen“",
     "x": 0
    },
@@ -4851,7 +4851,7 @@
     "i": "pyelonephritis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „da die einzige deutsche Zulassung aufgehoben ist“",
     "x": 0
    },
@@ -4862,7 +4862,7 @@
     "i": "myeloid leukemia",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Die einzige erfasste Zulassung hat den Status „erloschen/zurückgezogen““",
     "x": 0
    },
@@ -4873,7 +4873,7 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 2,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Tabelle: Trizivir (EMEA/H/C/000338) ist zurückgenommen, nicht gültig",
     "x": 0
    },
@@ -4884,8 +4884,8 @@
     "i": "Maligne hypertensive Nierenerkrankung",
     "lt": 0,
     "lv": 0,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4895,8 +4895,8 @@
     "i": "Akute weibliche Beckenperitonitis",
     "lt": 1,
     "lv": 0,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4906,8 +4906,8 @@
     "i": "Atopisches Ekzem",
     "lt": 0,
     "lv": 0,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4917,8 +4917,8 @@
     "i": "Hodgkin-Lymphom",
     "lt": 1,
     "lv": 0,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4950,8 +4950,8 @@
     "i": "Retinale Dystrophie mit oder ohne extraokulare Anomalien",
     "lt": 1,
     "lv": 0,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4983,8 +4983,8 @@
     "i": "Pneumocystose",
     "lt": 0,
     "lv": 0,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -5005,7 +5005,7 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 0,
     "lv": 0,
-    "r": 3,
+    "r": 4,
     "rs": "„alle Zulassungen aufgehoben“ → keine zentrale EU-Zulassung für Menschen, 16 gültige für Tierarzneimittel",
     "x": 0
    },
@@ -5016,7 +5016,7 @@
     "i": "Ohdo-Syndrom und Varianten",
     "lt": 0,
     "lv": 0,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „I D tsch d d Arz e mittel zudem im Handel, 1 v 1 gü ig“",
     "x": 0
    },
@@ -5027,8 +5027,8 @@
     "i": "duodenal obstruction",
     "lt": 0,
     "lv": 0,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -5049,8 +5049,8 @@
     "i": "congenital coronary artery anomaly",
     "lt": 1,
     "lv": 0,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -5060,8 +5060,8 @@
     "i": "Prinzmetal-Angina",
     "lt": 0,
     "lv": 0,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {

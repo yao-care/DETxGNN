@@ -58,7 +58,7 @@ Lidocain ist ein Lokalanästhetikum, das in Deutschland über das Produkt Fortac
 
 ## Warum ist diese Vorhersage nachvollziehbar?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Lidocain ein Natriumkanalblocker mit lokalanästhetischer Wirkung ist. Seine Wirksamkeit in der zugelassenen Indikation ist belegt, mechanistisch könnte es daher auf Erkrankungen mit sensorischer Nervenbeteiligung übertragbar sein.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Lidocaine (inoffizielle Übersetzung): „Lidocainhydrochlorid übt eine antiarrhythmische Wirkung aus, indem es die elektrische Reizschwelle des Ventrikels während der Diastole erhöht. In üblichen therapeutischen Dosen bewirkt Lidocainhydrochlorid keine Veränderung der myokardialen Kontraktilität, des systemischen arteriellen Drucks oder der absoluten Refraktärzeit.“ Englischer Originalwortlaut: "Lidocaine hydrochloride exerts an antiarrhythmic effect by increasing the electrical stimulation threshold of the ventricle during diastole. In usual therapeutic doses, lidocaine hydrochloride produces no change in myocardial contractility, in systemic arterial pressure, or in absolute refractory period." ([DailyMed: Lidocaine Hydrochloride And Dextrose (lidocaine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f21512ea-c7c3-4766-b976-b2c0b5616bf0), Fassung vom 2026-02-20; abgerufen am 2026-11-19). Bekannt ist, dass Lidocain ein Natriumkanalblocker mit lokalanästhetischer Wirkung ist. Seine Wirksamkeit in der zugelassenen Indikation ist belegt, mechanistisch könnte es daher auf Erkrankungen mit sensorischer Nervenbeteiligung übertragbar sein.
 
 Für die punktförmige epitheliale Keratokonjunktivitis fehlt jedoch jede direkte Stütze. Zudem können topische Anästhetika die Heilung des Hornhautepithels beeinträchtigen, sodass die Vorhersage klinisch möglicherweise nicht sinnvoll ist. Der hohe Wert stammt vom TxGNN-Modell (Deep Learning) und kann vom Modell gelernte Ähnlichkeiten zwischen verwandten Erkrankungen widerspiegeln, nicht biologische Evidenz.
 
@@ -110,6 +110,19 @@ Für die punktförmige epitheliale Keratokonjunktivitis gibt es weder Studien no
 - Warnhinweise und Gegenanzeigen aus der Packungsbeilage des BfArM
 - Präklinische Daten zur Hornhautverträglichkeit und zum Einfluss auf die Epithelheilung
 - Prüfung der Routenkompatibilität (Fortacin ist kein Augenpräparat)
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Lidocaine Hydrochloride And Dextrose (lidocaine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f21512ea-c7c3-4766-b976-b2c0b5616bf0) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

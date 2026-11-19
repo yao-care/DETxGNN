@@ -58,7 +58,7 @@ Pioglitazon ist ein Insulinsensitizer (PPAR-gamma-Agonist), der ursprünglich zu
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Pioglitazon liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Pioglitazon gehört zur Klasse der Thiazolidindione, wirkt als Agonist am PPAR-gamma-Rezeptor und verbessert die Insulinempfindlichkeit. Seine Wirksamkeit bei Diabetes mellitus Typ 2 ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Pioglitazone (inoffizielle Übersetzung): „ACTOS ist ein Thiazolidindion, dessen Wirkmechanismus vom Vorhandensein von Insulin abhängt. ACTOS verringert die Insulinresistenz in der Peripherie und in der Leber, was zu einer erhöhten insulinabhängigen Glucoseverwertung und einer verminderten hepatischen Glucoseabgabe führt. […] Pioglitazon ist kein Insulin-Sekretagogum.“ Englischer Originalwortlaut: "ACTOS is a thiazolidinedione that depends on the presence of insulin for its mechanism of action. ACTOS decreases insulin resistance in the periphery and in the liver resulting in increased insulin-dependent glucose disposal and decreased hepatic glucose output. […] Pioglitazone is not an insulin secretagogue." ([DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c), Fassung vom 2025-03-28; abgerufen am 2026-11-19). Bekannt ist: Pioglitazon gehört zur Klasse der Thiazolidindione, wirkt als Agonist am PPAR-gamma-Rezeptor und verbessert die Insulinempfindlichkeit. Seine Wirksamkeit bei Diabetes mellitus Typ 2 ist belegt.
 
 Die Opsismodysplasie ist eine seltene Skelettdysplasie, die mit INPPL1 zusammenhängt und den PI3K-/Insulin-Signalweg betrifft. Ein Zusammenhang mit der PPAR-gamma-vermittelten Insulinsensitivierung ist denkbar, aber rein spekulativ und nicht belegt. Der hohe Vorhersagewert ist eine rechnerische Aussage und ersetzt keine klinische Evidenz.
 
@@ -113,6 +113,19 @@ Für die Opsismodysplasie gibt es weder klinische Studien noch Literatur; der Vo
 - Fachinformation (Warnhinweise, Kontraindikationen) von der BfArM-Website
 - Präklinische Untersuchungen zur Verbindung zwischen PPAR-gamma und dem INPPL1-/PI3K-Signalweg
 - Gezielte Literaturrecherche zur Opsismodysplasie sowie Prüfung der Zulassungs- und Verfügbarkeitssituation in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

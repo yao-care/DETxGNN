@@ -54,7 +54,7 @@ Aripiprazol ist ein atypisches Antipsychotikum, das in Deutschland im Handel ist
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Aripiprazol liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass die Substanz zur Klasse der atypischen Antipsychotika gehört, die vor allem auf dopaminerge und serotonerge Rezeptorsysteme wirken.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Aripiprazole (inoffizielle Übersetzung): „Der Wirkmechanismus von Aripiprazol bei der Behandlung von Schizophrenie und Bipolar-I-Störung ist nicht bekannt. Die Wirksamkeit von Aripiprazol könnte über eine Kombination aus partieller agonistischer Aktivität an Dopamin-D 2 - und Serotonin-5-HT 1A -Rezeptoren und antagonistischer Aktivität an 5-HT 2A -Rezeptoren vermittelt werden.“ Englischer Originalwortlaut: "The mechanism of action of aripiprazole in the treatment of schizophrenia and bipolar I disorder is unknown. The efficacy of aripiprazole could be mediated through a combination of partial agonist activity at dopamine D 2 and serotonin 5-HT 1A receptors and antagonist activity at 5-HT 2A receptors." ([DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be), Fassung vom 2025-04-04; abgerufen am 2026-11-19). Bekannt ist, dass die Substanz zur Klasse der atypischen Antipsychotika gehört, die vor allem auf dopaminerge und serotonerge Rezeptorsysteme wirken.
 
 Die Erkrankung ist eine sehr seltene, erblich bedingte Störung der Augenbewegungen mit fortschreitender Wirbelsäulenverkrümmung. Sie ist strukturell und neurodevelopmental bedingt. Ein plausibler pharmakologischer Zusammenhang zwischen dem Rezeptorprofil von Aripiprazol und dieser Erkrankung wurde nicht gefunden. Der hohe Score allein belegt keinen biologischen Wirkzusammenhang. Die Vorhersage ist daher als Hypothese zu verstehen, die ohne ergänzende Daten nicht belastbar ist.
 
@@ -101,6 +101,18 @@ Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzstufe L5). Es
 - Detaillierte Daten zum Wirkmechanismus
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen)
 - Präklinische Hinweise, bevor klinische Studien erwogen werden
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

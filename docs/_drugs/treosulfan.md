@@ -58,7 +58,7 @@ Treosulfan wurde ursprünglich im Rahmen der Konditionierung vor einer hämatopo
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten nicht vor. Bekannt ist, dass Treosulfan ein bifunktionelles Alkylans ist: Es wird als Prodrug in Epoxid-Zwischenprodukte umgewandelt, die DNA vernetzen. Es wird in Konditionierungsschemata vor einer Stammzelltransplantation verwendet.
+Laut dem Abschnitt „Clinical Pharmacology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Treosulfan (inoffizielle Übersetzung): „Treosulfan ist ein Alkylans. Es wird angenommen, dass die DNA-Alkylierung für die zytotoxischen Wirkungen von Treosulfan verantwortlich ist. Treosulfan zeigte in Mausmodellen der Leukämie eine die hämatopoetischen Stammzellen depletierende Wirkung sowie eine immunsuppressive und antitumorale Wirkung.“ Englischer Originalwortlaut: "Treosulfan is an alkylating agent. DNA alkylation is thought to be responsible for the cytotoxic activities of treosulfan. Treosulfan showed hematopoietic stem cell depleting activity as well as immunosuppressive and antitumor activity in mouse models of leukemia." ([DailyMed: Grafapex (treosulfan) prescribing information, Medexus Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d06b03c-17aa-0492-e063-6294a90abd8f), Fassung vom 2025-01-31; abgerufen am 2026-11-19). Bekannt ist, dass Treosulfan ein bifunktionelles Alkylans ist: Es wird als Prodrug in Epoxid-Zwischenprodukte umgewandelt, die DNA vernetzen. Es wird in Konditionierungsschemata vor einer Stammzelltransplantation verwendet.
 
 Ein plausibler Zusammenhang zwischen DNA-Alkylierung und der Pathophysiologie der diabetischen Katarakt ist anhand der vorliegenden Daten **nicht erkennbar**. Typische Mechanismen der diabetischen Katarakt, etwa der Polyol-Weg (Aldosereduktase), oxidativer Stress oder die Glykierung von Linsenproteinen, haben keine erkennbare Verbindung zur Wirkung von Treosulfan.
 
@@ -119,6 +119,19 @@ Die Vorhersage stützt sich allein auf das Modell (L5), ohne klinische Studien o
 - Präklinische Belege für einen plausiblen Wirkweg bei diabetischer Katarakt
 - Klärung des Zulassungsstatus und der Verfügbarkeit in Deutschland
 - Bewertung des Katarakt-Risikos als bekannter Spätfolge nach Treosulfan-haltiger Konditionierung
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Grafapex (treosulfan) prescribing information, Medexus Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d06b03c-17aa-0492-e063-6294a90abd8f) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

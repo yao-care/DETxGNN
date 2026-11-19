@@ -60,7 +60,7 @@ Natalizumab ist ein monoklonaler Antikörper, der ursprünglich zur Behandlung d
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Natalizumab das α4-Integrin (VLA-4) blockiert und damit die Einwanderung von Leukozyten in entzündetes Gewebe hemmt. Bei Multipler Sklerose verhindert dies, dass autoreaktive Immunzellen ins zentrale Nervensystem gelangen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Natalizumab (inoffizielle Übersetzung): „Natalizumab bindet an die α4-Untereinheit der α4β1- und α4β7-Integrine, die auf der Oberfläche aller Leukozyten mit Ausnahme der Neutrophilen exprimiert werden, und hemmt die α4-vermittelte Adhäsion von Leukozyten an ihren/ihre Gegenrezeptor(en). Zu den Rezeptoren für die α4-Familie der Integrine gehören das vaskuläre Zelladhäsionsmolekül-1 (VCAM-1), das auf aktiviertem Gefäßendothel exprimiert wird, und das mukosale Addressin-Zelladhäsionsmolekül-1 (MAdCAM-1), das auf Gefäßendothelzellen des Gastrointestinaltrakts vorhanden ist.“ Englischer Originalwortlaut: "Natalizumab binds to the α4-subunit of α4β1 and α4β7 integrins expressed on the surface of all leukocytes except neutrophils, and inhibits the α4-mediated adhesion of leukocytes to their counter-receptor(s). The receptors for the α4 family of integrins include vascular cell adhesion molecule-1 (VCAM-1), which is expressed on activated vascular endothelium, and mucosal addressin cell adhesion molecule-1 (MAdCAM-1) present on vascular endothelial cells of the gastrointestinal tract." ([DailyMed: Tysabri (natalizumab) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962), Fassung vom 2026-10-09; abgerufen am 2026-11-19). Bekannt ist, dass Natalizumab das α4-Integrin (VLA-4) blockiert und damit die Einwanderung von Leukozyten in entzündetes Gewebe hemmt. Bei Multipler Sklerose verhindert dies, dass autoreaktive Immunzellen ins zentrale Nervensystem gelangen.
 
 Bei Psoriasis, einer T-Zell-vermittelten chronisch-entzündlichen Hauterkrankung, ist ein ähnlicher Ansatz mechanistisch denkbar. Eine Kohorten-/Fallserie (PMID 33589543) berichtet über eine Besserung einer komorbiden Psoriasis bei 18 MS-Patienten unter Natalizumab. Dem stehen jedoch mehrere Fallberichte gegenüber, in denen Natalizumab eine Psoriasis **auslöste oder verschlechterte**, darunter pustulöse und arthritische Formen. Die Befunde sind somit widersprüchlich.
 
@@ -138,11 +138,12 @@ Die Vorhersagen beruhen auf hohen Modellwerten, aber ohne klinische Studien. Fü
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Beide Zulassungen haben den Status „erloschen/zurückgezogen"“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Tysabri (natalizumab) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962) |
 
 <!-- review:end log -->
 

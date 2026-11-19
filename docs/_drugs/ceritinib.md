@@ -60,7 +60,7 @@ Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Pub
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Ceritinib ein oraler ALK-Inhibitor (Anaplastic Lymphoma Kinase) der zweiten Generation ist. Seine Wirksamkeit bei ALK-umgelagertem NSCLC ist belegt, u. a. durch die Phase-3-Studie ASCEND-4.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Ceritinib (inoffizielle Übersetzung): „Ceritinib ist ein Kinase-Inhibitor. Zu den in biochemischen oder zellulären Assays bei klinisch relevanten Konzentrationen identifizierten Zielstrukturen der Hemmung durch Ceritinib gehören ALK, der Insulin-like-Growth-Factor-1-Rezeptor (IGF-1R), der Insulinrezeptor (InsR) und ROS1.“ Englischer Originalwortlaut: "Ceritinib is a kinase inhibitor. Targets of ceritinib inhibition identified in either biochemical or cellular assays at clinically relevant concentrations include ALK, insulin-like growth factor 1 receptor (IGF-1R), insulin receptor (InsR), and ROS1." ([DailyMed: Zykadia (ceritinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fff5d805-4ffd-4e8e-8e63-6f129697563e), Fassung vom 2026-10-28; abgerufen am 2026-11-19). Bekannt ist, dass Ceritinib ein oraler ALK-Inhibitor (Anaplastic Lymphoma Kinase) der zweiten Generation ist. Seine Wirksamkeit bei ALK-umgelagertem NSCLC ist belegt, u. a. durch die Phase-3-Studie ASCEND-4.
 
 Für die gingivale Fibromatose ist dagegen kein ALK-getriebener Mechanismus bekannt. Der hohe TxGNN-Wert ist eine rein graphbasierte Vorhersage ohne unterstützende Studien oder Literatur. Eine mechanistische Verbindung zwischen der ursprünglichen und der neuen Indikation lässt sich derzeit nicht herleiten.
 
@@ -131,11 +131,12 @@ Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzstufe L5), ohne kli
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Die einzige Zulassung hat den Status „erloschen"“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Zykadia (ceritinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fff5d805-4ffd-4e8e-8e63-6f129697563e) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Avatrombopag ist ein Thrombopoietin-Rezeptor-Agonist, der die Bildung von Blutpl
 
 ## Warum ist diese Vorhersage plausibel?
 
-Avatrombopag bindet an den Thrombopoietin-Rezeptor (MPL) und fördert dosisabhängig die Proliferation von Zellen, die diesen Rezeptor tragen (EC50 3,3 nM in Ba/F3-Zellen). Seine maximale proliferative Wirkung entspricht der von rekombinantem humanem Thrombopoietin. Damit stimuliert es die Megakaryopoese und erhöht die Thrombozytenzahl. Detaillierte Angaben zum Wirkmechanismus liegen in den zusammengestellten Daten darüber hinaus nicht vor.
+Avatrombopag bindet an den Thrombopoietin-Rezeptor (MPL) und fördert dosisabhängig die Proliferation von Zellen, die diesen Rezeptor tragen (EC50 3,3 nM in Ba/F3-Zellen). Seine maximale proliferative Wirkung entspricht der von rekombinantem humanem Thrombopoietin. Damit stimuliert es die Megakaryopoese und erhöht die Thrombozytenzahl. Laut ChEMBL (EMBL-EBI) ist für Avatrombopag folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Thrombopoetin-Rezeptor-Agonist“ Englischer Originalwortlaut: "Thrombopoietin receptor agonist" ([ChEMBL CHEMBL2103883 (avatrombopag): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2103883), CC BY-SA 3.0; abgerufen am 2026-11-19).
 
 Eine thrombozytopenische Erkrankung könnte grundsätzlich auf eine Stimulation des Thrombopoietin-Rezeptors ansprechen. Die vorhergesagte Erkrankung ist jedoch vermutlich eine seltene, angeborene Makrothrombozytopenie, deren zugrunde liegender Defekt nicht näher bestimmt ist. Ob ein Nutzen besteht, hängt davon ab, ob die Thrombozytenbildung bei dieser Erkrankung auf Zytokine anspricht. Der Vorhersagewert ist eine reine Modellvorhersage und nicht durch Studien gestützt.
 
@@ -90,6 +90,19 @@ Für die vorhergesagte Indikation gibt es weder klinische Studien noch Publikati
 - Literaturrecherche und Prüfung, ob Thrombopoietin-Rezeptor-Agonisten bei dieser Erkrankung untersucht wurden
 - Auswertung der Warnhinweise und Gegenanzeigen aus der Packungsbeilage (derzeit nicht verfügbar)
 - Ausführliche Daten zum Wirkmechanismus
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL2103883 (avatrombopag): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2103883) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

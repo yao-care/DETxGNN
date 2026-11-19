@@ -58,7 +58,7 @@ Nelarabin wurde ursprünglich zur Behandlung der Vorläufer-T-Zell-lymphoblastis
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Nelarabin ist bekanntermaßen ein Prodrug von ara-G, einem Desoxyguanosin-Analogon. Dieses wird zu ara-GTP umgewandelt und in die DNA eingebaut, was bevorzugt in T-Lymphoblasten zytotoxisch wirkt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Nelarabine (inoffizielle Übersetzung): „Nelarabin ist ein Prodrug des Desoxyguanosin-Analogons 9-β- D -Arabinofuranosylguanin (ara-G), eines Nukleosid-Stoffwechselinhibitors. Nelarabin wird durch ADA zu ara-G demethyliert, durch Desoxyguanosinkinase und Desoxycytidinkinase monophosphoryliert und anschließend in das aktive 5’-Triphosphat ara-GTP umgewandelt.“ Englischer Originalwortlaut: "Nelarabine is a prodrug of the deoxyguanosine analogue 9-β- D -arabinofuranosylguanine (ara-G), a nucleoside metabolic inhibitor. Nelarabine is demethylated by ADA to ara-G, mono-phosphorylated by deoxyguanosine kinase and deoxycytidine kinase, and subsequently converted to the active 5’-triphosphate, ara-GTP." ([DailyMed: Arranon (nelarabine) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9051de-5c4d-4c0f-8c19-e15214498cca), Fassung vom 2025-03-31; abgerufen am 2026-11-19). Nelarabin ist bekanntermaßen ein Prodrug von ara-G, einem Desoxyguanosin-Analogon. Dieses wird zu ara-GTP umgewandelt und in die DNA eingebaut, was bevorzugt in T-Lymphoblasten zytotoxisch wirkt.
 
 Ein möglicher, rein spekulativer Zusammenhang mit der schubförmig-remittierenden MS besteht in der Depletion von Lymphozyten. Ähnlich wirkt Cladribin, ein weiteres Purinanalogon, das zur MS-Behandlung zugelassen ist. Direkte mechanistische Belege fehlen jedoch.
 
@@ -140,12 +140,13 @@ Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzstufe L5) ohn
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Diese Zulassung ist erloschen bzw. aufgehoben (Status: cancelled)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „und die einzige deutsche Zulassung ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Arranon (nelarabine) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9051de-5c4d-4c0f-8c19-e15214498cca) |
 
 <!-- review:end log -->
 

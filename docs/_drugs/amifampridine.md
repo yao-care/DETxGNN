@@ -60,7 +60,7 @@ Für diese Vorhersage liegen derzeit **keine klinischen Studien** und **keine Pu
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus sind in den für diesen Bericht zusammengestellten Daten derzeit nicht verfügbar. Bekannt ist, dass Amifampridin ein Blocker spannungsabhängiger Kaliumkanäle ist. Dadurch wird die präsynaptische Depolarisation verlängert und die Freisetzung von Acetylcholin an der neuromuskulären Endplatte erhöht. Die Wirksamkeit bei LEMS ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Amifampridine (inoffizielle Übersetzung): „Der Mechanismus, über den Amifampridin seine therapeutische Wirkung bei Patienten mit LEMS entfaltet, ist nicht vollständig aufgeklärt. Amifampridin ist ein Breitspektrum-Kaliumkanalblocker.“ Englischer Originalwortlaut: "The mechanism by which amifampridine exerts its therapeutic effect in LEMS patients has not been fully elucidated. Amifampridine is a broad-spectrum potassium channel blocker." ([DailyMed: Firdapse (amifampridine phosphate) prescribing information, Catalyst Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f015fe60-3128-4a43-8c31-19fc6b5def3f), Fassung vom 2026-04-16; abgerufen am 2026-11-19). Bekannt ist, dass Amifampridin ein Blocker spannungsabhängiger Kaliumkanäle ist. Dadurch wird die präsynaptische Depolarisation verlängert und die Freisetzung von Acetylcholin an der neuromuskulären Endplatte erhöht. Die Wirksamkeit bei LEMS ist belegt.
 
 Ein möglicher Zusammenhang mit dem Glaukom wäre eine Neuroprotektion retinaler Ganglienzellen oder eine Modulation der neuronalen Erregbarkeit. Dieser Zusammenhang ist jedoch **nicht belegt**. Eine Kaliumkanalblockade könnte zudem die Augenphysiologie in nicht vorhersagbarer Weise beeinflussen. Der hohe TxGNN-Wert ist eine rein rechnerische Vorhersage und wird durch keine klinischen oder Literaturdaten gestützt.
 
@@ -132,12 +132,13 @@ Für beide vorhergesagten Indikationen (Glaukom und akute intermittierende Porph
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-12 | Tabelle: Amifampridine SERB (EMEA/H/C/005839) ist gültig, nicht erloschen | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Tabelle: Firdapse (EMEA/H/C/001032) ist gültig, nicht erloschen | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Firdapse (amifampridine phosphate) prescribing information, Catalyst Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f015fe60-3128-4a43-8c31-19fc6b5def3f) |
 
 <!-- review:end log -->
 

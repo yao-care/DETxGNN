@@ -56,7 +56,7 @@ Ketorolac ist ein nichtsteroidales Antirheumatikum (NSAR), das in Deutschland al
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu den Wirkmechanismen liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Auf Grundlage der bekannten Pharmakologie ist Ketorolac ein nicht selektiver COX-1/COX-2-Hemmer, der die Prostaglandinsynthese blockiert.
+Laut dem Abschnitt „Clinical Pharmacology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Ketorolac (inoffizielle Übersetzung): „Ketorolac-Trometamol ist ein nichtsteroidales Antirheumatikum (NSAR), das in Tiermodellen eine analgetische Wirkung zeigt. Der Wirkmechanismus von Ketorolac ist, wie der anderer NSAR, nicht vollständig geklärt, könnte jedoch mit einer Hemmung der Prostaglandin-Synthetase zusammenhängen.“ Englischer Originalwortlaut: "Ketorolac tromethamine is a nonsteroidal anti-inflammatory drug (NSAID) that exhibits analgesic activity in animal models. The mechanism of action of ketorolac, like that of other NSAIDs, is not completely understood but may be related to prostaglandin synthetase inhibition." ([DailyMed: Toronova Ii Suik (ketorolac tromethamine) prescribing information, Advanced Rx of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49dd153c-10e8-505b-e063-6394a90a595f), Fassung vom 2026-11-13; abgerufen am 2026-11-19). Auf Grundlage der bekannten Pharmakologie ist Ketorolac ein nicht selektiver COX-1/COX-2-Hemmer, der die Prostaglandinsynthese blockiert.
 
 Prostaglandine tragen bei Migräne und Spannungskopfschmerz zu neurogener Entzündung, trigeminovaskulärer Sensibilisierung und Schmerzweiterleitung bei. Die analgetische Wirkung bei akutem Kopfschmerz ist daher mechanistisch gut nachvollziehbar. Auch der ursprüngliche Einsatz gegen postoperative Schmerzen beruht auf demselben prostaglandinvermittelten Schmerzweg.
 
@@ -153,13 +153,14 @@ Für Kopfschmerzerkrankungen, insbesondere akute Migräne, liegen mehrere abgesc
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „**Trigeminoautonomer Kopfschmerz** (TxGNN 0,9939): Nur indirekte Evidenz, eine zurückgezogene Studie ohne Teilnehmer (L4); Clusterkopfschmer“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Zudem fehlt in Deutschland derzeit eine gültige Zulassung“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „da die einzige Zulassung (Omidria) erloschen ist und sich auf eine ophthalmologische Anwendung bezieht“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Toronova Ii Suik (ketorolac tromethamine) prescribing information, Advanced Rx of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49dd153c-10e8-505b-e063-6394a90a595f) |
 
 <!-- review:end log -->
 

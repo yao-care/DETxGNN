@@ -58,7 +58,7 @@ Imipenem ist ein Breitspektrum-Antibiotikum aus der Klasse der Carbapeneme. Das 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für Imipenem liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Bekannt ist, dass Imipenem ein Carbapenem mit Wirkung gegen gramnegative Bakterien ist; es hemmt die bakterielle Zellwandsynthese.
+Laut ChEMBL (EMBL-EBI) ist für Imipenem folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Inhibitor bakterieller Penicillin-bindender Proteine“ Englischer Originalwortlaut: "Bacterial penicillin-binding protein inhibitor" ([ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist, dass Imipenem ein Carbapenem mit Wirkung gegen gramnegative Bakterien ist; es hemmt die bakterielle Zellwandsynthese.
 
 Ein plausibler antibakterieller Mechanismus, der Imipenem mit der diffusen Sklerodermie verbindet, ist nicht erkennbar. Die diffuse Sklerodermie ist eine autoimmune, fibrotische Erkrankung. Der hohe Vorhersagewert ist ein rein graphbasiertes Modellergebnis und durch keinerlei Studien oder Literatur gestützt.
 
@@ -109,6 +109,19 @@ Für diffuse Sklerodermie gibt es weder klinische Studien noch Literatur, und ei
 - Präklinische Daten zu antifibrotischen oder immunmodulatorischen Effekten
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
 - Angaben zum Wirkmechanismus (MOA)
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

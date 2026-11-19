@@ -54,7 +54,7 @@ Ferric Maltol ist ein orales Eisenpräparat. Das TxGNN-Modell sagt eine möglich
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Ferric Maltol liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass es sich um ein orales Eisenpräparat handelt, das zur Auffüllung der Eisenspeicher dient.
+Laut dem Abschnitt „Clinical Pharmacology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Ferric Maltol (inoffizielle Übersetzung): „ACCRUFER stellt Eisen zur Aufnahme durch die Darmwand und zur Übertragung auf Transferrin und Ferritin bereit.“ Englischer Originalwortlaut: "ACCRUFER delivers iron for uptake across the intestinal wall and transfer to transferrin and ferritin." ([DailyMed: Accrufer (ferric maltol) prescribing information, Shield TX (UK) Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=367ac157-2d25-4f34-99ce-b126e0f03851), Fassung vom 2026-01-02; abgerufen am 2026-11-19). Bekannt ist, dass es sich um ein orales Eisenpräparat handelt, das zur Auffüllung der Eisenspeicher dient.
 
 Die mechanistische Begründung ist schwach. Megaloblastäre Anämien entstehen typischerweise durch eine gestörte DNA-Synthese (Vitamin-B12- bzw. Folatstoffwechsel) und nicht durch Eisenmangel. Eine Eisengabe dürfte einen B12- und folatunabhängigen Defekt kaum korrigieren, es sei denn, es besteht zusätzlich ein Eisenmangel. Der hohe Vorhersagewert spiegelt möglicherweise eher die Nähe zu anämiebezogenen Begriffen im Modell wider als einen echten mechanistischen Zusammenhang.
 
@@ -95,6 +95,18 @@ Die Vorhersage stützt sich allein auf das Modell (Evidenzniveau L5); es gibt we
 - Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation
 - Systematische Literaturrecherche und Prüfung, ob bei dieser Erkrankung überhaupt ein begleitender Eisenmangel vorliegt
 - Prüfung der Applikationswege und der Relevanz für die vorhergesagte Erkrankung
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Accrufer (ferric maltol) prescribing information, Shield TX (UK) Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=367ac157-2d25-4f34-99ce-b126e0f03851) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

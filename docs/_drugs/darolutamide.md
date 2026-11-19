@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Darolutamid liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Darolutamid ein nichtsteroidaler Androgenrezeptor-Antagonist ist, dessen Wirksamkeit beim kastrationsresistenten Prostatakarzinom belegt ist.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Darolutamide (inoffizielle Übersetzung): „Darolutamid ist ein Androgenrezeptor(AR)-Inhibitor. Darolutamid hemmt kompetitiv die Androgenbindung, die nukleäre Translokation des AR und die AR-vermittelte Transkription. Ein Hauptmetabolit, Ketodarolutamid, zeigte in vitro eine ähnliche Aktivität wie Darolutamid.“ Englischer Originalwortlaut: "Darolutamide is an androgen receptor (AR) inhibitor. Darolutamide competitively inhibits androgen binding, AR nuclear translocation, and AR-mediated transcription. A major metabolite, ketodarolutamide, exhibited similar in vitro activity to darolutamide." ([DailyMed: Nubeqa (darolutamide) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a7cb212-56e4-4b9d-a73d-bfee7fe4735e), Fassung vom 2026-09-28; abgerufen am 2026-11-19). Bekannt ist, dass Darolutamid ein nichtsteroidaler Androgenrezeptor-Antagonist ist, dessen Wirksamkeit beim kastrationsresistenten Prostatakarzinom belegt ist.
 
 Die homozygote familiäre Hypercholesterinämie wird dagegen durch Defekte im LDL-Rezeptor-Signalweg verursacht (LDLR, APOB, PCSK9, LDLRAP1). Ein mechanistischer Zusammenhang mit der Androgenrezeptor-Blockade ist durch die vorliegenden Daten **nicht gestützt**. Der hohe TxGNN-Wert ist eine rein graphbasierte Vorhersage und sollte nicht als Hinweis auf Wirksamkeit gelesen werden.
 
@@ -148,12 +148,13 @@ Zwei weitere Vorhersagen mit ebenfalls hohen TxGNN-Werten wurden geprüft; beide
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Diese Zulassung ist als erloschen geführt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Nubeqa (darolutamide) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a7cb212-56e4-4b9d-a73d-bfee7fe4735e) |
 
 <!-- review:end log -->
 

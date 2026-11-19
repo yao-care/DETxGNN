@@ -60,7 +60,7 @@ Hierzu liegen **keine registrierten klinischen Studien** und **6 Publikationen**
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Etelcalcetide den Calcium-Sensing-Rezeptor (CaSR) aktiviert und dadurch das Parathormon (PTH) senkt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Etelcalcetide (inoffizielle Übersetzung): „Etelcalcetid ist ein Calcimimetikum, das den Calcium-sensitiven Rezeptor (CaSR) allosterisch moduliert. Etelcalcetid bindet an den CaSR und verstärkt die Aktivierung des Rezeptors durch extrazelluläres Calcium. Die Aktivierung des CaSR auf den Hauptzellen der Nebenschilddrüse vermindert die PTH-Sekretion.“ Englischer Originalwortlaut: "Etelcalcetide is a calcimimetic agent that allosterically modulates the calcium-sensing receptor (CaSR). Etelcalcetide binds to the CaSR and enhances activation of the receptor by extracellular calcium. Activation of the CaSR on parathyroid chief cells decreases PTH secretion." ([DailyMed: Parsabiv (etelcalcetide) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd270093-c6a8-4596-a4ab-e6aa0a2c8a0c), Fassung vom 2026-03-08; abgerufen am 2026-11-19). Bekannt ist, dass Etelcalcetide den Calcium-Sensing-Rezeptor (CaSR) aktiviert und dadurch das Parathormon (PTH) senkt.
 
 Hyperphosphatämie und sekundärer Hyperparathyreoidismus sind bei chronischer Nierenerkrankung (CKD-MBD) pathophysiologisch eng verknüpft. Ein niedrigerer PTH-Spiegel kann den Knochenumsatz und die Freisetzung von Calcium und Phosphat verringern, sodass das Serumphosphat sekundär sinken könnte. Die Verbindung ist biologisch plausibel, der Effekt dürfte jedoch indirekt sein und rechtfertigt möglicherweise keine eigenständige Indikation.
 
@@ -120,11 +120,12 @@ Die einzige Arbeit, die die Hyperphosphatämie direkt untersucht, ist eine präk
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Es gibt keine registrierten klinischen Studien, die Literatur besteht überwiegend aus Übersichtsarbeiten und Fallberichten, und der Marktsta“ | Nach Neuerstellung des Berichts nicht mehr vorhanden (2026-11-12: der Bericht wurde im November 2026 neu erstellt und enthält diese Aussage nicht mehr; vorher: Korrigiert) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Parsabiv (etelcalcetide) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd270093-c6a8-4596-a4ab-e6aa0a2c8a0c) |
 
 <!-- review:end log -->
 

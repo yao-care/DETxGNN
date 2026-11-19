@@ -58,7 +58,7 @@ Insulin aspart ist ein schnell wirksames Insulinanalogon, das ursprünglich zur 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekanntermaßen ist Insulin aspart ein schnell wirksames Humaninsulin-Analogon, das bei subkutaner Gabe schneller resorbiert wird als normales Humaninsulin. Es ersetzt das fehlende körpereigene Insulin und senkt den Blutzucker.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Insulin Aspart (inoffizielle Übersetzung): „Die primäre Wirkung von Insulin, einschließlich NOVOLOG MIX 70/30, ist die Regulation des Glucosestoffwechsels. Insulin und sein Analogon senken den Blutzucker, indem sie die periphere Glucoseaufnahme, insbesondere durch Skelettmuskulatur und Fettgewebe, stimulieren und die hepatische Glucoseproduktion hemmen.“ Englischer Originalwortlaut: "The primary activity of insulin, including NOVOLOG MIX 70/30 is the regulation of glucose metabolism. Insulin and its analog lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Novolog Mix 70/30 (insulin aspart) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66da64f7-ca50-47d2-95fa-de37005eef85), Fassung vom 2026-05-18; abgerufen am 2026-11-19). Bekanntermaßen ist Insulin aspart ein schnell wirksames Humaninsulin-Analogon, das bei subkutaner Gabe schneller resorbiert wird als normales Humaninsulin. Es ersetzt das fehlende körpereigene Insulin und senkt den Blutzucker.
 
 Beim Typ-1-Diabetes besteht ein absoluter Insulinmangel. Die Insulinsubstitution ist daher die Standardtherapie, und die Vorhersage ist mit der bekannten, zugelassenen Indikation „Diabetes mellitus“ vollständig vereinbar. Der sehr hohe TxGNN-Wert spiegelt diese bekannte Anwendung wider. Es handelt sich nicht um eine neue therapeutische Entdeckung.
 
@@ -156,13 +156,14 @@ Die Evidenz für Typ-1-Diabetes ist stark (mehrere abgeschlossene Phase-3-Studie
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Alle in den Daten erfassten Zulassungen sind aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Drei weitere aufgehobene Zulassungen (Truvelog Mix 30, Dazparda, Kirsty) sind in der Gesamtzahl von 8 enthalten“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Zudem sind alle deutschen Zulassungen in den Daten als aufgehoben geführt, sodass der aktuelle Zulassungs- und Verfügbarkeitsstatus vor eine“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Novolog Mix 70/30 (insulin aspart) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66da64f7-ca50-47d2-95fa-de37005eef85) |
 
 <!-- review:end log -->
 

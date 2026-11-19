@@ -58,7 +58,7 @@ Tenofoviralafenamid (TAF) wird ursprünglich zur Behandlung der chronischen Hepa
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für die für diesen Bericht zusammengestellten Daten liegen derzeit keine detaillierten Angaben zum Wirkmechanismus vor. Bekannt ist, dass TAF ein Prodrug von Tenofovir ist und als nukleotidischer Reverse-Transkriptase-Hemmer wirkt: Der aktive Metabolit Tenofovirdiphosphat blockiert die Reverse Transkriptase. Seine Wirksamkeit bei HIV und Hepatitis B ist belegt, und mechanistisch ist eine Aktivität gegen verwandte Retroviren wie SIV plausibel.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Tenofovir Alafenamide (inoffizielle Übersetzung): „Tenofoviralafenamid ist ein antivirales Arzneimittel gegen das Hepatitis-B-Virus. […] Tenofoviralafenamid ist ein Phosphonamidat-Prodrug von Tenofovir (2'-Desoxyadenosinmonophosphat-Analogon). Tenofoviralafenamid gelangt als lipophile, zellgängige Verbindung durch passive Diffusion und über die hepatischen Aufnahmetransporter OATP1B1 und OATP1B3 in primäre Hepatozyten.“ Englischer Originalwortlaut: "Tenofovir alafenamide is an antiviral drug against the hepatitis B virus. […] Tenofovir alafenamide is a phosphonamidate prodrug of tenofovir (2'-deoxyadenosine monophosphate analog). Tenofovir alafenamide as a lipophilic cell-permeant compound enters primary hepatocytes by passive diffusion and by the hepatic uptake transporters OATP1B1 and OATP1B3." ([DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2), Fassung vom 2025-07-14; abgerufen am 2026-11-19). Bekannt ist, dass TAF ein Prodrug von Tenofovir ist und als nukleotidischer Reverse-Transkriptase-Hemmer wirkt: Der aktive Metabolit Tenofovirdiphosphat blockiert die Reverse Transkriptase. Seine Wirksamkeit bei HIV und Hepatitis B ist belegt, und mechanistisch ist eine Aktivität gegen verwandte Retroviren wie SIV plausibel.
 
 SIV und SHIV (SIV/HIV-Hybridvirus) sind die Standard-Tiermodelle für HIV bei nichtmenschlichen Primaten. Die Ergebnisse dieser Modelle dienen vor allem dazu, die bereits zugelassene HIV-Indikation und neue Anwendungsformen (Prophylaxe, Implantate, topische Einlagen) abzusichern. Sie begründen keine neue Humanindikation. Der hohe TxGNN-Wert ist wahrscheinlich durch die Ähnlichkeit zur HIV-Indikation getrieben.
 
@@ -131,11 +131,12 @@ Die Evidenz für SIV stammt ausschließlich aus Tiermodellen (L4) und stützt vo
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Weitere erloschene Zulassungen: Symtuza sowie zwei Viatris-Generika-Kombinationen (Emtricitabin/TAF; Emtricitabin/Rilpivirin/TAF)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2) |
 
 <!-- review:end log -->
 

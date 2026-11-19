@@ -60,7 +60,7 @@ Dafür liegen **keine registrierten klinischen Studien**, aber **19 Publikatione
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Anakinra als rekombinanter Interleukin-1-Rezeptorantagonist die Signalübertragung von IL-1 blockiert. Seine Wirksamkeit bei rheumatoider Arthritis ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Anakinra (inoffizielle Übersetzung): „KINERET blockiert die biologische Aktivität von IL-1 alpha und beta durch kompetitive Hemmung der Bindung von IL-1 an den Interleukin-1-Rezeptor Typ I (IL-1RI), der in einer Vielzahl von Geweben und Organen exprimiert wird. Die IL-1-Produktion wird als Reaktion auf entzündliche Reize induziert und vermittelt verschiedene physiologische Reaktionen, einschließlich entzündlicher und immunologischer Reaktionen.“ Englischer Originalwortlaut: "KINERET blocks the biologic activity of IL-1 alpha and beta by competitively inhibiting IL-1 binding to the interleukin-1 type I receptor (IL-1RI), which is expressed in a wide variety of tissues and organs. IL-1 production is induced in response to inflammatory stimuli and mediates various physiologic responses including inflammatory and immunological responses." ([DailyMed: Kineret (anakinra) prescribing information, Swedish Orphan Biovitrum AB (publ)](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9d74915-6606-4570-9c52-c4001d3177de), Fassung vom 2026-04-03; abgerufen am 2026-11-19). Bekannt ist, dass Anakinra als rekombinanter Interleukin-1-Rezeptorantagonist die Signalübertragung von IL-1 blockiert. Seine Wirksamkeit bei rheumatoider Arthritis ist belegt.
 
 Beim familiären Mittelmeerfieber führen Mutationen im MEFV-Gen (Pyrin) zu einer Überaktivierung des Inflammasoms und zu einem Überschuss an IL-1β. Anakinra setzt genau an diesem Signalweg an. Die vorliegende Literatur (u. a. Fallserien und Übersichten) stützt den Einsatz der IL-1-Blockade bei Patienten, die auf Colchicin nicht ansprechen oder es nicht vertragen.
 
@@ -150,12 +150,13 @@ Für das familiäre Mittelmeerfieber ist der Mechanismus (IL-1-Überproduktion) 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die Zulassung in eutschland erloschen, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „(erloschene Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Kineret (anakinra) prescribing information, Swedish Orphan Biovitrum AB (publ)](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9d74915-6606-4570-9c52-c4001d3177de) |
 
 <!-- review:end log -->
 

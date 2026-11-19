@@ -60,7 +60,7 @@ jedoch gibt es dafür **keine klinischen Studien** und **keine Publikationen**. 
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Tadalafil die Phosphodiesterase 5 (PDE5) hemmt, dadurch den cGMP-Spiegel erhöht und eine Gefäßerweiterung bewirkt. Dies erklärt die Wirkung bei pulmonaler Hypertonie und erektiler Dysfunktion.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Tadalafil (inoffizielle Übersetzung): „Die Erektion des Penis bei sexueller Stimulation wird durch einen erhöhten penilen Blutfluss verursacht, der aus der Relaxation der Penisarterien und der glatten Muskulatur der Corpora cavernosa resultiert. Diese Reaktion wird durch die Freisetzung von Stickstoffmonoxid (NO) aus Nervenendigungen und Endothelzellen vermittelt, das die Synthese von cGMP in glatten Muskelzellen stimuliert. […] Tadalafil hemmt PDE5.“ Englischer Originalwortlaut: "Penile erection during sexual stimulation is caused by increased penile blood flow resulting from the relaxation of penile arteries and corpus cavernosal smooth muscle. This response is mediated by the release of nitric oxide (NO) from nerve terminals and endothelial cells, which stimulates the synthesis of cGMP in smooth muscle cells. […] Tadalafil inhibits PDE5." ([DailyMed: Cialis (tadalafil) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895), Fassung vom 2026-06-03; abgerufen am 2026-11-19). Bekannt ist, dass Tadalafil die Phosphodiesterase 5 (PDE5) hemmt, dadurch den cGMP-Spiegel erhöht und eine Gefäßerweiterung bewirkt. Dies erklärt die Wirkung bei pulmonaler Hypertonie und erektiler Dysfunktion.
 
 Ein plausibler Zusammenhang zur Ambras-Hypertrichosis ist nicht erkennbar. Diese Erkrankung wird durch eine Chromosomen-Umlagerung (8q22) verursacht, die die Regulation des Gens TRPS1 beeinflusst. Ein Einfluss der PDE5-Hemmung auf diese genetische Ursache ist nicht belegt. Der Score stammt aus dem TxGNN-Modell (Deep Learning) und spiegelt vermutlich Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat (z. B. haarbezogene Phänotypen), und keine biologische Evidenz oder echte pharmakologische Beziehung.
 
@@ -139,12 +139,13 @@ Die Vorhersage beruht ausschließlich auf einem Graphmodell (Evidenzstufe L5), o
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Eine weitere erloschene Zulassung (Yuvanci, EMEA/H/C/005001, pulmonale arterielle Hypertonie) ist in der Gesamtzahl von 6 enthalten“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Zudem ist derzeit keine Zulassung in Deutschland aktiv“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Cialis (tadalafil) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ jedoch gibt es dafür **0 klinische Studien** und **0 Publikationen**. Die Vorhe
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Alirocumab bindet PCSK9 und erhöht dadurch das Recycling der LDL-Rezeptoren, sodass mehr LDL-Cholesterin aus dem Blut aufgenommen wird. Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten derzeit nicht vor; die Angaben beruhen auf dem bekannten Target PCSK9.
+Alirocumab bindet PCSK9 und erhöht dadurch das Recycling der LDL-Rezeptoren, sodass mehr LDL-Cholesterin aus dem Blut aufgenommen wird. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Alirocumab (inoffizielle Übersetzung): „Alirocumab ist ein humaner monoklonaler Antikörper, der an Proproteinkonvertase Subtilisin/Kexin Typ 9 (PCSK9) bindet. PCSK9 bindet an die Low-Density-Lipoprotein(LDL)-Rezeptoren (LDLR) auf der Oberfläche von Hepatozyten und fördert so den Abbau der LDLR in der Leber.“ Englischer Originalwortlaut: "Alirocumab is a human monoclonal antibody that binds to proprotein convertase subtilisin kexin type 9 (PCSK9). PCSK9 binds to the low-density lipoprotein (LDL) receptors (LDLR) on the surface of hepatocytes to promote LDLR degradation within the liver." ([DailyMed: Praluent (alirocumab) prescribing information, Regeneron Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7bcfbac2-e8ac-4569-8edc-bcde3b1fd172), Fassung vom 2026-07-16; abgerufen am 2026-11-19).
 
 Die X-chromosomale Ichthyose ist eine Störung des Cholesterinsulfat- und Hautbarrierestoffwechsels, die üblicherweise durch einen Steroidsulfatase-Mangel verursacht wird. Eine klinisch plausible Verbindung zur PCSK9-Hemmung ist nicht erkennbar. Der hohe TxGNN-Wert ist eine reine Modellvorhersage ohne unterstützende Studien oder Literatur.
 
@@ -131,11 +131,12 @@ Die erstplatzierte Vorhersage beruht ausschließlich auf dem Modell (Evidenzgrad
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Klärung des Marktstatus, da die deutsche Zulassung nur als erloschen geführt wird“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Praluent (alirocumab) prescribing information, Regeneron Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7bcfbac2-e8ac-4569-8edc-bcde3b1fd172) |
 
 <!-- review:end log -->
 

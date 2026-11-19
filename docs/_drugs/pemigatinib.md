@@ -58,7 +58,7 @@ Pemigatinib ist ein selektiver FGFR1-3-Inhibitor und wurde ursprünglich zur Beh
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist, dass Pemigatinib ein selektiver Inhibitor der Fibroblasten-Wachstumsfaktor-Rezeptoren 1 bis 3 (FGFR1-3) ist und beim Cholangiokarzinom eingesetzt wird. Mechanistisch könnte es daher für Tumoren relevant sein, bei denen der FGFR-Signalweg eine Rolle spielt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Pemigatinib (inoffizielle Übersetzung): „Pemigatinib ist ein niedermolekularer Kinase-Inhibitor, der FGFR1, 2 und 3 mit IC 50-Werten von weniger als 2 nM angreift. Pemigatinib hemmte in vitro auch FGFR4 bei einer Konzentration, die etwa 100-mal höher war als diejenigen, die FGFR1, 2 und 3 hemmen.“ Englischer Originalwortlaut: "Pemigatinib is a small molecule kinase inhibitor that targets FGFR1, 2 and 3 with IC 50 values of less than 2 nM. Pemigatinib also inhibited FGFR4 in vitro at a concentration approximately 100 times higher than those that inhibit FGFR1, 2, and 3." ([DailyMed: Pemazyre (pemigatinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e1f2222-1d89-4e63-989c-ccebe2ab1eb4), Fassung vom 2026-06-09; abgerufen am 2026-11-19). Bekannt ist, dass Pemigatinib ein selektiver Inhibitor der Fibroblasten-Wachstumsfaktor-Rezeptoren 1 bis 3 (FGFR1-3) ist und beim Cholangiokarzinom eingesetzt wird. Mechanistisch könnte es daher für Tumoren relevant sein, bei denen der FGFR-Signalweg eine Rolle spielt.
 
 Der FGFR-Signalweg wird mit einigen endokrinen Tumoren in Verbindung gebracht. Ein direkter Zusammenhang mit den Syndromen der multiplen endokrinen Neoplasie ist durch die vorliegenden Daten jedoch nicht belegt. Diese Syndrome werden typischerweise durch Veränderungen in MEN1, RET oder CDKN1B getrieben, nicht durch FGFR. Die mechanistische Begründung ist daher spekulativ.
 
@@ -149,12 +149,13 @@ Die Vorhersage beruht ausschließlich auf dem Modell (L5), ohne klinische Studie
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Hinweis: Diese Zulassung (Inhaber: Incyte Biosciences Distribution B.V.) hat den Status „aufgehoben"“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche Zulassung aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Pemazyre (pemigatinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e1f2222-1d89-4e63-989c-ccebe2ab1eb4) |
 
 <!-- review:end log -->
 

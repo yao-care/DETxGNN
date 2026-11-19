@@ -58,7 +58,7 @@ Norelgestromin ist ein Gestagen, das ursprünglich zur Kontrazeption eingesetzt 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Nach bekanntem Stand ist Norelgestromin der aktive Gestagen-Metabolit von Norgestimat und wird über ein transdermales Verhütungspflaster verabreicht, üblicherweise zusammen mit Ethinylestradiol. Seine Wirksamkeit bei der Kontrazeption ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für norelgestromin and ethinyl estradiol (Kombinationspräparat mit Norelgestromin) (inoffizielle Übersetzung): „NGMN ist das aktive Gestagen, das weitgehend für die gestagene Wirkung verantwortlich ist, die bei Frauen nach Anwendung des transdermalen Systems mit Norelgestromin und Ethinylestradiol auftritt.“ Englischer Originalwortlaut: "NGMN is the active progestin largely responsible for the progestational activity that occurs in women following application of norelgestromin and ethinyl estradiol transdermal system." ([DailyMed: norelgestromin and ethinyl estradiol prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10fa1458-c8ed-4197-922a-1ba7271d2b02), Fassung vom 2026-04-16; abgerufen am 2026-11-19). Nach bekanntem Stand ist Norelgestromin der aktive Gestagen-Metabolit von Norgestimat und wird über ein transdermales Verhütungspflaster verabreicht, üblicherweise zusammen mit Ethinylestradiol. Seine Wirksamkeit bei der Kontrazeption ist belegt.
 
 Mechanistisch können Gestagene Abbruchblutungen auslösen und das Endometrium stabilisieren. Das ist bei bestimmten Formen der sekundären Amenorrhoe relevant, etwa bei hypoöstrogenen oder anovulatorischen Zuständen, in denen ein zyklischer Gestagentest eingesetzt wird.
 
@@ -121,11 +121,12 @@ Die Vorhersage stützt sich allein auf das Modell (L5) ohne Studien oder Publika
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „angesichts des erloschenen Marktstatus“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: norelgestromin and ethinyl estradiol prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10fa1458-c8ed-4197-922a-1ba7271d2b02) |
 
 <!-- review:end log -->
 

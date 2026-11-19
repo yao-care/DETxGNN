@@ -58,7 +58,7 @@ Ramucirumab wurde ursprünglich zur Behandlung des Magenkarzinoms (Stomach Neopl
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach allgemeinem Wissen ist Ramucirumab ein VEGFR-2-Antagonist. Seine Wirksamkeit beim Magenkarzinom ist belegt, und mechanistisch könnte eine Hemmung der Angiogenese auch bei Adenokarzinomen des weiblichen Genitaltrakts relevant sein, sofern diese von VEGF-Signalwegen abhängen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Ramucirumab (inoffizielle Übersetzung): „Ramucirumab ist ein VEGFR2-Antagonist, der spezifisch an VEGFR2 bindet und die Bindung der VEGFR-Liganden VEGF-A, VEGF-C und VEGF-D blockiert. Infolgedessen hemmt Ramucirumab die ligandenstimulierte Aktivierung von VEGFR2 und dadurch die ligandeninduzierte Proliferation und Migration humaner Endothelzellen. Ramucirumab hemmte die Angiogenese in einem In-vivo-Tiermodell.“ Englischer Originalwortlaut: "Ramucirumab is a VEGFR2 antagonist that specifically binds VEGFR2 and blocks binding of VEGFR ligands, VEGF-A, VEGF-C, and VEGF-D. As a result, ramucirumab inhibits ligand-stimulated activation of VEGFR2, thereby inhibiting ligand-induced proliferation, and migration of human endothelial cells. Ramucirumab inhibited angiogenesis in an in vivo animal model." ([DailyMed: Cyramza (ramucirumab) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6080942-dee6-423e-b688-1272c2ae90d4), Fassung vom 2026-06-09; abgerufen am 2026-11-19). Nach allgemeinem Wissen ist Ramucirumab ein VEGFR-2-Antagonist. Seine Wirksamkeit beim Magenkarzinom ist belegt, und mechanistisch könnte eine Hemmung der Angiogenese auch bei Adenokarzinomen des weiblichen Genitaltrakts relevant sein, sofern diese von VEGF-Signalwegen abhängen.
 
 Magenkarzinom und das vorhergesagte Uterine Ligament-Adenokarzinom sind beides Adenokarzinome. Für die gynäkologischen Tumoren gibt es jedoch keine ramucirumab-spezifischen Daten. Der hohe TxGNN-Wert (0.9995) stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat. Er ist kein biologischer Wirksamkeitsnachweis. Die Erkrankung ist zudem sehr selten.
 
@@ -140,11 +140,12 @@ Die Vorhersage stützt sich ausschließlich auf das TxGNN-Modell (Evidenzgrad L5
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „und die einzige deutsche Zulassung ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Cyramza (ramucirumab) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6080942-dee6-423e-b688-1272c2ae90d4) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Miconazol ist ein Azol-Antimykotikum aus der Klasse der Imidazole. Das TxGNN-Mod
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Aus der bekannten Klassenpharmakologie der Azole hemmt Miconazol die fungale Lanosterol-14-alpha-Demethylase (CYP51) und blockiert damit die Ergosterol-Synthese.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Miconazole (inoffizielle Übersetzung): „Miconazol ist ein Antimykotikum. […] Miconazol hemmt das Enzym Cytochrom-P450-14α-Demethylase, was zu einer Hemmung der Synthese von Ergosterol führt, einem essenziellen Bestandteil der Zellmembran von Pilzen. Miconazol beeinflusst außerdem die Synthese von Triglyceriden und Fettsäuren und hemmt oxidative und peroxidative Enzyme, wodurch die Menge reaktiver Sauerstoffspezies in der Zelle erhöht wird.“ Englischer Originalwortlaut: "Miconazole is an antifungal drug. […] Miconazole inhibits the enzyme cytochrome P450 14α-demethylase which leads to inhibition of ergosterol synthesis, an essential component of the fungal cell membrane. Miconazole also affects the synthesis of triglycerides and fatty acids and inhibits oxidative and peroxidative enzymes, increasing the amount of reactive oxygen species within the cell." ([DailyMed: Oravig (miconazole) prescribing information, Galt Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc2427ff-e566-4b48-b289-9e51c011250a), Fassung vom 2026-01-08; abgerufen am 2026-11-19). Aus der bekannten Klassenpharmakologie der Azole hemmt Miconazol die fungale Lanosterol-14-alpha-Demethylase (CYP51) und blockiert damit die Ergosterol-Synthese.
 
 Für Akne sind drei Wege denkbar:
 
@@ -102,6 +102,18 @@ Für Akne liegt nur eine Übersichtsarbeit zu antibakteriellen und entzündungsh
 - Detaillierte Wirkmechanismus-Daten (MOA)
 - Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen)
 - Prüfung der geeigneten Applikationswege und Darreichungsformen für Akne
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Oravig (miconazole) prescribing information, Galt Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc2427ff-e566-4b48-b289-9e51c011250a) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

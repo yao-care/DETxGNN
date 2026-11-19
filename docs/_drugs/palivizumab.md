@@ -60,7 +60,7 @@ allerdings gibt es dafür **keine klinischen Studien** und **keine Publikationen
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Für die vorliegende Auswertung sind derzeit keine detaillierten Daten zum Wirkmechanismus verfügbar. Bekannt ist, dass Palivizumab ein humanisierter monoklonaler Antikörper ist, der das F-Protein von RSV bindet und das Virus neutralisiert. Seine Wirksamkeit bei der Prävention schwerer RSV-Erkrankungen der unteren Atemwege ist die ursprüngliche Anwendung.
+Laut ChEMBL (EMBL-EBI) ist für Palivizumab folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Inhibitor des Fusionsglykoproteins F0“ Englischer Originalwortlaut: "Fusion glycoprotein F0 inhibitor" ([ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist, dass Palivizumab ein humanisierter monoklonaler Antikörper ist, der das F-Protein von RSV bindet und das Virus neutralisiert. Seine Wirksamkeit bei der Prävention schwerer RSV-Erkrankungen der unteren Atemwege ist die ursprüngliche Anwendung.
 
 Ein mechanistischer Zusammenhang zu gutartigen Zungentumoren ist nicht erkennbar. Das Zielprotein (RSV-F-Protein) spielt in der Biologie solcher Neubildungen keine bekannte Rolle, und Palivizumab hat keine bekannte tumorgerichtete Aktivität. Der hohe Vorhersagewert stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat (z. B. Neubildungen im Kopf-Hals-Bereich), nicht eine biologische Begründung.
 
@@ -107,6 +107,19 @@ Die Vorhersage beruht allein auf einem Computermodell (Evidenzstufe L5). Es gibt
 - Präklinische Hinweise, die eine tumorbezogene Aktivität stützen würden
 - Klärung der Anwendungswege (Verabreichungsroute) für die vorgeschlagene Indikation
 - Überprüfung, ob die hohe Vorhersage lediglich auf vom Modell gelernten Ähnlichkeiten zwischen verwandten Erkrankungen beruht
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

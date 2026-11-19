@@ -54,7 +54,7 @@ Laronidase ist eine rekombinante α-L-Iduronidase, die als Enzymersatztherapie e
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Laronidase die α-L-Iduronidase ersetzt, ein lysosomales Enzym, das am Abbau von Heparansulfat und Dermatansulfat beteiligt ist.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Laronidase (inoffizielle Übersetzung): „Mukopolysaccharid-Speicherkrankheiten werden durch den Mangel an spezifischen lysosomalen Enzymen verursacht, die für den Abbau von Glykosaminoglykanen (GAG) erforderlich sind. Die Mukopolysaccharidose I (MPS I) ist durch einen Mangel an α-L-Iduronidase gekennzeichnet, einer lysosomalen Hydrolase, die die Hydrolyse terminaler α-L-Iduronsäurereste von Dermatansulfat und Heparansulfat katalysiert. […] Die Aufnahme von ALDURAZYME durch Zellen in die Lysosomen wird höchstwahrscheinlich durch die Bindung der Mannose-6-Phosphat-terminierten Oligosaccharidketten von Laronidase an spezifische Mannose-6-Phosphat-Rezeptoren vermittelt.“ Englischer Originalwortlaut: "Mucopolysaccharide storage disorders are caused by the deficiency of specific lysosomal enzymes required for the catabolism of glycosaminoglycans (GAG). Mucopolysaccharidosis I (MPS I) is characterized by the deficiency of α-L-iduronidase, a lysosomal hydrolase which catalyzes the hydrolysis of terminal α-L-iduronic acid residues of dermatan sulfate and heparan sulfate. […] ALDURAZYME uptake by cells into lysosomes is most likely mediated by the mannose-6-phosphate-terminated oligosaccharide chains of laronidase binding to specific mannose-6-phosphate receptors." ([DailyMed: Aldurazyme (laronidase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a80ac249-cae4-41f3-88bb-344088b20e60), Fassung vom 2026-09-11; abgerufen am 2026-11-19). Bekannt ist, dass Laronidase die α-L-Iduronidase ersetzt, ein lysosomales Enzym, das am Abbau von Heparansulfat und Dermatansulfat beteiligt ist.
 
 Das Sanfilippo-Syndrom (MPS III) entsteht dagegen durch Mangel an anderen Enzymen (SGSH, NAGLU, HGSNAT, GNS), die ebenfalls Heparansulfat abbauen. Laronidase wirkt an einem vorgelagerten, anderen Abbauschritt und kann das fehlende Enzym bei MPS III nicht ersetzen. Zudem überwindet intravenös gegebene Laronidase die Blut-Hirn-Schranke nicht wirksam, während MPS III vor allem eine neurologische Erkrankung ist. Der hohe Vorhersagewert spiegelt vermutlich die Nähe im gemeinsamen Stoffwechselweg und in der Krankheitsklasse wider, nicht echte Wirksamkeitsbelege.
 
@@ -100,6 +100,18 @@ Es gibt weder klinische Studien noch Publikationen, die Laronidase beim Sanfilip
 - Präklinische Daten, die eine Wirkung bei MPS III belegen (einschließlich Zugang zum zentralen Nervensystem)
 - Detaillierte Daten zum Wirkmechanismus
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Aldurazyme (laronidase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a80ac249-cae4-41f3-88bb-344088b20e60) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

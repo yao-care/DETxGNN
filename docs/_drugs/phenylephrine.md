@@ -58,7 +58,7 @@ Phenylephrin ist ein selektiver Alpha-1-Agonist, der in Deutschland als Bestandt
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Pharmakologisch ist Phenylephrin ein selektiver Alpha-1-adrenerger Agonist. Bei topischer Anwendung bewirkt es eine Gefäßverengung der Nasenschleimhaut, die Schleimhautschwellung und Blutungen verringert.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Phenylephrine (inoffizielle Übersetzung): „Phenylephrinhydrochlorid ist ein α-1-adrenerger Rezeptoragonist.“ Englischer Originalwortlaut: "Phenylephrine hydrochloride is an α-1 adrenergic receptor agonist." ([DailyMed: Biorphen (phenylephrine hydrochloride) prescribing information, Dr. Reddy's Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f715e4e-b269-b935-d2c9-003cb29770be), Fassung vom 2026-03-31; abgerufen am 2026-11-19). Pharmakologisch ist Phenylephrin ein selektiver Alpha-1-adrenerger Agonist. Bei topischer Anwendung bewirkt es eine Gefäßverengung der Nasenschleimhaut, die Schleimhautschwellung und Blutungen verringert.
 
 Die ursprüngliche Indikation (Anwendung am Auge, u. a. bei Linsenimplantation) und die vorhergesagte Indikation haben denselben Wirkansatz: die Gefäßverengung über Alpha-1-Rezeptoren. Phenylephrin wird bereits klinisch als abschwellendes Nasenmittel und als topischer Vasokonstriktor bei endoskopischen Nasennebenhöhleneingriffen verwendet. Der hohe TxGNN-Wert passt zu diesem bekannten Mechanismus.
 
@@ -150,13 +150,14 @@ Die pharmakologische Plausibilität (Gefäßverengung der Nasenschleimhaut, bere
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Einschränkungen: Die Zulassung des Ausgangspräparats ist aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Diese Zulassung ist aufgehoben (Status: cancelled)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „da die einzige Zulassung aufgehoben ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Biorphen (phenylephrine hydrochloride) prescribing information, Dr. Reddy's Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f715e4e-b269-b935-d2c9-003cb29770be) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Abacavir ist ein nukleosidischer Reverse-Transkriptase-Hemmer (NRTI), der gegen 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Abacavir liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Abacavir ein NRTI ist, der die Reverse Transkriptase von HIV-1 hemmt. Das feline Immundefizienzvirus (FIV) ist ein Lentivirus, das ebenfalls auf eine Reverse Transkriptase angewiesen ist. Daraus ergibt sich ein mechanistisch nachvollziehbarer Ansatz.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für abacavir and lamivudine (Kombinationspräparat mit Abacavir) (inoffizielle Übersetzung): „Abacavir und Lamivudin ist ein antiretroviraler Wirkstoff mit Aktivität gegen HIV-1.“ Englischer Originalwortlaut: "Abacavir and lamivudine is an antiretroviral agent with activity against HIV-1." ([DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c), Fassung vom 2026-09-18; abgerufen am 2026-11-19). Bekannt ist, dass Abacavir ein NRTI ist, der die Reverse Transkriptase von HIV-1 hemmt. Das feline Immundefizienzvirus (FIV) ist ein Lentivirus, das ebenfalls auf eine Reverse Transkriptase angewiesen ist. Daraus ergibt sich ein mechanistisch nachvollziehbarer Ansatz.
 
 Die einzige gefundene Publikation (2002) untersucht jedoch eine Kombination aus Zidovudin, Lamivudin und Abacavir in vitro. Der Effekt von Abacavir allein lässt sich daraus nicht isolieren. Der hohe TxGNN-Wert spiegelt vermutlich die Ähnlichkeit des lentiviralen Ziels zu HIV wider und keine unabhängige Bestätigung. Da keine Studie die Erkrankung direkt am Zielorganismus mit Abacavir allein untersucht, bleibt die Evidenz auf Modellvorhersage-Niveau (L5).
 
@@ -97,6 +97,19 @@ Die Vorhersage stützt sich allein auf ein Modell und eine indirekte präklinisc
 - Daten zum Wirkmechanismus
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
 - Klärung, ob eine veterinärmedizinische Entwicklung überhaupt angestrebt wird
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

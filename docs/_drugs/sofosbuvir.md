@@ -58,7 +58,7 @@ Sofosbuvir ist ein antivirales Nukleotid-Analogon, das die RNA-Polymerase NS5B h
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Sofosbuvir als Nukleotid-Analogon die virale RNA-abhängige RNA-Polymerase NS5B hemmt.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Sofosbuvir (inoffizielle Übersetzung): „Sofosbuvir ist ein direkt wirkendes antivirales Mittel gegen das Hepatitis-C-Virus. […] Sofosbuvir ist ein Inhibitor der RNA-abhängigen RNA-Polymerase NS5B des HCV, die für die Virusreplikation essenziell ist. Sofosbuvir ist ein Nukleotid-Prodrug, das intrazellulär zum pharmakologisch aktiven Uridin-Analogon-Triphosphat (GS-461203) metabolisiert wird, welches durch die NS5B-Polymerase in die HCV-RNA eingebaut werden kann und als Kettenabbrecher wirkt.“ Englischer Originalwortlaut: "Sofosbuvir is a direct-acting antiviral agent against the hepatitis C virus. […] Sofosbuvir is an inhibitor of the HCV NS5B RNA-dependent RNA polymerase, which is essential for viral replication. Sofosbuvir is a nucleotide prodrug that undergoes intracellular metabolism to form the pharmacologically active uridine analog triphosphate (GS-461203), which can be incorporated into HCV RNA by the NS5B polymerase and acts as a chain terminator." ([DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf), Fassung vom 2024-12-26; abgerufen am 2026-11-19). Bekannt ist, dass Sofosbuvir als Nukleotid-Analogon die virale RNA-abhängige RNA-Polymerase NS5B hemmt.
 
 Die mechanistische Verbindung zum Hepatitis-B-Virus ist schwach. Dieses Virus vermehrt sich über eine Reverse-Transkriptase-Aktivität (DNA-Polymerase) und nicht über eine RNA-abhängige RNA-Polymerase. Für Sofosbuvir ist keine eigene antivirale Wirkung gegen das Hepatitis-B-Virus belegt. Der hohe Modellwert spiegelt vermutlich den gemeinsamen Kontext hepatotroper Viren und die gemeinsame Behandlung bei Koinfektionen wider, nicht eine gesicherte antivirale Wirkung.
 
@@ -134,6 +134,18 @@ Die einzige direkte Evidenz ist eine kleine einarmige Phase-2-Studie (n=21). Ein
 - Klärung eines möglichen Wirkmechanismus gegen das Hepatitis-B-Virus, da die bisherige Verbindung schwach ist
 - Erfassung der Fachinformation zu Warnhinweisen und Gegenanzeigen
 - Überwachungs- und Prophylaxekonzept zur HBV-Reaktivierung
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

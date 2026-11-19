@@ -58,7 +58,7 @@ Lumacaftor wurde ursprünglich zur Behandlung der **Mukoviszidose (Cystic Fibros
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Lumacaftor liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Lumacaftor ein CFTR-Korrektor ist, der die Faltung und den Transport des F508del-CFTR-Proteins zur Zelloberfläche verbessert. Seine Wirksamkeit bei Mukoviszidose ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für lumacaftor and ivacaftor (Kombinationspräparat mit Lumacaftor) (inoffizielle Übersetzung): „Lumacaftor verbessert die Konformationsstabilität von F508del-CFTR, was zu einer verstärkten Prozessierung und zu einem verstärkten Transport des reifen Proteins an die Zelloberfläche führt. In-vitro-Studien haben gezeigt, dass sowohl Lumacaftor als auch Ivacaftor in primären humanen Bronchialepithelkulturen und anderen Zelllinien, die die F508del-CFTR-Mutation tragen, direkt auf das CFTR-Protein wirken und die Menge, Stabilität und Funktion von F508del-CFTR an der Zelloberfläche erhöhen, was zu einem verstärkten Chloridionentransport führt.“ Englischer Originalwortlaut: "Lumacaftor improves the conformational stability of F508del-CFTR, resulting in increased processing and trafficking of mature protein to the cell surface. In vitro studies have demonstrated that both lumacaftor and ivacaftor act directly on the CFTR protein in primary human bronchial epithelial cultures and other cell lines harboring the F508del-CFTR mutation to increase the quantity, stability, and function of F508del-CFTR at the cell surface, resulting in increased chloride ion transport." ([DailyMed: Orkambi (lumacaftor and ivacaftor) prescribing information, Vertex Pharmaceuticals Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3fc1c40e-cfac-47a1-9e1a-61ead3570600), Fassung vom 2026-03-24; abgerufen am 2026-11-19). Bekannt ist, dass Lumacaftor ein CFTR-Korrektor ist, der die Faltung und den Transport des F508del-CFTR-Proteins zur Zelloberfläche verbessert. Seine Wirksamkeit bei Mukoviszidose ist belegt.
 
 Ein etablierter mechanistischer Zusammenhang zwischen diesem Wirkprinzip und Lepra wurde nicht gefunden. Lepra ist eine chronische mykobakterielle Infektion (Mycobacterium leprae), die Haut und periphere Nerven betrifft. Spekulativ denkbar wären Verbindungen über Wirt-Erreger-Interaktionen oder über Ionentransport und Proteinfaltung in Epithel- bzw. Schwann-Zellen. Die vorliegenden Daten stützen dies jedoch nicht.
 
@@ -127,11 +127,12 @@ Die Vorhersage für Lepra beruht ausschließlich auf einem Modellwert (Evidenzst
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „da die einzige Zulassung erloschen ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Orkambi (lumacaftor and ivacaftor) prescribing information, Vertex Pharmaceuticals Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3fc1c40e-cfac-47a1-9e1a-61ead3570600) |
 
 <!-- review:end log -->
 

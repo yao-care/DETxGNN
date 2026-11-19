@@ -60,7 +60,7 @@ Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vo
 
 ## Warum ist diese Vorhersage plausibel (oder nicht)?
 
-Detaillierte Wirkmechanismus-Daten liegen in den für diesen Bericht zusammengestellten Daten nicht vor. Nach allgemeinem Wissen ist Linaclotid ein GC-C-Agonist, der im Darmepithel den intrazellulären cGMP-Spiegel erhöht. Die systemische Resorption ist minimal, die Wirkung bleibt daher weitgehend auf den Darm beschränkt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Linaclotide (inoffizielle Übersetzung): „Linaclotid ist strukturell mit humanem Guanylin und Uroguanylin verwandt und wirkt als Guanylatcyclase-C(GC-C)-Agonist. Sowohl Linaclotid als auch sein aktiver Metabolit binden an GC-C und wirken lokal an der luminalen Oberfläche des Darmepithels.“ Englischer Originalwortlaut: "Linaclotide is structurally related to human guanylin and uroguanylin and functions as a guanylate cyclase-C (GC-C) agonist. Both linaclotide and its active metabolite bind to GC-C and act locally on the luminal surface of the intestinal epithelium." ([DailyMed: Linzess (linaclotide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d09771d-69da-4c9d-92b6-74374ffa130f), Fassung vom 2026-10-10; abgerufen am 2026-11-19). Nach allgemeinem Wissen ist Linaclotid ein GC-C-Agonist, der im Darmepithel den intrazellulären cGMP-Spiegel erhöht. Die systemische Resorption ist minimal, die Wirkung bleibt daher weitgehend auf den Darm beschränkt.
 
 Das Cauda-equina-Syndrom ist eine neurologische Kompressionsschädigung der lumbosakralen Nervenwurzeln. Ein plausibler Mechanismus, wie eine lokale GC-C-Agonisierung diese Erkrankung behandeln könnte, ist nicht erkennbar. Der sehr hohe TxGNN-Wert (0,9996) spiegelt vermutlich die Nähe im Netzwerk zu Darm- und Blasenfunktionsstörungen wider (Obstipation, neurogener Darm) und keinen krankheitsmodifizierenden Effekt.
 
@@ -131,11 +131,12 @@ Für alle drei vorhergesagten Indikationen gibt es ausschließlich Modellvorhers
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-12 | Tabelle: Constella (EMEA/H/C/002490) ist gültig, nicht erloschen | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Linzess (linaclotide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d09771d-69da-4c9d-92b6-74374ffa130f) |
 
 <!-- review:end log -->
 

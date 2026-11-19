@@ -54,7 +54,7 @@ Lurasidon ist ein atypisches Antipsychotikum. Das TxGNN-Modell sagt eine möglic
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Zum Wirkmechanismus von Lurasidon liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass es als Antipsychotikum eingestuft wird, dessen Wirkung typischerweise über eine Antagonisierung von Dopamin-D2- und Serotonin-5-HT-Rezeptoren beschrieben wird.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Lurasidone (inoffizielle Übersetzung): „Der Wirkmechanismus von Lurasidon bei der Behandlung von Schizophrenie und bipolarer Depression ist unklar. Seine Wirksamkeit bei Schizophrenie und bipolarer Depression könnte jedoch durch eine Kombination aus zentralem Antagonismus an Dopamin-D 2 - und Serotonin-Typ-2-(5HT 2A )-Rezeptoren vermittelt werden.“ Englischer Originalwortlaut: "The mechanism of action of lurasidone in the treatment of schizophrenia and bipolar depression is unclear. However, its efficacy in schizophrenia and bipolar depression could be mediated through a combination of central dopamine D 2 and serotonin Type 2 (5HT 2A ) receptor antagonism." ([DailyMed: Latuda (lurasidone hydrochloride) prescribing information, Sumitomo Pharma America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=afad3051-9df2-4c54-9684-e8262a133af8), Fassung vom 2025-01-31; abgerufen am 2026-11-19). Bekannt ist, dass es als Antipsychotikum eingestuft wird, dessen Wirkung typischerweise über eine Antagonisierung von Dopamin-D2- und Serotonin-5-HT-Rezeptoren beschrieben wird.
 
 Ein erkennbarer mechanistischer Zusammenhang zwischen diesem Wirkprinzip und einer erblich bedingten retinalen Dystrophie besteht nach der vorliegenden Bewertung nicht. Der hohe Vorhersagewert ist ein rein rechnerisches Ergebnis des Modells, das durch keine Studien oder Literatur gestützt wird. Auch die Ähnlichkeit zur ursprünglichen Anwendung ist bislang nicht bewertet.
 
@@ -92,6 +92,19 @@ Die Vorhersage beruht allein auf dem Modellwert, ohne klinische Studien, Publika
 - Ergänzung detaillierter Wirkmechanismus-Daten
 - Präklinische Studien oder eine Literaturrecherche, die einen Zusammenhang zwischen Lurasidon und retinalen Dystrophien belegen könnten
 - Bewertung der Ähnlichkeit zur ursprünglichen Anwendung und der Anwendungswege (Applikationsrouten)
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Latuda (lurasidone hydrochloride) prescribing information, Sumitomo Pharma America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=afad3051-9df2-4c54-9684-e8262a133af8) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

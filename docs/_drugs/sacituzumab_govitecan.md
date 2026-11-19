@@ -58,7 +58,7 @@ Sacituzumab Govitecan ist ein Antikörper-Wirkstoff-Konjugat, das ursprünglich 
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Sacituzumab Govitecan ein gegen Trop-2 gerichtetes Antikörper-Wirkstoff-Konjugat ist, dessen Nutzlast SN-38 ein Topoisomerase-I-Inhibitor ist. Es wirkt gegen proliferierende Epithelzellen von Tumoren.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Sacituzumab Govitecan (inoffizielle Übersetzung): „Sacituzumab govitecan-hziy ist ein gegen Trop-2 gerichtetes Antikörper-Wirkstoff-Konjugat. Sacituzumab ist ein humanisierter Antikörper, der Trop-2 erkennt. Das kleine Molekül SN-38 ist ein Topoisomerase-I-Inhibitor, der über einen Linker kovalent an den Antikörper gebunden ist.“ Englischer Originalwortlaut: "Sacituzumab govitecan-hziy is a Trop-2-directed antibody-drug conjugate. Sacituzumab is a humanized antibody that recognizes Trop-2. The small molecule, SN-38, is a topoisomerase I inhibitor, which is covalently attached to the antibody by a linker." ([DailyMed: Trodelvy (sacituzumab govitecan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d), Fassung vom 2026-06-24; abgerufen am 2026-11-19). Bekannt ist, dass Sacituzumab Govitecan ein gegen Trop-2 gerichtetes Antikörper-Wirkstoff-Konjugat ist, dessen Nutzlast SN-38 ein Topoisomerase-I-Inhibitor ist. Es wirkt gegen proliferierende Epithelzellen von Tumoren.
 
 Ein mechanistischer Zusammenhang zwischen dieser Wirkung und der Behandlung der medikamenteninduzierten Osteoporose ist anhand der vorliegenden Daten nicht erkennbar. Zytotoxische Nutzlasten gelten eher als knochenschädigend denn als knochenschützend, und eine knochenprotektive Wirkung ist nicht bekannt. Der hohe TxGNN-Wert (0,9978) stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz.
 
@@ -129,6 +129,19 @@ Die Vorhersagen beruhen ausschließlich auf dem Modell (Evidenzgrad L5), ohne St
 - Daten zum Wirkmechanismus ergänzen (z. B. über DrugBank)
 - Präklinische Belege für einen Zusammenhang mit Knochenstoffwechsel oder den anderen vorhergesagten Indikationen prüfen
 - Klärung des Zulassungsstatus in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Trodelvy (sacituzumab govitecan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -58,7 +58,7 @@ Vareniclin ist ein Wirkstoff zur Raucherentwöhnung (Tabakentwöhnung). Das TxGN
 
 ## Warum ist diese Vorhersage plausibel (oder nicht)?
 
-Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten nicht vor. Bekannt ist, dass Vareniclin ein partieller Agonist am α4β2- und ein voller Agonist am α7-nikotinischen Acetylcholinrezeptor ist. Seine Wirkung bei der Tabakentwöhnung ist belegt. Mechanistisch ist denkbar, dass nikotinerge cholinerge Signalwege an trigeminovaskulären Mechanismen und an der kortikalen Streudepolarisation (Cortical Spreading Depression) beteiligt sind. Dies ist jedoch nicht belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Varenicline (inoffizielle Übersetzung): „Vareniclin bindet mit hoher Affinität und Selektivität an neuronale nikotinerge α4β2-Acetylcholinrezeptoren. Es wird angenommen, dass die Wirksamkeit von CHANTIX bei der Raucherentwöhnung auf die Aktivität von Vareniclin am α4β2-Subtyp des Nikotinrezeptors zurückzuführen ist, wo seine Bindung eine agonistische Aktivität bewirkt und gleichzeitig die Bindung von Nikotin an diese Rezeptoren verhindert.“ Englischer Originalwortlaut: "Varenicline binds with high affinity and selectivity at α4β2 neuronal nicotinic acetylcholine receptors. The efficacy of CHANTIX in smoking cessation is believed to be the result of varenicline's activity at α4β2 sub-type of the nicotinic receptor where its binding produces agonist activity, while simultaneously preventing nicotine binding to these receptors." ([DailyMed: Chantix (varenicline tartrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696), Fassung vom 2026-01-23; abgerufen am 2026-11-19). Bekannt ist, dass Vareniclin ein partieller Agonist am α4β2- und ein voller Agonist am α7-nikotinischen Acetylcholinrezeptor ist. Seine Wirkung bei der Tabakentwöhnung ist belegt. Mechanistisch ist denkbar, dass nikotinerge cholinerge Signalwege an trigeminovaskulären Mechanismen und an der kortikalen Streudepolarisation (Cortical Spreading Depression) beteiligt sind. Dies ist jedoch nicht belegt.
 
 Der hohe Score (0,999) spiegelt vermutlich die Graphentopologie wider und kein unabhängiges klinisches Signal. Kopfschmerz und Migräne sind zudem bekannte Nebenwirkungen von Vareniclin; das Sicherheitssignal weist also in die **entgegengesetzte Richtung** der vorhergesagten Wirkung. Der Bericht über einen durch Vareniclin ausgelösten Kopfschmerz beim Baden (PMID 23175211) unterstreicht dies.
 
@@ -127,6 +127,19 @@ Für Warnhinweise und Gegenanzeigen laut Fachinformation siehe bitte die Packung
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM
 - Prüfung des Kopfschmerz-Sicherheitssignals sowie der kardiovaskulären und neuropsychiatrischen Risiken
 - Klärung des Zulassungsstatus in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Chantix (varenicline tartrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

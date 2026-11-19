@@ -54,7 +54,7 @@ Dolutegravir ist ein Integrase-Strang-Transfer-Inhibitor gegen HIV. Das TxGNN-Mo
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu Dolutegravir liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Bekannt ist, dass Dolutegravir die Integrase von HIV-1 hemmt. Das Feline Immundefizienzvirus (FIV) ist ebenfalls ein Lentivirus und besitzt ein Integrase-Enzym, das dem HIV-Enzym strukturell verwandt ist. Daraus ergibt sich ein mechanistischer Denkansatz.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Dolutegravir (inoffizielle Übersetzung): „Dolutegravir ist ein antiretroviraler Wirkstoff gegen HIV-1. […] Dolutegravir hemmt die HIV-Integrase, indem es an das aktive Zentrum der Integrase bindet und den Strangtransferschritt der retroviralen DNA-Integration blockiert, der für den HIV-Replikationszyklus essenziell ist. Biochemische Strangtransfer-Assays mit gereinigter HIV-1-Integrase und vorprozessierter Substrat-DNA ergaben IC 50 -Werte von 2,7 nM und 12,6 nM.“ Englischer Originalwortlaut: "Dolutegravir is an HIV-1 antiretroviral agent. […] Dolutegravir inhibits HIV integrase by binding to the integrase active site and blocking the strand transfer step of retroviral DNA integration which is essential for the HIV replication cycle. Strand transfer biochemical assays using purified HIV-1 integrase and pre-processed substrate DNA resulted in IC 50 values of 2.7 nM and 12.6 nM." ([DailyMed: Tivicay (dolutegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63df5af3-b8ac-4e76-9830-2dbb340af922), Fassung vom 2026-08-25; abgerufen am 2026-11-19). Bekannt ist, dass Dolutegravir die Integrase von HIV-1 hemmt. Das Feline Immundefizienzvirus (FIV) ist ebenfalls ein Lentivirus und besitzt ein Integrase-Enzym, das dem HIV-Enzym strukturell verwandt ist. Daraus ergibt sich ein mechanistischer Denkansatz.
 
 Dieser Ansatz ist bislang nicht belegt. Die einzige gefundene Publikation untersuchte eine Kombinationstherapie (Dolutegravir, Tenofovir, Emtricitabin) bei FIV-infizierten Katzen. Aus dem Titel geht nicht hervor, welchen Beitrag Dolutegravir allein leistet. Der hohe TxGNN-Wert ist eine rechnerische Vorhersage und kein klinischer Beleg. Da in dieser Veröffentlichung die Wirkung bei der Katze selbst untersucht wurde, ist sie für die vorhergesagte Erkrankung einschlägig. Die Studie ist jedoch präklinisch, weshalb der Evidenzgrad nicht höher als L5 angesetzt wird, bis Design und Ergebnisse geprüft sind.
 
@@ -94,6 +94,19 @@ Für die vorhergesagte Erkrankung liegt lediglich eine einzelne präklinische St
 - Daten zu Wirksamkeit und Verträglichkeit von Dolutegravir bei Katzen
 - Angaben zum Wirkmechanismus (MOA) in den Arzneimitteldaten
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Tivicay (dolutegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63df5af3-b8ac-4e76-9830-2dbb340af922) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

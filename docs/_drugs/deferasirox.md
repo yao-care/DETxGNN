@@ -60,7 +60,7 @@ doch bislang gibt es **keine klinischen Studien** und nur **2 Publikationen** (d
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Deferasirox ein Eisenchelator ist; seine Wirksamkeit bei Eisenüberladung ist belegt. Mechanistisch könnte der Eisenstoffwechsel auch bei HIV-1 eine Rolle spielen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Deferasirox (inoffizielle Übersetzung): „Exjade (Deferasirox) ist ein oral wirksamer Chelatbildner, der selektiv für Eisen (als Fe 3+ ) ist. Es ist ein dreizähniger Ligand, der Eisen mit hoher Affinität im Verhältnis 2:1 bindet. Obwohl Deferasirox eine sehr geringe Affinität zu Zink und Kupfer aufweist, kommt es nach der Gabe von Deferasirox zu unterschiedlich starken Abnahmen der Serumkonzentration dieser Spurenmetalle.“ Englischer Originalwortlaut: "Exjade (deferasirox) is an orally active chelator that is selective for iron (as Fe 3+ ). It is a tridentate ligand that binds iron with high affinity in a 2:1 ratio. Although deferasirox has very low affinity for zinc and copper there are variable decreases in the serum concentration of these trace metals after the administration of deferasirox." ([DailyMed: Exjade (deferasirox) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3495a70c-870c-4968-940e-8baea152cf85), Fassung vom 2026-01-28; abgerufen am 2026-11-19). Bekannt ist, dass Deferasirox ein Eisenchelator ist; seine Wirksamkeit bei Eisenüberladung ist belegt. Mechanistisch könnte der Eisenstoffwechsel auch bei HIV-1 eine Rolle spielen.
 
 Eine Studie von 2021 (PMID 34550543) berichtet, dass Eisen in Endolysosomen die Tat-vermittelte Transaktivierung des HIV-1-LTR einschränkt, indem es die Tat-Oligomerisierung und die β-Catenin-Expression erhöht. Das ergibt einen plausiblen, aber nur indirekten Zusammenhang zwischen Eisenhomöostase und HIV-1-Transkription.
 
@@ -122,6 +122,19 @@ Die Vorhersage stützt sich auf einen hohen Modellwert und eine einzelne indirek
 - Gezielte präklinische Untersuchungen (Zellkultur), ob Deferasirox die HIV-Replikation hemmt oder fördert
 - Prüfung der Sicherheit bei HIV-Patienten, insbesondere bei Leber- und Nierenfunktion sowie Blutbild, und der Wechselwirkungen mit antiretroviraler Therapie
 - Klärung des Zulassungsstatus bzw. der verfügbaren Präparate in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Exjade (deferasirox) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3495a70c-870c-4968-940e-8baea152cf85) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

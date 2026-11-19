@@ -54,7 +54,7 @@ Etravirin ist ein nicht-nukleosidischer Hemmer der HIV-1-Reverse-Transkriptase. 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Etravirin liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Etravirin die Reverse-Transkriptase von HIV-1 hemmt.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Etravirine (inoffizielle Übersetzung): „Etravirin ist ein antiretroviraler Wirkstoff. […] Etravirin ist ein NNRTI von HIV-1. Etravirin bindet direkt an die Reverse Transkriptase (RT) und blockiert die RNA-abhängigen und DNA-abhängigen DNA-Polymerase-Aktivitäten, indem es eine Störung des katalytischen Zentrums des Enzyms verursacht. Etravirin hemmt die humanen DNA-Polymerasen α, β und γ nicht.“ Englischer Originalwortlaut: "Etravirine is an antiretroviral drug. […] Etravirine is an NNRTI of HIV-1. Etravirine binds directly to reverse transcriptase (RT) and blocks the RNA-dependent and DNA-dependent DNA polymerase activities by causing a disruption of the enzyme's catalytic site. Etravirine does not inhibit the human DNA polymerases α, β, and γ." ([DailyMed: Intelence (etravirine) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a9cbc29-9f15-4b24-8d86-206b82887f3d), Fassung vom 2023-08-15; abgerufen am 2026-11-19). Bekannt ist, dass Etravirin die Reverse-Transkriptase von HIV-1 hemmt.
 
 Das feline Immundefizienzvirus (FIV) ist ein mit HIV verwandtes Lentivirus. Allerdings ist die Reverse-Transkriptase von FIV gegenüber nicht-nukleosidischen Hemmern in der Regel weniger empfindlich, sodass eine artübergreifende Wirkung unsicher ist. Der hohe Vorhersagewert spiegelt vermutlich die Nähe zu HIV-bezogenen Krankheitsknoten im Modell wider und keine nachgewiesene Aktivität.
 
@@ -90,6 +90,19 @@ Für die Vorhersage felines erworbenes Immundefizienz-Syndrom gibt es weder klin
 - Daten zum Wirkmechanismus
 - Tierarzneimittelrechtliche Bewertung, da die Indikation eine Tierkrankheit betrifft
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Intelence (etravirine) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a9cbc29-9f15-4b24-8d86-206b82887f3d) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

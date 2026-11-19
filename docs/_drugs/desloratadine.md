@@ -64,7 +64,7 @@ Die Kälteurtikaria ist eine durch Mastzellen getriebene, histaminvermittelte Er
 
 Die ursprüngliche Indikation (Urtikaria und allergische Rhinitis) und die neue Indikation (Kälteurtikaria) beruhen auf demselben pathophysiologischen Prinzip, nämlich der Histaminfreisetzung. Zudem sehen Leitlinien für Patienten, die auf die Standarddosis unzureichend ansprechen, eine Dosiserhöhung von Antihistaminika der zweiten Generation vor. Diese wurde für Desloratadin bis zu 20 mg untersucht.
 
-Hinweis: Für diesen Bericht liegen keine detaillierten Daten zum Wirkmechanismus aus der Arzneimitteldatenbank vor. Die obige Mechanismusbeschreibung stützt sich auf die mechanistische Begründung der Vorhersage.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Desloratadine (inoffizielle Übersetzung): „Desloratadin ist ein lang wirksamer trizyklischer Histamin-Antagonist mit selektiver antagonistischer Aktivität am Histamin-H1-Rezeptor. Rezeptorbindungsdaten zeigen, dass Desloratadin bei einer Konzentration von 2-3 ng/mL (7 nanomolar) eine signifikante Interaktion mit dem humanen Histamin-H1-Rezeptor aufweist.“ Englischer Originalwortlaut: "Desloratadine is a long-acting tricyclic histamine antagonist with selective H1-receptor histamine antagonist activity. Receptor binding data indicates that at a concentration of 2-3 ng/mL (7 nanomolar), desloratadine shows significant interaction with the human histamine H1-receptor." ([DailyMed: Desloratadine Oral Solution (desloratadine) prescribing information, INA Pharmaceutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41d5e0d4-6188-847b-e063-6294a90a2e2f), Fassung vom 2025-10-23; abgerufen am 2026-11-19). Die obige Mechanismusbeschreibung stützt sich auf die mechanistische Begründung der Vorhersage.
 
 ---
 
@@ -134,6 +134,19 @@ Für Kälteurtikaria liegen mehrere randomisierte, kontrollierte Untersuchungen 
 - Größere Studien zur Bestätigung von Wirksamkeit und Dosis
 
 **Weitere vorhergesagte Indikationen (nur Modellvorhersage, jeweils Hold):** Nasenhöhlenerkrankung (die Evidenz beschränkt sich auf Tiermodelle; die Vorhersage spiegelt weitgehend die bestehende Indikation allergische Rhinitis wider), akute Laryngopharyngitis, therapieresistente atopische Dermatitis, atopische IgE-Reaktivität und Rosazea-Konjunktivitis. Für diese liegen keine klinischen Studien vor, und die mechanistische Begründung ist schwach bis spekulativ.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Desloratadine Oral Solution (desloratadine) prescribing information, INA Pharmaceutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41d5e0d4-6188-847b-e063-6294a90a2e2f) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

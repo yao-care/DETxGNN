@@ -54,7 +54,7 @@ Denosumab ist ein monoklonaler Antikörper, der den RANK-Liganden (RANKL) hemmt.
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Denosumab RANKL hemmt und damit die Knochenresorption reduziert. Für das RANKL/RANK-Signal wird in der Literatur eine Rolle bei Entzündung und Gefäßbiologie diskutiert. Das könnte theoretisch eine Verbindung zu mikrovaskulären Erkrankungen der Netzhaut herstellen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Denosumab (inoffizielle Übersetzung): „Denosumab-Präparate binden an RANKL, ein transmembranäres oder lösliches Protein, das für die Bildung, Funktion und das Überleben der Osteoklasten, der für die Knochenresorption verantwortlichen Zellen, essenziell ist. Denosumab-Präparate verhindern, dass RANKL seinen Rezeptor RANK auf der Oberfläche von Osteoklasten und deren Vorläuferzellen aktiviert.“ Englischer Originalwortlaut: "Denosumab products bind to RANKL, a transmembrane or soluble protein essential for the formation, function, and survival of osteoclasts, the cells responsible for bone resorption. Denosumab products prevent RANKL from activating its receptor, RANK, on the surface of osteoclasts and their precursors." ([DailyMed: Conexxence (denosumab) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39a0a789-778f-4695-b3a9-61643e6396cd), Fassung vom 2026-11-04; abgerufen am 2026-11-19). Bekannt ist, dass Denosumab RANKL hemmt und damit die Knochenresorption reduziert. Für das RANKL/RANK-Signal wird in der Literatur eine Rolle bei Entzündung und Gefäßbiologie diskutiert. Das könnte theoretisch eine Verbindung zu mikrovaskulären Erkrankungen der Netzhaut herstellen.
 
 Diese Verbindung ist jedoch rein hypothetisch. Die Vorhersage beruht ausschließlich auf dem hohen TxGNN-Wert; ein mechanistischer Beleg aus den vorliegenden Daten fehlt.
 
@@ -96,6 +96,19 @@ Die Vorhersage stützt sich allein auf den Modellwert (0,9963). Es gibt weder kl
 - Daten zum Wirkmechanismus (MOA) ergänzen
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) für die Sicherheitsbewertung
 - Prüfung, ob Beobachtungsdaten bei Diabetespatienten Netzhautendpunkte erfassen, um erste Hinweise zu gewinnen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Conexxence (denosumab) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39a0a789-778f-4695-b3a9-61643e6396cd) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

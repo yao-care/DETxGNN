@@ -60,7 +60,7 @@ Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vo
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für diesen Bericht liegen derzeit keine detaillierten Daten zum Wirkmechanismus vor. Bekannt ist, dass Lorlatinib ein hirngängiger ALK/ROS1-Inhibitor der dritten Generation ist, dessen Wirksamkeit beim ALK-positiven NSCLC in Phase-3-Studien (CROWN) belegt ist.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Lorlatinib (inoffizielle Übersetzung): „Lorlatinib ist ein Kinaseinhibitor mit In-vitro-Aktivität gegen ALK und ROS1 sowie gegen TYK1, FER, FPS, TRKA, TRKB, TRKC, FAK, FAK2 und ACK. Lorlatinib zeigte In-vitro-Aktivität gegen mehrere mutierte Formen des ALK-Enzyms, einschließlich einiger Mutationen, die zum Zeitpunkt der Krankheitsprogression unter Crizotinib und anderen ALK-Inhibitoren in Tumoren nachgewiesen wurden.“ Englischer Originalwortlaut: "Lorlatinib is a kinase inhibitor with in vitro activity against ALK and ROS1 as well as TYK1, FER, FPS, TRKA, TRKB, TRKC, FAK, FAK2, and ACK. Lorlatinib demonstrated in vitro activity against multiple mutant forms of the ALK enzyme, including some mutations detected in tumors at the time of disease progression on crizotinib and other ALK inhibitors." ([DailyMed: Lorbrena (lorlatinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b34d62d-e02a-4af3-bc0d-1571dd4ee76d), Fassung vom 2026-06-26; abgerufen am 2026-11-19). Bekannt ist, dass Lorlatinib ein hirngängiger ALK/ROS1-Inhibitor der dritten Generation ist, dessen Wirksamkeit beim ALK-positiven NSCLC in Phase-3-Studien (CROWN) belegt ist.
 
 Für die Gingivale Fibromatose ist kein ALK-bezogener Mechanismus bekannt. Der hohe TxGNN-Wert (0,9981) stammt vom TxGNN-Modell (deep learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. Er hat keine Studien- oder Literaturgrundlage. Eine mechanistische Verbindung zur ursprünglichen Indikation lässt sich derzeit nicht herleiten.
 
@@ -139,12 +139,13 @@ Für Fibromatose der Gingiva gibt es weder klinische Studien noch Literatur und 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Der Status dieser Zulassung ist „erloschen"“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Zudem ist die deutsche Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Lorbrena (lorlatinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b34d62d-e02a-4af3-bc0d-1571dd4ee76d) |
 
 <!-- review:end log -->
 

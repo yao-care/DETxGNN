@@ -60,7 +60,7 @@ Die Evidenz ist bislang gering: Es liegen **keine klinischen Studien** und **1 P
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Nilotinib liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach allgemein bekanntem Wissen hemmt Nilotinib die BCR-ABL-Tyrosinkinase und zusätzlich PDGFR (alpha/beta) sowie KIT. Diese Einordnung beruht auf dem allgemeinen Kenntnisstand zum Kinaseprofil und nicht auf den vorliegenden Daten.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Nilotinib (inoffizielle Übersetzung): „Nilotinib ist ein Inhibitor der BCR-ABL-Kinase. Nilotinib bindet an die inaktive Konformation der Kinasedomäne des ABL-Proteins und stabilisiert diese. In vitro hemmte Nilotinib die BCR-ABL-vermittelte Proliferation muriner leukämischer Zelllinien und humaner Zelllinien, die von Patienten mit Ph+ CML stammten.“ Englischer Originalwortlaut: "Nilotinib is an inhibitor of the BCR-ABL kinase. Nilotinib binds to and stabilizes the inactive conformation of the kinase domain of ABL protein. In vitro, nilotinib inhibited BCR-ABL mediated proliferation of murine leukemic cell lines and human cell lines derived from patients with Ph+ CML." ([DailyMed: Cavhanza (nilotinib) prescribing information, Cycle Pharmaceuticals Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98b197ea-bca4-427e-8737-97f70a3262bc), Fassung vom 2026-07-20; abgerufen am 2026-11-19). Nach allgemein bekanntem Wissen hemmt Nilotinib die BCR-ABL-Tyrosinkinase und zusätzlich PDGFR (alpha/beta) sowie KIT. Diese Einordnung beruht auf dem allgemeinen Kenntnisstand zum Kinaseprofil und nicht auf den vorliegenden Daten.
 
 DFSP ist durch die COL1A1-PDGFB-Translokation gekennzeichnet. Sie führt zu einem dauerhaft aktiven PDGFB-Liganden und treibt die PDGFR-beta-Signalübertragung an. Mechanistisch besteht daher ein plausibler Zusammenhang: Die Hemmung des PDGFR-Signalwegs betrifft denselben Weg, der von Imatinib bei inoperablem oder metastasiertem DFSP gezielt angegangen wird.
 
@@ -142,11 +142,12 @@ Die mechanistische Verbindung über die PDGFR-Hemmung ist plausibel, die Evidenz
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Beide Zulassungen haben den Status „erloschen/gelöscht"“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Cavhanza (nilotinib) prescribing information, Cycle Pharmaceuticals Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98b197ea-bca4-427e-8737-97f70a3262bc) |
 
 <!-- review:end log -->
 

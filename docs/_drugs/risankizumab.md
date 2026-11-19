@@ -60,7 +60,7 @@ Dafür liegen **2 klinische Studien** und **20 Publikationen** vor. Die einzige 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für diesen Bericht liegen keine detaillierten Daten zum Wirkmechanismus aus der Datenbank vor. Bekannt ist, dass Risankizumab die p19-Untereinheit von IL-23 hemmt. Die IL-23/Th17-Achse treibt Psoriasis und weitere entzündliche Hauterkrankungen an. Daraus ergibt sich eine mechanistische Plausibilität für Th17-dominierte Dermatitisformen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Risankizumab (inoffizielle Übersetzung): „Risankizumab-rzaa ist ein humanisierter monoklonaler IgG1-Antikörper, der selektiv an die p19-Untereinheit des humanen Zytokins IL-23 bindet und dessen Interaktion mit dem IL-23-Rezeptor hemmt. IL-23 ist ein natürlich vorkommendes Zytokin, das an Entzündungs- und Immunreaktionen beteiligt ist.“ Englischer Originalwortlaut: "Risankizumab-rzaa is a humanized IgG1 monoclonal antibody that selectively binds to the p19 subunit of human IL-23 cytokine and inhibits its interaction with the IL-23 receptor. IL-23 is a naturally occurring cytokine that is involved in inflammatory and immune responses." ([DailyMed: Skyrizi (risankizumab-rzaa) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7148c8eb-b39e-e20a-6494-a6df82392858), Fassung vom 2026-10-23; abgerufen am 2026-11-19). Bekannt ist, dass Risankizumab die p19-Untereinheit von IL-23 hemmt. Die IL-23/Th17-Achse treibt Psoriasis und weitere entzündliche Hauterkrankungen an. Daraus ergibt sich eine mechanistische Plausibilität für Th17-dominierte Dermatitisformen.
 
 Die atopische Dermatitis ist dagegen überwiegend Th2-getrieben (IL-4/IL-13). Die IL-23-Blockade passt hier mechanistisch weniger gut. Das Ergebnis der Phase-2-Studie und ein Fallbericht zur Kombination mit Dupilumab sprechen für eine begrenzte Wirksamkeit als Monotherapie.
 
@@ -149,12 +149,13 @@ Die einzige randomisierte Studie (Phase 2, atopische Dermatitis) zeigte keinen k
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Diese Zulassung ist laut den für diesen Bericht zusammengestellten Daten als erloschen/aufgehoben geführt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Die Zulassung in Deutschland ist zudem erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Skyrizi (risankizumab-rzaa) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7148c8eb-b39e-e20a-6494-a6df82392858) |
 
 <!-- review:end log -->
 

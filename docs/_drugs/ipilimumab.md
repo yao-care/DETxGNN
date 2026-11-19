@@ -58,7 +58,7 @@ Ipilimumab ist ein Immuncheckpoint-Inhibitor (CTLA-4-Antikörper). Er wurde ursp
 
 ## Warum ist diese Vorhersage (nur eingeschränkt) plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Ipilimumab das Protein CTLA-4 blockiert. Dadurch wird die Hemmung der T-Zellen aufgehoben und die körpereigene Immunantwort gegen Tumoren verstärkt. Auf diesem Prinzip beruht auch die Wirksamkeit bei den zugelassenen Krebsindikationen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Ipilimumab (inoffizielle Übersetzung): „CTLA-4 ist ein negativer Regulator der T-Zell-Aktivität. Ipilimumab ist ein monoklonaler Antikörper, der an CTLA-4 bindet und die Interaktion von CTLA-4 mit seinen Liganden CD80/CD86 blockiert. Es wurde gezeigt, dass die Blockade von CTLA-4 die T-Zell-Aktivierung und -Proliferation verstärkt, einschließlich der Aktivierung und Proliferation tumorinfiltrierender T-Effektorzellen.“ Englischer Originalwortlaut: "CTLA-4 is a negative regulator of T-cell activity. Ipilimumab is a monoclonal antibody that binds to CTLA-4 and blocks the interaction of CTLA-4 with its ligands, CD80/CD86. Blockade of CTLA-4 has been shown to augment T-cell activation and proliferation, including the activation and proliferation of tumor infiltrating T-effector cells." ([DailyMed: Yervoy (ipilimumab) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2265ef30-253e-11df-8a39-0800200c9a66), Fassung vom 2026-08-20; abgerufen am 2026-11-19). Bekannt ist, dass Ipilimumab das Protein CTLA-4 blockiert. Dadurch wird die Hemmung der T-Zellen aufgehoben und die körpereigene Immunantwort gegen Tumoren verstärkt. Auf diesem Prinzip beruht auch die Wirksamkeit bei den zugelassenen Krebsindikationen.
 
 Choroideremie ist eine X-chromosomal vererbte Netzhautdegeneration. Sie wird durch den Funktionsverlust des CHM-Gens (REP1-Protein) verursacht. Ein plausibler mechanistischer Zusammenhang zur CTLA-4-Blockade ist nicht erkennbar. Eine Immuncheckpoint-Hemmung kann den zugrunde liegenden Gendefekt nicht korrigieren. Zwischen der ursprünglichen Krebsindikation und der vorhergesagten Erkrankung besteht keine erkennbare biologische Verwandtschaft.
 
@@ -138,11 +138,12 @@ Die Vorhersage für Choroideremie beruht ausschließlich auf dem Modellwert (Evi
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-12 | Tabelle: Yervoy (EMEA/H/C/002213) ist gültig, nicht erloschen | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Yervoy (ipilimumab) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2265ef30-253e-11df-8a39-0800200c9a66) |
 
 <!-- review:end log -->
 

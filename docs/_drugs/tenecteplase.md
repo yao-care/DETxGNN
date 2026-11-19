@@ -59,7 +59,7 @@ Das TxGNN-Modell sagt voraus, dass er bei **posterolateralem Myokardinfarkt** wi
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Tenecteplase ist ein fibrinspezifischer Plasminogenaktivator, der Koronarthromben auflöst. Seine Wirksamkeit beim Myokardinfarkt ist etabliert, und mechanistisch ist er auf thrombotische Koronarverschlüsse übertragbar.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Tenecteplase (inoffizielle Übersetzung): „Tenecteplase ist eine modifizierte Form des humanen Gewebeplasminogenaktivators (tPA), die an Fibrin bindet und Plasminogen in Plasmin umwandelt. In-vitro-Studien zeigen, dass die Tenecteplase-vermittelte Umwandlung von Plasminogen in Plasmin in Gegenwart von Fibrin im Vergleich zur Umwandlung in Abwesenheit von Fibrin erhöht ist.“ Englischer Originalwortlaut: "Tenecteplase is a modified form of human tissue plasminogen activator (tPA) that binds to fibrin and converts plasminogen to plasmin. In the presence of fibrin, in vitro studies demonstrate that tenecteplase-mediated conversion of plasminogen to plasmin is increased relative to its conversion in the absence of fibrin." ([DailyMed: Tnkase (tenecteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e647640d-c395-4b4b-a0be-1162f9c21d84), Fassung vom 2025-12-15; abgerufen am 2026-11-19). Bekannt ist: Tenecteplase ist ein fibrinspezifischer Plasminogenaktivator, der Koronarthromben auflöst. Seine Wirksamkeit beim Myokardinfarkt ist etabliert, und mechanistisch ist er auf thrombotische Koronarverschlüsse übertragbar.
 
 Der posterolaterale Myokardinfarkt ist ein anatomischer Untertyp des bereits zugelassenen Myokardinfarkts. Der hohe TxGNN-Wert spiegelt vor allem die Nähe zur ursprünglichen Indikation wider und stellt kein eigenständiges Repurposing-Signal dar.
 
@@ -139,12 +139,13 @@ Der posterolaterale Myokardinfarkt ist ein Untertyp der bereits zugelassenen Ind
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Die Zulassung ist erloschen (Status: cancelled)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Zudem ist die deutsche Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Tnkase (tenecteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e647640d-c395-4b4b-a0be-1162f9c21d84) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine registrierten klinischen Studien** vor, aber **8 P
 
 ## Warum ist diese Vorhersage plausibel?
 
-Ropinirol wirkt als Agonist an den Dopaminrezeptoren D2 und D3. Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten nicht vor. Die pharmakologischen Angaben bestätigen jedoch die Bindung an DRD2 und DRD3.
+Ropinirol wirkt als Agonist an den Dopaminrezeptoren D2 und D3. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Ropinirole (inoffizielle Übersetzung): „Ropinirol ist ein Non-Ergolin-Dopaminagonist. Der genaue Wirkmechanismus von Ropinirol bei der Behandlung der Parkinson-Krankheit ist unbekannt, es wird jedoch angenommen, dass er mit seiner Fähigkeit zusammenhängt, Dopamin-D 2-Rezeptoren im Nucleus caudatus und Putamen des Gehirns zu stimulieren.“ Englischer Originalwortlaut: "Ropinirole is a non-ergoline dopamine agonist. The precise mechanism of action of ropinirole as a treatment for Parkinson’s disease is unknown, although it is thought to be related to its ability to stimulate dopamine D 2 receptors within the caudate-putamen in the brain." ([DailyMed: ropinirole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e9ba4108-7095-4771-840e-bf1e08b5f4da), Fassung vom 2026-11-06; abgerufen am 2026-11-19). Die pharmakologischen Angaben bestätigen jedoch die Bindung an DRD2 und DRD3.
 
 ADHS ist mit einer Dysregulation des dopaminergen Systems verbunden. Außerdem tritt ADHS häufig gemeinsam mit dem Restless-Legs-Syndrom auf, einer zugelassenen Indikation von Ropinirol. Dies deutet auf gemeinsame dopaminerge Signalwege und Veränderungen im Eisenstoffwechsel hin. Ein Fallbericht beschreibt ein 6-jähriges Kind mit ADHS und RLS, bei dem Ropinirol sowohl die ADHS-Symptome als auch die Schlafstörungen deutlich besserte.
 
@@ -134,11 +134,12 @@ Die Evidenz für ADHS besteht überwiegend aus indirekten Hinweisen (RLS-ADHS-Ü
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „D rzneimittel n Deuts l d m Handel (1 v 1 ü ig)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: ropinirole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e9ba4108-7095-4771-840e-bf1e08b5f4da) |
 
 <!-- review:end log -->
 

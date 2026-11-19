@@ -60,7 +60,7 @@ Eine zweite Vorhersage, die **seborrhoische Keratose** (TxGNN-Wert 0,9955), lieg
 
 ## Warum ist diese Vorhersage plausibel?
 
-Octreotid ist ein synthetisches Peptid und Somatostatin-Analogon. Nach den für diesen Bericht zusammengestellten Daten bindet es an die Somatostatin-Rezeptoren SSTR2, SSTR3 und SSTR5. Detaillierte Daten zum Wirkmechanismus (MOA) liegen derzeit nicht vor. Bekannt ist der klinische Einsatz bei wachstumshormonproduzierenden Tumoren und TSH-sezernierenden Hypophysentumoren sowie in der nuklearmedizinischen Bildgebung somatostatinrezeptor-exprimierender neuroendokriner Tumoren.
+Octreotid ist ein synthetisches Peptid und Somatostatin-Analogon. Nach den für diesen Bericht zusammengestellten Daten bindet es an die Somatostatin-Rezeptoren SSTR2, SSTR3 und SSTR5. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Octreotide (inoffizielle Übersetzung): „Sandostatin Injektionslösung übt pharmakologische Wirkungen aus, die denen des natürlichen Hormons Somatostatin ähnlich sind. Es ist ein noch stärkerer Inhibitor von GH, Glucagon und Insulin als Somatostatin. […] Aufgrund dieser pharmakologischen Wirkungen wird Octreotid zur Behandlung der Symptome eingesetzt, die mit metastasierten Karzinoidtumoren (Flush und Diarrhö) und VIP-sezernierenden Adenomen (wässrige Diarrhö) einhergehen.“ Englischer Originalwortlaut: "Sandostatin Injection exerts pharmacologic actions similar to the natural hormone, somatostatin. It is an even more potent inhibitor of GH, glucagon, and insulin than somatostatin. […] By virtue of these pharmacological actions, octreotide has been used to treat the symptoms associated with metastatic carcinoid tumors (flushing and diarrhea), and VIP secreting adenomas (watery diarrhea)." ([DailyMed: Sandostatin (octreotide acetate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e2c9856-1836-49f0-9472-4dbeeb408f39), Fassung vom 2026-07-22; abgerufen am 2026-11-19). Bekannt ist der klinische Einsatz bei wachstumshormonproduzierenden Tumoren und TSH-sezernierenden Hypophysentumoren sowie in der nuklearmedizinischen Bildgebung somatostatinrezeptor-exprimierender neuroendokriner Tumoren.
 
 Ein mechanistischer Zusammenhang zwischen der Somatostatin-Signalübertragung und der vulvären invertierten follikulären Keratose, einer gutartigen epithelialen Läsion, wird durch die vorliegenden Daten **nicht** gestützt. Für die seborrhoische Keratose, eine häufige gutartige epidermale Proliferation, gilt dasselbe. Denkbar wäre allenfalls eine antiproliferative Wirkung über die Hemmung der Wachstumsfaktor- bzw. IGF-1-Achse. Das ist jedoch reine Spekulation und nicht durch Evidenz belegt. Der hohe TxGNN-Wert ist eine rein rechnerische Vorhersage.
 
@@ -115,6 +115,19 @@ Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzniveau L5). E
 - Literatur- und Studienrecherche zu Somatostatin-Rezeptoren in gutartigen Keratosen bzw. epidermaler Proliferation
 - Präklinische Untersuchungen, die einen mechanistischen Zusammenhang belegen
 - Prüfung der Anwendungswege (z. B. systemisch vs. topisch) für die Zielindikation
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Sandostatin (octreotide acetate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e2c9856-1836-49f0-9472-4dbeeb408f39) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

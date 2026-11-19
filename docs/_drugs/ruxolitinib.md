@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine ausführlichen Angaben vor. Bekannt ist, dass Ruxolitinib die Kinasen **JAK1, JAK2, JAK3 und TYK2** hemmt. Diese Kinasen vermitteln die JAK/STAT-Signalübertragung, die an Entzündungs- und Immunreaktionen sowie am Wachstum von Blutzellen beteiligt ist. Darauf beruht die Anwendung bei Vitiligo, myeloproliferativen Erkrankungen und Graft-versus-Host-Krankheit.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Ruxolitinib (inoffizielle Übersetzung): „Ruxolitinib, ein Kinaseinhibitor, hemmt die Janus-assoziierten Kinasen (JAKs) JAK1 und JAK2, die die Signalübertragung einer Reihe von Zytokinen und Wachstumsfaktoren vermitteln, die für die Hämatopoese und die Immunfunktion wichtig sind. Die JAK-Signalübertragung umfasst die Rekrutierung von STATs (Signaltransduktoren und Aktivatoren der Transkription) an Zytokinrezeptoren, deren Aktivierung und die anschließende Lokalisierung der STATs im Zellkern, was zu einer Modulation der Genexpression führt.“ Englischer Originalwortlaut: "Ruxolitinib, a kinase inhibitor, inhibits Janus Associated Kinases (JAKs), JAK1 and JAK2, which mediate the signaling of a number of cytokines and growth factors that are important for hematopoiesis and immune function. JAK signaling involves recruitment of STATs (signal transducers and activators of transcription) to cytokine receptors, activation, and subsequent localization of STATs to the nucleus leading to modulation of gene expression." ([DailyMed: Jakafi (ruxolitinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1c82580-87ae-11e0-bc84-0002a5d5c51b), Fassung vom 2026-07-20; abgerufen am 2026-11-19). Bekannt ist, dass Ruxolitinib die Kinasen **JAK1, JAK2, JAK3 und TYK2** hemmt. Diese Kinasen vermitteln die JAK/STAT-Signalübertragung, die an Entzündungs- und Immunreaktionen sowie am Wachstum von Blutzellen beteiligt ist. Darauf beruht die Anwendung bei Vitiligo, myeloproliferativen Erkrankungen und Graft-versus-Host-Krankheit.
 
 Ein direkter Zusammenhang zwischen diesem Mechanismus und dem uterinen PEComa ist in den vorliegenden Daten nicht belegt. PEComa wird typischerweise durch eine Aktivierung des mTOR-Signalwegs (TSC1/TSC2) getrieben, nicht durch JAK/STAT. Die hohe Modellbewertung allein liefert keine mechanistische Begründung. Die Vorhersage ist daher als Hypothese zu verstehen, die noch geprüft werden muss.
 
@@ -108,6 +108,19 @@ Die Vorhersage beruht ausschließlich auf dem Modellwert (Evidenzlevel L5). Es g
 - Klärung der Zulassungs- und Verfügbarkeitssituation in Deutschland
 
 **Hinweis:** In den zusammengestellten Daten ist unter den weiteren Vorhersagen das **hämophagozytische Syndrom bei Infektion (HLH)** deutlich besser belegt (Evidenzlevel L3, mehrere klinische Studien und Fallserien sowie präklinische Mechanismusdaten, darunter eine prospektive pädiatrische Studie, PMID 35344583). Für eine weitere Entwicklung wäre diese Indikation der aussichtsreichere Kandidat.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Jakafi (ruxolitinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1c82580-87ae-11e0-bc84-0002a5d5c51b) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

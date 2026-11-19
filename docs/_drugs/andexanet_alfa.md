@@ -59,7 +59,7 @@ Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Glanzmann-Thrombasthenie*
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Andexanet alfa ist ein rekombinanter, katalytisch inaktiver Faktor-Xa-Köder („Decoy"), der direkte und indirekte FXa-Inhibitoren bindet und neutralisiert.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Andexanet Alfa (inoffizielle Übersetzung): „Koagulationsfaktor Xa (rekombinant), inaktiviert-zhzo, entfaltet seine prokoagulatorische Wirkung durch Bindung und Sequestrierung der FXa-Inhibitoren Rivaroxaban und Apixaban. Eine weitere beobachtete prokoagulatorische Wirkung des ANDEXXA-Proteins ist seine Fähigkeit, an den Tissue Factor Pathway Inhibitor (TFPI) zu binden und dessen Aktivität zu hemmen.“ Englischer Originalwortlaut: "Coagulation factor Xa (recombinant), inactivated-zhzo exerts its procoagulant effect by binding and sequestering the FXa inhibitors, rivaroxaban and apixaban. Another observed procoagulant effect of the ANDEXXA protein is its ability to bind to, and inhibit the activity of, Tissue Factor Pathway Inhibitor (TFPI)." ([DailyMed: Andexxa (andexanet alfa) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9d90a6-63e6-46ef-96ff-dd6519ae7b6c), Fassung vom 2025-05-23; abgerufen am 2026-11-19). Bekannt ist: Andexanet alfa ist ein rekombinanter, katalytisch inaktiver Faktor-Xa-Köder („Decoy"), der direkte und indirekte FXa-Inhibitoren bindet und neutralisiert.
 
 Die Glanzmann-Thrombasthenie ist eine Thrombozytenerkrankung, die durch einen Defekt des Integrins αIIbβ3 (GPIIb/IIIa) entsteht und die Thrombozytenaggregation beeinträchtigt. Andexanet alfa wirkt auf die Aktivität von FXa-Inhibitoren, nicht auf die Thrombozytenaggregation. Ein mechanistischer Zusammenhang ist daher nicht bekannt.
 
@@ -139,11 +139,12 @@ Die hohen TxGNN-Werte stammen vom TxGNN-Modell (Deep Learning) und können Ähnl
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Status dieser Zulassung: erloschen/aufgehoben (cancelled)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Andexxa (andexanet alfa) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9d90a6-63e6-46ef-96ff-dd6519ae7b6c) |
 
 <!-- review:end log -->
 

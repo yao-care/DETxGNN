@@ -54,7 +54,7 @@ Levofloxacin ist ein Breitspektrum-Antibiotikum aus der Klasse der Fluorchinolon
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Levofloxacin gehört zu den Fluorchinolonen, einer Klasse antibakteriell wirksamer Substanzen. Ein theoretischer Zusammenhang wäre nur denkbar, wenn bakterielle Erreger an der Augenoberflächenerkrankung beteiligt sind.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Levofloxacin (inoffizielle Übersetzung): „Levofloxacin gehört zur Klasse der Fluorchinolon-Antibiotika. […] Levofloxacin ist das L-Isomer des Racemats Ofloxacin, eines antimikrobiellen Chinolon-Wirkstoffs. Die antibakterielle Aktivität von Ofloxacin beruht hauptsächlich auf dem L-Isomer. Der Wirkmechanismus von Levofloxacin und anderen antimikrobiellen Fluorchinolonen beruht auf der Hemmung der bakteriellen Topoisomerase IV und der DNA-Gyrase (beides Typ-II-Topoisomerasen), Enzymen, die für DNA-Replikation, Transkription, Reparatur und Rekombination erforderlich sind.“ Englischer Originalwortlaut: "Levofloxacin is a member of the fluoroquinolone class of antibacterial agents. […] Levofloxacin is the L-isomer of the racemate, ofloxacin, a quinolone antimicrobial agent. The antibacterial activity of ofloxacin resides primarily in the L-isomer. The mechanism of action of levofloxacin and other fluoroquinolone antimicrobials involves inhibition of bacterial topoisomerase IV and DNA gyrase (both of which are type II topoisomerases), enzymes required for DNA replication, transcription, repair and recombination." ([DailyMed: levofloxacin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814450ae-439e-4a5d-8c60-9b21b6f14be5), Fassung vom 2026-11-05; abgerufen am 2026-11-19). Levofloxacin gehört zu den Fluorchinolonen, einer Klasse antibakteriell wirksamer Substanzen. Ein theoretischer Zusammenhang wäre nur denkbar, wenn bakterielle Erreger an der Augenoberflächenerkrankung beteiligt sind.
 
 Die Datenlage spricht jedoch eher dagegen. Die einzige gefundene Publikation betrifft einen Ausbruch mikrosporidialer Keratokonjunktivitis. Mikrosporidien sind keine Bakterien. Ein Breitspektrum-Antibakterium wie Levofloxacin ist gegen sie nicht zu erwarten. Der hohe Modellscore wird daher durch klinische Belege nicht untermauert und ist als reine Modellhypothese zu verstehen.
 
@@ -92,6 +92,18 @@ Weitere Sicherheitsinformationen, insbesondere Warnhinweise und Gegenanzeigen, e
 - Gezielte Literaturrecherche und gegebenenfalls präklinische oder klinische Studien zu Levofloxacin bei dieser Erkrankung.
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) für eine Sicherheitsbewertung.
 - Klärung, ob die für diese Erkrankung nötige Applikationsform (z. B. am Auge) mit den verfügbaren Darreichungsformen vereinbar ist.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: levofloxacin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814450ae-439e-4a5d-8c60-9b21b6f14be5) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

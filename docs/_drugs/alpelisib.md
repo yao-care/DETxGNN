@@ -58,7 +58,7 @@ Alpelisib wurde ursprünglich zur Behandlung von Brustneoplasmen (Brustkrebs) ei
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach allgemeinem pharmakologischem Wissen ist Alpelisib ein Inhibitor der PI3K-alpha-Isoform. Dieser Teil stammt nicht aus den bereitgestellten Daten, sondern aus allgemeinem Wissen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Alpelisib (inoffizielle Übersetzung): „Alpelisib ist ein Inhibitor der Phosphatidylinositol-3-Kinase (PI3K) mit inhibitorischer Aktivität vorwiegend gegen PI3Kα. Gain-of-Function-Mutationen in dem Gen, das die katalytische α-Untereinheit der PI3K (PIK3CA) kodiert, führen in In-vitro- und In-vivo-Modellen zur Aktivierung von PI3Kα und des Akt-Signalwegs, zur zellulären Transformation und zur Entstehung von Tumoren.“ Englischer Originalwortlaut: "Alpelisib is an inhibitor of phosphatidylinositol-3-kinase (PI3K) with inhibitory activity predominantly against PI3Kα. Gain-of-function mutations in the gene encoding the catalytic α-subunit of PI3K (PIK3CA) lead to activation of PI3Kα and Akt-signaling, cellular transformation and the generation of tumors in in vitro and in vivo models." ([DailyMed: Piqray (alpelisib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b20b4e18-7a4b-4500-a08f-06c6dab0ee5b), Fassung vom 2026-10-28; abgerufen am 2026-11-19). Nach allgemeinem pharmakologischem Wissen ist Alpelisib ein Inhibitor der PI3K-alpha-Isoform. Dieser Teil stammt nicht aus den bereitgestellten Daten, sondern aus allgemeinem Wissen.
 
 Der PI3K/AKT/mTOR-Signalweg wird theoretisch mit dem Umbau der Lungengefäße in Verbindung gebracht, etwa mit der Proliferation glatter Muskelzellen der Pulmonalarterien und endothelialer Dysfunktion. Daraus ergibt sich eine rein theoretische Begründung für die Vorhersage.
 
@@ -146,12 +146,13 @@ Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzgrad L5). Es 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „iese Zulassung ist aufgehoben (Status: cancelled); d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Zudem ist die Zulassung in Deutschland aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Piqray (alpelisib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b20b4e18-7a4b-4500-a08f-06c6dab0ee5b) |
 
 <!-- review:end log -->
 

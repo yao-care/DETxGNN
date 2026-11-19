@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu Tildrakizumab liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Bekannt ist, dass es sich um einen Antikörper gegen die p19-Untereinheit von Interleukin-23 (IL-23) handelt. Dadurch wird die IL-23/Th17-Achse blockiert, die bei der Psoriasis eine zentrale Rolle spielt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Tildrakizumab (inoffizielle Übersetzung): „Tildrakizumab ist ein humanisierter monoklonaler IgG1/k-Antikörper, der selektiv an die p19-Untereinheit von IL-23 bindet und dessen Interaktion mit dem IL-23-Rezeptor hemmt. IL-23 ist ein natürlich vorkommendes Zytokin, das an Entzündungs- und Immunreaktionen beteiligt ist.“ Englischer Originalwortlaut: "Tildrakizumab is a humanized IgG1/k monoclonal antibody that selectively binds to the p19 subunit of IL-23 and inhibits its interaction with the IL-23 receptor. IL-23 is a naturally occurring cytokine that is involved in inflammatory and immune responses." ([DailyMed: Ilumya (tildrakizumab-asmn) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6a322bb-51b9-4f0e-8642-62a9682ffcde), Fassung vom 2026-11-02; abgerufen am 2026-11-19). Bekannt ist, dass es sich um einen Antikörper gegen die p19-Untereinheit von Interleukin-23 (IL-23) handelt. Dadurch wird die IL-23/Th17-Achse blockiert, die bei der Psoriasis eine zentrale Rolle spielt.
 
 Mechanistisch wird vermutet, dass chronische, niedriggradige Entzündung und IL-17-vermittelte Signalwege zur Schädigung der Netzhautgefäße bei diabetischer Retinopathie beitragen. Dieser Zusammenhang ist **hypothetisch**. Der hohe TxGNN-Wert ist eine rein rechnerische Vorhersage.
 
@@ -139,12 +139,13 @@ Die Vorhersage stützt sich ausschließlich auf das Modell (L5), ohne klinische 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die deutsche Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „(erloschene Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Ilumya (tildrakizumab-asmn) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6a322bb-51b9-4f0e-8642-62a9682ffcde) |
 
 <!-- review:end log -->
 

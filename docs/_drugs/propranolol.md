@@ -60,7 +60,7 @@ Für andere Vorhersagen mit besserer Datenlage (z. B. zirrhotische Kardiomyopath
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen für diesen Bericht derzeit nicht vor. Bekannt ist, dass Propranolol ein nicht-selektiver Betablocker ist, der unter anderem an den β2- und β3-Adrenozeptoren (ADRB2, ADRB3) angreift. Seine Wirksamkeit beim infantilen Hämangiom ist belegt und führte 2014 zur Zulassung von Hemangiol® in den USA und der EU.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Propranolol (inoffizielle Übersetzung): „Der Mechanismus der antihypertensiven Wirkung von Propranolol ist nicht geklärt. Zu den Faktoren, die zur antihypertensiven Wirkung beitragen, gehören: verringertes Herzzeitvolumen, Hemmung der Reninfreisetzung durch die Nieren und Verminderung des tonischen sympathischen Nervenausstroms aus den vasomotorischen Zentren im Gehirn.“ Englischer Originalwortlaut: "The mechanism of the antihypertensive effect of propranolol has not been established. Among factors that contribute to the antihypertensive action are: decreased cardiac output, inhibition of renin release by the kidneys, and diminution of tonic sympathetic nerve outflow from vasomotor centers in the brain." ([DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade), Fassung vom 2026-08-27; abgerufen am 2026-11-19). Bekannt ist, dass Propranolol ein nicht-selektiver Betablocker ist, der unter anderem an den β2- und β3-Adrenozeptoren (ADRB2, ADRB3) angreift. Seine Wirksamkeit beim infantilen Hämangiom ist belegt und führte 2014 zur Zulassung von Hemangiol® in den USA und der EU.
 
 Ein nachvollziehbarer mechanistischer Zusammenhang zwischen der Betablockade und der distalen Myopathie vom Typ Tateyama, einer seltenen Muskelerkrankung, ist in den vorliegenden Daten nicht erkennbar. Der hohe Vorhersagewert (0,994) ist eine rein graphbasierte Modellvorhersage ohne klinische Bestätigung. Die Vorhersage sollte daher als Hypothese und nicht als Evidenz verstanden werden.
 
@@ -128,11 +128,12 @@ Für die Hauptvorhersage liegen weder klinische Studien noch Publikationen vor, 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Die in Deutschland einzige Zulassung ist aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade) |
 
 <!-- review:end log -->
 

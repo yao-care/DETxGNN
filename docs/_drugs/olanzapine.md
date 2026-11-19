@@ -58,7 +58,7 @@ Olanzapin ist ein Antipsychotikum, das ursprünglich zur Behandlung von Schizoph
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Olanzapin ist ein Antagonist an Dopamin- und Serotoninrezeptoren (D2, 5-HT2A/2C) sowie am Histamin-H1-Rezeptor; seine Wirksamkeit bei Schizophrenie und bipolarer Störung ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Olanzapine (inoffizielle Übersetzung): „Der Wirkmechanismus von Olanzapin in den aufgeführten Indikationen ist unklar. Die Wirksamkeit von Olanzapin bei Schizophrenie könnte jedoch durch eine Kombination aus Dopamin- und Serotonin-Typ-2-(5HT 2 -)Antagonismus vermittelt werden.“ Englischer Originalwortlaut: "The mechanism of action of olanzapine, in the listed indications, is unclear. However, the efficacy of olanzapine in schizophrenia could be mediated through a combination of dopamine and serotonin type 2 (5HT 2 ) antagonism." ([DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c), Fassung vom 2026-10-26; abgerufen am 2026-11-19). Olanzapin ist ein Antagonist an Dopamin- und Serotoninrezeptoren (D2, 5-HT2A/2C) sowie am Histamin-H1-Rezeptor; seine Wirksamkeit bei Schizophrenie und bipolarer Störung ist belegt.
 
 Für die benigne paroxysmale Tortikollis des Säuglingsalters ist **kein plausibler mechanistischer Zusammenhang** erkennbar. Die Erkrankung ist eine seltene, selbstlimitierende paroxysmale Bewegungsstörung im Säuglingsalter, häufig mit CACNA1A-Varianten und dem Migränespektrum assoziiert. Für den Einsatz von Olanzapin bei Säuglingen gibt es keine Begründung. Zudem können Antipsychotika extrapyramidale Wirkungen wie akute Dystonie und Torticollis auslösen, was die Vorhersage zusätzlich fragwürdig macht. Der hohe Score ist daher als rein rechnerisches Ergebnis zu verstehen.
 
@@ -150,6 +150,19 @@ Die Spitzenvorhersage (benigne paroxysmale Tortikollis des Säuglingsalters) ber
 - Mechanismusdaten (MOA) aus DrugBank ergänzen
 - Volltextprüfung der Übersichtsarbeiten zu Agoraphobie/Panikstörung und Dysthymie auf tatsächliche Aussagen zu Olanzapin
 - Für die Alternativen: kontrollierte Studien (RCT) und eine Nutzen-Risiko-Bewertung gegenüber Erstlinientherapien (SSRI, Psychotherapie)
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

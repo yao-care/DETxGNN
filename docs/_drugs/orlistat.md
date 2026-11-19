@@ -58,7 +58,7 @@ Orlistat ist ein Lipasehemmer, der ursprünglich zur Behandlung von **Adipositas
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Orlistat ein Hemmer der gastrischen und pankreatischen Lipase ist und die Absorption von Nahrungsfett um etwa 30 % senkt. Die Wirksamkeit bei Adipositas ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Orlistat (inoffizielle Übersetzung): „Orlistat ist ein reversibler Inhibitor gastrointestinaler Lipasen. Es entfaltet seine therapeutische Wirkung im Lumen des Magens und des Dünndarms, indem es eine kovalente Bindung mit dem aktiven Serinrest der Magen- und Pankreaslipasen eingeht.“ Englischer Originalwortlaut: "Orlistat is a reversible inhibitor of gastrointestinal lipases. It exerts its therapeutic activity in the lumen of the stomach and small intestine by forming a covalent bond with the active serine residue site of gastric and pancreatic lipases." ([DailyMed: Xenical (orlistat) prescribing information, H2-Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e), Fassung vom 2026-09-30; abgerufen am 2026-11-19). Bekannt ist, dass Orlistat ein Hemmer der gastrischen und pankreatischen Lipase ist und die Absorption von Nahrungsfett um etwa 30 % senkt. Die Wirksamkeit bei Adipositas ist belegt.
 
 Da durch die verminderte Fettresorption auch fettlösliche Vitamine (A, D, E, K) schlechter aufgenommen werden, ließe sich theoretisch ein Nutzen bei einer Hypervitaminose durch fettlösliche Vitamine ableiten. Diese Verbindung beruht jedoch auf einer bekannten Nebenwirkung (Vitaminmalabsorption) und nicht auf therapeutischen Belegen. Der hohe TxGNN-Wert spiegelt vermutlich den bekannten Einfluss auf Vitaminspiegel wider und nicht ein validiertes Therapiesignal.
 
@@ -111,6 +111,19 @@ Die Vorhersage stützt sich ausschließlich auf ein Modell (Evidenzgrad L5), ohn
 - Präklinische oder klinische Hinweise, dass Orlistat Vitaminspiegel bei Hypervitaminose sinnvoll senken kann
 - Bewertung der Nutzen-Risiko-Relation gegenüber dem Absetzen der Vitaminquelle sowie der Vereinbarkeit mit den Kontraindikationen
 - Klärung der Zulassungs- und Verfügbarkeitslage in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Xenical (orlistat) prescribing information, H2-Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

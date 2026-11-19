@@ -54,7 +54,7 @@ Dalbavancin ist ein Lipoglykopeptid-Antibiotikum gegen grampositive Bakterien. D
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Dalbavancin liegen in den zusammengestellten Daten derzeit keine detaillierten Angaben vor. Bekannt ist, dass Dalbavancin als Lipoglykopeptid die bakterielle Zellwandsynthese hemmt und gegen grampositive Erreger wirkt.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Dalbavancin (inoffizielle Übersetzung): „Dalbavancin ist ein antibakterielles Arzneimittel. […] Dalbavancin, ein halbsynthetisches Lipoglykopeptid, greift in die Zellwandsynthese ein, indem es an den D-Alanyl-D-Alanin-Terminus des Stamm-Pentapeptids im entstehenden Zellwand-Peptidoglykan bindet und so die Quervernetzung verhindert. Dalbavancin wirkt in vitro bakterizid gegen Staphylococcus aureus und Streptococcus pyogenes in Konzentrationen, die denen ähnlich sind, die bei Menschen, die gemäß dem empfohlenen Dosierungsschema behandelt werden, während der gesamten Behandlung aufrechterhalten werden.“ Englischer Originalwortlaut: "Dalbavancin is an antibacterial drug. […] Dalbavancin, a semisynthetic lipoglycopeptide, interferes with cell wall synthesis by binding to the D-alanyl-D-alanine terminus of the stem pentapeptide in nascent cell wall peptidoglycan, thus preventing cross-linking. Dalbavancin is bactericidal in vitro against Staphylococcus aureus and Streptococcus pyogenes at concentrations similar to those sustained throughout treatment in humans treated according to the recommended dosage regimen." ([DailyMed: Dalvance (dalbavancin) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b4674d8-4d1e-4728-8465-d42ada33fa5c), Fassung vom 2025-01-13; abgerufen am 2026-11-19). Bekannt ist, dass Dalbavancin als Lipoglykopeptid die bakterielle Zellwandsynthese hemmt und gegen grampositive Erreger wirkt.
 
 Die postinfektiöse Vaskulitis ist überwiegend immunvermittelt und tritt erst nach der eigentlichen Infektion auf. Eine direkte antibakterielle Wirkung dürfte sie daher kaum behandeln. Ein Zusammenhang wäre nur indirekt denkbar, etwa wenn ein persistierender grampositiver Infektionsherd die Immunreaktion auslöst und beseitigt würde. Der hohe Vorhersagewert ist eine rein rechnerische Aussage; der mechanistische Zusammenhang lässt sich mit den vorliegenden Daten nicht überprüfen.
 
@@ -93,6 +93,19 @@ Für die vorhergesagte Indikation gibt es weder klinische Studien noch Publikati
 - Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation
 - Präklinische oder klinische Hinweise darauf, dass die Beseitigung eines grampositiven Infektionsherds den Verlauf einer postinfektiösen Vaskulitis beeinflusst
 - Klärung von Applikationsweg und Verfügbarkeit für die neue Indikation
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Dalvance (dalbavancin) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b4674d8-4d1e-4728-8465-d42ada33fa5c) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

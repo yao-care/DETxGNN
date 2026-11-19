@@ -60,7 +60,7 @@ Wichtig: Diese Indikation liegt sehr nah an den bereits etablierten säurebezoge
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Aus der Literatur ist jedoch bekannt: Pantoprazol hemmt irreversibel die H⁺/K⁺-ATPase (Protonenpumpe) in den Belegzellen des Magens und senkt so die Säuresekretion. Dies ermöglicht die Abheilung von Geschwüren.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Pantoprazole (inoffizielle Übersetzung): „Pantoprazol ist ein PPI, der den letzten Schritt der Magensäureproduktion unterdrückt, indem er kovalent an das (H +, K + )-ATPase-Enzymsystem an der sekretorischen Oberfläche der Parietalzelle des Magens bindet. Diese Wirkung führt zu einer Hemmung sowohl der basalen als auch der stimulierten Magensäuresekretion, unabhängig vom Stimulus.“ Englischer Originalwortlaut: "Pantoprazole is a PPI that suppresses the final step in gastric acid production by covalently binding to the (H +, K + )-ATPase enzyme system at the secretory surface of the gastric parietal cell. This effect leads to inhibition of both basal and stimulated gastric acid secretion irrespective of the stimulus." ([DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b), Fassung vom 2026-11-06; abgerufen am 2026-11-19). Aus der Literatur ist jedoch bekannt: Pantoprazol hemmt irreversibel die H⁺/K⁺-ATPase (Protonenpumpe) in den Belegzellen des Magens und senkt so die Säuresekretion. Dies ermöglicht die Abheilung von Geschwüren.
 
 Refluxkrankheit und Magen-/Zwölffingerdarmgeschwür sind beides säurebedingte Erkrankungen. Der gleiche Mechanismus der Säuresuppression gilt daher für beide. Die Vorhersage ist mechanistisch nachvollziehbar, stellt aber eher eine Bestätigung einer bekannten Anwendung dar als eine neuartige Erkenntnis.
 
@@ -161,11 +161,12 @@ Für das aktive peptische Ulkus und das Duodenalulkus liegen Phase-3-Studien sow
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „da alle erfassten Zulassungen aufgehoben sind“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b) |
 
 <!-- review:end log -->
 

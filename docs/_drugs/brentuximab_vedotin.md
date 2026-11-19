@@ -60,7 +60,7 @@ Dafür liegen bislang **6 klinische Studien** (keine davon abgeschlossen) und **
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Brentuximab Vedotin ein Anti-CD30-Antikörper-Wirkstoff-Konjugat mit dem Zytostatikum MMAE als Wirkstoffanteil ist. Seine Wirksamkeit beim Hodgkin-Lymphom und beim anaplastischen großzelligen Lymphom ist belegt, und mechanistisch könnte es auf CD30-positive Lymphome übertragbar sein.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Brentuximab Vedotin (inoffizielle Übersetzung): „CD30 gehört zur Familie der Tumornekrosefaktor-Rezeptoren und wird auf der Oberfläche von sALCL-Zellen sowie auf Hodgkin-Reed-Sternberg (HRS)-Zellen beim cHL exprimiert. CD30 wird in anderen T-Zell-Lymphomen in unterschiedlichem Ausmaß exprimiert. […] Brentuximab vedotin ist ein Antikörper-Wirkstoff-Konjugat (ADC).“ Englischer Originalwortlaut: "CD30 is a member of the tumor necrosis factor receptor family and is expressed on the surface of sALCL cells and on Hodgkin Reed-Sternberg (HRS) cells in cHL. CD30 is variably expressed in other T-cell lymphomas. […] Brentuximab vedotin is an antibody-drug conjugate (ADC)." ([DailyMed: Adcetris (brentuximab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f), Fassung vom 2025-11-11; abgerufen am 2026-11-19). Bekannt ist, dass Brentuximab Vedotin ein Anti-CD30-Antikörper-Wirkstoff-Konjugat mit dem Zytostatikum MMAE als Wirkstoffanteil ist. Seine Wirksamkeit beim Hodgkin-Lymphom und beim anaplastischen großzelligen Lymphom ist belegt, und mechanistisch könnte es auf CD30-positive Lymphome übertragbar sein.
 
 Das follikuläre Lymphom exprimiert CD30 jedoch nur variabel. Die mechanistische Begründung beschränkt sich daher auf CD30-positive Fälle oder auf mögliche Bystander-Effekte (Wirkung auf benachbarte Zellen). Es handelt sich um eine Erweiterung innerhalb des Lymphomspektrums, nicht um einen Sprung in eine völlig andere Erkrankungsgruppe. Der hohe TxGNN-Wert allein ersetzt jedoch keine klinischen Daten bei dieser Entität.
 
@@ -156,12 +156,13 @@ Für das follikuläre Lymphom gibt es nur eine laufende Phase-2-Studie ohne Erge
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „und die deutsche Zulassung ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „(erloschene Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Adcetris (brentuximab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f) |
 
 <!-- review:end log -->
 

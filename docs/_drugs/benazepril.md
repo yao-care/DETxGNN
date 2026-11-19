@@ -54,7 +54,7 @@ Benazepril ist ein ACE-Hemmer (Angiotensin-Converting-Enzyme-Hemmer), der zur Bl
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Benazepril den Angiotensin-Converting-Enzyme (ACE) hemmt. Dadurch sinken der Blutdruck und der Druck in den Nierenkörperchen (intraglomerulärer Druck).
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Benazepril (inoffizielle Übersetzung): „Benazepril und Benazeprilat hemmen das Angiotensin-Converting-Enzym (ACE) bei Menschen und Tieren. Benazeprilat besitzt eine wesentlich stärkere ACE-hemmende Aktivität als Benazepril. ACE ist eine Peptidyl-Dipeptidase, die die Umwandlung von Angiotensin I in die vasokonstriktorische Substanz Angiotensin II katalysiert.“ Englischer Originalwortlaut: "Benazepril and benazeprilat inhibit angiotensin-converting enzyme (ACE) in human subjects and animals. Benazeprilat has much greater ACE inhibitory activity than does benazepril. ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II." ([DailyMed: Lotensin (benazepril hydrochloride) prescribing information, Validus Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2abb091b-a53e-46b0-9b84-e5ee8f2bdd8e), Fassung vom 2025-09-30; abgerufen am 2026-11-19). Bekannt ist, dass Benazepril den Angiotensin-Converting-Enzyme (ACE) hemmt. Dadurch sinken der Blutdruck und der Druck in den Nierenkörperchen (intraglomerulärer Druck).
 
 Mechanistisch ist eine Anwendung bei hypertensiver Nierenerkrankung nachvollziehbar, da ACE-Hemmer bei hypertensiver Nephropathie breit eingesetzt werden. Die vorhergesagte Erkrankung steht allerdings der bekannten Anwendung bei Bluthochdruck sehr nahe. Es handelt sich daher eher um eine Erweiterung innerhalb desselben Krankheitsspektrums als um ein echtes Repurposing. Für die maligne (beschleunigte) Verlaufsform wurden weder Studien noch Literatur gefunden.
 
@@ -91,6 +91,19 @@ Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzniveau L5); e
 - Daten zum Wirkmechanismus (MOA) ergänzen
 - Warnhinweise und Gegenanzeigen aus der Packungsbeilage (BfArM) beschaffen und auswerten
 - Prüfung der Zulassungslage für die Humanmedizin, da die verzeichneten Zulassungen (Cardalis, Fortekor Plus) Produktnamen aus dem Tierarzneibereich tragen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Lotensin (benazepril hydrochloride) prescribing information, Validus Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2abb091b-a53e-46b0-9b84-e5ee8f2bdd8e) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -60,7 +60,7 @@ Die Vorhersage beruht allein auf einer Modellberechnung und ist biologisch fragl
 
 ## Warum ist diese Vorhersage plausibel (oder nicht)?
 
-Für Brodalumab liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Bekannt ist, dass Brodalumab den IL-17-Rezeptor A blockiert und damit die Signalwege mehrerer IL-17-Zytokine hemmt. Dies ist bei Psoriasis therapeutisch wirksam.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Brodalumab (inoffizielle Übersetzung): „Brodalumab ist ein humaner monoklonaler IgG2-Antikörper, der selektiv an humanes IL-17RA bindet und dessen Interaktionen mit den Zytokinen IL-17A, IL-17F, IL-17C, dem IL-17A/F-Heterodimer und IL-25 hemmt. IL-17RA ist ein auf der Zelloberfläche exprimiertes Protein und ein notwendiger Bestandteil von Rezeptorkomplexen, die von mehreren Zytokinen der IL-17-Familie genutzt werden.“ Englischer Originalwortlaut: "Brodalumab is a human monoclonal IgG2 antibody that selectively binds to human IL-17RA and inhibits its interactions with cytokines IL-17A, IL-17F, IL-17C, IL-17A/F heterodimer, and IL-25. IL-17RA is a protein expressed on the cell surface and is a required component of receptor complexes utilized by multiple IL-17 family cytokines." ([DailyMed: Siliq (brodalumab) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a550c33-456a-4833-814e-8591aea7c688), Fassung vom 2026-05-28; abgerufen am 2026-11-19). Bekannt ist, dass Brodalumab den IL-17-Rezeptor A blockiert und damit die Signalwege mehrerer IL-17-Zytokine hemmt. Dies ist bei Psoriasis therapeutisch wirksam.
 
 Bei Strongyloidiasis, einer parasitären Wurminfektion, ist der Zusammenhang jedoch fragwürdig. IL-17 trägt zur antiparasitären Abwehr und zur Schleimhautimmunität bei. Eine Blockade könnte daher die Anfälligkeit für Wurminfektionen eher erhöhen oder den Krankheitsverlauf verschlechtern, statt ihn zu behandeln. Der hohe TxGNN-Wert (0,998) ist eine rein rechnerische Vorhersage und stützt sich nicht auf klinische oder publizierte Belege.
 
@@ -122,11 +122,12 @@ Die Vorhersage für Strongyloidiasis beruht ausschließlich auf einem Modellwert
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „(erloschene Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Siliq (brodalumab) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a550c33-456a-4833-814e-8591aea7c688) |
 
 <!-- review:end log -->
 

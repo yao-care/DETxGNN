@@ -58,7 +58,7 @@ Capecitabin ist ein oral einnehmbares Prodrug von 5-Fluorouracil aus der Gruppe 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Nach allgemeinem pharmakologischem Wissen ist Capecitabin ein orales Prodrug von 5-Fluorouracil, das bevorzugt im Tumorgewebe durch die Thymidinphosphorylase in 5-FU umgewandelt wird. 5-FU hemmt als Antimetabolit die Thymidylatsynthase und stört so die DNA-Synthese rasch proliferierender Zellen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Capecitabine (inoffizielle Übersetzung): „Capecitabin wird in vivo zu Fluorouracil metabolisiert. Sowohl normale Zellen als auch Tumorzellen metabolisieren Fluorouracil zu 5-Fluor-2'-desoxyuridinmonophosphat (FdUMP) und 5-Fluoruridintriphosphat (FUTP). Diese Metaboliten verursachen Zellschädigungen über zwei unterschiedliche Mechanismen.“ Englischer Originalwortlaut: "Capecitabine is metabolized to fluorouracil in vivo. Both normal and tumor cells metabolize fluorouracil to 5-fluoro-2'-deoxyuridine monophosphate (FdUMP) and 5-fluorouridine triphosphate (FUTP). These metabolites cause cell injury by two different mechanisms." ([DailyMed: Xeloda (capecitabine) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5), Fassung vom 2026-02-05; abgerufen am 2026-11-19). Nach allgemeinem pharmakologischem Wissen ist Capecitabin ein orales Prodrug von 5-Fluorouracil, das bevorzugt im Tumorgewebe durch die Thymidinphosphorylase in 5-FU umgewandelt wird. 5-FU hemmt als Antimetabolit die Thymidylatsynthase und stört so die DNA-Synthese rasch proliferierender Zellen.
 
 Die vorhergesagte Erkrankung (GAPPS) ist ein seltenes erbliches Syndrom mit Varianten im APC-Promotor 1B, einer Polyposis des Magenfundus und einem erhöhten Magenkrebsrisiko. Capecitabin ist bei Magenkarzinomen bereits zugelassen. Die Vorhersage ist daher wahrscheinlich eher eine Wiederentdeckung einer bestehenden Anwendung als eine echte Neuausrichtung. Ein Nutzen wäre nur für das entstehende Adenokarzinom plausibel. Für eine Wirkung auf die Polyposis selbst gibt es in den Daten keinen Hinweis. Diese Einschätzung beruht auf allgemeinem Wissen und nicht auf den zusammengestellten Daten.
 
@@ -117,6 +117,19 @@ Der Vorhersagewert ist sehr hoch, es handelt sich aber ausschließlich um eine M
 - Detaillierte Wirkmechanismus-Daten (MOA)
 - Literatur- und Studienrecherche speziell zu GAPPS und Magenadenokarzinom bei Trägern von APC-Promotor-1B-Varianten
 - Klärung, ob ein über die bestehende Magenkrebs-Anwendung hinausgehender Nutzen (z. B. Wirkung auf die Polyposis) plausibel ist
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Xeloda (capecitabine) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -60,7 +60,7 @@ Dafür liegen **keine klinischen Studien** und **keine Publikationen** vor. Die 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für diese Vorhersage ist derzeit **kein erkennbarer mechanistischer Zusammenhang** belegt. Detaillierte Daten zum Wirkmechanismus (MOA) liegen in den für diesen Bericht zusammengestellten Daten nicht vor. Bekannt ist, dass Brigatinib ein Tyrosinkinase-Inhibitor ist, der ALK, EGFR und ROS1 hemmt, und dass seine Wirksamkeit bei ALK-positivem NSCLC belegt ist.
+Für diese Vorhersage ist derzeit **kein erkennbarer mechanistischer Zusammenhang** belegt. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Brigatinib (inoffizielle Übersetzung): „Brigatinib ist ein Tyrosinkinase-Inhibitor (TKI) mit In-vitro-Aktivität in klinisch erreichbaren Konzentrationen gegen mehrere Kinasen, darunter ALK, ROS1, den Insulin-like-Growth-Factor-1-Rezeptor (IGF-1R) und FLT-3, sowie gegen EGFR-Deletions- und Punktmutationen. Brigatinib hemmte in In-vitro- und In-vivo-Assays die Autophosphorylierung von ALK und die ALK-vermittelte Phosphorylierung der nachgeschalteten Signalproteine STAT3, AKT, ERK1/2 und S6.“ Englischer Originalwortlaut: "Brigatinib is a tyrosine kinase inhibitor (TKI) with in vitro activity at clinically achievable concentrations against multiple kinases including ALK, ROS1, insulin-like growth factor-1 receptor (IGF-1R), and FLT-3 as well as EGFR deletion and point mutations. Brigatinib inhibited autophosphorylation of ALK and ALK-mediated phosphorylation of the downstream signaling proteins STAT3, AKT, ERK1/2, and S6 in in vitro and in vivo assays." ([DailyMed: Alunbrig (brigatinib) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fe9ff20-d402-41f3-bc1e-7002ea7007db), Fassung vom 2026-01-12; abgerufen am 2026-11-19). Bekannt ist, dass Brigatinib ein Tyrosinkinase-Inhibitor ist, der ALK, EGFR und ROS1 hemmt, und dass seine Wirksamkeit bei ALK-positivem NSCLC belegt ist.
 
 Zwischen dem Lungenkarzinom und der gingivalen Fibromatose, einer gutartigen Bindegewebsvermehrung des Zahnfleisches, besteht keine nachvollziehbare pathophysiologische Verbindung zu den Kinase-Zielstrukturen von Brigatinib. Der hohe Vorhersagewert ist ein reines Graphergebnis ohne unterstützende Studien oder Literatur.
 
@@ -142,12 +142,13 @@ Für gingivale Fibromatose gibt es weder klinische Studien noch Literatur und ke
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche Zulassung gelöscht“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „(gelöschte Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Alunbrig (brigatinib) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fe9ff20-d402-41f3-bc1e-7002ea7007db) |
 
 <!-- review:end log -->
 

@@ -58,7 +58,7 @@ Raltegravir ist ein HIV-1-Integrase-Strangtransfer-Inhibitor und wurde ursprüng
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Raltegravir die Integrase von HIV-1 hemmt und damit den Einbau der viralen DNA in das Wirtsgenom blockiert. Das Felines Immundefizienzvirus (FIV) ist ein Lentivirus mit einer strukturell verwandten Integrase. Ein mechanistischer Ansatz ist daher denkbar.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Raltegravir (inoffizielle Übersetzung): „Raltegravir ist ein antiviraler Wirkstoff gegen HIV-1. […] Raltegravir hemmt die katalytische Aktivität der HIV-1-Integrase, eines von HIV-1 kodierten Enzyms, das für die Virusreplikation erforderlich ist. Die Hemmung der Integrase verhindert die kovalente Insertion bzw. Integration der nicht integrierten linearen HIV-1-DNA in das Genom der Wirtszelle und verhindert so die Bildung des HIV-1-Provirus.“ Englischer Originalwortlaut: "Raltegravir is an HIV-1 antiviral drug. […] Raltegravir inhibits the catalytic activity of HIV-1 integrase, an HIV-1 encoded enzyme that is required for viral replication. Inhibition of integrase prevents the covalent insertion, or integration, of unintegrated linear HIV-1 DNA into the host cell genome preventing the formation of the HIV-1 provirus." ([DailyMed: Isentress (raltegravir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e659505-c902-4906-9461-1cc83e2236d2), Fassung vom 2026-09-16; abgerufen am 2026-11-19). Bekannt ist, dass Raltegravir die Integrase von HIV-1 hemmt und damit den Einbau der viralen DNA in das Wirtsgenom blockiert. Das Felines Immundefizienzvirus (FIV) ist ein Lentivirus mit einer strukturell verwandten Integrase. Ein mechanistischer Ansatz ist daher denkbar.
 
 Der hohe TxGNN-Wert (0,9978) stammt vom TxGNN-Modell (Deep Learning) und spiegelt wahrscheinlich vor allem Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat, und ist kein biologischer Beleg und kein eigenständiger Wirksamkeitsbeleg. Alle drei vorhergesagten Indikationen haben nahezu identische Werte, was auf eine Eigenheit der Score-Verteilung hindeuten kann. Zudem handelt es sich um eine veterinärmedizinische Indikation, sodass die Relevanz für das Repurposing beim Menschen begrenzt ist.
 
@@ -135,11 +135,12 @@ Für die Hauptvorhersage liegen weder klinische Studien noch Literatur vor (Evid
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Isentress (raltegravir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e659505-c902-4906-9461-1cc83e2236d2) |
 
 <!-- review:end log -->
 

@@ -58,7 +58,7 @@ Romiplostim (Handelsname Nplate) wurde ursprünglich zur Behandlung der idiopath
 
 ## Warum ist diese Vorhersage plausibel?
 
-Daten zum Wirkmechanismus liegen im für diesen Bericht zusammengestellten Datenbestand nicht vor. Aus der Pharmakologiedatenbank ist jedoch bekannt, dass Romiplostim ein Peptid ist, das den Thrombopoietin-Rezeptor (MPL) aktiviert und dadurch die Thrombozytenproduktion steigert. Seine Wirksamkeit bei ITP ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Romiplostim (inoffizielle Übersetzung): „Nplate steigert die Thrombozytenproduktion durch Bindung an den TPO-Rezeptor und dessen Aktivierung, ein Mechanismus, der dem des endogenen TPO entspricht.“ Englischer Originalwortlaut: "Nplate increases platelet production through binding and activation of the TPO receptor, a mechanism analogous to endogenous TPO." ([DailyMed: Nplate (romiplostim) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c45f9a58-37c1-4f76-8e36-97d38c577037), Fassung vom 2026-06-23; abgerufen am 2026-11-19). Aus der Pharmakologiedatenbank ist jedoch bekannt, dass Romiplostim ein Peptid ist, das den Thrombopoietin-Rezeptor (MPL) aktiviert und dadurch die Thrombozytenproduktion steigert. Seine Wirksamkeit bei ITP ist belegt.
 
 Bei der vorhergesagten Indikation ist die mechanistische Verbindung jedoch **schwach**. Primäre Freisetzungsstörungen sind qualitative Funktionsdefekte der Thrombozyten (gestörte Granulafreisetzung). Eine Erhöhung der Thrombozytenzahl behebt diesen Defekt nicht. Die einzige gefundene Publikation (PMID 25682608) befasst sich mit ITP und zeigt, dass Autoantikörper die Bildung von Proplättchen hemmen. Sie stützt die ITP-Begründung, nicht die vorhergesagte Indikation. Der hohe Wert des TxGNN-Modells (Deep Learning) von 1.0000 kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, und ist kein biologischer Beleg.
 
@@ -122,11 +122,12 @@ Für die vorhergesagte Indikation gibt es weder klinische Studien noch direkt re
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „da die einzige Zulassung erloschen ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Nplate (romiplostim) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c45f9a58-37c1-4f76-8e36-97d38c577037) |
 
 <!-- review:end log -->
 

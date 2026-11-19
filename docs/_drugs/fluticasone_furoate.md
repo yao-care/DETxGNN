@@ -59,7 +59,7 @@ Das TxGNN-Modell sagt voraus, dass es bei **atopischem Ekzem** wirksam sein kön
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten derzeit keine detaillierten Angaben vor. Auf Grundlage des bekannten Wissens ist Fluticasonfuroat ein potenter Glukokortikoid-Rezeptor-Agonist mit entzündungshemmender und immunsuppressiver Wirkung. Seine Wirksamkeit bei allergisch-entzündlichen Atemwegserkrankungen ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Fluticasone Furoate (inoffizielle Übersetzung): „Fluticasonfuroat ist ein synthetisches, dreifach fluoriertes Corticosteroid mit entzündungshemmender Wirkung. In vitro wurde gezeigt, dass Fluticasonfuroat eine Bindungsaffinität zum humanen Glucocorticoidrezeptor aufweist, die etwa 29,9-mal so hoch ist wie die von Dexamethason und 1,7-mal so hoch wie die von Fluticasonpropionat.“ Englischer Originalwortlaut: "Fluticasone furoate is a synthetic trifluorinated corticosteroid with anti-inflammatory activity. Fluticasone furoate has been shown in vitro to exhibit a binding affinity for the human glucocorticoid receptor that is approximately 29.9 times that of dexamethasone and 1.7 times that of fluticasone propionate." ([DailyMed: Fluticasone Furoate Ellipta (fluticasone furoate) prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3e797fc-2636-49a0-b89e-5246b18ee440), Fassung vom 2025-03-06; abgerufen am 2026-11-19). Auf Grundlage des bekannten Wissens ist Fluticasonfuroat ein potenter Glukokortikoid-Rezeptor-Agonist mit entzündungshemmender und immunsuppressiver Wirkung. Seine Wirksamkeit bei allergisch-entzündlichen Atemwegserkrankungen ist belegt.
 
 Das atopische Ekzem ist ebenfalls eine allergisch-entzündliche Erkrankung und tritt häufig gemeinsam mit allergischer Rhinitis und Asthma auf. Topische Kortikosteroide sind eine Standardtherapie des atopischen Ekzems, weshalb die Vorhersage biologisch nachvollziehbar ist.
 
@@ -129,11 +129,12 @@ Die Vorhersage ist biologisch plausibel, stützt sich aber ausschließlich auf d
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „angesichts der erloschenen Zulassungen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Fluticasone Furoate Ellipta (fluticasone furoate) prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3e797fc-2636-49a0-b89e-5246b18ee440) |
 
 <!-- review:end log -->
 

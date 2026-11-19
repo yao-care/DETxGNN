@@ -54,7 +54,7 @@ Entacapon ist ein COMT-Hemmer, der als Zusatztherapie zu Levodopa eingesetzt wir
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für Entacapon liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Bekannt ist, dass Entacapon die Catechol-O-Methyltransferase (COMT) hemmt und dadurch die Wirkung von Levodopa verlängert.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Entacapone (inoffizielle Übersetzung): „Entacapon ist ein selektiver und reversibler Inhibitor der COMT. Bei Säugetieren ist die COMT in verschiedenen Organen verteilt, wobei die höchsten Aktivitäten in Leber und Niere vorliegen. COMT kommt außerdem in Herz, Lunge, glatter und Skelettmuskulatur, Darmtrakt, Fortpflanzungsorganen, verschiedenen Drüsen, Fettgewebe, Haut, Blutzellen und neuronalen Geweben vor, insbesondere in Gliazellen.“ Englischer Originalwortlaut: "Entacapone is a selective and reversible inhibitor of COMT. In mammals, COMT is distributed throughout various organs with the highest activities in the liver and kidney. COMT also occurs in the heart, lung, smooth and skeletal muscles, intestinal tract, reproductive organs, various glands, adipose tissue, skin, blood cells, and neuronal tissues, especially in glial cells." ([DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd), Fassung vom 2026-02-16; abgerufen am 2026-11-19). Bekannt ist, dass Entacapon die Catechol-O-Methyltransferase (COMT) hemmt und dadurch die Wirkung von Levodopa verlängert.
 
 Die PLA2G6-assoziierte Neurodegeneration umfasst unter anderem die infantile neuroaxonale Dystrophie und die PLA2G6-bedingte Dystonie-Parkinsonismus-Form. Letztere teilt mit der Parkinson-Krankheit eine dopaminerge Dysfunktion. Ein symptomatischer Nutzen eines levodopa-verlängernden COMT-Hemmers bei parkinsonartigen Phänotypen ist daher biologisch denkbar.
 
@@ -105,6 +105,19 @@ Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzniveau L5); es exis
 - Präklinische Belege oder Fallserien bei PLA2G6-assoziierter Dystonie-Parkinsonismus
 - Vollständige Sicherheitsinformationen aus der Packungsbeilage (Warnhinweise, Gegenanzeigen)
 - Bewertung der Sicherheit in der seltenen, oft kindlichen Zielpopulation
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

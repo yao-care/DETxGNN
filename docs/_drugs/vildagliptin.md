@@ -58,7 +58,7 @@ Vildagliptin ist ein oraler DPP-4-Hemmer, der ursprünglich zur Behandlung des *
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Vildagliptin hemmt nach bekanntem Wissen die Dipeptidylpeptidase-4 (DPP-4) und damit den Abbau der Inkretine GLP-1 und GIP. Dadurch verbessert es die Insulinsekretion und unterdrückt eine unangemessen hohe Glukagonausschüttung. Die Wirksamkeit beim Typ-2-Diabetes ist gut belegt.
+Laut ChEMBL (EMBL-EBI) ist für Vildagliptin folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Dipeptidylpeptidase-IV-Hemmer“ Englischer Originalwortlaut: "Dipeptidyl peptidase IV inhibitor" ([ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703), CC BY-SA 3.0; abgerufen am 2026-11-19). Vildagliptin hemmt nach bekanntem Wissen die Dipeptidylpeptidase-4 (DPP-4) und damit den Abbau der Inkretine GLP-1 und GIP. Dadurch verbessert es die Insulinsekretion und unterdrückt eine unangemessen hohe Glukagonausschüttung. Die Wirksamkeit beim Typ-2-Diabetes ist gut belegt.
 
 Das fokale Stiff-Limb-Syndrom ist eine seltene, vermutlich autoimmune bzw. neurologische Erkrankung mit Muskelsteifigkeit. Ein belegter Zusammenhang mit der DPP-4-Hemmung ist nicht bekannt. Nach den für diesen Bericht zusammengestellten Daten ist keine mechanistische Verbindung gestützt. Der hohe Modellwert (Rang 1927) stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, und keinen biologischen Beleg oder therapeutischen Mechanismus.
 
@@ -123,11 +123,12 @@ Die Vorhersage zum fokalen Stiff-Limb-Syndrom beruht allein auf dem Modellwert d
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Weitere erloschene Zulassungen: Vildagliptin / Metformin hydrochloride Accord (EMEA/H/C/005738) und Icandra (EMEA/H/C/001050)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703) |
 
 <!-- review:end log -->
 

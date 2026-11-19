@@ -60,7 +60,7 @@ Die Evidenz ist begrenzt: **1 klinische Studie** (nur indirekt relevant, vorzeit
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Angaben zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten nicht vor. Eltrombopag gehört jedoch nach seiner Anwendung bei ITP und aplastischer Anämie zur Klasse der Thrombopoetin-Rezeptor-Agonisten. Diese Substanzen fördern die Megakaryopoese und damit die Thrombozytenbildung.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Eltrombopag (inoffizielle Übersetzung): „Eltrombopag ist ein TPO-Rezeptor-Agonist, der mit der Transmembrandomäne des humanen TPO-Rezeptors (auch als cMpl bekannt) interagiert und Signalkaskaden auslöst, die die Proliferation und Differenzierung von Megakaryozyten induzieren und so zu einer gesteigerten Thrombozytenproduktion führen.“ Englischer Originalwortlaut: "Eltrombopag is a TPO-receptor agonist that interacts with the transmembrane domain of the human TPO-receptor (also known as cMpl) and initiates signaling cascades that induce proliferation and differentiation of megakaryocytes leading to increased platelet production." ([DailyMed: Eltrombopag Olamine (eltrombopag) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4af8f855-f710-e96f-e063-6294a90abb46), Fassung vom 2026-05-20; abgerufen am 2026-11-19). Eltrombopag gehört jedoch nach seiner Anwendung bei ITP und aplastischer Anämie zur Klasse der Thrombopoetin-Rezeptor-Agonisten. Diese Substanzen fördern die Megakaryopoese und damit die Thrombozytenbildung.
 
 Der Bezug zu HIV besteht vor allem über die Behandlung HIV-assoziierter Blutbildstörungen: HIV-assoziierte ITP und HIV-assoziierte aplastische Anämie bzw. Knochenmarkversagen. Es handelt sich dabei um eine symptomatische, hämatologische Unterstützung und **nicht** um eine antivirale Wirkung. Ein Screening aus dem Jahr 2020 (PMID 32977702) berichtet zwar über eine mögliche Modulation der proviralen HIV-1-Transkription, doch ist dies präklinisch, und die Relevanz für eine klinische antivirale Anwendung ist unbelegt. Der hohe TxGNN-Wert ist eine rechnerische Vorhersage und passt nur teilweise zu dieser hämatologischen Begründung.
 
@@ -133,11 +133,12 @@ Die Evidenz für HIV beschränkt sich auf Fallberichte, Übersichtsarbeiten und 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Klärung des Zulassungsstatus in Deutschland (derzeit nur erloschene Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Eltrombopag Olamine (eltrombopag) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4af8f855-f710-e96f-e063-6294a90abb46) |
 
 <!-- review:end log -->
 

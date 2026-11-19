@@ -54,7 +54,7 @@ Duvelisib ist ein oraler dualer Hemmstoff der Phosphoinositid-3-Kinasen PI3K-δ 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Duvelisib PI3K-δ und PI3K-γ hemmt. Diese Kinasen unterstützen die B-Zell-Rezeptor-Signalübertragung, das Überleben der Tumorzellen und die Interaktion mit dem Tumormikromilieu bei lymphatischen Malignomen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Duvelisib (inoffizielle Übersetzung): „Duvelisib ist ein Inhibitor von PI3K mit inhibitorischer Aktivität vorwiegend gegen die Isoformen PI3K-δ und PI3K-γ, die in normalen und malignen B-Zellen exprimiert werden. Duvelisib bewirkte eine Wachstumshemmung und verminderte die Viabilität in Zelllinien, die von malignen B-Zellen abgeleitet sind, sowie in primären CLL-Tumorzellen.“ Englischer Originalwortlaut: "Duvelisib is an inhibitor of PI3K with inhibitory activity predominantly against PI3K-δ and PI3K-γ isoforms expressed in normal and malignant B-cells. Duvelisib induced growth inhibition and reduced viability in cell lines derived from malignant B-cells and in primary CLL tumor cells." ([DailyMed: Copiktra (duvelisib) prescribing information, Secura Bio, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3c5ac56-e1f6-473a-bc73-687836534780), Fassung vom 2025-12-18; abgerufen am 2026-11-19). Bekannt ist, dass Duvelisib PI3K-δ und PI3K-γ hemmt. Diese Kinasen unterstützen die B-Zell-Rezeptor-Signalübertragung, das Überleben der Tumorzellen und die Interaktion mit dem Tumormikromilieu bei lymphatischen Malignomen.
 
 Die vorhandenen klinischen Daten betreffen fast ausschließlich indolente Non-Hodgkin-Lymphome, follikuläre Lymphome und T-Zell-Lymphome. Eine Studie speziell zum klassischen Hodgkin-Lymphom ist nicht enthalten. Die Übertragung auf das Hodgkin-Lymphom beruht daher auf einer Extrapolation von verwandten lymphatischen Erkrankungen und ist mechanistisch plausibel, aber nicht direkt belegt.
 
@@ -130,6 +130,19 @@ Für das Hodgkin-Lymphom liegt keine Studie vor, die diese Erkrankung direkt unt
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da diese Daten derzeit fehlen
 - Daten zum detaillierten Wirkmechanismus
 - Ein Sicherheitsüberwachungsplan, der insbesondere immunvermittelte und infektiöse Toxizitäten sowie die Wechselwirkungen mit CYP3A-Inhibitoren berücksichtigt
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Copiktra (duvelisib) prescribing information, Secura Bio, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3c5ac56-e1f6-473a-bc73-687836534780) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

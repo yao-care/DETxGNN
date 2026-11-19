@@ -59,7 +59,7 @@ Elbasvir ist ein Hemmstoff des NS5A-Proteins des Hepatitis-C-Virus und wird in K
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Elbasvir das virale NS5A-Protein des Hepatitis-C-Virus hemmt. Seine Wirksamkeit bei Hepatitis C ist belegt.
+Laut ChEMBL (EMBL-EBI) ist für Elbasvir folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Inhibitor des Nichtstrukturproteins 5A“ Englischer Originalwortlaut: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL3039514 (elbasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039514), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist, dass Elbasvir das virale NS5A-Protein des Hepatitis-C-Virus hemmt. Seine Wirksamkeit bei Hepatitis C ist belegt.
 
 Hepatitis B und Hepatitis C sind beides hepatotrope Virusinfektionen. Das Hepatitis-B-Virus besitzt jedoch kein NS5A-Homolog, ein direkter zielstrukturbasierter Ansatz fehlt daher. Der hohe Vorhersagewert spiegelt vermutlich eher die Nähe der Erkrankungen im Netzwerk des Modells wider als einen belegten Mechanismus. Die Vorhersage sollte deshalb als Hypothese verstanden werden.
 
@@ -119,6 +119,18 @@ Für die Hepatitis-B-Vorhersage gibt es keine direkte Studie. Die zugeordneten S
 - Präklinische Untersuchungen (in vitro) zur Wirkung von Elbasvir auf HBV
 - Daten zum Wirkmechanismus von Elbasvir
 - Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL3039514 (elbasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039514) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

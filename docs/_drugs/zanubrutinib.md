@@ -60,7 +60,7 @@ Dafür liegt bislang jedoch nur **1 klinische Studie mit geringer Relevanz** (Ph
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu den Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Zanubrutinib ist ein selektiver BTK-Inhibitor der zweiten Generation. Seine Wirksamkeit bei B-Zell-Malignomen wie Morbus Waldenström, CLL/SLL und Mantelzelllymphom ist belegt, und mechanistisch könnte eine Anwendung bei weiteren Leukämieformen denkbar sein.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Zanubrutinib (inoffizielle Übersetzung): „Zanubrutinib ist ein niedermolekularer Inhibitor der Bruton-Tyrosinkinase (BTK). Zanubrutinib bildet eine kovalente Bindung mit einem Cysteinrest im aktiven Zentrum der BTK, was zu einer Hemmung der BTK-Aktivität führt. BTK ist ein Signalmolekül der Signalwege des B-Zell-Antigenrezeptors (BCR) und der Zytokinrezeptoren.“ Englischer Originalwortlaut: "Zanubrutinib is a small-molecule inhibitor of Bruton's tyrosine kinase (BTK). Zanubrutinib forms a covalent bond with a cysteine residue in the BTK active site, leading to inhibition of BTK activity. BTK is a signaling molecule of the B-cell antigen receptor (BCR) and cytokine receptor pathways." ([DailyMed: Brukinsa (zanubrutinib) prescribing information, BeOne Medicines USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e08fe23-d70e-424c-bc51-1222e320f902), Fassung vom 2026-09-04; abgerufen am 2026-11-19). Bekannt ist: Zanubrutinib ist ein selektiver BTK-Inhibitor der zweiten Generation. Seine Wirksamkeit bei B-Zell-Malignomen wie Morbus Waldenström, CLL/SLL und Mantelzelllymphom ist belegt, und mechanistisch könnte eine Anwendung bei weiteren Leukämieformen denkbar sein.
 
 Die myeloische Leukämie ist jedoch keine Erkrankung der B-Zell-Linie, sodass sich der BTK-abhängige Mechanismus nicht direkt übertragen lässt. BTK wird zwar in myeloischen Zellen exprimiert und wurde bei der AML als Vermittler von Überlebenssignalen untersucht, diese Hinweise sind jedoch präklinisch und indirekt. Der hohe TxGNN-Wert ist wahrscheinlich eher auf die Nähe im Netzwerk zu verwandten Leukämie- und BTK-Inhibitor-Indikationen zurückzuführen als auf myeloische Spezifika. Eine mechanistische Validierung ist ohne Wirkmechanismus-Daten zusätzlich eingeschränkt.
 
@@ -155,11 +155,12 @@ Für die myeloische Leukämie gibt es keine direkte klinische Evidenz: Die einzi
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Die einzige erfasste Zulassung hat den Status „erloschen/zurückgezogen““ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Brukinsa (zanubrutinib) prescribing information, BeOne Medicines USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e08fe23-d70e-424c-bc51-1222e320f902) |
 
 <!-- review:end log -->
 

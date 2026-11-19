@@ -58,7 +58,7 @@ Paliperidon wurde ursprünglich zur Behandlung von Schizophrenie und psychotisch
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist, dass Paliperidon ein Antagonist an Dopamin-D2- und Serotonin-5-HT2A-Rezeptoren ist und als Antipsychotikum bei Schizophrenie eingesetzt wird.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Paliperidone (inoffizielle Übersetzung): „Paliperidon ist der aktive Hauptmetabolit von Risperidon. Der Wirkmechanismus von Paliperidon bei Schizophrenie ist unklar. Die therapeutische Wirkung des Arzneimittels bei Schizophrenie könnte jedoch über eine Kombination aus zentralem Antagonismus an Dopamin-Typ-2-(D 2 )- und Serotonin-Typ-2-(5HT 2A )-Rezeptoren vermittelt werden.“ Englischer Originalwortlaut: "Paliperidone is the major active metabolite of risperidone. The mechanism of action of paliperidone in schizophrenia is unclear. However, the drug's therapeutic effect in schizophrenia could be mediated through a combination of central dopamine Type 2 (D 2 ) and serotonin Type 2 (5HT 2A ) receptor antagonism." ([DailyMed: Invega (paliperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7b8e5b26-b9e4-4704-921b-3c3c0d159916), Fassung vom 2025-01-31; abgerufen am 2026-11-19). Bekannt ist, dass Paliperidon ein Antagonist an Dopamin-D2- und Serotonin-5-HT2A-Rezeptoren ist und als Antipsychotikum bei Schizophrenie eingesetzt wird.
 
 Ein plausibler Wirkweg von dieser Rezeptorblockade zu erblich bedingter Netzhautdegeneration ist anhand der vorliegenden Daten nicht erkennbar. Der hohe Vorhersagewert (0,999) ist eine reine Modellvorhersage und kein Hinweis auf klinische Wirksamkeit. Die Ähnlichkeit zur ursprünglichen Indikation wurde bislang nicht bewertet.
 
@@ -146,11 +146,12 @@ Die Vorhersage zur retinalen Dystrophie beruht allein auf einem Modellwert ohne 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „da die einzige Zulassung erloschen ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Invega (paliperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7b8e5b26-b9e4-4704-921b-3c3c0d159916) |
 
 <!-- review:end log -->
 

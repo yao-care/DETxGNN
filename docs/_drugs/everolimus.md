@@ -66,7 +66,7 @@ Dafür liegen derzeit **1 klinische Studie** und **4 Publikationen** vor, von de
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu den Wirkmechanismen liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach bekanntem Stand hemmt Everolimus mTORC1 im PI3K/AKT-Signalweg. Seine Wirksamkeit bei Nierenzell-, Brust- und Pankreastumoren ist belegt, und mechanistisch kann er auch bei weiteren Tumorarten anwendbar sein, in denen dieser Signalweg aktiv ist.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Everolimus (inoffizielle Übersetzung): „Everolimus hemmt die durch Antigene und Interleukine (IL-2 und IL-15) stimulierte Aktivierung und Proliferation von T- und B-Lymphozyten. In Zellen bindet Everolimus an ein zytoplasmatisches Protein, das FK506-bindende Protein-12 (FKBP-12), und bildet einen immunsuppressiven Komplex (Everolimus: FKBP-12), der an das mammalian Target of Rapamycin (mTOR), eine wichtige regulatorische Kinase, bindet und dieses hemmt.“ Englischer Originalwortlaut: "Everolimus inhibits antigenic and interleukin (IL-2 and IL-15) stimulated activation and proliferation of T and B lymphocytes. In cells, everolimus binds to a cytoplasmic protein, the FK506 Binding Protein-12 (FKBP-12), to form an immunosuppressive complex (everolimus: FKBP-12) that binds to and inhibits the mammalian target of rapamycin (mTOR), a key regulatory kinase." ([DailyMed: Zortress (everolimus) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e082a024-7850-400b-a5c2-2a140612562a), Fassung vom 2026-09-16; abgerufen am 2026-11-19). Nach bekanntem Stand hemmt Everolimus mTORC1 im PI3K/AKT-Signalweg. Seine Wirksamkeit bei Nierenzell-, Brust- und Pankreastumoren ist belegt, und mechanistisch kann er auch bei weiteren Tumorarten anwendbar sein, in denen dieser Signalweg aktiv ist.
 
 Beim dedifferenzierten Liposarkom (CDK4/MDM2-amplifiziert) ist die Kombination von Everolimus mit dem CDK4/6-Inhibitor Ribociclib ein rationaler Ansatz: Sie blockiert gleichzeitig den Zellzyklus (CDK4/6-Rb) und den Wachstums- und Überlebensweg (mTOR). Der hohe TxGNN-Wert passt zu dieser Überlegung.
 
@@ -160,12 +160,13 @@ Für das Liposarkom liegt eine prospektive Phase-2-Studie (n = 48) mit veröffen
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Zudem sind in Deutschland derzeit nur erloschene Zulassungen gelistet“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Hinweis: Die Zulassungen wurden zentral über die EMA erteilt (Nummern EMEA/H/C/…) und sind laut den für diesen Bericht zusammengestellten Da“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Zortress (everolimus) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e082a024-7850-400b-a5c2-2a140612562a) |
 
 <!-- review:end log -->
 

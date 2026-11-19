@@ -60,7 +60,7 @@ Die Evidenz ist begrenzt: **3 klinische Studien** (alle ohne Wirksamkeitsdaten, 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu Topotecan liegen für diesen Bericht keine detaillierten Angaben zum Wirkmechanismus aus der Datenbank vor. Nach bekanntem Wissen ist Topotecan ein Topoisomerase-I-Inhibitor, der in sich schnell teilenden Zellen DNA-Schäden verursacht. Seine Wirksamkeit bei Eierstock-, Gebärmutterhals- und kleinzelligem Lungenkrebs ist belegt, und mechanistisch könnte es auch bei Brustkrebs anwendbar sein.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Topotecan (inoffizielle Übersetzung): „Die Topoisomerase I baut die Torsionsspannung in der DNA ab, indem sie reversible Einzelstrangbrüche induziert. Topotecan bindet an den Topoisomerase-I-DNA-Komplex und verhindert die Religation dieser Einzelstrangbrüche. Es wird angenommen, dass die Zytotoxizität von Topotecan auf DNA-Doppelstrangschäden zurückzuführen ist, die während der DNA-Synthese entstehen, wenn Replikationsenzyme mit dem aus Topotecan, Topoisomerase I und DNA gebildeten ternären Komplex interagieren.“ Englischer Originalwortlaut: "Topoisomerase I relieves torsional strain in DNA by inducing reversible single-strand breaks. Topotecan binds to the topoisomerase I-DNA complex and prevents re-ligation of these single-strand breaks. The cytotoxicity of topotecan is thought to be due to double-strand DNA damage produced during DNA synthesis, when replication enzymes interact with the ternary complex formed by topotecan, topoisomerase I, and DNA." ([DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579), Fassung vom 2023-09-18; abgerufen am 2026-11-19). Nach bekanntem Wissen ist Topotecan ein Topoisomerase-I-Inhibitor, der in sich schnell teilenden Zellen DNA-Schäden verursacht. Seine Wirksamkeit bei Eierstock-, Gebärmutterhals- und kleinzelligem Lungenkrebs ist belegt, und mechanistisch könnte es auch bei Brustkrebs anwendbar sein.
 
 Präklinische Daten (PMID 37987734) deuten darauf hin, dass die Hemmung von TOP1 in MYC-getriebenen Tumoren eine synthetische Letalität auslösen kann. Das ist für eine Untergruppe aggressiver Mammakarzinome relevant.
 
@@ -141,6 +141,19 @@ Die Vorhersage ist mechanistisch plausibel, doch die klinische Evidenz ist schwa
 - Detaillierte Daten zum Wirkmechanismus aus DrugBank
 - Gezielte klinische Daten zu Topotecan bei Brustkrebs (z. B. Subgruppen mit MYC-Treiberveränderung, BCRP-Expression)
 - Klärung des Zulassungsstatus und der Verfügbarkeit in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

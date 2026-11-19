@@ -58,7 +58,7 @@ Teriparatid ist ein Fragment des Parathormons (PTH 1-34) und wird zur Behandlung
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für die vorliegende Auswertung sind keine detaillierten Angaben zum Wirkmechanismus verfügbar. Bekannt ist, dass Teriparatid als Peptid an den PTH-Rezeptor 1 (PTH1R) und den PTH-Rezeptor 2 (PTH2R) bindet. Über den PTH1R fördert es den Knochenaufbau (anabole Wirkung) und senkt dadurch bei Patienten mit hohem Frakturrisiko das Knochenbruchrisiko.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Teriparatide (inoffizielle Übersetzung): „Das endogene, aus 84 Aminosäuren bestehende Parathormon (PTH) ist der primäre Regulator des Calcium- und Phosphatstoffwechsels in Knochen und Niere. Zu den physiologischen Wirkungen von PTH gehören die Regulation des Knochenstoffwechsels, die renale tubuläre Rückresorption von Calcium und Phosphat sowie die intestinale Calciumresorption. […] Die biologischen Wirkungen von PTH und Teriparatid werden über die Bindung an spezifische hochaffine Zelloberflächenrezeptoren vermittelt.“ Englischer Originalwortlaut: "Endogenous 84-amino acid parathyroid hormone (PTH) is the primary regulator of calcium and phosphate metabolism in bone and kidney. Physiological actions of PTH include regulation of bone metabolism, renal tubular reabsorption of calcium and phosphate, and intestinal calcium absorption. […] The biological actions of PTH and teriparatide are mediated through binding to specific high-affinity cell-surface receptors." ([DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c), Fassung vom 2026-08-31; abgerufen am 2026-11-19). Bekannt ist, dass Teriparatid als Peptid an den PTH-Rezeptor 1 (PTH1R) und den PTH-Rezeptor 2 (PTH2R) bindet. Über den PTH1R fördert es den Knochenaufbau (anabole Wirkung) und senkt dadurch bei Patienten mit hohem Frakturrisiko das Knochenbruchrisiko.
 
 Zwischen Osteoporose und Duodenalulkus besteht kein erkennbarer pathophysiologischer Zusammenhang. Ein Zwölffingerdarmgeschwür entsteht durch Säure- und Schleimhautschädigung, häufig im Zusammenhang mit *Helicobacter pylori* oder Schmerzmitteln. Ein Bezug zur PTH-Rezeptor-Signalübertragung im Knochen ist nicht etabliert. Die hohe Modellbewertung lässt sich daher aus der Datenlage nicht mechanistisch begründen. Sie sollte als reine Hypothese betrachtet werden.
 
@@ -154,13 +154,14 @@ Eine vertiefte Bewertung dieser beiden Indikationen wäre wahrscheinlich aussich
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Alle acht Zulassungen sind aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Hinzu kommt, dass in eutschland derzeit 7 von 8 Zulassungen gültig sind, d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „da alle Zulassungen aufgehoben sind“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c) |
 
 <!-- review:end log -->
 

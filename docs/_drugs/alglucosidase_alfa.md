@@ -54,7 +54,7 @@ Alglucosidase alfa ist ein rekombinantes Enzym zur Enzymersatztherapie. Das TxGN
 
 ## Warum ist diese Vorhersage nachvollziehbar?
 
-Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist: Alglucosidase alfa ist eine rekombinante saure α-Glucosidase, die lysosomales Glykogen abbaut.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Alglucosidase Alfa (inoffizielle Übersetzung): „Morbus Pompe (Saure-Maltase-Mangel, Glykogenspeicherkrankheit Typ II, GSD II, Glykogenose Typ II) ist eine erbliche Störung des Glykogenstoffwechsels, die durch das Fehlen oder einen ausgeprägten Mangel des lysosomalen Enzyms GAA verursacht wird. Alglucosidase alfa stellt eine exogene Quelle für GAA bereit.“ Englischer Originalwortlaut: "Pompe disease (acid maltase deficiency, glycogen storage disease type II, GSD II, glycogenosis type II) is an inherited disorder of glycogen metabolism caused by the absence or marked deficiency of the lysosomal enzyme GAA. Alglucosidase alfa provides an exogenous source of GAA." ([DailyMed: Lumizyme (alglucosidase alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6bfbc45-2d34-439e-8aad-59ee2d53d4df), Fassung vom 2025-01-10; abgerufen am 2026-11-19). Bekannt ist: Alglucosidase alfa ist eine rekombinante saure α-Glucosidase, die lysosomales Glykogen abbaut.
 
 Die adulte Polyglucosan-Körper-Krankheit beruht auf einem Mangel des Glykogen-Verzweigungsenzyms (GBE1). Dadurch sammeln sich schlecht verzweigte, unlösliche Polyglucosane in Neuronen und anderen Geweben an. Ein plausibler, aber unbewiesener Gedanke ist, dass die Substanz die Glykogenlast senken könnte.
 
@@ -90,6 +90,19 @@ Für die Vorhersage gibt es weder klinische Studien noch Publikationen, und die 
 - Daten zum Wirkmechanismus (MOA)
 - Sicherheitsinformationen aus der Packungsbeilage (Warnhinweise, Gegenanzeigen)
 - Prüfung der Verabreichungswege und der Zugänglichkeit des Zielgewebes
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Lumizyme (alglucosidase alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6bfbc45-2d34-439e-8aad-59ee2d53d4df) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

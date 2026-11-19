@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien und keine Publikationen** vor. 
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist, dass Eribulin die Dynamik der Mikrotubuli hemmt. Seine Wirksamkeit bei Brustkrebs und Liposarkom ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Eribulin (inoffizielle Übersetzung): „Eribulin hemmt die Wachstumsphase der Mikrotubuli, ohne die Verkürzungsphase zu beeinflussen, und sequestriert Tubulin in nichtproduktive Aggregate. Eribulin entfaltet seine Wirkungen über einen Tubulin-basierten antimitotischen Mechanismus, der zu einer Blockade des Zellzyklus in der G 2 /M-Phase, einer Störung der Mitosespindeln und schließlich nach anhaltender mitotischer Blockade zum apoptotischen Zelltod führt.“ Englischer Originalwortlaut: "Eribulin inhibits the growth phase of microtubules without affecting the shortening phase and sequesters tubulin into nonproductive aggregates. Eribulin exerts its effects via a tubulin-based antimitotic mechanism leading to G 2 /M cell-cycle block, disruption of mitotic spindles, and, ultimately, apoptotic cell death after prolonged mitotic blockage." ([DailyMed: Halaven (eribulin mesylate) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822), Fassung vom 2025-11-07; abgerufen am 2026-11-19). Bekannt ist, dass Eribulin die Dynamik der Mikrotubuli hemmt. Seine Wirksamkeit bei Brustkrebs und Liposarkom ist belegt.
 
 Ein lockerer konzeptioneller Bezug zum FMF besteht darin, dass auch Colchicin, die Standardtherapie des FMF, auf Mikrotubuli wirkt. Ein belastbarer mechanistischer Zusammenhang lässt sich aus den vorliegenden Daten jedoch nicht ableiten.
 
@@ -136,11 +136,12 @@ Die Vorhersage stützt sich ausschließlich auf das Modell (L5), ohne Studien od
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem sind in Deutschland derzeit alle Zulassungen aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Halaven (eribulin mesylate) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822) |
 
 <!-- review:end log -->
 

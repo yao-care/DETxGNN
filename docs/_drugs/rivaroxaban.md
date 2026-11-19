@@ -60,7 +60,7 @@ Dafür liegen jedoch **keine klinischen Studien** und lediglich **4 Publikatione
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Rivaroxaban ein direkter Faktor-Xa-Inhibitor ist und seine Wirksamkeit bei thromboembolischen Erkrankungen belegt ist.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Rivaroxaban (inoffizielle Übersetzung): „XARELTO ist ein selektiver Inhibitor von FXa. Für seine Aktivität ist kein Kofaktor (wie Antithrombin III) erforderlich. Rivaroxaban hemmt freien FXa und die Prothrombinase-Aktivität. Rivaroxaban hat keine direkte Wirkung auf die Thrombozytenaggregation, hemmt jedoch indirekt die durch Thrombin induzierte Thrombozytenaggregation.“ Englischer Originalwortlaut: "XARELTO is a selective inhibitor of FXa. It does not require a cofactor (such as Anti-thrombin III) for activity. Rivaroxaban inhibits free FXa and prothrombinase activity. Rivaroxaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin." ([DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610), Fassung vom 2026-09-10; abgerufen am 2026-11-19). Bekannt ist, dass Rivaroxaban ein direkter Faktor-Xa-Inhibitor ist und seine Wirksamkeit bei thromboembolischen Erkrankungen belegt ist.
 
 Bei rheumatoider Arthritis bestehen chronische Entzündung und ein prothrombotischer Zustand, und bei Autoimmunerkrankungen kann die Thrombinbildung verändert sein. Eine Beeinflussung des Gerinnungswegs ist daher biologisch denkbar.
 
@@ -144,11 +144,12 @@ Die weiteren Vorhersagen wurden ebenfalls als **Hold** bewertet:
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem sind alle deutschen Zulassungen aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610) |
 
 <!-- review:end log -->
 

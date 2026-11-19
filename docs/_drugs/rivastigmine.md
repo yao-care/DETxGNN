@@ -58,7 +58,7 @@ Rivastigmin ist ein Cholinesterase-Hemmer, der ursprünglich zur Behandlung von 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Rivastigmin hemmt die Acetylcholinesterase und die Butyrylcholinesterase und erhöht dadurch die Acetylcholinkonzentration. Detaillierte Daten zum Wirkmechanismus liegen für diesen Bericht nicht vor; der Mechanismus wird daher aus der bekannten Wirkstoffklasse abgeleitet.
+Rivastigmin hemmt die Acetylcholinesterase und die Butyrylcholinesterase und erhöht dadurch die Acetylcholinkonzentration. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Rivastigmine (inoffizielle Übersetzung): „Obwohl der genaue Wirkmechanismus von Rivastigmin unbekannt ist, wird angenommen, dass es seine therapeutische Wirkung durch Verstärkung der cholinergen Funktion entfaltet. Dies geschieht durch Erhöhung der Acetylcholinkonzentration mittels reversibler Hemmung seiner Hydrolyse durch die Cholinesterase.“ Englischer Originalwortlaut: "Although the precise mechanism of action of rivastigmine is unknown, it is thought to exert its therapeutic effect by enhancing cholinergic function. This is accomplished by increasing the concentration of acetylcholine through reversible inhibition of its hydrolysis by cholinesterase." ([DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d), Fassung vom 2025-11-11; abgerufen am 2026-11-19).
 
 Beim Glaukom ist die Senkung des Augeninnendrucks (IOP) das zentrale Therapieziel. Cholinerge Wirkstoffe wie Pilocarpin steigern den Kammerwasserabfluss über das Trabekelwerk und erhöhen den Tonus des Ziliarmuskels. Eine Anreicherung von Acetylcholin am Auge könnte diesen Effekt nachahmen. Eine Studie aus dem Jahr 2000 zeigte, dass topisch angewendetes Rivastigmin den Augeninnendruck bei Kaninchen senkte. Das ist eine direkte, aber rein präklinische Stütze. Eine Analyse aus dem Jahr 2024 (Systemgenetik und molekulare Modellierung) liefert zusätzliche rechnerische und mechanistische Hinweise.
 
@@ -120,6 +120,19 @@ Die Evidenz beschränkt sich auf eine Kaninchenstudie, Übersichtsarbeiten und d
 - Bestätigung der IOP-Senkung in weiteren präklinischen Modellen, möglichst auch bei Glaukommodellen mit erhöhtem Druck
 - Entwicklung und Sicherheitsprüfung einer topischen/okulären Formulierung
 - Klärung des Zulassungs- und Marktstatus in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

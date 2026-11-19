@@ -54,7 +54,7 @@ Duloxetin ist ein Serotonin-Noradrenalin-Wiederaufnahmehemmer. Das TxGNN-Modell 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Duloxetin liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Duloxetin die Wiederaufnahme von Serotonin und Noradrenalin hemmt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Duloxetine (inoffizielle Übersetzung): „Obwohl die genauen Mechanismen der antidepressiven, zentral schmerzhemmenden und anxiolytischen Wirkungen von Duloxetin beim Menschen nicht bekannt sind, wird angenommen, dass diese Wirkungen mit der Verstärkung der serotonergen und noradrenergen Aktivität im ZNS zusammenhängen.“ Englischer Originalwortlaut: "Although the exact mechanisms of the antidepressant, central pain inhibitory and anxiolytic actions of duloxetine in humans are unknown, these actions are believed to be related to its potentiation of serotonergic and noradrenergic activity in the CNS." ([DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b), Fassung vom 2026-08-20; abgerufen am 2026-11-19). Bekannt ist, dass Duloxetin die Wiederaufnahme von Serotonin und Noradrenalin hemmt.
 
 Ein mechanistischer Zusammenhang zur vorhergesagten Erkrankung ist nicht belegt. Der hohe Score beruht allein auf einer graphbasierten Modellvorhersage. Der benigne paroxysmale Torticollis des Säuglingsalters ist eine episodische Erkrankung im Kindesalter, die dem Spektrum von Migräne und Kanalopathien (z. B. CACNA1A) zugeordnet wird. Es gibt keine Hinweise, dass eine Hemmung der Serotonin-Noradrenalin-Wiederaufnahme dafür relevant ist. Zudem wäre der Einsatz eines SNRI bei Kindern wegen der Warnung vor Suizidalität bei jungen Patienten sicherheitskritisch.
 
@@ -97,6 +97,19 @@ Die Vorhersage stützt sich ausschließlich auf ein Modell (Evidenzstufe L5). Es
 - Präklinische oder klinische Daten zur Erkrankung selbst
 - Bewertung der Sicherheit bei pädiatrischer Anwendung
 - Daten zu Wirkmechanismus sowie Warnhinweisen und Gegenanzeigen aus der Fachinformation
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

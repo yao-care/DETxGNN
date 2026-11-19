@@ -56,7 +56,7 @@ Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Pub
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Pirfenidon antifibrotisch und entzündungshemmend wirkt; beschrieben ist eine Beeinflussung von TGF-β und TNF-α sowie, laut den Literaturangaben, von PDGF, FGF und EGF.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Pirfenidone (inoffizielle Übersetzung): „Der Wirkmechanismus von Pirfenidon bei der Behandlung der IPF ist nicht geklärt.“ Englischer Originalwortlaut: "The mechanism of action of pirfenidone in the treatment of IPF has not been established." ([DailyMed: Esbriet (pirfenidone) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e), Fassung vom 2025-12-05; abgerufen am 2026-11-19). Bekannt ist, dass Pirfenidon antifibrotisch und entzündungshemmend wirkt; beschrieben ist eine Beeinflussung von TGF-β und TNF-α sowie, laut den Literaturangaben, von PDGF, FGF und EGF.
 
 Ein Zusammenhang mit dem Mastozytom, einer Neoplasie der Mastzellen, ist bislang nicht belegt. Die antifibrotische Wirkung auf Fibroblasten hat keine nachgewiesene Relevanz für die Mastzellneoplasie. Die hohe Modellbewertung ist daher als reine Hypothese zu verstehen.
 
@@ -101,6 +101,19 @@ Die Vorhersage beruht ausschließlich auf einer Modellberechnung (L5) ohne klini
 - Klärung des Zulassungsstatus in Deutschland und der verfügbaren Darreichungsformen
 - Bewertung der Sicherheitssignale (Sarkom- und Dermatofibrom-Fallberichte)
 - Vergleich mit bestehenden Standardtherapien (z. B. Imatinib bei DFSP, Colchicin bei Familiärem Mittelmeerfieber)
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Esbriet (pirfenidone) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

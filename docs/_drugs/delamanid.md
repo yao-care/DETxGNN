@@ -54,7 +54,7 @@ Delamanid ist ein Wirkstoff gegen Tuberkulose, der zur Behandlung der multiresis
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Delamanid liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist lediglich, dass der Wirkstoff gegen Mykobakterien gerichtet ist.
+Laut ChEMBL (EMBL-EBI) ist für Delamanid folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Inhibitor von Mycobacterium tuberculosis H37Rv“ Englischer Originalwortlaut: "Mycobacterium tuberculosis H37Rv inhibitor" ([ChEMBL CHEMBL218650 (delamanid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL218650), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist lediglich, dass der Wirkstoff gegen Mykobakterien gerichtet ist.
 
 Ein plausibler mechanistischer Zusammenhang zwischen der antimykobakteriellen Wirkung und der allergischen Urtikaria ist nicht erkennbar. Die einzige gefundene Publikation ist ein Fallbericht zu Urtikaria und Angioödem nach Piperacillin-Tazobactam und hat mit Delamanid nichts zu tun. Die Vorhersage ist daher sehr wahrscheinlich ein Artefakt des Modells und sollte nicht als belastbarer Hinweis auf eine Wirksamkeit gewertet werden.
 
@@ -89,6 +89,19 @@ Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzstufe L5). Es gibt 
 - Daten zum Wirkmechanismus von Delamanid, um einen möglichen Bezug zur Urtikaria zu prüfen
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
 - Präklinische oder mechanistische Belege, die einen Zusammenhang mit allergischer Urtikaria stützen, bevor weitere Schritte erwogen werden
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL218650 (delamanid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL218650) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

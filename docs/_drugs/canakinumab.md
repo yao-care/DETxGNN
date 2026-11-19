@@ -58,7 +58,7 @@ Canakinumab wurde ursprünglich zur Behandlung von Cryopyrin-assoziierten period
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für diesen Bericht liegen keine detaillierten Daten zum Wirkmechanismus vor. Canakinumab ist ein gegen Interleukin-1β (IL-1β) gerichteter Antikörper. Seine Wirksamkeit bei den ursprünglichen Indikationen, die mit IL-1-vermittelter Entzündung zusammenhängen, ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Canakinumab (inoffizielle Übersetzung): „Canakinumab ist ein humaner monoklonaler Anti-human-IL-1β-Antikörper vom Isotyp IgG1/κ. Canakinumab bindet an humanes IL-1β und neutralisiert dessen Aktivität, indem es seine Interaktion mit IL-1-Rezeptoren blockiert, bindet jedoch nicht an IL-1α oder den IL-1-Rezeptorantagonisten (IL-1ra).“ Englischer Originalwortlaut: "Canakinumab is a human monoclonal anti-human IL-1β antibody of the IgG1/κ isotype. Canakinumab binds to human IL-1β and neutralizes its activity by blocking its interaction with IL-1 receptors, but it does not bind IL-1α or IL-1 receptor antagonist (IL-1ra)." ([DailyMed: Ilaris (canakinumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d271f3b-e4f9-4d80-8dcf-28d49123f80e), Fassung vom 2026-06-08; abgerufen am 2026-11-19). Canakinumab ist ein gegen Interleukin-1β (IL-1β) gerichteter Antikörper. Seine Wirksamkeit bei den ursprünglichen Indikationen, die mit IL-1-vermittelter Entzündung zusammenhängen, ist belegt.
 
 Ein Zusammenhang mit dem Leberinfarkt ist denkbar, aber spekulativ. Eine IL-1-Blockade könnte die sterile Entzündung nach ischämischen Schädigungen dämpfen. Dafür gibt es in den vorliegenden Daten weder klinische noch literarische Belege. Der hohe Vorhersagewert stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. Die Ähnlichkeit zur ursprünglichen Indikation ist nicht bewertet.
 
@@ -113,6 +113,19 @@ Für Leberinfarkt gibt es weder Studien noch Publikationen, die Vorhersage ist r
 - Klärung des Zulassungsstatus in Deutschland
 
 **Hinweis zu weiteren Kandidaten:** Unter den übrigen vorhergesagten Indikationen ist die Evidenz für das **familiäre Mittelmeerfieber (FMF)** deutlich besser. Dazu liegen drei abgeschlossene Phase-3-Studien (überwiegend offen, klein, mit Fokus auf CAPS) sowie mehrere systematische Reviews vor (Evidenzstufe L1, Empfehlung „Proceed with Guardrails“). Eine gesonderte Bewertung dieser Indikation wird empfohlen. Für das Blau-Syndrom gibt es Fallberichte und kleine Serien (Evidenzstufe L3).
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Ilaris (canakinumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d271f3b-e4f9-4d80-8dcf-28d49123f80e) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

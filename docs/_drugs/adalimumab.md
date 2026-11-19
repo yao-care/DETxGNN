@@ -54,7 +54,7 @@ Adalimumab ist ein monoklonaler Antikörper, der den Entzündungsbotenstoff TNF-
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen für diesen Bericht nicht vor. Bekannt ist, dass Adalimumab TNF-α hemmt und damit bei entzündlich vermittelten Erkrankungen wirkt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Adalimumab (inoffizielle Übersetzung): „Adalimumab-Produkte binden spezifisch an TNF-alpha und blockieren dessen Interaktion mit den p55- und p75-TNF-Rezeptoren auf der Zelloberfläche. Adalimumab-Produkte lysieren in vitro in Gegenwart von Komplement außerdem Zellen, die oberflächengebundenen TNF exprimieren.“ Englischer Originalwortlaut: "Adalimumab products bind specifically to TNF-alpha and block its interaction with the p55 and p75 cell surface TNF receptors. Adalimumab products also lyse surface TNF expressing cells in vitro in the presence of complement." ([DailyMed: Simlandi (adalimumab-ryvk) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12f609c9-2088-bb05-e063-6394a90a9ecc), Fassung vom 2026-11-11; abgerufen am 2026-11-19). Bekannt ist, dass Adalimumab TNF-α hemmt und damit bei entzündlich vermittelten Erkrankungen wirkt.
 
 Für die Hypermobilität des Steißbeins ist ein solcher TNF-getriebener Entzündungsmechanismus jedoch nicht belegt. Die Erkrankung ist vor allem mechanisch oder traumatisch bedingt. Der hohe Vorhersagewert beruht daher vermutlich auf einer Nähe zu Begriffen aus dem Bereich der Wirbelsäule und des Achsenskeletts, also auf einem Artefakt der Modellvorhersage. Eine pharmakologische Begründung gibt es derzeit nicht. Die Ähnlichkeit zur ursprünglichen Indikation ist nicht bewertet.
 
@@ -95,6 +95,19 @@ Die Vorhersage stützt sich allein auf einen hohen Modellwert (0,9977). Es gibt 
 - Systematische Literaturrecherche und Fallberichte zur Steißbein-Hypermobilität unter TNF-Hemmern
 - Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM) zur Sicherheitsbewertung
 - Falls ein biologisches Konzept entsteht: Planung einer explorativen Studie mit klar definierten Endpunkten
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Simlandi (adalimumab-ryvk) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12f609c9-2088-bb05-e063-6394a90a9ecc) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

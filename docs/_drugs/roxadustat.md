@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist, dass Roxadustat ein HIF-Prolylhydroxylase-Inhibitor ist: Es stabilisiert HIF-1α/2α und fördert dadurch unter anderem die Erythropoetin-Bildung, was seine Wirksamkeit bei Anämie bei chronischer Niereninsuffizienz erklärt. Die EMA hat Roxadustat im August 2021 für diese Indikation zugelassen.
+Laut ChEMBL (EMBL-EBI) ist für Roxadustat folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Hypoxie-induzierbarer-Faktor-Prolylhydroxylase-Inhibitor“ Englischer Originalwortlaut: "Hypoxia-inducible factor prolyl hydroxylase inhibitor" ([ChEMBL CHEMBL2338329 (roxadustat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2338329), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist, dass Roxadustat ein HIF-Prolylhydroxylase-Inhibitor ist: Es stabilisiert HIF-1α/2α und fördert dadurch unter anderem die Erythropoetin-Bildung, was seine Wirksamkeit bei Anämie bei chronischer Niereninsuffizienz erklärt. Die EMA hat Roxadustat im August 2021 für diese Indikation zugelassen.
 
 Zwischen renaler Anämie und Trockenem Auge besteht keine unmittelbare klinische Verwandtschaft. Ein möglicher Zusammenhang ergibt sich nur über die HIF-Signalwege, die Entzündung der Augenoberfläche, die Epithelreparatur und die Angiogenese beeinflussen könnten. Die HIF-Aktivierung kann jedoch auch pathologische Neovaskularisation fördern. Die Verbindung ist daher spekulativ: Der TxGNN-Wert ist eine rein graphbasierte Vorhersage.
 
@@ -127,11 +127,12 @@ Die Vorhersage für das Trockene-Auge-Syndrom stützt sich allein auf das TxGNN-
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die Zulassung in eutschland erloschen, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL2338329 (roxadustat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2338329) |
 
 <!-- review:end log -->
 

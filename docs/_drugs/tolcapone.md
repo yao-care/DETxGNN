@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Tolcapon ein COMT-Hemmer (Catechol-O-Methyltransferase) ist, dessen Wirksamkeit bei Morbus Parkinson belegt ist. Er verlängert dort die Wirkung von Levodopa.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Tolcapone (inoffizielle Übersetzung): „Tolcapon ist ein selektiver und reversibler Inhibitor der Catechol-O-Methyltransferase (COMT). Bei Säugetieren ist COMT in verschiedenen Organen verteilt. Die höchsten Aktivitäten finden sich in Leber und Niere. COMT kommt außerdem in Herz, Lunge, glatter und Skelettmuskulatur, Darmtrakt, Fortpflanzungsorganen, verschiedenen Drüsen, Fettgewebe, Haut, Blutzellen und neuronalen Geweben vor, insbesondere in Gliazellen.“ Englischer Originalwortlaut: "Tolcapone is a selective and reversible inhibitor of catechol- O -methyltransferase (COMT). In mammals, COMT is distributed throughout various organs. The highest activities are in the liver and kidney. COMT also occurs in the heart, lung, smooth and skeletal muscles, intestinal tract, reproductive organs, various glands, adipose tissue, skin, blood cells and neuronal tissues, especially in glial cells." ([DailyMed: Tasmar (tolcapone) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0e47a9d-78e7-4523-983a-aa259f221736), Fassung vom 2020-10-02; abgerufen am 2026-11-19). Bekannt ist, dass Tolcapon ein COMT-Hemmer (Catechol-O-Methyltransferase) ist, dessen Wirksamkeit bei Morbus Parkinson belegt ist. Er verlängert dort die Wirkung von Levodopa.
 
 Ein mechanistischer Zusammenhang zur Rasmussen-Enzephalitis, einer immunvermittelten chronischen Enzephalitis, ist aus den vorliegenden Daten nicht erkennbar. Der hohe Modellwert (0,999) ist eine reine Modellvorhersage ohne Unterstützung durch Studien oder Literatur. Der Weg über Signalwege lässt sich daher nicht überprüfen.
 
@@ -113,6 +113,19 @@ Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzgrad L5), ohn
 - Gezielte Literaturrecherche und präklinische Prüfung eines möglichen Zusammenhangs mit Rasmussen-Enzephalitis
 - Alternativ die Lewy-Körper-Demenz (präklinisch gestützt, Evidenzgrad L4) als aussichtsreichere Indikation prüfen
 - Klärung des Zulassungsstatus und der Machbarkeit eines Wiedereinsatzes in Deutschland unter Berücksichtigung des Leberrisikos
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Tasmar (tolcapone) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0e47a9d-78e7-4523-983a-aa259f221736) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

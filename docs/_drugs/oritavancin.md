@@ -60,7 +60,7 @@ Dafür liegen jedoch derzeit **keine klinischen Studien** und **keine Publikatio
 
 ## Warum ist diese Vorhersage plausibel (oder nicht)?
 
-Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten nicht vor. Bekannt ist, dass Oritavancin ein Lipoglykopeptid ist, das die bakterielle Zellwandsynthese (Transglykosylierung und Transpeptidierung) hemmt und die Membranintegrität stört. Seine Wirkung richtet sich in erster Linie gegen grampositive Erreger, was die Zulassung bei Haut- und Weichteilinfektionen erklärt.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Oritavancin (inoffizielle Übersetzung): „Oritavancin ist ein antibakterieller Wirkstoff. […] Oritavancin besitzt drei Wirkmechanismen: (i) Hemmung des Transglykosylierungsschritts (Polymerisation) der Zellwandbiosynthese durch Bindung an das Stammpeptid von Peptidoglykan-Vorstufen; (ii) Hemmung des Transpeptidierungsschritts (Quervernetzung) der Zellwandbiosynthese durch Bindung an die Peptid-Brückensegmente der Zellwand; und (iii) Störung der Integrität der Bakterienmembran, was zu Depolarisation, Permeabilisierung und Zelltod führt. Diese multiplen Mechanismen tragen zur konzentrationsabhängigen bakteriziden Wirkung von Oritavancin bei.“ Englischer Originalwortlaut: "Oritavancin is an antibacterial drug. […] Oritavancin has three mechanisms of action: (i) inhibition of the transglycosylation (polymerization) step of cell wall biosynthesis by binding to the stem peptide of peptidoglycan precursors; (ii) inhibition of the transpeptidation (crosslinking) step of cell wall biosynthesis by binding to the peptide bridging segments of the cell wall; and (iii) disruption of bacterial membrane integrity, leading to depolarization, permeabilization, and cell death. These multiple mechanisms contribute to the concentration-dependent bactericidal activity of oritavancin." ([DailyMed: Orbactiv (oritavancin) prescribing information, Melinta Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff09a726-9f9b-4e30-b509-396781293220), Fassung vom 2026-09-15; abgerufen am 2026-11-19). Bekannt ist, dass Oritavancin ein Lipoglykopeptid ist, das die bakterielle Zellwandsynthese (Transglykosylierung und Transpeptidierung) hemmt und die Membranintegrität stört. Seine Wirkung richtet sich in erster Linie gegen grampositive Erreger, was die Zulassung bei Haut- und Weichteilinfektionen erklärt.
 
 Bacteroidaceae (z. B. *Bacteroides* spp.) sind gramnegative Anaerobier mit einer äußeren Membran, die Glykopeptide in der Regel nicht durchdringen können. Die mechanistische Begründung ist daher schwach. Der hohe TxGNN-Wert ist eine rein computergestützte Vorhersage und wird durch keine Studie oder Publikation gestützt.
 
@@ -118,6 +118,19 @@ Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzlevel L5) ohn
 - In-vitro-Empfindlichkeitsdaten (MHK) von Oritavancin gegen *Bacteroides* spp.
 - Präklinische oder klinische Belege für die Wirksamkeit bei Infektionen mit Bacteroidaceae
 - Klärung des Zulassungsstatus und der verfügbaren Applikationswege in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Orbactiv (oritavancin) prescribing information, Melinta Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff09a726-9f9b-4e30-b509-396781293220) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -60,7 +60,7 @@ Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vo
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine Angaben vor. Nach allgemeinem Wissen neutralisiert Belimumab den B-Lymphozyten-Stimulator (BLyS bzw. BAFF), verringert dadurch das Überleben von B-Zellen und senkt die Autoantikörperbildung. Beim systemischen Lupus erythematodes, einer autoantikörpervermittelten Erkrankung, ist dieser Mechanismus nachvollziehbar.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Belimumab (inoffizielle Übersetzung): „BENLYSTA ist ein BLyS-spezifischer Inhibitor, der die Bindung von löslichem BLyS, einem B-Zell-Überlebensfaktor, an seine Rezeptoren auf B-Zellen blockiert. BENLYSTA bindet nicht direkt an B-Zellen, sondern hemmt durch die Bindung von BLyS das Überleben von B-Zellen, einschließlich autoreaktiver B-Zellen, und verringert die Differenzierung von B-Zellen in Immunglobulin-produzierende Plasmazellen.“ Englischer Originalwortlaut: "BENLYSTA is a BLyS-specific inhibitor that blocks the binding of soluble BLyS, a B-cell survival factor, to its receptors on B cells. BENLYSTA does not bind B cells directly, but by binding BLyS, BENLYSTA inhibits the survival of B cells, including autoreactive B cells, and reduces the differentiation of B cells into immunoglobulin-producing plasma cells." ([DailyMed: Benlysta (belimumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2fa3c528-1777-4628-8a55-a69dae2381a3), Fassung vom 2026-10-30; abgerufen am 2026-11-19). Nach allgemeinem Wissen neutralisiert Belimumab den B-Lymphozyten-Stimulator (BLyS bzw. BAFF), verringert dadurch das Überleben von B-Zellen und senkt die Autoantikörperbildung. Beim systemischen Lupus erythematodes, einer autoantikörpervermittelten Erkrankung, ist dieser Mechanismus nachvollziehbar.
 
 Die primäre Thrombozyten-Freisetzungsstörung ist dagegen ein angeborener oder erworbener qualitativer Funktionsdefekt der Thrombozyten und in der Regel nicht durch B-Zellen oder Autoantikörper getrieben. Ein plausibler mechanistischer Zusammenhang ist derzeit nicht erkennbar. Der hohe Vorhersagewert ist eine rein graphbasierte Modellvorhersage und wird weder durch Studien noch durch Literatur gestützt.
 
@@ -126,6 +126,19 @@ Die Vorhersage stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten w
 - Systematische Literatur- und Studienrecherche zu Belimumab bei Thrombozytenerkrankungen
 - Prüfung der Indikationen mit immunologischem Bezug (z. B. fetale und neonatale Alloimmunthrombozytopenie) auf mechanistische Plausibilität und Sicherheit
 - Klärung des Zulassungs- und Marktstatus in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Benlysta (belimumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2fa3c528-1777-4628-8a55-a69dae2381a3) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -60,7 +60,7 @@ Dafür liegen **7 klinische Studien** (überwiegend Phase 2) und **20 Publikatio
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben aus der Arzneimitteldatenbank vor. Bekannt ist: Pemetrexed hemmt mehrere folatabhängige Enzyme (Thymidylatsynthase, DHFR und GARFT) und blockiert dadurch die Purin- und Pyrimidinsynthese in sich schnell teilenden Tumorzellen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Pemetrexed (inoffizielle Übersetzung): „Pemetrexed ist ein Folat-analoger Stoffwechselinhibitor, der folatabhängige Stoffwechselprozesse stört, die für die Zellreplikation essenziell sind. In-vitro-Studien zeigen, dass Pemetrexed die Thymidylat-Synthase (TS), die Dihydrofolat-Reduktase (DHFR) und die Glycinamid-Ribonukleotid-Formyltransferase (GARFT) hemmt; dabei handelt es sich um folatabhängige Enzyme, die an der De-novo-Biosynthese von Thymidin- und Purinnukleotiden beteiligt sind.“ Englischer Originalwortlaut: "Pemetrexed is a folate analog metabolic inhibitor that disrupts folate-dependent metabolic processes essential for cell replication. In vitro studies show that pemetrexed inhibits thymidylate synthase (TS), dihydrofolate reductase (DHFR), and glycinamide ribonucleotide formyltransferase (GARFT), which are folate-dependent enzymes involved in the de novo biosynthesis of thymidine and purine nucleotides." ([DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0), Fassung vom 2026-06-18; abgerufen am 2026-11-19). Bekannt ist: Pemetrexed hemmt mehrere folatabhängige Enzyme (Thymidylatsynthase, DHFR und GARFT) und blockiert dadurch die Purin- und Pyrimidinsynthese in sich schnell teilenden Tumorzellen.
 
 Die Wirksamkeit beim Pleuramesotheliom ist durch eine Phase-3-Studie belegt (Vogelzang 2003, PMID 12860938: Pemetrexed plus Cisplatin vs. Cisplatin allein). Das peritoneale Mesotheliom teilt Histologie und Biologie mit der pleuralen Form, sodass sich der Mechanismus plausibel übertragen lässt. Pemetrexed-Platin wird beim peritonealen Mesotheliom bereits in der Praxis eingesetzt, obwohl es nicht eigens dafür zugelassen ist.
 
@@ -166,11 +166,12 @@ Pemetrexed-Platin ist beim Pleuramesotheliom durch Phase-3-Evidenz etabliert und
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „alle vier Zulassungen sind derzeit gültig“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ Hierfür liegen **keine klinischen Studien** und **10 Publikationen** vor, über
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für diesen Bericht liegen derzeit keine detaillierten Daten zum Wirkmechanismus vor. Ritonavir gehört nach allgemeinem Wissen zur Klasse der HIV-Proteaseinhibitoren. Seine Wirksamkeit bei HIV ist belegt, und mechanistisch könnte es auch bei SIV anwendbar sein. Die Mechanismusangaben stammen aus allgemeinem Fachwissen, nicht aus den für diesen Bericht zusammengestellten Daten.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Ritonavir (inoffizielle Übersetzung): „Ritonavir ist ein antiretrovirales Arzneimittel. […] Ritonavir ist ein peptidomimetischer Inhibitor der HIV-1-Protease. Die Hemmung der HIV-Protease macht das Enzym unfähig, den Gag-Pol-Polyprotein-Vorläufer zu prozessieren, was zur Bildung nicht infektiöser, unreifer HIV-Partikel führt.“ Englischer Originalwortlaut: "Ritonavir is an antiretroviral drug. […] Ritonavir is a peptidomimetic inhibitor of the HIV-1 protease. Inhibition of HIV protease renders the enzyme incapable of processing the Gag-Pol polyprotein precursor which leads to production of non-infectious immature HIV particles." ([DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3), Fassung vom 2026-07-23; abgerufen am 2026-11-19). Ritonavir gehört nach allgemeinem Wissen zur Klasse der HIV-Proteaseinhibitoren. Seine Wirksamkeit bei HIV ist belegt, und mechanistisch könnte es auch bei SIV anwendbar sein. Die Mechanismusangaben stammen aus allgemeinem Fachwissen, nicht aus den für diesen Bericht zusammengestellten Daten.
 
 SIV und HIV sind eng verwandte Lentiviren, und ihre Proteasen sind strukturell und funktionell ähnlich. In-vitro-Daten stützen dies: SIVmac239 wurde durch Ritonavir mit einer EC50 von etwa 13 nM gehemmt, HIV-1 mit etwa 25 nM (PMID 12709355).
 
@@ -128,6 +128,19 @@ Die Evidenz für die SIV-Infektion beschränkt sich auf präklinische Daten (In-
 - Packungsbeilage (Warnhinweise und Gegenanzeigen) beim BfArM beschaffen und auswerten, da dies für das Sicherheits-Screening blockierend ist
 - Prüfen, ob die weiteren vorhergesagten Indikationen (felines erworbenes Immundefizienzsyndrom, neurologische Entwicklungsstörung mit ataktischem Gang) überhaupt sinnvoll sind; für beide liegen weder Studien noch Literatur vor, und die hohen Werte stammen vom TxGNN-Modell (Deep Learning) und können vom Modell gelernte Ähnlichkeiten zwischen verwandten Erkrankungen widerspiegeln, keinen biologischen Beleg
 - Klären, ob eine humane Indikation mit klinischer Relevanz besteht, bevor weitere Ressourcen eingesetzt werden
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

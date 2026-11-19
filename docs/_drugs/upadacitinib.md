@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage plausibel?
 
-Derzeit liegen keine detaillierten Daten zum Wirkmechanismus vor. Bekannt ist, dass Upadacitinib ein JAK-Inhibitor (überwiegend JAK1) ist, der bei Autoimmun- und Entzündungserkrankungen eingesetzt wird. Seine Wirksamkeit bei rheumatoider Arthritis ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Upadacitinib (inoffizielle Übersetzung): „Upadacitinib ist ein Januskinase(JAK)-Inhibitor. JAKs sind intrazelluläre Enzyme, die Signale weiterleiten, welche aus Interaktionen von Zytokin- oder Wachstumsfaktorrezeptoren an der Zellmembran hervorgehen, um zelluläre Prozesse der Hämatopoese und der Immunzellfunktion zu beeinflussen.“ Englischer Originalwortlaut: "Upadacitinib is a Janus kinase (JAK) inhibitor. JAKs are intracellular enzymes which transmit signals arising from cytokine or growth factor-receptor interactions on the cellular membrane to influence cellular processes of hematopoiesis and immune cell function." ([DailyMed: Rinvoq (upadacitinib) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095), Fassung vom 2026-06-30; abgerufen am 2026-11-19). Bekannt ist, dass Upadacitinib ein JAK-Inhibitor (überwiegend JAK1) ist, der bei Autoimmun- und Entzündungserkrankungen eingesetzt wird. Seine Wirksamkeit bei rheumatoider Arthritis ist belegt.
 
 Das vorhergesagte Syndrom ist eine seltene Entwicklungsstörung. Ein Zusammenhang mit dem JAK-STAT-Signalweg ist anhand der vorliegenden Daten nicht erkennbar und wäre spekulativ. Der hohe Vorhersagewert (0.9961) stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht aber biologische Evidenz. Die Vorhersage ist daher als rein rechnerische Hypothese zu betrachten.
 
@@ -125,12 +125,13 @@ Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert (Evidenzn
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Diese Zulassung hat den Status „gelöscht“ (cancelled); eine gültige Einzel- oder Kombizulassung besteht laut den zusammengestellten Daten ni“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Zudem besteht in Deutschland nur eine gelöschte Zulassung“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Rinvoq (upadacitinib) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095) |
 
 <!-- review:end log -->
 

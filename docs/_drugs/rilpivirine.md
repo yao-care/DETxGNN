@@ -60,7 +60,7 @@ Dafür liegen bislang **keine klinischen Studien** und **eine Publikation** (pr�
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Rilpivirin liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Rilpivirin gehört zur Klasse der NNRTI, seine Wirksamkeit bei HIV-Infektionen ist belegt, und es hemmt die Reverse Transkriptase von HIV-1.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Rilpivirine (inoffizielle Übersetzung): „Rilpivirin ist ein antivirales Arzneimittel. […] Rilpivirin ist ein Diarylpyrimidin-Nicht-Nukleosid-Reverse-Transkriptase-Inhibitor (NNRTI) des humanen Immundefizienzvirus Typ 1 (HIV-1) und hemmt die HIV-1-Replikation durch nicht-kompetitive Hemmung der HIV-1-Reversen-Transkriptase (RT). Rilpivirin hemmt die humanen zellulären DNA-Polymerasen α, β und γ nicht.“ Englischer Originalwortlaut: "Rilpivirine is an antiviral drug. […] Rilpivirine is a diarylpyrimidine non-nucleoside reverse transcriptase inhibitor (NNRTI) of human immunodeficiency virus type 1 (HIV-1) and inhibits HIV-1 replication by non-competitive inhibition of HIV-1 reverse transcriptase (RT). Rilpivirine does not inhibit the human cellular DNA polymerases α, β and γ." ([DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6), Fassung vom 2025-08-28; abgerufen am 2026-11-19). Bekannt ist: Rilpivirin gehört zur Klasse der NNRTI, seine Wirksamkeit bei HIV-Infektionen ist belegt, und es hemmt die Reverse Transkriptase von HIV-1.
 
 Das Felines Immundefizienzvirus (FIV) ist ein Lentivirus, dessen Reverse Transkriptase mit jener von HIV-1 verwandt ist. Eine biochemische und strukturelle Studie aus dem Jahr 2023 verglich NNRTIs (Nevirapin, Efavirenz, Rilpivirin) gegen FIV und HIV. Mechanistisch ist eine Anwendbarkeit daher denkbar.
 
@@ -138,12 +138,13 @@ Die Vorhersage stützt sich nur auf eine einzelne präklinische Studie ohne klin
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Alle sechs Zulassungen sind laut den Daten aufgehoben (zentrale EU-Zulassungen, EMEA-Nummern)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „und alle deutschen Zulassungen von Rilpivirin sind aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6) |
 
 <!-- review:end log -->
 

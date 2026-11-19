@@ -54,7 +54,7 @@ Maraviroc ist ein CCR5-Antagonist, der ursprünglich zur Behandlung von HIV-Infe
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Maraviroc den Chemokinrezeptor CCR5 blockiert, was seine Wirkung bei HIV erklärt. Für eine Rolle von CCR5 in der Pathogenese der multiplen endokrinen Neoplasie gibt es in den vorliegenden Daten keinen Beleg.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Maraviroc (inoffizielle Übersetzung): „Maraviroc ist ein antivirales Arzneimittel gegen HIV-1. […] Maraviroc gehört zu einer therapeutischen Klasse, die als CCR5-Korezeptor-Antagonisten bezeichnet wird. Maraviroc bindet selektiv an den auf der Zellmembran vorhandenen humanen Chemokinrezeptor CCR5 und verhindert so die Wechselwirkung zwischen HIV-1-gp120 und CCR5, die für den Eintritt von CCR5-tropem HIV-1 in die Zellen erforderlich ist.“ Englischer Originalwortlaut: "Maraviroc is an HIV-1 antiviral drug. […] Maraviroc is a member of a therapeutic class called CCR5 co-receptor antagonists. Maraviroc selectively binds to the human chemokine receptor CCR5 present on the cell membrane, preventing the interaction of HIV-1 gp120 and CCR5 necessary for CCR5-tropic HIV-1 to enter cells." ([DailyMed: Selzentry (maraviroc) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c52dddd-0457-41cd-99e0-d30d4fd00ec5), Fassung vom 2023-11-10; abgerufen am 2026-11-19). Bekannt ist, dass Maraviroc den Chemokinrezeptor CCR5 blockiert, was seine Wirkung bei HIV erklärt. Für eine Rolle von CCR5 in der Pathogenese der multiplen endokrinen Neoplasie gibt es in den vorliegenden Daten keinen Beleg.
 
 Zwischen der ursprünglichen Indikation (Virusinfektion) und der vorhergesagten Indikation (hereditäre endokrine Tumorerkrankung) besteht keine erkennbare mechanistische Verbindung. Der sehr hohe Modellwert (0,9982) ist daher mit Vorsicht zu interpretieren: Er ist ein rein rechnerisches Ergebnis ohne experimentelle oder klinische Bestätigung.
 
@@ -128,11 +128,12 @@ Die Vorhersage für die multiple endokrine Neoplasie beruht ausschließlich auf 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „da die deutsche Zulassung erloschen ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Selzentry (maraviroc) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c52dddd-0457-41cd-99e0-d30d4fd00ec5) |
 
 <!-- review:end log -->
 

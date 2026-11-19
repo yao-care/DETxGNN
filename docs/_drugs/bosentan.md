@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **15 Publikationen** vor,
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für diesen Bericht liegen derzeit keine detaillierten Daten zum Wirkmechanismus vor. Bosentan ist bekanntermaßen ein dualer Endothelin-Rezeptor-Antagonist (ETA/ETB). Seine Wirksamkeit bei pulmonaler Hypertonie und systemischer Sklerose ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Bosentan (inoffizielle Übersetzung): „Bosentan ist ein spezifischer und kompetitiver Antagonist an den Endothelin-Rezeptortypen ET A und ET B. Bosentan besitzt eine etwas höhere Affinität zu ET A-Rezeptoren als zu ET B-Rezeptoren. Die klinische Bedeutung der dualen Endothelin-Blockade ist unbekannt.“ Englischer Originalwortlaut: "Bosentan is a specific and competitive antagonist at endothelin receptor types ET A and ET B. Bosentan has a slightly higher affinity for ET A receptors than for ET B receptors. The clinical impact of dual endothelin blockage is unknown." ([DailyMed: Tracleer (bosentan) prescribing information, Actelion Pharmaceuticals US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=749e42fb-2fe0-45dd-9268-b43bb3f4081c), Fassung vom 2025-11-17; abgerufen am 2026-11-19). Bosentan ist bekanntermaßen ein dualer Endothelin-Rezeptor-Antagonist (ETA/ETB). Seine Wirksamkeit bei pulmonaler Hypertonie und systemischer Sklerose ist belegt.
 
 Endothelin-1 trägt in Arthritis-Modellen zu Entzündung, Gefäßveränderungen und Zytokinfreisetzung (TNF, IL-17, LTB4) bei. In einem Mausmodell der kollageninduzierten Arthritis verringerte Bosentan die Krankheitsaktivität, wobei ein TNF-abhängiger Mechanismus beschrieben wurde (PMID 22249931). Zudem sind die Endothelin-1-Spiegel in Plasma und Synovialmembran von RA-Patienten erhöht.
 
@@ -141,11 +141,12 @@ Der Vorhersage mit dem höchsten Rang (rheumatoide Arthritis) stehen weitere geg
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Hinzu kommen der erloschene Zulassungsstatus in Deutschland und ein relevantes Sicherheitsprofil (Leber, Teratogenität)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Tracleer (bosentan) prescribing information, Actelion Pharmaceuticals US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=749e42fb-2fe0-45dd-9268-b43bb3f4081c) |
 
 <!-- review:end log -->
 

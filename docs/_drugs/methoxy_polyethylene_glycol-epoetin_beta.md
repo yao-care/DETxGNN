@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage nachvollziehbar?
 
-Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist, dass es sich um einen lang wirksamen Erythropoese-stimulierenden Wirkstoff (ESA) handelt, der am Erythropoetin-Rezeptor wirkt. Seine Wirksamkeit bei der renalen Anämie ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Methoxy Polyethylene Glycol-Epoetin Beta (inoffizielle Übersetzung): „Mircera ist ein Erythropoetin-Rezeptor-Aktivator mit im Gegensatz zu Erythropoetin größerer Aktivität in vivo sowie verlängerter Halbwertszeit. Erythropoetin, ein primärer Wachstumsfaktor für die erythroide Entwicklung, wird in der Niere gebildet und als Reaktion auf Hypoxie in den Blutkreislauf freigesetzt.“ Englischer Originalwortlaut: "Mircera is an erythropoietin receptor activator with greater activity in vivo as well as increased half-life, in contrast to erythropoietin. A primary growth factor for erythroid development, erythropoietin is produced in the kidney and released into the bloodstream in response to hypoxia." ([DailyMed: Mircera (methoxy polyethylene glycol-epoetin beta) prescribing information, Vifor (International) Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=22c56f2a-f73c-60e7-e054-00144ff88e88), Fassung vom 2026-08-14; abgerufen am 2026-11-19). Bekannt ist, dass es sich um einen lang wirksamen Erythropoese-stimulierenden Wirkstoff (ESA) handelt, der am Erythropoetin-Rezeptor wirkt. Seine Wirksamkeit bei der renalen Anämie ist belegt.
 
 Für eine Thrombozyten-Sekretionsstörung gibt es jedoch keinen etablierten Mechanismus. Der hohe TxGNN-Wert ist eine rein graphbasierte Vorhersage ohne unterstützende Studien oder Literatur. Zudem sind ESAs mit einem thromboembolischen Risiko verbunden, weshalb der Einsatz bei einer Thrombozytenfunktionsstörung sorgfältig sicherheitsrelevant geprüft werden müsste.
 
@@ -122,6 +122,19 @@ Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzstufe L5), ohne kli
 - Systematische Literatur- und Studienrecherche zu Thrombozytenfunktionsstörungen und ESAs
 - Klärung des aktuellen Zulassungsstatus in Deutschland
 - Prüfung der Thromboserisiken, bevor eine weitere Betrachtung erfolgt
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Mircera (methoxy polyethylene glycol-epoetin beta) prescribing information, Vifor (International) Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=22c56f2a-f73c-60e7-e054-00144ff88e88) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

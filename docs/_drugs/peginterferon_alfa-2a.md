@@ -60,7 +60,7 @@ Die Vorhersage stützt sich auf **20 klinische Studien** und **20 Publikationen*
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Peginterferon alfa-2a ein Typ-I-Interferon ist. Es wirkt über den Interferonrezeptor (JAK-STAT-Signalweg) und induziert interferonstimulierte Gene. Dadurch hemmt es die Virusreplikation und verstärkt die HBV-spezifischen T-Zell- und NK-Zell-Antworten.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Peginterferon Alfa-2A (inoffizielle Übersetzung): „Pegyliertes rekombinantes humanes Interferon alfa-2a ist ein Induktor der angeborenen antiviralen Immunantwort. […] Die biologische Aktivität von PEGASYS geht auf seinen rekombinanten humanen Interferon-α-2a-Anteil zurück. Peginterferon α-2a bindet an den humanen Typ-1-Interferon-Rezeptor, was zur Rezeptordimerisierung führt. Die Rezeptordimerisierung aktiviert mehrere intrazelluläre Signaltransduktionswege, die anfänglich über den JAK/STAT-Signalweg vermittelt werden.“ Englischer Originalwortlaut: "Pegylated recombinant human interferon alfa-2a is an inducer of the innate antiviral immune response. […] The biological activity of PEGASYS is derived from its recombinant human interferon α-2a moiety. Peginterferon α-2a binds to the human type 1 interferon receptor leading to receptor dimerization. Receptor dimerization activates multiple intracellular signal transduction pathways initially mediated by the JAK/STAT pathway." ([DailyMed: Pegasys (peginterferon alfa-2a) prescribing information, pharmaand GmbH](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9290e5b-6d40-2318-e053-2995a90a9916), Fassung vom 2026-10-16; abgerufen am 2026-11-19). Bekannt ist, dass Peginterferon alfa-2a ein Typ-I-Interferon ist. Es wirkt über den Interferonrezeptor (JAK-STAT-Signalweg) und induziert interferonstimulierte Gene. Dadurch hemmt es die Virusreplikation und verstärkt die HBV-spezifischen T-Zell- und NK-Zell-Antworten.
 
 Die Hepatitis-B-Infektion gehört bereits zu den ursprünglich zugelassenen Indikationen. Der hohe TxGNN-Wert spiegelt daher die vorhandene klinische Evidenz wider. Es handelt sich um eine Bestätigung einer bestehenden Indikation und nicht um ein klassisches Repurposing.
 
@@ -152,12 +152,13 @@ Für Hepatitis B liegen mehrere Phase-3/4-Studien und randomisierte Studien sowi
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „und die EU-Zulassung in Deutschland ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „(erloschene Zulassung; ggf. Verfügbarkeit anderer Peginterferon-Präparate)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Pegasys (peginterferon alfa-2a) prescribing information, pharmaand GmbH](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9290e5b-6d40-2318-e053-2995a90a9916) |
 
 <!-- review:end log -->
 

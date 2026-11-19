@@ -54,7 +54,7 @@ Lanadelumab ist ein monoklonaler Antikörper, der Plasma-Kallikrein (KLKB1) hemm
 
 ## Warum ist die Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine ausführlichen Angaben vor. Pharmakologisch ist Lanadelumab ein Antikörper, der Plasma-Kallikrein (KLKB1) bindet und hemmt, und damit den Kallikrein-Bradykinin-Weg dämpft.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Lanadelumab (inoffizielle Übersetzung): „Lanadelumab-flyo ist ein vollständig humaner monoklonaler Antikörper (IgG1/κ-Leichtkette), der Plasmakallikrein bindet und dessen proteolytische Aktivität hemmt. Plasmakallikrein ist eine Protease, die hochmolekulares Kininogen (HMWK) spaltet, wodurch gespaltenes HMWK (cHMWK) und Bradykinin entstehen; Bradykinin ist ein potenter Vasodilatator, der die Gefäßpermeabilität erhöht, was zu den mit HAE verbundenen Schwellungen und Schmerzen führt.“ Englischer Originalwortlaut: "Lanadelumab-flyo is a fully human monoclonal antibody (IgG1/κ-light chain) that binds plasma kallikrein and inhibits its proteolytic activity. Plasma kallikrein is a protease that cleaves high-molecular-weight-kininogen (HMWK) to generate cleaved HMWK (cHMWK) and bradykinin, a potent vasodilator that increases vascular permeability resulting in swelling and pain associated with HAE." ([DailyMed: Takhzyro (lanadelumab-flyo) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=15f99d8c-efe7-4f7d-aa20-0d0f1e30c6e8), Fassung vom 2026-09-18; abgerufen am 2026-11-19). Pharmakologisch ist Lanadelumab ein Antikörper, der Plasma-Kallikrein (KLKB1) bindet und hemmt, und damit den Kallikrein-Bradykinin-Weg dämpft.
 
 Die Verbindung zur vorhergesagten Erkrankung ist vermutlich eine reine Netzwerkassoziation über ein Serpin, also ein Protein aus der Familie der Serin-Protease-Inhibitoren. Bei Serpinopathien polymerisieren fehlgefaltete Serpine toxisch. Das ist ein anderer Mechanismus als die übermäßige Plasma-Kallikrein-Aktivität, die Lanadelumab hemmt. Ein direkter pharmakologischer Zusammenhang ist daher nicht erkennbar.
 
@@ -98,11 +98,12 @@ Für die vorhergesagte Indikation gibt es weder klinische Studien noch Publikati
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Der aktuelle deutsche Zulassungsstatus ist „nur erloschen““ | Nach Neuerstellung des Berichts nicht mehr vorhanden (2026-11-12: der Bericht wurde im November 2026 neu erstellt und enthält diese Aussage nicht mehr; vorher: Korrigiert) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Takhzyro (lanadelumab-flyo) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=15f99d8c-efe7-4f7d-aa20-0d0f1e30c6e8) |
 
 <!-- review:end log -->
 

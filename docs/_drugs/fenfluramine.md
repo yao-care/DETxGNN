@@ -58,7 +58,7 @@ Fenfluramin ist ein serotoninfreisetzender Wirkstoff, der in Deutschland bzw. de
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu Fenfluramin liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Bekannt ist, dass Fenfluramin als Serotonin-freisetzender Wirkstoff mit Aktivität am Sigma-1-Rezeptor gilt und bei Krampfanfällen im Rahmen des Dravet- und des Lennox-Gastaut-Syndroms eingesetzt wird. Ursprünglich wurde es als Appetitzügler entwickelt und wegen Sicherheitsbedenken für diesen Zweck vom Markt genommen. Ein primäres Wirkziel ist in den Daten nicht eindeutig belegt; als pharmakologische Zielstrukturen sind lediglich die Tryptophanhydroxylasen TPH1 und TPH2 aufgeführt, ohne belastbare Bioaktivitätsdaten.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Fenfluramine (inoffizielle Übersetzung): „Der genaue Mechanismus, über den Fenfluramin seine therapeutische Wirkung bei der Behandlung von Krampfanfällen im Zusammenhang mit dem Dravet-Syndrom und dem Lennox-Gastaut-Syndrom entfaltet, ist nicht bekannt. Fenfluramin und sein Metabolit Norfenfluramin zeigen eine agonistische Aktivität an Serotonin-5-HT2-Rezeptoren.“ Englischer Originalwortlaut: "The precise mechanism by which fenfluramine exerts its therapeutic effects in the treatment of seizures associated with Dravet syndrome and Lennox-Gastaut syndrome is unknown. Fenfluramine and the metabolite, norfenfluramine, exhibit agonist activity at serotonin 5-HT2 receptors." ([DailyMed: Fintepla (fenfluramine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e88f360e-33ad-4cd6-b2de-5ef885857c5d), Fassung vom 2026-10-22; abgerufen am 2026-11-19). Bekannt ist, dass Fenfluramin als Serotonin-freisetzender Wirkstoff mit Aktivität am Sigma-1-Rezeptor gilt und bei Krampfanfällen im Rahmen des Dravet- und des Lennox-Gastaut-Syndroms eingesetzt wird. Ursprünglich wurde es als Appetitzügler entwickelt und wegen Sicherheitsbedenken für diesen Zweck vom Markt genommen. Ein primäres Wirkziel ist in den Daten nicht eindeutig belegt; als pharmakologische Zielstrukturen sind lediglich die Tryptophanhydroxylasen TPH1 und TPH2 aufgeführt, ohne belastbare Bioaktivitätsdaten.
 
 Die 16p11.2-Mikrodeletion wird mit Epilepsie, Merkmalen aus dem Autismus-Spektrum und weiteren neuroentwicklungsbedingten Auffälligkeiten in Verbindung gebracht. Theoretisch könnte eine Anfallskontrolle durch Fenfluramin daher einen Nutzen haben. Diese Verbindung ist **spekulativ** und durch die vorliegenden Daten nicht gestützt. Der hohe Modellwert allein ist kein Wirksamkeitsnachweis.
 
@@ -125,12 +125,13 @@ Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert (Evidenzs
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „die Zulassung in Deutschland nur noch als gelöscht geführt wird und“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „(warum die Zulassung gelöscht wurde)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Fintepla (fenfluramine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e88f360e-33ad-4cd6-b2de-5ef885857c5d) |
 
 <!-- review:end log -->
 

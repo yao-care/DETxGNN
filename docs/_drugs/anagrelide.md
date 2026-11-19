@@ -54,7 +54,7 @@ Anagrelid ist ein Wirkstoff, der die Thrombozytenzahl senkt. Das TxGNN-Modell sa
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den hier zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist aus der Literatur, dass Anagrelid die Thrombozytenzahl senkt, indem es die Reifung und Differenzierung der Megakaryozyten hemmt. Dieser Effekt ist unabhängig von der Ursache der Thrombozytose, was eine pharmakologisch plausible Verbindung zur reaktiven Thrombozytose schafft.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Anagrelide (inoffizielle Übersetzung): „Der genaue Mechanismus, über den Anagrelid die Thrombozytenzahl im Blut senkt, ist nicht bekannt. In Zellkulturstudien unterdrückte Anagrelid die Expression von Transkriptionsfaktoren, darunter GATA-1 und FOG-1, die für die Megakaryozytopoese erforderlich sind, was letztlich zu einer verminderten Thrombozytenproduktion führte.“ Englischer Originalwortlaut: "The precise mechanism by which anagrelide reduces blood platelet count is unknown. In cell culture studies, anagrelide suppressed expression of transcription factors including GATA-1 and FOG-1 required for megakaryocytopoiesis, ultimately leading to reduced platelet production." ([DailyMed: Agrylin (anagrelide hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb960074-99c1-4a73-941f-f0644a7ec219), Fassung vom 2026-04-08; abgerufen am 2026-11-19). Bekannt ist aus der Literatur, dass Anagrelid die Thrombozytenzahl senkt, indem es die Reifung und Differenzierung der Megakaryozyten hemmt. Dieser Effekt ist unabhängig von der Ursache der Thrombozytose, was eine pharmakologisch plausible Verbindung zur reaktiven Thrombozytose schafft.
 
 Dem steht ein wesentlicher klinischer Einwand gegenüber: Die reaktive Thrombozytose ist sekundär, etwa infolge von Entzündung, Infektion, Eisenmangel oder nach Splenektomie, und meist vorübergehend. Sie ist in der Regel mit einem niedrigen Thromboserisiko verbunden und wird durch Behandlung der Grunderkrankung gesteuert; eine zytoreduktive Therapie ist selten angezeigt. Die Übersichtsarbeiten betonen entsprechend, dass die reaktive Form meist keiner Therapie bedarf, während die klonale Thrombozytose behandelt werden kann. Der hohe Vorhersagewert spiegelt wahrscheinlich vor allem die Ähnlichkeit zur essenziellen Thrombozythämie wider und ist kein unabhängiger Wirksamkeitsbeleg.
 
@@ -109,6 +109,19 @@ Es gibt keine klinische Studie und keine Publikation, die Anagrelid direkt bei r
 - Detaillierte Daten zum Wirkmechanismus
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
 - Sicherheitsbewertung der schwerwiegenden Wechselwirkungen, insbesondere mit QT-verlängernden Arzneimitteln
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Agrylin (anagrelide hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb960074-99c1-4a73-941f-f0644a7ec219) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

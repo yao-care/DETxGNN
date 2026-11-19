@@ -59,7 +59,7 @@ Das TxGNN-Modell sagt voraus, dass es bei der **neurotischen Störung** wirksam 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Aus der Literatur ist jedoch bekannt, dass Vortioxetin die Serotonin-Wiederaufnahme (SERT) hemmt und zudem mehrere Serotoninrezeptoren moduliert (5-HT1A-Agonist, 5-HT1B-Partialagonist, 5-HT3-, 5-HT7- und 5-HT1D-Antagonist). Seine Wirksamkeit bei der Major Depression ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Vortioxetine (inoffizielle Übersetzung): „Der Mechanismus der antidepressiven Wirkung von Vortioxetin ist nicht vollständig geklärt, es wird jedoch angenommen, dass er mit der Verstärkung der serotonergen Aktivität im ZNS durch Hemmung der Wiederaufnahme von Serotonin (5-HT) zusammenhängt. Es besitzt außerdem mehrere weitere Wirkungen, darunter einen Antagonismus am 5-HT3-Rezeptor und einen Agonismus am 5-HT1A-Rezeptor.“ Englischer Originalwortlaut: "The mechanism of the antidepressant effect of vortioxetine is not fully understood, but is thought to be related to its enhancement of serotonergic activity in the CNS through inhibition of the reuptake of serotonin (5-HT). It also has several other activities including 5-HT3 receptor antagonism and 5-HT1A receptor agonism." ([DailyMed: Trintellix (vortioxetine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd0107e5-1cb9-4b40-a6af-fa65fcbe6b4e), Fassung vom 2026-04-23; abgerufen am 2026-11-19). Aus der Literatur ist jedoch bekannt, dass Vortioxetin die Serotonin-Wiederaufnahme (SERT) hemmt und zudem mehrere Serotoninrezeptoren moduliert (5-HT1A-Agonist, 5-HT1B-Partialagonist, 5-HT3-, 5-HT7- und 5-HT1D-Antagonist). Seine Wirksamkeit bei der Major Depression ist belegt.
 
 „Neurotische Störung" ist eine veraltete, breite diagnostische Kategorie, die sich mit depressiven und Angststörungen überschneidet. Der hohe Wert stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. Die serotonerge Wirkung könnte für die depressiven und ängstlichen Anteile relevant sein, dies bleibt aber eine reine Vorhersage.
 
@@ -125,12 +125,13 @@ Für die neurotische Störung gibt es weder klinische Studien noch spezifische L
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Prüfung des Marktstatus, da nur eine erloschene Zulassung vorliegt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Trintellix (vortioxetine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd0107e5-1cb9-4b40-a6af-fa65fcbe6b4e) |
 
 <!-- review:end log -->
 

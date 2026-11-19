@@ -58,7 +58,7 @@ Sevofluran ist ein inhalatives Narkosemittel (volatiles Anästhetikum), das für
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Sevofluran liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Sevofluran als volatiles Anästhetikum unter anderem GABA-A- und NMDA-Rezeptoren moduliert und gewisse gefäßerweiternde sowie calciumkanalmodulierende Effekte besitzt.
+Laut ChEMBL (EMBL-EBI) ist für Sevoflurane folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Positiver Modulator des Glycinrezeptors (alpha-1/beta); GABA-A-Rezeptor; positiver allosterischer Modulator von Anionenkanälen; Öffner des Kaliumkanals Unterfamilie K Mitglied 10; Öffner des Kaliumkanals Unterfamilie K Mitglied 18“ Englischer Originalwortlaut: "Glycine receptor (alpha-1/beta) positive modulator; GABA-A receptor; anion channel positive allosteric modulator; Potassium channel subfamily K member 10 opener; Potassium channel subfamily K member 18 opener" ([ChEMBL CHEMBL1200694 (sevoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200694), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist, dass Sevofluran als volatiles Anästhetikum unter anderem GABA-A- und NMDA-Rezeptoren moduliert und gewisse gefäßerweiternde sowie calciumkanalmodulierende Effekte besitzt.
 
 Theoretisch könnten diese vasodilatierenden Eigenschaften mit dem Koronarspasmus bei Prinzmetal-Angina zusammenhängen. Dieser Zusammenhang ist jedoch rein spekulativ und durch keine Studie oder Publikation belegt. Zudem ist ein inhalatives Narkosemittel für die Dauerbehandlung einer vasospastischen Erkrankung nicht geeignet. Die hohe Modellbewertung ist daher mit Vorsicht zu interpretieren.
 
@@ -112,6 +112,19 @@ Die Vorhersage zur Prinzmetal-Angina beruht allein auf dem Modell (L5) ohne Stud
 - Detaillierte Wirkmechanismus-Daten (MOA) ergänzen
 - Präklinische Belege zu einem Effekt auf Koronarspasmen
 - Prüfung der Anwendbarkeit des Applikationswegs (Inhalation) für die Zielindikation
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL1200694 (sevoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200694) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

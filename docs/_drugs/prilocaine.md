@@ -60,7 +60,7 @@ Hinweis zur Auswahl: Die Indikation mit dem höchsten TxGNN-Score (papillare Kon
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu Prilocain liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Nach bekanntem Wissen gehört Prilocain jedoch zu den Amid-Lokalanästhetika, die spannungsabhängige Natriumkanäle blockieren. Die Wirksamkeit in der lokalen Schmerzausschaltung ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Prilocaine (inoffizielle Übersetzung): „Prilocain stabilisiert die neuronale Membran, indem es die für die Auslösung und Weiterleitung von Impulsen erforderlichen Ionenflüsse hemmt, und bewirkt dadurch eine lokalanästhetische Wirkung.“ Englischer Originalwortlaut: "Prilocaine stabilizes the neuronal membrane by inhibiting the ionic fluxes required for the initiation and conduction of impulses, thereby effecting local anesthetic action." ([DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41), Fassung vom 2021-11-10; abgerufen am 2026-11-19). Nach bekanntem Wissen gehört Prilocain jedoch zu den Amid-Lokalanästhetika, die spannungsabhängige Natriumkanäle blockieren. Die Wirksamkeit in der lokalen Schmerzausschaltung ist belegt.
 
 Die ursprüngliche Indikation (Fortacin, ein Spray zur Linderung einer vorzeitigen Ejakulation) nutzt die oberflächliche, lokal betäubende Wirkung. Dieselbe Wirkung auf periphere nozizeptive Nervenfasern bietet einen direkten mechanistischen Ansatz für neuropathische Schmerzen wie die postherpetische Neuralgie. Meist wird Prilocain dafür zusammen mit Lidocain als EMLA-Creme eingesetzt.
 
@@ -164,12 +164,13 @@ Für Neuralgie gibt es einen plausiblen Mechanismus und kleine, überwiegend äl
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche Zulassung aufgehoben, und“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „da die Zulassung aufgehoben ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41) |
 
 <!-- review:end log -->
 

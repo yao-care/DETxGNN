@@ -58,7 +58,7 @@ Zonisamid ist ein Antiepileptikum, das ursprünglich zur Behandlung von Epilepsi
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für diesen Wirkstoff liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Nach allgemeinem pharmakologischem Wissen blockiert Zonisamid spannungsabhängige Natrium- und T-Typ-Calciumkanäle und moduliert die dopaminerge und serotonerge Übertragung. Dies könnte einen Bezug zur Pathophysiologie von Tics haben.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Zonisamide (inoffizielle Übersetzung): „Der genaue Mechanismus bzw. die genauen Mechanismen, über den bzw. die Zonisamid seine antikonvulsive Wirkung entfaltet, ist bzw. sind nicht bekannt. Zonisamid zeigte in mehreren experimentellen Modellen antikonvulsive Aktivität. Bei Tieren war Zonisamid wirksam gegen tonische Extensionskrämpfe, die durch maximalen Elektroschock ausgelöst wurden, jedoch unwirksam gegen klonische Krämpfe, die durch subkutan verabreichtes Pentylentetrazol ausgelöst wurden.“ Englischer Originalwortlaut: "The precise mechanism(s) by which zonisamide exerts its antiseizure effect is unknown. Zonisamide demonstrated anticonvulsant activity in several experimental models. In animals, zonisamide was effective against tonic extension seizures induced by maximal electroshock but ineffective against clonic seizures induced by subcutaneous pentylenetetrazol." ([DailyMed: Zonegran (zonisamide) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12de43e-3ac3-4335-bc85-70d7366a91eb), Fassung vom 2026-09-23; abgerufen am 2026-11-19). Nach allgemeinem pharmakologischem Wissen blockiert Zonisamid spannungsabhängige Natrium- und T-Typ-Calciumkanäle und moduliert die dopaminerge und serotonerge Übertragung. Dies könnte einen Bezug zur Pathophysiologie von Tics haben.
 
 Die Verbindung zwischen der ursprünglichen Indikation (Epilepsie) und dem Tourette-Syndrom ist allerdings indirekt: Beide sind neurologische Erkrankungen mit gestörter neuronaler Erregbarkeit. Ein direkter Wirksamkeitsbeleg fehlt.
 
@@ -126,6 +126,19 @@ Die Vorhersage für das Tourette-Syndrom beruht allein auf dem Modellwert (Evide
 ## Hinweis zu weiteren Vorhersagen
 
 Weitere vorhergesagte Indikationen haben ebenfalls nur begrenzte Evidenz. Die Methämoglobinämie-Vorhersagen sind mechanistisch nicht plausibel; die Werte stammen vom TxGNN-Modell (Deep Learning) und können gelernte Ähnlichkeiten zwischen verwandten Erkrankungen widerspiegeln, nicht biologische Evidenz. Bei der **manischen bipolaren Störung** (L4) ist die Evidenz indirekt und widersprüchlich. Bei **Fibromyalgie** wurde die einzige registrierte Studie (NCT00259636) ohne Teilnehmer zurückgezogen.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Zonegran (zonisamide) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12de43e-3ac3-4335-bc85-70d7366a91eb) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

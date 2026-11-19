@@ -58,7 +58,7 @@ Toremifen ist ein selektiver Östrogenrezeptor-Modulator (SERM), der ursprüngli
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Toremifen liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Toremifen zur Klasse der Östrogenrezeptor-Antagonisten (SERM) gehört und bei Brustkrebs wirksam ist.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Toremifene (inoffizielle Übersetzung): „Toremifen ist ein nichtsteroidales Triphenylethylen-Derivat. Toremifen bindet an Estrogenrezeptoren und kann je nach Behandlungsdauer, Tierart, Geschlecht, Zielorgan oder gewähltem Endpunkt estrogene, antiestrogene oder beide Wirkungen ausüben.“ Englischer Originalwortlaut: "Toremifene is a nonsteroidal triphenylethylene derivative. Toremifene binds to estrogen receptors and may exert estrogenic, antiestrogenic, or both activities, depending upon the duration of treatment, animal species, gender, target organ, or endpoint selected." ([DailyMed: Fareston (toremifene citrate) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2cab8dd1-3a10-48e6-86ce-0e5275ed49e5), Fassung vom 2024-11-13; abgerufen am 2026-11-19). Bekannt ist, dass Toremifen zur Klasse der Östrogenrezeptor-Antagonisten (SERM) gehört und bei Brustkrebs wirksam ist.
 
 Der einzige unterstützende Befund stammt aus einer präklinischen Studie (2014). Sie zeigt, dass Östrogenrezeptor-Antagonisten wie Tamoxifen und Toremifen gegen den Pilz *Cryptococcus* wirken. Sie binden direkt an EF-Hand-Proteine wie Calmodulin und wirken fungizid. Zudem wirken sie in vitro synergistisch mit Fluconazol und Amphotericin B.
 
@@ -142,11 +142,12 @@ Die Vorhersage beruht allein auf einem Modellwert. Es gibt keine klinischen Stud
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „und das Fehlen einer gültigen Zulassung in Deutschland“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Fareston (toremifene citrate) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2cab8dd1-3a10-48e6-86ce-0e5275ed49e5) |
 
 <!-- review:end log -->
 

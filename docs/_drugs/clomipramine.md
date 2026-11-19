@@ -54,7 +54,7 @@ Clomipramin ist ein trizyklisches Antidepressivum mit starker Hemmung der Seroto
 
 ## Warum ist diese Vorhersage plausibel?
 
-Clomipramin hemmt potent die Wiederaufnahme von Serotonin und zusätzlich die von Noradrenalin. Die pharmakologischen Daten zeigen Bindung an den Serotonin-Transporter (SERT), den Noradrenalin-Transporter (NET), den Dopamin-Transporter (DAT) sowie den α1A-Adrenozeptor. Eine detaillierte, strukturierte Beschreibung des Wirkmechanismus liegt in den zusammengestellten Daten nicht vor; die genannten Zielstrukturen stammen aus pharmakologischen Datenbanken.
+Clomipramin hemmt potent die Wiederaufnahme von Serotonin und zusätzlich die von Noradrenalin. Die pharmakologischen Daten zeigen Bindung an den Serotonin-Transporter (SERT), den Noradrenalin-Transporter (NET), den Dopamin-Transporter (DAT) sowie den α1A-Adrenozeptor. Laut dem Abschnitt „Clinical Pharmacology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Clomipramine (inoffizielle Übersetzung): „Es wird angenommen, dass Clomipramin (CMI) obsessive und zwanghafte Verhaltensweisen über seine Wirkungen auf die serotonerge neuronale Übertragung beeinflusst. Der tatsächliche neurochemische Mechanismus ist unbekannt, es wird jedoch angenommen, dass die Fähigkeit von CMI, die Wiederaufnahme von Serotonin (5-HT) zu hemmen, von Bedeutung ist.“ Englischer Originalwortlaut: "Clomipramine (CMI) is presumed to influence obsessive and compulsive behaviors through its effects on serotonergic neuronal transmission. The actual neurochemical mechanism is unknown, but CMI's capacity to inhibit the reuptake of serotonin (5-HT) is thought to be important." ([DailyMed: Anafranil (clomipramine hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4074b555-7635-41a9-809d-fae3b3610059), Fassung vom 2024-11-26; abgerufen am 2026-11-19).
 
 Die serotonerge Modulation limbischer und präfrontaler Schaltkreise ist ein plausibler gemeinsamer Mechanismus für Zwangs-, Panik- und weitere Angststörungen. Zwangs- und Panikstörungen werden zum Spektrum der Angsterkrankungen gerechnet. Die vorliegenden Studien betreffen jedoch überwiegend Zwangsstörungen und stützen Clomipramin daher vor allem im Angstspektrum, weniger bei Angststörungen allgemein. Direktere Hinweise für Panikstörung und Agoraphobie stammen vor allem aus Netzwerk-Metaanalysen und älteren Vergleichsstudien.
 
@@ -112,6 +112,18 @@ Für die Zulassungsunterlagen liegen keine Warn- oder Gegenanzeigentexte vor; bi
 - Studien oder Auswertungen, die gezielt weitere Angststörungen (z. B. generalisierte Angststörung, soziale Phobie) untersuchen
 - Klärung der Verfügbarkeit in Deutschland, da derzeit keine gültige Zulassung verzeichnet ist
 - Sicherheitsplan, insbesondere zu kardialen Risiken und Anwendung bei Kindern, Jugendlichen und älteren Menschen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Anafranil (clomipramine hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4074b555-7635-41a9-809d-fae3b3610059) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

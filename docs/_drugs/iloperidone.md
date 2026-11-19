@@ -54,7 +54,7 @@ Iloperidon ist ein Antipsychotikum, das ursprünglich zur Behandlung psychiatris
 
 ## Warum ist diese Vorhersage nachvollziehbar?
 
-Zum Wirkmechanismus von Iloperidon liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Iloperidon als Antipsychotikum über Dopamin-D2- und Serotonin-5-HT2A-Rezeptoren wirkt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Iloperidone (inoffizielle Übersetzung): „Der Wirkmechanismus von Iloperidon bei Schizophrenie und Bipolar-I-Störung ist unbekannt. Die Wirksamkeit von Iloperidon könnte jedoch durch eine Kombination aus Antagonismus am Dopamin-Typ-2-(D 2 )- und Serotonin-Typ-2-(5-HT 2 )-Rezeptor vermittelt werden.“ Englischer Originalwortlaut: "The mechanism of action of iloperidone in schizophrenia and bipolar I disorder is unknown. However, the efficacy of iloperidone could be mediated through a combination of dopamine type 2 (D 2 ) and serotonin type 2 (5-HT 2 ) antagonism." ([DailyMed: Fanapt (iloperidone) prescribing information, Vanda Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f60b40-3fca-11de-8f56-0002a5d5c51b), Fassung vom 2026-05-06; abgerufen am 2026-11-19). Bekannt ist, dass Iloperidon als Antipsychotikum über Dopamin-D2- und Serotonin-5-HT2A-Rezeptoren wirkt.
 
 Ein pharmakologischer Zusammenhang zwischen diesem Rezeptorprofil und einer erblichen retinalen Dystrophie ist anhand der vorliegenden Daten nicht belegbar. Der sehr hohe Vorhersagewert ist ein reines Rechenergebnis des Modells und wird weder durch klinische noch durch Literaturdaten gestützt. Die Vorhersage ist daher als Hypothese zu betrachten, nicht als begründete Therapieoption.
 
@@ -93,6 +93,19 @@ Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzstufe L5). Es
 - Präklinische Belege (z. B. Zell- oder Tiermodelle der Netzhaut)
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) von BfArM bzw. EMA
 - Klärung der Darreichungswege und der Machbarkeit bei einer okulären Indikation
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Fanapt (iloperidone) prescribing information, Vanda Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f60b40-3fca-11de-8f56-0002a5d5c51b) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten nicht vor. Bekannt ist, dass Granisetron ein selektiver 5-HT3-Rezeptor-Antagonist ist. Seine Wirksamkeit gegen Erbrechen ist etabliert; mechanistisch könnte er auch bei manischer bipolarer Störung eine Rolle spielen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Granisetron (inoffizielle Übersetzung): „Granisetron ist ein selektiver 5-Hydroxytryptamin-3-(5-HT 3 )-Rezeptorantagonist mit geringer oder keiner Affinität zu anderen Serotoninrezeptoren, einschließlich 5-HT 1, 5-HT 1A, 5-HT 1B/C, 5-HT 2; zu Alpha 1-, Alpha 2- oder Beta-Adrenorezeptoren; zu Dopamin-D 2; oder zu Histamin-H 1-, Benzodiazepin-, Picrotoxin- oder Opioidrezeptoren. Serotoninrezeptoren vom Typ 5-HT 3 befinden sich peripher an den Endigungen des Nervus vagus und zentral in der Chemorezeptor-Triggerzone der Area postrema.“ Englischer Originalwortlaut: "Granisetron is a selective 5-hydroxytryptamine 3 (5-HT 3 ) receptor antagonist with little or no affinity for other serotonin receptors, including 5-HT 1, 5-HT 1A, 5-HT 1B/C, 5-HT 2; for alpha 1-, alpha 2-, or beta-adrenoreceptors; for dopamine-D 2; or for histamine-H 1; benzodiazepine; picrotoxin or opioid receptors. Serotonin receptors of the 5-HT 3 type are located peripherally on vagal nerve terminals and centrally in the chemoreceptor trigger zone of the area postrema." ([DailyMed: Sustol (granisetron) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7c7ffdd-8270-4030-bc1e-a1cb28a6de56), Fassung vom 2026-04-30; abgerufen am 2026-11-19). Bekannt ist, dass Granisetron ein selektiver 5-HT3-Rezeptor-Antagonist ist. Seine Wirksamkeit gegen Erbrechen ist etabliert; mechanistisch könnte er auch bei manischer bipolarer Störung eine Rolle spielen.
 
 Bei Manie wird eine Dysregulation des serotonergen und dopaminergen Systems diskutiert. 5-HT3-Antagonisten wie Ondansetron wurden bereits als Zusatztherapie bei psychiatrischen Erkrankungen untersucht. Der Zusammenhang zur ursprünglichen Indikation (Übelkeit/Erbrechen) ist gering; er beschränkt sich auf den gemeinsamen Zielrezeptor.
 
@@ -148,12 +148,13 @@ Die Vorhersage stützt sich ausschließlich auf das Modell (L5), ohne klinische 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche Zulassung erloschen, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „(Zulassung erloschen)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Sustol (granisetron) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7c7ffdd-8270-4030-bc1e-a1cb28a6de56) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ Dafür liegen in den für diesen Bericht zusammengestellten Daten **keine klinis
 
 ## Warum ist diese Vorhersage plausibel?
 
-Tivozanib hemmt alle drei VEGF-Rezeptor-Tyrosinkinasen (VEGFR-1/FLT1, VEGFR-2/KDR und VEGFR-3/FLT4) mit gleicher Potenz. Detaillierte Daten zum Wirkmechanismus aus DrugBank liegen derzeit nicht vor; diese Beschreibung stützt sich auf pharmakologische Zielstrukturdaten und allgemeines Wissen über den Wirkstoff.
+Tivozanib hemmt alle drei VEGF-Rezeptor-Tyrosinkinasen (VEGFR-1/FLT1, VEGFR-2/KDR und VEGFR-3/FLT4) mit gleicher Potenz. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Tivozanib (inoffizielle Übersetzung): „Tivozanib ist ein Tyrosinkinase-Inhibitor. Zelluläre In-vitro-Kinaseassays zeigten, dass Tivozanib die Phosphorylierung der Rezeptoren für den vaskulären endothelialen Wachstumsfaktor (VEGFR)-1, VEGFR-2 und VEGFR-3 hemmt und in klinisch relevanten Konzentrationen weitere Kinasen einschließlich c-kit und PDGFR β hemmt.“ Englischer Originalwortlaut: "Tivozanib is a tyrosine kinase inhibitor. In vitro cellular kinase assays demonstrated that tivozanib inhibits phosphorylation of vascular endothelial growth factor receptor (VEGFR)-1, VEGFR-2 and VEGFR-3 and inhibits other kinases including c-kit and PDGFR β at clinically relevant concentrations." ([DailyMed: Fotivda (tivozanib) prescribing information, AVEO Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de77155c-ecf2-4f15-9758-21d271449d83), Fassung vom 2026-11-11; abgerufen am 2026-11-19).
 
 Beim Nierenzellkarzinom ist die VEGF-getriebene Angiogenese ein zentraler Krankheitsmechanismus, weshalb die Hemmung dieses Signalwegs dort wirksam ist. Auch beim Zervixkarzinom spielt die VEGF-vermittelte Angiogenese eine Rolle. Die Anti-VEGF-Therapie mit Bevacizumab hat bei dieser Erkrankung einen Nutzen gezeigt. Daraus ergibt sich eine plausible, aber nur indirekte Begründung.
 
@@ -141,11 +141,12 @@ Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzstufe L5), ohne kli
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche Zulassung erloschen, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Fotivda (tivozanib) prescribing information, AVEO Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de77155c-ecf2-4f15-9758-21d271449d83) |
 
 <!-- review:end log -->
 

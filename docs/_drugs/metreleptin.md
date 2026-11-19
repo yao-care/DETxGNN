@@ -54,7 +54,7 @@ Metreleptin ist ein rekombinantes Leptin-Analogon, das ursprünglich zur Behandl
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Metreleptin ein rekombinantes Leptin-Analogon ist, das am Leptin-Rezeptor wirkt. Bei Lipodystrophie gleicht es den Leptinmangel aus und verbessert die metabolische Kontrolle, insbesondere die Insulinresistenz.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Metreleptin (inoffizielle Übersetzung): „Adipozyten speichern Lipide, um den Energiebedarf nicht-adipöser Gewebe während des Fastens zu decken. Bei Patienten mit generalisierter Lipodystrophie führt der Mangel an Fettgewebe zu Hypertriglyzeridämie und ektoper Fettablagerung in nicht-adipösen Geweben wie Leber und Muskel, was zu Stoffwechselstörungen einschließlich Insulinresistenz beiträgt. […] MYALEPT (Metreleptin) zur Injektion übt seine Funktion aus, indem es an den humanen Leptinrezeptor (ObR) bindet und diesen aktiviert; dieser gehört zur Familie der Klasse-I-Zytokinrezeptoren, die über den JAK/STAT-Signaltransduktionsweg signalisieren.“ Englischer Originalwortlaut: "Adipocytes store lipids to meet the fuel requirements of non-adipose tissues during fasting. In patients with generalized lipodystrophy, the deficiency of adipose tissue leads to hypertriglyceridemia and ectopic deposition of fat in non-adipose tissues such as liver and muscle, contributing to metabolic abnormalities including insulin resistance. […] MYALEPT (metreleptin) for injection exerts its function by binding to and activating the human leptin receptor (ObR), which belongs to the Class I cytokine family of receptors that signals through the JAK/STAT transduction pathway." ([DailyMed: Myalept (metreleptin) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3b50bbd-140b-425c-b5ec-d4682aad62bc), Fassung vom 2024-03-25; abgerufen am 2026-11-19). Bekannt ist, dass Metreleptin ein rekombinantes Leptin-Analogon ist, das am Leptin-Rezeptor wirkt. Bei Lipodystrophie gleicht es den Leptinmangel aus und verbessert die metabolische Kontrolle, insbesondere die Insulinresistenz.
 
 Für die vorhergesagte Indikation lässt sich kein plausibler mechanistischer Zusammenhang herleiten. Die Lentiginose ist eine Pigmentstörung ohne bekannte Beteiligung des Leptin-Signalwegs. Der hohe Vorhersagewert (0,9971) stammt vom TxGNN-Modell (Deep Learning) und spiegelt vermutlich Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht aber eine biologische Evidenz für Metreleptin. Das gilt auch für die übrigen Kandidaten unter den Top 10, darunter gastrokutanes Syndrom, Moynahan-Syndrom, Rhabdoidtumor, Akromelanose und Schwannom. Für alle liegen weder Studien noch Literatur vor.
 
@@ -116,11 +116,12 @@ Die Vorhersagen stützen sich ausschließlich auf das TxGNN-Modell (Evidenzstufe
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die Zulassung in eutschland erloschen, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Myalept (metreleptin) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3b50bbd-140b-425c-b5ec-d4682aad62bc) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Pub
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Ravulizumab ein lang wirksamer Anti-C5-Komplementinhibitor ist. Seine Wirksamkeit bei PNH, einer komplementvermittelten Hämolyse, ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Ravulizumab (inoffizielle Übersetzung): „Ravulizumab-cwvz ist ein Inhibitor des terminalen Komplements, der spezifisch und mit hoher Affinität an das Komplementprotein C5 bindet und dadurch dessen Spaltung in C5a (das proinflammatorische Anaphylatoxin) und C5b (die initiierende Untereinheit des Membranangriffskomplexes [MAC oder C5b-9]) hemmt und so die MAC-Bildung verhindert. ULTOMIRIS hemmt die durch das terminale Komplement vermittelte intravaskuläre Hämolyse bei Patienten mit PNH und die komplementvermittelte thrombotische Mikroangiopathie (TMA) bei Patienten mit aHUS.“ Englischer Originalwortlaut: "Ravulizumab-cwvz is a terminal complement inhibitor that specifically binds to the complement protein C5 with high affinity, thereby inhibiting its cleavage to C5a (the proinflammatory anaphylatoxin) and C5b (the initiating subunit of the membrane attack complex [MAC or C5b-9]) thus preventing MAC formation. ULTOMIRIS inhibits terminal complement-mediated intravascular hemolysis in patients with PNH and complement-mediated thrombotic microangiopathy (TMA) in patients with aHUS." ([DailyMed: Ultomiris (ravulizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9a590d9-0217-43c7-908d-e62a71279791), Fassung vom 2026-10-29; abgerufen am 2026-11-19). Bekannt ist, dass Ravulizumab ein lang wirksamer Anti-C5-Komplementinhibitor ist. Seine Wirksamkeit bei PNH, einer komplementvermittelten Hämolyse, ist belegt.
 
 Ein mechanistischer Zusammenhang mit der vorhergesagten Indikation wird durch die vorliegenden Daten **nicht gestützt**. Der G6PC3-Mangel ist ein metabolischer, durch ER-Stress getriebener Defekt des Neutrophilenüberlebens, für den keine komplementgetriebene Pathologie bekannt ist. Der hohe TxGNN-Wert (0,9996) ist eine rein graphbasierte Vorhersage.
 
@@ -121,11 +121,12 @@ Für die vorhergesagte Indikation gibt es weder klinische Studien noch Literatur
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Der Status dieser Zulassung ist „erloschen/aufgehoben“. Eine gültige Zulassung ist in den Daten nicht verzeichnet“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Ultomiris (ravulizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9a590d9-0217-43c7-908d-e62a71279791) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ Das TxGNN-Modell sagt voraus, dass es bei **weiblichem Mammakarzinom** wirksam s
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum ursprünglichen Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine Angaben vor. Der folgende Mechanismus stammt aus der Fachliteratur: Trabectedin bindet an die kleine Furche der DNA und bildet Addukte. Dadurch entstehen über die transkriptionsgekoppelte Nukleotidexzisionsreparatur DNA-Doppelstrangbrüche. Zusätzlich beeinflusst es das Tumormikromilieu, etwa durch die Verringerung tumorassoziierter Makrophagen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Trabectedin (inoffizielle Übersetzung): „Trabectedin ist ein alkylierender Wirkstoff, der in der kleinen Furche der DNA an Guaninreste bindet, Addukte bildet und zu einer Biegung der DNA-Helix in Richtung der großen Furche führt. Die Adduktbildung löst eine Kaskade von Ereignissen aus, die die nachfolgende Aktivität DNA-bindender Proteine, einschließlich einiger Transkriptionsfaktoren, sowie DNA-Reparaturwege beeinträchtigen kann, was zu einer Störung des Zellzyklus und letztlich zum Zelltod führt.“ Englischer Originalwortlaut: "Trabectedin is an alkylating drug that binds guanine residues in the minor groove of DNA, forming adducts and resulting in a bending of the DNA helix towards the major groove. Adduct formation triggers a cascade of events that can affect the subsequent activity of DNA binding proteins, including some transcription factors, and DNA repair pathways, resulting in perturbation of the cell cycle and eventual cell death." ([DailyMed: Evdi (trabectedin) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1d50f5c-4202-27f3-4798-a9708114ddea), Fassung vom 2026-06-29; abgerufen am 2026-11-19). Der folgende Mechanismus stammt aus der Fachliteratur: Trabectedin bindet an die kleine Furche der DNA und bildet Addukte. Dadurch entstehen über die transkriptionsgekoppelte Nukleotidexzisionsreparatur DNA-Doppelstrangbrüche. Zusätzlich beeinflusst es das Tumormikromilieu, etwa durch die Verringerung tumorassoziierter Makrophagen.
 
 Tumoren mit Defekten der homologen Rekombination, zum Beispiel BRCA1/2-mutiertes Mammakarzinom, dürften besonders empfindlich reagieren. Die Wirksamkeit bei Sarkom und Ovarialkarzinom ist belegt, und beide Tumorarten sowie das Mammakarzinom teilen Reparaturdefekt-Biologie, die für Trabectedin relevant ist.
 
@@ -152,12 +152,13 @@ Es gibt Phase-2-Daten beim Mammakarzinom (u. a. BRCA-mutierte und vorbehandelte 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „die in Deutschland eingetragenen Zulassungen sind erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Klären, warum die Zulassungen in Deutschland erloschen sind und ob eine Wiederzulassung oder ein anderer Zugangsweg möglich ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Evdi (trabectedin) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1d50f5c-4202-27f3-4798-a9708114ddea) |
 
 <!-- review:end log -->
 

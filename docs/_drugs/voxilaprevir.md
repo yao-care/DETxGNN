@@ -59,7 +59,7 @@ Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Hepatitis-B-Virusinfektio
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Voxilaprevir hemmt die NS3/4A-Serinprotease des Hepatitis-C-Virus und ist Teil einer Kombination, deren Wirksamkeit bei chronischer Hepatitis C belegt ist.
+Laut ChEMBL (EMBL-EBI) ist für Voxilaprevir folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Inhibitor der Serinprotease NS3/NS4A des Hepatitis-C-Virus“ Englischer Originalwortlaut: "Hepatitis C virus serine protease, NS3/NS4A inhibitor" ([ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist: Voxilaprevir hemmt die NS3/4A-Serinprotease des Hepatitis-C-Virus und ist Teil einer Kombination, deren Wirksamkeit bei chronischer Hepatitis C belegt ist.
 
 Das HBV besitzt jedoch keine NS3/4A-artige Protease. Seine Replikation hängt von einer Reverse Transkriptase/Polymerase und einem Kapsid ab. Eine direkte Zielstruktur-Überlappung ist daher nicht erkennbar. Der hohe TxGNN-Wert spiegelt vermutlich die Nähe im Netzwerk zu anderen Hepatitisviren und die gemeinsame Kategorie „Virushepatitis" wider, nicht einen realen Mechanismus.
 
@@ -123,6 +123,19 @@ Für die Hepatitis-B-Indikation gibt es keine klinischen Studien, keinen plausib
 - Präklinische In-vitro-Daten zur anti-HBV-Aktivität von Voxilaprevir
 - Daten zum Wirkmechanismus (MOA) und zur Fachinformation (Warnhinweise, Gegenanzeigen) der zuständigen Behörde
 - Klärung des Zulassungs- und Marktstatus in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

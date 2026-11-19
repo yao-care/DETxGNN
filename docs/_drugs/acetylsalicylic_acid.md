@@ -54,7 +54,7 @@ Acetylsalicylsäure ist ein Thrombozytenaggregationshemmer, der über die Hemmun
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen in den zusammengestellten Daten derzeit nicht vor. Bekannt ist, dass Acetylsalicylsäure die Thrombozytenfunktion und Entzündungsprozesse über die COX-Hemmung beeinflusst.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für aspirin and extended - release dipyridamole (Kombinationspräparat mit Acetylsalicylic Acid) (inoffizielle Übersetzung): „Acetylsalicylsäure Acetylsalicylsäure hemmt die Thrombozytenaggregation durch irreversible Hemmung der thrombozytären Cyclooxygenase und hemmt somit die Bildung von Thromboxan A 2, einem starken Induktor der Thrombozytenaggregation und Vasokonstriktion.“ Englischer Originalwortlaut: "Aspirin Aspirin inhibits platelet aggregation by irreversible inhibition of platelet cyclooxygenase and thus inhibits the generation of thromboxane A 2, a powerful inducer of platelet aggregation and vasoconstriction." ([DailyMed: Aspirin And Extended - Release Dipyridamole Capsules, 25 Mg / 200 Mg (aspirin and extended - release dipyridamole) prescribing information, Major Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6e652e1-b2e4-47ba-bed2-c5e902f8b8f1), Fassung vom 2026-08-19; abgerufen am 2026-11-19). Bekannt ist, dass Acetylsalicylsäure die Thrombozytenfunktion und Entzündungsprozesse über die COX-Hemmung beeinflusst.
 
 Für atrophoderma vermiculata, eine seltene follikuläre Verhornungsstörung mit atrophischer Narbenbildung im Wangenbereich, lässt sich daraus keine mechanistische Verbindung herleiten. Die antithrombotische und entzündungshemmende Wirkung von Acetylsalicylsäure hat für diese Erkrankung keine etablierte Relevanz.
 
@@ -97,6 +97,18 @@ Für die Vorhersage gibt es weder klinische Studien noch Literatur, und es ist k
 - Hinweise aus präklinischen oder klinischen Untersuchungen, die einen Nutzen bei dieser Erkrankung belegen
 - Plausible mechanistische Hypothese zur Rolle der COX-Hemmung bei atrophoderma vermiculata
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Aspirin And Extended - Release Dipyridamole Capsules, 25 Mg / 200 Mg (aspirin and extended - release dipyridamole) prescribing information, Major Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6e652e1-b2e4-47ba-bed2-c5e902f8b8f1) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

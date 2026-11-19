@@ -54,7 +54,7 @@ Tocilizumab ist ein Antikörper gegen den Interleukin-6-Rezeptor und wird in Deu
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu Wirkmechanismus-Details liegen in den zusammengestellten Daten keine Angaben vor. Bekannt ist, dass Tocilizumab den Interleukin-6-Rezeptor blockiert. Interleukin-6 trägt zur systemischen Entzündung und zum Knochenumbau bei, weshalb eine Blockade bei der axialen Spondyloarthritis biologisch denkbar erscheint.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Tocilizumab (inoffizielle Übersetzung): „Tocilizumab-Präparate binden sowohl an lösliche als auch an membrangebundene IL-6-Rezeptoren (sIL-6R und mIL-6R), und es wurde gezeigt, dass sie die IL-6-vermittelte Signalübertragung über diese Rezeptoren hemmen. IL-6 ist ein pleiotropes proinflammatorisches Zytokin, das von einer Vielzahl von Zelltypen gebildet wird, darunter T- und B-Zellen, Lymphozyten, Monozyten und Fibroblasten.“ Englischer Originalwortlaut: "Tocilizumab products bind to both soluble and membrane-bound IL-6 receptors (sIL-6R and mIL-6R), and have been shown to inhibit IL-6-mediated signaling through these receptors. IL-6 is a pleiotropic pro-inflammatory cytokine produced by a variety of cell types including T- and B-cells, lymphocytes, monocytes and fibroblasts." ([DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d), Fassung vom 2026-10-20; abgerufen am 2026-11-19). Bekannt ist, dass Tocilizumab den Interleukin-6-Rezeptor blockiert. Interleukin-6 trägt zur systemischen Entzündung und zum Knochenumbau bei, weshalb eine Blockade bei der axialen Spondyloarthritis biologisch denkbar erscheint.
 
 Die klinische Realität spricht jedoch dagegen: Die beiden Phase-3-Studien wurden beendet, und die ausgewerteten placebokontrollierten Studien fanden keinen Nutzen von Tocilizumab bei Spondylitis ankylosans. Als wirksame Biologika-Klassen gelten in diesem Feld TNF- und IL-17-Hemmer. Für einzelne Patienten mit sekundärer AA-Amyloidose bei Spondylitis ankylosans gibt es lediglich Fallberichte über einen Nutzen. Die hohe Modellbewertung ist deshalb als Hypothese zu verstehen, nicht als Wirksamkeitsbeleg.
 
@@ -109,6 +109,18 @@ Die einzigen direkten Studien zur Spondylitis ankylosans wurden vorzeitig beende
 - Neue, ausreichend große kontrollierte Studien, die einen Nutzen belegen
 - Daten zum Wirkmechanismus und eine Begründung, warum eine IL-6-Blockade in dieser Erkrankung wirken sollte
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

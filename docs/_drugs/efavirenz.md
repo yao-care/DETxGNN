@@ -54,7 +54,7 @@ Efavirenz ist ein nicht-nukleosidischer Reverse-Transkriptase-Hemmer (NNRTI) geg
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den vorliegenden Daten keine detaillierten Angaben vor. Bekannt ist, dass Efavirenz die Reverse Transkriptase von HIV-1 als NNRTI hemmt.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Efavirenz (inoffizielle Übersetzung): „Efavirenz ist ein antiviraler Wirkstoff. […] Efavirenz ist ein NNRTI von HIV-1. Die Aktivität von Efavirenz beruht überwiegend auf einer nicht-kompetitiven Hemmung der HIV-1-Reverse-Transkriptase. Die HIV-2-Reverse-Transkriptase und die humanen zellulären DNA-Polymerasen α, β, γ und δ werden durch Efavirenz nicht gehemmt.“ Englischer Originalwortlaut: "Efavirenz is an antiviral drug. […] Efavirenz is an NNRTI of HIV-1. Efavirenz activity is mediated predominantly by noncompetitive inhibition of HIV-1 reverse transcriptase. HIV-2 reverse transcriptase and human cellular DNA polymerases α,β, γ, and δ are not inhibited by efavirenz." ([DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358), Fassung vom 2024-06-28; abgerufen am 2026-11-19). Bekannt ist, dass Efavirenz die Reverse Transkriptase von HIV-1 als NNRTI hemmt.
 
 Die Makaken-Studien verwenden RT-SHIV, ein chimäres Simian-Immundefizienzvirus, das die Reverse Transkriptase von HIV-1 trägt und daher für Efavirenz empfindlich ist. Die Daten zeigen damit, dass der Wirkstoff im Tiermodell sein HIV-1-RT-Ziel erreicht. Die native RT des Simian-Immundefizienzvirus ist dagegen von Natur aus gegenüber NNRTIs unempfindlich; eine Wirksamkeit gegen Wildtyp-SIV ist daher nicht belegt.
 
@@ -101,6 +101,19 @@ Es gibt keine klinischen Studien, und die Publikationen betreffen RT-SHIV-Modell
 - Belege zur Wirksamkeit gegen Wildtyp-SIV (nicht nur gegen RT-SHIV)
 - Detaillierte Wirkmechanismus-Daten (MOA)
 - Auswertung der Packungsbeilage zu Warnhinweisen und Gegenanzeigen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

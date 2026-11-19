@@ -60,7 +60,7 @@ Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vo
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Cerliponase alfa ist ein rekombinantes TPP1-Enzym, das per intraventrikulärer Infusion bei der CLN2-Erkrankung gegeben wird.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Cerliponase Alfa (inoffizielle Übersetzung): „Die CLN2-Krankheit ist eine neurodegenerative Erkrankung, die durch einen Mangel des lysosomalen Enzyms Tripeptidyl-Peptidase-1 (TPP1) verursacht wird, das Polypeptide im ZNS abbaut. Für TPP1 ist keine Substratspezifität bekannt. […] Cerliponase alfa (rhTTP1), ein Proenzym, wird von Zielzellen im ZNS aufgenommen und über den kationenunabhängigen Mannose-6-Phosphat-Rezeptor (CI-MPR, auch als M6P/IGF2-Rezeptor bezeichnet) in die Lysosomen transloziert.“ Englischer Originalwortlaut: "CLN2 disease is a neurodegenerative disease caused by deficiency of the lysosomal enzyme tripeptidyl peptidase-1 (TPP1), which catabolizes polypeptides in the CNS. TPP1 has no known substrate specificity. […] Cerliponase alfa (rhTTP1), a proenzyme, is taken up by target cells in the CNS and is translocated to the lysosomes through the Cation Independent Mannose-6-Phosphate Receptor (CI-MPR, also known as M6P/IGF2 receptor)." ([DailyMed: Brineura (cerliponase alfa) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=485ab3c5-0359-4878-872f-2fe1e7df4047), Fassung vom 2024-08-05; abgerufen am 2026-11-19). Bekannt ist: Cerliponase alfa ist ein rekombinantes TPP1-Enzym, das per intraventrikulärer Infusion bei der CLN2-Erkrankung gegeben wird.
 
 Das Scheie-Syndrom (MPS I) beruht auf einem Mangel an alpha-L-Iduronidase, also einem anderen lysosomalen Enzym. Beide Erkrankungen gehören zwar zu den lysosomalen Speicherkrankheiten, TPP1 kann die Iduronidase-Aktivität jedoch weder ersetzen noch kompensieren. Der hohe TxGNN-Wert spiegelt vermutlich gemeinsame Netzwerkmerkmale lysosomaler Erkrankungen wider und keinen mechanistischen Zusammenhang auf Substratebene.
 
@@ -124,11 +124,12 @@ Die Vorhersage stützt sich ausschließlich auf das Modell (L5) ohne klinische S
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „und die deutsche Zulassung ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Brineura (cerliponase alfa) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=485ab3c5-0359-4878-872f-2fe1e7df4047) |
 
 <!-- review:end log -->
 

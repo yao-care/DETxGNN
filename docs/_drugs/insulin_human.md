@@ -58,7 +58,7 @@ Humaninsulin wurde ursprünglich zur Behandlung von Diabetes mellitus eingesetzt
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Humaninsulin liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Humaninsulin ein Hormonersatz ist, dessen Wirksamkeit bei Diabetes mellitus gesichert ist. Es senkt den Blutzucker und steuert die Insulin-Signalwege des Stoffwechsels.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Insulin Human (inoffizielle Übersetzung): „Die Regulierung des Glukosestoffwechsels ist die primäre Wirkung von Insulinen, einschließlich HUMULIN R U-500. Insuline senken den Blutzucker, indem sie die periphere Glukoseaufnahme durch Skelettmuskulatur und Fettgewebe stimulieren und die hepatische Glukoseproduktion hemmen.“ Englischer Originalwortlaut: "Regulation of glucose metabolism is the primary activity of insulins, including HUMULIN R U-500. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Humulin R U-500 Kwikpen (insulin human) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b60e8dd0-1d48-4dc9-87fd-e14675255e8c), Fassung vom 2026-07-01; abgerufen am 2026-11-19). Bekannt ist, dass Humaninsulin ein Hormonersatz ist, dessen Wirksamkeit bei Diabetes mellitus gesichert ist. Es senkt den Blutzucker und steuert die Insulin-Signalwege des Stoffwechsels.
 
 Ein möglicher Zusammenhang mit der autoimmunen Oophoritis ist spekulativ: Insulinsignale könnten die Funktion der Ovarialfollikel sowie die metabolische und immunologische Regulation beeinflussen. Autoimmune Oophoritis ist jedoch eine immunvermittelte Erkrankung der Eierstöcke, und es gibt keinen etablierten Mechanismus, der Insulin als Therapie stützt. Der hohe Vorhersagewert (0,9984) stammt vom TxGNN-Modell (Deep Learning), kann gelernte Ähnlichkeiten zwischen verwandten Erkrankungen widerspiegeln und ist kein Beleg für Wirksamkeit.
 
@@ -151,13 +151,14 @@ Für die Vorhersage gibt es weder klinische Studien noch Publikationen (Evidenzl
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Alle 6 genannten Zulassungen sind gültig, d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „(derzeit 6 gültige Zulassungen in Deutschland)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | ProZinc: „erloschen“ → gültige Zulassung für ein Tierarzneimittel | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Humulin R U-500 Kwikpen (insulin human) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b60e8dd0-1d48-4dc9-87fd-e14675255e8c) |
 
 <!-- review:end log -->
 

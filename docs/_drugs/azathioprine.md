@@ -58,7 +58,7 @@ Azathioprin ist ein Purin-Antimetabolit mit immunsuppressiver Wirkung und wurde 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben aus der Arzneistoffdatenbank vor. Aus der Literatur ist jedoch bekannt: Azathioprin wird zu 6-Thioguaninnukleotiden verstoffwechselt, die die Purinsynthese hemmen und die Apoptose von T-Zellen fördern (u. a. über die Hemmung von Rac1). Dadurch wird die Aktivierung des Immunsystems unterdrückt, die auch bei Transplantatabstoßung zentral ist.
+Laut ChEMBL (EMBL-EBI) ist für Azathioprine folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Amidophosphoribosyltransferase-Hemmer; DNA-Hemmer“ Englischer Originalwortlaut: "Amidophosphoribosyltransferase inhibitor; DNA inhibitor" ([ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542), CC BY-SA 3.0; abgerufen am 2026-11-19). Aus der Literatur ist jedoch bekannt: Azathioprin wird zu 6-Thioguaninnukleotiden verstoffwechselt, die die Purinsynthese hemmen und die Apoptose von T-Zellen fördern (u. a. über die Hemmung von Rac1). Dadurch wird die Aktivierung des Immunsystems unterdrückt, die auch bei Transplantatabstoßung zentral ist.
 
 Bei der CED und der Colitis ulcerosa spielt eine überschießende, T-Zell-getriebene Immunaktivierung der Darmschleimhaut eine zentrale Rolle. Der Wirkmechanismus passt daher gut. Die Substanz wird in der Praxis seit Jahrzehnten als steroidsparender Immunmodulator zur Remissionserhaltung eingesetzt.
 
@@ -154,11 +154,12 @@ Ergänzend bitte die Fachinformation heranziehen.
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Klären, dass in Deutschland nur eine erloschene Zulassung vorliegt, und den regulatorischen Status der Indikation CED prüfen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine registrierten klinischen Studien**, aber **19 Publ
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten nicht vor. Bekannt ist jedoch: Tolvaptan ist ein selektiver Vasopressin-V2-Rezeptor-Antagonist. Bei polyzystischen Nierenerkrankungen treibt ein erhöhter cAMP-Spiegel die Flüssigkeitssekretion in die Zysten und die Proliferation des Epithels an. Die Blockade des V2-Rezeptors senkt den cAMP-Spiegel in den Zellen des Sammelrohrs.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Tolvaptan (inoffizielle Übersetzung): „Tolvaptan ist ein selektiver Vasopressin-V 2 -Rezeptor-Antagonist mit einer Affinität zum V 2 -Rezeptor, die das 1,8-Fache derjenigen des nativen Arginin-Vasopressins (AVP) beträgt. Die Affinität von Tolvaptan zum V 2 -Rezeptor ist 29-mal so hoch wie die zum V 1a -Rezeptor.“ Englischer Originalwortlaut: "Tolvaptan is a selective vasopressin V 2 -receptor antagonist with an affinity for the V 2 -receptor that is 1.8 times that of native arginine vasopressin (AVP). Tolvaptan affinity for the V 2 -receptor is 29 times that for the V 1a -receptor." ([DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4), Fassung vom 2026-09-30; abgerufen am 2026-11-19). Bekannt ist jedoch: Tolvaptan ist ein selektiver Vasopressin-V2-Rezeptor-Antagonist. Bei polyzystischen Nierenerkrankungen treibt ein erhöhter cAMP-Spiegel die Flüssigkeitssekretion in die Zysten und die Proliferation des Epithels an. Die Blockade des V2-Rezeptors senkt den cAMP-Spiegel in den Zellen des Sammelrohrs.
 
 Tolvaptan ist bereits für ADPKD indiziert. Die polyzystische Nierenerkrankung Typ 3 (GANAB-assoziiert) weist denselben zystischen Phänotyp und einen ähnlichen cAMP-getriebenen Signalweg auf. Die Evidenz für diese Indikation ist daher eine Extrapolation aus der ADPKD-Klasse und kein direkter Nachweis.
 
@@ -150,12 +150,13 @@ Die übrigen neun Vorhersagen (u. a. renal-hepatisch-pankreatische Dysplasie, ka
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Prüfung der regionalen Verfügbarkeit, da in Deutschland nur erloschene Zulassungen vorliegen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „und die Hepatotoxizität sowie der erloschene Zulassungsstatus erfordern Vorsicht“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Fidaxomicin ist ein schmalspektrales makrozyklisches Antibiotikum, das die bakterielle RNA-Polymerase hemmt. Seine Wirkung bei Clostridien-Infektionen ist belegt. Es zeigt zudem eine gewisse In-vitro-Aktivität gegen *Staphylococcus aureus*, den Erreger, dessen Exfoliativtoxine das SSSS auslösen.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Fidaxomicin (inoffizielle Übersetzung): „Fidaxomicin ist ein antibakterieller Wirkstoff. […] Fidaxomicin ist ein Fermentationsprodukt, das aus dem Actinomyceten Dactylosporangium aurantiacum gewonnen wird. Fidaxomicin ist ein antibakterieller Wirkstoff aus der Gruppe der Makrolide, der die RNA-Synthese durch Bindung an RNA-Polymerasen hemmt. Fidaxomicin wirkt in vitro bakterizid gegen C. difficile und zeigt gegenüber C. difficile einen postantibiotischen Effekt von 6–10 Stunden.“ Englischer Originalwortlaut: "Fidaxomicin is an antibacterial drug. […] Fidaxomicin is a fermentation product obtained from the Actinomycete Dactylosporangium aurantiacum. Fidaxomicin is a macrolide antibacterial drug that inhibits RNA synthesis by binding to RNA polymerases. Fidaxomicin is bactericidal against C. difficile in vitro, and demonstrates a post-antibiotic effect vs. C. difficile of 6-10 hrs." ([DailyMed: Dificid (fidaxomicin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd966338-c820-4270-b704-09ef75fa3ceb), Fassung vom 2024-10-16; abgerufen am 2026-11-19). Fidaxomicin ist ein schmalspektrales makrozyklisches Antibiotikum, das die bakterielle RNA-Polymerase hemmt. Seine Wirkung bei Clostridien-Infektionen ist belegt. Es zeigt zudem eine gewisse In-vitro-Aktivität gegen *Staphylococcus aureus*, den Erreger, dessen Exfoliativtoxine das SSSS auslösen.
 
 Der Zusammenhang ist jedoch schwach. SSSS ist eine systemische, toxinvermittelte Erkrankung. Fidaxomicin wird nach oraler Gabe kaum resorbiert und erreicht daher nur minimale systemische Konzentrationen. Es ist zudem nicht in der Lage, bereits zirkulierende Toxine zu neutralisieren. Die Vorhersage ist deshalb mechanistisch nur eingeschränkt nachvollziehbar und durch keine klinischen Daten gestützt.
 
@@ -147,12 +147,13 @@ Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzlevel L5) ohne Stud
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Hinweis: Die Zulassung ist als erloschen/aufgehoben geführt (Inhaber: Tillotts Pharma GmbH)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Zudem ist die deutsche Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Dificid (fidaxomicin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd966338-c820-4270-b704-09ef75fa3ceb) |
 
 <!-- review:end log -->
 

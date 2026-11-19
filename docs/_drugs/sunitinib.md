@@ -60,7 +60,7 @@ Dafür liegen derzeit **2 klinische Phase-2-Studien** und **9 Publikationen** vo
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für diesen Wirkstoff liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Nach den vorhandenen Informationen hemmt Sunitinib die Rezeptortyrosinkinasen VEGFR, PDGFR und KIT. Dadurch kann es die Angiogenese und Wachstumssignale in Weichteilsarkomen beeinflussen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Sunitinib (inoffizielle Übersetzung): „Sunitinib ist ein kleines Molekül, das mehrere Rezeptor-Tyrosinkinasen (RTKs) hemmt, von denen einige an Tumorwachstum, pathologischer Angiogenese und metastatischer Progression von Krebs beteiligt sind.“ Englischer Originalwortlaut: "Sunitinib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs), some of which are implicated in tumor growth, pathologic angiogenesis, and metastatic progression of cancer." ([DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c), Fassung vom 2026-02-20; abgerufen am 2026-11-19). Nach den vorhandenen Informationen hemmt Sunitinib die Rezeptortyrosinkinasen VEGFR, PDGFR und KIT. Dadurch kann es die Angiogenese und Wachstumssignale in Weichteilsarkomen beeinflussen.
 
 Seine Wirksamkeit bei GIST und Nierenzellkarzinom, beides Tumoren mit starker Abhängigkeit von diesen Signalwegen, ist belegt. Mechanistisch ist eine Übertragung auf Weichteilsarkome einschließlich Liposarkom daher denkbar. Die Evidenz zeigt jedoch, dass die Wirkung bei Liposarkom eher begrenzt und histologieabhängig ist. Es handelt sich daher um eine Forschungsfrage und nicht um eine etablierte Therapieoption.
 
@@ -133,6 +133,19 @@ Die zwei abgeschlossenen Phase-2-Studien und die publizierte Phase-2-Studie lief
 - Liposarkomspezifische Auswertung der vorhandenen Phase-2-Studien (Ansprechraten, progressionsfreies Überleben nach Subtyp)
 - Prüfung der Wirksamkeit im Vergleich zu etablierten Optionen wie Trabectedin bei bestimmten Liposarkom-Subtypen
 - Bewertung des Nutzen-Risiko-Verhältnisses unter Berücksichtigung kardialer und hepatischer Risiken
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

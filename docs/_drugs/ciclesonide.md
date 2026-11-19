@@ -54,7 +54,7 @@ Ciclesonid ist ein inhalatives Kortikosteroid, das als Prodrug zum aktiven Metab
 
 ## Warum ist diese Vorhersage plausibel?
 
-Ciclesonid wird durch Esterasen zu Des-Ciclesonid aktiviert, einem Agonisten des Glukokortikoid-Rezeptors mit entzündungshemmender Wirkung. Detaillierte Angaben zum Wirkmechanismus liegen in den zusammengestellten Daten nicht vor; die Beschreibung stützt sich auf das bekannte Wirkprinzip der Substanzklasse.
+Ciclesonid wird durch Esterasen zu Des-Ciclesonid aktiviert, einem Agonisten des Glukokortikoid-Rezeptors mit entzündungshemmender Wirkung. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Ciclesonide (inoffizielle Übersetzung): „Ciclesonid ist ein Prodrug, das nach oraler Inhalation enzymatisch zu einem pharmakologisch aktiven Metaboliten, C21-Desisobutyryl-Ciclesonid (Des-Ciclesonid oder RM1), hydrolysiert wird. Des-Ciclesonid besitzt eine antiinflammatorische Wirkung und eine Affinität zu Glukokortikoidrezeptoren, die 120-mal größer ist als die der Ausgangssubstanz und 12-mal größer als die von Dexamethason.“ Englischer Originalwortlaut: "Ciclesonide is a prodrug that is enzymatically hydrolyzed to a pharmacologically active metabolite, C21-desisobutyryl-ciclesonide (des-ciclesonide or RM1) following oral inhalation. Des-ciclesonide has anti-inflammatory activity with affinity for glucocorticoid receptors that is 120 times greater than the parent compound and 12 times greater than dexamethasone." ([DailyMed: Alvesco (ciclesonide) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6112fb-78ef-43cf-8ae3-36370eb45468), Fassung vom 2025-02-28; abgerufen am 2026-11-19).
 
 Das atopische Ekzem ist eine chronisch-entzündliche Hauterkrankung. Kortikosteroide (topisch oder systemisch) sind für diese Erkrankung eine etablierte Wirkstoffklasse. Der Zusammenhang ist daher auf Klassenebene plausibel.
 
@@ -92,6 +92,19 @@ Die Vorhersage für atopisches Ekzem beruht ausschließlich auf einem Modellwert
 - Klärung der Darreichungsform und Applikationsroute für eine Anwendung an der Haut
 - Auswertung der Packungsbeilage (Warnhinweise und Gegenanzeigen) zur Sicherheitsbewertung
 - Bewertung der Wechselwirkungen, insbesondere mit Cladribin und starken CYP3A4-Inhibitoren
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Alvesco (ciclesonide) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6112fb-78ef-43cf-8ae3-36370eb45468) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

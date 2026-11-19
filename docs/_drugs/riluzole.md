@@ -54,7 +54,7 @@ Riluzol ist ein Wirkstoff, der bereits in Deutschland zugelassen ist. Das TxGNN-
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Riluzol liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Riluzol glutamatmodulierend wirkt. Spekulativ ließe sich daraus ein Bezug zur Übererregbarkeit der Hirnrinde bei kortikalen Malformationen ableiten.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Riluzole (inoffizielle Übersetzung): „Der Mechanismus, über den Riluzol seine therapeutischen Wirkungen bei Patienten mit ALS entfaltet, ist unbekannt.“ Englischer Originalwortlaut: "The mechanism by which riluzole exerts its therapeutic effects in patients with ALS is unknown." ([DailyMed: Tiglutik (riluzole) prescribing information, EDW PHARMA, INC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=75d68f19-4208-109e-e053-2991aa0ac857), Fassung vom 2026-07-27; abgerufen am 2026-11-19). Bekannt ist, dass Riluzol glutamatmodulierend wirkt. Spekulativ ließe sich daraus ein Bezug zur Übererregbarkeit der Hirnrinde bei kortikalen Malformationen ableiten.
 
 Die Daten stützen diesen Zusammenhang jedoch nicht. Es gibt weder Studien noch Literatur, die Riluzol bei dieser Fehlbildung der Hirnrinde untersuchen. Der sehr hohe Modellwert von 0,9999 ist eine rein rechnerische Vorhersage und kein Wirksamkeitsnachweis. Die Plausibilität ist daher als gering belegt einzustufen.
 
@@ -94,6 +94,18 @@ Die Vorhersage beruht allein auf dem Modellwert (Evidenzstufe L5). Es gibt weder
 - Recherche und Auswertung von Literatur sowie Studienregistern zu dieser Erkrankung
 - Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM/EMA)
 - Detaillierte Wirkmechanismus-Daten aus DrugBank
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Tiglutik (riluzole) prescribing information, EDW PHARMA, INC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=75d68f19-4208-109e-e053-2991aa0ac857) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

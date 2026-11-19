@@ -58,7 +58,7 @@ Nevirapin ist ein nicht-nukleosidischer Reverse-Transkriptase-Hemmer (NNRTI), de
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für diesen Wirkstoff sind derzeit keine detaillierten Daten zum Wirkmechanismus verfügbar. Bekannt ist, dass Nevirapin ein NNRTI ist, der die Reverse Transkriptase von HIV-1 hemmt. Seine Wirksamkeit bei HIV ist belegt, und mechanistisch könnte er auf verwandte Lentiviren übertragbar sein.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Nevirapine (inoffizielle Übersetzung): „Nevirapin ist ein antiretroviraler Wirkstoff. […] Nevirapin ist ein nicht-nukleosidischer Reverse-Transkriptase-Inhibitor (NNRTI) von HIV-1. Nevirapin bindet direkt an die Reverse Transkriptase (RT) und blockiert die RNA-abhängigen und DNA-abhängigen DNA-Polymerase-Aktivitäten, indem es eine Störung des katalytischen Zentrums des Enzyms verursacht.“ Englischer Originalwortlaut: "Nevirapine is an antiretroviral drug. […] Nevirapine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) of HIV-1. Nevirapine binds directly to reverse transcriptase (RT) and blocks the RNA-dependent and DNA-dependent DNA polymerase activities by causing a disruption of the enzyme's catalytic site." ([DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15), Fassung vom 2026-10-08; abgerufen am 2026-11-19). Bekannt ist, dass Nevirapin ein NNRTI ist, der die Reverse Transkriptase von HIV-1 hemmt. Seine Wirksamkeit bei HIV ist belegt, und mechanistisch könnte er auf verwandte Lentiviren übertragbar sein.
 
 Das Felines Immundefizienz-Virus (FIV) ist ein Lentivirus mit einer verwandten Reverse Transkriptase. Das dürfte den hohen TxGNN-Wert erklären. Allerdings zeigen NNRTIs gegen FIV im Allgemeinen nur geringe Aktivität, da sich die NNRTI-Bindungstasche strukturell unterscheidet. Die einzige verfügbare Publikation (2023) ist eine biochemische und strukturelle Vergleichsstudie und belegt keine Wirksamkeit von Nevirapin bei Katzen.
 
@@ -125,11 +125,12 @@ Die Vorhersage beruht allein auf einem Modellwert und einer einzigen präklinisc
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „und die Zulassung in Deutschland ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15) |
 
 <!-- review:end log -->
 

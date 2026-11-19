@@ -58,7 +58,7 @@ Relebactam ist ein Beta-Lactamase-Inhibitor, der ursprünglich zur Behandlung gr
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Zum Wirkmechanismus von Relebactam liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Relebactam hemmt Serin-Beta-Lactamasen der Klassen A und C und wird mit Imipenem/Cilastatin kombiniert, um die Carbapenem-Aktivität gegen gramnegative Bakterien wiederherzustellen.
+Laut ChEMBL (EMBL-EBI) ist für Relebactam folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Beta-Lactamase-SHV-1-Inhibitor; Inhibitor der bakteriellen Beta-Lactamase TEM; Beta-Lactamase-Inhibitor; Inhibitor der Carbapenem-hydrolysierenden Beta-Lactamase KPC“ Englischer Originalwortlaut: "Beta-lactamase SHV-1 inhibitor; Bacterial beta-lactamase TEM inhibitor; Beta-lactamase inhibitor; Carbapenem-hydrolyzing beta-lactamase KPC inhibitor" ([ChEMBL CHEMBL3301605 (relebactam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301605), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist: Relebactam hemmt Serin-Beta-Lactamasen der Klassen A und C und wird mit Imipenem/Cilastatin kombiniert, um die Carbapenem-Aktivität gegen gramnegative Bakterien wiederherzustellen.
 
 Ein mechanistischer Zusammenhang zwischen dieser Wirkung und der Regulation der Amylase, der Pankreasfunktion oder der Speicheldrüsenphysiologie konnte nicht hergestellt werden. Hyperamylasämie ist eher ein Laborbefund oder ein Signal für unerwünschte Wirkungen als eine behandelbare Indikation für ein antibakterielles Begleitmittel. Der hohe TxGNN-Wert ist eine rein graphbasierte Vorhersage.
 
@@ -87,7 +87,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/004808 | Recarbrio | – | Gramnegative bakterielle Infektionen |
 
-
 ---
 
 ## Sicherheitsaspekte
@@ -108,6 +107,19 @@ Für alle drei vorhergesagten Indikationen gibt es weder klinische Studien noch 
 - Packungsbeilage mit Warnhinweisen und Gegenanzeigen beschaffen und auswerten (Voraussetzung für die Sicherheitsprüfung)
 - Prüfen, ob die Vorhersage durch ein unspezifisches Modellartefakt erklärt wird, und gegebenenfalls Präklinik- oder Mechanismusbelege suchen
 - Klären, ob Hyperamylasämie eher als Nebenwirkungssignal denn als Therapieziel einzuordnen ist
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL3301605 (relebactam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301605) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

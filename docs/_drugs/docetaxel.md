@@ -54,7 +54,7 @@ Docetaxel ist ein zytostatisches Taxan, das in Deutschland als Krebsmedikament z
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen für diesen Bericht nicht vor. Docetaxel gehört zu den Taxanen und wirkt antimitotisch über die Mikrotubuli. Dadurch kann es sich schnell teilende Tumorzellen in ihrer Teilung hemmen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Docetaxel (inoffizielle Übersetzung): „Docetaxel ist ein antineoplastischer Wirkstoff, der durch Störung des mikrotubulären Netzwerks in Zellen wirkt, das für mitotische und interphasische Zellfunktionen essenziell ist. Docetaxel bindet an freies Tubulin und fördert den Zusammenbau von Tubulin zu stabilen Mikrotubuli, während es gleichzeitig deren Abbau hemmt.“ Englischer Originalwortlaut: "Docetaxel is an antineoplastic agent that acts by disrupting the microtubular network in cells that is essential for mitotic and interphase cellular functions. Docetaxel binds to free tubulin and promotes the assembly of tubulin into stable microtubules while simultaneously inhibiting their disassembly." ([DailyMed: Beizray (docetaxel) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8fb7d980-d6c7-468b-a9f0-adff16101a4b), Fassung vom 2025-12-17; abgerufen am 2026-11-19). Docetaxel gehört zu den Taxanen und wirkt antimitotisch über die Mikrotubuli. Dadurch kann es sich schnell teilende Tumorzellen in ihrer Teilung hemmen.
 
 Das Ewing-Sarkom ist ein aggressiver, schnell proliferierender Knochen- und Weichteiltumor, der vor allem Kinder, Jugendliche und junge Erwachsene betrifft. Ein antimitotischer Wirkstoff ist deshalb mechanistisch grundsätzlich denkbar. Präklinisch zeigte die sequenzielle Gabe von Gemcitabin gefolgt von Docetaxel synergistische Zytotoxizität bei Sarkomen (PMID 15117993). In Phase-2-Studien bei rezidiviertem oder refraktärem Ewing-Sarkom und verwandten pädiatrischen Sarkomen (Gemcitabin/Docetaxel, Docetaxel/Irinotecan) wurde Aktivität beobachtet. Die Ansprechraten sind jedoch bescheiden, die Studien klein und uneinheitlich.
 
@@ -119,6 +119,19 @@ Für das Ewing-Sarkom gibt es mehrere kleine Phase-2-Studien mit Docetaxel-Kombi
 - Mechanistische Daten zum Wirkmechanismus
 - Vergleichende oder randomisierte Daten, die den Beitrag von Docetaxel im Kombinationsregime isolieren
 - Prüfung der Ansprechraten und Verträglichkeit in der Zielpopulation (vor allem Kinder und junge Erwachsene) anhand der vorliegenden Phase-2-Publikationen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Beizray (docetaxel) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8fb7d980-d6c7-468b-a9f0-adff16101a4b) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

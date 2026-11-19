@@ -58,7 +58,7 @@ Selinexor wurde ursprünglich zur Behandlung des Multiplen Myeloms eingesetzt. D
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für diesen Bericht liegen derzeit keine detaillierten Daten zum Wirkmechanismus vor. Selinexor ist allgemein als Inhibitor von XPO1 (Exportin-1) bekannt, und seine Wirksamkeit beim Multiplen Myelom ist belegt. Mechanistisch könnte eine XPO1-Hemmung die Knochenumbauprozesse beeinflussen, etwa die Signalwege von Osteoklasten und Osteoblasten oder die myelombedingte Knochenerkrankung.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Selinexor (inoffizielle Übersetzung): „In nichtklinischen Studien hemmt Selinexor reversibel den Kernexport von Tumorsuppressorproteinen (TSPs), Wachstumsregulatoren und mRNAs onkogener Proteine, indem es Exportin 1 (XPO1) blockiert. Die Hemmung von XPO1 durch Selinexor führt zur Akkumulation von TSPs im Zellkern und zur Verringerung mehrerer Onkoproteine wie c-myc und Cyclin D1, zum Zellzyklusarrest sowie zur Apoptose von Krebszellen.“ Englischer Originalwortlaut: "In nonclinical studies, selinexor reversibly inhibits nuclear export of tumor suppressor proteins (TSPs), growth regulators, and mRNAs of oncogenic proteins by blocking exportin 1 (XPO1). XPO1 inhibition by selinexor leads to accumulation of TSPs in the nucleus and reductions in several oncoproteins, such as c-myc and cyclin D1, cell cycle arrest, and apoptosis of cancer cells." ([DailyMed: Xpovio (selinexor) prescribing information, Karyopharm Therapeutics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8), Fassung vom 2026-05-12; abgerufen am 2026-11-19). Selinexor ist allgemein als Inhibitor von XPO1 (Exportin-1) bekannt, und seine Wirksamkeit beim Multiplen Myelom ist belegt. Mechanistisch könnte eine XPO1-Hemmung die Knochenumbauprozesse beeinflussen, etwa die Signalwege von Osteoklasten und Osteoblasten oder die myelombedingte Knochenerkrankung.
 
 Dieser Zusammenhang ist **spekulativ** und durch die vorliegenden Daten nicht belegt. Vor einer klinischen Betrachtung wäre eine präklinische Validierung nötig, zum Beispiel in Knochenzell- oder Tiermodellen. Zudem könnten bekannte Nebenwirkungen von Selinexor (Übelkeit, Appetitlosigkeit, Gewichtsverlust, Müdigkeit) die Knochengesundheit beeinträchtigen. Die Sicherheit in einer Osteoporose-Population ist daher nicht etabliert.
 
@@ -137,11 +137,12 @@ Die Vorhersage beruht allein auf einem hohen TxGNN-Score (Evidenzniveau L5), ohn
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die Zulassung in eutschland erloschen, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Xpovio (selinexor) prescribing information, Karyopharm Therapeutics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8) |
 
 <!-- review:end log -->
 

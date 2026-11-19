@@ -60,7 +60,7 @@ Für diese Richtung liegen derzeit **keine klinischen Studien** und **keine Publ
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist, dass Icosapent-Ethyl ein gereinigter EPA-Ethylester ist, der Triglyzeride senkt. Seine Wirksamkeit bei Dyslipidämien ist die Grundlage der bisherigen Zulassung.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Icosapent Ethyl (inoffizielle Übersetzung): „Studien deuten darauf hin, dass EPA die hepatische Synthese und/oder Sekretion von Triglyceriden in Lipoproteinen sehr geringer Dichte (VLDL-TG) verringert und die TG-Clearance aus zirkulierenden VLDL-Partikeln erhöht. Mögliche Wirkmechanismen umfassen eine gesteigerte β-Oxidation; eine Hemmung der Acyl-CoA:1,2-Diacylglycerol-Acyltransferase (DGAT); eine verminderte Lipogenese in der Leber; sowie eine erhöhte Aktivität der Lipoproteinlipase im Plasma.“ Englischer Originalwortlaut: "Studies suggest that EPA reduces hepatic very low-density lipoprotein triglycerides (VLDL-TG) synthesis and/or secretion and enhances TG clearance from circulating VLDL particles. Potential mechanisms of action include increased β-oxidation; inhibition of acyl-CoA:1,2-diacylglycerol acyltransferase (DGAT); decreased lipogenesis in the liver; and increased plasma lipoprotein lipase activity." ([DailyMed: Icosapent (icosapent ethyl) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cc28828d-beab-45cc-a3b6-151c5fee3924), Fassung vom 2026-08-10; abgerufen am 2026-11-19). Bekannt ist, dass Icosapent-Ethyl ein gereinigter EPA-Ethylester ist, der Triglyzeride senkt. Seine Wirksamkeit bei Dyslipidämien ist die Grundlage der bisherigen Zulassung.
 
 Mechanistisch ließe sich spekulieren, dass die entzündungshemmenden, antioxidativen und endothelschützenden Eigenschaften von EPA mit Merkmalen von Hämoglobinopathien, etwa der Sichelzellkrankheit, zusammenhängen könnten. Dazu gehören chronische Entzündung, oxidativer Stress, Vasookklusion und endotheliale Dysfunktion.
 
@@ -120,11 +120,12 @@ Die Vorhersage stützt sich ausschließlich auf einen hohen TxGNN-Wert (Evidenzg
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Hinweis: Diese Zulassung ist aufgehoben (Status: cancelled)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Icosapent (icosapent ethyl) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cc28828d-beab-45cc-a3b6-151c5fee3924) |
 
 <!-- review:end log -->
 

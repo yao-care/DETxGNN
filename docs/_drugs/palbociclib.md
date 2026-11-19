@@ -58,7 +58,7 @@ Die Evidenz ist begrenzt: **0 klinische Studien** und **4 Publikationen** (präk
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für die für diesen Bericht zusammengestellten Daten liegen keine detaillierten Angaben zum Wirkmechanismus vor. Bekannt ist, dass Palbociclib ein dualer CDK4/6-Kinase-Inhibitor ist, der den Zellzyklus hemmt. Seine Wirksamkeit bei Brustkrebs ist belegt, und mechanistisch könnte er auch bei Erkrankungen mit übermäßiger Zellproliferation anwendbar sein.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Palbociclib (inoffizielle Übersetzung): „Palbociclib ist ein Inhibitor der cyclinabhängigen Kinasen (CDK) 4 und 6. Cyclin D1 und CDK4/6 liegen nachgeschaltet von Signalwegen, die zur Zellproliferation führen. In vitro reduzierte Palbociclib die Zellproliferation von Östrogenrezeptor (ER)-positiven Brustkrebszelllinien, indem es den Übergang der Zelle von der G1- in die S-Phase des Zellzyklus blockierte.“ Englischer Originalwortlaut: "Palbociclib is an inhibitor of cyclin-dependent kinases (CDK) 4 and 6. Cyclin D1 and CDK4/6 are downstream of signaling pathways which lead to cellular proliferation. In vitro, palbociclib reduced cellular proliferation of estrogen receptor (ER)-positive breast cancer cell lines by blocking progression of the cell from G1 into S phase of the cell cycle." ([DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792), Fassung vom 2026-07-06; abgerufen am 2026-11-19). Bekannt ist, dass Palbociclib ein dualer CDK4/6-Kinase-Inhibitor ist, der den Zellzyklus hemmt. Seine Wirksamkeit bei Brustkrebs ist belegt, und mechanistisch könnte er auch bei Erkrankungen mit übermäßiger Zellproliferation anwendbar sein.
 
 Bei rheumatoider Arthritis spielt die Proliferation synovialer Fibroblasten eine zentrale Rolle. Präklinische Arbeiten zeigen eine CDK6-abhängige Synovialhyperplasie bei Mäusen mit Arthritis sowie eine TNF-α-induzierte Proliferation synovialer Fibroblasten (PMID 39940918). Zudem verstärkte eine Zellzyklusregulation in Kombination mit Zytokinblockade die antiarthritische Wirkung im Tiermodell, ohne die Immunabwehr zusätzlich zu unterdrücken (PMID 25165034). Ein Fallbericht beschreibt eine Besserung der rheumatoiden Arthritis bei einer Brustkrebspatientin unter Palbociclib (PMID 33587021).
 
@@ -142,12 +142,13 @@ Die Evidenz für rheumatoide Arthritis beschränkt sich auf präklinische Daten 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Die einzige Zulassung ist als erloschen geführt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Zudem ist die Zulassung in eutschland erloschen, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792) |
 
 <!-- review:end log -->
 

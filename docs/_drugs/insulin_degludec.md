@@ -60,7 +60,7 @@ wobei derzeit **40 klinische Studien** und **19 Publikationen** diese Richtung s
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für die für diesen Bericht zusammengestellten Daten liegen keine detaillierten Angaben zum Wirkmechanismus vor. Nach bekanntem Wissen ist Insulin degludec ein ultralang wirksames Basalinsulin-Analogon, das an den Insulinrezeptor bindet und den Blutzucker senkt. Seine Wirksamkeit bei Diabetes mellitus ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Insulin Degludec (inoffizielle Übersetzung): „Die primäre Wirkung von Insulin, einschließlich TRESIBA, ist die Regulation des Glucosestoffwechsels. Insulin und seine Analoga senken den Blutzucker, indem sie die periphere Glucoseaufnahme, insbesondere durch Skelettmuskulatur und Fettgewebe, stimulieren und die hepatische Glucoseproduktion hemmen.“ Englischer Originalwortlaut: "The primary activity of insulin, including TRESIBA, is regulation of glucose metabolism. Insulin and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17), Fassung vom 2024-02-22; abgerufen am 2026-11-19). Nach bekanntem Wissen ist Insulin degludec ein ultralang wirksames Basalinsulin-Analogon, das an den Insulinrezeptor bindet und den Blutzucker senkt. Seine Wirksamkeit bei Diabetes mellitus ist belegt.
 
 Beim Typ-1-Diabetes besteht ein absoluter Insulinmangel, daher ist ein basaler Insulinersatz mechanistisch unmittelbar sinnvoll. Es handelt sich dabei weniger um ein echtes Repurposing als um eine Erweiterung innerhalb derselben Krankheitsklasse, da die ursprünglichen Indikationen bereits Diabetes mellitus umfassen.
 
@@ -167,13 +167,14 @@ Mehrere abgeschlossene Phase-3-Studien (u. a. SWITCH 1) und hochrangige RCTs sow
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Zu beachten ist, dass in Deutschland nur erloschene Zulassungen vorliegen; vor einer Empfehlung sind daher regulatorische und Verfügbarkeits“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-10-31 | Entfernt: „Allerdings handelt es sich um eine Erweiterung innerhalb der Diabetes-Klasse, und in Deutschland bestehen nur erloschene Zulassungen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „(erloschene Zulassungen)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17) |
 
 <!-- review:end log -->
 

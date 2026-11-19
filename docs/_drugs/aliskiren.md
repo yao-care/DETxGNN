@@ -60,7 +60,7 @@ Die Evidenz ist rein präklinisch: Für diese Erkrankung liegen **keine klinisch
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen in den zusammengestellten Daten nicht vor. Bekannt ist, dass Aliskiren als direkter Renin-Inhibitor den ersten, geschwindigkeitsbestimmenden Schritt des RAS hemmt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Aliskiren (inoffizielle Übersetzung): „Renin wird von der Niere als Reaktion auf eine Abnahme des Blutvolumens und der renalen Perfusion sezerniert. Renin spaltet Angiotensinogen unter Bildung des inaktiven Decapeptids Angiotensin I (Ang I). Ang I wird über ACE- und Nicht-ACE-Wege in das aktive Octapeptid Angiotensin II (Ang II) umgewandelt.“ Englischer Originalwortlaut: "Renin is secreted by the kidney in response to decreases in blood volume and renal perfusion. Renin cleaves angiotensinogen to form the inactive decapeptide angiotensin I (Ang I). Ang I is converted to the active octapeptide angiotensin II (Ang II) by ACE and non-ACE pathways." ([DailyMed: aliskiren prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3fd2503-25ef-4660-a29a-f62c491e28fb), Fassung vom 2022-12-30; abgerufen am 2026-11-19). Bekannt ist, dass Aliskiren als direkter Renin-Inhibitor den ersten, geschwindigkeitsbestimmenden Schritt des RAS hemmt.
 
 Chronische intermittierende Hypoxie aktiviert das RAS, erhöht das zirkulierende Angiotensin II und fördert Sympathikusaktivierung sowie vaskuläres und atriales Remodeling. In einem Rattenmodell mit chronischer intermittierender Hypoxie milderte Aliskiren das hypoxiebedingte atriale Remodeling. Damit ist ein biologischer Zusammenhang denkbar.
 
@@ -118,6 +118,19 @@ Für die pulmonale Hypertonie infolge von Lungenerkrankung und/oder Hypoxie gibt
 - Detaillierte Daten zum Wirkmechanismus (MOA)
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) aus der BfArM-Quelle
 - Sicherheitsbewertung, insbesondere zu Hypotonie, Hyperkaliämie und Nierenfunktion
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: aliskiren prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3fd2503-25ef-4660-a29a-f62c491e28fb) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

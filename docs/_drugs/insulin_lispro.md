@@ -60,7 +60,7 @@ hierfür liegen jedoch **keine klinischen Studien** und **keine Publikationen** 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen für diesen Bericht derzeit nicht vor. Bekannt ist: Insulin lispro ist ein schnell wirksames Insulinanalogon, das am Insulinrezeptor wirkt und den Glukosestoffwechsel reguliert. Seine Wirksamkeit bei Diabetes mellitus ist gut belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Insulin Lispro (inoffizielle Übersetzung): „Die Regulierung des Glukosestoffwechsels ist die primäre Wirkung von Insulinen und Insulinanaloga, einschließlich Insulin-lispro-Produkten. Insuline senken den Blutzucker, indem sie die periphere Glukoseaufnahme durch Skelettmuskulatur und Fettgewebe stimulieren und die hepatische Glukoseproduktion hemmen.“ Englischer Originalwortlaut: "Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin lispro products. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Admelog (insulin lispro) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0), Fassung vom 2026-09-03; abgerufen am 2026-11-19). Bekannt ist: Insulin lispro ist ein schnell wirksames Insulinanalogon, das am Insulinrezeptor wirkt und den Glukosestoffwechsel reguliert. Seine Wirksamkeit bei Diabetes mellitus ist gut belegt.
 
 Ein direkter mechanistischer Zusammenhang mit autoimmuner Oophoritis ist nicht erkennbar. Denkbar ist allenfalls eine indirekte Verbindung über die Überlappung autoimmuner polyendokriner Erkrankungen (z. B. gemeinsam mit Typ-1-Diabetes). Diese Verbindung ist spekulativ und stützt Insulin nicht als Therapie der ovariellen Autoimmunität. Der hohe TxGNN-Wert ist eine rein rechnerische Vorhersage.
 
@@ -150,11 +150,12 @@ Für die vorhergesagte Indikation autoimmune Oophoritis gibt es weder klinische 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem sind derzeit 4 von 5 Zulassungen gültig, d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Admelog (insulin lispro) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0) |
 
 <!-- review:end log -->
 

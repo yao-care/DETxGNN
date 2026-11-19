@@ -54,7 +54,7 @@ Hydroxocobalamin ist eine Form von Vitamin B12 und wird als Antidot bei Vergiftu
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Hydroxocobalamin Cyanid bindet und Stickstoffmonoxid abfangen kann, wodurch der Blutdruck steigen kann.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Hydroxocobalamin (inoffizielle Übersetzung): „Cyanid ist ein äußerst toxisches Gift. Ohne rasche und angemessene Behandlung kann die Exposition gegenüber einer hohen Cyaniddosis innerhalb von Minuten zum Tod führen, bedingt durch die Hemmung der Cytochromoxidase, die einen Stillstand der Zellatmung zur Folge hat. […] Jedes Hydroxocobalamin-Molekül kann ein Cyanid-Ion binden, indem es dieses gegen den an das dreiwertige Cobalt-Ion gebundenen Hydroxo-Liganden austauscht, wobei Cyanocobalamin entsteht, das anschließend mit dem Urin ausgeschieden wird.“ Englischer Originalwortlaut: "Cyanide is an extremely toxic poison. In the absence of rapid and adequate treatment, exposure to a high dose of cyanide can result in death within minutes due to the inhibition of cytochrome oxidase resulting in arrest of cellular respiration. […] Each hydroxocobalamin molecule can bind one cyanide ion by substituting it for the hydroxo ligand linked to the trivalent cobalt ion, to form cyanocobalamin, which is then excreted in the urine." ([DailyMed: Cyanokit (hydroxocobalamin) prescribing information, BTG INTERNATIONAL INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d56fcc8d-bd64-46ab-b0c0-2124bd745a6b), Fassung vom 2023-04-27; abgerufen am 2026-11-19). Bekannt ist, dass Hydroxocobalamin Cyanid bindet und Stickstoffmonoxid abfangen kann, wodurch der Blutdruck steigen kann.
 
 Diese Wirkungen betreffen nicht die Pathophysiologie der Varizenblutung (portale Hypertonie, Wandspannung der Varizen, Gerinnungsstörung). Ein spekulativer Ansatz über das Abfangen von Stickstoffmonoxid und eine veränderte splanchnische bzw. intrahepatische Vasodilatation ist durch keine Evidenz gestützt und könnte sich sogar nachteilig auswirken.
 
@@ -93,6 +93,19 @@ Es gibt weder klinische Studien noch Publikationen zu dieser Indikation, und ein
 - Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation des BfArM
 - Präklinische Daten, die einen Effekt auf portale Hypertonie oder Varizenblutung belegen
 - Prüfung, ob der identische Vorhersagewert für beide Varizen-Varianten ein Artefakt der Krankheitsklasse ist
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Cyanokit (hydroxocobalamin) prescribing information, BTG INTERNATIONAL INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d56fcc8d-bd64-46ab-b0c0-2124bd745a6b) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

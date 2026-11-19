@@ -60,7 +60,7 @@ Remdesivir ist ein antivirales Nukleotid-Analogon, das ursprünglich zur Behandl
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Remdesivir ist ein Nukleotid-Analogon-Prodrug, das die virale RNA-abhängige RNA-Polymerase hemmt. Seine Wirksamkeit bei COVID-19 ist belegt, und mechanistisch lässt sich ein breites antivirales Prinzip auf andere RNA-Viren übertragen.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Remdesivir (inoffizielle Übersetzung): „Remdesivir ist ein antivirales Arzneimittel mit Aktivität gegen das Schwere-akute-Atemwegssyndrom-Coronavirus 2 (SARS-CoV-2). […] Remdesivir ist ein Inhibitor der RNA-abhängigen RNA-Polymerase (RdRp) von SARS-CoV-2, die für die Virusreplikation essenziell ist. Remdesivir ist ein Adenosinnukleotid-Prodrug, das sich in Zellen verteilt, wo es je nach Zelltyp durch Carboxylesterase 1 und/oder Cathepsin A zu einem Nukleosidmonophosphat-Zwischenprodukt metabolisiert wird.“ Englischer Originalwortlaut: "Remdesivir is an antiviral drug with activity against severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). […] Remdesivir is an inhibitor of the SARS-CoV-2 RNA-dependent RNA polymerase (RdRp), which is essential for viral replication. Remdesivir is an adenosine nucleotide prodrug that distributes into cells where it is metabolized to a nucleoside monophosphate intermediate by carboxyesterase 1 and/or cathepsin A, depending upon the cell type." ([DailyMed: Veklury (remdesivir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0978fa8-53ff-4ca2-82a7-567fd3e958ca), Fassung vom 2026-07-29; abgerufen am 2026-11-19). Bekannt ist: Remdesivir ist ein Nukleotid-Analogon-Prodrug, das die virale RNA-abhängige RNA-Polymerase hemmt. Seine Wirksamkeit bei COVID-19 ist belegt, und mechanistisch lässt sich ein breites antivirales Prinzip auf andere RNA-Viren übertragen.
 
 Die Plausibilität bei HIV ist jedoch nur lose. HIV ist zwar ein RNA-Virus, repliziert sich aber über die reverse Transkriptase und die Integration von proviraler DNA. Remdesivir ist kein etabliertes Anti-HIV-Mittel. Der Wert stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht aber biologische Evidenz.
 
@@ -138,6 +138,18 @@ Der hohe TxGNN-Wert wird durch keine direkte klinische Evidenz gestützt. Die ei
 | 4 | Felines erworbenes Immundefizienzsyndrom | 0,9907 | L5 | Veterinärindikation, außerhalb des humanmedizinischen Repurposing-Rahmens |
 | 5 | Neuroentwicklungsstörung mit ataktischem Gang, fehlender Sprache und verminderter kortikaler weißer Substanz | 0,9903 | L5 | Kein plausibler Mechanismus; seltene genetische Erkrankung |
 | 6 | Homozygote familiäre Hypercholesterinämie | 0,9903 | L5 | Kein plausibler Mechanismus (Defekte des LDL-Rezeptor-Wegs); keine Evidenz |
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Veklury (remdesivir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0978fa8-53ff-4ca2-82a7-567fd3e958ca) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

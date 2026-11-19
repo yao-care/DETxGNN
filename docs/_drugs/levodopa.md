@@ -58,7 +58,7 @@ Levodopa ist eine Vorstufe von Dopamin und wird ursprünglich zur Behandlung der
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Levodopa liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Levodopa ist ein Dopamin-Vorläufer, der im nigrostriatalen Signalweg wirkt. Seine Wirksamkeit bei Morbus Parkinson ist gut belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Levodopa (inoffizielle Übersetzung): „Levodopa, die Stoffwechselvorstufe von Dopamin, überwindet die Blut-Hirn-Schranke und wird vermutlich im Gehirn zu Dopamin umgewandelt. Man nimmt an, dass dies der Mechanismus ist, über den Levodopa die Symptome der Parkinson-Krankheit lindert.“ Englischer Originalwortlaut: "Levodopa, the metabolic precursor of dopamine, crosses the blood-brain barrier and presumably is converted to dopamine in the brain. This is thought to be the mechanism whereby levodopa relieves symptoms of Parkinson's disease." ([DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb), Fassung vom 2026-07-20; abgerufen am 2026-11-19). Bekannt ist: Levodopa ist ein Dopamin-Vorläufer, der im nigrostriatalen Signalweg wirkt. Seine Wirksamkeit bei Morbus Parkinson ist gut belegt.
 
 Die Rasmussen-Enzephalitis ist eine seltene, chronische, meist einseitige entzündliche Hirnerkrankung. Sie ist gekennzeichnet durch T-Zell-vermittelte Neuroinflammation, fortschreitende Atrophie einer Hirnhälfte und schwer behandelbare fokale Krampfanfälle. Ein mechanistischer Zusammenhang mit der ursprünglichen Indikation ist nicht belegt. Eine Modulation der Neuroimmunaktivität durch Dopamin ist bestenfalls eine theoretische Verbindung. Es gibt keinen Hinweis darauf, dass Levodopa die immunvermittelte Pathologie oder die Anfallskontrolle beeinflusst.
 
@@ -131,11 +131,12 @@ Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzstufe L5); es
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „die fehlende gültige Zulassung in Deutschland sowie fehlende Daten zu Warnhinweisen und Gegenanzeigen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb) |
 
 <!-- review:end log -->
 

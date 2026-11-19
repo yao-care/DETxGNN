@@ -54,7 +54,7 @@ Avelumab ist ein gegen PD-L1 gerichteter Antikörper (Checkpoint-Inhibitor). Das
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Avelumab ein gegen PD-L1 gerichteter Antikörper ist. Er hebt die Hemmung der T-Zell-Antwort durch PD-L1 auf.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Avelumab (inoffizielle Übersetzung): „PD-L1 kann auf Tumorzellen und tumorinfiltrierenden Immunzellen exprimiert werden und kann zur Hemmung der Antitumor-Immunantwort in der Tumormikroumgebung beitragen. Die Bindung von PD-L1 an die auf T-Zellen und antigenpräsentierenden Zellen vorkommenden Rezeptoren PD-1 und B7.1 unterdrückt die zytotoxische T-Zell-Aktivität, die T-Zell-Proliferation und die Zytokinproduktion. […] Avelumab bindet an PD-L1 und blockiert die Interaktion zwischen PD-L1 und seinen Rezeptoren PD-1 und B7.1.“ Englischer Originalwortlaut: "PD-L1 may be expressed on tumor cells and tumor-infiltrating immune cells and can contribute to the inhibition of the anti-tumor immune response in the tumor microenvironment. Binding of PD-L1 to the PD-1 and B7.1 receptors found on T cells and antigen presenting cells suppresses cytotoxic T-cell activity, T-cell proliferation, and cytokine production. […] Avelumab binds PD-L1 and blocks the interaction between PD-L1 and its receptors PD-1 and B7.1." ([DailyMed: Bavencio (avelumab) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5cd725a1-2fa4-408a-a651-57a7b84b2118), Fassung vom 2026-09-22; abgerufen am 2026-11-19). Bekannt ist, dass Avelumab ein gegen PD-L1 gerichteter Antikörper ist. Er hebt die Hemmung der T-Zell-Antwort durch PD-L1 auf.
 
 HHV-8-assoziierte Tumoren, etwa das Kaposi-Sarkom, werden durch ein Virus getrieben und können PD-L1 vermehrt exprimieren. Eine Checkpoint-Blockade ist daher biologisch denkbar. Diese Überlegung bleibt jedoch eine Hypothese: Es liegen weder Studien noch Literatur vor, und die Verbindung stützt sich ausschließlich auf den Vorhersagewert des Modells.
 
@@ -93,6 +93,19 @@ Für die vorhergesagte Indikation gibt es keine Studien und keine Literatur (Evi
 - Daten zum Wirkmechanismus (MOA)
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
 - Sicherheitsbewertung bei Patienten mit Immunschwäche (häufig bei HHV-8-Erkrankungen)
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Bavencio (avelumab) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5cd725a1-2fa4-408a-a651-57a7b84b2118) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

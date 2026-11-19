@@ -60,7 +60,7 @@ Die Vorhersage stützt sich bislang **ausschließlich auf das Modell**: Es liege
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Pegfilgrastim ein pegyliertes G-CSF-Analogon ist, das die Bildung und Freisetzung neutrophiler Granulozyten aus dem Knochenmark anregt. Seine Wirksamkeit bei Neutropenie unter Chemotherapie ist etabliert.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Pegfilgrastim (inoffizielle Übersetzung): „Pegfilgrastim-Produkte sind koloniestimulierende Faktoren, die auf hämatopoetische Zellen wirken, indem sie an spezifische Zelloberflächenrezeptoren binden und dadurch Proliferation, Differenzierung, Determinierung und funktionelle Aktivierung der Endzellen stimulieren.“ Englischer Originalwortlaut: "Pegfilgrastim products are colony-stimulating factor that acts on hematopoietic cells by binding to specific cell surface receptors, thereby stimulating proliferation, differentiation, commitment, and end cell functional activation." ([DailyMed: Armlupeg (pegfilgrastim-unne) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c48fe1a7-63d7-4dce-bb53-a913cb0ade83), Fassung vom 2026-10-29; abgerufen am 2026-11-19). Bekannt ist, dass Pegfilgrastim ein pegyliertes G-CSF-Analogon ist, das die Bildung und Freisetzung neutrophiler Granulozyten aus dem Knochenmark anregt. Seine Wirksamkeit bei Neutropenie unter Chemotherapie ist etabliert.
 
 Ein denkbarer Zusammenhang mit der diabetischen Retinopathie ist rein hypothetisch: G-CSF kann Vorläuferzellen aus dem Knochenmark (z. B. endotheliale Vorläuferzellen) mobilisieren und Immunzellen modulieren. Dies könnte die Gefäßreparatur in der ischämischen Netzhaut unterstützen.
 
@@ -136,11 +136,12 @@ Die Vorhersage beruht allein auf einem hohen Modellwert (Evidenzstufe L5). Es gi
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Weitere erloschene Zulassungen: Grasustek, Cegfila, Pelmeg, Fulphila, Nyvepria, Pelgraz“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Armlupeg (pegfilgrastim-unne) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c48fe1a7-63d7-4dce-bb53-a913cb0ade83) |
 
 <!-- review:end log -->
 

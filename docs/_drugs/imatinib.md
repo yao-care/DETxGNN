@@ -54,7 +54,7 @@ Imatinib ist ein Tyrosinkinase-Inhibitor, der gegen BCR-ABL, KIT und PDGFR wirkt
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Imatinib die Kinasen PDGFR, KIT und ABL hemmt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Imatinib (inoffizielle Übersetzung): „Imatinibmesilat ist ein Protein-Tyrosinkinase-Inhibitor, der die BCR-ABL-Tyrosinkinase hemmt, die konstitutiv aktive abnorme Tyrosinkinase, die durch die Philadelphia-Chromosom-Anomalie bei CML entsteht. Imatinib hemmt die Proliferation und induziert Apoptose in BCR-ABL-positiven Zelllinien sowie in frischen leukämischen Zellen von Patienten mit Philadelphia-Chromosom-positiver chronischer myeloischer Leukämie.“ Englischer Originalwortlaut: "Imatinib mesylate is a protein-tyrosine kinase inhibitor that inhibits the BCR-ABL tyrosine kinase, the constitutive abnormal tyrosine kinase created by the Philadelphia chromosome abnormality in CML. Imatinib inhibits proliferation and induces apoptosis in BCR-ABL positive cell lines as well as fresh leukemic cells from Philadelphia chromosome positive chronic myeloid leukemia." ([DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b), Fassung vom 2026-07-13; abgerufen am 2026-11-19). Bekannt ist, dass Imatinib die Kinasen PDGFR, KIT und ABL hemmt.
 
 Die Verbindung zum Herzfibrosarkom ist indirekt. Sie wird von fibroblastischen Tumoren abgeleitet, etwa dem Dermatofibrosarcoma protuberans (DFSP) mit COL1A1-PDGFB-Fusion, die auf eine PDGFR-Hemmung ansprechen. Herzspezifische Daten fehlen vollständig. Die einzige zugeordnete Publikation (PMID 18623899) ist eine Übersicht zu neuen Imatinib-Indikationen, die ausdrücklich auf eine nicht robuste Evidenz hinweist und das Herzfibrosarkom nicht direkt untersucht.
 
@@ -103,6 +103,19 @@ Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) bitte die Fa
 - Präklinische oder Fallberichts-Daten zu Imatinib beim Herzfibrosarkom bzw. zu PDGFR-/KIT-Abhängigkeit dieser Tumorart
 - Detaillierte Wirkmechanismus-Daten
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) für die Sicherheitsbewertung, insbesondere bei Herzerkrankungen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

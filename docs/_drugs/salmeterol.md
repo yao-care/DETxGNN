@@ -54,7 +54,7 @@ Salmeterol ist ein langwirksamer Beta-2-Adrenozeptor-Agonist, der in Deutschland
 
 ## Warum ist diese Vorhersage nachvollziehbar?
 
-Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten derzeit nicht vor. Bekannt ist, dass Salmeterol zur Klasse der langwirksamen Beta-2-Agonisten gehört, die eine Bronchodilatation bewirken.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Salmeterol (inoffizielle Übersetzung): „Salmeterol ist ein selektiver LABA. In-vitro-Studien zeigen, dass Salmeterol mindestens 50-mal selektiver für Beta-2-Adrenozeptoren ist als Albuterol. Obwohl Beta-2-Adrenozeptoren die vorherrschenden adrenergen Rezeptoren in der glatten Bronchialmuskulatur und Beta-1-Adrenozeptoren die vorherrschenden Rezeptoren im Herzen sind, gibt es auch im menschlichen Herzen Beta-2-Adrenozeptoren, die 10 % bis 50 % der gesamten Beta-Adrenozeptoren ausmachen.“ Englischer Originalwortlaut: "Salmeterol is a selective LABA. In vitro studies show salmeterol to be at least 50 times more selective for beta 2 -adrenoceptors than albuterol. Although beta 2 -adrenoceptors are the predominant adrenergic receptors in bronchial smooth muscle and beta 1 -adrenoceptors are the predominant receptors in the heart, there are also beta 2 -adrenoceptors in the human heart comprising 10% to 50% of the total beta-adrenoceptors." ([DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4), Fassung vom 2022-10-10; abgerufen am 2026-11-19). Bekannt ist, dass Salmeterol zur Klasse der langwirksamen Beta-2-Agonisten gehört, die eine Bronchodilatation bewirken.
 
 Ein direkter mechanistischer Zusammenhang mit strukturellen Fehlbildungen der Atemwege ist nicht erkennbar. Ein möglicher Nutzen wäre allenfalls symptomatisch (Bronchodilatation, Effekte auf die mukoziliäre Clearance, etwa bei Mukoviszidose oder Zilienfunktionsstörungen). Der hohe Score beruht vermutlich auf der Nähe zu anderen Atemwegserkrankungen im Modell und nicht auf belegter Biologie.
 
@@ -102,6 +102,18 @@ Für Atemwegsfehlbildungen gibt es weder einen plausiblen Wirkmechanismus noch d
 - Daten zum Wirkmechanismus von Salmeterol
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen)
 - Studien oder präklinische Daten, die Salmeterol direkt bei der vorhergesagten Erkrankung untersuchen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

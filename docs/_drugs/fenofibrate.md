@@ -58,7 +58,7 @@ Fenofibrat wird ursprünglich zur Behandlung von Dyslipidämien eingesetzt. Das 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Fenofibrat liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt aus den ausgewerteten Publikationen ist, dass Fenofibrat als PPARα-Agonist das HDL-Cholesterin erhöht und Triglyceride senkt. In Mäusen induziert es zudem die Expression des Phospholipid-Transferprotein-Gens (PLTP), was die Vergrößerung der HDL-Partikel erklärt (PMID 11342537).
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Fenofibrate (inoffizielle Übersetzung): „Der wirksame Bestandteil von Antara ist Fenofibrinsäure. Die pharmakologischen Wirkungen der Fenofibrinsäure wurden sowohl bei Tieren als auch beim Menschen nach oraler Gabe von Fenofibrat untersucht. Die in der klinischen Praxis beobachteten lipidmodifizierenden Wirkungen der Fenofibrinsäure wurden in vivo an transgenen Mäusen und in vitro an humanen Hepatozytenkulturen durch die Aktivierung des PPAR-alpha-Rezeptors erklärt.“ Englischer Originalwortlaut: "The active moiety of Antara is fenofibric acid. The pharmacological effects of fenofibric acid in both animals and humans have been studied through oral administration of fenofibrate. The lipid-modifying effects of fenofibric acid seen in clinical practice have been explained in vivo in transgenic mice and in vitro in human hepatocyte cultures by the activation of PPAR alpha receptor." ([DailyMed: Antara (fenofibrate) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=24790a18-0291-4b88-a724-acac43b616ce), Fassung vom 2025-10-01; abgerufen am 2026-11-19). Bekannt aus den ausgewerteten Publikationen ist, dass Fenofibrat als PPARα-Agonist das HDL-Cholesterin erhöht und Triglyceride senkt. In Mäusen induziert es zudem die Expression des Phospholipid-Transferprotein-Gens (PLTP), was die Vergrößerung der HDL-Partikel erklärt (PMID 11342537).
 
 Der Zusammenhang zwischen der ursprünglichen und der vorhergesagten Indikation ist nur indirekt: Beide betreffen den Lipoproteinstoffwechsel. Fenofibrat beeinflusst den Umbau von Lipoproteinen über einen verwandten Signalweg, behebt aber nicht den zugrunde liegenden genetischen CETP-Defekt. Eine Studie zur Kombination von CETP-Hemmung und PPARα-Agonismus (PMID 20332533) deutet auf additive Effekte beider Mechanismen hin, nicht darauf, dass Fenofibrat einen CETP-Mangel korrigiert.
 
@@ -119,6 +119,19 @@ Es gibt keine Studie, die Fenofibrat direkt bei CETP-Mangel untersucht; die vorh
 - Direkte präklinische oder klinische Daten zu Fenofibrat bei CETP-Mangel
 - Daten zum Wirkmechanismus (MOA) von Fenofibrat
 - Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation des BfArM
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Antara (fenofibrate) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=24790a18-0291-4b88-a724-acac43b616ce) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

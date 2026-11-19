@@ -60,7 +60,7 @@ Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Pub
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Simoctocog alfa ersetzt als rekombinanter Faktor VIII den fehlenden Gerinnungsfaktor bei Hämophilie A. Seine Wirksamkeit bei dieser Erkrankung ist belegt.
+Laut ChEMBL (EMBL-EBI) ist für Simoctocog Alfa folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Exogenes Gerinnungsfaktor-VIII-Protein“ Englischer Originalwortlaut: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL2108319 (simoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108319), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist: Simoctocog alfa ersetzt als rekombinanter Faktor VIII den fehlenden Gerinnungsfaktor bei Hämophilie A. Seine Wirksamkeit bei dieser Erkrankung ist belegt.
 
 Die Pseudo-von-Willebrand-Erkrankung (plättchentypische vWD) beruht dagegen auf einer Gain-of-Function-Veränderung des Plättchenrezeptors GPIb-alpha. Dadurch bindet dieser verstärkt an den von-Willebrand-Faktor (VWF), und hochmolekulare VWF-Multimere werden abgebaut. Der Defekt liegt in der Interaktion zwischen Plättchen und VWF, nicht in einem FVIII-Mangel. Der Zusammenhang ist daher nur spekulativ und indirekt: FVIII wird durch VWF stabilisiert, und die FVIII-Spiegel können sekundär erniedrigt sein.
 
@@ -125,6 +125,19 @@ Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzstufe L5) ohn
 - Systematische Literaturrecherche und Prüfung von Studienregistern zur Pseudo-von-Willebrand-Erkrankung
 - Präzisierung der Kandidaten „erworbener Gerinnungsfaktormangel" (Subtyp) und „Hämophilie A mit Gefäßanomalie" (On-Label-Subtyp oder neue Indikation)
 - Klärung der Verfügbarkeit des Präparats
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL2108319 (simoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108319) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

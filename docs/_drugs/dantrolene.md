@@ -58,7 +58,7 @@ Dantrolen wurde ursprünglich zur Behandlung der Malignen Hyperthermie zugelasse
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu Dantrolen liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Wirkmechanismus-Angaben aus DrugBank vor. Aus der Literatur ist jedoch bekannt, dass Dantrolen den Ryanodin-Rezeptor des Skelettmuskels (RyR1) hemmt und die pathologische Ca²⁺-Freisetzung aus dem sarkoplasmatischen Retikulum verringert. Dieser Defekt steht im Zentrum der Malignen Hyperthermie. Eine Studie aus 2017 (PMID 28373535) zeigt zudem, dass Dantrolen Mg²⁺ benötigt, um die Krise zu beenden.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Dantrolene (inoffizielle Übersetzung): „In isolierten Nerv-Muskel-Präparaten wurde gezeigt, dass Dantrolen eine Relaxation bewirkt, indem es die kontraktile Reaktion des Muskels an einer Stelle jenseits der neuromuskulären Verbindung beeinflusst. Im Skelettmuskel entkoppelt Dantrolen die elektromechanische Kopplung, wahrscheinlich durch Beeinträchtigung der Freisetzung von Ca ++ aus dem sarkoplasmatischen Retikulum.“ Englischer Originalwortlaut: "In isolated nerve-muscle preparation, dantrolene has been shown to produce relaxation by affecting the contractile response of the muscle at a site beyond the myoneural junction. In skeletal muscle, dantrolene dissociates the excitation-contraction coupling, probably by interfering with the release of Ca ++ from the sarcoplasmic reticulum." ([DailyMed: Ryanodex Dantrolene Sodium (dantrolene sodium) prescribing information, Eagle Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f7b3ac0-604d-4c78-b545-5e0f8ea3d698), Fassung vom 2024-10-30; abgerufen am 2026-11-19). Aus der Literatur ist jedoch bekannt, dass Dantrolen den Ryanodin-Rezeptor des Skelettmuskels (RyR1) hemmt und die pathologische Ca²⁺-Freisetzung aus dem sarkoplasmatischen Retikulum verringert. Dieser Defekt steht im Zentrum der Malignen Hyperthermie. Eine Studie aus 2017 (PMID 28373535) zeigt zudem, dass Dantrolen Mg²⁺ benötigt, um die Krise zu beenden.
 
 Da die vorhergesagte Erkrankung mit der Originalindikation praktisch identisch ist, ist die Vorhersage plausibel, liefert aber keine neue Therapieoption. Interessanter sind die weiteren Vorhersagen mit RYR1-Bezug: King-Denborough-Syndrom, zentrale Kernmyopathie (Central Core Disease), Multiminicore-Erkrankung und zentronukleäre Myopathie. Hier würde Dantrolen vor allem das MH-Risiko senken, nicht die zugrunde liegende Myopathie behandeln. Für periodische Lähmungen (hypokaliämisch, thyreotoxisch) ist ein Mechanismus anhand der vorliegenden Daten nicht erkennbar.
 
@@ -130,12 +130,13 @@ Dantrolen ist bei Maligner Hyperthermie leitlinienkonform etabliert, die Vorhers
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Hinweis: Der Marktstatus „nur erloschen" sollte geprüft werden, da andere Dantrolen-Formulierungen (z“ | Korrigiert (überarbeitet am 2026-11-12; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „(erloschene Agilus-Zulassung vs. andere Formulierungen)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Ryanodex Dantrolene Sodium (dantrolene sodium) prescribing information, Eagle Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f7b3ac0-604d-4c78-b545-5e0f8ea3d698) |
 
 <!-- review:end log -->
 

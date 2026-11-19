@@ -58,7 +58,7 @@ Atazanavir ist ein HIV-1-Proteaseinhibitor. Das TxGNN-Modell sagt eine mögliche
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Atazanavir die HIV-1-Protease hemmt, ein Enzym, das für die Reifung der Viruspartikel nötig ist.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Atazanavir (inoffizielle Übersetzung): „Atazanavir ist ein antiretrovirales Arzneimittel gegen HIV-1. […] Atazanavir (ATV) ist ein Azapeptid-HIV-1-Proteaseinhibitor (PI). Die Substanz hemmt selektiv die virusspezifische Prozessierung der viralen Gag- und Gag-Pol-Polyproteine in HIV-1-infizierten Zellen und verhindert so die Bildung reifer Virionen.“ Englischer Originalwortlaut: "Atazanavir is an HIV-1 antiretroviral drug. […] Atazanavir (ATV) is an azapeptide HIV-1 protease inhibitor (PI). The compound selectively inhibits the virus-specific processing of viral Gag and Gag-Pol polyproteins in HIV-1-infected cells, thus preventing formation of mature virions." ([DailyMed: Reyataz (atazanavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=165cff62-b284-4a27-a65d-9ec8a5bfcdd8), Fassung vom 2024-12-05; abgerufen am 2026-11-19). Bekannt ist, dass Atazanavir die HIV-1-Protease hemmt, ein Enzym, das für die Reifung der Viruspartikel nötig ist.
 
 Das feline Immundefizienzvirus (FIV) ist ein Lentivirus und mit HIV-1 verwandt. Daher ist ein konserviertes Protease-Ziel grundsätzlich denkbar. Allerdings unterscheidet sich die FIV-Protease von der HIV-1-Protease in Substratspezifität und Hemmstoff-Empfindlichkeit. Es gibt keine Daten, die eine Aktivität von Atazanavir gegen sie belegen.
 
@@ -110,6 +110,19 @@ Für die Vorhersage gibt es weder klinische Studien noch Publikationen; sie beru
 - Klärung, ob eine tiermedizinische Entwicklung strategisch überhaupt relevant ist
 - Detaillierte Daten zum Wirkmechanismus
 - Auswertung der Warnhinweise und Gegenanzeigen aus der Packungsbeilage
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Reyataz (atazanavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=165cff62-b284-4a27-a65d-9ec8a5bfcdd8) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

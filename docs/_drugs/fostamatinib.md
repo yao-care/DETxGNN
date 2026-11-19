@@ -58,7 +58,7 @@ Fostamatinib wurde ursprünglich zur Behandlung der Thrombozytopenie zugelassen.
 
 ## Warum ist diese Vorhersage plausibel?
 
-Fostamatinib ist ein Inhibitor der Spleen-Tyrosinkinase (SYK); sein aktiver Metabolit ist R406. Substanzen dieser Art werden bei immunvermittelter Thrombozytopenie eingesetzt, indem sie den Abbau von Thrombozyten durch Immunzellen hemmen. Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten nicht vor.
+Fostamatinib ist ein Inhibitor der Spleen-Tyrosinkinase (SYK); sein aktiver Metabolit ist R406. Substanzen dieser Art werden bei immunvermittelter Thrombozytopenie eingesetzt, indem sie den Abbau von Thrombozyten durch Immunzellen hemmen. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Fostamatinib (inoffizielle Übersetzung): „Fostamatinib ist ein Tyrosinkinase-Inhibitor mit nachgewiesener Aktivität gegen die Milz-Tyrosinkinase (SYK). Der Hauptmetabolit von Fostamatinib, R406, hemmt die Signaltransduktion aktivierender Fc-Rezeptoren und des B-Zell-Rezeptors.“ Englischer Originalwortlaut: "Fostamatinib is a tyrosine kinase inhibitor with demonstrated activity against spleen tyrosine kinase (SYK). The major metabolite of fostamatinib, R406, inhibits signal transduction of Fc-activating receptors and B-cell receptor." ([DailyMed: Tavalisse (fostamatinib) prescribing information, Rigel Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21149cc3-049b-43e2-b141-c9499160556c), Fassung vom 2025-11-05; abgerufen am 2026-11-19).
 
 Die hohe Modellbewertung stammt vom TxGNN-Modell (Deep Learning) und spiegelt vermutlich vor allem Ähnlichkeiten wider, die das Modell zwischen verwandten Thrombozytopenie-Erkrankungen gelernt hat, nicht biologische Evidenz. Die autosomale Thrombozytopenie mit normalen Thrombozyten scheint eine seltene, erblich bedingte Erkrankung zu sein. Ein Mechanismus, der auf der Hemmung eines immunvermittelten Thrombozytenabbaus beruht, ist hier daher möglicherweise nicht anwendbar. Belege für eine mechanistische Verbindung liegen nicht vor, es handelt sich um eine rein rechnerische Vorhersage.
 
@@ -121,11 +121,12 @@ Der TxGNN-Wert ist sehr hoch, es gibt jedoch weder klinische Studien noch Publik
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Diese Zulassung ist erloschen (Hersteller: Instituto Grifols S.A.)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Tavalisse (fostamatinib) prescribing information, Rigel Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21149cc3-049b-43e2-b141-c9499160556c) |
 
 <!-- review:end log -->
 

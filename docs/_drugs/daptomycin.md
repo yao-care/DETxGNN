@@ -60,7 +60,7 @@ Dafür gibt es jedoch **keine klinischen Studien** und nur **10 Publikationen**,
 
 ## Warum ist diese Vorhersage plausibel (oder nicht)?
 
-Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist, dass Daptomycin ein zyklisches Lipopeptid mit starker antibakterieller Wirkung gegen grampositive Erreger ist. Seine Wirksamkeit bei Haut- und Weichteilinfektionen, Bakteriämie und Endokarditis gilt als belegt.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Daptomycin (inoffizielle Übersetzung): „Daptomycin ist ein antibakterielles Arzneimittel. […] Daptomycin bindet an bakterielle Zellmembranen und verursacht eine rasche Depolarisation des Membranpotenzials. Dieser Verlust des Membranpotenzials bewirkt eine Hemmung der DNA-, RNA- und Proteinsynthese, die zum bakteriellen Zelltod führt.“ Englischer Originalwortlaut: "Daptomycin is an antibacterial drug. […] Daptomycin binds to bacterial cell membranes and causes a rapid depolarization of membrane potential. This loss of membrane potential causes inhibition of DNA, RNA, and protein synthesis, which results in bacterial cell death." ([DailyMed: Dapzura Rt (daptomycin) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb1283e1-35b8-425c-b338-d9ac0c7161f8), Fassung vom 2022-01-25; abgerufen am 2026-11-19). Bekannt ist, dass Daptomycin ein zyklisches Lipopeptid mit starker antibakterieller Wirkung gegen grampositive Erreger ist. Seine Wirksamkeit bei Haut- und Weichteilinfektionen, Bakteriämie und Endokarditis gilt als belegt.
 
 Die ausgewerteten Publikationen betreffen Daptomycin bei **osteoartikulären Infektionen** und Infektionen von Gelenkprothesen durch grampositive Erreger (z. B. Staphylokokken). Das ist eine Ausweitung der antibakteriellen Anwendung und keine Behandlung der degenerativen Osteoarthritis. Der hohe TxGNN-Wert stammt aus dem TxGNN-Modell (Deep Learning) und spiegelt vermutlich Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. Für nicht infektiöse Osteoarthritis ist kein entzündungshemmender oder chondroprotektiver Mechanismus belegt.
 
@@ -127,6 +127,19 @@ Die Vorhersage zu Osteoarthritis stammt aus dem TxGNN-Modell (Deep Learning) und
 - Klärung der Marktverfügbarkeit: Das Arzneimittel ist im Handel, 2 von 2 Zulassungen sind gültig
 
 **Hinweis zu weiteren Vorhersagen:** Die übrigen Vorhersagen (Gicht, Pseudoachondroplasie, akromesomele Dysplasie Typ Hunter-Thompson, Brachyolmie u. a.) haben Evidenzniveau L5 und keinerlei klinische Unterstützung. Bei Gicht deutet die Literatur sogar auf ein Sicherheitsrisiko hin.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Dapzura Rt (daptomycin) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb1283e1-35b8-425c-b338-d9ac0c7161f8) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

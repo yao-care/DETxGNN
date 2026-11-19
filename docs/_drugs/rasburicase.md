@@ -59,7 +59,7 @@ Das TxGNN-Modell sagt voraus, dass sie bei **renaler Hypourikämie** wirksam sei
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Für diesen Bericht liegen derzeit keine detaillierten Daten zum Wirkmechanismus aus der Datenbank vor. Bekannt ist: Rasburicase wandelt Harnsäure in Allantoin um und senkt so den Serum-Harnsäurespiegel. Ihre Wirksamkeit bei Hyperurikämie ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Rasburicase (inoffizielle Übersetzung): „Beim Menschen ist Harnsäure der letzte Schritt im katabolen Abbauweg der Purine. Rasburicase katalysiert die enzymatische Oxidation der schwer löslichen Harnsäure zu einem inaktiven und besser löslichen Metaboliten (Allantoin).“ Englischer Originalwortlaut: "In humans, uric acid is the final step in the catabolic pathway of purines. Rasburicase catalyzes enzymatic oxidation of poorly soluble uric acid into an inactive and more soluble metabolite (allantoin)." ([DailyMed: Elitek (rasburicase) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ae10bc4-6b65-402f-9db5-2d7753054922), Fassung vom 2026-07-30; abgerufen am 2026-11-19). Bekannt ist: Rasburicase wandelt Harnsäure in Allantoin um und senkt so den Serum-Harnsäurespiegel. Ihre Wirksamkeit bei Hyperurikämie ist belegt.
 
 Die renale Hypourikämie ist jedoch gerade durch einen **zu niedrigen** Serum-Harnsäurespiegel gekennzeichnet, verursacht durch eine gestörte renale Urat-Rückresorption (z. B. Varianten in SLC22A12/URAT1 oder SLC2A9). Eine weitere Harnsäuresenkung hat keine therapeutische Begründung und könnte sogar das Risiko erhöhen. Der hohe Wert von 0.9999 stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, und ist kein biologischer Beleg für einen echten Nutzen.
 
@@ -138,11 +138,12 @@ Die Vorhersage beruht ausschließlich auf dem Modell (L5), ohne Studien oder Pub
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „(erloschene Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Elitek (rasburicase) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ae10bc4-6b65-402f-9db5-2d7753054922) |
 
 <!-- review:end log -->
 

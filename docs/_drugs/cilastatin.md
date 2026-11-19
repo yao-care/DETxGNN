@@ -58,7 +58,7 @@ Cilastatin ist ein Hemmstoff der renalen Dehydropeptidase-I und wird ausschließ
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für diesen Bericht liegen keine detaillierten Daten zum Wirkmechanismus vor. Bekannt ist: Cilastatin hemmt die Dehydropeptidase-I in den Nierentubuli. Dadurch wird Imipenem dort weniger abgebaut, und seine Konzentration im Urin und seine Verfügbarkeit im Gewebe steigen. Zugleich schützt Cilastatin die Niere vor Imipenem-Abbauprodukten, die nephrotoxisch wirken können.
+Laut ChEMBL (EMBL-EBI) ist für Cilastatin folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Renale-Dipeptidase-Inhibitor“ Englischer Originalwortlaut: "Renal dipeptidase inhibitor" ([ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist: Cilastatin hemmt die Dehydropeptidase-I in den Nierentubuli. Dadurch wird Imipenem dort weniger abgebaut, und seine Konzentration im Urin und seine Verfügbarkeit im Gewebe steigen. Zugleich schützt Cilastatin die Niere vor Imipenem-Abbauprodukten, die nephrotoxisch wirken können.
 
 Der Zusammenhang zur neuen Indikation ist daher **pharmakokinetisch-schützend** und kein eigenständiger antimikrobieller Mechanismus. Eine mögliche Wirkung gegen S. aureus, einschließlich MRSA, geht von Imipenem aus. Cilastatin ist nur Kombinationspartner. Die Plausibilität der Vorhersage beruht also darauf, dass das Kombinationspräparat bei grampositiven Erregern in älteren Studien eingesetzt wurde, nicht auf einer Wirkung von Cilastatin allein.
 
@@ -132,11 +132,12 @@ Für Warnhinweise und gesicherte Kontraindikationen siehe die Packungsbeilage.
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Der Marktstatus ist „nur erloschen““ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766) |
 
 <!-- review:end log -->
 

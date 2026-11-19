@@ -54,7 +54,7 @@ Memantin ist ein NMDA-Rezeptor-Antagonist. Das TxGNN-Modell sagt voraus, dass de
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist, dass Memantin ein Antagonist am NMDA-Rezeptor ist. Eine Arbeit (PMID 33500723) beschreibt, dass die Glutamat/NMDA-Rezeptor-Achse mit akuter Lungenschädigung, pulmonal-arterieller Hypertonie und Diabetes in Verbindung gebracht wird. Das ist ein entfernter mechanistischer Hinweis, jedoch kein Wirksamkeitsnachweis.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Memantine (inoffizielle Übersetzung): „Es wird angenommen, dass eine anhaltende Aktivierung von N-Methyl-D-Aspartat-(NMDA-)Rezeptoren des zentralen Nervensystems durch die exzitatorische Aminosäure Glutamat zur Symptomatik der Alzheimer-Krankheit beiträgt. Es wird postuliert, dass Memantin seine therapeutische Wirkung als nicht-kompetitiver (Open-Channel-)NMDA-Rezeptorantagonist mit niedriger bis mäßiger Affinität entfaltet, der bevorzugt an die NMDA-Rezeptor-gesteuerten Kationenkanäle bindet.“ Englischer Originalwortlaut: "Persistent activation of central nervous system N-methyl-D-aspartate (NMDA) receptors by the excitatory amino acid glutamate has been hypothesized to contribute to the symptomatology of Alzheimer’s disease. Memantine is postulated to exert its therapeutic effect through its action as a low to moderate affinity uncompetitive (open-channel) NMDA receptor antagonist which binds preferentially to the NMDA receptor-operated cation channels." ([DailyMed: memantine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e6977ef-6a0a-4bd9-b500-6ceb15abbd5e), Fassung vom 2026-11-11; abgerufen am 2026-11-19). Bekannt ist, dass Memantin ein Antagonist am NMDA-Rezeptor ist. Eine Arbeit (PMID 33500723) beschreibt, dass die Glutamat/NMDA-Rezeptor-Achse mit akuter Lungenschädigung, pulmonal-arterieller Hypertonie und Diabetes in Verbindung gebracht wird. Das ist ein entfernter mechanistischer Hinweis, jedoch kein Wirksamkeitsnachweis.
 
 Die zweite Publikation (PMID 41739394) betrifft MN-08, ein Nitratderivat von Memantin, das für die pulmonal-arterielle Hypertonie entwickelt wird. Es handelt sich um eine Phase-1-Studie an gesunden Freiwilligen zu Pharmakokinetik und Verträglichkeit. Sie zeigt keine Wirksamkeit von Memantin selbst bei dieser Erkrankung.
 
@@ -99,6 +99,19 @@ Für pulmonale Hypertonie liegen weder klinische Studien noch Publikationen vor,
 - Ergänzende Daten zum Wirkmechanismus
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), insbesondere bei Leber- und Nierenfunktionsstörungen
 - Klärung, ob die Entwicklung des Derivats MN-08 für Memantin selbst relevante Erkenntnisse liefert
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: memantine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e6977ef-6a0a-4bd9-b500-6ceb15abbd5e) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

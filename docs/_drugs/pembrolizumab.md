@@ -60,7 +60,7 @@ Dafür gibt es **keine klinischen Studien und keine Publikationen**; die Vorhers
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für diesen Bericht liegen derzeit keine detaillierten Daten zum Wirkmechanismus vor. Bekannt ist, dass Pembrolizumab den Rezeptor PD-1 (programmed cell death 1, CD279) auf T-Zellen blockiert. Dadurch wird die Hemmung der Immunantwort aufgehoben, und das Immunsystem kann Tumorzellen besser angreifen. Seine Wirksamkeit ist bei den oben genannten Krebserkrankungen belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Pembrolizumab (inoffizielle Übersetzung): „Die Bindung der PD-1-Liganden PD-L1 und PD-L2 an den auf T-Zellen vorkommenden PD-1-Rezeptor hemmt die T-Zell-Proliferation und die Zytokinproduktion. In einigen Tumoren kommt es zu einer Hochregulierung von PD-1-Liganden, und die Signalübertragung über diesen Signalweg kann zur Hemmung der aktiven T-Zell-vermittelten Immunüberwachung von Tumoren beitragen. […] Pembrolizumab ist ein monoklonaler Antikörper, der an den PD-1-Rezeptor bindet und dessen Interaktion mit PD-L1 und PD-L2 blockiert, wodurch die über den PD-1-Signalweg vermittelte Hemmung der Immunantwort, einschließlich der Antitumor-Immunantwort, aufgehoben wird.“ Englischer Originalwortlaut: "Binding of the PD-1 ligands, PD-L1 and PD-L2, to the PD-1 receptor found on T cells, inhibits T cell proliferation and cytokine production. Upregulation of PD-1 ligands occurs in some tumors and signaling through this pathway can contribute to inhibition of active T-cell immune surveillance of tumors. […] Pembrolizumab is a monoclonal antibody that binds to the PD-1 receptor and blocks its interaction with PD-L1 and PD-L2, releasing PD-1 pathway-mediated inhibition of the immune response, including the anti-tumor immune response." ([DailyMed: Keytruda (pembrolizumab) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287), Fassung vom 2026-10-16; abgerufen am 2026-11-19). Bekannt ist, dass Pembrolizumab den Rezeptor PD-1 (programmed cell death 1, CD279) auf T-Zellen blockiert. Dadurch wird die Hemmung der Immunantwort aufgehoben, und das Immunsystem kann Tumorzellen besser angreifen. Seine Wirksamkeit ist bei den oben genannten Krebserkrankungen belegt.
 
 Zwischen diesem Mechanismus und der gingivalen Fibromatose ist jedoch kein Zusammenhang erkennbar. Es handelt sich um eine gutartige, fibrotische Gewebewucherung des Zahnfleisches, für die keine Abhängigkeit vom PD-1-Signalweg bekannt ist. Die hohe Modellbewertung ist daher als rein rechnerische Vorhersage ohne belastbare biologische Begründung zu verstehen.
 
@@ -137,11 +137,12 @@ Für die gingivale Fibromatose gibt es weder klinische Studien noch Publikatione
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „da nur eine gelöschte Zulassung vorliegt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Keytruda (pembrolizumab) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287) |
 
 <!-- review:end log -->
 

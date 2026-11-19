@@ -58,7 +58,7 @@ Cobicistat ist ein mechanismusbasierter CYP3A-Inhibitor, der als pharmakokinetis
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen in den zusammengestellten Daten nicht vor. Nach allgemeinem Wissen hemmt Cobicistat das Enzym CYP3A und erhöht dadurch die Konzentration gleichzeitig verabreichter antiretroviraler Wirkstoffe, etwa von Proteaseinhibitoren oder Integrasehemmern. Es besitzt selbst keine antivirale Wirkung.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Cobicistat (inoffizielle Übersetzung): „Cobicistat ist ein mechanismusbasierter Inhibitor von Cytochrom P450 3A (CYP3A). Die Hemmung des CYP3A-vermittelten Metabolismus durch Cobicistat erhöht die systemische Exposition der CYP3A-Substrate Atazanavir und Darunavir.“ Englischer Originalwortlaut: "Cobicistat is a mechanism-based inhibitor of cytochrome P450 3A (CYP3A). Inhibition of CYP3A-mediated metabolism by cobicistat increases the systemic exposure of CYP3A substrates atazanavir and darunavir." ([DailyMed: Tybost (cobicistat) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010), Fassung vom 2026-02-10; abgerufen am 2026-11-19). Nach allgemeinem Wissen hemmt Cobicistat das Enzym CYP3A und erhöht dadurch die Konzentration gleichzeitig verabreichter antiretroviraler Wirkstoffe, etwa von Proteaseinhibitoren oder Integrasehemmern. Es besitzt selbst keine antivirale Wirkung.
 
 Das feline Immundefizienzvirus (FIV) ist ein Lentivirus und eng mit HIV verwandt. Die hohe Bewertung dürfte vor allem auf dieser nahen Verwandtschaft der Krankheiten beruhen. Ein Nutzen setzt jedoch voraus, dass ein Kombinationspartner gegen FIV wirksam ist. Die FIV-Protease unterscheidet sich von der HIV-1-Protease in Substratspezifität und Hemmbarkeit, sodass eine Kreuzwirksamkeit HIV-gerichteter, geboosteter Proteaseinhibitoren unsicher ist. Diese mechanistische Verbindung ist aus allgemeinem Wissen abgeleitet und nicht durch die vorliegenden Daten belegt.
 
@@ -109,6 +109,19 @@ Für die vorhergesagte Indikation gibt es weder klinische Studien noch Publikati
 - Prüfung, ob ein gegen FIV wirksamer Kombinationspartner existiert (präklinische Daten zur Protease-Kreuzwirksamkeit)
 - Auswertung von Warnhinweisen und Gegenanzeigen aus der Fachinformation des BfArM
 - Prüfung der veterinärmedizinischen Relevanz und der Zulassungsrahmenbedingungen für Tiere
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Tybost (cobicistat) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

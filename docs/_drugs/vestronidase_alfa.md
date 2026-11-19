@@ -59,7 +59,7 @@ Das TxGNN-Modell sagt eine mögliche Wirksamkeit beim **Scheie-Syndrom** voraus,
 
 ## Warum ist diese Vorhersage (nur eingeschränkt) plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Vestronidase alfa ist rekombinante humane Beta-Glucuronidase (GUSB), die Glykosaminoglykane (GAG) wie Dermatansulfat und Heparansulfat abbaut. Bei MPS VII ist die Wirksamkeit belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Vestronidase Alfa (inoffizielle Übersetzung): „Mukopolysaccharidose VII (MPS VII oder Sly-Syndrom) ist eine lysosomale Erkrankung, die durch einen Mangel an GUS gekennzeichnet ist, der zu einer Akkumulation von GAG in Zellen im gesamten Körper führt, was Multisystemschäden an Geweben und Organen zur Folge hat. Vestronidase alfa-vjbk ist eine rekombinante Form der humanen GUS und soll exogenes GUS-Enzym zur Aufnahme in zelluläre Lysosomen bereitstellen.“ Englischer Originalwortlaut: "Mucopolysaccharidosis VII (MPS VII or Sly syndrome) is a lysosomal disorder characterized by the deficiency of GUS that results in GAG accumulation in cells throughout the body leading to multisystem tissue and organ damage. Vestronidase alfa-vjbk is a recombinant form of human GUS and is intended to provide exogenous GUS enzyme for uptake into cellular lysosomes." ([DailyMed: Mepsevii (vestronidase alfa) prescribing information, Ultragenyx Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=925d4e21-fd98-474d-a34d-a0b3558ed750), Fassung vom 2026-10-26; abgerufen am 2026-11-19). Bekannt ist: Vestronidase alfa ist rekombinante humane Beta-Glucuronidase (GUSB), die Glykosaminoglykane (GAG) wie Dermatansulfat und Heparansulfat abbaut. Bei MPS VII ist die Wirksamkeit belegt.
 
 Das Scheie-Syndrom (abgeschwächte MPS I) wird durch einen Mangel an Alpha-L-Iduronidase (IDUA) verursacht, wodurch sich Dermatan- und Heparansulfat anreichern. Vestronidase alfa wirkt in einem anderen Schritt des Abbauwegs und **kann die fehlende IDUA-Aktivität nicht ersetzen**. Der mechanistische Zusammenhang ist daher schwach. Der hohe TxGNN-Wert spiegelt vermutlich nur die gemeinsame Biologie der GAG-Speicherung wider.
 
@@ -140,12 +140,13 @@ Für das Scheie-Syndrom gibt es weder klinische Studien noch Literatur, und der 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die deutsche Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „da die Zulassung erloschen ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Mepsevii (vestronidase alfa) prescribing information, Ultragenyx Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=925d4e21-fd98-474d-a34d-a0b3558ed750) |
 
 <!-- review:end log -->
 

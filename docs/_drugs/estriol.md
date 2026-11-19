@@ -58,7 +58,7 @@ Estriol ist ein schwaches, kurz wirksames Estrogen, das an Estrogenrezeptoren bi
 
 ## Warum ist diese Vorhersage plausibel?
 
-Estriol wirkt als Agonist an den Estrogenrezeptoren α (ESR1) und β (ESR2), mit vergleichsweise stärkerer Aktivität am ERβ. Detaillierte Daten zum ursprünglichen Wirkmechanismus liegen derzeit nicht vor.
+Estriol wirkt als Agonist an den Estrogenrezeptoren α (ESR1) und β (ESR2), mit vergleichsweise stärkerer Aktivität am ERβ. Laut ChEMBL (EMBL-EBI) ist für Estriol folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Estrogenrezeptor-Modulator“ Englischer Originalwortlaut: "Estrogen receptor modulator" ([ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482), CC BY-SA 3.0; abgerufen am 2026-11-19).
 
 Bei der funktionellen hypothalamischen Amenorrhoe (FHA) ist die pulsatile GnRH-Freisetzung im Hypothalamus gestört. Folge sind niedrige LH- und FSH-Spiegel sowie ein Estrogenmangel. Niedrig dosierte Estrogene könnten als neuroendokrine Modulatoren wirken und das LH-Sekretionsmuster teilweise normalisieren. Dies legen eine physiologische Studie von 2012 (Estriol bei Frauen mit FHA) und eine Übersichtsarbeit von 2023 nahe. Ein Estrogenersatz könnte zudem die Folgen des Estrogenmangels für Knochen und Herz-Kreislauf-System abmildern.
 
@@ -115,6 +115,19 @@ Die Evidenz beschränkt sich auf eine kleine physiologische Studie und eine Übe
 - Klärung der ursprünglichen Indikation und der Zulassungssituation in Deutschland (die einzige Zulassung ist aufgehoben)
 - Kontrollierte klinische Studien mit klinischen Endpunkten (Menstruation, Ovulation, Knochengesundheit), eingegrenzt auf Amenorrhoe-Formen mit Estrogenmangel
 - Prüfung der Darreichungswege und der Eignung für die Zielpopulation
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

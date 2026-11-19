@@ -62,7 +62,7 @@ Trametinib ist ein MEK-Inhibitor, der ursprünglich zur Behandlung des Melanoms 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Aus den pharmakologischen Daten ist bekannt, dass Trametinib die Kinasen MEK1 (MAP2K1) und MEK2 (MAP2K2) hemmt und damit den MAPK-Signalweg unterhalb von BRAF/RAS blockiert. Beim BRAF-V600-mutierten Melanom ist dieser Signalweg dauerhaft aktiviert, daher die Wirksamkeit.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Trametinib (inoffizielle Übersetzung): „Trametinib ist ein reversibler Inhibitor der Aktivierung der mitogenaktivierten, durch extrazelluläre Signale regulierten Kinase 1 (MEK1) und MEK2 sowie der Kinaseaktivität von MEK1 und MEK2. MEK-Proteine sind vorgeschaltete Regulatoren des Signalwegs der extrazellulären signalregulierten Kinase (ERK), der die Zellproliferation fördert.“ Englischer Originalwortlaut: "Trametinib is a reversible inhibitor of mitogen-activated extracellular signal-regulated kinase 1 (MEK1) and MEK2 activation and of MEK1 and MEK2 kinase activity. MEK proteins are upstream regulators of the extracellular signal-related kinase (ERK) pathway, which promotes cellular proliferation." ([DailyMed: Mekinist (trametinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0002ad27-779d-42ab-83b5-bc65453412a1), Fassung vom 2026-05-07; abgerufen am 2026-11-19). Aus den pharmakologischen Daten ist bekannt, dass Trametinib die Kinasen MEK1 (MAP2K1) und MEK2 (MAP2K2) hemmt und damit den MAPK-Signalweg unterhalb von BRAF/RAS blockiert. Beim BRAF-V600-mutierten Melanom ist dieser Signalweg dauerhaft aktiviert, daher die Wirksamkeit.
 
 Für Choroideremie lässt sich dieser Zusammenhang **nicht** herstellen. Die Erkrankung ist eine X-chromosomal vererbte Netzhautdegeneration durch Funktionsverlust des CHM-Gens (REP1). Sie wird nicht durch eine MAPK-Aktivierung getrieben. Eine plausible MEK-Hemmungs-Begründung ist nicht erkennbar. Die Ähnlichkeit zur ursprünglichen Indikation wurde bislang nicht bewertet.
 
@@ -150,12 +150,13 @@ Für Choroideremie fehlen sowohl Studien als auch Literatur, und es gibt keinen 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Die einzige erfasste Zulassung hat den Status „erloschen““ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Zudem ist die deutsche Zulassung erloschen und die Sicherheitsdaten der Fachinformation fehlen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Mekinist (trametinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0002ad27-779d-42ab-83b5-bc65453412a1) |
 
 <!-- review:end log -->
 

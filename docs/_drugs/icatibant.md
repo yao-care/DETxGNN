@@ -55,7 +55,7 @@ Icatibant ist ein Peptid-Antagonist des Bradykinin-B2-Rezeptors. Das TxGNN-Model
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben aus der Arzneimitteldatenbank vor. Pharmakologische Daten zeigen, dass Icatibant als Peptid den Bradykinin-B2-Rezeptor (BDKRB2) und den B1-Rezeptor (BDKRB1) bindet und so die Bradykinin-Signalwirkung blockiert.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Icatibant (inoffizielle Übersetzung): „Icatibant ist ein selektiver kompetitiver Antagonist am Bradykinin-B2-Rezeptor mit einer ähnlichen Affinität wie Bradykinin. Das hereditäre Angioödem wird durch ein Fehlen oder eine Funktionsstörung des C1-Esterase-Inhibitors verursacht, eines zentralen Regulators der proteolytischen Faktor-XII/Kallikrein-Kaskade, die zur Bildung von Bradykinin führt.“ Englischer Originalwortlaut: "Icatibant is a competitive antagonist selective for the bradykinin B2 receptor, with an affinity similar to bradykinin. Hereditary angioedema is caused by an absence or dysfunction of C1-esterase-inhibitor, a key regulator of the Factor XII/kallikrein proteolytic cascade that leads to bradykinin production." ([DailyMed: Firazyr (icatibant acetate) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ed6657ca-ab68-477a-9968-e12dc928b540), Fassung vom 2025-07-07; abgerufen am 2026-11-19). Pharmakologische Daten zeigen, dass Icatibant als Peptid den Bradykinin-B2-Rezeptor (BDKRB2) und den B1-Rezeptor (BDKRB1) bindet und so die Bradykinin-Signalwirkung blockiert.
 
 Der hohe Score ist vermutlich auf eine Nähe im Netzwerk zu SERPING1 zurückzuführen, einem Serpin. Die toxische Serpin-Polymerisation ist jedoch ein Mechanismus aus Proteinfehlfaltung und Aggregation, der durch eine B2-Rezeptor-Blockade nicht adressiert wird. Eine belastbare mechanistische Verbindung ist daher nicht erkennbar. Die Vorhersage ist als rein rechnerisch einzustufen und mit großer Vorsicht zu bewerten.
 
@@ -99,11 +99,12 @@ Für die vorhergesagte Indikation gibt es weder klinische Studien noch Publikati
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Für den erworbenen C1-INH-Mangel ist die Evidenz begrenzt, und in Deutschland bestehen derzeit nur erloschene Zulassungen“ | Nach Neuerstellung des Berichts nicht mehr vorhanden (2026-11-12: der Bericht wurde im November 2026 neu erstellt und enthält diese Aussage nicht mehr; vorher: Korrigiert) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Firazyr (icatibant acetate) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ed6657ca-ab68-477a-9968-e12dc928b540) |
 
 <!-- review:end log -->
 

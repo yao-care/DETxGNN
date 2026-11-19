@@ -60,7 +60,7 @@ Dafür liegen bislang **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Catridecacog ist die rekombinante A-Untereinheit des Gerinnungsfaktors XIII. Sie stabilisiert Fibringerinnsel durch Quervernetzung (Cross-Linking). Seine Wirksamkeit bei angeborenen Gerinnungsstörungen bildet die Grundlage der ursprünglichen Zulassung.
+Laut ChEMBL (EMBL-EBI) ist für Catridecacog folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Exogenes Gerinnungsfaktor-XIII-Protein“ Englischer Originalwortlaut: "Coagulation factor XIII exogenous protein" ([ChEMBL CHEMBL2108282 (catridecacog): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108282), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist: Catridecacog ist die rekombinante A-Untereinheit des Gerinnungsfaktors XIII. Sie stabilisiert Fibringerinnsel durch Quervernetzung (Cross-Linking). Seine Wirksamkeit bei angeborenen Gerinnungsstörungen bildet die Grundlage der ursprünglichen Zulassung.
 
 Bei der Thrombozyten-Freisetzungsstörung ist die Abgabe von Granulainhalten aus den Blutplättchen gestört, nicht primär ein Faktor-XIII-Mangel. Ein möglicher Nutzen wäre daher allenfalls indirekt, etwa durch eine zusätzliche Stabilisierung des Fibringerinnsels nach der gestörten Thrombozytenfunktion. Dieser Zusammenhang ist durch keine Daten belegt und rein spekulativ. Der hohe TxGNN-Wert (0,9929) ist eine rechnerische Vorhersage und kein Wirksamkeitsnachweis.
 
@@ -122,11 +122,12 @@ Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzgrad L5), ohn
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „angesichts der erloschenen Zulassung“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL2108282 (catridecacog): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108282) |
 
 <!-- review:end log -->
 

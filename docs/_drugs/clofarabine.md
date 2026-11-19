@@ -58,7 +58,7 @@ Clofarabin ist ein Purinnukleosid-Analogon, das ursprünglich zur Behandlung der
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben aus der Arzneimitteldatenbank vor. Aus der Literatur ist jedoch bekannt: Clofarabin ist ein Purinnukleosid-Analogon der zweiten Generation. Es hemmt die Ribonukleotid-Reduktase und die DNA-Polymerase, vermindert dadurch die für die DNA-Replikation verfügbaren Desoxynukleosidtriphosphate und löst Apoptose über mitochondriale Signalwege aus.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Clofarabine (inoffizielle Übersetzung): „Clofarabin wird intrazellulär sequenziell durch die Desoxycytidinkinase zum 5’-Monophosphat-Metaboliten und durch Mono- und Diphosphokinasen zum aktiven 5’-Triphosphat-Metaboliten metabolisiert. Clofarabin besitzt eine Affinität zum aktivierenden phosphorylierenden Enzym Desoxycytidinkinase, die gleich groß oder größer ist als die des natürlichen Substrats Desoxycytidin.“ Englischer Originalwortlaut: "Clofarabine is sequentially metabolized intracellularly to the 5’-monophosphate metabolite by deoxycytidine kinase and mono- and di-phospho-kinases to the active 5’-triphosphate metabolite. Clofarabine has affinity for the activating phosphorylating enzyme, deoxycytidine kinase, equal to or greater than that of the natural substrate, deoxycytidine." ([DailyMed: clofarabine prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26b2de66-6518-49ab-820e-492454cbc873), Fassung vom 2026-08-24; abgerufen am 2026-11-19). Aus der Literatur ist jedoch bekannt: Clofarabin ist ein Purinnukleosid-Analogon der zweiten Generation. Es hemmt die Ribonukleotid-Reduktase und die DNA-Polymerase, vermindert dadurch die für die DNA-Replikation verfügbaren Desoxynukleosidtriphosphate und löst Apoptose über mitochondriale Signalwege aus.
 
 Lymphoblastische und myeloische Leukämie sind beides Erkrankungen schnell proliferierender Blasten. Ein Wirkstoff, der die DNA-Synthese in teilungsaktiven Zellen hemmt, kann daher mechanistisch auf beide Formen übertragbar sein. Dies stützen eine abgeschlossene randomisierte Phase-3-Studie bei AML (NCT02085408) sowie zahlreiche Phase-2-Studien.
 
@@ -173,11 +173,12 @@ Für die myeloische Leukämie liegen zwei abgeschlossene Phase-3-Studien sowie z
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „da die einzige Zulassung erloschen ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: clofarabine prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26b2de66-6518-49ab-820e-492454cbc873) |
 
 <!-- review:end log -->
 

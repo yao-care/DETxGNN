@@ -58,7 +58,7 @@ Insulin glulisin ist ein schnell wirksames Insulinanalogon, das ursprünglich zu
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu den Daten, die für diesen Bericht zusammengestellt wurden, liegen derzeit keine detaillierten Angaben zum Wirkmechanismus vor. Nach bekanntem Stand ist Insulin glulisin ein schnell wirksames Analogon des Humaninsulins. Es aktiviert den Insulinrezeptor und senkt dadurch den Blutzucker. Es setzt schneller ein und wirkt kürzer als Normalinsulin.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Insulin Glulisine (inoffizielle Übersetzung): „Die Regulation des Glucosestoffwechsels ist die primäre Wirkung von Insulinen und Insulinanaloga, einschließlich Insulinglulisin. Insuline senken den Blutzucker, indem sie die periphere Glucoseaufnahme durch Skelettmuskulatur und Fettgewebe stimulieren und die hepatische Glucoseproduktion hemmen.“ Englischer Originalwortlaut: "Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin glulisine. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa), Fassung vom 2025-11-25; abgerufen am 2026-11-19). Nach bekanntem Stand ist Insulin glulisin ein schnell wirksames Analogon des Humaninsulins. Es aktiviert den Insulinrezeptor und senkt dadurch den Blutzucker. Es setzt schneller ein und wirkt kürzer als Normalinsulin.
 
 Diabetes mellitus Typ 1 ist der Kernbereich der zugelassenen Indikation „Diabetes mellitus". Die Vorhersage ist daher keine echte Neuausrichtung, sondern bestätigt vorhandene klinische Evidenz. Mechanistisch ist sie naheliegend, da bei Typ 1 ein absoluter Insulinmangel besteht, der durch Insulinersatz ausgeglichen wird.
 
@@ -173,13 +173,14 @@ Für Diabetes mellitus Typ 1 liegen mehrere abgeschlossene Phase-3-Studien und r
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Zu beachten ist: Da nur eine erloschene Zulassung vorliegt, ist die Verfügbarkeit in Deutschland eingeschränkt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Da die deutsche Zulassung erloschen ist, bestätigt die Empfehlung vorhandene Evidenz und stellt keinen neuen Repurposing-Vorschlag dar“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „(erloschene Zulassung, ggf. Alternativpräparate oder Neuzulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa) |
 
 <!-- review:end log -->
 

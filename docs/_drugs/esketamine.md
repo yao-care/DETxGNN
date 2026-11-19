@@ -56,7 +56,7 @@ Derzeit liegen dafür **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für die Erstellung dieses Berichts liegen keine detaillierten Daten zum Wirkmechanismus vor. Bekannt ist, dass Esketamin ein NMDA-Rezeptor-Antagonist ist, das glutamaterge Signalwege moduliert und schnell antidepressiv wirkt. Diese Angabe stammt aus allgemeinem Fachwissen und nicht aus den für diesen Bericht zusammengestellten Daten.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Esketamine (inoffizielle Übersetzung): „Esketamin, das S-Enantiomer des racemischen Ketamins, ist ein nichtselektiver, nichtkompetitiver Antagonist des N -Methyl- D -Aspartat(NMDA)-Rezeptors, eines ionotropen Glutamatrezeptors. Der Mechanismus, über den Esketamin seine antidepressive Wirkung entfaltet, ist nicht bekannt.“ Englischer Originalwortlaut: "Esketamine, the S-enantiomer of racemic ketamine, is a non-selective, non-competitive antagonist of the N -methyl- D -aspartate (NMDA) receptor, an ionotropic glutamate receptor. The mechanism by which esketamine exerts its antidepressant effect is unknown." ([DailyMed: Spravato (esketamine hydrochloride) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d81a6a79-a74a-44b7-822c-0dfa3036eaed), Fassung vom 2026-09-22; abgerufen am 2026-11-19). Bekannt ist, dass Esketamin ein NMDA-Rezeptor-Antagonist ist, das glutamaterge Signalwege moduliert und schnell antidepressiv wirkt. Diese Angabe stammt aus allgemeinem Fachwissen und nicht aus den für diesen Bericht zusammengestellten Daten.
 
 Agoraphobie tritt häufig gemeinsam mit Panikstörung und Depression auf. Gemeinsame neuronale Schaltkreise für Angst und Stimmung könnten daher eine Rolle spielen. Dieser Zusammenhang ist plausibel, aber nicht überprüft.
 
@@ -120,6 +120,19 @@ Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert (Evidenzg
 ## Hinweis zur zweiten Vorhersage
 
 Die zweite Vorhersage, **gutartiger paroxysmaler Torticollis des Säuglingsalters** (Score 0,9949), ist ebenfalls nur modellbasiert (L5, Hold). Ein plausibler mechanistischer Zusammenhang ist nicht erkennbar. Zudem ist Esketamin bei Säuglingen nicht als sicher oder geeignet etabliert. Die Vorhersage dürfte ein Artefakt der graphbasierten Inferenz sein und sollte nicht weiterverfolgt werden.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Spravato (esketamine hydrochloride) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d81a6a79-a74a-44b7-822c-0dfa3036eaed) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -56,7 +56,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Evolocumab ein PCSK9-hemmender Antikörper ist: Er erhöht die Verfügbarkeit von LDL-Rezeptoren und senkt dadurch das LDL-Cholesterin.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Evolocumab (inoffizielle Übersetzung): „Evolocumab ist ein humaner monoklonaler IgG2-Antikörper, der gegen die humane Proproteinkonvertase Subtilisin/Kexin Typ 9 (PCSK9) gerichtet ist. PCSK9 bindet an den Low-Density-Lipoprotein-Rezeptor (LDLR) auf der Oberfläche von Hepatozyten und fördert den Abbau des LDLR in der Leber.“ Englischer Originalwortlaut: "Evolocumab is a human monoclonal IgG2 directed against human proprotein convertase subtilisin kexin type 9 (PCSK9). PCSK9 binds to the low-density lipoprotein receptor (LDLR) on the surface of hepatocytes to promote LDLR degradation within the liver." ([DailyMed: Repatha (evolocumab) prescribing information, Amgen USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd61e902-166d-4aa6-9f3c-a18c1008d07e), Fassung vom 2026-10-12; abgerufen am 2026-11-19). Bekannt ist, dass Evolocumab ein PCSK9-hemmender Antikörper ist: Er erhöht die Verfügbarkeit von LDL-Rezeptoren und senkt dadurch das LDL-Cholesterin.
 
 Ein plausibler mechanistischer Zusammenhang mit der neuen Indikation ist nicht erkennbar. Beschwerden bei Hämophilie-Trägerinnen entstehen durch eine verminderte Aktivität von Faktor VIII oder IX infolge X-chromosomaler Varianten und des X-Inaktivierungsmusters. Dies hat mit PCSK9 oder dem LDL-Stoffwechsel nichts zu tun. Der hohe TxGNN-Wert ist eine rein graphbasierte Vorhersage und durch keine Studie oder Publikation gestützt.
 
@@ -114,11 +114,12 @@ Die Vorhersage beruht ausschließlich auf einem Graphmodell, ohne Studien oder P
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die einzige in Deutschland erfasste Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Repatha (evolocumab) prescribing information, Amgen USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd61e902-166d-4aa6-9f3c-a18c1008d07e) |
 
 <!-- review:end log -->
 

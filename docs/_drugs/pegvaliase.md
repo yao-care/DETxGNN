@@ -62,7 +62,7 @@ Weitere vorhergesagte Indikationen (ebenfalls L5, jeweils Hold):
 
 ## Warum ist diese Vorhersage plausibel?
 
-Pegvaliase ist eine PEGylierte Phenylalanin-Ammoniak-Lyase. Sie wandelt Phenylalanin in trans-Zimtsäure und Ammoniak um und senkt so den Phenylalaninspiegel im Blut bei Phenylketonurie. Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten nicht vor.
+Pegvaliase ist eine PEGylierte Phenylalanin-Ammoniak-Lyase. Sie wandelt Phenylalanin in trans-Zimtsäure und Ammoniak um und senkt so den Phenylalaninspiegel im Blut bei Phenylketonurie. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Pegvaliase (inoffizielle Übersetzung): „Pegvaliase-pqpz ist ein PEGyliertes Phenylalanin-Ammoniak-Lyase-(PAL)-Enzym, das Phenylalanin in Ammoniak und trans -Zimtsäure umwandelt. Es ersetzt die mangelnde Aktivität des Enzyms Phenylalaninhydroxylase (PAH) bei Patienten mit PKU und senkt die Phenylalaninkonzentrationen im Blut.“ Englischer Originalwortlaut: "Pegvaliase-pqpz is a PEGylated phenylalanine ammonia lyase (PAL) enzyme that converts phenylalanine to ammonia and trans -cinnamic acid. It substitutes for the deficient phenylalanine hydroxylase (PAH) enzyme activity in patients with PKU and reduces blood phenylalanine concentrations." ([DailyMed: Palynziq (pegvaliase-pqpz) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dba844a-db02-44f8-8593-ce497ed9406c), Fassung vom 2026-03-02; abgerufen am 2026-11-19).
 
 Ein mechanistischer Zusammenhang zwischen der Senkung von Phenylalanin und der diabetischen Retinopathie ist durch die vorliegenden Daten **nicht belegt**. Die diabetische Retinopathie entsteht durch hyperglykämiebedingte Schädigung des Endothels, VEGF-Signalwege und Entzündung, ohne dokumentierte Verbindung zum Phenylalaninstoffwechsel. Der hohe TxGNN-Wert ist eine rein rechnerische Vorhersage und jede Verknüpfung wäre spekulativ.
 
@@ -129,11 +129,12 @@ Die Vorhersage beruht ausschließlich auf einem Modellwert (L5) ohne klinische S
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Diese Zulassung ist erloschen bzw. zurückgezogen (Status: cancelled)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Palynziq (pegvaliase-pqpz) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dba844a-db02-44f8-8593-ce497ed9406c) |
 
 <!-- review:end log -->
 

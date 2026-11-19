@@ -58,7 +58,7 @@ Filgrastim (G-CSF) wird ursprünglich zur Behandlung der Neutropenie bei Krebser
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Filgrastim ein rekombinanter Granulozyten-koloniestimulierender Faktor (G-CSF) ist. Er wirkt auf die granulozytäre Reihe und wird bei Neutropenie sowie zur Stammzellmobilisierung eingesetzt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Filgrastim (inoffizielle Übersetzung): „Koloniestimulierende Faktoren sind Glykoproteine, die auf hämatopoetische Zellen wirken, indem sie an spezifische Rezeptoren auf der Zelloberfläche binden und die Proliferation, die Differenzierungsfestlegung sowie bestimmte funktionelle Aktivierungen der ausgereiften Zellen stimulieren. Endogenes G-CSF ist ein linienspezifischer koloniestimulierender Faktor, der von Monozyten, Fibroblasten und Endothelzellen gebildet wird.“ Englischer Originalwortlaut: "Colony-stimulating factors are glycoproteins which act on hematopoietic cells by binding to specific cell surface receptors and stimulating proliferation‚ differentiation commitment‚ and some end-cell functional activation. Endogenous G-CSF is a lineage-specific colony-stimulating factor that is produced by monocytes‚ fibroblasts, and endothelial cells." ([DailyMed: Releuko (filgrastim) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74e1ec6e-1630-4654-895c-2bd355f939e7), Fassung vom 2026-11-10; abgerufen am 2026-11-19). Bekannt ist, dass Filgrastim ein rekombinanter Granulozyten-koloniestimulierender Faktor (G-CSF) ist. Er wirkt auf die granulozytäre Reihe und wird bei Neutropenie sowie zur Stammzellmobilisierung eingesetzt.
 
 Ein plausibler mechanistischer Zusammenhang zwischen dieser Wirkung und der Korrektur einer Störung der Thrombozytensekretion ist anhand der vorliegenden Daten nicht erkennbar. Der sehr hohe Wert stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz. Die Vorhersage sollte daher als reine Hypothese betrachtet werden.
 
@@ -116,6 +116,19 @@ Die Vorhersage stützt sich ausschließlich auf einen Modellwert des TxGNN-Model
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da die Sicherheitsprüfung bislang nicht abgeschlossen werden kann
 - Klärung des aktuellen Zulassungsstatus der Filgrastim-Präparate
 - Prüfung, ob unter den weiteren Vorhersagen eine Indikation mit besserer Evidenz existiert
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Releuko (filgrastim) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74e1ec6e-1630-4654-895c-2bd355f939e7) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

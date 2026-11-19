@@ -59,7 +59,7 @@ Das TxGNN-Modell (Deep Learning) sagt voraus, dass er bei **Haarzellleukämie** 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für diesen Wirkstoff liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Bekannt ist, dass Interferone eine antiproliferative und immunmodulatorische Klassenwirkung haben. Interferon beta-1b wird bei Multipler Sklerose eingesetzt, wo es die T-Zell-Aktivierung und proinflammatorische Zytokine reduziert.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Interferon Beta-1B (inoffizielle Übersetzung): „Der Wirkmechanismus von BETASERON (Interferon beta-1b) bei Patienten mit Multipler Sklerose ist unbekannt.“ Englischer Originalwortlaut: "The mechanism of action of BETASERON (interferon beta-1b) in patients with multiple sclerosis is unknown." ([DailyMed: Betaseron (interferon beta-1b) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66311f74-0472-4fa3-848a-06002ca0def5), Fassung vom 2026-03-03; abgerufen am 2026-11-19). Bekannt ist, dass Interferone eine antiproliferative und immunmodulatorische Klassenwirkung haben. Interferon beta-1b wird bei Multipler Sklerose eingesetzt, wo es die T-Zell-Aktivierung und proinflammatorische Zytokine reduziert.
 
 Interferon alfa wurde historisch bei Haarzellleukämie eingesetzt. Die hohe Vorhersage dürfte vor allem die Nähe zu Interferon-Wirkstoffen im Wissensnetzwerk widerspiegeln. Sie belegt nicht, dass Interferon beta-1b selbst wirksam ist. Zudem sind Purinanaloga (Cladribin, Pentostatin) und BRAF-Inhibitoren inzwischen der Therapiestandard, sodass der klinische Bedarf für eine Interferon-Option gering ist.
 
@@ -145,11 +145,12 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Die Zulassung in Deutschland ist zudem erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Betaseron (interferon beta-1b) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66311f74-0472-4fa3-848a-06002ca0def5) |
 
 <!-- review:end log -->
 

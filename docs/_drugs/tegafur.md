@@ -54,7 +54,7 @@ Tegafur ist ein oral verfügbares Fluoropyrimidin, das im Körper zu 5-Fluoroura
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Tegafur liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Tegafur ein Prodrug von 5-Fluorouracil ist. Es gehört zu den Fluoropyrimidinen und wirkt als Antimetabolit, der die DNA-Synthese in sich schnell teilenden Zellen stört.
+Laut ChEMBL (EMBL-EBI) ist für Tegafur folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „RNA-Inhibitor; Thymidylatsynthase-Inhibitor; DNA-Inhibitor“ Englischer Originalwortlaut: "RNA inhibitor; Thymidylate synthase inhibitor; DNA inhibitor" ([ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist, dass Tegafur ein Prodrug von 5-Fluorouracil ist. Es gehört zu den Fluoropyrimidinen und wirkt als Antimetabolit, der die DNA-Synthese in sich schnell teilenden Zellen stört.
 
 Ein villöses Adenom des Zäkums ist eine gutartige Vorläuferläsion im Dickdarm. Das Modell verknüpft sie vermutlich wegen der Nähe zu Darmtumoren mit Tegafur. Eine zytotoxische Fluoropyrimidin-Therapie ist bei gutartigen Läsionen kein Standardvorgehen. Die Standardbehandlung ist in der Regel die endoskopische oder chirurgische Entfernung. Ein belastbarer mechanistischer Zusammenhang ist daher derzeit nicht erkennbar. Die Vorhersage bleibt eine Hypothese.
 
@@ -102,6 +102,18 @@ Die Vorhersage (Wert 0,9986) stützt sich nur auf das Modell, es gibt weder Stud
 - Eine systematische Literaturrecherche und gegebenenfalls präklinische Daten zu dieser Erkrankung.
 - Detaillierte Wirkmechanismus-Daten (MOA).
 - Vollständige Sicherheitsinformationen aus der aktuellen Packungsbeilage, einschließlich Warnhinweisen und Gegenanzeigen.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

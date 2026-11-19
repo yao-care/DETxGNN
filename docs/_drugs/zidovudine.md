@@ -54,7 +54,7 @@ Zidovudin ist ein Nukleosid-Reverse-Transkriptase-Hemmer, der ursprünglich zur 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu den Wirkmechanismen liegen in den zusammengestellten Daten derzeit keine detaillierten Angaben vor. Bekannt ist: Zidovudin ist ein Nukleosid-Reverse-Transkriptase-Hemmer (NRTI), dessen Wirksamkeit bei HIV belegt ist. Das Feline Immundefizienzvirus (FIV) ist ein Lentivirus mit einer Reverse Transkriptase, die der von HIV-1 eng verwandt ist. Der Wirkmechanismus lässt sich daher plausibel übertragen.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Zidovudine (inoffizielle Übersetzung): „Zidovudin ist ein antiretroviraler Wirkstoff. […] Zidovudin ist ein synthetisches Nukleosidanalogon. Intrazellulär wird Zidovudin zu seinem aktiven 5′-Triphosphat-Metaboliten, Zidovudintriphosphat (ZDV-TP), phosphoryliert. Der hauptsächliche Wirkmechanismus von ZDV-TP ist die Hemmung der Reversen Transkriptase (RT) durch DNA-Kettenabbruch nach Einbau des Nukleotidanalogons.“ Englischer Originalwortlaut: "Zidovudine is an antiretroviral agent. […] Zidovudine is a synthetic nucleoside analogue. Intracellularly, zidovudine is phosphorylated to its active 5′-triphosphate metabolite, zidovudine triphosphate (ZDV-TP). The principal mode of action of ZDV-TP is inhibition of reverse transcriptase (RT) via DNA chain termination after incorporation of the nucleotide analogue." ([DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84), Fassung vom 2024-11-13; abgerufen am 2026-11-19). Bekannt ist: Zidovudin ist ein Nukleosid-Reverse-Transkriptase-Hemmer (NRTI), dessen Wirksamkeit bei HIV belegt ist. Das Feline Immundefizienzvirus (FIV) ist ein Lentivirus mit einer Reverse Transkriptase, die der von HIV-1 eng verwandt ist. Der Wirkmechanismus lässt sich daher plausibel übertragen.
 
 Veröffentlichte Arbeiten umfassen Studien an natürlich infizierten Katzen sowie an SCID-Katzen-Mäusen, in denen die Provirenlast sank. In einigen Studien senkte Zidovudin die Plasma-Viruslast und verhinderte frühe Virämie. Eine Infektion verhinderte es jedoch nicht. Zudem wurde eine Toxizität bei FeLV-infizierten Katzen beschrieben (PMID 2163339).
 
@@ -138,13 +138,14 @@ Die Evidenz für felines AIDS stammt ausschließlich aus Tier- und Veterinärstu
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Zudem sind in Deutschland nur erloschene Zulassungen vorhanden“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-10-31 | Entfernt: „Bei den Rängen 5 und 6 sind Marktstatus (nur erloschene Zulassungen), Verdrängung durch moderne Kombinations-ART, hämatologische Toxizität u“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Tabelle: Trizivir (EMEA/H/C/000338) ist zurückgenommen, nicht gültig | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84) |
 
 <!-- review:end log -->
 

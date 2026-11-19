@@ -59,7 +59,7 @@ Ribociclib-Succinat ist ein CDK4/6-Inhibitor, der in Deutschland im Handel ist. 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Ribociclib die Cyclin-abhängigen Kinasen 4 und 6 (CDK4/6) hemmt und damit in den Zellzyklus eingreift. Die Signalwege von CDK4/6 sind für die Proliferation von Zellen myeloischer Leukämie relevant, was einen plausiblen mechanistischen Ansatz darstellt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Ribociclib Succinate (inoffizielle Übersetzung): „Ribociclib ist ein Inhibitor der cyclinabhängigen Kinase (CDK) 4 und 6. Diese Kinasen werden durch Bindung an D-Cycline aktiviert und liegen nachgeschaltet von Signalwegen, die zum Fortschreiten des Zellzyklus und zur Zellproliferation führen.“ Englischer Originalwortlaut: "Ribociclib is an inhibitor of cyclin-dependent kinase (CDK) 4 and 6. These kinases are activated upon binding to D-cyclins and are downstream of signaling pathways which lead to cell cycle progression and cellular proliferation." ([DailyMed: Kisqali (ribociclib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8), Fassung vom 2026-07-01; abgerufen am 2026-11-19). Bekannt ist, dass Ribociclib die Cyclin-abhängigen Kinasen 4 und 6 (CDK4/6) hemmt und damit in den Zellzyklus eingreift. Die Signalwege von CDK4/6 sind für die Proliferation von Zellen myeloischer Leukämie relevant, was einen plausiblen mechanistischen Ansatz darstellt.
 
 Eine präklinische Arbeit aus dem Jahr 2020 (PMID 32560251) berichtet, dass CDK4/6-Inhibitoren in Zellen der akuten myeloischen Leukämie (AML) pharmakokinetisch bedingte Resistenzen adressieren könnten, die mit den Transportern ABCB1 und ABCG2 zusammenhängen. Diese Evidenz ist indirekt und beschränkt sich auf In-vitro-Daten. Der hohe Vorhersagewert ist eine rechnerische Aussage und klinisch nicht validiert.
 
@@ -118,6 +118,19 @@ Für myeloische Leukämie liegen keine klinischen Studien vor, und die einzige t
 - Detaillierte Daten zum Wirkmechanismus (MOA)
 - Direkte präklinische Daten zu Ribociclib in AML-Modellen und, falls vielversprechend, frühe klinische Studien
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) und ein Sicherheitskonzept für die hämatologische Toxizität
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Kisqali (ribociclib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

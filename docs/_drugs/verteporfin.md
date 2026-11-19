@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Verteporfin ist ein Photosensibilisator vom Typ eines Benzoporphyrin-Derivats. Nach Aktivierung durch Licht erzeugt es reaktive Sauerstoffspezies (ROS) und wird bei neovaskulärer Makuladegeneration und verwandten Augenerkrankungen eingesetzt. In präklinischen Arbeiten wurde zudem berichtet, dass es unabhängig vom Licht die YAP-TEAD-Signalübertragung hemmen kann.
+Laut ChEMBL (EMBL-EBI) ist für Verteporfin folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „DNA-Inhibitor“ Englischer Originalwortlaut: "DNA inhibitor" ([ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist: Verteporfin ist ein Photosensibilisator vom Typ eines Benzoporphyrin-Derivats. Nach Aktivierung durch Licht erzeugt es reaktive Sauerstoffspezies (ROS) und wird bei neovaskulärer Makuladegeneration und verwandten Augenerkrankungen eingesetzt. In präklinischen Arbeiten wurde zudem berichtet, dass es unabhängig vom Licht die YAP-TEAD-Signalübertragung hemmen kann.
 
 Eine mögliche, aber nicht belegte Verbindung zu mitochondrialen Erkrankungen könnte über die Beeinflussung von oxidativem Stress, der Mitochondrienfunktion oder des Hippo/YAP-Signalwegs bestehen. Die Vorhersage stützt sich ausschließlich auf den sehr hohen TxGNN-Wert, nicht auf klinische oder literarische Belege.
 
@@ -131,12 +131,13 @@ Die Vorhersage beruht nur auf einem hohen Modellwert (Evidenzstufe L5) ohne klin
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Diese Zulassung ist erloschen; gültige Zulassungen bestehen derzeit nicht“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Zudem ist die einzige Zulassung in Deutschland erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346) |
 
 <!-- review:end log -->
 

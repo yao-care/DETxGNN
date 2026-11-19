@@ -58,7 +58,7 @@ Pitolisant ist ein Histamin-H3-Rezeptor-Antagonist bzw. inverser Agonist, der ur
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Aus der Literatur ist bekannt: Pitolisant blockiert Histamin-H3-Autorezeptoren als inverser Agonist, steigert die Histaminfreisetzung im Gehirn und fördert so die Wachheit.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Pitolisant (inoffizielle Übersetzung): „Der Wirkmechanismus von Pitolisant bei exzessiver Tagesschläfrigkeit (EDS) oder Kataplexie bei Patienten ab 6 Jahren mit Narkolepsie ist unklar. Seine Wirksamkeit könnte jedoch über seine Aktivität als Antagonist/inverser Agonist an Histamin-3 (H3)-Rezeptoren vermittelt werden.“ Englischer Originalwortlaut: "The mechanism of action of pitolisant in excessive daytime sleepiness (EDS) or cataplexy in patients 6 years and older with narcolepsy is unclear. However, its efficacy could be mediated through its activity as an antagonist/inverse agonist at histamine-3 (H3) receptors." ([DailyMed: Wakix (pitolisant hydrochloride) prescribing information, Harmony Biosciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8daa5562-824e-476c-9652-26ceef3d4b0e), Fassung vom 2026-02-13; abgerufen am 2026-11-19). Aus der Literatur ist bekannt: Pitolisant blockiert Histamin-H3-Autorezeptoren als inverser Agonist, steigert die Histaminfreisetzung im Gehirn und fördert so die Wachheit.
 
 Genau hier liegt das Problem: Insomnie ist eine Störung mit übermäßiger Erregung bzw. gestörtem Schlaf. Ein wachheitsförderndes Mittel steht dem Therapieziel mechanistisch entgegen und könnte die Beschwerden verschlimmern. Schlaflosigkeit ist zudem eine bekannte Nebenwirkung von Pitolisant. Der hohe TxGNN-Wert spiegelt vermutlich die Nähe im Netzwerk zu Schlaf-Wach-Pfaden (Narkolepsie, Schlafapnoe) wider und keine echte therapeutische Beziehung.
 
@@ -137,12 +137,13 @@ Die Vorhersage „Insomnie" widerspricht dem Wirkmechanismus (wachheitsfördernd
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem sind beide deutschen bzw. europäischen Zulassungen erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Klärung der Gründe für den Zulassungsstatus „erloschen"“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Wakix (pitolisant hydrochloride) prescribing information, Harmony Biosciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8daa5562-824e-476c-9652-26ceef3d4b0e) |
 
 <!-- review:end log -->
 

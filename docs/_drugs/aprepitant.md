@@ -54,7 +54,7 @@ Aprepitant ist ein Antagonist des Neurokinin-1-Rezeptors (NK1). Das TxGNN-Modell
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Aprepitant den NK1-Rezeptor blockiert, an den Substanz P bindet.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Aprepitant (inoffizielle Übersetzung): „Aprepitant ist ein selektiver hochaffiner Antagonist an humanen Substanz-P/Neurokinin-1(NK 1 )-Rezeptoren. Aprepitant besitzt nur eine geringe oder keine Affinität zu Serotonin(5-HT 3 )-, Dopamin- und Corticosteroid-Rezeptoren. In Tiermodellen wurde gezeigt, dass Aprepitant durch zentrale Wirkungen das durch zytotoxische Chemotherapeutika wie Cisplatin induzierte Erbrechen hemmt.“ Englischer Originalwortlaut: "Aprepitant is a selective high-affinity antagonist of human substance P/neurokinin 1 (NK 1 ) receptors. Aprepitant has little or no affinity for serotonin (5-HT 3 ), dopamine, and corticosteroid receptors. Aprepitant has been shown in animal models to inhibit emesis induced by cytotoxic chemotherapeutic agents, such as cisplatin, via central actions." ([DailyMed: Cinvanti (aprepitant) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c218d3a-a508-4abc-9ed8-a6e8e191d1b4), Fassung vom 2026-04-01; abgerufen am 2026-11-19). Bekannt ist, dass Aprepitant den NK1-Rezeptor blockiert, an den Substanz P bindet.
 
 Eine Verbindung zum Wasserhaushalt über die Substanz-P-Signalwege und die zentrale Regulation von Vasopressin ist denkbar, aber spekulativ. Das nephrogene Syndrom der inadäquaten Antidiurese wird durch aktivierende Mutationen des Vasopressin-V2-Rezeptors (AVPR2) verursacht. Dieser Mechanismus wird durch eine NK1-Blockade nicht direkt adressiert. Die Vorhersage ist daher als reine Modellvorhersage zu betrachten.
 
@@ -95,6 +95,19 @@ Der Vorhersagewert ist sehr hoch (0,9997), es gibt jedoch weder klinische Studie
 - Auswertung der Warnhinweise und Kontraindikationen aus der Packungsbeilage (BfArM)
 - Präklinische Daten, die einen Zusammenhang zwischen NK1-Antagonismus und der Wasserrückresorption in der Niere belegen
 - Prüfung der Anwendbarkeit der Darreichungswege für die neue Indikation
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Cinvanti (aprepitant) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c218d3a-a508-4abc-9ed8-a6e8e191d1b4) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

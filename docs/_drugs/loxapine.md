@@ -54,7 +54,7 @@ Loxapin ist ein Antipsychotikum. Das TxGNN-Modell sagt voraus, dass es bei **ret
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Loxapin gehört zu den Antipsychotika, und seine Rezeptorpharmakologie (Antagonismus an Dopamin- und Serotoninrezeptoren) wird in der Fachliteratur mit psychiatrischen Erkrankungen verbunden.
+Laut dem Abschnitt „Clinical Pharmacology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Loxapine (inoffizielle Übersetzung): „Pharmakologisch ist Loxapin ein Antipsychotikum, dessen genauer Wirkmechanismus nicht geklärt ist. Bei mehreren Tierarten wurden jedoch Veränderungen der Erregbarkeit subkortikaler inhibitorischer Areale im Zusammenhang mit Manifestationen der Tranquilisierung wie beruhigenden Wirkungen und Unterdrückung aggressiven Verhaltens beobachtet.“ Englischer Originalwortlaut: "Pharmacologically, loxapine is an antipsychotic for which the exact mode of action has not been established. However, changes in the level of excitability of subcortical inhibitory areas have been observed in several animal species in association with such manifestations of tranquilization as calming effects and suppression of aggressive behavior." ([DailyMed: loxapine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e412c36-66b0-444b-833b-cea79976844e), Fassung vom 2026-11-03; abgerufen am 2026-11-19). Loxapin gehört zu den Antipsychotika, und seine Rezeptorpharmakologie (Antagonismus an Dopamin- und Serotoninrezeptoren) wird in der Fachliteratur mit psychiatrischen Erkrankungen verbunden.
 
 Ein erkennbarer mechanistischer Zusammenhang mit vererbten Netzhautdegenerationen besteht nicht. Der hohe Vorhersagewert von 0,9995 ist ein reines Modellergebnis ohne unterstützende Studien oder Publikationen. Die Vorhersage sollte daher als Hypothese und nicht als Hinweis auf eine tatsächliche Wirksamkeit verstanden werden.
 
@@ -95,6 +95,19 @@ Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzlevel L5). Es
 - Präklinische Studien (z. B. in Zell- oder Tiermodellen der Netzhautdegeneration) zur Prüfung der Hypothese
 - Warnhinweise und Gegenanzeigen aus der Fachinformation des BfArM auswerten
 - Systematische Literaturrecherche zu Loxapin und Netzhauterkrankungen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: loxapine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e412c36-66b0-444b-833b-cea79976844e) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

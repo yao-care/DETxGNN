@@ -60,7 +60,7 @@ Die Evidenz ist sehr dünn: **keine klinischen Studien** und **2 Fallberichte** 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Mometason ist ein potentes Kortikosteroid, das am Glukokortikoid-Rezeptor (NR3C1) wirkt. Darüber vermittelt es entzündungshemmende und immunsuppressive Effekte, etwa die Hemmung der T-Zell-Aktivierung und der Zytokinfreisetzung sowie die Induktion der Lymphozyten-Apoptose.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Mometasone (inoffizielle Übersetzung): „Mometasonfuroat ist ein Corticosteroid mit starker entzündungshemmender Wirkung. Der genaue Wirkmechanismus von Corticosteroiden bei Asthma ist nicht bekannt. Entzündungen sind ein wichtiger Bestandteil der Pathogenese von Asthma.“ Englischer Originalwortlaut: "Mometasone furoate is a corticosteroid demonstrating potent anti-inflammatory activity. The precise mechanism of corticosteroid action on asthma is not known. Inflammation is an important component in the pathogenesis of asthma." ([DailyMed: Asmanex Hfa (mometasone furoate) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c6d63da-41bc-4894-bead-198e66c848ac), Fassung vom 2026-07-07; abgerufen am 2026-11-19). Bekannt ist: Mometason ist ein potentes Kortikosteroid, das am Glukokortikoid-Rezeptor (NR3C1) wirkt. Darüber vermittelt es entzündungshemmende und immunsuppressive Effekte, etwa die Hemmung der T-Zell-Aktivierung und der Zytokinfreisetzung sowie die Induktion der Lymphozyten-Apoptose.
 
 Topische Kortikosteroide sind eine etablierte hautgerichtete Therapie im Frühstadium der Mycosis fungoides (Patch-/Plaque-Stadium), der häufigsten Form des kutanen T-Zell-Lymphoms. Das erklärt biologisch, warum das Modell einen hohen Wert vergibt.
 
@@ -126,11 +126,12 @@ Die Vorhersage ist rein rechnerisch (Evidenzlevel L5), es gibt weder klinische S
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „eine aufgehobene Zulassung in Deutschland und“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Asmanex Hfa (mometasone furoate) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c6d63da-41bc-4894-bead-198e66c848ac) |
 
 <!-- review:end log -->
 

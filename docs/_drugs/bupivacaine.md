@@ -58,7 +58,7 @@ Bupivacain ist ein Lokalanästhetikum vom Amid-Typ und wurde ursprünglich zur B
 
 ## Warum ist diese Vorhersage plausibel?
 
-Derzeit liegen keine detaillierten Daten zum Wirkmechanismus vor. Bekannt ist, dass Bupivacain ein Amid-Lokalanästhetikum ist, das spannungsabhängige Natriumkanäle blockiert. Seine Wirksamkeit bei akutem Schmerz gilt als belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Bupivacaine (inoffizielle Übersetzung): „Lokalanästhetika blockieren die Entstehung und die Weiterleitung von Nervenimpulsen, vermutlich indem sie die Schwelle für die elektrische Erregung im Nerv erhöhen, die Ausbreitung des Nervenimpulses verlangsamen und die Anstiegsgeschwindigkeit des Aktionspotenzials verringern. Im Allgemeinen hängt das Fortschreiten der Anästhesie vom Durchmesser, der Myelinisierung und der Leitungsgeschwindigkeit der betroffenen Nervenfasern ab.“ Englischer Originalwortlaut: "Local anesthetics block the generation and the conduction of nerve impulses presumably by increasing the threshold for electrical excitation in the nerve, by slowing the propagation of the nerve impulse, and by reducing the rate of rise of the action potential. In general, the progression of anesthesia is related to the diameter, myelination, and conduction velocity of affected nerve fibers." ([DailyMed: Exparel (bupivacaine) prescribing information, Pacira Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb5a9e59-0f51-11df-8a39-0800200c9a66), Fassung vom 2026-11-09; abgerufen am 2026-11-19). Bekannt ist, dass Bupivacain ein Amid-Lokalanästhetikum ist, das spannungsabhängige Natriumkanäle blockiert. Seine Wirksamkeit bei akutem Schmerz gilt als belegt.
 
 Ein plausibler mechanistischer Zusammenhang mit der neuen Indikation lässt sich aus den vorliegenden Daten **nicht** ableiten. Die Acrodermatitis chronica atrophicans ist das späte Hautstadium der Lyme-Borreliose und erfordert eine antibiotische Behandlung. Ein Lokalanästhetikum hat bei der zugrunde liegenden Infektion keine plausible Rolle. Der hohe TxGNN-Wert (0,9923) ist eine reine Modellvorhersage ohne klinische oder literarische Stützung.
 
@@ -130,11 +130,12 @@ Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzgrad L5) ohne
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Diese Zulassung ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Exparel (bupivacaine) prescribing information, Pacira Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb5a9e59-0f51-11df-8a39-0800200c9a66) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Temoporfin ist ein Photosensibilisator für die PDT. Seine Wirksamkeit bei Kopf-Hals-Plattenepithelkarzinomen ist die Grundlage der früheren Zulassung (Foscan). Nach Aktivierung durch Licht erzeugt der Wirkstoff Singulett-Sauerstoff, der Tumorgewebe lokal zerstört. Mechanistisch könnte dies auf gut zugängliche Läsionen im Kopf-Hals-Bereich übertragbar sein.
+Laut ChEMBL (EMBL-EBI) ist für Temoporfin folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Photosensibilisator“ Englischer Originalwortlaut: "Photosensitizer" ([ChEMBL CHEMBL500576 (temoporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL500576), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist: Temoporfin ist ein Photosensibilisator für die PDT. Seine Wirksamkeit bei Kopf-Hals-Plattenepithelkarzinomen ist die Grundlage der früheren Zulassung (Foscan). Nach Aktivierung durch Licht erzeugt der Wirkstoff Singulett-Sauerstoff, der Tumorgewebe lokal zerstört. Mechanistisch könnte dies auf gut zugängliche Läsionen im Kopf-Hals-Bereich übertragbar sein.
 
 Die Verbindung zum nasopharyngealen Teratom ist jedoch schwach. Dieses Teratom ist ein seltener, meist angeborener und gutartiger Tumor, der in der Regel chirurgisch behandelt wird. Der Zusammenhang beruht lediglich auf der anatomischen Nähe zum ursprünglichen Anwendungsgebiet und ist nicht durch Daten gestützt.
 
@@ -149,11 +149,12 @@ Für das nasopharyngeale Teratom gibt es nur eine Modellvorhersage ohne Studien 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL500576 (temoporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL500576) |
 
 <!-- review:end log -->
 

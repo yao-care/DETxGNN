@@ -58,7 +58,7 @@ Fentanyl ist ein Opioid, das laut den zusammengestellten Daten ursprünglich zur
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist, dass Fentanyl ein Agonist am μ-Opioid-Rezeptor ist und bei Schmerzen (u. a. Durchbruchschmerzen bei Krebs) eingesetzt wird.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Fentanyl (inoffizielle Übersetzung): „Fentanylcitrat Injektionslösung ist ein Opioidagonist, dessen therapeutisch bedeutsame Hauptwirkungen Analgesie und Sedierung sind.“ Englischer Originalwortlaut: "Fentanyl Citrate Injection is an opioid agonist, whose principal actions of therapeutic value are analgesia and sedation." ([DailyMed: fentanyl citrate prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58dcd3f7-e3d8-4929-a186-8f680a51ff11), Fassung vom 2026-10-23; abgerufen am 2026-11-19). Bekannt ist, dass Fentanyl ein Agonist am μ-Opioid-Rezeptor ist und bei Schmerzen (u. a. Durchbruchschmerzen bei Krebs) eingesetzt wird.
 
 Das nephrogene Syndrom der inadäquaten Antidiurese wird durch Gain-of-function-Mutationen im Vasopressin-V2-Rezeptor (AVPR2) oder in einzelnen Fällen in GNAS verursacht. Opioide können die Freisetzung des antidiuretischen Hormons über zentrale Mechanismen beeinflussen und SIADH-ähnliche Effekte auslösen. Das ist jedoch ein anderer Signalweg als der renale Defekt auf Rezeptorebene, der diese Erkrankung definiert.
 
@@ -128,12 +128,13 @@ Für beide vorhergesagten Indikationen gibt es ausschließlich eine Modellvorher
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Alle drei Zulassungen sind aufgehoben (Status: cancelled)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „und alle deutschen Zulassungen sind aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: fentanyl citrate prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58dcd3f7-e3d8-4929-a186-8f680a51ff11) |
 
 <!-- review:end log -->
 

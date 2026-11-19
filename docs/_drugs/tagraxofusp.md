@@ -58,7 +58,7 @@ Tagraxofusp ist ein gegen CD123 gerichtetes Fusionsprotein (Interleukin-3 gekopp
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen in den zusammengestellten Daten nicht vor. Bekannt ist, dass Tagraxofusp ein CD123-gerichtetes Zytotoxin ist: Es bindet an CD123-exprimierende Zellen und tötet sie durch das Toxinanteil ab. Dieser Mechanismus passt zu Erkrankungen mit CD123-positiven Zellpopulationen, wie sie bei bestimmten hämatologischen Neoplasien vorkommen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Tagraxofusp (inoffizielle Übersetzung): „Tagraxofusp-erzs ist ein gegen CD123 gerichtetes Zytotoxin, bestehend aus einem Fusionsprotein aus rekombinantem humanem Interleukin-3 (IL-3) und verkürztem Diphtherietoxin (DT), das in CD123-exprimierenden Zellen die Proteinsynthese hemmt und den Zelltod verursacht.“ Englischer Originalwortlaut: "Tagraxofusp-erzs is a CD123-directed cytotoxin composed of recombinant human interleukin-3 (IL-3) and truncated diphtheria toxin (DT) fusion protein that inhibits protein synthesis and causes cell death in CD123-expressing cells." ([DailyMed: Elzonris (tagraxofusp) prescribing information, Stemline Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80eb1080-fe20-4af0-b2a5-a67999923fa8), Fassung vom 2024-12-09; abgerufen am 2026-11-19). Bekannt ist, dass Tagraxofusp ein CD123-gerichtetes Zytotoxin ist: Es bindet an CD123-exprimierende Zellen und tötet sie durch das Toxinanteil ab. Dieser Mechanismus passt zu Erkrankungen mit CD123-positiven Zellpopulationen, wie sie bei bestimmten hämatologischen Neoplasien vorkommen.
 
 Esotropie ist dagegen eine Störung der okulären Motorik und Ausrichtung der Augen. Eine CD123-exprimierende Zielzellpopulation ist dabei nicht bekannt. Ein plausibler mechanistischer Zusammenhang zur ursprünglichen Indikation besteht daher nicht. Der hohe TxGNN-Wert ist eine rein graphbasierte Vorhersage ohne klinische oder literaturbasierte Untermauerung.
 
@@ -126,6 +126,19 @@ Die Vorhersage für Esotropie stammt vom TxGNN-Modell (Deep Learning) und kann �
 - Nachweis einer relevanten CD123-Expression oder eines anderen biologischen Ansatzpunkts in der vorhergesagten Zielerkrankung
 - Prüfung des Zulassungsstatus und der Verfügbarkeit in Deutschland
 - Gegebenenfalls Priorisierung biologisch plausiblerer Kandidaten, z. B. CD123-positive hämatologische Erkrankungen, statt der aktuell vorhergesagten Indikationen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Elzonris (tagraxofusp) prescribing information, Stemline Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80eb1080-fe20-4af0-b2a5-a67999923fa8) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

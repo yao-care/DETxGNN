@@ -54,7 +54,7 @@ Glimepirid ist ein Wirkstoff aus der Gruppe der Sulfonylharnstoffe. Das TxGNN-Mo
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Glimepirid als Sulfonylharnstoff die ATP-sensitiven Kaliumkanäle der pankreatischen Beta-Zellen schließt und so die Insulinfreisetzung fördert.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Glimepiride (inoffizielle Übersetzung): „Glimepirid senkt den Blutzucker in erster Linie durch Stimulation der Insulinfreisetzung aus den Betazellen des Pankreas. Sulfonylharnstoffe binden an den Sulfonylharnstoff-Rezeptor in der Plasmamembran der pankreatischen Betazellen, was zum Schließen des ATP-sensitiven Kaliumkanals führt und dadurch die Insulinfreisetzung stimuliert.“ Englischer Originalwortlaut: "Glimepiride primarily lowers blood glucose by stimulating the release of insulin from pancreatic beta cells. Sulfonylureas bind to the sulfonylurea receptor in the pancreatic beta-cell plasma membrane, leading to closure of the ATP-sensitive potassium channel, thereby stimulating the release of insulin." ([DailyMed: Glimepiride 3 Mg (glimepiride) prescribing information, Lifsa Drugs LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51157849-7990-4a8b-ae50-eda1baf93cfa), Fassung vom 2024-08-20; abgerufen am 2026-11-19). Bekannt ist, dass Glimepirid als Sulfonylharnstoff die ATP-sensitiven Kaliumkanäle der pankreatischen Beta-Zellen schließt und so die Insulinfreisetzung fördert.
 
 Ein plausibler, aber unbewiesener Zusammenhang: Das Stiff-Limb-Syndrom gehört zum Spektrum der Stiff-Person-Erkrankungen, die autoimmun bedingt sind (Anti-GAD65-Antikörper) und häufig gemeinsam mit Diabetes auftreten. Die hohe Vorhersage könnte daher eher das Netzwerk der Diabetes-Begleiterkrankungen widerspiegeln als einen therapeutischen Effekt.
 
@@ -109,6 +109,19 @@ Für das fokale Stiff-Limb-Syndrom gibt es weder klinische Studien noch Publikat
 - Systematische Literaturrecherche zu Sulfonylharnstoffen bei Stiff-Person-Spektrum-Erkrankungen
 - Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM)
 - Detaillierte Wirkmechanismus-Daten (MOA) aus DrugBank
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Glimepiride 3 Mg (glimepiride) prescribing information, Lifsa Drugs LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51157849-7990-4a8b-ae50-eda1baf93cfa) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

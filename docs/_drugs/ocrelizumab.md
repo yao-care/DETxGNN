@@ -58,7 +58,7 @@ Ocrelizumab ist ein humanisierter monoklonaler Anti-CD20-Antikörper, der urspr�
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Ocrelizumab CD20-positive B-Zellen depletiert und bei Multipler Sklerose seine Wirksamkeit in großen Studien gezeigt hat.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Ocrelizumab (inoffizielle Übersetzung): „Der genaue Mechanismus, über den Ocrelizumab seine therapeutische Wirkung bei multipler Sklerose entfaltet, ist nicht bekannt, es wird jedoch angenommen, dass er die Bindung an CD20 umfasst, ein Zelloberflächenantigen auf Prä-B- und reifen B-Lymphozyten. Nach Bindung an die Zelloberfläche von B-Lymphozyten bewirkt Ocrelizumab eine antikörperabhängige zelluläre Zytolyse und eine komplementvermittelte Lyse.“ Englischer Originalwortlaut: "The precise mechanism by which ocrelizumab exerts its therapeutic effects in multiple sclerosis is unknown, but is presumed to involve binding to CD20, a cell surface antigen present on pre-B and mature B lymphocytes. Following cell surface binding to B lymphocytes, ocrelizumab results in antibody-dependent cellular cytolysis and complement-mediated lysis." ([DailyMed: Ocrevus (ocrelizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d), Fassung vom 2026-05-14; abgerufen am 2026-11-19). Bekannt ist, dass Ocrelizumab CD20-positive B-Zellen depletiert und bei Multipler Sklerose seine Wirksamkeit in großen Studien gezeigt hat.
 
 Ein mechanistischer Zusammenhang zum HER2-positiven Mammakarzinom ist durch die Daten **nicht gestützt**. Dieser Tumortyp wird durch HER2-Amplifikation und -Signalwege getrieben, und Tumorzellen exprimieren CD20 üblicherweise nicht als therapeutisches Ziel. Der sehr hohe Modellwert (0,9989) ist eine reine Modellvorhersage ohne klinische oder literaturbasierte Bestätigung.
 
@@ -128,12 +128,13 @@ Die Vorhersage beruht ausschließlich auf dem TxGNN-Modellwert (Evidenzgrad L5).
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Status: aufgehoben (Hersteller: Roche Registration GmbH)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Zudem ist die deutsche Zulassung aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Ocrevus (ocrelizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d) |
 
 <!-- review:end log -->
 

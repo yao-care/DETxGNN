@@ -56,7 +56,7 @@ Diflunisal ist ein von Salicylsäure abgeleitetes nichtsteroidales Antirheumatik
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Diflunisal ist ein salicylatabgeleitetes NSAR, das die Cyclooxygenasen (COX-1/COX-2) hemmt und so die prostaglandinvermittelte Entzündung und Schmerzen reduziert. Zudem stabilisiert es Transthyretin, was der Grund für den Einsatz bei der Amyloid-Neuropathie ist.
+Laut dem Abschnitt „Clinical Pharmacology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Diflunisal (inoffizielle Übersetzung): „Der genaue Mechanismus der analgetischen und entzündungshemmenden Wirkungen von Diflunisal ist nicht bekannt. Diflunisal ist ein Prostaglandin-Synthetase-Hemmer. Bei Tieren sensibilisieren Prostaglandine afferente Nerven und verstärken die schmerzauslösende Wirkung von Bradykinin.“ Englischer Originalwortlaut: "The precise mechanism of the analgesic and anti-inflammatory actions of diflunisal is not known. Diflunisal is a prostaglandin synthetase inhibitor. In animals, prostaglandins sensitize afferent nerves and potentiate the action of bradykinin in inducing pain." ([DailyMed: Dolobid (diflunisal) prescribing information, INA Pharmaceutics Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725234b2-0e23-45c3-a42d-eb4e62273f9b), Fassung vom 2025-10-06; abgerufen am 2026-11-19). Bekannt ist: Diflunisal ist ein salicylatabgeleitetes NSAR, das die Cyclooxygenasen (COX-1/COX-2) hemmt und so die prostaglandinvermittelte Entzündung und Schmerzen reduziert. Zudem stabilisiert es Transthyretin, was der Grund für den Einsatz bei der Amyloid-Neuropathie ist.
 
 Bei der Spondylitis ankylosans sind NSAR die etablierte Erstlinientherapie zur Linderung der Symptome. Der Mechanismus ist daher biologisch schlüssig. Die vorliegende Evidenz belegt jedoch nur eine symptomatische Wirkung eines älteren NSAR, keine krankheitsmodifizierende Wirkung.
 
@@ -132,11 +132,12 @@ Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „die einzige Zulassung erloschen ist und“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Dolobid (diflunisal) prescribing information, INA Pharmaceutics Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725234b2-0e23-45c3-a42d-eb4e62273f9b) |
 
 <!-- review:end log -->
 

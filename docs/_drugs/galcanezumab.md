@@ -58,7 +58,7 @@ Galcanezumab ist ein monoklonaler Antikörper gegen das Calcitonin Gene-Related 
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Galcanezumab CGRP neutralisiert und zur Migräneprophylaxe eingesetzt wird.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Galcanezumab (inoffizielle Übersetzung): „Galcanezumab-gnlm ist ein humanisierter monoklonaler Antikörper, der an den Liganden Calcitonin Gene-Related Peptide (CGRP) bindet und dessen Bindung an den Rezeptor blockiert.“ Englischer Originalwortlaut: "Galcanezumab-gnlm is a humanized monoclonal antibody that binds to calcitonin gene-related peptide (CGRP) ligand and blocks its binding to the receptor." ([DailyMed: Emgality (galcanezumab-gnlm) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33a147be-233a-40e8-a55e-e40936e28db0), Fassung vom 2026-06-05; abgerufen am 2026-11-19). Bekannt ist, dass Galcanezumab CGRP neutralisiert und zur Migräneprophylaxe eingesetzt wird.
 
 Der Heparin-Cofaktor-2-Mangel ist eine Störung der serpinvermittelten Hemmung von Thrombin (SERPIND1) und damit ein Defekt im Gerinnungssystem. Dieser Signalweg steht in keinem erkennbaren Zusammenhang mit der CGRP-Signalübertragung. Ein belastbarer mechanistischer Zusammenhang zwischen der ursprünglichen und der vorhergesagten Indikation ist daher nicht erkennbar.
 
@@ -115,6 +115,19 @@ Die Vorhersage beruht ausschließlich auf einem Modellwert des TxGNN-Modells (De
 - Daten zum Wirkmechanismus ergänzen
 - Präklinische Hinweise auf einen biologischen Zusammenhang zwischen CGRP-Hemmung und den Gerinnungsfaktoren (SERPIND1, SERPINC1, Faktor V) prüfen
 - Klären, ob die Hold-Entscheidung angesichts fehlender Plausibilität überhaupt neu bewertet werden sollte
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Emgality (galcanezumab-gnlm) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33a147be-233a-40e8-a55e-e40936e28db0) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

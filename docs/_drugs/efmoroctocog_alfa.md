@@ -60,7 +60,7 @@ Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Pub
 
 ## Warum ist diese Vorhersage plausibel?
 
-Die Plausibilität ist hier **gering**. Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist, dass Efmoroctocog alfa ein rekombinanter Faktor VIII mit Fc-Fusion ist, dessen Wirksamkeit bei Hämophilie A belegt ist. Er ersetzt den fehlenden Gerinnungsfaktor VIII.
+Die Plausibilität ist hier **gering**. Laut ChEMBL (EMBL-EBI) ist für Efmoroctocog Alfa folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Exogenes Gerinnungsfaktor-VIII-Protein“ Englischer Originalwortlaut: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist, dass Efmoroctocog alfa ein rekombinanter Faktor VIII mit Fc-Fusion ist, dessen Wirksamkeit bei Hämophilie A belegt ist. Er ersetzt den fehlenden Gerinnungsfaktor VIII.
 
 Die pseudo-von-Willebrand-Erkrankung ist dagegen eine Thrombozytenerkrankung. Ursache ist ein Gain-of-Function-Defekt des Thrombozytenrezeptors GPIbα, der die Bindung an den von-Willebrand-Faktor (VWF) verstärkt und hochmolekulare VWF-Multimere abbaut. Dieser Rezeptordefekt wird durch Faktor VIII nicht behoben. Der hohe Vorhersagewert stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz.
 
@@ -125,11 +125,12 @@ Die Vorhersage beruht ausschließlich auf einem Modell (Evidenzstufe L5), es gib
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Die einzige deutsche Zulassung ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945) |
 
 <!-- review:end log -->
 

@@ -58,7 +58,7 @@ Tobramycin ist ein Aminoglykosid-Antibiotikum, das ursprünglich zur Behandlung 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten derzeit keine detaillierten Angaben vor. Tobramycin gehört jedoch zur Klasse der Aminoglykoside, ist gegen *Pseudomonas aeruginosa* und *Staphylococcus aureus* wirksam, und seine Wirksamkeit bei Atemwegsinfektionen bei Mukoviszidose ist belegt.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Tobramycin (inoffizielle Übersetzung): „Tobramycin ist ein Aminoglykosid-Antibiotikum. […] Tobramycin ist ein von Streptomyces tenebrarius produziertes Aminoglykosid-Antibiotikum. Es wirkt in erster Linie durch Störung der Proteinsynthese, was zu einer veränderten Permeabilität der Zellmembran, einer fortschreitenden Zerstörung der Zellhülle und schließlich zum Zelltod führt.“ Englischer Originalwortlaut: "Tobramycin is an aminoglycoside antibacterial. […] Tobramycin is an aminoglycoside antibacterial produced by Streptomyces tenebrarius. It acts primarily by disrupting protein synthesis leading to altered cell membrane permeability, progressive disruption of the cell envelope, and eventual cell death." ([DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a), Fassung vom 2026-04-15; abgerufen am 2026-11-19). Tobramycin gehört jedoch zur Klasse der Aminoglykoside, ist gegen *Pseudomonas aeruginosa* und *Staphylococcus aureus* wirksam, und seine Wirksamkeit bei Atemwegsinfektionen bei Mukoviszidose ist belegt.
 
 Diese beiden Erreger zählen auch zu den häufigen Ursachen bakterieller Keratitis. Bei einer Exposure-Keratitis ist die Hornhaut durch unvollständigen Lidschluss dauerhaft exponiert und anfällig für bakterielle Sekundärinfektionen. Eine topische Tobramycin-Gabe wäre daher mechanistisch denkbar.
 
@@ -129,6 +129,19 @@ Die Vorhersage stützt sich nur auf indirekte Evidenz (Fallberichte, In-vitro-Da
 - Kontrollierte klinische Daten zu Tobramycin bei Exposure-Keratitis bzw. Sekundärinfektionen der exponierten Hornhaut
 
 **Hinweis zu weiteren Vorhersagen:** Otitis externa (Rang 3) hat die breiteste Literaturbasis (Mikrobiologie, historische Fallberichte zu systemischem Tobramycin bei maligner Otitis externa) und wird als „Research Question" geführt; Ototoxizität bei perforiertem Trommelfell muss geprüft werden. Die übrigen Vorhersagen (u. a. Chagas-Kardiomyopathie, infektionsassoziiertes hämolytisch-urämisches Syndrom) haben keine tragfähige Evidenz oder ein ungünstiges Risikoprofil.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

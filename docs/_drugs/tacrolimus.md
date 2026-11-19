@@ -60,7 +60,7 @@ Derzeit stützen diese Richtung **2 klinische Studien** (1 abgeschlossene Phase-
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach bekanntem Wissen hemmt Tacrolimus Calcineurin und damit die Aktivierung von T-Zellen sowie die Freisetzung entzündungsfördernder Zytokine (IL-2, IFN-gamma, TNF-alpha).
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Tacrolimus (inoffizielle Übersetzung): „Tacrolimus bindet an ein intrazelluläres Protein, FKBP-12. Anschließend bildet sich ein Komplex aus Tacrolimus-FKBP-12, Calcium, Calmodulin und Calcineurin (einem ubiquitären intrazellulären Enzym von Säugetieren), und die Phosphataseaktivität von Calcineurin wird gehemmt.“ Englischer Originalwortlaut: "Tacrolimus binds to an intracellular protein, FKBP-12. A complex of tacrolimus-FKBP-12, calcium, calmodulin, and calcineurin (an ubiquitous mammalian intracellular enzyme) is then formed and the phosphatase activity of calcineurin inhibited." ([DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7), Fassung vom 2025-02-26; abgerufen am 2026-11-19). Nach bekanntem Wissen hemmt Tacrolimus Calcineurin und damit die Aktivierung von T-Zellen sowie die Freisetzung entzündungsfördernder Zytokine (IL-2, IFN-gamma, TNF-alpha).
 
 Die seborrhoische Dermatitis ist eine entzündliche Hauterkrankung, die durch eine Immunreaktion auf Malassezia-Hefen und eine gestörte Hautbarriere geprägt ist. Eine Calcineurin-Hemmung kann daher plausibel Rötung, Schuppung und Juckreiz verringern. Tacrolimus ist zudem bereits für die atopische Dermatitis zugelassen, eine eng verwandte entzündliche Hauterkrankung.
 
@@ -135,6 +135,19 @@ Es gibt eine abgeschlossene Phase-3-Studie und eine abgeschlossene Phase-4-Studi
 ---
 
 *Hinweis: Für die weiteren vorhergesagten Indikationen **Parapsoriasis** (Evidenzgrad L4, nur Fallberichte, Einstufung „Research Question") und **Dermatitis** (L1, überwiegend atopische Dermatitis und damit nahezu eine bestehende Indikation) wurde kein eigener Bericht erstellt.*
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

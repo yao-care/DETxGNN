@@ -54,7 +54,7 @@ Durvalumab ist ein Antikörper gegen PD-L1 (Handelsname Imfinzi). In Deutschland
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten derzeit keine detaillierten Angaben vor. Durvalumab gehört zur Klasse der PD-L1-Checkpoint-Inhibitoren. Seine Wirksamkeit beim nicht-kleinzelligen Lungenkarzinom ist belegt. Mechanistisch könnte die PD-L1-Blockade auch bei gynäkologischen Adenokarzinomen wirken, deren Tumormikroumgebung immunologisch aktiv („immune-inflamed“) ist.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Durvalumab (inoffizielle Übersetzung): „Die Expression des Programmed-Cell-Death-Liganden 1 (PD-L1) kann durch Entzündungssignale (z. B. IFN-gamma) induziert werden und sowohl auf Tumorzellen als auch auf tumorassoziierten Immunzellen in der Tumormikroumgebung auftreten. PD-L1 blockiert die T-Zell-Funktion und -Aktivierung durch Interaktion mit PD-1 und CD80 (B7.1). […] Durvalumab ist ein humaner monoklonaler Immunglobulin-G1-kappa-Antikörper (IgG1κ), der an PD-L1 bindet und die Interaktion von PD-L1 mit PD-1 und CD80 (B7.1) blockiert.“ Englischer Originalwortlaut: "Expression of programmed cell death ligand-1 (PD-L1) can be induced by inflammatory signals (e.g., IFN-gamma) and can be expressed on both tumor cells and tumor-associated immune cells in the tumor microenvironment. PD-L1 blocks T-cell function and activation through interaction with PD-1 and CD80 (B7.1). […] Durvalumab is a human immunoglobulin G1 kappa (IgG1κ) monoclonal antibody that binds to PD-L1 and blocks the interaction of PD-L1 with PD-1 and CD80 (B7.1)." ([DailyMed: Imfinzi (durvalumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8baba4ea-2855-42fa-9bd9-5a7548d4cec3), Fassung vom 2026-08-31; abgerufen am 2026-11-19). Durvalumab gehört zur Klasse der PD-L1-Checkpoint-Inhibitoren. Seine Wirksamkeit beim nicht-kleinzelligen Lungenkarzinom ist belegt. Mechanistisch könnte die PD-L1-Blockade auch bei gynäkologischen Adenokarzinomen wirken, deren Tumormikroumgebung immunologisch aktiv („immune-inflamed“) ist.
 
 Für diese konkrete Tumorentität gibt es jedoch keine direkten Daten. Der Gedanke bleibt eine Extrapolation von verwandten gynäkologischen Tumoren. Die hohe Modellbewertung ist ein rein graphbasierter Hinweis und kein Wirksamkeitsnachweis.
 
@@ -106,6 +106,19 @@ Die Vorhersage für das uterine Ligament-Adenokarzinom stützt sich ausschließl
 - Daten zum Wirkmechanismus (MOA)
 - Auswertung der Fachinformation (BfArM) zu Warnhinweisen und Gegenanzeigen
 - Prüfung der verwandten Vorhersage „endozervikales Karzinom“ (Phase-I-Studie vorhanden) als möglichen Ausgangspunkt für eine Forschungsfrage
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Imfinzi (durvalumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8baba4ea-2855-42fa-9bd9-5a7548d4cec3) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

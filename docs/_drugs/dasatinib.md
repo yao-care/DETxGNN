@@ -61,7 +61,7 @@ Hinweis: Das Evidenzniveau L2 und die Einstufung als Forschungsfrage stammen aus
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu den Wirkmechanismus-Daten liegen derzeit keine detaillierten Angaben vor. Bekannt ist: Dasatinib hemmt BCR-ABL sowie Kinasen der SRC-Familie (außerdem KIT und PDGFR). Seine Wirksamkeit bei BCR-ABL-getriebenen Leukämien ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Dasatinib (inoffizielle Übersetzung): „Dasatinib hemmt in nanomolaren Konzentrationen die folgenden Kinasen: BCR-ABL, SRC-Familie (SRC, LCK, YES, FYN), c-KIT, EPHA2 und PDGFRβ. Auf Grundlage von Modellierungsstudien wird vorhergesagt, dass Dasatinib an mehrere Konformationen der ABL-Kinase bindet.“ Englischer Originalwortlaut: "Dasatinib, at nanomolar concentrations, inhibits the following kinases: BCR-ABL, SRC family (SRC, LCK, YES, FYN), c-KIT, EPHA2, and PDGFRβ. Based on modeling studies, dasatinib is predicted to bind to multiple conformations of the ABL kinase." ([DailyMed: Sprycel (dasatinib) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4764f37b-c9e6-4ede-bcc2-8a03b7c521df), Fassung vom 2026-10-16; abgerufen am 2026-11-19). Bekannt ist: Dasatinib hemmt BCR-ABL sowie Kinasen der SRC-Familie (außerdem KIT und PDGFR). Seine Wirksamkeit bei BCR-ABL-getriebenen Leukämien ist belegt.
 
 Beim Ewing-Sarkom treiben SRC-Kinasen laut präklinischen Arbeiten die Bildung von Invadopodien, Migration und Invasion an. Der FAK-SRC-Signalweg gilt in diesem Tumortyp als Schwachstelle. In Zelllinien zeigte Dasatinib antiproliferative und antimigratorische Effekte. Die klinische Wirksamkeit ist jedoch unbewiesen: Eine Übersichtsarbeit berichtet, dass Dasatinib als Monotherapie in einer Phase-2-Studie bei Ewing-Sarkom und Rhabdomyosarkom versagte.
 
@@ -158,12 +158,13 @@ Die präklinische Datenlage (SRC-Abhängigkeit des Ewing-Sarkoms) ist plausibel.
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Beide Zulassungen sind laut den Daten als erloschen/zurückgezogen geführt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Zudem sind die deutschen Zulassungen erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Sprycel (dasatinib) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4764f37b-c9e6-4ede-bcc2-8a03b7c521df) |
 
 <!-- review:end log -->
 

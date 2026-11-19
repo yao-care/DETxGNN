@@ -60,7 +60,7 @@ Die Evidenz ist jedoch begrenzt: **1 klinische Studie** (ohne direkten Bezug zur
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Omeprazol ein Protonenpumpenhemmer ist, der die Magensäuresekretion unterdrückt und bei säurebedingten Erkrankungen des oberen Magen-Darm-Trakts etabliert ist. Mechanistisch könnte er daher auch bei Reflux-Beschwerden eine Rolle spielen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Omeprazole (inoffizielle Übersetzung): „Omeprazol gehört zu einer Klasse antisekretorischer Verbindungen, den substituierten Benzimidazolen, die die Magensäuresekretion durch spezifische Hemmung des H + /K + -ATPase-Enzymsystems an der sekretorischen Oberfläche der Belegzelle des Magens unterdrücken. Da dieses Enzymsystem als die Säure-(Protonen-)Pumpe in der Magenschleimhaut gilt, wurde Omeprazol als Magensäurepumpenhemmer charakterisiert, da es den letzten Schritt der Säureproduktion blockiert.“ Englischer Originalwortlaut: "Omeprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the H + /K + ATPase enzyme system at the secretory surface of the gastric parietal cell. Because this enzyme system is regarded as the acid (proton) pump within the gastric mucosa, omeprazole has been characterized as a gastric acid-pump inhibitor, in that it blocks the final step of acid production." ([DailyMed: Prilosec (omeprazole magnesium) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6761f84-53ac-4745-a8c8-1e5427d7e179), Fassung vom 2024-03-19; abgerufen am 2026-11-19). Bekannt ist, dass Omeprazol ein Protonenpumpenhemmer ist, der die Magensäuresekretion unterdrückt und bei säurebedingten Erkrankungen des oberen Magen-Darm-Trakts etabliert ist. Mechanistisch könnte er daher auch bei Reflux-Beschwerden eine Rolle spielen.
 
 Beim duodenogastrischen Reflux fließen Gallen- und Pankreassekrete in den Magen zurück. Die Säureunterdrückung kann Schleimhautbeschwerden lindern, behandelt aber nicht die eigentliche Ursache, den Gallenreflux. Der sehr hohe TxGNN-Wert spiegelt vor allem die große Ähnlichkeit zu den zugelassenen säurebedingten Indikationen wider und ist eine rechnerische Vorhersage, kein klinischer Beleg.
 
@@ -133,6 +133,19 @@ Die Vorhersage beruht im Wesentlichen auf der Ähnlichkeit zu den bestehenden s�
 ## Ergänzende Bewertung: Duodenalobstruktion (Rang 2)
 
 Für die zweite vorhergesagte Indikation, **Duodenalobstruktion** (TxGNN-Wert 0,9964), liegt nur Evidenzstufe **L5** vor (Empfehlung: **Hold**). Die einzige gelistete Phase-3-Studie (NCT00557921, Clopidogrel plus Omeprazol zur Vermeidung gastrointestinaler Blutungen, vorzeitig beendet, 5.000 Teilnehmer) hat vermutlich keinen direkten Bezug zu dieser Indikation. Die Literatur besteht aus älteren Fallberichten und unspezifischen Übersichten (1992–1997) ohne omeprazolspezifische Ergebnisse. Eine fixierte mechanische Obstruktion lässt sich durch Säurehemmung nicht beheben; Omeprazol kann allenfalls die zugrunde liegende Ulkuskrankheit indirekt beeinflussen.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Prilosec (omeprazole magnesium) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6761f84-53ac-4745-a8c8-1e5427d7e179) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

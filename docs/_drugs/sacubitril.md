@@ -60,7 +60,7 @@ Sacubitril ist ein Neprilysin-Inhibitor und wird zusammen mit Valsartan zur Beha
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Sacubitril ist ein Prodrug, das Neprilysin hemmt und damit natriuretische Peptide erhöht. Es wird in Kombination mit dem Angiotensin-Rezeptorblocker Valsartan angewendet, dessen Wirksamkeit bei Herzinsuffizienz belegt ist.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für sacubitril and valsartan (Kombinationspräparat mit Sacubitril) (inoffizielle Übersetzung): „Sacubitril und Valsartan enthält einen Neprilysin-Inhibitor, Sacubitril, und einen Angiotensin-Rezeptorblocker, Valsartan. Sacubitril und Valsartan hemmt Neprilysin (neutrale Endopeptidase; NEP) über LBQ657, den aktiven Metaboliten des Prodrugs Sacubitril, und blockiert den Angiotensin-II-Typ-1-(AT 1 )-Rezeptor über Valsartan.“ Englischer Originalwortlaut: "Sacubitril and valsartan contains a neprilysin inhibitor, sacubitril, and an angiotensin receptor blocker, valsartan. Sacubitril and valsartan inhibits neprilysin (neutral endopeptidase; NEP) via LBQ657, the active metabolite of the prodrug sacubitril, and blocks the angiotensin II type-1 (AT 1 ) receptor via valsartan." ([DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c), Fassung vom 2026-10-30; abgerufen am 2026-11-19). Bekannt ist: Sacubitril ist ein Prodrug, das Neprilysin hemmt und damit natriuretische Peptide erhöht. Es wird in Kombination mit dem Angiotensin-Rezeptorblocker Valsartan angewendet, dessen Wirksamkeit bei Herzinsuffizienz belegt ist.
 
 Valsartan senkt den Druck in den Glomeruli und bremst die RAAS-getriebene Fibrose. Das ist bei diabetischer Nephropathie bereits Standardtherapie. Sacubitril könnte über erhöhte natriuretische Peptide zusätzlich Natriurese, Vasodilatation und antifibrotische Effekte beitragen. Mehrere Tierstudien (u. a. PMIDs 35992034, 36589853, 32596035, 33870733) berichten weniger oxidativen Stress, weniger NF-κB-vermittelte Entzündung und weniger Fibrose in diabetischen Nagermodellen.
 
@@ -140,11 +140,12 @@ Für diabetische Nephropathie gibt es plausible präklinische Befunde und eine l
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „und beide deutschen/EU-Zulassungen sind erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Irbesartan ist ein Angiotensin-II-Rezeptor-Antagonist (AT1-Blocker). Das TxGNN-M
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Irbesartan gehört jedoch zur Klasse der AT1-Rezeptor-Antagonisten. Diese hemmen das Renin-Angiotensin-System und senken dadurch den Blutdruck.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Irbesartan (inoffizielle Übersetzung): „Angiotensin II ist ein potenter Vasokonstriktor, der aus Angiotensin I in einer durch das Angiotensin-Converting-Enzym (ACE, Kininase II) katalysierten Reaktion gebildet wird. Angiotensin II ist das primäre vasoaktive Hormon des Renin-Angiotensin-Systems und ein wichtiger Faktor in der Pathophysiologie der Hypertonie. […] Irbesartan blockiert die vasokonstriktorischen und aldosteronsekretionsfördernden Wirkungen von Angiotensin II durch selektive Bindung an den AT 1-Angiotensin-II-Rezeptor, der in vielen Geweben vorkommt (z. B. glatte Gefäßmuskulatur, Nebenniere).“ Englischer Originalwortlaut: "Angiotensin II is a potent vasoconstrictor formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the primary vasoactive hormone of the renin-angiotensin system, and an important component in the pathophysiology of hypertension. […] Irbesartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively binding to the AT 1 angiotensin II receptor found in many tissues (e.g., vascular smooth muscle, adrenal gland)." ([DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98), Fassung vom 2026-08-24; abgerufen am 2026-11-19). Irbesartan gehört jedoch zur Klasse der AT1-Rezeptor-Antagonisten. Diese hemmen das Renin-Angiotensin-System und senken dadurch den Blutdruck.
 
 Die Blockade dieses Systems kann plausibel den Druck in den Nierenglomeruli und damit Nierenschäden bei maligner Hypertonie verringern. Die Vorhersage ist daher biologisch nachvollziehbar. Sie stützt sich jedoch ausschließlich auf die Modellvorhersage und auf bekannte Klasseneffekte (blutdrucksenkend, nierenschützend).
 
@@ -98,6 +98,19 @@ Für die vorhergesagte Indikation liegen weder klinische Studien noch Publikatio
 - Daten zum Wirkmechanismus (MOA)
 - Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM)
 - Klärung der Eignung der oralen Darreichung im akuten Behandlungsumfeld
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -54,7 +54,7 @@ Elvitegravir ist ein HIV-1-Integrase-Strangtransfer-Inhibitor. Das TxGNN-Modell 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Elvitegravir die Integration der viralen DNA in das Wirtsgenom hemmt, indem es den Strangtransfer der HIV-1-Integrase blockiert.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate (Kombinationspräparat mit Elvitegravir) (inoffizielle Übersetzung): „STRIBILD ist eine Fixdosiskombination der antiretroviralen Wirkstoffe Elvitegravir (geboostert durch den CYP3A-Inhibitor Cobicistat), Emtricitabin und TDF.“ Englischer Originalwortlaut: "STRIBILD is a fixed-dose combination of antiretroviral drugs elvitegravir (boosted by the CYP3A inhibitor cobicistat), emtricitabine, and TDF." ([DailyMed: Stribild (elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74ae2a93-b267-444c-8f0f-a2a6522260ee), Fassung vom 2025-02-04; abgerufen am 2026-11-19). Bekannt ist, dass Elvitegravir die Integration der viralen DNA in das Wirtsgenom hemmt, indem es den Strangtransfer der HIV-1-Integrase blockiert.
 
 Das Felines Immundefizienzvirus (FIV) ist wie HIV ein Lentivirus und kodiert ebenfalls eine Integrase. Daraus ergibt sich eine biologisch plausible Verbindung. Sie beruht jedoch ausschließlich auf der TxGNN-Vorhersage und allgemeiner Lentivirus-Biologie. Die Empfindlichkeit gegenüber Integrase-Inhibitoren kann sich zwischen Lentiviren unterscheiden; eine Aktivität gegen FIV darf daher nicht vorausgesetzt werden. Daten zur FIV-spezifischen Aktivität liegen nicht vor.
 
@@ -93,6 +93,19 @@ Die Vorhersage stützt sich allein auf das Modell und allgemeine Lentivirus-Biol
 - Daten zum Wirkmechanismus (MOA)
 - Prüfung der Fachinformation (Warnhinweise und Gegenanzeigen)
 - Klärung, ob eine veterinärmedizinische Entwicklung überhaupt angestrebt wird
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Stribild (elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74ae2a93-b267-444c-8f0f-a2a6522260ee) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

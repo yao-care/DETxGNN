@@ -54,7 +54,7 @@ Insulin detemir ist ein lang wirkendes Insulin-Analogon, das in Deutschland zur 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Insulin detemir ein Basalinsulin-Analogon ist, das den Blutzucker über die Aktivierung des Insulinrezeptors senkt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Insulin Detemir (inoffizielle Übersetzung): „Die primäre Wirkung von Insulin, einschließlich LEVEMIR, ist die Regulation des Glucosestoffwechsels. Insuline und ihre Analoga senken den Blutzucker, indem sie die periphere Glucoseaufnahme, insbesondere durch Skelettmuskulatur und Fettgewebe, stimulieren und die hepatische Glucoseproduktion hemmen.“ Englischer Originalwortlaut: "The primary activity of insulin, including LEVEMIR, is regulation of glucose metabolism. Insulins and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Levemir (insulin detemir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82192527-99aa-4b53-8ce9-9173668d309c), Fassung vom 2024-10-09; abgerufen am 2026-11-19). Bekannt ist, dass Insulin detemir ein Basalinsulin-Analogon ist, das den Blutzucker über die Aktivierung des Insulinrezeptors senkt.
 
 Für die Vorhersage zu autoimmuner Oophoritis gibt es keine klare mechanistische Begründung. Eine Verbindung zwischen Basalinsulin und dieser Autoimmunerkrankung der Eierstöcke ist nicht erkennbar. Der hohe Modellwert ist eine rein rechnerische Vorhersage und kein Hinweis auf eine tatsächliche Wirksamkeit.
 
@@ -90,6 +90,19 @@ Für die vorhergesagte Indikation gibt es weder klinische Studien noch Publikati
 - Daten zum Wirkmechanismus (MOA) und mechanistische Analyse eines möglichen Zusammenhangs
 - Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation, da diese Daten bislang fehlen
 - Prüfung, ob die Vorhersage biologisch sinnvoll ist, bevor weitere Ressourcen eingesetzt werden
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Levemir (insulin detemir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82192527-99aa-4b53-8ce9-9173668d309c) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

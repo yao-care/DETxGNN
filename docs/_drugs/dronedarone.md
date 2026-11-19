@@ -60,7 +60,7 @@ Dafür liegen jedoch **keine registrierten klinischen Studien** und nur **indire
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten derzeit keine detaillierten Angaben vor. Bekannt ist: Dronedaron ist ein nicht-iodiertes Amiodaron-Analogon der Klasse III, das Natrium-, Kalium- und Calciumströme hemmt (Literaturangabe: PMID 20221977). Seine Wirksamkeit bei Vorhofflimmern ist belegt, und mechanistisch könnte es auch bei der Schlaganfallprävention eine Rolle spielen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Dronedarone (inoffizielle Übersetzung): „Der Wirkmechanismus von Dronedaron ist nicht bekannt. Dronedaron besitzt antiarrhythmische Eigenschaften, die allen vier Vaughan-Williams-Klassen zuzuordnen sind, der Beitrag jeder dieser Aktivitäten zur klinischen Wirkung ist jedoch nicht bekannt.“ Englischer Originalwortlaut: "The mechanism of action of dronedarone is unknown. Dronedarone has antiarrhythmic properties belonging to all four Vaughan-Williams classes, but the contribution of each of these activities to the clinical effect is unknown." ([DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c), Fassung vom 2026-01-27; abgerufen am 2026-11-19). Bekannt ist: Dronedaron ist ein nicht-iodiertes Amiodaron-Analogon der Klasse III, das Natrium-, Kalium- und Calciumströme hemmt (Literaturangabe: PMID 20221977). Seine Wirksamkeit bei Vorhofflimmern ist belegt, und mechanistisch könnte es auch bei der Schlaganfallprävention eine Rolle spielen.
 
 Der Zusammenhang ist indirekt: Vorhofflimmern ist eine Hauptursache kardioembolischer Schlaganfälle. Eine wirksame Rhythmuskontrolle könnte das Schlaganfallrisiko daher mittelbar senken. Eine Post-hoc-Analyse der ATHENA-Studie (Meta-Analyse PMID 22149318) deutete auf ein geringeres Schlaganfallrisiko bei paroxysmalem oder persistierendem Vorhofflimmern hin. Eine präklinische Arbeit beschreibt zudem pleiotrope Effekte bei Ischämie/Reperfusion in Herz und Gehirn (PMID 22366819). Eine Studie fand außerdem gerinnungs- und thrombozytenhemmende Effekte unabhängig von der antiarrhythmischen Wirkung (PMID 28992468).
 
@@ -146,12 +146,13 @@ Die Vorhersage stützt sich auf indirekte Evidenz aus Vorhofflimmern-Populatione
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „und eine nur noch gelöschte Zulassung in Deutschland“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „(gelöschte Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c) |
 
 <!-- review:end log -->
 

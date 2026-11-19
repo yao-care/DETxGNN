@@ -60,7 +60,7 @@ Dafür liegen jedoch **keine klinischen Studien** und **keine spezifischen Publi
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Eculizumab ein monoklonaler Antikörper gegen das Komplementprotein C5 ist und die terminale Komplementaktivierung hemmt. Bei PNH ist die Wirksamkeit belegt, da dort eine unkontrollierte Komplementaktivierung die Hämolyse verursacht.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Eculizumab (inoffizielle Übersetzung): „Eculizumab, der Wirkstoff von SOLIRIS, ist ein monoklonaler Antikörper, der spezifisch und mit hoher Affinität an das Komplementprotein C5 bindet, wodurch dessen Spaltung in C5a und C5b gehemmt und die Bildung des terminalen Komplementkomplexes C5b-9 verhindert wird. SOLIRIS hemmt die durch das terminale Komplement vermittelte intravasale Hämolyse bei PNH-Patienten sowie die komplementvermittelte thrombotische Mikroangiopathie (TMA) bei Patienten mit aHUS.“ Englischer Originalwortlaut: "Eculizumab, the active ingredient in SOLIRIS, is a monoclonal antibody that specifically binds to the complement protein C5 with high affinity, thereby inhibiting its cleavage to C5a and C5b and preventing the generation of the terminal complement complex C5b-9. SOLIRIS inhibits terminal complement-mediated intravascular hemolysis in PNH patients and complement-mediated thrombotic microangiopathy (TMA) in patients with aHUS." ([DailyMed: Soliris (eculizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ebcd67fa-b4d1-4a22-b33d-ee8bf6b9c722), Fassung vom 2026-07-08; abgerufen am 2026-11-19). Bekannt ist, dass Eculizumab ein monoklonaler Antikörper gegen das Komplementprotein C5 ist und die terminale Komplementaktivierung hemmt. Bei PNH ist die Wirksamkeit belegt, da dort eine unkontrollierte Komplementaktivierung die Hämolyse verursacht.
 
 Ein plausibler mechanistischer Zusammenhang zur vorhergesagten Indikation besteht **nicht**. Die zyklische Hämatopoese (zyklische Neutropenie) wird durch ELANE-Mutationen verursacht und ist keine komplementvermittelte Erkrankung. Der hohe Vorhersagewert stammt vom TxGNN-Modell (Deep Learning) und spiegelt wahrscheinlich Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat, und keinen biologischen Beleg oder echten Wirkmechanismus.
 
@@ -131,11 +131,12 @@ Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzlevel L5). Es gibt 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Klärung des Zulassungsstatus in Deutschland (derzeit nur erloschene Zulassungen)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Soliris (eculizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ebcd67fa-b4d1-4a22-b33d-ee8bf6b9c722) |
 
 <!-- review:end log -->
 

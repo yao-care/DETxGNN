@@ -56,7 +56,7 @@ Hinweis: Für die zweitplatzierte bis zehntplatzierte Vorhersage gilt ebenfalls 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Defibrotid das Endothel schützt, die endotheliale Aktivierung moduliert und profibrinolytische sowie antithrombotische Eigenschaften besitzt. Seine Wirksamkeit bei der hepatischen VOD, einer Endothelschädigung der kleinen Lebergefäße, ist die Grundlage der ursprünglichen Zulassung.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Defibrotide (inoffizielle Übersetzung): „Der Wirkmechanismus von Defibrotid-Natrium ist nicht vollständig geklärt. In vitro verstärkt Defibrotid-Natrium die enzymatische Aktivität von Plasmin bei der Hydrolyse von Fibringerinnseln. Studien zur Untersuchung der pharmakologischen Wirkungen von Defibrotid-Natrium auf Endothelzellen (ECs) wurden überwiegend an der humanen mikrovaskulären Endothelzelllinie durchgeführt.“ Englischer Originalwortlaut: "The mechanism of action of defibrotide sodium has not been fully elucidated. In vitro, defibrotide sodium enhances the enzymatic activity of plasmin to hydrolyze fibrin clots. Studies evaluating the pharmacological effects of defibrotide sodium on endothelial cells (ECs) were conducted primarily in the human microvascular endothelial cell line." ([DailyMed: Defitelio (defibrotide sodium) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c3db989-d7ad-41ed-9ebf-698dcf6c24ec), Fassung vom 2025-07-01; abgerufen am 2026-11-19). Bekannt ist, dass Defibrotid das Endothel schützt, die endotheliale Aktivierung moduliert und profibrinolytische sowie antithrombotische Eigenschaften besitzt. Seine Wirksamkeit bei der hepatischen VOD, einer Endothelschädigung der kleinen Lebergefäße, ist die Grundlage der ursprünglichen Zulassung.
 
 Bei der Pseudo-von-Willebrand-Erkrankung ist ein mechanistischer Zusammenhang dagegen nicht erkennbar. Es handelt sich um eine Hyperreaktivität des Thrombozyten-Rezeptors GPIb, also eine Thrombozytenstörung und keine Endothelpathologie. Hinzu kommt ein Bedenken: Das Blutungsrisiko unter Defibrotid könnte bei einer ohnehin blutungsneigenden Erkrankung problematisch sein. Die hohe Modellbewertung ist daher als statistisches Signal und nicht als biologisch begründete Hypothese zu verstehen.
 
@@ -125,11 +125,12 @@ Die Hauptvorhersage (Pseudo-von-Willebrand-Erkrankung) beruht ausschließlich au
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Klärung des Zulassungsstatus in Deutschland (aktuell nur erloschene Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Defitelio (defibrotide sodium) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c3db989-d7ad-41ed-9ebf-698dcf6c24ec) |
 
 <!-- review:end log -->
 

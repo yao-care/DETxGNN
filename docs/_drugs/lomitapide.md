@@ -54,7 +54,7 @@ Lomitapid ist ein Hemmstoff des mikrosomalen Triglycerid-Transferproteins (MTP) 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Ein mechanistischer Zusammenhang ließ sich nicht herleiten. Lomitapid hemmt das mikrosomale Triglycerid-Transferprotein und senkt dadurch apoB-haltige Lipoproteine. Detaillierte Daten zum ursprünglichen Wirkmechanismus liegen in den zusammengestellten Daten derzeit nicht vor.
+Ein mechanistischer Zusammenhang ließ sich nicht herleiten. Lomitapid hemmt das mikrosomale Triglycerid-Transferprotein und senkt dadurch apoB-haltige Lipoproteine. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Lomitapide (inoffizielle Übersetzung): „JUXTAPID bindet direkt an das mikrosomale Triglycerid-Transferprotein (MTP), das sich im Lumen des endoplasmatischen Retikulums befindet, und hemmt es, wodurch der Zusammenbau von Apo-B-haltigen Lipoproteinen in Enterozyten und Hepatozyten verhindert wird. Dadurch wird die Synthese von Chylomikronen und VLDL gehemmt.“ Englischer Originalwortlaut: "JUXTAPID directly binds and inhibits microsomal triglyceride transfer protein (MTP), which resides in the lumen of the endoplasmic reticulum, thereby preventing the assembly of apo B-containing lipoproteins in enterocytes and hepatocytes. This inhibits the synthesis of chylomicrons and VLDL." ([DailyMed: Juxtapid (lomitapide mesylate) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=61a0be9d-ee58-43e0-b5cb-141011835081), Fassung vom 2026-03-30; abgerufen am 2026-11-19).
 
 Für eine Verbindung zwischen der MTP-Hemmung und einer Thrombozytopenie mit Mitralklappeninsuffizienz gibt es keinen belegten Anhaltspunkt. Der hohe Vorhersagewert (0,9992) ist ein rein rechnerisches Ergebnis des Modells und wird weder durch klinische noch durch Literaturdaten gestützt. Er sollte daher als Hypothese, nicht als Hinweis auf Wirksamkeit verstanden werden.
 
@@ -92,6 +92,19 @@ Die Vorhersage beruht ausschließlich auf einem Modellwert, ohne klinische Studi
 - Vollständige Daten zum Wirkmechanismus (MOA)
 - Präklinische oder mechanistische Hinweise, die MTP-Hemmung mit der Thrombozytenfunktion oder -bildung verbinden
 - Bewertung des Nutzen-Risiko-Profils unter Berücksichtigung von Hepatotoxizität und Teratogenität
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Juxtapid (lomitapide mesylate) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=61a0be9d-ee58-43e0-b5cb-141011835081) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

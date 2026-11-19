@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Turoctocog alfa ein rekombinanter Faktor VIII (FVIII) mit verkürzter B-Domäne ist und bei Hämophilie A den fehlenden Gerinnungsfaktor ersetzt.
+Laut ChEMBL (EMBL-EBI) ist für Turoctocog Alfa folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Exogenes Gerinnungsfaktor-VIII-Protein“ Englischer Originalwortlaut: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL2108286 (turoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108286), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist, dass Turoctocog alfa ein rekombinanter Faktor VIII (FVIII) mit verkürzter B-Domäne ist und bei Hämophilie A den fehlenden Gerinnungsfaktor ersetzt.
 
 Bei Störungen der Thrombozyten-Freisetzung liegt der Defekt dagegen in den Blutplättchen selbst (Granulainhalt oder Signalwege), nicht in einem FVIII-Mangel. Ein FVIII-Ersatz hat daher keine klare mechanistische Grundlage. Der hohe TxGNN-Wert stammt aus dem TxGNN-Modell (Deep Learning) und spiegelt wahrscheinlich Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat, keinen biologischen Beleg.
 
@@ -126,6 +126,19 @@ Für alle zehn vorhergesagten Indikationen liegen weder klinische Studien noch P
 - Klärung der unklaren Entität „flood factor deficiency“
 - Präzise Definition der Subtypen des erworbenen Gerinnungsfaktormangels (z. B. erworbene Hämophilie A) als einzig plausible Forschungsfrage
 - Systematische Literatur- und Studienrecherche zu den priorisierten Indikationen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL2108286 (turoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108286) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

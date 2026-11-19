@@ -54,7 +54,7 @@ Dexamethason ist ein synthetisches Glukokortikoid mit entzündungshemmender und 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Dexamethason liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Dexamethason zur Klasse der Glukokortikoide gehört. Diese dämpfen entzündliche und immunvermittelte Prozesse breit.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Dexamethasone (inoffizielle Übersetzung): „Dexamethason ist ein Corticosteroid mit entzündungshemmender Wirkung und geringer mineralocorticoider Aktivität. Der genaue Wirkmechanismus beim multiplen Myelom ist nicht bekannt. Dexamethason induziert die Apoptose von Zellen des multiplen Myeloms.“ Englischer Originalwortlaut: "Dexamethasone is a corticosteroid with anti-inflammatory effects and low mineralocorticoid activity. The precise mechanism of action in multiple myeloma is unknown. Dexamethasone induces apoptosis of multiple myeloma cells." ([DailyMed: Hemady (dexamethasone) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b9cf32c-6d60-4853-bbfd-2304ffc2c129), Fassung vom 2026-01-09; abgerufen am 2026-11-19). Bekannt ist, dass Dexamethason zur Klasse der Glukokortikoide gehört. Diese dämpfen entzündliche und immunvermittelte Prozesse breit.
 
 Die Vorhersage spiegelt wahrscheinlich eine gemeinsame entzündliche Pathologie an den Haarfollikeln wider. Ein solcher Zusammenhang wäre mechanistisch nachvollziehbar, da eine antiinflammatorische Therapie dort grundsätzlich ansetzen könnte. Er ist aber bislang nicht durch Studien oder Fachliteratur belegt. Die Ähnlichkeit zur ursprünglichen Anwendung wurde noch nicht näher analysiert. Die Vorhersage ist daher als reine Hypothese zu verstehen.
 
@@ -98,6 +98,18 @@ Es gibt weder klinische Studien noch Publikationen, die Dexamethason direkt bei 
 - Prüfung der geeigneten Applikationsform (z. B. topisch oder intraläsional) und ihrer Verfügbarkeit
 - Auswertung der Fachinformation auf Warnhinweise und Gegenanzeigen, insbesondere bei längerer Anwendung
 - Bei positiver Datenlage ein Plan für eine explorative klinische Studie
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Hemady (dexamethasone) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b9cf32c-6d60-4853-bbfd-2304ffc2c129) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

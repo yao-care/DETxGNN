@@ -58,7 +58,7 @@ Olopatadin ist ein Antihistaminikum mit mastzellstabilisierender Wirkung und war
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten nicht vor. Nach allgemeinem pharmakologischen Wissen ist Olopatadin ein Histamin-H1-Rezeptor-Antagonist mit mastzellstabilisierender Aktivität. Seine Wirksamkeit bei allergischer Konjunktivitis ist belegt und könnte mechanistisch teilweise auf die Rosazea-Konjunktivitis übertragbar sein.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Olopatadine (inoffizielle Übersetzung): „Olopatadin ist ein Histamin-H 1 -Rezeptorantagonist. Die antihistaminische Wirkung von Olopatadin wurde an isolierten Geweben, in Tiermodellen und am Menschen nachgewiesen.“ Englischer Originalwortlaut: "Olopatadine is a histamine H 1 receptor antagonist. The antihistaminic activity of olopatadine has been documented in isolated tissues, animal models, and humans." ([DailyMed: olopatadine hydrochloride prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3aa27224-7b72-38eb-0c21-b8d73525ee85), Fassung vom 2026-09-15; abgerufen am 2026-11-19). Nach allgemeinem pharmakologischen Wissen ist Olopatadin ein Histamin-H1-Rezeptor-Antagonist mit mastzellstabilisierender Aktivität. Seine Wirksamkeit bei allergischer Konjunktivitis ist belegt und könnte mechanistisch teilweise auf die Rosazea-Konjunktivitis übertragbar sein.
 
 Die okuläre Rosazea wird jedoch vor allem durch Meibom-Drüsen-Dysfunktion, Instabilität des Tränenfilms und Entzündung getrieben (u. a. angeborene Immunaktivierung, MMP-9, Demodex- bzw. mikrobielle Faktoren). Histaminvermittelte allergische Mechanismen spielen dabei allenfalls eine untergeordnete Rolle. Ein plausibler Zusammenhang besteht in der symptomatischen Linderung von Juckreiz und Rötung sowie in der Dämpfung mastzellvermittelter Entzündung. Dies ist jedoch spekulativ.
 
@@ -84,7 +84,6 @@ Derzeit liegt keine zugehörige Literatur vor.
 |---------|------|------|-----------|
 | EMEA/H/C/000407 | Opatanol | – | Allergische Konjunktivitis |
 
-
 ---
 
 ## Sicherheitsaspekte
@@ -109,6 +108,19 @@ Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzlevel L5) ohn
 - Systematische Literaturrecherche und Prüfung registrierter Studien zu Olopatadin bei okulärer Rosazea
 - Prüfung von Darreichungsform/Applikationsweg (Augentropfen) und der Verfügbarkeit eines Präparats in Deutschland
 - Gegebenenfalls präklinische oder explorative klinische Daten zur Rolle von Mastzellen bei okulärer Rosazea
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: olopatadine hydrochloride prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3aa27224-7b72-38eb-0c21-b8d73525ee85) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

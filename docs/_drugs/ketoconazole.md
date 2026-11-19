@@ -58,7 +58,7 @@ Ketoconazol wurde ursprünglich zur Behandlung des Cushing-Syndroms zugelassen. 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten, kuratierten Angaben vor. Die folgende Einordnung beruht daher auf allgemeiner Pharmakologie. Ketoconazol ist ein Azol-Antimykotikum. Es wirkt gegen Malassezia-(Pityrosporum-)Hefen, die an follikulären Entzündungen und akneähnlichen Hautveränderungen (z. B. Malassezia-Follikulitis) beteiligt sein können. Außerdem hemmt es die Steroidsynthese (u. a. CYP17A1) und senkt dadurch die Androgenbildung. Beim Cushing-Syndrom nutzt man diese Hemmung, um die Cortisolproduktion zu senken.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Ketoconazole (inoffizielle Übersetzung): „Ketoconazol blockiert die Synthese von Ergosterol, einem Hauptbestandteil der Pilzzellmembran, durch Hemmung des Cytochrom-P-450-abhängigen Enzyms Lanosterol-14α-Demethylase, das für die Umwandlung von Lanosterol in Ergosterol in der Pilzzellmembran verantwortlich ist. Dies führt zu einer Akkumulation methylierter Sterolvorstufen und zu einer Verarmung an Ergosterol in der Zellmembran, wodurch Struktur und Funktion der Pilzzellmembran geschwächt werden.“ Englischer Originalwortlaut: "Ketoconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane." ([DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371), Fassung vom 2025-11-18; abgerufen am 2026-11-19). Die folgende Einordnung beruht daher auf allgemeiner Pharmakologie. Ketoconazol ist ein Azol-Antimykotikum. Es wirkt gegen Malassezia-(Pityrosporum-)Hefen, die an follikulären Entzündungen und akneähnlichen Hautveränderungen (z. B. Malassezia-Follikulitis) beteiligt sein können. Außerdem hemmt es die Steroidsynthese (u. a. CYP17A1) und senkt dadurch die Androgenbildung. Beim Cushing-Syndrom nutzt man diese Hemmung, um die Cortisolproduktion zu senken.
 
 Der Zusammenhang zur Akne ergibt sich auf zwei Wegen. Erstens kann die antiandrogene Wirkung bei hyperandrogener Akne, etwa im Rahmen eines PCOS, relevant sein. Zweitens zeigen Laborstudien, dass Ketoconazol das Wachstum von *Cutibacterium (Propionibacterium) acnes* und dessen Lipaseaktivität hemmt. Das könnte bei zunehmenden Antibiotikaresistenzen interessant sein.
 
@@ -138,11 +138,12 @@ Die Vorhersage ist mechanistisch nachvollziehbar (Malassezia, *C. acnes*, Androg
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Diese Zulassung (zentrale EU-Zulassung) ist als erloschen/zurückgezogen geführt. Gültige Zulassungen gibt es derzeit nicht“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371) |
 
 <!-- review:end log -->
 

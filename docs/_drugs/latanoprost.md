@@ -58,7 +58,7 @@ Latanoprost ist ein Prostaglandin-F2α-Analogon, das in Deutschland als Arzneimi
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten derzeit keine detaillierten Angaben vor. Bekannt ist, dass Latanoprost ein Prostaglandin-F2α-Analogon ist und seine Wirkung über den Prostaglandin-F2α-Rezeptor vermittelt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Latanoprost (inoffizielle Übersetzung): „Latanoprost ist ein Prostaglandin-F 2α-Analogon, von dem angenommen wird, dass es den Augeninnendruck (IOP) durch Steigerung des Kammerwasserabflusses senkt. Studien an Tieren und am Menschen deuten darauf hin, dass der Hauptwirkmechanismus in einem erhöhten uveoskleralen Abfluss besteht.“ Englischer Originalwortlaut: "Latanoprost is a prostaglandin F 2α analogue that is believed to reduce the intraocular pressure (IOP) by increasing the outflow of aqueous humor. Studies in animals and man suggest that the main mechanism of action is increased uveoscleral outflow." ([DailyMed: Xelpros (latanoprost) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34ad5cf6-4df0-4104-bddd-4c7631133ded), Fassung vom 2025-12-18; abgerufen am 2026-11-19). Bekannt ist, dass Latanoprost ein Prostaglandin-F2α-Analogon ist und seine Wirkung über den Prostaglandin-F2α-Rezeptor vermittelt.
 
 Ein klarer mechanistischer Zusammenhang mit der vorhergesagten Erkrankung ist nicht erkennbar. Die Kalziphylaxie ist durch Gefäßverkalkung und mikrovaskuläre Thrombosen gekennzeichnet. Für eine Prostaglandin-F2α-Rezeptor-Agonisierung ist bei diesem Krankheitsbild keine etablierte Rolle beschrieben. Der hohe Vorhersagewert ist ein rein rechnerisches Ergebnis, das durch keine klinischen Daten oder Literatur gestützt wird. Die Plausibilität ist daher als gering einzustufen.
 
@@ -98,6 +98,19 @@ Die Vorhersage stützt sich ausschließlich auf einen Modellwert, ohne Studien o
 - Auswertung der Packungsbeilage mit Warnhinweisen und Gegenanzeigen
 - Prüfung der Exposition: Bei lokaler Anwendung ist die systemische Verfügbarkeit gering, und ein systemischer Effekt bei dieser Erkrankung ist fraglich
 - Nur bei einem belastbaren präklinischen Signal: Planung von Studien zum Wirksamkeitsnachweis
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Xelpros (latanoprost) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34ad5cf6-4df0-4104-bddd-4c7631133ded) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

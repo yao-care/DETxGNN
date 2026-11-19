@@ -58,7 +58,7 @@ Epinephrin (Adrenalin) wird ursprünglich zur Notfallbehandlung der Anaphylaxie 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu dem Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach bekanntem Wissen ist Epinephrin ein nicht-selektiver adrenerger Agonist. Die Stimulation von Beta-2-Rezeptoren entspannt die glatte Bronchialmuskulatur und führt zur Bronchodilatation. Die Alpha-1-Stimulation verringert durch Vasokonstriktion das Schleimhautödem.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Epinephrine (inoffizielle Übersetzung): „Epinephrin wirkt sowohl auf alpha- als auch auf beta-adrenerge Rezeptoren. Durch seine Wirkung auf alpha-adrenerge Rezeptoren vermindert Epinephrin die während einer Anaphylaxie auftretende Vasodilatation und erhöhte Gefäßpermeabilität, die zu einem Verlust an intravasalem Flüssigkeitsvolumen und zu Hypotonie führen können.“ Englischer Originalwortlaut: "Epinephrine acts on both alpha and beta-adrenergic receptors. Through its action on alpha-adrenergic receptors, epinephrine lessens the vasodilation and increased vascular permeability that occurs during anaphylaxis, which can lead to loss of intravascular fluid volume and hypotension." ([DailyMed: Auvi-Q (epinephrine) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f40988b-8365-4f7b-84d1-b88e053725cf), Fassung vom 2026-09-18; abgerufen am 2026-11-19). Nach bekanntem Wissen ist Epinephrin ein nicht-selektiver adrenerger Agonist. Die Stimulation von Beta-2-Rezeptoren entspannt die glatte Bronchialmuskulatur und führt zur Bronchodilatation. Die Alpha-1-Stimulation verringert durch Vasokonstriktion das Schleimhautödem.
 
 Die ursprüngliche Indikation (Anaphylaxie) und die vorhergesagte Indikation haben einen gemeinsamen pathophysiologischen Anteil: In beiden Fällen kommt es zu Bronchospasmus und Schwellung der Atemwege. Dieselben Rezeptorwirkungen, die bei der Anaphylaxie lebensrettend sind, wirken mechanistisch auch bei Asthma und Bronchiolitis.
 
@@ -162,13 +162,14 @@ Mehrere abgeschlossene Phase-3-Studien zu inhalativem Epinephrin bei Asthma stü
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Zudem ist der Marktstatus „nur erloschen“ für inhalative Formulierungen regulatorisch zu klären“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-10-31 | Entfernt: „Die Einschränkungen betreffen die kardiovaskuläre Sicherheit, die hohe Zahl an Wechselwirkungen und den Marktstatus „nur erloschen““ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „(Zulassung erloschen)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Auvi-Q (epinephrine) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f40988b-8365-4f7b-84d1-b88e053725cf) |
 
 <!-- review:end log -->
 

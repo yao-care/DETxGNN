@@ -58,7 +58,7 @@ Ropeginterferon alfa-2b ist ein monopegyliertes Interferon, das ursprünglich zu
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist, dass Ropeginterferon alfa-2b ein monopegyliertes Interferon mit verbesserter Pharmakokinetik ist. Seine Wirksamkeit bei Polycythaemia vera ist belegt; es unterdrückt vermutlich JAK2-mutierte Klone bei myeloproliferativen Neoplasien.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Ropeginterferon Alfa-2B (inoffizielle Übersetzung): „Interferon alfa gehört zur Klasse der Typ-I-Interferone, die ihre zellulären Wirkungen bei Polycythaemia vera und essenzieller Thrombozythämie im Knochenmark durch Bindung an einen als Interferon-alfa-Rezeptor (IFNAR) bezeichneten Transmembranrezeptor entfalten. Die Bindung an IFNAR löst eine nachgeschaltete Signalkaskade durch die Aktivierung von Kinasen, insbesondere Janus-Kinase 1 (JAK1) und Tyrosinkinase 2 (TYK2), sowie von Activator-of-Transcription-(STAT)-Proteinen aus.“ Englischer Originalwortlaut: "Interferon alfa belongs to the class of type I interferons, which exhibit their cellular effects in polycythemia vera and essential thrombocythemia in the bone marrow by binding to a transmembrane receptor termed interferon alfa receptor (IFNAR). Binding to IFNAR initiates a downstream signaling cascade through the activation of kinases, in particular Janus kinase 1 (JAK1) and tyrosine kinase 2 (TYK2) and activator of transcription (STAT) proteins." ([DailyMed: Besremi (ropeginterferon alfa-2b) prescribing information, PharmaEssentia USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9583405d-53a0-49dc-88eb-5e6384ebabcb), Fassung vom 2026-08-25; abgerufen am 2026-11-19). Bekannt ist, dass Ropeginterferon alfa-2b ein monopegyliertes Interferon mit verbesserter Pharmakokinetik ist. Seine Wirksamkeit bei Polycythaemia vera ist belegt; es unterdrückt vermutlich JAK2-mutierte Klone bei myeloproliferativen Neoplasien.
 
 Das Laubry-Pezzi-Syndrom ist dagegen ein angeborener Ventrikelseptumdefekt mit Aortenklappeninsuffizienz, also eine strukturelle Herzfehlbildung. Ein plausibler Zusammenhang mit einem antiproliferativen bzw. immunmodulatorischen Interferon ist nicht erkennbar. Der hohe TxGNN-Wert ist eine rein graphbasierte Vorhersage und vermutlich ein Netzwerkartefakt.
 
@@ -128,6 +128,19 @@ Für das Laubry-Pezzi-Syndrom gibt es weder klinische Studien noch Literatur, un
 - Fachinformation (Warnhinweise, Gegenanzeigen) von BfArM bzw. EMA, da die Sicherheitsprüfung sonst nicht möglich ist
 - Prüfung des Zulassungsstatus in Deutschland
 - Gegebenenfalls Priorisierung anderer Vorhersagen oder eine Plausibilitätsprüfung der Modellausgabe, da alle zehn Top-Vorhersagen ohne Evidenz und ohne erkennbaren Mechanismus sind
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Besremi (ropeginterferon alfa-2b) prescribing information, PharmaEssentia USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9583405d-53a0-49dc-88eb-5e6384ebabcb) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

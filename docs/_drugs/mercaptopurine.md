@@ -55,7 +55,7 @@ Mercaptopurin ist ein Purin-Antimetabolit, der in Deutschland als Xaluprine zuge
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen in den zusammengestellten Daten nicht vor. Mercaptopurin ist jedoch ein Purin-Antimetabolit: Seine Thioguanin-Nukleotid-Metaboliten werden in DNA und RNA eingebaut und hemmen die De-novo-Purinsynthese. Das wirkt zytotoxisch auf sich schnell teilende Leukämiezellen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Mercaptopurine (inoffizielle Übersetzung): „Mercaptopurin ist ein Purinanalogon, das intrazellulär transportiert und aktiviert wird und dabei Metaboliten einschließlich Thioguaninnukleotiden (TGN) bildet. Der Einbau von TGN in DNA oder RNA führt zu Zellzyklusarrest und Zelltod.“ Englischer Originalwortlaut: "Mercaptopurine is a purine analog that undergoes intracellular transport and activation to form metabolites including thioguanine nucleotides (TGNs). Incorporation of TGNs into DNA or RNA results in cell-cycle arrest and cell death." ([DailyMed: mercaptopurine prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a366cf3-91f0-4aa4-8f34-a7a27cad8f15), Fassung vom 2026-07-22; abgerufen am 2026-11-19). Mercaptopurin ist jedoch ein Purin-Antimetabolit: Seine Thioguanin-Nukleotid-Metaboliten werden in DNA und RNA eingebaut und hemmen die De-novo-Purinsynthese. Das wirkt zytotoxisch auf sich schnell teilende Leukämiezellen.
 
 Dieser Mechanismus ist nicht auf eine einzelne Leukämieform beschränkt, daher ist eine Übertragung auf myeloische Zellen mechanistisch gut denkbar. Die klinischen Daten stammen allerdings überwiegend aus Mehrstoff-Protokollen und lassen den Beitrag von Mercaptopurin allein selten erkennen. Zur Erhaltungstherapie bei AML gibt es eine kleine Kohortenstudie (PMID 26425037), und Berichte zur ALL-ähnlichen Konsolidierung betreffen Kinder (PMID 38828002).
 
@@ -131,11 +131,12 @@ Für die AML liegen eine Kohortenstudie und eine prospektive Pilotstudie zur Mer
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Klärung des Zulassungs- und Versorgungsstatus in Deutschland, da nur eine erloschene Zulassung vorliegt“ | Nach Neuerstellung des Berichts nicht mehr vorhanden (2026-11-12: der Bericht wurde im November 2026 neu erstellt und enthält diese Aussage nicht mehr; vorher: Korrigiert) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: mercaptopurine prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a366cf3-91f0-4aa4-8f34-a7a27cad8f15) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Prasteron (DHEA) wurde ursprünglich für die Behandlung von Beschwerden in der 
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Zum Wirkmechanismus von Prasteron liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Prasteron (Dehydroepiandrosteron, DHEA) im Körper zu Androgenen und Östrogenen umgewandelt wird. In der Datenbank ist zudem eine pharmakologische Wechselwirkung mit dem Glycin-Rezeptor (alle Subtypen) verzeichnet. Das Präparat Intrarosa ist in den USA für mäßige bis starke Schmerzen beim Geschlechtsverkehr (Dyspareunie) infolge vulvovaginaler Atrophie zugelassen.
+Laut dem Abschnitt „Clinical Pharmacology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Prasterone (inoffizielle Übersetzung): „Prasteron ist ein inaktives endogenes Steroid und wird in aktive Androgene und/oder Estrogene umgewandelt. Der Wirkmechanismus von INTRAROSA bei postmenopausalen Frauen mit vulvovaginaler Atrophie ist nicht vollständig geklärt.“ Englischer Originalwortlaut: "Prasterone is an inactive endogenous steroid and is converted into active androgens and/or estrogens. The mechanism of action of INTRAROSA in postmenopausal women with vulvar and vaginal atrophy is not fully established." ([DailyMed: Intrarosa (prasterone) prescribing information, Millicent US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7), Fassung vom 2026-07-17; abgerufen am 2026-11-19). Bekannt ist, dass Prasteron (Dehydroepiandrosteron, DHEA) im Körper zu Androgenen und Östrogenen umgewandelt wird. In der Datenbank ist zudem eine pharmakologische Wechselwirkung mit dem Glycin-Rezeptor (alle Subtypen) verzeichnet. Das Präparat Intrarosa ist in den USA für mäßige bis starke Schmerzen beim Geschlechtsverkehr (Dyspareunie) infolge vulvovaginaler Atrophie zugelassen.
 
 Zwischen der ursprünglichen Indikation (Postmenopause) und dem Heparin-Cofaktor-2-Mangel, einem genetischen Defekt eines Serpin-Gerinnungshemmers (SERPIND1), ist kein plausibler mechanistischer Zusammenhang erkennbar. DHEA beeinflusst zwar teilweise Gerinnung und Fibrinolyse, jedoch nicht in einer Weise, die einen SERPIND1-Mangel korrigieren würde. Da DHEA in Sexualsteroide umgewandelt wird, könnte es in einer thrombophilen Population sogar das Thromboserisiko erhöhen. Der hohe TxGNN-Wert ist daher als rein computergestützter Hinweis zu verstehen.
 
@@ -96,6 +96,19 @@ Die Vorhersage stützt sich allein auf das TxGNN-Modell (Evidenzstufe L5) ohne S
 - Systematische Literatur- und Studienrecherche zu Prasteron bei Gerinnungsstörungen
 - Prüfung, ob die Kandidaten mit indirekter Hypothese (diabetische Retinopathie, Sklerodermie) vorrangig weiterverfolgt werden sollten
 - Klärung der Routenkompatibilität und der Ähnlichkeit zur ursprünglichen Indikation (derzeit offen)
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Intrarosa (prasterone) prescribing information, Millicent US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

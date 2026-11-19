@@ -58,7 +58,7 @@ Parathormon (PTH) wurde ursprünglich zur Behandlung des Hypoparathyreoidismus e
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Parathormon den PTH-1-Rezeptor aktiviert und damit den Calcium- und Phosphathaushalt reguliert. Seine Wirksamkeit beim Hypoparathyreoidismus ist belegt.
+Laut ChEMBL (EMBL-EBI) ist für Parathyroid Hormone folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Parathormon-Rezeptor-Agonist“ Englischer Originalwortlaut: "Parathyroid hormone receptor agonist" ([ChEMBL CHEMBL2108078 (parathyroid hormone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108078), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist, dass Parathormon den PTH-1-Rezeptor aktiviert und damit den Calcium- und Phosphathaushalt reguliert. Seine Wirksamkeit beim Hypoparathyreoidismus ist belegt.
 
 Eine genetische Studie aus dem Jahr 2025 (PMID 40297711) bringt Rezeptoren des PTH-verwandten Peptids (PTHrP) mit der Migränedisposition in Verbindung. Das ist ein indirekter Hinweis: PTHrP-Signalwege sind nicht gleichbedeutend mit der Gabe von exogenem PTH. Zudem verbinden Beobachtungsstudien Migräne mit Auffälligkeiten bei Vitamin D, Calcium und Knochenstatus, die die PTH-Achse berühren.
 
@@ -134,11 +134,12 @@ Für Migräne gibt es keine klinischen Studien. Die Literatur beschränkt sich a
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-12 | Tabelle: Natpar (EMEA/H/C/003861) ist zurückgenommen, nicht gültig | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL2108078 (parathyroid hormone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108078) |
 
 <!-- review:end log -->
 

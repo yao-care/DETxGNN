@@ -54,7 +54,7 @@ Benralizumab ist ein monoklonaler Antikörper gegen die α-Untereinheit des Inte
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Benralizumab bindet an IL5RA und depletiert Eosinophile und Basophile über antikörperabhängige zelluläre Zytotoxizität (ADCC). Es ist ein Biologikum, das zielgerichtet bei eosinophil geprägten Erkrankungen eingesetzt wird.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Benralizumab (inoffizielle Übersetzung): „Benralizumab ist ein humanisierter, afucosylierter monoklonaler Antikörper (IgG1, kappa), der mit einer Dissoziationskonstante von 11 pM direkt an die Alpha-Untereinheit des humanen Interleukin-5-Rezeptors (IL-5Rα) bindet. Der IL-5-Rezeptor wird auf der Oberfläche von Eosinophilen und Basophilen exprimiert.“ Englischer Originalwortlaut: "Benralizumab is a humanized afucosylated, monoclonal antibody (IgG1, kappa) that directly binds to the alpha subunit of the human interleukin-5 receptor (IL-5Rα) with a dissociation constant of 11 pM. The IL-5 receptor is expressed on the surface of eosinophils and basophils." ([DailyMed: Fasenra (benralizumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da6aca1a-19ed-44a4-abb7-696c7d58b784), Fassung vom 2026-05-13; abgerufen am 2026-11-19). Bekannt ist: Benralizumab bindet an IL5RA und depletiert Eosinophile und Basophile über antikörperabhängige zelluläre Zytotoxizität (ADCC). Es ist ein Biologikum, das zielgerichtet bei eosinophil geprägten Erkrankungen eingesetzt wird.
 
 Ein Zusammenhang mit der Immunthrombozytopenie ist jedoch nicht gut belegt. Die Eosinophilendepletion hat keine klare Rolle bei der antikörpervermittelten Zerstörung von Thrombozyten. Der hohe TxGNN-Wert ist eine rein rechnerische Vorhersage ohne Unterstützung durch Studien oder Literatur. Ein mechanistischer Nutzen bleibt deshalb spekulativ.
 
@@ -90,6 +90,19 @@ Die Vorhersage stützt sich ausschließlich auf das Modell. Es gibt weder Studie
 - Detaillierte Daten zum Wirkmechanismus
 - Vollständige Sicherheitsangaben aus der Fachinformation (Warnhinweise, Gegenanzeigen)
 - Systematische Literaturrecherche zu Benralizumab und Immunthrombozytopenie
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Fasenra (benralizumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da6aca1a-19ed-44a4-abb7-696c7d58b784) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

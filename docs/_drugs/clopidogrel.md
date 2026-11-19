@@ -59,7 +59,7 @@ Das TxGNN-Modell sagt voraus, dass die Substanz bei **Migräne mit Hirnstammaura
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Clopidogrel liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Clopidogrel den P2Y12-Rezeptor der Thrombozyten hemmt und damit Thrombozytenaktivierung und -aggregation reduziert. Die Wirksamkeit in der Sekundärprävention vaskulärer Ereignisse ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Clopidogrel (inoffizielle Übersetzung): „Clopidogrel ist ein Inhibitor der Thrombozytenaktivierung und -aggregation durch die irreversible Bindung seines aktiven Metaboliten an die P2Y 12-Klasse der ADP-Rezeptoren auf Thrombozyten.“ Englischer Originalwortlaut: "Clopidogrel is an inhibitor of platelet activation and aggregation through the irreversible binding of its active metabolite to the P2Y 12 class of ADP receptors on platelets." ([DailyMed: Plavix (clopidogrel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de8b0b67-eb25-4684-83b5-7ad785314227), Fassung vom 2025-05-30; abgerufen am 2026-11-19). Bekannt ist, dass Clopidogrel den P2Y12-Rezeptor der Thrombozyten hemmt und damit Thrombozytenaktivierung und -aggregation reduziert. Die Wirksamkeit in der Sekundärprävention vaskulärer Ereignisse ist belegt.
 
 Mechanistisch wird vermutet, dass bei Migräne mit Aura, insbesondere bei Patienten mit offenem Foramen ovale (PFO), paradoxe Mikroembolien oder thrombozytäre vasoaktive Botenstoffe (z. B. Serotonin) die Hirndurchblutung erreichen und Auren auslösen. Eine Thrombozytenhemmung könnte die Auren-Häufigkeit senken. Hinzu kommen präklinische Hinweise auf eine Rolle von P2Y12-Rezeptoren im Migränemodell der Maus.
 
@@ -142,6 +142,19 @@ Für Migräne mit Hirnstammaura selbst gibt es weder Studien noch gezielte Evide
 - Klärung, ob eine Evidenzbasis speziell für Migräne mit Hirnstammaura oder für PFO-assoziierte Migräne als engere Zielpopulation aufgebaut werden kann
 - Klärung der Marktverfügbarkeit in Deutschland (aktuell 16 von 16 Zulassungen gültig)
 - Nutzen-Risiko-Abwägung zum Blutungsrisiko in der Migräneprophylaxe
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Plavix (clopidogrel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de8b0b67-eb25-4684-83b5-7ad785314227) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

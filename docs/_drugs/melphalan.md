@@ -58,7 +58,7 @@ Melphalan ist ein alkylierendes Zytostatikum, das bei verschiedenen hämatologis
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten derzeit nicht vor. Bekannt ist, dass Melphalan ein bifunktionelles alkylierendes Mittel ist, das DNA vernetzt und dadurch Tumorzellen am Teilen hindert. Dieser Mechanismus ist grundsätzlich nicht auf eine einzelne Tumorart beschränkt, weshalb eine Anwendung beim Mammakarzinom mechanistisch denkbar ist.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Melphalan (inoffizielle Übersetzung): „Melphalan ist ein Alkylans vom Bischlorethylamin-Typ. Infolgedessen scheint seine Zytotoxizität mit dem Ausmaß seiner Interstrang-Quervernetzung mit der DNA zusammenzuhängen, wahrscheinlich durch Bindung an der N 7 -Position von Guanin.“ Englischer Originalwortlaut: "Melphalan is an alkylating agent of the bischloroethylamine type. As a result, its cytotoxicity appears to be related to the extent of its interstrand cross-linking with DNA, probably by binding at the N 7 position of guanine." ([DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c), Fassung vom 2026-09-15; abgerufen am 2026-11-19). Bekannt ist, dass Melphalan ein bifunktionelles alkylierendes Mittel ist, das DNA vernetzt und dadurch Tumorzellen am Teilen hindert. Dieser Mechanismus ist grundsätzlich nicht auf eine einzelne Tumorart beschränkt, weshalb eine Anwendung beim Mammakarzinom mechanistisch denkbar ist.
 
 Tatsächlich wurde Melphalan beim Brustkrebs bereits untersucht: in Hochdosisregimen mit autologer Stammzellunterstützung sowie in präklinischen Modellen (Xenotransplantate, MDA-MB-231-Zellen mit Curcumin-Kombination, BRCA1-defiziente PDX-Modelle). Die klinische Evidenz besteht überwiegend aus kleinen, frühen oder vorzeitig beendeten Studien. Der Hochdosis-Transplantationsansatz beim Brustkrebs hat sich nicht als Standardtherapie etabliert, und das Risiko von Zweitmalignomen ist ein dokumentiertes Problem.
 
@@ -136,6 +136,19 @@ Die Evidenz zum Mammakarzinom besteht überwiegend aus kleinen Studien der früh
 - Warnhinweise und Gegenanzeigen aus der Fachinformation auswerten
 - Nutzen-Risiko-Bewertung im Vergleich zu aktuellen Standardtherapien des Mammakarzinoms, einschließlich des Risikos von Zweitmalignomen
 - Gezielte Prüfung, ob aktuelle kontrollierte Studien mit modernen Regimen vorliegen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

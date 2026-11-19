@@ -58,7 +58,7 @@ Pentosanpolysulfat wurde ursprünglich zur Behandlung der **interstitiellen Zyst
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Pentosanpolysulfat ein heparinähnliches, sulfatiertes Polysaccharid mit schwacher gerinnungshemmender und thrombozytenbezogener Aktivität ist. Eine Wechselwirkung mit der Thrombozytenfunktion ist daher biologisch denkbar.
+Laut dem Abschnitt „Clinical Pharmacology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Pentosan Polysulfate (inoffizielle Übersetzung): „Der Wirkmechanismus von Pentosanpolysulfat-Natrium bei interstitieller Zystitis ist nicht bekannt.“ Englischer Originalwortlaut: "The mechanism of action of pentosan polysulfate sodium in interstitial cystitis is not known." ([DailyMed: Elmiron (pentosan polysulfate sodium) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ba651e-3d8a-11df-8fbe-119855d89593), Fassung vom 2024-09-18; abgerufen am 2026-11-19). Bekannt ist, dass Pentosanpolysulfat ein heparinähnliches, sulfatiertes Polysaccharid mit schwacher gerinnungshemmender und thrombozytenbezogener Aktivität ist. Eine Wechselwirkung mit der Thrombozytenfunktion ist daher biologisch denkbar.
 
 Allerdings würde eine solche Wirkung eine Thrombozytenfunktionsstörung eher **verschlechtern** (erhöhte Blutungsneigung) als behandeln. Zwischen der ursprünglichen Indikation (Erkrankung der Harnblase) und der vorhergesagten Indikation (Störung der Thrombozytenfunktion) besteht kein erkennbarer therapeutischer Zusammenhang. Die hohe Modellbewertung spiegelt möglicherweise nur die Nähe im Netzwerk über gemeinsame Gerinnungs- oder Thrombozytenknoten wider und keinen therapeutischen Effekt.
 
@@ -144,12 +144,13 @@ Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzgrad L5), es gibt w
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „und die deutsche Zulassung ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „warum die Zulassung erloschen ist, und“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Elmiron (pentosan polysulfate sodium) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ba651e-3d8a-11df-8fbe-119855d89593) |
 
 <!-- review:end log -->
 

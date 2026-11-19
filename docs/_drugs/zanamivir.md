@@ -58,7 +58,7 @@ Zanamivir ist ein Neuraminidase-Hemmer, der ursprünglich zur Behandlung der hum
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Zu Zanamivir liegen in den für diesen Bericht zusammengestellten Daten derzeit keine detaillierten Angaben zum Wirkmechanismus vor. Bekannt ist, dass Zanamivir ein viraler Neuraminidase-Hemmer ist, dessen Wirksamkeit bei Influenza belegt ist.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Zanamivir (inoffizielle Übersetzung): „Zanamivir ist ein antivirales Arzneimittel mit Wirkung gegen Influenzaviren. […] Zanamivir ist ein Inhibitor der Neuraminidase (NA) des Influenzavirus, eines Enzyms, das Viruspartikel aus der Plasmamembran infizierter Zellen freisetzt und die Ausbreitung des Virus im Respirationstrakt fördert. In Neuraminidase-Hemmassays ist Zanamivir gegen alle NA-Enzym-Subtypen N1 bis N9 wirksam.“ Englischer Originalwortlaut: "Zanamivir is an antiviral drug with activity against influenza virus. […] Zanamivir is an inhibitor of influenza virus neuraminidase (NA), an enzyme that releases viral particles from the plasma membrane of infected cells and promotes virus spread in the respiratory tract. In neuraminidase inhibition assays, zanamivir is active against all NA enzyme subtypes N1 to N9." ([DailyMed: Relenza (zanamivir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4e68930-4e6d-4d27-b1f0-abf60d12e28d), Fassung vom 2026-07-23; abgerufen am 2026-11-19). Bekannt ist, dass Zanamivir ein viraler Neuraminidase-Hemmer ist, dessen Wirksamkeit bei Influenza belegt ist.
 
 Pyelonephritis ist dagegen überwiegend eine bakterielle Infektion der Niere, meist durch *E. coli*. Ein plausibler Mechanismus, der beide Erkrankungen verbindet, ist nicht erkennbar. Bakterielle Neuraminidasen (Sialidasen) werden zwar gelegentlich als Virulenzfaktoren diskutiert, für Zanamivir ist aber keine etablierte Wirkung gegen sie bei Harnwegsinfektionen belegt.
 
@@ -134,12 +134,13 @@ Die zweitplatzierte Vorhersage, **Störung des Tyrosinstoffwechsels** (TxGNN-Sco
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „iese Zulassung ist aufgehoben (Status: cancelled), d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „da die einzige deutsche Zulassung aufgehoben ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Relenza (zanamivir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4e68930-4e6d-4d27-b1f0-abf60d12e28d) |
 
 <!-- review:end log -->
 

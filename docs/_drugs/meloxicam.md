@@ -60,7 +60,7 @@ Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vo
 
 ## Warum ist diese Vorhersage plausibel (oder nicht)?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Meloxicam ist bekanntermaßen ein NSAR mit bevorzugter COX-2-Hemmung, das prostaglandinvermittelte Entzündung und Schmerz reduziert. Seine Wirksamkeit bei entzündlichen Gelenkerkrankungen ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Meloxicam (inoffizielle Übersetzung): „Meloxicam hat analgetische, entzündungshemmende und fiebersenkende Eigenschaften. Der Wirkmechanismus von Zybic™ ist, wie der anderer NSAR, nicht vollständig geklärt, beinhaltet jedoch eine Hemmung der Cyclooxygenase (COX-1 und COX-2).“ Englischer Originalwortlaut: "Meloxicam has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of Zybic™, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Zybic (meloxicam) prescribing information, Redmont Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a1c2d65f-ebb1-48bf-8fa1-c216f7d570ec), Fassung vom 2026-09-25; abgerufen am 2026-11-19). Meloxicam ist bekanntermaßen ein NSAR mit bevorzugter COX-2-Hemmung, das prostaglandinvermittelte Entzündung und Schmerz reduziert. Seine Wirksamkeit bei entzündlichen Gelenkerkrankungen ist belegt.
 
 Die vorhergesagte Erkrankung ist eine genetische Skelettdysplasie, die durch Funktionsverlustmutationen in CDMP1/GDF5 verursacht wird. Meloxicam wirkt nicht auf den zugrunde liegenden Defekt im BMP/GDF-Signalweg. Ein klarer mechanistischer Zusammenhang besteht daher nicht. Der hohe Vorhersagewert stammt vom TxGNN-Modell (Deep Learning) und spiegelt vermutlich Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat, und keine biologische Begründung.
 
@@ -160,13 +160,14 @@ Für die Top-Vorhersage gibt es weder Studien noch Literatur und keinen plausibl
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-12 | Status der 16 erfassten Zulassungen: „aufgehoben“ → „gültig“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Tierarzneimittel: in den EMA-Daten belegt (EMEA/V/C) | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | „alle Zulassungen aufgehoben“ → keine zentrale EU-Zulassung für Menschen, 16 gültige für Tierarzneimittel | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Zybic (meloxicam) prescribing information, Redmont Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a1c2d65f-ebb1-48bf-8fa1-c216f7d570ec) |
 
 <!-- review:end log -->
 

@@ -58,7 +58,7 @@ Eptifibatid ist ein intravenös gegebener Thrombozytenaggregationshemmer und war
 
 ## Warum ist diese Vorhersage nachvollziehbar?
 
-Eptifibatid blockiert den Glykoprotein-IIb/IIIa-Rezeptor (αIIbβ3) auf Thrombozyten und hemmt dadurch die Plättchenaggregation. Daten zum detaillierten Wirkmechanismus lagen für diesen Bericht nicht vor. Die Einordnung als GP-IIb/IIIa-Antagonist ist jedoch gut bekannt.
+Eptifibatid blockiert den Glykoprotein-IIb/IIIa-Rezeptor (αIIbβ3) auf Thrombozyten und hemmt dadurch die Plättchenaggregation. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Eptifibatide (inoffizielle Übersetzung): „Eptifibatid hemmt die Thrombozytenaggregation reversibel, indem es die Bindung von Fibrinogen, von-Willebrand-Faktor und anderen adhäsiven Liganden an GP IIb/IIIa verhindert. Bei intravenöser Verabreichung hemmt Eptifibatid die Ex-vivo-Thrombozytenaggregation dosis- und konzentrationsabhängig.“ Englischer Originalwortlaut: "Eptifibatide reversibly inhibits platelet aggregation by preventing the binding of fibrinogen, von Willebrand factor, and other adhesive ligands to GP IIb/IIIa. When administered intravenously, eptifibatide inhibits ex vivo platelet aggregation in a dose- and concentration-dependent manner." ([DailyMed: eptifibatide prescribing information, Avenacy, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0781dae-3ef6-4cab-b084-01d2e45f3764), Fassung vom 2026-10-02; abgerufen am 2026-11-19). Die Einordnung als GP-IIb/IIIa-Antagonist ist jedoch gut bekannt.
 
 Plättchen können an Entzündungsprozessen in der Synovialis beteiligt sein. Insofern ist ein Zusammenhang mit rheumatoider Arthritis denkbar. Diese Verbindung ist jedoch **spekulativ und bisher nicht untersucht**. Die Wirkung bei akuten Herzerkrankungen lässt sich nicht einfach auf eine chronische Autoimmunerkrankung übertragen.
 
@@ -132,12 +132,13 @@ Die Fachinformation mit Warnhinweisen und Gegenanzeigen lag für diesen Bericht 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Beide Zulassungen sind aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Das Blutungsrisiko, die rein intravenöse Anwendung und der aktuell fehlende gültige Zulassungsstatus in Deutschland sprechen gegen eine kurz“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: eptifibatide prescribing information, Avenacy, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0781dae-3ef6-4cab-b084-01d2e45f3764) |
 
 <!-- review:end log -->
 

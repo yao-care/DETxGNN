@@ -54,7 +54,7 @@ Buprenorphin ist ein Opioid, das in Deutschland zugelassen ist. Das TxGNN-Modell
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Buprenorphin ein Opioid mit partieller Agonistenwirkung am µ-Opioid-Rezeptor ist. Daraus lässt sich jedoch keine belastbare Verbindung zu einem therapeutischen Effekt bei akuter intermittierender Porphyrie ableiten.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Buprenorphine (inoffizielle Übersetzung): „SUBLOCADE Injektionslösung enthält Buprenorphin. Buprenorphin ist ein partieller Agonist am Mu-Opioidrezeptor und ein Antagonist am Kappa-Opioidrezeptor.“ Englischer Originalwortlaut: "SUBLOCADE Injection contains buprenorphine. Buprenorphine is a partial agonist at the mu- opioid receptor and an antagonist at the kappa-opioid receptor." ([DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95), Fassung vom 2026-07-27; abgerufen am 2026-11-19). Bekannt ist, dass Buprenorphin ein Opioid mit partieller Agonistenwirkung am µ-Opioid-Rezeptor ist. Daraus lässt sich jedoch keine belastbare Verbindung zu einem therapeutischen Effekt bei akuter intermittierender Porphyrie ableiten.
 
 Die einzige gefundene Publikation beschreibt die sichere perioperative Arzneimittelwahl bei einer Patientin mit Porphyrie, nicht die Behandlung der Erkrankung. Zudem gilt Buprenorphin bei Porphyrie eher als Arzneimittel, bei dem Vorsicht geboten ist. Der hohe Vorhersagewert ist daher vermutlich ein Artefakt der modellbasierten Vorhersage und kein Hinweis auf einen echten Nutzen.
 
@@ -98,6 +98,19 @@ Es gibt weder klinische Studien noch eine Publikation, die Buprenorphin als Beha
 - Daten zum Wirkmechanismus
 - Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) zur Sicherheitsbewertung, insbesondere bei Porphyrie
 - Prüfung, ob ein biologisch plausibler Therapieansatz existiert, bevor weitere Schritte erfolgen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

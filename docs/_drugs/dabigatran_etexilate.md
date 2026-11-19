@@ -58,7 +58,7 @@ Dabigatranetexilat ist ein direkter Thrombinhemmer (Gerinnungshemmer) und in Deu
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Dabigatran ein direkter Thrombinhemmer ist und die Gerinnungskaskade hemmt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Dabigatran Etexilate (inoffizielle Übersetzung): „Dabigatran und seine Acylglucuronide sind kompetitive, direkte Thrombininhibitoren. Da Thrombin (eine Serinprotease) während der Gerinnungskaskade die Umwandlung von Fibrinogen in Fibrin ermöglicht, verhindert seine Hemmung die Entstehung eines Thrombus.“ Englischer Originalwortlaut: "Dabigatran and its acyl glucuronides are competitive, direct thrombin inhibitors. Because thrombin (serine protease) enables the conversion of fibrinogen into fibrin during the coagulation cascade, its inhibition prevents the development of a thrombus." ([DailyMed: Dabigatran (dabigatran etexilate) prescribing information, AvPAK](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39ac558a-b375-f3c1-e063-6394a90aa901), Fassung vom 2026-11-02; abgerufen am 2026-11-19). Bekannt ist, dass Dabigatran ein direkter Thrombinhemmer ist und die Gerinnungskaskade hemmt.
 
 Ein möglicher, bislang spekulativer Zusammenhang: Thrombin und die PAR-1-Signalübertragung werden mit Leberfibrose und Entzündung in Verbindung gebracht, und die Thrombinhemmung hat in einigen präklinischen Lebermodellen die Fibrose verringert. Ob dies auf die sklerosierende Cholangitis übertragbar ist, ist nicht belegt.
 
@@ -110,6 +110,19 @@ Für sklerosierende Cholangitis gibt es weder klinische Studien noch Publikation
 - Daten zum Wirkmechanismus (MOA) von Dabigatran
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), insbesondere zum Blutungsrisiko bei Lebererkrankungen
 - Bei positiver präklinischer Evidenz: Planung einer explorativen klinischen Studie mit Sicherheitsüberwachung
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Dabigatran (dabigatran etexilate) prescribing information, AvPAK](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39ac558a-b375-f3c1-e063-6394a90aa901) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

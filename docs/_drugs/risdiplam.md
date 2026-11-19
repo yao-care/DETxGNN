@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage plausibel?
 
-Risdiplam ist ein Spleißmodulator der prä-mRNA von SMN2 und für die spinale Muskelatrophie zugelassen. Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten derzeit nicht vor. Ein mechanistischer Zusammenhang zwischen der SMN2-Spleißmodulation und der Pathophysiologie der Akne (Talgproduktion, Besiedlung mit *C. acnes*, follikuläre Hyperkeratose, Entzündung) lässt sich daher aus den vorhandenen Daten nicht herleiten.
+Risdiplam ist ein Spleißmodulator der prä-mRNA von SMN2 und für die spinale Muskelatrophie zugelassen. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Risdiplam (inoffizielle Übersetzung): „Risdiplam ist ein Spleißmodifikator des Survival-of-Motor-Neuron-2-(SMN2)-Gens, der zur Behandlung von Patienten mit spinaler Muskelatrophie (SMA) entwickelt wurde, die durch Mutationen auf Chromosom 5q verursacht wird, die zu einem SMN-Proteinmangel führen. Anhand von In-vitro-Assays und Studien an transgenen Tiermodellen der SMA wurde gezeigt, dass Risdiplam den Einschluss von Exon 7 in SMN2-Boten-Ribonukleinsäure-(mRNA)-Transkripte sowie die Produktion von vollständigem SMN-Protein im Gehirn erhöht.“ Englischer Originalwortlaut: "Risdiplam is a survival of motor neuron 2 (SMN2) splicing modifier designed to treat patients with spinal muscular atrophy (SMA) caused by mutations in chromosome 5q that lead to SMN protein deficiency. Using in vitro assays and studies in transgenic animal models of SMA, risdiplam was shown to increase exon 7 inclusion in SMN2 messenger ribonucleic acid (mRNA) transcripts and production of full-length SMN protein in the brain." ([DailyMed: Evrysdi (risdiplam) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eceb9a99-7191-4be5-87c3-0102707cf98e), Fassung vom 2026-11-02; abgerufen am 2026-11-19). Ein mechanistischer Zusammenhang zwischen der SMN2-Spleißmodulation und der Pathophysiologie der Akne (Talgproduktion, Besiedlung mit *C. acnes*, follikuläre Hyperkeratose, Entzündung) lässt sich daher aus den vorhandenen Daten nicht herleiten.
 
 Der hohe Vorhersagewert stammt vom TxGNN-Modell (Deep Learning) und könnte auf Ähnlichkeiten zurückgehen, die das Modell zwischen verwandten Erkrankungen gelernt hat, und nicht auf einen biologisch begründeten Zusammenhang. Eine Hypothese müsste unabhängig geprüft werden, etwa ob die Spleißmodulation die Biologie von Talgdrüsenzellen oder Keratinozyten beeinflusst. Zudem sind unter Risdiplam dermatologische Nebenwirkungen beschrieben, was eher zur Vorsicht mahnt als einen Nutzen nahelegt.
 
@@ -125,12 +125,13 @@ Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert (Evidenzg
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Klärung des Zulassungsstatus in Deutschland, da nur eine erloschene Zulassung geführt wird“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Hinweis: Diese Zulassung ist als erloschen/zurückgezogen geführt (Status: cancelled)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Evrysdi (risdiplam) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eceb9a99-7191-4be5-87c3-0102707cf98e) |
 
 <!-- review:end log -->
 

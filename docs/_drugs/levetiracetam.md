@@ -54,7 +54,7 @@ Levetiracetam ist ein Antiepileptikum. Das TxGNN-Modell sagt eine mögliche Wirk
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Levetiracetam liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Allgemein bekannt ist, dass Levetiracetam als Antiepileptikum eingesetzt wird.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Levetiracetam (inoffizielle Übersetzung): „Der genaue Mechanismus bzw. die genauen Mechanismen, über den bzw. die Levetiracetam seine antiepileptische Wirkung entfaltet, ist bzw. sind unbekannt. Für Levetiracetam wurde eine sättigbare und stereoselektive neuronale Bindungsstelle im Hirngewebe der Ratte beschrieben. Experimentelle Daten zeigen, dass diese Bindungsstelle das synaptische Vesikelprotein SV2A ist, das vermutlich an der Regulation der Vesikelexozytose beteiligt ist.“ Englischer Originalwortlaut: "The precise mechanism(s) by which levetiracetam exerts its antiepileptic effect is unknown. A saturable and stereoselective neuronal binding site in rat brain tissue has been described for levetiracetam. Experimental data indicate that this binding site is the synaptic vesicle protein SV2A, thought to be involved in the regulation of vesicle exocytosis." ([DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e), Fassung vom 2026-11-11; abgerufen am 2026-11-19). Allgemein bekannt ist, dass Levetiracetam als Antiepileptikum eingesetzt wird.
 
 Der Beta-Ketothiolase-Mangel ist eine Stoffwechselstörung des Ketonkörper- und Isoleucin-Abbaus. Ein mechanistischer Zusammenhang zwischen Levetiracetam und der zugrunde liegenden Pathologie ist nicht erkennbar. Der hohe Vorhersagewert ist daher mit Vorsicht zu interpretieren und lässt sich derzeit nicht durch biologische Überlegungen oder Studiendaten stützen.
 
@@ -93,6 +93,19 @@ Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzstufe L5). Es
 - Daten zum Wirkmechanismus von Levetiracetam, um einen möglichen Bezug zum Ketonkörper- und Isoleucin-Stoffwechsel zu prüfen
 - Präklinische oder mechanistische Studien, die einen biologischen Zusammenhang belegen
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) für die Sicherheitsbewertung
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

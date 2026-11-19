@@ -58,7 +58,7 @@ Rasagilin ist ein irreversibler MAO-B-Hemmer und wurde ursprünglich zur Behandl
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Rasagilin ein irreversibler MAO-B-Hemmer ist, dessen Wirksamkeit bei der Parkinson-Krankheit belegt ist. Mechanistisch könnte er daher auch bei verwandten neurodegenerativen Erkrankungen relevant sein.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Rasagiline (inoffizielle Übersetzung): „AZILECT ist ein selektiver, irreversibler MAO-B-Hemmer, der zur Behandlung des idiopathischen Parkinson-Syndroms angezeigt ist. Die Ergebnisse einer klinischen Studie, die die Wirkungen von AZILECT auf den Blutdruck bei Gabe zusammen mit steigenden Dosen Tyramin untersuchen sollte, zeigen, dass die funktionelle Selektivität unvollständig sein kann, wenn gesunde Probanden unter der empfohlenen Dosierung von AZILECT große Mengen Tyramin aufnehmen. […] In Ex-vivo-Tierstudien an Hirn-, Leber- und Darmgewebe erwies sich Rasagilin als potenter, irreversibler, selektiver Hemmer der Monoaminoxidase Typ B (MAO-B).“ Englischer Originalwortlaut: "AZILECT is a selective, irreversible MAO-B inhibitor indicated for the treatment of idiopathic Parkinson’s disease. The results of a clinical trial designed to examine the effects of AZILECT on blood pressure when it is administered with increasing doses of tyramine indicates the functional selectivity can be incomplete when healthy subjects ingest large amounts of tyramine while receiving recommended doses of AZILECT. […] In ex vivo animal studies in brain, liver, and intestinal tissues, rasagiline was shown to be a potent, irreversible monoamine oxidase type B (MAO-B) selective inhibitor." ([DailyMed: Azilect (rasagiline mesylate) prescribing information, Teva Neuroscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a40d0e73-3f9f-4b01-979d-402c9cdaeb60), Fassung vom 2020-06-30; abgerufen am 2026-11-19). Bekannt ist, dass Rasagilin ein irreversibler MAO-B-Hemmer ist, dessen Wirksamkeit bei der Parkinson-Krankheit belegt ist. Mechanistisch könnte er daher auch bei verwandten neurodegenerativen Erkrankungen relevant sein.
 
 Die PLA2G6-assoziierte Neurodegeneration (einschließlich infantiler neuroaxonaler Dystrophie und PLA2G6-bedingtem Dystonie-Parkinsonismus) geht mit Alpha-Synuklein-Pathologie und dem Verlust dopaminerger Neuronen einher. Dies liegt konzeptionell nahe am Anwendungsgebiet Parkinson. Der hohe TxGNN-Score stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Krankheiten gelernt hat, nicht biologische Evidenz.
 
@@ -124,6 +124,19 @@ Die Vorhersage beruht ausschließlich auf einem Modell (Evidenzgrad L5) ohne kli
 - Präklinische und klinische Evidenz zu PLA2G6-assoziierter Neurodegeneration recherchieren
 - Klären, ob die Marktverfügbarkeit in Deutschland gegeben ist (alle drei Zulassungen gültig)
 - Für den juvenilen Parkinsonismus: Abgrenzung zur bestehenden Indikation sowie pädiatrische Sicherheits- und Dosierungsdaten prüfen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Azilect (rasagiline mesylate) prescribing information, Teva Neuroscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a40d0e73-3f9f-4b01-979d-402c9cdaeb60) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

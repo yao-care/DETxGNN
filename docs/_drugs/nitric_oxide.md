@@ -58,7 +58,7 @@ Stickstoffmonoxid (NO, Handelsname INOmax) wurde ursprünglich zur Behandlung de
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass inhaliertes NO ein selektiver pulmonaler Vasodilatator ist. Seine Wirksamkeit bei pulmonaler Hypertonie ist gut belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Nitric Oxide (inoffizielle Übersetzung): „Stickstoffmonoxid relaxiert die glatte Gefäßmuskulatur, indem es an die Hämgruppe der zytosolischen Guanylatcyclase bindet, die Guanylatcyclase aktiviert und die intrazellulären Spiegel von zyklischem Guanosin-3',5'-monophosphat erhöht, was anschließend zur Vasodilatation führt. Bei Inhalation erweitert Stickstoffmonoxid selektiv die Lungengefäße und hat aufgrund der effizienten Bindung durch Hämoglobin nur eine minimale Wirkung auf die systemischen Gefäße.“ Englischer Originalwortlaut: "Nitric oxide relaxes vascular smooth muscle by binding to the heme moiety of cytosolic guanylate cyclase, activating guanylate cyclase and increasing intracellular levels of cyclic guanosine 3',5'-monophosphate, which then leads to vasodilation. When inhaled, nitric oxide selectively dilates the pulmonary vasculature, and because of efficient scavenging by hemoglobin, has minimal effect on the systemic vasculature." ([DailyMed: Inomax (nitric oxide) prescribing information, INO Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=762b51be-1893-4cd1-9511-e645fc420d3a), Fassung vom 2025-12-12; abgerufen am 2026-11-19). Bekannt ist, dass inhaliertes NO ein selektiver pulmonaler Vasodilatator ist. Seine Wirksamkeit bei pulmonaler Hypertonie ist gut belegt.
 
 Zwischen der ursprünglichen Indikation (Gefäßtonus und Oxygenierung der Lunge) und der vorhergesagten Indikation (angeborene Fehlbildung mit Zahn- und Parodontalbeteiligung) besteht kein erkennbarer pathophysiologischer Zusammenhang. Die gefundene Literatur behandelt Parodontitis, die Entzündung gingivaler Fibroblasten und pflanzliche entzündungshemmende Substanzen. NO und oxidativer Stress tauchen dort nur als Randthemen auf, etwa die NO-Produktion in Makrophagen oder die orale Nitrat-Nitrit-NO-Achse.
 
@@ -140,11 +140,12 @@ Eine vertiefte Bewertung sollte bei diesen Indikationen ansetzen.
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „da die einzige erfasste Zulassung erloschen ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Inomax (nitric oxide) prescribing information, INO Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=762b51be-1893-4cd1-9511-e645fc420d3a) |
 
 <!-- review:end log -->
 

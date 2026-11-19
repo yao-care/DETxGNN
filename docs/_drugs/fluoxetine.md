@@ -54,7 +54,7 @@ Fluoxetin ist ein selektiver Serotonin-Wiederaufnahmehemmer (SSRI), der als Anti
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Fluoxetin gehört jedoch zur Klasse der SSRI, deren Wirkung über eine Verstärkung der serotonergen Signalübertragung vermittelt wird.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Fluoxetine (inoffizielle Übersetzung): „Obwohl der genaue Wirkmechanismus von PROZAC nicht bekannt ist, wird angenommen, dass er mit der Hemmung der neuronalen Serotonin-Wiederaufnahme im ZNS zusammenhängt.“ Englischer Originalwortlaut: "Although the exact mechanism of PROZAC is unknown, it is presumed to be linked to its inhibition of CNS neuronal uptake of serotonin." ([DailyMed: Prozac (fluoxetine hydrochloride) prescribing information, Dista Products Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299), Fassung vom 2026-01-08; abgerufen am 2026-11-19). Fluoxetin gehört jedoch zur Klasse der SSRI, deren Wirkung über eine Verstärkung der serotonergen Signalübertragung vermittelt wird.
 
 Die Auswertung der Literatur deutet darauf hin, dass eine serotonerge Modulation affektive Instabilität sowie zwanghafte und impulsive Merkmale verringern könnte, die bei Borderline- und schizotypen Persönlichkeitsmerkmalen überlappen. Die Datenlage besteht jedoch aus kleinen, offenen oder retrospektiven Untersuchungen, nicht aus kontrollierten Studien. Ein Fallbericht beschreibt zudem eine vorübergehende Psychose mit psychogener Polydipsie bei einem schizotypen Patienten unter Fluoxetin, was ein Sicherheitssignal in dieser Population darstellt.
 
@@ -99,6 +99,18 @@ Die Evidenz für die schizotype Persönlichkeitsstörung beschränkt sich auf ei
 - Detaillierte Daten zum Wirkmechanismus
 - Auswertung der Packungsbeilage (Warnhinweise und Gegenanzeigen)
 - Sicherheitsüberwachungsplan, insbesondere zu psychotischen Symptomen und Wechselwirkungen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Prozac (fluoxetine hydrochloride) prescribing information, Dista Products Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

@@ -54,7 +54,7 @@ Lasmiditan ist ein Wirkstoff, der als selektiver 5-HT1F-Rezeptor-Agonist wirkt. 
 
 ## Warum ist diese Vorhersage nachvollziehbar?
 
-Lasmiditan wirkt als Agonist am 5-HT1F-Rezeptor (Gen HTR1F), einem Rezeptor auf neuronalen Bahnen. Detaillierte Daten zum Wirkmechanismus liegen in den zusammengestellten Daten nicht vor.
+Lasmiditan wirkt als Agonist am 5-HT1F-Rezeptor (Gen HTR1F), einem Rezeptor auf neuronalen Bahnen. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Lasmiditan (inoffizielle Übersetzung): „Lasmiditan bindet mit hoher Affinität an den 5-HT 1F -Rezeptor. Lasmiditan entfaltet seine therapeutische Wirkung bei der Behandlung von Migräne vermutlich durch agonistische Effekte am 5-HT 1F -Rezeptor; der genaue Mechanismus ist jedoch unbekannt.“ Englischer Originalwortlaut: "Lasmiditan binds with high affinity to the 5-HT 1F receptor. Lasmiditan presumably exerts its therapeutic effects in the treatment of migraine through agonist effects at the 5-HT 1F receptor; however, the precise mechanism is unknown." ([DailyMed: Reyvow (lasmiditan) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aea3358c-ff41-4490-9e6d-c7bf7b3de13f), Fassung vom 2026-01-08; abgerufen am 2026-11-19).
 
 Für die vorhergesagte Erkrankung konnte kein plausibler mechanistischer Zusammenhang identifiziert werden. Atrophoderma vermiculata ist eine seltene follikuläre atrophische Hauterkrankung, während Lasmiditan auf neuronale Signalwege zielt. Der hohe Vorhersagewert (0,9959) ist ein reines Rechenergebnis und kann auf Strukturartefakte im Modellnetzwerk zurückgehen statt auf eine biologische Begründung. Die Vorhersage sollte daher mit großer Zurückhaltung betrachtet werden.
 
@@ -90,6 +90,19 @@ Die Vorhersage stützt sich allein auf das Modell, ohne klinische Studien, Publi
 - Präklinische Daten oder Fallberichte, die die Erkrankung direkt untersuchen
 - Detaillierte Wirkmechanismus-Daten (MOA)
 - Sicherheitsangaben aus der Fachinformation (Warnhinweise, Gegenanzeigen)
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Reyvow (lasmiditan) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aea3358c-ff41-4490-9e6d-c7bf7b3de13f) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

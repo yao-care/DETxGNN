@@ -54,7 +54,7 @@ Guanfacin ist ein selektiver Alpha-2A-adrenerger Agonist. Das TxGNN-Modell sagt 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Guanfacin an Alpha-2A-, Alpha-2B- und Alpha-2C-Adrenozeptoren bindet. Die Alpha-2A-Wirkung im präfrontalen Kortex unterstützt Aufmerksamkeit und Exekutivfunktionen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Guanfacine (inoffizielle Übersetzung): „Guanfacin ist ein zentraler Alpha 2A -Adrenozeptor-Agonist. Guanfacin ist kein Stimulans des zentralen Nervensystems (ZNS). Der Wirkmechanismus von Guanfacin bei ADHS ist nicht bekannt.“ Englischer Originalwortlaut: "Guanfacine is a central alpha 2A -adrenergic receptor agonist. Guanfacine is not a central nervous system (CNS) stimulant. The mechanism of action of guanfacine in ADHD is not known." ([DailyMed: Guanfacine Extended-Release (guanfacine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3ec4fed6-cafc-49a0-9540-8d70ac435769), Fassung vom 2026-10-15; abgerufen am 2026-11-19). Bekannt ist, dass Guanfacin an Alpha-2A-, Alpha-2B- und Alpha-2C-Adrenozeptoren bindet. Die Alpha-2A-Wirkung im präfrontalen Kortex unterstützt Aufmerksamkeit und Exekutivfunktionen.
 
 Das faziodigitogenitale Syndrom (Aarskog-Scott-Syndrom) ist eine seltene genetische Erkrankung. Zu ihren Merkmalen können Verhaltensauffälligkeiten wie ADHS gehören. Daraus ergibt sich allenfalls eine indirekte, symptomatische Begründung. Diese ist durch keine Daten belegt; der hohe Score ist als reine Rechenvorhersage zu werten.
 
@@ -92,6 +92,19 @@ Für die Vorhersage existieren weder klinische Studien noch Publikationen. Es be
 - Detaillierte Mechanismusdaten (MOA) zu Guanfacin
 - Auswertung der Fachinformation (Warnhinweise, Kontraindikationen)
 - Prüfung, ob ein biologisch begründbarer Zusammenhang über Verhaltenssymptome (z. B. ADHS-Symptomatik) besteht
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Guanfacine Extended-Release (guanfacine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3ec4fed6-cafc-49a0-9540-8d70ac435769) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

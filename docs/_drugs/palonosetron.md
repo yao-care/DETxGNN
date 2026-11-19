@@ -58,7 +58,7 @@ Palonosetron ist ein 5-HT3-Rezeptorantagonist, der ursprünglich zur Vorbeugung 
 
 ## Warum ist diese Vorhersage (nur bedingt) plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Palonosetron ein 5-HT3-Rezeptorantagonist ist. Seine Wirksamkeit bei Übelkeit und Erbrechen im Zusammenhang mit Krebstherapie ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Palonosetron (inoffizielle Übersetzung): „Palonosetron ist ein 5-HT 3-Rezeptorantagonist mit einer starken Bindungsaffinität für diesen Rezeptor und einer geringen oder keiner Affinität für andere Rezeptoren. Eine Chemotherapie bei Krebs kann mit einer hohen Inzidenz von Übelkeit und Erbrechen einhergehen, insbesondere wenn bestimmte Wirkstoffe wie Cisplatin angewendet werden.“ Englischer Originalwortlaut: "Palonosetron is a 5-HT 3 receptor antagonist with a strong binding affinity for this receptor and little or no affinity for other receptors. Cancer chemotherapy may be associated with a high incidence of nausea and vomiting, particularly when certain agents, such as cisplatin, are used." ([DailyMed: Posfrea (palonosetron) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7), Fassung vom 2025-04-29; abgerufen am 2026-11-19). Bekannt ist, dass Palonosetron ein 5-HT3-Rezeptorantagonist ist. Seine Wirksamkeit bei Übelkeit und Erbrechen im Zusammenhang mit Krebstherapie ist belegt.
 
 Serotonerge Signalwege werden mit der Pathophysiologie der Migräne in Verbindung gebracht, was einen plausiblen, aber unbewiesenen Ansatz darstellt. Der hohe Wert stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz.
 
@@ -137,11 +137,12 @@ Die Vorhersage beruht allein auf Rechenmodellen. Es gibt keine klinischen Studie
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Klärung der Zulassungs- und Verfügbarkeitslage in Deutschland (derzeit nur erloschene Zulassungen)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Posfrea (palonosetron) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7) |
 
 <!-- review:end log -->
 

@@ -58,7 +58,7 @@ Gilteritinib ist ein Tyrosinkinase-Inhibitor, der ursprünglich zur Behandlung d
 
 ## Warum ist diese Vorhersage (nur eingeschränkt) plausibel?
 
-Für diesen Bericht liegen derzeit keine detaillierten Daten zum Wirkmechanismus vor. Den zusammengestellten pharmakologischen Daten zufolge ist Gilteritinib ein Kinase-Inhibitor, der FLT3 hemmt (IC50 in FLT3-mutierten Zellen < 2 nM). Zusätzlich bindet er weitere Rezeptortyrosinkinasen, darunter AXL, MERTK, NTRK1, LTK, ALK, ROS1 und RET. Seine Wirksamkeit bei FLT3-mutierter, rezidivierter oder refraktärer AML ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Gilteritinib (inoffizielle Übersetzung): „Gilteritinib ist ein niedermolekularer Wirkstoff, der mehrere Rezeptor-Tyrosinkinasen hemmt, darunter die FMS-like Tyrosinkinase 3 (FLT3). Gilteritinib zeigte die Fähigkeit, die FLT3-Rezeptor-Signalübertragung und die Proliferation in Zellen zu hemmen, die FLT3 exogen exprimieren, einschließlich FLT3-ITD sowie der Tyrosinkinasedomänen-Mutationen (TKD) FLT3-D835Y und FLT3-ITD-D835Y, und induzierte Apoptose in leukämischen Zellen, die FLT3-ITD exprimieren.“ Englischer Originalwortlaut: "Gilteritinib is a small molecule that inhibits multiple receptor tyrosine kinases, including FMS-like tyrosine kinase 3 (FLT3). Gilteritinib demonstrated the ability to inhibit FLT3 receptor signaling and proliferation in cells exogenously expressing FLT3 including FLT3-ITD, tyrosine kinase domain mutations (TKD) FLT3-D835Y and FLT3-ITD-D835Y, and it induced apoptosis in leukemic cells expressing FLT3-ITD." ([DailyMed: Xospata (gilteritinib) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5ff59aa-9c0d-49a8-9053-1f179b482383), Fassung vom 2026-10-01; abgerufen am 2026-11-19). Den zusammengestellten pharmakologischen Daten zufolge ist Gilteritinib ein Kinase-Inhibitor, der FLT3 hemmt (IC50 in FLT3-mutierten Zellen < 2 nM). Zusätzlich bindet er weitere Rezeptortyrosinkinasen, darunter AXL, MERTK, NTRK1, LTK, ALK, ROS1 und RET. Seine Wirksamkeit bei FLT3-mutierter, rezidivierter oder refraktärer AML ist belegt.
 
 Ein Zusammenhang mit der bulbären Poliomyelitis ist rein spekulativ. Denkbar wäre allenfalls ein Weg über die AXL-Hemmung, da AXL bei manchen Viren den Zelleintritt erleichtern oder die angeborene Immunantwort modulieren kann. Das Poliovirus nutzt jedoch den Rezeptor CD155 (PVR) zum Zelleintritt. Es gibt keine Hinweise darauf, dass die Hemmung von FLT3 oder AXL die Virusreplikation oder die neuronale Schädigung bei bulbärer Poliomyelitis beeinflusst.
 
@@ -125,6 +125,19 @@ Die Vorhersage stammt ausschließlich vom TxGNN-Modell (Deep Learning, Evidenzst
 - Auswertung der Fachinformation (Warnhinweise, Kontraindikationen) für eine Sicherheitsbewertung
 - Klärung des Zulassungsstatus in Deutschland
 - Eine fundierte Nutzen-Risiko-Abwägung im Vergleich zur bestehenden Impfprophylaxe
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Xospata (gilteritinib) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5ff59aa-9c0d-49a8-9053-1f179b482383) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

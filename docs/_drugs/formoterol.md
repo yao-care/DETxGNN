@@ -54,7 +54,7 @@ Formoterol ist ein langwirksamer Beta-2-Adrenozeptor-Agonist, der zur Erweiterun
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Formoterol als langwirksamer Beta-2-Agonist die glatte Atemwegsmuskulatur entspannt und dadurch die Bronchien erweitert.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Formoterol (inoffizielle Übersetzung): „Formoterolfumarat ist ein langwirksamer beta 2 -adrenerger Rezeptoragonist (beta 2 -Agonist). Inhaliertes Formoterolfumarat wirkt lokal in der Lunge als Bronchodilatator. In-vitro-Studien haben gezeigt, dass Formoterol an beta 2 -Rezeptoren eine mehr als 200-fach höhere agonistische Aktivität aufweist als an beta 1 -Rezeptoren.“ Englischer Originalwortlaut: "Formoterol fumarate is a long-acting, beta 2 -adrenergic receptor agonist (beta 2 -agonist). Inhaled formoterol fumarate acts locally in the lung as a bronchodilator. In vitro studies have shown that formoterol has more than 200-fold greater agonist activity at beta 2 -receptors than at beta 1 -receptors." ([DailyMed: Formoterol Fumarate Inhalation Solution (formoterol fumarate dihydrate) prescribing information, Ritedose Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9bf685-8886-4865-834b-2748af124b79), Fassung vom 2025-12-10; abgerufen am 2026-11-19). Bekannt ist, dass Formoterol als langwirksamer Beta-2-Agonist die glatte Atemwegsmuskulatur entspannt und dadurch die Bronchien erweitert.
 
 Ein belastbarer mechanistischer Zusammenhang mit der vorhergesagten Indikation ist nicht erkennbar. Strukturelle angeborene Fehlbildungen der Atemwege lassen sich durch eine Muskelentspannung nicht korrigieren. Der hohe Vorhersagewert spiegelt vermutlich die Nähe zu obstruktiven Atemwegserkrankungen im Modell wider und nicht eine tatsächliche therapeutische Beziehung.
 
@@ -104,6 +104,18 @@ Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzstufe L5). Es gibt 
 - Eine belastbare mechanistische Hypothese, die Beta-2-Signalwege mit der Erkrankung verbindet
 - Präklinische oder klinische Studien, die die vorhergesagte Erkrankung direkt untersuchen
 - Daten zum detaillierten Wirkmechanismus sowie die Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Formoterol Fumarate Inhalation Solution (formoterol fumarate dihydrate) prescribing information, Ritedose Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9bf685-8886-4865-834b-2748af124b79) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

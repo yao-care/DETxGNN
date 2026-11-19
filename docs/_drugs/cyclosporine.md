@@ -58,7 +58,7 @@ Ciclosporin (Cyclosporine) ist ein Calcineurin-Inhibitor, der in Deutschland bzw
 
 ## Warum ist diese Vorhersage plausibel (oder nicht)?
 
-Für den Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Ciclosporin ein Calcineurin-Inhibitor ist, der die T-Zell-Aktivierung hemmt. Das erklärt den Einsatz bei entzündlichen Augenerkrankungen.
+Laut dem Abschnitt „Clinical Pharmacology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Cyclosporine (inoffizielle Übersetzung): „Ciclosporin ist ein potentes Immunsuppressivum, das bei Tieren das Überleben allogener Transplantate von Haut, Niere, Leber, Herz, Pankreas, Knochenmark, Dünndarm und Lunge verlängert. Es wurde gezeigt, dass Ciclosporin bei vielen Tierarten für eine Vielzahl von Organen einige humorale Immunreaktionen und in größerem Ausmaß zellvermittelte Immunreaktionen wie Allotransplantatabstoßung, Überempfindlichkeit vom verzögerten Typ, experimentelle allergische Enzephalomyelitis, Freund-Adjuvans-Arthritis und Graft-versus-Host-Krankheit unterdrückt.“ Englischer Originalwortlaut: "Cyclosporine is a potent immunosuppressive agent that in animals prolongs survival of allogeneic transplants involving skin, kidney, liver, heart, pancreas, bone marrow, small intestine, and lung. Cyclosporine has been demonstrated to suppress some humoral immunity and to a greater extent, cell-mediated immune reactions such as allograft rejection, delayed hypersensitivity, experimental allergic encephalomyelitis, Freund’s adjuvant arthritis, and graft versus host disease in many animal species for a variety of organs." ([DailyMed: Cyclosporine, Modfied (cyclosporine) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5baaf78c-90f6-abcf-52c8-814490f3cf9f), Fassung vom 2026-09-10; abgerufen am 2026-11-19). Bekannt ist, dass Ciclosporin ein Calcineurin-Inhibitor ist, der die T-Zell-Aktivierung hemmt. Das erklärt den Einsatz bei entzündlichen Augenerkrankungen.
 
 Bei der chronischen Granulomatose (CGD) liegt der Grunddefekt in der NADPH-Oxidase der Phagozyten; sekundär kommt es zu Hyperinflammation und Granulombildung. Eine T-Zell-Hemmung korrigiert diesen Defekt nicht. Die einzige gefundene Arbeit betrifft Stammzelltransplantationen, bei denen Ciclosporin höchstens Teil der GvHD-Prophylaxe wäre. Das ist kein Beleg für einen therapeutischen Effekt bei CGD. Der hohe Modellwert wird durch keinen klaren Mechanismus gestützt.
 
@@ -111,6 +111,19 @@ Die Vorhersage beruht praktisch nur auf dem Modell. Es gibt keine klinischen Stu
 - Klärung der Zulassungs- und Darreichungsform (aktuell nur Augentropfen, systemische Anwendung wäre ein anderes Sicherheitsprofil)
 
 **Hinweis zu weiteren Vorhersagen:** Bei der zweitplatzierten Vorhersage, **Hirnaneurysma** (Evidenz L3, 0.9950), gibt es kleine frühe Studien aus den 1990er-Jahren zu Vasospasmus nach Subarachnoidalblutung (PMID 9007860, 1763680). Eine Arbeit von 2017 (PMID 28437485) spricht jedoch gegen eine T-Zell-Beteiligung an der Aneurysmabildung. Dies bleibt eine Forschungsfrage. Die übrigen Vorhersagen (Rang 3–7) beruhen nur auf dem Modell und haben keine Evidenz.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Cyclosporine, Modfied (cyclosporine) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5baaf78c-90f6-abcf-52c8-814490f3cf9f) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

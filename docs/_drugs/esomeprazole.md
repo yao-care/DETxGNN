@@ -54,7 +54,7 @@ Esomeprazol ist ein Protonenpumpenhemmer, der die Magensäureproduktion senkt. D
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten derzeit keine detaillierten Angaben vor. Bekannt ist, dass Esomeprazol zur Klasse der Protonenpumpenhemmer gehört und die Säuresekretion im Magen hemmt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Esomeprazole (inoffizielle Übersetzung): „Esomeprazol gehört zu einer Klasse antisekretorischer Verbindungen, den substituierten Benzimidazolen, die die Magensäuresekretion durch spezifische Hemmung des H+/K+-ATPase-Enzymsystems an der sekretorischen Oberfläche der Parietalzelle des Magens unterdrücken. Esomeprazol wird im sauren Kompartiment der Parietalzelle protoniert und umgewandelt, wobei der aktive Inhibitor, das achirale Sulfenamid, entsteht.“ Englischer Originalwortlaut: "Esomeprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the H+/K+ ATPase enzyme system at the secretory surface of the gastric parietal cell. Esomeprazole is protonated and converted in the acidic compartment of the parietal cell forming the active inhibitor, the achiral sulphenamide." ([DailyMed: Nexium (esomeprazole magnesium) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4853677-1622-4037-688b-fdf533a11d96), Fassung vom 2025-12-19; abgerufen am 2026-11-19). Bekannt ist, dass Esomeprazol zur Klasse der Protonenpumpenhemmer gehört und die Säuresekretion im Magen hemmt.
 
 Eine plausible direkte mechanistische Verbindung zur Duodenalobstruktion ist jedoch nicht erkennbar. Die Duodenalobstruktion ist eine mechanische bzw. strukturelle Erkrankung, etwa durch Stenosen, Tumoren, ein Pancreas anulare oder narbige Veränderungen nach Ulzera. Eine Säurehemmung könnte allenfalls als unterstützende Maßnahme bei begleitenden säurebedingten Erkrankungen dienen, behandelt aber nicht die Obstruktion selbst. Der hohe Vorhersagewert ist ein rein rechnerisches Ergebnis ohne klinische oder publizierte Bestätigung.
 
@@ -94,6 +94,19 @@ Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert (0,9945),
 - Ergänzung detaillierter Wirkmechanismusdaten
 - Systematische Literaturrecherche und gegebenenfalls präklinische Daten, die einen Nutzen bei Duodenalobstruktion stützen
 - Klärung, ob ein klinisch relevanter Nutzen über eine reine Begleittherapie säurebedingter Erkrankungen hinaus plausibel ist
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Nexium (esomeprazole magnesium) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4853677-1622-4037-688b-fdf533a11d96) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

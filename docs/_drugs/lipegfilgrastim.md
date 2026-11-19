@@ -56,7 +56,7 @@ Für diese Richtung liegen in den für diesen Bericht zusammengestellten Daten *
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Lipegfilgrastim als pegyliertes G-CSF-Analogon die Proliferation und Differenzierung der neutrophilen Zellreihe anregt.
+Laut ChEMBL (EMBL-EBI) ist für Lipegfilgrastim folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Granulozyten-Kolonie-stimulierender-Faktor-Rezeptor-Agonist“ Englischer Originalwortlaut: "Granulocyte colony stimulating factor receptor agonist" ([ChEMBL CHEMBL4594230 (lipegfilgrastim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594230), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist, dass Lipegfilgrastim als pegyliertes G-CSF-Analogon die Proliferation und Differenzierung der neutrophilen Zellreihe anregt.
 
 Ein plausibler biologischer Zusammenhang mit der Thrombozyten-Granulafreisetzung oder mit Thrombozytenfunktionsstörungen ist nicht belegt. Der hohe Vorhersagewert (0,9993) ist eine reine Modellvorhersage und wird weder durch Studien noch durch Publikationen gestützt. Die Vorhersage sollte daher als Hypothese und nicht als Hinweis auf eine tatsächliche Wirksamkeit verstanden werden.
 
@@ -89,6 +89,19 @@ Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzstufe L5). Es gibt 
 - Daten zum detaillierten Wirkmechanismus (MOA)
 - Präklinische oder mechanistische Studien, die einen Zusammenhang mit der Thrombozytenfunktion untersuchen
 - Warnhinweise und Gegenanzeigen aus der Packungsbeilage (BfArM)
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL4594230 (lipegfilgrastim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594230) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

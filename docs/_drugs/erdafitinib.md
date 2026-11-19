@@ -60,7 +60,7 @@ Dafür liegen jedoch derzeit **keine klinischen Studien** und **keine Publikatio
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben aus der Arzneimitteldatenbank vor. Bekannt ist, dass Erdafitinib ein Pan-FGFR-Kinase-Inhibitor ist, dessen Wirksamkeit bei urothelialen Tumoren mit FGFR-Veränderungen belegt ist.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Erdafitinib (inoffizielle Übersetzung): „Erdafitinib ist ein Kinase-Inhibitor, der auf Grundlage von In-vitro-Daten an FGFR1, FGFR2, FGFR3 und FGFR4 bindet und deren enzymatische Aktivität hemmt. Erdafitinib hemmte die FGFR-Phosphorylierung und -Signalübertragung und verringerte die Zellviabilität in Zelllinien, die genetische FGFR-Veränderungen aufweisen, einschließlich Punktmutationen, Amplifikationen und Fusionen.“ Englischer Originalwortlaut: "Erdafitinib is a kinase inhibitor that binds to and inhibits enzymatic activity of FGFR1, FGFR2, FGFR3 and FGFR4 based on in vitro data. Erdafitinib inhibited FGFR phosphorylation and signaling and decreased cell viability in cell lines expressing FGFR genetic alterations, including point mutations, amplifications, and fusions." ([DailyMed: Balversa (erdafitinib) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a8aa5c0-6c92-4566-8c45-e8f4d1fc20ee), Fassung vom 2025-10-24; abgerufen am 2026-11-19). Bekannt ist, dass Erdafitinib ein Pan-FGFR-Kinase-Inhibitor ist, dessen Wirksamkeit bei urothelialen Tumoren mit FGFR-Veränderungen belegt ist.
 
 Die FGF/FGFR-Signalwege werden mit dem Umbau der Lungengefäße und der Proliferation glatter Muskelzellen der Pulmonalarterien in Verbindung gebracht. Daraus ergibt sich ein plausibler, aber bislang unbewiesener mechanistischer Ansatz. Zwischen einer Krebserkrankung und einer Gefäßerkrankung besteht ansonsten kaum eine direkte Verwandtschaft; die Verbindung läuft ausschließlich über den gemeinsamen Signalweg.
 
@@ -156,11 +156,12 @@ Die Vorhersage zur pulmonalen Hypertonie beruht ausschließlich auf dem TxGNN-Mo
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die deutsche Zulassung erloschen, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Balversa (erdafitinib) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a8aa5c0-6c92-4566-8c45-e8f4d1fc20ee) |
 
 <!-- review:end log -->
 

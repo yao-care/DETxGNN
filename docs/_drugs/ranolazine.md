@@ -54,7 +54,7 @@ Ranolazin wurde ursprünglich zur Behandlung der **Angina pectoris** zugelassen.
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Allgemein wird Ranolazin als Hemmer des späten Natriumstroms (und als partieller Hemmer der Fettsäureoxidation) beschrieben und bei Angina pectoris eingesetzt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Ranolazine (inoffizielle Übersetzung): „Der Wirkmechanismus der antianginösen Effekte von Ranolazin ist nicht geklärt. Ranolazin besitzt antiischämische und antianginöse Wirkungen, die nicht von einer Senkung der Herzfrequenz oder des Blutdrucks abhängen. Es beeinflusst das Frequenz-Druck-Produkt, ein Maß für die myokardiale Arbeit, bei maximaler Belastung nicht.“ Englischer Originalwortlaut: "The mechanism of action of ranolazine's antianginal effects has not been determined. Ranolazine has anti-ischemic and antianginal effects that do not depend upon reductions in heart rate or blood pressure. It does not affect the rate-pressure product, a measure of myocardial work, at maximal exercise." ([DailyMed: Aspruzyo Sprinkle (ranolazine) prescribing information, SUN PHARMACEUTICAL INDUSTRIES, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd9f81e4-50da-4551-aed5-559d304df42e), Fassung vom 2025-01-29; abgerufen am 2026-11-19). Allgemein wird Ranolazin als Hemmer des späten Natriumstroms (und als partieller Hemmer der Fettsäureoxidation) beschrieben und bei Angina pectoris eingesetzt.
 
 NSIAD wird durch aktivierende Mutationen des Vasopressin-V2-Rezeptors (AVPR2) verursacht. Diese führen zu einer konstitutiven Rezeptoraktivität und zu Wasserretention unabhängig von Vasopressin. Ein belastbarer mechanistischer Zusammenhang zwischen Ranolazin und dieser Erkrankung ist nicht belegt. Denkbar, aber rein spekulativ, wären Effekte auf die renale Natriumhandhabung oder auf die cAMP-/Aquaporin-2-Signalwege. Hierfür liegen keine unterstützenden Daten vor.
 
@@ -108,11 +108,12 @@ Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzlevel L5), oh
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Hinweis: Diese Zulassung (Inhaber: Menarini International Operations Luxembourg S.A.) ist als aufgehoben geführt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Aspruzyo Sprinkle (ranolazine) prescribing information, SUN PHARMACEUTICAL INDUSTRIES, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd9f81e4-50da-4551-aed5-559d304df42e) |
 
 <!-- review:end log -->
 

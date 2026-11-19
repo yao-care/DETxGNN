@@ -58,7 +58,7 @@ Abatacept ist ein Biologikum, das die T-Zell-Kostimulation hemmt und in der Rheu
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Abatacept die T-Zell-Kostimulation blockiert und damit die Aktivierung naiver T-Zellen dämpft. Mechanistisch ist daher ein Einfluss auf immunvermittelte Gelenk- und Wirbelsäulenentzündungen denkbar.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Abatacept (inoffizielle Übersetzung): „Abatacept, ein selektiver Modulator der Kostimulation, hemmt die Aktivierung von T-Zellen (T-Lymphozyten) durch Bindung an CD80 und CD86 und blockiert dadurch die Interaktion mit CD28. Diese Interaktion liefert ein kostimulatorisches Signal, das für die vollständige Aktivierung von T-Lymphozyten notwendig ist.“ Englischer Originalwortlaut: "Abatacept, a selective costimulation modulator, inhibits T-cell (T lymphocyte) activation by binding to CD80 and CD86, thereby blocking interaction with CD28. This interaction provides a costimulatory signal necessary for full activation of T lymphocytes." ([DailyMed: Orencia (abatacept) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0836c6ac-ee37-5640-2fed-a3185a0b16eb), Fassung vom 2025-11-13; abgerufen am 2026-11-19). Bekannt ist, dass Abatacept die T-Zell-Kostimulation blockiert und damit die Aktivierung naiver T-Zellen dämpft. Mechanistisch ist daher ein Einfluss auf immunvermittelte Gelenk- und Wirbelsäulenentzündungen denkbar.
 
 Die mechanistische Verbindung zur axialen Spondyloarthritis gilt jedoch als schwach. Diese Erkrankung wird vor allem von den Signalwegen um TNF und IL-17/IL-23 getrieben. Eine Übersichtsarbeit (Sieper 2016) hält fest, dass Biologika gegen IL-1, IL-6 und T-Zellen (Abatacept) bei axialer Spondyloarthritis nicht wirksam sind, während TNF-Blocker hochwirksam sind. Nach den vorliegenden Daten wird Abatacept in Leitlinien für die axiale Spondyloarthritis nicht empfohlen. Etablierte Alternativen (TNF- und IL-17-Inhibitoren) stehen zur Verfügung, die Nutzen-Risiko-Bewertung ist daher unsicher.
 
@@ -122,6 +122,19 @@ Weitere Sicherheitsangaben (Warnhinweise, Gegenanzeigen) bitte der Fachinformati
 - Eine kontrollierte, randomisierte Studie, die einen Vorteil gegenüber den etablierten Biologika belegt.
 - Detaillierte Daten zum Wirkmechanismus und zur Rolle der T-Zell-Kostimulation bei Morbus Bechterew.
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) und ein Sicherheitskonzept, insbesondere zu Infektionen, Tuberkulose-Screening und Impfungen.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Orencia (abatacept) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0836c6ac-ee37-5640-2fed-a3185a0b16eb) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

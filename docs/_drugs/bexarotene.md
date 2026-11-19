@@ -54,7 +54,7 @@ Bexaroten ist ein selektiver Retinoid-X-Rezeptor-Agonist (Rexinoid) und in Deuts
 
 ## Warum ist diese Vorhersage plausibel?
 
-Bexaroten aktiviert Retinoid-X-Rezeptoren (RXR). Diese Rezeptoren steuern als ligandenaktivierte Transkriptionsfaktoren die Genexpression und damit Zellwachstum, Differenzierung und Apoptose. In malignen T-Lymphozyten ist dieser Effekt belegt, und die Zulassung beruht darauf. Die für diesen Bericht zusammengestellten Daten enthalten keine detaillierten Angaben zum Wirkmechanismus.
+Bexaroten aktiviert Retinoid-X-Rezeptoren (RXR). Diese Rezeptoren steuern als ligandenaktivierte Transkriptionsfaktoren die Genexpression und damit Zellwachstum, Differenzierung und Apoptose. In malignen T-Lymphozyten ist dieser Effekt belegt, und die Zulassung beruht darauf. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Bexarotene (inoffizielle Übersetzung): „Bexaroten bindet und aktiviert selektiv Retinoid-X-Rezeptor-Subtypen (RXRα, RXRß, RXRγ). RXRs können Heterodimere mit verschiedenen Rezeptorpartnern bilden, wie Retinsäurerezeptoren (RARs), dem Vitamin-D-Rezeptor, dem Schilddrüsenrezeptor und Peroxisom-Proliferator-aktivierten Rezeptoren (PPARs).“ Englischer Originalwortlaut: "Bexarotene selectively binds and activates retinoid X receptor subtypes (RXRα, RXRß, RXRγ). RXRs can form heterodimers with various receptor partners such as retinoic acid receptors (RARs), vitamin D receptor, thyroid receptor, and peroxisome proliferator activator receptors (PPARs)." ([DailyMed: Targretin (bexarotene) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d056725-0576-4338-8089-6336e768ccdc), Fassung vom 2020-04-30; abgerufen am 2026-11-19).
 
 Primäre kutane B-Zell-Lymphome gehören wie die kutanen T-Zell-Lymphome zu den primär kutanen Lymphomen. Sie teilen mit ihnen Hautmanifestation, Klassifikation (WHO/EORTC) und teils therapeutische Optionen. Dieser gemeinsame Krankheitskontext dürfte den hohen Modellwert wesentlich erklären.
 
@@ -120,6 +120,18 @@ Für weitere Sicherheitsangaben (Warnhinweise, Gegenanzeigen) bitte die Fachinfo
 - Detaillierte Mechanismusdaten (MOA)
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen, die derzeit nicht vorliegt
 - Bei positiver Datenlage: Planung einer kleinen explorativen Studie mit Sicherheitsüberwachung, u. a. Blutbild, Leber- und Schilddrüsenwerte sowie Blutfette
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Targretin (bexarotene) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d056725-0576-4338-8089-6336e768ccdc) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

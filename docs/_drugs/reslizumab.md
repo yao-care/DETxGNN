@@ -54,7 +54,7 @@ Reslizumab ist ein Anti-IL-5-Antikörper, der ursprünglich zur Behandlung von A
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Reslizumab ein monoklonaler Antikörper gegen Interleukin-5 (IL-5) ist, der die Überlebens- und Aktivierungssignale eosinophiler Granulozyten reduziert. Seine Wirksamkeit bei eosinophilem Asthma ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Reslizumab (inoffizielle Übersetzung): „Reslizumab ist ein Interleukin-5-Antagonist (IgG4, kappa). IL-5 ist das wichtigste Zytokin, das für Wachstum und Differenzierung, Rekrutierung, Aktivierung und Überleben von Eosinophilen verantwortlich ist. Reslizumab bindet mit einer Dissoziationskonstante von 81 pM an IL-5 und hemmt die Bioaktivität von IL-5, indem es dessen Bindung an die Alpha-Kette des auf der Oberfläche der Eosinophilen exprimierten IL-5-Rezeptorkomplexes blockiert.“ Englischer Originalwortlaut: "Reslizumab is an interleukin-5 antagonist (IgG4, kappa). IL-5 is the major cytokine responsible for the growth and differentiation, recruitment, activation, and survival of eosinophils. Reslizumab binds to IL-5 with a dissociation constant of 81 pM, inhibiting the bioactivity of IL-5 by blocking its binding to the alpha chain of the IL-5 receptor complex expressed on the eosinophil surface." ([DailyMed: Cinqair (reslizumab) prescribing information, Teva Respiratory, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=053b9158-2a5b-48b9-bf47-5fa78a35ec33), Fassung vom 2020-02-29; abgerufen am 2026-11-19). Bekannt ist, dass Reslizumab ein monoklonaler Antikörper gegen Interleukin-5 (IL-5) ist, der die Überlebens- und Aktivierungssignale eosinophiler Granulozyten reduziert. Seine Wirksamkeit bei eosinophilem Asthma ist belegt.
 
 Die immunvermittelte Thrombozytopenie (ITP) wird dagegen hauptsächlich durch autoantikörpervermittelten Abbau von Thrombozyten und eine gestörte Megakaryopoese verursacht. Eine etablierte Rolle von IL-5 oder Eosinophilen ist nicht bekannt. Ein direkter mechanistischer Zusammenhang ist anhand der vorliegenden Daten daher **nicht erkennbar**. Der hohe TxGNN-Wert ist eine rein graphbasierte Vorhersage und sollte nicht als Hinweis auf Wirksamkeit gewertet werden.
 
@@ -113,12 +113,13 @@ Die Vorhersage stützt sich ausschließlich auf das TxGNN-Modell (Evidenzstufe L
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche bzw. europäische Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „da die Zulassung erloschen ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Cinqair (reslizumab) prescribing information, Teva Respiratory, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=053b9158-2a5b-48b9-bf47-5fa78a35ec33) |
 
 <!-- review:end log -->
 

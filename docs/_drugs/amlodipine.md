@@ -62,7 +62,7 @@ Hinweis: Weitere Vorhersagen weisen höhere Evidenzgrade auf, z. B. die intrazer
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Amlodipin ist ein Calciumkanalblocker vom Dihydropyridin-Typ. Er erweitert die Gefäße und senkt den Blutdruck. Seine Wirksamkeit bei Hypertonie ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Amlodipine (inoffizielle Übersetzung): „Amlodipin ist ein Dihydropyridin-Calciumantagonist (Calciumionen-Antagonist oder Slow-Channel-Blocker), der den transmembranären Einstrom von Calciumionen in die glatte Gefäßmuskulatur und den Herzmuskel hemmt. Experimentelle Daten deuten darauf hin, dass Amlodipin sowohl an Dihydropyridin- als auch an Nicht-Dihydropyridin-Bindungsstellen bindet.“ Englischer Originalwortlaut: "Amlodipine is a dihydropyridine calcium antagonist (calcium ion antagonist or slow-channel blocker) that inhibits the transmembrane influx of calcium ions into vascular smooth muscle and cardiac muscle. Experimental data suggest that amlodipine binds to both dihydropyridine and nondihydropyridine binding sites." ([DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487), Fassung vom 2026-09-28; abgerufen am 2026-11-19). Bekannt ist: Amlodipin ist ein Calciumkanalblocker vom Dihydropyridin-Typ. Er erweitert die Gefäße und senkt den Blutdruck. Seine Wirksamkeit bei Hypertonie ist belegt.
 
 Der Blutdruck ist der wichtigste beeinflussbare Risikofaktor für Schlaganfälle. Mechanistisch ist daher denkbar, dass Amlodipin über Blutdrucksenkung und Gefäßwirkung das zerebrovaskuläre Risiko verringert. Für den Hirnstamminfarkt selbst wurden jedoch weder Studien noch Literatur gefunden, die Vorhersage beruht allein auf dem Modell.
 
@@ -148,6 +148,19 @@ Für den Spitzenkandidaten Hirnstamminfarkt gibt es ausschließlich eine Modellv
 - Auswertung der TRIDENT-Daten hinsichtlich des Beitrags einzelner Komponenten
 - Klinische oder zumindest gezielte Beobachtungsdaten zu Hirnstamminfarkt bzw. zerebralem Arterienverschluss
 - Klärung des Zulassungs- und Marktstatus in Deutschland (Einzelpräparate, Darreichungsformen)
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

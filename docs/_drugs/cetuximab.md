@@ -58,7 +58,7 @@ Cetuximab ist ein monoklonaler Antikörper gegen den epidermalen Wachstumsfaktor
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Cetuximab an den EGFR bindet und dessen Signalweg blockiert.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Cetuximab (inoffizielle Übersetzung): „Der epidermale Wachstumsfaktorrezeptor (EGFR, HER1, c-ErbB-1) ist ein transmembranäres Glykoprotein, das zu einer Unterfamilie der Typ-I-Rezeptor-Tyrosinkinasen gehört, zu der EGFR, HER2, HER3 und HER4 zählen. Der EGFR wird in vielen normalen Epithelgeweben, einschließlich der Haut und des Haarfollikels, konstitutiv exprimiert. […] Cetuximab bindet spezifisch an den EGFR sowohl auf normalen Zellen als auch auf Tumorzellen und hemmt kompetitiv die Bindung des epidermalen Wachstumsfaktors (EGF) und anderer Liganden, wie z. B. des transformierenden Wachstumsfaktors alpha.“ Englischer Originalwortlaut: "The epidermal growth factor receptor (EGFR, HER1, c-ErbB-1) is a transmembrane glycoprotein that is a member of a subfamily of type I receptor tyrosine kinases including EGFR, HER2, HER3, and HER4. The EGFR is constitutively expressed in many normal epithelial tissues, including the skin and hair follicle. […] Cetuximab binds specifically to the EGFR on both normal and tumor cells, and competitively inhibits the binding of epidermal growth factor (EGF) and other ligands, such as transforming growth factor-alpha." ([DailyMed: Erbitux (cetuximab) prescribing information, ImClone LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8bc6397e-4bd8-4d37-a007-a327e4da34d9), Fassung vom 2026-04-16; abgerufen am 2026-11-19). Bekannt ist, dass Cetuximab an den EGFR bindet und dessen Signalweg blockiert.
 
 Für das chondroide Hamartom, eine gutartige Läsion, ist jedoch keine EGFR-abhängige Pathophysiologie belegt. Die Vorhersage stützt sich allein auf den Modellscore. Eine mechanistische Begründung lässt sich aus den vorliegenden Daten nicht ableiten.
 
@@ -131,6 +131,19 @@ Die Vorhersage beruht ausschließlich auf einem Modellscore (0,9995). Es gibt we
 - Daten zum Wirkmechanismus aus DrugBank
 - Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM)
 - Nutzen-Risiko-Abwägung, da Cetuximab bei einer gutartigen Läsion mit Haut- und Infusionsreaktionen verbunden sein kann
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Erbitux (cetuximab) prescribing information, ImClone LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8bc6397e-4bd8-4d37-a007-a327e4da34d9) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -58,7 +58,7 @@ Panitumumab ist ein gegen EGFR gerichteter monoklonaler Antikörper, der ursprü
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Panitumumab ist ein Anti-EGFR-Antikörper, dessen Wirksamkeit beim Kolorektalkarzinom belegt ist. Mechanistisch könnte er auch bei anderen Erkrankungen relevant sein, bei denen EGFR-Signalwege eine Rolle spielen.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Panitumumab (inoffizielle Übersetzung): „Der EGFR ist ein Transmembran-Glykoprotein, das einer Unterfamilie der Typ-I-Rezeptor-Tyrosinkinasen angehört, zu der EGFR, HER2, HER3 und HER4 gehören. EGFR wird in normalen Epithelgeweben, einschließlich der Haut und des Haarfollikels, konstitutiv exprimiert. […] Panitumumab bindet spezifisch an EGFR sowohl auf normalen Zellen als auch auf Tumorzellen und hemmt kompetitiv die Bindung von Liganden an EGFR.“ Englischer Originalwortlaut: "The EGFR is a transmembrane glycoprotein that is a member of a subfamily of type I receptor tyrosine kinases, including EGFR, HER2, HER3, and HER4. EGFR is constitutively expressed in normal epithelial tissues, including the skin and hair follicle. […] Panitumumab binds specifically to EGFR on both normal and tumor cells, and competitively inhibits the binding of ligands for EGFR." ([DailyMed: Vectibix (panitumumab) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e0fa4bca-f245-4d92-ae29-b0c630a315c2), Fassung vom 2026-06-23; abgerufen am 2026-11-19). Bekannt ist: Panitumumab ist ein Anti-EGFR-Antikörper, dessen Wirksamkeit beim Kolorektalkarzinom belegt ist. Mechanistisch könnte er auch bei anderen Erkrankungen relevant sein, bei denen EGFR-Signalwege eine Rolle spielen.
 
 Eine biologische Verbindung ist denkbar, da der EGFR-Signalweg an der Differenzierung von Osteoblasten und am Knochenumbau beteiligt ist. Die Wirkrichtung (Nutzen oder Schaden) ist jedoch unklar: Die EGFR-Hemmung ist häufiger mit Hypomagnesiämie und Hypokalzämie verbunden, was die Knochengesundheit eher beeinträchtigen könnte. Die Vorhersage kann ohne weitere Evidenz nicht als gestützt gelten.
 
@@ -138,11 +138,12 @@ Das Modell sagt außerdem **schwere nichtproliferative diabetische Retinopathie*
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Zudem besteht in Deutschland nur eine erloschene Zulassung, was die praktische Verfügbarkeit einschränkt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Vectibix (panitumumab) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e0fa4bca-f245-4d92-ae29-b0c630a315c2) |
 
 <!-- review:end log -->
 

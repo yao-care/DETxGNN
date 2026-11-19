@@ -60,7 +60,7 @@ Hinweis: Die Vorhersage mit dem höchsten Score ist zugleich die am schlechteste
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Aus den Informationen zu den Kandidaten ist bekannt, dass Crizotinib die Rezeptor-Tyrosinkinasen ALK, ROS1 und MET hemmt. Seine Wirksamkeit beim ALK- bzw. ROS1-positiven NSCLC ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Crizotinib (inoffizielle Übersetzung): „Crizotinib ist ein Inhibitor von Rezeptor-Tyrosinkinasen, einschließlich ALK, Hepatozyten-Wachstumsfaktor-Rezeptor (HGFR, c-Met), ROS1 (c-ros) und Recepteur d'Origine Nantais (RON). Translokationen können das ALK-Gen betreffen und zur Expression onkogener Fusionsproteine führen.“ Englischer Originalwortlaut: "Crizotinib is an inhibitor of receptor tyrosine kinases including ALK, Hepatocyte Growth Factor Receptor (HGFR, c-Met), ROS1 (c-ros), and Recepteur d'Origine Nantais (RON). Translocations can affect the ALK gene resulting in the expression of oncogenic fusion proteins." ([DailyMed: Xalkori (crizotinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a51b0de-47d6-455e-a94c-d2c737b04ff7), Fassung vom 2026-10-29; abgerufen am 2026-11-19). Aus den Informationen zu den Kandidaten ist bekannt, dass Crizotinib die Rezeptor-Tyrosinkinasen ALK, ROS1 und MET hemmt. Seine Wirksamkeit beim ALK- bzw. ROS1-positiven NSCLC ist belegt.
 
 Für die gingivale Fibromatose ist **kein mechanistischer Zusammenhang** dokumentiert. Es gibt keinen bekannten Signalweg, der diese Zielstrukturen mit der hereditären gingivalen Fibromatose verbindet. Der sehr hohe Score ist daher mit Vorsicht zu interpretieren und kann ein Artefakt des TxGNN-Modells (Deep Learning) sein. Auch die Ähnlichkeit zur ursprünglichen Indikation wurde bislang nicht bewertet.
 
@@ -140,11 +140,12 @@ Der Vorhersage fehlen klinische Studien, Literatur und ein plausibler Wirkmechan
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche Zulassung aufgehoben, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Xalkori (crizotinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a51b0de-47d6-455e-a94c-d2c737b04ff7) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Budesonid ist ein Glukokortikoid mit entzündungshemmender und immunsuppressiver
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Budesonid ein potentes Glukokortikoid ist. Glukokortikoide hemmen die Bildung proentzündlicher Zytokine und die Einwanderung von Immunzellen in entzündetes Gewebe. Mechanistisch ist das für die Th2-getriebene Entzündung der Haut beim atopischen Ekzem denkbar, und topische Kortikosteroide sind eine etablierte Behandlungsklasse bei dieser Erkrankung.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Budesonide (inoffizielle Übersetzung): „Budesonid ist ein entzündungshemmendes Corticosteroid, das eine starke glucocorticoide Wirkung und eine schwache mineralocorticoide Wirkung aufweist. In Standard-In-vitro- und Tiermodellen hat Budesonid eine etwa 200-fach höhere Affinität für den Glucocorticoidrezeptor und eine 1000-fach höhere topische entzündungshemmende Wirkstärke als Cortisol (Crotonöl-Ohrödem-Assay an der Ratte).“ Englischer Originalwortlaut: "Budesonide is an anti-inflammatory corticosteroid that exhibits potent glucocorticoid activity and weak mineralocorticoid activity. In standard in vitro and animal models, budesonide has approximately a 200-fold higher affinity for the glucocorticoid receptor and a 1000-fold higher topical anti-inflammatory potency than cortisol (rat croton oil ear edema assay)." ([DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da), Fassung vom 2026-06-10; abgerufen am 2026-11-19). Bekannt ist, dass Budesonid ein potentes Glukokortikoid ist. Glukokortikoide hemmen die Bildung proentzündlicher Zytokine und die Einwanderung von Immunzellen in entzündetes Gewebe. Mechanistisch ist das für die Th2-getriebene Entzündung der Haut beim atopischen Ekzem denkbar, und topische Kortikosteroide sind eine etablierte Behandlungsklasse bei dieser Erkrankung.
 
 Die gefundene Literatur ist jedoch indirekt. Sie betrifft vor allem eosinophile Ösophagitis, Kontaktallergien gegen Kortikosteroide, Sicherheitsfragen bei Kindern und eine präklinische Formulierungsstudie. Eine Studie, die Budesonid beim atopischen Ekzem am Menschen auf Wirksamkeit prüft, ist nicht enthalten. Deshalb bleibt die Vorhersage vorerst eine Modellhypothese.
 
@@ -106,6 +106,19 @@ Die Vorhersage stützt sich auf einen sehr hohen Modellscore, jedoch gibt es wed
 - Prüfung der Verträglichkeit und Systemwirkung bei topischer Anwendung, besonders bei Kindern
 - Daten zum Wirkmechanismus und zur Eignung der Darreichungsform für die Haut
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

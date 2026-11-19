@@ -54,7 +54,7 @@ Miglustat ist ein oral verabreichter Hemmstoff der Glucosylceramid-Synthase. Er 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Miglustat die Glucosylceramid-Synthase (UGCG) hemmt. Dadurch wird die Synthese von Glykosphingolipiden verringert (Substratreduktionstherapie). Die Wirksamkeit bei Morbus Gaucher ist belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Miglustat (inoffizielle Übersetzung): „Morbus Gaucher Typ 1 wird durch einen funktionellen Mangel an Glucocerebrosidase verursacht, dem Enzym, das den Abbau des Glykosphingolipids Glucosylceramid vermittelt. Miglustat wirkt als kompetitiver und reversibler Inhibitor des Enzyms Glucosylceramid-Synthase, des Ausgangsenzyms einer Reihe von Reaktionen, die zur Synthese der meisten Glykosphingolipide führen.“ Englischer Originalwortlaut: "Type 1 Gaucher disease is caused by a functional deficiency of glucocerebrosidase, the enzyme that mediates the degradation of the glycosphingolipid glucosylceramide. Miglustat functions as a competitive and reversible inhibitor of the enzyme glucosylceramide synthase, the initial enzyme in a series of reactions which results in the synthesis of most glycosphingolipids." ([DailyMed: Yargesa (miglustat) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b371dfe-e2b0-47fe-b677-a7bde7149f87), Fassung vom 2025-12-17; abgerufen am 2026-11-19). Bekannt ist, dass Miglustat die Glucosylceramid-Synthase (UGCG) hemmt. Dadurch wird die Synthese von Glykosphingolipiden verringert (Substratreduktionstherapie). Die Wirksamkeit bei Morbus Gaucher ist belegt.
 
 Ein möglicher, aber unbestätigter Zusammenhang ist, dass eine Hemmung der Glucosylceramid-Synthase den Glykosphingolipid- und Ceramid-Stoffwechsel der Epidermis beeinflussen könnte. Dieser Stoffwechsel ist für die Hautbarriere wichtig und bei Ichthyosen oft gestört. Für diese Verbindung gibt es bislang keine Belege. Die Ähnlichkeit zur ursprünglichen Indikation wurde nicht bewertet. Die Vorhersage sollte daher als Hypothese zur Weiterverfolgung betrachtet werden, nicht als belegter Ansatz.
 
@@ -99,6 +99,19 @@ Die Vorhersage stützt sich allein auf den hohen Modellwert (Evidenzgrad L5). Es
 - Klärung des Zulassungsstatus und der Verfügbarkeit in Deutschland sowie der Darreichungswege
 
 **Hinweis zu anderen Kandidaten:** Unter den übrigen Vorhersagen für Miglustat ist die Evidenz für **Tay-Sachs-Krankheit** deutlich besser. Dort liegen 4 klinische Studien (darunter zwei der Phase 3) und 10 Publikationen vor, unter anderem eine randomisierte Studie bei spät beginnender Erkrankung und eine systematische Übersichtsarbeit von 2023. Die Studien sind jedoch klein oder vorzeitig beendet, und der klinische Nutzen ist unklar. Diese Indikation wäre die naheliegendere Option für eine vertiefte Prüfung.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Yargesa (miglustat) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b371dfe-e2b0-47fe-b677-a7bde7149f87) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

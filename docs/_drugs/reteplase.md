@@ -58,7 +58,7 @@ Reteplase ist ein rekombinanter Gewebeplasminogenaktivator (Thrombolytikum), der
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Reteplase ist ein rekombinanter Gewebeplasminogenaktivator. Er aktiviert Plasminogen zu Plasmin und löst dadurch Fibrinthromben (Thrombolyse) in verschlossenen Koronararterien auf. Seine Wirksamkeit beim akuten Myokardinfarkt ist etabliert.
+Laut ChEMBL (EMBL-EBI) ist für Reteplase folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Exogenes Gewebe-Plasminogenaktivator-Protein“ Englischer Originalwortlaut: "Tissue-type plasminogen activator exogenous protein" ([ChEMBL CHEMBL2107885 (reteplase): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107885), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist: Reteplase ist ein rekombinanter Gewebeplasminogenaktivator. Er aktiviert Plasminogen zu Plasmin und löst dadurch Fibrinthromben (Thrombolyse) in verschlossenen Koronararterien auf. Seine Wirksamkeit beim akuten Myokardinfarkt ist etabliert.
 
 Der posterolaterale Myokardinfarkt ist ein anatomischer Untertyp des Myokardinfarkts. Der Mechanismus (Wiedereröffnung des thrombotisch verschlossenen Koronargefäßes) ist daher grundsätzlich übertragbar. Der sehr hohe TxGNN-Wert spiegelt wahrscheinlich die Nähe in der Krankheitsontologie zur ursprünglichen Indikation wider und nicht neue Evidenz. Es handelt sich somit nicht um einen echten Repurposing-Kandidaten.
 
@@ -113,6 +113,19 @@ Die Vorhersage betrifft einen Untertyp der bereits zugelassenen Indikation Myoka
 - Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM/EMA) beschaffen, da dies derzeit ein blockierender Datenmangel für die Sicherheitsprüfung ist
 - Klärung der Gründe für das Erlöschen der Zulassung und der aktuellen Verfügbarkeit
 - Prüfung der Studien GUSTO-V und SPEED (PMID 15800019, 11079647) auf Design und Relevanz, sofern ein breiterer Koronarkontext verfolgt wird
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL2107885 (reteplase): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107885) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

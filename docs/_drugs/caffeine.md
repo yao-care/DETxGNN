@@ -54,7 +54,7 @@ Koffein ist ein Methylxanthin, das als Adenosinrezeptor-Antagonist wirkt. Das Tx
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu Koffein liegen in den für diesen Bericht zusammengestellten Daten keine ausführlichen Angaben zum Wirkmechanismus vor. Die pharmakologischen Daten zeigen jedoch, dass Koffein an Adenosinrezeptoren (A1, A2A, A2B, A3) sowie an Ryanodin-Rezeptoren (RyR1–3) und am IP3-Rezeptor 1 bindet.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Caffeine (inoffizielle Übersetzung): „Coffein ist strukturell mit anderen Methylxanthinen, Theophyllin und Theobromin verwandt. Es ist ein Relaxans der glatten Bronchialmuskulatur, ein ZNS-Stimulans, ein Stimulans des Herzmuskels und ein Diuretikum. Obwohl der Wirkmechanismus von Coffein bei der Apnoe des Frühgeborenen nicht bekannt ist, wurden mehrere Mechanismen als Hypothesen aufgestellt.“ Englischer Originalwortlaut: "Caffeine is structurally related to other methylxanthines, theophylline, and theobromine. It is a bronchial smooth muscle relaxant, a CNS stimulant, a cardiac muscle stimulant, and a diuretic. Although the mechanism of action of caffeine in apnea of prematurity is not known, several mechanisms have been hypothesized." ([DailyMed: caffeine citrate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f38c395-0093-4afd-89ec-f96e5dc0934a), Fassung vom 2026-07-29; abgerufen am 2026-11-19). Die pharmakologischen Daten zeigen jedoch, dass Koffein an Adenosinrezeptoren (A1, A2A, A2B, A3) sowie an Ryanodin-Rezeptoren (RyR1–3) und am IP3-Rezeptor 1 bindet.
 
 Ein möglicher, rein spekulativer Zusammenhang besteht über Bitterrezeptoren (TAS2R): Koffein ist ein Bitterstoff-Ligand, und diese Rezeptoren kommen im Atemwegsepithel einschließlich der Nasenhöhle vor. Sie könnten die angeborene Immunabwehr und die mukoziliäre Funktion beeinflussen. Dieser Zusammenhang ist durch keine klinischen Daten belegt. Der hohe Vorhersagewert allein ist kein Wirksamkeitsnachweis.
 
@@ -97,6 +97,19 @@ Der hohe TxGNN-Wert (0,9991) wird durch keine klinische oder direkte Evidenz ges
 - Detaillierte Angaben zum Wirkmechanismus
 - Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen), da diese Daten derzeit fehlen
 - Prüfung der Verträglichkeit und geeigneten Darreichungsform (z. B. nasale Applikation) vor jeder klinischen Studie
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: caffeine citrate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f38c395-0093-4afd-89ec-f96e5dc0934a) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -58,7 +58,7 @@ Pravastatin ist ein HMG-CoA-Reduktase-Hemmer (Statin) und war ursprünglich zur 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für diesen Bericht liegen derzeit keine detaillierten Daten zum Wirkmechanismus vor. Bekannt ist: Pravastatin hemmt die HMG-CoA-Reduktase, senkt dadurch die Cholesterinsynthese in der Leber und fördert die Hochregulation von LDL-Rezeptoren. Seine Wirksamkeit bei Dyslipidämien ist etabliert.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Pravastatin (inoffizielle Übersetzung): „Pravastatin ist ein reversibler Inhibitor der HMG-CoA-Reduktase, des geschwindigkeitsbestimmenden Enzyms, das HMG-CoA in Mevalonat, eine Vorstufe des Cholesterins, umwandelt.“ Englischer Originalwortlaut: "Pravastatin is a reversible inhibitor of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol." ([DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d), Fassung vom 2026-10-23; abgerufen am 2026-11-19). Bekannt ist: Pravastatin hemmt die HMG-CoA-Reduktase, senkt dadurch die Cholesterinsynthese in der Leber und fördert die Hochregulation von LDL-Rezeptoren. Seine Wirksamkeit bei Dyslipidämien ist etabliert.
 
 Bei der homozygoten familiären Hypercholesterinämie ist die LDL-Rezeptorfunktion jedoch stark eingeschränkt oder fehlt vollständig. Die Wirkung eines Statins, die über diese Rezeptoren vermittelt wird, dürfte daher begrenzt sein. Die Vorhersage ist somit krankheitsnah, aber mechanistisch nur eingeschränkt gestützt.
 
@@ -131,11 +131,12 @@ Für die homozygote familiäre Hypercholesterinämie gibt es keine direkte Evide
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „und die deutsche Zulassung ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d) |
 
 <!-- review:end log -->
 

@@ -58,7 +58,7 @@ Thyrotropin alfa ist ein rekombinantes TSH (Thyreoidea-stimulierendes Hormon). E
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Thyrotropin alfa ist ein rekombinantes TSH und wirkt am TSH-Rezeptor, vor allem an Schilddrüsenfollikelzellen. Seine Rolle bei Schilddrüsenneoplasien ist etabliert.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Thyrotropin Alfa (inoffizielle Übersetzung): „Thyrotropin (TSH) ist ein Hypophysenhormon, das die Schilddrüse zur Produktion von Schilddrüsenhormon anregt. Die Bindung von Thyrotropin alfa an TSH-Rezeptoren auf normalen Schilddrüsenepithelzellen oder auf gut differenziertem Schilddrüsenkarzinomgewebe stimuliert die Iodaufnahme und -organifizierung sowie die Synthese und Sekretion von Thyreoglobulin (Tg), Triiodthyronin (T3) und Thyroxin (T4).“ Englischer Originalwortlaut: "Thyrotropin (TSH) is a pituitary hormone that stimulates the thyroid gland to produce thyroid hormone. Binding of thyrotropin alfa to TSH receptors on normal thyroid epithelial cells or on well-differentiated thyroid cancer tissue stimulates iodine uptake and organification, and synthesis and secretion of thyroglobulin (Tg), triiodothyronine (T3) and thyroxine (T4)." ([DailyMed: Thyrogen (thyrotropin alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b52dfa36-f90b-4e19-9b5e-26db9d04df2b), Fassung vom 2023-02-24; abgerufen am 2026-11-19). Bekannt ist: Thyrotropin alfa ist ein rekombinantes TSH und wirkt am TSH-Rezeptor, vor allem an Schilddrüsenfollikelzellen. Seine Rolle bei Schilddrüsenneoplasien ist etabliert.
 
 Ein mechanistischer Zusammenhang zur Migräne ist nicht belegt. Der sehr hohe Modellwert (0,9998) ist eine reine Vorhersage des TxGNN-Modells (Deep Learning). Ein möglicher Bezug wäre allenfalls indirekt, etwa über schilddrüsenbezogene hormonelle oder vaskuläre Effekte, wofür es keine Hinweise gibt.
 
@@ -139,11 +139,12 @@ Die Vorhersage stützt sich ausschließlich auf das TxGNN-Modell (Deep Learning,
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „da das Produkt nur injizierbar bekannt ist und die Zulassung erloschen ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Thyrogen (thyrotropin alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b52dfa36-f90b-4e19-9b5e-26db9d04df2b) |
 
 <!-- review:end log -->
 

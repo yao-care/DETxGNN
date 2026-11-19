@@ -58,7 +58,7 @@ Insulin glargine ist ein lang wirksames Basalinsulin-Analogon, das ursprünglich
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Insulin glargine ist ein lang wirksames Basalinsulin-Analogon, das am Insulinrezeptor wirkt und die Blutzuckerkontrolle bei Diabetes verbessert.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Insulin Glargine (inoffizielle Übersetzung): „Die primäre Wirkung von Insulin, einschließlich Insulin-glargin-Präparaten, ist die Regulation des Glucosestoffwechsels. Insulin und seine Analoga senken den Blutzucker, indem sie die periphere Glucoseaufnahme, insbesondere durch Skelettmuskulatur und Fettgewebe, stimulieren und die hepatische Glucoseproduktion hemmen.“ Englischer Originalwortlaut: "The primary activity of insulin, including insulin glargine products, is regulation of glucose metabolism. Insulin and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Langlara (insulin glargine-aldy) prescribing information, Lanexa Biologics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5328761e-59d3-ca7a-e063-6394a90ae810), Fassung vom 2026-10-15; abgerufen am 2026-11-19). Bekannt ist: Insulin glargine ist ein lang wirksames Basalinsulin-Analogon, das am Insulinrezeptor wirkt und die Blutzuckerkontrolle bei Diabetes verbessert.
 
 Die autoimmune Oophoritis ist eine immunvermittelte Erkrankung der Eierstöcke. Für Insulin glargine ist keine Rolle bei der Modulation dieses Autoimmunprozesses bekannt. Ein mechanistischer Zusammenhang ist nicht belegt. Wahrscheinlich spiegelt die Vorhersage lediglich das gemeinsame Auftreten mit autoimmunen polyendokrinen Syndromen (z. B. Typ-1-Diabetes) wider und keinen therapeutischen Effekt.
 
@@ -162,7 +162,7 @@ Für die Vorhersage autoimmune Oophoritis gibt es keine klinischen Studien, kein
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
@@ -170,6 +170,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 | 2026-11-06 | Entfernt: „Eine sechste Zulassung (Suliqua, EMEA/H/C/004243, Diabetes mellitus Typ 2) ist ebenfalls erloschen“ | Korrigiert (überarbeitet am 2026-11-12; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „5 von 6 Zulassungen sind gültig“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Zahl der gültigen Zulassungen: 5 von 6 → alle 6 | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Langlara (insulin glargine-aldy) prescribing information, Lanexa Biologics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5328761e-59d3-ca7a-e063-6394a90ae810) |
 
 <!-- review:end log -->
 

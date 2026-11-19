@@ -58,7 +58,7 @@ Mecasermin ist rekombinanter humaner IGF-1 (insulinähnlicher Wachstumsfaktor 1)
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Mecasermin ersetzt IGF-1 direkt und wirkt unterhalb der Wachstumshormon-Achse (GH). Beim Laron-Syndrom, einer schweren primären IGF-1-Defizienz, ist diese Substitution der therapeutische Ansatz.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Mecasermin (inoffizielle Übersetzung): „Der insulinähnliche Wachstumsfaktor 1 (IGF-1) ist ein zentraler hormoneller Mediator des Längenwachstums. Unter normalen Umständen bindet das Wachstumshormon (GH) an seinen Rezeptor in der Leber und in anderen Geweben und stimuliert die Synthese/Sekretion von IGF-1.“ Englischer Originalwortlaut: "Insulin-like growth factor-1 (IGF-1) is a key hormonal mediator on statural growth. Under normal circumstances, growth hormone (GH) binds to its receptor in the liver, and other tissues, and stimulates the synthesis/secretion of IGF-1." ([DailyMed: Increlex (mecasermin) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d5b2b0e1-c523-468d-9a0b-4ae4e4a8dbce), Fassung vom 2026-05-18; abgerufen am 2026-11-19). Bekannt ist: Mecasermin ersetzt IGF-1 direkt und wirkt unterhalb der Wachstumshormon-Achse (GH). Beim Laron-Syndrom, einer schweren primären IGF-1-Defizienz, ist diese Substitution der therapeutische Ansatz.
 
 Das Turner-Syndrom (Monosomie X) ist durch Kleinwuchs gekennzeichnet, und Wachstumshormon ist die etablierte Standardtherapie. Über die IGF-1-Achse besteht daher ein denkbarer Zusammenhang. Allerdings ist das Turner-Syndrom in der Regel nicht durch einen primären IGF-1-Mangel definiert, und GH bleibt der Behandlungsstandard. Die Verbindung ist eine reine Vorhersage. Der TxGNN-Wert (0,9959) ist eine rechnerische Schätzung und kein klinischer Beleg.
 
@@ -119,6 +119,19 @@ Für Monosomie X liegen weder klinische Studien noch Literatur vor (Evidenzgrad 
 - Daten zum Wirkmechanismus (MOA) aus DrugBank
 - Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM); dies ist eine blockierende Datenlücke für das Sicherheits-Screening
 - Klärung des Zulassungsstatus und der Verfügbarkeit des Präparats in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Increlex (mecasermin) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d5b2b0e1-c523-468d-9a0b-4ae4e4a8dbce) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

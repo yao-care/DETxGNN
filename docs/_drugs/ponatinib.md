@@ -61,7 +61,7 @@ Für die zweitplatzierte Vorhersage, **Liposarkom**, existiert immerhin **1 prä
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Ponatinib ein Multi-Kinase-Inhibitor ist (u. a. BCR-ABL, FGFR, PDGFR, VEGFR, SRC). Seine Wirksamkeit bei Leukämien ist belegt, und mechanistisch könnte er theoretisch auch bei Erkrankungen wirken, in denen PDGFR- oder FGFR-Signalwege an fibrotischen oder proliferativen Prozessen beteiligt sind.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Ponatinib (inoffizielle Übersetzung): „Ponatinib ist ein Kinaseinhibitor. Ponatinib hemmte in vitro die Tyrosinkinaseaktivität von ABL und der T315I-mutierten ABL mit IC 50-Konzentrationen von 0,4 nM bzw. 2,0 nM. Ponatinib hemmte in vitro die Aktivität weiterer Kinasen mit IC 50-Konzentrationen zwischen 0,1 nM und 20 nM, darunter Mitglieder der Kinasefamilien VEGFR, PDGFR, FGFR, EPH-Rezeptoren und SRC sowie KIT, RET, TIE2 und FLT3.“ Englischer Originalwortlaut: "Ponatinib is a kinase inhibitor. Ponatinib inhibited the in vitro tyrosine kinase activity of ABL and T315I mutant ABL with IC 50 concentrations of 0.4 nM and 2.0 nM, respectively. Ponatinib inhibited the in vitro activity of additional kinases with IC 50 concentrations between 0.1 nM and 20 nM, including members of the VEGFR, PDGFR, FGFR, EPH receptors and SRC families of kinases, and KIT, RET, TIE2, and FLT3." ([DailyMed: Iclusig (ponatinib hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac), Fassung vom 2026-08-14; abgerufen am 2026-11-19). Bekannt ist, dass Ponatinib ein Multi-Kinase-Inhibitor ist (u. a. BCR-ABL, FGFR, PDGFR, VEGFR, SRC). Seine Wirksamkeit bei Leukämien ist belegt, und mechanistisch könnte er theoretisch auch bei Erkrankungen wirken, in denen PDGFR- oder FGFR-Signalwege an fibrotischen oder proliferativen Prozessen beteiligt sind.
 
 Für die gingivale Fibromatose ist diese Verbindung jedoch rein spekulativ und durch keine Evidenz gestützt. Es handelt sich um eine seltene, gutartige Erkrankung. Das Sicherheitsprofil von Ponatinib (arterielle Verschlussereignisse, Gefäßverschlüsse, Hepatotoxizität, Pankreatitis) spräche gegen einen Einsatz bei einer solchen Indikation.
 
@@ -156,13 +156,14 @@ Die Vorhersage für gingivale Fibromatose stützt sich ausschließlich auf einen
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Die erloschene Zulassung in Deutschland erschwert zudem den praktischen Zugang“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „und die Zulassung in Deutschland ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „angesichts der erloschenen Zulassung“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Iclusig (ponatinib hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Caplacizumab ist ein Nanobody, der gegen die A1-Domäne des von-Willebrand-Fakto
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zu Caplacizumab liegen in den zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Bekannt ist, dass es als Nanobody an die A1-Domäne des vWF bindet und so die Wechselwirkung zwischen vWF und dem Thrombozyten-Glykoprotein Ib (GPIb) hemmt. Dadurch wird die vWF-vermittelte Thrombozytenadhäsion verringert.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Caplacizumab (inoffizielle Übersetzung): „Caplacizumab-yhdp richtet sich gegen die A1-Domäne des vWF und hemmt die Interaktion zwischen vWF und Thrombozyten, wodurch sowohl die vWF-vermittelte Thrombozytenadhäsion als auch der Thrombozytenverbrauch verringert werden.“ Englischer Originalwortlaut: "Caplacizumab-yhdp targets the A1-domain of vWF, and inhibits the interaction between vWF and platelets, thereby reducing both vWF-mediated platelet adhesion and platelet consumption." ([DailyMed: Cablivi (caplacizumab) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2348f06e-8004-4040-832e-e9e86a39f905), Fassung vom 2026-04-24; abgerufen am 2026-11-19). Bekannt ist, dass es als Nanobody an die A1-Domäne des vWF bindet und so die Wechselwirkung zwischen vWF und dem Thrombozyten-Glykoprotein Ib (GPIb) hemmt. Dadurch wird die vWF-vermittelte Thrombozytenadhäsion verringert.
 
 Bei der primären Thrombozytenfreisetzungsstörung liegt ein intrinsischer Defekt der Thrombozytensekretion vor. Ein Blockieren der vWF-Thrombozyten-Bindung korrigiert diesen Defekt nicht. Der hohe Vorhersagewert beruht auf einer graphbasierten Modellvorhersage ohne klinische oder literaturbasierte Unterstützung. Der Mechanismus könnte zudem die Blutungsneigung verstärken. Die mechanistische Plausibilität ist daher gering und rein theoretisch.
 
@@ -94,6 +94,19 @@ Für die vorhergesagte Indikation gibt es weder klinische Studien noch Publikati
 - Präklinische Daten, insbesondere zur Blutungssicherheit
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) als Grundlage für eine Sicherheitsbewertung
 - Daten zum detaillierten Wirkmechanismus
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Cablivi (caplacizumab) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2348f06e-8004-4040-832e-e9e86a39f905) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

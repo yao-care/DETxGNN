@@ -60,7 +60,7 @@ Für diese Richtung liegen derzeit **keine klinischen Studien** und **keine Publ
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach allgemeinem pharmakologischem Wissen ist Regadenoson ein selektiver Agonist des A2A-Adenosinrezeptors. Die Pharmakologiedaten zeigen zudem Bindung an die Rezeptoren A1, A2B und A3.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Regadenoson (inoffizielle Übersetzung): „Regadenoson ist ein Agonist mit niedriger Affinität (K i ≈ 1,3 µM) für den A 2A -Adenosinrezeptor, mit einer mindestens 10-fach geringeren Affinität für den A 1 -Adenosinrezeptor (K i > 16,5 µM) und einer schwachen, wenn überhaupt vorhandenen, Affinität für die A 2B - und A 3 -Adenosinrezeptoren. Die Aktivierung des A 2A -Adenosinrezeptors durch Regadenoson bewirkt eine koronare Vasodilatation und erhöht den koronaren Blutfluss (CBF).“ Englischer Originalwortlaut: "Regadenoson is a low affinity agonist (K i ≈ 1.3 µM) for the A 2A adenosine receptor, with at least 10-fold lower affinity for the A 1 adenosine receptor (K i > 16.5 µM), and weak, if any, affinity for the A 2B and A 3 adenosine receptors. Activation of the A 2A adenosine receptor by regadenoson produces coronary vasodilation and increases coronary blood flow (CBF)." ([DailyMed: Lexiscan (regadenoson) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=057289f4-2e18-4c1e-bed4-6c1858e2ef16), Fassung vom 2018-12-21; abgerufen am 2026-11-19). Nach allgemeinem pharmakologischem Wissen ist Regadenoson ein selektiver Agonist des A2A-Adenosinrezeptors. Die Pharmakologiedaten zeigen zudem Bindung an die Rezeptoren A1, A2B und A3.
 
 Ein theoretischer Zusammenhang mit der Anaphylaxie ergibt sich daraus, dass die A2A-Aktivierung auf Mastzellen und anderen Immunzellen die Freisetzung von Entzündungsmediatoren dämpfen kann. Die Adenosin-Signalwege sind jedoch komplex: A2B- und A3-Rezeptoren können die Mastzell-Degranulation sogar fördern. Außerdem tragen Regadenoson-Produkte selbst Warnhinweise zu Überempfindlichkeit und Anaphylaxie als Nebenwirkung. Der hohe Vorhersagewert könnte daher eher das Nebenwirkungsprofil als einen therapeutischen Effekt widerspiegeln.
 
@@ -126,6 +126,19 @@ Die Vorhersagen beruhen ausschließlich auf dem Modell (L5), ohne klinische Stud
 - Präklinische Daten zur Wirkung von A2A-Agonisten auf Mastzellen und in Anaphylaxie-Modellen
 - Klärung der Eignung von Darreichungsweg und Einzeldosis-Anwendung für die vorgeschlagene Indikation
 - Klärung des Zulassungsstatus und der Verfügbarkeit in Deutschland
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Lexiscan (regadenoson) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=057289f4-2e18-4c1e-bed4-6c1858e2ef16) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

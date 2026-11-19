@@ -60,7 +60,7 @@ Dafür liegen **keine klinischen Studien** und **keine Publikationen** vor; die 
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Für die vorliegende Analyse sind keine detaillierten Daten zum Wirkmechanismus verfügbar. Bekannt ist, dass Cetrorelix den GnRH-Rezeptor (GNRHR) blockiert und dadurch die Freisetzung von LH und FSH sowie nachgeschaltet der Sexualsteroide unterdrückt. Seine Wirksamkeit bei der Verhinderung vorzeitiger LH-Anstiege in der Fertilitätsbehandlung ist etabliert.
+Laut dem Abschnitt „Clinical Pharmacology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Cetrorelix (inoffizielle Übersetzung): „GnRH induziert die Bildung und Freisetzung von luteinisierendem Hormon (LH) und follikelstimulierendem Hormon (FSH) aus den gonadotropen Zellen der Hypophysenvorderlappens. Aufgrund einer positiven Estradiol-(E2-)Rückkopplung in der Zyklusmitte wird die GnRH-Freisetzung verstärkt, was zu einem LH-Anstieg führt.“ Englischer Originalwortlaut: "GnRH induces the production and release of luteinizing hormone (LH) and follicle stimulating hormone (FSH) from the gonadotrophic cells of the anterior pituitary. Due to a positive estradiol (E2) feedback at midcycle, GnRH liberation is enhanced resulting in an LH-surge." ([DailyMed: Cetrotide (cetrorelix acetate) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aca7768e-28a7-4027-b1d8-e66247665f79), Fassung vom 2025-09-22; abgerufen am 2026-11-19). Bekannt ist, dass Cetrorelix den GnRH-Rezeptor (GNRHR) blockiert und dadurch die Freisetzung von LH und FSH sowie nachgeschaltet der Sexualsteroide unterdrückt. Seine Wirksamkeit bei der Verhinderung vorzeitiger LH-Anstiege in der Fertilitätsbehandlung ist etabliert.
 
 Für Hypertrichose besteht jedoch kein klarer mechanistischer Zusammenhang. Hypertrichose ist typischerweise nicht androgenabhängig, sodass eine GnRH-Blockade kein etablierter Therapieansatz ist. Eine entfernte Verbindung besteht allenfalls zum androgenbedingten Hirsutismus, der jedoch eine andere Erkrankung darstellt. Der hohe TxGNN-Wert ist eine rein computergestützte Vorhersage ohne Rückhalt in Studien oder Literatur.
 
@@ -127,12 +127,13 @@ Für Hypertrichose und die übrigen vorhergesagten Indikationen liegen weder kli
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Hinweis: Diese Zulassung ist als erloschen/aufgehoben geführt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche bzw. europäische Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Cetrotide (cetrorelix acetate) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aca7768e-28a7-4027-b1d8-e66247665f79) |
 
 <!-- review:end log -->
 

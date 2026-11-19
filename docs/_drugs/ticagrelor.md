@@ -62,7 +62,7 @@ Hinweis zum Evidenzlevel: Die für die intrakranielle Arteriosklerose vorliegend
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Ticagrelor hemmt reversibel den P2Y12-Rezeptor auf Thrombozyten und verringert dadurch Thrombozytenaggregation und Thrombusbildung an atherosklerotischen Plaques.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Ticagrelor (inoffizielle Übersetzung): „Ticagrelor und sein Hauptmetabolit interagieren reversibel mit dem P2Y 12-ADP-Rezeptor der Thrombozyten und verhindern so die Signaltransduktion und Thrombozytenaktivierung. Ticagrelor und sein aktiver Metabolit sind annähernd gleich wirksam.“ Englischer Originalwortlaut: "Ticagrelor and its major metabolite reversibly interact with the platelet P2Y 12 ADP-receptor to prevent signal transduction and platelet activation. Ticagrelor and its active metabolite are approximately equipotent." ([DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8), Fassung vom 2026-05-07; abgerufen am 2026-11-19). Bekannt ist: Ticagrelor hemmt reversibel den P2Y12-Rezeptor auf Thrombozyten und verringert dadurch Thrombozytenaggregation und Thrombusbildung an atherosklerotischen Plaques.
 
 Dieser Mechanismus liegt bereits der Anwendung beim akuten Koronarsyndrom und bei peripheren Gefäßerkrankungen zugrunde. Intrakranielle Arteriosklerose ist ebenfalls eine atherosklerotische Gefäßerkrankung, bei der plättchenvermittelte Thrombosen zu Schlaganfällen führen können. Ein möglicher Vorteil: Ticagrelor muss nicht über CYP2C19 aktiviert werden und könnte daher bei Trägern von Loss-of-Function-Allelen gegenüber Clopidogrel vorteilhaft sein.
 
@@ -143,6 +143,19 @@ Die einzige Phase-3-Studie zur Zielindikation (CAPTIVA) läuft noch und hat kein
 - Blutungsrisikobewertung und Patientenselektion (z. B. CYP2C19-Genotyp) für eine mögliche Anwendung
 
 Die übrigen vorhergesagten Indikationen (u. a. Mönckeberg-Sklerose, Priapismus, May-Thurner-Syndrom, Livedo reticularis, mesenteriale Gefäßverschlüsse, Gefäßektasie, Angiodysplasie, venöse Thromboembolie) haben keine oder nur schwache Evidenz (L4 bis L5) und werden zurückgestellt. Bei Angiodysplasie und Gefäßektasie besteht zudem ein Sicherheitsrisiko durch erhöhte Blutungsneigung.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

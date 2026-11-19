@@ -60,7 +60,7 @@ Für diese Vorhersage liegen jedoch **keine klinischen Studien und keine Publika
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus von Alectinib liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist aus den pharmakologischen Daten, dass Alectinib die Rezeptortyrosinkinase **ALK** adressiert (zusätzlich ist in den Daten die Kinase MET als Target aufgeführt). Seine Wirksamkeit beim ALK-positiven NSCLC ist belegt, auch in Zellen, die gegen Crizotinib resistent sind.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Alectinib (inoffizielle Übersetzung): „Alectinib ist ein Tyrosinkinase-Inhibitor, der gegen ALK und RET gerichtet ist. In nichtklinischen Studien hemmte Alectinib die ALK-Phosphorylierung und die ALK-vermittelte Aktivierung der nachgeschalteten Signalproteine STAT3 und AKT und verringerte die Viabilität von Tumorzellen in mehreren Zelllinien mit ALK-Fusionen, -Amplifikationen oder aktivierenden Mutationen.“ Englischer Originalwortlaut: "Alectinib is a tyrosine kinase inhibitor that targets ALK and RET. In nonclinical studies, alectinib inhibited ALK phosphorylation and ALK-mediated activation of the downstream signaling proteins STAT3 and AKT, and decreased tumor cell viability in multiple cell lines harboring ALK fusions, amplifications, or activating mutations." ([DailyMed: Alecensa (alectinib hydrochloride) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42c49deb-713b-427a-9670-08af08adcffb), Fassung vom 2026-08-21; abgerufen am 2026-11-19). Bekannt ist aus den pharmakologischen Daten, dass Alectinib die Rezeptortyrosinkinase **ALK** adressiert (zusätzlich ist in den Daten die Kinase MET als Target aufgeführt). Seine Wirksamkeit beim ALK-positiven NSCLC ist belegt, auch in Zellen, die gegen Crizotinib resistent sind.
 
 Für die hereditäre gingivale Fibromatose ist dagegen **kein ALK-abhängiger Mechanismus** bekannt. Der hohe TxGNN-Wert stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat. Er ist kein biologischer Beleg, und unterstützende Studien oder Literatur liegen nicht vor. Eine mechanistische Verbindung zur ursprünglichen Indikation ist derzeit nicht erkennbar.
 
@@ -141,12 +141,13 @@ Unter den übrigen Vorhersagen ist **Lungen-Keimzelltumor** (Rang 6) die einzige
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Zudem besteht in Deutschland nur eine erloschene Zulassung“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Hinweis: Diese Zulassung ist als erloschen/widerrufen (cancelled) geführt; eine gültige Zulassung besteht laut den Daten nicht“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Alecensa (alectinib hydrochloride) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42c49deb-713b-427a-9670-08af08adcffb) |
 
 <!-- review:end log -->
 

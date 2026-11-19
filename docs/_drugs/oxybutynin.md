@@ -67,7 +67,7 @@ Weitere vom Modell vorhergesagte Indikationen (jeweils ohne klinische Studien):
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für diesen Bericht liegen keine detaillierten Daten zum Wirkmechanismus vor. Bekannt ist, dass Oxybutynin ein Muskarinrezeptor-Antagonist mit zusätzlicher direkter krampflösender (spasmolytischer) Wirkung auf die glatte Muskulatur ist. Seine Wirksamkeit bei Dranginkontinenz gilt als etabliert.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Oxybutynin (inoffizielle Übersetzung): „Oxybutynin entspannt die glatte Muskulatur der Harnblase. Oxybutyninchlorid übt eine direkte spasmolytische Wirkung auf die glatte Muskulatur aus und hemmt die muskarinische Wirkung von Acetylcholin an der glatten Muskulatur. An den neuromuskulären Endplatten der Skelettmuskulatur oder an den autonomen Ganglien treten keine blockierenden Wirkungen auf (antinikotinerge Wirkungen).“ Englischer Originalwortlaut: "Oxybutynin relaxes bladder smooth muscle. Oxybutynin chloride exerts a direct antispasmodic effect on smooth muscle and inhibits the muscarinic action of acetylcholine on smooth muscle. No blocking effects occur at skeletal neuromuscular junctions or autonomic ganglia (antinicotinic effects)." ([DailyMed: Oxybutynin Chloride Extended Release (oxybutynin chloride) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5653b7e-1e3b-4da3-b3a2-33318f448c67), Fassung vom 2026-11-11; abgerufen am 2026-11-19). Bekannt ist, dass Oxybutynin ein Muskarinrezeptor-Antagonist mit zusätzlicher direkter krampflösender (spasmolytischer) Wirkung auf die glatte Muskulatur ist. Seine Wirksamkeit bei Dranginkontinenz gilt als etabliert.
 
 Ein mechanistischer Zusammenhang zum Restless-Legs-Syndrom ist durch die vorliegenden Daten **nicht belegt**. RLS ist eine sensomotorische Störung, die mit dem dopaminergen System und dem Eisenstoffwechsel in Verbindung gebracht wird. Anticholinergika können RLS-Symptome bei manchen Patienten sogar verschlechtern. Der hohe Vorhersagewert ist daher als rein rechnerischer Hinweis zu verstehen, nicht als Beleg.
 
@@ -142,11 +142,12 @@ Der Vorhersagewert für Restless-Legs-Syndrom ist hoch, es gibt jedoch weder kli
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Oxybutynin Chloride Extended Release (oxybutynin chloride) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5653b7e-1e3b-4da3-b3a2-33318f448c67) |
 
 <!-- review:end log -->
 

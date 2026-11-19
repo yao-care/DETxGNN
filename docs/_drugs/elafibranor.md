@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage plausibel?
 
-Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Aus den Pharmakologiedaten geht hervor, dass Elafibranor an die Rezeptoren PPARα (PPARA) und PPARβ/δ (PPARD) bindet. Präklinisch zeigte die Substanz eine Verringerung von Leberverfettung, Entzündung und Fibrose. In der Leber wird sie zum aktiven Hauptmetaboliten GFT-1007 umgewandelt. Die Entwicklung bei NASH wurde 2020 beendet; anschließend wurde der Wirkstoff für die primäre biliäre Cholangitis neu positioniert (FDA-Zulassung im Juni 2024, EMA-Zulassung im September 2024).
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Elafibranor (inoffizielle Übersetzung): „Elafibranor und sein aktiver Hauptmetabolit GFT1007 sind Agonisten des Peroxisom-Proliferator-aktivierten Rezeptors (PPAR), die beide in vitro PPAR-alpha, PPAR-gamma und PPAR-delta aktivieren. Der Mechanismus, über den Elafibranor seine therapeutischen Wirkungen bei Patienten mit PBC entfaltet, ist jedoch nicht genau bekannt.“ Englischer Originalwortlaut: "Elafibranor and its main active metabolite GFT1007 are peroxisome proliferator-activated receptor (PPAR) agonists, both of which activate PPAR-alpha, PPAR-gamma, and PPAR-delta in vitro. However, the mechanism by which elafibranor exerts its therapeutic effects in patients with PBC is not well understood." ([DailyMed: Iqirvo (elafibranor) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d78aa14f-6ec1-4b1d-a4ae-e48658137a25), Fassung vom 2026-08-11; abgerufen am 2026-11-19). Aus den Pharmakologiedaten geht hervor, dass Elafibranor an die Rezeptoren PPARα (PPARA) und PPARβ/δ (PPARD) bindet. Präklinisch zeigte die Substanz eine Verringerung von Leberverfettung, Entzündung und Fibrose. In der Leber wird sie zum aktiven Hauptmetaboliten GFT-1007 umgewandelt. Die Entwicklung bei NASH wurde 2020 beendet; anschließend wurde der Wirkstoff für die primäre biliäre Cholangitis neu positioniert (FDA-Zulassung im Juni 2024, EMA-Zulassung im September 2024).
 
 Ein möglicher indirekter Zusammenhang mit Amenorrhoe könnte über die PPAR-vermittelte Modulation von Fett- und Glukosestoffwechsel, Entzündung und eventuell der Hypothalamus-Hypophysen-Gonaden-Achse bestehen, wie sie bei PCOS-bedingten Zyklusstörungen diskutiert wird. Diese Verbindung ist spekulativ und wurde nicht überprüft.
 
@@ -124,11 +124,12 @@ Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert, ohne kli
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Zudem besteht in Deutschland laut den Daten nur eine erloschene Zulassung“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Iqirvo (elafibranor) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d78aa14f-6ec1-4b1d-a4ae-e48658137a25) |
 
 <!-- review:end log -->
 

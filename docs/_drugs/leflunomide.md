@@ -54,7 +54,7 @@ Leflunomid ist ein Immunmodulator, der die Dihydroorotat-Dehydrogenase (DHODH) h
 
 ## Warum ist diese Vorhersage nachvollziehbar?
 
-Leflunomid hemmt die DHODH und blockiert damit die De-novo-Pyrimidinsynthese. Dadurch wird die Vermehrung aktivierter Lymphozyten gebremst. Detaillierte Angaben zum Wirkmechanismus liegen in den zusammengestellten Daten nicht vor; die folgende Einordnung beruht auf allgemeinem Wissen und nicht auf den vorliegenden Daten.
+Leflunomid hemmt die DHODH und blockiert damit die De-novo-Pyrimidinsynthese. Dadurch wird die Vermehrung aktivierter Lymphozyten gebremst. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Leflunomide (inoffizielle Übersetzung): „Leflunomid ist ein immunmodulatorischer Wirkstoff aus der Gruppe der Isoxazole, der die Dihydroorotat-Dehydrogenase (ein an der De-novo-Pyrimidinsynthese beteiligtes mitochondriales Enzym) hemmt und antiproliferativ wirkt. In mehreren experimentellen In-vivo- und In-vitro-Modellen wurde eine entzündungshemmende Wirkung nachgewiesen.“ Englischer Originalwortlaut: "Leflunomide is an isoxazole immunomodulatory agent that inhibits dihydroorotate dehydrogenase (a mitochondrial enzyme involved in de novo pyrimidine synthesis) and has antiproliferative activity. Several in vivo and in vitro experimental models have demonstrated an anti-inflammatory effect." ([DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52), Fassung vom 2025-06-04; abgerufen am 2026-11-19).
 
 Ein möglicher Zusammenhang besteht über die Biologie von DHODH: Dieser Stoffwechselweg ist auch an der Entwicklung von Neuralleiste und Gliedmaßen beteiligt (z. B. beim Miller-Syndrom, einer DHODH-bezogenen Erkrankung mit Gliedmaßenfehlbildungen). Die Vorhersage könnte daher eher eine gemeinsame Biologie widerspiegeln als eine therapeutische Chance.
 
@@ -97,6 +97,19 @@ Für die vorhergesagte Indikation gibt es weder klinische Studien noch Publikati
 - Daten zum Wirkmechanismus von Leflunomid aus verlässlichen Quellen
 - Auswertung der Warnhinweise und Kontraindikationen aus der Packungsbeilage
 - Eine Nutzen-Risiko-Bewertung unter besonderer Berücksichtigung der Teratogenität
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

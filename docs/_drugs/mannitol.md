@@ -54,7 +54,7 @@ Mannitol ist ein osmotisch wirkender Wirkstoff. Das TxGNN-Modell sagt voraus, da
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Mannitol ist ein osmotisch wirksamer Stoff, der theoretisch die Ausscheidung von freiem Wasser fördern könnte. Dies ist jedoch nur eine theoretische Überlegung.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Mannitol (inoffizielle Übersetzung): „Mannitol entfaltet bei intravenöser Gabe seine osmotisch diuretische Wirkung als gelöster Stoff mit relativ geringer Molekülgröße, der weitgehend auf den Extrazellularraum beschränkt bleibt. Mannitol hemmt die tubuläre Rückresorption von Wasser und steigert die Ausscheidung von Natrium und Chlorid, indem es die Osmolarität des glomerulären Filtrats erhöht.“ Englischer Originalwortlaut: "Mannitol, when administered intravenously, exerts its osmotic diuretic effect as a solute of relatively small molecular size being largely confined to the extracellular space. Mannitol hinders tubular reabsorption of water and enhances excretion of sodium and chloride by elevating the osmolarity of the glomerular filtrate." ([DailyMed: Osmitrol (mannitol) prescribing information, Baxter Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d914965-7001-45cb-ba51-d7c5964b05bc), Fassung vom 2025-08-26; abgerufen am 2026-11-19). Mannitol ist ein osmotisch wirksamer Stoff, der theoretisch die Ausscheidung von freiem Wasser fördern könnte. Dies ist jedoch nur eine theoretische Überlegung.
 
 Das nephrogene Syndrom der inadäquaten Antidiurese wird durch aktivierende Mutationen des Vasopressin-V2-Rezeptors (AVPR2) verursacht. Eine osmotische Diurese ist hierfür keine etablierte Behandlung. Die hohe Bewertung des Modells ist daher als reine Modellvorhersage zu verstehen, ein belastbarer mechanistischer Zusammenhang ist nicht belegt.
 
@@ -95,6 +95,19 @@ Für die vorhergesagte Erkrankung gibt es weder klinische Studien noch Publikati
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen)
 - Präklinische oder mechanistische Belege, die einen Nutzen bei dieser Erkrankung stützen
 - Sicherheitsbewertung, insbesondere zur Volumen- und Elektrolytwirkung
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Osmitrol (mannitol) prescribing information, Baxter Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d914965-7001-45cb-ba51-d7c5964b05bc) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
