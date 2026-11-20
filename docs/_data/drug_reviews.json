@@ -9741,9 +9741,9 @@
    "drug": "desloratadine",
    "file": "desloratadine.md",
    "action": "mechanism",
-   "claim": "Hinweis: Für diesen Bericht liegen keine detaillierten Daten zum Wirkmechanismus aus der Arzneimitteldatenbank vor.",
-   "replacement": "Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Desloratadine (inoffizielle Übersetzung): „Desloratadin ist ein lang wirksamer trizyklischer Histamin-Antagonist mit selektiver antagonistischer Aktivität am Histamin-H1-Rezeptor. Rezeptorbindungsdaten zeigen, dass Desloratadin bei einer Konzentration von 2-3 ng/mL (7 nanomolar) eine signifikante Interaktion mit dem humanen Histamin-H1-Rezeptor aufweist.“ Englischer Originalwortlaut: \"Desloratadine is a long-acting tricyclic histamine antagonist with selective H1-receptor histamine antagonist activity. Receptor binding data indicates that at a concentration of 2-3 ng/mL (7 nanomolar), desloratadine shows significant interaction with the human histamine H1-receptor.\" ([DailyMed: Desloratadine Oral Solution (desloratadine) prescribing information, INA Pharmaceutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41d5e0d4-6188-847b-e063-6294a90a2e2f), Fassung vom 2025-10-23; abgerufen am 2026-11-19).",
-   "summary": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+   "claim": "Hinweis: Für diesen Bericht liegen keine detaillierten Daten zum Wirkmechanismus aus der Arzneimitteldatenbank vor. Die obige Mechanismusbeschreibung stützt sich auf die mechanistische Begründung der Vorhersage.",
+   "replacement": "Die obige Mechanismusbeschreibung stützt sich auf die mechanistische Begründung der Vorhersage. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Desloratadine (inoffizielle Übersetzung): „Desloratadin ist ein lang wirksamer trizyklischer Histamin-Antagonist mit selektiver antagonistischer Aktivität am Histamin-H1-Rezeptor. Rezeptorbindungsdaten zeigen, dass Desloratadin bei einer Konzentration von 2-3 ng/mL (7 nanomolar) eine signifikante Interaktion mit dem humanen Histamin-H1-Rezeptor aufweist.“ Englischer Originalwortlaut: \"Desloratadine is a long-acting tricyclic histamine antagonist with selective H1-receptor histamine antagonist activity. Receptor binding data indicates that at a concentration of 2-3 ng/mL (7 nanomolar), desloratadine shows significant interaction with the human histamine H1-receptor.\" ([DailyMed: Desloratadine Oral Solution (desloratadine) prescribing information, INA Pharmaceutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41d5e0d4-6188-847b-e063-6294a90a2e2f), Fassung vom 2025-10-23; abgerufen am 2026-11-19).",
+   "summary": "\"Hinweis: Für diesen Bericht liegen keine detaillierten Daten zum Wirkmechanismus aus der Arzneimitteldatenbank vor. Die obige Mechanismusbeschreibung stützt sich auf die mechanistische Begründung der Vorhersage\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
     {
@@ -9760,8 +9760,39 @@
      "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "de-moa-20261119-desloratadine-1",
+     "drug": "desloratadine",
+     "file": "desloratadine.md",
+     "action": "mechanism",
+     "claim": "Hinweis: Für diesen Bericht liegen keine detaillierten Daten zum Wirkmechanismus aus der Arzneimitteldatenbank vor.",
+     "replacement": "Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Desloratadine (inoffizielle Übersetzung): „Desloratadin ist ein lang wirksamer trizyklischer Histamin-Antagonist mit selektiver antagonistischer Aktivität am Histamin-H1-Rezeptor. Rezeptorbindungsdaten zeigen, dass Desloratadin bei einer Konzentration von 2-3 ng/mL (7 nanomolar) eine signifikante Interaktion mit dem humanen Histamin-H1-Rezeptor aufweist.“ Englischer Originalwortlaut: \"Desloratadine is a long-acting tricyclic histamine antagonist with selective H1-receptor histamine antagonist activity. Receptor binding data indicates that at a concentration of 2-3 ng/mL (7 nanomolar), desloratadine shows significant interaction with the human histamine H1-receptor.\" ([DailyMed: Desloratadine Oral Solution (desloratadine) prescribing information, INA Pharmaceutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41d5e0d4-6188-847b-e063-6294a90a2e2f), Fassung vom 2025-10-23; abgerufen am 2026-11-19).",
+     "summary": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Desloratadine Oral Solution (desloratadine) prescribing information, INA Pharmaceutics, Inc.",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41d5e0d4-6188-847b-e063-6294a90a2e2f",
+       "accessed": "2026-11-19",
+       "excerpt": "Desloratadine is a long-acting tricyclic histamine antagonist with selective H1-receptor histamine antagonist activity. Receptor binding data indicates that at a concentration of 2-3 ng/mL (7 nanomolar), desloratadine shows significant interaction with the human histamine H1-receptor.",
+       "label_version": "2025-10-23",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "41d5e0d4-6188-847b-e063-6294a90a2e2f",
+       "translation": "Desloratadin ist ein lang wirksamer trizyklischer Histamin-Antagonist mit selektiver antagonistischer Aktivität am Histamin-H1-Rezeptor. Rezeptorbindungsdaten zeigen, dass Desloratadin bei einer Konzentration von 2-3 ng/mL (7 nanomolar) eine signifikante Interaktion mit dem humanen Histamin-H1-Rezeptor aufweist.",
+       "translation_lang": "de",
+       "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "de-moa-20261119-dexamethasone-1",
@@ -15926,9 +15957,9 @@
    "drug": "simvastatin",
    "file": "simvastatin.md",
    "action": "mechanism",
-   "claim": "Die für diesen Bericht zusammengestellten Daten enthalten keine detaillierten Angaben zum Wirkmechanismus aus einer Arzneimitteldatenbank.",
-   "replacement": "Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Simvastatin (inoffizielle Übersetzung): „Simvastatin ist ein Prodrug und wird nach der Anwendung zu seiner aktiven β-Hydroxysäureform, der Simvastatinsäure, hydrolysiert. Simvastatinsäure und ihre Metaboliten sind Inhibitoren der HMG-CoA-Reduktase, des geschwindigkeitsbestimmenden Enzyms, das HMG-CoA in Mevalonat, eine Vorstufe von Cholesterin, umwandelt.“ Englischer Originalwortlaut: \"Simvastatin is a prodrug and is hydrolyzed to its active β-hydroxyacid form, simvastatin acid, after administration. Simvastatin acid and its metabolites are inhibitors of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol.\" ([DailyMed: Zocor (simvastatin) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9), Fassung vom 2025-03-28; abgerufen am 2026-11-19).",
-   "summary": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+   "claim": "Die für diesen Bericht zusammengestellten Daten enthalten keine detaillierten Angaben zum Wirkmechanismus aus einer Arzneimitteldatenbank. Die obige Beschreibung beruht auf der bekannten Pharmakologie der Statine.",
+   "replacement": "Die obige Beschreibung beruht auf der bekannten Pharmakologie der Statine. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Simvastatin (inoffizielle Übersetzung): „Simvastatin ist ein Prodrug und wird nach der Anwendung zu seiner aktiven β-Hydroxysäureform, der Simvastatinsäure, hydrolysiert. Simvastatinsäure und ihre Metaboliten sind Inhibitoren der HMG-CoA-Reduktase, des geschwindigkeitsbestimmenden Enzyms, das HMG-CoA in Mevalonat, eine Vorstufe von Cholesterin, umwandelt.“ Englischer Originalwortlaut: \"Simvastatin is a prodrug and is hydrolyzed to its active β-hydroxyacid form, simvastatin acid, after administration. Simvastatin acid and its metabolites are inhibitors of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol.\" ([DailyMed: Zocor (simvastatin) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9), Fassung vom 2025-03-28; abgerufen am 2026-11-19).",
+   "summary": "\"Die für diesen Bericht zusammengestellten Daten enthalten keine detaillierten Angaben zum Wirkmechanismus aus einer Arzneimitteldatenbank. Die obige Beschreibung beruht auf der bekannten Pharmakologie der Statine\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
     {
@@ -15945,8 +15976,39 @@
      "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "de-moa-20261119-simvastatin-1",
+     "drug": "simvastatin",
+     "file": "simvastatin.md",
+     "action": "mechanism",
+     "claim": "Die für diesen Bericht zusammengestellten Daten enthalten keine detaillierten Angaben zum Wirkmechanismus aus einer Arzneimitteldatenbank.",
+     "replacement": "Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Simvastatin (inoffizielle Übersetzung): „Simvastatin ist ein Prodrug und wird nach der Anwendung zu seiner aktiven β-Hydroxysäureform, der Simvastatinsäure, hydrolysiert. Simvastatinsäure und ihre Metaboliten sind Inhibitoren der HMG-CoA-Reduktase, des geschwindigkeitsbestimmenden Enzyms, das HMG-CoA in Mevalonat, eine Vorstufe von Cholesterin, umwandelt.“ Englischer Originalwortlaut: \"Simvastatin is a prodrug and is hydrolyzed to its active β-hydroxyacid form, simvastatin acid, after administration. Simvastatin acid and its metabolites are inhibitors of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol.\" ([DailyMed: Zocor (simvastatin) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9), Fassung vom 2025-03-28; abgerufen am 2026-11-19).",
+     "summary": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Zocor (simvastatin) prescribing information, Organon LLC",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9",
+       "accessed": "2026-11-19",
+       "excerpt": "Simvastatin is a prodrug and is hydrolyzed to its active β-hydroxyacid form, simvastatin acid, after administration. Simvastatin acid and its metabolites are inhibitors of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol.",
+       "label_version": "2025-03-28",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "8f55d5de-5a4f-4a39-8c84-c53976dd6af9",
+       "translation": "Simvastatin ist ein Prodrug und wird nach der Anwendung zu seiner aktiven β-Hydroxysäureform, der Simvastatinsäure, hydrolysiert. Simvastatinsäure und ihre Metaboliten sind Inhibitoren der HMG-CoA-Reduktase, des geschwindigkeitsbestimmenden Enzyms, das HMG-CoA in Mevalonat, eine Vorstufe von Cholesterin, umwandelt.",
+       "translation_lang": "de",
+       "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "de-moa-20261119-sirolimus-1",
@@ -17663,6 +17725,666 @@
     }
    ],
    "checked": "2026-11-19",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "de-moa-20261120-bimatoprost-1",
+   "drug": "bimatoprost",
+   "file": "bimatoprost.md",
+   "action": "mechanism",
+   "claim": "Detaillierte Mechanismusdaten (MOA) liegen derzeit nicht vor.",
+   "replacement": "Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Bimatoprost (inoffizielle Übersetzung): „Bimatoprost, ein Prostaglandin-Analogon, ist ein synthetisches Strukturanalogon von Prostaglandin mit augeninnendrucksenkender Wirkung. Es wird angenommen, dass Bimatoprost den IOD beim Menschen senkt, indem es den Abfluss des Kammerwassers sowohl über das Trabekelwerk (konventionell) als auch über den uveoskleralen Weg (unkonventionell) erhöht.“ Englischer Originalwortlaut: \"Bimatoprost, a prostaglandin analog, is a synthetic structural analog of prostaglandin with ocular hypotensive activity. Bimatoprost is believed to lower IOP in humans by increasing outflow of aqueous humor through both the trabecular meshwork (conventional) and uveoscleral routes (unconventional).\" ([DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341), Fassung vom 2024-10-16; abgerufen am 2026-11-20).",
+   "summary": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341",
+     "accessed": "2026-11-20",
+     "excerpt": "Bimatoprost, a prostaglandin analog, is a synthetic structural analog of prostaglandin with ocular hypotensive activity. Bimatoprost is believed to lower IOP in humans by increasing outflow of aqueous humor through both the trabecular meshwork (conventional) and uveoscleral routes (unconventional).",
+     "label_version": "2024-10-16",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "3f59da84-0bcc-4c84-b3e2-e215681ef341",
+     "translation": "Bimatoprost, ein Prostaglandin-Analogon, ist ein synthetisches Strukturanalogon von Prostaglandin mit augeninnendrucksenkender Wirkung. Es wird angenommen, dass Bimatoprost den IOD beim Menschen senkt, indem es den Abfluss des Kammerwassers sowohl über das Trabekelwerk (konventionell) als auch über den uveoskleralen Weg (unkonventionell) erhöht.",
+     "translation_lang": "de",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "de-moa-20261120-cabozantinib-1",
+   "drug": "cabozantinib",
+   "file": "cabozantinib.md",
+   "action": "mechanism",
+   "claim": "Für diesen Bericht liegen keine detaillierten Mechanismusdaten vor.",
+   "replacement": "Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Cabozantinib (inoffizielle Übersetzung): „In-vitro-Biochemie- und/oder Zellassays haben gezeigt, dass Cabozantinib die Tyrosinkinaseaktivität von MET, VEGFR-1, -2 und -3, AXL, RET, ROS1, TYRO3, MER, KIT, TRKB, FLT-3 und TIE-2 hemmt. Diese Rezeptortyrosinkinasen sind sowohl an der normalen Zellfunktion als auch an pathologischen Prozessen wie Onkogenese, Metastasierung, Tumorangiogenese, Arzneimittelresistenz und Aufrechterhaltung der Tumormikroumgebung beteiligt.“ Englischer Originalwortlaut: \"In vitro biochemical and/or cellular assays have shown that cabozantinib inhibits the tyrosine kinase activity of MET, VEGFR-1, -2 and -3, AXL, RET, ROS1, TYRO3, MER, KIT, TRKB, FLT-3, and TIE-2. These receptor tyrosine kinases are involved in both normal cellular function and pathologic processes such as oncogenesis, metastasis, tumor angiogenesis, drug resistance, and maintenance of the tumor microenvironment.\" ([DailyMed: Cabometyx (cabozantinib) prescribing information, Exelixis, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5), Fassung vom 2025-10-19; abgerufen am 2026-11-20).",
+   "summary": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Cabometyx (cabozantinib) prescribing information, Exelixis, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5",
+     "accessed": "2026-11-20",
+     "excerpt": "In vitro biochemical and/or cellular assays have shown that cabozantinib inhibits the tyrosine kinase activity of MET, VEGFR-1, -2 and -3, AXL, RET, ROS1, TYRO3, MER, KIT, TRKB, FLT-3, and TIE-2. These receptor tyrosine kinases are involved in both normal cellular function and pathologic processes such as oncogenesis, metastasis, tumor angiogenesis, drug resistance, and maintenance of the tumor microenvironment.",
+     "label_version": "2025-10-19",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "3850cce2-6137-42e5-a792-d318c4a4b3b5",
+     "translation": "In-vitro-Biochemie- und/oder Zellassays haben gezeigt, dass Cabozantinib die Tyrosinkinaseaktivität von MET, VEGFR-1, -2 und -3, AXL, RET, ROS1, TYRO3, MER, KIT, TRKB, FLT-3 und TIE-2 hemmt. Diese Rezeptortyrosinkinasen sind sowohl an der normalen Zellfunktion als auch an pathologischen Prozessen wie Onkogenese, Metastasierung, Tumorangiogenese, Arzneimittelresistenz und Aufrechterhaltung der Tumormikroumgebung beteiligt.",
+     "translation_lang": "de",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "de-moa-20261120-doxorubicin-1",
+   "drug": "doxorubicin",
+   "file": "doxorubicin.md",
+   "action": "mechanism",
+   "claim": "Detaillierte Mechanismusdaten aus den Arzneimitteldatenbanken liegen im Rahmen dieses Berichts nicht vor.",
+   "replacement": "Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Doxorubicin (inoffizielle Übersetzung): „Es wird angenommen, dass die zytotoxische Wirkung von Doxorubicinhydrochlorid auf maligne Zellen und seine toxischen Wirkungen auf verschiedene Organe mit der Interkalation zwischen Nukleotidbasen und der Bindung an Zellmembranlipide durch Doxorubicin zusammenhängen. Die Interkalation hemmt die Nukleotidreplikation und die Wirkung der DNA- und RNA-Polymerasen.“ Englischer Originalwortlaut: \"The cytotoxic effect of doxorubicin hydrochloride on malignant cells and its toxic effects on various organs are thought to be related to nucleotide base intercalation and cell membrane lipid binding activities of doxorubicin. Intercalation inhibits nucleotide replication and action of DNA and RNA polymerases.\" ([DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd), Fassung vom 2026-11-12; abgerufen am 2026-11-20).",
+   "summary": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd",
+     "accessed": "2026-11-20",
+     "excerpt": "The cytotoxic effect of doxorubicin hydrochloride on malignant cells and its toxic effects on various organs are thought to be related to nucleotide base intercalation and cell membrane lipid binding activities of doxorubicin. Intercalation inhibits nucleotide replication and action of DNA and RNA polymerases.",
+     "label_version": "2026-11-12",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "f280fb2e-5070-46e1-a4ed-ba191359cedd",
+     "translation": "Es wird angenommen, dass die zytotoxische Wirkung von Doxorubicinhydrochlorid auf maligne Zellen und seine toxischen Wirkungen auf verschiedene Organe mit der Interkalation zwischen Nukleotidbasen und der Bindung an Zellmembranlipide durch Doxorubicin zusammenhängen. Die Interkalation hemmt die Nukleotidreplikation und die Wirkung der DNA- und RNA-Polymerasen.",
+     "translation_lang": "de",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "de-moa-20261120-dupilumab-1",
+   "drug": "dupilumab",
+   "file": "dupilumab.md",
+   "action": "mechanism",
+   "claim": "Detaillierte Mechanismusdaten liegen in den zusammengestellten Daten nicht vor; die Angaben beruhen auf allgemein bekanntem Wissen über die Wirkstoffklasse.",
+   "replacement": "Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Dupilumab (inoffizielle Übersetzung): „Dupilumab ist ein humaner monoklonaler IgG4-Antikörper, der die Signalübertragung von Interleukin-4 (IL-4) und Interleukin-13 (IL-13) hemmt, indem er spezifisch an die IL-4Rα-Untereinheit bindet, die den IL-4- und IL-13-Rezeptorkomplexen gemeinsam ist. Dupilumab hemmt die IL-4-Signalübertragung über den Typ-I-Rezeptor sowie die IL-4- und IL-13-Signalübertragung über den Typ-II-Rezeptor.“ Englischer Originalwortlaut: \"Dupilumab is a human monoclonal IgG4 antibody that inhibits interleukin-4 (IL-4) and interleukin-13 (IL-13) signaling by specifically binding to the IL-4Rα subunit shared by the IL-4 and IL-13 receptor complexes. Dupilumab inhibits IL-4 signaling via the Type I receptor and both IL-4 and IL-13 signaling through the Type II receptor.\" ([DailyMed: Dupixent (dupilumab) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780), Fassung vom 2026-04-22; abgerufen am 2026-11-20).",
+   "summary": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Dupixent (dupilumab) prescribing information, Sanofi-Aventis U.S. LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780",
+     "accessed": "2026-11-20",
+     "excerpt": "Dupilumab is a human monoclonal IgG4 antibody that inhibits interleukin-4 (IL-4) and interleukin-13 (IL-13) signaling by specifically binding to the IL-4Rα subunit shared by the IL-4 and IL-13 receptor complexes. Dupilumab inhibits IL-4 signaling via the Type I receptor and both IL-4 and IL-13 signaling through the Type II receptor.",
+     "label_version": "2026-04-22",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "595f437d-2729-40bb-9c62-c8ece1f82780",
+     "translation": "Dupilumab ist ein humaner monoklonaler IgG4-Antikörper, der die Signalübertragung von Interleukin-4 (IL-4) und Interleukin-13 (IL-13) hemmt, indem er spezifisch an die IL-4Rα-Untereinheit bindet, die den IL-4- und IL-13-Rezeptorkomplexen gemeinsam ist. Dupilumab hemmt die IL-4-Signalübertragung über den Typ-I-Rezeptor sowie die IL-4- und IL-13-Signalübertragung über den Typ-II-Rezeptor.",
+     "translation_lang": "de",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "de-moa-20261120-imiquimod-1",
+   "drug": "imiquimod",
+   "file": "imiquimod.md",
+   "action": "mechanism",
+   "claim": "Die detaillierten Mechanismusdaten aus der Arzneimitteldatenbank lagen für diesen Bericht nicht vor; die Angaben stützen sich auf die mechanistische Bewertung der Datenzusammenstellung.",
+   "replacement": "Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Imiquimod (inoffizielle Übersetzung): „Der Wirkmechanismus von ZYCLARA bei der Behandlung von AK und EGW ist unbekannt.“ Englischer Originalwortlaut: \"The mechanism of action of ZYCLARA in the treatment of AK and EGW is unknown.\" ([DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d), Fassung vom 2025-05-23; abgerufen am 2026-11-20).",
+   "summary": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d",
+     "accessed": "2026-11-20",
+     "excerpt": "The mechanism of action of ZYCLARA in the treatment of AK and EGW is unknown.",
+     "label_version": "2025-05-23",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "28cd9b5b-680b-480f-b33d-9c5b52bbf03d",
+     "translation": "Der Wirkmechanismus von ZYCLARA bei der Behandlung von AK und EGW ist unbekannt.",
+     "translation_lang": "de",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "de-moa-20261120-lapatinib-1",
+   "drug": "lapatinib",
+   "file": "lapatinib.md",
+   "action": "mechanism",
+   "claim": "Detaillierte Mechanismusdaten (MOA) liegen in den für diesen Bericht zusammengestellten Daten derzeit nicht vor.",
+   "replacement": "Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Lapatinib (inoffizielle Übersetzung): „Lapatinib ist ein 4-Anilinochinazolin-Kinaseinhibitor der intrazellulären Tyrosinkinasedomänen sowohl des Epidermal-Growth-Factor-Rezeptors (EGFR [ErbB1]) als auch des Human-Epidermal-Rezeptors Typ 2 (HER2 [ErbB2]) (geschätzte K i app-Werte von 3nM bzw. 13nM) mit einer Dissoziationshalbwertszeit von mindestens 300 Minuten. Lapatinib hemmt das ErbB-vermittelte Tumorzellwachstum in vitro und in verschiedenen Tiermodellen.“ Englischer Originalwortlaut: \"Lapatinib is a 4-anilinoquinazoline kinase inhibitor of the intracellular tyrosine kinase domains of both Epidermal Growth Factor Receptor (EGFR [ErbB1]) and of Human Epidermal Receptor Type 2 (HER2 [ErbB2]) receptors (estimated K i app values of 3nM and 13nM, respectively) with a dissociation half-life of greater than or equal to 300 minutes. Lapatinib inhibits ErbB-driven tumor cell growth in vitro and in various animal models.\" ([DailyMed: Tykerb (lapatinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee37f88-ec6a-4c30-b8aa-e2c71f93088c), Fassung vom 2026-01-27; abgerufen am 2026-11-20).",
+   "summary": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Tykerb (lapatinib) prescribing information, Novartis Pharmaceuticals Corporation",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee37f88-ec6a-4c30-b8aa-e2c71f93088c",
+     "accessed": "2026-11-20",
+     "excerpt": "Lapatinib is a 4-anilinoquinazoline kinase inhibitor of the intracellular tyrosine kinase domains of both Epidermal Growth Factor Receptor (EGFR [ErbB1]) and of Human Epidermal Receptor Type 2 (HER2 [ErbB2]) receptors (estimated K i app values of 3nM and 13nM, respectively) with a dissociation half-life of greater than or equal to 300 minutes. Lapatinib inhibits ErbB-driven tumor cell growth in vitro and in various animal models.",
+     "label_version": "2026-01-27",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "eee37f88-ec6a-4c30-b8aa-e2c71f93088c",
+     "translation": "Lapatinib ist ein 4-Anilinochinazolin-Kinaseinhibitor der intrazellulären Tyrosinkinasedomänen sowohl des Epidermal-Growth-Factor-Rezeptors (EGFR [ErbB1]) als auch des Human-Epidermal-Rezeptors Typ 2 (HER2 [ErbB2]) (geschätzte K i app-Werte von 3nM bzw. 13nM) mit einer Dissoziationshalbwertszeit von mindestens 300 Minuten. Lapatinib hemmt das ErbB-vermittelte Tumorzellwachstum in vitro und in verschiedenen Tiermodellen.",
+     "translation_lang": "de",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "de-moa-20261120-lenalidomide-1",
+   "drug": "lenalidomide",
+   "file": "lenalidomide.md",
+   "action": "mechanism",
+   "claim": "Detaillierte Mechanismusdaten (MOA) sind in den zusammengestellten Daten derzeit nicht verfügbar.",
+   "replacement": "Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Lenalidomide (inoffizielle Übersetzung): „Lenalidomid ist ein Analogon von Thalidomid mit immunmodulatorischen, antiangiogenen und antineoplastischen Eigenschaften. Die zellulären Wirkungen von Lenalidomid werden über sein Zielprotein Cereblon vermittelt, einen Bestandteil eines Cullin-RING-E3-Ubiquitin-Ligase-Enzymkomplexes.“ Englischer Originalwortlaut: \"Lenalidomide is an analogue of thalidomide with immunomodulatory, antiangiogenic, and antineoplastic properties. Cellular activities of lenalidomide are mediated through its target cereblon, a component of a cullin ring E3 ubiquitin ligase enzyme complex.\" ([DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be), Fassung vom 2023-03-24; abgerufen am 2026-11-20).",
+   "summary": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be",
+     "accessed": "2026-11-20",
+     "excerpt": "Lenalidomide is an analogue of thalidomide with immunomodulatory, antiangiogenic, and antineoplastic properties. Cellular activities of lenalidomide are mediated through its target cereblon, a component of a cullin ring E3 ubiquitin ligase enzyme complex.",
+     "label_version": "2023-03-24",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "5fa97bf5-28a2-48f1-8955-f56012d296be",
+     "translation": "Lenalidomid ist ein Analogon von Thalidomid mit immunmodulatorischen, antiangiogenen und antineoplastischen Eigenschaften. Die zellulären Wirkungen von Lenalidomid werden über sein Zielprotein Cereblon vermittelt, einen Bestandteil eines Cullin-RING-E3-Ubiquitin-Ligase-Enzymkomplexes.",
+     "translation_lang": "de",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "de-moa-20261120-micafungin-1",
+   "drug": "micafungin",
+   "file": "micafungin.md",
+   "action": "mechanism",
+   "claim": "Für die im Datensatz fehlenden Mechanismusangaben stützt sich diese Beschreibung auf allgemeines pharmakologisches Wissen und nicht auf die vorliegenden Daten.",
+   "replacement": "Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Micafungin (inoffizielle Übersetzung): „Micafungin gehört zur Klasse der Echinocandine unter den Antimykotika. […] Micafungin hemmt die Synthese von 1,3-beta-D-Glucan, einem essenziellen Bestandteil der Pilzzellwand, der in Säugetierzellen nicht vorkommt. Aktivität in Tiermodellen der Candidiasis Die Aktivität von Micafungin wurde sowohl in mukosalen als auch in disseminierten Candidiasis-Modellen an Maus und Kaninchen nachgewiesen.“ Englischer Originalwortlaut: \"Micafungin is a member of the echinocandin class of antifungal agents. […] Micafungin inhibits the synthesis of 1,3-beta-D-glucan, an essential component of fungal cell walls, which is not present in mammalian cells. Activity in Animal Models of Candidiasis Activity of micafungin has been demonstrated in both mucosal and disseminated murine and rabbit models of candidiasis.\" ([DailyMed: Micafungin (micafungin sodium) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33e579c1-b315-44cb-a690-e2dd2cdf44ee), Fassung vom 2025-11-08; abgerufen am 2026-11-20).",
+   "summary": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Micafungin (micafungin sodium) prescribing information, Sagent Pharmaceuticals",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33e579c1-b315-44cb-a690-e2dd2cdf44ee",
+     "accessed": "2026-11-20",
+     "excerpt": "Micafungin is a member of the echinocandin class of antifungal agents. […] Micafungin inhibits the synthesis of 1,3-beta-D-glucan, an essential component of fungal cell walls, which is not present in mammalian cells. Activity in Animal Models of Candidiasis Activity of micafungin has been demonstrated in both mucosal and disseminated murine and rabbit models of candidiasis.",
+     "label_version": "2025-11-08",
+     "section": "12.1 Mechanism of Action; 12.4 Microbiology",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "33e579c1-b315-44cb-a690-e2dd2cdf44ee",
+     "translation": "Micafungin gehört zur Klasse der Echinocandine unter den Antimykotika. […] Micafungin hemmt die Synthese von 1,3-beta-D-Glucan, einem essenziellen Bestandteil der Pilzzellwand, der in Säugetierzellen nicht vorkommt. Aktivität in Tiermodellen der Candidiasis Die Aktivität von Micafungin wurde sowohl in mukosalen als auch in disseminierten Candidiasis-Modellen an Maus und Kaninchen nachgewiesen.",
+     "translation_lang": "de",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "de-moa-20261120-midazolam-1",
+   "drug": "midazolam",
+   "file": "midazolam.md",
+   "action": "mechanism",
+   "claim": "Detaillierte Mechanismusdaten (MOA) liegen in den für diesen Bericht zusammengestellten Daten derzeit nicht vor.",
+   "replacement": "Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Midazolam (inoffizielle Übersetzung): „Midazolam ist ein kurz wirksames Benzodiazepin, das das Zentralnervensystem (ZNS) dämpft.“ Englischer Originalwortlaut: \"Midazolam is a short-acting benzodiazepine central nervous system (CNS) depressant.\" ([DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e), Fassung vom 2025-07-31; abgerufen am 2026-11-20).",
+   "summary": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e",
+     "accessed": "2026-11-20",
+     "excerpt": "Midazolam is a short-acting benzodiazepine central nervous system (CNS) depressant.",
+     "label_version": "2025-07-31",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "f051776f-94c5-4e34-80ed-f45b9c36881e",
+     "translation": "Midazolam ist ein kurz wirksames Benzodiazepin, das das Zentralnervensystem (ZNS) dämpft.",
+     "translation_lang": "de",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "de-moa-20261120-pazopanib-1",
+   "drug": "pazopanib",
+   "file": "pazopanib.md",
+   "action": "mechanism",
+   "claim": "Detaillierte Mechanismusdaten (MOA) liegen in den zusammengestellten Daten nicht vor.",
+   "replacement": "Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Pazopanib (inoffizielle Übersetzung): „Pazopanib ist ein Multi-Tyrosinkinase-Inhibitor des vaskulären endothelialen Wachstumsfaktor-Rezeptors (VEGFR)-1, VEGFR-2, VEGFR-3, des Platelet-Derived-Growth-Factor-Rezeptors (PDGFR)-α und -β, des Fibroblasten-Wachstumsfaktor-Rezeptors (FGFR)-1 und -3, des Zytokinrezeptors (Kit), der Interleukin-2-Rezeptor-induzierbaren T-Zell-Kinase (Itk), der lymphozytenspezifischen Protein-Tyrosinkinase (Lck) und der transmembranären Glykoprotein-Rezeptor-Tyrosinkinase (c-Fms). In vitro hemmte Pazopanib die ligandeninduzierte Autophosphorylierung der Rezeptoren VEGFR-2, Kit und PDGFR-β.“ Englischer Originalwortlaut: \"Pazopanib is a multi-tyrosine kinase inhibitor of vascular endothelial growth factor receptor (VEGFR)-1, VEGFR-2, VEGFR-3, platelet-derived growth factor receptor (PDGFR)-α and -β, fibroblast growth factor receptor (FGFR)-1 and -3, cytokine receptor (Kit), interleukin-2 receptor-inducible T-cell kinase (Itk), lymphocyte-specific protein tyrosine kinase (Lck), and transmembrane glycoprotein receptor tyrosine kinase (c-Fms). In vitro, pazopanib inhibited ligand-induced autophosphorylation of VEGFR-2, Kit, and PDGFR-β receptors.\" ([DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7), Fassung vom 2025-12-16; abgerufen am 2026-11-20).",
+   "summary": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7",
+     "accessed": "2026-11-20",
+     "excerpt": "Pazopanib is a multi-tyrosine kinase inhibitor of vascular endothelial growth factor receptor (VEGFR)-1, VEGFR-2, VEGFR-3, platelet-derived growth factor receptor (PDGFR)-α and -β, fibroblast growth factor receptor (FGFR)-1 and -3, cytokine receptor (Kit), interleukin-2 receptor-inducible T-cell kinase (Itk), lymphocyte-specific protein tyrosine kinase (Lck), and transmembrane glycoprotein receptor tyrosine kinase (c-Fms). In vitro, pazopanib inhibited ligand-induced autophosphorylation of VEGFR-2, Kit, and PDGFR-β receptors.",
+     "label_version": "2025-12-16",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7",
+     "translation": "Pazopanib ist ein Multi-Tyrosinkinase-Inhibitor des vaskulären endothelialen Wachstumsfaktor-Rezeptors (VEGFR)-1, VEGFR-2, VEGFR-3, des Platelet-Derived-Growth-Factor-Rezeptors (PDGFR)-α und -β, des Fibroblasten-Wachstumsfaktor-Rezeptors (FGFR)-1 und -3, des Zytokinrezeptors (Kit), der Interleukin-2-Rezeptor-induzierbaren T-Zell-Kinase (Itk), der lymphozytenspezifischen Protein-Tyrosinkinase (Lck) und der transmembranären Glykoprotein-Rezeptor-Tyrosinkinase (c-Fms). In vitro hemmte Pazopanib die ligandeninduzierte Autophosphorylierung der Rezeptoren VEGFR-2, Kit und PDGFR-β.",
+     "translation_lang": "de",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "de-moa-20261120-plerixafor-1",
+   "drug": "plerixafor",
+   "file": "plerixafor.md",
+   "action": "mechanism",
+   "claim": "Detaillierte Mechanismusdaten aus DrugBank liegen derzeit nicht vor. Die Beschreibung stützt sich daher auf die Zielstruktur-Daten und die mechanistische Einordnung.",
+   "replacement": "Die Beschreibung stützt sich daher auf die Zielstruktur-Daten und die mechanistische Einordnung. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Plerixafor (inoffizielle Übersetzung): „Plerixafor ist ein Inhibitor des CXCR4-Chemokinrezeptors und blockiert die Bindung seines spezifischen Liganden, des Stromal Cell-Derived Factor-1α (SDF-1α). Es ist anerkannt, dass SDF-1α und CXCR4 eine Rolle bei der Migration und dem Homing humaner hämatopoetischer Stammzellen (HSCs) in das Knochenmarkkompartiment spielen.“ Englischer Originalwortlaut: \"Plerixafor is an inhibitor of the CXCR4 chemokine receptor and blocks binding of its cognate ligand, stromal cell-derived factor-1α (SDF-1α). SDF-1α and CXCR4 are recognized to play a role in the trafficking and homing of human hematopoietic stem cells (HSCs) to the marrow compartment.\" ([DailyMed: Mozobil (plerixafor) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ed08d2b-5051-46b2-aa37-1d6275bf9003), Fassung vom 2025-09-22; abgerufen am 2026-11-20).",
+   "summary": "\"Detaillierte Mechanismusdaten aus DrugBank liegen derzeit nicht vor. Die Beschreibung stützt sich daher auf die Zielstruktur-Daten und die mechanistische Einordnung\" replaced with a sourced mechanism-of-action statement",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Mozobil (plerixafor) prescribing information, Sanofi-Aventis U.S. LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ed08d2b-5051-46b2-aa37-1d6275bf9003",
+     "accessed": "2026-11-20",
+     "excerpt": "Plerixafor is an inhibitor of the CXCR4 chemokine receptor and blocks binding of its cognate ligand, stromal cell-derived factor-1α (SDF-1α). SDF-1α and CXCR4 are recognized to play a role in the trafficking and homing of human hematopoietic stem cells (HSCs) to the marrow compartment.",
+     "label_version": "2025-09-22",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "0ed08d2b-5051-46b2-aa37-1d6275bf9003",
+     "translation": "Plerixafor ist ein Inhibitor des CXCR4-Chemokinrezeptors und blockiert die Bindung seines spezifischen Liganden, des Stromal Cell-Derived Factor-1α (SDF-1α). Es ist anerkannt, dass SDF-1α und CXCR4 eine Rolle bei der Migration und dem Homing humaner hämatopoetischer Stammzellen (HSCs) in das Knochenmarkkompartiment spielen.",
+     "translation_lang": "de",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "de-moa-20261120-plerixafor-1",
+     "drug": "plerixafor",
+     "file": "plerixafor.md",
+     "action": "mechanism",
+     "claim": "Detaillierte Mechanismusdaten aus DrugBank liegen derzeit nicht vor.",
+     "replacement": "Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Plerixafor (inoffizielle Übersetzung): „Plerixafor ist ein Inhibitor des CXCR4-Chemokinrezeptors und blockiert die Bindung seines spezifischen Liganden, des Stromal Cell-Derived Factor-1α (SDF-1α). Es ist anerkannt, dass SDF-1α und CXCR4 eine Rolle bei der Migration und dem Homing humaner hämatopoetischer Stammzellen (HSCs) in das Knochenmarkkompartiment spielen.“ Englischer Originalwortlaut: \"Plerixafor is an inhibitor of the CXCR4 chemokine receptor and blocks binding of its cognate ligand, stromal cell-derived factor-1α (SDF-1α). SDF-1α and CXCR4 are recognized to play a role in the trafficking and homing of human hematopoietic stem cells (HSCs) to the marrow compartment.\" ([DailyMed: Mozobil (plerixafor) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ed08d2b-5051-46b2-aa37-1d6275bf9003), Fassung vom 2025-09-22; abgerufen am 2026-11-20).",
+     "summary": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Mozobil (plerixafor) prescribing information, Sanofi-Aventis U.S. LLC",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ed08d2b-5051-46b2-aa37-1d6275bf9003",
+       "accessed": "2026-11-20",
+       "excerpt": "Plerixafor is an inhibitor of the CXCR4 chemokine receptor and blocks binding of its cognate ligand, stromal cell-derived factor-1α (SDF-1α). SDF-1α and CXCR4 are recognized to play a role in the trafficking and homing of human hematopoietic stem cells (HSCs) to the marrow compartment.",
+       "label_version": "2025-09-22",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "0ed08d2b-5051-46b2-aa37-1d6275bf9003",
+       "translation": "Plerixafor ist ein Inhibitor des CXCR4-Chemokinrezeptors und blockiert die Bindung seines spezifischen Liganden, des Stromal Cell-Derived Factor-1α (SDF-1α). Es ist anerkannt, dass SDF-1α und CXCR4 eine Rolle bei der Migration und dem Homing humaner hämatopoetischer Stammzellen (HSCs) in das Knochenmarkkompartiment spielen.",
+       "translation_lang": "de",
+       "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+      }
+     ],
+     "checked": "2026-11-20",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
+  },
+  {
+   "id": "de-moa-20261120-risperidone-1",
+   "drug": "risperidone",
+   "file": "risperidone.md",
+   "action": "mechanism",
+   "claim": "Detaillierte Mechanismusdaten (MOA) liegen für diesen Bericht nicht vor.",
+   "replacement": "Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Risperidone (inoffizielle Übersetzung): „Der Wirkmechanismus von Risperidon bei Schizophrenie ist unklar. Die therapeutische Wirkung des Arzneimittels bei Schizophrenie könnte durch eine Kombination aus Antagonismus an Dopamin-Typ-2-(D 2 )- und Serotonin-Typ-2-(5HT 2 )-Rezeptoren vermittelt werden.“ Englischer Originalwortlaut: \"The mechanism of action of risperidone in schizophrenia is unclear. The drug's therapeutic activity in schizophrenia could be mediated through a combination of dopamine Type 2 (D 2 ) and serotonin Type 2 (5HT 2 ) receptor antagonism.\" ([DailyMed: Risperdal (risperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0), Fassung vom 2026-10-23; abgerufen am 2026-11-20).",
+   "summary": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Risperdal (risperidone) prescribing information, Janssen Pharmaceuticals, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0",
+     "accessed": "2026-11-20",
+     "excerpt": "The mechanism of action of risperidone in schizophrenia is unclear. The drug's therapeutic activity in schizophrenia could be mediated through a combination of dopamine Type 2 (D 2 ) and serotonin Type 2 (5HT 2 ) receptor antagonism.",
+     "label_version": "2026-10-23",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "7e117c7e-02fc-4343-92a1-230061dfc5e0",
+     "translation": "Der Wirkmechanismus von Risperidon bei Schizophrenie ist unklar. Die therapeutische Wirkung des Arzneimittels bei Schizophrenie könnte durch eine Kombination aus Antagonismus an Dopamin-Typ-2-(D 2 )- und Serotonin-Typ-2-(5HT 2 )-Rezeptoren vermittelt werden.",
+     "translation_lang": "de",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "de-moa-20261120-valsartan-1",
+   "drug": "valsartan",
+   "file": "valsartan.md",
+   "action": "mechanism",
+   "claim": "Detaillierte Mechanismusdaten zum Wirkstoff liegen in den für diesen Bericht zusammengestellten Daten nicht vor.",
+   "replacement": "Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Valsartan (inoffizielle Übersetzung): „Angiotensin II wird aus Angiotensin I in einer durch das Angiotensin-Converting-Enzym (ACE, Kininase II) katalysierten Reaktion gebildet. Angiotensin II ist der wichtigste blutdrucksteigernde Wirkstoff des Renin-Angiotensin-Systems; zu seinen Wirkungen gehören Vasokonstriktion, Stimulation der Synthese und Freisetzung von Aldosteron, kardiale Stimulation und renale Rückresorption von Natrium. […] Diovan (Valsartan) blockiert die vasokonstriktorischen und aldosteronfreisetzenden Wirkungen von Angiotensin II, indem es selektiv die Bindung von Angiotensin II an den AT 1 -Rezeptor in vielen Geweben, wie der glatten Gefäßmuskulatur und der Nebenniere, blockiert.“ Englischer Originalwortlaut: \"Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the renin-angiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Diovan (valsartan) blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland.\" ([DailyMed: Diovan (valsartan) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ddba454-f3e6-43c2-a7a6-58365d297213), Fassung vom 2026-08-11; abgerufen am 2026-11-20).",
+   "summary": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Diovan (valsartan) prescribing information, Novartis Pharmaceuticals Corporation",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ddba454-f3e6-43c2-a7a6-58365d297213",
+     "accessed": "2026-11-20",
+     "excerpt": "Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the renin-angiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Diovan (valsartan) blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland.",
+     "label_version": "2026-08-11",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "5ddba454-f3e6-43c2-a7a6-58365d297213",
+     "translation": "Angiotensin II wird aus Angiotensin I in einer durch das Angiotensin-Converting-Enzym (ACE, Kininase II) katalysierten Reaktion gebildet. Angiotensin II ist der wichtigste blutdrucksteigernde Wirkstoff des Renin-Angiotensin-Systems; zu seinen Wirkungen gehören Vasokonstriktion, Stimulation der Synthese und Freisetzung von Aldosteron, kardiale Stimulation und renale Rückresorption von Natrium. […] Diovan (Valsartan) blockiert die vasokonstriktorischen und aldosteronfreisetzenden Wirkungen von Angiotensin II, indem es selektiv die Bindung von Angiotensin II an den AT 1 -Rezeptor in vielen Geweben, wie der glatten Gefäßmuskulatur und der Nebenniere, blockiert.",
+     "translation_lang": "de",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "de-moa-20261120-vismodegib-1",
+   "drug": "vismodegib",
+   "file": "vismodegib.md",
+   "action": "mechanism",
+   "claim": "Detaillierte Mechanismusdaten aus einer Arzneimitteldatenbank lagen für diesen Bericht nicht vor. Die hier genannte Wirkweise beruht auf der mechanistischen Einordnung der Vorhersage.",
+   "replacement": "Die hier genannte Wirkweise beruht auf der mechanistischen Einordnung der Vorhersage. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Vismodegib (inoffizielle Übersetzung): „Vismodegib ist ein Inhibitor des Hedgehog-Signalwegs. Vismodegib bindet an Smoothened, ein an der Hedgehog-Signaltransduktion beteiligtes Transmembranprotein, und hemmt dieses.“ Englischer Originalwortlaut: \"Vismodegib is an inhibitor of the Hedgehog pathway. Vismodegib binds to and inhibits Smoothened, a transmembrane protein involved in Hedgehog signal transduction.\" ([DailyMed: Erivedge (vismodegib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eb368bb6-80e3-4df9-8a85-91df0a2ada6a), Fassung vom 2024-12-02; abgerufen am 2026-11-20).",
+   "summary": "\"Detaillierte Mechanismusdaten aus einer Arzneimitteldatenbank lagen für diesen Bericht nicht vor. Die hier genannte Wirkweise beruht auf der mechanistischen Einordnung der Vorhersage\" replaced with a sourced mechanism-of-action statement",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Erivedge (vismodegib) prescribing information, Genentech, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eb368bb6-80e3-4df9-8a85-91df0a2ada6a",
+     "accessed": "2026-11-20",
+     "excerpt": "Vismodegib is an inhibitor of the Hedgehog pathway. Vismodegib binds to and inhibits Smoothened, a transmembrane protein involved in Hedgehog signal transduction.",
+     "label_version": "2024-12-02",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "eb368bb6-80e3-4df9-8a85-91df0a2ada6a",
+     "translation": "Vismodegib ist ein Inhibitor des Hedgehog-Signalwegs. Vismodegib bindet an Smoothened, ein an der Hedgehog-Signaltransduktion beteiligtes Transmembranprotein, und hemmt dieses.",
+     "translation_lang": "de",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "de-moa-20261120-vismodegib-1",
+     "drug": "vismodegib",
+     "file": "vismodegib.md",
+     "action": "mechanism",
+     "claim": "Detaillierte Mechanismusdaten aus einer Arzneimitteldatenbank lagen für diesen Bericht nicht vor.",
+     "replacement": "Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Vismodegib (inoffizielle Übersetzung): „Vismodegib ist ein Inhibitor des Hedgehog-Signalwegs. Vismodegib bindet an Smoothened, ein an der Hedgehog-Signaltransduktion beteiligtes Transmembranprotein, und hemmt dieses.“ Englischer Originalwortlaut: \"Vismodegib is an inhibitor of the Hedgehog pathway. Vismodegib binds to and inhibits Smoothened, a transmembrane protein involved in Hedgehog signal transduction.\" ([DailyMed: Erivedge (vismodegib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eb368bb6-80e3-4df9-8a85-91df0a2ada6a), Fassung vom 2024-12-02; abgerufen am 2026-11-20).",
+     "summary": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Erivedge (vismodegib) prescribing information, Genentech, Inc.",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eb368bb6-80e3-4df9-8a85-91df0a2ada6a",
+       "accessed": "2026-11-20",
+       "excerpt": "Vismodegib is an inhibitor of the Hedgehog pathway. Vismodegib binds to and inhibits Smoothened, a transmembrane protein involved in Hedgehog signal transduction.",
+       "label_version": "2024-12-02",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "eb368bb6-80e3-4df9-8a85-91df0a2ada6a",
+       "translation": "Vismodegib ist ein Inhibitor des Hedgehog-Signalwegs. Vismodegib bindet an Smoothened, ein an der Hedgehog-Signaltransduktion beteiligtes Transmembranprotein, und hemmt dieses.",
+       "translation_lang": "de",
+       "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+      }
+     ],
+     "checked": "2026-11-20",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
+  },
+  {
+   "id": "de-moa-20261120-abaloparatide-1",
+   "drug": "abaloparatide",
+   "file": "abaloparatide.md",
+   "action": "mechanism",
+   "claim": "Detaillierte Mechanismusdaten (MOA) liegen in den für diesen Bericht zusammengestellten Daten nicht vor.",
+   "replacement": "Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Abaloparatide (inoffizielle Übersetzung): „Abaloparatid ist ein PTHrP(1-34)-Analogon, das als Agonist am PTH1-Rezeptor (PTH1R) wirkt. Dies führt zur Aktivierung des cAMP-Signalwegs in den Zielzellen. Die einmal tägliche Anwendung von Abaloparatid stimuliert durch Anregung der osteoblastischen Aktivität die Knochenneubildung auf trabekulären und kortikalen Knochenoberflächen.“ Englischer Originalwortlaut: \"Abaloparatide is a PTHrP(1-34) analog which acts as an agonist at the PTH1 receptor (PTH1R). This results in activation of the cAMP signaling pathway in target cells. Once-daily administration of abaloparatide stimulates new bone formation on trabecular and cortical bone surfaces by stimulation of osteoblastic activity.\" ([DailyMed: Tymlos (abaloparatide) prescribing information, Radius Health, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=712143d9-e21e-4013-bb3b-3426a21060a8), Fassung vom 2026-08-11; abgerufen am 2026-11-20).",
+   "summary": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Tymlos (abaloparatide) prescribing information, Radius Health, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=712143d9-e21e-4013-bb3b-3426a21060a8",
+     "accessed": "2026-11-20",
+     "excerpt": "Abaloparatide is a PTHrP(1-34) analog which acts as an agonist at the PTH1 receptor (PTH1R). This results in activation of the cAMP signaling pathway in target cells. Once-daily administration of abaloparatide stimulates new bone formation on trabecular and cortical bone surfaces by stimulation of osteoblastic activity.",
+     "label_version": "2026-08-11",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "712143d9-e21e-4013-bb3b-3426a21060a8",
+     "translation": "Abaloparatid ist ein PTHrP(1-34)-Analogon, das als Agonist am PTH1-Rezeptor (PTH1R) wirkt. Dies führt zur Aktivierung des cAMP-Signalwegs in den Zielzellen. Die einmal tägliche Anwendung von Abaloparatid stimuliert durch Anregung der osteoblastischen Aktivität die Knochenneubildung auf trabekulären und kortikalen Knochenoberflächen.",
+     "translation_lang": "de",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "de-moa-20261120-cabazitaxel-1",
+   "drug": "cabazitaxel",
+   "file": "cabazitaxel.md",
+   "action": "mechanism",
+   "claim": "Detaillierte Mechanismusdaten (MOA) liegen in den zusammengestellten Daten nicht vor.",
+   "replacement": "Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Cabazitaxel (inoffizielle Übersetzung): „Cabazitaxel ist ein Mikrotubuli-Inhibitor. Cabazitaxel bindet an Tubulin und fördert dessen Zusammenlagerung zu Mikrotubuli, während es gleichzeitig deren Zerfall hemmt. Dies führt zur Stabilisierung der Mikrotubuli, was eine Hemmung der mitotischen und interphasischen Zellfunktionen zur Folge hat.“ Englischer Originalwortlaut: \"Cabazitaxel is a microtubule inhibitor. Cabazitaxel binds to tubulin and promotes its assembly into microtubules while simultaneously inhibiting disassembly. This leads to the stabilization of microtubules, which results in the inhibition of mitotic and interphase cellular functions.\" ([DailyMed: Jevtana (cabazitaxel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de3d9c26-572b-4ea4-9b2d-dd58a2b3e8fa), Fassung vom 2025-10-07; abgerufen am 2026-11-20).",
+   "summary": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Jevtana (cabazitaxel) prescribing information, Sanofi-Aventis U.S. LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de3d9c26-572b-4ea4-9b2d-dd58a2b3e8fa",
+     "accessed": "2026-11-20",
+     "excerpt": "Cabazitaxel is a microtubule inhibitor. Cabazitaxel binds to tubulin and promotes its assembly into microtubules while simultaneously inhibiting disassembly. This leads to the stabilization of microtubules, which results in the inhibition of mitotic and interphase cellular functions.",
+     "label_version": "2025-10-07",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "de3d9c26-572b-4ea4-9b2d-dd58a2b3e8fa",
+     "translation": "Cabazitaxel ist ein Mikrotubuli-Inhibitor. Cabazitaxel bindet an Tubulin und fördert dessen Zusammenlagerung zu Mikrotubuli, während es gleichzeitig deren Zerfall hemmt. Dies führt zur Stabilisierung der Mikrotubuli, was eine Hemmung der mitotischen und interphasischen Zellfunktionen zur Folge hat.",
+     "translation_lang": "de",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "de-moa-20261120-ertapenem-1",
+   "drug": "ertapenem",
+   "file": "ertapenem.md",
+   "action": "mechanism",
+   "claim": "Detaillierte Mechanismusdaten aus einer Arzneimitteldatenbank liegen für diesen Bericht nicht vor. Die Beschreibung stützt sich auf das bekannte Wirkprinzip der Carbapeneme.",
+   "replacement": "Die Beschreibung stützt sich auf das bekannte Wirkprinzip der Carbapeneme. Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Ertapenem (inoffizielle Übersetzung): „Ertapenem-Natrium ist ein Carbapenem-Antibiotikum. […] Ertapenem besitzt in vitro Aktivität gegen grampositive und gramnegative aerobe und anaerobe Bakterien. Die bakterizide Wirkung von Ertapenem beruht auf der Hemmung der Zellwandsynthese und wird durch die Bindung von Ertapenem an Penicillin-bindende Proteine (PBPs) vermittelt.“ Englischer Originalwortlaut: \"Ertapenem sodium is a carbapenem antibiotic. […] Ertapenem has in vitro activity against Gram-positive and Gram-negative aerobic and anaerobic bacteria. The bactericidal activity of ertapenem results from the inhibition of cell wall synthesis and is mediated through ertapenem binding to penicillin binding proteins (PBPs).\" ([DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22), Fassung vom 2026-02-04; abgerufen am 2026-11-20).",
+   "summary": "\"Detaillierte Mechanismusdaten aus einer Arzneimitteldatenbank liegen für diesen Bericht nicht vor. Die Beschreibung stützt sich auf das bekannte Wirkprinzip der Carbapeneme\" replaced with a sourced mechanism-of-action statement",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22",
+     "accessed": "2026-11-20",
+     "excerpt": "Ertapenem sodium is a carbapenem antibiotic. […] Ertapenem has in vitro activity against Gram-positive and Gram-negative aerobic and anaerobic bacteria. The bactericidal activity of ertapenem results from the inhibition of cell wall synthesis and is mediated through ertapenem binding to penicillin binding proteins (PBPs).",
+     "label_version": "2026-02-04",
+     "section": "12.1 Mechanism of Action; 12.4 Microbiology",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "33f3b99b-fa82-42e0-26bf-f49891ae3d22",
+     "translation": "Ertapenem-Natrium ist ein Carbapenem-Antibiotikum. […] Ertapenem besitzt in vitro Aktivität gegen grampositive und gramnegative aerobe und anaerobe Bakterien. Die bakterizide Wirkung von Ertapenem beruht auf der Hemmung der Zellwandsynthese und wird durch die Bindung von Ertapenem an Penicillin-bindende Proteine (PBPs) vermittelt.",
+     "translation_lang": "de",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "de-moa-20261120-ertapenem-1",
+     "drug": "ertapenem",
+     "file": "ertapenem.md",
+     "action": "mechanism",
+     "claim": "Detaillierte Mechanismusdaten aus einer Arzneimitteldatenbank liegen für diesen Bericht nicht vor.",
+     "replacement": "Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Ertapenem (inoffizielle Übersetzung): „Ertapenem-Natrium ist ein Carbapenem-Antibiotikum. […] Ertapenem besitzt in vitro Aktivität gegen grampositive und gramnegative aerobe und anaerobe Bakterien. Die bakterizide Wirkung von Ertapenem beruht auf der Hemmung der Zellwandsynthese und wird durch die Bindung von Ertapenem an Penicillin-bindende Proteine (PBPs) vermittelt.“ Englischer Originalwortlaut: \"Ertapenem sodium is a carbapenem antibiotic. […] Ertapenem has in vitro activity against Gram-positive and Gram-negative aerobic and anaerobic bacteria. The bactericidal activity of ertapenem results from the inhibition of cell wall synthesis and is mediated through ertapenem binding to penicillin binding proteins (PBPs).\" ([DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22), Fassung vom 2026-02-04; abgerufen am 2026-11-20).",
+     "summary": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22",
+       "accessed": "2026-11-20",
+       "excerpt": "Ertapenem sodium is a carbapenem antibiotic. […] Ertapenem has in vitro activity against Gram-positive and Gram-negative aerobic and anaerobic bacteria. The bactericidal activity of ertapenem results from the inhibition of cell wall synthesis and is mediated through ertapenem binding to penicillin binding proteins (PBPs).",
+       "label_version": "2026-02-04",
+       "section": "12.1 Mechanism of Action; 12.4 Microbiology",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "33f3b99b-fa82-42e0-26bf-f49891ae3d22",
+       "translation": "Ertapenem-Natrium ist ein Carbapenem-Antibiotikum. […] Ertapenem besitzt in vitro Aktivität gegen grampositive und gramnegative aerobe und anaerobe Bakterien. Die bakterizide Wirkung von Ertapenem beruht auf der Hemmung der Zellwandsynthese und wird durch die Bindung von Ertapenem an Penicillin-bindende Proteine (PBPs) vermittelt.",
+       "translation_lang": "de",
+       "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+      }
+     ],
+     "checked": "2026-11-20",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
+  },
+  {
+   "id": "de-moa-20261120-pretomanid-1",
+   "drug": "pretomanid",
+   "file": "pretomanid.md",
+   "action": "mechanism",
+   "claim": "Für diesen Wirkstoff liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Mechanismusdaten (MOA) vor.",
+   "replacement": "Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Pretomanid (inoffizielle Übersetzung): „Pretomanid ist ein antimykobakterieller Wirkstoff aus der Klasse der Nitroimidazooxazine. […] Pretomanid Tablette ist ein antimykobakterieller Wirkstoff aus der Klasse der Nitroimidazooxazine. Pretomanid tötet sich aktiv replizierende M. tuberculosis ab, indem es die Mykolsäure-Biosynthese hemmt und dadurch die Zellwandbildung blockiert. Unter anaeroben Bedingungen wirkt Pretomanid gegen sich nicht replizierende Bakterien nach Freisetzung von Stickstoffmonoxid als Atemgift.“ Englischer Originalwortlaut: \"Pretomanid is a nitroimidazooxazine antimycobacterial drug. […] Pretomanid Tablet is a nitroimidazooxazine antimycobacterial drug. Pretomanid kills actively replicating M. tuberculosis by inhibiting mycolic acid biosynthesis, thereby blocking cell wall production. Under anaerobic conditions, against non-replicating bacteria, pretomanid acts as a respiratory poison following nitric oxide release.\" ([DailyMed: pretomanid prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1906fc9-cb3c-4e13-8a4a-da76100c1bf3), Fassung vom 2024-11-15; abgerufen am 2026-11-20).",
+   "summary": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: pretomanid prescribing information, Viatris Specialty LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1906fc9-cb3c-4e13-8a4a-da76100c1bf3",
+     "accessed": "2026-11-20",
+     "excerpt": "Pretomanid is a nitroimidazooxazine antimycobacterial drug. […] Pretomanid Tablet is a nitroimidazooxazine antimycobacterial drug. Pretomanid kills actively replicating M. tuberculosis by inhibiting mycolic acid biosynthesis, thereby blocking cell wall production. Under anaerobic conditions, against non-replicating bacteria, pretomanid acts as a respiratory poison following nitric oxide release.",
+     "label_version": "2024-11-15",
+     "section": "12.1 Mechanism of Action; 12.4 Microbiology",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "f1906fc9-cb3c-4e13-8a4a-da76100c1bf3",
+     "translation": "Pretomanid ist ein antimykobakterieller Wirkstoff aus der Klasse der Nitroimidazooxazine. […] Pretomanid Tablette ist ein antimykobakterieller Wirkstoff aus der Klasse der Nitroimidazooxazine. Pretomanid tötet sich aktiv replizierende M. tuberculosis ab, indem es die Mykolsäure-Biosynthese hemmt und dadurch die Zellwandbildung blockiert. Unter anaeroben Bedingungen wirkt Pretomanid gegen sich nicht replizierende Bakterien nach Freisetzung von Stickstoffmonoxid als Atemgift.",
+     "translation_lang": "de",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "de-moa-20261120-regorafenib-1",
+   "drug": "regorafenib",
+   "file": "regorafenib.md",
+   "action": "mechanism",
+   "claim": "Die ausführliche Mechanismusbeschreibung (MOA) aus der Arzneimitteldatenbank liegt für diesen Bericht nicht vor; die Angaben stützen sich auf die Literatur.",
+   "replacement": "Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Regorafenib (inoffizielle Übersetzung): „Regorafenib ist ein niedermolekularer Inhibitor mehrerer membrangebundener und intrazellulärer Kinasen, die an normalen Zellfunktionen sowie an pathologischen Prozessen wie Onkogenese, Tumorangiogenese, Metastasierung und Tumorimmunität beteiligt sind. In biochemischen oder zellulären In-vitro-Assays hemmten Regorafenib oder seine wichtigsten aktiven humanen Metaboliten M-2 und M-5 die Aktivität von RET, VEGFR1, VEGFR2, VEGFR3, KIT, PDGFR-alpha, PDGFR-beta, FGFR1, FGFR2, TIE2, DDR2, TrkA, Eph2A, RAF-1, BRAF, BRAF V600E, SAPK2, PTK5, Abl und CSF1R bei Regorafenib-Konzentrationen, die klinisch erreicht wurden.“ Englischer Originalwortlaut: \"Regorafenib is a small molecule inhibitor of multiple membrane-bound and intracellular kinases involved in normal cellular functions and in pathologic processes such as oncogenesis, tumor angiogenesis, metastasis and tumor immunity. In in vitro biochemical or cellular assays, regorafenib or its major human active metabolites M-2 and M-5 inhibited the activity of RET, VEGFR1, VEGFR2, VEGFR3, KIT, PDGFR-alpha, PDGFR-beta, FGFR1, FGFR2, TIE2, DDR2, TrkA, Eph2A, RAF-1, BRAF, BRAF V600E, SAPK2, PTK5, Abl and CSF1R at concentrations of regorafenib that have been achieved clinically.\" ([DailyMed: Stivarga (regorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7), Fassung vom 2026-02-09; abgerufen am 2026-11-20).",
+   "summary": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Stivarga (regorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7",
+     "accessed": "2026-11-20",
+     "excerpt": "Regorafenib is a small molecule inhibitor of multiple membrane-bound and intracellular kinases involved in normal cellular functions and in pathologic processes such as oncogenesis, tumor angiogenesis, metastasis and tumor immunity. In in vitro biochemical or cellular assays, regorafenib or its major human active metabolites M-2 and M-5 inhibited the activity of RET, VEGFR1, VEGFR2, VEGFR3, KIT, PDGFR-alpha, PDGFR-beta, FGFR1, FGFR2, TIE2, DDR2, TrkA, Eph2A, RAF-1, BRAF, BRAF V600E, SAPK2, PTK5, Abl and CSF1R at concentrations of regorafenib that have been achieved clinically.",
+     "label_version": "2026-02-09",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "824f19c9-0546-4a8a-8d8f-c4055c04f7c7",
+     "translation": "Regorafenib ist ein niedermolekularer Inhibitor mehrerer membrangebundener und intrazellulärer Kinasen, die an normalen Zellfunktionen sowie an pathologischen Prozessen wie Onkogenese, Tumorangiogenese, Metastasierung und Tumorimmunität beteiligt sind. In biochemischen oder zellulären In-vitro-Assays hemmten Regorafenib oder seine wichtigsten aktiven humanen Metaboliten M-2 und M-5 die Aktivität von RET, VEGFR1, VEGFR2, VEGFR3, KIT, PDGFR-alpha, PDGFR-beta, FGFR1, FGFR2, TIE2, DDR2, TrkA, Eph2A, RAF-1, BRAF, BRAF V600E, SAPK2, PTK5, Abl und CSF1R bei Regorafenib-Konzentrationen, die klinisch erreicht wurden.",
+     "translation_lang": "de",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "de-moa-20261120-sodium_oxybate-1",
+   "drug": "sodium_oxybate",
+   "file": "sodium_oxybate.md",
+   "action": "mechanism",
+   "claim": "Für die vorliegende Auswertung sind keine detaillierten Mechanismusdaten aus einer Arzneimitteldatenbank verfügbar.",
+   "replacement": "Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Sodium Oxybate (inoffizielle Übersetzung): „Xyrem ist ein ZNS-dämpfender Wirkstoff. Der Wirkmechanismus von Xyrem bei der Behandlung der Narkolepsie ist nicht bekannt. Natriumoxybat ist das Natriumsalz der Gamma-Hydroxybuttersäure (GHB), einer endogenen Verbindung und eines Metaboliten des Neurotransmitters GABA.“ Englischer Originalwortlaut: \"Xyrem is a CNS depressant. The mechanism of action of Xyrem in the treatment of narcolepsy is unknown. Sodium oxybate is the sodium salt of gamma-hydroxybutyrate (GHB), an endogenous compound and metabolite of the neurotransmitter GABA.\" ([DailyMed: Xyrem (sodium oxybate) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=926eb076-a4a8-45e4-91ef-411f0aa4f3ca), Fassung vom 2025-07-01; abgerufen am 2026-11-20).",
+   "summary": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Xyrem (sodium oxybate) prescribing information, Jazz Pharmaceuticals, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=926eb076-a4a8-45e4-91ef-411f0aa4f3ca",
+     "accessed": "2026-11-20",
+     "excerpt": "Xyrem is a CNS depressant. The mechanism of action of Xyrem in the treatment of narcolepsy is unknown. Sodium oxybate is the sodium salt of gamma-hydroxybutyrate (GHB), an endogenous compound and metabolite of the neurotransmitter GABA.",
+     "label_version": "2025-07-01",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "926eb076-a4a8-45e4-91ef-411f0aa4f3ca",
+     "translation": "Xyrem ist ein ZNS-dämpfender Wirkstoff. Der Wirkmechanismus von Xyrem bei der Behandlung der Narkolepsie ist nicht bekannt. Natriumoxybat ist das Natriumsalz der Gamma-Hydroxybuttersäure (GHB), einer endogenen Verbindung und eines Metaboliten des Neurotransmitters GABA.",
+     "translation_lang": "de",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "de-moa-20261120-venetoclax-1",
+   "drug": "venetoclax",
+   "file": "venetoclax.md",
+   "action": "mechanism",
+   "claim": "Detaillierte Mechanismusdaten aus DrugBank liegen für diesen Bericht nicht vor.",
+   "replacement": "Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Venetoclax (inoffizielle Übersetzung): „Venetoclax ist ein selektiver und oral bioverfügbarer niedermolekularer Inhibitor von BCL-2, einem antiapoptotischen Protein. Eine Überexpression von BCL-2 wurde in CLL- und AML-Zellen nachgewiesen, wo es das Überleben der Tumorzellen vermittelt, und wurde mit einer Resistenz gegenüber Chemotherapeutika in Verbindung gebracht.“ Englischer Originalwortlaut: \"Venetoclax is a selective and orally bioavailable small-molecule inhibitor of BCL-2, an anti-apoptotic protein. Overexpression of BCL-2 has been demonstrated in CLL and AML cells where it mediates tumor cell survival and has been associated with resistance to chemotherapeutics.\" ([DailyMed: Venclexta (venetoclax) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b118a40d-6b56-cee3-10f6-ded821a97018), Fassung vom 2026-05-20; abgerufen am 2026-11-20).",
+   "summary": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Venclexta (venetoclax) prescribing information, AbbVie Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b118a40d-6b56-cee3-10f6-ded821a97018",
+     "accessed": "2026-11-20",
+     "excerpt": "Venetoclax is a selective and orally bioavailable small-molecule inhibitor of BCL-2, an anti-apoptotic protein. Overexpression of BCL-2 has been demonstrated in CLL and AML cells where it mediates tumor cell survival and has been associated with resistance to chemotherapeutics.",
+     "label_version": "2026-05-20",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "b118a40d-6b56-cee3-10f6-ded821a97018",
+     "translation": "Venetoclax ist ein selektiver und oral bioverfügbarer niedermolekularer Inhibitor von BCL-2, einem antiapoptotischen Protein. Eine Überexpression von BCL-2 wurde in CLL- und AML-Zellen nachgewiesen, wo es das Überleben der Tumorzellen vermittelt, und wurde mit einer Resistenz gegenüber Chemotherapeutika in Verbindung gebracht.",
+     "translation_lang": "de",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
    "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
   }
  ]

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 406
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Risperidone: vorhergesagte neue Indikation Familiäre horizontale Blickparese mit progressiver Skoliose (Evidenzstufe L5). Ursprüngliche Indikation: Schizophrenie"
 monitor_inn: "RISPERIDONE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
@@ -60,7 +60,7 @@ Risperidon ist ein atypisches Antipsychotikum, das ursprünglich zur Behandlung 
 
 Für diese Indikation ist kein mechanistischer Zusammenhang erkennbar. Die Erkrankung ist eine seltene genetische Störung (ROBO3-assoziiert), bei der die Axonführung im Hirnstamm gestört ist. Risperidon wirkt vor allem als Antagonist an Dopamin-D2- und Serotonin-5-HT2A-Rezeptoren. Diese Wirkung hat keine erkennbare Beziehung zu dieser Pathophysiologie.
 
-Der hohe Modellwert (0,9976) ist daher mit Vorsicht zu interpretieren. Er ist eine reine Modellvorhersage und wird weder durch Studien noch durch Literatur gestützt. Detaillierte Mechanismusdaten (MOA) liegen für diesen Bericht nicht vor.
+Der hohe Modellwert (0,9976) ist daher mit Vorsicht zu interpretieren. Er ist eine reine Modellvorhersage und wird weder durch Studien noch durch Literatur gestützt. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Risperidone (inoffizielle Übersetzung): „Der Wirkmechanismus von Risperidon bei Schizophrenie ist unklar. Die therapeutische Wirkung des Arzneimittels bei Schizophrenie könnte durch eine Kombination aus Antagonismus an Dopamin-Typ-2-(D 2 )- und Serotonin-Typ-2-(5HT 2 )-Rezeptoren vermittelt werden.“ Englischer Originalwortlaut: "The mechanism of action of risperidone in schizophrenia is unclear. The drug's therapeutic activity in schizophrenia could be mediated through a combination of dopamine Type 2 (D 2 ) and serotonin Type 2 (5HT 2 ) receptor antagonism." ([DailyMed: Risperdal (risperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0), Fassung vom 2026-10-23; abgerufen am 2026-11-20).
 
 ---
 
@@ -137,12 +137,13 @@ Für dieselbe Substanz liegen weitere Vorhersagen mit deutlich besserer Evidenz 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Klärung der regulatorischen Verfügbarkeit (derzeit nur erloschene Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Tabelle: Okedi (EMEA/H/C/005406) ist gültig, nicht erloschen | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Risperdal (risperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0) |
 
 <!-- review:end log -->
 

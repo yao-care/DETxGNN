@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BIMATOPROST"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Bimatoprost: vorhergesagte neue Indikation Fehlbildungssyndrom mit Zahn- und/oder Parodontalbeteiligung (malformation syndrome with odontal and/or periodontal com… (Evidenzstufe L5). Ursprüngliche In…"
 ---
 
@@ -54,7 +54,7 @@ Bimatoprost ist ein Prostamid-F2α-Analogon, das lokal angewendet wird. Das TxGN
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Mechanismusdaten (MOA) liegen derzeit nicht vor. Bimatoprost gehört zur Klasse der Prostamid-F2α-Analoga. Für das vorhergesagte Fehlbildungssyndrom lässt sich aus den vorliegenden Daten keine mechanistische Begründung ableiten.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Bimatoprost (inoffizielle Übersetzung): „Bimatoprost, ein Prostaglandin-Analogon, ist ein synthetisches Strukturanalogon von Prostaglandin mit augeninnendrucksenkender Wirkung. Es wird angenommen, dass Bimatoprost den IOD beim Menschen senkt, indem es den Abfluss des Kammerwassers sowohl über das Trabekelwerk (konventionell) als auch über den uveoskleralen Weg (unkonventionell) erhöht.“ Englischer Originalwortlaut: "Bimatoprost, a prostaglandin analog, is a synthetic structural analog of prostaglandin with ocular hypotensive activity. Bimatoprost is believed to lower IOP in humans by increasing outflow of aqueous humor through both the trabecular meshwork (conventional) and uveoscleral routes (unconventional)." ([DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341), Fassung vom 2024-10-16; abgerufen am 2026-11-20). Bimatoprost gehört zur Klasse der Prostamid-F2α-Analoga. Für das vorhergesagte Fehlbildungssyndrom lässt sich aus den vorliegenden Daten keine mechanistische Begründung ableiten.
 
 Es handelt sich um eine strukturelle Entwicklungsstörung. Ein lokal angewendetes Prostamid-Analogon ist nicht dafür bekannt, solche Fehlbildungen zu beeinflussen. Der hohe Modellwert ist daher kein Hinweis auf eine tatsächliche Wirksamkeit. Er beruht auf Mustern im Modell, die klinisch nicht überprüft sind.
 
@@ -87,6 +87,19 @@ Die Vorhersage stützt sich ausschließlich auf das Modell. Es gibt weder Studie
 - Mechanistische Daten (MOA) und eine biologisch nachvollziehbare Hypothese für die Erkrankung
 - Präklinische oder klinische Belege, die diese Erkrankung direkt untersuchen
 - Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-20 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

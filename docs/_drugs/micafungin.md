@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 299
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Micafungin: vorhergesagte neue Indikation Harnwegsinfektion (urinary tract infection) (Evidenzstufe L3). Ursprüngliche Indikation: Candidiasis"
 monitor_inn: "MICAFUNGIN"
 predicted_indications: ["urinary tract infection (disease)"]
@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine registrierten klinischen Studien**, aber **12 Publ
 
 ## Warum ist diese Vorhersage plausibel?
 
-Micafungin ist ein Echinocandin. Es hemmt die 1,3-β-D-Glucan-Synthase und stört dadurch den Aufbau der Pilzzellwand. Für die im Datensatz fehlenden Mechanismusangaben stützt sich diese Beschreibung auf allgemeines pharmakologisches Wissen und nicht auf die vorliegenden Daten.
+Micafungin ist ein Echinocandin. Es hemmt die 1,3-β-D-Glucan-Synthase und stört dadurch den Aufbau der Pilzzellwand. Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Micafungin (inoffizielle Übersetzung): „Micafungin gehört zur Klasse der Echinocandine unter den Antimykotika. […] Micafungin hemmt die Synthese von 1,3-beta-D-Glucan, einem essenziellen Bestandteil der Pilzzellwand, der in Säugetierzellen nicht vorkommt. Aktivität in Tiermodellen der Candidiasis Die Aktivität von Micafungin wurde sowohl in mukosalen als auch in disseminierten Candidiasis-Modellen an Maus und Kaninchen nachgewiesen.“ Englischer Originalwortlaut: "Micafungin is a member of the echinocandin class of antifungal agents. […] Micafungin inhibits the synthesis of 1,3-beta-D-glucan, an essential component of fungal cell walls, which is not present in mammalian cells. Activity in Animal Models of Candidiasis Activity of micafungin has been demonstrated in both mucosal and disseminated murine and rabbit models of candidiasis." ([DailyMed: Micafungin (micafungin sodium) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33e579c1-b315-44cb-a690-e2dd2cdf44ee), Fassung vom 2025-11-08; abgerufen am 2026-11-20).
 
 Die Candida-Harnwegsinfektion (Candidurie) ist eine Pilzinfektion, sodass der Wirkmechanismus plausibel übertragbar ist. Die ursprüngliche Indikation Candidiasis betrifft dieselbe Erregerklasse. Es handelt sich daher eher um eine Erweiterung innerhalb derselben Krankheitsfamilie als um ein echtes Repurposing.
 
@@ -137,11 +137,12 @@ Die Evidenz besteht fast ausschließlich aus Fallberichten, Fallserien und klein
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Klärung des Zulassungsstatus in Deutschland (aktuell nur erloschene Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Micafungin (micafungin sodium) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33e579c1-b315-44cb-a690-e2dd2cdf44ee) |
 
 <!-- review:end log -->
 

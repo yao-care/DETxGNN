@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 432
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Sodium Oxybate: vorhergesagte neue Indikation Insomnie (Evidenzstufe L2). Ursprüngliche Indikation: Kataplexie"
 monitor_inn: "SODIUM OXYBATE"
 predicted_indications: ["insomnia (disease)", "obsolete neurogenic bladder (disease)", "sleep disorder, initiating and maintaining sleep", "cauda equina syndrome", "Wernicke-Korsakoff syndrome", "restless legs syndrome"]
@@ -58,7 +58,7 @@ Natriumoxybat (Xyrem) wurde ursprünglich zur Behandlung von Kataplexie und Nark
 
 ## Warum ist diese Vorhersage plausibel?
 
-Natriumoxybat (Gamma-Hydroxybutyrat, GHB) wirkt als Agonist an GABA-B- und GHB-Rezeptoren. Für die vorliegende Auswertung sind keine detaillierten Mechanismusdaten aus einer Arzneimitteldatenbank verfügbar. Die folgende Einordnung beruht daher auf der in den Daten beschriebenen Biologie.
+Natriumoxybat (Gamma-Hydroxybutyrat, GHB) wirkt als Agonist an GABA-B- und GHB-Rezeptoren. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Sodium Oxybate (inoffizielle Übersetzung): „Xyrem ist ein ZNS-dämpfender Wirkstoff. Der Wirkmechanismus von Xyrem bei der Behandlung der Narkolepsie ist nicht bekannt. Natriumoxybat ist das Natriumsalz der Gamma-Hydroxybuttersäure (GHB), einer endogenen Verbindung und eines Metaboliten des Neurotransmitters GABA.“ Englischer Originalwortlaut: "Xyrem is a CNS depressant. The mechanism of action of Xyrem in the treatment of narcolepsy is unknown. Sodium oxybate is the sodium salt of gamma-hydroxybutyrate (GHB), an endogenous compound and metabolite of the neurotransmitter GABA." ([DailyMed: Xyrem (sodium oxybate) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=926eb076-a4a8-45e4-91ef-411f0aa4f3ca), Fassung vom 2025-07-01; abgerufen am 2026-11-20). Die folgende Einordnung beruht daher auf der in den Daten beschriebenen Biologie.
 
 Die Substanz steigert nachweislich den Tiefschlaf (Slow-Wave-Schlaf, N3) und festigt den Nachtschlaf. Bei Narkolepsie ist der fragmentierte Nachtschlaf ein Kernsymptom, das Natriumoxybat verbessert. Dieser Effekt ist auch für Ein- und Durchschlafstörungen relevant, was die hohe Vorhersage biologisch stützt. Gestützt wird das durch Polysomnographie-Daten bei Narkolepsie und bei Morbus Parkinson.
 
@@ -133,6 +133,19 @@ Der Vorhersagewert ist sehr hoch, und die Wirkung auf den Tiefschlaf ist biologi
 - Daten zum Wirkmechanismus aus einer Arzneimitteldatenbank ergänzen
 - Nutzen-Risiko-Bewertung für definierte Insomnie-Subgruppen mit Fokus auf Missbrauch, Atemdepression und Wechselwirkungen erstellen
 - Klären, ob und unter welchen Bedingungen eine erneute Zulassung bzw. ein Verfügbarkeitsweg in Deutschland möglich wäre
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-20 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Xyrem (sodium oxybate) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=926eb076-a4a8-45e4-91ef-411f0aa4f3ca) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

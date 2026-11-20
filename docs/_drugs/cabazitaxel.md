@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "CABAZITAXEL"
 predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin E disease syndrome", "sickle cell-hemoglobin d disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "HIV infectious disease", "hyperthyroidism", "neuroblastoma", "rheumatoid arthritis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Cabazitaxel: vorhergesagte neue Indikation Weibliches Mammakarzinom (female breast carcinoma) (Evidenzstufe L5). Ursprüngliche Indikation: Prostatakarzinom (Prostatic Neoplasms)"
 ---
 
@@ -56,7 +56,7 @@ Dazu liegen in den zusammengestellten Daten **keine registrierten klinischen Stu
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Mechanismusdaten (MOA) liegen in den zusammengestellten Daten nicht vor. Bekannt ist: Cabazitaxel ist ein halbsynthetisches Taxan, das Mikrotubuli stabilisiert und die Dynamik der mitotischen Spindel hemmt. Das Mammakarzinom gilt als taxansensitive Erkrankung, weshalb der Mechanismus plausibel ist.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Cabazitaxel (inoffizielle Übersetzung): „Cabazitaxel ist ein Mikrotubuli-Inhibitor. Cabazitaxel bindet an Tubulin und fördert dessen Zusammenlagerung zu Mikrotubuli, während es gleichzeitig deren Zerfall hemmt. Dies führt zur Stabilisierung der Mikrotubuli, was eine Hemmung der mitotischen und interphasischen Zellfunktionen zur Folge hat.“ Englischer Originalwortlaut: "Cabazitaxel is a microtubule inhibitor. Cabazitaxel binds to tubulin and promotes its assembly into microtubules while simultaneously inhibiting disassembly. This leads to the stabilization of microtubules, which results in the inhibition of mitotic and interphase cellular functions." ([DailyMed: Jevtana (cabazitaxel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de3d9c26-572b-4ea4-9b2d-dd58a2b3e8fa), Fassung vom 2025-10-07; abgerufen am 2026-11-20). Bekannt ist: Cabazitaxel ist ein halbsynthetisches Taxan, das Mikrotubuli stabilisiert und die Dynamik der mitotischen Spindel hemmt. Das Mammakarzinom gilt als taxansensitive Erkrankung, weshalb der Mechanismus plausibel ist.
 
 Cabazitaxel ist zudem ein schwaches Substrat von P-Glykoprotein. Dadurch könnte es auch in Tumoren wirken, die gegen Paclitaxel oder Docetaxel resistent sind. Eine randomisierte Phase-II-Studie (GENEVIEVE) verglich Cabazitaxel mit Paclitaxel in der neoadjuvanten Therapie des HER2-negativen Mammakarzinoms und stützt die klinische Machbarkeit. Ein klarer Wirksamkeitsvorteil lässt sich aus den vorliegenden Titeln und Auszügen jedoch nicht ableiten.
 
@@ -117,6 +117,19 @@ Mit einer randomisierten Phase-II-Studie samt Langzeitdaten zum Mammakarzinom is
 - Detaillierte Mechanismusdaten (MOA)
 - Warnhinweise und Gegenanzeigen aus der Fachinformation des BfArM
 - Sicherheitsüberwachungsplan, insbesondere zur Myelosuppression
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-20 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Jevtana (cabazitaxel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de3d9c26-572b-4ea4-9b2d-dd58a2b3e8fa) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

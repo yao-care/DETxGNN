@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 265
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "LENALIDOMIDE"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 description: "Lenalidomide: vorhergesagte neue Indikation Myeloische Leukämie (myeloid leukemia) (Evidenzstufe L2). Ursprüngliche Indikation: Multiple Myeloma"
@@ -60,7 +60,7 @@ Die Evidenz stammt überwiegend aus kleinen, einarmigen Phase-1/2-Studien. Rando
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Mechanismusdaten (MOA) sind in den zusammengestellten Daten derzeit nicht verfügbar. Nach allgemeinem Wissen bindet Lenalidomid Cereblon (CRBN) und lenkt die CRL4-CRBN-E3-Ligase um, sodass die Transkriptionsfaktoren IKZF1 und IKZF3 abgebaut werden. Bei Erkrankungen mit del(5q) nutzt es zudem die Haploinsuffizienz von CK1α (CSNK1A1) aus. Hinzu kommen immunmodulatorische Effekte (Aktivierung von T- und NK-Zellen). Diese Mechanismusbeschreibung ist aus allgemeinem Wissen abgeleitet und nicht aus den vorliegenden Daten belegt.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Lenalidomide (inoffizielle Übersetzung): „Lenalidomid ist ein Analogon von Thalidomid mit immunmodulatorischen, antiangiogenen und antineoplastischen Eigenschaften. Die zellulären Wirkungen von Lenalidomid werden über sein Zielprotein Cereblon vermittelt, einen Bestandteil eines Cullin-RING-E3-Ubiquitin-Ligase-Enzymkomplexes.“ Englischer Originalwortlaut: "Lenalidomide is an analogue of thalidomide with immunomodulatory, antiangiogenic, and antineoplastic properties. Cellular activities of lenalidomide are mediated through its target cereblon, a component of a cullin ring E3 ubiquitin ligase enzyme complex." ([DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be), Fassung vom 2023-03-24; abgerufen am 2026-11-20). Nach allgemeinem Wissen bindet Lenalidomid Cereblon (CRBN) und lenkt die CRL4-CRBN-E3-Ligase um, sodass die Transkriptionsfaktoren IKZF1 und IKZF3 abgebaut werden. Bei Erkrankungen mit del(5q) nutzt es zudem die Haploinsuffizienz von CK1α (CSNK1A1) aus. Hinzu kommen immunmodulatorische Effekte (Aktivierung von T- und NK-Zellen). Diese Mechanismusbeschreibung ist aus allgemeinem Wissen abgeleitet und nicht aus den vorliegenden Daten belegt.
 
 Multiples Myelom, MDS und myeloische Leukämie sind hämatologische Neoplasien, die teils dieselben Signalwege teilen. Die bestehende Zulassung bei MDS mit del(5q) stützt die biologische Plausibilität, da MDS häufig in eine akute myeloische Leukämie (AML) übergeht. Die immunmodulatorische Wirkung könnte zudem eine Erhaltungstherapie in der Remission unterstützen. Der Nutzen ist am ehesten bei MDS/AML mit del(5q) zu erwarten.
 
@@ -158,6 +158,19 @@ Weitere Indikationen im Überblick:
 - Randomisierte Daten zu AML, insbesondere zur Erhaltungstherapie und zur Subgruppe mit del(5q)
 - Überwachungsplan für Blutbild, Thromboembolie-Risiko und Nierenfunktion sowie Prüfung der Wechselwirkungen mit Statinen
 - Berücksichtigung der teratogenen Risiken (Thalidomid-Analogon) und der Anforderungen an ein Schwangerschaftsverhütungsprogramm
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-20 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

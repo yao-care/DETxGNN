@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 179
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Ertapenem"
 predicted_indications: ["bacterial arthritis"]
 description: "Ertapenem: vorhergesagte neue Indikation Bakterielle Arthritis (bacterial arthritis) (Evidenzstufe L5). Ursprüngliche Indikation: Community-Acquired Infections"
@@ -60,7 +60,7 @@ Dafür gibt es **keine registrierten klinischen Studien**. Die Evidenz besteht a
 
 ## Warum ist diese Vorhersage plausibel?
 
-Ertapenem hemmt die bakterielle Zellwandsynthese, indem es an Penicillin-bindende Proteine bindet. Es wirkt gegen viele Enterobakterien, Anaerobier und Streptokokken. Das sind häufige Erreger von Knochen- und Gelenkinfektionen. Detaillierte Mechanismusdaten aus einer Arzneimitteldatenbank liegen für diesen Bericht nicht vor. Die Beschreibung stützt sich auf das bekannte Wirkprinzip der Carbapeneme.
+Ertapenem hemmt die bakterielle Zellwandsynthese, indem es an Penicillin-bindende Proteine bindet. Es wirkt gegen viele Enterobakterien, Anaerobier und Streptokokken. Das sind häufige Erreger von Knochen- und Gelenkinfektionen. Die Beschreibung stützt sich auf das bekannte Wirkprinzip der Carbapeneme. Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Ertapenem (inoffizielle Übersetzung): „Ertapenem-Natrium ist ein Carbapenem-Antibiotikum. […] Ertapenem besitzt in vitro Aktivität gegen grampositive und gramnegative aerobe und anaerobe Bakterien. Die bakterizide Wirkung von Ertapenem beruht auf der Hemmung der Zellwandsynthese und wird durch die Bindung von Ertapenem an Penicillin-bindende Proteine (PBPs) vermittelt.“ Englischer Originalwortlaut: "Ertapenem sodium is a carbapenem antibiotic. […] Ertapenem has in vitro activity against Gram-positive and Gram-negative aerobic and anaerobic bacteria. The bactericidal activity of ertapenem results from the inhibition of cell wall synthesis and is mediated through ertapenem binding to penicillin binding proteins (PBPs)." ([DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22), Fassung vom 2026-02-04; abgerufen am 2026-11-20).
 
 Die ursprünglichen Indikationen sind bereits bakterielle Infektionen. Eine bakterielle (septische) Arthritis ist ebenfalls eine Infektion, die durch empfindliche Erreger verursacht wird. Der antibakterielle Ansatz ist daher naheliegend.
 
@@ -152,12 +152,13 @@ Ergebnisse liegen noch nicht vor. Diese Indikation wäre als eigene Forschungsfr
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Beide Zulassungen sind zentrale EU-Zulassungen (EMEA-Nummern) und derzeit erloschen bzw. widerrufen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „Zudem sind die Zulassungen in eutschland erloschen, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | "Detaillierte Mechanismusdaten aus einer Arzneimitteldatenbank liegen für diesen Bericht nicht vor. Die Beschreibung stützt sich auf das bekannte Wirkprinzip der Carbapeneme" replaced with a sourced mechanism-of-action statement | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22) |
 
 <!-- review:end log -->
 

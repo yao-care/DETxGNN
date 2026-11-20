@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 90
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Cabozantinib: vorhergesagte neue Indikation Liposarkom (Evidenzstufe L5). Ursprüngliche Indikation: Nierenzellkarzinom"
 monitor_inn: "CABOZANTINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "angiolipoma"]
@@ -60,7 +60,7 @@ Hinweis: Für das Liposarkom ist im Datensatz die Empfehlung „Research Questio
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für diesen Bericht liegen keine detaillierten Mechanismusdaten vor. Auf Basis der bekannten Informationen hemmt Cabozantinib die Kinasen VEGFR2, MET und AXL. Diese sind an Angiogenese und Tumorprogression bei Sarkomen beteiligt. Die Wirksamkeit bei Nierenzellkarzinom ist belegt, und mechanistisch könnte sie auf Sarkome übertragbar sein.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Cabozantinib (inoffizielle Übersetzung): „In-vitro-Biochemie- und/oder Zellassays haben gezeigt, dass Cabozantinib die Tyrosinkinaseaktivität von MET, VEGFR-1, -2 und -3, AXL, RET, ROS1, TYRO3, MER, KIT, TRKB, FLT-3 und TIE-2 hemmt. Diese Rezeptortyrosinkinasen sind sowohl an der normalen Zellfunktion als auch an pathologischen Prozessen wie Onkogenese, Metastasierung, Tumorangiogenese, Arzneimittelresistenz und Aufrechterhaltung der Tumormikroumgebung beteiligt.“ Englischer Originalwortlaut: "In vitro biochemical and/or cellular assays have shown that cabozantinib inhibits the tyrosine kinase activity of MET, VEGFR-1, -2 and -3, AXL, RET, ROS1, TYRO3, MER, KIT, TRKB, FLT-3, and TIE-2. These receptor tyrosine kinases are involved in both normal cellular function and pathologic processes such as oncogenesis, metastasis, tumor angiogenesis, drug resistance, and maintenance of the tumor microenvironment." ([DailyMed: Cabometyx (cabozantinib) prescribing information, Exelixis, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5), Fassung vom 2025-10-19; abgerufen am 2026-11-20). Auf Basis der bekannten Informationen hemmt Cabozantinib die Kinasen VEGFR2, MET und AXL. Diese sind an Angiogenese und Tumorprogression bei Sarkomen beteiligt. Die Wirksamkeit bei Nierenzellkarzinom ist belegt, und mechanistisch könnte sie auf Sarkome übertragbar sein.
 
 Die Kombination mit Checkpoint-Inhibitoren (Ipilimumab, Nivolumab) könnte zusätzlich die Immunantwort im Tumormikroumfeld modulieren. Die vorliegenden Belege betreffen jedoch Weichteilsarkome insgesamt, nicht spezifisch das Liposarkom. Liposarkomspezifische Wirksamkeitsdaten fehlen.
 
@@ -142,11 +142,12 @@ Für das Liposarkom existieren nur indirekte Belege (eine laufende Phase-2-Studi
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem sind die Zulassungen in Deutschland aufgehoben und die Sicherheitsdaten aus der Fachinformation nicht verfügbar“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Cabometyx (cabozantinib) prescribing information, Exelixis, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5) |
 
 <!-- review:end log -->
 

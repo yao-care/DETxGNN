@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 8
 monitor_inn: "Doxorubicin"
 predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Doxorubicin: vorhergesagte neue Indikation Ewing-Sarkom (Ewing sarcoma) (Evidenzstufe L1). Ursprüngliche Indikation: Sarcoma, Kaposi"
 ---
 
@@ -54,7 +54,7 @@ Doxorubicin ist ein zytotoxisches Anthracyclin, das die DNA-Replikation in schne
 
 ## Warum ist diese Vorhersage plausibel?
 
-Doxorubicin interkaliert in die DNA und hemmt die Topoisomerase II alpha (TOP2A). Dadurch kommt es zu DNA-Schäden und zum Zelltod in schnell proliferierenden Tumorzellen. Detaillierte Mechanismusdaten aus den Arzneimitteldatenbanken liegen im Rahmen dieses Berichts nicht vor. Die Wirkung als Topoisomerase-II-Hemmer ist jedoch pharmakologisch gut belegt.
+Doxorubicin interkaliert in die DNA und hemmt die Topoisomerase II alpha (TOP2A). Dadurch kommt es zu DNA-Schäden und zum Zelltod in schnell proliferierenden Tumorzellen. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Doxorubicin (inoffizielle Übersetzung): „Es wird angenommen, dass die zytotoxische Wirkung von Doxorubicinhydrochlorid auf maligne Zellen und seine toxischen Wirkungen auf verschiedene Organe mit der Interkalation zwischen Nukleotidbasen und der Bindung an Zellmembranlipide durch Doxorubicin zusammenhängen. Die Interkalation hemmt die Nukleotidreplikation und die Wirkung der DNA- und RNA-Polymerasen.“ Englischer Originalwortlaut: "The cytotoxic effect of doxorubicin hydrochloride on malignant cells and its toxic effects on various organs are thought to be related to nucleotide base intercalation and cell membrane lipid binding activities of doxorubicin. Intercalation inhibits nucleotide replication and action of DNA and RNA polymerases." ([DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd), Fassung vom 2026-11-12; abgerufen am 2026-11-20). Die Wirkung als Topoisomerase-II-Hemmer ist jedoch pharmakologisch gut belegt.
 
 Dieser Mechanismus passt zu einem hochproliferativen Knochen- und Weichteiltumor wie dem Ewing-Sarkom. Doxorubicin ist Bestandteil etablierter Mehrstoff-Regime wie VDC/IE (Vincristin, Doxorubicin, Cyclophosphamid im Wechsel mit Ifosfamid und Etoposid) und VAC. Mehrere große randomisierte Phase-3-Studien (u. a. EE2012, Euro Ewing 2012, COG AEWS0031) beziehen doxorubicinhaltige Schemata ein.
 
@@ -118,6 +118,19 @@ Mehrere abgeschlossene randomisierte Phase-3-Studien und RCT-Publikationen zum E
 - Plan zur Herzüberwachung mit Begrenzung der kumulativen Dosis
 - Prüfung des spezifischen Beitrags von Doxorubicin innerhalb der Mehrstoff-Regime
 - Sicherheitsüberwachungskonzept für besondere Patientengruppen, insbesondere Kinder und Jugendliche
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-20 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

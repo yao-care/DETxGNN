@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 388
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "REGORAFENIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "childhood kidney cell carcinoma", "vulva sarcoma"]
 description: "Regorafenib: vorhergesagte neue Indikation Liposarkom (liposarcoma) (Evidenzstufe L2). Ursprüngliche Indikation: Colorectal Neoplasms"
@@ -54,7 +54,7 @@ Regorafenib ist ein oral einnehmbarer Multikinase-Inhibitor. Das TxGNN-Modell sa
 
 ## Warum ist diese Vorhersage plausibel?
 
-Regorafenib hemmt mehrere Kinasen: angiogene (VEGFR1-3, TIE2), stromale (PDGFR, FGFR) sowie onkogene Kinasen (KIT, RET, RAF). Eine antiangiogene und antiproliferative Wirkung ist bei Weichteilsarkomen, darunter dem Liposarkom, biologisch denkbar. Die ausführliche Mechanismusbeschreibung (MOA) aus der Arzneimitteldatenbank liegt für diesen Bericht nicht vor; die Angaben stützen sich auf die Literatur.
+Regorafenib hemmt mehrere Kinasen: angiogene (VEGFR1-3, TIE2), stromale (PDGFR, FGFR) sowie onkogene Kinasen (KIT, RET, RAF). Eine antiangiogene und antiproliferative Wirkung ist bei Weichteilsarkomen, darunter dem Liposarkom, biologisch denkbar. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Regorafenib (inoffizielle Übersetzung): „Regorafenib ist ein niedermolekularer Inhibitor mehrerer membrangebundener und intrazellulärer Kinasen, die an normalen Zellfunktionen sowie an pathologischen Prozessen wie Onkogenese, Tumorangiogenese, Metastasierung und Tumorimmunität beteiligt sind. In biochemischen oder zellulären In-vitro-Assays hemmten Regorafenib oder seine wichtigsten aktiven humanen Metaboliten M-2 und M-5 die Aktivität von RET, VEGFR1, VEGFR2, VEGFR3, KIT, PDGFR-alpha, PDGFR-beta, FGFR1, FGFR2, TIE2, DDR2, TrkA, Eph2A, RAF-1, BRAF, BRAF V600E, SAPK2, PTK5, Abl und CSF1R bei Regorafenib-Konzentrationen, die klinisch erreicht wurden.“ Englischer Originalwortlaut: "Regorafenib is a small molecule inhibitor of multiple membrane-bound and intracellular kinases involved in normal cellular functions and in pathologic processes such as oncogenesis, tumor angiogenesis, metastasis and tumor immunity. In in vitro biochemical or cellular assays, regorafenib or its major human active metabolites M-2 and M-5 inhibited the activity of RET, VEGFR1, VEGFR2, VEGFR3, KIT, PDGFR-alpha, PDGFR-beta, FGFR1, FGFR2, TIE2, DDR2, TrkA, Eph2A, RAF-1, BRAF, BRAF V600E, SAPK2, PTK5, Abl and CSF1R at concentrations of regorafenib that have been achieved clinically." ([DailyMed: Stivarga (regorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7), Fassung vom 2026-02-09; abgerufen am 2026-11-20).
 
 Die Studienlage ist beim Liposarkom allerdings weniger günstig als bei anderen Sarkomtypen. In der placebokontrollierten Phase-2-Studie REGOSARC zeigte Regorafenib Wirksamkeit bei Leiomyosarkom, Synovialsarkom und anderen nicht-adipozytären Sarkomen, **nicht aber beim Liposarkom**. Die Liposarkom-Kohorte der Studie SARC024 bestätigte dies: Die Autoren sehen keine Grundlage für den routinemäßigen Einsatz in dieser Patientengruppe.
 
@@ -114,6 +114,18 @@ Das Evidenzniveau ist L2: Es liegen randomisierte, placebokontrollierte Phase-2-
 - Ergänzung der Mechanismusdaten (MOA) aus der Arzneimitteldatenbank
 - Prüfung, ob bestimmte Liposarkom-Subtypen oder Kombinationstherapien einen Vorteil zeigen
 - Überwachungskonzept für Blutdruck, Leberfunktion, Hautreaktionen und Blutungsrisiko
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-20 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Stivarga (regorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

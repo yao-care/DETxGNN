@@ -9,7 +9,7 @@
   "with_current": 27,
   "none_current": 0,
   "without_data": 2,
-  "with_reviews": 23,
+  "with_reviews": 28,
   "rows": [
    {
     "t": "Bupropion",
@@ -62,8 +62,8 @@
     "i": "Ewing-Sarkom",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -205,8 +205,8 @@
     "i": "Myeloische Leukämie",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -249,8 +249,8 @@
     "i": "Liposarkom",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -271,8 +271,8 @@
     "i": "Liposarkom",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -293,8 +293,8 @@
     "i": "insomnia (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -350,7 +350,7 @@
   "with_current": 35,
   "none_current": 1,
   "without_data": 6,
-  "with_reviews": 37,
+  "with_reviews": 39,
   "rows": [
    {
     "t": "Abatacept",
@@ -469,7 +469,7 @@
     "i": "urinary tract infection (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Klärung des Zulassungsstatus in Deutschland (aktuell nur erloschene Zulassung)“",
     "x": 0
    },
@@ -480,8 +480,8 @@
     "i": "insomnia (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -788,8 +788,8 @@
     "i": "malignant hypertensive renal disease",
     "lt": 9,
     "lv": 9,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -838,7 +838,7 @@
   "with_current": 367,
   "none_current": 5,
   "without_data": 15,
-  "with_reviews": 354,
+  "with_reviews": 360,
   "rows": [
    {
     "t": "Denosumab",
@@ -1013,7 +1013,7 @@
     "lt": 8,
     "lv": 8,
     "r": 1,
-    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+    "rs": "\"Hinweis: Für diesen Bericht liegen keine detaillierten Daten zum Wirkmechanismus aus der…",
     "x": 0
    },
    {
@@ -1815,8 +1815,8 @@
     "i": "malformation syndrome with odontal and/or periodontal component",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1826,8 +1826,8 @@
     "i": "Weibliches Mammakarzinom",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -1848,7 +1848,7 @@
     "i": "liposarcoma",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem sind die Zulassungen in Deutschland aufgehoben und die Sicherheitsdaten aus der…",
     "x": 0
    },
@@ -1958,7 +1958,7 @@
     "i": "Bakterielle Arthritis",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Entfernt: „Zudem sind die Zulassungen in eutschland erloschen, und d“",
     "x": 0
    },
@@ -2035,8 +2035,8 @@
     "i": "Prämalignes Neoplasma",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -2156,7 +2156,7 @@
     "i": "CMM7",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem sind beide deutschen Zulassungen erloschen“",
     "x": 0
    },
@@ -2266,7 +2266,7 @@
     "i": "non-syndromic esophageal malformation",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Die einzige Zulassung ist erloschen (Status: cancelled)“",
     "x": 0
    },
@@ -2904,8 +2904,8 @@
     "i": "bronchitis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3443,7 +3443,7 @@
     "i": "dermatofibrosarcoma protuberans",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem ist die einzige deutsche bzw. europäische Zulassung erloschen“",
     "x": 0
    },
@@ -4037,7 +4037,7 @@
     "i": "candidiasis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Entfernt: „Zudem ist die einzige deutsche Zulassung erloschen“",
     "x": 0
    },
@@ -4235,7 +4235,7 @@
     "i": "gaze palsy, familial horizontal, with progressive scoliosis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Tabelle: Okedi (EMEA/H/C/005406) ist gültig, nicht erloschen",
     "x": 0
    },
@@ -4774,8 +4774,8 @@
     "i": "Hodgkins lymphoma",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4818,8 +4818,8 @@
     "i": "medulloblastoma with extensive nodularity",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detaillierte Mechanismusdaten aus einer Arzneimitteldatenbank lagen für diesen Bericht nicht vor. Die hier…",
     "x": 0
    },
    {

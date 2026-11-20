@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 345
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "PAZOPANIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
 description: "Pazopanib: vorhergesagte neue Indikation Liposarkom (liposarcoma) (Evidenzstufe L2). Ursprüngliche Indikation: Carcinoma, Renal Cell"
@@ -54,7 +54,7 @@ Pazopanib ist ein Multi-Tyrosinkinase-Inhibitor, der VEGFR, PDGFR und c-Kit hemm
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Mechanismusdaten (MOA) liegen in den zusammengestellten Daten nicht vor. Bekannt ist, dass Pazopanib VEGFR, PDGFR und c-Kit hemmt. Diese Signalwege treiben Tumorangiogenese und Tumorwachstum bei Weichteilsarkomen an.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Pazopanib (inoffizielle Übersetzung): „Pazopanib ist ein Multi-Tyrosinkinase-Inhibitor des vaskulären endothelialen Wachstumsfaktor-Rezeptors (VEGFR)-1, VEGFR-2, VEGFR-3, des Platelet-Derived-Growth-Factor-Rezeptors (PDGFR)-α und -β, des Fibroblasten-Wachstumsfaktor-Rezeptors (FGFR)-1 und -3, des Zytokinrezeptors (Kit), der Interleukin-2-Rezeptor-induzierbaren T-Zell-Kinase (Itk), der lymphozytenspezifischen Protein-Tyrosinkinase (Lck) und der transmembranären Glykoprotein-Rezeptor-Tyrosinkinase (c-Fms). In vitro hemmte Pazopanib die ligandeninduzierte Autophosphorylierung der Rezeptoren VEGFR-2, Kit und PDGFR-β.“ Englischer Originalwortlaut: "Pazopanib is a multi-tyrosine kinase inhibitor of vascular endothelial growth factor receptor (VEGFR)-1, VEGFR-2, VEGFR-3, platelet-derived growth factor receptor (PDGFR)-α and -β, fibroblast growth factor receptor (FGFR)-1 and -3, cytokine receptor (Kit), interleukin-2 receptor-inducible T-cell kinase (Itk), lymphocyte-specific protein tyrosine kinase (Lck), and transmembrane glycoprotein receptor tyrosine kinase (c-Fms). In vitro, pazopanib inhibited ligand-induced autophosphorylation of VEGFR-2, Kit, and PDGFR-β receptors." ([DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7), Fassung vom 2025-12-16; abgerufen am 2026-11-20). Bekannt ist, dass Pazopanib VEGFR, PDGFR und c-Kit hemmt. Diese Signalwege treiben Tumorangiogenese und Tumorwachstum bei Weichteilsarkomen an.
 
 Liposarkome gehören zu den Weichteilsarkomen. Die Wirkung eines Antiangiogenese- und Multikinase-Inhibitors ist daher mechanistisch nachvollziehbar. Zwei Phase-2-Studien (NCT01506596, NCT01692496) und eine Phase-2-Publikation (PMID 31010343) untersuchen Pazopanib direkt bei fortgeschrittenem Liposarkom.
 
@@ -125,6 +125,18 @@ Zwei abgeschlossene Phase-2-Studien und eine Phase-2-Publikation untersuchen Paz
 - Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation
 - Prüfung der Wechselwirkungen, insbesondere mit säurehemmenden Arzneimitteln und QT-verlängernden Substanzen
 - Überwachungsplan für Blutdruck, Leberfunktion und QT-Intervall
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-20 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

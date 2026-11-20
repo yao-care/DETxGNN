@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 301
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Midazolam: vorhergesagte neue Indikation Insomnie (Evidenzstufe L3). Ursprüngliche Indikation: Epilepsie"
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
@@ -58,7 +58,7 @@ Midazolam ist ein kurzwirksames Benzodiazepin, das in Deutschland (als Buccolam)
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Mechanismusdaten (MOA) liegen in den für diesen Bericht zusammengestellten Daten derzeit nicht vor. Nach bekanntem Klassenwissen moduliert Midazolam als Benzodiazepin den GABA-A-Rezeptor positiv und verstärkt so die inhibitorische Neurotransmission. Dieser Mechanismus erklärt sowohl die antikonvulsive Wirkung bei Epilepsie als auch sedativ-hypnotische Effekte.
+Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Midazolam (inoffizielle Übersetzung): „Midazolam ist ein kurz wirksames Benzodiazepin, das das Zentralnervensystem (ZNS) dämpft.“ Englischer Originalwortlaut: "Midazolam is a short-acting benzodiazepine central nervous system (CNS) depressant." ([DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e), Fassung vom 2025-07-31; abgerufen am 2026-11-20). Nach bekanntem Klassenwissen moduliert Midazolam als Benzodiazepin den GABA-A-Rezeptor positiv und verstärkt so die inhibitorische Neurotransmission. Dieser Mechanismus erklärt sowohl die antikonvulsive Wirkung bei Epilepsie als auch sedativ-hypnotische Effekte.
 
 Dieselbe Wirkung teilen zugelassene Benzodiazepin-Schlafmittel wie Flurazepam oder Triazolam. Eine schlaffördernde Wirkung ist daher biologisch plausibel. Orales Midazolam wurde zudem historisch in einigen Märkten als Hypnotikum untersucht und eingesetzt. Der hohe TxGNN-Wert ist eine rechnerische Vorhersage und kein klinischer Beleg.
 
@@ -121,6 +121,19 @@ Die Vorhersage ist biologisch plausibel, und ältere Studien (1980er–1990 Jahr
 - Prüfung, ob angesichts bereits zugelassener Alternativen (z. B. andere Benzodiazepine oder Z-Substanzen) ein Bedarf und eine regulatorische Perspektive bestehen
 - Bewertung der Kontraindikationen (COPD, Leberzirrhose, Glaukom, Niereninsuffizienz) und des Abhängigkeitsrisikos für eine Dauerbehandlung der Insomnie
 - Klärung der Darreichungsform und des Anwendungswegs (Datenlage zur Route-Kompatibilität steht aus)
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-20 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

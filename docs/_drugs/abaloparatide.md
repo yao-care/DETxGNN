@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 12
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Abaloparatide: vorhergesagte neue Indikation Nicht-syndromische Ösophagusfehlbildung (Evidenzstufe L5). Ursprüngliche Indikation: Postmenopausale Osteoporose"
 monitor_inn: "ABALOPARATIDE"
 drugbank_id: DB05084
@@ -61,7 +61,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage plausibel?
 
-Abaloparatid ist ein Analogon des Parathormon-verwandten Peptids (PTHrP) und wirkt als Agonist am PTH1-Rezeptor (PTH1R). Es wirkt knochenaufbauend (anabol). In der Phase-3-Studie NCT01343004 senkte es bei postmenopausalen Frauen das Risiko neuer Knochenbrüche gegenüber Placebo; Hyperkalzämien traten seltener auf als unter Teriparatid. Detaillierte Mechanismusdaten (MOA) liegen in den für diesen Bericht zusammengestellten Daten nicht vor.
+Abaloparatid ist ein Analogon des Parathormon-verwandten Peptids (PTHrP) und wirkt als Agonist am PTH1-Rezeptor (PTH1R). Es wirkt knochenaufbauend (anabol). In der Phase-3-Studie NCT01343004 senkte es bei postmenopausalen Frauen das Risiko neuer Knochenbrüche gegenüber Placebo; Hyperkalzämien traten seltener auf als unter Teriparatid. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Abaloparatide (inoffizielle Übersetzung): „Abaloparatid ist ein PTHrP(1-34)-Analogon, das als Agonist am PTH1-Rezeptor (PTH1R) wirkt. Dies führt zur Aktivierung des cAMP-Signalwegs in den Zielzellen. Die einmal tägliche Anwendung von Abaloparatid stimuliert durch Anregung der osteoblastischen Aktivität die Knochenneubildung auf trabekulären und kortikalen Knochenoberflächen.“ Englischer Originalwortlaut: "Abaloparatide is a PTHrP(1-34) analog which acts as an agonist at the PTH1 receptor (PTH1R). This results in activation of the cAMP signaling pathway in target cells. Once-daily administration of abaloparatide stimulates new bone formation on trabecular and cortical bone surfaces by stimulation of osteoblastic activity." ([DailyMed: Tymlos (abaloparatide) prescribing information, Radius Health, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=712143d9-e21e-4013-bb3b-3426a21060a8), Fassung vom 2026-08-11; abgerufen am 2026-11-20).
 
 Ein plausibler biologischer Zusammenhang zwischen der Osteoporose und einer angeborenen Ösophagusfehlbildung ist nicht erkennbar. Eine solche Fehlbildung ist ein entwicklungsbedingter Strukturdefekt, und für eine PTH1R-Signalwirkung bei Ösophaguserkrankungen gibt es keine etablierte therapeutische Rolle. Der hohe Vorhersagewert stammt aus dem TxGNN-Modell (Deep Learning) und spiegelt vermutlich eher Ähnlichkeiten wider, die das Modell zwischen verwandten Erkrankungen gelernt hat, als eine biologische Begründung.
 
@@ -133,11 +133,12 @@ Es gibt weder klinische Studien noch Publikationen; die Vorhersage (Evidenzgrad 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Die einzige Zulassung ist erloschen (Status: cancelled)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Tymlos (abaloparatide) prescribing information, Radius Health, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=712143d9-e21e-4013-bb3b-3426a21060a8) |
 
 <!-- review:end log -->
 

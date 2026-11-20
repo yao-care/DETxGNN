@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 494
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
 description: "Venetoclax: vorhergesagte neue Indikation Hodgkins lymphoma (Evidenzstufe L5). Ursprüngliche Indikation: Leukemia, Lymphocytic, Chronic, B-Cell"
@@ -62,7 +62,7 @@ Hinweis: Streng nach den Regeln (≥2 abgeschlossene Phase-3-RCTs) wäre L1 nich
 
 ## Warum ist diese Vorhersage plausibel?
 
-Venetoclax hemmt selektiv das antiapoptotische Protein BCL-2. Detaillierte Mechanismusdaten aus DrugBank liegen für diesen Bericht nicht vor. Aus bekanntem Wissen und der Literatur gilt jedoch: Sowohl CLL-Zellen als auch AML-Blasten und leukämische Stammzellen sind von BCL-2 für ihr Überleben abhängig.
+Venetoclax hemmt selektiv das antiapoptotische Protein BCL-2. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Venetoclax (inoffizielle Übersetzung): „Venetoclax ist ein selektiver und oral bioverfügbarer niedermolekularer Inhibitor von BCL-2, einem antiapoptotischen Protein. Eine Überexpression von BCL-2 wurde in CLL- und AML-Zellen nachgewiesen, wo es das Überleben der Tumorzellen vermittelt, und wurde mit einer Resistenz gegenüber Chemotherapeutika in Verbindung gebracht.“ Englischer Originalwortlaut: "Venetoclax is a selective and orally bioavailable small-molecule inhibitor of BCL-2, an anti-apoptotic protein. Overexpression of BCL-2 has been demonstrated in CLL and AML cells where it mediates tumor cell survival and has been associated with resistance to chemotherapeutics." ([DailyMed: Venclexta (venetoclax) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b118a40d-6b56-cee3-10f6-ded821a97018), Fassung vom 2026-05-20; abgerufen am 2026-11-20). Aus bekanntem Wissen und der Literatur gilt jedoch: Sowohl CLL-Zellen als auch AML-Blasten und leukämische Stammzellen sind von BCL-2 für ihr Überleben abhängig.
 
 CLL und AML sind beides hämatologische Neoplasien, bei denen eine gestörte Apoptose zentral ist. Die Kombination von Venetoclax mit hypomethylierenden Substanzen (Azacitidin, Decitabin) hat sich bei AML-Patienten etabliert, die für eine intensive Chemotherapie nicht geeignet sind. Das stützt die Vorhersage des Modells.
 
@@ -109,7 +109,6 @@ Hinweis: Keine der aufgeführten Phase-3-Studien ist als abgeschlossen mit Ergeb
 ---
 
 ## Marktinformationen Deutschland
-
 
 Der Status dieser Zulassung ist „gültig“. Es liegt damit eine gültige Zulassung im Datensatz vor.
 
@@ -174,6 +173,18 @@ Für Venetoclax-basierte Regime bei AML liegen zahlreiche Phase-2-Studien und me
 | 8 | Metastasierte Neoplasie | L3 | Research Question | Unspezifische Kategorie; Phase-1b-Daten bei ER+-Brustkrebs |
 | 9 | Malignes Spiradenom | L5 | Hold | Keine Studien oder Literatur |
 | 10 | AML mit t(8;21) | L4 | Hold | Indirekte Evidenz aus allgemeiner AML |
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-20 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Venclexta (venetoclax) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b118a40d-6b56-cee3-10f6-ded821a97018) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

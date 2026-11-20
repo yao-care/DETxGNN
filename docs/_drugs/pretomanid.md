@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 371
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Pretomanid: vorhergesagte neue Indikation Candidiasis (Evidenzstufe L5). Ursprüngliche Indikation: Multiresistente Tuberkulose"
 monitor_inn: "PRETOMANID"
 predicted_indications: ["candidiasis", "leprosy", "coronary artery disease", "myocardial ischemia", "anomalous left coronary artery from the pulmonary artery"]
@@ -59,7 +59,7 @@ Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Candidiasis** voraus (hö
 
 ## Warum ist diese Vorhersage plausibel?
 
-Für diesen Wirkstoff liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Mechanismusdaten (MOA) vor. Aus der Fachliteratur ist bekannt: Pretomanid ist ein Prodrug, das von der Deazaflavin-abhängigen Nitroreduktase (Ddn) von *Mycobacterium tuberculosis* aktiviert wird. Unter anaeroben Bedingungen setzt es Stickstoffmonoxid und reaktive Stickstoffspezies frei und hemmt in replizierenden Bakterien die Mykolsäuresynthese.
+Laut den Abschnitten „Mechanism of Action“ und „Microbiology“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Pretomanid (inoffizielle Übersetzung): „Pretomanid ist ein antimykobakterieller Wirkstoff aus der Klasse der Nitroimidazooxazine. […] Pretomanid Tablette ist ein antimykobakterieller Wirkstoff aus der Klasse der Nitroimidazooxazine. Pretomanid tötet sich aktiv replizierende M. tuberculosis ab, indem es die Mykolsäure-Biosynthese hemmt und dadurch die Zellwandbildung blockiert. Unter anaeroben Bedingungen wirkt Pretomanid gegen sich nicht replizierende Bakterien nach Freisetzung von Stickstoffmonoxid als Atemgift.“ Englischer Originalwortlaut: "Pretomanid is a nitroimidazooxazine antimycobacterial drug. […] Pretomanid Tablet is a nitroimidazooxazine antimycobacterial drug. Pretomanid kills actively replicating M. tuberculosis by inhibiting mycolic acid biosynthesis, thereby blocking cell wall production. Under anaerobic conditions, against non-replicating bacteria, pretomanid acts as a respiratory poison following nitric oxide release." ([DailyMed: pretomanid prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1906fc9-cb3c-4e13-8a4a-da76100c1bf3), Fassung vom 2024-11-15; abgerufen am 2026-11-20). Aus der Fachliteratur ist bekannt: Pretomanid ist ein Prodrug, das von der Deazaflavin-abhängigen Nitroreduktase (Ddn) von *Mycobacterium tuberculosis* aktiviert wird. Unter anaeroben Bedingungen setzt es Stickstoffmonoxid und reaktive Stickstoffspezies frei und hemmt in replizierenden Bakterien die Mykolsäuresynthese.
 
 **Ehrliche Bewertung:** Für Candidiasis besteht kein etablierter mechanistischer Zusammenhang. Pilze wie *Candida* besitzen den Ddn/F420-abhängigen Aktivierungsweg nicht, daher ist eine antimykotische Wirkung nicht zu erwarten. Der hohe TxGNN-Wert (0,9969) ist eine rein graphbasierte Vorhersage ohne gestützte Studien oder Literatur.
 
@@ -133,11 +133,12 @@ Die Vorhersage für Candidiasis beruht allein auf dem Modell (Evidenzstufe L5). 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: pretomanid prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1906fc9-cb3c-4e13-8a4a-da76100c1bf3) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 236
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Imiquimod: vorhergesagte neue Indikation Prämalignes Neoplasma (pre-malignant neoplasm) (Evidenzstufe L5). Ursprüngliche Indikation: Condylomata acuminata, Keratose, aktinische Keratose…"
 monitor_inn: "IMIQUIMOD"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
@@ -62,7 +62,7 @@ Dafür liegen derzeit **2 klinische Studien** (beide klein bzw. vorzeitig beende
 
 ## Warum ist diese Vorhersage plausibel?
 
-Imiquimod ist ein Agonist des Toll-like-Rezeptors 7 (TLR7). Er löst lokal eine angeborene und adaptive Immunantwort gegen Tumorzellen aus (u. a. Interferon-alpha, TNF-alpha, IL-12). Die detaillierten Mechanismusdaten aus der Arzneimitteldatenbank lagen für diesen Bericht nicht vor; die Angaben stützen sich auf die mechanistische Bewertung der Datenzusammenstellung.
+Imiquimod ist ein Agonist des Toll-like-Rezeptors 7 (TLR7). Er löst lokal eine angeborene und adaptive Immunantwort gegen Tumorzellen aus (u. a. Interferon-alpha, TNF-alpha, IL-12). Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Imiquimod (inoffizielle Übersetzung): „Der Wirkmechanismus von ZYCLARA bei der Behandlung von AK und EGW ist unbekannt.“ Englischer Originalwortlaut: "The mechanism of action of ZYCLARA in the treatment of AK and EGW is unknown." ([DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d), Fassung vom 2025-05-23; abgerufen am 2026-11-20).
 
 Die aktinische Keratose, eine der ursprünglichen Indikationen, ist selbst eine prämaligne Hautläsion. Es ist daher naheliegend, dass dieselbe immunvermittelte Abräumung auch bei intraepithelialen Neoplasien von Zervix, Vulva, Anus und Penis wirkt. Diese sind häufig HPV-assoziiert, und Imiquimod ist bereits bei HPV-bedingten Läsionen (Feigwarzen) etabliert.
 
@@ -129,6 +129,19 @@ Der Wirkmechanismus passt gut zu prämalignen Epithelläsionen, und es gibt Coch
 - Sicherheitsüberwachung bei Photosensibilität, Autoimmunerkrankungen und Immunsuppression
 
 **Weitere Vorhersagen (Kurzüberblick):** Für „benign neoplasm of buccal mucosa" und „odontogenic cyst" (Evidenz L3) besteht lediglich Forschungsbedarf. Die Indikationen „cervical neuroblastoma", „nasopharyngeal teratoma", „neoplasm of major salivary gland", „schwannoma of jugular foramen", „benign neoplasm of tongue", „cystic neoplasm" und „inner ear neoplasm" werden mangels Evidenz mit Hold bewertet.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-20 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

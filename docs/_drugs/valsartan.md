@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 490
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Valsartan: vorhergesagte neue Indikation Maligne hypertensive Nierenerkrankung (Evidenzstufe L4). Ursprüngliche Indikation: Hypertonie"
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **1 Publikation** vor, di
 
 ## Warum ist diese Vorhersage plausibel?
 
-Valsartan blockiert den Angiotensin-II-Typ-1-Rezeptor (AT1R). Eine Überaktivierung des Renin-Angiotensin-Systems (RAS) gilt als Treiber der Nierenschädigung bei maligner Hypertonie. Der Wirkmechanismus ist damit auf Klassenebene plausibel. Detaillierte Mechanismusdaten zum Wirkstoff liegen in den für diesen Bericht zusammengestellten Daten nicht vor.
+Valsartan blockiert den Angiotensin-II-Typ-1-Rezeptor (AT1R). Eine Überaktivierung des Renin-Angiotensin-Systems (RAS) gilt als Treiber der Nierenschädigung bei maligner Hypertonie. Der Wirkmechanismus ist damit auf Klassenebene plausibel. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Valsartan (inoffizielle Übersetzung): „Angiotensin II wird aus Angiotensin I in einer durch das Angiotensin-Converting-Enzym (ACE, Kininase II) katalysierten Reaktion gebildet. Angiotensin II ist der wichtigste blutdrucksteigernde Wirkstoff des Renin-Angiotensin-Systems; zu seinen Wirkungen gehören Vasokonstriktion, Stimulation der Synthese und Freisetzung von Aldosteron, kardiale Stimulation und renale Rückresorption von Natrium. […] Diovan (Valsartan) blockiert die vasokonstriktorischen und aldosteronfreisetzenden Wirkungen von Angiotensin II, indem es selektiv die Bindung von Angiotensin II an den AT 1 -Rezeptor in vielen Geweben, wie der glatten Gefäßmuskulatur und der Nebenniere, blockiert.“ Englischer Originalwortlaut: "Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the renin-angiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Diovan (valsartan) blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland." ([DailyMed: Diovan (valsartan) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ddba454-f3e6-43c2-a7a6-58365d297213), Fassung vom 2026-08-11; abgerufen am 2026-11-20).
 
 Die neue Indikation liegt jedoch eng an der bereits zugelassenen Hypertonie-Indikation. Der Neuigkeitswert für ein Repurposing ist daher begrenzt. Die einzige gefundene Arbeit (PMID 24368192) untersucht Avosentan, einen Endothelin-Antagonisten, an Ratten mit hypertensiver Nephropathie. Sie prüft Valsartan nicht und ist nur indirekte Evidenz.
 
@@ -159,6 +159,19 @@ Für die vorhergesagte Indikation gibt es keine klinischen Studien, und die einz
 - Direkte präklinische oder klinische Daten zu Valsartan bei maligner hypertensiver Nierenerkrankung
 - Klärung des Zulassungsstatus in Deutschland und der Darreichungsformen/Applikationswege
 - Sicherheitsbewertung bei Nierenarterienstenose und Nierenfunktionsstörung
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-20 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Diovan (valsartan) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ddba454-f3e6-43c2-a7a6-58365d297213) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "DUPILUMAB"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Dupilumab: vorhergesagte neue Indikation Bronchitis (Evidenzstufe L5). Ursprüngliche Indikation: Dermatitis, Atopic"
 ---
 
@@ -54,7 +54,7 @@ Dupilumab ist ein monoklonaler Antikörper, der den IL-4-Rezeptor-α blockiert u
 
 ## Warum ist diese Vorhersage plausibel?
 
-Dupilumab blockiert die gemeinsame α-Untereinheit des IL-4-/IL-13-Rezeptors und dämpft damit die Typ-2-Entzündung. Detaillierte Mechanismusdaten liegen in den zusammengestellten Daten nicht vor; die Angaben beruhen auf allgemein bekanntem Wissen über die Wirkstoffklasse.
+Dupilumab blockiert die gemeinsame α-Untereinheit des IL-4-/IL-13-Rezeptors und dämpft damit die Typ-2-Entzündung. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Dupilumab (inoffizielle Übersetzung): „Dupilumab ist ein humaner monoklonaler IgG4-Antikörper, der die Signalübertragung von Interleukin-4 (IL-4) und Interleukin-13 (IL-13) hemmt, indem er spezifisch an die IL-4Rα-Untereinheit bindet, die den IL-4- und IL-13-Rezeptorkomplexen gemeinsam ist. Dupilumab hemmt die IL-4-Signalübertragung über den Typ-I-Rezeptor sowie die IL-4- und IL-13-Signalübertragung über den Typ-II-Rezeptor.“ Englischer Originalwortlaut: "Dupilumab is a human monoclonal IgG4 antibody that inhibits interleukin-4 (IL-4) and interleukin-13 (IL-13) signaling by specifically binding to the IL-4Rα subunit shared by the IL-4 and IL-13 receptor complexes. Dupilumab inhibits IL-4 signaling via the Type I receptor and both IL-4 and IL-13 signaling through the Type II receptor." ([DailyMed: Dupixent (dupilumab) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780), Fassung vom 2026-04-22; abgerufen am 2026-11-20).
 
 Typ-2-Entzündung spielt auch bei bestimmten Atemwegserkrankungen eine Rolle. Die Literatur beschreibt Dupilumab bei Asthma sowie in Real-World-Kohorten bei COPD mit Typ-2-Entzündung, darunter Patienten mit überwiegend chronischem Bronchitis-Phänotyp. Das macht einen Nutzen bei bestimmten eosinophilen Bronchitisformen mechanistisch denkbar.
 
@@ -106,6 +106,19 @@ Für Bronchitis liegt weder eine direkte Studie noch eine direkte Publikation vo
 - Daten zum Wirkmechanismus (MOA)
 - Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
 - Prüfung der Sicherheit bei Kombination mit anderen Immunsuppressiva und Biologika
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-20 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Dupixent (dupilumab) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

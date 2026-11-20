@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 500
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Vismodegib: vorhergesagte neue Indikation Medulloblastom mit ausgeprägter Nodularität (Evidenzstufe L5). Ursprüngliche Indikation: Basalzellkarzinom"
 monitor_inn: "VISMODEGIB"
 predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
@@ -58,7 +58,7 @@ Vismodegib ist ein oral einzunehmender Hedgehog-Signalweg-Inhibitor, der ursprü
 
 ## Warum ist diese Vorhersage plausibel?
 
-Vismodegib hemmt das Protein Smoothened (SMO) im Hedgehog-Signalweg und unterdrückt so eine krankhaft überaktive Signalübertragung. Beim Basalzellkarzinom ist genau dieser Signalweg der zentrale Tumortreiber, was die ursprüngliche Zulassung begründet. Detaillierte Mechanismusdaten aus einer Arzneimitteldatenbank lagen für diesen Bericht nicht vor. Die hier genannte Wirkweise beruht auf der mechanistischen Einordnung der Vorhersage.
+Vismodegib hemmt das Protein Smoothened (SMO) im Hedgehog-Signalweg und unterdrückt so eine krankhaft überaktive Signalübertragung. Beim Basalzellkarzinom ist genau dieser Signalweg der zentrale Tumortreiber, was die ursprüngliche Zulassung begründet. Die hier genannte Wirkweise beruht auf der mechanistischen Einordnung der Vorhersage. Laut dem Abschnitt „Mechanism of Action“ der von der US-amerikanischen FDA genehmigten Fachinformation (Prescribing Information) für Vismodegib (inoffizielle Übersetzung): „Vismodegib ist ein Inhibitor des Hedgehog-Signalwegs. Vismodegib bindet an Smoothened, ein an der Hedgehog-Signaltransduktion beteiligtes Transmembranprotein, und hemmt dieses.“ Englischer Originalwortlaut: "Vismodegib is an inhibitor of the Hedgehog pathway. Vismodegib binds to and inhibits Smoothened, a transmembrane protein involved in Hedgehog signal transduction." ([DailyMed: Erivedge (vismodegib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eb368bb6-80e3-4df9-8a85-91df0a2ada6a), Fassung vom 2024-12-02; abgerufen am 2026-11-20).
 
 Das Medulloblastom der SHH-Untergruppe wird ebenfalls durch Hedgehog-Signalwege getrieben, typischerweise durch Veränderungen in PTCH1, SMO oder SUFU. Das Medulloblastom mit ausgeprägter Nodularität ist überwiegend SHH-assoziiert. Damit besteht ein nachvollziehbarer mechanistischer Zusammenhang zwischen beiden Erkrankungen: ein gemeinsamer Treiber-Signalweg, der durch denselben Wirkstoff angegriffen wird.
 
@@ -124,6 +124,19 @@ Für Medulloblastom mit ausgeprägter Nodularität gibt es weder klinische Studi
 - Klärung des Zulassungs- und Versorgungsstatus in Deutschland
 - Bewertung der Teratogenität und besonderer Risiken in der pädiatrischen Population, da das Medulloblastom häufig Kinder betrifft
 - Ergänzend die weiteren Vorhersagen mit mehr Evidenz prüfen, insbesondere Xeroderma pigmentosum (zwei Fallberichte zu Vismodegib bei Basalzellkarzinomen, Evidenzstufe L4). Der Eintrag „Hautkrebs“ überschneidet sich weitgehend mit der bestehenden Basalzellkarzinom-Indikation und bietet daher wenig Neuigkeit für das Repurposing.
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-20 | "Detaillierte Mechanismusdaten aus einer Arzneimitteldatenbank lagen für diesen Bericht nicht vor. Die hier genannte Wirkweise beruht auf der mechanistischen Einordnung der Vorhersage" replaced with a sourced mechanism-of-action statement | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [DailyMed: Erivedge (vismodegib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eb368bb6-80e3-4df9-8a85-91df0a2ada6a) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
