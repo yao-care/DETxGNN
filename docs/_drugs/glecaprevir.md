@@ -54,7 +54,7 @@ Glecaprevir ist ein Hemmstoff der NS3/4A-Protease des Hepatitis-C-Virus. Das TxG
 
 ## Warum ist diese Vorhersage plausibel?
 
-Laut ChEMBL (EMBL-EBI) ist für Glecaprevir folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Inhibitor der Serinprotease NS3/NS4A des Hepatitis-C-Virus“ Englischer Originalwortlaut: "Hepatitis C virus serine protease, NS3/NS4A inhibitor" ([ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist, dass Glecaprevir die NS3/4A-Protease des Hepatitis-C-Virus hemmt und in fester Kombination mit Pibrentasvir (NS5A-Hemmer) eingesetzt wird. Eine direkte Aktivität gegen HIV ist nicht belegt.
+Laut ChEMBL (EMBL-EBI) ist für Glecaprevir folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Inhibitor der Serinprotease NS3/NS4A des Hepatitis-C-Virus“. Englischer Originalwortlaut: "Hepatitis C virus serine protease, NS3/NS4A inhibitor" ([ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist, dass Glecaprevir die NS3/4A-Protease des Hepatitis-C-Virus hemmt und in fester Kombination mit Pibrentasvir (NS5A-Hemmer) eingesetzt wird. Eine direkte Aktivität gegen HIV ist nicht belegt.
 
 Der hohe Vorhersagewert spiegelt vermutlich die gemeinsame Wirkstoffklasse (antivirale Substanzen) und die umfangreiche Literatur zur HIV/HCV-Koinfektion wider, nicht einen Wirkmechanismus gegen HIV. Die Daten zeigen Wirksamkeit und Verträglichkeit der Kombination bei koinfizierten Personen, wo sie die HCV-Infektion behandelt, nicht die HIV-Infektion. Ein mechanistischer Beleg für eine HIV-Repurposing-Indikation fehlt.
 
@@ -117,7 +117,7 @@ Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum W
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363) |
 
 <!-- review:end log -->
 

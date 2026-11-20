@@ -54,7 +54,7 @@ Bictegravir ist ein Integrase-Strangtransfer-Inhibitor (INSTI) gegen HIV-1. Das 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Laut ChEMBL (EMBL-EBI) ist für Bictegravir folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Integrase-Inhibitor des humanen Immundefizienzvirus Typ 1“ Englischer Originalwortlaut: "Human immunodeficiency virus type 1 integrase inhibitor" ([ChEMBL CHEMBL3989866 (bictegravir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3989866), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist, dass Bictegravir als Integrase-Strangtransfer-Inhibitor die Integrase von HIV-1 hemmt und so den Einbau der viralen DNA in das Wirtsgenom verhindert.
+Laut ChEMBL (EMBL-EBI) ist für Bictegravir folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Integrase-Inhibitor des humanen Immundefizienzvirus Typ 1“. Englischer Originalwortlaut: "Human immunodeficiency virus type 1 integrase inhibitor" ([ChEMBL CHEMBL3989866 (bictegravir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3989866), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist, dass Bictegravir als Integrase-Strangtransfer-Inhibitor die Integrase von HIV-1 hemmt und so den Einbau der viralen DNA in das Wirtsgenom verhindert.
 
 Das Feline Immundefizienzvirus (FIV) ist ein mit HIV verwandtes Lentivirus, dessen Integrase einige strukturelle Merkmale mit der HIV-1-Integrase teilt. Eine Aktivität von Bictegravir gegen die FIV-Integrase ist daher mechanistisch denkbar.
 
@@ -107,7 +107,7 @@ Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum W
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL3989866 (bictegravir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3989866) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [ChEMBL CHEMBL3989866 (bictegravir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3989866) |
 
 <!-- review:end log -->
 

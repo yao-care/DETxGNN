@@ -58,7 +58,7 @@ Reteplase ist ein rekombinanter Gewebeplasminogenaktivator (Thrombolytikum), der
 
 ## Warum ist diese Vorhersage plausibel?
 
-Laut ChEMBL (EMBL-EBI) ist für Reteplase folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Exogenes Gewebe-Plasminogenaktivator-Protein“ Englischer Originalwortlaut: "Tissue-type plasminogen activator exogenous protein" ([ChEMBL CHEMBL2107885 (reteplase): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107885), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist: Reteplase ist ein rekombinanter Gewebeplasminogenaktivator. Er aktiviert Plasminogen zu Plasmin und löst dadurch Fibrinthromben (Thrombolyse) in verschlossenen Koronararterien auf. Seine Wirksamkeit beim akuten Myokardinfarkt ist etabliert.
+Laut ChEMBL (EMBL-EBI) ist für Reteplase folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Exogenes Gewebe-Plasminogenaktivator-Protein“. Englischer Originalwortlaut: "Tissue-type plasminogen activator exogenous protein" ([ChEMBL CHEMBL2107885 (reteplase): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107885), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist: Reteplase ist ein rekombinanter Gewebeplasminogenaktivator. Er aktiviert Plasminogen zu Plasmin und löst dadurch Fibrinthromben (Thrombolyse) in verschlossenen Koronararterien auf. Seine Wirksamkeit beim akuten Myokardinfarkt ist etabliert.
 
 Der posterolaterale Myokardinfarkt ist ein anatomischer Untertyp des Myokardinfarkts. Der Mechanismus (Wiedereröffnung des thrombotisch verschlossenen Koronargefäßes) ist daher grundsätzlich übertragbar. Der sehr hohe TxGNN-Wert spiegelt wahrscheinlich die Nähe in der Krankheitsontologie zur ursprünglichen Indikation wider und nicht neue Evidenz. Es handelt sich somit nicht um einen echten Repurposing-Kandidaten.
 
@@ -122,7 +122,7 @@ Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum W
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL2107885 (reteplase): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107885) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [ChEMBL CHEMBL2107885 (reteplase): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107885) |
 
 <!-- review:end log -->
 

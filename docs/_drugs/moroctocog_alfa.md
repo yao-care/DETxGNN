@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien und keine Publikationen** vor, 
 
 ## Warum ist diese Vorhersage plausibel (oder nicht)?
 
-Laut ChEMBL (EMBL-EBI) ist für Moroctocog Alfa folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Exogenes Gerinnungsfaktor-VIII-Protein“ Englischer Originalwortlaut: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL2109137 (moroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109137), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist, dass Moroctocog alfa ein rekombinanter Faktor VIII (FVIII) ohne B-Domäne ist. Seine Wirksamkeit bei Hämophilie A beruht auf dem Ersatz des fehlenden Gerinnungsfaktors.
+Laut ChEMBL (EMBL-EBI) ist für Moroctocog Alfa folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Exogenes Gerinnungsfaktor-VIII-Protein“. Englischer Originalwortlaut: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL2109137 (moroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109137), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist, dass Moroctocog alfa ein rekombinanter Faktor VIII (FVIII) ohne B-Domäne ist. Seine Wirksamkeit bei Hämophilie A beruht auf dem Ersatz des fehlenden Gerinnungsfaktors.
 
 Bei der vorhergesagten Indikation liegt die Ursache dagegen in einem intrinsischen Defekt der Thrombozyten (Speicherpool bzw. Sekretion), nicht in einem FVIII-Mangel. Ein zusätzlicher FVIII-Ersatz dürfte diesen Defekt daher nicht beheben. Der hohe Vorhersagewert ist eine graphbasierte Modellaussage ohne klinische oder literaturbasierte Stütze. Die mechanistische Verbindung ist schwach.
 
@@ -142,7 +142,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Hinweis: Diese Zulassung (Pfizer Europe MA EEIG) ist als erloschen/gelöscht geführt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „und die deutsche Zulassung ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL2109137 (moroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109137) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [ChEMBL CHEMBL2109137 (moroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109137) |
 
 <!-- review:end log -->
 

@@ -61,7 +61,7 @@ Hinweis: Die höchstbewertete Vorhersage (primäre Thrombozyten-Freisetzungsstö
 
 ## Warum ist diese Vorhersage plausibel?
 
-Laut ChEMBL (EMBL-EBI) ist für Susoctocog Alfa folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Exogenes Gerinnungsfaktor-VIII-Protein“ Englischer Originalwortlaut: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL5315075 (susoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315075), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist: Susoctocog alfa ist ein rekombinanter Faktor VIII mit Schweine-Sequenz und deletierter B-Domäne. Er ersetzt den fehlenden Faktor VIII und kann mechanistisch auch bei Hämophilie-Formen angewendet werden, bei denen neutralisierende Antikörper gegen humanen FVIII vorliegen.
+Laut ChEMBL (EMBL-EBI) ist für Susoctocog Alfa folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Exogenes Gerinnungsfaktor-VIII-Protein“. Englischer Originalwortlaut: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL5315075 (susoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315075), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist: Susoctocog alfa ist ein rekombinanter Faktor VIII mit Schweine-Sequenz und deletierter B-Domäne. Er ersetzt den fehlenden Faktor VIII und kann mechanistisch auch bei Hämophilie-Formen angewendet werden, bei denen neutralisierende Antikörper gegen humanen FVIII vorliegen.
 
 Bei der erworbenen Hämophilie A bilden Autoantikörper (Inhibitoren) gegen humanen Faktor VIII. Das Schweine-Protein wird von diesen Antikörpern nur eingeschränkt gebunden (geringe Kreuzreaktivität) und kann daher funktionelle FVIII-Aktivität liefern. Das ist die zentrale mechanistische Begründung für die Erweiterung von der angeborenen auf die erworbene Form. Ergänzend zeigen Laborbefunde, dass Schweine-FVIII die Thrombinbildung in Plasma von Patienten mit angeborener Hämophilie A und Inhibitoren korrigiert.
 
@@ -146,7 +146,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Der Marktstatus „nur erloschene Zulassung" erfordert eine Klärung vor einer Empfehlung“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „(erloschene Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL5315075 (susoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315075) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [ChEMBL CHEMBL5315075 (susoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315075) |
 
 <!-- review:end log -->
 

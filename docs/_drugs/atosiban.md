@@ -58,7 +58,7 @@ Atosiban ist ein Oxytocin-/Vasopressin-Rezeptor-Antagonist, der ursprünglich al
 
 ## Warum ist diese Vorhersage plausibel?
 
-Laut ChEMBL (EMBL-EBI) ist für Atosiban folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Oxytocinrezeptor-Antagonist“ Englischer Originalwortlaut: "Oxytocin receptor antagonist" ([ChEMBL CHEMBL382301 (atosiban): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL382301), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist, dass Atosiban ein Peptid ist, das an den Oxytocin-Rezeptor (OXTR) sowie an die Vasopressin-Rezeptoren V1A, V1B und V2 bindet. Seine Wirksamkeit bei vorzeitigen Wehen ist etabliert; es wird in der EU bei Schwangeren zwischen der 24. und 33. Schwangerschaftswoche eingesetzt, um die Geburt zu verzögern.
+Laut ChEMBL (EMBL-EBI) ist für Atosiban folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Oxytocinrezeptor-Antagonist“. Englischer Originalwortlaut: "Oxytocin receptor antagonist" ([ChEMBL CHEMBL382301 (atosiban): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL382301), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist, dass Atosiban ein Peptid ist, das an den Oxytocin-Rezeptor (OXTR) sowie an die Vasopressin-Rezeptoren V1A, V1B und V2 bindet. Seine Wirksamkeit bei vorzeitigen Wehen ist etabliert; es wird in der EU bei Schwangeren zwischen der 24. und 33. Schwangerschaftswoche eingesetzt, um die Geburt zu verzögern.
 
 Ein mechanistischer Zusammenhang zwischen dieser Rezeptorblockade und dem Glaukom ist in den vorliegenden Daten nicht belegt. Eine Verbindung zur Regulation des Augeninnendrucks oder zur Funktion des Trabekelwerks ist spekulativ. Der hohe TxGNN-Wert ist eine rein rechnerische Vorhersage ohne unterstützende Studien oder Literatur. Der Wirkstoff ist zudem ein Peptid und müsste für eine okuläre Anwendung galenisch völlig neu entwickelt werden.
 
@@ -122,7 +122,7 @@ Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum W
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL382301 (atosiban): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL382301) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [ChEMBL CHEMBL382301 (atosiban): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL382301) |
 
 <!-- review:end log -->
 

@@ -58,7 +58,7 @@ Cholecalciferol (Vitamin D3) ist in den für diesen Bericht zusammengestellten D
 
 ## Warum ist diese Vorhersage plausibel?
 
-Laut ChEMBL (EMBL-EBI) ist für Cholecalciferol folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Vitamin-D-Rezeptor-Agonist“ Englischer Originalwortlaut: "Vitamin D receptor agonist" ([ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042), CC BY-SA 3.0; abgerufen am 2026-11-19). Cholecalciferol ist ein Bestandteil von Kombinationspräparaten, die bei postmenopausaler Osteoporose zugelassen sind. Es ist ein Knochen- und Mineralstoffwechsel-Wirkstoff, der mit Vitamin-D-Mangel und Knochenerkrankungen in Verbindung steht.
+Laut ChEMBL (EMBL-EBI) ist für Cholecalciferol folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Vitamin-D-Rezeptor-Agonist“. Englischer Originalwortlaut: "Vitamin D receptor agonist" ([ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042), CC BY-SA 3.0; abgerufen am 2026-11-19). Cholecalciferol ist ein Bestandteil von Kombinationspräparaten, die bei postmenopausaler Osteoporose zugelassen sind. Es ist ein Knochen- und Mineralstoffwechsel-Wirkstoff, der mit Vitamin-D-Mangel und Knochenerkrankungen in Verbindung steht.
 
 Ein mechanistischer Zusammenhang mit der vorhergesagten Erkrankung ist durch die vorliegenden Daten **nicht belegt**. Die akromesomelische Dysplasie ist eine seltene genetische Skelettstörung, deren Pathologie nach heutigem Kenntnisstand nicht durch Vitamin-D-Mangel getrieben wird. Der sehr hohe Wert stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht aber biologische Evidenz. Die Vorhersage ist daher als reine Hypothese zu betrachten.
 
@@ -119,7 +119,7 @@ Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum W
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042) |
 
 <!-- review:end log -->
 

@@ -58,7 +58,7 @@ Tasonermin (rekombinantes TNF-alpha) wurde ursprünglich zur Behandlung von **Sa
 
 ## Warum ist diese Vorhersage plausibel (oder nicht)?
 
-Laut ChEMBL (EMBL-EBI) ist für Tasonermin folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Unbekannt“ Englischer Originalwortlaut: "Unknown" ([ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist, dass Tasonermin rekombinantes TNF-alpha ist und bei Weichteilsarkomen in der isolierten Extremitätenperfusion verwendet wurde. Allgemein wird TNF-alpha eine Schädigung der Tumorgefäße sowie eine verbesserte Penetration von Wirkstoffen im Perfusionsbereich zugeschrieben.
+Laut ChEMBL (EMBL-EBI) ist für Tasonermin folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Unbekannt“. Englischer Originalwortlaut: "Unknown" ([ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist, dass Tasonermin rekombinantes TNF-alpha ist und bei Weichteilsarkomen in der isolierten Extremitätenperfusion verwendet wurde. Allgemein wird TNF-alpha eine Schädigung der Tumorgefäße sowie eine verbesserte Penetration von Wirkstoffen im Perfusionsbereich zugeschrieben.
 
 Ein plausibler mechanistischer Zusammenhang zwischen dieser Perfusionstherapie und dem Urothelkarzinom der prostatischen Harnröhre ist nicht belegt. Der hohe TxGNN-Wert (0,998) ist eine rein graphbasierte Vorhersage. Zudem ist die Anwendung von Tasonermin an die regionale Perfusion gebunden, die anatomisch auf die Harnröhre nicht übertragbar ist. Eine systemische Gabe ist wegen der starken TNF-Toxizität (z. B. Hypotonie, Kapillarleck-Syndrom) stark limitiert.
 
@@ -147,7 +147,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „ie Zulassung in Deutschland ist erloschen, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891) |
 
 <!-- review:end log -->
 

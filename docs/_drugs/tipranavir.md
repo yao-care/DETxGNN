@@ -56,7 +56,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage nachvollziehbar?
 
-Laut ChEMBL (EMBL-EBI) ist für Tipranavir folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Protease-Inhibitor des humanen Immundefizienzvirus Typ 1“ Englischer Originalwortlaut: "Human immunodeficiency virus type 1 protease inhibitor" ([ChEMBL CHEMBL222559 (tipranavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL222559), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist, dass Tipranavir ein nicht-peptidischer Inhibitor der HIV-1-Protease ist. Seine Wirksamkeit bei HIV-Infektionen war Grundlage der Zulassung.
+Laut ChEMBL (EMBL-EBI) ist für Tipranavir folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Protease-Inhibitor des humanen Immundefizienzvirus Typ 1“. Englischer Originalwortlaut: "Human immunodeficiency virus type 1 protease inhibitor" ([ChEMBL CHEMBL222559 (tipranavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL222559), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist, dass Tipranavir ein nicht-peptidischer Inhibitor der HIV-1-Protease ist. Seine Wirksamkeit bei HIV-Infektionen war Grundlage der Zulassung.
 
 Das Feline Immundefizienzvirus (FIV) ist ein Lentivirus mit einer Protease, die der HIV-1-Protease strukturell verwandt ist. Ein mechanistischer Ansatz ist daher denkbar. Allerdings unterscheiden sich Substratspezifität und Inhibitor-Empfindlichkeit der FIV-Protease, und es liegen keine belegenden Daten vor. Der hohe Score (0.9999) stammt vom TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz.
 
@@ -125,7 +125,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Die einzige Zulassung (Boehringer Ingelheim International GmbH) ist aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „und die Zulassung in Deutschland ist aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL222559 (tipranavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL222559) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [ChEMBL CHEMBL222559 (tipranavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL222559) |
 
 <!-- review:end log -->
 

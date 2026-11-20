@@ -58,7 +58,7 @@ Dibotermin alfa (rekombinantes humanes BMP-2, rhBMP-2) wurde ursprünglich zur F
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Laut ChEMBL (EMBL-EBI) ist für Dibotermin Alfa folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Agonist am Bone-Morphogenetic-Protein-Rezeptor Typ 1A; Agonist am Activin-Rezeptor Typ 2B; Agonist am Bone-Morphogenetic-Protein-Rezeptor Typ 2; Agonist am Bone-Morphogenetic-Protein-Rezeptor Typ 1B“ Englischer Originalwortlaut: "Bone morphogenetic protein receptor type-1A agonist; Activin receptor type-2B agonist; Bone morphogenetic protein receptor type-2 agonist; Bone morphogenetic protein receptor type-1B agonist" ([ChEMBL CHEMBL2109171 (dibotermin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109171), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist: Dibotermin alfa ist ein rekombinantes BMP-2, das die osteogene Differenzierung und Knochenbildung fördert. Seine Wirksamkeit ist bei Frakturen und Wirbelsäulenfusion belegt.
+Laut ChEMBL (EMBL-EBI) ist für Dibotermin Alfa folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Agonist am Bone-Morphogenetic-Protein-Rezeptor Typ 1A; Agonist am Activin-Rezeptor Typ 2B; Agonist am Bone-Morphogenetic-Protein-Rezeptor Typ 2; Agonist am Bone-Morphogenetic-Protein-Rezeptor Typ 1B“. Englischer Originalwortlaut: "Bone morphogenetic protein receptor type-1A agonist; Activin receptor type-2B agonist; Bone morphogenetic protein receptor type-2 agonist; Bone morphogenetic protein receptor type-1B agonist" ([ChEMBL CHEMBL2109171 (dibotermin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109171), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist: Dibotermin alfa ist ein rekombinantes BMP-2, das die osteogene Differenzierung und Knochenbildung fördert. Seine Wirksamkeit ist bei Frakturen und Wirbelsäulenfusion belegt.
 
 Esotropie ist dagegen eine Fehlstellung der Augen, die die äußeren Augenmuskeln und deren neuronale Steuerung betrifft. Eine glaubwürdige mechanistische Verbindung zur knochenfördernden Wirkung von rhBMP-2 wurde nicht identifiziert. Der hohe TxGNN-Wert ist eine graphbasierte Vorhersage ohne klinische oder literaturbasierte Stütze.
 
@@ -126,7 +126,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die Zulassung in Deutschland aufgehoben, und f“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL2109171 (dibotermin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109171) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [ChEMBL CHEMBL2109171 (dibotermin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109171) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Lopinavir ist ein HIV-1-Proteaseinhibitor. Das TxGNN-Modell sagt eine mögliche 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Laut ChEMBL (EMBL-EBI) ist für Lopinavir folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Protease-Inhibitor des humanen Immundefizienzvirus Typ 1“ Englischer Originalwortlaut: "Human immunodeficiency virus type 1 protease inhibitor" ([ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729), CC BY-SA 3.0; abgerufen am 2026-11-19). Lopinavir gehört zur Klasse der HIV-1-Proteaseinhibitoren. Das SIV ist ein eng verwandtes Lentivirus mit einer strukturell ähnlichen Protease, sodass eine antivirale Aktivität mechanistisch denkbar ist. Diese Überlegung beruht auf allgemeinem Wissen über die Proteasehemmung, nicht auf den vorliegenden Daten.
+Laut ChEMBL (EMBL-EBI) ist für Lopinavir folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Protease-Inhibitor des humanen Immundefizienzvirus Typ 1“. Englischer Originalwortlaut: "Human immunodeficiency virus type 1 protease inhibitor" ([ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729), CC BY-SA 3.0; abgerufen am 2026-11-19). Lopinavir gehört zur Klasse der HIV-1-Proteaseinhibitoren. Das SIV ist ein eng verwandtes Lentivirus mit einer strukturell ähnlichen Protease, sodass eine antivirale Aktivität mechanistisch denkbar ist. Diese Überlegung beruht auf allgemeinem Wissen über die Proteasehemmung, nicht auf den vorliegenden Daten.
 
 Die SIV-Infektion ist im Wesentlichen das tierexperimentelle Gegenstück der HIV-Infektion beim Menschen. Sie ist daher keine echte Repurposing-Chance für die Anwendung beim Menschen, sondern vor allem ein Modell für Wirksamkeitsprüfungen.
 
@@ -109,7 +109,7 @@ Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum W
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729) |
 
 <!-- review:end log -->
 

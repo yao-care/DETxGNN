@@ -58,7 +58,7 @@ Tecovirimat ist ein antivirales Arzneimittel, das ursprünglich zur Behandlung v
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Laut ChEMBL (EMBL-EBI) ist für Tecovirimat folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Hemmer der Hüllphospholipase OPG057“ Englischer Originalwortlaut: "Envelope phospholipase OPG057 inhibitor" ([ChEMBL CHEMBL1257073 (tecovirimat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1257073), CC BY-SA 3.0; abgerufen am 2026-11-19). Nach bekanntem Stand hemmt Tecovirimat das Hüllprotein VP37 (p37) von Orthopockenviren, das für die Umhüllung und Freisetzung der Viruspartikel erforderlich ist. Seine Wirksamkeit ist auf diese Virusgruppe ausgerichtet.
+Laut ChEMBL (EMBL-EBI) ist für Tecovirimat folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Hemmer der Hüllphospholipase OPG057“. Englischer Originalwortlaut: "Envelope phospholipase OPG057 inhibitor" ([ChEMBL CHEMBL1257073 (tecovirimat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1257073), CC BY-SA 3.0; abgerufen am 2026-11-19). Nach bekanntem Stand hemmt Tecovirimat das Hüllprotein VP37 (p37) von Orthopockenviren, das für die Umhüllung und Freisetzung der Viruspartikel erforderlich ist. Seine Wirksamkeit ist auf diese Virusgruppe ausgerichtet.
 
 Ein Hordeolum ist dagegen in der Regel eine lokalisierte bakterielle Infektion einer Lidranddrüse, meist durch Staphylokokken. Bakterien besitzen kein VP37-Ziel. Der hohe TxGNN-Wert scheint daher ein rein graphbasiertes Ergebnis ohne biologische Stützung zu sein.
 
@@ -129,7 +129,7 @@ Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum W
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL1257073 (tecovirimat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1257073) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [ChEMBL CHEMBL1257073 (tecovirimat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1257073) |
 
 <!-- review:end log -->
 

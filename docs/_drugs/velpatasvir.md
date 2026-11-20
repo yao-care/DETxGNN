@@ -60,7 +60,7 @@ Dafür liegen **5 verknüpfte klinische Studien** und **20 Publikationen** vor. 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Laut ChEMBL (EMBL-EBI) ist für Velpatasvir folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Inhibitor des Nichtstrukturproteins 5A“ Englischer Originalwortlaut: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist, dass Velpatasvir ein Hemmstoff des HCV-Proteins NS5A ist und in Kombination mit Sofosbuvir (Epclusa) bzw. Sofosbuvir und Voxilaprevir (Vosevi) bei chronischer Hepatitis C hohe Heilungsraten erzielt.
+Laut ChEMBL (EMBL-EBI) ist für Velpatasvir folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Inhibitor des Nichtstrukturproteins 5A“. Englischer Originalwortlaut: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist, dass Velpatasvir ein Hemmstoff des HCV-Proteins NS5A ist und in Kombination mit Sofosbuvir (Epclusa) bzw. Sofosbuvir und Voxilaprevir (Vosevi) bei chronischer Hepatitis C hohe Heilungsraten erzielt.
 
 Ein direkter antiviraler Mechanismus gegen HBV ist **nicht** belegt: HBV besitzt kein NS5A-Homolog. Der hohe Vorhersagewert stammt vom TxGNN-Modell (Deep Learning) und kann vom Modell gelernte Ähnlichkeiten zwischen verwandten Erkrankungen widerspiegeln, nicht biologische Evidenz oder einen nachgewiesenen Wirkmechanismus.
 
@@ -141,7 +141,7 @@ Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum W
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062) |
 
 <!-- review:end log -->
 

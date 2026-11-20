@@ -58,7 +58,7 @@ Sebelipase alfa ist eine Enzymersatztherapie, die bei angeborenen Störungen des
 
 ## Warum ist diese Vorhersage plausibel?
 
-Laut ChEMBL (EMBL-EBI) ist für Sebelipase Alfa folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Cholesterinester-hydrolysierendes Enzym; Triglycerid-hydrolysierendes Enzym“ Englischer Originalwortlaut: "Cholesterol ester hydrolytic enzyme; Triglyceride hydrolytic enzyme" ([ChEMBL CHEMBL3039537 (sebelipase alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039537), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist, dass Sebelipase alfa die lysosomale saure Lipase (LAL) ersetzt, ein Enzym des lysosomalen Stoffwechsels.
+Laut ChEMBL (EMBL-EBI) ist für Sebelipase Alfa folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Cholesterinester-hydrolysierendes Enzym; Triglycerid-hydrolysierendes Enzym“. Englischer Originalwortlaut: "Cholesterol ester hydrolytic enzyme; Triglyceride hydrolytic enzyme" ([ChEMBL CHEMBL3039537 (sebelipase alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039537), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist, dass Sebelipase alfa die lysosomale saure Lipase (LAL) ersetzt, ein Enzym des lysosomalen Stoffwechsels.
 
 Das Scheie-Syndrom (abgeschwächte Form der Mukopolysaccharidose Typ I) wird durch einen Mangel an alpha-L-Iduronidase verursacht. Das ist ein anderes Enzym mit anderen Substraten (Glykosaminoglykane) als bei der LAL-Defizienz. Eine direkte mechanistische Verbindung besteht daher nicht. Der hohe Score spiegelt wahrscheinlich nur die Nähe beider Erkrankungen im Netzwerk der lysosomalen Speicherkrankheiten wider, nicht eine Substrat- oder Enzymbeziehung. Die Vorhersage sollte deshalb als Hypothese ohne mechanistische Stützung betrachtet werden.
 
@@ -110,7 +110,7 @@ Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum W
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL3039537 (sebelipase alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039537) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [ChEMBL CHEMBL3039537 (sebelipase alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039537) |
 
 <!-- review:end log -->
 

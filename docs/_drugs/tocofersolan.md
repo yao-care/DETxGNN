@@ -60,7 +60,7 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 
 ## Warum ist diese Vorhersage plausibel?
 
-Laut ChEMBL (EMBL-EBI) ist für Tocofersolan folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Ernährungsunterstützung“ Englischer Originalwortlaut: "Nutritional support" ([ChEMBL CHEMBL2108106 (tocofersolan): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108106), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist: Tocofersolan ist eine wasserlösliche Form von Vitamin E, deren Wirksamkeit bei Vitamin-E-Mangel infolge Cholestase belegt ist. Vitamin E wirkt antioxidativ.
+Laut ChEMBL (EMBL-EBI) ist für Tocofersolan folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Ernährungsunterstützung“. Englischer Originalwortlaut: "Nutritional support" ([ChEMBL CHEMBL2108106 (tocofersolan): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108106), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist: Tocofersolan ist eine wasserlösliche Form von Vitamin E, deren Wirksamkeit bei Vitamin-E-Mangel infolge Cholestase belegt ist. Vitamin E wirkt antioxidativ.
 
 Für Amenorrhoe wird diskutiert, dass Vitamin E die Prostaglandinsynthese und oxidativen Stress bei Menstruationsstörungen beeinflussen könnte. Die für diesen Bericht zusammengestellten Daten enthalten jedoch weder mechanistische noch klinische Belege, die Tocofersolan mit Amenorrhoe verbinden. Der hohe Vorhersagewert ist ein rein rechnerisches Signal.
 
@@ -124,7 +124,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „da die bisherige Zulassung erloschen ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL2108106 (tocofersolan): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108106) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [ChEMBL CHEMBL2108106 (tocofersolan): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108106) |
 
 <!-- review:end log -->
 

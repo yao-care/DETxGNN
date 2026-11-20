@@ -60,7 +60,7 @@ Hinweis: Dieser Kandidat hat keinen erkennbaren biologischen Bezug zu Agomelatin
 
 ## Warum ist diese Vorhersage plausibel?
 
-Laut ChEMBL (EMBL-EBI) ist für Agomelatine folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Melatoninrezeptor-Agonist; Serotonin-2c(5-HT2c)-Rezeptor-Antagonist“ Englischer Originalwortlaut: "Melatonin receptor agonist; Serotonin 2c (5-HT2c) receptor antagonist" ([ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878), CC BY-SA 3.0; abgerufen am 2026-11-19). Aus der Literatur und den Rezeptordaten ist bekannt: Agomelatin ist ein Agonist an den melatonergen Rezeptoren MT1 und MT2 sowie ein Antagonist am Serotonin-5-HT2C-Rezeptor. Dadurch kann es zirkadiane Rhythmen normalisieren und die Freisetzung von Dopamin und Noradrenalin im präfrontalen Kortex steigern. Die Bindung an 5-HT2A- und 5-HT2B-Rezeptoren ist ebenfalls beschrieben.
+Laut ChEMBL (EMBL-EBI) ist für Agomelatine folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Melatoninrezeptor-Agonist; Serotonin-2c(5-HT2c)-Rezeptor-Antagonist“. Englischer Originalwortlaut: "Melatonin receptor agonist; Serotonin 2c (5-HT2c) receptor antagonist" ([ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878), CC BY-SA 3.0; abgerufen am 2026-11-19). Aus der Literatur und den Rezeptordaten ist bekannt: Agomelatin ist ein Agonist an den melatonergen Rezeptoren MT1 und MT2 sowie ein Antagonist am Serotonin-5-HT2C-Rezeptor. Dadurch kann es zirkadiane Rhythmen normalisieren und die Freisetzung von Dopamin und Noradrenalin im präfrontalen Kortex steigern. Die Bindung an 5-HT2A- und 5-HT2B-Rezeptoren ist ebenfalls beschrieben.
 
 Für die benigne paroxysmale Torticollis des Säuglingsalters, eine episodische Erkrankung im Kindesalter (häufig mit CACNA1A-Varianten assoziiert), ist **kein mechanistischer Zusammenhang** erkennbar. Der hohe Modellwert (0.9996) stammt aus dem TxGNN-Modell (Deep Learning) und kann Ähnlichkeiten widerspiegeln, die das Modell zwischen verwandten Erkrankungen gelernt hat, nicht biologische Evidenz.
 
@@ -136,7 +136,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die deutsche Zulassung aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „da nur eine aufgehobene Zulassung vorliegt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878) |
 
 <!-- review:end log -->
 

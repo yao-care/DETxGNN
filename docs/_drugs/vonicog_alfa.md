@@ -59,7 +59,7 @@ Das TxGNN-Modell sagt voraus, dass er bei der **primären Freisetzungsstörung d
 
 ## Warum ist diese Vorhersage plausibel?
 
-Laut ChEMBL (EMBL-EBI) ist für Vonicog Alfa folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Exogenes Von-Willebrand-Faktor-Protein“ Englischer Originalwortlaut: "von Willebrand factor exogenous protein" ([ChEMBL CHEMBL2107873 (vonicog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107873), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist: Vonicog alfa ist rekombinanter VWF, der die Anheftung und Aggregation von Thrombozyten vermittelt und den Gerinnungsfaktor VIII transportiert und stabilisiert. Seine Wirksamkeit bei der von-Willebrand-Erkrankung ist gezeigt.
+Laut ChEMBL (EMBL-EBI) ist für Vonicog Alfa folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Exogenes Von-Willebrand-Faktor-Protein“. Englischer Originalwortlaut: "von Willebrand factor exogenous protein" ([ChEMBL CHEMBL2107873 (vonicog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107873), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist: Vonicog alfa ist rekombinanter VWF, der die Anheftung und Aggregation von Thrombozyten vermittelt und den Gerinnungsfaktor VIII transportiert und stabilisiert. Seine Wirksamkeit bei der von-Willebrand-Erkrankung ist gezeigt.
 
 Bei der Freisetzungsstörung der Thrombozyten handelt es sich um einen intrinsischen Defekt der Plättchengranula oder der Signalwege. Ein von außen zugeführter VWF kann diesen Defekt voraussichtlich nicht beheben. Der hohe TxGNN-Wert ist eine netzwerkbasierte Vorhersage ohne klinische Stütze. Die mechanistische Plausibilität ist daher gering.
 
@@ -133,7 +133,7 @@ Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum W
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL2107873 (vonicog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107873) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [ChEMBL CHEMBL2107873 (vonicog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107873) |
 
 <!-- review:end log -->
 

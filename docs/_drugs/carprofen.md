@@ -58,7 +58,7 @@ Carprofen ist ein nichtsteroidales Antirheumatikum (NSAR), das vor allem in der 
 
 ## Warum ist diese Vorhersage plausibel?
 
-Laut ChEMBL (EMBL-EBI) ist für Carprofen folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Cyclooxygenase-2-Hemmer“ Englischer Originalwortlaut: "Cyclooxygenase-2 inhibitor" ([ChEMBL CHEMBL1316 (carprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1316), CC BY-SA 3.0; abgerufen am 2026-11-19). Nach den vorliegenden Informationen zählt Carprofen zur Klasse der NSAR und hemmt Cyclooxygenase-Enzyme (in den Pharmakologiedaten ist COX-2 als Zielstruktur genannt). Dadurch wird die prostaglandinvermittelte Entzündung und Schmerzentstehung in den Gelenken verringert.
+Laut ChEMBL (EMBL-EBI) ist für Carprofen folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Cyclooxygenase-2-Hemmer“. Englischer Originalwortlaut: "Cyclooxygenase-2 inhibitor" ([ChEMBL CHEMBL1316 (carprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1316), CC BY-SA 3.0; abgerufen am 2026-11-19). Nach den vorliegenden Informationen zählt Carprofen zur Klasse der NSAR und hemmt Cyclooxygenase-Enzyme (in den Pharmakologiedaten ist COX-2 als Zielstruktur genannt). Dadurch wird die prostaglandinvermittelte Entzündung und Schmerzentstehung in den Gelenken verringert.
 
 Rheumatoide Arthritis ist eine chronisch-entzündliche Gelenkerkrankung, bei der Prostaglandine zu Schwellung und Schmerz beitragen. Mechanistisch ist ein symptomlindernder Effekt daher nachvollziehbar. Ein krankheitsmodifizierender Effekt ist durch die Daten nicht belegt.
 
@@ -130,7 +130,7 @@ Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum W
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL1316 (carprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1316) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [ChEMBL CHEMBL1316 (carprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1316) |
 
 <!-- review:end log -->
 

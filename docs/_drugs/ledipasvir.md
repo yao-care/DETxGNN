@@ -60,7 +60,7 @@ Dafür liegen **5 klinische Studien** und **20 Publikationen** vor, darunter ein
 
 ## Warum ist diese Vorhersage plausibel?
 
-Laut ChEMBL (EMBL-EBI) ist für Ledipasvir folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Inhibitor des Nichtstrukturproteins 5A“ Englischer Originalwortlaut: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist: Ledipasvir ist Teil einer Kombination mit Sofosbuvir, seine Wirksamkeit bei chronischer Hepatitis C ist belegt, und es hemmt das virale NS5A-Protein.
+Laut ChEMBL (EMBL-EBI) ist für Ledipasvir folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Inhibitor des Nichtstrukturproteins 5A“. Englischer Originalwortlaut: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist: Ledipasvir ist Teil einer Kombination mit Sofosbuvir, seine Wirksamkeit bei chronischer Hepatitis C ist belegt, und es hemmt das virale NS5A-Protein.
 
 Mechanistisch ist eine direkte Wirkung gegen HBV jedoch **unwahrscheinlich**, denn HBV besitzt kein NS5A-Homolog. Die klinische Relevanz ergibt sich vor allem aus der HCV/HBV-Koinfektion. Dort kann die HCV-Eradikation durch direkt wirkende Antivirale eine HBV-Reaktivierung auslösen. In der Phase-2-Studie zur HBV-Monoinfektion (NCT03312023, publiziert als PMID 36045503) wurde die Hypothese geprüft, dass sich der HBsAg-Spiegel ähnlich wie bei Koinfizierten (dort moderate Senkung) verringert. Ein solcher Effekt wäre vermutlich gering oder indirekt (z. B. über Sofosbuvir) und müsste anhand der HBV-DNA bestätigt werden.
 
@@ -148,7 +148,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die deutsche Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ Das TxGNN-Modell sagt voraus, dass er bei **Gastroduodenitis** wirksam sein kön
 
 ## Warum ist diese Vorhersage (nicht) plausibel?
 
-Laut ChEMBL (EMBL-EBI) ist für Corifollitropin Alfa folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Follikelstimulierendes-Hormon-Rezeptor-Agonist“ Englischer Originalwortlaut: "Follicle stimulating hormone receptor agonist" ([ChEMBL CHEMBL2108185 (corifollitropin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108185), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist: Corifollitropin alfa ist ein lang wirksamer FSH-Rezeptoragonist, der an den Gonaden wirkt und zur kontrollierten ovariellen Stimulation eingesetzt wird.
+Laut ChEMBL (EMBL-EBI) ist für Corifollitropin Alfa folgender Wirkmechanismus erfasst (inoffizielle Übersetzung): „Follikelstimulierendes-Hormon-Rezeptor-Agonist“. Englischer Originalwortlaut: "Follicle stimulating hormone receptor agonist" ([ChEMBL CHEMBL2108185 (corifollitropin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108185), CC BY-SA 3.0; abgerufen am 2026-11-19). Bekannt ist: Corifollitropin alfa ist ein lang wirksamer FSH-Rezeptoragonist, der an den Gonaden wirkt und zur kontrollierten ovariellen Stimulation eingesetzt wird.
 
 Zwischen der ursprünglichen Indikation (Fertilitätsbehandlung) und der vorhergesagten Indikation (Entzündung von Magen und Zwölffingerdarm) besteht kein erkennbarer mechanistischer Zusammenhang. Eine Rolle der FSH-Rezeptoragonie im Magen-Darm-Trakt ist nicht belegt. Der hohe Vorhersagewert ist daher vermutlich ein Netzwerkartefakt und nicht durch biologische Evidenz gestützt.
 
@@ -132,7 +132,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche Zulassung aufgehoben, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [ChEMBL CHEMBL2108185 (corifollitropin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108185) |
+| 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [ChEMBL CHEMBL2108185 (corifollitropin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108185) |
 
 <!-- review:end log -->
 
