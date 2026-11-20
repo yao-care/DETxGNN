@@ -1,16 +1,26 @@
 {
-  "fetched_at": "2026-11-20T17:36:40.212493+00:00",
+  "fetched_at": "2026-11-20T23:45:03.348759+00:00",
   "source": "Google News Health RSS",
-  "count": 42,
+  "count": 43,
   "articles": [
     {
-      "id": "c0470e6084f1",
-      "title": "Not­dienst­a­po­the­ke - was Sie dort be­kom­men - Die Rheinpfalz",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbjRZSkRoVXZXUXFzZEFzVV9vaXd5ZlVzNWMtSmJxYWpjTkR4ZTdTc2V0Yl8wRzd1aktYYzNPMzlPVHNkaUxOTVNodUUzbDFfVkJxQkRvRURIYkRWQU1NazVqcU42QXkyN1lwLWpyRm81MFdzd0tfNFNGejlmOGtEb3NTMzlrQ2NVVWczbXEyNWtuTmNaSWh3SG5SR3lRdnlBQVg4Y1QwVzcwblVFZG1tNEY1Yw?oc=5",
-      "published": "2026-11-20T13:05:00+00:00",
+      "id": "cb7bac03f4e5",
+      "title": "Krankenversicherung: Moderne Arzneimittel sind vielen Menschen wichtiger als stabile Beiträge - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOa1RqRnJKaWFZX3hHVHVWLWF5X25aWXhuVVY3ajBmWl9FeFN2WkJyM0pOb3hKNVB1Q0h6VXIwems4MzJKb3NGbkVEZFhPTXF0MFBHQVBfR0NSckprem5vQWdfNGxUcnk3YzNuSFBlVkRTbUtCczhNRkQ4X3JTbmprVGRqVko1TDJlSFlmNGp3b3hTQm5pZ2FUQTUydmM3LXJTUjcwT3c1YXJxQmEtTkZDY25tMldUR2NtLXZTZGZfdjRpZzNsZDZUMU15NXQ3SVZvenM5Y3NXRktvbGc4bVRhMXVGVQ?oc=5",
+      "published": "2026-11-20T20:00:00+00:00",
       "source": {
-        "name": "Die Rheinpfalz",
-        "url": "https://www.rheinpfalz.de"
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
+      }
+    },
+    {
+      "id": "c93bd17dad42",
+      "title": "Antibiotika gezielt einsetzen: Therapieoptionen bei Infekten breiter denken - gesundheit adhoc",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVlpfRTZ0UW1VZUFrbVV1Tlo0eEJHc2kxdVQ2bUY5NFNsYnBMZjR4T3dwVVVSbllrOC11TU9naDktVHUzNUVGaGRnWlJkbWdpZU9kdGlhTWVJUjZERGtWRlhSbWFJeG1DTXc3VFFhNDRqY25aXzBreDJCbUZjcDlmdUxKYjM3TVZlRmVocUl4Mlk4cjFEcEJqQ1lvVFF4aHRuUHktSmZMaHFqdHc?oc=5",
+      "published": "2026-11-20T12:42:51+00:00",
+      "source": {
+        "name": "gesundheit adhoc",
+        "url": "https://www.gesundheit-adhoc.de"
       }
     },
     {
@@ -24,6 +34,16 @@
       }
     },
     {
+      "id": "334cee353ce6",
+      "title": "Notdienstapotheke - was Sie dort bekommen - Neue Westfälische",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQOHJRcmFIaWsxbHEydERRdkplcGt5RlJrWllJQWR0aEZxTHlvSkYxU0NmLXJ6YkFvYmxFZHc1ei0tVFdqQmoxVUkzakFLRkVRUWtiaDdETXhoeXZtNE9nem5qZzlXVjB2X2tHdVVwTzlMQUlXelhkQjNuVlNMQVhldEVXYWIzS2JOTXc?oc=5",
+      "published": "2026-11-20T13:03:26+00:00",
+      "source": {
+        "name": "Neue Westfälische",
+        "url": "https://www.nw.de"
+      }
+    },
+    {
       "id": "dd7b65e200e3",
       "title": "Gleiche Wirkweise wie Viagra – neues Medikament verlangsamt Alzheimer in Tests deutlich - WELT",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQ2tSSHBPNkkzSnBRS21ucFFsLWFXWmNCYndJVnpHaEUtdHZLYk4xTzV2Y3NVSDVIV1NYVmZDYzNjWnZkcXFiaElEQXZkWmsycWEzTVBhV01DOV9uenJUay03SnNtV3hKN3FqRFpqanJqTW8waW5maEJuczYtMVk4dEJndU1Sei1UZGVOWk5SczJfakUzaXZySlcyUVBZQlpsVnM0Q0p5VG5mVjR3cVdPUWNWY1FSRnREQnFHWkd5Vm4yR2Y2Y3BVeTcySQ?oc=5",
@@ -34,16 +54,6 @@
       }
     },
     {
-      "id": "74e7b5224f3e",
-      "title": "BMG ruft neue Dachmarke ins Leben - zm-online",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVXMzWFVUWlk0NDh0ZmNFaGVabHJtdjNhV0pJa01jNlJqSFNzcWtmc3BnbldKcVdHYUNFZE9yZ2dzekJqT1FGSWx3TTJIVi1yNlVDb3pRUXpXYW1NdlFqQW44Z1E4Q3Nvc3Y5VVlHWUFUenI1b3ktN18xdHJrR0xteWZSZw?oc=5",
-      "published": "2026-11-18T12:04:00+00:00",
-      "source": {
-        "name": "zm-online",
-        "url": "https://www.zm-online.de"
-      }
-    },
-    {
       "id": "5f039df1c55b",
       "title": "dm setzt auf „Zukunftsfeld Gesundheit“ - Deutsche Apotheker Zeitung, DAZ",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWnJMWXN5YjluSTRmWnB5V2RXV3pJaHQ1WFJhUHNJWFhtODRaUmVIMUtDUTZaNTh3Y2RkbmplYkhWRExNZGxyQklHejlTendiaTJ6cEhVeENvU2NHd2ZIUGhLVUJOY3E3R0lweWRxQUFYZVctY3UwTng2NTY1cGxBSW8yMW5wZ2pOSjBtc3FqX0JmSE9pRWdrV3ZjQjF6WU54cHBhcQ?oc=5",
@@ -51,6 +61,16 @@
       "source": {
         "name": "Deutsche Apotheker Zeitung, DAZ",
         "url": "https://www.deutsche-apotheker-zeitung.de"
+      }
+    },
+    {
+      "id": "74e7b5224f3e",
+      "title": "BMG ruft neue Dachmarke ins Leben - zm-online",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVXMzWFVUWlk0NDh0ZmNFaGVabHJtdjNhV0pJa01jNlJqSFNzcWtmc3BnbldKcVdHYUNFZE9yZ2dzekJqT1FGSWx3TTJIVi1yNlVDb3pRUXpXYW1NdlFqQW44Z1E4Q3Nvc3Y5VVlHWUFUenI1b3ktN18xdHJrR0xteWZSZw?oc=5",
+      "published": "2026-11-18T12:04:00+00:00",
+      "source": {
+        "name": "zm-online",
+        "url": "https://www.zm-online.de"
       }
     },
     {
@@ -74,16 +94,6 @@
       }
     },
     {
-      "id": "39332d132397",
-      "title": "Gefälschte Pillen, echte Todesfälle: So täuschen Verpackungen - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWWtlUGtlSmtFWXZvdGJkYzl4Ymk2Y0lTUU8ydFRRSHJqMkpSMzM5R1ZhdGhNVENIbkZEcXl5elRjVUJtZUUzRzRoZjB6SUxoQjE2dFFoQ2tjSXZ5elJrVzVaUXVFWmJYeDkwaHNOeHJRZ29ZVmhsRXQwM09hSTZGbXBqZnJlUFNXb09uSDhKN0wyMkdYVERsb1JQSk9mYVFPeFY0cmt4dGFzQTZiZE96Uk12MmtmNFpRYlhlY2Y5N3dFbUJKaVdZTkxkdUNJbktNMDdTZ1hJSQ?oc=5",
-      "published": "2026-11-18T07:14:00+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
-      }
-    },
-    {
       "id": "78c6b0a17a6c",
       "title": "Schritte zählen: Wer im Alter mehr geht, hat geringere Gesundheitskosten - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQ1FjV3R3TFBXcVJNQzJqaUcwdW1zeGUzSDY1eU15aW5yb2Vnb0VPX24zNWNYNUV3d3BmNUdJamwzamV4azdTRXAxckgyempEUGRiS1BhczBaMG9QLXVPM2xPSXVXbWNVNTBYWV9RUk1DSTl6VVl1bkZHci1weHIyYUhDUWZVcTJNNDhmUkN0cE9Ja1lmTkV3N0pXMWhGQ0pmeVNrczhNSFV3bDQ?oc=5",
@@ -104,13 +114,13 @@
       }
     },
     {
-      "id": "1b0f96a0e8a4",
-      "title": "Schwergewicht für die Gesundheit: Neue Technik in Bad Oeynhausen sichert Arznei-Versorgung in OWL - Neue Westfälische",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQNGtlRXZ6b1F2UEREMXBNQ0Z1ZGdNQWpxSFE2NjRLQjQ5UFJ6TlkxWUZFWi1JamtTdHhud2tWNnZGRmxFaTN4ZzFQMUZIRTJJSUhJYkEwaE82WUZHTFVqOW5jNWc5aFBsZ1NfbXlzNmNERU5MR0VHU3B6ZmdwdVdNc1lMNjNiQkZZa21rWnBBWGI4TDE3N3VZRzA4OFNsSE5QQ3o2M21nUXNwQVpHOWFjTWcxRXdLUmlEVW9MOFN2RVYxcHB0eDE4U0t1ajVtMENROHE2NXVmYjJFMWNqYjFFcG5fTEsyZzRyanN1V2tfYXg5eEp5azRfb3FOOW9vZjFzQlgw?oc=5",
-      "published": "2026-11-19T04:00:00+00:00",
+      "id": "31725fa6c2a9",
+      "title": "Abnehmspritze schwächt Antibabypille: EMA warnt vor ungewollter Schwangerschaft - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOckc5aWhsSEEySmZ4UkE2MWxwdUhqMWc2TlBxQlN2QklkT2hGVXJOby1iV1lJS25tQ1ZUdU9uTGZnMWg5WW1fN2tqSllVNTNCUjM1blY1ei1PRG96djdpdTV3WXEtUkJsX3JCbUhjSnFGUTJTRzNTSnB1OVRYVWUtaFhkMEFkNThaVzdfSk1MNmJaMHFOT2RmYzdWOWpROEVMNzA1eXl3MzhYTGpDSWlYV0ZEbWtHU1FuR1ZpQzd0al8?oc=5",
+      "published": "2026-11-17T16:53:59+00:00",
       "source": {
-        "name": "Neue Westfälische",
-        "url": "https://www.nw.de"
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
       }
     },
     {
@@ -144,6 +154,16 @@
       }
     },
     {
+      "id": "1b0f96a0e8a4",
+      "title": "Schwergewicht für die Gesundheit: Neue Technik in Bad Oeynhausen sichert Arznei-Versorgung in OWL - Neue Westfälische",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQNGtlRXZ6b1F2UEREMXBNQ0Z1ZGdNQWpxSFE2NjRLQjQ5UFJ6TlkxWUZFWi1JamtTdHhud2tWNnZGRmxFaTN4ZzFQMUZIRTJJSUhJYkEwaE82WUZHTFVqOW5jNWc5aFBsZ1NfbXlzNmNERU5MR0VHU3B6ZmdwdVdNc1lMNjNiQkZZa21rWnBBWGI4TDE3N3VZRzA4OFNsSE5QQ3o2M21nUXNwQVpHOWFjTWcxRXdLUmlEVW9MOFN2RVYxcHB0eDE4U0t1ajVtMENROHE2NXVmYjJFMWNqYjFFcG5fTEsyZzRyanN1V2tfYXg5eEp5azRfb3FOOW9vZjFzQlgw?oc=5",
+      "published": "2026-11-19T04:00:00+00:00",
+      "source": {
+        "name": "Neue Westfälische",
+        "url": "https://www.nw.de"
+      }
+    },
+    {
       "id": "b31eebd4c85f",
       "title": "Demenz vorbeugen: Was die WHO empfiehlt und wovon sie abrät - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSmhZNFdxTTVrbVdSdEtZc1hXdW9sN2lqOHhSWE1JR2hKc0NZUE9KMjZ5NnpyeU9Ca3UxeG1pNl9Ra0djU2pocXlkcnl3QzNYODlBNkRTTVZjUGd2ZTRidnhJeXN0bDltcWs1U25NN2V1bjNtMkExOGhEOVV4a3o4V2tNV0RiT1M3M1gzTkUtanJwVy1pd1FfYlk3cw?oc=5",
@@ -154,10 +174,10 @@
       }
     },
     {
-      "id": "31725fa6c2a9",
-      "title": "Abnehmspritze schwächt Antibabypille: EMA warnt vor ungewollter Schwangerschaft - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOckc5aWhsSEEySmZ4UkE2MWxwdUhqMWc2TlBxQlN2QklkT2hGVXJOby1iV1lJS25tQ1ZUdU9uTGZnMWg5WW1fN2tqSllVNTNCUjM1blY1ei1PRG96djdpdTV3WXEtUkJsX3JCbUhjSnFGUTJTRzNTSnB1OVRYVWUtaFhkMEFkNThaVzdfSk1MNmJaMHFOT2RmYzdWOWpROEVMNzA1eXl3MzhYTGpDSWlYV0ZEbWtHU1FuR1ZpQzd0al8?oc=5",
-      "published": "2026-11-17T16:53:59+00:00",
+      "id": "1f713430b995",
+      "title": "\"Durchbruch\": EU lässt neues Medikament gegen aggressiven Krebs zu - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ2NmZlpocHg0bnBqUkVRMVlFZ1hZMlg0ZW1pWVphanEwOGI5R0RYdldCTGtSYXhCNkc0QldjRnRubFBkd3d4dUxaWlN6SUJGT0lFMllqVUZ0Y2p1NThxWTZKN3JsTGFRUlJHNW5NRUJFdGM3YWNUcjhxQUlpN3lzZ2MyMnFFeEZlc21NRVhfYnY3Vy1aay1OdEJZRC1UN1FBQmlvdWN5WWpHMWlLdTAxcHFPUENfUUZDbUE?oc=5",
+      "published": "2026-11-17T15:42:18+00:00",
       "source": {
         "name": "T-Online",
         "url": "https://www.t-online.de"
@@ -174,16 +194,6 @@
       }
     },
     {
-      "id": "1f713430b995",
-      "title": "\"Durchbruch\": EU lässt neues Medikament gegen aggressiven Krebs zu - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ2NmZlpocHg0bnBqUkVRMVlFZ1hZMlg0ZW1pWVphanEwOGI5R0RYdldCTGtSYXhCNkc0QldjRnRubFBkd3d4dUxaWlN6SUJGT0lFMllqVUZ0Y2p1NThxWTZKN3JsTGFRUlJHNW5NRUJFdGM3YWNUcjhxQUlpN3lzZ2MyMnFFeEZlc21NRVhfYnY3Vy1aay1OdEJZRC1UN1FBQmlvdWN5WWpHMWlLdTAxcHFPUENfUUZDbUE?oc=5",
-      "published": "2026-11-17T15:42:18+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
-      }
-    },
-    {
       "id": "68b28e6cef75",
       "title": "Warum Nasenspray nach einer Erkältung in den Müll gehört - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTHNpZmlQUnJaODhkR1Z3MWJNUUdWWlNfRXctZ1B6eXN6NmlfSk5yRWtLLXp0aHo5eDZwUGdhdWFXN0RqVVZ6UnBsa2d5U0FhSUlQOWY5RW9PazI4b09UY3pRb1VBenRyV01pR2p5MEs4N0dNRlBBSlpKYnVMUzRPTDJnZ3dRNWtZNktJZm91VGlLWW50OTZiTHZCSQ?oc=5",
@@ -191,16 +201,6 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "ff259a15f21c",
-      "title": "Hoffnung bei Volkskrankheit: Neues Medikament vor der Zulassung - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVklFUjNXYXVwWGV0RS1iR2RlY2VEem9yWFNlcUJJdDd6aE5jTkNnTk9uRGIxdTBfN1pwN2JZZ2FBS1IyN0RpSHBvSWZ2TUpnZDE3bDVyS0dCbzhxbFA5bVFnZWdnT29WMzNNMXRmbDNZOXFaMWxGMGs2UUtYSjhvc3dUaEs1TzZCM3pwQjYxTVhRWk5qWTNpb19kZDFjUzM5MnQ4ZVFoZWtxelVYbU8wUUVqVmVwc3dVdGc?oc=5",
-      "published": "2026-11-17T16:15:51+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
       }
     },
     {
@@ -254,23 +254,13 @@
       }
     },
     {
-      "id": "4202956c4334",
-      "title": "Warnung: Eine Gruppe von Bakterien mit starker Antibiotikaresistenz erhöht das Sterberisiko. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWl9WSzFWQTIxTVFJX2pHWF9PSHp5RlNVbHlkSXVZWUNmcG5NbFRWVGRtUld6WnB3cXJLZXM2dHN2c3hnWkx2a1VSX3J0RW5FTDZUS3FLMGJvQVM5d1V4azJfNUZVbTZaZks0Q1RnQ3k1ODhWQkNaQjhpNTAwaGh0eEFfMUhhQnJFdE5WaDFGdHBzbVYwdHRocXFlVQ?oc=5",
-      "published": "2026-11-20T16:01:51+00:00",
+      "id": "62cd1f564a2d",
+      "title": "Cholesterin-Senker absetzen: Studie zu Statinen zeigt unerwartetes Ergebnis - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUmRDZnQ3b3Exem4talZ0NE9UN21fMV9iQXo3TXczZGZBTUM0WllDOUx6U0lfb2FvcUhFdExBUVJhOXhnSzJMMmNXZVhPQ3lLMk9EakM3NnpBMFFVN1FuTTJrYl9lcjNjQTZvcHNmdXZNVUxpc0RydXlrRnl2dk5LRDJkRXNRX2R3U0cwU2l6bEpBN2c?oc=5",
+      "published": "2026-11-20T11:45:00+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "9fa13ce5acf5",
-      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
-      "published": "2026-03-31T20:25:43+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
       }
     },
     {
@@ -281,6 +271,16 @@
       "source": {
         "name": "oekotest.de",
         "url": "https://www.oekotest.de"
+      }
+    },
+    {
+      "id": "9fa13ce5acf5",
+      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
+      "published": "2026-03-31T20:25:43+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -301,6 +301,16 @@
       "source": {
         "name": "Deutsche Apotheker Zeitung, DAZ",
         "url": "https://www.deutsche-apotheker-zeitung.de"
+      }
+    },
+    {
+      "id": "4202956c4334",
+      "title": "Warnung: Eine Gruppe von Bakterien mit starker Antibiotikaresistenz erhöht das Sterberisiko. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWl9WSzFWQTIxTVFJX2pHWF9PSHp5RlNVbHlkSXVZWUNmcG5NbFRWVGRtUld6WnB3cXJLZXM2dHN2c3hnWkx2a1VSX3J0RW5FTDZUS3FLMGJvQVM5d1V4azJfNUZVbTZaZks0Q1RnQ3k1ODhWQkNaQjhpNTAwaGh0eEFfMUhhQnJFdE5WaDFGdHBzbVYwdHRocXFlVQ?oc=5",
+      "published": "2026-11-20T16:01:51+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -341,6 +351,16 @@
       "source": {
         "name": "Deutsche Apotheker Zeitung, DAZ",
         "url": "https://www.deutsche-apotheker-zeitung.de"
+      }
+    },
+    {
+      "id": "62359a83d4ac",
+      "title": "Arzneimittelmarkt in Deutschland: Analyse der Arzneimittelausgaben - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQlhtenAxN1hGNE9LX3hMemlaSDRGcy1XN2xpVEt3cTlhcDl2akpxZWo4bjY1N0RNVGRlRG5pSnBFUVA0V1l4WWc3QmxNc2ExRVIxU3RZQldOcVZpbVJEak9tZFFQNFJQUUdJcmluYzY2YzV3M01qdjkxY3pvTVBGUWstMHJJVGtjR0JQcWhiTDNjejA?oc=5",
+      "published": "2025-05-23T19:10:43+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -401,16 +421,6 @@
       "source": {
         "name": "MeinBezirk.at",
         "url": "https://www.meinbezirk.at"
-      }
-    },
-    {
-      "id": "5d81cd09e3f7",
-      "title": "Gesundheit - Arzneimittel-Experten: Viagra weiter nicht ohne Rezept - Gesundheit - SZ.de - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWktNUkFDTmVsMmlKeW5kaDAzQjlZUDVuczZyeGo0WExZMTlIUWNzYzVOTllKeVRMZkpvLW9pbGFDRHJScks3dEVTd3BBRW9fWmJ0TFpxbm9SVm9RU2RYdEhHQ29FYmNEdUNuUDRzalRBWGdwNm1NU2J2cUJpRHR2T1hjYmllakVuMDctbkt5bkc3S1ZabGc3eWQ4RVJWS3k3bG96UVJXRFNYenhGSUhvZDhUMDR6Nm9aNmhiaF9DRHM4NnFRZ2IwbEQzNVhfWWpCUjZ2b05iSjUzdmR1SjVNTHMyekNxWk0?oc=5",
-      "published": "2023-07-11T07:00:00+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
       }
     },
     {
