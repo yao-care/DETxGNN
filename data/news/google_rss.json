@@ -1,26 +1,16 @@
 {
-  "fetched_at": "2026-11-20T23:45:03.348759+00:00",
+  "fetched_at": "2026-11-21T05:59:57.870884+00:00",
   "source": "Google News Health RSS",
-  "count": 43,
+  "count": 41,
   "articles": [
     {
-      "id": "cb7bac03f4e5",
-      "title": "Krankenversicherung: Moderne Arzneimittel sind vielen Menschen wichtiger als stabile Beiträge - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOa1RqRnJKaWFZX3hHVHVWLWF5X25aWXhuVVY3ajBmWl9FeFN2WkJyM0pOb3hKNVB1Q0h6VXIwems4MzJKb3NGbkVEZFhPTXF0MFBHQVBfR0NSckprem5vQWdfNGxUcnk3YzNuSFBlVkRTbUtCczhNRkQ4X3JTbmprVGRqVko1TDJlSFlmNGp3b3hTQm5pZ2FUQTUydmM3LXJTUjcwT3c1YXJxQmEtTkZDY25tMldUR2NtLXZTZGZfdjRpZzNsZDZUMU15NXQ3SVZvenM5Y3NXRktvbGc4bVRhMXVGVQ?oc=5",
+      "id": "c3f15605c33a",
+      "title": "Krankenversicherung: Moderne Arzneimittel sind vielen Menschen wichtiger als stabile Beiträge - Hamburger Abendblatt",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdTV3eTdTRG51TGJqOFVfVkVMQjh6RGlreHdncHR0elJHVGRmdFhHV0ExV3VESVB5a0hsb0NaWXBEYmZKby1fWFJZQUJiNnYxdTZwSnVvcUt2VmVWM2xGRGJKNXZfS00xNFpvcnJmdGtEcXVWQnlxb2pkZHR0RWxQbkJORHRuQ1JZRnFfU2VOY0o4VWhZYm9JSUQwRDdsRm95Q2RIM3hUMmZqT2hJN3BTUGxKaU5GdHU5bW8yWEZzN2pyUXZsM09kRk9mQU9CS1AzZlVGUVM2eVJoQWlFSnRlRW5Ddw?oc=5",
       "published": "2026-11-20T20:00:00+00:00",
       "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
-      }
-    },
-    {
-      "id": "c93bd17dad42",
-      "title": "Antibiotika gezielt einsetzen: Therapieoptionen bei Infekten breiter denken - gesundheit adhoc",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVlpfRTZ0UW1VZUFrbVV1Tlo0eEJHc2kxdVQ2bUY5NFNsYnBMZjR4T3dwVVVSbllrOC11TU9naDktVHUzNUVGaGRnWlJkbWdpZU9kdGlhTWVJUjZERGtWRlhSbWFJeG1DTXc3VFFhNDRqY25aXzBreDJCbUZjcDlmdUxKYjM3TVZlRmVocUl4Mlk4cjFEcEJqQ1lvVFF4aHRuUHktSmZMaHFqdHc?oc=5",
-      "published": "2026-11-20T12:42:51+00:00",
-      "source": {
-        "name": "gesundheit adhoc",
-        "url": "https://www.gesundheit-adhoc.de"
+        "name": "Hamburger Abendblatt",
+        "url": "https://www.abendblatt.de"
       }
     },
     {
@@ -34,13 +24,13 @@
       }
     },
     {
-      "id": "334cee353ce6",
-      "title": "Notdienstapotheke - was Sie dort bekommen - Neue Westfälische",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQOHJRcmFIaWsxbHEydERRdkplcGt5RlJrWllJQWR0aEZxTHlvSkYxU0NmLXJ6YkFvYmxFZHc1ei0tVFdqQmoxVUkzakFLRkVRUWtiaDdETXhoeXZtNE9nem5qZzlXVjB2X2tHdVVwTzlMQUlXelhkQjNuVlNMQVhldEVXYWIzS2JOTXc?oc=5",
-      "published": "2026-11-20T13:03:26+00:00",
+      "id": "c93bd17dad42",
+      "title": "Antibiotika gezielt einsetzen: Therapieoptionen bei Infekten breiter denken - gesundheit adhoc",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVlpfRTZ0UW1VZUFrbVV1Tlo0eEJHc2kxdVQ2bUY5NFNsYnBMZjR4T3dwVVVSbllrOC11TU9naDktVHUzNUVGaGRnWlJkbWdpZU9kdGlhTWVJUjZERGtWRlhSbWFJeG1DTXc3VFFhNDRqY25aXzBreDJCbUZjcDlmdUxKYjM3TVZlRmVocUl4Mlk4cjFEcEJqQ1lvVFF4aHRuUHktSmZMaHFqdHc?oc=5",
+      "published": "2026-11-20T12:42:51+00:00",
       "source": {
-        "name": "Neue Westfälische",
-        "url": "https://www.nw.de"
+        "name": "gesundheit adhoc",
+        "url": "https://www.gesundheit-adhoc.de"
       }
     },
     {
@@ -54,6 +44,16 @@
       }
     },
     {
+      "id": "4f17412a99ee",
+      "title": "dm baut Gesundheitsgeschäft aus: Arzneimittel und Checks rücken in den Fokus - DWN | Deutsche Wirtschaftsnachrichten",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOeXM4M2hYTzhMQV9xRXd4eHlFc3lfc1BIU3FmTnU4RlJqRkNjVzRFM09SN29CN1k1M0h1N0ozVjhaSFlfN05udEk3NlhKeGJvUHp1Y05CWndBTFJXb0pRdmxkVzZqOXcxdUJtRmdDWV9vTC1iX1E4QUN2TUhjOU1TV1d4bWNkQTcyZ1VJMEFWS0p5czNwd3VKal9kNFNfbWRFSEo5SW1GTEpwaktabjk0d1JPekZnWk1YdjlBSDdLZDZzSkhWS0Zz?oc=5",
+      "published": "2026-11-19T14:20:00+00:00",
+      "source": {
+        "name": "DWN | Deutsche Wirtschaftsnachrichten",
+        "url": "https://deutsche-wirtschafts-nachrichten.de"
+      }
+    },
+    {
       "id": "5f039df1c55b",
       "title": "dm setzt auf „Zukunftsfeld Gesundheit“ - Deutsche Apotheker Zeitung, DAZ",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWnJMWXN5YjluSTRmWnB5V2RXV3pJaHQ1WFJhUHNJWFhtODRaUmVIMUtDUTZaNTh3Y2RkbmplYkhWRExNZGxyQklHejlTendiaTJ6cEhVeENvU2NHd2ZIUGhLVUJOY3E3R0lweWRxQUFYZVctY3UwTng2NTY1cGxBSW8yMW5wZ2pOSjBtc3FqX0JmSE9pRWdrV3ZjQjF6WU54cHBhcQ?oc=5",
@@ -61,26 +61,6 @@
       "source": {
         "name": "Deutsche Apotheker Zeitung, DAZ",
         "url": "https://www.deutsche-apotheker-zeitung.de"
-      }
-    },
-    {
-      "id": "74e7b5224f3e",
-      "title": "BMG ruft neue Dachmarke ins Leben - zm-online",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVXMzWFVUWlk0NDh0ZmNFaGVabHJtdjNhV0pJa01jNlJqSFNzcWtmc3BnbldKcVdHYUNFZE9yZ2dzekJqT1FGSWx3TTJIVi1yNlVDb3pRUXpXYW1NdlFqQW44Z1E4Q3Nvc3Y5VVlHWUFUenI1b3ktN18xdHJrR0xteWZSZw?oc=5",
-      "published": "2026-11-18T12:04:00+00:00",
-      "source": {
-        "name": "zm-online",
-        "url": "https://www.zm-online.de"
-      }
-    },
-    {
-      "id": "03b63ce6967a",
-      "title": "Ärzte suchen mit KI nach Arzneimitteln - apotheke adhoc",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUWR3ZjB2VnhlcHB5VWFYRUV6OURwMFBmbzdqc1dwY2M0djYwaTNSaDFBQVFhekp6dmlnSzh1MjVlOXowc2tfMFNUNzB3c0lqcm1Eb0xWazNYMDhlaE1IeGRBaFAzUHBHVV9KV2ZITExtX0dVdmdJc0ZsdUViaHJtSGlPLUViM2h2S2NMaG82WlRwdGVVcWlZS0tFMXBONzQ?oc=5",
-      "published": "2026-11-18T14:44:44+00:00",
-      "source": {
-        "name": "apotheke adhoc",
-        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
@@ -94,6 +74,26 @@
       }
     },
     {
+      "id": "03b63ce6967a",
+      "title": "Ärzte suchen mit KI nach Arzneimitteln - apotheke adhoc",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUWR3ZjB2VnhlcHB5VWFYRUV6OURwMFBmbzdqc1dwY2M0djYwaTNSaDFBQVFhekp6dmlnSzh1MjVlOXowc2tfMFNUNzB3c0lqcm1Eb0xWazNYMDhlaE1IeGRBaFAzUHBHVV9KV2ZITExtX0dVdmdJc0ZsdUViaHJtSGlPLUViM2h2S2NMaG82WlRwdGVVcWlZS0tFMXBONzQ?oc=5",
+      "published": "2026-11-18T14:44:44+00:00",
+      "source": {
+        "name": "apotheke adhoc",
+        "url": "https://www.apotheke-adhoc.de"
+      }
+    },
+    {
+      "id": "39332d132397",
+      "title": "Gefälschte Pillen, echte Todesfälle: So täuschen Verpackungen - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWWtlUGtlSmtFWXZvdGJkYzl4Ymk2Y0lTUU8ydFRRSHJqMkpSMzM5R1ZhdGhNVENIbkZEcXl5elRjVUJtZUUzRzRoZjB6SUxoQjE2dFFoQ2tjSXZ5elJrVzVaUXVFWmJYeDkwaHNOeHJRZ29ZVmhsRXQwM09hSTZGbXBqZnJlUFNXb09uSDhKN0wyMkdYVERsb1JQSk9mYVFPeFY0cmt4dGFzQTZiZE96Uk12MmtmNFpRYlhlY2Y5N3dFbUJKaVdZTkxkdUNJbktNMDdTZ1hJSQ?oc=5",
+      "published": "2026-11-18T07:14:00+00:00",
+      "source": {
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
+      }
+    },
+    {
       "id": "78c6b0a17a6c",
       "title": "Schritte zählen: Wer im Alter mehr geht, hat geringere Gesundheitskosten - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQ1FjV3R3TFBXcVJNQzJqaUcwdW1zeGUzSDY1eU15aW5yb2Vnb0VPX24zNWNYNUV3d3BmNUdJamwzamV4azdTRXAxckgyempEUGRiS1BhczBaMG9QLXVPM2xPSXVXbWNVNTBYWV9RUk1DSTl6VVl1bkZHci1weHIyYUhDUWZVcTJNNDhmUkN0cE9Ja1lmTkV3N0pXMWhGQ0pmeVNrczhNSFV3bDQ?oc=5",
@@ -101,6 +101,16 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "1b0f96a0e8a4",
+      "title": "Schwergewicht für die Gesundheit: Neue Technik in Bad Oeynhausen sichert Arznei-Versorgung in OWL - Neue Westfälische",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQNGtlRXZ6b1F2UEREMXBNQ0Z1ZGdNQWpxSFE2NjRLQjQ5UFJ6TlkxWUZFWi1JamtTdHhud2tWNnZGRmxFaTN4ZzFQMUZIRTJJSUhJYkEwaE82WUZHTFVqOW5jNWc5aFBsZ1NfbXlzNmNERU5MR0VHU3B6ZmdwdVdNc1lMNjNiQkZZa21rWnBBWGI4TDE3N3VZRzA4OFNsSE5QQ3o2M21nUXNwQVpHOWFjTWcxRXdLUmlEVW9MOFN2RVYxcHB0eDE4U0t1ajVtMENROHE2NXVmYjJFMWNqYjFFcG5fTEsyZzRyanN1V2tfYXg5eEp5azRfb3FOOW9vZjFzQlgw?oc=5",
+      "published": "2026-11-19T04:00:00+00:00",
+      "source": {
+        "name": "Neue Westfälische",
+        "url": "https://www.nw.de"
       }
     },
     {
@@ -114,33 +124,23 @@
       }
     },
     {
-      "id": "31725fa6c2a9",
-      "title": "Abnehmspritze schwächt Antibabypille: EMA warnt vor ungewollter Schwangerschaft - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOckc5aWhsSEEySmZ4UkE2MWxwdUhqMWc2TlBxQlN2QklkT2hGVXJOby1iV1lJS25tQ1ZUdU9uTGZnMWg5WW1fN2tqSllVNTNCUjM1blY1ei1PRG96djdpdTV3WXEtUkJsX3JCbUhjSnFGUTJTRzNTSnB1OVRYVWUtaFhkMEFkNThaVzdfSk1MNmJaMHFOT2RmYzdWOWpROEVMNzA1eXl3MzhYTGpDSWlYV0ZEbWtHU1FuR1ZpQzd0al8?oc=5",
-      "published": "2026-11-17T16:53:59+00:00",
+      "id": "a7647a857bca",
+      "title": "Wir fordern ein striktes Vorgehen gegen nicht lizenzierte medizinische Einrichtungen. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQ00yRlRvNG1KV3gzdDhCQ0xfQXFPZmlFQURaTXJzUk90aHZhNl83d19tLTI5SmxZeU4tLVJ4aG5UWDRxQmplOVFseG1YVHlqRlZWeUZEMi1FQ2JkcGlCdHFSN0d3XzdqU0R4R2hSc2pPNWh0eDdlM1NUTEN6M3VYNGpLaHg?oc=5",
+      "published": "2026-11-21T05:35:08+00:00",
       "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
-      "id": "5778408597ae",
-      "title": "Abnehmspritze: Warum Forscher bereits an neuen Wirkstoffen arbeiten - STERN.de",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZFlIWU1SWGF6bVFRSkFxS2F6bFkyUEZ5UVV0TWRkcTRub1lUTDUyOVdia01nSGdYcksyZWVMcU9uMmZBd3hwdy1LNHZjVGxmbjMyekh4c09BUXN6Qlk4NmhkU1owdDc0WWotVGdlSGtISW1lRFlBVng1QmgzWC1KRWtIeUJYY0I2Zm8xWWtpNDRqU18zZW9GUDVvZERjYklSdVZ3R2ltMmFZMnF4d0t4TGZVaw?oc=5",
-      "published": "2026-11-15T11:06:00+00:00",
+      "id": "8ced11fc184e",
+      "title": "Notdienstapotheke - was Sie dort bekommen - noz.de",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOLWtpeHdXMmkxSHNjTEtlYmZTbkRlSlQ1N3lsbjhmaGpsaU1GUnNqQlVKNXpldkc4Mlcyb2p0WG1yXzRGX2ZnXzFKQXcxa2RNWk1EMW9VeWE5LUdfUHIyeXhGbTcyUFZuODd1RzBkazRDUDNlMGNVU0lja0RBMmxtekFqN1ExdXkydEQzUi1EUXJKTEFHWEJMZkJmQWxHTlFDNEFEdGlIelBycVk?oc=5",
+      "published": "2026-11-20T13:03:00+00:00",
       "source": {
-        "name": "STERN.de",
-        "url": "https://www.stern.de"
-      }
-    },
-    {
-      "id": "b08f11be337a",
-      "title": "Gesundheit ist Zukunftsfeld für dm - Angebot wird ausgebaut - WELT",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQLVBWX2l3X2xMallSVFgzY2FtWE1yUkFvLWJiQmdLay1ySVV6WWdlSXMtLW40S1diTTJkOGRUaE1mOGhqS0sxTEppbHNGZ2tCeFo1X2tLd01nWXU3NzFubUw3cW9UcS1iV190Z3RUdTQxN3ZyNEJKQVkteVE1U2pXVUthTFJfSUY0eGdIbUtJaFRnb1dSQ1AxQzhqbnZkSDBTWnJWR2hOMG50YzRld1JnVjBUc3VHdEE1UmkyOUpPSlR6SDlHaHlweTVNNm5mWVFra2gtQmVFeUZxM2hGNXc?oc=5",
-      "published": "2026-11-19T11:18:45+00:00",
-      "source": {
-        "name": "WELT",
-        "url": "https://www.welt.de"
+        "name": "noz.de",
+        "url": "https://www.noz.de"
       }
     },
     {
@@ -151,16 +151,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "1b0f96a0e8a4",
-      "title": "Schwergewicht für die Gesundheit: Neue Technik in Bad Oeynhausen sichert Arznei-Versorgung in OWL - Neue Westfälische",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQNGtlRXZ6b1F2UEREMXBNQ0Z1ZGdNQWpxSFE2NjRLQjQ5UFJ6TlkxWUZFWi1JamtTdHhud2tWNnZGRmxFaTN4ZzFQMUZIRTJJSUhJYkEwaE82WUZHTFVqOW5jNWc5aFBsZ1NfbXlzNmNERU5MR0VHU3B6ZmdwdVdNc1lMNjNiQkZZa21rWnBBWGI4TDE3N3VZRzA4OFNsSE5QQ3o2M21nUXNwQVpHOWFjTWcxRXdLUmlEVW9MOFN2RVYxcHB0eDE4U0t1ajVtMENROHE2NXVmYjJFMWNqYjFFcG5fTEsyZzRyanN1V2tfYXg5eEp5azRfb3FOOW9vZjFzQlgw?oc=5",
-      "published": "2026-11-19T04:00:00+00:00",
-      "source": {
-        "name": "Neue Westfälische",
-        "url": "https://www.nw.de"
       }
     },
     {
@@ -184,36 +174,6 @@
       }
     },
     {
-      "id": "9f446628b029",
-      "title": "Medikamente: Forscher entdecken Faktor, der bei der Einnahme eine wichtige Rolle spielt - WELT",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOUHgweEpmckFQT2hPS1FwallYNEdKTWJCdVY2NUE5NGlTdU9HUEJ1OGhfblM3Yl9qY0xXM3hFa0ZobDNOT3dpRjRYM2drRWVKTF9iZkV6Rk1jSms4RnJPZEt4bXlVYVNzQkhfMGVPMGt6Slg4N2plNGNzOTVzMmZ4UngzLTUtMzFoeVVXQUtkM0FfWUltT0pITU11WGlZWENiX3dOalR5OHl5SWpDSGtMUE1ITGFjMmMwU1A1bmp3V1hOTTBvVXZtUE1nVy14el8wYzBickZwc0pGbTVuXzJEd3NUNVdKRWdNbUJv?oc=5",
-      "published": "2026-11-18T06:50:03+00:00",
-      "source": {
-        "name": "WELT",
-        "url": "https://www.welt.de"
-      }
-    },
-    {
-      "id": "68b28e6cef75",
-      "title": "Warum Nasenspray nach einer Erkältung in den Müll gehört - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTHNpZmlQUnJaODhkR1Z3MWJNUUdWWlNfRXctZ1B6eXN6NmlfSk5yRWtLLXp0aHo5eDZwUGdhdWFXN0RqVVZ6UnBsa2d5U0FhSUlQOWY5RW9PazI4b09UY3pRb1VBenRyV01pR2p5MEs4N0dNRlBBSlpKYnVMUzRPTDJnZ3dRNWtZNktJZm91VGlLWW50OTZiTHZCSQ?oc=5",
-      "published": "2026-11-17T10:25:25+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "4f76f7a8c6dd",
-      "title": "Neue Bevölkerungsbefragung zeigt: Neun von zehn Menschen befürworten ... - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1CUUpWOFpiaC1jNVVoM3pkRW92WHpCWF82ZklOQXNiN3dnLUFQd2pnR3lUMDVub2k0eENISVdvM1Zoc29sSnlPRDR5eVczMFRXYndBTFhETQ?oc=5",
-      "published": "2026-11-18T09:30:08+00:00",
-      "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
-      }
-    },
-    {
       "id": "bab5cfddda71",
       "title": "Fischölkapseln fürs Gedächtnis? Studie findet nach zwei Jahren keinen Vorteil - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNd19sTlpJZjd2YllvMnJXOE9pRHM1NTdJRktnS3Q5eThzdzZ6R0RhVGR4U3pucUhFbnRQbkJoN0tTdjFKbGQ1bTZVOFNVOURnVnlsNEFQRmRFWXVfX2tqSGZSVXBVc095aUpETVpUNzFabWN5SWltX3JEYUk1akFfc3VMMDBCWVlnUl9ianRoRmFfa2kxTGlQTEd0dDFNUWFTd3VTb2F6VUpDYXZHTFZNWXRVUnVfdw?oc=5",
@@ -231,6 +191,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "5778408597ae",
+      "title": "Abnehmspritze: Warum Forscher bereits an neuen Wirkstoffen arbeiten - STERN.de",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZFlIWU1SWGF6bVFRSkFxS2F6bFkyUEZ5UVV0TWRkcTRub1lUTDUyOVdia01nSGdYcksyZWVMcU9uMmZBd3hwdy1LNHZjVGxmbjMyekh4c09BUXN6Qlk4NmhkU1owdDc0WWotVGdlSGtISW1lRFlBVng1QmgzWC1KRWtIeUJYY0I2Zm8xWWtpNDRqU18zZW9GUDVvZERjYklSdVZ3R2ltMmFZMnF4d0t4TGZVaw?oc=5",
+      "published": "2026-11-15T11:06:00+00:00",
+      "source": {
+        "name": "STERN.de",
+        "url": "https://www.stern.de"
       }
     },
     {
@@ -254,13 +224,13 @@
       }
     },
     {
-      "id": "62cd1f564a2d",
-      "title": "Cholesterin-Senker absetzen: Studie zu Statinen zeigt unerwartetes Ergebnis - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUmRDZnQ3b3Exem4talZ0NE9UN21fMV9iQXo3TXczZGZBTUM0WllDOUx6U0lfb2FvcUhFdExBUVJhOXhnSzJMMmNXZVhPQ3lLMk9EakM3NnpBMFFVN1FuTTJrYl9lcjNjQTZvcHNmdXZNVUxpc0RydXlrRnl2dk5LRDJkRXNRX2R3U0cwU2l6bEpBN2c?oc=5",
-      "published": "2026-11-20T11:45:00+00:00",
+      "id": "caf9e248da4b",
+      "title": "Gefährliches Heightmaxxing: Erdafitinib als Wachstumsturbo missbraucht - Deutsche Apotheker Zeitung, DAZ",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVGpNWEJTSmMzaXEtTUc4eGtJYkdEVFFUUTBEVVUtRnFneWJNRG5UYlBubUk1SWpEc3hkNTlBQlI2T1BrN2gwYXRhWDN1eGItZ2d0LUlaRHdFU0dMMmtZMERlVHladWQwRFdqVk82ekk3X3FUVWN3MWNtYmNuOEJCZGlqR2draW5lWTJ2QmphTzFNamNNVzlJUjhqNVFKLUlmM2N4TEMwNVJkVVB2d3otMnljQWx5RUdSLUZNT09BY1R0c1BlN3hEMVVrczlya1dQTlE?oc=5",
+      "published": "2026-11-18T07:00:00+00:00",
       "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
+        "name": "Deutsche Apotheker Zeitung, DAZ",
+        "url": "https://www.deutsche-apotheker-zeitung.de"
       }
     },
     {
@@ -294,13 +264,13 @@
       }
     },
     {
-      "id": "caf9e248da4b",
-      "title": "Gefährliches Heightmaxxing: Erdafitinib als Wachstumsturbo missbraucht - Deutsche Apotheker Zeitung, DAZ",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVGpNWEJTSmMzaXEtTUc4eGtJYkdEVFFUUTBEVVUtRnFneWJNRG5UYlBubUk1SWpEc3hkNTlBQlI2T1BrN2gwYXRhWDN1eGItZ2d0LUlaRHdFU0dMMmtZMERlVHladWQwRFdqVk82ekk3X3FUVWN3MWNtYmNuOEJCZGlqR2draW5lWTJ2QmphTzFNamNNVzlJUjhqNVFKLUlmM2N4TEMwNVJkVVB2d3otMnljQWx5RUdSLUZNT09BY1R0c1BlN3hEMVVrczlya1dQTlE?oc=5",
-      "published": "2026-11-18T07:00:00+00:00",
+      "id": "62cd1f564a2d",
+      "title": "Cholesterin-Senker absetzen: Studie zu Statinen zeigt unerwartetes Ergebnis - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUmRDZnQ3b3Exem4talZ0NE9UN21fMV9iQXo3TXczZGZBTUM0WllDOUx6U0lfb2FvcUhFdExBUVJhOXhnSzJMMmNXZVhPQ3lLMk9EakM3NnpBMFFVN1FuTTJrYl9lcjNjQTZvcHNmdXZNVUxpc0RydXlrRnl2dk5LRDJkRXNRX2R3U0cwU2l6bEpBN2c?oc=5",
+      "published": "2026-11-20T11:45:00+00:00",
       "source": {
-        "name": "Deutsche Apotheker Zeitung, DAZ",
-        "url": "https://www.deutsche-apotheker-zeitung.de"
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
       }
     },
     {
@@ -324,6 +294,16 @@
       }
     },
     {
+      "id": "6a43c63a5420",
+      "title": "Das Risiko, aufgrund von Arzneimittelresistenzen die letzte Überlebenschance zu verlieren. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQl9aMkI1VXdzTjdSZk1yRmpZUjBxQ0kwNkVfLVZiLWtRYnZqb0FXRmRja3ltd3BHNXlBczhST3hUb2dIeXJmNXpBSlMxeEtVY0hfYnREckYyRFNzSlVaQ0R2WmcyZnlhSzZMVDVuODUtVUFzM1RPSlU3bUVyMEM4eTVNaS1VUjZDd1hv?oc=5",
+      "published": "2026-11-18T08:33:33+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "698a8c64d6d1",
       "title": "Risikofaktor Lipoprotein(a): Neues Medikament erfüllt die Hoffnungen nicht - Tages-Anzeiger",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeFlLNU1qSXJvQXN6RjVVcHVncWhBeERRRng1UFUyUy1IVDlCUlB0WE91S2otT0YtRTZ1Z19jSHpwM256clFqVG16ZzlaVWxGbHA0aEFIWjNtYzlsT2piQTBOSTAtMEx2djNVNlRnVUZxdEJzcUk5QWhtdEozRGVfZlpmVy1zNTcz?oc=5",
@@ -334,16 +314,6 @@
       }
     },
     {
-      "id": "618351e249d1",
-      "title": "Haushaltspläne: Mehr Geld für Produktion kritischer Arzneimittel, keine Mittel für Gesundheit und Pflege - Deutsches Ärzteblatt",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNa19XTmtzLWdGTUNhcTkyNVVMZnhDVnlNVkxETGwwVDZ1X3dFVExwZEpDZU0wREhkUk91WEgwV0lJSXEwNTJydG1TbjVRV0FVRy1rUDhwYWtBeVdkYVJuSXo2SmhPUHJ1cWRZYWc3YW5pN21mc18wZUp4Y2FSZG53QnJQZk1RZ2FFeXBxN2VkUDRFYy16ZjgxQkNSc3ppZ1ZPWGdNdG9SanVveHNHc2ZUQU5qV2JDQXpINnVVd2x5eXplUnBDZjJCdGJLRk9QemRtaEpvYlNrTjM0anBWaDRDbHBYY1d2NUtZY1N2Zmx1SWU?oc=5",
-      "published": "2025-11-11T08:00:00+00:00",
-      "source": {
-        "name": "Deutsches Ärzteblatt",
-        "url": "https://www.aerzteblatt.de"
-      }
-    },
-    {
       "id": "3a8cb7f967f0",
       "title": "RKI, PEI und BfArM werden zu „Die Gesundheitsinstitute“ - Deutsche Apotheker Zeitung, DAZ",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMWpEQW9yU0xrSnlvVzVhYnFFZlJnRzVzc1pqbFE5UUhJWDBUMXlsQTJWdnJJcjJ1cjQ2MFBLQ2lSZzZPRTdmUG94X2NoengyTEhOYkZvdXJNYjdHSXg2SjM1bkZHYlE5SmpoM2lfdUt4eUhzaEtvU1AxLWpHYnNYWUZJQ21tU241NW03Q3RDejM5blEwMzc3OWxrRWxZOFJrUDh0OXptNW1Lc1hOYnR2VFBNdVlCdThHT1E?oc=5",
@@ -351,6 +321,16 @@
       "source": {
         "name": "Deutsche Apotheker Zeitung, DAZ",
         "url": "https://www.deutsche-apotheker-zeitung.de"
+      }
+    },
+    {
+      "id": "618351e249d1",
+      "title": "Haushaltspläne: Mehr Geld für Produktion kritischer Arzneimittel, keine Mittel für Gesundheit und Pflege - Deutsches Ärzteblatt",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNa19XTmtzLWdGTUNhcTkyNVVMZnhDVnlNVkxETGwwVDZ1X3dFVExwZEpDZU0wREhkUk91WEgwV0lJSXEwNTJydG1TbjVRV0FVRy1rUDhwYWtBeVdkYVJuSXo2SmhPUHJ1cWRZYWc3YW5pN21mc18wZUp4Y2FSZG53QnJQZk1RZ2FFeXBxN2VkUDRFYy16ZjgxQkNSc3ppZ1ZPWGdNdG9SanVveHNHc2ZUQU5qV2JDQXpINnVVd2x5eXplUnBDZjJCdGJLRk9QemRtaEpvYlNrTjM0anBWaDRDbHBYY1d2NUtZY1N2Zmx1SWU?oc=5",
+      "published": "2025-11-11T08:00:00+00:00",
+      "source": {
+        "name": "Deutsches Ärzteblatt",
+        "url": "https://www.aerzteblatt.de"
       }
     },
     {
