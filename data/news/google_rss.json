@@ -1,16 +1,16 @@
 {
-  "fetched_at": "2026-11-21T05:59:57.870884+00:00",
+  "fetched_at": "2026-11-21T14:31:51.969085+00:00",
   "source": "Google News Health RSS",
-  "count": 41,
+  "count": 36,
   "articles": [
     {
-      "id": "c3f15605c33a",
-      "title": "Krankenversicherung: Moderne Arzneimittel sind vielen Menschen wichtiger als stabile Beiträge - Hamburger Abendblatt",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdTV3eTdTRG51TGJqOFVfVkVMQjh6RGlreHdncHR0elJHVGRmdFhHV0ExV3VESVB5a0hsb0NaWXBEYmZKby1fWFJZQUJiNnYxdTZwSnVvcUt2VmVWM2xGRGJKNXZfS00xNFpvcnJmdGtEcXVWQnlxb2pkZHR0RWxQbkJORHRuQ1JZRnFfU2VOY0o4VWhZYm9JSUQwRDdsRm95Q2RIM3hUMmZqT2hJN3BTUGxKaU5GdHU5bW8yWEZzN2pyUXZsM09kRk9mQU9CS1AzZlVGUVM2eVJoQWlFSnRlRW5Ddw?oc=5",
-      "published": "2026-11-20T20:00:00+00:00",
+      "id": "cb7bac03f4e5",
+      "title": "Krankenversicherung: Moderne Arzneimittel sind vielen Menschen wichtiger als stabile Beiträge - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOa1RqRnJKaWFZX3hHVHVWLWF5X25aWXhuVVY3ajBmWl9FeFN2WkJyM0pOb3hKNVB1Q0h6VXIwems4MzJKb3NGbkVEZFhPTXF0MFBHQVBfR0NSckprem5vQWdfNGxUcnk3YzNuSFBlVkRTbUtCczhNRkQ4X3JTbmprVGRqVko1TDJlSFlmNGp3b3hTQm5pZ2FUQTUydmM3LXJTUjcwT3c1YXJxQmEtTkZDY25tMldUR2NtLXZTZGZfdjRpZzNsZDZUMU15NXQ3SVZvenM5Y3NXRktvbGc4bVRhMXVGVQ?oc=5",
+      "published": "2026-11-21T06:45:08+00:00",
       "source": {
-        "name": "Hamburger Abendblatt",
-        "url": "https://www.abendblatt.de"
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
       }
     },
     {
@@ -24,13 +24,13 @@
       }
     },
     {
-      "id": "c93bd17dad42",
-      "title": "Antibiotika gezielt einsetzen: Therapieoptionen bei Infekten breiter denken - gesundheit adhoc",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVlpfRTZ0UW1VZUFrbVV1Tlo0eEJHc2kxdVQ2bUY5NFNsYnBMZjR4T3dwVVVSbllrOC11TU9naDktVHUzNUVGaGRnWlJkbWdpZU9kdGlhTWVJUjZERGtWRlhSbWFJeG1DTXc3VFFhNDRqY25aXzBreDJCbUZjcDlmdUxKYjM3TVZlRmVocUl4Mlk4cjFEcEJqQ1lvVFF4aHRuUHktSmZMaHFqdHc?oc=5",
-      "published": "2026-11-20T12:42:51+00:00",
+      "id": "e988fd9cc7ac",
+      "title": "Vorschläge zur Änderung von sechs Gesetzen, die die Transparenz bei der Arzneimittelpreisgestaltung sowie bei medizinischen Untersuchungs- und Behandlungsleistungen erhöhen sollen. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZkZJc25Sc1pjc3ZRU3N3eUhCTl9STWpiWC1kYi1KbEpjMTItWW1MTDlyckMyaTlQTDAtQXA4VXU4Rlp4TDgzMm9Cc1dEaExoQlM3XzhFeUl1dkdidExYeHkxVktOV01naEV2QjN4Szc5RTJJZFdBNWwwdjJ6S21ET0tYY2RRSE5Rekt0Uy1yZXRaT3ZIWTRHMGJxbw?oc=5",
+      "published": "2026-11-21T13:31:31+00:00",
       "source": {
-        "name": "gesundheit adhoc",
-        "url": "https://www.gesundheit-adhoc.de"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -44,16 +44,6 @@
       }
     },
     {
-      "id": "4f17412a99ee",
-      "title": "dm baut Gesundheitsgeschäft aus: Arzneimittel und Checks rücken in den Fokus - DWN | Deutsche Wirtschaftsnachrichten",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOeXM4M2hYTzhMQV9xRXd4eHlFc3lfc1BIU3FmTnU4RlJqRkNjVzRFM09SN29CN1k1M0h1N0ozVjhaSFlfN05udEk3NlhKeGJvUHp1Y05CWndBTFJXb0pRdmxkVzZqOXcxdUJtRmdDWV9vTC1iX1E4QUN2TUhjOU1TV1d4bWNkQTcyZ1VJMEFWS0p5czNwd3VKal9kNFNfbWRFSEo5SW1GTEpwaktabjk0d1JPekZnWk1YdjlBSDdLZDZzSkhWS0Zz?oc=5",
-      "published": "2026-11-19T14:20:00+00:00",
-      "source": {
-        "name": "DWN | Deutsche Wirtschaftsnachrichten",
-        "url": "https://deutsche-wirtschafts-nachrichten.de"
-      }
-    },
-    {
       "id": "5f039df1c55b",
       "title": "dm setzt auf „Zukunftsfeld Gesundheit“ - Deutsche Apotheker Zeitung, DAZ",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWnJMWXN5YjluSTRmWnB5V2RXV3pJaHQ1WFJhUHNJWFhtODRaUmVIMUtDUTZaNTh3Y2RkbmplYkhWRExNZGxyQklHejlTendiaTJ6cEhVeENvU2NHd2ZIUGhLVUJOY3E3R0lweWRxQUFYZVctY3UwTng2NTY1cGxBSW8yMW5wZ2pOSjBtc3FqX0JmSE9pRWdrV3ZjQjF6WU54cHBhcQ?oc=5",
@@ -64,13 +54,23 @@
       }
     },
     {
-      "id": "04e6135407ac",
-      "title": "Umsatz gesteigert: dm expandiert weiter in den Gesundheitssektor - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOeEh0NUhHUExQRVlteGplNVFSYk9UV3lUS21aU1NmU0JmbHAzRWo2WXBLVmpnMnlmS1dfNktBR1lKdlRGelRkTUhWMHAzN3VnMVljbG5lTWpJQXhnMDJ6aEZCbUd6bEdjcVAwRk9WeW5FYmd1ak5STTNBckdjTk1zazdSenZHSzdya3FneTZTd1ZWQVBJcGxF?oc=5",
-      "published": "2026-11-19T15:25:09+00:00",
+      "id": "c93bd17dad42",
+      "title": "Antibiotika gezielt einsetzen: Therapieoptionen bei Infekten breiter denken - gesundheit adhoc",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVlpfRTZ0UW1VZUFrbVV1Tlo0eEJHc2kxdVQ2bUY5NFNsYnBMZjR4T3dwVVVSbllrOC11TU9naDktVHUzNUVGaGRnWlJkbWdpZU9kdGlhTWVJUjZERGtWRlhSbWFJeG1DTXc3VFFhNDRqY25aXzBreDJCbUZjcDlmdUxKYjM3TVZlRmVocUl4Mlk4cjFEcEJqQ1lvVFF4aHRuUHktSmZMaHFqdHc?oc=5",
+      "published": "2026-11-20T12:42:51+00:00",
       "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
+        "name": "gesundheit adhoc",
+        "url": "https://www.gesundheit-adhoc.de"
+      }
+    },
+    {
+      "id": "aa4cef0c1163",
+      "title": "Gesundheit ist Zukunftsfeld für dm – Angebot wird ausgebaut - meinKA",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONUhmc0NXcnlENUQxenZrZHlmV0w3RGVZTzM1NkF6dkE5dzlqcnQ0MWtNZGFlU0ZaM1NPd3RKaVJJc2o3OHFnQjZObmMzcWRiWHowd284cWlNYkFTWVpqcTVHOUVPMG04TlpWREVxTGdkWEZfdnhBN2ZVY2pFaWJoYUpSVQ?oc=5",
+      "published": "2026-11-19T12:54:20+00:00",
+      "source": {
+        "name": "meinKA",
+        "url": "https://meinka.de"
       }
     },
     {
@@ -94,16 +94,6 @@
       }
     },
     {
-      "id": "78c6b0a17a6c",
-      "title": "Schritte zählen: Wer im Alter mehr geht, hat geringere Gesundheitskosten - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQ1FjV3R3TFBXcVJNQzJqaUcwdW1zeGUzSDY1eU15aW5yb2Vnb0VPX24zNWNYNUV3d3BmNUdJamwzamV4azdTRXAxckgyempEUGRiS1BhczBaMG9QLXVPM2xPSXVXbWNVNTBYWV9RUk1DSTl6VVl1bkZHci1weHIyYUhDUWZVcTJNNDhmUkN0cE9Ja1lmTkV3N0pXMWhGQ0pmeVNrczhNSFV3bDQ?oc=5",
-      "published": "2026-11-18T08:00:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
       "id": "1b0f96a0e8a4",
       "title": "Schwergewicht für die Gesundheit: Neue Technik in Bad Oeynhausen sichert Arznei-Versorgung in OWL - Neue Westfälische",
       "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQNGtlRXZ6b1F2UEREMXBNQ0Z1ZGdNQWpxSFE2NjRLQjQ5UFJ6TlkxWUZFWi1JamtTdHhud2tWNnZGRmxFaTN4ZzFQMUZIRTJJSUhJYkEwaE82WUZHTFVqOW5jNWc5aFBsZ1NfbXlzNmNERU5MR0VHU3B6ZmdwdVdNc1lMNjNiQkZZa21rWnBBWGI4TDE3N3VZRzA4OFNsSE5QQ3o2M21nUXNwQVpHOWFjTWcxRXdLUmlEVW9MOFN2RVYxcHB0eDE4U0t1ajVtMENROHE2NXVmYjJFMWNqYjFFcG5fTEsyZzRyanN1V2tfYXg5eEp5azRfb3FOOW9vZjFzQlgw?oc=5",
@@ -114,46 +104,6 @@
       }
     },
     {
-      "id": "fd19fb723a3b",
-      "title": "Adipositas-Therapie bei Kindern und Jugendlichen: WHO veröffentlicht neue Leitlinien - AerzteZeitung.de",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNLUhFNTBjcl9aVlplZHdRVmlpcks1SWMwUUhybDBFTmtKbzFFM3ZmOE9sM2tnLWYxbmU1RkRCTU9RNVBQbHo0cnNPU0p4bzlJeVo4bERzVF9yM3JRQzROUWhEYkRTNnJ3WV90ajhmcG1ycGlWMDJGSndkenhxYzRSRWR1em0yNWdRRXRvYnpmUURtSjRTOHZpM3I5LWdWdHFwckU4czUtLW81YXhxbEhUc3pqR0RmT1BWNXd4ZmVlaFVWaFJWU0I4Z2M1REJYYkJRX3BOS1J0Nng?oc=5",
-      "published": "2026-11-19T18:15:00+00:00",
-      "source": {
-        "name": "AerzteZeitung.de",
-        "url": "https://www.aerztezeitung.de"
-      }
-    },
-    {
-      "id": "a7647a857bca",
-      "title": "Wir fordern ein striktes Vorgehen gegen nicht lizenzierte medizinische Einrichtungen. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQ00yRlRvNG1KV3gzdDhCQ0xfQXFPZmlFQURaTXJzUk90aHZhNl83d19tLTI5SmxZeU4tLVJ4aG5UWDRxQmplOVFseG1YVHlqRlZWeUZEMi1FQ2JkcGlCdHFSN0d3XzdqU0R4R2hSc2pPNWh0eDdlM1NUTEN6M3VYNGpLaHg?oc=5",
-      "published": "2026-11-21T05:35:08+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "8ced11fc184e",
-      "title": "Notdienstapotheke - was Sie dort bekommen - noz.de",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOLWtpeHdXMmkxSHNjTEtlYmZTbkRlSlQ1N3lsbjhmaGpsaU1GUnNqQlVKNXpldkc4Mlcyb2p0WG1yXzRGX2ZnXzFKQXcxa2RNWk1EMW9VeWE5LUdfUHIyeXhGbTcyUFZuODd1RzBkazRDUDNlMGNVU0lja0RBMmxtekFqN1ExdXkydEQzUi1EUXJKTEFHWEJMZkJmQWxHTlFDNEFEdGlIelBycVk?oc=5",
-      "published": "2026-11-20T13:03:00+00:00",
-      "source": {
-        "name": "noz.de",
-        "url": "https://www.noz.de"
-      }
-    },
-    {
-      "id": "54772c8e8476",
-      "title": "BMG-Vorstoß: Gesicherte Gesundheitsinformationen besser finden - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPN0x0R1VQRmM3dEdtakZEZGliMDhObE0wNVdsNHFFSzZEdkhfSFdSNmRoTDdNTHg0VlVCaEE5eXpTYnBmWnpOYUpLcFVUcFZPZkxxVlYwVGZvSnRVMnlCZ3drdm94dDBEdzVpMnNZVWRhQ1VfWE53YkxWMTVMRU9reDdSdDJPRkhPVzZ1a3dZcHpJWHo5NTVTT3JRR1A?oc=5",
-      "published": "2026-11-18T12:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "b31eebd4c85f",
       "title": "Demenz vorbeugen: Was die WHO empfiehlt und wovon sie abrät - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSmhZNFdxTTVrbVdSdEtZc1hXdW9sN2lqOHhSWE1JR2hKc0NZUE9KMjZ5NnpyeU9Ca3UxeG1pNl9Ra0djU2pocXlkcnl3QzNYODlBNkRTTVZjUGd2ZTRidnhJeXN0bDltcWs1U25NN2V1bjNtMkExOGhEOVV4a3o4V2tNV0RiT1M3M1gzTkUtanJwVy1pd1FfYlk3cw?oc=5",
@@ -161,36 +111,6 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "1f713430b995",
-      "title": "\"Durchbruch\": EU lässt neues Medikament gegen aggressiven Krebs zu - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ2NmZlpocHg0bnBqUkVRMVlFZ1hZMlg0ZW1pWVphanEwOGI5R0RYdldCTGtSYXhCNkc0QldjRnRubFBkd3d4dUxaWlN6SUJGT0lFMllqVUZ0Y2p1NThxWTZKN3JsTGFRUlJHNW5NRUJFdGM3YWNUcjhxQUlpN3lzZ2MyMnFFeEZlc21NRVhfYnY3Vy1aay1OdEJZRC1UN1FBQmlvdWN5WWpHMWlLdTAxcHFPUENfUUZDbUE?oc=5",
-      "published": "2026-11-17T15:42:18+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
-      }
-    },
-    {
-      "id": "bab5cfddda71",
-      "title": "Fischölkapseln fürs Gedächtnis? Studie findet nach zwei Jahren keinen Vorteil - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNd19sTlpJZjd2YllvMnJXOE9pRHM1NTdJRktnS3Q5eThzdzZ6R0RhVGR4U3pucUhFbnRQbkJoN0tTdjFKbGQ1bTZVOFNVOURnVnlsNEFQRmRFWXVfX2tqSGZSVXBVc095aUpETVpUNzFabWN5SWltX3JEYUk1akFfc3VMMDBCWVlnUl9ianRoRmFfa2kxTGlQTEd0dDFNUWFTd3VTb2F6VUpDYXZHTFZNWXRVUnVfdw?oc=5",
-      "published": "2026-11-18T08:00:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "a846ddffbe04",
-      "title": "Phytopharmaka: Beinwell ist Heilpflanze des Jahres 2027 - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUHZodUFpQ3FTRXFhMUFRTm1BRk1yMTVrOU1kV3Z5aVJpajJDM0RJSE9CSllWM2NnR0F4SzJ0djAtZmU2cml6dTVLcHBmdlRWVk1ZN2gxUlduSThhenF6Zlg3akpWaXg2S3M5MklfSGlvMUdNR21za1FUTXZoNXo1eDc3OVI4NjlfSUVOUFpQME0?oc=5",
-      "published": "2026-11-17T09:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -224,16 +144,6 @@
       }
     },
     {
-      "id": "caf9e248da4b",
-      "title": "Gefährliches Heightmaxxing: Erdafitinib als Wachstumsturbo missbraucht - Deutsche Apotheker Zeitung, DAZ",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVGpNWEJTSmMzaXEtTUc4eGtJYkdEVFFUUTBEVVUtRnFneWJNRG5UYlBubUk1SWpEc3hkNTlBQlI2T1BrN2gwYXRhWDN1eGItZ2d0LUlaRHdFU0dMMmtZMERlVHladWQwRFdqVk82ekk3X3FUVWN3MWNtYmNuOEJCZGlqR2draW5lWTJ2QmphTzFNamNNVzlJUjhqNVFKLUlmM2N4TEMwNVJkVVB2d3otMnljQWx5RUdSLUZNT09BY1R0c1BlN3hEMVVrczlya1dQTlE?oc=5",
-      "published": "2026-11-18T07:00:00+00:00",
-      "source": {
-        "name": "Deutsche Apotheker Zeitung, DAZ",
-        "url": "https://www.deutsche-apotheker-zeitung.de"
-      }
-    },
-    {
       "id": "78b58ffe6e43",
       "title": "Immer mehr Keime trotzen Antibiotika: EU-Behörde warnt - oekotest.de",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeFF2RmRsOVlSVXBNOVRJUFUxdUMwd1EtSzlpSmFvanhuSWJlZE5BbHNES1o4eWJSblZJU0pmNllVazZFVjFzaWtheTRzOWRqZXpCYXM5enA1Snl2Z1ByS1ZLaGJ0dDhTNlpHUHJfUTBWWDFpU1dJZTFmcVkxbVp3djFSVWE5MTQwX29GZHUtVWhhVzBPb2oxVEdCcFNvWG9JbVIteTVzUktDUFk4RXcyZ3BhZ1lXQQ?oc=5",
@@ -241,6 +151,36 @@
       "source": {
         "name": "oekotest.de",
         "url": "https://www.oekotest.de"
+      }
+    },
+    {
+      "id": "8ced11fc184e",
+      "title": "Notdienstapotheke - was Sie dort bekommen - noz.de",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOLWtpeHdXMmkxSHNjTEtlYmZTbkRlSlQ1N3lsbjhmaGpsaU1GUnNqQlVKNXpldkc4Mlcyb2p0WG1yXzRGX2ZnXzFKQXcxa2RNWk1EMW9VeWE5LUdfUHIyeXhGbTcyUFZuODd1RzBkazRDUDNlMGNVU0lja0RBMmxtekFqN1ExdXkydEQzUi1EUXJKTEFHWEJMZkJmQWxHTlFDNEFEdGlIelBycVk?oc=5",
+      "published": "2026-11-20T13:03:00+00:00",
+      "source": {
+        "name": "noz.de",
+        "url": "https://www.noz.de"
+      }
+    },
+    {
+      "id": "1f713430b995",
+      "title": "\"Durchbruch\": EU lässt neues Medikament gegen aggressiven Krebs zu - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ2NmZlpocHg0bnBqUkVRMVlFZ1hZMlg0ZW1pWVphanEwOGI5R0RYdldCTGtSYXhCNkc0QldjRnRubFBkd3d4dUxaWlN6SUJGT0lFMllqVUZ0Y2p1NThxWTZKN3JsTGFRUlJHNW5NRUJFdGM3YWNUcjhxQUlpN3lzZ2MyMnFFeEZlc21NRVhfYnY3Vy1aay1OdEJZRC1UN1FBQmlvdWN5WWpHMWlLdTAxcHFPUENfUUZDbUE?oc=5",
+      "published": "2026-11-17T15:42:18+00:00",
+      "source": {
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
+      }
+    },
+    {
+      "id": "a7647a857bca",
+      "title": "Wir fordern ein striktes Vorgehen gegen nicht lizenzierte medizinische Einrichtungen. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQ00yRlRvNG1KV3gzdDhCQ0xfQXFPZmlFQURaTXJzUk90aHZhNl83d19tLTI5SmxZeU4tLVJ4aG5UWDRxQmplOVFseG1YVHlqRlZWeUZEMi1FQ2JkcGlCdHFSN0d3XzdqU0R4R2hSc2pPNWh0eDdlM1NUTEN6M3VYNGpLaHg?oc=5",
+      "published": "2026-11-21T05:35:08+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -264,23 +204,13 @@
       }
     },
     {
-      "id": "62cd1f564a2d",
-      "title": "Cholesterin-Senker absetzen: Studie zu Statinen zeigt unerwartetes Ergebnis - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUmRDZnQ3b3Exem4talZ0NE9UN21fMV9iQXo3TXczZGZBTUM0WllDOUx6U0lfb2FvcUhFdExBUVJhOXhnSzJMMmNXZVhPQ3lLMk9EakM3NnpBMFFVN1FuTTJrYl9lcjNjQTZvcHNmdXZNVUxpc0RydXlrRnl2dk5LRDJkRXNRX2R3U0cwU2l6bEpBN2c?oc=5",
-      "published": "2026-11-20T11:45:00+00:00",
+      "id": "caf9e248da4b",
+      "title": "Gefährliches Heightmaxxing: Erdafitinib als Wachstumsturbo missbraucht - Deutsche Apotheker Zeitung, DAZ",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVGpNWEJTSmMzaXEtTUc4eGtJYkdEVFFUUTBEVVUtRnFneWJNRG5UYlBubUk1SWpEc3hkNTlBQlI2T1BrN2gwYXRhWDN1eGItZ2d0LUlaRHdFU0dMMmtZMERlVHladWQwRFdqVk82ekk3X3FUVWN3MWNtYmNuOEJCZGlqR2draW5lWTJ2QmphTzFNamNNVzlJUjhqNVFKLUlmM2N4TEMwNVJkVVB2d3otMnljQWx5RUdSLUZNT09BY1R0c1BlN3hEMVVrczlya1dQTlE?oc=5",
+      "published": "2026-11-18T07:00:00+00:00",
       "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
-      }
-    },
-    {
-      "id": "4202956c4334",
-      "title": "Warnung: Eine Gruppe von Bakterien mit starker Antibiotikaresistenz erhöht das Sterberisiko. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWl9WSzFWQTIxTVFJX2pHWF9PSHp5RlNVbHlkSXVZWUNmcG5NbFRWVGRtUld6WnB3cXJLZXM2dHN2c3hnWkx2a1VSX3J0RW5FTDZUS3FLMGJvQVM5d1V4azJfNUZVbTZaZks0Q1RnQ3k1ODhWQkNaQjhpNTAwaGh0eEFfMUhhQnJFdE5WaDFGdHBzbVYwdHRocXFlVQ?oc=5",
-      "published": "2026-11-20T16:01:51+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Deutsche Apotheker Zeitung, DAZ",
+        "url": "https://www.deutsche-apotheker-zeitung.de"
       }
     },
     {
@@ -304,6 +234,26 @@
       }
     },
     {
+      "id": "62cd1f564a2d",
+      "title": "Cholesterin-Senker absetzen: Studie zu Statinen zeigt unerwartetes Ergebnis - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUmRDZnQ3b3Exem4talZ0NE9UN21fMV9iQXo3TXczZGZBTUM0WllDOUx6U0lfb2FvcUhFdExBUVJhOXhnSzJMMmNXZVhPQ3lLMk9EakM3NnpBMFFVN1FuTTJrYl9lcjNjQTZvcHNmdXZNVUxpc0RydXlrRnl2dk5LRDJkRXNRX2R3U0cwU2l6bEpBN2c?oc=5",
+      "published": "2026-11-20T11:45:00+00:00",
+      "source": {
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
+      }
+    },
+    {
+      "id": "4202956c4334",
+      "title": "Warnung: Eine Gruppe von Bakterien mit starker Antibiotikaresistenz erhöht das Sterberisiko. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWl9WSzFWQTIxTVFJX2pHWF9PSHp5RlNVbHlkSXVZWUNmcG5NbFRWVGRtUld6WnB3cXJLZXM2dHN2c3hnWkx2a1VSX3J0RW5FTDZUS3FLMGJvQVM5d1V4azJfNUZVbTZaZks0Q1RnQ3k1ODhWQkNaQjhpNTAwaGh0eEFfMUhhQnJFdE5WaDFGdHBzbVYwdHRocXFlVQ?oc=5",
+      "published": "2026-11-20T16:01:51+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "698a8c64d6d1",
       "title": "Risikofaktor Lipoprotein(a): Neues Medikament erfüllt die Hoffnungen nicht - Tages-Anzeiger",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeFlLNU1qSXJvQXN6RjVVcHVncWhBeERRRng1UFUyUy1IVDlCUlB0WE91S2otT0YtRTZ1Z19jSHpwM256clFqVG16ZzlaVWxGbHA0aEFIWjNtYzlsT2piQTBOSTAtMEx2djNVNlRnVUZxdEJzcUk5QWhtdEozRGVfZlpmVy1zNTcz?oc=5",
@@ -311,16 +261,6 @@
       "source": {
         "name": "Tages-Anzeiger",
         "url": "https://www.tagesanzeiger.ch"
-      }
-    },
-    {
-      "id": "3a8cb7f967f0",
-      "title": "RKI, PEI und BfArM werden zu „Die Gesundheitsinstitute“ - Deutsche Apotheker Zeitung, DAZ",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMWpEQW9yU0xrSnlvVzVhYnFFZlJnRzVzc1pqbFE5UUhJWDBUMXlsQTJWdnJJcjJ1cjQ2MFBLQ2lSZzZPRTdmUG94X2NoengyTEhOYkZvdXJNYjdHSXg2SjM1bkZHYlE5SmpoM2lfdUt4eUhzaEtvU1AxLWpHYnNYWUZJQ21tU241NW03Q3RDejM5blEwMzc3OWxrRWxZOFJrUDh0OXptNW1Lc1hOYnR2VFBNdVlCdThHT1E?oc=5",
-      "published": "2026-11-17T07:00:00+00:00",
-      "source": {
-        "name": "Deutsche Apotheker Zeitung, DAZ",
-        "url": "https://www.deutsche-apotheker-zeitung.de"
       }
     },
     {
@@ -341,6 +281,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "3a8cb7f967f0",
+      "title": "RKI, PEI und BfArM werden zu „Die Gesundheitsinstitute“ - Deutsche Apotheker Zeitung, DAZ",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMWpEQW9yU0xrSnlvVzVhYnFFZlJnRzVzc1pqbFE5UUhJWDBUMXlsQTJWdnJJcjJ1cjQ2MFBLQ2lSZzZPRTdmUG94X2NoengyTEhOYkZvdXJNYjdHSXg2SjM1bkZHYlE5SmpoM2lfdUt4eUhzaEtvU1AxLWpHYnNYWUZJQ21tU241NW03Q3RDejM5blEwMzc3OWxrRWxZOFJrUDh0OXptNW1Lc1hOYnR2VFBNdVlCdThHT1E?oc=5",
+      "published": "2026-11-17T07:00:00+00:00",
+      "source": {
+        "name": "Deutsche Apotheker Zeitung, DAZ",
+        "url": "https://www.deutsche-apotheker-zeitung.de"
       }
     },
     {
