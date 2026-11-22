@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-21T20:47:40.606401+00:00",
+  "fetched_at": "2026-11-22T00:59:49.794523+00:00",
   "source": "Google News Health RSS",
-  "count": 39,
+  "count": 40,
   "articles": [
     {
       "id": "1dacb27fc5b5",
@@ -54,13 +54,13 @@
       }
     },
     {
-      "id": "e988fd9cc7ac",
-      "title": "Vorschläge zur Änderung von sechs Gesetzen, die die Transparenz bei der Arzneimittelpreisgestaltung sowie bei medizinischen Untersuchungs- und Behandlungsleistungen erhöhen sollen. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZkZJc25Sc1pjc3ZRU3N3eUhCTl9STWpiWC1kYi1KbEpjMTItWW1MTDlyckMyaTlQTDAtQXA4VXU4Rlp4TDgzMm9Cc1dEaExoQlM3XzhFeUl1dkdidExYeHkxVktOV01naEV2QjN4Szc5RTJJZFdBNWwwdjJ6S21ET0tYY2RRSE5Rekt0Uy1yZXRaT3ZIWTRHMGJxbw?oc=5",
-      "published": "2026-11-21T13:31:31+00:00",
+      "id": "d3c8e33fb113",
+      "title": "SPD-Veranstaltung: ABDA kritisiert Missstände bei Arzneimittelzuzahlungen - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQ3plenZqam5qS1R0MUM0cGtNclY0ZFhGRTFwV2lVNmluLXRqOWp6V1pyVHE0TmRPNHJfbXBiTUh0VEN4Mm9lcG5rOW8zYUFSZHluaHNfZjk5andvSDU0ZUtyNXdQSXNkc2lHVDMtYnhSYTMyRlNZQm5YekR0cklwSHc5N3VrLUxiMlVXejlhVUk5OWpPOUt2ZVdjM3BBb0VCQWZiYQ?oc=5",
+      "published": "2026-11-17T15:45:00+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -81,6 +81,16 @@
       "source": {
         "name": "meinKA",
         "url": "https://meinka.de"
+      }
+    },
+    {
+      "id": "e988fd9cc7ac",
+      "title": "Vorschläge zur Änderung von sechs Gesetzen, die die Transparenz bei der Arzneimittelpreisgestaltung sowie bei medizinischen Untersuchungs- und Behandlungsleistungen erhöhen sollen. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZkZJc25Sc1pjc3ZRU3N3eUhCTl9STWpiWC1kYi1KbEpjMTItWW1MTDlyckMyaTlQTDAtQXA4VXU4Rlp4TDgzMm9Cc1dEaExoQlM3XzhFeUl1dkdidExYeHkxVktOV01naEV2QjN4Szc5RTJJZFdBNWwwdjJ6S21ET0tYY2RRSE5Rekt0Uy1yZXRaT3ZIWTRHMGJxbw?oc=5",
+      "published": "2026-11-21T13:31:31+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -114,16 +124,6 @@
       }
     },
     {
-      "id": "4e6d48112005",
-      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
-      "published": "2026-05-22T07:00:00+00:00",
-      "source": {
-        "name": "Bundesministerium für Gesundheit (BMG)",
-        "url": "https://www.bundesgesundheitsministerium.de"
-      }
-    },
-    {
       "id": "9f7c377ed6d2",
       "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
@@ -131,6 +131,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "4e6d48112005",
+      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
+      "published": "2026-05-22T07:00:00+00:00",
+      "source": {
+        "name": "Bundesministerium für Gesundheit (BMG)",
+        "url": "https://www.bundesgesundheitsministerium.de"
       }
     },
     {
@@ -174,16 +184,6 @@
       }
     },
     {
-      "id": "a7647a857bca",
-      "title": "Wir fordern ein striktes Vorgehen gegen nicht lizenzierte medizinische Einrichtungen. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQ00yRlRvNG1KV3gzdDhCQ0xfQXFPZmlFQURaTXJzUk90aHZhNl83d19tLTI5SmxZeU4tLVJ4aG5UWDRxQmplOVFseG1YVHlqRlZWeUZEMi1FQ2JkcGlCdHFSN0d3XzdqU0R4R2hSc2pPNWh0eDdlM1NUTEN6M3VYNGpLaHg?oc=5",
-      "published": "2026-11-21T05:35:08+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "1f713430b995",
       "title": "\"Durchbruch\": EU lässt neues Medikament gegen aggressiven Krebs zu - T-Online",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ2NmZlpocHg0bnBqUkVRMVlFZ1hZMlg0ZW1pWVphanEwOGI5R0RYdldCTGtSYXhCNkc0QldjRnRubFBkd3d4dUxaWlN6SUJGT0lFMllqVUZ0Y2p1NThxWTZKN3JsTGFRUlJHNW5NRUJFdGM3YWNUcjhxQUlpN3lzZ2MyMnFFeEZlc21NRVhfYnY3Vy1aay1OdEJZRC1UN1FBQmlvdWN5WWpHMWlLdTAxcHFPUENfUUZDbUE?oc=5",
@@ -214,16 +214,6 @@
       }
     },
     {
-      "id": "512fe13fe5c3",
-      "title": "Medikamente: Antibiotika-Mythen: Was stimmt - und was nicht? - Handelsblatt",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPci1lLXBBV0J0Z0ZzNVVrZmQ2cWtaY1JKT1dmaUo5RmlEalJ3eWxKcFR4c3JxYUZjUGxHUm1HSFN5YXVkMlZ4NDlLTlllZUNnN2V1YWVLSzlUMkgxWFZNVDYzd25Xb0kzS1JBUEdjV1plUGdUYTlSV0U5TXBsZkR3RURPUkN6S2pxYjZzUWl4VV8wNk5HdFMzeWVYMURpUnVPYlJBZ2VoRGM3OTJVUmljVlVkMVg0Zw?oc=5",
-      "published": "2026-11-17T12:15:10+00:00",
-      "source": {
-        "name": "Handelsblatt",
-        "url": "https://www.handelsblatt.com"
-      }
-    },
-    {
       "id": "caf9e248da4b",
       "title": "Gefährliches Heightmaxxing: Erdafitinib als Wachstumsturbo missbraucht - Deutsche Apotheker Zeitung, DAZ",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVGpNWEJTSmMzaXEtTUc4eGtJYkdEVFFUUTBEVVUtRnFneWJNRG5UYlBubUk1SWpEc3hkNTlBQlI2T1BrN2gwYXRhWDN1eGItZ2d0LUlaRHdFU0dMMmtZMERlVHladWQwRFdqVk82ekk3X3FUVWN3MWNtYmNuOEJCZGlqR2draW5lWTJ2QmphTzFNamNNVzlJUjhqNVFKLUlmM2N4TEMwNVJkVVB2d3otMnljQWx5RUdSLUZNT09BY1R0c1BlN3hEMVVrczlya1dQTlE?oc=5",
@@ -231,6 +221,26 @@
       "source": {
         "name": "Deutsche Apotheker Zeitung, DAZ",
         "url": "https://www.deutsche-apotheker-zeitung.de"
+      }
+    },
+    {
+      "id": "a7647a857bca",
+      "title": "Wir fordern ein striktes Vorgehen gegen nicht lizenzierte medizinische Einrichtungen. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQ00yRlRvNG1KV3gzdDhCQ0xfQXFPZmlFQURaTXJzUk90aHZhNl83d19tLTI5SmxZeU4tLVJ4aG5UWDRxQmplOVFseG1YVHlqRlZWeUZEMi1FQ2JkcGlCdHFSN0d3XzdqU0R4R2hSc2pPNWh0eDdlM1NUTEN6M3VYNGpLaHg?oc=5",
+      "published": "2026-11-21T05:35:08+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "8d23baa77554",
+      "title": "Antibiotika-Mythen: Was stimmt - und was nicht? - Vodafone live",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZG5FbUJUVGJXdHhkUV9JYXFYRU54WWZDd1ZtX0ZaaGJlbFdPYTV3T3Z1S2R4TmdnVmprWXctX0phLXNrTmtUUDFmZmRyWFZKQ1RJa2dUZnM0N1VSZFhBNVE2X2RNSFlucHQxSWYzdnd3OWJkQkpRTFhTQlU5akw1TDBYR0x0RmFhNUNRUHRNV2ljWEtLb0JlVTF4eGVKSnkzblVXLQ?oc=5",
+      "published": "2026-11-17T12:18:00+00:00",
+      "source": {
+        "name": "Vodafone live",
+        "url": "https://live.vodafone.de"
       }
     },
     {
@@ -314,16 +324,6 @@
       }
     },
     {
-      "id": "3a8cb7f967f0",
-      "title": "RKI, PEI und BfArM werden zu „Die Gesundheitsinstitute“ - Deutsche Apotheker Zeitung, DAZ",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMWpEQW9yU0xrSnlvVzVhYnFFZlJnRzVzc1pqbFE5UUhJWDBUMXlsQTJWdnJJcjJ1cjQ2MFBLQ2lSZzZPRTdmUG94X2NoengyTEhOYkZvdXJNYjdHSXg2SjM1bkZHYlE5SmpoM2lfdUt4eUhzaEtvU1AxLWpHYnNYWUZJQ21tU241NW03Q3RDejM5blEwMzc3OWxrRWxZOFJrUDh0OXptNW1Lc1hOYnR2VFBNdVlCdThHT1E?oc=5",
-      "published": "2026-11-17T07:00:00+00:00",
-      "source": {
-        "name": "Deutsche Apotheker Zeitung, DAZ",
-        "url": "https://www.deutsche-apotheker-zeitung.de"
-      }
-    },
-    {
       "id": "432315fa2251",
       "title": "Erstmals Medikament gegen Fettleber zugelassen - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQnhCQmdtRXhCd0ZKc1FDYzViaTZEblZ5TjJNWDBvZ3ptX2g0OENQemNDUk1sWGh5T1FrOEtvaGtSSDItcXlieVd0cDVfdDF0a2U3clFWSGlvd21wUWtwVzI4UEZIZ1BBUlVJSC16SExXaWFDTlF6YlNjMk96a2pEYnpVRm1rQQ?oc=5",
@@ -331,6 +331,16 @@
       "source": {
         "name": "tagesschau.de",
         "url": "https://www.tagesschau.de"
+      }
+    },
+    {
+      "id": "3a8cb7f967f0",
+      "title": "RKI, PEI und BfArM werden zu „Die Gesundheitsinstitute“ - Deutsche Apotheker Zeitung, DAZ",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMWpEQW9yU0xrSnlvVzVhYnFFZlJnRzVzc1pqbFE5UUhJWDBUMXlsQTJWdnJJcjJ1cjQ2MFBLQ2lSZzZPRTdmUG94X2NoengyTEhOYkZvdXJNYjdHSXg2SjM1bkZHYlE5SmpoM2lfdUt4eUhzaEtvU1AxLWpHYnNYWUZJQ21tU241NW03Q3RDejM5blEwMzc3OWxrRWxZOFJrUDh0OXptNW1Lc1hOYnR2VFBNdVlCdThHT1E?oc=5",
+      "published": "2026-11-17T07:00:00+00:00",
+      "source": {
+        "name": "Deutsche Apotheker Zeitung, DAZ",
+        "url": "https://www.deutsche-apotheker-zeitung.de"
       }
     },
     {
@@ -354,16 +364,6 @@
       }
     },
     {
-      "id": "d46f6ce1c2b9",
-      "title": "Ibuprofen, Aspirin und Co.: Schmerzmittel der Gruppe NSAR können Nebenwirkungen haben - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUmwyTW8wT3dfaXgyZ1VyaXFYUG1lWXY5VUZXZkkwWjd4STI2dWVSY1d3bVhub1NxRE9sNGt2bW83blh3T2hPRzlWcnVvUElQSmw4WE9KOHhscFdsSEE4TmF2cnhXaTktUWRfc3NQMnpoWmZDUXF5WWt6czNsbWdLQTRtVVJ3Mzdtb250RGVhbldmNUpVOTNDOTFhOWpldzV0MUlpVFdMRmpfOGM3WW5HbmRYaVJFT1ZzYUxn?oc=5",
-      "published": "2025-09-23T07:00:00+00:00",
-      "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
-      }
-    },
-    {
       "id": "e4f7e8c57817",
       "title": "Wie läuft die Zulassung von Arzneimitteln ab? - Stiftung Gesundheitswissen",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQc0lKcG51SV96LVpuemVlZ3p2LU1Ubjg1Q2M0VjJMa3pfRGNWM3VKemVDZG9mWm1uY0NlbkZmVDc4QWVad0VIYVAzOGxrY3ZvX1ZnSHB5QXZFYU4tNTAxa0g3N1BxbTljY3hTSVZQZE1GUFNsVF9LNUNfdk5aZGFucjBPWnZ5TGtZazdZQ3NQeEZFMXpBem9Tenh2NUtrWGlp?oc=5",
@@ -381,6 +381,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "5d81cd09e3f7",
+      "title": "Gesundheit - Arzneimittel-Experten: Viagra weiter nicht ohne Rezept - Gesundheit - SZ.de - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWktNUkFDTmVsMmlKeW5kaDAzQjlZUDVuczZyeGo0WExZMTlIUWNzYzVOTllKeVRMZkpvLW9pbGFDRHJScks3dEVTd3BBRW9fWmJ0TFpxbm9SVm9RU2RYdEhHQ29FYmNEdUNuUDRzalRBWGdwNm1NU2J2cUJpRHR2T1hjYmllakVuMDctbkt5bkc3S1ZabGc3eWQ4RVJWS3k3bG96UVJXRFNYenhGSUhvZDhUMDR6Nm9aNmhiaF9DRHM4NnFRZ2IwbEQzNVhfWWpCUjZ2b05iSjUzdmR1SjVNTHMyekNxWk0?oc=5",
+      "published": "2023-07-11T07:00:00+00:00",
+      "source": {
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
       }
     },
     {
