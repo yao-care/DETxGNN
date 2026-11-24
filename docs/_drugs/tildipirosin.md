@@ -100,7 +100,13 @@ Für die Sicherheit verweisen wir auf die Fachinformation. Für das Arzneimittel
 **Entscheidung: Hold**
 
 **Begründung:**
-Die einzige Stütze ist ein hoher Modellwert (Evidenzniveau L5) ohne klinische Studien, Publikationen oder substanzspezifische Belege. Zudem ist das einzige Produkt ausschließlich veterinärmedizinisch zugelassen und die Zulassung aufgehoben, sodass keine Humandaten existieren.
+Die einzige Stütze ist ein hoher Modellwert (Evidenzniveau L5) ohne klinische Studien, Publikationen oder substanzspezifische Belege. Zudem ist das einzige Produkt ausschließlich veterinärmedizinisch zugelassen, sodass keine Humandaten existieren.
+
+<!-- review:begin de-lic-20261124b-tildipirosin-1 -->
+
+> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „und die Zulassung aufgehoben, sodass“ Korrigiert: Die erfasste Zulassung (Zuprevo, EMEA/V/C/002009, Tierarzneimittel) ist laut EMA-Daten (Stand 2026-11-16) gültig („Authorised“), nicht aufgehoben. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261124b-tildipirosin-1 -->
 
 **Für ein Weiterkommen sind folgende Schritte nötig:**
 - Präklinische Daten zur In-vitro- und In-vivo-Aktivität von Tildipirosin gegen *M. leprae*
@@ -109,6 +115,19 @@ Die einzige Stütze ist ein hoher Modellwert (Evidenzniveau L5) ohne klinische S
 - Fachinformation mit Warnhinweisen und Gegenanzeigen (z. B. über die BfArM-Website)
 - Vergleich mit etablierten Makroliden (z. B. Clarithromycin) in der Lepra-Therapie
 - Klärung der Darreichungswege (derzeit keine Angaben zur Routenkompatibilität)
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-24 | „und die Zulassung aufgehoben, sodass“ → „, sodass“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

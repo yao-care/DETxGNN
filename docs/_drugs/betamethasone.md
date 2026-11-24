@@ -70,7 +70,13 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Marktinformationen Deutschland
 
-Die Zulassungen, die in den lokalen Daten für Betamethason erfasst sind, sind sämtlich erloschen bzw. aufgehoben; ein gültiger Eintrag liegt nicht vor.
+Die Zulassungen, die in den lokalen Daten für Betamethason erfasst sind, betreffen Tierarzneimittel (Duotic, Osurnia) und sind laut EMA-Daten gültig („Authorised“); eine zentrale EU-Zulassung eines Humanarzneimittels ist nicht erfasst.
+
+<!-- review:begin de-lic-20261124b-betamethasone-1 -->
+
+> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „sind sämtlich erloschen bzw. aufgehoben; ein gültiger Eintrag liegt nicht vor.“ Korrigiert: Die in den EMA-Daten (Stand 2026-11-16) erfassten Zulassungen (Duotic EMEA/V/C/006102, Osurnia EMEA/V/C/003753) sind Tierarzneimittel mit Status „Authorised“, nicht erloschen; nationale Zulassungen (BfArM) sind in diesen Daten nicht enthalten. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261124b-betamethasone-1 -->
 
 <!-- licenses:begin -->
 
@@ -89,7 +95,13 @@ Für Warnhinweise und Gegenanzeigen liegen keine Fachinformationsdaten vor. Bitt
 **Entscheidung: Hold**
 
 **Begründung:**
-Die einzige Evidenz für Alopecia mucinosa ist ein Bericht über drei Fälle aus dem Jahr 1964 (Evidenzstufe L4); es gibt keine Studien, Kohorten oder größere Fallserien. Zudem ist Betamethason in Deutschland derzeit nicht im Handel.
+Die einzige Evidenz für Alopecia mucinosa ist ein Bericht über drei Fälle aus dem Jahr 1964 (Evidenzstufe L4); es gibt keine Studien, Kohorten oder größere Fallserien.
+
+<!-- review:begin de-lic-20261124b-betamethasone-2 -->
+
+> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „Zudem ist Betamethason in Deutschland derzeit nicht im Handel.“ Entfernt: Die Aussage beruhte auf dem früher falsch übernommenen Status „erloschen“. Die EMA-Daten enthalten für Betamethason nur gültige Tierarzneimittel-Zulassungen; über nationale Zulassungen und den Handel mit Humanarzneimitteln in Deutschland sagen sie nichts aus (Nationale Zulassungen (BfArM) sind in diesen Daten nicht enthalten). Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261124b-betamethasone-2 -->
 
 **Für ein Weiterkommen sind erforderlich:**
 - Aktuelle Fallserien, Kohortenstudien oder kontrollierte Studien zu Kortikosteroiden bei follikulärer Muzinose
@@ -100,11 +112,13 @@ Die einzige Evidenz für Alopecia mucinosa ist ein Bericht über drei Fälle aus
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Sernivo (betamethasone dipropionate) prescribing information, Primus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b3d1b0-da9b-11eb-ad76-0800200c9a66) |
+| 2026-11-24 | „sind sämtlich erloschen bzw. aufgehoben; ein gültiger Eintrag liegt nicht vor.“ → „betreffen Tierarzneimittel (Duotic, Osurnia) und sind laut EMA-Daten gültig („Au“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-24 | Entfernt: „Zudem ist Betamethason in Deutschland derzeit nicht im Handel.“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

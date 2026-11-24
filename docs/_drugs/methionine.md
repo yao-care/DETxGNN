@@ -93,7 +93,13 @@ Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produk
 
 <!-- licenses:end -->
 
-Die Liste enthält 1 gültige Zulassung eines Einzelwirkstoffs (Hersteller: Recordati Rare Diseases).
+Die Zulassung in der Tabelle betrifft ein Kombinationspräparat (Aminosäuremischung Maapliv; Zulassungsinhaber: Recordati Rare Diseases).
+
+<!-- review:begin de-lic-20261124b-methionine-1 -->
+
+> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „Die Liste enthält 1 gültige Zulassung eines Einzelwirkstoffs (Hersteller: Recordati Rare Diseases).“ Korrigiert: Maapliv (EMEA/H/C/005557) enthält laut EMA-Daten mehrere Aminosäuren (u. a. Glycin, L-Alanin, L-Arginin) und ist kein Einzelwirkstoffpräparat; die Zahl der Zulassungen steht in der Tabelle. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261124b-methionine-1 -->
 
 ---
 
@@ -121,6 +127,19 @@ Es gibt weder klinische Studien noch Literatur, die Methionin bei Akne direkt un
 - Präklinische oder klinische Studien, die Methionin direkt bei Akne untersuchen
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM bzw. der EMA
 - Bewertung des Homocystein-Risikos und der im Wissensgraphen verzeichneten Kontraindikationen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-24 | „Die Liste enthält 1 gültige Zulassung eines Einzelwirkstoffs (Hersteller: Record“ → „Die Zulassung in der Tabelle betrifft ein Kombinationspräparat (Aminosäuremischu“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

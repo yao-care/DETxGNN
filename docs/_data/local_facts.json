@@ -21,11 +21,11 @@
   "items_current": 953
  },
  "reviews": {
-  "records": 758,
-  "pages": 432,
-  "public_pages_with_records": 427,
+  "records": 782,
+  "pages": 438,
+  "public_pages_with_records": 433,
   "by_action": {
-   "correct": 353,
+   "correct": 377,
    "mechanism": 405
   }
  },
@@ -132,7 +132,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 1,
+   "r": 2,
    "i": "Retinale Dystrophie mit oder ohne extraokulare Anomalien"
   },
   {
@@ -175,6 +175,24 @@
    "i": "autoimmune oophoritis"
   },
   {
+   "t": "Ketorolac",
+   "u": "/drugs/ketorolac/",
+   "l": "L1",
+   "lt": 1,
+   "lv": 1,
+   "r": 5,
+   "i": "headache disorder"
+  },
+  {
+   "t": "Phenylephrine",
+   "u": "/drugs/phenylephrine/",
+   "l": "L3",
+   "lt": 1,
+   "lv": 1,
+   "r": 5,
+   "i": "Erkrankung der Nasenhöhle"
+  },
+  {
    "t": "Epinephrine",
    "u": "/drugs/epinephrine/",
    "l": "L5",
@@ -200,24 +218,6 @@
    "lv": 3,
    "r": 4,
    "i": "autoimmune oophoritis"
-  },
-  {
-   "t": "Insulin Glulisine",
-   "u": "/drugs/insulin-glulisine/",
-   "l": "L5",
-   "lt": 1,
-   "lv": 1,
-   "r": 4,
-   "i": "thiamine-responsive dysfunction syndrome"
-  },
-  {
-   "t": "Insulin Human",
-   "u": "/drugs/insulin-human/",
-   "l": "L5",
-   "lt": 5,
-   "lv": 5,
-   "r": 4,
-   "i": "autoimmune oophoritis"
   }
  ],
  "example": {
@@ -231,6 +231,132 @@
  },
  "recent_reviews": [
   {
+   "t": "Tolfenamic Acid",
+   "u": "/drugs/tolfenamic-acid/",
+   "s": "Entfernt: „, da das Präparat in Deutschland nicht mehr zugelassen ist“",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Tildipirosin",
+   "u": "/drugs/tildipirosin/",
+   "s": "„und die Zulassung aufgehoben, sodass“ → „, sodass“",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Serine",
+   "u": "/drugs/serine/",
+   "s": "„die unter dem Handelsnamen Maapliv für die Behandlung der Ahornsirupkrankheit (M“ → „die als Bestandteil der…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Phenylephrine",
+   "u": "/drugs/phenylephrine/",
+   "s": "„die Schmerzbehandlung nach der Operation zugelassen war.“ → „die Schmerzbehandlung nach der Operation…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Orbifloxacin",
+   "u": "/drugs/orbifloxacin/",
+   "s": "Entfernt: „Die einzige Zulassung in Deutschland ist erloschen.“",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Omeprazole",
+   "u": "/drugs/omeprazole/",
+   "s": "Entfernt: „Zudem ist die einzige erfasste Zulassung in Deutschland aufgehoben.“",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Midazolam",
+   "u": "/drugs/midazolam/",
+   "s": "„zur Behandlung von Epilepsie zugelassen war.“ → „zur Behandlung von Epilepsie zugelassen ist.“",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Miconazole",
+   "u": "/drugs/miconazole/",
+   "s": "„ist erloschen bzw. nicht mehr gültig.“ → „betrifft ein Tierarzneimittel (Easotic, EMEA/V/C/000140) und ist…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Methionine",
+   "u": "/drugs/methionine/",
+   "s": "„Die Liste enthält 1 gültige Zulassung eines Einzelwirkstoffs (Hersteller: Record“ → „Die Zulassung in der…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Ketorolac",
+   "u": "/drugs/ketorolac/",
+   "s": "„das in Deutschland als Omidria zugelassen war,“ → „das in der EU als Bestandteil von Omidria…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Imidacloprid",
+   "u": "/drugs/imidacloprid/",
+   "s": "„Hinzu kommen der Status „nur erloschene Zulassungen\", die Einstufung“ → „Hinzu kommen die Einstufung“",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Iloperidone",
+   "u": "/drugs/iloperidone/",
+   "s": "„Die einzige erfasste Zulassung hat den Status „gelöscht“.“ → „Der erfasste Zulassungsantrag…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Ibuprofen",
+   "u": "/drugs/ibuprofen/",
+   "s": "„des persistierenden Ductus arteriosus (PDA) zugelassen war.“ → „des persistierenden Ductus arteriosus (PDA)…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Glutamic Acid",
+   "u": "/drugs/glutamic-acid/",
+   "s": "„Glutaminsäure (Handelsname Maapliv) war in der EU für die Behandlung“ → „Glutaminsäure ist als Bestandteil…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Gimeracil",
+   "u": "/drugs/gimeracil/",
+   "s": "Entfernt: „und wird in Deutschland als Einzelsubstanz-Zulassung geführt“",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Estriol",
+   "u": "/drugs/estriol/",
+   "s": "Entfernt: „(die einzige Zulassung ist aufgehoben)“",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Cyclosporine",
+   "u": "/drugs/cyclosporine/",
+   "s": "„Keratoconjunctivitis sicca zugelassen war.“ → „Keratoconjunctivitis sicca zugelassen ist.“",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Clomipramine",
+   "u": "/drugs/clomipramine/",
+   "s": "„da derzeit keine gültige Zulassung verzeichnet ist“ → „da in den EMA-Daten keine zentrale EU-Zulassung eines…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Carprofen",
+   "u": "/drugs/carprofen/",
+   "s": "„nur veterinärmedizinisch zugelassen war“ → „nur veterinärmedizinisch zugelassen ist“",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Bupropion",
+   "u": "/drugs/bupropion/",
+   "s": "„Bupropion war in Deutschland bzw. der EU als Bestandteil des Kombinationspräpara“ → „Bupropion ist in der EU…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Betamethasone",
+   "u": "/drugs/betamethasone/",
+   "s": "Entfernt: „Zudem ist Betamethason in Deutschland derzeit nicht im Handel.“",
+   "d": "2026-11-24"
+  },
+  {
    "t": "Tenofovir Disoproxil",
    "u": "/drugs/tenofovir-disoproxil/",
    "s": "Entfernt: „Auswahl von 5 Einträgen:“",
@@ -247,182 +373,56 @@
    "u": "/drugs/pioglitazone/",
    "s": "„eine sechste (Competact, EMEA/H/C/000655) ist hier nicht aufgeführt“ entfernt",
    "d": "2026-11-24"
-  },
-  {
-   "t": "Formoterol",
-   "u": "/drugs/formoterol/",
-   "s": "Entfernt: „Die Liste zeigt die ersten fünf von zehn gültigen Zulassungen.“",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Emtricitabine",
-   "u": "/drugs/emtricitabine/",
-   "s": "Entfernt: „Die Liste zeigt nur eine Auswahl der Zulassungen.“",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Denosumab",
-   "u": "/drugs/denosumab/",
-   "s": "Entfernt: „… sind 20 Zulassungen erfasst; die Liste kann unvollständig sein. Hauptsächliche Produkte (Auswahl…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Aflibercept",
-   "u": "/drugs/aflibercept/",
-   "s": "Entfernt: „Die folgende Tabelle zeigt fünf davon.“",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Trastuzumab",
-   "u": "/drugs/trastuzumab/",
-   "s": "Entfernt: „Es besteht derzeit eine gültige Zulassung“ (es sind 11 gültige)",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Pertuzumab",
-   "u": "/drugs/pertuzumab/",
-   "s": "Zahl der gültigen Zulassungen: 2 von 3 → alle 3",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Meloxicam",
-   "u": "/drugs/meloxicam/",
-   "s": "„alle Zulassungen aufgehoben“ → keine zentrale EU-Zulassung für Menschen, 16 gültige für Tierarzneimittel",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Insulin Human",
-   "u": "/drugs/insulin-human/",
-   "s": "ProZinc: „erloschen“ → gültige Zulassung für ein Tierarzneimittel",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Insulin Glargine",
-   "u": "/drugs/insulin-glargine/",
-   "s": "Zahl der gültigen Zulassungen: 5 von 6 → alle 6",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Fenbendazole",
-   "u": "/drugs/fenbendazole/",
-   "s": "Status der Zulassung (Panacur AquaSol): „erloschen“ → „gültig“",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Ziconotide",
-   "u": "/drugs/ziconotide/",
-   "s": "Entfernt: „da der Wirkstoff aktuell nur mit aufgehobener Zulassung geführt wird“",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Zanubrutinib",
-   "u": "/drugs/zanubrutinib/",
-   "s": "Entfernt: „Die einzige erfasste Zulassung hat den Status „erloschen/zurückgezogen““",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Zanamivir",
-   "u": "/drugs/zanamivir/",
-   "s": "Entfernt: „da die einzige deutsche Zulassung aufgehoben ist“",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Vortioxetine",
-   "u": "/drugs/vortioxetine/",
-   "s": "Entfernt: „Zudem ist die einzige deutsche Zulassung erloschen“",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Vildagliptin",
-   "u": "/drugs/vildagliptin/",
-   "s": "Entfernt: „Weitere erloschene Zulassungen: Vildagliptin / Metformin hydrochloride Accord (EMEA/H/C/005738)…",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Vilanterol",
-   "u": "/drugs/vilanterol/",
-   "s": "Entfernt: „da die Einzelwirkstoff-Zulassungen erloschen sind“",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Vestronidase Alfa",
-   "u": "/drugs/vestronidase-alfa/",
-   "s": "Entfernt: „da die Zulassung erloschen ist“",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Verteporfin",
-   "u": "/drugs/verteporfin/",
-   "s": "Entfernt: „Zudem ist die einzige Zulassung in Deutschland erloschen“",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Vernakalant",
-   "u": "/drugs/vernakalant/",
-   "s": "Entfernt: „Zudem ist die Zulassung in Deutschland erloschen, was die praktische Umsetzbarkeit einschränkt“",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Ustekinumab",
-   "u": "/drugs/ustekinumab/",
-   "s": "Entfernt: „(13 von 13 Zulassungen gültig, Arzneimittel im Handel)“",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Upadacitinib",
-   "u": "/drugs/upadacitinib/",
-   "s": "Entfernt: „Zudem besteht in Deutschland nur eine gelöschte Zulassung“",
-   "d": "2026-11-06"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Tenofovir Disoproxil",
-   "u": "/drugs/tenofovir-disoproxil/",
-   "s": "Entfernt: „Auswahl von 5 Einträgen:“",
+   "t": "Tolfenamic Acid",
+   "u": "/drugs/tolfenamic-acid/",
+   "s": "Entfernt: „, da das Präparat in Deutschland nicht mehr zugelassen ist“",
    "d": "2026-11-24"
   },
   {
-   "t": "Telmisartan",
-   "u": "/drugs/telmisartan/",
-   "s": "Entfernt: „Auswahl:“",
+   "t": "Tildipirosin",
+   "u": "/drugs/tildipirosin/",
+   "s": "„und die Zulassung aufgehoben, sodass“ → „, sodass“",
    "d": "2026-11-24"
   },
   {
-   "t": "Pioglitazone",
-   "u": "/drugs/pioglitazone/",
-   "s": "„eine sechste (Competact, EMEA/H/C/000655) ist hier nicht aufgeführt“ entfernt",
+   "t": "Serine",
+   "u": "/drugs/serine/",
+   "s": "„die unter dem Handelsnamen Maapliv für die Behandlung der Ahornsirupkrankheit (M“ → „die als Bestandteil der…",
    "d": "2026-11-24"
   },
   {
-   "t": "Formoterol",
-   "u": "/drugs/formoterol/",
-   "s": "Entfernt: „Die Liste zeigt die ersten fünf von zehn gültigen Zulassungen.“",
+   "t": "Phenylephrine",
+   "u": "/drugs/phenylephrine/",
+   "s": "„die Schmerzbehandlung nach der Operation zugelassen war.“ → „die Schmerzbehandlung nach der Operation…",
    "d": "2026-11-24"
   },
   {
-   "t": "Emtricitabine",
-   "u": "/drugs/emtricitabine/",
-   "s": "Entfernt: „Die Liste zeigt nur eine Auswahl der Zulassungen.“",
+   "t": "Orbifloxacin",
+   "u": "/drugs/orbifloxacin/",
+   "s": "Entfernt: „Die einzige Zulassung in Deutschland ist erloschen.“",
    "d": "2026-11-24"
   },
   {
-   "t": "Denosumab",
-   "u": "/drugs/denosumab/",
-   "s": "Entfernt: „… sind 20 Zulassungen erfasst; die Liste kann unvollständig sein. Hauptsächliche Produkte (Auswahl…",
+   "t": "Omeprazole",
+   "u": "/drugs/omeprazole/",
+   "s": "Entfernt: „Zudem ist die einzige erfasste Zulassung in Deutschland aufgehoben.“",
    "d": "2026-11-24"
   },
   {
-   "t": "Aflibercept",
-   "u": "/drugs/aflibercept/",
-   "s": "Entfernt: „Die folgende Tabelle zeigt fünf davon.“",
+   "t": "Midazolam",
+   "u": "/drugs/midazolam/",
+   "s": "„zur Behandlung von Epilepsie zugelassen war.“ → „zur Behandlung von Epilepsie zugelassen ist.“",
    "d": "2026-11-24"
   },
   {
-   "t": "Trastuzumab",
-   "u": "/drugs/trastuzumab/",
-   "s": "Entfernt: „Es besteht derzeit eine gültige Zulassung“ (es sind 11 gültige)",
-   "d": "2026-11-12"
+   "t": "Miconazole",
+   "u": "/drugs/miconazole/",
+   "s": "„ist erloschen bzw. nicht mehr gültig.“ → „betrifft ein Tierarzneimittel (Easotic, EMEA/V/C/000140) und ist…",
+   "d": "2026-11-24"
   }
  ],
  "files": {

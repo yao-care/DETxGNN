@@ -135,7 +135,7 @@ Die Vorhersage beruht allein auf Rechenmodellen. Es gibt keine klinischen Studie
 
 <!-- review:begin de-lic-20261031-palonosetron-1 -->
 
-> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Klärung der Zulassungs- und Verfügbarkeitslage in Deutschland (derzeit nur erloschene Zulassungen) / Bewertung der Wechselwirkungen mit Triptanen und der QT-Risiken“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 3 Zulassungen erfasst, davon 3 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Klärung der Zulassungs- und Verfügbarkeitslage in Deutschland (derzeit nur erloschene Zulassungen) / Bewertung der Wechselwirkungen mit Triptanen und der QT-Risiken“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261031-palonosetron-1 -->
 
@@ -147,7 +147,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-10-31 | Entfernt: „Klärung der Zulassungs- und Verfügbarkeitslage in Deutschland (derzeit nur erloschene Zulassungen)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-10-31 | Entfernt: „Klärung der Zulassungs- und Verfügbarkeitslage in Deutschland (derzeit nur erloschene Zulassungen)“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Posfrea (palonosetron) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7) |
 
 <!-- review:end log -->

@@ -60,7 +60,13 @@ Tolfenaminsäure ist ein nichtsteroidales Antirheumatikum (NSAR) aus der Gruppe 
 
 Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach bekanntem Stand ist Tolfenaminsäure ein Fenamat-NSAR, das die Cyclooxygenase hemmt und damit die Prostaglandinsynthese senkt; zudem werden Effekte auf Leukotriene beschrieben. Prostaglandine tragen zu Migränschmerz und neurogener Entzündung bei, sodass der Mechanismus nachvollziehbar ist.
 
-Die Literatur deckt sowohl die Akutbehandlung als auch die Prophylaxe der Migräne ab: randomisierte Doppelblindvergleiche gegen Paracetamol, gegen Propranolol und Placebo (Prophylaxe), gegen Sumatriptan und Ergotamin sowie Kombinationen mit Koffein und Metoclopramid. Zu beachten ist, dass die Evidenz alt ist und das Arzneimittel in Deutschland nicht mehr zugelassen ist. Die Literatur wird hier als kontrollierte Evidenz auf Phase-2-Niveau eingestuft, nicht als bestätigte Phase-3-Evidenz.
+Die Literatur deckt sowohl die Akutbehandlung als auch die Prophylaxe der Migräne ab: randomisierte Doppelblindvergleiche gegen Paracetamol, gegen Propranolol und Placebo (Prophylaxe), gegen Sumatriptan und Ergotamin sowie Kombinationen mit Koffein und Metoclopramid. Zu beachten ist, dass die Evidenz alt ist. Die Literatur wird hier als kontrollierte Evidenz auf Phase-2-Niveau eingestuft, nicht als bestätigte Phase-3-Evidenz.
+
+<!-- review:begin de-lic-20261124b-tolfenamic_acid-1 -->
+
+> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „die Evidenz alt ist und das Arzneimittel in Deutschland nicht mehr zugelassen ist.“ Korrigiert: Die in den EMA-Daten erfasste Zulassung (Tolfenamic acid VMD, EMEA/V/C/006234, Tierarzneimittel) ist laut EMA-Daten (Stand 2026-11-16) gültig („Authorised“); eine zentrale EU-Zulassung eines Humanarzneimittels ist nicht erfasst, über nationale Zulassungen sagen diese Daten nichts aus. Die Aussage „in Deutschland nicht mehr zugelassen“ lässt sich daraus nicht belegen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261124b-tolfenamic_acid-1 -->
 
 Die weiteren vorhergesagten Indikationen (u. a. rheumatoide Arthritis mit ebenfalls L2-Evidenz, Sehnenentzündung, trigeminoautonome Kopfschmerzen, Fibromyalgie) werden hier nicht vertieft. Die rheumatoide Arthritis entspricht eher einer klassischen NSAR-Anwendung als einem echten Repurposing.
 
@@ -118,8 +124,28 @@ Mehrere randomisierte, kontrollierte Studien belegen die Wirksamkeit bei akuter 
 - Fachinformation mit Warnhinweisen und Gegenanzeigen (derzeit fehlend und für die Sicherheitsprüfung blockierend)
 - Detaillierte Wirkmechanismus-Daten (MOA)
 - Vergleich mit aktuellen Migränestandards (Triptane, CGRP-Antagonisten) und Prüfung des Mehrwerts
-- Klärung von Zulassungs- und Vermarktungsweg, da das Präparat in Deutschland nicht mehr zugelassen ist
+- Klärung von Zulassungs- und Vermarktungsweg
 - Validierung der Studienqualität, da die Literaturbewertung noch aussteht
+
+<!-- review:begin de-lic-20261124b-tolfenamic_acid-2 -->
+
+> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „, da das Präparat in Deutschland nicht mehr zugelassen ist“ Entfernt (nur die Begründung, der Schritt bleibt): siehe Korrektur oben – die erfasste EMA-Zulassung (Tierarzneimittel) ist gültig; eine Aussage „nicht mehr zugelassen“ ist durch die Daten nicht belegt. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261124b-tolfenamic_acid-2 -->
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-24 | „die Evidenz alt ist und das Arzneimittel in Deutschland nicht mehr zugelassen is“ → „die Evidenz alt ist.“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-24 | Entfernt: „, da das Präparat in Deutschland nicht mehr zugelassen ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

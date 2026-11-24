@@ -105,13 +105,32 @@ Zu Warnhinweisen, Gegenanzeigen und Wechselwirkungen liegen keine Daten vor (die
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf einen Modellscore (Evidenzlevel L5) ohne klinische Studien, ohne relevante Literatur und ohne plausiblen Mechanismus. Hinzu kommen der Status „nur erloschene Zulassungen", die Einstufung als neurotoxisches Insektizid und ein Zulassungsbestand ausschließlich im Veterinärbereich.
+Die Vorhersage stützt sich ausschließlich auf einen Modellscore (Evidenzlevel L5) ohne klinische Studien, ohne relevante Literatur und ohne plausiblen Mechanismus. Hinzu kommen die Einstufung als neurotoxisches Insektizid und ein Zulassungsbestand ausschließlich im Veterinärbereich.
+
+<!-- review:begin de-lic-20261124b-imidacloprid-1 -->
+
+> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „Hinzu kommen der Status „nur erloschene Zulassungen", die Einstufung“ Korrigiert: Die beiden in den EMA-Daten erfassten Zulassungen (Imoxat, Advocate; Tierarzneimittel, EMEA/V/C/…) sind laut EMA-Daten (Stand 2026-11-16) gültig („Authorised“); der Status „nur erloschene Zulassungen“ trifft nicht zu. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261124b-imidacloprid-1 -->
 
 **Für ein Weiterverfolgen wären erforderlich:**
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da dies die Sicherheitsprüfung derzeit blockiert
 - Daten zum Wirkmechanismus (z. B. aus DrugBank)
 - Präklinische Belege für einen Zusammenhang mit dem Cauda-equina-Syndrom oder den anderen vorhergesagten Erkrankungen
 - Eine toxikologische Bewertung für die Anwendung beim Menschen
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-24 | „Hinzu kommen der Status „nur erloschene Zulassungen", die Einstufung“ → „Hinzu kommen die Einstufung“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

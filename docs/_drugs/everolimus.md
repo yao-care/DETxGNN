@@ -44,7 +44,7 @@ Dafür liegen derzeit **1 klinische Studie** und **4 Publikationen** vor, von de
 
 <!-- review:begin de-lic-20261106-everolimus-2 -->
 
-> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Hinweis: Die Zulassungen wurden zentral über die EMA erteilt (Nummern EMEA/H/C/…) und sind laut den für diesen Bericht zusammengestellten Daten als erloschen gelistet.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Hinweis: Die Zulassungen wurden zentral über die EMA erteilt (Nummern EMEA/H/C/…) und sind laut den für diesen Bericht zusammengestellten Daten als erloschen gelistet.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-everolimus-2 -->
 
@@ -151,7 +151,7 @@ Für das Liposarkom liegt eine prospektive Phase-2-Studie (n = 48) mit veröffen
 
 <!-- review:begin de-lic-20261031-everolimus-1 -->
 
-> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Der Evidenzgrad L2 stützt eine weitere Prüfung unter Auflagen, aber keine uneingeschränkte Freigabe. Zudem sind in Deutschland derzeit nur erloschene Zulassungen gelistet.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Der Evidenzgrad L2 stützt eine weitere Prüfung unter Auflagen, aber keine uneingeschränkte Freigabe. Zudem sind in Deutschland derzeit nur erloschene Zulassungen gelistet.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261031-everolimus-1 -->
 
@@ -170,8 +170,8 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-10-31 | Entfernt: „Zudem sind in Deutschland derzeit nur erloschene Zulassungen gelistet“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Entfernt: „Hinweis: Die Zulassungen wurden zentral über die EMA erteilt (Nummern EMEA/H/C/…) und sind laut den für diesen Bericht zusammengestellten Da“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-10-31 | Entfernt: „Zudem sind in Deutschland derzeit nur erloschene Zulassungen gelistet“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Hinweis: Die Zulassungen wurden zentral über die EMA erteilt (Nummern EMEA/H/C/…) und sind laut den für diesen Bericht zusammengestellten Da“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Zortress (everolimus) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e082a024-7850-400b-a5c2-2a140612562a) |
 
 <!-- review:end log -->

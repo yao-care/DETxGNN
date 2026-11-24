@@ -119,7 +119,13 @@ Die Evidenz für rheumatoide Arthritis stammt aus älteren Studien (1980–1988)
 - Sicherheitsdaten aus der Fachinformation (Warnhinweise und Gegenanzeigen) als Voraussetzung für die Sicherheitsprüfung
 - Detaillierte Daten zum Wirkmechanismus (MOA), z. B. aus DrugBank
 - Klärung, ob ein Mehrwert gegenüber etablierten NSAR und krankheitsmodifizierenden Therapien besteht
-- Prüfung der Verfügbarkeit einer für den Menschen geeigneten Darreichungsform, da das Produkt in Deutschland nur veterinärmedizinisch zugelassen war
+- Prüfung der Verfügbarkeit einer für den Menschen geeigneten Darreichungsform, da das Produkt in Deutschland nur veterinärmedizinisch zugelassen ist
+
+<!-- review:begin de-lic-20261124b-carprofen-1 -->
+
+> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „nur veterinärmedizinisch zugelassen war“ Korrigiert: Die erfasste Zulassung (Carprofen Orion, EMEA/V/C/006249, Tierarzneimittel) ist laut EMA-Daten (Stand 2026-11-16) gültig („Authorised“); die Vergangenheitsform „war“ legte ein Erlöschen nahe. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261124b-carprofen-1 -->
 
 ---
 
@@ -129,11 +135,12 @@ Die Evidenz für rheumatoide Arthritis stammt aus älteren Studien (1980–1988)
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [ChEMBL CHEMBL1316 (carprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1316) |
+| 2026-11-24 | „nur veterinärmedizinisch zugelassen war“ → „nur veterinärmedizinisch zugelassen ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

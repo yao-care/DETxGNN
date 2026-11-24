@@ -20,6 +20,7 @@ C = _json.loads(r"""{
  "DESC_LEVEL_RE": "Evidenzstufe (L[1-5]|N/A)",
  "DESC_LEVEL_FMT": "Evidenzstufe {lv}",
  "NA_DESC": "nur bekannte Anwendungen",
+ "FIGURES_NOTE": "2026-11-24（用戶決定）：figures 原本寫死「sind für dieses Arzneimittel {total} Zulassungen erfasst, davon {valid} gültig」，會跟每週資料過期；改成不寫數字、指向概覽表與程式許可證表（既有紀錄同 id 重發）",
  "HEADER_RULE_NOTE": "2026-11-12 實測：有 Quick Overview 等級的 377 頁，頁首全部等於第一個等級（整格取最高會有 6 頁不同）",
  "MARKET_RE": "Markt|Grundlegende Informationen",
  "ID_RE": "EMEA/H/C/\\d{4,6}(?:/X/\\d+)?",
@@ -126,7 +127,7 @@ C = _json.loads(r"""{
   "intro": "Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.",
   "intro_header": "Nachfolgend das Prüfprotokoll dieser Seite; das Evidenzniveau im Seitenkopf folgt der Schnellübersicht. Modellvorhersagen, Übersichtstabelle und Schlussfolgerungen wurden nicht umgeschrieben.",
   "intro_rr": "Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben, der Text der Modellvorhersage wurde nicht umgeschrieben; Evidenzstufen und Entscheidungen wurden nur durch ein Ergebnis der erneuten Prüfung (Herab-, Heraufstufung oder Rückzug) geändert, die ursprünglichen Werte stehen unten.",
-  "figures": "In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel {total} Zulassungen erfasst, davon {valid} gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen.",
+  "figures": "Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen.",
   "data_as_of": "EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand {date}",
   "notes": {
    "rewrite": "Korrigiert: Die Aussage stimmte nicht mit den Zulassungsdaten überein ({d}) und wurde durch den jetzigen Wortlaut ersetzt.",

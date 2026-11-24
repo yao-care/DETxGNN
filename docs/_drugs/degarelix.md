@@ -78,7 +78,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 <!-- review:begin de-lic-20261106-degarelix-2 -->
 
-> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Beide Zulassungen haben den Status „erloschen/zurückgezogen“.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Beide Zulassungen haben den Status „erloschen/zurückgezogen“.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-degarelix-2 -->
 
@@ -130,7 +130,7 @@ Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzlevel L5), ohne kli
 
 <!-- review:begin de-lic-20261031-degarelix-1 -->
 
-> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzlevel L5), ohne klinische Studien oder Publikationen, und die mechanistische Verbindung zur Hypertrichose ist schwach. Zudem sind in Deutschland derzeit nur erloschene Zulassungen vorhanden.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzlevel L5), ohne klinische Studien oder Publikationen, und die mechanistische Verbindung zur Hypertrichose ist schwach. Zudem sind in Deutschland derzeit nur erloschene Zulassungen vorhanden.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261031-degarelix-1 -->
 
@@ -149,8 +149,8 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-10-31 | Entfernt: „Zudem sind in Deutschland derzeit nur erloschene Zulassungen vorhanden“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Entfernt: „Beide Zulassungen haben den Status „erloschen/zurückgezogen““ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-10-31 | Entfernt: „Zudem sind in Deutschland derzeit nur erloschene Zulassungen vorhanden“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Beide Zulassungen haben den Status „erloschen/zurückgezogen““ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Firmagon (degarelix) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ab11dd8a-0fd9-4013-89ab-e114557c7e4b) |
 
 <!-- review:end log -->

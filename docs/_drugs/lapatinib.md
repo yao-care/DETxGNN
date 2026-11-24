@@ -132,7 +132,7 @@ Die Vorhersage stützt sich ausschließlich auf einen hohen TxGNN-Wert (Evidenzn
 
 <!-- review:begin de-lic-20261106-lapatinib-1 -->
 
-> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Der biologische Zusammenhang ist spekulativ, da Lapatinib PDGFR nicht direkt angreift und für DFSP bereits ein etablierter, gezielter Therapiestandard (Imatinib) besteht. Zudem ist die einzige deutsche bzw. europäische Zulassung erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Der biologische Zusammenhang ist spekulativ, da Lapatinib PDGFR nicht direkt angreift und für DFSP bereits ein etablierter, gezielter Therapiestandard (Imatinib) besteht. Zudem ist die einzige deutsche bzw. europäische Zulassung erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-lapatinib-1 -->
 
@@ -152,7 +152,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche bzw. europäische Zulassung erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche bzw. europäische Zulassung erloschen“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-20 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Tykerb (lapatinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee37f88-ec6a-4c30-b8aa-e2c71f93088c) |
 
 <!-- review:end log -->

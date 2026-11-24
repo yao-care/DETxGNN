@@ -82,7 +82,7 @@ Hinweis zu anderen vorhergesagten Indikationen (keine Wirksamkeitsevidenz, nur S
 
 <!-- review:begin de-lic-20261106-enfortumab_vedotin-2 -->
 
-> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Diese Zulassung ist als erloschen geführt.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Diese Zulassung ist als erloschen geführt.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-enfortumab_vedotin-2 -->
 
@@ -137,7 +137,7 @@ Die Vorhersage für Lepra beruht ausschließlich auf einem Modellscore (L5) ohne
 
 <!-- review:begin de-lic-20261031-enfortumab_vedotin-1 -->
 
-> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Die Vorhersage für Lepra beruht ausschließlich auf einem Modellscore (L5) ohne klinische Studien, Literatur oder plausiblen Wirkmechanismus. Zudem ist die Zulassung in Deutschland nur noch als erloschen geführt.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Die Vorhersage für Lepra beruht ausschließlich auf einem Modellscore (L5) ohne klinische Studien, Literatur oder plausiblen Wirkmechanismus. Zudem ist die Zulassung in Deutschland nur noch als erloschen geführt.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261031-enfortumab_vedotin-1 -->
 
@@ -155,8 +155,8 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-10-31 | Entfernt: „Zudem ist die Zulassung in Deutschland nur noch als erloschen geführt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Entfernt: „Diese Zulassung ist als erloschen geführt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-10-31 | Entfernt: „Zudem ist die Zulassung in Deutschland nur noch als erloschen geführt“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Diese Zulassung ist als erloschen geführt“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Padcev Ejfv (enfortumab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed) |
 
 <!-- review:end log -->

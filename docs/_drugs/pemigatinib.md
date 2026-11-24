@@ -78,7 +78,7 @@ Derzeit liegt keine einschlägige Literatur vor.
 
 <!-- review:begin de-lic-20261106-pemigatinib-1 -->
 
-> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Hinweis: Diese Zulassung (Inhaber: Incyte Biosciences Distribution B.V.) hat den Status „aufgehoben".“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Hinweis: Diese Zulassung (Inhaber: Incyte Biosciences Distribution B.V.) hat den Status „aufgehoben".“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-pemigatinib-1 -->
 
@@ -140,7 +140,7 @@ Die Vorhersage beruht ausschließlich auf dem Modell (L5), ohne klinische Studie
 
 <!-- review:begin de-lic-20261106-pemigatinib-2 -->
 
-> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Ein biologischer Zusammenhang zwischen FGFR-Hemmung und multipler endokriner Neoplasie ist nicht belegt. Zudem ist die einzige deutsche Zulassung aufgehoben.“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Ein biologischer Zusammenhang zwischen FGFR-Hemmung und multipler endokriner Neoplasie ist nicht belegt. Zudem ist die einzige deutsche Zulassung aufgehoben.“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-pemigatinib-2 -->
 
@@ -159,8 +159,8 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-11-06 | Entfernt: „Hinweis: Diese Zulassung (Inhaber: Incyte Biosciences Distribution B.V.) hat den Status „aufgehoben"“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche Zulassung aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Hinweis: Diese Zulassung (Inhaber: Incyte Biosciences Distribution B.V.) hat den Status „aufgehoben"“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Zudem ist die einzige deutsche Zulassung aufgehoben“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Pemazyre (pemigatinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e1f2222-1d89-4e63-989c-ccebe2ab1eb4) |
 
 <!-- review:end log -->

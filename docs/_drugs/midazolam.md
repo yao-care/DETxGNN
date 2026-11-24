@@ -38,7 +38,13 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **1**
 
 ## Zusammenfassung in einem Satz
 
-Midazolam ist ein kurzwirksames Benzodiazepin, das in Deutschland (als Buccolam) zur Behandlung von Epilepsie zugelassen war. Das TxGNN-Modell sagt voraus, dass es bei **Insomnie** wirksam sein könnte. Die Datenlage umfasst **2 klinische Studien** (beide nur indirekt relevant) und **10 Publikationen**, von denen einige ältere Studien zu Schlafstörungen direkt mit Midazolam durchgeführt wurden.
+Midazolam ist ein kurzwirksames Benzodiazepin, das in Deutschland (als Buccolam) zur Behandlung von Epilepsie zugelassen ist. Das TxGNN-Modell sagt voraus, dass es bei **Insomnie** wirksam sein könnte. Die Datenlage umfasst **2 klinische Studien** (beide nur indirekt relevant) und **10 Publikationen**, von denen einige ältere Studien zu Schlafstörungen direkt mit Midazolam durchgeführt wurden.
+
+<!-- review:begin de-lic-20261124b-midazolam-1 -->
+
+> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „zur Behandlung von Epilepsie zugelassen war.“ Korrigiert: Laut EMA-Daten (Stand 2026-11-16) ist Buccolam (EMEA/H/C/002267) gültig („Authorised“); die Vergangenheitsform „war … zugelassen“ legte nahe, die Zulassung bestehe nicht mehr. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261124b-midazolam-1 -->
 
 ---
 
@@ -132,11 +138,12 @@ Die Vorhersage ist biologisch plausibel, und ältere Studien (1980er–1990 Jahr
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-20 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e) |
+| 2026-11-24 | „zur Behandlung von Epilepsie zugelassen war.“ → „zur Behandlung von Epilepsie zugelassen ist.“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

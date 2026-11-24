@@ -38,7 +38,13 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **2**
 
 ## Zusammenfassung in einem Satz
 
-Phenylephrin ist ein selektiver Alpha-1-Agonist, der in Deutschland als Bestandteil von Omidria für die intraokulare Linsenimplantation und die Schmerzbehandlung nach der Operation zugelassen war. Das TxGNN-Modell sagt voraus, dass es bei **Erkrankungen der Nasenhöhle** wirksam sein könnte. Dafür liegen derzeit **keine registrierten klinischen Studien** und **5 Publikationen** vor, die überwiegend indirekt oder nur für Kombinationspräparate aussagekräftig sind.
+Phenylephrin ist ein selektiver Alpha-1-Agonist, der in Deutschland als Bestandteil von Omidria für die intraokulare Linsenimplantation und die Schmerzbehandlung nach der Operation zugelassen ist. Das TxGNN-Modell sagt voraus, dass es bei **Erkrankungen der Nasenhöhle** wirksam sein könnte. Dafür liegen derzeit **keine registrierten klinischen Studien** und **5 Publikationen** vor, die überwiegend indirekt oder nur für Kombinationspräparate aussagekräftig sind.
+
+<!-- review:begin de-lic-20261124b-phenylephrine-1 -->
+
+> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „die Schmerzbehandlung nach der Operation zugelassen war.“ Korrigiert: Laut EMA-Daten (Stand 2026-11-16) ist Omidria (EMEA/H/C/003702) gültig („Authorised“); die Vergangenheitsform „war … zugelassen“ legte nahe, die Zulassung bestehe nicht mehr. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261124b-phenylephrine-1 -->
 
 ---
 
@@ -66,7 +72,7 @@ Bei längerer topischer Anwendung droht eine Rebound-Schwellung (Rhinitis medica
 
 <!-- review:begin de-lic-20261106-phenylephrine-1 -->
 
-> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Einschränkungen: Die Zulassung des Ausgangspräparats ist aufgehoben. Bei längerer topischer Anwendung droht eine Rebound-Schwellung (Rhinitis medicamentosa), und eine systemische Aufnahme kann den Blutdruck erhöhen.“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Einschränkungen: Die Zulassung des Ausgangspräparats ist aufgehoben. Bei längerer topischer Anwendung droht eine Rebound-Schwellung (Rhinitis medicamentosa), und eine systemische Aufnahme kann den Blutdruck erhöhen.“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-phenylephrine-1 -->
 
@@ -115,7 +121,7 @@ Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produk
 
 <!-- review:begin de-lic-20261106-phenylephrine-2 -->
 
-> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Diese Zulassung ist aufgehoben (Status: cancelled).“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Diese Zulassung ist aufgehoben (Status: cancelled).“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-phenylephrine-2 -->
 
@@ -139,7 +145,7 @@ Die pharmakologische Plausibilität (Gefäßverengung der Nasenschleimhaut, bere
 
 <!-- review:begin de-lic-20261106-phenylephrine-3 -->
 
-> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung der Darreichungsform und des Zulassungswegs, da die einzige Zulassung aufgehoben ist“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung der Darreichungsform und des Zulassungswegs, da die einzige Zulassung aufgehoben ist“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-phenylephrine-3 -->
 
@@ -160,10 +166,11 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-11-06 | Entfernt: „Einschränkungen: Die Zulassung des Ausgangspräparats ist aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Entfernt: „Diese Zulassung ist aufgehoben (Status: cancelled)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Entfernt: „da die einzige Zulassung aufgehoben ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Einschränkungen: Die Zulassung des Ausgangspräparats ist aufgehoben“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Diese Zulassung ist aufgehoben (Status: cancelled)“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „da die einzige Zulassung aufgehoben ist“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Biorphen (phenylephrine hydrochloride) prescribing information, Dr. Reddy's Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f715e4e-b269-b935-d2c9-003cb29770be) |
+| 2026-11-24 | „die Schmerzbehandlung nach der Operation zugelassen war.“ → „die Schmerzbehandlung nach der Operation zugelassen ist.“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

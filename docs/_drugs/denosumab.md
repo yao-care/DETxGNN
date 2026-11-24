@@ -70,7 +70,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 <!-- review:begin de-lic-20261124-denosumab-1 -->
 
-> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „Laut den für diesen Bericht zusammengestellten Daten sind 20 Zulassungen erfasst; die Liste kann unvollständig sein. Hauptsächliche Produkte (Auswahl von 5):“ Korrigiert: In den EMA-Daten sind 31 zentrale EU-Zulassungen erfasst, davon 20 im Einzelnen; die programmatisch erzeugte Tabelle unten nennt diese Zahlen und listet die 20 erfassten Zulassungen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „Laut den für diesen Bericht zusammengestellten Daten sind 20 Zulassungen erfasst; die Liste kann unvollständig sein. Hauptsächliche Produkte (Auswahl von 5):“ Korrigiert: Die programmatisch erzeugte Tabelle unten nennt die Zahl der in den EMA-Daten erfassten zentralen EU-Zulassungen und listet die einzeln erfassten auf; die Angaben zu einer Auswahl aus der früheren Tabelle treffen nicht mehr zu. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261124-denosumab-1 -->
 
@@ -133,7 +133,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Conexxence (denosumab) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39a0a789-778f-4695-b3a9-61643e6396cd) |
-| 2026-11-24 | Entfernt: „… sind 20 Zulassungen erfasst; die Liste kann unvollständig sein. Hauptsächliche Produkte (Auswahl von 5):“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-24 | Entfernt: „… sind 20 Zulassungen erfasst; die Liste kann unvollständig sein. Hauptsächliche Produkte (Auswahl von 5):“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

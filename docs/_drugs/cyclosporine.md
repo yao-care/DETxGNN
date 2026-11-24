@@ -38,7 +38,13 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **7**
 
 ## Zusammenfassung
 
-Ciclosporin (Cyclosporine) ist ein Calcineurin-Inhibitor, der in Deutschland bzw. der EU in Augentropfen-Präparaten bei Bindehautentzündung/Keratitis, Hornhauterkrankungen und Keratoconjunctivitis sicca zugelassen war. Das TxGNN-Modell sagt als Top-Treffer eine Wirksamkeit bei **chronischer Granulomatose (autosomal-rezessiv)** voraus. Dafür liegen **keine klinischen Studien** und nur **1 Publikation** vor, die zudem keine Wirkung von Ciclosporin belegt.
+Ciclosporin (Cyclosporine) ist ein Calcineurin-Inhibitor, der in Deutschland bzw. der EU in Augentropfen-Präparaten bei Bindehautentzündung/Keratitis, Hornhauterkrankungen und Keratoconjunctivitis sicca zugelassen ist. Das TxGNN-Modell sagt als Top-Treffer eine Wirksamkeit bei **chronischer Granulomatose (autosomal-rezessiv)** voraus. Dafür liegen **keine klinischen Studien** und nur **1 Publikation** vor, die zudem keine Wirkung von Ciclosporin belegt.
+
+<!-- review:begin de-lic-20261124b-cyclosporine-1 -->
+
+> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „Keratoconjunctivitis sicca zugelassen war.“ Korrigiert: Laut EMA-Daten (Stand 2026-11-16) sind die erfassten Zulassungen (Verkazia, Ikervis, Vevizye) gültig („Authorised“); die Vergangenheitsform „war … zugelassen“ legte nahe, die Zulassung bestehe nicht mehr. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261124b-cyclosporine-1 -->
 
 ---
 
@@ -122,11 +128,12 @@ Die Vorhersage beruht praktisch nur auf dem Modell. Es gibt keine klinischen Stu
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Cyclosporine, Modfied (cyclosporine) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5baaf78c-90f6-abcf-52c8-814490f3cf9f) |
+| 2026-11-24 | „Keratoconjunctivitis sicca zugelassen war.“ → „Keratoconjunctivitis sicca zugelassen ist.“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

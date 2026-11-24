@@ -108,7 +108,7 @@ Die Evidenz für felines AIDS stammt ausschließlich aus Tier- und Veterinärstu
 
 <!-- review:begin de-lic-20261031-zidovudine-1 -->
 
-> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Es gibt keine Humanstudien, und die Indikation ist veterinärmedizinisch. Zudem sind in Deutschland nur erloschene Zulassungen vorhanden.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Es gibt keine Humanstudien, und die Indikation ist veterinärmedizinisch. Zudem sind in Deutschland nur erloschene Zulassungen vorhanden.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261031-zidovudine-1 -->
 
@@ -120,7 +120,7 @@ Die Evidenz für felines AIDS stammt ausschließlich aus Tier- und Veterinärstu
 
 <!-- review:begin de-lic-20261031-zidovudine-2 -->
 
-> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Bei den Rängen 5 und 6 sind Marktstatus (nur erloschene Zulassungen), Verdrängung durch moderne Kombinations-ART, hämatologische Toxizität und Wechselwirkungen als Leitplanken zu beachten.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Bei den Rängen 5 und 6 sind Marktstatus (nur erloschene Zulassungen), Verdrängung durch moderne Kombinations-ART, hämatologische Toxizität und Wechselwirkungen als Leitplanken zu beachten.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261031-zidovudine-2 -->
 
@@ -142,8 +142,8 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-10-31 | Entfernt: „Zudem sind in Deutschland nur erloschene Zulassungen vorhanden“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-10-31 | Entfernt: „Bei den Rängen 5 und 6 sind Marktstatus (nur erloschene Zulassungen), Verdrängung durch moderne Kombinations-ART, hämatologische Toxizität u“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-10-31 | Entfernt: „Zudem sind in Deutschland nur erloschene Zulassungen vorhanden“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-10-31 | Entfernt: „Bei den Rängen 5 und 6 sind Marktstatus (nur erloschene Zulassungen), Verdrängung durch moderne Kombinations-ART, hämatologische Toxizität u“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Tabelle: Trizivir (EMEA/H/C/000338) ist zurückgenommen, nicht gültig | Durch die programmatisch erzeugte Zulassungstabelle ersetzt (vorher: Korrigiert) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84) |
 

@@ -92,7 +92,7 @@ Alle sechs erfassten Zulassungen sind gültig (zentrale EU-Zulassungen der EMA):
 
 <!-- review:begin de-lic-20261106-tadalafil-1 -->
 
-> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Eine weitere erloschene Zulassung (Yuvanci, EMEA/H/C/005001, pulmonale arterielle Hypertonie) ist in der Gesamtzahl von 6 enthalten.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 6 Zulassungen erfasst, davon 6 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Eine weitere erloschene Zulassung (Yuvanci, EMEA/H/C/005001, pulmonale arterielle Hypertonie) ist in der Gesamtzahl von 6 enthalten.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-tadalafil-1 -->
 
@@ -132,7 +132,7 @@ Die Vorhersage beruht ausschließlich auf einem Graphmodell (Evidenzstufe L5), o
 
 <!-- review:begin de-lic-20261106-tadalafil-2 -->
 
-> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die Vorhersage beruht ausschließlich auf einem Graphmodell (Evidenzstufe L5), ohne Studien oder Publikationen und ohne plausiblen pharmakologischen Zusammenhang zur genetischen Ursache der Ambras-Hypertrichosis. Zudem ist derzeit keine Zulassung in Deutschland aktiv.“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 6 Zulassungen erfasst, davon 6 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die Vorhersage beruht ausschließlich auf einem Graphmodell (Evidenzstufe L5), ohne Studien oder Publikationen und ohne plausiblen pharmakologischen Zusammenhang zur genetischen Ursache der Ambras-Hypertrichosis. Zudem ist derzeit keine Zulassung in Deutschland aktiv.“ Entfernt: Die Aussage widersprach den Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-tadalafil-2 -->
 
@@ -150,8 +150,8 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-11-06 | Entfernt: „Eine weitere erloschene Zulassung (Yuvanci, EMEA/H/C/005001, pulmonale arterielle Hypertonie) ist in der Gesamtzahl von 6 enthalten“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Entfernt: „Zudem ist derzeit keine Zulassung in Deutschland aktiv“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Eine weitere erloschene Zulassung (Yuvanci, EMEA/H/C/005001, pulmonale arterielle Hypertonie) ist in der Gesamtzahl von 6 enthalten“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Zudem ist derzeit keine Zulassung in Deutschland aktiv“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Cialis (tadalafil) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895) |
 
 <!-- review:end log -->

@@ -97,7 +97,7 @@ Zur Darreichungsform liegen keine Angaben vor.
 
 <!-- review:begin de-lic-20261106-ertapenem-1 -->
 
-> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Beide Zulassungen sind zentrale EU-Zulassungen (EMEA-Nummern) und derzeit erloschen bzw. widerrufen. Zur Darreichungsform liegen keine Angaben vor.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Beide Zulassungen sind zentrale EU-Zulassungen (EMEA-Nummern) und derzeit erloschen bzw. widerrufen. Zur Darreichungsform liegen keine Angaben vor.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-ertapenem-1 -->
 
@@ -141,7 +141,7 @@ Die Evidenz für bakterielle Arthritis beschränkt sich auf Fallberichte und kle
 
 <!-- review:begin de-lic-20261106-ertapenem-2 -->
 
-> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem sind die Zulassungen in Deutschland erloschen, und die Sicherheitsangaben der Fachinformation fehlen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem sind die Zulassungen in Deutschland erloschen, und die Sicherheitsangaben der Fachinformation fehlen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-ertapenem-2 -->
 
@@ -162,8 +162,8 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-11-06 | Entfernt: „Beide Zulassungen sind zentrale EU-Zulassungen (EMEA-Nummern) und derzeit erloschen bzw. widerrufen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Entfernt: „Zudem sind die Zulassungen in eutschland erloschen, und d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Beide Zulassungen sind zentrale EU-Zulassungen (EMEA-Nummern) und derzeit erloschen bzw. widerrufen“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Zudem sind die Zulassungen in eutschland erloschen, und d“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-20 | "Detaillierte Mechanismusdaten aus einer Arzneimitteldatenbank liegen für diesen Bericht nicht vor. Die Beschreibung stützt sich auf das bekannte Wirkprinzip der Carbapeneme" replaced with a sourced mechanism-of-action statement | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22) |
 
 <!-- review:end log -->

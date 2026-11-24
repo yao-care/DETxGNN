@@ -155,7 +155,7 @@ Es gibt eine plausible epigenetische Begründung und mehrere Phase-1/2-Studien b
 
 <!-- review:begin de-lic-20261106-panobinostat-1 -->
 
-> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Es gibt eine plausible epigenetische Begründung und mehrere Phase-1/2-Studien bei AML/MDS, aber keine aussagekräftige Phase-3-Evidenz (die einzige Phase-3-Studie wurde mit 52 Patienten abgebrochen). Zudem ist die Zulassung in Deutschland erloschen und die Sicherheitsdaten aus der Fachinformation fehlen, sodass eine Sicherheitsprüfung derzeit nicht abgeschlossen werden kann.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Es gibt eine plausible epigenetische Begründung und mehrere Phase-1/2-Studien bei AML/MDS, aber keine aussagekräftige Phase-3-Evidenz (die einzige Phase-3-Studie wurde mit 52 Patienten abgebrochen). Zudem ist die Zulassung in Deutschland erloschen und die Sicherheitsdaten aus der Fachinformation fehlen, sodass eine Sicherheitsprüfung derzeit nicht abgeschlossen werden kann.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-panobinostat-1 -->
 
@@ -168,7 +168,7 @@ Es gibt eine plausible epigenetische Begründung und mehrere Phase-1/2-Studien b
 
 <!-- review:begin de-lic-20261106-panobinostat-2 -->
 
-> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung der regulatorischen Lage in Deutschland, da die bisherige Zulassung erloschen ist“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klärung der regulatorischen Lage in Deutschland, da die bisherige Zulassung erloschen ist“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-panobinostat-2 -->
 
@@ -180,8 +180,8 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-11-06 | Entfernt: „Zudem ist die Zulassung in Deutschland erloschen und die Sicherheitsdaten aus der Fachinformation fehlen, sodass eine Sicherheitsprüfung der“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Entfernt: „da die bisherige Zulassung erloschen ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Zudem ist die Zulassung in Deutschland erloschen und die Sicherheitsdaten aus der Fachinformation fehlen, sodass eine Sicherheitsprüfung der“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „da die bisherige Zulassung erloschen ist“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

@@ -110,24 +110,38 @@ Zu Warnhinweisen und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinforma
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenz beschränkt sich auf eine kleine physiologische Studie und eine Übersichtsarbeit, ohne klinische Endpunkte wie Wiederkehr der Menses oder Ovulation. Zudem gibt es keine registrierten Studien und keine verfügbaren Sicherheitsdaten aus Fachinformationen. Das Arzneimittel ist im Markt vorhanden (1 von 1 Zulassung gültig). Die Fragestellung bleibt vorerst eine Forschungsfrage.
+Die Evidenz beschränkt sich auf eine kleine physiologische Studie und eine Übersichtsarbeit, ohne klinische Endpunkte wie Wiederkehr der Menses oder Ovulation. Zudem gibt es keine registrierten Studien und keine verfügbaren Sicherheitsdaten aus Fachinformationen. Die Fragestellung bleibt vorerst eine Forschungsfrage.
+
+<!-- review:begin de-lic-20261124b-estriol-1 -->
+
+> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „Das Arzneimittel ist im Markt vorhanden (1 von 1 Zulassung gültig).“ Entfernt: In den EMA-Daten (Stand 2026-11-16) ist für Estriol keine zentrale EU-Zulassung eines Humanarzneimittels erfasst; die erfasste Zulassung (Incurin, EMEA/V/C/000047) betrifft ein Tierarzneimittel. Eine Aussage zur Marktverfügbarkeit in Deutschland lässt sich daraus nicht ableiten; nationale Zulassungen (BfArM) sind in diesen Daten nicht enthalten. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261124b-estriol-1 -->
 
 **Zum Fortfahren sind folgende Schritte nötig:**
 - Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) für die Sicherheitsprüfung
 - Detaillierte Daten zum Wirkmechanismus
-- Klärung der ursprünglichen Indikation und der Zulassungssituation in Deutschland (die einzige Zulassung ist aufgehoben)
+- Klärung der ursprünglichen Indikation und der Zulassungssituation in Deutschland
 - Kontrollierte klinische Studien mit klinischen Endpunkten (Menstruation, Ovulation, Knochengesundheit), eingegrenzt auf Amenorrhoe-Formen mit Estrogenmangel
 - Prüfung der Darreichungswege und der Eignung für die Zielpopulation
+
+<!-- review:begin de-lic-20261124b-estriol-2 -->
+
+> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „(die einzige Zulassung ist aufgehoben)“ Entfernt (nur die falsche Begründung, der Schritt bleibt): Die einzige in den EMA-Daten erfasste Zulassung (Incurin, EMEA/V/C/000047, Tierarzneimittel) ist laut EMA-Daten (Stand 2026-11-16) gültig („Authorised“), nicht aufgehoben; nationale Zulassungen (BfArM) sind in diesen Daten nicht enthalten. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261124b-estriol-2 -->
 
 <!-- review:begin log -->
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482) |
+| 2026-11-24 | Entfernt: „Das Arzneimittel ist im Markt vorhanden (1 von 1 Zulassung gültig).“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-24 | Entfernt: „(die einzige Zulassung ist aufgehoben)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

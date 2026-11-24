@@ -151,7 +151,7 @@ Für das indolente Plasmazellmyelom gibt es weder Studien noch Literatur. Der ho
 
 <!-- review:begin de-lic-20261106-plerixafor-1 -->
 
-> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Der hohe Vorhersagewert beruht allein auf der Nähe zur zugelassenen Myelom-Indikation (Evidenzlevel L5). Zudem sind beide deutschen Zulassungen erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Der hohe Vorhersagewert beruht allein auf der Nähe zur zugelassenen Myelom-Indikation (Evidenzlevel L5). Zudem sind beide deutschen Zulassungen erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-plerixafor-1 -->
 
@@ -170,7 +170,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-11-06 | Entfernt: „Zudem sind beide deutschen Zulassungen erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Zudem sind beide deutschen Zulassungen erloschen“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-20 | "Detaillierte Mechanismusdaten aus DrugBank liegen derzeit nicht vor. Die Beschreibung stützt sich daher auf die Zielstruktur-Daten und die mechanistische Einordnung" replaced with a sourced mechanism-of-action statement | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [DailyMed: Mozobil (plerixafor) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ed08d2b-5051-46b2-aa37-1d6275bf9003) |
 
 <!-- review:end log -->

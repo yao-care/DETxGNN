@@ -113,7 +113,13 @@ Zu Arzneimittelwechselwirkungen wurden keine Einträge gefunden.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf einem Modell (L5). Es gibt keine klinischen Studien, keine relevante Literatur und keinen plausiblen Mechanismus. Zudem ist das Herzsicherheitsprofil der Fluorchinolone ungünstig. Die einzige Zulassung in Deutschland ist erloschen.
+Die Vorhersage beruht ausschließlich auf einem Modell (L5). Es gibt keine klinischen Studien, keine relevante Literatur und keinen plausiblen Mechanismus. Zudem ist das Herzsicherheitsprofil der Fluorchinolone ungünstig.
+
+<!-- review:begin de-lic-20261124b-orbifloxacin-1 -->
+
+> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „Die einzige Zulassung in Deutschland ist erloschen.“ Entfernt: Die in den EMA-Daten erfasste Zulassung (Posatex, EMEA/V/C/000122, Tierarzneimittel) ist laut EMA-Daten (Stand 2026-11-16) gültig („Authorised“), nicht erloschen; nationale Zulassungen (BfArM) sind in diesen Daten nicht enthalten. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261124b-orbifloxacin-1 -->
 
 **Für ein Weiterkommen wäre Folgendes nötig:**
 - Prüfung, ob die Vorhersage biologisch überhaupt plausibel ist (derzeit keine mechanistische Verbindung erkennbar)
@@ -121,6 +127,19 @@ Die Vorhersage beruht ausschließlich auf einem Modell (L5). Es gibt keine klini
 - Ergänzung der Daten zum Wirkmechanismus aus DrugBank
 - Klärung der ursprünglichen Indikation und der Darreichungsformen
 - Präklinische Evidenz, bevor überhaupt klinische Studien erwogen werden
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-24 | Entfernt: „Die einzige Zulassung in Deutschland ist erloschen.“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

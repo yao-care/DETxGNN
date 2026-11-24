@@ -110,7 +110,7 @@ Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produk
 
 <!-- review:begin de-lic-20261106-rilpivirine-1 -->
 
-> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Alle sechs Zulassungen sind laut den Daten aufgehoben (zentrale EU-Zulassungen, EMEA-Nummern).“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 6 Zulassungen erfasst, davon 6 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Alle sechs Zulassungen sind laut den Daten aufgehoben (zentrale EU-Zulassungen, EMEA-Nummern).“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-rilpivirine-1 -->
 
@@ -127,7 +127,7 @@ Die Vorhersage stützt sich nur auf eine einzelne präklinische Studie ohne klin
 
 <!-- review:begin de-lic-20261106-rilpivirine-2 -->
 
-> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem handelt es sich um eine veterinärmedizinische Indikation, und alle deutschen Zulassungen von Rilpivirin sind aufgehoben.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 6 Zulassungen erfasst, davon 6 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Zudem handelt es sich um eine veterinärmedizinische Indikation, und alle deutschen Zulassungen von Rilpivirin sind aufgehoben.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-rilpivirine-2 -->
 
@@ -149,8 +149,8 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-11-06 | Entfernt: „Alle sechs Zulassungen sind laut den Daten aufgehoben (zentrale EU-Zulassungen, EMEA-Nummern)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Entfernt: „und alle deutschen Zulassungen von Rilpivirin sind aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Alle sechs Zulassungen sind laut den Daten aufgehoben (zentrale EU-Zulassungen, EMEA-Nummern)“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „und alle deutschen Zulassungen von Rilpivirin sind aufgehoben“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6) |
 
 <!-- review:end log -->

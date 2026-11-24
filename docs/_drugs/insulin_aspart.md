@@ -106,13 +106,13 @@ Es sind keine Darreichungsformen angegeben.
 
 <!-- review:begin de-lic-20261106-insulin_aspart-1 -->
 
-> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Alle in den Daten erfassten Zulassungen sind aufgehoben. Es sind keine Darreichungsformen angegeben.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 8 Zulassungen erfasst, davon 7 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Alle in den Daten erfassten Zulassungen sind aufgehoben. Es sind keine Darreichungsformen angegeben.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-insulin_aspart-1 -->
 
 <!-- review:begin de-lic-20261106-insulin_aspart-2 -->
 
-> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Drei weitere aufgehobene Zulassungen (Truvelog Mix 30, Dazparda, Kirsty) sind in der Gesamtzahl von 8 enthalten.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 8 Zulassungen erfasst, davon 7 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Drei weitere aufgehobene Zulassungen (Truvelog Mix 30, Dazparda, Kirsty) sind in der Gesamtzahl von 8 enthalten.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-insulin_aspart-2 -->
 
@@ -150,7 +150,7 @@ Die Evidenz für Typ-1-Diabetes ist stark (mehrere abgeschlossene Phase-3-Studie
 
 <!-- review:begin de-lic-20261106-insulin_aspart-3 -->
 
-> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Es handelt sich aber um eine bereits etablierte Indikation und nicht um echtes Repurposing. Zudem sind alle deutschen Zulassungen in den Daten als aufgehoben geführt, sodass der aktuelle Zulassungs- und Verfügbarkeitsstatus vor einer Empfehlung geprüft werden muss.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 8 Zulassungen erfasst, davon 7 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Es handelt sich aber um eine bereits etablierte Indikation und nicht um echtes Repurposing. Zudem sind alle deutschen Zulassungen in den Daten als aufgehoben geführt, sodass der aktuelle Zulassungs- und Verfügbarkeitsstatus vor einer Empfehlung geprüft werden muss.“ Entfernt: Die angegebene Zahl oder der Status der Zulassungen stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-insulin_aspart-3 -->
 
@@ -169,9 +169,9 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-11-06 | Entfernt: „Alle in den Daten erfassten Zulassungen sind aufgehoben“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Entfernt: „Drei weitere aufgehobene Zulassungen (Truvelog Mix 30, Dazparda, Kirsty) sind in der Gesamtzahl von 8 enthalten“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Entfernt: „Zudem sind alle deutschen Zulassungen in den Daten als aufgehoben geführt, sodass der aktuelle Zulassungs- und Verfügbarkeitsstatus vor eine“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Alle in den Daten erfassten Zulassungen sind aufgehoben“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Drei weitere aufgehobene Zulassungen (Truvelog Mix 30, Dazparda, Kirsty) sind in der Gesamtzahl von 8 enthalten“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Zudem sind alle deutschen Zulassungen in den Daten als aufgehoben geführt, sodass der aktuelle Zulassungs- und Verfügbarkeitsstatus vor eine“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Novolog Mix 70/30 (insulin aspart) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66da64f7-ca50-47d2-95fa-de37005eef85) |
 
 <!-- review:end log -->

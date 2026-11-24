@@ -18,8 +18,8 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Entfernt: „und die deutsche Zulassung ist erloschen“",
+    "r": 2,
+    "rs": "„Bupropion war in Deutschland bzw. der EU als Bestandteil des Kombinationspräpara“ → „Bupropion ist in der EU…",
     "x": 0
    },
    {
@@ -51,8 +51,8 @@
     "i": "Angststörung",
     "lt": 0,
     "lv": 0,
-    "r": 1,
-    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+    "r": 2,
+    "rs": "„da derzeit keine gültige Zulassung verzeichnet ist“ → „da in den EMA-Daten keine zentrale EU-Zulassung eines…",
     "x": 0
    },
    {
@@ -84,8 +84,8 @@
     "i": "headache disorder",
     "lt": 1,
     "lv": 1,
-    "r": 4,
-    "rs": "Entfernt: „da die einzige Zulassung (Omidria) erloschen ist und sich auf eine ophthalmologische Anwendung…",
+    "r": 5,
+    "rs": "„das in Deutschland als Omidria zugelassen war,“ → „das in der EU als Bestandteil von Omidria…",
     "x": 0
    },
    {
@@ -381,8 +381,8 @@
     "i": "rheumatoid arthritis",
     "lt": 0,
     "lv": 0,
-    "r": 1,
-    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+    "r": 2,
+    "rs": "„nur veterinärmedizinisch zugelassen war“ → „nur veterinärmedizinisch zugelassen ist“",
     "x": 0
    },
    {
@@ -425,8 +425,8 @@
     "i": "amenorrhea (disease)",
     "lt": 0,
     "lv": 0,
-    "r": 1,
-    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+    "r": 3,
+    "rs": "Entfernt: „(die einzige Zulassung ist aufgehoben)“",
     "x": 0
    },
    {
@@ -480,8 +480,8 @@
     "i": "insomnia (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+    "r": 2,
+    "rs": "„zur Behandlung von Epilepsie zugelassen war.“ → „zur Behandlung von Epilepsie zugelassen ist.“",
     "x": 0
    },
    {
@@ -491,8 +491,8 @@
     "i": "Erkrankung der Nasenhöhle",
     "lt": 1,
     "lv": 1,
-    "r": 4,
-    "rs": "Entfernt: „da die einzige Zulassung aufgehoben ist“",
+    "r": 5,
+    "rs": "„die Schmerzbehandlung nach der Operation zugelassen war.“ → „die Schmerzbehandlung nach der Operation…",
     "x": 0
    },
    {
@@ -557,8 +557,8 @@
     "i": "alopecia mucinosa",
     "lt": 0,
     "lv": 0,
-    "r": 1,
-    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+    "r": 3,
+    "rs": "Entfernt: „Zudem ist Betamethason in Deutschland derzeit nicht im Handel.“",
     "x": 0
    },
    {
@@ -590,8 +590,8 @@
     "i": "autosomal-rezessiv",
     "lt": 3,
     "lv": 3,
-    "r": 1,
-    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+    "r": 2,
+    "rs": "„Keratoconjunctivitis sicca zugelassen war.“ → „Keratoconjunctivitis sicca zugelassen ist.“",
     "x": 0
    },
    {
@@ -667,8 +667,8 @@
     "i": "postmenopausal osteoporosis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Entfernt: „Zudem ist die einzige Zulassung erloschen, und m“",
+    "r": 2,
+    "rs": "„Glutaminsäure (Handelsname Maapliv) war in der EU für die Behandlung“ → „Glutaminsäure ist als Bestandteil…",
     "x": 0
    },
    {
@@ -689,8 +689,8 @@
     "i": "Akne",
     "lt": 0,
     "lv": 0,
-    "r": 1,
-    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+    "r": 2,
+    "rs": "„ist erloschen bzw. nicht mehr gültig.“ → „betrifft ein Tierarzneimittel (Easotic, EMEA/V/C/000140) und ist…",
     "x": 0
    },
    {
@@ -838,7 +838,7 @@
   "with_current": 367,
   "none_current": 5,
   "without_data": 15,
-  "with_reviews": 360,
+  "with_reviews": 366,
   "rows": [
    {
     "t": "Denosumab",
@@ -2013,8 +2013,8 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+    "r": 2,
+    "rs": "„des persistierenden Ductus arteriosus (PDA) zugelassen war.“ → „des persistierenden Ductus arteriosus (PDA)…",
     "x": 0
    },
    {
@@ -3212,8 +3212,8 @@
     "i": "Zäkum-Zottenadenom",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Entfernt: „und wird in Deutschland als Einzelsubstanz-Zulassung geführt“",
     "x": 0
    },
    {
@@ -3696,8 +3696,8 @@
     "i": "acne (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "„Die Liste enthält 1 gültige Zulassung eines Einzelwirkstoffs (Hersteller: Record“ → „Die Zulassung in der…",
     "x": 0
    },
    {
@@ -4378,8 +4378,8 @@
     "i": "familial visceral myopathy",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Entfernt: „und die einzige Zulassung ist erloschen“",
+    "r": 2,
+    "rs": "„die unter dem Handelsnamen Maapliv für die Behandlung der Ahornsirupkrankheit (M“ → „die als Bestandteil der…",
     "x": 0
    },
    {
@@ -4950,8 +4950,8 @@
     "i": "Retinale Dystrophie mit oder ohne extraokulare Anomalien",
     "lt": 1,
     "lv": 0,
-    "r": 1,
-    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+    "r": 2,
+    "rs": "„Die einzige erfasste Zulassung hat den Status „gelöscht“.“ → „Der erfasste Zulassungsantrag…",
     "x": 0
    },
    {
@@ -4961,8 +4961,8 @@
     "i": "cauda equina syndrome",
     "lt": 0,
     "lv": 0,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "„Hinzu kommen der Status „nur erloschene Zulassungen\", die Einstufung“ → „Hinzu kommen die Einstufung“",
     "x": 0
    },
    {
@@ -5027,8 +5027,8 @@
     "i": "duodenal obstruction",
     "lt": 0,
     "lv": 0,
-    "r": 1,
-    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+    "r": 2,
+    "rs": "Entfernt: „Zudem ist die einzige erfasste Zulassung in Deutschland aufgehoben.“",
     "x": 0
    },
    {
@@ -5038,8 +5038,8 @@
     "i": "heart disease",
     "lt": 0,
     "lv": 0,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Entfernt: „Die einzige Zulassung in Deutschland ist erloschen.“",
     "x": 0
    },
    {
@@ -5071,8 +5071,8 @@
     "i": "leprosy",
     "lt": 0,
     "lv": 0,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "„und die Zulassung aufgehoben, sodass“ → „, sodass“",
     "x": 0
    },
    {
@@ -5082,8 +5082,8 @@
     "i": "Kopfschmerzerkrankung",
     "lt": 0,
     "lv": 0,
-    "r": 0,
-    "rs": "",
+    "r": 2,
+    "rs": "Entfernt: „, da das Präparat in Deutschland nicht mehr zugelassen ist“",
     "x": 0
    }
   ],

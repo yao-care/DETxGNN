@@ -85,3 +85,18 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   被取代表上錨著的 9 筆 `de-row-20261112-*` 標 superseded（superseded_by programmatic-license-table-2026-11-24）；描述舊表「只列其中幾筆」的 7 句以 `de-lic-20261124-*` 更正（aflibercept、denosumab、emtricitabine、formoterol、pioglitazone、telmisartan、tenofovir_disoproxil）。
   另寫一支更寬的獨立偵測全量掃公開頁：改前 21 句、改後 16 句，剩下的都是事實總數 0 的頁（只有獸用許可或沒有 EMA 集中許可，資料範圍外，X_SCOPE）、把「eine Zulassung」當泛稱或同句另有試驗人數的誤中；checker 全量前後都是 P2 2／P6 1（原有、無關）。
 - 已知限制：母目錄 license_refresh 的 checker（3c）在站上 apply_drug_reviews（4b）之前跑，資料變動當週正文張數句若矛盾，該頁仍會先被擋下（Kr／My 同樣）。
+
+## 第二輪：舊錯句與紀錄說明的張數（2026-11-24）
+
+用戶 2026-11-24 第二輪決定（程式許可證表與正文張數改寫上線後，處理程式管不到的舊錯句）：
+- 第一輪寬偵測剩的 16 句逐句對照證據包（data-20261116-082556，人用 tfda.records 與獸用 veterinary_records）：多數是事實層 total 0 的頁（只有獸用許可或沒有 EMA 集中許可）。
+  另寫一支只看「已失效／撤回／不在市」說法、含 total 0 頁的獨立偵測（全部紀錄都是 Authorised 的頁）全量再掃，加上單方／複方與「war … zugelassen」過去式的掃描，共寫 24 筆 `de-lic-20261124b-*`（21 頁）：
+  獸用許可 Authorised 卻寫成「einzige Zulassung erloschen／aufgehoben」「nur erloschene Zulassungen」「nicht mehr zugelassen／nicht im Handel」的（estriol 2、omeprazole、orbifloxacin、tildipirosin、imidacloprid、betamethasone 2、miconazole、tolfenamic_acid 2、clomipramine、carprofen；
+  estriol 同頁一句說「im Markt vorhanden (1 von 1 gültig)」、待辦說「einzige Zulassung aufgehoben」，前後矛盾，兩句都依事實更正：人用集中許可 0 張、獸用 Incurin 有效）；
+  複方寫成單方（gimeracil＝Teysuno、methionine＝Maapliv 胺基酸混合物）；Refused 寫成「gelöscht」（iloperidone）；有效許可用過去式「war … zugelassen」的 8 句（bupropion、cyclosporine、ibuprofen、ketorolac、midazolam、phenylephrine、serine、glutamic_acid）。
+  待辦條目只拿掉錯的前提，建議不動；國家許可（BfArM）不在資料裡，不寫「德國不在市／不再核准」。
+- 劑型說法全站掃：證據包沒有劑型欄（EMA medicines output 不含），只能依產品名判斷；全稱說法只有 cyclosporine「aktuell nur Augentropfen」（3 張集中許可都是眼用），成立、不改。
+- 紀錄說明樣板（site_config `T["figures"]`）原本寫死「{total} Zulassungen erfasst, davon {valid} gültig」，改成不寫數字、指向概覽表與程式表（`FIGURES_NOTE`）；既有 313 筆紀錄說明同 id 重發，
+  另 8 筆更正文字／說明寫死張數或舊表筆數的（meloxicam 3、insulin_glargine、pertuzumab、pioglitazone、trastuzumab、denosumab）改成註明查核日的寫法或指向表格，前版存 history（合計重發 321 筆）。
+  trastuzumab、pegfilgrastim 兩筆的錨點是寫死張數的句子（會讓程式改寫跳過那句），改錨到同段沒有張數的句子；tadalafil、tenofovir_alafenamide、aflibercept 三筆錨在整段只有張數句的段落，沒改（那三句目前跟事實一致，事實變了要人工處理）。
+- checker 前後 P2 2／P6 1（原有、無關）；gate exit 0；寬偵測剩 14 句，逐句看過都跟事實一致或不是張數句（日期、號碼的數字誤中）。

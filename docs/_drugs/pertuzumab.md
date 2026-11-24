@@ -107,11 +107,11 @@ Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produk
 
 <!-- licenses:end -->
 
-Alle drei Zulassungen sind gültig.
+Laut EMA-Daten (Stand 2026-11-09) waren alle Zulassungen gültig; den aktuellen Status zeigt die Tabelle bei den Marktinformationen.
 
 <!-- review:begin de-lic-20261112-pertuzumab-1 -->
 
-> **Prüfkorrektur (2026-11-12)**: Ursprünglich stand hier: „Zwei von drei Zulassungen sind gültig.“ Laut den EMA-Daten (Stand 2026-11-09) sind alle 3 erfassten Zulassungen (Perjeta, Poherdy, Phesgo) gültig („Authorised“). Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-12)**: Ursprünglich stand hier: „Zwei von drei Zulassungen sind gültig.“ Laut den EMA-Daten (Stand 2026-11-09) waren alle erfassten Zulassungen (Perjeta, Poherdy, Phesgo) gültig („Authorised“); Zahl und aktueller Status stehen in der Schnellübersicht und in der Tabelle. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261112-pertuzumab-1 -->
 
@@ -148,7 +148,7 @@ Für Pertuzumab liegen eine abgeschlossene Phase-3-Studie sowie mehrere randomis
 
 <!-- review:begin de-lic-20261106-pertuzumab-1 -->
 
-> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die PR-positive Untergruppe ist jedoch nicht gesondert ausgewertet, und die deutschen Zulassungen sind sämtlich erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 3 Zulassungen erfasst, davon 3 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Die PR-positive Untergruppe ist jedoch nicht gesondert ausgewertet, und die deutschen Zulassungen sind sämtlich erloschen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-pertuzumab-1 -->
 
@@ -167,8 +167,8 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-11-06 | Entfernt: „und die deutschen Zulassungen sind sämtlich erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-12 | Zahl der gültigen Zulassungen: 2 von 3 → alle 3 | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „und die deutschen Zulassungen sind sämtlich erloschen“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Zahl der gültigen Zulassungen: 2 von 3 → alle 3 | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Perjeta (pertuzumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=17f85d17-ab71-4f5b-9fe3-0b8c822f69ff) |
 
 <!-- review:end log -->

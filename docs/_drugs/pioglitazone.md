@@ -95,11 +95,11 @@ Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produk
 
 <!-- licenses:end -->
 
-Alle sechs Zulassungen sind gültig.
+Laut EMA-Daten (Stand 2026-11-16) waren alle Zulassungen gültig; den aktuellen Status zeigt die Tabelle oben.
 
 <!-- review:begin de-lic-20261124-pioglitazone-1 -->
 
-> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „Alle sechs Zulassungen sind gültig; eine sechste (Competact, EMEA/H/C/000655) ist hier nicht aufgeführt.“ Korrigiert: Die programmatisch erzeugte Tabelle oben enthält alle sechs Zulassungen, auch Competact (EMEA/H/C/000655). Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „Alle sechs Zulassungen sind gültig; eine sechste (Competact, EMEA/H/C/000655) ist hier nicht aufgeführt.“ Korrigiert: Die programmatisch erzeugte Tabelle oben enthält alle erfassten Zulassungen, auch Competact (EMEA/H/C/000655). Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261124-pioglitazone-1 -->
 
@@ -136,7 +136,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c) |
-| 2026-11-24 | „eine sechste (Competact, EMEA/H/C/000655) ist hier nicht aufgeführt“ entfernt | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-24 | „eine sechste (Competact, EMEA/H/C/000655) ist hier nicht aufgeführt“ entfernt | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

@@ -38,7 +38,13 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 ## Zusammenfassung
 
-Gimeracil ist ein Bestandteil einer Kombinationstherapie mit Fluoropyrimidinen und wird in Deutschland als Einzelsubstanz-Zulassung geführt. Das TxGNN-Modell sagt voraus, dass es bei **Zäkum-Zottenadenom (cecum villous adenoma)** wirksam sein könnte. Für diese Vorhersage liegen **keine klinischen Studien** und **keine Publikationen** vor; sie beruht allein auf der Modellrechnung.
+Gimeracil ist ein Bestandteil einer Kombinationstherapie mit Fluoropyrimidinen. Das TxGNN-Modell sagt voraus, dass es bei **Zäkum-Zottenadenom (cecum villous adenoma)** wirksam sein könnte. Für diese Vorhersage liegen **keine klinischen Studien** und **keine Publikationen** vor; sie beruht allein auf der Modellrechnung.
+
+<!-- review:begin de-lic-20261124b-gimeracil-1 -->
+
+> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „und wird in Deutschland als Einzelsubstanz-Zulassung geführt“ Entfernt: Laut EMA-Daten (Stand 2026-11-16) ist Gimeracil nur als Bestandteil des Kombinationspräparats Teysuno (Tegafur/Gimeracil/Oteracil, EMEA/H/C/001242) erfasst, nicht als Einzelsubstanz. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261124b-gimeracil-1 -->
 
 ## Kurzübersicht
 
@@ -93,6 +99,18 @@ Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzniveau L5), o
 - Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da diese Sicherheitsdaten derzeit fehlen
 - Daten zum Wirkmechanismus (MOA) ergänzen
 - Prüfung, ob für diese Erkrankung überhaupt ein medikamentöser Therapiebedarf besteht, sowie präklinische oder mechanistische Belege
+
+<!-- review:begin log -->
+
+## Prüfprotokoll
+
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+
+| Prüfdatum | Punkt | Maßnahme | Quelle |
+|------|------|------|------|
+| 2026-11-24 | Entfernt: „und wird in Deutschland als Einzelsubstanz-Zulassung geführt“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Haftungsausschluss
 

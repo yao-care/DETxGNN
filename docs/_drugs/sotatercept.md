@@ -87,7 +87,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 <!-- review:begin de-lic-20261106-sotatercept-2 -->
 
-> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Diese einzige Zulassung (Merck Sharp & Dohme B.V.) hat den Status „erloschen/aufgehoben“. Eine gültige Zulassung liegt laut den zusammengestellten Daten nicht vor.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Diese einzige Zulassung (Merck Sharp & Dohme B.V.) hat den Status „erloschen/aufgehoben“. Eine gültige Zulassung liegt laut den zusammengestellten Daten nicht vor.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-sotatercept-2 -->
 
@@ -122,7 +122,7 @@ Die Vorhersage beruht ausschließlich auf einem Modellwert ohne klinische Studie
 
 <!-- review:begin de-lic-20261031-sotatercept-1 -->
 
-> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Die Vorhersage beruht ausschließlich auf einem Modellwert ohne klinische Studien, Literatur oder belegten Mechanismus (Evidenzgrad L5). Zudem ist die Zulassung in Deutschland laut den Daten nur noch als erloschen geführt, und Sicherheitsdaten fehlen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Die Vorhersage beruht ausschließlich auf einem Modellwert ohne klinische Studien, Literatur oder belegten Mechanismus (Evidenzgrad L5). Zudem ist die Zulassung in Deutschland laut den Daten nur noch als erloschen geführt, und Sicherheitsdaten fehlen.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261031-sotatercept-1 -->
 
@@ -135,7 +135,7 @@ Die Vorhersage beruht ausschließlich auf einem Modellwert ohne klinische Studie
 
 <!-- review:begin de-lic-20261106-sotatercept-3 -->
 
-> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Prüfung des tatsächlichen Zulassungsstatus von Winrevair (der Status „erloschen“ sollte verifiziert werden)“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 1 Zulassungen erfasst, davon 1 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Prüfung des tatsächlichen Zulassungsstatus von Winrevair (der Status „erloschen“ sollte verifiziert werden)“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-sotatercept-3 -->
 
@@ -147,9 +147,9 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-10-31 | Entfernt: „Zudem ist die Zulassung in Deutschland laut den Daten nur noch als erloschen geführt, und Sicherheitsdaten fehlen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Entfernt: „Diese einzige Zulassung (Merck Sharp & Dohme B.V.) hat den Status „erloschen/aufgehoben“. Eine gültige Zulassung liegt laut den zusammengest“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Entfernt: „(der Status „erloschen“ sollte verifiziert werden)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-10-31 | Entfernt: „Zudem ist die Zulassung in Deutschland laut den Daten nur noch als erloschen geführt, und Sicherheitsdaten fehlen“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Diese einzige Zulassung (Merck Sharp & Dohme B.V.) hat den Status „erloschen/aufgehoben“. Eine gültige Zulassung liegt laut den zusammengest“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „(der Status „erloschen“ sollte verifiziert werden)“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Winrevair (sotatercept-csrk) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21693ee2-cd23-4137-ac67-066bb3a4a9b7) |
 
 <!-- review:end log -->

@@ -137,7 +137,7 @@ Es gibt Phase-2-Daten beim Mammakarzinom (u. a. BRCA-mutierte und vorbehandelte 
 
 <!-- review:begin de-lic-20261106-trabectedin-1 -->
 
-> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Es fehlen jedoch Phase-3-Belege, die in Deutschland eingetragenen Zulassungen sind erloschen, und die Sicherheitsprüfung anhand der Fachinformation ist noch nicht möglich.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Es fehlen jedoch Phase-3-Belege, die in Deutschland eingetragenen Zulassungen sind erloschen, und die Sicherheitsprüfung anhand der Fachinformation ist noch nicht möglich.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-trabectedin-1 -->
 
@@ -150,7 +150,7 @@ Es gibt Phase-2-Daten beim Mammakarzinom (u. a. BRCA-mutierte und vorbehandelte 
 
 <!-- review:begin de-lic-20261106-trabectedin-2 -->
 
-> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klären, warum die Zulassungen in Deutschland erloschen sind und ob eine Wiederzulassung oder ein anderer Zugangsweg möglich ist / Kontrollierte Studien in definierten Subgruppen (z.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 2 Zulassungen erfasst, davon 2 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-06)**: Ursprünglich stand hier: „Klären, warum die Zulassungen in Deutschland erloschen sind und ob eine Wiederzulassung oder ein anderer Zugangsweg möglich ist / Kontrollierte Studien in definierten Subgruppen (z.“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-11-06). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261106-trabectedin-2 -->
 
@@ -162,8 +162,8 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-11-06 | Entfernt: „die in Deutschland eingetragenen Zulassungen sind erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Entfernt: „Klären, warum die Zulassungen in Deutschland erloschen sind und ob eine Wiederzulassung oder ein anderer Zugangsweg möglich ist“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „die in Deutschland eingetragenen Zulassungen sind erloschen“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Entfernt: „Klären, warum die Zulassungen in Deutschland erloschen sind und ob eine Wiederzulassung oder ein anderer Zugangsweg möglich ist“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Evdi (trabectedin) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1d50f5c-4202-27f3-4798-a9708114ddea) |
 
 <!-- review:end log -->

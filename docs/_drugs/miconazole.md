@@ -85,7 +85,13 @@ In den ausgewerteten EMA-Daten ist für diesen Wirkstoff keine zentrale EU-Zulas
 
 <!-- licenses:end -->
 
-Die in den lokalen Daten erfasste Zulassung ist erloschen bzw. nicht mehr gültig.
+Die in den lokalen Daten erfasste Zulassung betrifft ein Tierarzneimittel (Easotic, EMEA/V/C/000140) und ist laut EMA-Daten gültig („Authorised“).
+
+<!-- review:begin de-lic-20261124b-miconazole-1 -->
+
+> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „ist erloschen bzw. nicht mehr gültig.“ Korrigiert: Laut EMA-Daten (Stand 2026-11-16) ist die erfasste Zulassung Easotic (EMEA/V/C/000140, Tierarzneimittel) gültig („Authorised“); eine zentrale EU-Zulassung eines Humanarzneimittels ist nicht erfasst; nationale Zulassungen (BfArM) sind in diesen Daten nicht enthalten. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261124b-miconazole-1 -->
 
 ## Sicherheitsaspekte
 
@@ -110,11 +116,12 @@ Für Akne liegt nur eine Übersichtsarbeit zu antibakteriellen und entzündungsh
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Oravig (miconazole) prescribing information, Galt Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc2427ff-e566-4b48-b289-9e51c011250a) |
+| 2026-11-24 | „ist erloschen bzw. nicht mehr gültig.“ → „betrifft ein Tierarzneimittel (Easotic, EMEA/V/C/000140) und ist laut EMA-Daten “ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

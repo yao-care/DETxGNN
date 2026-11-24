@@ -78,7 +78,13 @@ Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produk
 
 <!-- licenses:end -->
 
-Die einzige erfasste Zulassung hat den Status „gelöscht“.
+Der erfasste Zulassungsantrag (EMEA/H/C/006561) wurde von der EMA abgelehnt („Refused“); eine Zulassung wurde nicht erteilt.
+
+<!-- review:begin de-lic-20261124b-iloperidone-1 -->
+
+> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „Die einzige erfasste Zulassung hat den Status „gelöscht“.“ Korrigiert: Laut EMA-Daten (Stand 2026-11-16) hat Iloperidone Vanda Pharmaceuticals (EMEA/H/C/006561) den Status „Refused“ (abgelehnt), nicht „gelöscht“. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261124b-iloperidone-1 -->
 
 ## Sicherheitsaspekte
 
@@ -104,11 +110,12 @@ Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzstufe L5). Es
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Fanapt (iloperidone) prescribing information, Vanda Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f60b40-3fca-11de-8f56-0002a5d5c51b) |
+| 2026-11-24 | „Die einzige erfasste Zulassung hat den Status „gelöscht“.“ → „Der erfasste Zulassungsantrag (EMEA/H/C/006561) wurde von der EMA abgelehnt („Re“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

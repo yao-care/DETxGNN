@@ -153,7 +153,7 @@ Die Indikation liegt eng an den bereits zugelassenen Anwendungen, und die Litera
 
 <!-- review:begin de-lic-20261031-ranibizumab-1 -->
 
-> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Klärung der Verfügbarkeit und Formulierung (z. B. Port-Delivery-System), da nur erloschene Zulassungen verzeichnet sind“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). In den Daten (EMA-Daten zu zentral zugelassenen Arzneimitteln) sind für dieses Arzneimittel 7 Zulassungen erfasst, davon 7 gültig; die aktuellen Zahlen stehen in der Schnellübersicht und bei den Marktinformationen. Bei der ersten Bereinigung war der Satz an der Abkürzung „z. B.“ abgeschnitten worden; am 2026-11-12 ist nur der widersprüchliche Teilsatz entfernt und der übrige Wortlaut wiederhergestellt. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-10-31)**: Ursprünglich stand hier: „Klärung der Verfügbarkeit und Formulierung (z. B. Port-Delivery-System), da nur erloschene Zulassungen verzeichnet sind“ Entfernt: Die Aussage, die Zulassungen seien erloschen, widerrufen oder ungültig, stimmte nicht mit den Zulassungsdaten überein (EMA-Daten zu zentral zugelassenen Arzneimitteln, Stand 2026-10-31). Die aktuelle Zahl und der Status der Zulassungen stehen in der Schnellübersicht und in der Tabelle bei den Marktinformationen. Bei der ersten Bereinigung war der Satz an der Abkürzung „z. B.“ abgeschnitten worden; am 2026-11-12 ist nur der widersprüchliche Teilsatz entfernt und der übrige Wortlaut wiederhergestellt. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261031-ranibizumab-1 -->
 
@@ -165,7 +165,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-10-31 | Entfernt: „Port-Delivery-System), da nur erloschene Zulassungen verzeichnet sind“ | Korrigiert (überarbeitet am 2026-11-12; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-10-31 | Entfernt: „Port-Delivery-System), da nur erloschene Zulassungen verzeichnet sind“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 
