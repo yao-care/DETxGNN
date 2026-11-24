@@ -67,3 +67,21 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 例：acetylsalicylic_acid「Ursprüngliche Indikation: In den lokalen Daten nicht erfasst」→「Zentrale EU-Zulassungen (EMA): 3 (gültig: 3)」；2026-11-19 改了 23 頁。
 由母目錄 `.claude/drug_meta_description.py --apply --site DETxGNN` 產生（站上複本 `tools/txgnn/.claude/drug_meta_description.py --apply --root .`），改動記在 `docs/_data/description_local_log.json`（pages＝目前句尾與原字樣、entries＝每次改動前後整行，可還原）。快照數字變了重跑會換新數字；`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾會自動 --apply，`check_seo_docs.py` 跑 --check 擋「還是未記載句尾」或「數字跟快照不符」。只改 front matter，lastmod_fix 不算正文改動、last_modified_at 不動。
 同日修：`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾重算 local_facts 的 atexit 掛鉤在結束時取不到 `__file__`（NameError，之前其實沒跑成），改成先算好路徑。
+
+## 許可證表與正文張數由程式產生（2026-11-24）
+
+用戶 2026-11-24 決定：每週許可證排程只改得到概覽表的狀態列／張數列，AI 寫在市場段落的自由格式許可證表與正文張數句會跟著 EMA 資料過期、讓 checker 擋整頁；改成程式產生、每週自動同步。
+- A. 程式許可證表：`scripts/sync_license_tables.py` 依證據包（tfda.records＝EMA 集中許可，人用；獸用 EMEA/V/C 不列）產生
+  「| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |」，狀態照 EMA Medicine status（Authorised→Gültig、Withdrawn→Zurückgezogen、Refused→Abgelehnt…），
+  有效在前、最多 20 列（partial 頁加「Angezeigt werden N von M …」）、表後來源句；沒有人用集中許可時只放一句說明。前後 `<!-- licenses:begin -->`／`<!-- licenses:end -->`。
+  取代市場段落的第一張許可證表（表頭含 Zulassung），段落沒有表時放在段落開頭；沒有市場段落的頁不加（目前 22 頁，多是 noindex）。產品名、成分、治療領域照 EMA 英文原文，不翻譯。
+  快照 `snapshots/de_licenses.json.gz` 另存 rows／total（`scripts/build_license_snapshot.py` 用 rows_of 算）；gate（第 18 項，`src/detxgnn/regulatory/licenses.py`）擋程式區塊≠快照重算、市場段落沒有程式表。
+  每週排程由 `scripts/license_adapter.py` 的 `sync_tables`（--bundles，所有頁比對、只寫有變的）重排，PAGE_NOTE 讓 3b 自我檢查接受區塊標記與說明句。
+- B. 正文張數改寫：`scripts/rewrite_license_counts.py`＋`src/detxgnn/regulatory/count_prose.py`（移植 Kr／My 的做法，德文句型：「X von Y Zulassungen sind gültig」「N gültige Zulassung(en) (von M)」「Von M … sind N gültig」「Alle N Zulassungen sind gültig」、zwei～zwölf、Beide、eine gültige Zulassung）；
+  跨過 1 的改動連名詞單複數與主詞動詞一起改（_agree），判斷不了的（冠詞＋數字、單數「Diese／die einzige Zulassung」、改成 0、alle … gültig 而有效≠總數）不改，`--list`／`--uncertain` 列出；
+  有保留、講證據包、相對數、劑型或單方／複方、獸用、其他國家或國家許可、講表格顯示筆數的句子不動，partial 頁與事實總數 0 的頁整頁不動。不寫查核框；gate 第 22 項擋「再跑一次會變」。
+- 誰會跑：`scripts/apply_drug_reviews.py`（非 --check）結尾依快照跑 A、B；`scripts/build_license_snapshot.py` 寫完快照再跑一次（`--no-rewrite` 不跑）；sync_notes_to_docs.py 整頁重寫後經 apply 也會跑。
+- 2026-11-24 套用：程式表取代 466 頁（公開頁 448＋noindex 18；公開頁有市場段落的 464 頁全部有程式表）；正文張數程式改寫 2 句（insulin_lispro、levodopa「fünf … vier gültig」→ 5 張全部有效）；
+  被取代表上錨著的 9 筆 `de-row-20261112-*` 標 superseded（superseded_by programmatic-license-table-2026-11-24）；描述舊表「只列其中幾筆」的 7 句以 `de-lic-20261124-*` 更正（aflibercept、denosumab、emtricitabine、formoterol、pioglitazone、telmisartan、tenofovir_disoproxil）。
+  另寫一支更寬的獨立偵測全量掃公開頁：改前 21 句、改後 16 句，剩下的都是事實總數 0 的頁（只有獸用許可或沒有 EMA 集中許可，資料範圍外，X_SCOPE）、把「eine Zulassung」當泛稱或同句另有試驗人數的誤中；checker 全量前後都是 P2 2／P6 1（原有、無關）。
+- 已知限制：母目錄 license_refresh 的 checker（3c）在站上 apply_drug_reviews（4b）之前跑，資料變動當週正文張數句若矛盾，該頁仍會先被擋下（Kr／My 同樣）。

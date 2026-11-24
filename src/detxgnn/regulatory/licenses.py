@@ -7,7 +7,7 @@
   2. 概覽表的狀態列與張數列＝事實層的寫法：用本站 tools/txgnn/.claude/check_drug_page.py 的函式，
      分支照 checker M1／M4（Marketed／Approved, not marketed／Status unknown／Not marketed＋VET_ONLY／NO_CENTRAL）。
   3. 表格列寫的狀態不得跟事實相反（checker row_status_conflicts）。
-本站沒有程式產生的許可證表（表格是模型寫的、狀態格由排程同步），所以不驗表格內容是否等於程式結果。
+  4. 程式許可證表（2026-11-24 起，scripts/sync_license_tables.py；<!-- licenses:begin/end -->）＝依快照 rows／total 重算的結果。
 修法：資料變了→跑每週排程（或 scripts/build_license_snapshot.py 重建快照）；正文提到的號碼、狀態不對→寫查核紀錄
 （docs/_data/drug_reviews.json）再跑 scripts/apply_drug_reviews.py。
 """
@@ -39,6 +39,14 @@ PROSE_ID_RE = re.compile(C["PROSE_ID_RE"]) if C.get("PROSE_ID_RE") else None
 def CK():
     p = ROOT / "tools" / "txgnn" / ".claude" / "check_drug_page.py"
     s = importlib.util.spec_from_file_location(f"{SITE}_check_drug_page", p)
+    m = importlib.util.module_from_spec(s)
+    s.loader.exec_module(m)
+    return m
+
+
+@lru_cache(maxsize=None)
+def SLT():
+    s = importlib.util.spec_from_file_location(f"{SITE}_sync_license_tables", ROOT / "scripts" / "sync_license_tables.py")
     m = importlib.util.module_from_spec(s)
     s.loader.exec_module(m)
     return m
@@ -115,6 +123,7 @@ def page_problems(stem: str, text: str) -> list[str]:
     fc = e.get("facts") or {}
     lic = {norm(k): v for k, v in (fc.get("licenses") or {}).items()}
     for a, b in _sections(lines):
+        errs += SLT().block_problems(lines[a:b], e)
         for t in _tables(lines[a:b]):
             bad = sorted({i for r in _rows(t) for i in [_cell_id(r[0] if r else "")] if i and norm(i) not in own})
             if bad:
@@ -130,6 +139,8 @@ def page_problems(stem: str, text: str) -> list[str]:
                 bad = [x for x in bad if norm(x) not in own]
                 if bad:
                     errs.append(f"市場段落正文的許可證號不屬於本藥：{', '.join(bad[:5])}")
+    if "rows" in e and _sections(lines) and SLT().BEGIN not in lines:
+        errs.append("市場段落沒有程式許可證表（跑 python3 scripts/sync_license_tables.py）")
     if fc:
         all_rows = [r for t in _tables(lines) for r in _rows(t)]
         st = ck.status_row(SITE, all_rows)
