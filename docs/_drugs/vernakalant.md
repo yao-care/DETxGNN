@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 495
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Vernakalant: vorhergesagte neue Indikation Schlaganfall-Erkrankung (stroke disorder) (Evidenzstufe L5). Ursprüngliche Indikation: Vorhofflimmern"
 monitor_inn: "Vernakalant"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
@@ -82,9 +82,15 @@ Alle gefundenen Arbeiten behandeln Vorhofflimmern, keine davon untersucht Vernak
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/001215 | Brinavess | – | Vorhofflimmern (Zulassung gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001215 | Brinavess | vernakalant hydrochloride | Atrial Fibrillation | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

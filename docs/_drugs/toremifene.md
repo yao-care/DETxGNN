@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 475
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Toremifene: vorhergesagte neue Indikation HIV-Infektionskrankheit (Evidenzstufe L5). Ursprüngliche Indikation: Brustkrebs (Mammakarzinom)"
 monitor_inn: "TOREMIFENE"
 predicted_indications: ["HIV infectious disease"]
@@ -82,9 +82,15 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000091 | Fareston (Orion Corporation) | – | Brustkrebs (Mammakarzinom) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000091 | Fareston | toremifene | Breast Neoplasms | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Dieses Arzneimittel ist in diesem Land im Handel; 1 von 1 Zulassung ist gültig.
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 122
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cobimetinib: vorhergesagte neue Indikation Amyotrophe Lateralsklerose (Evidenzstufe L5). Ursprüngliche Indikation: Melanom"
 monitor_inn: "cobimetinib"
 predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "Mills syndrome", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "amyotrohpic lateral sclerosis type 22", "monomelic amyotrophy"]
@@ -85,9 +85,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/003960 | Cotellic | – | Melanom |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003960 | Cotellic | cobimetinib hemifumarate | Melanoma | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Diese Zulassung ist gültig (Inhaber: Roche Registration GmbH). Das Arzneimittel ist in Deutschland im Handel; 1 von 1 Zulassung ist gültig.
 

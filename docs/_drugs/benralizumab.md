@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "BENRALIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "dermatitis", "acne keloid", "neonatal dermatomyositis", "amyopathic dermatomyositis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benralizumab: vorhergesagte neue Indikation Thrombozytopenie durch Immunzerstörung (thrombocytopenia due to immune destruction) (Evidenzstufe L5). Ursprüngliche Indikation: Asthma"
 ---
 
@@ -68,9 +68,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004433 | Fasenra | – | Asthma |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004433 | Fasenra | Benralizumab | Asthma | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitshinweise
 

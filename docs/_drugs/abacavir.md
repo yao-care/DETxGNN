@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ABACAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Abacavir: vorhergesagte neue Indikation Felines erworbenes Immundefizienz-Syndrom (feline acquired immunodeficiency syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: HIV Infections"
 ---
 
@@ -70,12 +70,18 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000252 | Ziagen | – | HIV Infections |
-| EMEA/H/C/000581 | Kivexa | – | HIV Infections |
-| EMEA/H/C/002754 | Triumeq | – | HIV Infections |
-| EMEA/H/C/000338 | Trizivir | – | HIV Infections |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000252 | Ziagen | abacavir | HIV Infections | Gültig |
+| EMEA/H/C/000581 | Kivexa | abacavir; lamivudine | HIV Infections | Gültig |
+| EMEA/H/C/002754 | Triumeq | dolutegravir sodium; lamivudine; abacavir (as sulfate) | HIV Infections | Gültig |
+| EMEA/H/C/000338 | Trizivir | abacavir (as sulfate); lamivudine; zidovudine | HIV Infections | Zurückgezogen |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

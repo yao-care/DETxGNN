@@ -712,7 +712,7 @@
     "lt": 1,
     "lv": 0,
     "r": 2,
-    "rs": "Tabelle: Natpar (EMEA/H/C/003861) ist zurückgenommen, nicht gültig",
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -766,8 +766,8 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 14,
     "lv": 14,
-    "r": 1,
-    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+    "r": 2,
+    "rs": "Entfernt: „Auswahl von 5 Einträgen:“",
     "x": 0
    },
    {
@@ -847,8 +847,8 @@
     "i": "Schwere nichtproliferative diabetische Retinopathie",
     "lt": 0,
     "lv": 20,
-    "r": 1,
-    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+    "r": 2,
+    "rs": "Entfernt: „… sind 20 Zulassungen erfasst; die Liste kann unvollständig sein. Hauptsächliche Produkte (Auswahl…",
     "x": 0
    },
    {
@@ -869,8 +869,8 @@
     "i": "Feline erworbene Immunschwäche",
     "lt": 18,
     "lv": 18,
-    "r": 1,
-    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+    "r": 2,
+    "rs": "Entfernt: „Die Liste zeigt nur eine Auswahl der Zulassungen.“",
     "x": 0
    },
    {
@@ -891,8 +891,8 @@
     "i": "esotropia",
     "lt": 14,
     "lv": 14,
-    "r": 1,
-    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+    "r": 2,
+    "rs": "Entfernt: „Die folgende Tabelle zeigt fünf davon.“",
     "x": 0
    },
    {
@@ -946,8 +946,8 @@
     "i": "Atemwegsfehlbildung",
     "lt": 10,
     "lv": 10,
-    "r": 1,
-    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+    "r": 2,
+    "rs": "Entfernt: „Die Liste zeigt die ersten fünf von zehn gültigen Zulassungen.“",
     "x": 0
    },
    {
@@ -1045,8 +1045,8 @@
     "i": "Prinzmetal angina",
     "lt": 12,
     "lv": 8,
-    "r": 3,
-    "rs": "Entfernt: „(13 von 13 Zulassungen gültig)“",
+    "r": 4,
+    "rs": "Entfernt: „Auswahl:“",
     "x": 0
    },
    {
@@ -1177,8 +1177,8 @@
     "i": "opsismodysplasia",
     "lt": 6,
     "lv": 6,
-    "r": 1,
-    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+    "r": 2,
+    "rs": "„eine sechste (Competact, EMEA/H/C/000655) ist hier nicht aufgeführt“ entfernt",
     "x": 0
    },
    {
@@ -1739,7 +1739,7 @@
     "lt": 2,
     "lv": 2,
     "r": 3,
-    "rs": "Tabelle: Firdapse (EMEA/H/C/001032) ist gültig, nicht erloschen",
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3268,7 +3268,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Tabelle: Maapliv (EMEA/H/C/005557) ist gültig, nicht erloschen",
+    "rs": "Entfernt: „und die deutsche Zulassung ist erloschen“",
     "x": 0
    },
    {
@@ -3411,7 +3411,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Tabelle: Yervoy (EMEA/H/C/002213) ist gültig, nicht erloschen",
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -3521,7 +3521,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Tabelle: Constella (EMEA/H/C/002490) ist gültig, nicht erloschen",
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4236,7 +4236,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Tabelle: Okedi (EMEA/H/C/005406) ist gültig, nicht erloschen",
+    "rs": "Entfernt: „Klärung der regulatorischen Verfügbarkeit (derzeit nur erloschene Zulassung)“",
     "x": 0
    },
    {
@@ -4313,7 +4313,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Tabelle: Xadago (EMEA/H/C/002396) ist gültig, nicht erloschen",
+    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
     "x": 0
    },
    {
@@ -4874,7 +4874,7 @@
     "lt": 2,
     "lv": 1,
     "r": 4,
-    "rs": "Tabelle: Trizivir (EMEA/H/C/000338) ist zurückgenommen, nicht gültig",
+    "rs": "Entfernt: „Bei den Rängen 5 und 6 sind Marktstatus (nur erloschene Zulassungen), Verdrängung durch moderne…",
     "x": 0
    },
    {

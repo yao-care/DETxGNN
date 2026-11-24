@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TOLVAPTAN"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
 description: "Tolvaptan: vorhergesagte neue Indikation Renal-hepatic-pancreatic dysplasia (Evidenzstufe L5). Ursprüngliche Indikation: Inappropriate ADH Syndrome"
@@ -93,11 +93,17 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005961 | Tolvaptan Accord | – | Inappropriate ADH Syndrome (gültig) |
-| EMEA/H/C/002788 | Jinarc | – | Polycystic Kidney, Autosomal Dominant (gültig) |
-| EMEA/H/C/000980 | Samsca | – | Inappropriate ADH Syndrome (gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000980 | Samsca | tolvaptan | Inappropriate ADH Syndrome | Gültig |
+| EMEA/H/C/002788 | Jinarc | tolvaptan | Polycystic Kidney, Autosomal Dominant | Gültig |
+| EMEA/H/C/005961 | Tolvaptan Accord | tolvaptan | Inappropriate ADH Syndrome | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

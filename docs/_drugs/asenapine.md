@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 39
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Asenapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "syndromic myopia", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Asenapine: vorhergesagte neue Indikation Retinale Dystrophie mit oder ohne extraokulare Anomalien (retinal dystrophy with or without extraocular anomalies) (Evidenzstufe L5)."
@@ -68,9 +68,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/001177 | Sycrest (Organon N.V.) | – | Bipolare Störung (Status: gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001177 | Sycrest | asenapine maleate | Bipolar Disorder | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitshinweise
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 472
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Tolfenamic Acid: vorhergesagte neue Indikation Kopfschmerzerkrankung (headache disorder) (Evidenzstufe L5). Ursprüngliche Indikation: Im deutschen Zulassungsdatensatz nicht angegeben (Zulassung ohne …"
 monitor_inn: "TOLFENAMIC ACID"
 predicted_indications: ["headache disorder", "tendinitis", "rheumatoid arthritis", "trigeminal autonomic cephalalgia", "idiopathic granulomatous myositis", "myositis fibrosa", "fibromyalgia", "exostosis", "inclusion body myositis"]
@@ -91,8 +91,11 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
+<!-- licenses:begin -->
+
+In den ausgewerteten EMA-Daten ist für diesen Wirkstoff keine zentrale EU-Zulassung eines Humanarzneimittels erfasst; nationale Zulassungen (BfArM) sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

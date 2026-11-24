@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 438
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sunitinib: vorhergesagte neue Indikation Liposarkom (Evidenzstufe L2). Ursprüngliche Indikation: Gastrointestinale Stromatumoren"
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
@@ -90,10 +90,16 @@ Seine Wirksamkeit bei GIST und Nierenzellkarzinom, beides Tumoren mit starker Ab
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000687 | Sutent (Pfizer Limited) | – | Gastrointestinale Stromatumoren; Nierenzellkarzinom; neuroendokrine Tumoren |
-| EMEA/H/C/005419 | Sunitinib Accord (Accord Healthcare S.L.U.) | – | Gastrointestinale Stromatumoren; Nierenzellkarzinom; neuroendokrine Tumoren |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000687 | Sutent | sunitinib | Gastrointestinal Stromal Tumors; Carcinoma, Renal Cell; Neuroendocrine Tumors | Gültig |
+| EMEA/H/C/005419 | Sunitinib Accord | sunitinib | Gastrointestinal Stromal Tumors; Carcinoma, Renal Cell; Neuroendocrine Tumors | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Das Arzneimittel ist im Handel; beide Zulassungen (2 von 2) sind gültig.
 

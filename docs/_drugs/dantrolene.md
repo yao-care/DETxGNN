@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 129
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dantrolen: vorhergesagte neue Indikation moderate multiminicore disease with hand involvement (mittelschwere Multiminicore-Krankheit mit Handbeteiligung), Evidenzstufe L5"
 monitor_inn: "dantrolene"
 predicted_indications: ["moderate multiminicore disease with hand involvement", "King-Denborough syndrome", "congenital multicore myopathy with external ophthalmoplegia", "central core myopathy", "hypokalemic periodic paralysis", "thyrotoxic periodic paralysis", "myopathy, centronuclear"]
@@ -91,9 +91,15 @@ Klinische Studien sind nicht registriert (aktuell keine zugehörigen klinischen 
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/006009 | Agilus (Norgine B.V.) | nicht angegeben | Maligne Hyperthermie (Status: gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/006009 | Agilus | dantrolene sodium, hemiheptahydrate | Malignant Hyperthermia | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

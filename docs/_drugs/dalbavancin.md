@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Dalbavancin"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "otitis externa", "ophthalmic herpes zoster", "infectious mononucleosis", "orbital cellulitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dalbavancin: vorhergesagte neue Indikation postinfektiöse Vaskulitis (postinfectious vasculitis) (Evidenzstufe L5). Ursprüngliche Indikation: Soft Tissue Infections"
 ---
 
@@ -68,9 +68,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002840 | Xydalba | – | Soft Tissue Infections; Skin Diseases, Bacterial |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002840 | Xydalba | dalbavancin hydrochloride | Soft Tissue Infections; Skin Diseases, Bacterial | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

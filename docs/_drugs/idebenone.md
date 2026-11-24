@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "IDEBENONE"
 predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatoportal sclerosis", "immune-mediated necrotizing myopathy", "osteogenesis imperfecta-retinopathy-seizures-intellectual disability syndrome", "antisynthetase syndrome", "focal myositis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Idebenone: vorhergesagte neue Indikation Hepatische Porphyrie (hepatic porphyria) (Evidenzstufe L5). Ursprüngliche Indikation: Optic Atrophy, Hereditary, Leber"
 ---
 
@@ -68,9 +68,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/003834 | Raxone | – | Optic Atrophy, Hereditary, Leber |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003834 | Raxone | idebenone | Optic Atrophy, Hereditary, Leber | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

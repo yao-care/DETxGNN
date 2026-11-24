@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 393
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Remimazolam: vorhergesagte neue Indikation Schlaflosigkeit (Insomnie) (Evidenzstufe L5). Ursprüngliche Indikation: Conscious Sedation (Sedierung bei Eingriffen)"
 monitor_inn: "remimazolam"
 drugbank_id: DB12404
@@ -83,9 +83,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005246 | Byfavo | – | Conscious Sedation (Status: gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005246 | Byfavo | remimazolam besilate | Conscious Sedation | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Hinweis: Das Arzneimittel ist in Deutschland im Handel; die einzige Zulassung (Inhaber: Paion Pharma GmbH) ist gültig (1 von 1 Zulassung gültig).
 

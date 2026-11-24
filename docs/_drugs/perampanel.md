@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Perampanel: vorhergesagte neue Indikation Beta-Ketothiolase-Mangel (Evidenzstufe L5). Ursprüngliche Indikation: Partielle Epilepsien (Epilepsies, Partial)"
 monitor_inn: "PERAMPANEL"
 predicted_indications: ["beta-ketothiolase deficiency"]
@@ -95,9 +95,15 @@ Die folgenden Arbeiten betreffen Perampanel bei Epilepsie allgemein, nicht visue
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002434 | Fycompa | – | Epilepsies, Partial |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002434 | Fycompa | perampanel | Epilepsies, Partial | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Die einzige erfasste Zulassung (Eisai GmbH) ist gültig; das Arzneimittel ist in Deutschland im Handel.
 

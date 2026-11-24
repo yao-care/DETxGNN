@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 381
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["tetanic cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "mature cataract", "craniostenosis cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "hemorrhagic disease of newborn"]
 description: "Ranibizumab: vorhergesagte neue Indikation Tetanic cataract (Evidenzstufe L5). Ursprüngliche Indikation: Wet Macular Degeneration"
@@ -95,13 +95,21 @@ Hinweis zur Evidenzstufe: Die Einstufung L1 beruht allein auf Literaturtiteln. D
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000715 | Lucentis | – | Feuchte Makuladegeneration, Makulaödem, diabetische Komplikationen, degenerative Myopie... |
-| EMEA/H/C/005545 | Byooviz | – | Feuchte Makuladegeneration, Makulaödem, diabetische Retinopathie, degenerative Myopie |
-| EMEA/H/C/005617 | Ximluci | – | Feuchte Makuladegeneration, Makulaödem, diabetische Retinopathie, diabetische Komplikationen |
-| EMEA/H/C/005019 | Ranivisio | – | Feuchte Makuladegeneration, Makulaödem, diabetische Retinopathie, diabetische Komplikationen |
-| EMEA/H/C/006502 | Ranluspec | – | Feuchte Makuladegeneration, Makulaödem, diabetische Retinopathie, diabetische Komplikationen... |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000715 | Lucentis | ranibizumab | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Myopia, Degenerative; Choroidal Neovasculari… | Gültig |
+| EMEA/H/C/005019 | Ranivisio | ranibizumab | Wet Macular Degeneration; Macular Edema; Diabetic Retinopathy; Diabetes Complications | Gültig |
+| EMEA/H/C/005545 | Byooviz | ranibizumab | Wet Macular Degeneration; Macular Edema; Diabetic Retinopathy; Myopia, Degenerative | Gültig |
+| EMEA/H/C/005617 | Ximluci | ranibizumab | Wet Macular Degeneration; Macular Edema; Diabetic Retinopathy; Diabetes Complications | Gültig |
+| EMEA/H/C/006055 | Rimmyrah | ranibizumab | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Myopia, Degenerative; Choroidal Neovasculari… | Gültig |
+| EMEA/H/C/006502 | Ranluspec | ranibizumab | Wet Macular Degeneration; Macular Edema; Diabetic Retinopathy; Diabetes Complications; Retinal Vein Occlusion… | Gültig |
+| EMEA/H/C/006528 | Epruvy (previously Ranibizumab Midas) | ranibizumab | Wet Macular Degeneration; Macular Edema; Choroidal Neovascularization; Diabetes Complications | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Alle 7 Zulassungen haben den Status „gültig“; derzeit sind 7 von 7 Zulassungen gültig.
 

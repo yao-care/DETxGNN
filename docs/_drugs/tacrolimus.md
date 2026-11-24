@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 440
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 description: "Tacrolimus: vorhergesagte neue Indikation Seborrheic dermatitis (Evidenzstufe L1). Ursprüngliche Indikation: Graft Rejection"
@@ -98,13 +98,19 @@ Ein weiterer Vorteil: Tacrolimus wird auch off-label bei seborrhoischer Dermatit
 
 Alle fünf in den Daten verzeichneten Zulassungen sind gültig (EU-Zentralzulassungen); Tacrolimus ist derzeit im Handel.
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000712 | Advagraf | – | Transplantatabstoßung |
-| EMEA/H/C/000374 | Protopic | – | Atopische Dermatitis |
-| EMEA/H/C/000954 | Modigraf | – | Transplantatabstoßung |
-| EMEA/H/C/004435 | Tacforius | – | Leber- und Nierentransplantation |
-| EMEA/H/C/002655 | Envarsus | – | Transplantatabstoßung |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000374 | Protopic | tacrolimus | Dermatitis, Atopic | Gültig |
+| EMEA/H/C/000712 | Advagraf | tacrolimus | Graft Rejection | Gültig |
+| EMEA/H/C/000954 | Modigraf | tacrolimus | Graft Rejection | Gültig |
+| EMEA/H/C/002655 | Envarsus | tacrolimus | Graft Rejection | Gültig |
+| EMEA/H/C/004435 | Tacforius | tacrolimus monohydrate | Liver Transplantation; Kidney Transplantation | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

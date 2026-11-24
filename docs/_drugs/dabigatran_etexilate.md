@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "dabigatran etexilate"
 predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hyperlipidemia", "hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "primary release disorder of platelets"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dabigatran Etexilate: vorhergesagte neue Indikation Sklerosierende Cholangitis (sclerosing cholangitis) (Evidenzstufe L5). Ursprüngliche Indikation: Arthroplasty, Replacement"
 ---
 
@@ -82,11 +82,17 @@ Derzeit sind keine klinischen Studien zu Dabigatran bei sklerosierender Cholangi
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000829 | Pradaxa | – | Siehe lokale Zulassungsdaten |
-| EMEA/H/C/005639 | Dabigatran Etexilate Accord | – | Siehe lokale Zulassungsdaten |
-| EMEA/H/C/005922 | Dabigatran etexilate Teva (zuvor Dabigatran etexilate Leon Farma) | – | Siehe lokale Zulassungsdaten |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000829 | Pradaxa | dabigatran etexilate mesilate | Arthroplasty, Replacement; Venous Thromboembolism | Gültig |
+| EMEA/H/C/005639 | Dabigatran Etexilate Accord | dabigatran etexilate mesilate | Venous Thromboembolism; Arthroplasty, Replacement | Gültig |
+| EMEA/H/C/005922 | Dabigatran etexilate Teva (previously Dabigatran etexilate… | dabigatran etexilate mesilate | Venous Thromboembolism; Arthroplasty, Replacement | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 426
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SEVOFLURANE"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "fibromyalgia", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "migraine disorder", "inclusion body myositis"]
 description: "Sevoflurane: vorhergesagte neue Indikation Prinzmetal-Angina (Prinzmetal angina) (Evidenzstufe L5). Keine zentrale EU-Zulassung (EMA) erfasst"
@@ -80,8 +80,11 @@ Zur Prinzmetal-Angina liegen derzeit keine zugehörigen Publikationen vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
+<!-- licenses:begin -->
+
+In den ausgewerteten EMA-Daten ist für diesen Wirkstoff keine zentrale EU-Zulassung eines Humanarzneimittels erfasst; nationale Zulassungen (BfArM) sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

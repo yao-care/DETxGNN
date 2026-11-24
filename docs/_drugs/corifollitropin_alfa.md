@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 123
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Corifollitropin Alfa: vorhergesagte neue Indikation Gastroduodenitis (Evidenzstufe L5). Ursprüngliche Indikation: Assistierte Reproduktionstechniken"
 monitor_inn: "CORIFOLLITROPIN ALFA"
 predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer disease", "migraine with brainstem aura", "Raynaud disease", "pulmonary hypertension", "kyphoscoliotic heart disease"]
@@ -90,9 +90,15 @@ Derzeit ist keine relevante Literatur verfügbar.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
-|---------|------|------|-----------|------|
-| EMEA/H/C/001106 | Elonva | – | Assistierte Reproduktionstechniken; Ovulationsinduktion; Untersuchungsverfahren | Gültig |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001106 | Elonva | corifollitropin alfa | Reproductive Techniques, Assisted; Ovulation Induction; Investigative Techniques | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

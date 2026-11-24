@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 478
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab: vorhergesagte neue Indikation Malignant cutaneous granular cell skin tumor (Evidenzstufe L5). Ursprüngliche Indikation: Stomach Neoplasms"
@@ -111,13 +111,25 @@ Alle 11 erfassten Zulassungen sind gültig. Die Angaben zu Darreichungsformen fe
 
 <!-- review:end de-lic-20261112-trastuzumab-1 -->
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002575 | Herzuma | – | Magenkrebs; Brustkrebs |
-| EMEA/H/C/000278 | Herceptin | – | Magenkrebs; Brustkrebs |
-| EMEA/H/C/005209 | Zercepac | – | Brustkrebs; Magenkrebs |
-| EMEA/H/C/004361 | Kanjinti | – | Magenkrebs; Brustkrebs |
-| EMEA/H/C/006219 | Dazublys | – | Brustkrebs; Magenkrebs |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000278 | Herceptin | trastuzumab | Stomach Neoplasms; Breast Neoplasms | Gültig |
+| EMEA/H/C/002575 | Herzuma | trastuzumab | Stomach Neoplasms; Breast Neoplasms | Gültig |
+| EMEA/H/C/004323 | Ontruzant | trastuzumab | Stomach Neoplasms; Breast Neoplasms | Gültig |
+| EMEA/H/C/004361 | Kanjinti | trastuzumab | Stomach Neoplasms; Breast Neoplasms | Gültig |
+| EMEA/H/C/004463 | Trazimera | trastuzumab | Stomach Neoplasms; Breast Neoplasms | Gültig |
+| EMEA/H/C/004916 | Ogivri | trastuzumab | Stomach Neoplasms; Breast Neoplasms | Gültig |
+| EMEA/H/C/005209 | Zercepac | trastuzumab | Breast Neoplasms; Stomach Neoplasms | Gültig |
+| EMEA/H/C/005386 | Phesgo | pertuzumab; trastuzumab | Breast Neoplasms | Gültig |
+| EMEA/H/C/005769 | Herwenda | trastuzumab | Breast Neoplasms; Stomach Neoplasms | Gültig |
+| EMEA/H/C/006219 | Dazublys | trastuzumab | Breast Neoplasms; Stomach Neoplasms | Gültig |
+| EMEA/H/C/006252 | Tuznue | trastuzumab | Breast Neoplasms | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

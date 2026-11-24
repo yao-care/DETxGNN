@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PEGASPARGASE"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
 description: "Pegaspargase: vorhergesagte neue Indikation Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (Evidenzstufe L5). Ursprüngliche Indikation: Precursor Cell Lymphoblastic Leukem…"
@@ -106,9 +106,15 @@ Bei den meisten Studien ist Pegaspargase Teil des Therapiegerüsts. Der spezifis
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/003789 | Oncaspar | – | Vorläuferzell-lymphoblastische Leukämie/Lymphom (Status: gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003789 | Oncaspar | pegaspargase | Precursor Cell Lymphoblastic Leukemia-Lymphoma | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Die tatsächliche Produktverfügbarkeit sollte vor einer Weiterverfolgung geprüft werden.
 

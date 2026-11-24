@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 494
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
 description: "Venetoclax: vorhergesagte neue Indikation Hodgkins lymphoma (Evidenzstufe L5). Ursprüngliche Indikation: Leukemia, Lymphocytic, Chronic, B-Cell"
@@ -109,6 +109,16 @@ Hinweis: Keine der aufgeführten Phase-3-Studien ist als abgeschlossen mit Ergeb
 ---
 
 ## Marktinformationen Deutschland
+
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004106 | Venclyxto | venetoclax | Leukemia, Lymphocytic, Chronic, B-Cell | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Der Status dieser Zulassung ist „gültig“. Es liegt damit eine gültige Zulassung im Datensatz vor.
 

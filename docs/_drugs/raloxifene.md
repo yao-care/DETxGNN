@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 377
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Raloxifene"
 predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", "duodenal obstruction", "duodenogastric reflux"]
 description: "Raloxifene: vorhergesagte neue Indikation Duodenal ulcer (disease) (Evidenzstufe L5). Ursprüngliche Indikation: Osteoporosis, Postmenopausal"
@@ -88,11 +88,17 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
-|---------|------|------|-----------|------|
-| EMEA/H/C/000185 | Optruma | – | Postmenopausale Osteoporose | Withdrawn |
-| EMEA/H/C/000184 | Evista | – | Postmenopausale Osteoporose | Gültig |
-| EMEA/H/C/001075 | Raloxifene Teva | – | Postmenopausale Osteoporose | Gültig |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000184 | Evista | raloxifene hydrochloride | Osteoporosis, Postmenopausal | Gültig |
+| EMEA/H/C/001075 | Raloxifene Teva | raloxifene hydrochloride | Osteoporosis, Postmenopausal | Gültig |
+| EMEA/H/C/000185 | Optruma | raloxifene hydrochloride | Osteoporosis, Postmenopausal | Zurückgezogen |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

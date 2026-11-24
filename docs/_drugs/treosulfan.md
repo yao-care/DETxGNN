@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 482
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Treosulfan: vorhergesagte neue Indikation Diabetische Katarakt (Evidenzstufe L5). Ursprüngliche Indikation: Hämatopoetische Stammzelltransplantation"
 monitor_inn: "TREOSULFAN"
 predicted_indications: ["diabetic cataract"]
@@ -80,9 +80,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004751 | Trecondi | – | Hämatopoetische Stammzelltransplantation |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004751 | Trecondi | treosulfan | Hematopoietic Stem Cell Transplantation | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Die einzige Zulassung ist gültig (1 von 1 Zulassungen gültig). Das Arzneimittel ist derzeit im Handel.
 

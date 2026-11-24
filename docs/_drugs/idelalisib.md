@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 229
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Idelalisib: vorhergesagte neue Indikation Mantelzell-Lymphom (Evidenzstufe L2). Ursprüngliche Indikation: Non-Hodgkin-Lymphom"
 monitor_inn: "IDELALISIB"
 predicted_indications: ["mantle cell lymphoma", "Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "small intestinal Burkitt lymphoma", "colon adenocarcinoma"]
@@ -97,9 +97,15 @@ Das Mantelzell-Lymphom gehört zur selben Klasse der B-Zell-Malignome, und der P
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/003843 (storniert) | Zydelig | – | Non-Hodgkin-Lymphom; chronische lymphatische B-Zell-Leukämie |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003843 | Zydelig | Idelalisib | Lymphoma, Non-Hodgkin; Leukemia, Lymphocytic, Chronic, B-Cell | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 280
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lumacaftor: vorhergesagte neue Indikation Lepra (Evidenzstufe L5). Ursprüngliche Indikation: Mukoviszidose (Cystic Fibrosis)"
 monitor_inn: "LUMACAFTOR"
 predicted_indications: ["leprosy"]
@@ -80,9 +80,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/003954 | Orkambi | – | Mukoviszidose (Cystic Fibrosis) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003954 | Orkambi | Lumacaftor; ivacaftor | Cystic Fibrosis | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Hinweis: Das Arzneimittel ist im Handel; 1 von 1 Zulassung ist gültig.
 

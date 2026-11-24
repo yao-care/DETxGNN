@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 464
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tildrakizumab: vorhergesagte neue Indikation Schwere nichtproliferative diabetische Retinopathie (Evidenzstufe L5). Ursprüngliche Indikation: Psoriasis"
 monitor_inn: "TILDRAKIZUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "drug-induced osteoporosis"]
@@ -90,9 +90,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004514 | Ilumetri (Almirall, S.A.) | – | Psoriasis |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004514 | Ilumetri | tildrakizumab | Psoriasis | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Das Arzneimittel ist im Handel; die einzige Zulassung (1 von 1) ist gültig.
 

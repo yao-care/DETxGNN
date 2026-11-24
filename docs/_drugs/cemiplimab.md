@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CEMIPLIMAB"
 predicted_indications: ["gallbladder adenosquamous carcinoma", "rectal cloacogenic carcinoma", "adenosquamous prostate carcinoma", "urethral verrucous carcinoma", "pancreatic adenosquamous carcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cemiplimab: vorhergesagte neue Indikation Adenosquamöses Gallenblasenkarzinom (gallbladder adenosquamous carcinoma) (Evidenzstufe L5). Ursprüngliche Indikation: Carcinoma, Squamous Cell"
 ---
 
@@ -68,9 +68,15 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004844 | Libtayo | – | Carcinoma, Squamous Cell |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004844 | Libtayo | cemiplimab | Carcinoma, Squamous Cell | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Die Zulassung ist gültig (Inhaber: Regeneron Ireland Designated Activity Company (DAC)).
 

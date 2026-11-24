@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 44
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atosiban: vorhergesagte neue Indikation Primäres hereditäres Glaukom (Evidenzstufe L5). Ursprüngliche Indikation: Vorzeitige Wehen (Obstetric Labor, Premature)"
 monitor_inn: "ATOSIBAN"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "congenital hypotrichosis milia", "alopecia", "hypotrichosis simplex of the scalp", "vascular disease", "diffuse alopecia areata", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "visceral calciphylaxis"]
@@ -82,10 +82,16 @@ Hinweis: Für die auf Rang 6 vorhergesagte Indikation „Gefäßerkrankung" lieg
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000253 | Tractocile | – | Vorzeitige Wehen |
-| EMEA/H/C/002329 | Atosiban SUN | – | Vorzeitige Wehen |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000253 | Tractocile | atosiban (as acetate) | Obstetric Labor, Premature | Gültig |
+| EMEA/H/C/002329 | Atosiban SUN | atosiban (as acetate) | Obstetric Labor, Premature | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Beide Zulassungen sind gültig; das Arzneimittel ist in Deutschland im Handel.
 

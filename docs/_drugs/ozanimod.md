@@ -5,7 +5,7 @@ parent: Nur bekannte Anwendungen (keine neuen Vorhersagen)
 nav_order: 335
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Ozanimod: bekannte Anwendungen und Marktstatus in Deutschland; derzeit keine neue Kandidaten-Indikation"
 predicted_indications: []
 ---
@@ -72,9 +72,15 @@ Das TxGNN-Modell hat für Ozanimod Kandidaten mit einem Score von ≥ 0,99 gelie
 
 ## Marktinformationen Deutschland
 
-| Zulassung | Produkt | Darreichungsform | Status |
-|------|------|------|------|
-| EMEA/H/C/004835 | ozanimod hydrochloride |  | Gültig |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004835 | Zeposia | ozanimod hydrochloride | Multiple Sclerosis, Relapsing-Remitting; Colitis, Ulcerative | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

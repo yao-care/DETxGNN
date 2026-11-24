@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 223
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "HYDROCORTISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Hydrocortisone: vorhergesagte neue Indikation Alopecia areata (Evidenzstufe L2). Ursprüngliche Indikation: Adrenal Insufficiency"
@@ -79,11 +79,17 @@ Einschränkend ist Hydrocortison 1 % ein niedrigpotentes Präparat. In der verf�
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002185 | Plenadren | – | Nebenniereninsuffizienz (gültig) |
-| EMEA/H/C/004416 | Alkindi | – | Nebenniereninsuffizienz (gültig) |
-| EMEA/H/C/005105 | Efmody | – | Angeborenes adrenogenitales Syndrom (gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002185 | Plenadren | hydrocortisone | Adrenal Insufficiency | Gültig |
+| EMEA/H/C/004416 | Alkindi | hydrocortisone | Adrenal Insufficiency | Gültig |
+| EMEA/H/C/005105 | Efmody | hydrocortisone | Adrenal Hyperplasia, Congenital | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

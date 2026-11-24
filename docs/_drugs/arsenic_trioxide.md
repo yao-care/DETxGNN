@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ARSENIC TRIOXIDE"
 predicted_indications: ["unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "partial deletion of the long arm of chromosome 5", "myelodysplastic syndrome", "Ewing sarcoma", "dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Arsenic Trioxide: vorhergesagte neue Indikation Unklassifiziertes myelodysplastisches Syndrom (unclassified myelodysplastic syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: Leukemia, Promyelocy…"
 ---
 
@@ -68,11 +68,17 @@ Derzeit ist keine einschlägige Literatur zu dieser Indikation verfügbar.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000388 | Trisenox | – | Siehe Zulassungsunterlagen |
-| EMEA/H/C/005218 | Arsenic trioxide medac | – | Siehe Zulassungsunterlagen |
-| EMEA/H/C/005175 | Arsenic trioxide Accord | – | Siehe Zulassungsunterlagen |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000388 | Trisenox | arsenic trioxide | Leukemia, Promyelocytic, Acute | Gültig |
+| EMEA/H/C/005175 | Arsenic trioxide Accord | arsenic trioxide | Leukemia, Promyelocytic, Acute | Gültig |
+| EMEA/H/C/005218 | Arsenic trioxide medac | arsenic trioxide | Leukemia, Promyelocytic, Acute | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Zytotoxizität
 

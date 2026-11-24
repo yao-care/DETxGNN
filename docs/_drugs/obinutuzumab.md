@@ -5,7 +5,7 @@ parent: Nur bekannte Anwendungen (keine neuen Vorhersagen)
 nav_order: 321
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Obinutuzumab: Bekannte Anwendungen und Marktstatus in Deutschland; derzeit keine neue Kandidaten-Indikation"
 predicted_indications: []
 ---
@@ -73,9 +73,15 @@ Das TxGNN-Deep-Learning-Modell (Score ≥ 0,99) hat für Obinutuzumab Kandidaten
 
 ## Marktinformationen Deutschland
 
-| Zulassung | Produkt | Darreichungsform | Status |
-|------|------|------|------|
-| EMEA/H/C/002799 | obinutuzumab |  | Gültig |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002799 | Gazyvaro | obinutuzumab | Leukemia, Lymphocytic, Chronic, B-Cell | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Zytotoxizität
 

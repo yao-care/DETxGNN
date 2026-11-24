@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 236
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Imiquimod: vorhergesagte neue Indikation Prämalignes Neoplasma (pre-malignant neoplasm) (Evidenzstufe L5). Ursprüngliche Indikation: Condylomata acuminata, Keratose, aktinische Keratose…"
 monitor_inn: "IMIQUIMOD"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
@@ -94,10 +94,16 @@ Die aktinische Keratose, eine der ursprünglichen Indikationen, ist selbst eine 
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000179 | Aldara (gültig) | – | Condylomata acuminata, Keratose, aktinische Keratose, Basalzellkarzinom |
-| EMEA/H/C/002387 | Zyclara (gültig) | – | Keratose, aktinische Keratose |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000179 | Aldara | imiquimod | Condylomata Acuminata; Keratosis; Keratosis, Actinic; Carcinoma, Basal Cell | Gültig |
+| EMEA/H/C/002387 | Zyclara | imiquimod | Keratosis; Keratosis, Actinic | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Beide Zulassungen (Inhaber: Viatris Healthcare Limited) sind gültig; das Arzneimittel ist im Handel.
 

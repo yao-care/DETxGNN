@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 244
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Human: vorhergesagte neue Indikation Autoimmune Oophoritis (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes mellitus"
 monitor_inn: "INSULIN HUMAN"
 predicted_indications: ["autoimmune oophoritis", "classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "pancreatic agenesis", "idiopathic localized lipodystrophy"]
@@ -92,13 +92,19 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000442 | Protaphane | – | Diabetes mellitus |
-| EMEA/H/C/000428 | Mixtard | – | Diabetes mellitus |
-| EMEA/H/C/000427 | Actraphane | – | Diabetes mellitus |
-| EMEA/H/C/000441 | Insulatard | – | Diabetes mellitus |
-| EMEA/H/C/000201 | Insuman | – | Diabetes mellitus |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000201 | Insuman | Insulin human | Diabetes Mellitus | Gültig |
+| EMEA/H/C/000427 | Actraphane | Insulin human | Diabetes Mellitus | Gültig |
+| EMEA/H/C/000428 | Mixtard | Insulin human | Diabetes Mellitus | Gültig |
+| EMEA/H/C/000441 | Insulatard | Insulin human | Diabetes Mellitus | Gültig |
+| EMEA/H/C/000442 | Protaphane | Insulin human | Diabetes Mellitus | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Das Arzneimittel ist im Handel. Eine weitere, gültige Zulassung für ein Tierarzneimittel (ProZinc, EMEA/V/C/002634) enthält keine Angaben zur Indikation.
 

@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB11730
 monitor_inn: "Ribociclib"
 predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ribociclib Succinate: vorhergesagte neue Indikation Myeloische Leukämie (myeloid leukemia) (Evidenzstufe L5). Ursprüngliche Indikation: Breast Neoplasms"
 ---
 
@@ -83,9 +83,15 @@ Die Studie untersucht CDK4/6-Inhibitoren als Klasse in Zellmodellen; sie ist kei
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004213 | Kisqali | – | Siehe Zulassungsdaten |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004213 | Kisqali | ribociclib succinate | Breast Neoplasms | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 317
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nitisinone: vorhergesagte neue Indikation Renale tubuläre Azidose (Evidenzstufe L5). Ursprüngliche Indikation: Tyrosinämien"
 monitor_inn: "NITISINONE"
 predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy with toxic serpin polymerization", "C1 inhibitor deficiency", "glycogen storage disease", "adult polyglucosan body disease", "glycogen storage disease due to glucose-6-phosphatase deficiency", "Griscelli syndrome", "granulomatous disease, chronic, X-linked", "ermine phenotype"]
@@ -82,10 +82,16 @@ Zur Einordnung: Für andere Vorhersagen (Galaktosämie, Glykogenspeicherkrankhei
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004582 | Nityr (Status: gültig) | – | Tyrosinämien |
-| EMEA/H/C/000555 | Orfadin (Status: gültig) | – | Tyrosinämien |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000555 | Orfadin | nitisinone | Tyrosinemias | Gültig |
+| EMEA/H/C/004582 | Nityr | nitisinone | Tyrosinemias | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

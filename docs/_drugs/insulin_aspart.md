@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 239
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Aspart: vorhergesagte neue Indikation autoimmune Oophoritis (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes mellitus"
 monitor_inn: "INSULIN ASPART"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
@@ -116,13 +116,22 @@ Es sind keine Darreichungsformen angegeben.
 
 <!-- review:end de-lic-20261106-insulin_aspart-2 -->
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000258 | NovoRapid | – | Diabetes mellitus |
-| EMEA/H/C/004046 | Fiasp | – | Diabetes mellitus |
-| EMEA/H/C/000308 | NovoMix | – | Diabetes mellitus |
-| EMEA/H/C/005033 | Insulin aspart Sanofi | – | Diabetes mellitus |
-| EMEA/H/C/002499 | Ryzodeg | – | Diabetes mellitus |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000258 | NovoRapid | insulin aspart | Diabetes Mellitus | Gültig |
+| EMEA/H/C/000308 | NovoMix | insulin aspart | Diabetes Mellitus | Gültig |
+| EMEA/H/C/002499 | Ryzodeg | insulin aspart; insulin degludec | Diabetes Mellitus | Gültig |
+| EMEA/H/C/004046 | Fiasp | insulin aspart | Diabetes Mellitus | Gültig |
+| EMEA/H/C/004965 | Kirsty (previously Kixelle) | insulin aspart | Diabetes Mellitus | Gültig |
+| EMEA/H/C/005033 | Insulin aspart Sanofi | insulin aspart | Diabetes Mellitus | Gültig |
+| EMEA/H/C/006187 | Dazparda | insulin aspart | Diabetes Mellitus | Gültig |
+| EMEA/H/C/005635 | Truvelog Mix 30 | insulin aspart | Diabetes Mellitus | Zurückgezogen |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

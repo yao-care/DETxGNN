@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mometasone: vorhergesagte neue Indikation Primäres kutanes T-Zell-Lymphom (Evidenzstufe L5). Ursprüngliche Indikation: Asthma"
 monitor_inn: "MOMETASONE"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -87,9 +87,15 @@ Beide Berichte liefern keinen Hinweis auf eine Wirksamkeit von Mometason beim ku
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005061 | Enerzair Breezhaler | – | Asthma |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005061 | Enerzair Breezhaler | indacaterol; glycopyrronium bromide; mometasone | Asthma | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Diese Zulassung (Novartis Europharm Limited) ist gültig. Aktuell ist 1 von 1 Zulassung gültig, das Arzneimittel ist im Handel.
 

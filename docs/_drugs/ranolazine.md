@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 382
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ranolazine: vorhergesagte neue Indikation Nephrogenes Syndrom der inadäquaten Antidiurese (NSIAD) (Evidenzstufe L5). Ursprüngliche Indikation: Angina pectoris"
 monitor_inn: "RANOLAZINE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -76,9 +76,15 @@ Derzeit liegt keine einschlägige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000805 | Ranexa (zuvor Latixa) | – | Angina pectoris |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000805 | Ranexa (previously Latixa) | ranolazine | Angina Pectoris | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 204
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fulvestrant: vorhergesagte neue Indikation HIV-Infektionskrankheit (Evidenzstufe L4). Ursprüngliche Indikation: Brustneoplasmen (Brustkrebs)"
 monitor_inn: "FULVESTRANT"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -87,10 +87,16 @@ Hinweis: Für die zweitplatzierte Vorhersage (multiple endokrine Neoplasie) wurd
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004649 | Fulvestrant Mylan (gültig) | – | Brustneoplasmen |
-| EMEA/H/C/000540 | Faslodex (gültig) | – | Brustneoplasmen |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000540 | Faslodex | fulvestrant | Breast Neoplasms | Gültig |
+| EMEA/H/C/004649 | Fulvestrant Mylan | fulvestrant | Breast Neoplasms | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

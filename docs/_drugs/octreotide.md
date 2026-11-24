@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 323
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Octreotide: vorhergesagte neue Indikation Vulväre invertierte follikuläre Keratose (Evidenzstufe L5). Ursprüngliche Indikation: Akromegalie"
 monitor_inn: "Octreotide"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
@@ -80,9 +80,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/006322 | Oczyesa (Camurus AB) | – | Akromegalie |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/006322 | Oczyesa | octreotide hydrochloride | Acromegaly | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Diese Zulassung ist gültig; das Arzneimittel ist in Deutschland im Verkehr.
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 176
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Erdafitinib: vorhergesagte neue Indikation Pulmonale Hypertonie (Evidenzstufe L5). Ursprüngliche Indikation: Urologische Neoplasien"
 monitor_inn: "ERDAFITINIB"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "amenorrhea (disease)", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "brachydactyly-syndactyly syndrome"]
@@ -98,9 +98,15 @@ Für die vierte Vorhersage (rheumatoide Arthritis) wurde lediglich eine indirekt
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/006050 | Balversa (Janssen-Cilag International N.V.) | – | Urologische Neoplasien (Status: gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/006050 | Balversa | Erdafitinib | Urologic Neoplasms | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

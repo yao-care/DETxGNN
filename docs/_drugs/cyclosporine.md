@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 125
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
 description: "Cyclosporine: vorhergesagte neue Indikation Chronische Granulomatose, autosomal-rezessiv (granulomatous disease, chronic, autosomal recessive) (Evidenzstufe L4). Ursprüngliche Indikation: Conjunctivi…"
@@ -80,11 +80,17 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
-|---------|------|------|-----------|------|
-| EMEA/H/C/004411 | Verkazia | – | Bindehautentzündung; Keratitis | gültig |
-| EMEA/H/C/002066 | Ikervis | – | Hornhauterkrankungen | gültig |
-| EMEA/H/C/006250 | Vevizye | – | Keratoconjunctivitis sicca | gültig |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002066 | Ikervis | ciclosporin | Corneal Diseases | Gültig |
+| EMEA/H/C/004411 | Verkazia | ciclosporin | Conjunctivitis; Keratitis | Gültig |
+| EMEA/H/C/006250 | Vevizye | ciclosporin | Keratoconjunctivitis Sicca | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

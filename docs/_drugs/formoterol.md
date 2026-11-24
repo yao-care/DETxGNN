@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "formoterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Formoterol: vorhergesagte neue Indikation Atemwegsfehlbildung (respiratory malformation) (Evidenzstufe L5). Zentrale EU-Zulassungen (EMA): 10 (gültig: 10)"
 ---
 
@@ -77,15 +77,30 @@ Die zusammengestellte Literatur behandelt nicht die vorhergesagte Erkrankung sel
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/003890 | BiResp Spiromax | – | Chronisch obstruktive Lungenerkrankung; Asthma |
-| EMEA/H/C/002348 | DuoResp Spiromax | – | Chronisch obstruktive Lungenerkrankung; Asthma |
-| EMEA/H/C/004882 | GoResp Digihaler | – | Asthma; chronisch obstruktive Lungenerkrankung |
-| EMEA/H/C/004983 | Trixeo Aerosphere | – | Chronisch obstruktive Lungenerkrankung |
-| EMEA/H/C/004257 | Trimbow | – | Chronisch obstruktive Lungenerkrankung |
+<!-- review:begin de-lic-20261124-formoterol-1 -->
 
-Die Liste zeigt die ersten fünf von zehn gültigen Zulassungen.
+> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „Die Liste zeigt die ersten fünf von zehn gültigen Zulassungen.“ Korrigiert: Die Tabelle unten wird jetzt programmatisch aus den EMA-Daten erzeugt und enthält alle erfassten zentralen EU-Zulassungen; der Hinweis auf eine Auswahl aus der früheren Tabelle trifft nicht mehr zu. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261124-formoterol-1 -->
+
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002348 | DuoResp Spiromax | Budesonide; formoterol fumarate dihydrate | Pulmonary Disease, Chronic Obstructive; Asthma | Gültig |
+| EMEA/H/C/003745 | Duaklir Genuair | aclidinium bromide; formoterol fumarate dihydrate | Pulmonary Disease, Chronic Obstructive | Gültig |
+| EMEA/H/C/003890 | BiResp Spiromax | Budesonide; formoterol fumarate dihydrate | Pulmonary Disease, Chronic Obstructive; Asthma | Gültig |
+| EMEA/H/C/003969 | Brimica Genuair | formoterol fumarate dihydrate; aclidinium bromide | Pulmonary Disease, Chronic Obstructive | Gültig |
+| EMEA/H/C/004245 | Bevespi Aerosphere | glycopyrronium; formoterol fumarate dihydrate | Pulmonary Disease, Chronic Obstructive | Gültig |
+| EMEA/H/C/004257 | Trimbow | beclometasone dipropionate; formoterol fumarate dihydrate; glycopyrronium bromide | Pulmonary Disease, Chronic Obstructive | Gültig |
+| EMEA/H/C/004702 | Trydonis | beclometasone dipropionate; formoterol fumarate dihydrate; glycopyrronium | Pulmonary Disease, Chronic Obstructive | Gültig |
+| EMEA/H/C/004882 | GoResp Digihaler (previously Budesonide/Formoterol Teva Pha… | Budesonide; formoterol fumarate dihydrate | Asthma; Pulmonary Disease, Chronic Obstructive | Gültig |
+| EMEA/H/C/004983 | Trixeo Aerosphere | formoterol fumarate dihydrate; glycopyrronium bromide; Budesonide | Pulmonary Disease, Chronic Obstructive | Gültig |
+| EMEA/H/C/005311 | Riltrava Aerosphere | Budesonide; formoterol fumarate dihydrate; glycopyrronium bromide | Pulmonary Disease, Chronic Obstructive | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 
@@ -109,11 +124,12 @@ Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzstufe L5). Es gibt 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Formoterol Fumarate Inhalation Solution (formoterol fumarate dihydrate) prescribing information, Ritedose Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9bf685-8886-4865-834b-2748af124b79) |
+| 2026-11-24 | Entfernt: „Die Liste zeigt die ersten fünf von zehn gültigen Zulassungen.“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

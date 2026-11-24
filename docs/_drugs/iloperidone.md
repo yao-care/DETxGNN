@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ILOPERIDONE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia", "atypical glycine encephalopathy", "myopia X-linked"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Iloperidone: vorhergesagte neue Indikation Retinale Dystrophie mit oder ohne extraokulare Anomalien (retinal dystrophy with or without extraocular anomalies) (Evidenzstufe L5). Ursprüngliche Indikati…"
 ---
 
@@ -68,9 +68,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/006561 | Iloperidone Vanda Pharmaceuticals | – | Schizophrenie; bipolare Störung |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/006561 | Iloperidone Vanda Pharmaceuticals | iloperidone | Schizophrenia; Bipolar Disorder | Abgelehnt |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Die einzige erfasste Zulassung hat den Status „gelöscht“.
 

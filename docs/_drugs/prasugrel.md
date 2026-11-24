@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 367
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PRASUGREL"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
 description: "Prasugrel: vorhergesagte neue Indikation Pulmonary hypertension (Evidenzstufe L5). Ursprüngliche Indikation: Acute Coronary Syndrome"
@@ -90,9 +90,15 @@ Gestützt wird das Signal durch eine retrospektive Auswertung von Thienopyridine
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000984 | Efient (Substipharm) | – | Akutes Koronarsyndrom; instabile Angina pectoris; Myokardinfarkt (Status: gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000984 | Efient | prasugrel | Acute Coronary Syndrome; Angina, Unstable; Myocardial Infarction | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 455
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TENOFOVIR DISOPROXIL"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Tenofovir Disoproxil: vorhergesagte neue Indikation Simian immunodeficiency virus infection (Evidenzstufe L4). Ursprüngliche Indikation: HIV Infections"
@@ -95,15 +95,36 @@ Die Auswahl umfasst die relevantesten Publikationen (Tierstudien und Übersichts
 
 ## Marktinformationen Deutschland
 
-Von den 14 hinterlegten Zulassungen sind 14 gültig. Das Arzneimittel ist in Deutschland im Handel. Auswahl von 5 Einträgen:
+Von den 14 hinterlegten Zulassungen sind 14 gültig. Das Arzneimittel ist in Deutschland im Handel.
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000419 | Viread | – | Chronische Hepatitis B, HIV-Infektion |
-| EMEA/H/C/000594 | Truvada | – | HIV-Infektion |
-| EMEA/H/C/004120 | Tenofovir disoproxil Zentiva | – | HIV-Infektion |
-| EMEA/H/C/004049 | Tenofovir disoproxil Viatris | – | HIV-Infektion |
-| EMEA/H/C/002312 | Eviplera | – | HIV-Infektion |
+<!-- review:begin de-lic-20261124-tenofovir_disoproxil-1 -->
+
+> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „Das Arzneimittel ist in Deutschland im Handel. Auswahl von 5 Einträgen:“ Korrigiert: Die Tabelle unten wird jetzt programmatisch aus den EMA-Daten erzeugt und enthält alle erfassten zentralen EU-Zulassungen; der Hinweis auf eine Auswahl aus der früheren Tabelle trifft nicht mehr zu. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261124-tenofovir_disoproxil-1 -->
+
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000419 | Viread | tenofovir disoproxil fumarate | Hepatitis B, Chronic; HIV Infections | Gültig |
+| EMEA/H/C/000594 | Truvada | emtricitabine; tenofovir disoproxil fumarate | HIV Infections | Gültig |
+| EMEA/H/C/002312 | Eviplera | emtricitabine; rilpivirine hydrochloride; tenofovir disoproxil fumarate | HIV Infections | Gültig |
+| EMEA/H/C/002574 | Stribild | elvitegravir; cobicistat; emtricitabine; tenofovir disoproxil fumarate | HIV Infections | Gültig |
+| EMEA/H/C/004049 | Tenofovir disoproxil Viatris (previously Tenofovir disoprox… | tenofovir disoproxil | HIV Infections | Gültig |
+| EMEA/H/C/004050 | Emtricitabine/Tenofovir disoproxil Mylan | emtricitabine; tenofovir disoproxil maleate | HIV Infections | Gültig |
+| EMEA/H/C/004120 | Tenofovir disoproxil Zentiva | tenofovir disoproxil phosphate | HIV Infections | Gültig |
+| EMEA/H/C/004137 | Emtricitabine/Tenofovir disoproxil Zentiva | emtricitabine; tenofovir disoproxil phosphate | HIV Infections | Gültig |
+| EMEA/H/C/004215 | Emtricitabine/Tenofovir disoproxil Krka | emtricitabine; tenofovir disoproxil succinate | HIV Infections | Gültig |
+| EMEA/H/C/004240 | Efavirenz/Emtricitabine/Tenofovir disoproxil Mylan | efavirenz; emtricitabine; tenofovir disoproxil maleate | HIV Infections | Gültig |
+| EMEA/H/C/004250 | Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva | efavirenz; emtricitabine; tenofovir disoproxil phosphate | HIV Infections | Gültig |
+| EMEA/H/C/004274 | Efavirenz/Emtricitabine/Tenofovir disoproxil Krka | efavirenz; emtricitabine; tenofovir disoproxil succinate | HIV Infections | Gültig |
+| EMEA/H/C/004686 | Emtricitabine/Tenofovir disoproxil Krka d.d. | emtricitabine; tenofovir disoproxil succinate | HIV Infections | Gültig |
+| EMEA/H/C/004746 | Delstrigo | doravirine; lamivudine; tenofovir disoproxil fumarate | HIV Infections | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 
@@ -138,11 +159,12 @@ Die Vorhersage ist mechanistisch kohärent, stützt sich aber nur auf präklinis
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Viread (tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33fd6418-fbdc-42ca-a50d-ce2a476a5418) |
+| 2026-11-24 | Entfernt: „Auswahl von 5 Einträgen:“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

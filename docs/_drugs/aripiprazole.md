@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 37
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ARIPIPRAZOLE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
 description: "Aripiprazole: vorhergesagte neue Indikation Familiäre horizontale Blickparese mit progressiver Skoliose (gaze palsy, familial horizontal, with progressive scoliosis) (Evidenzstufe L5)."
@@ -70,13 +70,20 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 Der Wirkstoff ist im Handel. Laut den lokalen Daten sind alle erfassten Zulassungen gültig.
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
-|---------|------|------|-----------|------|
-| EMEA/H/C/002755 | Abilify Maintena | – | Schizophrenie | Gültig |
-| EMEA/H/C/000471 | Abilify | – | Schizophrenie; bipolare Störung | Gültig |
-| EMEA/H/C/004008 | Aripiprazole Sandoz | – | Schizophrenie; bipolare Störung | Gültig |
-| EMEA/H/C/003803 | Aripiprazole Mylan Pharma | – | Schizophrenie; bipolare Störung | Gültig |
-| EMEA/H/C/003899 | Aripiprazole Zentiva | – | Schizophrenie; bipolare Störung | Gültig |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000471 | Abilify | aripiprazole | Schizophrenia; Bipolar Disorder | Gültig |
+| EMEA/H/C/002755 | Abilify Maintena | aripiprazole | Schizophrenia | Gültig |
+| EMEA/H/C/003803 | Aripiprazole Mylan Pharma (previously Aripiprazole Pharmath… | aripiprazole | Schizophrenia; Bipolar Disorder | Gültig |
+| EMEA/H/C/003899 | Aripiprazole Zentiva | aripiprazole | Schizophrenia; Bipolar Disorder | Gültig |
+| EMEA/H/C/004008 | Aripiprazole Sandoz | aripiprazole | Schizophrenia; Bipolar Disorder | Gültig |
+| EMEA/H/C/004021 | Aripiprazole Accord | aripiprazole | Schizophrenia; Bipolar Disorder | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

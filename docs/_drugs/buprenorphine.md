@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "BUPRENORPHINE"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Buprenorphine: vorhergesagte neue Indikation akute intermittierende Porphyrie (acute intermittent porphyria) (Evidenzstufe L5). Ursprüngliche Indikation: Opioid-Related Disorders"
 ---
 
@@ -72,12 +72,18 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004651 | Buvidal | – | – |
-| EMEA/H/C/006188 | Buprenorphine Neuraxpharm | – | – |
-| EMEA/H/C/004407 | Zubsolv | – | – |
-| EMEA/H/C/000697 | Suboxone | – | – |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004407 | Zubsolv | buprenorphine hydrochloride; naloxone hydrochloride dihydrate | Opioid-Related Disorders | Gültig |
+| EMEA/H/C/004651 | Buvidal | buprenorphine | Opioid-Related Disorders | Gültig |
+| EMEA/H/C/006188 | Buprenorphine Neuraxpharm | buprenorphine hydrochloride | Opioid-Related Disorders | Gültig |
+| EMEA/H/C/000697 | Suboxone | buprenorphine; naloxone | Opioid-Related Disorders | Zurückgezogen |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

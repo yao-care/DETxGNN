@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ETANERCEPT"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Etanercept: vorhergesagte neue Indikation Steißbeinhypermobilität (hypermobility of coccyx) (Evidenzstufe L5). Ursprüngliche Indikation: Arthritis, Psoriatic"
 ---
 
@@ -68,13 +68,19 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004192 | Erelzi | – | Psoriasis-Arthritis, Psoriasis, juvenile rheumatoide Arthritis, rheumatoide Arthritis, Spondylitis ankylosans |
-| EMEA/H/C/000262 | Enbrel | – | Spondylitis ankylosans, juvenile rheumatoide Arthritis, Psoriasis-Arthritis, Psoriasis, rheumatoide Arthritis |
-| EMEA/H/C/006738 | Fubelv | – | Rheumatoide Arthritis, juvenile Arthritis, Psoriasis-Arthritis, axiale Spondyloarthritis, nicht-röntgenologische axiale Spondyloarthritis... |
-| EMEA/H/C/004711 | Nepexto | – | Rheumatoide Arthritis, juvenile rheumatoide Arthritis, Psoriasis-Arthritis, Spondylarthropathien, Spondylitis ankylosans... |
-| EMEA/H/C/004007 | Benepali | – | Psoriasis-Arthritis, rheumatoide Arthritis, Psoriasis |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000262 | Enbrel | etanercept | Spondylitis, Ankylosing; Arthritis, Juvenile Rheumatoid; Arthritis, Psoriatic; Psoriasis; Arthritis, Rheumato… | Gültig |
+| EMEA/H/C/004007 | Benepali | etanercept | Arthritis, Psoriatic; Arthritis, Rheumatoid; Psoriasis | Gültig |
+| EMEA/H/C/004192 | Erelzi | etanercept | Arthritis, Psoriatic; Psoriasis; Arthritis, Juvenile Rheumatoid; Arthritis, Rheumatoid; Spondylitis, Ankylosi… | Gültig |
+| EMEA/H/C/004711 | Nepexto | etanercept | Arthritis, Rheumatoid; Arthritis, Juvenile Rheumatoid; Arthritis, Psoriatic; Spondylarthropathies; Spondyliti… | Gültig |
+| EMEA/H/C/006738 | Fubelv | etanercept | Arthritis, Rheumatoid; Arthritis, Juvenile; Arthritis, Psoriatic; Axial Spondyloarthritis; Non-Radiographic A… | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

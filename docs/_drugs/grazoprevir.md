@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 219
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Grazoprevir: vorhergesagte neue Indikation HIV-Infektion (Evidenzstufe L1). Ursprüngliche Indikation: Chronische Hepatitis C"
 monitor_inn: "GRAZOPREVIR"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -102,9 +102,15 @@ Alle Studien sind auf die HCV-Behandlung ausgerichtet. Ein HIV-spezifisches Wirk
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004126 | Zepatier | k. A. | Chronische Hepatitis C (Status: gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004126 | Zepatier | elbasvir; grazoprevir | Hepatitis C, Chronic | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

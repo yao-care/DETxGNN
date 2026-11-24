@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 144
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dibotermin Alfa: vorhergesagte neue Indikation Esotropie (Evidenzstufe L5). Ursprüngliche Indikation: Tibiafrakturen"
 monitor_inn: "DIBOTERMIN ALFA"
 predicted_indications: ["esotropia", "HER2 positive breast carcinoma", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer", "non-syndromic esophageal malformation", "multifocal choroiditis", "atypical coarctation of aorta"]
@@ -84,9 +84,15 @@ Für die Top-Vorhersage (Esotropie) liegt keine Literatur vor. Für die Indikati
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000408 | Inductos (Medtronic BioPharma B.V.) | – | Tibiafrakturen; interne Frakturfixierung; Wirbelsäulenfusion (Status: gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000408 | Inductos | dibotermin alfa | Tibial Fractures; Fracture Fixation, Internal; Spinal Fusion | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

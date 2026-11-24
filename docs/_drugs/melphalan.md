@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Melphalan"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Melphalan: vorhergesagte neue Indikation Weibliches Mammakarzinom (female breast carcinoma) (Evidenzstufe L5). Ursprüngliche Indikation: Multiple Myeloma"
 ---
 
@@ -99,9 +99,15 @@ Mehrere der zitierten Studien (z. B. eine randomisierte Phase-III-Studie zu Vino
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005173 | Phelinun | – | Siehe Zulassungstext |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005173 | Phelinun | melphalan hydrochloride | Multiple Myeloma; Hodgkin Disease; Lymphoma, Non-Hodgkin; Precursor Cell Lymphoblastic Leukemia-Lymphoma; Leu… | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

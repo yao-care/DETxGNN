@@ -7,7 +7,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 394
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 predicted_indications: []
 ---
 
@@ -77,6 +77,21 @@ Das Nachweispaket enthält zwei blockierende Lücken, die verhindern, dass ein s
 ---
 
 ## Informationen zum Marktstatus Deutschland
+
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000187 | NovoNorm | repaglinide | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/000362 | Prandin | repaglinide | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/001065 | Enyglid | repaglinide | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/001066 | Repaglinide Krka | repaglinide | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/001067 | Repaglinide Teva | repaglinide | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/002318 | Repaglinide Accord | repaglinide | Diabetes Mellitus, Type 2 | Zurückgezogen |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 > **Hinweis:** Repaglinid-haltige Produkte (z. B. NovoNorm®) sind in mehreren Märkten weltweit zugelassen.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BIMATOPROST"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bimatoprost: vorhergesagte neue Indikation Fehlbildungssyndrom mit Zahn- und/oder Parodontalbeteiligung (malformation syndrome with odontal and/or periodontal com… (Evidenzstufe L5). Ursprüngliche In…"
 ---
 
@@ -67,6 +67,17 @@ Derzeit sind keine einschlägigen klinischen Studien registriert.
 Derzeit ist keine einschlägige Literatur verfügbar.
 
 ## Informationen zum Markt in Deutschland
+
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000391 | Lumigan | bimatoprost | Glaucoma, Open-Angle; Ocular Hypertension | Gültig |
+| EMEA/H/C/000668 | Ganfort | bimatoprost; timolol | Glaucoma, Open-Angle; Ocular Hypertension | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Bimatoprost ist in Deutschland im Handel. Die lokalen Zulassungsdaten weisen gültige Zulassungen aus. Für die vorhergesagte Indikation besteht keine Zulassung.
 

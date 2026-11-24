@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 508
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Zonisamide: vorhergesagte neue Indikation Tourette-Syndrom (Evidenzstufe L5). Ursprüngliche Indikation: Epilepsie"
 monitor_inn: "ZONISAMIDE"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "methemoglobinemia, alpha type", "methemoglobinemia", "Prinzmetal angina", "methemoglobin reductase deficiency", "manic bipolar affective disorder", "fibromyalgia", "conjunctivitis"]
@@ -80,10 +80,16 @@ Derzeit liegt keine einschlägige Literatur zu Zonisamid beim Tourette-Syndrom v
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004127 | Zonisamide Viatris (zuvor Zonisamide Mylan) | – | Epilepsie |
-| EMEA/H/C/000577 | Zonegran | – | Partielle Epilepsien |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000577 | Zonegran | zonisamide | Epilepsies, Partial | Gültig |
+| EMEA/H/C/004127 | Zonisamide Viatris (previously Zonisamide Mylan) | zonisamide | Epilepsy | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Beide Zulassungen (2 von 2) sind gültig; das Arzneimittel ist in Deutschland im Verkehr.
 

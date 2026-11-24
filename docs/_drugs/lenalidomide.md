@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 265
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LENALIDOMIDE"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 description: "Lenalidomide: vorhergesagte neue Indikation Myeloische Leukämie (myeloid leukemia) (Evidenzstufe L2). Ursprüngliche Indikation: Multiple Myeloma"
@@ -108,11 +108,17 @@ Es liegen keine randomisierten kontrollierten Studien (RCT) zur Wirksamkeit bei 
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000717 | Revlimid | – | Multiples Myelom; Mantelzell-Lymphom; Myelodysplastische Syndrome |
-| EMEA/H/C/005306 | Lenalidomide Mylan | – | Multiples Myelom |
-| EMEA/H/C/004857 | Lenalidomide Accord | – | Multiples Myelom |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000717 | Revlimid | lenalidomide | Multiple Myeloma; Lymphoma, Mantle-Cell; Myelodysplastic Syndromes | Gültig |
+| EMEA/H/C/004857 | Lenalidomide Accord | lenalidomide | Multiple Myeloma | Gültig |
+| EMEA/H/C/005306 | Lenalidomide Mylan | lenalidomide | Multiple Myeloma | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Das Arzneimittel ist in Deutschland im Handel. Alle 3 Zulassungen sind gültig (3 von 3).
 

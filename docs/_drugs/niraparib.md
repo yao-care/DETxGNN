@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 316
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NIRAPARIB"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
 description: "Niraparib: vorhergesagte neue Indikation Epiglottis neoplasm (Evidenzstufe L5). Ursprüngliche Indikation: Fallopian Tube Neoplasms"
@@ -96,10 +96,16 @@ Die übrigen Top-10-Vorhersagen (z. B. Epiglottis-Neoplasie, gutartige Neoplasie
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004249 | Zejula | – | Tuben-, Peritoneal- und Ovarialkarzinom (gültig) |
-| EMEA/H/C/005932 | Akeega | – | Kastrationsresistentes Prostatakarzinom (gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004249 | Zejula | niraparib (tosilate monohydrate) | Fallopian Tube Neoplasms; Peritoneal Neoplasms; Ovarian Neoplasms | Gültig |
+| EMEA/H/C/005932 | Akeega | abiraterone acetate; niraparib (tosilate monohydrate) | Prostatic Neoplasms, Castration-Resistant | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

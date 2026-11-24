@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 133
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dasatinib: vorhergesagte neue Indikation Ewing-Sarkom (Evidenzstufe L2). Ursprüngliche Indikation: Vorläuferzell-lymphoblastische Leukämie/Lymphom"
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
@@ -93,10 +93,16 @@ Beim Ewing-Sarkom treiben SRC-Kinasen laut präklinischen Arbeiten die Bildung v
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000709 | Sprycel | – | Vorläuferzell-lymphoblastische Leukämie/Lymphom; BCR-ABL-positive chronische myeloische Leukämie |
-| EMEA/H/C/006251 | Dasatinib Accord Healthcare | – | Vorläuferzell-lymphoblastische Leukämie/Lymphom; BCR-ABL-positive chronische myeloische Leukämie |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000709 | Sprycel | dasatinib | Precursor Cell Lymphoblastic Leukemia-Lymphoma; Leukemia, Myelogenous, Chronic, BCR-ABL Positive | Gültig |
+| EMEA/H/C/006251 | Dasatinib Accord Healthcare | Dasatinib monohydrate | Precursor Cell Lymphoblastic Leukemia-Lymphoma; Leukemia, Myelogenous, Chronic, BCR-ABL Positive | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

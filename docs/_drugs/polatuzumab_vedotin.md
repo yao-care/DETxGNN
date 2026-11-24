@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 363
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Polatuzumab Vedotin: vorhergesagte neue Indikation HER2-positives Mammakarzinom (Evidenzstufe L5). Ursprüngliche Indikation: B-Zell-Lymphom"
 monitor_inn: "POLATUZUMAB VEDOTIN"
 predicted_indications: ["HER2 positive breast carcinoma"]
@@ -80,9 +80,15 @@ Derzeit liegt keine einschlägige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004870 | Polivy | – | B-Zell-Lymphom |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004870 | Polivy | polatuzumab vedotin | Lymphoma, B-Cell | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Hinweis: Diese Zulassung ist gültig; das Arzneimittel ist in Deutschland im Verkehr (1 gültige Zulassung von 1).
 

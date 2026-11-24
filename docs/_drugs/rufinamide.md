@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 415
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RUFINAMIDE"
 predicted_indications: ["perioral myoclonia with absences"]
 description: "Rufinamide: vorhergesagte neue Indikation Perioral myoclonia with absences (Evidenzstufe L5). Ursprüngliche Indikation: Epilepsy"
@@ -82,9 +82,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000660 | Inovelon (Eisai GmbH) | – | Epilepsie |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000660 | Inovelon | rufinamide | Epilepsy | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Diese Zulassung ist gültig; in Deutschland besteht derzeit 1 gültige Zulassung von 1.
 

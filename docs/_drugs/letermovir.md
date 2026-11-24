@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 267
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Letermovir: vorhergesagte neue Indikation Vulvovaginale Candidose (Evidenzstufe L5). Ursprüngliche Indikation: Cytomegalovirus-Infektionen"
 monitor_inn: "LETERMOVIR"
 predicted_indications: ["vulvovaginal candidiasis"]
@@ -82,9 +82,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004536 | Prevymis | – | Cytomegalovirus-Infektionen |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004536 | Prevymis | Letermovir | Cytomegalovirus Infections | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Hinweis: Diese Zulassung hat den Status „gültig“. Das Arzneimittel ist im Handel.
 

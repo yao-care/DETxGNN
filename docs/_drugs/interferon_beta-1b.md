@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 246
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Interferon Beta-1B: vorhergesagte neue Indikation Haarzellleukämie (Evidenzstufe L5). Ursprüngliche Indikation: Multiple Sklerose"
 monitor_inn: "INTERFERON BETA-1B"
 predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system"]
@@ -103,9 +103,15 @@ Die folgende Auswahl betrifft die zweitplatzierte Vorhersage (wiederum Multiple 
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000081 | Betaferon (Bayer AG) | – | Multiple Sklerose (Status: gültig/gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000081 | Betaferon | interferon beta-1b | Multiple Sclerosis | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

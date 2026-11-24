@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "MEMANTINE"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Memantine: vorhergesagte neue Indikation Pulmonale Hypertonie (pulmonary hypertension) (Evidenzstufe L5). Ursprüngliche Indikation: Alzheimer Disease"
 ---
 
@@ -73,13 +73,22 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002766 | Memantine Accord | – | Alzheimer-Krankheit |
-| EMEA/H/C/002658 | Marixino (previously Maruxa) | – | Alzheimer-Krankheit |
-| EMEA/H/C/002711 | Memantine Merz | – | Alzheimer-Krankheit |
-| EMEA/H/C/002680 | Nemdatine | – | Alzheimer-Krankheit |
-| EMEA/H/C/000378 | Axura | – | Alzheimer-Krankheit |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000378 | Axura | memantine hydrochloride | Alzheimer Disease | Gültig |
+| EMEA/H/C/000463 | Ebixa | memantine hydrochloride | Alzheimer Disease | Gültig |
+| EMEA/H/C/002658 | Marixino (previously Maruxa) | memantine hydrochloride | Alzheimer Disease | Gültig |
+| EMEA/H/C/002660 | Memantine Mylan | memantine hydrochloride | Alzheimer Disease | Gültig |
+| EMEA/H/C/002671 | Memantine ratiopharm | memantine hydrochloride | Alzheimer Disease | Gültig |
+| EMEA/H/C/002680 | Nemdatine | memantine | Alzheimer Disease | Gültig |
+| EMEA/H/C/002711 | Memantine Merz | memantine hydrochloride | Alzheimer Disease | Gültig |
+| EMEA/H/C/002766 | Memantine Accord | memantine hydrochloride | Alzheimer Disease | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Posaconazole: vorhergesagte neue Indikation Pneumocystose (Evidenzstufe L5). Ursprüngliche Indikation: Candidiasis"
 monitor_inn: "POSACONAZOLE"
 predicted_indications: ["pneumocystosis"]
@@ -96,11 +96,17 @@ Das Arzneimittel ist im Handel.
 
 <!-- review:end de-lic-20261106-posaconazole-1 -->
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000610 | Noxafil | – | Candidiasis; Mykosen; Kokzidioidomykose; Aspergillose |
-| EMEA/H/C/005028 | Posaconazole AHCL | – | Mykosen |
-| EMEA/H/C/005005 | Posaconazole Accord | – | Mykosen |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000610 | Noxafil | posaconazole | Candidiasis; Mycoses; Coccidioidomycosis; Aspergillosis | Gültig |
+| EMEA/H/C/005005 | Posaconazole Accord | posaconazole | Mycoses | Gültig |
+| EMEA/H/C/005028 | Posaconazole AHCL | posaconazole | Mycoses | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

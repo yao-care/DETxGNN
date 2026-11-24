@@ -3,7 +3,7 @@ layout: default
 title: Norethisterone
 parent: Nur bekannte Anwendungen (keine neuen Vorhersagen)
 nav_order: 320
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 description: "Norethisterone: Bekannte Anwendungen und Marktstatus in Deutschland; derzeit keine neue Kandidaten-Indikation"
 monitor_inn: "Norethisterone"
 predicted_indications: []
@@ -48,9 +48,15 @@ Evidenzniveau: **N/A** | Vorhergesagte Indikationen: **0**
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005267 | Ryeqo | – | Leiomyom |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005267 | Ryeqo | relugolix; norethisterone acetate; estradiol hemihydrate | Leiomyoma | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Diese Zulassung ist gültig; derzeit ist 1 von 1 Zulassung gültig.
 

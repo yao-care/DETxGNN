@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "TEMOZOLOMIDE"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Temozolomide: vorhergesagte neue Indikation Neoplasie der Cauda equina (Evidenzstufe L5). Ursprüngliche Indikation: Gliom"
 ---
 
@@ -80,13 +80,19 @@ Hinweis zur Einordnung: Der Fallbericht von 2018 betrifft ein spinales myxopapil
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000229 | Temodal (Merck Sharp & Dohme B.V.) | – | Gliom |
-| EMEA/H/C/001124 | Temomedac (medac) | – | Gliom |
-| EMEA/H/C/001125 | Temozolomide Accord (Accord Healthcare) | – | Gliom |
-| EMEA/H/C/001126 | Temozolomide Teva (Teva B.V.) | – | Gliom |
-| EMEA/H/C/002198 | Temozolomide Sun (Sun Pharmaceutical) | – | Gliom |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000229 | Temodal | temozolomide | Glioma | Gültig |
+| EMEA/H/C/001124 | Temomedac | temozolomide | Glioma | Gültig |
+| EMEA/H/C/001125 | Temozolomide Accord | temozolomide | Glioma | Gültig |
+| EMEA/H/C/001126 | Temozolomide Teva | temozolomide | Glioma | Gültig |
+| EMEA/H/C/002198 | Temozolomide Sun | temozolomide | Glioma | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

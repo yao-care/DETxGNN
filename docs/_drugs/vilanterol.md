@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 498
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "VILANTEROL"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
 description: "Vilanterol: vorhergesagte neue Indikation Hyperlucent lung (Evidenzstufe L5). Ursprüngliche Indikation: Pulmonary Disease, Chronic Obstructive"
@@ -108,10 +108,16 @@ Zusätzlich liegen mehrere Phase-3-Studien bei Asthma vor (z. B. NCT01134042, NC
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/003754 | Laventair Ellipta (zuvor Laventair) | k. A. | Chronisch obstruktive Lungenerkrankung (COPD) |
-| EMEA/H/C/002673 | Relvar Ellipta | k. A. | Chronisch obstruktive Lungenerkrankung (COPD) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002673 | Relvar Ellipta | fluticasone furoate; vilanterol | Pulmonary Disease, Chronic Obstructive | Gültig |
+| EMEA/H/C/003754 | Laventair Ellipta (previously Laventair) | umeclidinium bromide; vilanterol | Pulmonary Disease, Chronic Obstructive | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Ob Vilanterol-haltige Kombinationspräparate aktuell in Deutschland vermarktet werden, sollte gesondert geprüft werden.
 

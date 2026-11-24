@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 416
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ruxolitinib"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection"]
 description: "Ruxolitinib: vorhergesagte neue Indikation Uterine corpus perivascular epithelioid cell tumor (Evidenzstufe L5). Ursprüngliche Indikation: Vitiligo"
@@ -80,10 +80,16 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005843 | Opzelura (Incyte Biosciences Distribution B.V.) | – | Vitiligo |
-| EMEA/H/C/002464 | Jakavi (Novartis Europharm Limited) | – | Myeloproliferative Erkrankungen; Polycythaemia vera; Graft-versus-Host-Krankheit |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002464 | Jakavi | ruxolitinib phosphate | Myeloproliferative Disorders; Polycythemia Vera; Graft vs Host Disease | Gültig |
+| EMEA/H/C/005843 | Opzelura | ruxolitinib phosphate | Vitiligo | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Beide Zulassungen sind gültig. Das Arzneimittel ist in Deutschland im Handel.
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 120
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clopidogrel: vorhergesagte neue Indikation Migräne mit Hirnstammaura (Rang 1) (Evidenzstufe L5). Ursprüngliche Indikation: Periphere Gefäßerkrankungen, Schlaganfall, Myokardinfarkt…"
 monitor_inn: "CLOPIDOGREL"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis"]
@@ -105,13 +105,30 @@ Hinweis: Mehrere Arbeiten betreffen verwandte Wirkstoffe (Ticagrelor, Ticlopidin
 
 Alle 16 Zulassungen sind gültig. Es handelt sich um zentrale EU-Zulassungen (EMEA). Die Angaben zur Darreichungsform liegen nicht vor.
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000174 | Plavix | – | Schlaganfall, periphere Gefäßerkrankungen, Vorhofflimmern, Myokardinfarkt, akutes Koronarsyndrom |
-| EMEA/H/C/000175 | Iscover | – | Schlaganfall, periphere Gefäßerkrankungen, Vorhofflimmern, Myokardinfarkt, akutes Koronarsyndrom |
-| EMEA/H/C/001143 | DuoPlavin | – | Akutes Koronarsyndrom, Myokardinfarkt |
-| EMEA/H/C/001056 | Clopidogrel Krka | – | Periphere Gefäßerkrankungen, Schlaganfall, Myokardinfarkt |
-| EMEA/H/C/004006 | Clopidogrel ratiopharm | – | Myokardinfarkt, akutes Koronarsyndrom, periphere Gefäßerkrankungen, Schlaganfall |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000174 | Plavix | clopidogrel hydrogen sulfate | Stroke; Peripheral Vascular Diseases; Atrial Fibrillation; Myocardial Infarction; Acute Coronary Syndrome | Gültig |
+| EMEA/H/C/000175 | Iscover | clopidogrel | Stroke; Peripheral Vascular Diseases; Atrial Fibrillation; Myocardial Infarction; Acute Coronary Syndrome | Gültig |
+| EMEA/H/C/000975 | Clopidogrel Zentiva (previously Clopidogrel Winthrop) | clopidogrel | Stroke; Peripheral Vascular Diseases; Myocardial Infarction; Acute Coronary Syndrome | Gültig |
+| EMEA/H/C/001053 | Clopidogrel Teva (hydrogen sulphate) | clopidogrel (as hydrogen sulfate) | Acute Coronary Syndrome; Peripheral Vascular Diseases; Myocardial Infarction; Stroke | Gültig |
+| EMEA/H/C/001056 | Clopidogrel Krka | clopidogrel (as hydrochloride) | Peripheral Vascular Diseases; Stroke; Myocardial Infarction | Gültig |
+| EMEA/H/C/001058 | Zyllt | clopidogrel (as hydrogen sulfate) | Peripheral Vascular Diseases; Stroke; Acute Coronary Syndrome; Myocardial Infarction | Gültig |
+| EMEA/H/C/001059 | Grepid | clopidogrel (as besilate) | Peripheral Vascular Diseases; Stroke; Myocardial Infarction | Gültig |
+| EMEA/H/C/001134 | Clopidogrel Taw Pharma (previously Clopidogrel Mylan) | clopidogrel hydrochloride | Peripheral Vascular Diseases; Stroke; Myocardial Infarction; Acute Coronary Syndrome | Gültig |
+| EMEA/H/C/001136 | Clopidogrel TAD | clopidogrel (as hydrochloride) | Peripheral Vascular Diseases; Stroke; Myocardial Infarction | Gültig |
+| EMEA/H/C/001137 | Clopidogrel Krka d.d. (previously Zopya) | clopidogrel (as hydrochloride) | Peripheral Vascular Diseases; Stroke; Myocardial Infarction | Gültig |
+| EMEA/H/C/001138 | Clopidogrel BGR (previously Zylagren) | clopidogrel (as hydrogen sulfate) | Peripheral Vascular Diseases; Stroke; Myocardial Infarction | Gültig |
+| EMEA/H/C/001143 | DuoPlavin | clopidogrel; acetylsalicylic acid | Acute Coronary Syndrome; Myocardial Infarction | Gültig |
+| EMEA/H/C/001144 | Clopidogrel/Acetylsalicylic acid Zentiva (previously DuoCov… | clopidogrel; acetylsalicylic acid | Acute Coronary Syndrome; Myocardial Infarction | Gültig |
+| EMEA/H/C/002255 | Clopidogrel HCS | clopidogrel (as hydrochloride) | Peripheral Vascular Diseases; Acute Coronary Syndrome; Myocardial Infarction; Stroke | Gültig |
+| EMEA/H/C/004006 | Clopidogrel ratiopharm | clopidogrel (as hydrogen sulfate) | Myocardial Infarction; Acute Coronary Syndrome; Peripheral Vascular Diseases; Stroke | Gültig |
+| EMEA/H/C/004996 | Clopidogrel / Acetylsalicylic acid Viatris (previously Clop… | acetylsalicylic acid; clopidogrel hydrogen sulfate | Acute Coronary Syndrome; Myocardial Infarction | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

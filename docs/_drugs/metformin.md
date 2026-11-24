@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "METFORMIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Metformin: vorhergesagte neue Indikation Fokales Stiff-Limb-Syndrom (focal stiff limb syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes Mellitus, Type 2"
 ---
 
@@ -68,13 +68,33 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002654 | Vipdomet | – | – |
-| EMEA/H/C/001235 | Ristfor | – | – |
-| EMEA/H/C/003770 | Synjardy | – | – |
-| EMEA/H/C/002279 | Jentadueto | – | – |
-| EMEA/H/C/000862 | Velmetia | – | – |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000655 | Competact | pioglitazone; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/000807 | Eucreas | vildagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/000861 | Janumet | sitagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/000862 | Velmetia | sitagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/000896 | Efficib | sitagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/001049 | Zomarist | vildagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/001050 | Icandra (previously Vildagliptin / metformin hydrochloride… | vildagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/001235 | Ristfor | sitagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/002059 | Komboglyze | metformin hydrochloride; saxagliptin hydrochloride | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/002279 | Jentadueto | linagliptin; metformin | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/002654 | Vipdomet | alogliptin benzoate; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/002656 | Vokanamet | canagliflozin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/002672 | Xigduo | metformin hydrochloride; dapagliflozin propanediol monohydrate | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/003770 | Synjardy | empagliflozin; metformin | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/004162 | Ebymect | dapagliflozin propanediol monohydrate; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/004314 | Segluromet | ertugliflozin l-pyroglutamic acid; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/005678 | Sitagliptin / Metformin hydrochloride Mylan | sitagliptin hydrochloride monohydrate; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/005738 | Vildagliptin / Metformin hydrochloride Accord | metformin hydrochloride; vildagliptin | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/005778 | Sitagliptin / Metformin hydrochloride Sun | sitagliptin fumarate; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Hinweis: Dies sind Kombinationspräparate; ihre Zulassungen beschreiben nicht die Zulassung des Einzelwirkstoffs. Die Liste ist ein Auszug.
 

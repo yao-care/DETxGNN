@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 336
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Paclitaxel: vorhergesagte neue Indikation Parameningeal embryonal rhabdomyosarcoma (Evidenzstufe L5). Ursprüngliche Indikation: Breast Neoplasms"
@@ -114,12 +114,18 @@ Angaben zur Darreichungsform liegen nicht vor.
 
 <!-- review:end de-lic-20261106-paclitaxel-1 -->
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000778 | Abraxane | k. A. | Brustneoplasmen; Pankreaskarzinom; nicht-kleinzelliges Lungenkarzinom |
-| EMEA/H/C/004441 | Pazenir | k. A. | Brustneoplasmen |
-| EMEA/H/C/005997 | Apexelsin | k. A. | Brustneoplasmen; Pankreaskarzinom; nicht-kleinzelliges Lungenkarzinom |
-| EMEA/H/C/006173 | Naveruclif | k. A. | Brustneoplasmen; Pankreaskarzinom; nicht-kleinzelliges Lungenkarzinom |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000778 | Abraxane | paclitaxel | Breast Neoplasms; Pancreatic Neoplasms; Carcinoma, Non-Small-Cell Lung | Gültig |
+| EMEA/H/C/004441 | Pazenir | paclitaxel | Breast Neoplasms | Gültig |
+| EMEA/H/C/005997 | Apexelsin | paclitaxel | Breast Neoplasms; Pancreatic Neoplasms; Carcinoma, Non-Small-Cell Lung | Gültig |
+| EMEA/H/C/006173 | Naveruclif | paclitaxel | Breast Neoplasms; Pancreatic Neoplasms; Carcinoma, Non-Small-Cell Lung | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BUDESONIDE"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Budesonide: vorhergesagte neue Indikation Atopisches Ekzem (atopic eczema) (Evidenzstufe L5). Ursprüngliche Indikation: Esophageal Diseases"
 ---
 
@@ -79,13 +79,20 @@ Die Auswahl zeigt die thematisch nächsten Arbeiten. Keine davon prüft die Wirk
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004655 | Jorveza | – | Siehe Zulassungsdaten |
-| EMEA/H/C/002348 | DuoResp Spiromax | – | Siehe Zulassungsdaten |
-| EMEA/H/C/003890 | BiResp Spiromax | – | Siehe Zulassungsdaten |
-| EMEA/H/C/004882 | GoResp Digihaler | – | Siehe Zulassungsdaten |
-| EMEA/H/C/004983 | Trixeo Aerosphere | – | Siehe Zulassungsdaten |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002348 | DuoResp Spiromax | Budesonide; formoterol fumarate dihydrate | Pulmonary Disease, Chronic Obstructive; Asthma | Gültig |
+| EMEA/H/C/003890 | BiResp Spiromax | Budesonide; formoterol fumarate dihydrate | Pulmonary Disease, Chronic Obstructive; Asthma | Gültig |
+| EMEA/H/C/004655 | Jorveza | Budesonide | Esophageal Diseases | Gültig |
+| EMEA/H/C/004882 | GoResp Digihaler (previously Budesonide/Formoterol Teva Pha… | Budesonide; formoterol fumarate dihydrate | Asthma; Pulmonary Disease, Chronic Obstructive | Gültig |
+| EMEA/H/C/004983 | Trixeo Aerosphere | formoterol fumarate dihydrate; glycopyrronium bromide; Budesonide | Pulmonary Disease, Chronic Obstructive | Gültig |
+| EMEA/H/C/005311 | Riltrava Aerosphere | Budesonide; formoterol fumarate dihydrate; glycopyrronium bromide | Pulmonary Disease, Chronic Obstructive | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 332
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ORLISTAT"
 predicted_indications: ["hypervitaminosis"]
 description: "Orlistat: vorhergesagte neue Indikation Hypervitaminose (hypervitaminosis) (Evidenzstufe L5). Ursprüngliche Indikation: Obesity"
@@ -80,10 +80,16 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
-|---------|------|------|-----------|------|
-| EMEA/H/C/000154 | Xenical (CHEPLAPHARM Arzneimittel GmbH) | – | Adipositas | Gültig |
-| EMEA/H/C/000854 | Alli (zuvor Orlistat GSK; Haleon Ireland Dungarvan Limited) | – | Adipositas | Gültig |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000154 | Xenical | orlistat | Obesity | Gültig |
+| EMEA/H/C/000854 | Alli (previously Orlistat GSK) | orlistat | Obesity | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

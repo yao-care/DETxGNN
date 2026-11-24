@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 78
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Brodalumab: vorhergesagte neue Indikation Strongyloidiasis (Evidenzstufe L5). Ursprüngliche Indikation: Psoriasis"
 monitor_inn: "BRODALUMAB"
 predicted_indications: ["strongyloidiasis", "eye disease", "vitamin deficiency disorder", "von Hippel anomaly", "isolated optic neuritis", "recurrent idiopathic neuroretinitis", "optic perineuritis", "chronic relapsing inflammatory optic neuropathy", "nodular episcleritis", "episcleritis periodica fugax"]
@@ -82,9 +82,15 @@ Derzeit ist keine einschlägige Literatur zu Strongyloidiasis verfügbar.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/003959 | Kyntheum | – | Psoriasis (Status: gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003959 | Kyntheum | brodalumab | Psoriasis | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 322
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ocrelizumab: vorhergesagte neue Indikation HER2-positives Mammakarzinom (Evidenzstufe L5). Ursprüngliche Indikation: Multiple Sklerose"
 monitor_inn: "OCRELIZUMAB"
 predicted_indications: ["HER2 positive breast carcinoma", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
@@ -88,9 +88,15 @@ Hinweis: Dem Rang-4-Kandidaten (Luminal A/B) wurden 18 Publikationen zugeordnet.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004043 | Ocrevus | – | Multiple Sklerose |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004043 | Ocrevus | ocrelizumab | Multiple Sclerosis | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

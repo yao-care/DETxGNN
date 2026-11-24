@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 20
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "AGOMELATINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
 description: "Agomelatine: vorhergesagte neue Indikation Benign paroxysmal torticollis of infancy (Evidenzstufe L5). Ursprüngliche Indikation: Depressive Disorder, Major"
@@ -87,9 +87,15 @@ Zum Vergleich: Für die besser begründeten Alternativkandidaten wurde Literatur
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000915 | Valdoxan | – | Major Depression (Status: gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000915 | Valdoxan | agomelatine | Depressive Disorder, Major | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 199
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluticasone Furoate: vorhergesagte neue Indikation Atopisches Ekzem (Evidenzstufe L5). Ursprüngliche Indikation: Saisonale und perenniale allergische Rhinitis (weitere Zulassungen: A…"
 monitor_inn: "FLUTICASONE FUROATE"
 predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "contact dermatitis", "occupational dermatitis", "phototoxic dermatitis"]
@@ -84,13 +84,19 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000770 | Avamys | – | Saisonale und perenniale allergische Rhinitis |
-| EMEA/H/C/002745 | Revinty Ellipta | – | Asthma |
-| EMEA/H/C/002673 | Relvar Ellipta | – | COPD |
-| EMEA/H/C/004781 | Elebrato Ellipta | – | COPD |
-| EMEA/H/C/004363 | Trelegy Ellipta | – | COPD |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000770 | Avamys | fluticasone furoate | Rhinitis, Allergic, Seasonal; Rhinitis, Allergic, Perennial | Gültig |
+| EMEA/H/C/002673 | Relvar Ellipta | fluticasone furoate; vilanterol | Pulmonary Disease, Chronic Obstructive | Gültig |
+| EMEA/H/C/002745 | Revinty Ellipta | fluticasone furoate; vilanterol trifenatate | Asthma | Gültig |
+| EMEA/H/C/004363 | Trelegy Ellipta | fluticasone furoate; umeclidinium bromide; vilanterol trifenatate | Pulmonary Disease, Chronic Obstructive | Gültig |
+| EMEA/H/C/004781 | Elebrato Ellipta | fluticasone furoate; umeclidinium bromide; vilanterol trifenatate | Pulmonary Disease, Chronic Obstructive | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Alle fünf Zulassungen sind gültig; das Arzneimittel ist im Handel.
 

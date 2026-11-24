@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 329
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "OMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Omeprazole: vorhergesagte neue Indikation Duodenal obstruction (Evidenzstufe L5). Keine zentrale EU-Zulassung (EMA) erfasst"
@@ -94,8 +94,11 @@ Kleine Studien bei Barrett-Ösophagus (PMID 10994616, 9824338) und eine pädiatr
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
+<!-- licenses:begin -->
+
+In den ausgewerteten EMA-Daten ist für diesen Wirkstoff keine zentrale EU-Zulassung eines Humanarzneimittels erfasst; nationale Zulassungen (BfArM) sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 468
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tobramycin: vorhergesagte neue Indikation Exposure-Keratitis (Evidenzstufe L4). Ursprüngliche Indikation: Mukoviszidose"
 monitor_inn: "TOBRAMYCIN"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
@@ -93,10 +93,16 @@ Keine der Arbeiten liefert direkte Wirksamkeitsevidenz für Tobramycin bei Expos
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002155 | Tobi Podhaler | k. A. | Mukoviszidose; Atemwegsinfektionen |
-| EMEA/H/C/005086 | Vantobra (zuvor Tobramycin PARI) | k. A. | Atemwegsinfektionen; Mukoviszidose |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002155 | Tobi Podhaler | tobramycin | Cystic Fibrosis; Respiratory Tract Infections | Gültig |
+| EMEA/H/C/005086 | Vantobra (previously Tobramycin PARI) | tobramycin | Respiratory Tract Infections; Cystic Fibrosis | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Beide Zulassungen (2 von 2) sind gültig; das Arzneimittel ist im Handel.
 

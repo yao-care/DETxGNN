@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 493
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Velpatasvir: vorhergesagte neue Indikation Hepatitis-B-Virusinfektion (Evidenzstufe L3). Ursprüngliche Indikation: Hepatitis C, chronisch"
 monitor_inn: "VELPATASVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -101,10 +101,16 @@ Die Literatur zur HBV-Reaktivierung unter DAA-Therapie betrifft die Sicherheit u
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004210 | Epclusa | – | Hepatitis C, chronisch |
-| EMEA/H/C/004350 | Vosevi | – | Hepatitis C, chronisch |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004210 | Epclusa | sofosbuvir; velpatasvir | Hepatitis C, Chronic | Gültig |
+| EMEA/H/C/004350 | Vosevi | sofosbuvir; velpatasvir; voxilaprevi | Hepatitis C, Chronic | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Das Arzneimittel ist in Deutschland im Handel; beide Zulassungen (2 von 2) sind gültig.
 

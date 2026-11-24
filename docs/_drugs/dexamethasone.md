@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 143
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DEXAMETHASONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
 description: "Dexamethasone: vorhergesagte neue Indikation Mucinosis follicularis (alopecia mucinosa) (Evidenzstufe L5). Ursprüngliche Indikation: Macular Edema"
@@ -70,10 +70,16 @@ Derzeit ist keine einschlägige Literatur verfügbar.
 
 Alle Zulassungen sind derzeit gültig (2 gültige Zulassungen).
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/001140 | Ozurdex | – | Makulaödem, Uveitis |
-| EMEA/H/C/004071 | Neofordex | – | Multiples Myelom |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001140 | Ozurdex | dexamethasone | Macular Edema; Uveitis | Gültig |
+| EMEA/H/C/004071 | Neofordex | dexamethasone | Multiple Myeloma | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitshinweise
 

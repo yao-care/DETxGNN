@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 216
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Glycine: vorhergesagte neue Indikation Erkrankung der Nasenhöhle (nasal cavity disease) (Evidenzstufe L5). Ursprüngliche Indikation: Ahornsirupkrankheit (Maple Syrup Urine Disease)"
 monitor_inn: "glycine"
 predicted_indications: ["nasal cavity disease"]
@@ -75,15 +75,15 @@ Der hohe Vorhersagewert (0,9985) beruht ausschließlich auf einer modellbasierte
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005557 | Maapliv | – | Ahornsirupkrankheit (Maple Syrup Urine Disease) |
+<!-- licenses:begin -->
 
-<!-- review:begin de-row-20261112-glycine-1 -->
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005557 | Maapliv | glycine,L-alanine,L-arginine,L-aspartic acid,L-cysteine hydrochloride monohydrate,L-histi… | Maple Syrup Urine Disease | Gültig |
 
-> **Prüfkorrektur (2026-11-12)**: Ursprünglich stand hier: „EMEA/H/C/005557 (erloschen)“ Laut den EMA-Daten (Stand 2026-11-09) ist die Zulassung von Maapliv (EMEA/H/C/005557) gültig („Authorised“); der Vermerk „erloschen“ wurde entfernt. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
 
-<!-- review:end de-row-20261112-glycine-1 -->
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 
@@ -127,7 +127,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „und die deutsche Zulassung ist erloschen“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-12 | Tabelle: Maapliv (EMEA/H/C/005557) ist gültig, nicht erloschen | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Tabelle: Maapliv (EMEA/H/C/005557) ist gültig, nicht erloschen | Durch die programmatisch erzeugte Zulassungstabelle ersetzt (vorher: Korrigiert) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

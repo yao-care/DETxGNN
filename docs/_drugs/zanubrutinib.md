@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 505
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Zanubrutinib: vorhergesagte neue Indikation Myeloische Leukämie (Evidenzstufe L5). Ursprüngliche Indikation: Waldenström-Makroglobulinämie"
 monitor_inn: "ZANUBRUTINIB"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
@@ -99,9 +99,15 @@ Hinweis: Die genannten Publikationen betreffen B-Zell-Malignome (CLL/SLL, Morbus
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004978 | Brukinsa | – | Waldenström-Makroglobulinämie |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004978 | Brukinsa | zanubrutinib | Waldenstrom Macroglobulinemia | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

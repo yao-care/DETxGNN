@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "GOLIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Golimumab: vorhergesagte neue Indikation Hypermobilität des Steißbeins (hypermobility of coccyx) (Evidenzstufe L5). Ursprüngliche Indikation: Arthritis, Rheumatoid"
 ---
 
@@ -69,6 +69,18 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum Markt in Deutschland
+
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000992 | Simponi | golimumab | Arthritis, Psoriatic; Spondylitis, Ankylosing; Colitis, Ulcerative; Arthritis, Rheumatoid | Gültig |
+| EMEA/H/C/006560 | Gobivaz | golimumab | Arthritis, Rheumatoid; Arthritis, Juvenile; Arthritis, Psoriatic; Axial Spondyloarthritis; Colitis, Ulcerativ… | Gültig |
+| EMEA/H/C/006621 | Gotenfia | golimumab | Arthritis, Rheumatoid; Arthritis, Juvenile; Arthritis, Psoriatic; Axial Spondyloarthritis; Non-Radiographic A… | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Die Zulassungstabelle wird vom Programm aus den lokalen Zulassungsdaten erzeugt und ergänzt.
 

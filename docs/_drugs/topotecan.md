@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 474
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Topotecan: vorhergesagte neue Indikation Weibliches Mammakarzinom (Evidenzstufe L5). Ursprüngliche Indikation: Ovarialkarzinom, Zervixkarzinom, kleinzelliges Lungenkarzinom"
 monitor_inn: "TOPOTECAN"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
@@ -97,11 +97,17 @@ Dagegen steht, dass Topotecan ein Substrat des Efflux-Transporters BCRP/ABCG2 is
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000123 | Hycamtin | k. A. | Ovarialkarzinom, Zervixkarzinom, kleinzelliges Lungenkarzinom (gültig) |
-| EMEA/H/C/001192 | Topotecan Hospira | k. A. | Zervixkarzinom, kleinzelliges Lungenkarzinom (gültig) |
-| EMEA/H/C/002282 | Potactasol | k. A. | Zervixkarzinom, kleinzelliges Lungenkarzinom (gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000123 | Hycamtin | topotecan | Ovarian Neoplasms; Uterine Cervical Neoplasms; Small Cell Lung Carcinoma | Gültig |
+| EMEA/H/C/001192 | Topotecan Hospira | topotecan | Uterine Cervical Neoplasms; Small Cell Lung Carcinoma | Gültig |
+| EMEA/H/C/002282 | Potactasol | topotecan | Uterine Cervical Neoplasms; Small Cell Lung Carcinoma | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

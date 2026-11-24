@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 344
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Parathyroid Hormone: vorhergesagte neue Indikation Migränestörung (migraine disorder) (Evidenzstufe L4). Ursprüngliche Indikation: Hypoparathyreoidismus"
 monitor_inn: "PARATHYROID HORMONE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "amenorrhea (disease)", "Raynaud disease", "non-syndromic esophageal malformation", "esophageal disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "erectile dysfunction (disease)"]
@@ -86,15 +86,15 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/003861 | Natpar (Takeda Pharmaceuticals International AG Ireland Branch) | – | Hypoparathyreoidismus (Status: zurückgenommen) |
+<!-- licenses:begin -->
 
-<!-- review:begin de-row-20261112-parathyroid_hormone-1 -->
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003861 | Natpar | parathyroid hormone | Hypoparathyroidism | Zurückgezogen |
 
-> **Prüfkorrektur (2026-11-12)**: Ursprünglich stand hier: „Hypoparathyreoidismus (Status: gültig)“ Laut den EMA-Daten (Stand 2026-11-09) ist die Zulassung von Natpar (EMEA/H/C/003861) zurückgenommen („Withdrawn“). Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
 
-<!-- review:end de-row-20261112-parathyroid_hormone-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -138,7 +138,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-11-12 | Tabelle: Natpar (EMEA/H/C/003861) ist zurückgenommen, nicht gültig | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Tabelle: Natpar (EMEA/H/C/003861) ist zurückgenommen, nicht gültig | Durch die programmatisch erzeugte Zulassungstabelle ersetzt (vorher: Korrigiert) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt (überarbeitet am 2026-11-20; frühere Fassung im Protokoll erhalten) | [ChEMBL CHEMBL2108078 (parathyroid hormone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108078) |
 
 <!-- review:end log -->

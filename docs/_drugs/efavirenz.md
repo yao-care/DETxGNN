@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "EFAVIRENZ"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Efavirenz: vorhergesagte neue Indikation Simian-Immundefizienzvirus-Infektion (simian immunodeficiency virus infection) (Evidenzstufe L5). Ursprüngliche Indikation: HIV Infections"
 ---
 
@@ -80,6 +80,20 @@ Keine der Publikationen untersucht die Erkrankung beim Menschen. Die Arbeiten si
 | [35856680](https://pubmed.ncbi.nlm.nih.gov/35856680/) | 2022 | Präklinisch (Bildgebung) | Antimicrob Agents Chemother | Räumliche Beziehung zwischen Virostatika, viraler RNA und Fibrose in der Milz von Primaten |
 
 ## Marktinformationen Deutschland
+
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002352 | Efavirenz Teva | efavirenz | HIV Infections | Gültig |
+| EMEA/H/C/004240 | Efavirenz/Emtricitabine/Tenofovir disoproxil Mylan | efavirenz; emtricitabine; tenofovir disoproxil maleate | HIV Infections | Gültig |
+| EMEA/H/C/004250 | Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva | efavirenz; emtricitabine; tenofovir disoproxil phosphate | HIV Infections | Gültig |
+| EMEA/H/C/004274 | Efavirenz/Emtricitabine/Tenofovir disoproxil Krka | efavirenz; emtricitabine; tenofovir disoproxil succinate | HIV Infections | Gültig |
+| EMEA/H/C/000250 | Stocrin | efavirenz | HIV Infections | Zurückgezogen |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Der Marktstatus laut den lokalen Daten lautet „Im Handel“. Die Angaben zu den einzelnen Zulassungen werden vom Programm ergänzt.
 

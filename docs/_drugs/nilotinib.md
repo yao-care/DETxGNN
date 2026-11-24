@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 314
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NILOTINIB"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
 description: "Nilotinib: vorhergesagte neue Indikation Dermatofibrosarcoma protuberans (Evidenzstufe L5). Ursprüngliche Indikation: Leukemia, Myelogenous, Chronic, BCR-ABL Positive"
@@ -90,10 +90,16 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/006315 | Nilotinib Accord | – | Chronische myeloische Leukämie, BCR-ABL-positiv |
-| EMEA/H/C/000798 | Tasigna | – | Chronische myeloische Leukämie, BCR-ABL-positiv |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000798 | Tasigna | nilotinib | Leukemia, Myelogenous, Chronic, BCR-ABL Positive | Gültig |
+| EMEA/H/C/006315 | Nilotinib Accord | nilotinib | Leukemia, Myelogenous, Chronic, BCR-ABL Positive | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

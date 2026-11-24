@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "AXITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Axitinib: vorhergesagte neue Indikation Liposarkom (liposarcoma) (Evidenzstufe L5). Ursprüngliche Indikation: Carcinoma, Renal Cell"
 ---
 
@@ -69,6 +69,17 @@ Derzeit sind keine einschlägigen klinischen Studien registriert.
 | [27822137](https://pubmed.ncbi.nlm.nih.gov/27822137/) | 2016 | Präklinisch (in vitro/in vivo) | Sarcoma | Axitinib zeigt antiangiogene und antitumorale Aktivität in Zelllinien des myxoiden Liposarkoms; Substanzen gegen die Angiogenese waren im Screening wirksam. |
 
 ## Informationen zum Markt in Deutschland
+
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002406 | Inlyta | axitinib | Carcinoma, Renal Cell | Gültig |
+| EMEA/H/C/006206 | Axitinib Accord | axitinib | Carcinoma, Renal Cell | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Die Zulassungsübersicht wird vom Programm ergänzt.
 

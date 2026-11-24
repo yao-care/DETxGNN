@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 272
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Linaclotide: vorhergesagte neue Indikation Cauda-equina-Syndrom (Evidenzstufe L5). Ursprüngliche Indikation: Reizdarmsyndrom"
 monitor_inn: "LINACLOTIDE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "insomnia (disease)"]
@@ -89,15 +89,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002490 | Constella | – | Reizdarmsyndrom |
+<!-- licenses:begin -->
 
-<!-- review:begin de-row-20261112-linaclotide-1 -->
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002490 | Constella | linaclotide | Irritable Bowel Syndrome | Gültig |
 
-> **Prüfkorrektur (2026-11-12)**: Ursprünglich stand hier: „EMEA/H/C/002490 (erloschen)“ Laut den EMA-Daten (Stand 2026-11-09) ist die Zulassung von Constella (EMEA/H/C/002490) gültig („Authorised“); der Vermerk „erloschen“ wurde entfernt. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
 
-<!-- review:end de-row-20261112-linaclotide-1 -->
+<!-- licenses:end -->
 
 Hersteller: AbbVie Deutschland GmbH & Co. Es besteht eine gültige Zulassung in Deutschland (1 von 1 Zulassung gültig).
 
@@ -135,7 +135,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-11-12 | Tabelle: Constella (EMEA/H/C/002490) ist gültig, nicht erloschen | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Tabelle: Constella (EMEA/H/C/002490) ist gültig, nicht erloschen | Durch die programmatisch erzeugte Zulassungstabelle ersetzt (vorher: Korrigiert) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Linzess (linaclotide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d09771d-69da-4c9d-92b6-74374ffa130f) |
 
 <!-- review:end log -->

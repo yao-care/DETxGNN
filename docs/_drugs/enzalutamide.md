@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ENZALUTAMIDE"
 predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Enzalutamide: vorhergesagte neue Indikation Prostata-Leiomyom (prostate leiomyoma) (Evidenzstufe L5). Ursprüngliche Indikation: Prostatic Neoplasms"
 ---
 
@@ -67,6 +67,18 @@ Derzeit sind keine relevanten klinischen Studien registriert.
 Derzeit liegt keine relevante Literatur vor.
 
 ## Informationen zum deutschen Markt
+
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002639 | Xtandi | enzalutamide | Prostatic Neoplasms | Gültig |
+| EMEA/H/C/006299 | Enzalutamide Viatris | enzalutamide | Prostatic Neoplasms | Gültig |
+| EMEA/H/C/006612 | Enzalutamide Accordpharma | enzalutamide | Prostatic Neoplasms | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Laut den lokalen Zulassungsdaten befindet sich Enzalutamid in Deutschland **im Handel**. Zum Prostata-Leiomyom gibt es keine zugelassene Anwendung.
 

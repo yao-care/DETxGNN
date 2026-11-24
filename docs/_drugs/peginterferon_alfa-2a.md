@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 348
 evidence_level: L1
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PEGINTERFERON ALFA-2A"
 predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
 description: "Peginterferon Alfa-2A: vorhergesagte neue Indikation Hepatitis E virus infection (Evidenzstufe L1). Ursprüngliche Indikation: Hepatitis C, Chronic"
@@ -104,9 +104,15 @@ Die weiteren Vorhersagen des Modells (Hepatitis E, Hepatitis A, Omsk-hämorrhagi
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000395 | Pegasys | k. A. | Chronische Hepatitis C, chronische Hepatitis B, Polycythaemia vera, essenzielle Thrombozythämie |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000395 | Pegasys | peginterferon alfa-2a | Hepatitis C, Chronic; Hepatitis B, Chronic; Polycythemia Vera; Thrombocythemia, Essential | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Diese Zulassung ist gültig (1 von 1 Zulassungen gültig). Das Arzneimittel ist im Handel.
 

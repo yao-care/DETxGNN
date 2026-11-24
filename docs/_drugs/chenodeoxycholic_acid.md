@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CHENODEOXYCHOLIC ACID"
 predicted_indications: ["homozygous familial hypercholesterolemia", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "obsolete familial combined hyperlipidemia", "obsolete hyperuricemia (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Chenodeoxycholic Acid: vorhergesagte neue Indikation Homozygote familiäre Hypercholesterinämie (homozygous familial hypercholesterolemia) (Evidenzstufe L5). Ursprüngliche Indikation: Xanthomatosis, C…"
 ---
 
@@ -72,9 +72,15 @@ Die Arbeit liefert nur indirekte Evidenz aus einer anderen Erkrankung. Deshalb g
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004061 | Chenodeoxycholic acid Leadiant (zuvor Chenodeoxycholic acid sigma-tau) | – | Siehe Angaben der lokalen Zulassung |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004061 | Chenodeoxycholic acid Leadiant (previously Chenodeoxycholic… | chenodeoxycholic acid | Xanthomatosis, Cerebrotendinous; Metabolism, Inborn Errors | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

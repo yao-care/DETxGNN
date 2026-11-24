@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "BEMPEDOIC ACID"
 predicted_indications: ["hyperthyroidism", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "malignant catarrh", "infectious bovine rhinotracheitis", "cytomegalovirus infection", "hyperthyroxinemia", "drug-induced osteoporosis", "multiple endocrine neoplasia", "pregnancy associated osteoporosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bempedoic Acid: vorhergesagte neue Indikation Hyperthyreose (hyperthyroidism) (Evidenzstufe L5). Ursprüngliche Indikation: Hypercholesterolemia"
 ---
 
@@ -68,10 +68,16 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004958 | Nilemdo | – | – |
-| EMEA/H/C/004959 | Nustendi | – | – |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004958 | Nilemdo | bempedoic acid | Hypercholesterolemia; Dyslipidemias | Gültig |
+| EMEA/H/C/004959 | Nustendi | bempedoic acid; ezetimibe | Hypercholesterolemia; Dyslipidemias | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitshinweise
 

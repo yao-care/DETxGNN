@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 398
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rilpivirine: vorhergesagte neue Indikation Felines erworbenes Immundefizienzsyndrom (Evidenzstufe L5). Ursprüngliche Indikation: HIV-Infektionen"
 monitor_inn: "RILPIVIRINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -84,13 +84,20 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005060 | Rekambys | – | HIV-Infektionen |
-| EMEA/H/C/002264 | Edurant | – | HIV-Infektionen |
-| EMEA/H/C/004427 | Juluca | – | HIV-Infektionen |
-| EMEA/H/C/004156 | Odefsey | – | HIV-Infektionen |
-| EMEA/H/C/002312 | Eviplera | – | HIV-Infektionen |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002264 | Edurant | rilpivirine hydrochloride | HIV Infections | Gültig |
+| EMEA/H/C/002312 | Eviplera | emtricitabine; rilpivirine hydrochloride; tenofovir disoproxil fumarate | HIV Infections | Gültig |
+| EMEA/H/C/004156 | Odefsey | emtricitabine; rilpivirine hydrochloride; tenofovir alafenamide | HIV Infections | Gültig |
+| EMEA/H/C/004427 | Juluca | dolutegravir sodium; rilpivirine hydrochloride | HIV Infections | Gültig |
+| EMEA/H/C/005060 | Rekambys | rilpivirine | HIV Infections | Gültig |
+| EMEA/H/C/006491 | Emtricitabine / Rilpivirine / Tenofovir Alafenamide Viatris | emtricitabine; rilpivirine hydrochloride; tenofovir alafenamide fumarate | HIV Infections | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

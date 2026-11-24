@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 448
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TEGAFUR"
 predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "colonic lymphangioma", "cavernous hemangioma of colon"]
 description: "Tegafur: vorhergesagte neue Indikation Villöses Adenom des Zäkums (cecum villous adenoma) (Evidenzstufe L5). Zentrale EU-Zulassungen (EMA): 1 (gültig: 1)"
@@ -70,9 +70,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 Laut den lokalen Zulassungsdaten ist eine gültige Zulassung erfasst.
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/001242 | Teysuno | – | Magenkarzinom (Stomach Neoplasms) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001242 | Teysuno | tegafur; gimeracil; oteracil | Stomach Neoplasms | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Zytotoxizität
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 161
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Elafibranor: vorhergesagte neue Indikation Amenorrhoe (Evidenzstufe L5). Ursprüngliche Indikation: Biliäre Leberzirrhose (Liver Cirrhosis, Biliary)"
 monitor_inn: "ELAFIBRANOR"
 predicted_indications: ["amenorrhea (disease)"]
@@ -82,9 +82,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/006231 | Iqirvo (Ipsen Pharma) | – | Biliäre Leberzirrhose (Status: gültig/zurückgenommen) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/006231 | Iqirvo | Elafibranor | Liver Cirrhosis, Biliary | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

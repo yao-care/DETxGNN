@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 434
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 monitor_inn: "Solriamfetol"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "insomnia (disease)", "attention deficit hyperactivity disorder, inattentive type", "chondromyxoid fibroma", "specific developmental disorder", "variably protease-sensitive prionopathy", "multiple system atrophy", "postural orthostatic tachycardia syndrome", "disorder of peroxisomal alpha-, beta- and omega-oxidation"]
 description: "Solriamfetol: vorhergesagte neue Indikation Aufmerksamkeitsdefizit-Hyperaktivitätsstörung (attention deficit-hyperactivity disorder) (Evidenzstufe L2). Ursprüngliche Indikation: Narcolepsy"
@@ -82,9 +82,15 @@ Die katecholaminerge Modulation im präfrontalen Kortex ist der etablierte Wirkm
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004893 | Sunosi (Atnahs Pharma Netherlands B.V.) | – | Narkolepsie; obstruktive Schlafapnoe (Status: gültig/gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004893 | Sunosi | solriamfetol hydrochloride | Narcolepsy; Sleep Apnea, Obstructive | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ATEZOLIZUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atezolizumab: vorhergesagte neue Indikation Gebärmutterband-Adenokarzinom (uterine ligament adenocarcinoma) (Evidenzstufe L5). Ursprüngliche Indikation: Carcinoma, Transitional Cell"
 ---
 
@@ -68,9 +68,15 @@ Derzeit liegt keine zugehörige Literatur zur vorhergesagten Hauptindikation vor
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004143 | Tecentriq | – | Urothelkarzinom, nicht-kleinzelliges Lungenkarzinom, urologische Neoplasien, Brustneoplasien, kleinzelliges Lungenkarzinom |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004143 | Tecentriq | atezolizumab | Carcinoma, Transitional Cell; Carcinoma, Non-Small-Cell Lung; Urologic Neoplasms; Breast Neoplasms; Small Cel… | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitshinweise
 

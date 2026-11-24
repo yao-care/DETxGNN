@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 213
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "GLUCAGON"
 predicted_indications: ["irritable bowel syndrome"]
 description: "Glucagon: vorhergesagte neue Indikation Reizdarmsyndrom (irritable bowel syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes Mellitus"
@@ -92,10 +92,16 @@ Die Publikationen betreffen GLP-1 bzw. GLP-1-Rezeptoragonisten, nicht Glucagon.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005391 | Ogluo | – | Diabetes mellitus (gültig) |
-| EMEA/H/C/003848 | Baqsimi | – | Diabetes mellitus (gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003848 | Baqsimi | Glucagon | Diabetes Mellitus | Gültig |
+| EMEA/H/C/005391 | Ogluo | Glucagon | Diabetes Mellitus | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Beide Zulassungen sind gültig.
 

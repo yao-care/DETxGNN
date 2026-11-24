@@ -21,11 +21,11 @@
   "items_current": 953
  },
  "reviews": {
-  "records": 751,
+  "records": 758,
   "pages": 432,
   "public_pages_with_records": 427,
   "by_action": {
-   "correct": 346,
+   "correct": 353,
    "mechanism": 405
   }
  },
@@ -49,7 +49,7 @@
    "l": "L5",
    "lt": 18,
    "lv": 18,
-   "r": 1,
+   "r": 2,
    "i": "Feline erworbene Immunschwäche"
   },
   {
@@ -67,7 +67,7 @@
    "l": "L5",
    "lt": 14,
    "lv": 14,
-   "r": 1,
+   "r": 2,
    "i": "esotropia"
   },
   {
@@ -76,7 +76,7 @@
    "l": "L4",
    "lt": 14,
    "lv": 14,
-   "r": 1,
+   "r": 2,
    "i": "simian immunodeficiency virus infection"
   },
   {
@@ -231,52 +231,46 @@
  },
  "recent_reviews": [
   {
-   "t": "Zidovudine",
-   "u": "/drugs/zidovudine/",
-   "s": "Tabelle: Trizivir (EMEA/H/C/000338) ist zurückgenommen, nicht gültig",
-   "d": "2026-11-12"
+   "t": "Tenofovir Disoproxil",
+   "u": "/drugs/tenofovir-disoproxil/",
+   "s": "Entfernt: „Auswahl von 5 Einträgen:“",
+   "d": "2026-11-24"
   },
   {
-   "t": "Safinamide",
-   "u": "/drugs/safinamide/",
-   "s": "Tabelle: Xadago (EMEA/H/C/002396) ist gültig, nicht erloschen",
-   "d": "2026-11-12"
+   "t": "Telmisartan",
+   "u": "/drugs/telmisartan/",
+   "s": "Entfernt: „Auswahl:“",
+   "d": "2026-11-24"
   },
   {
-   "t": "Risperidone",
-   "u": "/drugs/risperidone/",
-   "s": "Tabelle: Okedi (EMEA/H/C/005406) ist gültig, nicht erloschen",
-   "d": "2026-11-12"
+   "t": "Pioglitazone",
+   "u": "/drugs/pioglitazone/",
+   "s": "„eine sechste (Competact, EMEA/H/C/000655) ist hier nicht aufgeführt“ entfernt",
+   "d": "2026-11-24"
   },
   {
-   "t": "Parathyroid Hormone",
-   "u": "/drugs/parathyroid-hormone/",
-   "s": "Tabelle: Natpar (EMEA/H/C/003861) ist zurückgenommen, nicht gültig",
-   "d": "2026-11-12"
+   "t": "Formoterol",
+   "u": "/drugs/formoterol/",
+   "s": "Entfernt: „Die Liste zeigt die ersten fünf von zehn gültigen Zulassungen.“",
+   "d": "2026-11-24"
   },
   {
-   "t": "Linaclotide",
-   "u": "/drugs/linaclotide/",
-   "s": "Tabelle: Constella (EMEA/H/C/002490) ist gültig, nicht erloschen",
-   "d": "2026-11-12"
+   "t": "Emtricitabine",
+   "u": "/drugs/emtricitabine/",
+   "s": "Entfernt: „Die Liste zeigt nur eine Auswahl der Zulassungen.“",
+   "d": "2026-11-24"
   },
   {
-   "t": "Ipilimumab",
-   "u": "/drugs/ipilimumab/",
-   "s": "Tabelle: Yervoy (EMEA/H/C/002213) ist gültig, nicht erloschen",
-   "d": "2026-11-12"
+   "t": "Denosumab",
+   "u": "/drugs/denosumab/",
+   "s": "Entfernt: „… sind 20 Zulassungen erfasst; die Liste kann unvollständig sein. Hauptsächliche Produkte (Auswahl…",
+   "d": "2026-11-24"
   },
   {
-   "t": "Glycine",
-   "u": "/drugs/glycine/",
-   "s": "Tabelle: Maapliv (EMEA/H/C/005557) ist gültig, nicht erloschen",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Amifampridine",
-   "u": "/drugs/amifampridine/",
-   "s": "Tabelle: Firdapse (EMEA/H/C/001032) ist gültig, nicht erloschen",
-   "d": "2026-11-12"
+   "t": "Aflibercept",
+   "u": "/drugs/aflibercept/",
+   "s": "Entfernt: „Die folgende Tabelle zeigt fünf davon.“",
+   "d": "2026-11-24"
   },
   {
    "t": "Trastuzumab",
@@ -373,55 +367,61 @@
    "u": "/drugs/ustekinumab/",
    "s": "Entfernt: „(13 von 13 Zulassungen gültig, Arzneimittel im Handel)“",
    "d": "2026-11-06"
+  },
+  {
+   "t": "Upadacitinib",
+   "u": "/drugs/upadacitinib/",
+   "s": "Entfernt: „Zudem besteht in Deutschland nur eine gelöschte Zulassung“",
+   "d": "2026-11-06"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Zidovudine",
-   "u": "/drugs/zidovudine/",
-   "s": "Tabelle: Trizivir (EMEA/H/C/000338) ist zurückgenommen, nicht gültig",
-   "d": "2026-11-12"
+   "t": "Tenofovir Disoproxil",
+   "u": "/drugs/tenofovir-disoproxil/",
+   "s": "Entfernt: „Auswahl von 5 Einträgen:“",
+   "d": "2026-11-24"
   },
   {
-   "t": "Safinamide",
-   "u": "/drugs/safinamide/",
-   "s": "Tabelle: Xadago (EMEA/H/C/002396) ist gültig, nicht erloschen",
-   "d": "2026-11-12"
+   "t": "Telmisartan",
+   "u": "/drugs/telmisartan/",
+   "s": "Entfernt: „Auswahl:“",
+   "d": "2026-11-24"
   },
   {
-   "t": "Risperidone",
-   "u": "/drugs/risperidone/",
-   "s": "Tabelle: Okedi (EMEA/H/C/005406) ist gültig, nicht erloschen",
-   "d": "2026-11-12"
+   "t": "Pioglitazone",
+   "u": "/drugs/pioglitazone/",
+   "s": "„eine sechste (Competact, EMEA/H/C/000655) ist hier nicht aufgeführt“ entfernt",
+   "d": "2026-11-24"
   },
   {
-   "t": "Parathyroid Hormone",
-   "u": "/drugs/parathyroid-hormone/",
-   "s": "Tabelle: Natpar (EMEA/H/C/003861) ist zurückgenommen, nicht gültig",
-   "d": "2026-11-12"
+   "t": "Formoterol",
+   "u": "/drugs/formoterol/",
+   "s": "Entfernt: „Die Liste zeigt die ersten fünf von zehn gültigen Zulassungen.“",
+   "d": "2026-11-24"
   },
   {
-   "t": "Linaclotide",
-   "u": "/drugs/linaclotide/",
-   "s": "Tabelle: Constella (EMEA/H/C/002490) ist gültig, nicht erloschen",
-   "d": "2026-11-12"
+   "t": "Emtricitabine",
+   "u": "/drugs/emtricitabine/",
+   "s": "Entfernt: „Die Liste zeigt nur eine Auswahl der Zulassungen.“",
+   "d": "2026-11-24"
   },
   {
-   "t": "Ipilimumab",
-   "u": "/drugs/ipilimumab/",
-   "s": "Tabelle: Yervoy (EMEA/H/C/002213) ist gültig, nicht erloschen",
-   "d": "2026-11-12"
+   "t": "Denosumab",
+   "u": "/drugs/denosumab/",
+   "s": "Entfernt: „… sind 20 Zulassungen erfasst; die Liste kann unvollständig sein. Hauptsächliche Produkte (Auswahl…",
+   "d": "2026-11-24"
   },
   {
-   "t": "Glycine",
-   "u": "/drugs/glycine/",
-   "s": "Tabelle: Maapliv (EMEA/H/C/005557) ist gültig, nicht erloschen",
-   "d": "2026-11-12"
+   "t": "Aflibercept",
+   "u": "/drugs/aflibercept/",
+   "s": "Entfernt: „Die folgende Tabelle zeigt fünf davon.“",
+   "d": "2026-11-24"
   },
   {
-   "t": "Amifampridine",
-   "u": "/drugs/amifampridine/",
-   "s": "Tabelle: Firdapse (EMEA/H/C/001032) ist gültig, nicht erloschen",
+   "t": "Trastuzumab",
+   "u": "/drugs/trastuzumab/",
+   "s": "Entfernt: „Es besteht derzeit eine gültige Zulassung“ (es sind 11 gültige)",
    "d": "2026-11-12"
   }
  ],

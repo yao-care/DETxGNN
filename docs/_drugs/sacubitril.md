@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 418
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SACUBITRIL"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 description: "Sacubitril: vorhergesagte neue Indikation Brain small vessel disease 1 with or without ocular anomalies (Evidenzstufe L5). Ursprüngliche Indikation: Heart Failure"
@@ -95,10 +95,16 @@ Offen bleibt, ob Sacubitril gegenüber Valsartan allein einen zusätzlichen Nutz
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004343 | Neparvis | – | Herzinsuffizienz (gültig) |
-| EMEA/H/C/004062 | Entresto | – | Herzinsuffizienz (gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004062 | Entresto | sacubitril; valsartan | Heart Failure | Gültig |
+| EMEA/H/C/004343 | Neparvis | sacubitril; valsartan | Heart Failure | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

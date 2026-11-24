@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 433
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
 description: "Sofosbuvir: vorhergesagte neue Indikation Hepatitis-B-Virus-Infektion (hepatitis B virus infection) (Evidenzstufe L3). Ursprüngliche Indikation: Hepatitis C, Chronic"
@@ -99,12 +99,18 @@ Ein klinisches Signal kommt aus einer kleinen Phase-2-Studie mit Ledipasvir/Sofo
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002798 | Sovaldi | – | Hepatitis C, chronisch |
-| EMEA/H/C/003850 | Harvoni | – | Hepatitis C, chronisch |
-| EMEA/H/C/004210 | Epclusa | – | Hepatitis C, chronisch |
-| EMEA/H/C/004350 | Vosevi | – | Hepatitis C, chronisch |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002798 | Sovaldi | sofosbuvir | Hepatitis C, Chronic | Gültig |
+| EMEA/H/C/003850 | Harvoni | ledipasvir; sofosbuvir | Hepatitis C, Chronic | Gültig |
+| EMEA/H/C/004210 | Epclusa | sofosbuvir; velpatasvir | Hepatitis C, Chronic | Gültig |
+| EMEA/H/C/004350 | Vosevi | sofosbuvir; velpatasvir; voxilaprevi | Hepatitis C, Chronic | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Alle vier erfassten Zulassungen sind gültig. Mehrere dieser Produkte sind feste Kombinationspräparate. Ihre Zulassungen beschreiben daher nicht die Zulassung der Einzelsubstanz.
 

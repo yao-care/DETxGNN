@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 449
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Telmisartan: vorhergesagte neue Indikation Prinzmetal-Angina (Evidenzstufe L5). Ursprüngliche Indikation: Hypertonie"
 monitor_inn: "TELMISARTAN"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
@@ -104,7 +104,7 @@ Die Literatur zur zerebralen Arterienokklusion besteht überwiegend aus Tierdate
 
 ## Marktinformationen Deutschland
 
-Das Arzneimittel ist im Handel. Es handelt sich um zentrale EU-Zulassungen (EMEA). Auswahl:
+Das Arzneimittel ist im Handel. Es handelt sich um zentrale EU-Zulassungen (EMEA).
 
 <!-- review:begin de-lic-20261106-telmisartan-1 -->
 
@@ -112,13 +112,32 @@ Das Arzneimittel ist im Handel. Es handelt sich um zentrale EU-Zulassungen (EMEA
 
 <!-- review:end de-lic-20261106-telmisartan-1 -->
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000209 | Micardis | – | Hypertonie |
-| EMEA/H/C/000210 | Pritor | – | Hypertonie |
-| EMEA/H/C/000211 | Kinzalmono | – | Hypertonie |
-| EMEA/H/C/001224 | Twynsta | – | Hypertonie |
-| EMEA/H/C/002676 | Actelsar HCT | – | Essentielle Hypertonie |
+<!-- review:begin de-lic-20261124-telmisartan-1 -->
+
+> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „Es handelt sich um zentrale EU-Zulassungen (EMEA). Auswahl:“ Korrigiert: Die Tabelle unten wird jetzt programmatisch aus den EMA-Daten erzeugt und enthält alle erfassten zentralen EU-Zulassungen; der Hinweis auf eine Auswahl aus der früheren Tabelle trifft nicht mehr zu. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261124-telmisartan-1 -->
+
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000209 | Micardis | telmisartan | Hypertension | Gültig |
+| EMEA/H/C/000413 | MicardisPlus | telmisartan; hydrochlorothiazide | Hypertension | Gültig |
+| EMEA/H/C/001168 | Telmisartan Actavis | telmisartan | Hypertension | Gültig |
+| EMEA/H/C/001196 | Tolura | telmisartan | Hypertension | Gültig |
+| EMEA/H/C/001224 | Twynsta | telmisartan; amlodipine | Hypertension | Gültig |
+| EMEA/H/C/002511 | Telmisartan Teva Pharma | telmisartan | Hypertension | Gültig |
+| EMEA/H/C/002549 | Tolucombi | telmisartan; hydrochlorothiazide | Hypertension | Gültig |
+| EMEA/H/C/002676 | Actelsar HCT | telmisartan; hydrochlorothiazide | Essential Hypertension | Gültig |
+| EMEA/H/C/000210 | Pritor | telmisartan | Hypertension | Zurückgezogen |
+| EMEA/H/C/000211 | Kinzalmono (previously Telmisartan Boehringer Ingelheim Pha… | telmisartan | Hypertension | Zurückgezogen |
+| EMEA/H/C/000414 | PritorPlus | telmisartan; hydrochlorothiazide | Hypertension | Zurückgezogen |
+| EMEA/H/C/000415 | Kinzalkomb | telmisartan; hydrochlorothiazide | Hypertension | Zurückgezogen |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 
@@ -164,6 +183,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 | 2026-11-06 | Entfernt: „Alle 13 Zulassungen sind gültig (13 von 13); d“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Entfernt: „(13 von 13 Zulassungen gültig)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: telmisartan prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56a72ddf-c2a2-45ce-91b1-1fcfbff52c10) |
+| 2026-11-24 | Entfernt: „Auswahl:“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

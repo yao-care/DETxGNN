@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 325
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Olanzapine: vorhergesagte neue Indikation Benigne paroxysmale Tortikollis des Säuglingsalters (Evidenzstufe L5). Ursprüngliche Indikation: Schizophrenie"
 monitor_inn: "OLANZAPINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
@@ -105,13 +105,23 @@ Für die Spitzenvorhersage (benigne paroxysmale Tortikollis des Säuglingsalters
 
 Von neun Zulassungen sind neun gültig; Olanzapin ist in Deutschland im Handel.
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000810 | Olanzapine Teva | – | Schizophrenie; bipolare Störung |
-| EMEA/H/C/000115 | Zyprexa | – | Schizophrenie; bipolare Störung |
-| EMEA/H/C/001086 | Olanzapine Glenmark Europe | – | Schizophrenie; bipolare Störung |
-| EMEA/H/C/000287 | Zyprexa Velotab | – | Schizophrenie; bipolare Störung |
-| EMEA/H/C/001087 | Olazax | – | Schizophrenie; bipolare Störung |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000115 | Zyprexa | olanzapine | Schizophrenia; Bipolar Disorder | Gültig |
+| EMEA/H/C/000287 | Zyprexa Velotab | olanzapine | Schizophrenia; Bipolar Disorder | Gültig |
+| EMEA/H/C/000792 | Zalasta | olanzapine | Schizophrenia; Bipolar Disorder | Gültig |
+| EMEA/H/C/000810 | Olanzapine Teva | olanzapine | Schizophrenia; Bipolar Disorder | Gültig |
+| EMEA/H/C/000961 | Olanzapine Viatris (previously Olanzapine Mylan) | olanzapine | Schizophrenia; Bipolar Disorder | Gültig |
+| EMEA/H/C/001085 | Olanzapine Glenmark | olanzapine | Schizophrenia; Bipolar Disorder | Gültig |
+| EMEA/H/C/001086 | Olanzapine Glenmark Europe | olanzapine | Schizophrenia; Bipolar Disorder | Gültig |
+| EMEA/H/C/001087 | Olazax | olanzapine | Schizophrenia; Bipolar Disorder | Gültig |
+| EMEA/H/C/001088 | Olazax Disperzi | olanzapine | Schizophrenia; Bipolar Disorder | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

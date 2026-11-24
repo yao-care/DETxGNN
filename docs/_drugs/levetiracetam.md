@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Levetiracetam: vorhergesagte neue Indikation Beta-Ketothiolase-Mangel (beta-ketothiolase deficiency) (Evidenzstufe L5). Ursprüngliche Indikation: Epilepsy"
 ---
 
@@ -68,13 +68,23 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000277 | Keppra | – | Epilepsie |
-| EMEA/H/C/002244 | Levetiracetam ratiopharm | – | Epilepsie |
-| EMEA/H/C/002290 | Levetiracetam Accord | – | Epilepsie |
-| EMEA/H/C/002783 | Levetiracetam Hospira | – | Epilepsie |
-| EMEA/H/C/002355 | Levetiracetam Actavis | – | Epilepsie |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000277 | Keppra | levetiracetam | Epilepsy | Gültig |
+| EMEA/H/C/002024 | Matever | levetiracetam | Epilepsy | Gültig |
+| EMEA/H/C/002051 | Levetiracetam Sun | levetiracetam | Epilepsy | Gültig |
+| EMEA/H/C/002244 | Levetiracetam ratiopharm | levetiracetam | Epilepsy | Gültig |
+| EMEA/H/C/002290 | Levetiracetam Accord | levetiracetam | Epilepsy | Gültig |
+| EMEA/H/C/002305 | Levetiracetam Actavis Group | levetiracetam | Epilepsy | Gültig |
+| EMEA/H/C/002316 | Levetiracetam Teva | levetiracetam | Epilepsy | Gültig |
+| EMEA/H/C/002355 | Levetiracetam Actavis | levetiracetam | Epilepsy | Gültig |
+| EMEA/H/C/002783 | Levetiracetam Hospira | levetiracetam | Epilepsy | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

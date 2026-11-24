@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "DARUNAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Darunavir: vorhergesagte neue Indikation Felines erworbenes Immunschwächesyndrom (feline acquired immunodeficiency syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: HIV Infections"
 ---
 
@@ -68,13 +68,19 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004273 | Darunavir Krka | – | HIV Infections |
-| EMEA/H/C/004068 | Darunavir Viatris (previously Darunavir Mylan) | – | HIV Infections |
-| EMEA/H/C/000707 | Prezista | – | HIV Infections |
-| EMEA/H/C/002819 | Rezolsta | – | HIV Infections |
-| EMEA/H/C/004391 | Symtuza | – | HIV Infections |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000707 | Prezista | darunavir | HIV Infections | Gültig |
+| EMEA/H/C/002819 | Rezolsta | darunavir; cobicistat | HIV Infections | Gültig |
+| EMEA/H/C/004068 | Darunavir Viatris (previously Darunavir Mylan) | darunavir | HIV Infections | Gültig |
+| EMEA/H/C/004273 | Darunavir Krka | darunavir | HIV Infections | Gültig |
+| EMEA/H/C/004391 | Symtuza | darunavir; cobicistat; emtricitabine; tenofovir alafenamide | HIV Infections | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitshinweise
 

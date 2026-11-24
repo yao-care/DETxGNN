@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rasagiline: vorhergesagte neue Indikation PLA2G6-assoziierte Neurodegeneration (Evidenzstufe L5). Ursprüngliche Indikation: Parkinson-Krankheit"
 monitor_inn: "RASAGILINE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
@@ -90,11 +90,17 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000574 | Azilect | – | Parkinson-Krankheit |
-| EMEA/H/C/004064 | Rasagiline Viatris (zuvor Rasagiline Mylan) | – | Parkinson-Krankheit |
-| EMEA/H/C/003957 | Rasagiline ratiopharm | – | Parkinson-Krankheit |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000574 | Azilect | rasagiline | Parkinson Disease | Gültig |
+| EMEA/H/C/003957 | Rasagiline ratiopharm | rasagiline | Parkinson Disease | Gültig |
+| EMEA/H/C/004064 | Rasagiline Viatris (previously Rasagiline Mylan) | rasagiline tartrate | Parkinson Disease | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Alle drei Zulassungen sind gültig; das Arzneimittel ist in Deutschland im Handel.
 

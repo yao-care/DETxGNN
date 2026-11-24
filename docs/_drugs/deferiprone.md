@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "DEFERIPRONE"
 predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "hepatoportal sclerosis", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Deferiprone: vorhergesagte neue Indikation Hepatische Porphyrie (hepatic porphyria) (Evidenzstufe L5). Ursprüngliche Indikation: Iron Overload"
 ---
 
@@ -73,10 +73,16 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004710 | Deferiprone Lipomed | – | Eisenüberladung; Beta-Thalassämie |
-| EMEA/H/C/000236 | Ferriprox | – | Beta-Thalassämie; Eisenüberladung |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000236 | Ferriprox | Deferiprone | beta-Thalassemia; Iron Overload | Gültig |
+| EMEA/H/C/004710 | Deferiprone Lipomed | Deferiprone | Iron Overload; beta-Thalassemia | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

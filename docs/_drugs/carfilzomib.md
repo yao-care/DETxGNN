@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 100
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carfilzomib: vorhergesagte neue Indikation CMM7 (Evidenzstufe L5). Ursprüngliche Indikation: Multiples Myelom"
 monitor_inn: "CARFILZOMIB"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "vulvar melanoma (disease)", "melanoma"]
@@ -94,9 +94,15 @@ Für CMM7 liegt derzeit keine zugehörige Literatur vor. Für die allgemeine Ind
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/003790 | Kyprolis (Amgen Europe B.V.) | – | Multiples Myelom (Status: gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003790 | Kyprolis | carfilzomib | Multiple Myeloma | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "INDACATEROL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-24
 description: "Indacaterol: vorhergesagte neue Indikation Nephrogenes Syndrom der inadäquaten Antidiurese (nephrogenic syndrome of inappropriate antidiuresis) (Evidenzstufe L5). Ursprüngliche Indikation: Pulmonary …"
 ---
 
@@ -68,13 +68,24 @@ Derzeit ist keine zugehörige Literatur zu dieser Erkrankung verfügbar.
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/001211 | Hirobriz Breezhaler | – | Chronisch obstruktive Lungenerkrankung |
-| EMEA/H/C/001114 | Onbrez Breezhaler | – | Chronisch obstruktive Lungenerkrankung |
-| EMEA/H/C/001210 | Oslif Breezhaler | – | Chronisch obstruktive Lungenerkrankung |
-| EMEA/H/C/005516 | Bemrist Breezhaler | – | Asthma |
-| EMEA/H/C/003755 | Xoterna Breezhaler | – | Chronisch obstruktive Lungenerkrankung |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001114 | Onbrez Breezhaler | indacaterol maleate | Pulmonary Disease, Chronic Obstructive | Gültig |
+| EMEA/H/C/002679 | Ultibro Breezhaler | indacaterol; glycopyrronium bromide | Pulmonary Disease, Chronic Obstructive | Gültig |
+| EMEA/H/C/003755 | Xoterna Breezhaler | indacaterol; glycopyrronium bromide | Pulmonary Disease, Chronic Obstructive | Gültig |
+| EMEA/H/C/003875 | Ulunar Breezhaler | glycopyrronium bromide; indacaterol maleate | Pulmonary Disease, Chronic Obstructive | Gültig |
+| EMEA/H/C/005061 | Enerzair Breezhaler | indacaterol; glycopyrronium bromide; mometasone | Asthma | Gültig |
+| EMEA/H/C/005067 | Atectura Breezhaler | indacaterol acetate; mometasone furoate | Asthma | Gültig |
+| EMEA/H/C/005516 | Bemrist Breezhaler | indacaterol; mometasone furoate | Asthma | Gültig |
+| EMEA/H/C/005518 | Zimbus Breezhaler | glycopyrronium bromide; Indacaterol (acetate); mometasone furoate | Asthma | Gültig |
+| EMEA/H/C/001210 | Oslif Breezhaler | indacaterol maleate | Pulmonary Disease, Chronic Obstructive | Zurückgezogen |
+| EMEA/H/C/001211 | Hirobriz Breezhaler | indacaterol maleate | Pulmonary Disease, Chronic Obstructive | Zurückgezogen |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

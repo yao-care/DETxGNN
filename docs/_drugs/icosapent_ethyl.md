@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 227
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Icosapent Ethyl: vorhergesagte neue Indikation Hämoglobinopathie (Evidenzstufe L5). Ursprüngliche Indikation: Dyslipidämien"
 monitor_inn: "ICOSAPENT ETHYL"
 predicted_indications: ["hemoglobinopathy"]
@@ -82,9 +82,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005398 | Vazkepa | – | Dyslipidämien |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005398 | Vazkepa | Icosapent ethyl | Dyslipidemias | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Hersteller: Recordati Industria Chimica e Farmaceutica S.p.A.
 

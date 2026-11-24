@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 489
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ustekinumab: vorhergesagte neue Indikation Dermatitis (Evidenzstufe L2). Ursprüngliche Indikation: Psoriasis, Psoriasis-Arthritis, Morbus Crohn"
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
@@ -108,13 +108,27 @@ Das Arzneimittel ist derzeit im Handel.
 
 <!-- review:end de-lic-20261106-ustekinumab-1 -->
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000958 | Stelara | k. A. | Psoriasis, Psoriasis-Arthritis, Morbus Crohn, Colitis ulcerosa |
-| EMEA/H/C/006132 | Wezenla | k. A. | Psoriasis, Psoriasis-Arthritis, Morbus Crohn |
-| EMEA/H/C/005805 | Fymskina | k. A. | Morbus Crohn, Psoriasis, Psoriasis-Arthritis |
-| EMEA/H/C/006667 | Usgena | k. A. | Morbus Crohn, Psoriasis, Psoriasis-Arthritis, Colitis ulcerosa |
-| EMEA/H/C/006101 | Uzpruvo | k. A. | Psoriasis, Psoriasis-Arthritis, Morbus Crohn, Colitis ulcerosa |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000958 | Stelara | ustekinumab | Psoriasis; Arthritis, Psoriatic; Crohn Disease; Colitis, Ulcerative | Gültig |
+| EMEA/H/C/005805 | Fymskina | ustekinumab | Crohn Disease; Psoriasis; Arthritis, Psoriatic | Gültig |
+| EMEA/H/C/005918 | Steqeyma | ustekinumab | Psoriasis; Arthritis, Psoriatic; Crohn Disease | Gültig |
+| EMEA/H/C/006101 | Uzpruvo | ustekinumab | Psoriasis; Arthritis, Psoriatic; Crohn Disease; Colitis, Ulcerative | Gültig |
+| EMEA/H/C/006132 | Wezenla | ustekinumab | Psoriasis; Arthritis, Psoriatic; Crohn Disease | Gültig |
+| EMEA/H/C/006183 | Pyzchiva | ustekinumab | Crohn Disease; Colitis, Ulcerative; Arthritis, Psoriatic | Gültig |
+| EMEA/H/C/006221 | Imuldosa | ustekinumab | Crohn Disease; Psoriasis; Arthritis, Psoriatic | Gültig |
+| EMEA/H/C/006444 | Yesintek | ustekinumab | Psoriasis; Arthritis, Psoriatic; Crohn Disease | Gültig |
+| EMEA/H/C/006467 | Usymro | ustekinumab | Crohn Disease; Psoriasis; Arthritis, Psoriatic | Gültig |
+| EMEA/H/C/006544 | Otulfi | ustekinumab | Crohn Disease; Colitis, Ulcerative | Gültig |
+| EMEA/H/C/006667 | Usgena | ustekinumab | Crohn Disease; Psoriasis; Arthritis, Psoriatic; Colitis, Ulcerative | Gültig |
+| EMEA/H/C/006794 | Usrenty | ustekinumab | Crohn Disease | Gültig |
+| EMEA/H/C/006649 | Qoyvolma | ustekinumab | Psoriasis; Arthritis, Psoriatic; Colitis, Ulcerative; Crohn Disease | Zurückgezogen |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 102
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Caspofungin: vorhergesagte neue Indikation Gastrin-Sekretionsstörung (Evidenzstufe L5). Ursprüngliche Indikation: Candidiasis"
 monitor_inn: "CASPOFUNGIN"
 predicted_indications: ["gastrin secretion abnormality"]
@@ -78,9 +78,15 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000379 | Cancidas (zuvor Caspofungin MSD) | – | Candidiasis; Aspergillose |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000379 | Cancidas (previously Caspofungin MSD) | caspofungin (as acetate) | Candidiasis; Aspergillosis | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Hinweis: Für dieses Arzneimittel liegt in den zusammengestellten Daten 1 gültige Zulassung von insgesamt 1 vor; es ist im Handel.
 

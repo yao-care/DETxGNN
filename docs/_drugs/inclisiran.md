@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 237
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Inclisiran: vorhergesagte neue Indikation Kaliummangelerkrankung (potassium deficiency disease) (Evidenzstufe L5). Ursprüngliche Indikation: Hypercholesterinämie"
 monitor_inn: "INCLISIRAN"
 predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
@@ -83,9 +83,15 @@ Derzeit liegt keine einschlägige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005333 | Leqvio | – | Hypercholesterinämie; Dyslipidämien |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005333 | Leqvio | inclisiran | Hypercholesterolemia; Dyslipidemias | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitshinweise
 

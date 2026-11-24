@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 225
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ibuprofen: vorhergesagte neue Indikation Akromesomele Dysplasie, Typ Hunter-Thompson (Evidenzstufe L5). Ursprüngliche Indikation: Persistierender Ductus arteriosus (Ductus Arteriosus, Patent)"
 monitor_inn: "IBUPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -93,10 +93,16 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/006129 | Ibuprofen Gen.Orph | – | Persistierender Ductus arteriosus |
-| EMEA/H/C/000549 | Pedea | – | Persistierender Ductus arteriosus |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000549 | Pedea | Ibuprofen | Ductus Arteriosus, Patent | Gültig |
+| EMEA/H/C/006129 | Ibuprofen Gen.Orph | Ibuprofen | Ductus Arteriosus, Patent | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Beide Zulassungen sind gültig; das Arzneimittel ist in Deutschland im Handel.
 

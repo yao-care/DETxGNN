@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BEVACIZUMAB"
 predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "cystic neoplasm", "nasal cavity inverting papilloma", "mesenchymoma", "schwannoma of jugular foramen"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bevacizumab: vorhergesagte neue Indikation Epiglottis-Neoplasma (epiglottis neoplasm) (Evidenzstufe L5). Ursprüngliche Indikation: Colorectal Neoplasms"
 ---
 
@@ -68,13 +68,24 @@ Derzeit ist keine Literatur zu dieser Indikation verfügbar.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004697 | Zirabev | – | Kolorektale Neoplasien, Mammakarzinom, nicht-kleinzelliges Lungenkarzinom, Nierenzellkarzinom, Zervixkarzinom |
-| EMEA/H/C/000582 | Avastin | – | Nicht-kleinzelliges Lungenkarzinom, Mammakarzinom, Ovarialkarzinom, kolorektale Neoplasien, Nierenzellkarzinom... |
-| EMEA/H/C/005534 | Vegzelma | – | Kolorektale Neoplasien, Mammakarzinom, Ovarialkarzinom, Tuben-, Peritonealkarzinom... |
-| EMEA/H/C/005286 | Alymsys | – | Kolorektale Neoplasien, Mammakarzinom, Ovarialkarzinom, Peritonealkarzinom... |
-| EMEA/H/C/005723 | Lytenava | – | Feuchte Makuladegeneration |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000582 | Avastin | bevacizumab | Carcinoma, Non-Small-Cell Lung; Breast Neoplasms; Ovarian Neoplasms; Colorectal Neoplasms; Carcinoma, Renal C… | Gültig |
+| EMEA/H/C/004697 | Zirabev | bevacizumab | Colorectal Neoplasms; Breast Neoplasms; Carcinoma, Non-Small-Cell Lung; Carcinoma, Renal Cell; Uterine Cervic… | Gültig |
+| EMEA/H/C/004728 | Mvasi | bevacizumab | Carcinoma, Renal Cell; Peritoneal Neoplasms; Ovarian Neoplasms; Breast Neoplasms; Carcinoma, Non-Small-Cell L… | Gültig |
+| EMEA/H/C/005106 | Aybintio | bevacizumab | Colorectal Neoplasms; Breast Neoplasms; Ovarian Neoplasms; Fallopian Tube Neoplasms; Peritoneal Neoplasms; Ca… | Gültig |
+| EMEA/H/C/005286 | Alymsys | bevacizumab | Colorectal Neoplasms; Breast Neoplasms; Ovarian Neoplasms; Peritoneal Neoplasms; Carcinoma, Non-Small-Cell Lu… | Gültig |
+| EMEA/H/C/005327 | Abevmy | bevacizumab | Colorectal Neoplasms; Breast Neoplasms; Ovarian Neoplasms; Fallopian Tube Neoplasms; Peritoneal Neoplasms; Ca… | Gültig |
+| EMEA/H/C/005534 | Vegzelma | bevacizumab | Colorectal Neoplasms; Breast Neoplasms; Ovarian Neoplasms; Fallopian Tube Neoplasms; Peritoneal Neoplasms; Ca… | Gültig |
+| EMEA/H/C/005556 | Oyavas | bevacizumab | Colorectal Neoplasms; Breast Neoplasms; Ovarian Neoplasms; Fallopian Tube Neoplasms; Peritoneal Neoplasms; Ca… | Gültig |
+| EMEA/H/C/005574 | Avzivi | bevacizumab | Colorectal Neoplasms; Carcinoma, Non-Small-Cell Lung; Carcinoma, Renal Cell; Ovarian Neoplasms; Fallopian Tub… | Gültig |
+| EMEA/H/C/005723 | Lytenava | bevacizumab | Wet Macular Degeneration | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Zytotoxizität
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 361
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pitolisant: vorhergesagte neue Indikation Insomnie (Evidenzstufe L5). Ursprüngliche Indikation: Narkolepsie"
 monitor_inn: "PITOLISANT"
 predicted_indications: ["insomnia (disease)", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome"]
@@ -93,10 +93,16 @@ Die folgenden Arbeiten betreffen die Pitolisant-Pharmakologie und die ursprüngl
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002616 | Wakix | – | Narkolepsie (gültig) |
-| EMEA/H/C/005117 | Ozawade | – | Obstruktive Schlafapnoe (gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002616 | Wakix | pitolisant | Narcolepsy | Gültig |
+| EMEA/H/C/005117 | Ozawade | pitolisant | Sleep Apnea, Obstructive | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

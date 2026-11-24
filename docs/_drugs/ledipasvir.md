@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 262
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ledipasvir: vorhergesagte neue Indikation Hepatitis-B-Virusinfektion (Evidenzstufe L2). Ursprüngliche Indikation: Chronische Hepatitis C"
 monitor_inn: "LEDIPASVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "chronic hepatitis B virus infection", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
@@ -99,9 +99,15 @@ Der hohe TxGNN-Wert stammt aus dem TxGNN-Modell (Deep Learning) und kann Ähnlic
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/003850 | Harvoni (Gilead Sciences Ireland UC) | – | Chronische Hepatitis C (Zulassung gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003850 | Harvoni | ledipasvir; sofosbuvir | Hepatitis C, Chronic | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 442
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tagraxofusp: vorhergesagte neue Indikation Esotropie (Evidenzstufe L5). Ursprüngliche Indikation: Lymphom"
 monitor_inn: "TAGRAXOFUSP"
 predicted_indications: ["esotropia", "pre-malignant neoplasm", "inner ear neoplasm", "benign neoplasm of tongue", "non-seminomatous lesion", "chondroid hamartoma", "bronchial adenomas/carcinoids childhood", "ductal or ductular proliferation", "cystic neoplasm", "thyroglossal duct cyst"]
@@ -80,9 +80,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005031 | Elzonris | – | Lymphom |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005031 | Elzonris | tagraxofusp | Lymphoma | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Hinweis: Dieses Arzneimittel ist in Deutschland im Handel; die 1 vorhandene Zulassung ist gültig (1 von 1).
 

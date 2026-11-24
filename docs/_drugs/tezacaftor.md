@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 459
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TEZACAFTOR"
 predicted_indications: ["HIV infectious disease", "leprosy", "multiple endocrine neoplasia"]
 description: "Tezacaftor: vorhergesagte neue Indikation HIV-Infektionskrankheit (HIV infectious disease) (Evidenzstufe L5). Zentrale EU-Zulassungen (EMA): 3 (gültig: 3)"
@@ -78,11 +78,17 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004682 | Symkevi | – | Cystische Fibrose |
-| EMEA/H/C/005269 | Kaftrio | – | Cystische Fibrose |
-| EMEA/H/C/006382 | Alyftrek | – | Cystische Fibrose |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004682 | Symkevi | tezacaftor; ivacaftor | Cystic Fibrosis | Gültig |
+| EMEA/H/C/005269 | Kaftrio | ivacaftor; tezacaftor; elexacaftor | Cystic Fibrosis | Gültig |
+| EMEA/H/C/006382 | Alyftrek | deutivacaftor; tezacaftor; vanzacaftor calcium dihydrate | Cystic Fibrosis | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

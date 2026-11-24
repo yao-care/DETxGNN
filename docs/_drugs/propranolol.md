@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 373
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Propranolol: vorhergesagte neue Indikation Distale Myopathie, Typ Tateyama (Evidenzstufe L5). Ursprüngliche Indikation: Hämangiom"
 monitor_inn: "Propranolol"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
@@ -85,9 +85,15 @@ Für die Hauptvorhersage (distale Myopathie, Typ Tateyama) ist derzeit keine zug
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002621 | Hemangiol | – | Hämangiom |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002621 | Hemangiol | propranolol hydrochloride | Hemangioma | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Für dieses Arzneimittel besteht in diesem Land 1 gültige Zulassung (von insgesamt 1); es ist im Handel.
 

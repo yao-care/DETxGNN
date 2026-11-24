@@ -5,7 +5,7 @@ parent: Nur bekannte Anwendungen (keine neuen Vorhersagen)
 nav_order: 480
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Trastuzumab Emtansine: Bekannte Anwendungen und Marktstatus in Deutschland; derzeit keine neue Kandidaten-Indikation"
 predicted_indications: []
 ---
@@ -75,9 +75,15 @@ Die vom TxGNN-Modell (Score ≥ 0,99) für Trastuzumab Emtansine erzeugten Kandi
 
 ## Marktinformationen Deutschland
 
-| Zulassung | Produkt | Darreichungsform | Status |
-|------|------|------|------|
-| EMEA/H/C/002389 | trastuzumab emtansine |  | Gültig |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002389 | Kadcyla | trastuzumab emtansine | Breast Neoplasms | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Zytotoxizität
 

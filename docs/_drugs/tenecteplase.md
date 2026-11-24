@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 453
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TENECTEPLASE"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
 description: "Tenecteplase: vorhergesagte neue Indikation Congenital coronary artery anomaly (Evidenzstufe L5). Ursprüngliche Indikation: Myocardial Infarction"
@@ -91,9 +91,15 @@ Zur Einordnung: Für den septalen Myokardinfarkt (Rang 3) und die Koronarstenose
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000306 | Metalyse | – | Myokardinfarkt |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000306 | Metalyse | tenecteplase | Myocardial Infarction | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Hersteller: Boehringer Ingelheim International GmbH.
 

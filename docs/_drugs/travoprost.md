@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 481
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRAVOPROST"
 predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis", "idiopathic spontaneous coronary artery dissection", "hemangioendothelioma"]
 description: "Travoprost: vorhergesagte neue Indikation Viszerale Kalziphylaxie (visceral calciphylaxis) (Evidenzstufe L5). Ursprüngliche Indikation: Ocular Hypertension"
@@ -118,11 +118,17 @@ Der Fallbericht (PMID 19107053) beschreibt eine Nebenwirkung bei einer Gefäßfe
 
 Travoprost ist in Deutschland im Handel; 3 von 3 Zulassungen sind gültig. Es handelt sich um zentrale EU-Zulassungen (EMEA) des Unternehmens Novartis Europharm Limited.
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002738 | Izba | – | Okuläre Hypertension; Offenwinkelglaukom |
-| EMEA/H/C/000390 | Travatan | – | Offenwinkelglaukom; okuläre Hypertension |
-| EMEA/H/C/000665 | DuoTrav | – | Offenwinkelglaukom; okuläre Hypertension |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000390 | Travatan | travoprost | Glaucoma, Open-Angle; Ocular Hypertension | Gültig |
+| EMEA/H/C/000665 | DuoTrav | travoprost; timolol | Glaucoma, Open-Angle; Ocular Hypertension | Gültig |
+| EMEA/H/C/002738 | Izba | travoprost | Ocular Hypertension; Glaucoma, Open-Angle | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

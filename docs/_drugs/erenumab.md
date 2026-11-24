@@ -3,7 +3,7 @@ layout: default
 title: Erenumab
 parent: Nur bekannte Anwendungen (keine neuen Vorhersagen)
 nav_order: 177
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-24
 description: "Erenumab: Bekannte Anwendungen und Marktstatus in Deutschland; derzeit keine neue Kandidaten-Indikation"
 predicted_indications: []
 indication_count: 0
@@ -64,9 +64,15 @@ Die Kandidaten des TxGNN-Modells (Score ≥ 0,99) für Erenumab sind ausnahmslos
 
 ## Marktinformationen Deutschland
 
-| Zulassung | Produkt | Darreichungsform | Status |
-|------|------|------|------|
-| EMEA/H/C/004447 | erenumab |  | Gültig |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004447 | Aimovig | erenumab | Migraine Disorders | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 185
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Ethinylestradiol: vorhergesagte neue Indikation Erhöhtes Plasmazink (zinc, elevated plasma) (Evidenzstufe L5). Ursprüngliche Indikation: Kontrazeption"
 monitor_inn: "Ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
@@ -80,9 +80,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000410 | Evra | – | Kontrazeption |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000410 | Evra | norelgestromin; Ethinyl estradiol | Contraception | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Hinweis: In Deutschland ist das Arzneimittel im Handel; 1 von 1 Zulassung ist gültig.
 

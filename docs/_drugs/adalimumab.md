@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ADALIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Adalimumab: vorhergesagte neue Indikation Hypermobilität des Steißbeins (hypermobility of coccyx) (Evidenzstufe L5). Ursprüngliche Indikation: Spondylitis, Ankylosing"
 ---
 
@@ -67,6 +67,26 @@ Derzeit sind keine einschlägigen klinischen Studien registriert.
 Derzeit liegt keine einschlägige Literatur zu dieser Indikation vor.
 
 ## Informationen zum Markt in Deutschland
+
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000481 | Humira | adalimumab | Spondylitis, Ankylosing; Arthritis, Juvenile Rheumatoid; Uveitis; Colitis, Ulcerative; Psoriasis; Arthritis,… | Gültig |
+| EMEA/H/C/004212 | Amgevita | adalimumab | Arthritis, Psoriatic; Colitis, Ulcerative; Arthritis, Juvenile Rheumatoid; Spondylitis, Ankylosing; Psoriasis… | Gültig |
+| EMEA/H/C/004279 | Imraldi | adalimumab | Spondylitis, Ankylosing; Arthritis, Rheumatoid; Uveitis; Colitis, Ulcerative; Psoriasis; Arthritis, Psoriatic… | Gültig |
+| EMEA/H/C/004320 | Hyrimoz | adalimumab | Arthritis, Rheumatoid; Arthritis, Psoriatic; Spondylitis, Ankylosing; Uveitis; Hidradenitis Suppurativa; Coli… | Gültig |
+| EMEA/H/C/004429 | Hulio | adalimumab | Hidradenitis Suppurativa; Psoriasis; Uveitis; Arthritis, Rheumatoid; Spondylitis, Ankylosing; Crohn Disease;… | Gültig |
+| EMEA/H/C/004475 | Idacio | adalimumab | Arthritis, Rheumatoid; Arthritis, Psoriatic; Psoriasis; Spondylitis, Ankylosing; Uveitis; Hidradenitis Suppur… | Gültig |
+| EMEA/H/C/004865 | Hefiya | adalimumab | Spondylitis, Ankylosing; Hidradenitis Suppurativa; Psoriasis; Arthritis, Juvenile Rheumatoid; Uveitis | Gültig |
+| EMEA/H/C/004879 | Amsparity | adalimumab | Arthritis, Rheumatoid; Arthritis, Psoriatic; Psoriasis; Spondylitis, Ankylosing; Uveitis; Hidradenitis Suppur… | Gültig |
+| EMEA/H/C/005188 | Yuflyma | adalimumab | Arthritis, Rheumatoid; Arthritis, Psoriatic; Psoriasis; Spondylitis, Ankylosing; Uveitis; Hidradenitis Suppur… | Gültig |
+| EMEA/H/C/005548 | Hukyndra | adalimumab | Arthritis, Psoriatic; Arthritis, Juvenile Rheumatoid; Arthritis, Rheumatoid; Colitis, Ulcerative; Crohn Disea… | Gültig |
+| EMEA/H/C/005947 | Libmyris | adalimumab | Arthritis, Rheumatoid; Arthritis, Juvenile Rheumatoid; Spondylitis, Ankylosing; Arthritis, Psoriatic; Psorias… | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Adalimumab ist in Deutschland im Handel. Laut den für diesen Bericht zusammengestellten Daten sind alle erfassten Zulassungen gültig, darunter das Originalpräparat und mehrere Biosimilars. Die Zulassungstabelle wird vom Programm aus den lokalen Zulassungsdaten erzeugt.
 

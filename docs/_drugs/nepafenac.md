@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 310
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nepafenac: vorhergesagte neue Indikation Augenerkrankung (eye disease) (Evidenzstufe L1). Ursprüngliche Indikation: Postoperative Schmerzen"
 monitor_inn: "NEPAFENAC"
 predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simplex of the scalp", "seborrheic keratosis", "von Hippel anomaly", "congenital hypotrichosis milia", "mcpherson robertson cammarano syndrome", "lagophthalmos", "vulvar inverted follicular keratosis", "vitreous detachment"]
@@ -108,9 +108,15 @@ Weitere Studien betreffen diabetisches Makulaödem, Operationen an epiretinalen 
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000818 | Nevanac | Keine Angabe | Postoperative Schmerzen; ophthalmologische chirurgische Eingriffe |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000818 | Nevanac | nepafenac | Pain, Postoperative; Ophthalmologic Surgical Procedures | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Hinweis: Diese Zulassung (Novartis Europharm Limited) ist gültig. Das Arzneimittel ist in Verkehr; 1 von 1 Zulassung ist gültig.
 

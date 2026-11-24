@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 108
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cerliponase Alfa: vorhergesagte neue Indikation Scheie-Syndrom (Evidenzstufe L5). Ursprüngliche Indikation: Neuronale Ceroid-Lipofuszinosen"
 monitor_inn: "CERLIPONASE ALFA"
 predicted_indications: ["Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "cholesteryl ester storage disease", "Gaucher disease", "familial encephalopathy with neuroserpin inclusion bodies", "Wolman disease with hypolipoproteinemia and acanthocytosis", "proximal myopathy with extrapyramidal signs", "autosomal ichthyosis syndrome with fatal disease course"]
@@ -88,9 +88,15 @@ Für die weiter unten gelistete Vorhersage Morbus Gaucher wurde eine Publikation
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004065 | Brineura | – | Neuronale Ceroid-Lipofuszinosen (Status: gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004065 | Brineura | cerliponase alfa | Neuronal Ceroid-Lipofuscinoses | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 35
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "APIXABAN"
 predicted_indications: ["migraine disorder"]
 description: "Apixaban: vorhergesagte neue Indikation Migräne (migraine disorder) (Evidenzstufe L5). Ursprüngliche Indikation: Venous Thromboembolism"
@@ -86,10 +86,16 @@ Die vorliegenden Fallberichte stützen diese Hypothese nicht. Ein Bericht beschr
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005358 | Apixaban Accord | – | Venöse Thromboembolie, Schlaganfall, Arthroplastik |
-| EMEA/H/C/002148 | Eliquis | – | Arthroplastik, venöse Thromboembolie |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002148 | Eliquis | apixaban | Arthroplasty; Venous Thromboembolism | Gültig |
+| EMEA/H/C/005358 | Apixaban Accord | apixaban | Venous Thromboembolism; Stroke; Arthroplasty | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

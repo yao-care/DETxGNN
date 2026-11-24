@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 500
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vismodegib: vorhergesagte neue Indikation Medulloblastom mit ausgeprägter Nodularität (Evidenzstufe L5). Ursprüngliche Indikation: Basalzellkarzinom"
 monitor_inn: "VISMODEGIB"
 predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
@@ -80,9 +80,15 @@ Derzeit ist keine relevante Literatur für diese Indikation verfügbar.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002602 | Erivedge (Roche Registration GmbH) | – | Basalzellkarzinom |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002602 | Erivedge | vismodegib | Carcinoma, Basal Cell | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Diese Zulassung ist **gültig**. Derzeit ist in Deutschland eine gültige Zulassung für Vismodegib vorhanden (1 von 1).
 

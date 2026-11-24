@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "ATAZANAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atazanavir: vorhergesagte neue Indikation Felines erworbenes Immunschwächesyndrom (feline acquired immunodeficiency syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: HIV Infections"
 ---
 
@@ -80,11 +80,17 @@ Derzeit liegt keine passende Literatur zu dieser Vorhersage vor.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000494 | Reyataz | – | HIV-Infektionen |
-| EMEA/H/C/004048 | Atazanavir Viatris (zuvor Atazanavir Mylan) | – | HIV-Infektionen |
-| EMEA/H/C/003904 | Evotaz | – | HIV-Infektionen |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000494 | Reyataz | atazanavir (as sulfate) | HIV Infections | Gültig |
+| EMEA/H/C/003904 | Evotaz | cobicistat; atazanavir | HIV Infections | Gültig |
+| EMEA/H/C/004048 | Atazanavir Viatris (previously Atazanavir Mylan) | atazanavir (as sulfate) | HIV Infections | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

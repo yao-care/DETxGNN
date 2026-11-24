@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 31
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amlodipine: vorhergesagte neue Indikation Hirnstamminfarkt (Evidenzstufe L5). Ursprüngliche Indikation: Hypertonie"
 monitor_inn: "AMLODIPINE"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
@@ -115,13 +115,22 @@ Zum Verschluss zerebraler Arterien (präklinisch):
 
 Alle acht Zulassungen sind gültig. Es handelt sich um zentrale EU-Zulassungen (EMEA) von Kombinationspräparaten.
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004037 | Amlodipine / Valsartan Mylan | – | Hypertonie |
-| EMEA/H/C/000776 | Dafiro | – | Hypertonie |
-| EMEA/H/C/001224 | Twynsta | – | Hypertonie |
-| EMEA/H/C/000716 | Exforge | – | Hypertonie |
-| EMEA/H/C/000774 | Copalia | – | Hypertonie |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000716 | Exforge | valsartan; amlodipine (as amlodipine besilate) | Hypertension | Gültig |
+| EMEA/H/C/000774 | Copalia | valsartan; amlodipine (as amlodipine besilate) | Hypertension | Gültig |
+| EMEA/H/C/000776 | Dafiro | amlodipine; valsartan | Hypertension | Gültig |
+| EMEA/H/C/001068 | Exforge HCT | valsartan; hydrochlorothiazide; amlodipine besilate | Hypertension | Gültig |
+| EMEA/H/C/001159 | Copalia HCT | amlodipine; valsartan; hydrochlorothiazide | Hypertension | Gültig |
+| EMEA/H/C/001160 | Dafiro HCT | valsartan; hydrochlorothiazide; amlodipine besilate | Hypertension | Gültig |
+| EMEA/H/C/001224 | Twynsta | telmisartan; amlodipine | Hypertension | Gültig |
+| EMEA/H/C/004037 | Amlodipine / Valsartan Mylan | amlodipine besilate; valsartan | Hypertension | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

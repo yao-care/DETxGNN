@@ -5,7 +5,7 @@ parent: Nur bekannte Anwendungen (keine neuen Vorhersagen)
 nav_order: 326
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Olaparib: Bekannte Anwendungen und Marktstatus in Deutschland; derzeit keine neue Kandidaten-Indikation"
 predicted_indications: []
 ---
@@ -72,9 +72,15 @@ Die Kandidaten des TxGNN-Modells für Olaparib (Score ≥ 0,99) sind, soweit sie
 
 ## Marktinformationen Deutschland
 
-| Zulassung | Produkt | Darreichungsform | Status |
-|------|------|------|------|
-| EMEA/H/C/003726 | olaparib |  | Gültig |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003726 | Lynparza | olaparib | Ovarian Neoplasms; Breast Neoplasms; Pancreatic Neoplasms; Prostatic Neoplasms, Castration-Resistant | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Zytotoxizität
 

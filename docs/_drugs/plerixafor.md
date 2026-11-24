@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 362
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Plerixafor: vorhergesagte neue Indikation CMM7 (Evidenzstufe L5). Ursprüngliche Indikation: Multiples Myelom"
 monitor_inn: "PLERIXAFOR"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
@@ -82,10 +82,16 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 
 Es sind 2 gültige Zulassungen von 2 vorhanden. Das Arzneimittel ist im Handel. Die Zulassungsnummern sind EU-zentrale Zulassungen.
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/001030 | Mozobil (Sanofi B.V.) | – | Multiples Myelom; hämatopoetische Stammzelltransplantation; Lymphom |
-| EMEA/H/C/005943 | Plerixafor Accord (Accord Healthcare S.L.U.) | – | Multiples Myelom; hämatopoetische Stammzelltransplantation |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001030 | Mozobil | Plerixafor | Multiple Myeloma; Hematopoietic Stem Cell Transplantation; Lymphoma | Gültig |
+| EMEA/H/C/005943 | Plerixafor Accord | Plerixafor | Multiple Myeloma; Hematopoietic Stem Cell Transplantation | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

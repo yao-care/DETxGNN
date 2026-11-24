@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 483
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Treprostinil: vorhergesagte neue Indikation Pulmonale arteriovenöse Malformation (Evidenzstufe L5). Ursprüngliche Indikation: Pulmonale Hypertonie"
 monitor_inn: "Treprostinil"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita"]
@@ -101,9 +101,15 @@ Zur Einordnung folgen die relevantesten Publikationen zu den besser belegten Fol
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005207 | Trepulmix | – | Pulmonale Hypertonie (Status: gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005207 | Trepulmix | treprostinil sodium | Hypertension, Pulmonary | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Zytotoxizität
 

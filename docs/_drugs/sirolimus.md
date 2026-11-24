@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 431
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
 description: "Sirolimus: vorhergesagte neue Indikation Liposarkom (liposarcoma) (Evidenzstufe L5). Ursprüngliche Indikation: Angiofibroma"
@@ -88,10 +88,16 @@ Zu Sirolimus bei Liposarkom wurde keine Publikation gefunden, die die Wirksamkei
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005896 | Hyftor (Plusultra pharma GmbH) | – | Angiofibrom, Tuberöse Sklerose (gültig) |
-| EMEA/H/C/000273 | Rapamune (Pfizer Europe MA EEIG) | – | Transplantatabstoßung, Nierentransplantation (gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000273 | Rapamune | sirolimus | Graft Rejection; Kidney Transplantation | Gültig |
+| EMEA/H/C/005896 | Hyftor | sirolimus | Angiofibroma; Tuberous Sclerosis | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

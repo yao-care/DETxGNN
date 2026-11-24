@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 9
 monitor_inn: "CYTARABINE"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cytarabine: vorhergesagte neue Indikation Kleinzelliges Lungenkarzinom (small cell lung carcinoma) (Evidenzstufe L3). Zentrale EU-Zulassungen (EMA): 1 (gültig: 1)"
 ---
 
@@ -88,9 +88,15 @@ Zu dieser Vorhersage sind derzeit keine klinischen Studien registriert.
 
 ## Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004282 | Vyxeos liposomal (zuvor Vyxeos) | – | Akute myeloische Leukämie |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004282 | Vyxeos liposomal (previously Vyxeos) | daunorubicin hydrochloride; cytarabine | Leukemia, Myeloid, Acute | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "IRBESARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Irbesartan: vorhergesagte neue Indikation Maligne hypertensive Nierenerkrankung (malignant hypertensive renal disease) (Evidenzstufe L5). Ursprüngliche Indikation: Hypertension"
 ---
 
@@ -70,13 +70,24 @@ Derzeit liegt keine zugehörige Literatur zu dieser Indikation vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/001093 | Irbesartan Teva | – | Hypertonie |
-| EMEA/H/C/000785 | Irbesartan Zentiva (zuvor Irbesartan Winthrop) | – | Hypertonie |
-| EMEA/H/C/000141 | Aprovel | – | Hypertonie |
-| EMEA/H/C/000142 | Karvea | – | Hypertonie |
-| EMEA/H/C/000962 | Ifirmasta (zuvor Irbesartan Krka) | – | Hypertonie |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000141 | Aprovel | irbesartan | Hypertension | Gültig |
+| EMEA/H/C/000142 | Karvea | irbesartan | Hypertension | Gültig |
+| EMEA/H/C/000221 | Karvezide | irbesartan; hydrochlorothiazide | Hypertension | Gültig |
+| EMEA/H/C/000222 | CoAprovel | irbesartan; hydrochlorothiazide | Hypertension | Gültig |
+| EMEA/H/C/000783 | Irbesartan Hydrochlorothiazide Zentiva (previously Irbesart… | irbesartan; hydrochlorothiazide | Hypertension | Gültig |
+| EMEA/H/C/000785 | Irbesartan Zentiva (previously Irbesartan Winthrop) | irbesartan | Hypertension | Gültig |
+| EMEA/H/C/000962 | Ifirmasta (previously Irbesartan Krka) | irbesartan hydrochloride | Hypertension | Gültig |
+| EMEA/H/C/001093 | Irbesartan Teva | irbesartan | Hypertension | Gültig |
+| EMEA/H/C/001112 | Irbesartan/Hydrochlorothiazide Teva | irbesartan; hydrochlorothiazide | Hypertension | Gültig |
+| EMEA/H/C/002302 | Ifirmacombi | irbesartan; hydrochlorothiazide | Hypertension | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

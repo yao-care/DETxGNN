@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 254
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ketorolac: vorhergesagte neue Indikation Kopfschmerzerkrankung (Headache Disorder) (Evidenzstufe L1). Ursprüngliche Indikation: Intraokulare Linsenimplantation"
 monitor_inn: "KETOROLAC"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
@@ -96,9 +96,15 @@ Weitere erfasste Studien (u. a. zurückgezogene Studien ohne Teilnehmer sowie St
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/003702 | Omidria | – | Intraokulare Linsenimplantation; postoperativer Schmerz (Status: gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003702 | Omidria | ketorolac; phenylephrine | Lens Implantation, Intraocular; Pain, Postoperative | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Es besteht derzeit eine gültige Zulassung in Deutschland.
 

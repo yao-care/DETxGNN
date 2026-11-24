@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 340
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Palonosetron: vorhergesagte neue Indikation Migräne (migraine disorder) (Evidenzstufe L4). Ursprüngliche Indikation: Erbrechen, Übelkeit, Krebs (Krebstherapie-assoziiert)"
 monitor_inn: "PALONOSETRON"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
@@ -84,11 +84,17 @@ Ergänzend gefunden (bei der Vorhersage „Migräne-Suszeptibilität"): [4274847
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004129 | Palonosetron Accord | – | Erbrechen, Übelkeit, Krebs (gültig) |
-| EMEA/H/C/000563 | Aloxi | – | Erbrechen, Krebs (gültig) |
-| EMEA/H/C/003728 | Akynzeo | – | Erbrechen, Neoplasien, Übelkeit, Krebs (gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000563 | Aloxi | palonosetron hydrochloride | Vomiting; Cancer | Gültig |
+| EMEA/H/C/003728 | Akynzeo | netupitant; palonosetron hydrochloride | Vomiting; Neoplasms; Nausea; Cancer | Gültig |
+| EMEA/H/C/004129 | Palonosetron Accord | palonosetron | Vomiting; Nausea; Cancer | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "EMTRICITABINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Emtricitabine: vorhergesagte neue Indikation Feline erworbene Immunschwäche (feline acquired immunodeficiency syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: HIV Infections"
 ---
 
@@ -74,15 +74,40 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000533 | Emtriva | – | HIV-Infektionen |
-| EMEA/H/C/000594 | Truvada | – | HIV-Infektionen |
-| EMEA/H/C/004094 | Descovy | – | HIV-Infektionen |
-| EMEA/H/C/004449 | Biktarvy | – | HIV-Infektionen |
-| EMEA/H/C/004042 | Genvoya | – | HIV-Infektionen |
+<!-- licenses:begin -->
 
-Hinweis: Die Liste zeigt nur eine Auswahl der Zulassungen. Mehrere dieser Produkte sind Kombinationspräparate; ihre Zulassung beschreibt nicht die Zulassung des Einzelwirkstoffs.
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000533 | Emtriva | emtricitabine | HIV Infections | Gültig |
+| EMEA/H/C/000594 | Truvada | emtricitabine; tenofovir disoproxil fumarate | HIV Infections | Gültig |
+| EMEA/H/C/002312 | Eviplera | emtricitabine; rilpivirine hydrochloride; tenofovir disoproxil fumarate | HIV Infections | Gültig |
+| EMEA/H/C/002574 | Stribild | elvitegravir; cobicistat; emtricitabine; tenofovir disoproxil fumarate | HIV Infections | Gültig |
+| EMEA/H/C/004042 | Genvoya | elvitegravir; cobicistat; emtricitabine; tenofovir alafenamide | HIV Infections | Gültig |
+| EMEA/H/C/004050 | Emtricitabine/Tenofovir disoproxil Mylan | emtricitabine; tenofovir disoproxil maleate | HIV Infections | Gültig |
+| EMEA/H/C/004094 | Descovy | emtricitabine; tenofovir alafenamide | HIV Infections | Gültig |
+| EMEA/H/C/004137 | Emtricitabine/Tenofovir disoproxil Zentiva | emtricitabine; tenofovir disoproxil phosphate | HIV Infections | Gültig |
+| EMEA/H/C/004156 | Odefsey | emtricitabine; rilpivirine hydrochloride; tenofovir alafenamide | HIV Infections | Gültig |
+| EMEA/H/C/004215 | Emtricitabine/Tenofovir disoproxil Krka | emtricitabine; tenofovir disoproxil succinate | HIV Infections | Gültig |
+| EMEA/H/C/004240 | Efavirenz/Emtricitabine/Tenofovir disoproxil Mylan | efavirenz; emtricitabine; tenofovir disoproxil maleate | HIV Infections | Gültig |
+| EMEA/H/C/004250 | Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva | efavirenz; emtricitabine; tenofovir disoproxil phosphate | HIV Infections | Gültig |
+| EMEA/H/C/004274 | Efavirenz/Emtricitabine/Tenofovir disoproxil Krka | efavirenz; emtricitabine; tenofovir disoproxil succinate | HIV Infections | Gültig |
+| EMEA/H/C/004391 | Symtuza | darunavir; cobicistat; emtricitabine; tenofovir alafenamide | HIV Infections | Gültig |
+| EMEA/H/C/004449 | Biktarvy | bictegravir; emtricitabine; tenofovir alafenamide; fumarate | HIV Infections | Gültig |
+| EMEA/H/C/004686 | Emtricitabine/Tenofovir disoproxil Krka d.d. | emtricitabine; tenofovir disoproxil succinate | HIV Infections | Gültig |
+| EMEA/H/C/006469 | Emtricitabine / Tenofovir alafenamide Viatris | emtricitabine; tenofovir alafenamide fumarate | HIV Infections | Gültig |
+| EMEA/H/C/006491 | Emtricitabine / Rilpivirine / Tenofovir Alafenamide Viatris | emtricitabine; rilpivirine hydrochloride; tenofovir alafenamide fumarate | HIV Infections | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
+
+Hinweis: Mehrere dieser Produkte sind Kombinationspräparate; ihre Zulassung beschreibt nicht die Zulassung des Einzelwirkstoffs.
+
+<!-- review:begin de-lic-20261124-emtricitabine-1 -->
+
+> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „Die Liste zeigt nur eine Auswahl der Zulassungen.“ Korrigiert: Die Tabelle unten wird jetzt programmatisch aus den EMA-Daten erzeugt und enthält alle erfassten zentralen EU-Zulassungen; der Hinweis auf eine Auswahl aus der früheren Tabelle trifft nicht mehr zu. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261124-emtricitabine-1 -->
 
 ## Sicherheitsaspekte
 
@@ -110,11 +135,12 @@ Für die vorhergesagte Indikation gibt es keine klinischen Studien und nur eine 
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Emtriva (emtricitabine) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6599395-3944-44f9-97f2-e0424c6b6a1f) |
+| 2026-11-24 | Entfernt: „Die Liste zeigt nur eine Auswahl der Zulassungen.“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

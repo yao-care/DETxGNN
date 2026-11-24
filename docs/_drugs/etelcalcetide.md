@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 184
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Etelcalcetide"
 predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices without bleeding", "esophageal varices with bleeding", "varicose disease"]
 description: "Etelcalcetide: vorhergesagte neue Indikation Hyperphosphatämie (hyperphosphatemia (disease)) (Evidenzstufe L4). Ursprüngliche Indikation: Hyperparathyroidism, Secondary"
@@ -89,9 +89,15 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/003995 | Parsabiv (Amgen Europe B.V.) | – | Sekundärer Hyperparathyreoidismus |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003995 | Parsabiv | etelcalcetide hydrochloride | Hyperparathyroidism, Secondary | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

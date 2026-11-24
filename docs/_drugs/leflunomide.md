@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "LEFLUNOMIDE"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Leflunomide: vorhergesagte neue Indikation Brachydaktylie-Syndaktylie-Syndrom (brachydactyly-syndactyly syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: Arthritis, Rheumatoid"
 ---
 
@@ -70,12 +70,18 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000235 | Arava | – | Arthritis, Rheumatoid; Arthritis, Psoriatic |
-| EMEA/H/C/002035 | Leflunomide ratiopharm | – | Arthritis, Rheumatoid |
-| EMEA/H/C/001129 | Leflunomide Zentiva (zuvor Leflunomide Winthrop) | – | Arthritis, Rheumatoid; Arthritis, Psoriatic |
-| EMEA/H/C/001227 | Leflunomide medac | – | Arthritis, Rheumatoid |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000235 | Arava | leflunomide | Arthritis, Rheumatoid; Arthritis, Psoriatic | Gültig |
+| EMEA/H/C/001129 | Leflunomide Zentiva (previously Leflunomide Winthrop) | leflunomide | Arthritis, Rheumatoid; Arthritis, Psoriatic | Gültig |
+| EMEA/H/C/001227 | Leflunomide medac | leflunomide | Arthritis, Rheumatoid | Gültig |
+| EMEA/H/C/002035 | Leflunomide ratiopharm | leflunomide | Arthritis, Rheumatoid | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

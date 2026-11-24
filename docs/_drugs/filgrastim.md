@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 197
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Filgrastim: vorhergesagte neue Indikation Primäre Thrombozyten-Freisetzungsstörung (primary release disorder of… (Evidenzstufe L5). Ursprüngliche Indikation: Hämatopoetische Stammzelltransplantation"
 monitor_inn: "FILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
@@ -82,13 +82,21 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 Alle sieben Zulassungen sind gültig (7 von 7). Es handelt sich um zentrale europäische Zulassungen (EMA); für die Zulassung Accofil liegt kein Indikationstext vor.
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/001142 | Nivestim | – | Hämatopoetische Stammzelltransplantation; Krebserkrankung |
-| EMEA/H/C/000917 | Zarzio | – | Hämatopoetische Stammzelltransplantation; Krebserkrankung |
-| EMEA/H/C/000827 | Tevagrastim | – | Hämatopoetische Stammzelltransplantation; Krebserkrankung |
-| EMEA/H/C/000825 | Ratiograstim | – | Hämatopoetische Stammzelltransplantation; Krebserkrankung |
-| EMEA/H/C/000918 | Filgrastim Hexal | – | Hämatopoetische Stammzelltransplantation; Krebserkrankung |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000825 | Ratiograstim | filgrastim | Hematopoietic Stem Cell Transplantation; Cancer | Gültig |
+| EMEA/H/C/000827 | Tevagrastim | filgrastim | Hematopoietic Stem Cell Transplantation; Cancer | Gültig |
+| EMEA/H/C/000917 | Zarzio | filgrastim | Hematopoietic Stem Cell Transplantation; Cancer | Gültig |
+| EMEA/H/C/000918 | Filgrastim Hexal | filgrastim | Hematopoietic Stem Cell Transplantation; Cancer | Gültig |
+| EMEA/H/C/001142 | Nivestim | filgrastim | Hematopoietic Stem Cell Transplantation; Cancer | Gültig |
+| EMEA/H/C/003956 | Accofil | filgrastim | – | Gültig |
+| EMEA/H/C/006400 | Zefylti | filgrastim | Neutropenia; Hematopoietic Stem Cell Transplantation; Cancer | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

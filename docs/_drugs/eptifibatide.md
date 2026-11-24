@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 174
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eptifibatide: vorhergesagte neue Indikation Rheumatoide Arthritis (Evidenzstufe L5). Ursprüngliche Indikation: Instabile Angina pectoris"
 monitor_inn: "EPTIFIBATIDE"
 predicted_indications: ["rheumatoid arthritis", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin E disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin d disease syndrome", "hemoglobinopathy", "female breast carcinoma", "beta-thalassemia with other manifestations", "partial deletion of the short arm of chromosome 16"]
@@ -88,10 +88,16 @@ Es handelt sich um zentrale EU-Zulassungen (EMA). Angaben zur Darreichungsform l
 
 <!-- review:end de-lic-20261106-eptifibatide-1 -->
 
-| Zulassungsnummer | Produktname | Hersteller | Zugelassene Indikation | Status |
-|---------|------|------|-----------|------|
-| EMEA/H/C/000230 | Integrilin | GlaxoSmithKline Trading Services Limited | Instabile Angina pectoris; Myokardinfarkt | Withdrawn |
-| EMEA/H/C/004104 | Eptifibatide Accord | Accord Healthcare S.L.U. | Myokardinfarkt | Gültig |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004104 | Eptifibatide Accord | eptifibatide | Myocardial Infarction | Gültig |
+| EMEA/H/C/000230 | Integrilin | eptifibatide | Angina, Unstable; Myocardial Infarction | Zurückgezogen |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

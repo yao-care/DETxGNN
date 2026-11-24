@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 178
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eribulin: vorhergesagte neue Indikation Autosomal-rezessives familiäres Mittelmeerfieber (Evidenzstufe L5). Ursprüngliche Indikation: Brustkrebs (Brustneoplasien)"
 monitor_inn: "ERIBULIN"
 predicted_indications: ["autosomal recessive familial Mediterranean fever", "dermatofibrosarcoma protuberans", "pleural mesothelioma", "malignant peritoneal mesothelioma", "pleural adenomatoid tumor", "pleural biphasic mesothelioma", "fibroblastic neoplasm", "pleural epithelioid mesothelioma", "heart fibrosarcoma"]
@@ -82,11 +82,17 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
-|---------|------|------|-----------|------|
-| EMEA/H/C/006134 | Mevlyq | – | Brustneoplasien; Liposarkom | Gültig |
-| EMEA/H/C/006191 | Eribulin Baxter | – | Brustneoplasien; Liposarkom | Gültig |
-| EMEA/H/C/002084 | Halaven | – | Brustneoplasien; Liposarkom | Gültig |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002084 | Halaven | Eribulin | Breast Neoplasms; Liposarcoma | Gültig |
+| EMEA/H/C/006134 | Mevlyq | Eribulin mesylate | Breast Neoplasms; Liposarcoma | Gültig |
+| EMEA/H/C/006191 | Eribulin Baxter | Eribulin mesylate | Breast Neoplasms; Liposarcoma | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 422
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Selinexor: vorhergesagte neue Indikation Medikamenten-induzierte Osteoporose (Evidenzstufe L5). Ursprüngliche Indikation: Multiples Myelom"
 monitor_inn: "SELINEXOR"
 predicted_indications: ["drug-induced osteoporosis"]
@@ -78,9 +78,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005127 | Nexpovio | – | Multiples Myelom |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005127 | Nexpovio | selinexor | Multiple Myeloma | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Die Zulassung ist gültig: Von 1 Zulassung ist 1 gültig; das Arzneimittel ist in diesem Land im Handel.
 

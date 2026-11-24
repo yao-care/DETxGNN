@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "METHOTREXATE"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Methotrexate: vorhergesagte neue Indikation Pulmonales Blastom (pulmonary blastoma) (Evidenzstufe L5). Ursprüngliche Indikation: Arthritis, Psoriatic"
 ---
 
@@ -68,10 +68,16 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/003983 | Nordimet | – | Psoriasis-Arthritis, Psoriasis, juvenile rheumatoide Arthritis, rheumatoide Arthritis |
-| EMEA/H/C/003756 | Jylamvo | – | Psoriasis-Arthritis, Psoriasis, rheumatoide Arthritis, Arthritis, Vorläuferzell-lymphoblastische Leukämie/Lymphom |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003756 | Jylamvo | methotrexate | Arthritis, Psoriatic; Precursor Cell Lymphoblastic Leukemia-Lymphoma; Psoriasis; Arthritis, Rheumatoid; Arthr… | Gültig |
+| EMEA/H/C/003983 | Nordimet | methotrexate | Arthritis, Psoriatic; Psoriasis; Arthritis, Juvenile Rheumatoid; Arthritis, Rheumatoid | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Zytotoxizität
 

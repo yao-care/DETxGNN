@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 432
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sodium Oxybate: vorhergesagte neue Indikation Insomnie (Evidenzstufe L2). Ursprüngliche Indikation: Kataplexie"
 monitor_inn: "SODIUM OXYBATE"
 predicted_indications: ["insomnia (disease)", "obsolete neurogenic bladder (disease)", "sleep disorder, initiating and maintaining sleep", "cauda equina syndrome", "Wernicke-Korsakoff syndrome", "restless legs syndrome"]
@@ -95,9 +95,15 @@ Die Auswahl bezieht sich auf die Arbeiten mit dem engsten Bezug zu Natriumoxybat
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000593 | Xyrem (UCB Pharma Ltd) | nicht angegeben | Kataplexie; Narkolepsie |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000593 | Xyrem | sodium oxybate | Cataplexy; Narcolepsy | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Diese einzige Zulassung ist gültig. Das Arzneimittel ist in Deutschland im Handel.
 

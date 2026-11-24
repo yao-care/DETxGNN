@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 139
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Degarelix: vorhergesagte neue Indikation Hypertrichose (Evidenzstufe L5). Ursprüngliche Indikation: Prostatakarzinom (Prostatic Neoplasms)"
 monitor_inn: "DEGARELIX"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "malformation syndrome with odontal and/or periodontal component", "isolated genetic hair shaft abnormality", "allergic urticaria", "cold urticaria", "familial male-limited precocious puberty", "centra precocious puberty 1", "familial isolated trichomegaly"]
@@ -86,10 +86,16 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/006048 | Degarelix Accord | – | Prostatic Neoplasms (Prostatakarzinom) |
-| EMEA/H/C/000986 | Firmagon | – | Prostatic Neoplasms (Prostatakarzinom) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000986 | Firmagon | degarelix | Prostatic Neoplasms | Gültig |
+| EMEA/H/C/006048 | Degarelix Accord | degarelix acetate | Prostatic Neoplasms | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

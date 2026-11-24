@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "OFATUMUMAB"
 predicted_indications: ["follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ofatumumab: vorhergesagte neue Indikation Follikuläres Lymphom (Evidenzstufe L2). Ursprüngliche Indikation: Multiple Sklerose, schubförmig remittierend"
 ---
 
@@ -96,9 +96,15 @@ Zwei weitere Studien (NCT01397591, vorzeitig beendet mit 3 Teilnehmern; NCT01263
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005410 | Kesimpta | – | Multiple Sklerose, schubförmig remittierend |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005410 | Kesimpta | ofatumumab | Multiple Sclerosis, Relapsing-Remitting | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Die Zulassung ist eine zentrale EU-Zulassung der EMA und betrifft ausschließlich die Multiple Sklerose. Das follikuläre Lymphom ist keine zugelassene Indikation dieses Produkts.
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 439
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Susoctocog Alfa: vorhergesagte neue Indikation Primäre Thrombozyten-Freisetzungsstörung (Rang 1 des Modells… (Evidenzstufe L5). Ursprüngliche Indikation: Hämophilie A"
 monitor_inn: "SUSOCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "congenital factor XIII deficiency", "adenosine deaminase deficiency"]
@@ -98,9 +98,15 @@ Hinweis: Die Literatur nennt zudem die japanische Phase-II/III-Studie NCT0458040
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002792 | Obizur | – | Hämophilie A (Status: gültig; Zulassungsinhaber Baxalta Innovations GmbH) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002792 | Obizur | susoctocog alfa | Hemophilia A | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

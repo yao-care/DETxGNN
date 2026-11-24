@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 8
 monitor_inn: "FLUOXETINE"
 predicted_indications: ["schizotypal personality disorder", "paranoid personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluoxetine: vorhergesagte neue Indikation Schizotype Persönlichkeitsstörung (schizotypal personality disorder) (Evidenzstufe L3). Keine zentrale EU-Zulassung (EMA) erfasst"
 ---
 
@@ -77,8 +77,11 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
+<!-- licenses:begin -->
+
+In den ausgewerteten EMA-Daten ist für diesen Wirkstoff keine zentrale EU-Zulassung eines Humanarzneimittels erfasst; nationale Zulassungen (BfArM) sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

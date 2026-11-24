@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 447
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tecovirimat: vorhergesagte neue Indikation Hordeolum (Gerstenkorn) (Evidenzstufe L5). Ursprüngliche Indikation: Pockeninfektionen, Kuhpocken, Affenpocken (Mpox), Vakzinia, Pocken"
 monitor_inn: "TECOVIRIMAT"
 predicted_indications: ["hordeolum", "vibrio infectious disease", "Klebsiella infectious disease", "noma", "coinfection", "arbovirus infection", "equine infectious anemia", "idiopathic recurrent and disabling cutaneous herpes", "Astroviridae infectious disease", "Arterivirus infectious disease"]
@@ -93,9 +93,15 @@ Zur Einordnung: Für die Vorhersage „Koinfektion“ (Rang 5) wurden 20 Publika
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005248 | Tecovirimat SIGA | – | Pockeninfektionen, Kuhpocken, Affenpocken, Vakzinia, Pocken |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005248 | Tecovirimat SIGA | tecovirimat | Poxviridae Infections; Cowpox; Monkeypox; Vaccinia; Smallpox | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Der Status dieser Zulassung ist gültig; aktuell besteht 1 gültige Zulassung von 1.
 

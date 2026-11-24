@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 34
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Andexanet Alfa: vorhergesagte neue Indikation Glanzmann-Thrombasthenie (Evidenzstufe L5). Ursprüngliche Indikation: Arzneimittelbedingte Nebenwirkungen (Drug-Related Side Effects and Ad…"
 monitor_inn: "ANDEXANET ALFA"
 predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "hemophilia"]
@@ -107,9 +107,15 @@ Für die Hauptvorhersage (Glanzmann-Thrombasthenie) liegt keine Literatur vor. F
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004108 | Ondexxya (AstraZeneca AB) | – | Arzneimittelbedingte Nebenwirkungen (Drug-Related Side Effects and Adverse Reactions) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004108 | Ondexxya | andexanet alfa | Drug-Related Side Effects and Adverse Reactions | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 406
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Risperidone: vorhergesagte neue Indikation Familiäre horizontale Blickparese mit progressiver Skoliose (Evidenzstufe L5). Ursprüngliche Indikation: Schizophrenie"
 monitor_inn: "RISPERIDONE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
@@ -78,15 +78,15 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005406 | Okedi | nicht angegeben | Schizophrenie |
+<!-- licenses:begin -->
 
-<!-- review:begin de-row-20261112-risperidone-1 -->
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005406 | Okedi | risperidone | Schizophrenia | Gültig |
 
-> **Prüfkorrektur (2026-11-12)**: Ursprünglich stand hier: „EMEA/H/C/005406 (erloschen)“ Laut den EMA-Daten (Stand 2026-11-09) ist die Zulassung von Okedi (EMEA/H/C/005406) gültig („Authorised“); der Vermerk „erloschen“ wurde entfernt. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
 
-<!-- review:end de-row-20261112-risperidone-1 -->
+<!-- licenses:end -->
 
 Es besteht eine gültige Zulassung (1 von 1 Zulassungen gültig). Das Arzneimittel ist im Handel.
 
@@ -142,7 +142,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Klärung der regulatorischen Verfügbarkeit (derzeit nur erloschene Zulassung)“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-12 | Tabelle: Okedi (EMEA/H/C/005406) ist gültig, nicht erloschen | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Tabelle: Okedi (EMEA/H/C/005406) ist gültig, nicht erloschen | Durch die programmatisch erzeugte Zulassungstabelle ersetzt (vorher: Korrigiert) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-20 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Risperdal (risperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0) |
 
 <!-- review:end log -->

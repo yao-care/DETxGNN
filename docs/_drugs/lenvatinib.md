@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 266
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 monitor_inn: "lenvatinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
 description: "Lenvatinib: vorhergesagte neue Indikation Liposarkom (liposarcoma) (Evidenzstufe L3). Ursprüngliche Indikation: Thyroid Neoplasms"
@@ -75,10 +75,16 @@ Beim dedifferenzierten Liposarkom spielt zudem die Amplifikation von CDK4/MDM2 e
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/003727 | Lenvima | – | Schilddrüsentumoren (gültig) |
-| EMEA/H/C/004224 | Kisplyx | – | Nierenzellkarzinom (gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003727 | Lenvima | lenvatinib mesilate | Thyroid Neoplasms | Gültig |
+| EMEA/H/C/004224 | Kisplyx | lenvatinib mesilate | Carcinoma, Renal Cell | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Beide Zulassungen sind gültig.
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 255
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lacosamide: vorhergesagte neue Indikation Manische bipolare affektive Störung (Evidenzstufe L5). Ursprüngliche Indikation: Epilepsie"
 monitor_inn: "LACOSAMIDE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
@@ -96,12 +96,18 @@ Wichtig: Die Phase-3-Studien sind Vergleiche mit Wirkstoffen (Propranolol, Topir
 
 Nach den zusammengestellten Daten ist Lacosamid in Deutschland im Handel; alle 4 erfassten Zulassungen sind gültig.
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000863 | Vimpat (UCB Pharma SA) | – | Epilepsie |
-| EMEA/H/C/006047 | Lacosamide Adroiq (Extrovis EU Ltd) | – | Epilepsie |
-| EMEA/H/C/004443 | Lacosamide Accord (Accord Healthcare S.L.U.) | – | Epilepsie |
-| EMEA/H/C/005243 | Lacosamide UCB (UCB Pharma S.A.) | – | Partielle Epilepsien |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000863 | Vimpat | lacosamide | Epilepsy | Gültig |
+| EMEA/H/C/004443 | Lacosamide Accord | lacosamide | Epilepsy | Gültig |
+| EMEA/H/C/005243 | Lacosamide UCB | lacosamide | Epilepsies, Partial | Gültig |
+| EMEA/H/C/006047 | Lacosamide Adroiq | lacosamide | Epilepsy | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 502
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vortioxetine: vorhergesagte neue Indikation Neurotische Störung (Evidenzstufe L5). Ursprüngliche Indikation: Major Depression"
 monitor_inn: "VORTIOXETINE"
 predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
@@ -81,9 +81,15 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002717 | Brintellix | – | Major Depression (Status: gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002717 | Brintellix | vortioxetine | Depressive Disorder, Major | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

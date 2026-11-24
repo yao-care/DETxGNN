@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 395
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Reslizumab: vorhergesagte neue Indikation Thrombozytopenie durch Immunzerstörung (immunvermittelte Thrombozytop… (Evidenzstufe L5). Ursprüngliche Indikation: Asthma"
 monitor_inn: "RESLIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets"]
@@ -76,9 +76,15 @@ Für die zweite Vorhersage (primäre Freisetzungsstörung der Thrombozyten) wurd
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/003912 | Cinqaero | – | Asthma (Status: gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003912 | Cinqaero | reslizumab | Asthma | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitshinweise
 

@@ -5,7 +5,7 @@ parent: Nur bekannte Anwendungen (keine neuen Vorhersagen)
 nav_order: 76
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Brinzolamide: Bekannte Anwendungen und Marktstatus in Deutschland; derzeit keine neue Kandidaten-Indikation"
 predicted_indications: []
 ---
@@ -72,11 +72,17 @@ Die vom TxGNN-Modell vorgeschlagenen Kandidaten für Brinzolamide sind ausnahmsl
 
 ## Informationen zum deutschen Markt
 
-| Zulassung | Produkt | Darreichungsform | Status |
-|------|------|------|------|
-| EMEA/H/C/000267 | brinzolamide |  | Gültig |
-| EMEA/H/C/000960 | brinzolamide;timolol maleate |  | Gültig |
-| EMEA/H/C/003698 | brinzolamide;brimonidine tartrate |  | Gültig |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000267 | Azopt | brinzolamide | Glaucoma, Open-Angle; Ocular Hypertension | Gültig |
+| EMEA/H/C/000960 | Azarga | brinzolamide; timolol maleate | Glaucoma, Open-Angle; Ocular Hypertension | Gültig |
+| EMEA/H/C/003698 | Simbrinza | brinzolamide; brimonidine tartrate | Ocular Hypertension; Glaucoma, Open-Angle | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

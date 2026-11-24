@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 69
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bosentan: vorhergesagte neue Indikation Rheumatoide Arthritis (Evidenzstufe L4). Ursprüngliche Indikation: Pulmonale Hypertonie"
 monitor_inn: "BOSENTAN"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
@@ -95,10 +95,16 @@ Die folgende Auswahl berücksichtigt die für die Fragestellung relevantesten Ar
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002644 | Stayveer | – | Pulmonale Hypertonie; systemische Sklerose (gültig) |
-| EMEA/H/C/000401 | Tracleer | – | Systemische Sklerose; pulmonale Hypertonie (gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000401 | Tracleer | bosentan (as monohydrate) | Scleroderma, Systemic; Hypertension, Pulmonary | Gültig |
+| EMEA/H/C/002644 | Stayveer | bosentan (as monohydrate) | Hypertension, Pulmonary; Scleroderma, Systemic | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Beide Zulassungen (Janssen-Cilag) sind gültig; das Arzneimittel ist im Handel.
 

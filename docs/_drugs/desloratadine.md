@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 142
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Desloratadine: vorhergesagte neue Indikation Erkrankung der Nasenhöhle (Evidenzstufe L5). Ursprüngliche Indikation: Allergische Rhinitis (ganzjährig und saisonal), Urtikaria"
 monitor_inn: "DESLORATADINE"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
@@ -93,13 +93,22 @@ Die obige Mechanismusbeschreibung stützt sich auf die mechanistische Begründun
 
 Alle acht Zulassungen sind gültig. Es handelt sich um zentrale EU-Zulassungen (EMEA).
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000313 | Aerius | – | Allergische Rhinitis (ganzjährig, saisonal), Urtikaria |
-| EMEA/H/C/000314 | Neoclarityn | – | Allergische Rhinitis (ganzjährig, saisonal), Urtikaria |
-| EMEA/H/C/000310 | Azomyr | – | Allergische Rhinitis (ganzjährig, saisonal), Urtikaria |
-| EMEA/H/C/002310 | Dasselta | – | Allergische Rhinitis (ganzjährig, saisonal), Urtikaria |
-| EMEA/H/C/002419 | Desloratadine Teva | – | Allergische Rhinitis (ganzjährig, saisonal) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000310 | Azomyr | desloratadine | Rhinitis, Allergic, Perennial; Urticaria; Rhinitis, Allergic, Seasonal | Gültig |
+| EMEA/H/C/000313 | Aerius | desloratadine | Rhinitis, Allergic, Perennial; Urticaria; Rhinitis, Allergic, Seasonal | Gültig |
+| EMEA/H/C/000314 | Neoclarityn | desloratadine | Rhinitis, Allergic, Perennial; Urticaria; Rhinitis, Allergic, Seasonal | Gültig |
+| EMEA/H/C/000772 | Aerinaze | desloratadine; pseudophedrine sulfate | Rhinitis, Allergic, Seasonal | Gültig |
+| EMEA/H/C/002310 | Dasselta | desloratadine | Rhinitis, Allergic, Perennial; Rhinitis, Allergic, Seasonal; Urticaria | Gültig |
+| EMEA/H/C/002404 | Desloratadine ratiopharm | desloratadine | Rhinitis, Allergic, Perennial; Urticaria; Rhinitis, Allergic, Seasonal | Gültig |
+| EMEA/H/C/002419 | Desloratadine Teva | desloratadine | Rhinitis, Allergic, Perennial; Rhinitis, Allergic, Seasonal | Gültig |
+| EMEA/H/C/002435 | Desloratadine Actavis | desloratadine | Rhinitis, Allergic, Perennial; Urticaria; Rhinitis, Allergic, Seasonal | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

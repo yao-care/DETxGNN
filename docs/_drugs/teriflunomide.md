@@ -5,7 +5,7 @@ parent: Nur bekannte Anwendungen (keine neuen Vorhersagen)
 nav_order: 457
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Teriflunomide: bekannte Anwendungen und Marktstatus in Deutschland; derzeit keine neue Kandidaten-Indikation"
 predicted_indications: []
 ---
@@ -72,11 +72,17 @@ Die Kandidaten des TxGNN-Modells (Score ≥ 0,99) für Teriflunomide sind, sowei
 
 ## Marktinformationen Deutschland
 
-| Zulassung | Produkt | Darreichungsform | Status |
-|------|------|------|------|
-| EMEA/H/C/005960 | teriflunomide |  | Gültig |
-| EMEA/H/C/005962 | teriflunomide |  | Gültig |
-| EMEA/H/C/002514 | teriflunomide |  | Gültig |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002514 | Aubagio | teriflunomide | Multiple Sclerosis | Gültig |
+| EMEA/H/C/005960 | Teriflunomide Accord | teriflunomide | Multiple Sclerosis, Relapsing-Remitting | Gültig |
+| EMEA/H/C/005962 | Teriflunomide Viatris (previously Teriflunomide Mylan) | teriflunomide | Multiple Sclerosis, Relapsing-Remitting | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 343
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole: vorhergesagte neue Indikation Duodenal obstruction (Evidenzstufe L5). Ursprüngliche Indikation: Gastroesophageal Reflux"
@@ -116,11 +116,17 @@ Hinweis: Bei NCT02084420 ist der Titel verkürzt; Vergleichssubstanz und Endpunk
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/001097 | Controloc Control | – | Gastroösophageale Refluxkrankheit |
-| EMEA/H/C/001098 | Somac Control | – | Gastroösophageale Refluxkrankheit |
-| EMEA/H/C/001013 | Pantozol Control | – | Gastroösophageale Refluxkrankheit |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001013 | Pantozol Control | pantoprazole | Gastroesophageal Reflux | Gültig |
+| EMEA/H/C/001097 | Controloc Control | pantoprazole | Gastroesophageal Reflux | Gültig |
+| EMEA/H/C/001098 | Somac Control | pantoprazole | Gastroesophageal Reflux | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "CAPECITABINE"
 predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Capecitabine: vorhergesagte neue Indikation Magenadenokarzinom und proximale Polyposis des Magens (gastric adenocarcinoma and proximal polyposis of the stomach) (Evidenzstufe L5). Ursprüngliche Indik…"
 ---
 
@@ -72,13 +72,19 @@ Für die vorhergesagte Indikation sind weder klinische Studien noch Literatur hi
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002386 | Capecitabine Accord | – | Colonic Neoplasms;Breast Neoplasms;Colorectal Neoplasms;Stomach Neoplasms |
-| EMEA/H/C/000316 | Xeloda | – | Colonic Neoplasms;Breast Neoplasms;Colorectal Neoplasms;Stomach Neoplasms |
-| EMEA/H/C/002362 | Capecitabine Teva | – | Colonic Neoplasms;Breast Neoplasms;Colorectal Neoplasms;Stomach Neoplasms |
-| EMEA/H/C/002605 | Ecansya (previously Capecitabine Krka) | – | Colonic Neoplasms;Breast Neoplasms;Colorectal Neoplasms;Stomach Neoplasms |
-| EMEA/H/C/002568 | Capecitabine Medac | – | Colorectal Neoplasms |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000316 | Xeloda | capecitabine | Colonic Neoplasms; Breast Neoplasms; Colorectal Neoplasms; Stomach Neoplasms | Gültig |
+| EMEA/H/C/002362 | Capecitabine Teva | capecitabine | Colonic Neoplasms; Breast Neoplasms; Colorectal Neoplasms; Stomach Neoplasms | Gültig |
+| EMEA/H/C/002386 | Capecitabine Accord | capecitabine | Colonic Neoplasms; Breast Neoplasms; Colorectal Neoplasms; Stomach Neoplasms | Gültig |
+| EMEA/H/C/002568 | Capecitabine Medac | capecitabine | Colorectal Neoplasms | Gültig |
+| EMEA/H/C/002605 | Ecansya (previously Capecitabine Krka) | capecitabine | Colonic Neoplasms; Breast Neoplasms; Colorectal Neoplasms; Stomach Neoplasms | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

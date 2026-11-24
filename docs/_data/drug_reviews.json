@@ -2112,7 +2112,11 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "programmatic-license-table-2026-11-24",
+   "superseded_on": "2026-11-24",
+   "superseded_note": "市場段落的 AI 許可證表換成程式依證據包產生的表（scripts/sync_license_tables.py），狀態欄照 EMA Medicine status；紀錄保留、頁面不顯示框"
   },
   {
    "id": "de-lic-20261106-granisetron-1",
@@ -5118,7 +5122,11 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "programmatic-license-table-2026-11-24",
+   "superseded_on": "2026-11-24",
+   "superseded_note": "市場段落的 AI 許可證表換成程式依證據包產生的表（scripts/sync_license_tables.py），狀態欄照 EMA Medicine status；紀錄保留、頁面不顯示框"
   },
   {
    "id": "de-lic-20261106-rivaroxaban-1",
@@ -6774,7 +6782,11 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（每週排程停損頁）"
+   "method": "2026-11-12 人工查核（每週排程停損頁）",
+   "status": "superseded",
+   "superseded_by": "programmatic-license-table-2026-11-24",
+   "superseded_on": "2026-11-24",
+   "superseded_note": "市場段落的 AI 許可證表換成程式依證據包產生的表（scripts/sync_license_tables.py），狀態欄照 EMA Medicine status；紀錄保留、頁面不顯示框"
   },
   {
    "drug": "meloxicam",
@@ -6955,7 +6967,11 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "programmatic-license-table-2026-11-24",
+   "superseded_on": "2026-11-24",
+   "superseded_note": "市場段落的 AI 許可證表換成程式依證據包產生的表（scripts/sync_license_tables.py），狀態欄照 EMA Medicine status；紀錄保留、頁面不顯示框"
   },
   {
    "id": "de-row-20261112-amifampridine-2",
@@ -6975,7 +6991,11 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "programmatic-license-table-2026-11-24",
+   "superseded_on": "2026-11-24",
+   "superseded_note": "市場段落的 AI 許可證表換成程式依證據包產生的表（scripts/sync_license_tables.py），狀態欄照 EMA Medicine status；紀錄保留、頁面不顯示框"
   },
   {
    "id": "de-row-20261112-ipilimumab-1",
@@ -6995,7 +7015,11 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "programmatic-license-table-2026-11-24",
+   "superseded_on": "2026-11-24",
+   "superseded_note": "市場段落的 AI 許可證表換成程式依證據包產生的表（scripts/sync_license_tables.py），狀態欄照 EMA Medicine status；紀錄保留、頁面不顯示框"
   },
   {
    "id": "de-row-20261112-linaclotide-1",
@@ -7015,7 +7039,11 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "programmatic-license-table-2026-11-24",
+   "superseded_on": "2026-11-24",
+   "superseded_note": "市場段落的 AI 許可證表換成程式依證據包產生的表（scripts/sync_license_tables.py），狀態欄照 EMA Medicine status；紀錄保留、頁面不顯示框"
   },
   {
    "id": "de-row-20261112-safinamide-1",
@@ -7035,7 +7063,11 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "programmatic-license-table-2026-11-24",
+   "superseded_on": "2026-11-24",
+   "superseded_note": "市場段落的 AI 許可證表換成程式依證據包產生的表（scripts/sync_license_tables.py），狀態欄照 EMA Medicine status；紀錄保留、頁面不顯示框"
   },
   {
    "id": "de-row-20261112-parathyroid_hormone-1",
@@ -7055,7 +7087,11 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "programmatic-license-table-2026-11-24",
+   "superseded_on": "2026-11-24",
+   "superseded_note": "市場段落的 AI 許可證表換成程式依證據包產生的表（scripts/sync_license_tables.py），狀態欄照 EMA Medicine status；紀錄保留、頁面不顯示框"
   },
   {
    "id": "de-moa-20261119-abacavir-1",
@@ -18386,6 +18422,150 @@
    ],
    "checked": "2026-11-20",
    "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "de-lic-20261124-aflibercept-1",
+   "drug": "aflibercept",
+   "file": "aflibercept.md",
+   "action": "correct",
+   "claim": " Die folgende Tabelle zeigt fünf davon.",
+   "replacement": "",
+   "summary": "Entfernt: „Die folgende Tabelle zeigt fünf davon.“",
+   "note": "Korrigiert: Die Tabelle unten wird jetzt programmatisch aus den EMA-Daten erzeugt und enthält alle erfassten zentralen EU-Zulassungen; der Hinweis auf eine Auswahl aus der früheren Tabelle trifft nicht mehr zu.",
+   "finding": "市場段落的 AI 許可證表換成程式依證據包產生的表（scripts/sync_license_tables.py）後，表上列出全部收錄的集中許可；原句描述舊表只列其中幾筆，已不成立",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-16"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 程式許可證表上線時的全量掃描（市場段落裡描述舊 AI 表列出幾筆的句子）",
+   "anchor": "Von 14 erfassten Zulassungen sind 14 gültig."
+  },
+  {
+   "id": "de-lic-20261124-denosumab-1",
+   "drug": "denosumab",
+   "file": "denosumab.md",
+   "action": "correct",
+   "claim": "Laut den für diesen Bericht zusammengestellten Daten sind 20 Zulassungen erfasst; die Liste kann unvollständig sein. Hauptsächliche Produkte (Auswahl von 5):",
+   "replacement": "",
+   "summary": "Entfernt: „… sind 20 Zulassungen erfasst; die Liste kann unvollständig sein. Hauptsächliche Produkte (Auswahl von 5):“",
+   "note": "Korrigiert: In den EMA-Daten sind 31 zentrale EU-Zulassungen erfasst, davon 20 im Einzelnen; die programmatisch erzeugte Tabelle unten nennt diese Zahlen und listet die 20 erfassten Zulassungen.",
+   "finding": "市場段落的 AI 許可證表換成程式依證據包產生的表（scripts/sync_license_tables.py）後，表上列出全部收錄的集中許可；原句描述舊表只列其中幾筆，已不成立",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-16"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 程式許可證表上線時的全量掃描（市場段落裡描述舊 AI 表列出幾筆的句子）",
+   "anchor": "## Marktinformationen Deutschland"
+  },
+  {
+   "id": "de-lic-20261124-emtricitabine-1",
+   "drug": "emtricitabine",
+   "file": "emtricitabine.md",
+   "action": "correct",
+   "claim": "Die Liste zeigt nur eine Auswahl der Zulassungen. ",
+   "replacement": "",
+   "summary": "Entfernt: „Die Liste zeigt nur eine Auswahl der Zulassungen.“",
+   "note": "Korrigiert: Die Tabelle unten wird jetzt programmatisch aus den EMA-Daten erzeugt und enthält alle erfassten zentralen EU-Zulassungen; der Hinweis auf eine Auswahl aus der früheren Tabelle trifft nicht mehr zu.",
+   "finding": "市場段落的 AI 許可證表換成程式依證據包產生的表（scripts/sync_license_tables.py）後，表上列出全部收錄的集中許可；原句描述舊表只列其中幾筆，已不成立",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-16"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 程式許可證表上線時的全量掃描（市場段落裡描述舊 AI 表列出幾筆的句子）",
+   "anchor": "Mehrere dieser Produkte sind Kombinationspräparate"
+  },
+  {
+   "id": "de-lic-20261124-formoterol-1",
+   "drug": "formoterol",
+   "file": "formoterol.md",
+   "action": "correct",
+   "claim": "Die Liste zeigt die ersten fünf von zehn gültigen Zulassungen.",
+   "replacement": "",
+   "summary": "Entfernt: „Die Liste zeigt die ersten fünf von zehn gültigen Zulassungen.“",
+   "note": "Korrigiert: Die Tabelle unten wird jetzt programmatisch aus den EMA-Daten erzeugt und enthält alle erfassten zentralen EU-Zulassungen; der Hinweis auf eine Auswahl aus der früheren Tabelle trifft nicht mehr zu.",
+   "finding": "市場段落的 AI 許可證表換成程式依證據包產生的表（scripts/sync_license_tables.py）後，表上列出全部收錄的集中許可；原句描述舊表只列其中幾筆，已不成立",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-16"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 程式許可證表上線時的全量掃描（市場段落裡描述舊 AI 表列出幾筆的句子）",
+   "anchor": "## Informationen zum deutschen Markt"
+  },
+  {
+   "id": "de-lic-20261124-pioglitazone-1",
+   "drug": "pioglitazone",
+   "file": "pioglitazone.md",
+   "action": "correct",
+   "claim": "Alle sechs Zulassungen sind gültig; eine sechste (Competact, EMEA/H/C/000655) ist hier nicht aufgeführt.",
+   "replacement": "Alle sechs Zulassungen sind gültig.",
+   "summary": "„eine sechste (Competact, EMEA/H/C/000655) ist hier nicht aufgeführt“ entfernt",
+   "note": "Korrigiert: Die programmatisch erzeugte Tabelle oben enthält alle sechs Zulassungen, auch Competact (EMEA/H/C/000655).",
+   "finding": "市場段落的 AI 許可證表換成程式依證據包產生的表（scripts/sync_license_tables.py）後，表上列出全部收錄的集中許可；原句描述舊表只列其中幾筆，已不成立",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-16"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 程式許可證表上線時的全量掃描（市場段落裡描述舊 AI 表列出幾筆的句子）"
+  },
+  {
+   "id": "de-lic-20261124-telmisartan-1",
+   "drug": "telmisartan",
+   "file": "telmisartan.md",
+   "action": "correct",
+   "claim": "Es handelt sich um zentrale EU-Zulassungen (EMEA). Auswahl:",
+   "replacement": "Es handelt sich um zentrale EU-Zulassungen (EMEA).",
+   "summary": "Entfernt: „Auswahl:“",
+   "note": "Korrigiert: Die Tabelle unten wird jetzt programmatisch aus den EMA-Daten erzeugt und enthält alle erfassten zentralen EU-Zulassungen; der Hinweis auf eine Auswahl aus der früheren Tabelle trifft nicht mehr zu.",
+   "finding": "市場段落的 AI 許可證表換成程式依證據包產生的表（scripts/sync_license_tables.py）後，表上列出全部收錄的集中許可；原句描述舊表只列其中幾筆，已不成立",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-16"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 程式許可證表上線時的全量掃描（市場段落裡描述舊 AI 表列出幾筆的句子）"
+  },
+  {
+   "id": "de-lic-20261124-tenofovir_disoproxil-1",
+   "drug": "tenofovir_disoproxil",
+   "file": "tenofovir_disoproxil.md",
+   "action": "correct",
+   "claim": "Das Arzneimittel ist in Deutschland im Handel. Auswahl von 5 Einträgen:",
+   "replacement": "Das Arzneimittel ist in Deutschland im Handel.",
+   "summary": "Entfernt: „Auswahl von 5 Einträgen:“",
+   "note": "Korrigiert: Die Tabelle unten wird jetzt programmatisch aus den EMA-Daten erzeugt und enthält alle erfassten zentralen EU-Zulassungen; der Hinweis auf eine Auswahl aus der früheren Tabelle trifft nicht mehr zu.",
+   "finding": "市場段落的 AI 許可證表換成程式依證據包產生的表（scripts/sync_license_tables.py）後，表上列出全部收錄的集中許可；原句描述舊表只列其中幾筆，已不成立",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-16"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 程式許可證表上線時的全量掃描（市場段落裡描述舊 AI 表列出幾筆的句子）"
   }
  ]
 }

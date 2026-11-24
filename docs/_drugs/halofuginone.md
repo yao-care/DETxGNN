@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "HALOFUGINONE"
 drugbank_id: DB04866
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Halofuginone: vorhergesagte neue Indikation Schwere nichtproliferative diabetische Retinopathie (severe nonproliferative diabetic retinopathy) (Evidenzstufe L5). Ursprüngliche Indikation: In den loka…"
 ---
 
@@ -80,6 +80,12 @@ Derzeit liegt keine relevante Literatur vor.
 ---
 
 ## Informationen zum Markt in Deutschland
+
+<!-- licenses:begin -->
+
+In den ausgewerteten EMA-Daten ist für diesen Wirkstoff keine zentrale EU-Zulassung eines Humanarzneimittels erfasst; nationale Zulassungen (BfArM) sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Laut den zusammengestellten Daten sind zwei Zulassungen erfasst (Halocur, Kriptazen); Angaben zu Darreichungsform und Indikationstext liegen nicht vor.
 

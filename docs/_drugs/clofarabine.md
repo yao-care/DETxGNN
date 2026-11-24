@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 118
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clofarabine: vorhergesagte neue Indikation Myeloische Leukämie (Evidenzstufe L1). Ursprüngliche Indikation: Vorläuferzell-lymphoblastische Leukämie/Lymphom"
 monitor_inn: "CLOFARABINE"
 predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"]
@@ -104,9 +104,15 @@ Die folgende Auswahl zeigt die relevantesten Studien (Phase 3 und Phase 2 mit gr
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000613 | Evoltra (Sanofi B.V.) | nicht angegeben | Vorläuferzell-lymphoblastische Leukämie/Lymphom |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000613 | Evoltra | clofarabine | Precursor Cell Lymphoblastic Leukemia-Lymphoma | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Die einzige Zulassung ist gültig (1 von 1 gültigen Zulassungen); das Arzneimittel ist in Deutschland im Handel.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "IMATINIB"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Imatinib: vorhergesagte neue Indikation Herzfibrosarkom (heart fibrosarcoma) (Evidenzstufe L5). Ursprüngliche Indikation: Precursor Cell Lymphoblastic Leukemia-Lymphoma"
 ---
 
@@ -71,6 +71,18 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 | [18623899](https://pubmed.ncbi.nlm.nih.gov/18623899/) | 2008 | Übersicht | Prescrire international | Überblick über neue Imatinib-Indikationen (u. a. Ph+ ALL); die Evidenz wird als nicht robust eingestuft. Kein Bezug zum Herzfibrosarkom. |
 
 ## Marktinformationen Deutschland
+
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000406 | Glivec | imatinib | Precursor Cell Lymphoblastic Leukemia-Lymphoma; Gastrointestinal Stromal Tumors; Dermatofibrosarcoma; Myelody… | Gültig |
+| EMEA/H/C/002585 | Imatinib Teva | imatinib | Leukemia, Myelogenous, Chronic, BCR-ABL Positive; Precursor Cell Lymphoblastic Leukemia-Lymphoma; Myelodyspla… | Gültig |
+| EMEA/H/C/002681 | Imatinib Accord | imatinib | Precursor Cell Lymphoblastic Leukemia-Lymphoma; Dermatofibrosarcoma; Myelodysplastic-Myeloproliferative Disea… | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Die Zulassungsliste wird vom Programm ergänzt.
 

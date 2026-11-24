@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 146
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Diroximel Fumarate: vorhergesagte neue Indikation Diabetische Katarakt (Evidenzstufe L5). Ursprüngliche Indikation: Multiple Sklerose, schubförmig remittierend"
 monitor_inn: "DIROXIMEL FUMARATE"
 predicted_indications: ["diabetic cataract", "diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "nuclear senile cataract", "cortical cataract", "craniostenosis cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "mature cataract", "immature cataract"]
@@ -84,9 +84,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005437 | Vumerity | – | Multiple Sklerose, schubförmig remittierend |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005437 | Vumerity | Diroximel fumarate (BIIB098) | Multiple Sclerosis, Relapsing-Remitting | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Das Arzneimittel ist in Deutschland im Verkehr. 1 von 1 Zulassung ist gültig.
 

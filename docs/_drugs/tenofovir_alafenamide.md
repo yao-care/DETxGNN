@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 454
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TENOFOVIR ALAFENAMIDE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Tenofovir Alafenamide: vorhergesagte neue Indikation Feline acquired immunodeficiency syndrome (Evidenzstufe L5). Ursprüngliche Indikation: Hepatitis B"
@@ -97,13 +97,22 @@ Alle 8 Zulassungen (zentrale EU-Zulassungen) sind gültig; das Arzneimittel ist 
 
 <!-- review:end de-lic-20261106-tenofovir_alafenamide-1 -->
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004169 | Vemlidy | – | Hepatitis B |
-| EMEA/H/C/004094 | Descovy | – | HIV-Infektionen |
-| EMEA/H/C/004156 | Odefsey | – | HIV-Infektionen |
-| EMEA/H/C/004449 | Biktarvy | – | HIV-Infektionen |
-| EMEA/H/C/004042 | Genvoya | – | HIV-Infektionen |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004042 | Genvoya | elvitegravir; cobicistat; emtricitabine; tenofovir alafenamide | HIV Infections | Gültig |
+| EMEA/H/C/004094 | Descovy | emtricitabine; tenofovir alafenamide | HIV Infections | Gültig |
+| EMEA/H/C/004156 | Odefsey | emtricitabine; rilpivirine hydrochloride; tenofovir alafenamide | HIV Infections | Gültig |
+| EMEA/H/C/004169 | Vemlidy | tenofovir alafenamide fumarate | Hepatitis B | Gültig |
+| EMEA/H/C/004391 | Symtuza | darunavir; cobicistat; emtricitabine; tenofovir alafenamide | HIV Infections | Gültig |
+| EMEA/H/C/004449 | Biktarvy | bictegravir; emtricitabine; tenofovir alafenamide; fumarate | HIV Infections | Gültig |
+| EMEA/H/C/006469 | Emtricitabine / Tenofovir alafenamide Viatris | emtricitabine; tenofovir alafenamide fumarate | HIV Infections | Gültig |
+| EMEA/H/C/006491 | Emtricitabine / Rilpivirine / Tenofovir Alafenamide Viatris | emtricitabine; rilpivirine hydrochloride; tenofovir alafenamide fumarate | HIV Infections | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

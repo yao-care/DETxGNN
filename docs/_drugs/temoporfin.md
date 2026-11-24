@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 450
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Temoporfin: vorhergesagte neue Indikation Nasopharyngeales Teratom (Evidenzstufe L5). Ursprüngliche Indikation: Kopf-Hals-Tumoren"
 monitor_inn: "TEMOPORFIN"
 predicted_indications: ["nasopharyngeal teratoma", "odontogenic cyst", "pre-malignant neoplasm", "epiglottis neoplasm", "tumor of testis and paratestis", "cystic neoplasm", "benign neoplasm of floor of mouth", "benign neoplasm of tongue", "benign neoplasm of hypopharynx", "cervical neuroblastoma"]
@@ -89,9 +89,15 @@ Für andere vorhergesagte Indikationen liegt indirekte Evidenz vor:
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000318 | Foscan | nicht angegeben | Kopf-Hals-Tumoren; Plattenepithelkarzinom (Status: gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000318 | Foscan | temoporfin | Head and Neck Neoplasms; Carcinoma, Squamous Cell | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

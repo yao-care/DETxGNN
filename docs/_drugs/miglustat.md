@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 302
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Miglustat: vorhergesagte neue Indikation Autosomal-rezessives ichthyotisches Syndrom mit letalem Verlauf (Evidenzstufe L5). Ursprüngliche Indikation: Glykogenspeicherkrankheit Typ II (Morbus Pompe)"
 monitor_inn: "MIGLUSTAT"
 predicted_indications: ["autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "Krabbe disease", "metachromatic leukodystrophy", "Wolman disease with hypolipoproteinemia and acanthocytosis", "encephalopathy due to prosaposin deficiency", "Tay-Sachs disease", "benign neoplasm of adrenal gland", "recessive X-linked ichthyosis", "fatty acid hydroxylase-associated neurodegeneration"]
@@ -70,13 +70,19 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 
 Alle fünf Zulassungen sind gültig. Es handelt sich um zentrale EU-Zulassungen (EMEA). Angaben zur Darreichungsform liegen nicht vor.
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005695 | Opfolda | k. A. | Glykogenspeicherkrankheit Typ II |
-| EMEA/H/C/004366 | Miglustat Gen.Orph | k. A. | Morbus Gaucher |
-| EMEA/H/C/004904 | Miglustat Dipharma | k. A. | Morbus Gaucher |
-| EMEA/H/C/000435 | Zavesca | k. A. | Morbus Gaucher; Niemann-Pick-Krankheit |
-| EMEA/H/C/004016 | Yargesa | k. A. | Morbus Gaucher |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000435 | Zavesca | miglustat | Gaucher Disease; Niemann-Pick Diseases | Gültig |
+| EMEA/H/C/004016 | Yargesa | miglustat | Gaucher Disease | Gültig |
+| EMEA/H/C/004366 | Miglustat Gen.Orph | miglustat | Gaucher Disease | Gültig |
+| EMEA/H/C/004904 | Miglustat Dipharma | miglustat | Gaucher Disease | Gültig |
+| EMEA/H/C/005695 | Opfolda | miglustat | Glycogen Storage Disease Type II | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

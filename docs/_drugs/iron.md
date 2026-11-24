@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "IRON"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 description: "Iron: vorhergesagte neue Indikation Vitamin-B12- und folatunabhängige konstitutionelle megaloblastäre Anämie (vitamin B12- and folate-independent constitut… (Evidenzstufe L5). Ursprüngliche Indikatio…"
 ---
 
@@ -68,8 +68,11 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
+<!-- licenses:begin -->
+
+In den ausgewerteten EMA-Daten ist für diesen Wirkstoff keine zentrale EU-Zulassung eines Humanarzneimittels erfasst; nationale Zulassungen (BfArM) sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Die Einträge sind zentrale EU-Zulassungsnummern (EMEA/V/C). In den lokalen Daten ist kein Indikationstext hinterlegt.
 

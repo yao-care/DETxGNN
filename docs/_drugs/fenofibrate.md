@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "FENOFIBRATE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fenofibrate: vorhergesagte neue Indikation Cholesterinester-Transferprotein-Mangel (Evidenzstufe L5). Ursprüngliche Indikation: Dyslipidämien"
 ---
 
@@ -86,10 +86,16 @@ Keine dieser Arbeiten untersucht Fenofibrat direkt bei CETP-Mangel beim Menschen
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002559 | Cholib | – | Dyslipidämien |
-| EMEA/H/C/001243 | Pravafenix | – | Dyslipidämien |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001243 | Pravafenix | fenofibrate; pravastatin | Dyslipidemias | Gültig |
+| EMEA/H/C/002559 | Cholib | fenofibrate; simvastatin | Dyslipidemias | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

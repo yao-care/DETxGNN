@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 309
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nelarabine: vorhergesagte neue Indikation Schubförmig-remittierende Multiple Sklerose (Evidenzstufe L5). Ursprüngliche Indikation: Vorläufer-T-Zell-lymphoblastische Leukämie/Lymphom"
 monitor_inn: "NELARABINE"
 predicted_indications: ["relapsing-remitting multiple sclerosis"]
@@ -86,9 +86,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000752 | Atriance (Sandoz Pharmaceuticals d.d.) | – | Vorläufer-T-Zell-lymphoblastische Leukämie/Lymphom |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000752 | Atriance | nelarabine | Precursor T-Cell Lymphoblastic Leukemia-Lymphoma | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

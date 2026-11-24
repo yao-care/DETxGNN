@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 355
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 description: "Pertuzumab: vorhergesagte neue Indikation Ectomesenchymoma (Evidenzstufe L5). Ursprüngliche Indikation: Breast Neoplasms"
@@ -95,11 +95,17 @@ Wichtig: Die Studienlage bezieht sich überwiegend auf HER2-positive Kohorten in
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002547 | Perjeta | – | Mammakarzinom |
-| EMEA/H/C/006583 | Poherdy | – | Mammakarzinom |
-| EMEA/H/C/005386 | Phesgo | – | Mammakarzinom |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002547 | Perjeta | pertuzumab | Breast Neoplasms | Gültig |
+| EMEA/H/C/005386 | Phesgo | pertuzumab; trastuzumab | Breast Neoplasms | Gültig |
+| EMEA/H/C/006583 | Poherdy | pertuzumab | Breast Neoplasms | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Alle drei Zulassungen sind gültig.
 

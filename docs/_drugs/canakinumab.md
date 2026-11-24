@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 94
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Canakinumab: vorhergesagte neue Indikation Leberinfarkt (hepatic infarction) (Evidenzstufe L5). Ursprüngliche Indikation: Cryopyrin-assoziierte periodische Syndrome"
 monitor_inn: "CANAKINUMAB"
 predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "syndrome with combined immunodeficiency", "periodic fever-infantile enterocolitis-autoinflammatory syndrome", "extracutaneous mastocytoma", "Blau syndrome", "monosomy X", "liver angiosarcoma"]
@@ -78,9 +78,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Hersteller | Status | Zugelassene Indikation |
-|---------|------|------|------|-----------|
-| EMEA/H/C/001109 | Ilaris | Novartis Europharm Limited | Gültig | Cryopyrin-assoziierte periodische Syndrome; juvenile rheumatoide Arthritis; Gichtarthritis |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001109 | Ilaris | Canakinumab | Cryopyrin-Associated Periodic Syndromes; Arthritis, Juvenile Rheumatoid; Arthritis, Gouty | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

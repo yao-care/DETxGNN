@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 372
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PRILOCAINE"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
 description: "Prilocaine: vorhergesagte neue Indikation Papillary conjunctivitis (Evidenzstufe L5). Ursprüngliche Indikation: Sexual Dysfunction, Physiological"
@@ -96,9 +96,15 @@ Die Evidenz ist jedoch begrenzt: Kleine Studien aus dem Jahr 1989 berichten übe
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002693 | Fortacin (Recordati Ireland Ltd.) | Keine Angabe | Physiologische sexuelle Funktionsstörung (Status: gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002693 | Fortacin | lidocaine; prilocaine | Sexual Dysfunction, Physiological | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Levodopa: vorhergesagte neue Indikation Rasmussen-Enzephalitis (Rasmussen subacute encephalitis) (Evidenzstufe L5). Ursprüngliche Indikation: Morbus Parkinson"
 monitor_inn: "LEVODOPA"
 predicted_indications: ["Rasmussen subacute encephalitis"]
@@ -80,15 +80,21 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004786 | Inbrija | – | Morbus Parkinson |
-| EMEA/H/C/006429 | Onerji | – | Morbus Parkinson |
-| EMEA/H/C/000511 | Stalevo | – | Morbus Parkinson |
-| EMEA/H/C/002785 | Corbilta (zuvor Levodopa/Carbidopa/Entacapone Sandoz) | – | Morbus Parkinson |
-| EMEA/H/C/002441 | Levodopa/Carbidopa/Entacapone Orion | – | Morbus Parkinson |
+<!-- licenses:begin -->
 
-Von fünf Zulassungen sind vier gültig; das Arzneimittel ist in Deutschland im Handel.
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000511 | Stalevo | levodopa; carbidopa; entacapone | Parkinson Disease | Gültig |
+| EMEA/H/C/002441 | Levodopa/Carbidopa/Entacapone Orion | levodopa; carbidopa; entacapone | Parkinson Disease | Gültig |
+| EMEA/H/C/002785 | Corbilta (previously Levodopa/Carbidopa/Entacapone Sandoz) | levodopa; carbidopa; entacapone | Parkinson Disease | Gültig |
+| EMEA/H/C/004786 | Inbrija | levodopa | Parkinson Disease | Gültig |
+| EMEA/H/C/006429 | Onerji | levodopa; carbidopa | Parkinson Disease | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
+
+Von fünf Zulassungen sind fünf gültig; das Arzneimittel ist in Deutschland im Handel.
 
 ---
 

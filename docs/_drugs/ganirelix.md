@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 206
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ganirelix: vorhergesagte neue Indikation Hypertrichose (Evidenzstufe L5). Ursprüngliche Indikation: Assistierte Reproduktionstechniken"
 monitor_inn: "GANIRELIX"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial male-limited precocious puberty", "persistent fetal circulation syndrome", "aromatase excess syndrome", "centra precocious puberty 1", "familial isolated trichomegaly"]
@@ -86,10 +86,16 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
-|---------|------|------|-----------|------|
-| EMEA/H/C/000274 | Orgalutran | – | Assistierte Reproduktionstechniken; Ovulationsinduktion; weibliche Infertilität | Gültig |
-| EMEA/H/C/005641 | Ganirelix Gedeon Richter | – | Assistierte Reproduktionstechniken; Ovulationsinduktion; weibliche Infertilität | Gültig |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000274 | Orgalutran | ganirelix | Reproductive Techniques, Assisted; Ovulation Induction; Infertility, Female | Gültig |
+| EMEA/H/C/005641 | Ganirelix Gedeon Richter | ganirelix acetate | Reproductive Techniques, Assisted; Ovulation Induction; Infertility, Female | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

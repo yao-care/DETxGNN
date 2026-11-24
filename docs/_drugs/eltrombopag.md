@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 163
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eltrombopag: vorhergesagte neue Indikation HIV-Infektionskrankheit (Evidenzstufe L3). Ursprüngliche Indikation: Idiopathische thrombozytopenische Purpura"
 monitor_inn: "ELTROMBOPAG"
 predicted_indications: ["HIV infectious disease"]
@@ -93,9 +93,15 @@ Diese Studie darf nicht als direkte Phase-3-Evidenz für HIV gewertet werden.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/001110 | Revolade (Novartis Europharm Limited) | Nicht angegeben | Idiopathische thrombozytopenische Purpura; aplastische Anämie (Status: gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001110 | Revolade | eltrombopag | Purpura, Thrombocytopenic, Idiopathic; Anemia, Aplastic | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 240
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Degludec: vorhergesagte neue Indikation autoimmune Oophoritis (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes mellitus"
 monitor_inn: "INSULIN DEGLUDEC"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
@@ -114,11 +114,17 @@ Es sind 40 Studien erfasst; nachfolgend die 10 relevantesten (direkter Degludec-
 
 Alle drei Zulassungen sind gültig (3 von 3); das Arzneimittel ist im Handel.
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002498 | Tresiba | – | Diabetes mellitus |
-| EMEA/H/C/002499 | Ryzodeg | – | Diabetes mellitus |
-| EMEA/H/C/002647 | Xultophy | – | Diabetes mellitus, Typ 2 |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002498 | Tresiba | insulin degludec | Diabetes Mellitus | Gültig |
+| EMEA/H/C/002499 | Ryzodeg | insulin aspart; insulin degludec | Diabetes Mellitus | Gültig |
+| EMEA/H/C/002647 | Xultophy | insulin degludec; liraglutide | Diabetes Mellitus, Type 2 | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

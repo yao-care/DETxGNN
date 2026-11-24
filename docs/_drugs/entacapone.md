@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ENTACAPONE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Entacapone: vorhergesagte neue Indikation PLA2G6-assoziierte Neurodegeneration (PLA2G6-associated neurodegeneration) (Evidenzstufe L5). Ursprüngliche Indikation: Parkinson Disease"
 ---
 
@@ -70,13 +70,21 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002075 | Entacapone Teva | – | Parkinson-Krankheit |
-| EMEA/H/C/000170 | Comtess | – | Parkinson-Krankheit |
-| EMEA/H/C/002440 | Entacapone Orion | – | Parkinson-Krankheit |
-| EMEA/H/C/000171 | Comtan | – | Parkinson-Krankheit |
-| EMEA/H/C/000511 | Stalevo | – | Parkinson-Krankheit |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000170 | Comtess | entacapone | Parkinson Disease | Gültig |
+| EMEA/H/C/000171 | Comtan | entacapone | Parkinson Disease | Gültig |
+| EMEA/H/C/000511 | Stalevo | levodopa; carbidopa; entacapone | Parkinson Disease | Gültig |
+| EMEA/H/C/002075 | Entacapone Teva | entacapone | Parkinson Disease | Gültig |
+| EMEA/H/C/002440 | Entacapone Orion | entacapone | Parkinson Disease | Gültig |
+| EMEA/H/C/002441 | Levodopa/Carbidopa/Entacapone Orion | levodopa; carbidopa; entacapone | Parkinson Disease | Gültig |
+| EMEA/H/C/002785 | Corbilta (previously Levodopa/Carbidopa/Entacapone Sandoz) | levodopa; carbidopa; entacapone | Parkinson Disease | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitshinweise
 

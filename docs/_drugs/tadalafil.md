@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 441
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TADALAFIL"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 description: "Tadalafil: vorhergesagte neue Indikation Ambras type hypertrichosis universalis congenita (Evidenzstufe L5). Ursprüngliche Indikation: Hypertension, Pulmonary"
@@ -96,13 +96,20 @@ Alle sechs erfassten Zulassungen sind gültig (zentrale EU-Zulassungen der EMA):
 
 <!-- review:end de-lic-20261106-tadalafil-1 -->
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/001021 | Adcirca (zuvor Tadalafil Lilly) | – | Pulmonale Hypertonie |
-| EMEA/H/C/004297 | Talmanco (zuvor Tadalafil Generics) | – | Pulmonale Hypertonie |
-| EMEA/H/C/000436 | Cialis | – | Erektile Dysfunktion |
-| EMEA/H/C/004666 | Tadalafil Lilly | – | Erektile Dysfunktion |
-| EMEA/H/C/003787 | Tadalafil Mylan | – | Erektile Dysfunktion |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000436 | Cialis | tadalafil | Erectile Dysfunction | Gültig |
+| EMEA/H/C/001021 | Adcirca (previously Tadalafil Lilly) | tadalafil | Hypertension, Pulmonary | Gültig |
+| EMEA/H/C/003787 | Tadalafil Mylan | tadalafil | Erectile Dysfunction | Gültig |
+| EMEA/H/C/004297 | Talmanco (previously Tadalafil Generics) | tadalafil | Hypertension, Pulmonary | Gültig |
+| EMEA/H/C/004666 | Tadalafil Lilly | tadalafil | Erectile Dysfunction | Gültig |
+| EMEA/H/C/005001 | Yuvanci | macitentan; tadalafil | Pulmonary Arterial Hypertension | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

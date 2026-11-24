@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Meropenem"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "Ureaplasma urethritis", "gonococcal urethritis"]
 description: "Meropenem: vorhergesagte neue Indikation bakterielle Arthritis (bacterial arthritis) (Evidenzstufe L5). Zentrale EU-Zulassungen (EMA): 1 (gültig: 1)"
@@ -81,9 +81,15 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004669 | Vaborem | – | Harnwegsinfektionen, Bakteriämie, bakterielle Infektionen, Atemwegsinfektionen, Pneumonie, beatmungsassoziierte Pneumonie |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004669 | Vaborem | meropenem trihydrate; vaborbactam | Urinary Tract Infections; Bacteremia; Bacterial Infections; Respiratory Tract Infections; Pneumonia; Pneumoni… | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

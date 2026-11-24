@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 308
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Natalizumab: vorhergesagte neue Indikation Bronchitis (Rang 1) (Evidenzstufe L5). Ursprüngliche Indikation: Multiple Sklerose"
 monitor_inn: "NATALIZUMAB"
 predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
@@ -95,10 +95,16 @@ Weitere Publikationen (z. B. PMID 32470781, ein Fallbericht zu unerwarteten derm
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000603 | Tysabri (Biogen Netherlands B.V.) | – | Multiple Sklerose |
-| EMEA/H/C/005752 | Tyruko (Sandoz GmbH) | – | Multiple Sklerose, schubförmig-remittierende MS |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000603 | Tysabri | natalizumab | Multiple Sclerosis | Gültig |
+| EMEA/H/C/005752 | Tyruko | natalizumab | Multiple Sclerosis, Relapsing-Remitting; Multiple Sclerosis | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Der Marktstatus sollte vor weiteren Arbeiten verifiziert werden.
 

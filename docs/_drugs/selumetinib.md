@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 424
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Selumetinib: vorhergesagte neue Indikation Familiäre generalisierte Lentiginose (Evidenzstufe L5). Ursprüngliche Indikation: Neurofibromatose 1"
 monitor_inn: "Selumetinib"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "rhabdoid tumor", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "acromelanosis", "Moynahan syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "peripheral nerve schwannoma", "trigeminal schwannoma"]
@@ -103,9 +103,15 @@ Zum Rhabdoidtumor (Rang 3) gibt es außerdem die präklinische Arbeit [25638158]
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005244 | Koselugo (AstraZeneca AB) | nicht angegeben | Neurofibromatose 1 |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005244 | Koselugo | selumetinib sulfate | Neurofibromatosis 1 | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Der Status dieser Zulassung ist „gültig"; in den zusammengestellten Daten ist 1 von 1 Zulassung gültig.
 

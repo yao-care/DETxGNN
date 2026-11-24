@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 180
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Esketamine: vorhergesagte neue Indikation Agoraphobie (Evidenzstufe L5). Ursprüngliche Indikation: Depressive Störung"
 monitor_inn: "Esketamine"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
@@ -72,9 +72,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004535 | Spravato | – | Depressive Störung |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004535 | Spravato | esketamine hydrochloride | Depressive Disorder | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Diese Zulassung (Janssen-Cilag International NV) ist gültig. Das Arzneimittel ist im Markt.
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 364
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ponatinib: vorhergesagte neue Indikation Gingivale Fibromatose (Evidenzstufe L5). Ursprüngliche Indikation: Myeloische und lymphatische Leukämie"
 monitor_inn: "PONATINIB"
 predicted_indications: ["fibromatosis, gingival", "liposarcoma"]
@@ -96,9 +96,15 @@ Für die zweitplatzierte Vorhersage Liposarkom wurde eine Publikation identifizi
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002695 | Iclusig (Incyte Biosciences Distribution B.V.) | – | Myeloische und lymphatische Leukämie (Zulassung gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002695 | Iclusig | ponatinib | Leukemia, Myeloid; Leukemia, Lymphoid | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

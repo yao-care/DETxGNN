@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 476
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Trabectedin: vorhergesagte neue Indikation Weibliches Mammakarzinom (Evidenzstufe L5). Ursprüngliche Indikation: Sarkom"
 monitor_inn: "TRABECTEDIN"
 predicted_indications: ["female breast carcinoma"]
@@ -94,10 +94,16 @@ Präklinisch gibt es Hinweise auf Synergie mit IL-12 beim triple-negativen Mamma
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/006433 | Trabectedin Accord | – | Sarkom; Ovarialkarzinom (gültig) |
-| EMEA/H/C/000773 | Yondelis | – | Ovarialkarzinom; Sarkom (gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000773 | Yondelis | trabectedin | Ovarian Neoplasms; Sarcoma | Gültig |
+| EMEA/H/C/006433 | Trabectedin Accord | trabectedin | Sarcoma; Ovarian Neoplasms | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

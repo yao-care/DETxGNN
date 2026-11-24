@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 359
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pioglitazone: vorhergesagte neue Indikation Opsismodysplasie (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes mellitus Typ 2"
 monitor_inn: "PIOGLITAZONE"
 predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -80,15 +80,28 @@ Derzeit ist keine zugehörige Literatur zur Opsismodysplasie vorhanden.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002277 | Pioglitazone Accord | – | Diabetes mellitus Typ 2 |
-| EMEA/H/C/002324 | Pioglitazone Actavis | – | Diabetes mellitus Typ 2 |
-| EMEA/H/C/000285 | Actos | – | Diabetes mellitus Typ 2 |
-| EMEA/H/C/000680 | Tandemact | – | Diabetes mellitus Typ 2 |
-| EMEA/H/C/002178 | Incresync | – | Diabetes mellitus Typ 2 |
+<!-- licenses:begin -->
 
-Alle sechs Zulassungen sind gültig; eine sechste (Competact, EMEA/H/C/000655) ist hier nicht aufgeführt.
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000285 | Actos | pioglitazone hydrochloride | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/000655 | Competact | pioglitazone; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/000680 | Tandemact | pioglitazone; glimepiride | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/002178 | Incresync | alogliptin; pioglitazone | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/002277 | Pioglitazone Accord | pioglitazone hydrochloride | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/002324 | Pioglitazone Actavis | pioglitazone hydrochloride | Diabetes Mellitus, Type 2 | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
+
+Alle sechs Zulassungen sind gültig.
+
+<!-- review:begin de-lic-20261124-pioglitazone-1 -->
+
+> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „Alle sechs Zulassungen sind gültig; eine sechste (Competact, EMEA/H/C/000655) ist hier nicht aufgeführt.“ Korrigiert: Die programmatisch erzeugte Tabelle oben enthält alle sechs Zulassungen, auch Competact (EMEA/H/C/000655). Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261124-pioglitazone-1 -->
 
 ---
 
@@ -118,11 +131,12 @@ Für die Opsismodysplasie gibt es weder klinische Studien noch Literatur; der Vo
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c) |
+| 2026-11-24 | „eine sechste (Competact, EMEA/H/C/000655) ist hier nicht aufgeführt“ entfernt | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

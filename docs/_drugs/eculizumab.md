@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 156
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eculizumab: vorhergesagte neue Indikation Zyklische Hämatopoese (Evidenzstufe L5). Ursprüngliche Indikation: Paroxysmale nächtliche Hämoglobinurie"
 monitor_inn: "ECULIZUMAB"
 predicted_indications: ["cyclic hematopoiesis", "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency", "X-linked severe congenital neutropenia", "congenital neutropenia-myelofibrosis-nephromegaly syndrome", "adult idiopathic neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "autosomal recessive severe congenital neutropenia due to CSF3R deficiency", "severe congenital neutropenia", "primary release disorder of platelets"]
@@ -91,11 +91,17 @@ Bei den weiteren Vorhersagen sind die gefundenen Publikationen nicht krankheitss
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000791 | Soliris | – | Paroxysmale nächtliche Hämoglobinurie |
-| EMEA/H/C/006036 | Epysqli | – | Paroxysmale nächtliche Hämoglobinurie |
-| EMEA/H/C/005652 | Bekemv | – | Paroxysmale nächtliche Hämoglobinurie |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000791 | Soliris | Eculizumab | Hemoglobinuria, Paroxysmal | Gültig |
+| EMEA/H/C/005652 | Bekemv | Eculizumab | Hemoglobinuria, Paroxysmal | Gültig |
+| EMEA/H/C/006036 | Epysqli | Eculizumab | Hemoglobinuria, Paroxysmal | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Alle drei Zulassungen haben den Status „gültig“.
 

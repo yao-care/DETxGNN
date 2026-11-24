@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "CABAZITAXEL"
 predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin E disease syndrome", "sickle cell-hemoglobin d disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "HIV infectious disease", "hyperthyroidism", "neuroblastoma", "rheumatoid arthritis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cabazitaxel: vorhergesagte neue Indikation Weibliches Mammakarzinom (female breast carcinoma) (Evidenzstufe L5). Ursprüngliche Indikation: Prostatakarzinom (Prostatic Neoplasms)"
 ---
 
@@ -85,10 +85,16 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002018 | Jevtana | – | Prostatakarzinom (Prostatic Neoplasms) |
-| EMEA/H/C/005178 | Cabazitaxel Accord | – | Kastrationsresistentes Prostatakarzinom (Prostatic Neoplasms, Castration-Resistant) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002018 | Jevtana | cabazitaxel | Prostatic Neoplasms | Gültig |
+| EMEA/H/C/005178 | Cabazitaxel Accord | cabazitaxel | Prostatic Neoplasms, Castration-Resistant | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Zytotoxizität
 

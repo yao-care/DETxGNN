@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 407
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RITONAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Ritonavir: vorhergesagte neue Indikation Simian immunodeficiency virus infection (Evidenzstufe L4). Ursprüngliche Indikation: HIV Infections"
@@ -93,13 +93,19 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000127 | Norvir | – | HIV-Infektion |
-| EMEA/H/C/004549 | Ritonavir Viatris (zuvor Ritonavir Mylan) | – | HIV-Infektion |
-| EMEA/H/C/005973 | Paxlovid | – | COVID-19-Virusinfektion |
-| EMEA/H/C/004025 | Lopinavir/Ritonavir Viatris (zuvor Ritonavir Mylan) | – | HIV-Infektion |
-| EMEA/H/C/000368 | Kaletra | – | HIV-Infektion |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000127 | Norvir | ritonavir | HIV Infections | Gültig |
+| EMEA/H/C/000368 | Kaletra | lopinavir; ritonavir | HIV Infections | Gültig |
+| EMEA/H/C/004025 | Lopinavir/Ritonavir Viatris (previously Ritonavir Mylan) | lopinavir; ritonavir | HIV Infections | Gültig |
+| EMEA/H/C/004549 | Ritonavir Viatris (previously Ritonavir Mylan) | ritonavir | HIV Infections | Gültig |
+| EMEA/H/C/005973 | Paxlovid | nirmatrelvir; ritonavir | COVID-19 virus infection | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Alle fünf Zulassungen (5 von 5) sind gültig; das Arzneimittel ist derzeit im Handel.
 

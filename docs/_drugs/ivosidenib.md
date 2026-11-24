@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 252
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Ivosidenib: vorhergesagte neue Indikation Bulbäre Poliomyelitis (Evidenzstufe L5). Ursprüngliche Indikation: Akute myeloische Leukämie"
 monitor_inn: "IVOSIDENIB"
 predicted_indications: ["bulbar polio"]
@@ -84,9 +84,15 @@ Derzeit liegt keine einschlägige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005936 | Tibsovo (Les Laboratoires Servier) | – | Akute myeloische Leukämie; Cholangiokarzinom |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005936 | Tibsovo | Ivosidenib | Leukemia, Myeloid, Acute; Cholangiocarcinoma | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Es liegt 1 gültige Zulassung von 1 vor; das Arzneimittel ist im Handel.
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 444
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TASIMELTEON"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "insomnia (disease)", "amyotrophic lateral sclerosis", "endogenous depression", "axial spondylometaphyseal dysplasia", "monomelic amyotrophy", "lower motor neuron syndrome with late-adult onset", "Mills syndrome", "amyotrohpic lateral sclerosis type 22"]
 description: "Tasimelteon: vorhergesagte neue Indikation Bilateral parasagittal parieto-occipital polymicrogyria (Evidenzstufe L5). Ursprüngliche Indikation: Sleep Disorders, Circadian Rhythm"
@@ -91,9 +91,15 @@ Die ursprüngliche Indikation (zirkadiane Schlafrhythmusstörungen) und Insomnie
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/003870 | Hetlioz | – | Schlafstörungen, zirkadiane Rhythmusstörungen (Status: gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003870 | Hetlioz | tasimelteon | Sleep Disorders, Circadian Rhythm | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

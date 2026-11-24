@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 7
 monitor_inn: "ABATACEPT"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Abatacept: vorhergesagte neue Indikation Morbus Bechterew (ankylosing spondylitis) (Evidenzstufe L3). Ursprüngliche Indikation: Arthritis, Psoriatic"
 ---
 
@@ -92,6 +92,16 @@ Die mechanistische Verbindung zur axialen Spondyloarthritis gilt jedoch als schw
 ---
 
 ## Informationen zum deutschen Markt
+
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000701 | Orencia | abatacept | Arthritis, Psoriatic; Arthritis, Juvenile Rheumatoid; Arthritis, Rheumatoid | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Abatacept ist laut den lokalen Zulassungsdaten in Deutschland im Handel. Die Zulassung läuft über ein zentrales europäisches Verfahren (Produkt Orencia, Bristol-Myers Squibb Pharma EEIG).
 

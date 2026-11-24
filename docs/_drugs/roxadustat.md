@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 414
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Roxadustat: vorhergesagte neue Indikation Trockenes-Auge-Syndrom (dry eye syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: Anämie"
 monitor_inn: "ROXADUSTAT"
 predicted_indications: ["dry eye syndrome", "bone Paget disease", "dentinogenesis imperfecta", "squamous cell carcinoma"]
@@ -88,9 +88,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004871 | Evrenzo (Astellas Pharma Europe B.V.) | – | Anämie; chronische Niereninsuffizienz (Status: gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/004871 | Evrenzo | roxadustat | Anemia; Kidney Failure, Chronic | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 188
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Evolocumab: vorhergesagte neue Indikation Symptomatische Form der Hämophilie bei weiblichen Trägerinnen (Evidenzstufe L5). Ursprüngliche Indikation: Dyslipidämien"
 monitor_inn: "EVOLOCUMAB"
 predicted_indications: ["symptomatic form of hemophilia in female carriers", "familial apolipoprotein C-II deficiency", "thrombocytopenic purpura", "factor XI deficiency", "hemophilia A with vascular abnormality", "disease of catalytic activity"]
@@ -80,9 +80,15 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/003766 | Repatha (Amgen Europe B.V.) | – | Dyslipidämien; Hypercholesterinämie (Status: gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003766 | Repatha | Evolocumab | Dyslipidemias; Hypercholesterolemia | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

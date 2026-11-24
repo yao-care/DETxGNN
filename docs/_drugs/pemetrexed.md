@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 351
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: vorhergesagte neue Indikation Pleural adenomatoid tumor (Evidenzstufe L5). Ursprüngliche Indikation: Carcinoma, Non-Small-Cell Lung"
@@ -103,12 +103,18 @@ Wichtig: Die Datenlage speziell für das Peritoneum stammt überwiegend aus Phas
 
 Alle vier Zulassungen sind zentrale EU-Zulassungen (EMA) und derzeit gültig.
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000564 | Alimta | – | Mesotheliom; nicht-kleinzelliges Lungenkarzinom |
-| EMEA/H/C/003895 | Pemetrexed Fresenius Kabi | – | Nicht-kleinzelliges Lungenkarzinom; Mesotheliom |
-| EMEA/H/C/003905 | Pemetrexed medac | – | Nicht-kleinzelliges Lungenkarzinom; Mesotheliom |
-| EMEA/H/C/003970 | Pemetrexed Pfizer (zuvor Pemetrexed Hospira) | – | Nicht-kleinzelliges Lungenkarzinom; Mesotheliom |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000564 | Alimta | pemetrexed | Mesothelioma; Carcinoma, Non-Small-Cell Lung | Gültig |
+| EMEA/H/C/003895 | Pemetrexed Fresenius Kabi | pemetrexed | Carcinoma, Non-Small-Cell Lung; Mesothelioma | Gültig |
+| EMEA/H/C/003970 | Pemetrexed Pfizer (previously Pemetrexed Hospira) | pemetrexed disodium; pemetrexed disodium hemipentahydrate | Carcinoma, Non-Small-Cell Lung; Mesothelioma | Gültig |
+| EMEA/H/C/003905 | Pemetrexed medac | pemetrexed | Carcinoma, Non-Small-Cell Lung; Mesothelioma | Zurückgezogen |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

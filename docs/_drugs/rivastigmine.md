@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 409
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rivastigmine: vorhergesagte neue Indikation Glaukom (Evidenzstufe L5). Ursprüngliche Indikation: Demenz"
 monitor_inn: "RIVASTIGMINE"
 predicted_indications: ["glaucoma"]
@@ -86,13 +86,20 @@ Derzeit sind keine relevanten klinischen Studien registriert.
 
 Alle sechs Zulassungen sind gültig; das Arzneimittel ist aktuell im Verkehr.
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000169 | Exelon | – | Demenz; Alzheimer-Krankheit; Parkinson-Krankheit |
-| EMEA/H/C/000255 | Prometax | – | Alzheimer-Krankheit; Parkinson-Krankheit; Demenz |
-| EMEA/H/C/001029 | Nimvastid | – | Demenz; Alzheimer-Krankheit; Parkinson-Krankheit |
-| EMEA/H/C/001181 | Rivastigmine 1 A Pharma | – | Alzheimer-Krankheit; Demenz; Parkinson-Krankheit |
-| EMEA/H/C/001182 | Rivastigmine Hexal | – | Demenz; Alzheimer-Krankheit; Parkinson-Krankheit |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000169 | Exelon | rivastigmine | Dementia; Alzheimer Disease; Parkinson Disease | Gültig |
+| EMEA/H/C/000255 | Prometax | rivastigmine | Alzheimer Disease; Parkinson Disease; Dementia | Gültig |
+| EMEA/H/C/001029 | Nimvastid | rivastigmine | Dementia; Alzheimer Disease; Parkinson Disease | Gültig |
+| EMEA/H/C/001181 | Rivastigmine 1 A Pharma | rivastigmine | Alzheimer Disease; Dementia; Parkinson Disease | Gültig |
+| EMEA/H/C/001182 | Rivastigmine Hexal | rivastigmine | Dementia; Alzheimer Disease; Parkinson Disease | Gültig |
+| EMEA/H/C/001183 | Rivastigmine Sandoz | rivastigmine | Dementia; Alzheimer Disease; Parkinson Disease | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

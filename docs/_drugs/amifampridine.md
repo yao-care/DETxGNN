@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 29
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amifampridine: vorhergesagte neue Indikation Glaukom (Evidenzstufe L5). Ursprüngliche Indikation: Lambert-Eaton-Myasthenie-Syndrom"
 monitor_inn: "AMIFAMPRIDINE"
 predicted_indications: ["glaucoma", "acute intermittent porphyria"]
@@ -82,22 +82,16 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005839 | Amifampridine SERB | – | Lambert-Eaton-Myasthenie-Syndrom, paraneoplastische Syndrome des Nervensystems, Neoplasmen des Nervensystems, paraneop... |
-| EMEA/H/C/001032 | Firdapse (zuvor Zenas) | – | Lambert-Eaton-Myasthenie-Syndrom |
+<!-- licenses:begin -->
 
-<!-- review:begin de-row-20261112-amifampridine-1 -->
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001032 | Firdapse (previously Zenas) | amifampridine | Lambert-Eaton Myasthenic Syndrome | Gültig |
+| EMEA/H/C/005839 | Amifampridine SERB | amifampridine phosphate | Lambert-Eaton Myasthenic Syndrome; Paraneoplastic Syndromes, Nervous System; Nervous System Neoplasms; Parane… | Gültig |
 
-> **Prüfkorrektur (2026-11-12)**: Ursprünglich stand hier: „EMEA/H/C/005839 (erloschen)“ Laut den EMA-Daten (Stand 2026-11-09) ist die Zulassung von Amifampridine SERB (EMEA/H/C/005839) gültig („Authorised“); der Vermerk „erloschen“ wurde entfernt. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
 
-<!-- review:end de-row-20261112-amifampridine-1 -->
-
-<!-- review:begin de-row-20261112-amifampridine-2 -->
-
-> **Prüfkorrektur (2026-11-12)**: Ursprünglich stand hier: „EMEA/H/C/001032 (erloschen)“ Laut den EMA-Daten (Stand 2026-11-09) ist die Zulassung von Firdapse (EMEA/H/C/001032) gültig („Authorised“); der Vermerk „erloschen“ wurde entfernt. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
-
-<!-- review:end de-row-20261112-amifampridine-2 -->
+<!-- licenses:end -->
 
 Beide Zulassungen (Inhaber: SERB SA) sind gültig; das Arzneimittel ist derzeit im Handel.
 
@@ -136,8 +130,8 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
-| 2026-11-12 | Tabelle: Amifampridine SERB (EMEA/H/C/005839) ist gültig, nicht erloschen | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-12 | Tabelle: Firdapse (EMEA/H/C/001032) ist gültig, nicht erloschen | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Tabelle: Amifampridine SERB (EMEA/H/C/005839) ist gültig, nicht erloschen | Durch die programmatisch erzeugte Zulassungstabelle ersetzt (vorher: Korrigiert) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Tabelle: Firdapse (EMEA/H/C/001032) ist gültig, nicht erloschen | Durch die programmatisch erzeugte Zulassungstabelle ersetzt (vorher: Korrigiert) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Firdapse (amifampridine phosphate) prescribing information, Catalyst Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f015fe60-3128-4a43-8c31-19fc6b5def3f) |
 
 <!-- review:end log -->

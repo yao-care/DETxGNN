@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "DUVELISIB"
 predicted_indications: ["Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Duvelisib: vorhergesagte neue Indikation Hodgkin-Lymphom (Hodgkins lymphoma) (Evidenzstufe L5). Ursprüngliche Indikation: Leukemia, Lymphocytic, Chronic, B-Cell"
 ---
 
@@ -92,9 +92,15 @@ Keine der aufgeführten Studien untersucht das Hodgkin-Lymphom selbst. Alle betr
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005381 | Copiktra | – | Leukemia, Lymphocytic, Chronic, B-Cell; Lymphoma, Follicular |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005381 | Copiktra | duvelisib | Leukemia, Lymphocytic, Chronic, B-Cell; Lymphoma, Follicular | Zurückgezogen |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Zytotoxizität
 

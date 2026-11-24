@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 370
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pregabalin: vorhergesagte neue Indikation Tendinitis (Evidenzstufe L5). Ursprüngliche Indikation: Angststörungen"
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
@@ -87,13 +87,20 @@ Derzeit sind keine relevanten klinischen Studien zu Pregabalin bei Tendinitis re
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000546 | Lyrica | – | Epilepsie; Angststörungen; Neuralgie |
-| EMEA/H/C/004078 | Pregabalin Viatris (zuvor Pregabalin Mylan) | – | Angststörungen; Epilepsie |
-| EMEA/H/C/003880 | Pregabalin Viatris Pharma (zuvor Pregabalin Pfizer) | – | Angststörungen; Epilepsie |
-| EMEA/H/C/003900 | Pregabalin Zentiva | – | Angststörungen; Epilepsie |
-| EMEA/H/C/004010 | Pregabalin Sandoz | – | Angststörungen; Neuralgie; Epilepsie |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000546 | Lyrica | pregabalin | Epilepsy; Anxiety Disorders; Neuralgia | Gültig |
+| EMEA/H/C/003880 | Pregabalin Viatris Pharma (previously Pregabalin Pfizer) | pregabalin | Anxiety Disorders; Epilepsy | Gültig |
+| EMEA/H/C/003900 | Pregabalin Zentiva | pregabalin | Anxiety Disorders; Epilepsy | Gültig |
+| EMEA/H/C/004010 | Pregabalin Sandoz | pregabalin | Anxiety Disorders; Neuralgia; Epilepsy | Gültig |
+| EMEA/H/C/004024 | Pregabalin Accord | pregabalin | Anxiety Disorders; Epilepsy | Gültig |
+| EMEA/H/C/004078 | Pregabalin Viatris (previously Pregabalin Mylan) | pregabalin | Anxiety Disorders; Epilepsy | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Das Arzneimittel ist in Deutschland im Handel.
 

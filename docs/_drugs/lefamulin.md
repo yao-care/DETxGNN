@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 263
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Lefamulin: vorhergesagte neue Indikation Diffuse kutane Leishmaniose (Evidenzstufe L5). Ursprüngliche Indikation: Bakterielle Pneumonie"
 monitor_inn: "Lefamulin"
 predicted_indications: ["leishmaniasis, diffuse cutaneous", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
@@ -84,9 +84,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005048 | Xenleta (Nabriva Therapeutics Ireland DAC) | – | Bakterielle Pneumonie; ambulant erworbene Infektionen |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005048 | Xenleta | lefamulin acetate | Pneumonia, Bacterial; Community-Acquired Infections | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Diese Zulassung ist gültig. Aktuell gibt es eine gültige Zulassung (1 von 1).
 

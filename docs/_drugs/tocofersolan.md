@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 470
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tocofersolan: vorhergesagte neue Indikation Amenorrhoe (Evidenzstufe L5). Ursprüngliche Indikation: Cholestase"
 monitor_inn: "TOCOFERSOLAN"
 predicted_indications: ["amenorrhea (disease)", "acne (disease)"]
@@ -82,9 +82,15 @@ Derzeit ist keine relevante Literatur verfügbar.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000920 | Vedrop | – | Cholestase; Vitamin-E-Mangel |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000920 | Vedrop | tocofersolan | Cholestasis; Vitamin E Deficiency | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Hinweis: Diese Zulassung (Recordati Rare Diseases) ist gültig; das Arzneimittel ist in Deutschland im Handel (1 gültige Zulassung von 1).
 

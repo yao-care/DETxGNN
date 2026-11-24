@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 417
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sacituzumab Govitecan: vorhergesagte neue Indikation Medikamenteninduzierte Osteoporose (Evidenzstufe L5). Ursprüngliche Indikation: Brustneubildungen"
 monitor_inn: "SACITUZUMAB GOVITECAN"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract"]
@@ -86,9 +86,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005182 | Trodelvy | – | Brustneubildungen; triple-negatives Mammakarzinom |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005182 | Trodelvy | sacituzumab govitecan | Breast Neoplasms; Triple Negative Breast Neoplasms | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Der Status dieser Zulassung lautet „gültig“; es besteht derzeit 1 gültige Zulassung von 1.
 

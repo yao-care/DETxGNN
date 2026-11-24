@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 242
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Glargine: vorhergesagte neue Indikation Autoimmune Oophoritis (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes mellitus"
 monitor_inn: "INSULIN GLARGINE"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
@@ -109,13 +109,20 @@ Alle sechs Zulassungen sind gültig. Es handelt sich um zentrale EU-Zulassungen 
 
 <!-- review:end de-lic-20261112-insulin_glargine-1 -->
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004280 | Semglee | – | Diabetes mellitus |
-| EMEA/H/C/000284 | Lantus | – | Diabetes mellitus |
-| EMEA/H/C/002835 | Abasaglar (zuvor Abasria) | – | Diabetes mellitus |
-| EMEA/H/C/006136 | Ondibta | – | Diabetes mellitus |
-| EMEA/H/C/000309 | Toujeo (zuvor Optisulin) | – | Diabetes mellitus |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000284 | Lantus | insulin glargine | Diabetes Mellitus | Gültig |
+| EMEA/H/C/000309 | Toujeo (previously Optisulin) | insulin glargine | Diabetes Mellitus | Gültig |
+| EMEA/H/C/002835 | Abasaglar (previously Abasria) | insulin glargine | Diabetes Mellitus | Gültig |
+| EMEA/H/C/004243 | Suliqua | insulin glargine; lixisenatide | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/004280 | Semglee | insulin glargine | Diabetes Mellitus | Gültig |
+| EMEA/H/C/006136 | Ondibta | insulin glargine | Diabetes Mellitus | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

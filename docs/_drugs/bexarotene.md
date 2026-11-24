@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "BEXAROTENE"
 predicted_indications: ["primary cutaneous B-cell lymphoma", "lymphosarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bexarotene: vorhergesagte neue Indikation Primäres kutanes B-Zell-Lymphom (primary cutaneous B-cell lymphoma) (Evidenzstufe L5). Ursprüngliche Indikation: Lymphoma, T-Cell, Cutaneous"
 ---
 
@@ -81,9 +81,15 @@ Die vorliegenden Arbeiten behandeln kutane Lymphome allgemein. Keine untersucht 
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000326 | Targretin | – | Kutanes T-Zell-Lymphom |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000326 | Targretin | bexarotene | Lymphoma, T-Cell, Cutaneous | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Zytotoxizität
 

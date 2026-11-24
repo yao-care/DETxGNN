@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 171
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Entecavir: vorhergesagte neue Indikation Chronische Hepatitis-C-Virusinfektion (Evidenzstufe L4). Ursprüngliche Indikation: Chronische Hepatitis B"
 monitor_inn: "ENTECAVIR"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
@@ -92,11 +92,17 @@ Klinisch relevant ist allenfalls die Unterdrückung von HBV bei HCV/HBV-koinfizi
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004458 | Entecavir Accord | – | Chronische Hepatitis B |
-| EMEA/H/C/000623 | Baraclude | – | Chronische Hepatitis B |
-| EMEA/H/C/004377 | Entecavir Viatris (zuvor Entecavir Mylan) | – | Hepatitis B |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000623 | Baraclude | Entecavir | Hepatitis B, Chronic | Gültig |
+| EMEA/H/C/004377 | Entecavir Viatris (previously Entecavir Mylan) | entecavir monohydrate | Hepatitis B | Gültig |
+| EMEA/H/C/004458 | Entecavir Accord | Entecavir | Hepatitis B, Chronic | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Alle drei Zulassungen sind gültig (3 von 3). Das Arzneimittel ist im Handel.
 

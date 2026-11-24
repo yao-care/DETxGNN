@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 469
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 description: "Tocilizumab: vorhergesagte neue Indikation Spondylitis ankylosans (ankylosing spondylitis) (Evidenzstufe L5). Ursprüngliche Indikation: Arthritis, Rheumatoid"
@@ -81,13 +81,19 @@ Die klinische Realität spricht jedoch dagegen: Die beiden Phase-3-Studien wurde
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000955 | RoActemra | k. A. | Rheumatoide Arthritis, juvenile rheumatoide Arthritis, Zytokinfreisetzungssyndrom, Riesenzellarteriitis, COVID-19 |
-| EMEA/H/C/005781 | Tyenne | k. A. | Rheumatoide Arthritis, Zytokinfreisetzungssyndrom, juvenile rheumatoide Arthritis, COVID-19, Riesenzellarteriitis |
-| EMEA/H/C/006416 | Tuyory | k. A. | Rheumatoide Arthritis, juvenile Arthritis, Zytokinfreisetzungssyndrom, Riesenzellarteriitis, COVID-19 |
-| EMEA/H/C/006196 | Avtozma | k. A. | Rheumatoide Arthritis, juvenile rheumatoide Arthritis, Zytokinfreisetzungssyndrom, COVID-19 |
-| EMEA/H/C/005984 | Tocilizumab STADA (zuvor Tofidence) | k. A. | Rheumatoide Arthritis, COVID-19, juvenile rheumatoide Arthritis |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000955 | RoActemra | tocilizumab | Arthritis, Rheumatoid; Arthritis, Juvenile Rheumatoid; Cytokine Release Syndrome; Giant Cell Arteritis; COVID… | Gültig |
+| EMEA/H/C/005781 | Tyenne | tocilizumab | Arthritis, Rheumatoid; Cytokine Release Syndrome; Arthritis, Juvenile Rheumatoid; COVID-19 virus infection; G… | Gültig |
+| EMEA/H/C/005984 | Tocilizumab STADA (previously Tofidence) | tocilizumab | Arthritis, Rheumatoid; COVID-19 virus infection; Arthritis, Juvenile Rheumatoid | Gültig |
+| EMEA/H/C/006196 | Avtozma | tocilizumab | Arthritis, Rheumatoid; Arthritis, Juvenile Rheumatoid; Cytokine Release Syndrome; COVID-19 virus infection | Gültig |
+| EMEA/H/C/006416 | Tuyory | tocilizumab | Arthritis, Rheumatoid; Arthritis, Juvenile; Cytokine Release Syndrome; Giant Cell Arteritis; COVID-19 virus i… | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

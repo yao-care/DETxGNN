@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "DULOXETINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "schizotypal personality disorder", "paranoid personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Duloxetine: vorhergesagte neue Indikation Benigner paroxysmaler Torticollis des Säuglingsalters (benign paroxysmal torticollis of infancy) (Evidenzstufe L5). Ursprüngliche Indikation: Neuralgia"
 ---
 
@@ -68,13 +68,19 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/003935 | Duloxetine Zentiva | – | Neuralgie; Schwere depressive Störung; Angststörungen; Diabetes mellitus |
-| EMEA/H/C/003981 | Duloxetine Viatris (zuvor Duloxetine Mylan) | – | Neuralgie; Diabetische Neuropathien; Schwere depressive Störung; Angststörungen |
-| EMEA/H/C/000572 | Cymbalta | – | Angststörungen; Diabetische Neuropathien; Schwere depressive Störung |
-| EMEA/H/C/000545 | Yentreve | – | Belastungsharninkontinenz |
-| EMEA/H/C/004000 | Duloxetine Lilly | – | Neuralgie; Diabetische Neuropathien; Schwere depressive Störung |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000545 | Yentreve | duloxetine hydrochloride | Urinary Incontinence, Stress | Gültig |
+| EMEA/H/C/000572 | Cymbalta | duloxetine | Anxiety Disorders; Diabetic Neuropathies; Depressive Disorder, Major | Gültig |
+| EMEA/H/C/003935 | Duloxetine Zentiva | duloxetine | Neuralgia; Depressive Disorder, Major; Anxiety Disorders; Diabetes Mellitus | Gültig |
+| EMEA/H/C/003981 | Duloxetine Viatris (previously Duloxetine Mylan) | duloxetine | Neuralgia; Diabetic Neuropathies; Depressive Disorder, Major; Anxiety Disorders | Gültig |
+| EMEA/H/C/004000 | Duloxetine Lilly | duloxetine | Neuralgia; Diabetic Neuropathies; Depressive Disorder, Major | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

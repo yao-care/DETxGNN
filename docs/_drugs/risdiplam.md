@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 405
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Risdiplam: vorhergesagte neue Indikation Akne (Evidenzstufe L5). Ursprüngliche Indikation: Spinale Muskelatrophie"
 monitor_inn: "RISDIPLAM"
 predicted_indications: ["acne (disease)"]
@@ -86,9 +86,15 @@ Derzeit liegt keine einschlägige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005145 | Evrysdi | – | Spinale Muskelatrophie |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005145 | Evrysdi | risdiplam | Muscular Atrophy, Spinal | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "EMPAGLIFLOZIN"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Empagliflozin: vorhergesagte neue Indikation Klassisches Stiff-Person-Syndrom (classic stiff person syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes Mellitus, Type 2"
 ---
 
@@ -70,11 +70,17 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002677 | Jardiance | – | Diabetes mellitus Typ 2; Herzinsuffizienz; chronische Niereninsuffizienz |
-| EMEA/H/C/003770 | Synjardy | – | Diabetes mellitus Typ 2 |
-| EMEA/H/C/003833 | Glyxambi | – | Diabetes mellitus Typ 2 |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002677 | Jardiance | empagliflozin | Diabetes Mellitus, Type 2; Heart Failure; Renal Insufficiency, Chronic | Gültig |
+| EMEA/H/C/003770 | Synjardy | empagliflozin; metformin | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/003833 | Glyxambi | empagliflozin; linagliptin | Diabetes Mellitus, Type 2 | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

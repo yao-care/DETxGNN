@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "EFLORNITHINE"
 predicted_indications: ["esotropia", "neurotrophic keratopathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eflornithine: vorhergesagte neue Indikation Esotropie (esotropia) (Evidenzstufe L5). Ursprüngliche Indikation: Hirsutism"
 ---
 
@@ -68,9 +68,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000325 | Vaniqa | – | Hirsutismus |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000325 | Vaniqa | eflornithine | Hirsutism | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

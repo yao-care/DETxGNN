@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 192
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fenfluramine: vorhergesagte neue Indikation Proximales 16p11.2-Mikrodeletionssyndrom (Evidenzstufe L5). Ursprüngliche Indikation: Myoklonische Epilepsien"
 monitor_inn: "Fenfluramine"
 predicted_indications: ["proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "obsolete hypertelorism (disease)", "frontorhiny"]
@@ -80,9 +80,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/003933 | Fintepla (UCB Pharma S.A.) | – | Myoklonische Epilepsien (Status: gelöscht) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003933 | Fintepla | fenfluramine hydrochloride | Epilepsies, Myoclonic | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

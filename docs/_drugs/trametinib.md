@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 477
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Trametinib: vorhergesagte neue Indikation Choroideremie (Evidenzstufe L5). Ursprüngliche Indikation: Melanom"
 monitor_inn: "TRAMETINIB"
 predicted_indications: ["choroideremia"]
@@ -88,9 +88,15 @@ Derzeit ist keine relevante Literatur zu Choroideremie verfügbar.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002643 | Mekinist (Novartis Europharm Limited) | nicht angegeben | Melanom |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002643 | Mekinist | trametinib | Melanoma | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

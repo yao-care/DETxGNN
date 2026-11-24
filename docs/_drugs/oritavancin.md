@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 331
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Oritavancin: vorhergesagte neue Indikation Bacteroidaceae-Infektionen (Evidenzstufe L5). Ursprüngliche Indikation: Weichteilinfektionen"
 monitor_inn: "ORITAVANCIN"
 predicted_indications: ["Bacteroidaceae infectious disease", "ophthalmic herpes zoster", "Mycoplasma pneumoniae pneumonia"]
@@ -84,9 +84,15 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/003785 | Tenkasi (zuvor Orbactiv) | – | Weichteilinfektionen; bakterielle Hauterkrankungen |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003785 | Tenkasi (previously Orbactiv) | oritavancin (diphosphate) | Soft Tissue Infections; Skin Diseases, Bacterial | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Hinweis: Diese Zulassung ist gültig (1 von 1 Zulassung); das Arzneimittel ist in Deutschland im Handel.
 

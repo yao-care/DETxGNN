@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 87
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Busulfan: vorhergesagte neue Indikation Myelodysplastisches Syndrom (Evidenzstufe L1). Ursprüngliche Indikation: Hämatopoetische Stammzelltransplantation (Konditionierung)"
 monitor_inn: "BUSULFAN"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "simian immunodeficiency virus infection"]
@@ -106,9 +106,15 @@ Es werden die relevantesten Studien dargestellt (Auswahl von 10 aus über 30 Stu
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002806 | Busulfan Fresenius Kabi | Nicht angegeben | Hämatopoetische Stammzelltransplantation (Status: gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002806 | Busulfan Fresenius Kabi | busulfan | Hematopoietic Stem Cell Transplantation | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

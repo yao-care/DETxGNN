@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 347
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PEGFILGRASTIM"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
 description: "Pegfilgrastim: vorhergesagte neue Indikation Schwere nichtproliferative diabetische Retinopathie (severe nonproliferative diabetic retinopathy) (Evidenzstufe L5). Ursprüngliche Indikation: Neutropeni"
@@ -90,13 +90,25 @@ Alle 11 erfassten Zulassungen sind gültig. Für die meisten liegt kein Text zur
 
 <!-- review:end de-lic-20261106-pegfilgrastim-1 -->
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000420 | Neulasta | – | Krebs, Neutropenie, febrile Neutropenie, chemotherapiebedingte febrile Neutropenie |
-| EMEA/H/C/006739 | Vivlipeg | – | Neutropenie, febrile Neutropenie, chemotherapiebedingte febrile Neutropenie, Krebs |
-| EMEA/H/C/006407 | Dyrupeg | – | Neutropenie, Krebs |
-| EMEA/H/C/004780 | Stimufend | – | – |
-| EMEA/H/C/004802 | Ziextenzo | – | – |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000420 | Neulasta | pegfilgrastim | Cancer; Neutropenia; Febrile Neutropenia; Chemotherapy-Induced Febrile Neutropenia | Gültig |
+| EMEA/H/C/003961 | Pelgraz | pegfilgrastim | – | Gültig |
+| EMEA/H/C/004556 | Grasustek | pegfilgrastim | – | Gültig |
+| EMEA/H/C/004700 | Pelmeg | pegfilgrastim | – | Gültig |
+| EMEA/H/C/004780 | Stimufend | pegfilgrastim | – | Gültig |
+| EMEA/H/C/004802 | Ziextenzo | pegfilgrastim | – | Gültig |
+| EMEA/H/C/004915 | Fulphila | pegfilgrastim | – | Gültig |
+| EMEA/H/C/005085 | Nyvepria | pegfilgrastim | – | Gültig |
+| EMEA/H/C/005312 | Cegfila (previously Pegfilgrastim Mundipharma) | pegfilgrastim | – | Gültig |
+| EMEA/H/C/006407 | Dyrupeg | pegfilgrastim | Neutropenia; Cancer | Gültig |
+| EMEA/H/C/006739 | Vivlipeg | pegfilgrastim | Neutropenia; Febrile Neutropenia; Chemotherapy-Induced Febrile Neutropenia; Cancer | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

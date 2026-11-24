@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 194
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fentanyl: vorhergesagte neue Indikation Nephrogenes Syndrom der inadäquaten Antidiurese (Evidenzstufe L5). Ursprüngliche Indikation: Schmerz"
 monitor_inn: "FENTANYL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -88,11 +88,17 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000833 | Effentora | – | Schmerz; Krebs |
-| EMEA/H/C/001164 | PecFent | – | Schmerz; Krebs |
-| EMEA/H/C/000959 | Instanyl | – | Schmerz; Krebs |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000833 | Effentora | fentanyl | Pain; Cancer | Gültig |
+| EMEA/H/C/000959 | Instanyl | Fentanyl citrate | Pain; Cancer | Gültig |
+| EMEA/H/C/001164 | PecFent | fentanyl | Pain; Cancer | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

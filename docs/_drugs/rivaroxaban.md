@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 408
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rivaroxaban: vorhergesagte neue Indikation Rheumatoide Arthritis (Evidenzstufe L5). Ursprüngliche Indikation: Akutes Koronarsyndrom, koronare Herzkrankheit…"
 monitor_inn: "RIVAROXABAN"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -87,12 +87,18 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005279 | Rivaroxaban Accord | – | Akutes Koronarsyndrom; koronare Herzkrankheit; periphere arterielle Verschlusskrankheit; venöse Thromboembolie; Schlaganfall; Vorhofflimmern; Lungenembolie |
-| EMEA/H/C/005600 | Rivaroxaban Viatris (zuvor Rivaroxaban Mylan) | – | Venöse Thromboembolie; Lungenembolie; akutes Koronarsyndrom; Schlaganfall; koronare Herzkrankheit; pAVK; Vorhofflimmern |
-| EMEA/H/C/000944 | Xarelto | – | Gelenkersatz (Arthroplastik); venöse Thromboembolie |
-| EMEA/H/C/006643 | Rivaroxaban Koanaa | – | Venöse Thromboembolie; Lungenembolie; Venenthrombose; Schlaganfall; Embolie |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000944 | Xarelto | rivaroxaban | Arthroplasty, Replacement; Venous Thromboembolism | Gültig |
+| EMEA/H/C/005279 | Rivaroxaban Accord | rivaroxaban | Acute Coronary Syndrome; Coronary Artery Disease; Peripheral Arterial Disease; Venous Thromboembolism; Stroke… | Gültig |
+| EMEA/H/C/005600 | Rivaroxaban Viatris (previously Rivaroxaban Mylan) | rivaroxaban | Venous Thromboembolism; Pulmonary Embolism; Acute Coronary Syndrome; Stroke; Coronary Artery Disease; Periphe… | Gültig |
+| EMEA/H/C/006643 | Rivaroxaban Koanaa | rivaroxaban | Venous Thromboembolism; Pulmonary Embolism; Venous Thrombosis; Stroke; Embolism | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

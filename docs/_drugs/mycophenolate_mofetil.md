@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 307
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mycophenolate Mofetil: vorhergesagte neue Indikation HIV-Infektionskrankheit (Evidenzstufe L2). Ursprüngliche Indikation: Transplantatabstoßung"
 monitor_inn: "MYCOPHENOLATE MOFETIL"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
@@ -92,12 +92,18 @@ Die ursprüngliche Indikation (Immunsuppression nach Transplantation) und die ne
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000082 | CellCept | – | Transplantatabstoßung (gültig) |
-| EMEA/H/C/000884 | Myfenax | – | Transplantatabstoßung (gültig) |
-| EMEA/H/C/000882 | Mycophenolate mofetil Teva | – | Transplantatabstoßung (gültig) |
-| EMEA/H/C/001218 | Myclausen | – | Transplantatabstoßung (gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000082 | CellCept | mycophenolate mofetil | Graft Rejection | Gültig |
+| EMEA/H/C/000882 | Mycophenolate mofetil Teva | mycophenolate mofetil | Graft Rejection | Gültig |
+| EMEA/H/C/000884 | Myfenax | mycophenolate mofetil | Graft Rejection | Gültig |
+| EMEA/H/C/001218 | Myclausen | mycophenolate mofetil | Graft Rejection | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

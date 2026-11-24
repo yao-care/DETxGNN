@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 179
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ertapenem"
 predicted_indications: ["bacterial arthritis"]
 description: "Ertapenem: vorhergesagte neue Indikation Bakterielle Arthritis (bacterial arthritis) (Evidenzstufe L5). Ursprüngliche Indikation: Community-Acquired Infections"
@@ -101,10 +101,16 @@ Zur Darreichungsform liegen keine Angaben vor.
 
 <!-- review:end de-lic-20261106-ertapenem-1 -->
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000389 | Invanz (Merck Sharp & Dohme B.V.) | – | Ambulant erworbene Infektionen, Streptokokken-Infektionen, Staphylokokken-Infektionen, gramnegative bakterielle Infektionen, chirurgische Wundinfektionen, bakterielle Pneumonie |
-| EMEA/H/C/005815 | Ertapenem SUN (SUN Pharmaceutical Industries (Europe) B.V.) | – | Bakterielle Infektionen |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000389 | Invanz | ertapenem sodium | Community-Acquired Infections; Streptococcal Infections; Staphylococcal Infections; Gram-Negative Bacterial I… | Gültig |
+| EMEA/H/C/005815 | Ertapenem SUN | ertapenem sodium | Bacterial Infections | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

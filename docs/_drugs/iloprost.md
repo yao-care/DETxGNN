@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 231
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Iloprost: vorhergesagte neue Indikation Hypotrichosis simplex der Kopfhaut (Rang 1) (Evidenzstufe L5). Ursprüngliche Indikation: Pulmonale Hypertonie"
 monitor_inn: "ILOPROST"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "pulmonary arteriovenous malformation (disease)", "diffuse alopecia areata"]
@@ -97,9 +97,15 @@ Für die **PAH bei Bindegewebserkrankung** (Rang 7) ist zusätzlich die Langzeit
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000474 | Ventavis (Bayer AG) | – | Pulmonale Hypertonie (Status: gültig/gelöscht) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000474 | Ventavis | iloprost | Hypertension, Pulmonary | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

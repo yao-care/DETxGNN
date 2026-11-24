@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 12
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Abaloparatide: vorhergesagte neue Indikation Nicht-syndromische Ösophagusfehlbildung (Evidenzstufe L5). Ursprüngliche Indikation: Postmenopausale Osteoporose"
 monitor_inn: "ABALOPARATIDE"
 drugbank_id: DB05084
@@ -89,9 +89,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005928 | Eladynos (Theramex Ireland Limited) | – | Postmenopausale Osteoporose; Osteoporose |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005928 | Eladynos | abaloparatide | Osteoporosis, Postmenopausal; Osteoporosis | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Das schränkt die praktische Entwicklung ein.
 

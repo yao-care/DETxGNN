@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 342
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Panobinostat: vorhergesagte neue Indikation Myeloische Leukämie (Evidenzstufe L2). Ursprüngliche Indikation: Multiples Myelom"
 monitor_inn: "panobinostat"
 predicted_indications: ["myeloid leukemia"]
@@ -108,9 +108,15 @@ Weitere Studien (u. a. bei CML, pädiatrischer AML/MDS, Phase-4-Langzeitstudie m
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/003725 | Farydak (pharmaand GmbH) | k. A. | Multiples Myelom (Status: gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003725 | Farydak | panobinostat lactate anhydrous | Multiple Myeloma | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Das Arzneimittel ist in Deutschland im Handel; 1 von 1 Zulassung ist gültig.
 

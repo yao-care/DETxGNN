@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 490
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Valsartan: vorhergesagte neue Indikation Maligne hypertensive Nierenerkrankung (Evidenzstufe L4). Ursprüngliche Indikation: Hypertonie"
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
@@ -117,13 +117,23 @@ Der Großteil der Literatur betrifft Sacubitril/Valsartan oder andere Organe und
 
 Alle 9 Zulassungen sind gültig.
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004037 | Amlodipine / Valsartan Mylan | – | Hypertonie |
-| EMEA/H/C/000776 | Dafiro | – | Hypertonie |
-| EMEA/H/C/004062 | Entresto | – | Herzinsuffizienz |
-| EMEA/H/C/000716 | Exforge | – | Hypertonie |
-| EMEA/H/C/000774 | Copalia | – | Hypertonie |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000716 | Exforge | valsartan; amlodipine (as amlodipine besilate) | Hypertension | Gültig |
+| EMEA/H/C/000774 | Copalia | valsartan; amlodipine (as amlodipine besilate) | Hypertension | Gültig |
+| EMEA/H/C/000776 | Dafiro | amlodipine; valsartan | Hypertension | Gültig |
+| EMEA/H/C/001068 | Exforge HCT | valsartan; hydrochlorothiazide; amlodipine besilate | Hypertension | Gültig |
+| EMEA/H/C/001159 | Copalia HCT | amlodipine; valsartan; hydrochlorothiazide | Hypertension | Gültig |
+| EMEA/H/C/001160 | Dafiro HCT | valsartan; hydrochlorothiazide; amlodipine besilate | Hypertension | Gültig |
+| EMEA/H/C/004037 | Amlodipine / Valsartan Mylan | amlodipine besilate; valsartan | Hypertension | Gültig |
+| EMEA/H/C/004062 | Entresto | sacubitril; valsartan | Heart Failure | Gültig |
+| EMEA/H/C/004343 | Neparvis | sacubitril; valsartan | Heart Failure | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

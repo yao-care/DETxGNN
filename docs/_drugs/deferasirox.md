@@ -5,7 +5,7 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 136
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Deferasirox: vorhergesagte neue Indikation HIV-Infektion (Evidenzstufe L4). Ursprüngliche Indikation: Eisenüberladung"
 monitor_inn: "DEFERASIROX"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
@@ -85,11 +85,17 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005014 | Deferasirox Mylan | – | Eisenüberladung; β-Thalassämie |
-| EMEA/H/C/005156 | Deferasirox Accord | – | Eisenüberladung; β-Thalassämie |
-| EMEA/H/C/000670 | Exjade | – | β-Thalassämie; Eisenüberladung |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000670 | Exjade | deferasirox | beta-Thalassemia; Iron Overload | Gültig |
+| EMEA/H/C/005014 | Deferasirox Mylan | deferasirox | Iron Overload; beta-Thalassemia | Gültig |
+| EMEA/H/C/005156 | Deferasirox Accord | deferasirox | Iron Overload; beta-Thalassemia | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Alle drei Zulassungen sind gültig.
 

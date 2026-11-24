@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 315
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Nintedanib: vorhergesagte neue Indikation Dermatofibrosarcoma protuberans (Evidenzstufe L5). Ursprüngliche Indikation: Nicht-kleinzelliges Lungenkarzinom (Vargatef)"
 monitor_inn: "NINTEDANIB"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
@@ -86,12 +86,18 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002569 | Vargatef | – | Nicht-kleinzelliges Lungenkarzinom (gültig) |
-| EMEA/H/C/003821 | Ofev | – | Idiopathische Lungenfibrose, interstitielle Lungenerkrankungen, systemische Sklerose (gültig) |
-| EMEA/H/C/006179 | Nintedanib Accord | – | Idiopathische Lungenfibrose, interstitielle Lungenerkrankungen, systemische Sklerose (gültig) |
-| EMEA/H/C/006486 | Nintedanib Viatris | – | Idiopathische Lungenfibrose, interstitielle Lungenerkrankungen (gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002569 | Vargatef | nintedanib | Carcinoma, Non-Small-Cell Lung | Gültig |
+| EMEA/H/C/003821 | Ofev | nintedanib | Idiopathic Pulmonary Fibrosis; Lung Diseases, Interstitial; Pulmonary Fibrosis; Scleroderma, Systemic | Gültig |
+| EMEA/H/C/006179 | Nintedanib Accord | nintedanib | Idiopathic Pulmonary Fibrosis; Lung Diseases, Interstitial; Scleroderma, Systemic; Pulmonary Fibrosis | Gültig |
+| EMEA/H/C/006486 | Nintedanib Viatris | nintedanib | Idiopathic Pulmonary Fibrosis; Lung Diseases, Interstitial; Pulmonary Fibrosis | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

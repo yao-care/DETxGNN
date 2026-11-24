@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Guanfacine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "manic bipolar affective disorder", "restless legs syndrome", "Tourette syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Guanfacine: vorhergesagte neue Indikation Faziodigitogenitales Syndrom (faciodigitogenital syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: Attention Deficit Disorder with Hyperactivity"
 ---
 
@@ -68,10 +68,16 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/003759 | Intuniv | – | wird vom Programm ergänzt |
-| EMEA/H/C/006312 | Paxneury | – | wird vom Programm ergänzt |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/003759 | Intuniv | guanfacine hydrochloride | Attention Deficit Disorder with Hyperactivity | Gültig |
+| EMEA/H/C/006312 | Paxneury | guanfacine hydrochloride | Attention Deficit Disorder with Hyperactivity | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitshinweise
 

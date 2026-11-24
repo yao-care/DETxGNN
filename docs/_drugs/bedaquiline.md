@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Bedaquiline"
 predicted_indications: ["vulvovaginal candidiasis", "fascioliasis", "urea cycle disorder", "esophageal candidiasis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Bedaquiline: vorhergesagte neue Indikation vulvovaginale Candidiasis (vulvovaginal candidiasis) (Evidenzstufe L5). Ursprüngliche Indikation: Tuberculosis, Multidrug-Resistant"
 ---
 
@@ -68,9 +68,15 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002614 | Sirturo | – | Multiresistente Tuberkulose |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002614 | Sirturo | bedaquiline fumarate | Tuberculosis, Multidrug-Resistant | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

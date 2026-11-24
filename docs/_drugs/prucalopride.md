@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 374
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Prucalopride: vorhergesagte neue Indikation Hypoalphalipoproteinämie (Evidenzstufe L5). Ursprüngliche Indikation: Obstipation"
 monitor_inn: "Prucalopride"
 predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "duodenal ulcer (disease)", "oral candidiasis", "obsolete familial combined hyperlipidemia", "amyloidosis (disease)", "strongyloidiasis", "HIV infectious disease", "primary amyloidosis", "acquired amyloid peripheral neuropathy"]
@@ -88,9 +88,15 @@ Für die Amyloidose-Vorhersagen (Rang 6 und 9) wurden folgende Arbeiten gefunden
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/001012 | Resolor | – | Obstipation |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001012 | Resolor | prucalopride succinate | Constipation | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Diese Zulassung ist gültig. In Deutschland ist das Arzneimittel derzeit im Handel (1 von 1 Zulassungen gültig).
 

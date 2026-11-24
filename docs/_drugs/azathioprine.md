@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 50
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "AZATHIOPRINE"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
 description: "Azathioprine: vorhergesagte neue Indikation Colobomatous microphthalmia-rhizomelic dysplasia syndrome (Evidenzstufe L5). Ursprüngliche Indikation: Graft Rejection"
@@ -106,9 +106,15 @@ Für die übrigen vorhergesagten Erkrankungen (insbesondere die Rangplätze 1–
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005055 | Jayempi (Lipomed GmbH) | – | Transplantatabstoßung (Zulassung gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005055 | Jayempi | azathioprine | Graft Rejection | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

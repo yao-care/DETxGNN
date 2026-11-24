@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "ACETYLSALICYLIC ACID"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acetylsalicylic Acid: vorhergesagte neue Indikation Atrophoderma vermiculata (Evidenzstufe L5). Zentrale EU-Zulassungen (EMA): 3 (gültig: 3)"
 ---
 
@@ -70,11 +70,17 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/004996 | Clopidogrel / Acetylsalicylic acid Viatris (previously Clopidogrel / Acetylsalicylic acid Mylan) | – | Acute Coronary Syndrome;Myocardial Infarction |
-| EMEA/H/C/001143 | DuoPlavin | – | Acute Coronary Syndrome;Myocardial Infarction |
-| EMEA/H/C/001144 | Clopidogrel/Acetylsalicylic acid Zentiva (previously DuoCover) | – | Acute Coronary Syndrome;Myocardial Infarction |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001143 | DuoPlavin | clopidogrel; acetylsalicylic acid | Acute Coronary Syndrome; Myocardial Infarction | Gültig |
+| EMEA/H/C/001144 | Clopidogrel/Acetylsalicylic acid Zentiva (previously DuoCov… | clopidogrel; acetylsalicylic acid | Acute Coronary Syndrome; Myocardial Infarction | Gültig |
+| EMEA/H/C/004996 | Clopidogrel / Acetylsalicylic acid Viatris (previously Clop… | acetylsalicylic acid; clopidogrel hydrogen sulfate | Acute Coronary Syndrome; Myocardial Infarction | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitshinweise
 

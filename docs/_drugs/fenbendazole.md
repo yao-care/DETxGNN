@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 191
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Fenbendazole: vorhergesagte neue Indikation Harnblasenkarzinom (urinary bladder carcinoma) (Evidenzstufe L5). Ursprüngliche Indikation: Keine Angabe in den Zulassungsdaten"
 monitor_inn: "FENBENDAZOLE"
 predicted_indications: ["urinary bladder carcinoma", "urinary bladder neoplasm", "infiltrating bladder urothelial carcinoma", "non-invasive bladder urothelial carcinoma", "bladder urachal urothelial carcinoma", "bladder squamous papilloma", "bladder signet ring cell adenocarcinoma", "bladder colonic type adenocarcinoma", "bladder mixed adenocarcinoma", "bladder colloid adenocarcinoma"]
@@ -92,8 +92,11 @@ Die Treffer stammen aus der Suche zum Begriff „Harnblasenneoplasma" (urinary b
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
+<!-- licenses:begin -->
+
+In den ausgewerteten EMA-Daten ist für diesen Wirkstoff keine zentrale EU-Zulassung eines Humanarzneimittels erfasst; nationale Zulassungen (BfArM) sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

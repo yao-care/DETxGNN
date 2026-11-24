@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "ANAGRELIDE"
 predicted_indications: ["reactive thrombocytosis", "inverse Klippel-Trenaunay syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Anagrelide: vorhergesagte neue Indikation Reaktive Thrombozytose (reactive thrombocytosis) (Evidenzstufe L5). Ursprüngliche Indikation: Thrombocythemia, Essential"
 ---
 
@@ -81,10 +81,16 @@ Keine der aufgeführten Arbeiten untersucht Anagrelid direkt bei reaktiver Throm
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000480 | Xagrid | – | Siehe lokale Zulassungsdaten |
-| EMEA/H/C/004585 | Anagrelide Viatris (zuvor Anagrelide Mylan) | – | Siehe lokale Zulassungsdaten |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000480 | Xagrid | anagrelide | Thrombocythemia, Essential | Gültig |
+| EMEA/H/C/004585 | Anagrelide Viatris (previously Anagrelide Mylan) | anagrelide hydrochloride | Thrombocythemia, Essential | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Zytotoxizität
 

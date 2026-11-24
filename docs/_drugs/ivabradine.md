@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "IVABRADINE"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ivabradine: vorhergesagte neue Indikation Hypertrichose (hypertrichosis) (Evidenzstufe L5). Ursprüngliche Indikation: Angina Pectoris"
 ---
 
@@ -68,13 +68,19 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000597 | Procoralan | – | Angina pectoris; Herzinsuffizienz |
-| EMEA/H/C/000598 | Corlentor | – | Angina pectoris; Herzinsuffizienz |
-| EMEA/H/C/004187 | Ivabradine Anpharm | – | Angina pectoris; Herzinsuffizienz |
-| EMEA/H/C/004241 | Ivabradine Accord | – | Angina pectoris; Herzinsuffizienz |
-| EMEA/H/C/004117 | Ivabradine Zentiva | – | Angina pectoris; Herzinsuffizienz |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000597 | Procoralan | ivabradine hydrochloride | Angina Pectoris; Heart Failure | Gültig |
+| EMEA/H/C/000598 | Corlentor | ivabradine hydrochloride | Angina Pectoris; Heart Failure | Gültig |
+| EMEA/H/C/004117 | Ivabradine Zentiva | ivabradine hydrochloride | Angina Pectoris; Heart Failure | Gültig |
+| EMEA/H/C/004187 | Ivabradine Anpharm | ivabradine | Angina Pectoris; Heart Failure | Gültig |
+| EMEA/H/C/004241 | Ivabradine Accord | ivabradine hydrochloride | Angina Pectoris; Heart Failure | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitshinweise
 

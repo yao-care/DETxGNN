@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 360
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PIRFENIDONE"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
 description: "Pirfenidone: vorhergesagte neue Indikation Extrakutanes Mastozytom (extracutaneous mastocytoma) (Evidenzstufe L5). Ursprüngliche Indikation: Idiopathic Pulmonary Fibrosis"
@@ -72,11 +72,17 @@ Zur Vorhersage „extrakutanes Mastozytom“ ist derzeit keine zugehörige Liter
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005862 | Pirfenidone Viatris | – | Idiopathische Lungenfibrose; Lungenerkrankungen; Atemwegserkrankungen |
-| EMEA/H/C/005873 | Pirfenidone axunio (zuvor Pirfenidone AET) | – | Idiopathische Lungenfibrose |
-| EMEA/H/C/002154 | Esbriet | – | Idiopathische Lungenfibrose; Lungenerkrankungen; Atemwegserkrankungen |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002154 | Esbriet | Pirfenidone | Idiopathic Pulmonary Fibrosis; Lung Diseases; Respiratory Tract Diseases | Gültig |
+| EMEA/H/C/005862 | Pirfenidone Viatris | Pirfenidone | Idiopathic Pulmonary Fibrosis; Lung Diseases; Respiratory Tract Diseases | Gültig |
+| EMEA/H/C/005873 | Pirfenidone axunio (previously Pirfenidone AET) | Pirfenidone | Idiopathic Pulmonary Fibrosis | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Alle drei Zulassungen sind gültig; das Arzneimittel ist in diesem Land im Handel (3 von 3 Zulassungen gültig).
 

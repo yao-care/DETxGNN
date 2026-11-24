@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 19
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aflibercept: vorhergesagte neue Indikation Esotropie (Evidenzstufe L5). Ursprüngliche Indikation: Feuchte Makuladegeneration, Makulaödem, diabetische Komplikationen…"
 monitor_inn: "AFLIBERCEPT"
 predicted_indications: ["esotropia"]
@@ -80,15 +80,36 @@ Derzeit liegt keine einschlägige Literatur vor.
 
 ## Informationen zum deutschen Markt
 
-Von 14 erfassten Zulassungen sind 14 gültig. Die folgende Tabelle zeigt fünf davon.
+Von 14 erfassten Zulassungen sind 14 gültig.
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/002392 | Eylea (Bayer AG) | – | Feuchte Makuladegeneration, Makulaödem, diabetische Komplikationen, retinaler Venenverschluss... |
-| EMEA/H/C/002532 | Zaltrap (Sanofi Winthrop Industrie) | – | Kolorektalkarzinom |
-| EMEA/H/C/006056 | Opuviz (Samsung Bioepis NL B.V.) | – | Feuchte Makuladegeneration, Makulaödem, diabetische Komplikationen, retinaler Venenverschluss |
-| EMEA/H/C/005899 | Eydenzelt (Celltrion Healthcare Hungary Kft.) | – | Feuchte Makuladegeneration, Makulaödem, diabetische Komplikationen, retinaler Venenverschluss... |
-| EMEA/H/C/006761 | Afiveg (STADA Arzneimittel AG) | – | Feuchte Makuladegeneration, Makulaödem, diabetische Komplikationen, retinaler Venenverschluss... |
+<!-- review:begin de-lic-20261124-aflibercept-1 -->
+
+> **Prüfkorrektur (2026-11-24)**: Ursprünglich stand hier: „Die folgende Tabelle zeigt fünf davon.“ Korrigiert: Die Tabelle unten wird jetzt programmatisch aus den EMA-Daten erzeugt und enthält alle erfassten zentralen EU-Zulassungen; der Hinweis auf eine Auswahl aus der früheren Tabelle trifft nicht mehr zu. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261124-aflibercept-1 -->
+
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/002392 | Eylea | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion; Choroidal Neovascula… | Gültig |
+| EMEA/H/C/002532 | Zaltrap | aflibercept | Colorectal Neoplasms | Gültig |
+| EMEA/H/C/005899 | Eydenzelt | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion; Choroidal Neovascula… | Gültig |
+| EMEA/H/C/005980 | Baiama | aflibercept | Wet Macular Degeneration; Macular Edema; Retinal Vein Occlusion; Choroidal Neovascularization; Diabetes Compl… | Gültig |
+| EMEA/H/C/006022 | Yesafili | aflibercept | Macular Edema; Retinal Vein Occlusion; Diabetic Retinopathy; Myopia, Degenerative; Diabetes Complications | Gültig |
+| EMEA/H/C/006056 | Opuviz | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion | Gültig |
+| EMEA/H/C/006150 | Afqlir | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion | Gültig |
+| EMEA/H/C/006192 | Vgenfli | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion; Choroidal Neovascula… | Gültig |
+| EMEA/H/C/006282 | Eyluxvi | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion | Gültig |
+| EMEA/H/C/006339 | Pavblu | aflibercept | Wet Macular Degeneration; Macular Edema; Retinal Vein Occlusion; Choroidal Neovascularization; Diabetes Compl… | Gültig |
+| EMEA/H/C/006438 | Mynzepli | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion; Choroidal Neovascula… | Gültig |
+| EMEA/H/C/006607 | Ahzantive | aflibercept | Wet Macular Degeneration; Macular Edema; Retinal Vein Occlusion; Choroidal Neovascularization; Diabetes Compl… | Gültig |
+| EMEA/H/C/006745 | Eiyzey | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion; Choroidal Neovascula… | Gültig |
+| EMEA/H/C/006761 | Afiveg | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion; Choroidal Neovascula… | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 
@@ -118,11 +139,12 @@ Die Vorhersage für Esotropie (Score 0.9938) stammt vom TxGNN-Modell (Deep Learn
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Pavblu (aflibercept-ayyh) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c61062f3-80ec-4a20-8c28-46e468592a06) |
+| 2026-11-24 | Entfernt: „Die folgende Tabelle zeigt fünf davon.“ | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

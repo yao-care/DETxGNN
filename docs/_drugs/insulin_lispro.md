@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 245
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Lispro: vorhergesagte neue Indikation Autoimmune Oophoritis (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes mellitus"
 monitor_inn: "INSULIN LISPRO"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
@@ -99,15 +99,21 @@ Für die weiter unten gelistete Vorhersage Pankreasagenesie liegt eine einzelne,
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/005037 | Lyumjev (zuvor Liumjev) | – | Diabetes mellitus |
-| EMEA/H/C/000088 | Humalog | – | Diabetes mellitus |
-| EMEA/H/C/000393 | Liprolog | – | Diabetes mellitus |
-| EMEA/H/C/006158 | Bysumlog | – | Diabetes mellitus |
-| EMEA/H/C/004303 | Insulin lispro Sanofi | – | Diabetes mellitus |
+<!-- licenses:begin -->
 
-Von den fünf Zulassungen sind derzeit vier gültig; das Arzneimittel ist in Deutschland im Handel.
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000088 | Humalog | insulin lispro | Diabetes Mellitus | Gültig |
+| EMEA/H/C/000393 | Liprolog | insulin lispro | Diabetes Mellitus | Gültig |
+| EMEA/H/C/004303 | Insulin lispro Sanofi | insulin lispro | Diabetes Mellitus | Gültig |
+| EMEA/H/C/005037 | Lyumjev (previously Liumjev) | insulin lispro | Diabetes Mellitus | Gültig |
+| EMEA/H/C/006158 | Bysumlog | insulin lispro | Diabetes Mellitus | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
+
+Von den fünf Zulassungen sind derzeit fünf gültig; das Arzneimittel ist in Deutschland im Handel.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 334
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Oxybutynin: vorhergesagte neue Indikation Restless-Legs-Syndrom (Evidenzstufe L5). Ursprüngliche Indikation: Dranginkontinenz"
 monitor_inn: "OXYBUTYNIN"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
@@ -95,9 +95,15 @@ Zur drittplatzierten Vorhersage (peptisches Ulkus) wurden folgende Quellen gefun
 
 ## Informationen zum deutschen Markt
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000532 | Kentera (zuvor Oxybutynin Nicobrand), Teva B.V. | – | Dranginkontinenz (Status: gültig) |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000532 | Kentera (previously Oxybutynin Nicobrand) | oxybutynin | Urinary Incontinence, Urge | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

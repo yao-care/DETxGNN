@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 452
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TEMSIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "vulva sarcoma"]
 description: "Temsirolimus: vorhergesagte neue Indikation Liposarkom (liposarcoma) (Evidenzstufe L5). Ursprüngliche Indikation: Carcinoma, Renal Cell"
@@ -91,9 +91,15 @@ Weitere vorhergesagte Indikationen sind das ovarielle myxoide Liposarkom (0.9947
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/000799 | Torisel (Pfizer Europe MA EEIG) | – | Nierenzellkarzinom; Mantelzell-Lymphom |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000799 | Torisel | temsirolimus | Carcinoma, Renal Cell; Lymphoma, Mantle-Cell | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Diese Zulassung ist gültig. Es gibt derzeit 1 gültige Zulassung (von 1).
 

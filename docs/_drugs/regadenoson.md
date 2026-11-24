@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 387
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Regadenoson: vorhergesagte neue Indikation Anaphylaxie (Evidenzstufe L5). Ursprüngliche Indikation: Myokardperfusionsbildgebung"
 monitor_inn: "REGADENOSON"
 predicted_indications: ["anaphylaxis", "food-dependent exercise-induced anaphylaxis", "esotropia", "pseudoallergy"]
@@ -90,9 +90,15 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Informationen zum Markt in Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/001176 | Rapiscan (GE Healthcare AS) | – | Myokardperfusionsbildgebung |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001176 | Rapiscan | regadenoson | Myocardial Perfusion Imaging | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Diese Zulassung ist gültig. Derzeit ist in den Daten 1 von 1 Zulassung gültig.
 

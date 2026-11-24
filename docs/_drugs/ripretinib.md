@@ -7,7 +7,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 403
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 predicted_indications: []
 ---
 
@@ -88,6 +88,16 @@ Derzeit ist keine verwandte Literatur für eine vorhergesagte neue Indikation ve
 ---
 
 ## Marktzulassungsinformationen
+
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/005614 | Qinlock | ripretinib | Gastrointestinal Stromal Tumors | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 | Element | Status |
 |---------|--------|

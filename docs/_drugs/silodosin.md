@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 427
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SILODOSIN"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
 description: "Silodosin: vorhergesagte neue Indikation Ambras type hypertrichosis universalis congenita (Evidenzstufe L5). Ursprüngliche Indikation: Prostatic Hyperplasia"
@@ -84,11 +84,17 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/001092 | Urorec | – | Benigne Prostatahyperplasie |
-| EMEA/H/C/001209 | Silodyx | – | Benigne Prostatahyperplasie |
-| EMEA/H/C/004964 | Silodosin Recordati | – | Benigne Prostatahyperplasie |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001092 | Urorec | silodosin | Prostatic Hyperplasia | Gültig |
+| EMEA/H/C/001209 | Silodyx | silodosin | Prostatic Hyperplasia | Gültig |
+| EMEA/H/C/004964 | Silodosin Recordati | silodosin | Prostatic Hyperplasia | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 Alle drei Zulassungen (Inhaber: Recordati Ireland Ltd) sind gültig; das Arzneimittel ist in Deutschland im Handel.
 

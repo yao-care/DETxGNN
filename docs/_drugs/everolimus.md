@@ -5,7 +5,7 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 187
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Everolimus: vorhergesagte neue Indikation Liposarkom (Evidenzstufe L2). Ursprüngliche Indikation: Nierenzellkarzinom, Mammakarzinom, Pankreastumoren (Afinitor)"
 monitor_inn: "EVEROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
@@ -95,10 +95,16 @@ Die ursprünglichen Indikationen und das Liposarkom sind zwar unterschiedliche T
 
 ## Marktinformationen Deutschland
 
-| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
-|---------|------|------|-----------|
-| EMEA/H/C/001038 | Afinitor (gültig) | – | Nierenzellkarzinom, Mammakarzinom, Pankreastumoren |
-| EMEA/H/C/002311 | Votubia (gültig) | – | Tuberöse Sklerose |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/001038 | Afinitor | everolimus | Carcinoma, Renal Cell; Breast Neoplasms; Pancreatic Neoplasms | Gültig |
+| EMEA/H/C/002311 | Votubia | everolimus | Tuberous Sclerosis | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 

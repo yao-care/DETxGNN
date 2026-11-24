@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 499
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "VILDAGLIPTIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Vildagliptin: vorhergesagte neue Indikation Fokales Stiff-Limb-Syndrom (focal stiff limb syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes Mellitus, Type 2"
@@ -86,13 +86,21 @@ Sieben von sieben Zulassungen sind gültig. Es handelt sich um zentrale EU-Zulas
 
 <!-- review:end de-lic-20261106-vildagliptin-1 -->
 
-| Zulassungsnummer | Produktname | Zulassungsinhaber | Zugelassene Indikation | Status |
-|---------|------|------|-----------|------|
-| EMEA/H/C/001051 | Xiliarx | Novartis Europharm Limited | Diabetes mellitus Typ 2 | Gültig |
-| EMEA/H/C/001048 | Jalra | Novartis Europharm Limited | Diabetes mellitus Typ 2 | Gültig |
-| EMEA/H/C/000771 | Galvus | Novartis Europharm Limited | Diabetes mellitus Typ 2 | Gültig |
-| EMEA/H/C/001049 | Zomarist | Novartis Europharm Limited | Diabetes mellitus Typ 2 | Gültig |
-| EMEA/H/C/000807 | Eucreas | Novartis Europharm Limited | Diabetes mellitus Typ 2 | Gültig |
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000771 | Galvus | vildagliptin | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/000807 | Eucreas | vildagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/001048 | Jalra | vildagliptin | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/001049 | Zomarist | vildagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/001050 | Icandra (previously Vildagliptin / metformin hydrochloride… | vildagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/001051 | Xiliarx | vildagliptin | Diabetes Mellitus, Type 2 | Gültig |
+| EMEA/H/C/005738 | Vildagliptin / Metformin hydrochloride Accord | metformin hydrochloride; vildagliptin | Diabetes Mellitus, Type 2 | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ---
 
