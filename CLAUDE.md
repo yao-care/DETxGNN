@@ -81,7 +81,7 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   跨過 1 的改動連名詞單複數與主詞動詞一起改（_agree），判斷不了的（冠詞＋數字、單數「Diese／die einzige Zulassung」、改成 0、alle … gültig 而有效≠總數）不改，`--list`／`--uncertain` 列出；
   有保留、講證據包、相對數、劑型或單方／複方、獸用、其他國家或國家許可、講表格顯示筆數的句子不動，partial 頁與事實總數 0 的頁整頁不動。不寫查核框；gate 第 22 項擋「再跑一次會變」。
 - 誰會跑：`scripts/apply_drug_reviews.py`（非 --check）結尾依快照跑 A、B；`scripts/build_license_snapshot.py` 寫完快照再跑一次（`--no-rewrite` 不跑）；sync_notes_to_docs.py 整頁重寫後經 apply 也會跑。
-- 2026-11-24 套用：程式表取代 466 頁（公開頁 448＋noindex 18；公開頁有市場段落的 464 頁全部有程式表）；正文張數程式改寫 2 句（insulin_lispro、levodopa「fünf … vier gültig」→ 5 張全部有效）；
+- 2026-11-24 套用：程式表 466 頁（公開頁 464＋noindex 2；公開頁 469 頁中有市場段落的 464 頁全部有程式表：原有 AI 表的 453 頁取代、段落裡沒有表的 11 頁補在段落開頭）；正文張數程式改寫 2 句（insulin_lispro、levodopa「fünf … vier gültig」→ 5 張全部有效）；
   被取代表上錨著的 9 筆 `de-row-20261112-*` 標 superseded（superseded_by programmatic-license-table-2026-11-24）；描述舊表「只列其中幾筆」的 7 句以 `de-lic-20261124-*` 更正（aflibercept、denosumab、emtricitabine、formoterol、pioglitazone、telmisartan、tenofovir_disoproxil）。
   另寫一支更寬的獨立偵測全量掃公開頁：改前 21 句、改後 16 句，剩下的都是事實總數 0 的頁（只有獸用許可或沒有 EMA 集中許可，資料範圍外，X_SCOPE）、把「eine Zulassung」當泛稱或同句另有試驗人數的誤中；checker 全量前後都是 P2 2／P6 1（原有、無關）。
 - 已知限制：母目錄 license_refresh 的 checker（3c）在站上 apply_drug_reviews（4b）之前跑，資料變動當週正文張數句若矛盾，該頁仍會先被擋下（Kr／My 同樣）。
