@@ -48,7 +48,7 @@ Iloperidon ist ein Antipsychotikum, das ursprünglich zur Behandlung psychiatris
 | Vorhergesagte neue Indikation | Retinale Dystrophie mit oder ohne extraokulare Anomalien (retinal dystrophy with or without extraocular anomalies) |
 | TxGNN-Vorhersagewert | 1,0000 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Zentrale EU-Zulassung (EMA) erloschen (1 von 1) – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten |
+| Marktstatus in Deutschland | Zentrale EU-Zulassung (EMA) abgelehnt (1 von 1; nie erteilt) – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten |
 | Anzahl der Zulassungen | 1 (gültig: 0) |
 | Empfohlene Entscheidung | Hold |
 
