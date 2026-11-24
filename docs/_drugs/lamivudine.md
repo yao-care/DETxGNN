@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "LAMIVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
-last_modified_at: 2026-11-13
+last_modified_at: 2026-11-24
 description: "Lamivudine: vorhergesagte neue Indikation Feline erworbene Immunschwäche (feline acquired immunodeficiency syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: Hepatitis B, Chronic"
 ---
 
@@ -71,6 +71,27 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 | [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | Kohortenstudie | Viruses | Vergleich antiretroviraler Protokolle (Zidovudin allein, mit Interferon-α, mit Lamivudin, mit Valproinsäure) bei natürlich FIV-infizierten Katzen in später asymptomatischer Phase; Nachbeobachtung über ein Jahr |
 | [25855689](https://pubmed.ncbi.nlm.nih.gov/25855689/) | 2016 | Kohortenstudie | Journal of Feline Medicine and Surgery | Langzeit-Nachbeobachtung antiretroviraler Therapie über 5–6 Jahre bei FIV-infizierten Katzen |
 | [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/) | 2002 | Präklinisch/Tier | Antiviral Research | Kombination aus Zidovudin, Lamivudin und Abacavir hemmt die FIV-Replikation in vitro |
+
+## Marktinformationen Deutschland
+
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000107 | Epivir | lamivudine | HIV Infections | Gültig |
+| EMEA/H/C/000190 | Combivir | lamivudine; zidovudine | HIV Infections | Gültig |
+| EMEA/H/C/000242 | Zeffix | lamivudine | Hepatitis B, Chronic | Gültig |
+| EMEA/H/C/000581 | Kivexa | abacavir; lamivudine | HIV Infections | Gültig |
+| EMEA/H/C/001111 | Lamivudine Teva Pharma B.V. | lamivudine | HIV Infections | Gültig |
+| EMEA/H/C/001113 | Lamivudine Teva | lamivudine | Hepatitis B, Chronic | Gültig |
+| EMEA/H/C/002754 | Triumeq | dolutegravir sodium; lamivudine; abacavir (as sulfate) | HIV Infections | Gültig |
+| EMEA/H/C/004746 | Delstrigo | doravirine; lamivudine; tenofovir disoproxil fumarate | HIV Infections | Gültig |
+| EMEA/H/C/004909 | Dovato | dolutegravir sodium; lamivudine | HIV Infections | Gültig |
+| EMEA/H/C/000338 | Trizivir | abacavir (as sulfate); lamivudine; zidovudine | HIV Infections | Zurückgezogen |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Sicherheitsaspekte
 

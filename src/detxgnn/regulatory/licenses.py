@@ -8,6 +8,7 @@
      分支照 checker M1／M4（Marketed／Approved, not marketed／Status unknown／Not marketed＋VET_ONLY／NO_CENTRAL）。
   3. 表格列寫的狀態不得跟事實相反（checker row_status_conflicts）。
   4. 程式許可證表（2026-11-24 起，scripts/sync_license_tables.py；<!-- licenses:begin/end -->）＝依快照 rows／total 重算的結果。
+  5. 公開頁（非 noindex）快照有程式表列，卻整頁沒有市場段落（2026-11-24 第三輪）。
 修法：資料變了→跑每週排程（或 scripts/build_license_snapshot.py 重建快照）；正文提到的號碼、狀態不對→寫查核紀錄
 （docs/_data/drug_reviews.json）再跑 scripts/apply_drug_reviews.py。
 """
@@ -141,6 +142,9 @@ def page_problems(stem: str, text: str) -> list[str]:
                     errs.append(f"市場段落正文的許可證號不屬於本藥：{', '.join(bad[:5])}")
     if "rows" in e and _sections(lines) and SLT().BEGIN not in lines:
         errs.append("市場段落沒有程式許可證表（跑 python3 scripts/sync_license_tables.py）")
+    # 2026-11-24 第三輪：公開頁快照有程式表列、整頁卻沒有市場段落 → 擋（sync_license_tables.add_section 補段落）
+    if e.get("rows") and not _sections(lines) and SLT().is_public(text):
+        errs.append("公開頁有證據包人用集中許可紀錄卻沒有市場段落（跑 python3 scripts/sync_license_tables.py）")
     if fc:
         all_rows = [r for t in _tables(lines) for r in _rows(t)]
         st = ck.status_row(SITE, all_rows)

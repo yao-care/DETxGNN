@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 8
 monitor_inn: "Doxorubicin"
 predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Doxorubicin: vorhergesagte neue Indikation Ewing-Sarkom (Ewing sarcoma) (Evidenzstufe L1). Ursprüngliche Indikation: Sarcoma, Kaposi"
 ---
 
@@ -89,6 +89,19 @@ Das Ewing-Sarkom ist damit bereits ein onkologischer Standardeinsatz und weniger
 | [20152770](https://pubmed.ncbi.nlm.nih.gov/20152770/) | 2010 | Review | Lancet Oncol | Überblick über Behandlung und Prognose; Überleben bei lokalisierter Erkrankung ca. 75 % |
 | [25993235](https://pubmed.ncbi.nlm.nih.gov/25993235/) | 2015 | Review | ASCO Educ Book | Systemische Therapie bei Osteosarkom und Ewing-Sarkom |
 | [1833556](https://pubmed.ncbi.nlm.nih.gov/1833556/) | 1991 | Dosisintensitätsanalyse | J Natl Cancer Inst | Zusammenhang zwischen Doxorubicin-Dosisintensität und Ansprechen bzw. Verlauf bei Osteosarkom und Ewing-Sarkom |
+
+## Marktinformationen Deutschland
+
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000089 | Caelyx pegylated liposomal | doxorubicin hydrochloride | Sarcoma, Kaposi; Multiple Myeloma; Ovarian Neoplasms; Breast Neoplasms | Gültig |
+| EMEA/H/C/000297 | Myocet liposomal (previously Myocet) | doxorubicin hydrochloride | Breast Neoplasms | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Zytotoxizität
 

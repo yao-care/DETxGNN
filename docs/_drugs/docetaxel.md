@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 7
 monitor_inn: "DOCETAXEL"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Docetaxel: vorhergesagte neue Indikation Ewing-Sarkom (Ewing sarcoma) (Evidenzstufe L2). Ursprüngliche Indikation: Head and Neck Neoplasms"
 ---
 
@@ -85,6 +85,20 @@ Das Ewing-Sarkom ist ein aggressiver, schnell proliferierender Knochen- und Weic
 | [28221727](https://pubmed.ncbi.nlm.nih.gov/28221727/) | 2017 | Erfahrungsbericht (Einzelzentrum) | Pediatric Blood & Cancer | Docetaxel, Bevacizumab und Gemcitabin bei Sarkomen mit sehr hohem Risiko bei Jugendlichen und jungen Erwachsenen |
 | [15117993](https://pubmed.ncbi.nlm.nih.gov/15117993/) | 2004 | Präklinisch/klinisch | J Clin Oncol | Synergistische Zytotoxizität der Sequenz Gemcitabin, dann Docetaxel bei Sarkomen |
 | [26154614](https://pubmed.ncbi.nlm.nih.gov/26154614/) | 2015 | Präklinisch | Pediatric Blood & Cancer | Vergleich von Cabazitaxel und Docetaxel im pädiatrischen präklinischen Testprogramm |
+
+## Marktinformationen Deutschland
+
+<!-- licenses:begin -->
+
+| Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
+|------|------|------|------|------|
+| EMEA/H/C/000073 | Taxotere | docetaxel | Head and Neck Neoplasms; Carcinoma, Non-Small-Cell Lung; Adenocarcinoma; Prostatic Neoplasms; Stomach Neoplas… | Gültig |
+| EMEA/H/C/002325 | Docetaxel Kabi | docetaxel | Head and Neck Neoplasms; Carcinoma, Non-Small-Cell Lung; Adenocarcinoma; Prostatic Neoplasms; Breast Neoplasms | Gültig |
+| EMEA/H/C/002539 | Docetaxel Accord | docetaxel | Head and Neck Neoplasms; Carcinoma, Non-Small-Cell Lung; Adenocarcinoma; Prostatic Neoplasms; Breast Neoplasms | Gültig |
+
+Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
+
+<!-- licenses:end -->
 
 ## Zytotoxizität
 

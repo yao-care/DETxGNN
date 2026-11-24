@@ -45,7 +45,7 @@ MAX_ROWS = 20
 STATUS_DE = {"authorised": "Gültig", "withdrawn": "Zurückgezogen", "lapsed": "Erloschen", "expired": "Abgelaufen",
              "revoked": "Widerrufen", "suspended": "Ruhend (suspendiert)", "refused": "Abgelehnt", "not authorised": "Nicht zugelassen"}
 # 每週排程 3b 的自我檢查（license_refresh）：改到的行除了表格列只能是這些（license_adapter.PAGE_NOTE 用同一份）
-PAGE_NOTE = r"^(" + "|".join(re.escape(x) for x in (BEGIN, END, SOURCE, NONE_LINE)) + r"|Angezeigt werden \d+ von \d+ erfassten zentralen EU-Zulassungen \(gültige zuerst\)\.)$"
+PAGE_NOTE = r"^(" + "|".join(re.escape(x) for x in ("## Marktinformationen Deutschland", BEGIN, END, SOURCE, NONE_LINE)) + r"|Angezeigt werden \d+ von \d+ erfassten zentralen EU-Zulassungen \(gültige zuerst\)\.)$"
 
 
 def cell(x, n=90):
@@ -129,8 +129,32 @@ def process(text, rows, total):
             return "\n".join(_splice(lines, tb[0], y + 1, blk))
     a = next((a for a, b in secs if not SKIP_SEC.search(lines[a])), None)
     if a is None:
-        return text
+        return (add_section(text, rows, total) if not secs else None) or text
     return "\n".join(_splice(lines, a + 1, a + 1, blk))
+
+
+# 2026-11-24 第三輪（用戶決定，比照 JpTxGNN 第二輪）：公開頁整頁沒有市場段落、但證據包有人用集中許可紀錄的，
+# 補「## Marktinformationen Deutschland」段落放程式表。位置：「## Zytotoxizität」之前（沒有就「## Sicherheitsaspekte」，
+# 再沒有就「## Fazit und nächste Schritte」「## Prüfprotokoll」「## Haftungsausschluss」之前）。noindex 頁與沒有人用紀錄的頁不補。
+ADD_SEC = "## Marktinformationen Deutschland"
+ADD_BEFORE = ("Zytotoxizität", "Sicherheitsaspekte", "Fazit und nächste Schritte", "Prüfprotokoll", "Haftungsausschluss")
+
+
+def is_public(text):
+    fm = text.split("---", 2)[1] if text.startswith("---") else ""
+    return not re.search(r"^noindex:\s*true", fm, re.M)
+
+
+def add_section(text, rows, total):
+    if not rows or not is_public(text):
+        return None
+    lines = text.split("\n")
+    heads = {m.group(1): i for i, l in enumerate(lines) for m in [re.match(r"^## (.+?)\s*$", l)] if m}
+    at = next((heads[h] for h in ADD_BEFORE if h in heads), None)
+    if at is None:
+        return None
+    sec = [ADD_SEC, ""] + wrap(program_block(rows, total)) + [""]
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(lines[:at] + sec + lines[at:]))
 
 
 def _snapshot():

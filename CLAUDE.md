@@ -100,3 +100,10 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   另 8 筆更正文字／說明寫死張數或舊表筆數的（meloxicam 3、insulin_glargine、pertuzumab、pioglitazone、trastuzumab、denosumab）改成註明查核日的寫法或指向表格，前版存 history（合計重發 321 筆）。
   trastuzumab、pegfilgrastim 兩筆的錨點是寫死張數的句子（會讓程式改寫跳過那句），改錨到同段沒有張數的句子；tadalafil、tenofovir_alafenamide、aflibercept 三筆錨在整段只有張數句的段落，沒改（那三句目前跟事實一致，事實變了要人工處理）。
 - checker 前後 P2 2／P6 1（原有、無關）；gate exit 0；寬偵測剩 14 句，逐句看過都跟事實一致或不是張數句（日期、號碼的數字誤中）。
+
+## 缺市場段落的公開頁補程式表（2026-11-24 第三輪）
+
+用戶 2026-11-24 決定（比照 JpTxGNN 第二輪 `add_section`）：公開頁（非 noindex、非轉址）整頁沒有市場段落、證據包卻有人用集中許可紀錄的，
+`scripts/sync_license_tables.py` 的 `add_section` 在「## Zytotoxizität」之前（沒有就安全性、結論、查核紀錄、免責聲明段之前）補「## Marktinformationen Deutschland」與程式表；noindex 頁、沒有人用紀錄的頁不補。
+gate（`src/detxgnn/regulatory/licenses.py` 第 5 項）擋「公開頁快照有程式表列卻沒有市場段落」；`PAGE_NOTE`（adapter 用同一份）放行新標題行。
+2026-11-24 全量量測 5 頁（docetaxel、doxorubicin、givosiran、lamivudine、latanoprost），補上；正文沒有跟新表矛盾的句子。checker 前後都是 P2 2／P6 1（原有）、gate exit 0。
