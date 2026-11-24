@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-11-23T14:07:41.553654+00:00",
+  "fetched_at": "2026-11-24T02:01:11.590626+00:00",
   "source": "Google News Health RSS",
-  "count": 43,
+  "count": 39,
   "articles": [
     {
       "id": "03cc4ce0a793",
       "title": "Alzheimer: Ausgerechnet ein Mittel gegen Potenzprobleme macht Forschern neue Hoffnung - WELT",
       "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOZVRlVW5PQW1KLWtLdXo1TlJjYktfS05rd0VsRmczQmZMY3RDOWVPNl93ZDhncVY1b1R0UFljSEdpT0Z5WlR4ZHp4dnc1bHBJMGlja0E1RmFSbkFfRDdMRTdkenRYX0hkM2MwcHJYRlhLa1ZHbElGV1ZQNm5WLWtYX24wcTFsQmpUbEdQRU4tQ3NNREtCRlE5dUwxd0g5eEdWbjlYcGFQcTUydVBvWUpzWVducUI2aURYZDE1X09wdWxXeDhhbWF6UjVvNkhBUnpvZWFYWWE1Z2IxdW93X3hvS05pd2dwNUE?oc=5",
-      "published": "2026-11-23T13:53:13+00:00",
+      "published": "2026-11-24T01:53:14+00:00",
       "source": {
         "name": "WELT",
         "url": "https://www.welt.de"
@@ -17,7 +17,7 @@
       "id": "8ff8e2d013e1",
       "title": "Abnehmspritzen bei Prädiabetes: 31 Prozent geringeres Diabetesrisiko als mit Metformin - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWjNPdzJCSTM1VmJhNlB3SloxM0lBNnpnNGo3amlpMkxRbERMTGVGbS1SeDlrVzlUbk5UMFhaMWlVZGdnUTdwMHVld1Z0YkhDcjZVOE9vOFFhMWg4QUdIcHVwb2F6V3BMUlNUR1Z4eUtieGxZQVdRUUJpaXg4MzYzNzBvSUp2LWtzOW9QS1p5RzlkdV85ZFc2eHp6UEhXc2x6RHBqZ1EwUW5OTERld0cySmdnaXJoZHUydlNxdlpEZw?oc=5",
-      "published": "2026-11-23T10:11:51+00:00",
+      "published": "2026-11-23T10:11:00+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
@@ -34,13 +34,13 @@
       }
     },
     {
-      "id": "98f7226e9e93",
-      "title": "Arzneimittel - EU lässt neues Medikament gegen Bauchspeicheldrüsenkrebs zu - Gesundheit - SZ.de - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQRmp1WkNSQ0ZIMUpvb2xKcGVIS2VJRHRNTklKVHU3VmpXZEh1RFZrZFYzYkF5Q1pIMDN4NmI0ZEdFRm4zVFl4Q1ctYmc1aTBhaFBLeFZfRDF5c3Q3aU8wYmdodkVlaGgyZlVxMlRPSktXVjVJQjdVRW9kc0dNakYwbFZSQjhkQUlwYlpqcHJfYXh1b0VWZmNaSVBsWXdyVUxENDlNNHJsSU1XX2ZMMTNwR3Q0Z3hwYXEyazk3RWl5V0RwRTN6YlVWYm9sV0hjbkRja0Q1VlJURTJFMDFMVFZpU21PVTVrOWJmaV9Xal9sSVYxQUE?oc=5",
-      "published": "2026-11-17T15:41:15+00:00",
+      "id": "f673ac91f18d",
+      "title": "ABDA-Forderung: Arzneimittelzuzahlungen sollen nicht länger von Apotheken kassiert werden! - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QeVdmUWxlZ3RHZmlzcmU0U3Mtd2hReEt5cGE3ak41YTNMVjZiLXI5OFA2SUpRMF9tM3JpTThva1JPQnpXOWh0a3lqWVpPQTB0OVU2M3R3?oc=5",
+      "published": "2026-11-23T11:47:56+00:00",
       "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
       }
     },
     {
@@ -54,13 +54,13 @@
       }
     },
     {
-      "id": "9749605fb9c6",
-      "title": "Peptide in den USA: Longevity ohne Evidenz - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1EOEpLYWw2RWNaSmpkTXJmalFZbHJsSjNRZWhTWWhGTkwxR2NnbnRLVHlHQ3Q1b19IQWp1VHNhQ0lIQmJPX3liLVF6emVQMG1SYUw0ZWJLcXFlUTFpbFA2a3JKYnV6QzJycVlEdUtBMm1faWxUUUZjMA?oc=5",
-      "published": "2026-11-23T12:30:00+00:00",
+      "id": "98f7226e9e93",
+      "title": "Arzneimittel - EU lässt neues Medikament gegen Bauchspeicheldrüsenkrebs zu - Gesundheit - SZ.de - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQRmp1WkNSQ0ZIMUpvb2xKcGVIS2VJRHRNTklKVHU3VmpXZEh1RFZrZFYzYkF5Q1pIMDN4NmI0ZEdFRm4zVFl4Q1ctYmc1aTBhaFBLeFZfRDF5c3Q3aU8wYmdodkVlaGgyZlVxMlRPSktXVjVJQjdVRW9kc0dNakYwbFZSQjhkQUlwYlpqcHJfYXh1b0VWZmNaSVBsWXdyVUxENDlNNHJsSU1XX2ZMMTNwR3Q0Z3hwYXEyazk3RWl5V0RwRTN6YlVWYm9sV0hjbkRja0Q1VlJURTJFMDFMVFZpU21PVTVrOWJmaV9Xal9sSVYxQUE?oc=5",
+      "published": "2026-11-17T15:41:15+00:00",
       "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
       }
     },
     {
@@ -84,6 +84,16 @@
       }
     },
     {
+      "id": "9749605fb9c6",
+      "title": "Peptide in den USA: Longevity ohne Evidenz - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1EOEpLYWw2RWNaSmpkTXJmalFZbHJsSjNRZWhTWWhGTkwxR2NnbnRLVHlHQ3Q1b19IQWp1VHNhQ0lIQmJPX3liLVF6emVQMG1SYUw0ZWJLcXFlUTFpbFA2a3JKYnV6QzJycVlEdUtBMm1faWxUUUZjMA?oc=5",
+      "published": "2026-11-23T12:30:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
       "id": "03b63ce6967a",
       "title": "Ärzte suchen mit KI nach Arzneimitteln - apotheke adhoc",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUWR3ZjB2VnhlcHB5VWFYRUV6OURwMFBmbzdqc1dwY2M0djYwaTNSaDFBQVFhekp6dmlnSzh1MjVlOXowc2tfMFNUNzB3c0lqcm1Eb0xWazNYMDhlaE1IeGRBaFAzUHBHVV9KV2ZITExtX0dVdmdJc0ZsdUViaHJtSGlPLUViM2h2S2NMaG82WlRwdGVVcWlZS0tFMXBONzQ?oc=5",
@@ -91,16 +101,6 @@
       "source": {
         "name": "apotheke adhoc",
         "url": "https://www.apotheke-adhoc.de"
-      }
-    },
-    {
-      "id": "a3fd913c6cdb",
-      "title": "Swissmedic verliert vor Bundesgericht: «Gesundheitstipp» war keine Werbung - Luzerner Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSEtpSUYtaWVpbnhUOGMtTURmdTFTbFVqbkJyeFFqdHhHNWJmcHF2c3MtMW5LcjFDRVFuWlhJUGNyMGdWQy0tVEJVaC1YSkFPWmNEVjBvUDVTYUVnLVFRTV9lcU9OaGp0Q0xVc0JoUFVBV1g3blBWWWtNNmp6cEd1OW9hUHUxeHppelZmbjhJSWh4c1l4NFlLR3VudWc3WHQweWF5Mm9UcWs?oc=5",
-      "published": "2026-11-23T11:00:00+00:00",
-      "source": {
-        "name": "Luzerner Zeitung",
-        "url": "https://www.luzernerzeitung.ch"
       }
     },
     {
@@ -114,33 +114,63 @@
       }
     },
     {
-      "id": "3f52c79ea17f",
-      "title": "Adipositas-Therapie bei Kindern und Jugendlichen: WHO veröffentlicht neue Leitlinien - Ärzte Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNLUhFNTBjcl9aVlplZHdRVmlpcks1SWMwUUhybDBFTmtKbzFFM3ZmOE9sM2tnLWYxbmU1RkRCTU9RNVBQbHo0cnNPU0p4bzlJeVo4bERzVF9yM3JRQzROUWhEYkRTNnJ3WV90ajhmcG1ycGlWMDJGSndkenhxYzRSRWR1em0yNWdRRXRvYnpmUURtSjRTOHZpM3I5LWdWdHFwckU4czUtLW81YXhxbEhUc3pqR0RmT1BWNXd4ZmVlaFVWaFJWU0I4Z2M1REJYYkJRX3BOS1J0Nng?oc=5",
-      "published": "2026-11-19T18:15:00+00:00",
+      "id": "39332d132397",
+      "title": "Gefälschte Pillen, echte Todesfälle: So täuschen Verpackungen - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWWtlUGtlSmtFWXZvdGJkYzl4Ymk2Y0lTUU8ydFRRSHJqMkpSMzM5R1ZhdGhNVENIbkZEcXl5elRjVUJtZUUzRzRoZjB6SUxoQjE2dFFoQ2tjSXZ5elJrVzVaUXVFWmJYeDkwaHNOeHJRZ29ZVmhsRXQwM09hSTZGbXBqZnJlUFNXb09uSDhKN0wyMkdYVERsb1JQSk9mYVFPeFY0cmt4dGFzQTZiZE96Uk12MmtmNFpRYlhlY2Y5N3dFbUJKaVdZTkxkdUNJbktNMDdTZ1hJSQ?oc=5",
+      "published": "2026-11-18T07:14:00+00:00",
       "source": {
-        "name": "Ärzte Zeitung",
-        "url": "https://www.aerztezeitung.de"
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
       }
     },
     {
-      "id": "3d08c12f35ef",
-      "title": "Rente, Pflege, Medikamente: Was Auswanderer oft zu spät regeln - inFranken.de",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSE10NnNxdkNpbV9GLV9ONUswVmRxLUM1Q1JqSmg0MDg4ckJWZkIwNjNiYnpLdWVzbThkSlpsck9FSXNjUU1CVHIwRFZod1FDVmY0dDdiZXVrSkpEdDRjVmtSNXJQWHhpbnlDUDRicmhWU1AtRFRFakRNUVpEcUlUOTh0Q25LM0tVeW9Ycm9xRVpUZmwzdmIxUHlKckFNci1FU0VRWnNMaUhvU3Exam9WZWJYT2M5bTVpWnlqcno3VFJucTVxU1VkaXVRSTVubjhM?oc=5",
-      "published": "2026-11-22T12:25:00+00:00",
+      "id": "9f7c377ed6d2",
+      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
+      "published": "2026-04-16T07:55:26+00:00",
       "source": {
-        "name": "inFranken.de",
-        "url": "https://www.infranken.de"
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
-      "id": "eb5ff0720f65",
-      "title": "Bisher nur für Privatversicherte: Gibt es die Abnehmspritze bald auch für Kassenpatienten? - Augsburger Allgemeine",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRExEdGpqRmNIQjMtT2dMeTZNU2tQRlhlcEhGd1BBMGFuaDFCSFRtY1JHdXFISHh6YVc5SmVLTjJBYmFyX2stMzRkZjhWMUhkYzlrWVVVcF9GeTY3Yk5KaF83SVhaaUluMnZndUF1dXNYTUpfbDFVVVpPR2llaGM1TXB0WGpRckVvaERoeUgwcy04WnJjTHdxODhTUjBmVkdpa21LdUVHUW1BR045RkliSEJhZnh4bHJ1M0VFUlNzQkxBUUU1ZThqNTRRZGM3LVFiaWptVVlZVF9nbS0yOU5BTA?oc=5",
-      "published": "2026-11-22T13:13:48+00:00",
+      "id": "4e6d48112005",
+      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
+      "published": "2026-05-22T07:00:00+00:00",
       "source": {
-        "name": "Augsburger Allgemeine",
-        "url": "https://www.augsburger-allgemeine.de"
+        "name": "Bundesministerium für Gesundheit (BMG)",
+        "url": "https://www.bundesgesundheitsministerium.de"
+      }
+    },
+    {
+      "id": "04e6135407ac",
+      "title": "Umsatz gesteigert: dm expandiert weiter in den Gesundheitssektor - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOeEh0NUhHUExQRVlteGplNVFSYk9UV3lUS21aU1NmU0JmbHAzRWo2WXBLVmpnMnlmS1dfNktBR1lKdlRGelRkTUhWMHAzN3VnMVljbG5lTWpJQXhnMDJ6aEZCbUd6bEdjcVAwRk9WeW5FYmd1ak5STTNBckdjTk1zazdSenZHSzdya3FneTZTd1ZWQVBJcGxF?oc=5",
+      "published": "2026-11-19T15:25:09+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "78c6b0a17a6c",
+      "title": "Schritte zählen: Wer im Alter mehr geht, hat geringere Gesundheitskosten - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQ1FjV3R3TFBXcVJNQzJqaUcwdW1zeGUzSDY1eU15aW5yb2Vnb0VPX24zNWNYNUV3d3BmNUdJamwzamV4azdTRXAxckgyempEUGRiS1BhczBaMG9QLXVPM2xPSXVXbWNVNTBYWV9RUk1DSTl6VVl1bkZHci1weHIyYUhDUWZVcTJNNDhmUkN0cE9Ja1lmTkV3N0pXMWhGQ0pmeVNrczhNSFV3bDQ?oc=5",
+      "published": "2026-11-18T08:00:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "9fa13ce5acf5",
+      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
+      "published": "2026-03-31T20:25:43+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -164,23 +194,13 @@
       }
     },
     {
-      "id": "78c6b0a17a6c",
-      "title": "Schritte zählen: Wer im Alter mehr geht, hat geringere Gesundheitskosten - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQ1FjV3R3TFBXcVJNQzJqaUcwdW1zeGUzSDY1eU15aW5yb2Vnb0VPX24zNWNYNUV3d3BmNUdJamwzamV4azdTRXAxckgyempEUGRiS1BhczBaMG9QLXVPM2xPSXVXbWNVNTBYWV9RUk1DSTl6VVl1bkZHci1weHIyYUhDUWZVcTJNNDhmUkN0cE9Ja1lmTkV3N0pXMWhGQ0pmeVNrczhNSFV3bDQ?oc=5",
-      "published": "2026-11-18T08:00:00+00:00",
+      "id": "80e791272e26",
+      "title": "Buß- und Bettag 2026: Apotheken-Notdienst finden - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNT1V6blhudTlONl9mODhrY3JiWnlXWWZzT19WQ2hJRlFNOGxZSFIwYlFBSk56MmFxNmJGSmhoZnVKenVKSzJwbmxYRkxwejBqZkxoakN1d3Vrd0R4WERiOTlyTEh3bVhyZnhaa1ZibmJ4SGlIN0RoZDNYeUNCbUtBbElUYmc3WkxBQWZV?oc=5",
+      "published": "2026-11-18T10:54:16+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "1b0f96a0e8a4",
-      "title": "Schwergewicht für die Gesundheit: Neue Technik in Bad Oeynhausen sichert Arznei-Versorgung in OWL - Neue Westfälische",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQNGtlRXZ6b1F2UEREMXBNQ0Z1ZGdNQWpxSFE2NjRLQjQ5UFJ6TlkxWUZFWi1JamtTdHhud2tWNnZGRmxFaTN4ZzFQMUZIRTJJSUhJYkEwaE82WUZHTFVqOW5jNWc5aFBsZ1NfbXlzNmNERU5MR0VHU3B6ZmdwdVdNc1lMNjNiQkZZa21rWnBBWGI4TDE3N3VZRzA4OFNsSE5QQ3o2M21nUXNwQVpHOWFjTWcxRXdLUmlEVW9MOFN2RVYxcHB0eDE4U0t1ajVtMENROHE2NXVmYjJFMWNqYjFFcG5fTEsyZzRyanN1V2tfYXg5eEp5azRfb3FOOW9vZjFzQlgw?oc=5",
-      "published": "2026-11-19T04:00:00+00:00",
-      "source": {
-        "name": "Neue Westfälische",
-        "url": "https://www.nw.de"
       }
     },
     {
@@ -194,56 +214,6 @@
       }
     },
     {
-      "id": "04e6135407ac",
-      "title": "Umsatz gesteigert: dm expandiert weiter in den Gesundheitssektor - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOeEh0NUhHUExQRVlteGplNVFSYk9UV3lUS21aU1NmU0JmbHAzRWo2WXBLVmpnMnlmS1dfNktBR1lKdlRGelRkTUhWMHAzN3VnMVljbG5lTWpJQXhnMDJ6aEZCbUd6bEdjcVAwRk9WeW5FYmd1ak5STTNBckdjTk1zazdSenZHSzdya3FneTZTd1ZWQVBJcGxF?oc=5",
-      "published": "2026-11-19T15:25:09+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "4e6d48112005",
-      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
-      "published": "2026-05-22T07:00:00+00:00",
-      "source": {
-        "name": "Bundesministerium für Gesundheit (BMG)",
-        "url": "https://www.bundesgesundheitsministerium.de"
-      }
-    },
-    {
-      "id": "e988fd9cc7ac",
-      "title": "Vorschläge zur Änderung von sechs Gesetzen, die die Transparenz bei der Arzneimittelpreisgestaltung sowie bei medizinischen Untersuchungs- und Behandlungsleistungen erhöhen sollen. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZkZJc25Sc1pjc3ZRU3N3eUhCTl9STWpiWC1kYi1KbEpjMTItWW1MTDlyckMyaTlQTDAtQXA4VXU4Rlp4TDgzMm9Cc1dEaExoQlM3XzhFeUl1dkdidExYeHkxVktOV01naEV2QjN4Szc5RTJJZFdBNWwwdjJ6S21ET0tYY2RRSE5Rekt0Uy1yZXRaT3ZIWTRHMGJxbw?oc=5",
-      "published": "2026-11-21T13:31:31+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "9f7c377ed6d2",
-      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
-      "published": "2026-04-16T07:55:26+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "9fa13ce5acf5",
-      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
-      "published": "2026-03-31T20:25:43+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
       "id": "78b58ffe6e43",
       "title": "Immer mehr Keime trotzen Antibiotika: EU-Behörde warnt - oekotest.de",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeFF2RmRsOVlSVXBNOVRJUFUxdUMwd1EtSzlpSmFvanhuSWJlZE5BbHNES1o4eWJSblZJU0pmNllVazZFVjFzaWtheTRzOWRqZXpCYXM5enA1Snl2Z1ByS1ZLaGJ0dDhTNlpHUHJfUTBWWDFpU1dJZTFmcVkxbVp3djFSVWE5MTQwX29GZHUtVWhhVzBPb2oxVEdCcFNvWG9JbVIteTVzUktDUFk4RXcyZ3BhZ1lXQQ?oc=5",
@@ -254,23 +224,13 @@
       }
     },
     {
-      "id": "93b1afb8778e",
-      "title": "Abnehmspritze und Pille: EMA empfiehlt zusätzliche Verhütung - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNU3B5dEVwbFFsdUYxWUxjLWUyVzJvbDJhbTRVcmlRM3RfbV9jcUhFUElpMUhPM0szV2F6dHg2RGt6d2VxUVNGa3Z3M21BbzRaUDhhR2JvNnZKbThvUTY4d0s3NEpyRFNVdlBDeUJHal9rVTR0T3piekJhTnpabzY0QngtRUROMGw2VE1ZZWZWbnpkYzJIa0kwVjZuTzE5UQ?oc=5",
-      "published": "2026-11-16T12:08:42+00:00",
+      "id": "bf84cb1a45cc",
+      "title": "Swissmedic verliert vor Bundesgericht: «Gesundheitstipp» war keine Werbung - Urner Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNS1J4dmlRcWlNekxQWVNYeXhXczI4SUdnc0JRaHljd0hfYjF2YzVqekd5NHlFWU1TYVZuRF9KcjVPRzFYelctdks5ckNraVUwbFVtYk9PRlhDUnE4NDN1WDVjcV9ZUjVNRGtVOGJ1aTVwYjRBamw5aU9QRFdkRi1JZl96RUM0SUZFczRYX2ZiLUtMM1JGSmljYzVreUhhNnhibDJLZg?oc=5",
+      "published": "2026-11-23T11:00:00+00:00",
       "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "5778408597ae",
-      "title": "Abnehmspritze: Warum Forscher bereits an neuen Wirkstoffen arbeiten - STERN.de",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZFlIWU1SWGF6bVFRSkFxS2F6bFkyUEZ5UVV0TWRkcTRub1lUTDUyOVdia01nSGdYcksyZWVMcU9uMmZBd3hwdy1LNHZjVGxmbjMyekh4c09BUXN6Qlk4NmhkU1owdDc0WWotVGdlSGtISW1lRFlBVng1QmgzWC1KRWtIeUJYY0I2Zm8xWWtpNDRqU18zZW9GUDVvZERjYklSdVZ3R2ltMmFZMnF4d0t4TGZVaw?oc=5",
-      "published": "2026-11-15T11:06:00+00:00",
-      "source": {
-        "name": "STERN.de",
-        "url": "https://www.stern.de"
+        "name": "Urner Zeitung",
+        "url": "https://www.urnerzeitung.ch"
       }
     },
     {
@@ -281,26 +241,6 @@
       "source": {
         "name": "Deutsche Apotheker Zeitung, DAZ",
         "url": "https://www.deutsche-apotheker-zeitung.de"
-      }
-    },
-    {
-      "id": "f8abcb6731b7",
-      "title": "Medikamente: Antibiotika-Mythen: Was stimmt - und was nicht? - Volksstimme",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcFJiXzlwWHYzWFZOS0lxdVdDYUU2TVBCemtjQWxaWjdPcTlQS0VReUZXQ2FSUEFwa2xOcXN1Y3FJUlIwbDR4ZE9zSjNDLUZGM3pwbThkTkFpbGVwSVhEb3JmaUJjRXBCeWdRX0J1bXNURWMxWFUza2E5OVlCNXhEMXhHdzYwdHdzUUZCakJGYkxPUVkwSmgtVjhhSQ?oc=5",
-      "published": "2026-11-17T12:15:00+00:00",
-      "source": {
-        "name": "Volksstimme",
-        "url": "https://www.volksstimme.de"
-      }
-    },
-    {
-      "id": "62cd1f564a2d",
-      "title": "Cholesterin-Senker absetzen: Studie zu Statinen zeigt unerwartetes Ergebnis - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUmRDZnQ3b3Exem4talZ0NE9UN21fMV9iQXo3TXczZGZBTUM0WllDOUx6U0lfb2FvcUhFdExBUVJhOXhnSzJMMmNXZVhPQ3lLMk9EakM3NnpBMFFVN1FuTTJrYl9lcjNjQTZvcHNmdXZNVUxpc0RydXlrRnl2dk5LRDJkRXNRX2R3U0cwU2l6bEpBN2c?oc=5",
-      "published": "2026-11-20T11:45:00+00:00",
-      "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
       }
     },
     {
@@ -324,16 +264,6 @@
       }
     },
     {
-      "id": "618351e249d1",
-      "title": "Haushaltspläne: Mehr Geld für Produktion kritischer Arzneimittel, keine Mittel für Gesundheit und Pflege - Deutsches Ärzteblatt",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNa19XTmtzLWdGTUNhcTkyNVVMZnhDVnlNVkxETGwwVDZ1X3dFVExwZEpDZU0wREhkUk91WEgwV0lJSXEwNTJydG1TbjVRV0FVRy1rUDhwYWtBeVdkYVJuSXo2SmhPUHJ1cWRZYWc3YW5pN21mc18wZUp4Y2FSZG53QnJQZk1RZ2FFeXBxN2VkUDRFYy16ZjgxQkNSc3ppZ1ZPWGdNdG9SanVveHNHc2ZUQU5qV2JDQXpINnVVd2x5eXplUnBDZjJCdGJLRk9QemRtaEpvYlNrTjM0anBWaDRDbHBYY1d2NUtZY1N2Zmx1SWU?oc=5",
-      "published": "2025-11-11T08:00:00+00:00",
-      "source": {
-        "name": "Deutsches Ärzteblatt",
-        "url": "https://www.aerzteblatt.de"
-      }
-    },
-    {
       "id": "62359a83d4ac",
       "title": "Arzneimittelmarkt in Deutschland: Analyse der Arzneimittelausgaben - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQlhtenAxN1hGNE9LX3hMemlaSDRGcy1XN2xpVEt3cTlhcDl2akpxZWo4bjY1N0RNVGRlRG5pSnBFUVA0V1l4WWc3QmxNc2ExRVIxU3RZQldOcVZpbVJEak9tZFFQNFJQUUdJcmluYzY2YzV3M01qdjkxY3pvTVBGUWstMHJJVGtjR0JQcWhiTDNjejA?oc=5",
@@ -341,6 +271,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "618351e249d1",
+      "title": "Haushaltspläne: Mehr Geld für Produktion kritischer Arzneimittel, keine Mittel für Gesundheit und Pflege - Deutsches Ärzteblatt",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNa19XTmtzLWdGTUNhcTkyNVVMZnhDVnlNVkxETGwwVDZ1X3dFVExwZEpDZU0wREhkUk91WEgwV0lJSXEwNTJydG1TbjVRV0FVRy1rUDhwYWtBeVdkYVJuSXo2SmhPUHJ1cWRZYWc3YW5pN21mc18wZUp4Y2FSZG53QnJQZk1RZ2FFeXBxN2VkUDRFYy16ZjgxQkNSc3ppZ1ZPWGdNdG9SanVveHNHc2ZUQU5qV2JDQXpINnVVd2x5eXplUnBDZjJCdGJLRk9QemRtaEpvYlNrTjM0anBWaDRDbHBYY1d2NUtZY1N2Zmx1SWU?oc=5",
+      "published": "2025-11-11T08:00:00+00:00",
+      "source": {
+        "name": "Deutsches Ärzteblatt",
+        "url": "https://www.aerzteblatt.de"
       }
     },
     {
@@ -364,6 +304,26 @@
       }
     },
     {
+      "id": "3a8cb7f967f0",
+      "title": "RKI, PEI und BfArM werden zu „Die Gesundheitsinstitute“ - Deutsche Apotheker Zeitung, DAZ",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMWpEQW9yU0xrSnlvVzVhYnFFZlJnRzVzc1pqbFE5UUhJWDBUMXlsQTJWdnJJcjJ1cjQ2MFBLQ2lSZzZPRTdmUG94X2NoengyTEhOYkZvdXJNYjdHSXg2SjM1bkZHYlE5SmpoM2lfdUt4eUhzaEtvU1AxLWpHYnNYWUZJQ21tU241NW03Q3RDejM5blEwMzc3OWxrRWxZOFJrUDh0OXptNW1Lc1hOYnR2VFBNdVlCdThHT1E?oc=5",
+      "published": "2026-11-17T07:00:00+00:00",
+      "source": {
+        "name": "Deutsche Apotheker Zeitung, DAZ",
+        "url": "https://www.deutsche-apotheker-zeitung.de"
+      }
+    },
+    {
+      "id": "e9e2e2afbce1",
+      "title": "Süßstoffe können Darmbakterien verändern: Ein Antidepressivum verstärkte den Effekt - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPM2RMb1ctWjlUSVRPR1U3YXlJbHlGZjA5ZmJuS19RQVpUNy1QS2VpMGtVeXhDNkFoVlM3eGhBOExoWVhsQU1NTmhqYVJJNWpBR2tRNE1WRUJRcXloSXZVRDdUQ0hURnFpejdvaGY2ekZoWjdtZ0VRTHNXUVRUbHN0ZkdfU3h6RlFIZDctZ01CUHl1eEowN0ItTUlma1FCWTk3bVZSTVptX0pPYUVKb2VyOWR3NXFpZjh4R29WbmJZM1c?oc=5",
+      "published": "2026-11-23T23:13:03+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
       "id": "8d6c279774fa",
       "title": "Arzneimittelpreise im Fokus: Innovation statt Pauschale - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY2NjMlpJU1NlMTBseFY5Z2h1aGMtdFo4YklYRDJEcEw1UnlLMlJ5WlQwSUdYVGg0clI0bm5NSUV5bmNoa1FzTi1oUUtBSFU4bElXODRQQ1JXZ1hQb09lMnBhNlI0TjRFWERYUUNVOFBXNHU3RzNpbGhSRE9CZFhaTnpFRC1mZTZ4YVpuTkJiVmtfd0FHUU9B?oc=5",
@@ -371,16 +331,6 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "d46f6ce1c2b9",
-      "title": "Ibuprofen, Aspirin und Co.: Schmerzmittel der Gruppe NSAR können Nebenwirkungen haben - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUmwyTW8wT3dfaXgyZ1VyaXFYUG1lWXY5VUZXZkkwWjd4STI2dWVSY1d3bVhub1NxRE9sNGt2bW83blh3T2hPRzlWcnVvUElQSmw4WE9KOHhscFdsSEE4TmF2cnhXaTktUWRfc3NQMnpoWmZDUXF5WWt6czNsbWdLQTRtVVJ3Mzdtb250RGVhbldmNUpVOTNDOTFhOWpldzV0MUlpVFdMRmpfOGM3WW5HbmRYaVJFT1ZzYUxn?oc=5",
-      "published": "2025-09-23T07:00:00+00:00",
-      "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
       }
     },
     {
@@ -401,6 +351,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "fa71347c14a3",
+      "title": "Fresenius Aktienanalyse: Prognose zum zweiten Mal angehoben, Aktie gibt trotzdem nach – warum zögert die Börse? - AktienCheck.de",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUnBKUU45UlBDclVMby1VU084dVhLdlhKTm1UTDlwT0p4QXlpUjkwRjZERmNid2JWRnAtNXdwOThjck13bUdCQk5WbHUySEtoOURJZGctTEJRQy1fcEVEQTU3cHhiNmFDdU9GR3hGRHlMZFk1MkNJTlhacFpmY05GVEh0d2psbll5SDIwOFZ4SEFoaGtmUnlHZUFzRV9wakVRQ2tNTnNyeTdDVmp0ZGc?oc=5",
+      "published": "2026-11-22T07:25:21+00:00",
+      "source": {
+        "name": "AktienCheck.de",
+        "url": "https://aktiencheck.de"
       }
     },
     {
