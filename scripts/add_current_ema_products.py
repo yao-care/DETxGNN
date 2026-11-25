@@ -8,7 +8,8 @@
 做法（規則跟原收集器相同，不放寬）：
 - 讀 EMA medicines report（--download 下載現行版並存到 data/raw/ema_medicines_report_current.xlsx，讓 Release 帶著；或 --xlsx 給檔案）。
 - 候選＝不在 drug_mapping.csv 的產品號碼、Medicine status 不在 config/fields.yaml 的 withdrawn_statuses、有 Active substance
-  （＝loader.filter_active_drugs 的條件）；獸用（EMEA/V/）只在本站 2026-03 基準清單（data/raw/<cc>_fda_drugs.json）本來就收獸用時才收。
+  （＝loader.filter_active_drugs 的條件）；本站 2026-03 基準清單（data/raw/<cc>_fda_drugs.json）只收 Authorised 的（FI、NO 的
+  process_fda_data.py 只留 Human＋Authorised），候選也只收 Authorised；獸用（EMEA/V/）只在基準清單本來就收獸用時才收（DE）。
 - 候選用同一支 map_fda_drugs_to_drugbank（同一份 drugbank_vocab、同樣的 config 欄位）對 DrugBank ID；證據包 tfda.drugbank_ids 有交集、
   號碼不在證據包（records、veterinary_records、excluded_records、records_not_stored）的就補一筆，欄位照收集器 _format，
   另記 source（清單日期與規則）、added（補收日）。
@@ -103,9 +104,12 @@ def main(argv):
     base_raw = sorted(p for p in (ROOT / "data" / "raw").glob("*_fda_drugs.json") if not p.name.startswith("._"))
     base = json.loads(base_raw[0].read_text(encoding="utf-8")) if base_raw else []
     take_vet = any(str(r.get("EMA product number") or "").startswith("EMEA/V/") for r in base)
+    # 基準清單的收錄範圍：FI／NO 的 process_fda_data.py 只留 Human＋Authorised，DE 收全部狀態（再由 withdrawn_statuses 濾）
+    only_auth = bool(base) and {str(r.get("Medicine status") or "") for r in base} <= {"Authorised"}
 
     lid, ing, st = fm["license_id"], fm["ingredients"], fm["status"]
     cand = [r for r in rows if r[lid] not in mapped and r.get(st) not in withdrawn and r.get(ing)
+            and (not only_auth or r.get(st) == "Authorised")
             and (r[lid].startswith("EMEA/H/") or (take_vet and r[lid].startswith("EMEA/V/")))]
     by_lic = {r[lid]: r for r in cand}
     mres = mapper.map_fda_drugs_to_drugbank(pd.DataFrame(cand), field_mapping={
@@ -175,7 +179,7 @@ def main(argv):
             f.write_text(json.dumps(b, ensure_ascii=False, indent=2), encoding="utf-8")
     if rep:
         Path(rep).write_text("page\tlicense_id\tproduct\twhere\tstatus\tingredients\n" + "\n".join(out) + "\n", encoding="utf-8")
-    print(f"清單 {len(rows)} 筆，不在 drug_mapping 的現行候選 {len(cand)} 筆、對到 DrugBank {sum(len(v) for v in db_to_new.values())} 筆（獸用{'收' if take_vet else '不收'}）")
+    print(f"清單 {len(rows)} 筆，不在 drug_mapping 的現行候選 {len(cand)} 筆、對到 DrugBank {sum(len(v) for v in db_to_new.values())} 筆（獸用{'收' if take_vet else '不收'}；{'只收 Authorised' if only_auth else '狀態照 withdrawn_statuses 濾'}）")
     print(f"{'（試跑）' if dry else ''}依原規則補收：{nb} 個證據包、{nrec} 筆（獸用 {nvet} 筆）")
 
 
