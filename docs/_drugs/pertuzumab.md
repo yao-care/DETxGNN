@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 355
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 description: "Pertuzumab: vorhergesagte neue Indikation Ectomesenchymoma (Evidenzstufe L5). Ursprüngliche Indikation: Breast Neoplasms"
@@ -52,8 +52,8 @@ Dafür liegen derzeit **1 klinische Studie** und **20 Publikationen** vor, darun
 | Vorhergesagte neue Indikation | Ectomesenchymoma |
 | TxGNN-Vorhersagewert | 0.9971 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 3) |
-| Anzahl der Zulassungen | 3 (gültig: 3) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 3 von 4) |
+| Anzahl der Zulassungen | 4 (gültig: 3) |
 | Empfohlene Entscheidung | Proceed with Guardrails |
 
 ---
@@ -102,16 +102,17 @@ Wichtig: Die Studienlage bezieht sich überwiegend auf HER2-positive Kohorten in
 | EMEA/H/C/002547 | Perjeta | pertuzumab | Breast Neoplasms | Gültig |
 | EMEA/H/C/005386 | Phesgo | pertuzumab; trastuzumab | Breast Neoplasms | Gültig |
 | EMEA/H/C/006583 | Poherdy | pertuzumab | Breast Neoplasms | Gültig |
+| EMEA/H/C/006844 | Pebrilzo | pertuzumab | Breast Neoplasms | Noch nicht zugelassen (positives CHMP-Gutachten) |
 
 Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
 
 <!-- licenses:end -->
 
-Laut EMA-Daten (Stand 2026-11-09) waren alle Zulassungen gültig; den aktuellen Status zeigt die Tabelle bei den Marktinformationen.
+Gültig sind die Zulassungen Perjeta, Poherdy und Phesgo; für Pebrilzo (EMEA/H/C/006844) liegt bisher nur ein positives CHMP-Gutachten vor. Anzahl und Status der Zulassungen zeigen die Kurzübersicht und die Tabelle bei den Marktinformationen.
 
 <!-- review:begin de-lic-20261112-pertuzumab-1 -->
 
-> **Prüfkorrektur (2026-11-12)**: Ursprünglich stand hier: „Zwei von drei Zulassungen sind gültig.“ Laut den EMA-Daten (Stand 2026-11-09) waren alle erfassten Zulassungen (Perjeta, Poherdy, Phesgo) gültig („Authorised“); Zahl und aktueller Status stehen in der Schnellübersicht und in der Tabelle. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Prüfkorrektur (2026-11-25)**: Ursprünglich stand hier: „Zwei von drei Zulassungen sind gültig.“ Laut den EMA-Daten (Stand 2026-11-25) sind Perjeta, Poherdy und Phesgo gültig („Authorised“); für Pebrilzo (EMEA/H/C/006844) liegt nur ein positives CHMP-Gutachten („Opinion“) vor, noch keine Zulassung. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end de-lic-20261112-pertuzumab-1 -->
 
@@ -168,7 +169,7 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-06 | Entfernt: „und die deutschen Zulassungen sind sämtlich erloschen“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-12 | Zahl der gültigen Zulassungen: 2 von 3 → alle 3 | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-25 | Zahl der gültigen Zulassungen → gültig: Perjeta, Poherdy, Phesgo; Pebrilzo nur CHMP-Gutachten | Korrigiert (überarbeitet am 2026-11-25; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Perjeta (pertuzumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=17f85d17-ab71-4f5b-9fe3-0b8c822f69ff) |
 
 <!-- review:end log -->

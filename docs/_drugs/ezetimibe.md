@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "EZETIMIBE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Ezetimibe: vorhergesagte neue Indikation Cholesterinester-Transferprotein-Mangel (Evidenzstufe L5). Ursprüngliche Indikation: Hypercholesterinämie"
 ---
 
@@ -48,8 +48,8 @@ Ezetimib wird zur Behandlung von Hypercholesterinämie und Dyslipidämien einges
 | Vorhergesagte neue Indikation | Cholesterinester-Transferprotein-Mangel |
 | TxGNN-Vorhersagewert | 0,9909 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
-| Anzahl der Zulassungen | 1 (gültig: 1) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 1) |
 | Empfohlene Entscheidung | Hold |
 
 ## Warum ist diese Vorhersage plausibel?
@@ -80,6 +80,7 @@ Keine der beiden Publikationen untersucht Ezetimib bei CETP-Mangel direkt.
 | Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
 |------|------|------|------|------|
 | EMEA/H/C/004959 | Nustendi | bempedoic acid; ezetimibe | Hypercholesterolemia; Dyslipidemias | Gültig |
+| EMEA/H/C/006517 | Evlarco | ezetimibe; obicetrapib hemicalcium | Hypercholesterolemia; Dyslipidemias | Noch nicht zugelassen (positives CHMP-Gutachten) |
 
 Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
 

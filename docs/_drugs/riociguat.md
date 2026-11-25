@@ -5,7 +5,7 @@ layout: default
 title: Riociguat
 parent: Nur bekannte Anwendungen (keine neuen Vorhersagen)
 nav_order: 402
-last_modified_at: 2026-11-07
+last_modified_at: 2026-11-25
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Evidenzniveau: **N/A** | Vorhergesagte Indikationen: **0**
 | Punkt | Inhalt |
 |------|---------|
 | Originalindikation | Hypertension, Pulmonary |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
-| Anzahl der Zulassungen | 1 (gültig: 1) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 1) |
 
 ---
 

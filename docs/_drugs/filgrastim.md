@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 197
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Filgrastim: vorhergesagte neue Indikation Primäre Thrombozyten-Freisetzungsstörung (primary release disorder of… (Evidenzstufe L5). Ursprüngliche Indikation: Hämatopoetische Stammzelltransplantation"
 monitor_inn: "FILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
@@ -50,8 +50,8 @@ Filgrastim (G-CSF) wird ursprünglich zur Behandlung der Neutropenie bei Krebser
 | Vorhergesagte neue Indikation | Primäre Thrombozyten-Freisetzungsstörung (primary release disorder of platelets) |
 | TxGNN-Vorhersagewert | 1,0000 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 7 von 7) |
-| Anzahl der Zulassungen | 7 (gültig: 7) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 7 von 8) |
+| Anzahl der Zulassungen | 8 (gültig: 7) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -80,7 +80,13 @@ Derzeit liegt keine zugehörige Literatur vor.
 
 ## Marktinformationen Deutschland
 
-Alle sieben Zulassungen sind gültig (7 von 7). Es handelt sich um zentrale europäische Zulassungen (EMA); für die Zulassung Accofil liegt kein Indikationstext vor.
+Gültig sind alle erfassten Zulassungen außer Neuzafy (EMEA/H/C/007009), für das bisher nur ein positives CHMP-Gutachten vorliegt. Anzahl und Status der Zulassungen zeigen die Kurzübersicht und die Tabelle bei den Marktinformationen. Es handelt sich um zentrale europäische Zulassungen (EMA); für die Zulassung Accofil liegt kein Indikationstext vor.
+
+<!-- review:begin de-lic-20261125-filgrastim-1 -->
+
+> **Prüfkorrektur (2026-11-25)**: Ursprünglich stand hier: „Alle sieben Zulassungen sind gültig (7 von 7).“ Korrigiert: In den EMA-Daten (Stand 2026-11-25) ist zusätzlich Neuzafy (EMEA/H/C/007009, Filgrastim) mit dem Status „Opinion“ (positives CHMP-Gutachten, noch keine Zulassung) erfasst. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261125-filgrastim-1 -->
 
 <!-- licenses:begin -->
 
@@ -93,6 +99,7 @@ Alle sieben Zulassungen sind gültig (7 von 7). Es handelt sich um zentrale euro
 | EMEA/H/C/001142 | Nivestim | filgrastim | Hematopoietic Stem Cell Transplantation; Cancer | Gültig |
 | EMEA/H/C/003956 | Accofil | filgrastim | – | Gültig |
 | EMEA/H/C/006400 | Zefylti | filgrastim | Neutropenia; Hematopoietic Stem Cell Transplantation; Cancer | Gültig |
+| EMEA/H/C/007009 | Neuzafy | filgrastim | Neutropenia; Febrile Neutropenia; Chemotherapy-Induced Febrile Neutropenia | Noch nicht zugelassen (positives CHMP-Gutachten) |
 
 Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
 
@@ -116,7 +123,7 @@ Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage stützt sich ausschließlich auf einen Modellwert des TxGNN-Modells (Deep Learning) (Evidenzstufe L5), ohne Studien, Literatur oder plausiblen Wirkmechanismus. Das Arzneimittel ist in Deutschland/Europa im Handel (7 von 7 Zulassungen gültig).
+Die Vorhersage stützt sich ausschließlich auf einen Modellwert des TxGNN-Modells (Deep Learning) (Evidenzstufe L5), ohne Studien, Literatur oder plausiblen Wirkmechanismus. Das Arzneimittel ist in Deutschland/Europa im Handel (7 von 8 Zulassungen gültig).
 
 **Für ein Weiterkommen sind erforderlich:**
 - Daten zum Wirkmechanismus (MOA) und eine belastbare mechanistische Hypothese zu Thrombozytenfunktionsstörungen
@@ -129,11 +136,12 @@ Die Vorhersage stützt sich ausschließlich auf einen Modellwert des TxGNN-Model
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Releuko (filgrastim) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74e1ec6e-1630-4654-895c-2bd355f939e7) |
+| 2026-11-25 | „Alle sieben Zulassungen sind gültig (7 von 7)“ → nicht alle gültig (Neuzafy: nur CHMP-Gutachten) | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

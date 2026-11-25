@@ -43,7 +43,10 @@ NONE_LINE = ("In den ausgewerteten EMA-Daten ist für diesen Wirkstoff keine zen
              "nationale Zulassungen (BfArM) sind in diesen Daten nicht enthalten.")
 MAX_ROWS = 20
 STATUS_DE = {"authorised": "Gültig", "withdrawn": "Zurückgezogen", "lapsed": "Erloschen", "expired": "Abgelaufen",
-             "revoked": "Widerrufen", "suspended": "Ruhend (suspendiert)", "refused": "Abgelehnt", "not authorised": "Nicht zugelassen"}
+             "revoked": "Widerrufen", "suspended": "Ruhend (suspendiert)", "refused": "Abgelehnt", "not authorised": "Nicht zugelassen",
+             # 2026-11-25：補收的新集中許可有些只有 CHMP 正面意見（Medicine status「Opinion」），還不是許可
+             "opinion": "Noch nicht zugelassen (positives CHMP-Gutachten)",
+             "opinion under re-examination": "Noch nicht zugelassen (CHMP-Gutachten in Überprüfung)"}
 # 每週排程 3b 的自我檢查（license_refresh）：改到的行除了表格列只能是這些（license_adapter.PAGE_NOTE 用同一份）
 PAGE_NOTE = r"^(" + "|".join(re.escape(x) for x in ("## Marktinformationen Deutschland", BEGIN, END, SOURCE, NONE_LINE)) + r"|Angezeigt werden \d+ von \d+ erfassten zentralen EU-Zulassungen \(gültige zuerst\)\.)$"
 

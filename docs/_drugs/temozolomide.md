@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "TEMOZOLOMIDE"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Temozolomide: vorhergesagte neue Indikation Neoplasie der Cauda equina (Evidenzstufe L5). Ursprüngliche Indikation: Gliom"
 ---
 
@@ -50,8 +50,8 @@ Temozolomid ist ein oral einnehmbares alkylierendes Zytostatikum, das ursprüngl
 | Vorhergesagte neue Indikation | Neoplasie der Cauda equina |
 | TxGNN-Vorhersagewert | 0,9930 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 5 von 5) |
-| Anzahl der Zulassungen | 5 (gültig: 5) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 5 von 6) |
+| Anzahl der Zulassungen | 6 (gültig: 5) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -89,6 +89,7 @@ Hinweis zur Einordnung: Der Fallbericht von 2018 betrifft ein spinales myxopapil
 | EMEA/H/C/001125 | Temozolomide Accord | temozolomide | Glioma | Gültig |
 | EMEA/H/C/001126 | Temozolomide Teva | temozolomide | Glioma | Gültig |
 | EMEA/H/C/002198 | Temozolomide Sun | temozolomide | Glioma | Gültig |
+| EMEA/H/C/006892 | Kizfizo | temozolomide | Glioma | Noch nicht zugelassen (positives CHMP-Gutachten) |
 
 Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
 

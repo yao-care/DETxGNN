@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "DENOSUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Denosumab: vorhergesagte neue Indikation Schwere nichtproliferative diabetische Retinopathie (severe nonproliferative diabetic retinopathy) (Evidenzstufe L5). Ursprüngliche Indikation: Giant Cell Tum…"
 ---
 
@@ -99,7 +99,7 @@ Derzeit liegt keine zugehörige Literatur vor.
 | EMEA/H/C/006552 | Zvogra | denosumab | Giant Cell Tumor of Bone; Neoplasms, Bone Tissue | Gültig |
 | EMEA/H/C/006722 | Xbonzy | denosumab | Giant Cell Tumor of Bone; Neoplasms, Bone Tissue | Gültig |
 
-Angezeigt werden 20 von 31 erfassten zentralen EU-Zulassungen (gültige zuerst).
+Angezeigt werden 20 von 32 erfassten zentralen EU-Zulassungen (gültige zuerst).
 
 Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
 

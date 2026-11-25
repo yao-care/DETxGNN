@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "PALBOCICLIB"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 description: "Palbociclib: vorhergesagte neue Indikation Hyperthyroidism (Evidenzstufe L5). Ursprüngliche Indikation: Breast Neoplasms"
@@ -52,8 +52,8 @@ Die Evidenz ist begrenzt: **0 klinische Studien** und **4 Publikationen** (präk
 | Vorhergesagte neue Indikation | Hyperthyroidism |
 | TxGNN-Vorhersagewert | 0.9944 |
 | Evidenzgrad | L5 (präklinische Studien und Mechanismusstudien) |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
-| Anzahl der Zulassungen | 1 (gültig: 1) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold (als Forschungsfrage weiterverfolgen) |
 
 ## Warum ist diese Vorhersage plausibel?
@@ -90,6 +90,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 | Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
 |------|------|------|------|------|
 | EMEA/H/C/003853 | Ibrance | Palbociclib | Breast Neoplasms | Gültig |
+| EMEA/H/C/006624 | Palbociclib Viatris | Palbociclib | Breast Neoplasms | Gültig |
 
 Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
 

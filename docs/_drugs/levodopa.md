@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Levodopa: vorhergesagte neue Indikation Rasmussen-Enzephalitis (Rasmussen subacute encephalitis) (Evidenzstufe L5). Ursprüngliche Indikation: Morbus Parkinson"
 monitor_inn: "LEVODOPA"
 predicted_indications: ["Rasmussen subacute encephalitis"]
@@ -50,8 +50,8 @@ Levodopa ist eine Vorstufe von Dopamin und wird ursprünglich zur Behandlung der
 | Vorhergesagte neue Indikation | Rasmussen-Enzephalitis (Rasmussen subacute encephalitis) |
 | TxGNN-Vorhersagewert | 0,9906 |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 5 von 5) |
-| Anzahl der Zulassungen | 5 (gültig: 5) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 6 von 6) |
+| Anzahl der Zulassungen | 6 (gültig: 6) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -89,12 +89,13 @@ Derzeit liegt keine zugehörige Literatur vor.
 | EMEA/H/C/002785 | Corbilta (previously Levodopa/Carbidopa/Entacapone Sandoz) | levodopa; carbidopa; entacapone | Parkinson Disease | Gültig |
 | EMEA/H/C/004786 | Inbrija | levodopa | Parkinson Disease | Gültig |
 | EMEA/H/C/006429 | Onerji | levodopa; carbidopa | Parkinson Disease | Gültig |
+| EMEA/H/C/006629 | Hopledo | carbidopa monohydrate; levodopa | Parkinson Disease | Gültig |
 
 Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
 
 <!-- licenses:end -->
 
-Von fünf Zulassungen sind fünf gültig; das Arzneimittel ist in Deutschland im Handel.
+Von sechs Zulassungen sind sechs gültig; das Arzneimittel ist in Deutschland im Handel.
 
 ---
 

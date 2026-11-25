@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 416
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Ruxolitinib"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection"]
 description: "Ruxolitinib: vorhergesagte neue Indikation Uterine corpus perivascular epithelioid cell tumor (Evidenzstufe L5). Ursprüngliche Indikation: Vitiligo"
@@ -52,8 +52,8 @@ Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** v
 | Vorhergesagte neue Indikation | Uterine corpus perivascular epithelioid cell tumor |
 | TxGNN-Vorhersagewert | 0.9973 |
 | Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
-| Anzahl der Zulassungen | 2 (gültig: 2) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 3) |
+| Anzahl der Zulassungen | 3 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -86,12 +86,19 @@ Derzeit liegt keine zugehörige Literatur vor.
 |------|------|------|------|------|
 | EMEA/H/C/002464 | Jakavi | ruxolitinib phosphate | Myeloproliferative Disorders; Polycythemia Vera; Graft vs Host Disease | Gültig |
 | EMEA/H/C/005843 | Opzelura | ruxolitinib phosphate | Vitiligo | Gültig |
+| EMEA/H/C/006793 | Ruxolitinib Krka | ruxolitinib hydrochloride | Primary Myelofibrosis; Polycythemia Vera; Graft vs Host Disease | Noch nicht zugelassen (positives CHMP-Gutachten) |
 
 Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
 
 <!-- licenses:end -->
 
-Beide Zulassungen sind gültig. Das Arzneimittel ist in Deutschland im Handel.
+Gültig sind alle erfassten Zulassungen außer Ruxolitinib Krka (EMEA/H/C/006793), für das bisher nur ein positives CHMP-Gutachten vorliegt. Anzahl und Status der Zulassungen zeigen die Kurzübersicht und die Tabelle bei den Marktinformationen. Das Arzneimittel ist in Deutschland im Handel.
+
+<!-- review:begin de-lic-20261125-ruxolitinib-1 -->
+
+> **Prüfkorrektur (2026-11-25)**: Ursprünglich stand hier: „Beide Zulassungen sind gültig.“ Korrigiert: In den EMA-Daten (Stand 2026-11-25) ist zusätzlich Ruxolitinib Krka (EMEA/H/C/006793) mit dem Status „Opinion“ (positives CHMP-Gutachten, noch keine Zulassung) erfasst. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261125-ruxolitinib-1 -->
 
 ---
 
@@ -106,7 +113,7 @@ Sicherheitsinformationen sind der Fachinformation zu entnehmen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht ausschließlich auf dem Modellwert (Evidenzlevel L5). Es gibt weder Studien noch Publikationen, und der mTOR-getriebene Charakter des PEComa spricht nicht für eine JAK-Hemmung. Das Arzneimittel ist in Deutschland im Handel (2 von 2 Zulassungen gültig).
+Die Vorhersage beruht ausschließlich auf dem Modellwert (Evidenzlevel L5). Es gibt weder Studien noch Publikationen, und der mTOR-getriebene Charakter des PEComa spricht nicht für eine JAK-Hemmung. Das Arzneimittel ist in Deutschland im Handel (2 von 3 Zulassungen gültig).
 
 **Für ein Weiterverfolgen ist Folgendes nötig:**
 - Eine mechanistische Begründung für JAK/STAT-Hemmung beim PEComa, etwa durch präklinische Daten
@@ -119,11 +126,12 @@ Die Vorhersage beruht ausschließlich auf dem Modellwert (Evidenzlevel L5). Es g
 
 ## Prüfprotokoll
 
-Nachfolgend das Prüfprotokoll dieser Seite. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben.
+Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zulassungsdaten (EMA-Daten zu zentral zugelassenen Arzneimitteln) abgeglichen wurden. Korrekturen beschränken sich auf grundlegende Sachangaben; Modellvorhersagen, Evidenzstufen und Schlussfolgerungen wurden nicht umgeschrieben. Die Aussage, dass keine Daten zum Wirkmechanismus vorliegen, wurde durch einen Auszug aus der angegebenen amtlichen Fachinformation (mit inoffizieller Übersetzung) ersetzt.
 
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-11-19 | Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt | Aussage, dass keine Daten zum Wirkmechanismus vorliegen, durch einen belegten Auszug ersetzt | [DailyMed: Jakafi (ruxolitinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1c82580-87ae-11e0-bc84-0002a5d5c51b) |
+| 2026-11-25 | „Beide Zulassungen sind gültig“ → nicht alle gültig (Ruxolitinib Krka: nur CHMP-Gutachten) | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

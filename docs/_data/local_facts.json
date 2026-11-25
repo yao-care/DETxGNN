@@ -17,15 +17,15 @@
   "drugs_none_current": 6,
   "drugs_without_data": 23,
   "drugs_partial": 0,
-  "items_total": 975,
-  "items_current": 953
+  "items_total": 992,
+  "items_current": 961
  },
  "reviews": {
-  "records": 782,
+  "records": 786,
   "pages": 438,
   "public_pages_with_records": 433,
   "by_action": {
-   "correct": 377,
+   "correct": 381,
    "mechanism": 405
   }
  },
@@ -80,6 +80,15 @@
    "i": "simian immunodeficiency virus infection"
   },
   {
+   "t": "Pegfilgrastim",
+   "u": "/drugs/pegfilgrastim/",
+   "l": "L5",
+   "lt": 13,
+   "lv": 13,
+   "r": 2,
+   "i": "Schwere nichtproliferative diabetische Retinopathie"
+  },
+  {
    "t": "Ustekinumab",
    "u": "/drugs/ustekinumab/",
    "l": "L2",
@@ -96,15 +105,6 @@
    "lv": 11,
    "r": 1,
    "i": "Hypermobilität des Steißbeins"
-  },
-  {
-   "t": "Pegfilgrastim",
-   "u": "/drugs/pegfilgrastim/",
-   "l": "L5",
-   "lt": 11,
-   "lv": 11,
-   "r": 2,
-   "i": "Schwere nichtproliferative diabetische Retinopathie"
   }
  ],
  "no_current": [
@@ -205,7 +205,7 @@
    "t": "Insulin Aspart",
    "u": "/drugs/insulin-aspart/",
    "l": "L5",
-   "lt": 8,
+   "lt": 10,
    "lv": 7,
    "r": 4,
    "i": "autoimmune oophoritis"
@@ -230,6 +230,30 @@
   "i": "seborrheic dermatitis"
  },
  "recent_reviews": [
+  {
+   "t": "Ruxolitinib",
+   "u": "/drugs/ruxolitinib/",
+   "s": "„Beide Zulassungen sind gültig“ → nicht alle gültig (Ruxolitinib Krka: nur CHMP-Gutachten)",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Ranibizumab",
+   "u": "/drugs/ranibizumab/",
+   "s": "„mit 7 gültigen Zulassungen von 7“ → Verweis auf die Kurzübersicht",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Filgrastim",
+   "u": "/drugs/filgrastim/",
+   "s": "„Alle sieben Zulassungen sind gültig (7 von 7)“ → nicht alle gültig (Neuzafy: nur CHMP-Gutachten)",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Pertuzumab",
+   "u": "/drugs/pertuzumab/",
+   "s": "Zahl der gültigen Zulassungen → gültig: Perjeta, Poherdy, Phesgo; Pebrilzo nur CHMP-Gutachten",
+   "d": "2026-11-25"
+  },
   {
    "t": "Tolfenamic Acid",
    "u": "/drugs/tolfenamic-acid/",
@@ -349,33 +373,33 @@
    "u": "/drugs/bupropion/",
    "s": "„Bupropion war in Deutschland bzw. der EU als Bestandteil des Kombinationspräpara“ → „Bupropion ist in der EU…",
    "d": "2026-11-24"
-  },
-  {
-   "t": "Betamethasone",
-   "u": "/drugs/betamethasone/",
-   "s": "Entfernt: „Zudem ist Betamethason in Deutschland derzeit nicht im Handel.“",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Tenofovir Disoproxil",
-   "u": "/drugs/tenofovir-disoproxil/",
-   "s": "Entfernt: „Auswahl von 5 Einträgen:“",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Telmisartan",
-   "u": "/drugs/telmisartan/",
-   "s": "Entfernt: „Auswahl:“",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Pioglitazone",
-   "u": "/drugs/pioglitazone/",
-   "s": "„eine sechste (Competact, EMEA/H/C/000655) ist hier nicht aufgeführt“ entfernt",
-   "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
+  {
+   "t": "Ruxolitinib",
+   "u": "/drugs/ruxolitinib/",
+   "s": "„Beide Zulassungen sind gültig“ → nicht alle gültig (Ruxolitinib Krka: nur CHMP-Gutachten)",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Ranibizumab",
+   "u": "/drugs/ranibizumab/",
+   "s": "„mit 7 gültigen Zulassungen von 7“ → Verweis auf die Kurzübersicht",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Filgrastim",
+   "u": "/drugs/filgrastim/",
+   "s": "„Alle sieben Zulassungen sind gültig (7 von 7)“ → nicht alle gültig (Neuzafy: nur CHMP-Gutachten)",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Pertuzumab",
+   "u": "/drugs/pertuzumab/",
+   "s": "Zahl der gültigen Zulassungen → gültig: Perjeta, Poherdy, Phesgo; Pebrilzo nur CHMP-Gutachten",
+   "d": "2026-11-25"
+  },
   {
    "t": "Tolfenamic Acid",
    "u": "/drugs/tolfenamic-acid/",
@@ -398,30 +422,6 @@
    "t": "Phenylephrine",
    "u": "/drugs/phenylephrine/",
    "s": "„die Schmerzbehandlung nach der Operation zugelassen war.“ → „die Schmerzbehandlung nach der Operation…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Orbifloxacin",
-   "u": "/drugs/orbifloxacin/",
-   "s": "Entfernt: „Die einzige Zulassung in Deutschland ist erloschen.“",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Omeprazole",
-   "u": "/drugs/omeprazole/",
-   "s": "Entfernt: „Zudem ist die einzige erfasste Zulassung in Deutschland aufgehoben.“",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Midazolam",
-   "u": "/drugs/midazolam/",
-   "s": "„zur Behandlung von Epilepsie zugelassen war.“ → „zur Behandlung von Epilepsie zugelassen ist.“",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Miconazole",
-   "u": "/drugs/miconazole/",
-   "s": "„ist erloschen bzw. nicht mehr gültig.“ → „betrifft ein Tierarzneimittel (Easotic, EMEA/V/C/000140) und ist…",
    "d": "2026-11-24"
   }
  ],

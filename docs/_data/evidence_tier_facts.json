@@ -896,6 +896,17 @@
     "x": 0
    },
    {
+    "t": "Pegfilgrastim",
+    "u": "/drugs/pegfilgrastim/",
+    "l": "L5",
+    "i": "Schwere nichtproliferative diabetische Retinopathie",
+    "lt": 13,
+    "lv": 13,
+    "r": 2,
+    "rs": "Entfernt: „Weitere erloschene Zulassungen: Grasustek, Cegfila, Pelmeg, Fulphila, Nyvepria, Pelgraz“",
+    "x": 0
+   },
+   {
     "t": "Adalimumab",
     "u": "/drugs/adalimumab/",
     "l": "L5",
@@ -904,17 +915,6 @@
     "lv": 11,
     "r": 1,
     "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
-    "x": 0
-   },
-   {
-    "t": "Pegfilgrastim",
-    "u": "/drugs/pegfilgrastim/",
-    "l": "L5",
-    "i": "Schwere nichtproliferative diabetische Retinopathie",
-    "lt": 11,
-    "lv": 11,
-    "r": 2,
-    "rs": "Entfernt: „Weitere erloschene Zulassungen: Grasustek, Cegfila, Pelmeg, Fulphila, Nyvepria, Pelgraz“",
     "x": 0
    },
    {
@@ -959,6 +959,17 @@
     "lv": 10,
     "r": 1,
     "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+    "x": 0
+   },
+   {
+    "t": "Ranibizumab",
+    "u": "/drugs/ranibizumab/",
+    "l": "L5",
+    "i": "tetanic cataract",
+    "lt": 11,
+    "lv": 10,
+    "r": 3,
+    "rs": "„mit 7 gültigen Zulassungen von 7“ → Verweis auf die Kurzübersicht",
     "x": 0
    },
    {
@@ -1087,10 +1098,10 @@
     "u": "/drugs/filgrastim/",
     "l": "L5",
     "i": "primary release disorder of platelets",
-    "lt": 7,
+    "lt": 8,
     "lv": 7,
-    "r": 1,
-    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+    "r": 2,
+    "rs": "„Alle sieben Zulassungen sind gültig (7 von 7)“ → nicht alle gültig (Neuzafy: nur CHMP-Gutachten)",
     "x": 0
    },
    {
@@ -1098,21 +1109,10 @@
     "u": "/drugs/insulin-aspart/",
     "l": "L5",
     "i": "autoimmune oophoritis",
-    "lt": 8,
+    "lt": 10,
     "lv": 7,
     "r": 4,
     "rs": "Entfernt: „Zudem sind alle deutschen Zulassungen in den Daten als aufgehoben geführt, sodass der aktuelle…",
-    "x": 0
-   },
-   {
-    "t": "Ranibizumab",
-    "u": "/drugs/ranibizumab/",
-    "l": "L5",
-    "i": "tetanic cataract",
-    "lt": 7,
-    "lv": 7,
-    "r": 1,
-    "rs": "Entfernt: „Port-Delivery-System), da nur erloschene Zulassungen verzeichnet sind“",
     "x": 0
    },
    {
@@ -1168,6 +1168,17 @@
     "lv": 6,
     "r": 5,
     "rs": "Zahl der gültigen Zulassungen: 5 von 6 → alle 6",
+    "x": 0
+   },
+   {
+    "t": "Levodopa",
+    "u": "/drugs/levodopa/",
+    "l": "L5",
+    "i": "Rasmussen-Enzephalitis",
+    "lt": 6,
+    "lv": 6,
+    "r": 2,
+    "rs": "Entfernt: „die fehlende gültige Zulassung in Deutschland sowie fehlende Daten zu Warnhinweisen und…",
     "x": 0
    },
    {
@@ -1314,17 +1325,6 @@
     "x": 0
    },
    {
-    "t": "Levodopa",
-    "u": "/drugs/levodopa/",
-    "l": "L5",
-    "i": "Rasmussen-Enzephalitis",
-    "lt": 5,
-    "lv": 5,
-    "r": 2,
-    "rs": "Entfernt: „die fehlende gültige Zulassung in Deutschland sowie fehlende Daten zu Warnhinweisen und…",
-    "x": 0
-   },
-   {
     "t": "Miglustat",
     "u": "/drugs/miglustat/",
     "l": "L5",
@@ -1340,7 +1340,7 @@
     "u": "/drugs/temozolomide/",
     "l": "L5",
     "i": "cauda equina neoplasm",
-    "lt": 5,
+    "lt": 6,
     "lv": 5,
     "r": 0,
     "rs": "",
@@ -1626,10 +1626,10 @@
     "u": "/drugs/pertuzumab/",
     "l": "L5",
     "i": "ectomesenchymoma",
-    "lt": 3,
+    "lt": 4,
     "lv": 3,
     "r": 3,
-    "rs": "Zahl der gültigen Zulassungen: 2 von 3 → alle 3",
+    "rs": "Zahl der gültigen Zulassungen → gültig: Perjeta, Poherdy, Phesgo; Pebrilzo nur CHMP-Gutachten",
     "x": 0
    },
    {
@@ -1718,6 +1718,17 @@
     "lv": 3,
     "r": 2,
     "rs": "Entfernt: „angesichts der erloschenen Zulassungen“",
+    "x": 0
+   },
+   {
+    "t": "Alpelisib",
+    "u": "/drugs/alpelisib/",
+    "l": "L5",
+    "i": "pulmonary hypertension",
+    "lt": 2,
+    "lv": 2,
+    "r": 3,
+    "rs": "Entfernt: „Zudem ist die Zulassung in Deutschland aufgehoben“",
     "x": 0
    },
    {
@@ -2121,7 +2132,7 @@
     "u": "/drugs/omalizumab/",
     "l": "L5",
     "i": "bronchitis",
-    "lt": 2,
+    "lt": 3,
     "lv": 2,
     "r": 1,
     "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
@@ -2136,6 +2147,17 @@
     "lv": 2,
     "r": 1,
     "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+    "x": 0
+   },
+   {
+    "t": "Palbociclib",
+    "u": "/drugs/palbociclib/",
+    "l": "L5",
+    "i": "hyperthyroidism",
+    "lt": 2,
+    "lv": 2,
+    "r": 3,
+    "rs": "Entfernt: „Zudem ist die Zulassung in eutschland erloschen, und d“",
     "x": 0
    },
    {
@@ -2187,10 +2209,10 @@
     "u": "/drugs/ruxolitinib/",
     "l": "L5",
     "i": "uterine corpus perivascular epithelioid cell tumor",
-    "lt": 2,
+    "lt": 3,
     "lv": 2,
-    "r": 1,
-    "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
+    "r": 2,
+    "rs": "„Beide Zulassungen sind gültig“ → nicht alle gültig (Ruxolitinib Krka: nur CHMP-Gutachten)",
     "x": 0
    },
    {
@@ -2345,17 +2367,6 @@
     "lv": 1,
     "r": 1,
     "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
-    "x": 0
-   },
-   {
-    "t": "Alpelisib",
-    "u": "/drugs/alpelisib/",
-    "l": "L5",
-    "i": "pulmonary hypertension",
-    "lt": 1,
-    "lv": 1,
-    "r": 3,
-    "rs": "Entfernt: „Zudem ist die Zulassung in Deutschland aufgehoben“",
     "x": 0
    },
    {
@@ -3100,7 +3111,7 @@
     "u": "/drugs/ezetimibe/",
     "l": "L5",
     "i": "cholesterol-ester transfer protein deficiency",
-    "lt": 1,
+    "lt": 2,
     "lv": 1,
     "r": 1,
     "rs": "Aussage „keine Daten zum Wirkmechanismus“ durch Auszug aus der US-Fachinformation ersetzt",
@@ -3874,17 +3885,6 @@
     "lv": 1,
     "r": 2,
     "rs": "Entfernt: „Zudem ist die einzige deutsche Zulassung erloschen“",
-    "x": 0
-   },
-   {
-    "t": "Palbociclib",
-    "u": "/drugs/palbociclib/",
-    "l": "L5",
-    "i": "hyperthyroidism",
-    "lt": 1,
-    "lv": 1,
-    "r": 3,
-    "rs": "Entfernt: „Zudem ist die Zulassung in eutschland erloschen, und d“",
     "x": 0
    },
    {

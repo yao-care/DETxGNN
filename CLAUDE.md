@@ -107,3 +107,19 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 `scripts/sync_license_tables.py` 的 `add_section` 在「## Zytotoxizität」之前（沒有就安全性、結論、查核紀錄、免責聲明段之前）補「## Marktinformationen Deutschland」與程式表；noindex 頁、沒有人用紀錄的頁不補。
 gate（`src/detxgnn/regulatory/licenses.py` 第 5 項）擋「公開頁快照有程式表列卻沒有市場段落」；`PAGE_NOTE`（adapter 用同一份）放行新標題行。
 2026-11-24 全量量測 5 頁（docetaxel、doxorubicin、givosiran、lamivudine、latanoprost），補上；正文沒有跟新表矛盾的句子。checker 前後都是 P2 2／P6 1（原有）、gate exit 0。
+
+## EMA 新集中許可依原規則補收（2026-11-25 第五輪）
+
+用戶 2026-11-25 決定（第五輪第 2 條「新許可補收接進每週排程」；DE、FI、NO 三站同一份 EMA medicines report，同一支邏輯逐站放）：證據包的許可是 collectors/defda.py 依 data/processed/drug_mapping.csv（2026-03 EMA 清單逐成分對 DrugBank）收的，
+之後 EMA 新核准的集中許可不在 drug_mapping，每週排程只更新既有號碼的狀態，永遠收不進來。
+- `scripts/add_current_ema_products.py [--download | --xlsx 檔] [--dry-run] [--report]`：候選＝現行清單裡不在 drug_mapping 的產品號碼、狀態不在 fields.yaml withdrawn_statuses、有 Active substance（＝filter_active_drugs）；
+  用同一支 map_fda_drugs_to_drugbank（同一份 drugbank_vocab）對 DrugBank ID，證據包 tfda.drugbank_ids 有交集、號碼不在證據包的補一筆（欄位照收集器 _format，另記 source、added）；
+  人用進 records（20 筆上限，超過只記 records_not_stored、算進 total_matches）；獸用（本站 2026-03 基準清單本來就收獸用）進 veterinary_records（不算人用張數，同 license_adapter.preprocess）。只加不刪、可重複執行。
+  --download 把現行清單存成 data/raw/ema_medicines_report_current.xlsx（Release 帶著）。`.github/workflows/license-refresh.yml` 在 license_refresh 前以 --download 跑，有補收就照常發新 Release。
+- 2026-11-25 第一次跑（清單 2026-11-25，2,765 筆）：不在 drug_mapping 的現行候選 71 筆、對到 DrugBank 30 筆；25 個證據包補 31 筆（records 27、只算張數 1（denosumab）、獸用 3（Credelio Quattro））；第二次跑 0 筆。
+  其中 13 筆 EMA 狀態是「Opinion」（CHMP 正面意見、還沒有許可；原規則本來就收、事實層算非有效）：程式表 STATUS_DE 加「Noch nicht zugelassen (positives CHMP-Gutachten)」（與 Opinion under re-examination）。
+  量測報告的另 10 筆沒補：Application withdrawn／Refused（照 withdrawn_statuses 不收）、ruxolitinib hemifumarate（mapper 不認 hemifumarate 鹽類，原規則一樣對不到）。
+  證據包 local_regulatory 重算 13 個；概覽狀態列／張數列 13 頁、程式表 14 頁由程式同步，正文張數 B 改寫 4 句；data overlay 推 `claude/data-overlay-DETxGNN-emanew`。
+- 正文跟新事實矛盾的 4 句以 `de-lic-20261125-*` 更正（filgrastim「Alle sieben … gültig (7 von 7)」、ranibizumab「Alle 7 Zulassungen … gültig」與決策理由「mit 7 gültigen Zulassungen von 7」、ruxolitinib「Beide Zulassungen sind gültig」），
+  `de-lic-20261112-pertuzumab-1`（更正文字「waren alle Zulassungen gültig」，Pebrilzo 只有 Opinion）同 id 重發（前版存 history）；更正文字不寫張數。
+- 驗證：checker 前後都是 P2 2／P6 1（原有）、row-status 0；gate exit 0；改到的 14 頁（公開 13、noindex 1）逐頁掃許可張數／全稱／唯一字樣，剩下都跟事實一致。

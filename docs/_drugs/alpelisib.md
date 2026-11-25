@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 27
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Alpelisib: vorhergesagte neue Indikation Pulmonale Hypertonie (Evidenzstufe L5). Ursprüngliche Indikation: Brustneoplasmen (Brustkrebs)"
 monitor_inn: "ALPELISIB"
 predicted_indications: ["pulmonary hypertension"]
@@ -50,8 +50,8 @@ Alpelisib wurde ursprünglich zur Behandlung von Brustneoplasmen (Brustkrebs) ei
 | Vorhergesagte neue Indikation | Pulmonale Hypertonie |
 | TxGNN-Vorhersagewert | 0,9903 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 1 von 1) |
-| Anzahl der Zulassungen | 1 (gültig: 1) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 2 von 2) |
+| Anzahl der Zulassungen | 2 (gültig: 2) |
 | Empfohlene Entscheidung | Hold |
 
 ---
@@ -87,6 +87,7 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 | Zulassungsnummer | Produktname | Wirkstoff(e) | Therapeutisches Gebiet (EMA, englisch) | Status |
 |------|------|------|------|------|
 | EMEA/H/C/004804 | Piqray | alpelisib | Breast Neoplasms | Gültig |
+| EMEA/H/C/006539 | Vijoice | alpelisib | Genetic Diseases, Inborn; Growth Disorders | Gültig |
 
 Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
 

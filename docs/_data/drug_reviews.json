@@ -14595,19 +14595,19 @@
    "file": "pertuzumab.md",
    "action": "correct",
    "claim": "Zwei von drei Zulassungen sind gültig.",
-   "replacement": "Laut EMA-Daten (Stand 2026-11-09) waren alle Zulassungen gültig; den aktuellen Status zeigt die Tabelle bei den Marktinformationen.",
-   "summary": "Zahl der gültigen Zulassungen: 2 von 3 → alle 3",
-   "note": "Laut den EMA-Daten (Stand 2026-11-09) waren alle erfassten Zulassungen (Perjeta, Poherdy, Phesgo) gültig („Authorised“); Zahl und aktueller Status stehen in der Schnellübersicht und in der Tabelle.",
-   "finding": "事實層 total 3、valid 3；證據包 3 張（Perjeta、Poherdy、Phesgo）均為 Authorised",
+   "replacement": "Gültig sind die Zulassungen Perjeta, Poherdy und Phesgo; für Pebrilzo (EMEA/H/C/006844) liegt bisher nur ein positives CHMP-Gutachten vor. Anzahl und Status der Zulassungen zeigen die Kurzübersicht und die Tabelle bei den Marktinformationen.",
+   "summary": "Zahl der gültigen Zulassungen → gültig: Perjeta, Poherdy, Phesgo; Pebrilzo nur CHMP-Gutachten",
+   "note": "Laut den EMA-Daten (Stand 2026-11-25) sind Perjeta, Poherdy und Phesgo gültig („Authorised“); für Pebrilzo (EMEA/H/C/006844) liegt nur ein positives CHMP-Gutachten („Opinion“) vor, noch keine Zulassung.",
+   "finding": "證據包 Perjeta、Poherdy、Phesgo Authorised；2026-11-25 補收 Pebrilzo EMEA/H/C/006844（Opinion，事實層算非有效）",
    "sources": [
     {
      "title": "EMA – Medicines output (European public assessment reports)",
      "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
-     "accessed": "2026-11-09"
+     "accessed": "2026-11-25"
     }
    ],
-   "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數與狀態對事實層與證據包原始狀態）",
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（依原收集規則補收 EMA 現行清單的新集中許可之後，正文張數與狀態對證據包與快照事實層）",
    "history": [
     {
      "id": "de-lic-20261112-pertuzumab-1",
@@ -14630,6 +14630,28 @@
      "method": "2026-11-12 人工查核（正文張數與狀態對事實層與證據包原始狀態）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：查核紀錄說明與更正文字不再寫死張數"
+    },
+    {
+     "id": "de-lic-20261112-pertuzumab-1",
+     "drug": "pertuzumab",
+     "file": "pertuzumab.md",
+     "action": "correct",
+     "claim": "Zwei von drei Zulassungen sind gültig.",
+     "replacement": "Laut EMA-Daten (Stand 2026-11-09) waren alle Zulassungen gültig; den aktuellen Status zeigt die Tabelle bei den Marktinformationen.",
+     "summary": "Zahl der gültigen Zulassungen: 2 von 3 → alle 3",
+     "note": "Laut den EMA-Daten (Stand 2026-11-09) waren alle erfassten Zulassungen (Perjeta, Poherdy, Phesgo) gültig („Authorised“); Zahl und aktueller Status stehen in der Schnellübersicht und in der Tabelle.",
+     "finding": "事實層 total 3、valid 3；證據包 3 張（Perjeta、Poherdy、Phesgo）均為 Authorised",
+     "sources": [
+      {
+       "title": "EMA – Medicines output (European public assessment reports)",
+       "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+       "accessed": "2026-11-09"
+      }
+     ],
+     "checked": "2026-11-12",
+     "method": "2026-11-12 人工查核（正文張數與狀態對事實層與證據包原始狀態）",
+     "retired": "2026-11-25",
+     "reason": "依原收集規則補收 EMA 新集中許可後（Pebrilzo EMEA/H/C/006844，Opinion）前版「alle Zulassungen gültig」不再成立，2026-11-25 用戶決定（第五輪）"
     }
    ]
   },
@@ -26856,6 +26878,86 @@
    ],
    "checked": "2026-11-24",
    "method": "2026-11-24 第二輪人工查核（正文許可證狀態與張數、單方／複方、劑型說法對證據包 data-20261116-082556 人用與獸用紀錄）"
+  },
+  {
+   "id": "de-lic-20261125-filgrastim-1",
+   "drug": "filgrastim",
+   "file": "filgrastim.md",
+   "action": "correct",
+   "claim": "Alle sieben Zulassungen sind gültig (7 von 7).",
+   "replacement": "Gültig sind alle erfassten Zulassungen außer Neuzafy (EMEA/H/C/007009), für das bisher nur ein positives CHMP-Gutachten vorliegt. Anzahl und Status der Zulassungen zeigen die Kurzübersicht und die Tabelle bei den Marktinformationen.",
+   "summary": "„Alle sieben Zulassungen sind gültig (7 von 7)“ → nicht alle gültig (Neuzafy: nur CHMP-Gutachten)",
+   "note": "Korrigiert: In den EMA-Daten (Stand 2026-11-25) ist zusätzlich Neuzafy (EMEA/H/C/007009, Filgrastim) mit dem Status „Opinion“ (positives CHMP-Gutachten, noch keine Zulassung) erfasst.",
+   "finding": "補收新集中許可後證據包多 Neuzafy EMEA/H/C/007009（Opinion，事實層算非有效）；「全部 7 張有效」不成立",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（依原收集規則補收 EMA 現行清單的新集中許可 scripts/add_current_ema_products.py 之後，正文張數與狀態對證據包與快照事實層）"
+  },
+  {
+   "id": "de-lic-20261125-ranibizumab-1",
+   "drug": "ranibizumab",
+   "file": "ranibizumab.md",
+   "action": "correct",
+   "claim": "Alle 7 Zulassungen haben den Status „gültig“; derzeit sind 7 von 7 Zulassungen gültig.",
+   "replacement": "Gültig sind alle erfassten Zulassungen außer Fovlussea (EMEA/H/C/006940), für das bisher nur ein positives CHMP-Gutachten vorliegt. Anzahl und Status der Zulassungen zeigen die Kurzübersicht und die Tabelle bei den Marktinformationen.",
+   "summary": "„Alle 7 Zulassungen … gültig“ → nicht alle gültig (Fovlussea: nur CHMP-Gutachten)",
+   "note": "Korrigiert: In den EMA-Daten (Stand 2026-11-25) sind zusätzlich Susvimo (EMEA/H/C/006527), Rexatilux (EMEA/H/C/006634) und Vislyfa (EMEA/H/C/006926) als gültig sowie Fovlussea (EMEA/H/C/006940) mit dem Status „Opinion“ (positives CHMP-Gutachten, noch keine Zulassung) erfasst.",
+   "finding": "補收新集中許可後證據包多 4 張（3 張 Authorised、Fovlussea Opinion）；「全部 7 張有效」與張數都不成立",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（依原收集規則補收 EMA 現行清單的新集中許可 scripts/add_current_ema_products.py 之後，正文張數與狀態對證據包與快照事實層）"
+  },
+  {
+   "id": "de-lic-20261125-ranibizumab-2",
+   "drug": "ranibizumab",
+   "file": "ranibizumab.md",
+   "action": "correct",
+   "claim": "im Verkehr, mit 7 gültigen Zulassungen von 7.",
+   "replacement": "im Verkehr (Anzahl der gültigen Zulassungen siehe Kurzübersicht).",
+   "summary": "„mit 7 gültigen Zulassungen von 7“ → Verweis auf die Kurzübersicht",
+   "note": "Korrigiert: Die Zahl der Zulassungen hat sich mit den neuen EMA-Daten (Stand 2026-11-25) geändert; die aktuelle Zahl steht in der Kurzübersicht.",
+   "finding": "決策理由裡寫死「7 von 7」；補收後事實層張數已變，改成不寫數字（count_prose 認不得此句型）",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（依原收集規則補收 EMA 現行清單的新集中許可 scripts/add_current_ema_products.py 之後，正文張數與狀態對證據包與快照事實層）"
+  },
+  {
+   "id": "de-lic-20261125-ruxolitinib-1",
+   "drug": "ruxolitinib",
+   "file": "ruxolitinib.md",
+   "action": "correct",
+   "claim": "Beide Zulassungen sind gültig.",
+   "replacement": "Gültig sind alle erfassten Zulassungen außer Ruxolitinib Krka (EMEA/H/C/006793), für das bisher nur ein positives CHMP-Gutachten vorliegt. Anzahl und Status der Zulassungen zeigen die Kurzübersicht und die Tabelle bei den Marktinformationen.",
+   "summary": "„Beide Zulassungen sind gültig“ → nicht alle gültig (Ruxolitinib Krka: nur CHMP-Gutachten)",
+   "note": "Korrigiert: In den EMA-Daten (Stand 2026-11-25) ist zusätzlich Ruxolitinib Krka (EMEA/H/C/006793) mit dem Status „Opinion“ (positives CHMP-Gutachten, noch keine Zulassung) erfasst.",
+   "finding": "補收新集中許可後證據包多 Ruxolitinib Krka EMEA/H/C/006793（Opinion）；「兩張都有效」不成立",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（依原收集規則補收 EMA 現行清單的新集中許可 scripts/add_current_ema_products.py 之後，正文張數與狀態對證據包與快照事實層）"
   }
  ]
 }

@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 239
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Insulin Aspart: vorhergesagte neue Indikation autoimmune Oophoritis (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes mellitus"
 monitor_inn: "INSULIN ASPART"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
@@ -50,8 +50,8 @@ Insulin aspart ist ein schnell wirksames Insulinanalogon, das ursprünglich zur 
 | Vorhergesagte neue Indikation | Typ-1-Diabetes mellitus |
 | TxGNN-Vorhersagewert | 0,9992 |
 | Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 7 von 8) |
-| Anzahl der Zulassungen | 8 (gültig: 7) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 7 von 10) |
+| Anzahl der Zulassungen | 10 (gültig: 7) |
 | Empfohlene Entscheidung | Proceed with Guardrails (mit Auflagen fortfahren) |
 
 ---
@@ -128,6 +128,8 @@ Es sind keine Darreichungsformen angegeben.
 | EMEA/H/C/005033 | Insulin aspart Sanofi | insulin aspart | Diabetes Mellitus | Gültig |
 | EMEA/H/C/006187 | Dazparda | insulin aspart | Diabetes Mellitus | Gültig |
 | EMEA/H/C/005635 | Truvelog Mix 30 | insulin aspart | Diabetes Mellitus | Zurückgezogen |
+| EMEA/H/C/006677 | Garzulys | insulin aspart | Diabetes Mellitus | Noch nicht zugelassen (positives CHMP-Gutachten) |
+| EMEA/H/C/006864 | Donrafylix | insulin aspart | Diabetes Mellitus | Noch nicht zugelassen (positives CHMP-Gutachten) |
 
 Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
 

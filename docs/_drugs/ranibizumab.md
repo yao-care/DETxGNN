@@ -5,7 +5,7 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 381
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["tetanic cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "mature cataract", "craniostenosis cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "hemorrhagic disease of newborn"]
 description: "Ranibizumab: vorhergesagte neue Indikation Tetanic cataract (Evidenzstufe L5). Ursprüngliche Indikation: Wet Macular Degeneration"
@@ -52,8 +52,8 @@ Dafür liegen in den zusammengestellten Daten **keine registrierten klinischen S
 | Vorhergesagte neue Indikation | Tetanic cataract |
 | TxGNN-Vorhersagewert | 0.9999 |
 | Evidenzstufe | L5 (mit Einschränkung, siehe unten) |
-| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 7 von 7) |
-| Anzahl der Zulassungen | 7 (gültig: 7) |
+| Marktstatus in Deutschland | Im Handel (gültige Zulassungen: 10 von 11) |
+| Anzahl der Zulassungen | 11 (gültig: 10) |
 | Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
 
 ---
@@ -105,13 +105,23 @@ Hinweis zur Evidenzstufe: Die Einstufung L1 beruht allein auf Literaturtiteln. D
 | EMEA/H/C/005617 | Ximluci | ranibizumab | Wet Macular Degeneration; Macular Edema; Diabetic Retinopathy; Diabetes Complications | Gültig |
 | EMEA/H/C/006055 | Rimmyrah | ranibizumab | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Myopia, Degenerative; Choroidal Neovasculari… | Gültig |
 | EMEA/H/C/006502 | Ranluspec | ranibizumab | Wet Macular Degeneration; Macular Edema; Diabetic Retinopathy; Diabetes Complications; Retinal Vein Occlusion… | Gültig |
+| EMEA/H/C/006527 | Susvimo | ranibizumab | Wet Macular Degeneration | Gültig |
 | EMEA/H/C/006528 | Epruvy (previously Ranibizumab Midas) | ranibizumab | Wet Macular Degeneration; Macular Edema; Choroidal Neovascularization; Diabetes Complications | Gültig |
+| EMEA/H/C/006634 | Rexatilux | ranibizumab | Wet Macular Degeneration | Gültig |
+| EMEA/H/C/006926 | Vislyfa | ranibizumab | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion; Choroidal Neovascula… | Gültig |
+| EMEA/H/C/006940 | Fovlussea | ranibizumab | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Choroidal Neovascularization | Noch nicht zugelassen (positives CHMP-Gutachten) |
 
 Quelle: EMA – Medicines output (zentral zugelassene Humanarzneimittel); Produktname, Wirkstoffe und therapeutisches Gebiet im englischen Original. Nationale Zulassungen (BfArM) und Tierarzneimittel sind in diesen Daten nicht enthalten.
 
 <!-- licenses:end -->
 
-Alle 7 Zulassungen haben den Status „gültig“; derzeit sind 7 von 7 Zulassungen gültig.
+Gültig sind alle erfassten Zulassungen außer Fovlussea (EMEA/H/C/006940), für das bisher nur ein positives CHMP-Gutachten vorliegt. Anzahl und Status der Zulassungen zeigen die Kurzübersicht und die Tabelle bei den Marktinformationen.
+
+<!-- review:begin de-lic-20261125-ranibizumab-1 -->
+
+> **Prüfkorrektur (2026-11-25)**: Ursprünglich stand hier: „Alle 7 Zulassungen haben den Status „gültig“; derzeit sind 7 von 7 Zulassungen gültig.“ Korrigiert: In den EMA-Daten (Stand 2026-11-25) sind zusätzlich Susvimo (EMEA/H/C/006527), Rexatilux (EMEA/H/C/006634) und Vislyfa (EMEA/H/C/006926) als gültig sowie Fovlussea (EMEA/H/C/006940) mit dem Status „Opinion“ (positives CHMP-Gutachten, noch keine Zulassung) erfasst. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261125-ranibizumab-1 -->
 
 ---
 
@@ -142,7 +152,13 @@ Für alle genannten Indikationen lautet die Empfehlung **Hold**.
 **Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Die Indikation liegt eng an den bereits zugelassenen Anwendungen, und die Literatur enthält eine randomisierte Studie (Pavilion) sowie Post-hoc-Analysen von Phase-3-Studien. Allerdings fehlen registrierte Studien in den Daten; das Arzneimittel ist in Deutschland im Verkehr, mit 7 gültigen Zulassungen von 7.
+Die Indikation liegt eng an den bereits zugelassenen Anwendungen, und die Literatur enthält eine randomisierte Studie (Pavilion) sowie Post-hoc-Analysen von Phase-3-Studien. Allerdings fehlen registrierte Studien in den Daten; das Arzneimittel ist in Deutschland im Verkehr (Anzahl der gültigen Zulassungen siehe Kurzübersicht).
+
+<!-- review:begin de-lic-20261125-ranibizumab-2 -->
+
+> **Prüfkorrektur (2026-11-25)**: Ursprünglich stand hier: „im Verkehr, mit 7 gültigen Zulassungen von 7.“ Korrigiert: Die Zahl der Zulassungen hat sich mit den neuen EMA-Daten (Stand 2026-11-25) geändert; die aktuelle Zahl steht in der Kurzübersicht. Quelle: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end de-lic-20261125-ranibizumab-2 -->
 
 **Für das weitere Vorgehen ist Folgendes erforderlich:**
 - Prüfung der Studiendesigns hinter der L1-Einstufung (insbesondere Pavilion und RIDE/RISE)
@@ -166,6 +182,8 @@ Nachfolgend das Prüfprotokoll dieser Seite: Aussagen, die mit den amtlichen Zul
 | Prüfdatum | Punkt | Maßnahme | Quelle |
 |------|------|------|------|
 | 2026-10-31 | Entfernt: „Port-Delivery-System), da nur erloschene Zulassungen verzeichnet sind“ | Korrigiert (überarbeitet am 2026-11-24; frühere Fassung im Protokoll erhalten) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-25 | „Alle 7 Zulassungen … gültig“ → nicht alle gültig (Fovlussea: nur CHMP-Gutachten) | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-25 | „mit 7 gültigen Zulassungen von 7“ → Verweis auf die Kurzübersicht | Korrigiert | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 
