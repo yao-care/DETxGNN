@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-11-27T06:50:23.911898",
+  "last_check": "2026-11-27T20:45:34.322819",
   "seen_trials": {
     "Abatacept": [
       "NCT07388563",
@@ -5325,6 +5325,9 @@
     ],
     "Bexarotene": [
       "NCT05296304"
+    ],
+    "Nepafenac": [
+      "NCT07962981"
     ]
   }
 }
