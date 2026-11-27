@@ -1,36 +1,26 @@
 {
-  "fetched_at": "2026-11-26T21:22:32.810920+00:00",
+  "fetched_at": "2026-11-27T03:57:48.109089+00:00",
   "source": "Google News Health RSS",
-  "count": 43,
+  "count": 36,
   "articles": [
     {
-      "id": "75171c849e3f",
-      "title": "Depression: Diese 3 Antidepressiva wirken auch langfristig besonders gut - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdVF0WFdrRXgwTnZHUmJMX3A5NFRvT2U2bDRZMnVBR28yc19wM21uYXRKUzBReTFjTTN4R2NxN1BaUFU4My12bXBIaEY0dkZRY2JwbVdTTGZINlVqQUJQaWlZdkktUWdHZlUzZm1vTENGdGlGa1FfRUFRaWdVcjdWbzlpSlExVFNpS2NKNHFUMXZzOE9LelJQNkFzVzFLbmRNUlRmUG9QRzU5eHM?oc=5",
-      "published": "2026-11-26T09:23:16+00:00",
+      "id": "98f6dc3ba26f",
+      "title": "Medikamente werden 2027 teurer: Zuzahlung steigt um 50 Prozent - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOUlEQl9GcEJsZW1zUlNuNkFna1dIRVlJWDhjbXdlWWZJUXJzRFVLSDlRRk1lZXhPM3VpMWhfZUhRWUg5SUFRbjctTVJlTHVESVJKeHU3V2Z2ZnczZXVMYk1EUVBiX3BJbHVuQWliNWtiNl9WV0hFQ244cFAydnM5WGhPdElfMkNNVUZ6Q1BiQjJjamZqRFhuU2JORE55UQ?oc=5",
+      "published": "2026-11-24T12:48:43+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
       }
     },
     {
-      "id": "dbd0b1e66753",
-      "title": "ADHS-Medikamente in der Schwangerschaft: Studie sieht kein erhöhtes Entwicklungsrisiko - Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcnQ4bENOTVpaSHB6QThyc0VGdXpBQmtuRzNoa0Q2RG50aWduNWFCRHVYMnB2WjlOOHlZRERQVU5fZ09Yc3AxeVdyR3I4a0RMdUpXVmxDMjdsZVluUkkzLVc3ZU40UkpXOUZXVGxpMFN2YmF0OW1DQ0llX1lNd3RMLUtCaWhFdV9KU2EtNXgwY2xETzRDY1JDVzNDTnFReDBuRnluS0dLUFlHSXRGa2FmQ3Npb0gzLVBrWUtNeA?oc=5",
-      "published": "2026-11-26T06:00:27+00:00",
+      "id": "a08e5bca6e2a",
+      "title": "EU-Parlament beschließt neue Arzneimittelregeln: mehr Versorgungssicherheit und Innovationsanreize - Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWEtGRFMwTUlWVDhiZU5iR3ZxaUdacU9lUGJTMHltNUtEWF9Cbm9OaGNzaWlWMTFKX2FjZnlzektUVW9JRDluTldEU2p2Z1B4NlJpS2pDYWQ1eUNaM1Z4LW44bmFIOXhDZjEwUGNCVmwxT1NUbXBiMFpPUFk3Rk51U3Z4Sm9SVHNmWV9PZnJWcmU4TjBxckxkRXFfZ3hELUJxWnFuNld2M0J2VC1qNi15UF9qX3I0WVJhbmw3dnBjTmV5RnM?oc=5",
+      "published": "2026-11-25T16:46:16+00:00",
       "source": {
         "name": "Euronews.com",
         "url": "https://de.euronews.com"
-      }
-    },
-    {
-      "id": "fb2b76fe55da",
-      "title": "Mehr als 2.700 Gäste schaffen Rekordkulisse - gesundheit adhoc",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQ0FhbTk4OWZlLXpvNzJDejBzcmRabDhkUkc3dDg1YjZweUNXQnltVDAzVnFMeUktXzRjQ0RIbEZsaUUwcE1PSGsybE00Yk1CaWxBbXpCaGpRcDZhWWYxQmRXVXU1ZFlQRW5pczlZVE5pT3c3LXliekhyOWl4alhDZ1RPRQ?oc=5",
-      "published": "2026-11-26T09:20:40+00:00",
-      "source": {
-        "name": "gesundheit adhoc",
-        "url": "https://www.gesundheit-adhoc.de"
       }
     },
     {
@@ -41,6 +31,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "fb2b76fe55da",
+      "title": "Mehr als 2.700 Gäste schaffen Rekordkulisse - gesundheit adhoc",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQ0FhbTk4OWZlLXpvNzJDejBzcmRabDhkUkc3dDg1YjZweUNXQnltVDAzVnFMeUktXzRjQ0RIbEZsaUUwcE1PSGsybE00Yk1CaWxBbXpCaGpRcDZhWWYxQmRXVXU1ZFlQRW5pczlZVE5pT3c3LXliekhyOWl4alhDZ1RPRQ?oc=5",
+      "published": "2026-11-26T09:20:40+00:00",
+      "source": {
+        "name": "gesundheit adhoc",
+        "url": "https://www.gesundheit-adhoc.de"
       }
     },
     {
@@ -64,13 +64,13 @@
       }
     },
     {
-      "id": "235385ab22ef",
-      "title": "Zuverlässige Informationen zu Arzneimitteln auf einen Klick - GrenzEcho",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVEIxTnpIQlpJbFJkVkZtczA0U0V4YmRfazh1Y3NPa3R4RWZFZEVvX2RmeExldHRNMDZuVFREa3RtS1A1OGtDQmV4bHFmaGNsODE2SDhyYmpwZ1VmTGpjUUFwUlI2RThNQ3FnSkNDTmtkNWpQQ2NBSWtWM1dlZ3VzNEtYYlZrTXRqeUhmNi1rTWI1ZURDbU1JYS1PWGRrYUpDYTJBNHBQME1vbUZ1RjQ4eg?oc=5",
-      "published": "2026-11-25T04:02:00+00:00",
+      "id": "14409853b86a",
+      "title": "Darmflora nach Antibiotika: Zwei Experten erklären, was jetzt hilft - oekotest.de",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOFJMTG9QUkN5bHZBc0tSUmg1eTZZS2hHMWdLY0V0OXQ4a0xvOFZmUjBRb0RXSnh0SFhnODlaYVhGLTBsbnZpdF8yd1c4SVN2NnRoMloyRHF2SEoydWU4ZGZTY2tPYV9yanF3YldmMzRFcC0yZzJZTnpoN2R6Vnh6VThGUGluMDlLWWNPM01PZ05SaENOcUdDdk1pU3VRNDAwWlpVYTdVUEVXck9OV3BobnJpYVhycE5GWUdWanVnLXJleVRLSUE?oc=5",
+      "published": "2026-11-26T15:42:52+00:00",
       "source": {
-        "name": "GrenzEcho",
-        "url": "https://www.grenzecho.net"
+        "name": "oekotest.de",
+        "url": "https://www.oekotest.de"
       }
     },
     {
@@ -94,26 +94,6 @@
       }
     },
     {
-      "id": "98f6dc3ba26f",
-      "title": "Medikamente werden 2027 teurer: Zuzahlung steigt um 50 Prozent - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOUlEQl9GcEJsZW1zUlNuNkFna1dIRVlJWDhjbXdlWWZJUXJzRFVLSDlRRk1lZXhPM3VpMWhfZUhRWUg5SUFRbjctTVJlTHVESVJKeHU3V2Z2ZnczZXVMYk1EUVBiX3BJbHVuQWliNWtiNl9WV0hFQ244cFAydnM5WGhPdElfMkNNVUZ6Q1BiQjJjamZqRFhuU2JORE55UQ?oc=5",
-      "published": "2026-11-24T12:48:43+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "f673ac91f18d",
-      "title": "ABDA-Forderung: Arzneimittelzuzahlungen sollen nicht länger von Apotheken kassiert werden! - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QeVdmUWxlZ3RHZmlzcmU0U3Mtd2hReEt5cGE3ak41YTNMVjZiLXI5OFA2SUpRMF9tM3JpTThva1JPQnpXOWh0a3lqWVpPQTB0OVU2M3R3?oc=5",
-      "published": "2026-11-23T11:47:56+00:00",
-      "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
-      }
-    },
-    {
       "id": "9f7c377ed6d2",
       "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
@@ -134,10 +114,50 @@
       }
     },
     {
-      "id": "a08e5bca6e2a",
-      "title": "EU-Parlament beschließt neue Arzneimittelregeln: mehr Versorgungssicherheit und Innovationsanreize - Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWEtGRFMwTUlWVDhiZU5iR3ZxaUdacU9lUGJTMHltNUtEWF9Cbm9OaGNzaWlWMTFKX2FjZnlzektUVW9JRDluTldEU2p2Z1B4NlJpS2pDYWQ1eUNaM1Z4LW44bmFIOXhDZjEwUGNCVmwxT1NUbXBiMFpPUFk3Rk51U3Z4Sm9SVHNmWV9PZnJWcmU4TjBxckxkRXFfZ3hELUJxWnFuNld2M0J2VC1qNi15UF9qX3I0WVJhbmw3dnBjTmV5RnM?oc=5",
-      "published": "2026-11-25T16:46:16+00:00",
+      "id": "f673ac91f18d",
+      "title": "ABDA-Forderung: Arzneimittelzuzahlungen sollen nicht länger von Apotheken kassiert werden! - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QeVdmUWxlZ3RHZmlzcmU0U3Mtd2hReEt5cGE3ak41YTNMVjZiLXI5OFA2SUpRMF9tM3JpTThva1JPQnpXOWh0a3lqWVpPQTB0OVU2M3R3?oc=5",
+      "published": "2026-11-23T11:47:56+00:00",
+      "source": {
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
+      }
+    },
+    {
+      "id": "97602f1a653f",
+      "title": "Krebsmedikament aus Tabakblättern? Wie Pflanzen Wirkstoffe herstellen könnten - Der Standard",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPM0swYmlBNDNxSnZySDFKR3F2d25ocVloVmNvUEhjWE5MTkpBODBuVTUzSUMtMXVYdHc1MndqSm5OUmw5ZUxpZmpjZzZ6NVRPX1U1V0gySVZBRlRscjhNMXduaFBVOUUzaU5lN1JORXdBOW1CYnNfYXR4OXNaWWEyMGlITkJUdHdDc0dJZXREZGN0bFlvTnVpNHk1UVZfeEZOcFFEenBSazIxeWdSTVozVUNIRDlQbm1pcVNoWTRHMGpUUUk?oc=5",
+      "published": "2026-11-25T08:00:00+00:00",
+      "source": {
+        "name": "Der Standard",
+        "url": "https://www.derstandard.at"
+      }
+    },
+    {
+      "id": "c976558abf7b",
+      "title": "Vitamin D: Warum die Jahreszeit bei der Blutuntersuchung wichtig ist - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSDR2SUdiYTFJcmZyZENaOG10T0NZQWEwdXFjcmxJYUNHam81aFZndlJLeklXNmM0VEZpeHpUYUpYZmY3RWpwbS1JUmtWc1RqODUtOVBMWUZ4NVJVNFZEbXlibVZWajRWamhGOURKampTRktTZDUzaDFMUXBYUFI5SmlvQmJCZUcwZE1rXzdCV2ZmR1d2V0VaRTBvNTZzQWUwSjd1ckVR?oc=5",
+      "published": "2026-11-26T09:59:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "c9e4ee8dd956",
+      "title": "17 von 17 fallen durch: Nahrungsergänzungsmittel schockiert bei Öko-Test - Utopia.de",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUVJtZllDRHNoZVUteTRRS3BhaUNPWGFQRU5BWFRCS013aVZIYUdxTF82TllGcVZDQmlCVUI3X2dxS0IzYnkwdjBhb0tIVEhUaWtKdW4zRGVzYnQyaXpjXy1lbkhmZXFGRVRrUmlORWFoSTRzQXNLQnl4ZTdNenF0ZzIxQlBlR1EyMEVsdDBNVVExVmR3SUtBSzNPb0lfOW9PVVZlYnkzT0FnVktuOUE?oc=5",
+      "published": "2026-11-23T12:47:32+00:00",
+      "source": {
+        "name": "Utopia.de",
+        "url": "https://utopia.de"
+      }
+    },
+    {
+      "id": "dbd0b1e66753",
+      "title": "ADHS-Medikamente in der Schwangerschaft: Studie sieht kein erhöhtes Entwicklungsrisiko - Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcnQ4bENOTVpaSHB6QThyc0VGdXpBQmtuRzNoa0Q2RG50aWduNWFCRHVYMnB2WjlOOHlZRERQVU5fZ09Yc3AxeVdyR3I4a0RMdUpXVmxDMjdsZVluUkkzLVc3ZU40UkpXOUZXVGxpMFN2YmF0OW1DQ0llX1lNd3RMLUtCaWhFdV9KU2EtNXgwY2xETzRDY1JDVzNDTnFReDBuRnluS0dLUFlHSXRGa2FmQ3Npb0gzLVBrWUtNeA?oc=5",
+      "published": "2026-11-26T06:00:27+00:00",
       "source": {
         "name": "Euronews.com",
         "url": "https://de.euronews.com"
@@ -154,40 +174,20 @@
       }
     },
     {
-      "id": "647f3daa3d4a",
-      "title": "»Wir müs­sen Voll­dampf ma­chen bei dem Thema Prä­ven­ti­on« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOam45LUNnenBtQ0JRZVB3OXczdml3RklCYmliQkVQWWRNV2t3Z0R0LWFLZzdLbEJCUWpmcllxbkNHYW40d3paU2VPQk1SVGxjSUNCVGpCbDl3Ylc1YnhLNExaS2dUVGVmbFNlNENWclM5TnhSblpvTW5TU094OFdVNWtBZnY0UWZBRW9PemNfRXVPak5iVnUzS29UdVdaanZDNER3?oc=5",
-      "published": "2026-11-24T12:15:41+00:00",
+      "id": "9fa13ce5acf5",
+      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
+      "published": "2026-03-31T20:25:43+00:00",
       "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
-      "id": "c976558abf7b",
-      "title": "Vitamin D: Warum die Jahreszeit bei der Blutuntersuchung wichtig ist - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSDR2SUdiYTFJcmZyZENaOG10T0NZQWEwdXFjcmxJYUNHam81aFZndlJLeklXNmM0VEZpeHpUYUpYZmY3RWpwbS1JUmtWc1RqODUtOVBMWUZ4NVJVNFZEbXlibVZWajRWamhGOURKampTRktTZDUzaDFMUXBYUFI5SmlvQmJCZUcwZE1rXzdCV2ZmR1d2V0VaRTBvNTZzQWUwSjd1ckVR?oc=5",
-      "published": "2026-11-26T09:59:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "c93bd17dad42",
-      "title": "Antibiotika gezielt einsetzen: Therapieoptionen bei Infekten breiter denken - gesundheit adhoc",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVlpfRTZ0UW1VZUFrbVV1Tlo0eEJHc2kxdVQ2bUY5NFNsYnBMZjR4T3dwVVVSbllrOC11TU9naDktVHUzNUVGaGRnWlJkbWdpZU9kdGlhTWVJUjZERGtWRlhSbWFJeG1DTXc3VFFhNDRqY25aXzBreDJCbUZjcDlmdUxKYjM3TVZlRmVocUl4Mlk4cjFEcEJqQ1lvVFF4aHRuUHktSmZMaHFqdHc?oc=5",
-      "published": "2026-11-20T12:42:51+00:00",
-      "source": {
-        "name": "gesundheit adhoc",
-        "url": "https://www.gesundheit-adhoc.de"
-      }
-    },
-    {
-      "id": "5e78fb3bfc68",
-      "title": "Blutdrucksenker könnte den Stoffwechsel ankurbeln - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVzVhd1FxWGF6a0h1NUlBTkk2YlVQVmg2Ui1yU3d5X25tOXE1M2o2NFFuVjhNUVZwenFUR0hkUUFydUJtY3IybTIxNWtDMUFqTEJxNm9wRHBvUkItR2RuTDktQnFqcHd5V2hRaEpUNzA4YmI5emFkenBnc2IydHNJSjdZcjJtcmVXcmZTWWRJUQ?oc=5",
-      "published": "2026-11-25T08:22:24+00:00",
+      "id": "e9e2e2afbce1",
+      "title": "Süßstoffe können Darmbakterien verändern: Ein Antidepressivum verstärkte den Effekt - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPM2RMb1ctWjlUSVRPR1U3YXlJbHlGZjA5ZmJuS19RQVpUNy1QS2VpMGtVeXhDNkFoVlM3eGhBOExoWVhsQU1NTmhqYVJJNWpBR2tRNE1WRUJRcXloSXZVRDdUQ0hURnFpejdvaGY2ekZoWjdtZ0VRTHNXUVRUbHN0ZkdfU3h6RlFIZDctZ01CUHl1eEowN0ItTUlma1FCWTk3bVZSTVptX0pPYUVKb2VyOWR3NXFpZjh4R29WbmJZM1c?oc=5",
+      "published": "2026-11-23T08:00:00+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
@@ -204,36 +204,6 @@
       }
     },
     {
-      "id": "9fa13ce5acf5",
-      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
-      "published": "2026-03-31T20:25:43+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "97602f1a653f",
-      "title": "Krebsmedikament aus Tabakblättern? Wie Pflanzen Wirkstoffe herstellen könnten - Der Standard",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPM0swYmlBNDNxSnZySDFKR3F2d25ocVloVmNvUEhjWE5MTkpBODBuVTUzSUMtMXVYdHc1MndqSm5OUmw5ZUxpZmpjZzZ6NVRPX1U1V0gySVZBRlRscjhNMXduaFBVOUUzaU5lN1JORXdBOW1CYnNfYXR4OXNaWWEyMGlITkJUdHdDc0dJZXREZGN0bFlvTnVpNHk1UVZfeEZOcFFEenBSazIxeWdSTVozVUNIRDlQbm1pcVNoWTRHMGpUUUk?oc=5",
-      "published": "2026-11-25T08:00:00+00:00",
-      "source": {
-        "name": "Der Standard",
-        "url": "https://www.derstandard.at"
-      }
-    },
-    {
-      "id": "c9e4ee8dd956",
-      "title": "17 von 17 fallen durch: Nahrungsergänzungsmittel schockiert bei Öko-Test - Utopia.de",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUVJtZllDRHNoZVUteTRRS3BhaUNPWGFQRU5BWFRCS013aVZIYUdxTF82TllGcVZDQmlCVUI3X2dxS0IzYnkwdjBhb0tIVEhUaWtKdW4zRGVzYnQyaXpjXy1lbkhmZXFGRVRrUmlORWFoSTRzQXNLQnl4ZTdNenF0ZzIxQlBlR1EyMEVsdDBNVVExVmR3SUtBSzNPb0lfOW9PVVZlYnkzT0FnVktuOUE?oc=5",
-      "published": "2026-11-23T12:47:32+00:00",
-      "source": {
-        "name": "Utopia.de",
-        "url": "https://utopia.de"
-      }
-    },
-    {
       "id": "eb5ff0720f65",
       "title": "Bisher nur für Privatversicherte: Gibt es die Abnehmspritze bald auch für Kassenpatienten? - Augsburger Allgemeine",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRExEdGpqRmNIQjMtT2dMeTZNU2tQRlhlcEhGd1BBMGFuaDFCSFRtY1JHdXFISHh6YVc5SmVLTjJBYmFyX2stMzRkZjhWMUhkYzlrWVVVcF9GeTY3Yk5KaF83SVhaaUluMnZndUF1dXNYTUpfbDFVVVpPR2llaGM1TXB0WGpRckVvaERoeUgwcy04WnJjTHdxODhTUjBmVkdpa21LdUVHUW1BR045RkliSEJhZnh4bHJ1M0VFUlNzQkxBUUU1ZThqNTRRZGM3LVFiaWptVVlZVF9nbS0yOU5BTA?oc=5",
@@ -244,16 +214,6 @@
       }
     },
     {
-      "id": "9749605fb9c6",
-      "title": "Peptide in den USA: Longevity ohne Evidenz - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1EOEpLYWw2RWNaSmpkTXJmalFZbHJsSjNRZWhTWWhGTkwxR2NnbnRLVHlHQ3Q1b19IQWp1VHNhQ0lIQmJPX3liLVF6emVQMG1SYUw0ZWJLcXFlUTFpbFA2a3JKYnV6QzJycVlEdUtBMm1faWxUUUZjMA?oc=5",
-      "published": "2026-11-23T12:30:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "e2d92db64135",
       "title": "Blutdrucksenker im Alter: Studie wägt Nutzen gegen Sturzrisiko ab - T-Online",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNHkwNUpVeDhDUkRmUHJ5bk1KM3JMRWNCczBFNXJYcXo3VzlLbEUwU1ByUFg5RTl6bUNEbThvWkJ1WHdVMERzdGJGRVo0WFNWeTNqV3hhVVcwdEdVZWdRYkNWMGU4UHczdkJpbjZib3RfRUtwSFpmNVZVXzZDWExGNmN6d09LeVBUblpDX2xTM2Jpd1pvYVAxN3YwRl81WWVyeEF0bUNmcE9LZlFjMkhwWXlBb3Atal93azZJeldGRHhXSURMZGk0eDMydw?oc=5",
@@ -261,6 +221,16 @@
       "source": {
         "name": "T-Online",
         "url": "https://www.t-online.de"
+      }
+    },
+    {
+      "id": "9749605fb9c6",
+      "title": "Peptide in den USA: Longevity ohne Evidenz - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1EOEpLYWw2RWNaSmpkTXJmalFZbHJsSjNRZWhTWWhGTkwxR2NnbnRLVHlHQ3Q1b19IQWp1VHNhQ0lIQmJPX3liLVF6emVQMG1SYUw0ZWJLcXFlUTFpbFA2a3JKYnV6QzJycVlEdUtBMm1faWxUUUZjMA?oc=5",
+      "published": "2026-11-23T12:30:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -281,16 +251,6 @@
       "source": {
         "name": "DiePresse.com",
         "url": "https://www.diepresse.com"
-      }
-    },
-    {
-      "id": "d1ce2fb66843",
-      "title": "Statine: „Alles andere als ein Gift“ - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNVd0NFl5dHprMGZNTEx3dFVGOUJEaVVBZ0d1VldXdzVJekhBYU9hNWtGdmZMTF9LLVZobDZua245cG8tamFMTEFsN2pfWkhKNXM0WkZGM093dmlIQV80c1lYRDhUaFFyd25pWlAydzU3ZV8yWWpHYWNNb0RSbThIVm1BTVlXcW9pM08xOEhtZw?oc=5",
-      "published": "2026-11-24T15:32:06+00:00",
-      "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
       }
     },
     {
@@ -344,26 +304,6 @@
       }
     },
     {
-      "id": "e9e2e2afbce1",
-      "title": "Süßstoffe können Darmbakterien verändern: Ein Antidepressivum verstärkte den Effekt - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPM2RMb1ctWjlUSVRPR1U3YXlJbHlGZjA5ZmJuS19RQVpUNy1QS2VpMGtVeXhDNkFoVlM3eGhBOExoWVhsQU1NTmhqYVJJNWpBR2tRNE1WRUJRcXloSXZVRDdUQ0hURnFpejdvaGY2ekZoWjdtZ0VRTHNXUVRUbHN0ZkdfU3h6RlFIZDctZ01CUHl1eEowN0ItTUlma1FCWTk3bVZSTVptX0pPYUVKb2VyOWR3NXFpZjh4R29WbmJZM1c?oc=5",
-      "published": "2026-11-23T08:00:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "d46f6ce1c2b9",
-      "title": "Ibuprofen, Aspirin und Co.: Schmerzmittel der Gruppe NSAR können Nebenwirkungen haben - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUmwyTW8wT3dfaXgyZ1VyaXFYUG1lWXY5VUZXZkkwWjd4STI2dWVSY1d3bVhub1NxRE9sNGt2bW83blh3T2hPRzlWcnVvUElQSmw4WE9KOHhscFdsSEE4TmF2cnhXaTktUWRfc3NQMnpoWmZDUXF5WWt6czNsbWdLQTRtVVJ3Mzdtb250RGVhbldmNUpVOTNDOTFhOWpldzV0MUlpVFdMRmpfOGM3WW5HbmRYaVJFT1ZzYUxn?oc=5",
-      "published": "2025-09-23T07:00:00+00:00",
-      "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
-      }
-    },
-    {
       "id": "e4f7e8c57817",
       "title": "Wie läuft die Zulassung von Arzneimitteln ab? - Stiftung Gesundheitswissen",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQc0lKcG51SV96LVpuemVlZ3p2LU1Ubjg1Q2M0VjJMa3pfRGNWM3VKemVDZG9mWm1uY0NlbkZmVDc4QWVad0VIYVAzOGxrY3ZvX1ZnSHB5QXZFYU4tNTAxa0g3N1BxbTljY3hTSVZQZE1GUFNsVF9LNUNfdk5aZGFucjBPWnZ5TGtZazdZQ3NQeEZFMXpBem9Tenh2NUtrWGlp?oc=5",
@@ -391,16 +331,6 @@
       "source": {
         "name": "Merkur",
         "url": "https://www.merkur.de"
-      }
-    },
-    {
-      "id": "fa71347c14a3",
-      "title": "Fresenius Aktienanalyse: Prognose zum zweiten Mal angehoben, Aktie gibt trotzdem nach – warum zögert die Börse? - AktienCheck.de",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUnBKUU45UlBDclVMby1VU084dVhLdlhKTm1UTDlwT0p4QXlpUjkwRjZERmNid2JWRnAtNXdwOThjck13bUdCQk5WbHUySEtoOURJZGctTEJRQy1fcEVEQTU3cHhiNmFDdU9GR3hGRHlMZFk1MkNJTlhacFpmY05GVEh0d2psbll5SDIwOFZ4SEFoaGtmUnlHZUFzRV9wakVRQ2tNTnNyeTdDVmp0ZGc?oc=5",
-      "published": "2026-11-22T07:25:21+00:00",
-      "source": {
-        "name": "AktienCheck.de",
-        "url": "https://aktiencheck.de"
       }
     },
     {
