@@ -1,16 +1,16 @@
 {
-  "fetched_at": "2026-11-28T04:34:58.152734+00:00",
+  "fetched_at": "2026-11-28T13:56:51.318950+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "8f4359d41aa0",
-      "title": "Demenz: Ausgerechnet ein Viagra-ähnliches Mittel weckt jetzt große Hoffnung - WELT",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcVQ4Y3BiQmJOR2Q4bVFIY191LXpmd2lhZ3M3Z0lpMkl2MzZ1ejZfdzloM0RDQVVuTGJyYjI4SldPZjBTd2JiU0VCZ1B1OWRDalFpM01SY2RWUktwTGVjSXNOXzFvWldITWlXdjRjM24zcUlOWDhfQjJ5eW9ld2hTcUNSWHZPVmk0b0FRRWFwV05PeHNoZDExc1hKOXY4dGs1MUVNMVpPc1ZyaTY5N2FnTHZVT0lWQUl6NWlHaGFERlo4TTdHdGlUY3FEQXlLVjd3eXlmdmM2RlVUWTdQ?oc=5",
-      "published": "2026-11-28T04:26:06+00:00",
+      "id": "a08e5bca6e2a",
+      "title": "EU-Parlament beschließt neue Arzneimittelregeln: mehr Versorgungssicherheit und Innovationsanreize - Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWEtGRFMwTUlWVDhiZU5iR3ZxaUdacU9lUGJTMHltNUtEWF9Cbm9OaGNzaWlWMTFKX2FjZnlzektUVW9JRDluTldEU2p2Z1B4NlJpS2pDYWQ1eUNaM1Z4LW44bmFIOXhDZjEwUGNCVmwxT1NUbXBiMFpPUFk3Rk51U3Z4Sm9SVHNmWV9PZnJWcmU4TjBxckxkRXFfZ3hELUJxWnFuNld2M0J2VC1qNi15UF9qX3I0WVJhbmw3dnBjTmV5RnM?oc=5",
+      "published": "2026-11-25T16:46:16+00:00",
       "source": {
-        "name": "WELT",
-        "url": "https://www.welt.de"
+        "name": "Euronews.com",
+        "url": "https://de.euronews.com"
       }
     },
     {
@@ -24,13 +24,13 @@
       }
     },
     {
-      "id": "a08e5bca6e2a",
-      "title": "EU-Parlament beschließt neue Arzneimittelregeln: mehr Versorgungssicherheit und Innovationsanreize - Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWEtGRFMwTUlWVDhiZU5iR3ZxaUdacU9lUGJTMHltNUtEWF9Cbm9OaGNzaWlWMTFKX2FjZnlzektUVW9JRDluTldEU2p2Z1B4NlJpS2pDYWQ1eUNaM1Z4LW44bmFIOXhDZjEwUGNCVmwxT1NUbXBiMFpPUFk3Rk51U3Z4Sm9SVHNmWV9PZnJWcmU4TjBxckxkRXFfZ3hELUJxWnFuNld2M0J2VC1qNi15UF9qX3I0WVJhbmw3dnBjTmV5RnM?oc=5",
-      "published": "2026-11-25T16:46:16+00:00",
+      "id": "8f4359d41aa0",
+      "title": "Demenz: Ausgerechnet ein Viagra-ähnliches Mittel weckt jetzt große Hoffnung - WELT",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcVQ4Y3BiQmJOR2Q4bVFIY191LXpmd2lhZ3M3Z0lpMkl2MzZ1ejZfdzloM0RDQVVuTGJyYjI4SldPZjBTd2JiU0VCZ1B1OWRDalFpM01SY2RWUktwTGVjSXNOXzFvWldITWlXdjRjM24zcUlOWDhfQjJ5eW9ld2hTcUNSWHZPVmk0b0FRRWFwV05PeHNoZDExc1hKOXY4dGs1MUVNMVpPc1ZyaTY5N2FnTHZVT0lWQUl6NWlHaGFERlo4TTdHdGlUY3FEQXlLVjd3eXlmdmM2RlVUWTdQ?oc=5",
+      "published": "2026-11-26T08:00:00+00:00",
       "source": {
-        "name": "Euronews.com",
-        "url": "https://de.euronews.com"
+        "name": "WELT",
+        "url": "https://www.welt.de"
       }
     },
     {
@@ -54,6 +54,26 @@
       }
     },
     {
+      "id": "cc48cf7b6a24",
+      "title": "EFPIA schlägt Zugang zu Arzneimitteln unmittelbar nach der Zulassung vor – zu von den Herstellern festgelegten Einführungspreisen und mit vorübergehender Erstattung - Informat.ro",
+      "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOQ0R5UmdaSVFjaFNzQWdLTkhDdkVmVkxiZFZVSjJ2dkhhalF1WmNuT29YR2dYam9pMXZ5Qk55d0drcXVBdzNYZ3dCZHlMYTF5ZWRzUnE3ZGVtSV8wa2t2T1E3MEs3cG13YnpsSVFqVnNyVGg1MC15NG1ybFBlMkdmelVnSFZ2S2pSTlpGazBKUU9uX2JqU0IxNndNZTVwQUpJaVowWnVXRVlDa2NuTUJWNDNRWENJWWxYNnMzYzJxdzdtSTdzMDh0YVdhWjZrT2RHV1JFazhVUTNEajFDbW9aOFVVZUdKSzlCNFRramk1cHpZdTFMY2tXUTlkdVFxcTRRRmg1cTJVQTJwZ3phRFZIbFVjd2poUUoxS0tvTjBBSm8?oc=5",
+      "published": "2026-11-28T07:40:25+00:00",
+      "source": {
+        "name": "Informat.ro",
+        "url": "https://informat.ro"
+      }
+    },
+    {
+      "id": "f31f3f02b988",
+      "title": "Traphaco unterhält 14 Anbaugebiete für Heilkräuter, die den WHO-Standards entsprechen. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02cV8yLVVUcUhJRWg2R2hKNGIyLUNnVFJtMUFiTDZEZlphWnAzUmJVTTczeWc2RHk5d2g2aXFFM1NfUUZwQm9JWFpyRGplVHpvWjFVWGZ0NXc4NEt3cnoxX2FqVnQxOWFaWm9DNEI2MFBXS3VVRy1RQWJVVk5DMlU?oc=5",
+      "published": "2026-11-28T10:39:13+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "98f7226e9e93",
       "title": "Arzneimittel - EU lässt neues Medikament gegen Bauchspeicheldrüsenkrebs zu - Gesundheit - SZ.de - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQRmp1WkNSQ0ZIMUpvb2xKcGVIS2VJRHRNTklKVHU3VmpXZEh1RFZrZFYzYkF5Q1pIMDN4NmI0ZEdFRm4zVFl4Q1ctYmc1aTBhaFBLeFZfRDF5c3Q3aU8wYmdodkVlaGgyZlVxMlRPSktXVjVJQjdVRW9kc0dNakYwbFZSQjhkQUlwYlpqcHJfYXh1b0VWZmNaSVBsWXdyVUxENDlNNHJsSU1XX2ZMMTNwR3Q0Z3hwYXEyazk3RWl5V0RwRTN6YlVWYm9sV0hjbkRja0Q1VlJURTJFMDFMVFZpU21PVTVrOWJmaV9Xal9sSVYxQUE?oc=5",
@@ -61,26 +81,6 @@
       "source": {
         "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
-      "id": "5f8e2bd3932e",
-      "title": "EU-Reform für Arzneimittel: Beipackzettel per QR-Code und Bemühen gegen Engpässe - STERN.de",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMFpkOW55c2ROU3ZrVnhqWC1SR0QwSUtiODNTR3BFaUQ4dlhSeXdyWEtPdnhVWWV6ZkZ4VlRjWm80dGpucDQySkNPM1BXTzZWTDhCNFpSaFZhTjVsT0xVOEZtQTJTeHJrWE9zaTkwVVpiYVNFVmpUXy1XQXVVMDVLTGFpUWVVOHBGcFdQVTFDc293cmFxVnBmc1JzeHFtWjJRQVFySXU4N0RadEdpUjhDTlVhN01mOTBPVGxreG9UZzQ?oc=5",
-      "published": "2026-11-25T13:17:33+00:00",
-      "source": {
-        "name": "STERN.de",
-        "url": "https://www.stern.de"
-      }
-    },
-    {
-      "id": "ef8b317cc159",
-      "title": "EU HTA: Erste Erfahrungen der Fachgesellschaften - Ärzte Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSFNzTENnU1ZXcnZwVUJ3X1BuR21BaG1WSmN2ODF6WjZwY3RBM3J4Q1Z0R1VCSDQxZUVlc2xwbkh3U0o5dWNsV1N2X3A0bjgyVjFHMHRhRXl4RXFZbjUwU3ZHdGN2NVZIdkx2Nks4ck9TWE5RMWdfNmttbVlUVGVFclljbXdWQWR4clFKSE9WNnIxNTJQUEk3ODdVVGt2WmxYbk1wWQ?oc=5",
-      "published": "2026-11-24T09:04:18+00:00",
-      "source": {
-        "name": "Ärzte Zeitung",
-        "url": "https://www.aerztezeitung.de"
       }
     },
     {
@@ -94,13 +94,13 @@
       }
     },
     {
-      "id": "5a3253a84222",
-      "title": "Zuzahlung für Medikamente steigt 2027 auf 7,50 bis 15 Euro - Apotheken Umschau",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVkx4Si1tRnNsZGFsVXhUWXg3azRpX3pxb3JGYWt4dEcwYk9BdVp2Qm8xZml6YWdSSFFWWVF5cWpJTWJ2eUJJVjZKckFJU2pfa3ROR0pFVGZOb0lvRnVkV3ZvUEhDZnk0MngxdUlHdzlGelNEem1zSldLSnlkdmNnajNPT0xMYlREdmFjc0hVQ2Y2N1BrSVpXbmM0VzMtaUlmZWgzMU1YUzIySk5FclRCUEFiSQ?oc=5",
-      "published": "2026-11-18T08:00:00+00:00",
+      "id": "5f8e2bd3932e",
+      "title": "EU-Reform für Arzneimittel: Beipackzettel per QR-Code und Bemühen gegen Engpässe - STERN.de",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMFpkOW55c2ROU3ZrVnhqWC1SR0QwSUtiODNTR3BFaUQ4dlhSeXdyWEtPdnhVWWV6ZkZ4VlRjWm80dGpucDQySkNPM1BXTzZWTDhCNFpSaFZhTjVsT0xVOEZtQTJTeHJrWE9zaTkwVVpiYVNFVmpUXy1XQXVVMDVLTGFpUWVVOHBGcFdQVTFDc293cmFxVnBmc1JzeHFtWjJRQVFySXU4N0RadEdpUjhDTlVhN01mOTBPVGxreG9UZzQ?oc=5",
+      "published": "2026-11-25T13:17:33+00:00",
       "source": {
-        "name": "Apotheken Umschau",
-        "url": "https://www.apotheken-umschau.de"
+        "name": "STERN.de",
+        "url": "https://www.stern.de"
       }
     },
     {
@@ -114,6 +114,26 @@
       }
     },
     {
+      "id": "5a3253a84222",
+      "title": "Zuzahlung für Medikamente steigt 2027 auf 7,50 bis 15 Euro - Apotheken Umschau",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVkx4Si1tRnNsZGFsVXhUWXg3azRpX3pxb3JGYWt4dEcwYk9BdVp2Qm8xZml6YWdSSFFWWVF5cWpJTWJ2eUJJVjZKckFJU2pfa3ROR0pFVGZOb0lvRnVkV3ZvUEhDZnk0MngxdUlHdzlGelNEem1zSldLSnlkdmNnajNPT0xMYlREdmFjc0hVQ2Y2N1BrSVpXbmM0VzMtaUlmZWgzMU1YUzIySk5FclRCUEFiSQ?oc=5",
+      "published": "2026-11-18T08:00:00+00:00",
+      "source": {
+        "name": "Apotheken Umschau",
+        "url": "https://www.apotheken-umschau.de"
+      }
+    },
+    {
+      "id": "14409853b86a",
+      "title": "Darmflora nach Antibiotika: Zwei Experten erklären, was jetzt hilft - oekotest.de",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOFJMTG9QUkN5bHZBc0tSUmg1eTZZS2hHMWdLY0V0OXQ4a0xvOFZmUjBRb0RXSnh0SFhnODlaYVhGLTBsbnZpdF8yd1c4SVN2NnRoMloyRHF2SEoydWU4ZGZTY2tPYV9yanF3YldmMzRFcC0yZzJZTnpoN2R6Vnh6VThGUGluMDlLWWNPM01PZ05SaENOcUdDdk1pU3VRNDAwWlpVYTdVUEVXck9OV3BobnJpYVhycE5GWUdWanVnLXJleVRLSUE?oc=5",
+      "published": "2026-11-26T15:42:52+00:00",
+      "source": {
+        "name": "oekotest.de",
+        "url": "https://www.oekotest.de"
+      }
+    },
+    {
       "id": "98f6dc3ba26f",
       "title": "Medikamente werden 2027 teurer: Zuzahlung steigt um 50 Prozent - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOUlEQl9GcEJsZW1zUlNuNkFna1dIRVlJWDhjbXdlWWZJUXJzRFVLSDlRRk1lZXhPM3VpMWhfZUhRWUg5SUFRbjctTVJlTHVESVJKeHU3V2Z2ZnczZXVMYk1EUVBiX3BJbHVuQWliNWtiNl9WV0hFQ244cFAydnM5WGhPdElfMkNNVUZ6Q1BiQjJjamZqRFhuU2JORE55UQ?oc=5",
@@ -121,16 +141,6 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "97602f1a653f",
-      "title": "Krebsmedikament aus Tabakblättern? Wie Pflanzen Wirkstoffe herstellen könnten - Der Standard",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPM0swYmlBNDNxSnZySDFKR3F2d25ocVloVmNvUEhjWE5MTkpBODBuVTUzSUMtMXVYdHc1MndqSm5OUmw5ZUxpZmpjZzZ6NVRPX1U1V0gySVZBRlRscjhNMXduaFBVOUUzaU5lN1JORXdBOW1CYnNfYXR4OXNaWWEyMGlITkJUdHdDc0dJZXREZGN0bFlvTnVpNHk1UVZfeEZOcFFEenBSazIxeWdSTVozVUNIRDlQbm1pcVNoWTRHMGpUUUk?oc=5",
-      "published": "2026-11-25T08:00:00+00:00",
-      "source": {
-        "name": "Der Standard",
-        "url": "https://www.derstandard.at"
       }
     },
     {
@@ -144,20 +154,30 @@
       }
     },
     {
-      "id": "647f3daa3d4a",
-      "title": "»Wir müs­sen Voll­dampf ma­chen bei dem Thema Prä­ven­ti­on« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOam45LUNnenBtQ0JRZVB3OXczdml3RklCYmliQkVQWWRNV2t3Z0R0LWFLZzdLbEJCUWpmcllxbkNHYW40d3paU2VPQk1SVGxjSUNCVGpCbDl3Ylc1YnhLNExaS2dUVGVmbFNlNENWclM5TnhSblpvTW5TU094OFdVNWtBZnY0UWZBRW9PemNfRXVPak5iVnUzS29UdVdaanZDNER3?oc=5",
-      "published": "2026-11-24T12:15:41+00:00",
+      "id": "c2953a18a056",
+      "title": "Selbstmedikation mit Magnesium anstelle von Blutdruckmedikamenten: Dieser Fehler kann für Patienten ein Schlaganfallrisiko darstellen. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOX1pULWoxd1FfdVhFWl9MS2lKQlZNSk5CdDMxRTNZd0VPU19OaFo3RldjaXNlUkdTMm4xRUVhZUZiaE16MFhkZG5CazQzanBHeFBHellUa3duQzlmaHVDa1FiQTN5TkNPVGFEUEpBYkNCbnVuWm9GV1h1d3JLXzFBblNmQVBlb1FveWNFeV9FRHlQVlN4YzVHOUI1Tzh3cnpFOGJ3OXpxTFMyWjM2VnZ1TA?oc=5",
+      "published": "2026-11-28T06:12:19+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "d3c8e33fb113",
+      "title": "SPD-Veranstaltung: ABDA kritisiert Missstände bei Arzneimittelzuzahlungen - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQ3plenZqam5qS1R0MUM0cGtNclY0ZFhGRTFwV2lVNmluLXRqOWp6V1pyVHE0TmRPNHJfbXBiTUh0VEN4Mm9lcG5rOW8zYUFSZHluaHNfZjk5andvSDU0ZUtyNXdQSXNkc2lHVDMtYnhSYTMyRlNZQm5YekR0cklwSHc5N3VrLUxiMlVXejlhVUk5OWpPOUt2ZVdjM3BBb0VCQWZiYQ?oc=5",
+      "published": "2026-11-17T08:00:00+00:00",
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
-      "id": "e9e2e2afbce1",
-      "title": "Süßstoffe können Darmbakterien verändern: Ein Antidepressivum verstärkte den Effekt - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPM2RMb1ctWjlUSVRPR1U3YXlJbHlGZjA5ZmJuS19RQVpUNy1QS2VpMGtVeXhDNkFoVlM3eGhBOExoWVhsQU1NTmhqYVJJNWpBR2tRNE1WRUJRcXloSXZVRDdUQ0hURnFpejdvaGY2ekZoWjdtZ0VRTHNXUVRUbHN0ZkdfU3h6RlFIZDctZ01CUHl1eEowN0ItTUlma1FCWTk3bVZSTVptX0pPYUVKb2VyOWR3NXFpZjh4R29WbmJZM1c?oc=5",
-      "published": "2026-11-23T08:00:00+00:00",
+      "id": "7ab83620f961",
+      "title": "Brustkrebs: Neuer Wirkstoff könnte Rückfälle verhindern - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQX0FscER0aVV6WmJNSU9FdHNRZHRMR2twREFVaTUwSUNPR1FvZklTNnhZUTZhanpvd1BLa09GVjM4MUpKUkRNYkVxRmpGYUYwSTY4b3VpTWVVUXZubnp6ZVI5alRscjZOcHMzaDV6QlBCLWRXakktX3N4MFpUOFdMT3BmWFZmc29wR3VOTTdpX2c2c0hhVjM1bw?oc=5",
+      "published": "2026-11-26T14:32:42+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
@@ -184,23 +204,23 @@
       }
     },
     {
-      "id": "d3c8e33fb113",
-      "title": "SPD-Veranstaltung: ABDA kritisiert Missstände bei Arzneimittelzuzahlungen - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQ3plenZqam5qS1R0MUM0cGtNclY0ZFhGRTFwV2lVNmluLXRqOWp6V1pyVHE0TmRPNHJfbXBiTUh0VEN4Mm9lcG5rOW8zYUFSZHluaHNfZjk5andvSDU0ZUtyNXdQSXNkc2lHVDMtYnhSYTMyRlNZQm5YekR0cklwSHc5N3VrLUxiMlVXejlhVUk5OWpPOUt2ZVdjM3BBb0VCQWZiYQ?oc=5",
-      "published": "2026-11-17T08:00:00+00:00",
+      "id": "531193a30857",
+      "title": "Die Vietnamesen nutzen KI, um Krankheiten zu erforschen und Medikamente zu kaufen, machen sich aber weiterhin Sorgen über gefälschte Produkte und hohe Preise. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTFc4d2NZbFdna0twMmEtRUNMeVp0TjRpOGlxTi1jWDdyWnpVVWJJbmZxTnBNamdCX3B1cTRPM2lFa3NyUHNWSFBrang1Tll1WFNUcDIySlVKYk1USkpjY29fYTNXV3NtMVBhclRRaWc1V0c3QTNOb2U1RDhvQzNSRW10UmczdGRHYXJFbVQwMXVVZVdtNkFF?oc=5",
+      "published": "2026-11-27T09:30:29+00:00",
       "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
-      "id": "7ab83620f961",
-      "title": "Brustkrebs: Neuer Wirkstoff könnte Rückfälle verhindern - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQX0FscER0aVV6WmJNSU9FdHNRZHRMR2twREFVaTUwSUNPR1FvZklTNnhZUTZhanpvd1BLa09GVjM4MUpKUkRNYkVxRmpGYUYwSTY4b3VpTWVVUXZubnp6ZVI5alRscjZOcHMzaDV6QlBCLWRXakktX3N4MFpUOFdMT3BmWFZmc29wR3VOTTdpX2c2c0hhVjM1bw?oc=5",
-      "published": "2026-11-26T14:32:42+00:00",
+      "id": "97602f1a653f",
+      "title": "Krebsmedikament aus Tabakblättern? Wie Pflanzen Wirkstoffe herstellen könnten - Der Standard",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPM0swYmlBNDNxSnZySDFKR3F2d25ocVloVmNvUEhjWE5MTkpBODBuVTUzSUMtMXVYdHc1MndqSm5OUmw5ZUxpZmpjZzZ6NVRPX1U1V0gySVZBRlRscjhNMXduaFBVOUUzaU5lN1JORXdBOW1CYnNfYXR4OXNaWWEyMGlITkJUdHdDc0dJZXREZGN0bFlvTnVpNHk1UVZfeEZOcFFEenBSazIxeWdSTVozVUNIRDlQbm1pcVNoWTRHMGpUUUk?oc=5",
+      "published": "2026-11-25T08:00:00+00:00",
       "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
+        "name": "Der Standard",
+        "url": "https://www.derstandard.at"
       }
     },
     {
@@ -244,33 +264,13 @@
       }
     },
     {
-      "id": "6ebe47a5dd97",
-      "title": "Notdienstapotheke: Nachts Medikamente bekommen und Gebühren kennen - Wochenblatt Reporter",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNX3VBVlVwZ3JjYm9TSUtOOXcxdmFhWHVMVHNaam5tLTduNm90VUxORzhSRi14YXlMQTBlRVBlM3ZodkVONE1iUkR1QkgtQXUxdTkyUUFPeGZCUFo2SmtmUGlvTjBTNjJTbnR2ODBwZW5rYmFkOU52QndsNEh3bGszdU5BX1h0TXZPT1R1eTAxVTZJRF9qNDdScHN4U21oQjQ4MjMzS2dXc295ZTRZY19EYnBLYk1wUkhYOXZoQW9B?oc=5",
-      "published": "2026-11-24T08:22:52+00:00",
+      "id": "eb5ff0720f65",
+      "title": "Bisher nur für Privatversicherte: Gibt es die Abnehmspritze bald auch für Kassenpatienten? - Augsburger Allgemeine",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRExEdGpqRmNIQjMtT2dMeTZNU2tQRlhlcEhGd1BBMGFuaDFCSFRtY1JHdXFISHh6YVc5SmVLTjJBYmFyX2stMzRkZjhWMUhkYzlrWVVVcF9GeTY3Yk5KaF83SVhaaUluMnZndUF1dXNYTUpfbDFVVVpPR2llaGM1TXB0WGpRckVvaERoeUgwcy04WnJjTHdxODhTUjBmVkdpa21LdUVHUW1BR045RkliSEJhZnh4bHJ1M0VFUlNzQkxBUUU1ZThqNTRRZGM3LVFiaWptVVlZVF9nbS0yOU5BTA?oc=5",
+      "published": "2026-11-22T13:13:48+00:00",
       "source": {
-        "name": "Wochenblatt Reporter",
-        "url": "https://www.wochenblatt-reporter.de"
-      }
-    },
-    {
-      "id": "8853708979c9",
-      "title": "Stärkung der Überwachung von Antibiotikaresistenzen: Schlüssel zum Schutz der Behandlungseffektivität im Zeitalter der Arzneimittelresistenz. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaENMVXhJQU5QaHF6dG82NV91R0l0ZXl5bi03UVB5QTRzNm9DN1Vja3NRV0loNzlkNkFpb05EbjZybUlFb290bTBtdFNtOGlxTnBseXZlVkV0NHY5TzVKdjJRNkZ6cmw1cmxaYy1zWGRTeG1ENzFpa00wUGhpLTNDMW5KcVFYXzdFMUJfUmQ3QlY2OVl0NjVybkFWOHoyWkJNRUtKWmdyemV0c3VlTUZOZV9XcVg5NlZYNmUzeTZhZlE5dlE?oc=5",
-      "published": "2026-11-27T11:31:04+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "9749605fb9c6",
-      "title": "Peptide in den USA: Longevity ohne Evidenz - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1EOEpLYWw2RWNaSmpkTXJmalFZbHJsSjNRZWhTWWhGTkwxR2NnbnRLVHlHQ3Q1b19IQWp1VHNhQ0lIQmJPX3liLVF6emVQMG1SYUw0ZWJLcXFlUTFpbFA2a3JKYnV6QzJycVlEdUtBMm1faWxUUUZjMA?oc=5",
-      "published": "2026-11-23T12:30:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
+        "name": "Augsburger Allgemeine",
+        "url": "https://www.augsburger-allgemeine.de"
       }
     },
     {
@@ -284,6 +284,16 @@
       }
     },
     {
+      "id": "1b4cab1f2b2f",
+      "title": "Abnehmspritzen Ozempic, Wegovy und Mounjaro auf Kassenkosten? Eine... - DiePresse.com",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONWVFZnVpdnpYVHBGRUI1TGdMYTdCcVlsRDJwRUpmbHBfbHUwZmVCZjJwMGNFbldXTWU2ZHNDdVR3QkxvTm1xQzB6eERWelBiZnZ6dkgwTVdsV3JNeDA4VFRZOFpKV1Q5SVJ5SEdRWlNucmQtdjIxVW83am55SWxzNUJwTk4wa1lkZFY4NHZVRGo2cFJraURDQkxvM3U4d2RndjJSTEdn?oc=5",
+      "published": "2026-11-24T15:00:58+00:00",
+      "source": {
+        "name": "DiePresse.com",
+        "url": "https://www.diepresse.com"
+      }
+    },
+    {
       "id": "888d7d553972",
       "title": "Gesundheit: Tabletten aus dem 3D-Drucker - Wie funktioniert das? - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQUU0aE82REdQd1J5MTdaX2xoUVRCYllLMVRaWFY4YXVQR1FMdWp0YVBSUW1BSlFxN1pnb29TeEQyNUdKZWtCdWFoZEgtNTZEREh6QklCd1lrZHFKVXRyR0tEV3BTWWExOW1lMEFqUlBXaDVwS0FKYmFhOHZfdWg3R0EwZzdnTlVQY2x3Mlp3?oc=5",
@@ -294,13 +304,13 @@
       }
     },
     {
-      "id": "18e43bd86c69",
-      "title": "Wahlen Mecklenburg-Vorpommern: Linke will Versandhandel von Medikamenten unterbinden - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZmVfS05qQ0xQeGNrajNHX2RLQWtVZlVqVlFPdG9NMmp0U2pyWE1PWTdnLXBDV2loMDJKR2MwZzdEWlY4bnlCMHQxeXp4SlFTN0hiMDhxR0dqYU1ZcDBOZ2Nrczd0ZVVXanBKcmlfRmZxOVpMalRJWlJ1SG5RODU0dFlmYm1vdkJoakVpRU0wcVg1Mk1OYWdleV9Sc1U5VW53a1E?oc=5",
-      "published": "2026-09-18T07:00:00+00:00",
+      "id": "8853708979c9",
+      "title": "Stärkung der Überwachung von Antibiotikaresistenzen: Schlüssel zum Schutz der Behandlungseffektivität im Zeitalter der Arzneimittelresistenz. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaENMVXhJQU5QaHF6dG82NV91R0l0ZXl5bi03UVB5QTRzNm9DN1Vja3NRV0loNzlkNkFpb05EbjZybUlFb290bTBtdFNtOGlxTnBseXZlVkV0NHY5TzVKdjJRNkZ6cmw1cmxaYy1zWGRTeG1ENzFpa00wUGhpLTNDMW5KcVFYXzdFMUJfUmQ3QlY2OVl0NjVybkFWOHoyWkJNRUtKWmdyemV0c3VlTUZOZV9XcVg5NlZYNmUzeTZhZlE5dlE?oc=5",
+      "published": "2026-11-27T11:31:04+00:00",
       "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -314,6 +324,16 @@
       }
     },
     {
+      "id": "18e43bd86c69",
+      "title": "Wahlen Mecklenburg-Vorpommern: Linke will Versandhandel von Medikamenten unterbinden - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZmVfS05qQ0xQeGNrajNHX2RLQWtVZlVqVlFPdG9NMmp0U2pyWE1PWTdnLXBDV2loMDJKR2MwZzdEWlY4bnlCMHQxeXp4SlFTN0hiMDhxR0dqYU1ZcDBOZ2Nrczd0ZVVXanBKcmlfRmZxOVpMalRJWlJ1SG5RODU0dFlmYm1vdkJoakVpRU0wcVg1Mk1OYWdleV9Sc1U5VW53a1E?oc=5",
+      "published": "2026-09-18T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
       "id": "22a9659e6285",
       "title": "Arzneimittel: Ausgaben für Volkskrankheiten seit 2014 stark gestiegen - AerzteZeitung.de",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSmZlbW9YZ09NWnVjTFN2VVVXdkVuMjk1Q29taUhmTzVWU3ZLb3YxNGQwS2prRTVWbzEwQ2ZqRmd1N0prWGhjTk1oOTB3Y2sxaDd6UXNvcmtqMkZhbDRaNE9ocUhaR3dKU3NwanhmeGVHQmJvdTVtSlRhMEprbW1KSGFneVA2YmhGdkxFelNJQXUxcFlDRHBnOEhHR2pnc2FNenZZeXpGdXRKaFBESkZLb1d3Q1J3T045TXc?oc=5",
@@ -324,13 +344,13 @@
       }
     },
     {
-      "id": "87070eb606b2",
-      "title": "Swissmedic verliert vor Bundesgericht: «Gesundheitstipp» war keine Werbung - Schweiz heute",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPM05QQXRhZzRiU0d2Nk1XN2owVVdOSU0xVXFqY1d6eU94QTkwRmdUcXZyVWRxbmRMUHotNjdOdHhYRlhMLW5LdTZhZ0c0SnpwRk83N3I1dnVxY2tPVkhlVU9XUWdDcm1RdTZhbmtYNENRZG5mZGJPbU5MblRYZ1RPOC1nOTRhVWUzdzF2QngxQ3dMMzItSWRNVXN4UEFaVkVSSFhlYg?oc=5",
-      "published": "2026-11-23T11:00:00+00:00",
+      "id": "0d1c92b92378",
+      "title": "Apotheken legen Fünf-Punkte-Plan für eine sichere Arzneimittelversorgung vor - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORnlkOGZudXJ0Ri10MmJYREtUMWsyTl92MGlzT050VU52cjVjZEkyMkdzRVUwMENMalRpaXVSQTlFWTNWY1pZVnR3Tk0tS2pNWm1YeFNBYkdzZWlIUE1rQWZRRFVRanpwdkJPdFlzNGkxcmlJQ0NYTi1jOEFpa2IxUjJ3MXZlWWhvQ2J3X2RMRHBaTnNYNl9BVW5FcXR0QVQtd0tLUFpoRmNHaFI3ZXZIWV9VWEY?oc=5",
+      "published": "2026-09-15T07:00:00+00:00",
       "source": {
-        "name": "Schweiz heute",
-        "url": "https://www.schweizheute.ch"
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -354,16 +374,6 @@
       }
     },
     {
-      "id": "07ab147c008b",
-      "title": "7 statt 19 Prozent: Medikamente niedriger besteuern – Arbeit entlasten! - openPetition",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOekhKWUxNOFlxOUVnZWF4ZXcxaEZIbW9NclpWeXhDZE9LeXVUY1ZFR1BUMzlXTkJjV3lnVnhUR29UVWI1TlRiS0VBQjVUN2hUOFVadC1naUJZMUs3Y2U1SThyLS14MkJyeWVCc0h4U2F6RTBVODlnbkxnUnEwU1NxYTJ2ZnBNQ25PaXpGUmFjVnhzWUZhTWlocVRnV3gxU3NoZHpuQThkX1BUUVFWaGdfeQ?oc=5",
-      "published": "2026-09-08T10:38:33+00:00",
-      "source": {
-        "name": "openPetition",
-        "url": "https://www.openpetition.de"
-      }
-    },
-    {
       "id": "1b12ce5c1077",
       "title": "Neue Cannabis-Regeln: Was Kassenpatienten bei Dronabinol jetzt beachten müssen - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObV8xUENNNjRxQjRTMl9ZU1B1YUxSZEpZLXppQTF3ZXV1QURiNnlVN3NtVGlfOEdQai1DYVBQYVdqOVlZNkZPNi12NjNtU3BmM005VEJ4ZmZtY2g2UElyblpGUG9kdk5oWWNraXQ2NlVMeXFSdElENmVJQkp6RklLUTh6Z054NzZkTUdpa2lUTUlnQ0dwWnl5YUoteTRBazNZVjdkT0pMNW1oUQ?oc=5",
@@ -371,6 +381,16 @@
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
+      }
+    },
+    {
+      "id": "07ab147c008b",
+      "title": "7 statt 19 Prozent: Medikamente niedriger besteuern – Arbeit entlasten! - openPetition",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOekhKWUxNOFlxOUVnZWF4ZXcxaEZIbW9NclpWeXhDZE9LeXVUY1ZFR1BUMzlXTkJjV3lnVnhUR29UVWI1TlRiS0VBQjVUN2hUOFVadC1naUJZMUs3Y2U1SThyLS14MkJyeWVCc0h4U2F6RTBVODlnbkxnUnEwU1NxYTJ2ZnBNQ25PaXpGUmFjVnhzWUZhTWlocVRnV3gxU3NoZHpuQThkX1BUUVFWaGdfeQ?oc=5",
+      "published": "2026-09-08T10:38:33+00:00",
+      "source": {
+        "name": "openPetition",
+        "url": "https://www.openpetition.de"
       }
     },
     {
@@ -394,16 +414,6 @@
       }
     },
     {
-      "id": "5431265615fd",
-      "title": "Patente und Profitorientierung blockieren Arzneimittel: Warum Millionen keinen Zugang haben - Frankfurter Rundschau",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb0JSbmVWcVk1ajdydzIzRF9PM2hHQWFaYWNuSjhZbmZBbXplUGFBNklQVFptakVZdGN5UVA4VW9fS3VoRmluVzd5OHV1MXJMM3NudGpTdHR5MEI4dExjSmIzM0VoVUtCeHU2VnFfWGNTSVZYWFBsOEhValduakNSd1Z1TTZEM20zTFF0R3RLYy1NWHYza196cEkwM1ljMEtKdDdCdU1TN0J2LVU0Sk9UckdzRXpJNHVMdzZvaG9Ya2FxNEk?oc=5",
-      "published": "2026-07-31T07:00:00+00:00",
-      "source": {
-        "name": "Frankfurter Rundschau",
-        "url": "https://www.fr.de"
-      }
-    },
-    {
       "id": "a835b1a88368",
       "title": "Versorgungsmangel bei digitoxin- und digoxinhaltigen Arzneimitteln - Deutsche Apotheker Zeitung, DAZ",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeFRScUFRbjltb2FZV2tpT013bXpHamEzcGNFanlJR2Rkc1JDOXpkdWJrZ29LZldnMGZDaEtmZUhNc3hrdG5nck5BWDByV1ByTnh5NmFxWXVjc3MzYmxPcUdOcThFWHpMQ1U1Z2pmaGFXN2lKblJCdl9BeWswakZKUjE4WFlBWWJpY1dXNlF0RE5aaHQ4ajBiWDRodklxWlhmNGw3MDZJTGtDVGhhUVlWdUJMZUpTVGZiNGtUYjNiWUVXVWcyOV9fNHFIY0c?oc=5",
@@ -411,6 +421,26 @@
       "source": {
         "name": "Deutsche Apotheker Zeitung, DAZ",
         "url": "https://www.deutsche-apotheker-zeitung.de"
+      }
+    },
+    {
+      "id": "c121fca8aac1",
+      "title": "Abnehmspritzen für Kinder: Was dafür und dagegen spricht - STERN.de",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNS0dVNkN5LWp4NG1pTVJLMUExNkc4X1hleFhobU1KVDJwVVpUN0owaVRacmxJenJoUklBM24wemdhaWJpclZBeDFjLUp6SXYyajhsVzN0Tk81UVROeGlIVmJVYzljQ2JKdWFTQWlwbFFFOHZKNmpxdS1jN25jRlFJRk96MDJ6WS1TSDBfZFBNalh2eVJTeWNRUWNheUtURTBMR1BNN0VveWdTbHYya3Y2aA?oc=5",
+      "published": "2026-10-03T07:00:00+00:00",
+      "source": {
+        "name": "STERN.de",
+        "url": "https://www.stern.de"
+      }
+    },
+    {
+      "id": "a48a34dcb337",
+      "title": "Opioide: Israel führt weltweit beim Pro-Kopf-Konsum - Jüdische Allgemeine",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MZVF2WFVHNi01ZVZ4STRQeWMxTW9FN1lFYS1jdy0tRXhzcGRCazhCMWdWLWVpcHZzcEVNYUpqNE40OVgzYU1TazBoOXBEdkZtVEE3R3ZST0Y4WHJXcHNzWVdFdGx6aUJ6eWNIN3pEeFg0SnU0RWc?oc=5",
+      "published": "2026-07-05T07:00:00+00:00",
+      "source": {
+        "name": "Jüdische Allgemeine",
+        "url": "https://www.juedische-allgemeine.de"
       }
     },
     {
@@ -434,13 +464,13 @@
       }
     },
     {
-      "id": "a48a34dcb337",
-      "title": "Opioide: Israel führt weltweit beim Pro-Kopf-Konsum - Jüdische Allgemeine",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MZVF2WFVHNi01ZVZ4STRQeWMxTW9FN1lFYS1jdy0tRXhzcGRCazhCMWdWLWVpcHZzcEVNYUpqNE40OVgzYU1TazBoOXBEdkZtVEE3R3ZST0Y4WHJXcHNzWVdFdGx6aUJ6eWNIN3pEeFg0SnU0RWc?oc=5",
-      "published": "2026-07-05T07:00:00+00:00",
+      "id": "5431265615fd",
+      "title": "Patente und Profitorientierung blockieren Arzneimittel: Warum Millionen keinen Zugang haben - Frankfurter Rundschau",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb0JSbmVWcVk1ajdydzIzRF9PM2hHQWFaYWNuSjhZbmZBbXplUGFBNklQVFptakVZdGN5UVA4VW9fS3VoRmluVzd5OHV1MXJMM3NudGpTdHR5MEI4dExjSmIzM0VoVUtCeHU2VnFfWGNTSVZYWFBsOEhValduakNSd1Z1TTZEM20zTFF0R3RLYy1NWHYza196cEkwM1ljMEtKdDdCdU1TN0J2LVU0Sk9UckdzRXpJNHVMdzZvaG9Ya2FxNEk?oc=5",
+      "published": "2026-07-31T07:00:00+00:00",
       "source": {
-        "name": "Jüdische Allgemeine",
-        "url": "https://www.juedische-allgemeine.de"
+        "name": "Frankfurter Rundschau",
+        "url": "https://www.fr.de"
       }
     },
     {
@@ -451,6 +481,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "198b0da65ee5",
+      "title": "HIV-Schutz mit Tabletten: Wie sicher ist PrEP im Alltag? - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTWhsNWk1Tkc5MzNycUQ5RzhaaXhPTGlCcHJ1Yl9wajZ0VkV3akIxR255SUd6clB5aU5fZmNlUGZIcTVNanZlTmctSDJqUFB5Zk5XempaWnhrbDBlVWZuOE9xWDRSREhKRm5sa0lrbGVnVjl0TE5NNWtTY25CUzRmdG5jQlBZc1pFakFyT0hITHU5NmpfaUE?oc=5",
+      "published": "2026-07-18T07:00:00+00:00",
+      "source": {
+        "name": "NDR.de",
+        "url": "https://www.ndr.de"
       }
     },
     {
@@ -471,16 +511,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "198b0da65ee5",
-      "title": "HIV-Schutz mit Tabletten: Wie sicher ist PrEP im Alltag? - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTWhsNWk1Tkc5MzNycUQ5RzhaaXhPTGlCcHJ1Yl9wajZ0VkV3akIxR255SUd6clB5aU5fZmNlUGZIcTVNanZlTmctSDJqUFB5Zk5XempaWnhrbDBlVWZuOE9xWDRSREhKRm5sa0lrbGVnVjl0TE5NNWtTY25CUzRmdG5jQlBZc1pFakFyT0hITHU5NmpfaUE?oc=5",
-      "published": "2026-07-18T07:00:00+00:00",
-      "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
       }
     },
     {
@@ -534,16 +564,6 @@
       }
     },
     {
-      "id": "e3239e061b44",
-      "title": "Arzneimittel-Versorgung: Mehr als 4 Millionen Menschen haben weite Wege zur nächsten Apotheke - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWW1RQnJQVDNJc3lBczlKM19KMVdqRlNLbFFuTjJQZmNEbjh6MnBhM3Q2TThJclVYaEJ0Y1h5a1dvVU9ZVFk3RDJaV0JrSnFydmx6OVJkZlRicWkwYWtRQ3EzcGtGUXU5YlBMYVdzZXRBbjNKNTFKeDA2eGdpbU1tc2RTOHlIMF9yNEVJY0hpNG5WWk04V3lTQnBpWWNmMV9tN1hBdm5JYmU4WE5lRXNNUXVoMzJWV3J0WjNpaDFkaWNZVHZWOTVpYg?oc=5",
-      "published": "2026-06-09T07:00:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
       "id": "9d83d0e91268",
       "title": "Gutachten: PFAS in Arzneimitteln sind oft ersetzbar - oekotest.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcmFwTWtsWWNqb3BaNFc3UFNBT0VDcmRFbC1falEyOVlfNGlwT0FTVklPc2lKRWpFeTRVbmVrT2FkbW95SHFNeGZxdHQ1RzdicGxuNmQzTDNXb2FETWlVd3lIbU43Z2tFdThxYVJEb3RKdXJqT3NSYXQ5ZzRuNlZVRUw2RlNEZkRhRlVfLUpBWGx5cnBPRkJXNThjTk5wcjIyUFJqR0o0NFBRcEkwWUE1RQ?oc=5",
@@ -564,6 +584,16 @@
       }
     },
     {
+      "id": "e3239e061b44",
+      "title": "Arzneimittel-Versorgung: Mehr als 4 Millionen Menschen haben weite Wege zur nächsten Apotheke - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWW1RQnJQVDNJc3lBczlKM19KMVdqRlNLbFFuTjJQZmNEbjh6MnBhM3Q2TThJclVYaEJ0Y1h5a1dvVU9ZVFk3RDJaV0JrSnFydmx6OVJkZlRicWkwYWtRQ3EzcGtGUXU5YlBMYVdzZXRBbjNKNTFKeDA2eGdpbU1tc2RTOHlIMF9yNEVJY0hpNG5WWk04V3lTQnBpWWNmMV9tN1hBdm5JYmU4WE5lRXNNUXVoMzJWV3J0WjNpaDFkaWNZVHZWOTVpYg?oc=5",
+      "published": "2026-06-09T07:00:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
       "id": "9a1b5bc05823",
       "title": "Sommerhitze: Achtung, manche Medikamente wirken anders - Ihre Vorsorge",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWW1icWFIbGQyaUMxVWU3T29QcUd1RUhxN0N4VF9vbVBnNHJySEV0d3Y2V2dYcEFQRVJGMjlQOHotSVcxNzBhVE45QnZVdnhEckF4Y3BuUkJfTVVPcXRtR19HWlBVMndWZWgwTzZ0RXlRaHNpRk5UUmdnTVdXeEZpTEdtd0dPNnZrQWNOZFAxTDJyTnBibUFsRXoxOWtYYm5iZVF1Q2dfSQ?oc=5",
@@ -574,12 +604,12 @@
       }
     },
     {
-      "id": "b6f8a06fd285",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - GEO.de",
+      "id": "47afc2884d76",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "GEO.de",
+        "name": "geo.de",
         "url": "https://www.geo.de"
       }
     },
@@ -594,16 +624,6 @@
       }
     },
     {
-      "id": "829639537db1",
-      "title": "Studie: PFAS bei vielen Medikamenten verzichtbar - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOXR2b0g0aUQyTEM1RHV3aWcwbWgzeXgwZ0NjRHEwZUZtSVp2djRlQjAyV21vQWRSTldVOFZkT0ZoejZlRlpCc3h4VlVDaldIOW1KZHB4RUVnTDh4V3RMTmx5aDV1QWFKdWxhRzk4S1hRUERxdFpoZUdPNHdpR29yOGFrd0lmUUR0VmxPa0lGX2w?oc=5",
-      "published": "2026-06-04T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "d1ce2fb66843",
       "title": "Statine: „Alles andere als ein Gift“ - Berliner Morgenpost",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNVd0NFl5dHprMGZNTEx3dFVGOUJEaVVBZ0d1VldXdzVJekhBYU9hNWtGdmZMTF9LLVZobDZua245cG8tamFMTEFsN2pfWkhKNXM0WkZGM093dmlIQV80c1lYRDhUaFFyd25pWlAydzU3ZV8yWWpHYWNNb0RSbThIVm1BTVlXcW9pM08xOEhtZw?oc=5",
@@ -614,13 +634,13 @@
       }
     },
     {
-      "id": "9f7c377ed6d2",
-      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
-      "published": "2026-04-16T07:55:26+00:00",
+      "id": "829639537db1",
+      "title": "Studie: PFAS bei vielen Medikamenten verzichtbar - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOXR2b0g0aUQyTEM1RHV3aWcwbWgzeXgwZ0NjRHEwZUZtSVp2djRlQjAyV21vQWRSTldVOFZkT0ZoejZlRlpCc3h4VlVDaldIOW1KZHB4RUVnTDh4V3RMTmx5aDV1QWFKdWxhRzk4S1hRUERxdFpoZUdPNHdpR29yOGFrd0lmUUR0VmxPa0lGX2w?oc=5",
+      "published": "2026-06-04T07:00:00+00:00",
       "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -628,6 +648,16 @@
       "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
       "published": "2026-03-31T20:25:43+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "9f7c377ed6d2",
+      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
+      "published": "2026-04-16T07:55:26+00:00",
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
@@ -644,13 +674,13 @@
       }
     },
     {
-      "id": "132959ae824c",
-      "title": "Prostatakrebs: Neues Medikament könnte zukünftig Rückfallrisiko senken - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbHA4UW9qc3JzMGNtWUlkSlFGWHZNVUZlWlBRellBckFvanZLUGdsTU9aVzMwMDVTT0hacktYZlBwUkRrZGs1eE1IYUtnRkJzM0tucHRqV05xaTJLVFY2bTlkS3JSTkZQZG9MRUFkYlVoeXBILXhXQ2oxa1U4Wnd0LVFoSUhaWXZiNGh5Y2drUHNtY3dGWjFSTXAtck5MZ056Y0lnX25LcFFqS0hY?oc=5",
-      "published": "2026-06-02T07:00:00+00:00",
+      "id": "38b8b0aa9188",
+      "title": "Vom Wissen zum Handeln: Verbesserung der Bezahlbarkeit von Arzneimitteln in den Ländern des Westbalkans - World Health Organization (WHO)",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZlNmcEdYcXZxdDBYazhiVjRCWHVtbms0ZG5JUWlXb0lJWXVFYjV1ak1MR05oZW5FbHFMTGpyNjJxS1ZuQWk4Nl9Wc2NHdHE3YnhrQzc1VHJNbm1QRFdMVF9WVGw2NHdVeDBHajRYX1hfZkFEMTU2Z09kcU04T1c1V3dKZ09nUUlMc3dnLVdvQ3RTYUZqSDA3d1djVXpxbU9fSFUtSGlHbHNOdFJRb29RQlpTRHEzd2pCQzd5Y3VRNmcza2dzTVVlYUp5Y1U5b01kMGpQUzZvNGctWE0tSmJRSEk5TQ?oc=5",
+      "published": "2026-03-30T07:00:00+00:00",
       "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
+        "name": "World Health Organization (WHO)",
+        "url": "https://www.who.int"
       }
     },
     {
@@ -664,13 +694,13 @@
       }
     },
     {
-      "id": "38b8b0aa9188",
-      "title": "Vom Wissen zum Handeln: Verbesserung der Bezahlbarkeit von Arzneimitteln in den Ländern des Westbalkans - World Health Organization (WHO)",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZlNmcEdYcXZxdDBYazhiVjRCWHVtbms0ZG5JUWlXb0lJWXVFYjV1ak1MR05oZW5FbHFMTGpyNjJxS1ZuQWk4Nl9Wc2NHdHE3YnhrQzc1VHJNbm1QRFdMVF9WVGw2NHdVeDBHajRYX1hfZkFEMTU2Z09kcU04T1c1V3dKZ09nUUlMc3dnLVdvQ3RTYUZqSDA3d1djVXpxbU9fSFUtSGlHbHNOdFJRb29RQlpTRHEzd2pCQzd5Y3VRNmcza2dzTVVlYUp5Y1U5b01kMGpQUzZvNGctWE0tSmJRSEk5TQ?oc=5",
-      "published": "2026-03-30T07:00:00+00:00",
+      "id": "132959ae824c",
+      "title": "Prostatakrebs: Neues Medikament könnte zukünftig Rückfallrisiko senken - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbHA4UW9qc3JzMGNtWUlkSlFGWHZNVUZlWlBRellBckFvanZLUGdsTU9aVzMwMDVTT0hacktYZlBwUkRrZGs1eE1IYUtnRkJzM0tucHRqV05xaTJLVFY2bTlkS3JSTkZQZG9MRUFkYlVoeXBILXhXQ2oxa1U4Wnd0LVFoSUhaWXZiNGh5Y2drUHNtY3dGWjFSTXAtck5MZ056Y0lnX25LcFFqS0hY?oc=5",
+      "published": "2026-06-02T07:00:00+00:00",
       "source": {
-        "name": "World Health Organization (WHO)",
-        "url": "https://www.who.int"
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -684,16 +714,6 @@
       }
     },
     {
-      "id": "ae01424b6ad2",
-      "title": "Kritische Arzneimittel wieder stärker in Europa produzieren - baden-wuerttemberg.de",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSjMzcWVqRjE1TVZWbUdQLWFEMnBYcGN3WEFDaWQzVGN5YUNRWTk1dXdzYm53bGRCOEVMbnpPZWZEQ3dQdzFzNXJ0OVJac1owMFJERW1hc2Mzbk5yNkluNGhWazY5STVzdWR3Yjd5dlR3WEkySEdEOWotSndjWDZhQ09qUHVJbzZOa2hCeDA5blZ5cENQV08tWWVZSHVzNURfa1ZwNWxJNFNaYTVnRUVmRnhPMDF3WmlkcldXMFJmdlVjWEZzeGRTSUQzN2hpWjdl?oc=5",
-      "published": "2026-01-20T08:00:00+00:00",
-      "source": {
-        "name": "baden-wuerttemberg.de",
-        "url": "https://www.baden-wuerttemberg.de"
-      }
-    },
-    {
       "id": "6e56e1c99277",
       "title": "Onkologische Arzneimittel: Analyse der Marktsituation - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMi1WQVZnaGJPSm9GcVAzRWlGSHRDRVg2MXhXMTJUenNuQUpRcElfbjBDZVp3Y3Z1UUNzNm5PSUY0eVdXMWcyQ3J0WkUxSjVSY0xxWFJ5X0lJc3Y1VExsallLS24xQUxyUVMyTDdsWUtnTThIZjc2TWZsdGpWMlMxUDVfXzVmeXZNdlhwZGNWb0VXbFZnVEVYOFVHSmxtUjBFVEU2alRzVlpCMlJ4?oc=5",
@@ -704,6 +724,16 @@
       }
     },
     {
+      "id": "ae01424b6ad2",
+      "title": "Kritische Arzneimittel wieder stärker in Europa produzieren - baden-wuerttemberg.de",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSjMzcWVqRjE1TVZWbUdQLWFEMnBYcGN3WEFDaWQzVGN5YUNRWTk1dXdzYm53bGRCOEVMbnpPZWZEQ3dQdzFzNXJ0OVJac1owMFJERW1hc2Mzbk5yNkluNGhWazY5STVzdWR3Yjd5dlR3WEkySEdEOWotSndjWDZhQ09qUHVJbzZOa2hCeDA5blZ5cENQV08tWWVZSHVzNURfa1ZwNWxJNFNaYTVnRUVmRnhPMDF3WmlkcldXMFJmdlVjWEZzeGRTSUQzN2hpWjdl?oc=5",
+      "published": "2026-01-20T08:00:00+00:00",
+      "source": {
+        "name": "baden-wuerttemberg.de",
+        "url": "https://www.baden-wuerttemberg.de"
+      }
+    },
+    {
       "id": "3843ee8c2190",
       "title": "Gesundheit - Beipackzettel von Medikamenten sollen digital werden - Ausdrucke in Apotheken sollen Option sein - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOclZxcXdzdDlfTXNBVkNkV1g0a1RMa05OWGcyX0RXaW5YMmpyUElhUnBJQU9QM3BzUG9iSFZnaWE0ek1iLTFQeE1wbkVhaDdrT3pVMERnT3l3VGhoOUtuS0EtT3pwazNMMGZmcmI1Z2puUHg1WWc5MzBXdHJma0l0dWNlNEhQdFdBUXF5X0V3OVRQWVA1RXFJNXJtbTVGMjNYQVlSWjNrdEttY0pQMXF0dWlwdGNUVWpFcF83a3RyX0oxSWpLaFVmc2NoVEhGNXc?oc=5",
@@ -711,6 +741,36 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "566dd4d9d4e6",
+      "title": "Gesundheit: Medikamente mit Wechselwirkung? Vor diesen Fehlern schützt die ePA - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQnJXQjdvZFhaOHdKUjFfTHRXcU9oTF9vc21mN2U2bmNqOXF3M2o3RWIxU2R1bkx5eGRIYWJIWnF5Ty1yM0pMcW1DcG5LR2JiYlRPdFBXbUdFYmhaeVh5enZDdmY2YWlFdkQtNjVRalZKdzV0alNFbGlLWmM1c1BpcTlXcC01blFGM0dMVV83ZlpQN19kVGx3WVVKNTlXS0t0R1U2dmY0R1MwdGNzOC12MUJzcEh2M2lWendsZFphd1JxanR6elNEalAwSlRBSlczTk5jLVpvYjVQN0kyaGd3Ug?oc=5",
+      "published": "2026-04-28T07:00:00+00:00",
+      "source": {
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
+      }
+    },
+    {
+      "id": "d9edf968b2d7",
+      "title": "»Spar­po­li­tik bei Arz­nei­mit­teln ist ein Irr­weg« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3BYbThQLUVqMndzcmZ2RzJRTW5vb1o4dGhibU52alc0SUtlbFkxMkhCS1puYnNnelNOcnVtSl9iejVRNU1sNGxvZ0lZZVZkaWNnRGhWVWsxT1JobThfRzFVdnh6Q25Idzl3aGZZaThYdHBRYTUzNHRpX2VNZ0dGWHBjd3VEbDdERlhjOHhubnhHLXB2OWc?oc=5",
+      "published": "2026-03-30T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "5fd73dc2932c",
+      "title": "Menschen und Arzneimittel: Hitze gefährdet alle - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SOVJuZkZFZTdsNFlWTmNONVQxN2ZFbnh0M045WmxqeGV6cHZ4Z1c4Z2xnYjkwUXNUcTJvWkptS0NHUUxocGIwZm04ejc3TFM2ZU5hNmtlZUtjQ2VTMWwtcEtRX0YxSXdCcE5UY252Z2dHWURtVGxn?oc=5",
+      "published": "2026-05-27T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -734,33 +794,43 @@
       }
     },
     {
-      "id": "566dd4d9d4e6",
-      "title": "Gesundheit: Medikamente mit Wechselwirkung? Vor diesen Fehlern schützt die ePA - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQnJXQjdvZFhaOHdKUjFfTHRXcU9oTF9vc21mN2U2bmNqOXF3M2o3RWIxU2R1bkx5eGRIYWJIWnF5Ty1yM0pMcW1DcG5LR2JiYlRPdFBXbUdFYmhaeVh5enZDdmY2YWlFdkQtNjVRalZKdzV0alNFbGlLWmM1c1BpcTlXcC01blFGM0dMVV83ZlpQN19kVGx3WVVKNTlXS0t0R1U2dmY0R1MwdGNzOC12MUJzcEh2M2lWendsZFphd1JxanR6elNEalAwSlRBSlczTk5jLVpvYjVQN0kyaGd3Ug?oc=5",
-      "published": "2026-04-28T07:00:00+00:00",
+      "id": "09e9d0a2ff53",
+      "title": "Krebsmedikament: Meistverkauftes Krebsmittel wird offenbar viel zu teuer verkauft - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZUdKR1hQcHVBS3JEX3dma19JcW5GTmlCcmxGRmpKbHFwZzduVkpReEh1RnFiOUM2amRvRGl4Z0tDellhTUc1bzU1cl82T3J0N1hnYnVDZF9ERlpxU3JobkphRmRjVk55cjRUZ0tkTlFTZmRSYm0tQVpYSzBtb2xNclVkelpWaTJ5UXQ4TVNoUVFoeVd5RkpqanJqMWpmdw?oc=5",
+      "published": "2026-04-13T07:00:00+00:00",
       "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
       }
     },
     {
-      "id": "5fd73dc2932c",
-      "title": "Menschen und Arzneimittel: Hitze gefährdet alle - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SOVJuZkZFZTdsNFlWTmNONVQxN2ZFbnh0M045WmxqeGV6cHZ4Z1c4Z2xnYjkwUXNUcTJvWkptS0NHUUxocGIwZm04ejc3TFM2ZU5hNmtlZUtjQ2VTMWwtcEtRX0YxSXdCcE5UY252Z2dHWURtVGxn?oc=5",
-      "published": "2026-05-27T07:00:00+00:00",
+      "id": "8cfaeed28ab9",
+      "title": "Krebs: Wie teure Krebsmedikamente das Gesundheitssystem sprengen könnten - Spiegel",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNOUFWLTYwSFp0U194b0duNHVfbTVjbzFKVUV0WG1MS1FkQ2hYdmg2OGp1dnlEQTk4SjVNUEpkWWpRaTVFZFFmcjFiNC02WXNvSEhIbmdUNDk4emxWQ2VnWWtHMUotcWhXUnVsMExGRWNvdllPcUd3dVRZTWR2ZUEteWZTeFEyS1M5ZzZqZUxDSUI2RTRqMnU4MVF4SEthWm1vZEd1YjZWYjZoLUIwRTlaZTVtRXZoZERXWC1DUGhLelpNZ0M2RXFQeDU4XzBfQ3ZWUFJUdDBVcDh2aExzVmc?oc=5",
+      "published": "2026-04-13T07:00:00+00:00",
+      "source": {
+        "name": "Spiegel",
+        "url": "https://www.spiegel.de"
+      }
+    },
+    {
+      "id": "a43852bf5366",
+      "title": "vfa zum Kommissionsbericht: Sparmaßnahmen für Pharmaindustrie im Faktencheck - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaGl6UGU2SlFIcnhfcTBza2E0aTZxOEEwd2xOWmxUT3hwYzYzSDRsSGJZa3g0U3BwTWpQdm01enFWcUVYeFhtR0d2SkJDQmVURmpFa0x0LXpYRTEzd1dtbmxyVWE2NVpZcE1DamxIT2kybUxscTV0QnZtTmVNRW1uLUxOeUw2cUlUZFRQUmdCYXZ4UEF4TFJuY092eU4tZw?oc=5",
+      "published": "2026-04-02T07:00:00+00:00",
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
-      "id": "d9edf968b2d7",
-      "title": "»Spar­po­li­tik bei Arz­nei­mit­teln ist ein Irr­weg« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3BYbThQLUVqMndzcmZ2RzJRTW5vb1o4dGhibU52alc0SUtlbFkxMkhCS1puYnNnelNOcnVtSl9iejVRNU1sNGxvZ0lZZVZkaWNnRGhWVWsxT1JobThfRzFVdnh6Q25Idzl3aGZZaThYdHBRYTUzNHRpX2VNZ0dGWHBjd3VEbDdERlhjOHhubnhHLXB2OWc?oc=5",
-      "published": "2026-03-30T07:00:00+00:00",
+      "id": "f626825233d2",
+      "title": "Medikamenten-Lieferengpässe: Wo die Ursachen liegen und was Patienten tun können - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN0xRSk5YQXRHbVdsaTVXdzc0UlFJS0lLNkMtOHhMUm5qX3kwQ0E2U3VORXY4NXllT2puSkYyWUFRaTF3Z2RLWDd0WXNsaGpMODg2c1h2cXYtdWtOdFdfRjc2R1hUV3NHTUNlZ0RNX3k0cjVlVnUwRUJ3VXhmbUVjQll3UVhtT3B5ZGhjc2QzckpYdTJzM25iMFYyeThnWmJaLXNMRUJzMzU0cXA3ZWtScmYwRjNjQjBM?oc=5",
+      "published": "2026-04-13T07:00:00+00:00",
       "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -768,16 +838,6 @@
       "title": "Arzneimittel: Apothekerverband registriert deutlich gestiegene Ausgaben für Arzneien - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQnNYX0ZIOXRaeWxnUDA2UTMwRG5DVmhTUmNKWlNTRTJQLVNWbDAzaXpIY2FEQ0dzaTRFYzNPSE9zUEVfU2F1WkZoZmt3NWhMMkI2VkhwbU9maWFPdnBnRXdKOU8taHRHakljeUstTHlNRUxGbVNQQ3dQckcwSlhIZnZYLVFmblBWeVhVWC1NTmE3ZjhaY0x5Z092VC1Rd2tZa20wUlBxU2tpMlRrWkpnNFJYb3Jpdw?oc=5",
       "published": "2026-02-05T08:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
-      }
-    },
-    {
-      "id": "09e9d0a2ff53",
-      "title": "Krebsmedikament: Meistverkauftes Krebsmittel wird offenbar viel zu teuer verkauft - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZUdKR1hQcHVBS3JEX3dma19JcW5GTmlCcmxGRmpKbHFwZzduVkpReEh1RnFiOUM2amRvRGl4Z0tDellhTUc1bzU1cl82T3J0N1hnYnVDZF9ERlpxU3JobkphRmRjVk55cjRUZ0tkTlFTZmRSYm0tQVpYSzBtb2xNclVkelpWaTJ5UXQ4TVNoUVFoeVd5RkpqanJqMWpmdw?oc=5",
-      "published": "2026-04-13T07:00:00+00:00",
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
@@ -794,16 +854,6 @@
       }
     },
     {
-      "id": "058501475653",
-      "title": "Irland: 750.000 illegale Arzneimittel beschlagnahmt - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQlNqXzdUS29JQnlTNDhDSl9qTXJWQ1k3MzJ4b0pFSUJTVHg2LVc2MjFXR1hCNVl2M0xOd3BoanZTUmJUbDQ2WElGSnNSVGk2Q3VFTWNtVVVzZ0Z6em4zVy0zNUk1QS01bkJlTGhNY1Z3bi0wczBSVk1WRjBqVl9YbkxMWnJVeUNvUzM4WHl6S2NlVDA?oc=5",
-      "published": "2026-04-10T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "8dce1ff85348",
       "title": "Erstattung: Gericht sieht Abnehmspritze als Lifestyle-Medikament - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdThMaUs3T0FfWmlEYnNHWkw3VHVTX3R4MUptMEUySkkwZk1OY19nU0xZcF9KT0IweUNoTzhzV2RkUUJhRl9Jdk8zTTgxeHlTbmV6a1R3NUx2ZDc1c0RMSVcyLU9NazE5aURIaW1FTzZhUTQ3U2JmQkhydXRHUEZXR1pGX0ZUODFRaWh0S3RDdzIxQ2hOMkZMc0VaZWdsTVlw?oc=5",
@@ -814,49 +864,9 @@
       }
     },
     {
-      "id": "8cfaeed28ab9",
-      "title": "Krebs: Wie teure Krebsmedikamente das Gesundheitssystem sprengen könnten - Spiegel",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNOUFWLTYwSFp0U194b0duNHVfbTVjbzFKVUV0WG1MS1FkQ2hYdmg2OGp1dnlEQTk4SjVNUEpkWWpRaTVFZFFmcjFiNC02WXNvSEhIbmdUNDk4emxWQ2VnWWtHMUotcWhXUnVsMExGRWNvdllPcUd3dVRZTWR2ZUEteWZTeFEyS1M5ZzZqZUxDSUI2RTRqMnU4MVF4SEthWm1vZEd1YjZWYjZoLUIwRTlaZTVtRXZoZERXWC1DUGhLelpNZ0M2RXFQeDU4XzBfQ3ZWUFJUdDBVcDh2aExzVmc?oc=5",
-      "published": "2026-04-13T07:00:00+00:00",
-      "source": {
-        "name": "Spiegel",
-        "url": "https://www.spiegel.de"
-      }
-    },
-    {
-      "id": "6ec9a640169a",
-      "title": "Intimgesundheit der Frau: Arzneimittel der Selbstmedikation richtig anwenden - Monitor Versorgungsforschung",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZy01dWVucjhyQ1RpaWpxTUF4YWlpcmNTU2NxWkdORVVfd2UtaXA0UkJvVTlKNEp6SE1aYUhPMmxhME5YYkVtbDJGSVcxQTUtWTg5TkM5VkR3TFktU1lXOGxTSlk0cWNUUmtjY1d1aFpndENHdk9aVk9HTi16VjFzbzBtYWhOb0FQdDNYMnNkV3pkX1Nwbk42V0Y2N2ZZX2FMOHdfV2Nna3gyNWlCblVmZFZCZ29pR0gxbzA0eUpINE5NcXc?oc=5",
-      "published": "2026-03-09T07:00:00+00:00",
-      "source": {
-        "name": "Monitor Versorgungsforschung",
-        "url": "https://www.monitor-versorgungsforschung.de"
-      }
-    },
-    {
-      "id": "a43852bf5366",
-      "title": "vfa zum Kommissionsbericht: Sparmaßnahmen für Pharmaindustrie im Faktencheck - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaGl6UGU2SlFIcnhfcTBza2E0aTZxOEEwd2xOWmxUT3hwYzYzSDRsSGJZa3g0U3BwTWpQdm01enFWcUVYeFhtR0d2SkJDQmVURmpFa0x0LXpYRTEzd1dtbmxyVWE2NVpZcE1DamxIT2kybUxscTV0QnZtTmVNRW1uLUxOeUw2cUlUZFRQUmdCYXZ4UEF4TFJuY092eU4tZw?oc=5",
-      "published": "2026-04-02T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "618351e249d1",
-      "title": "Haushaltspläne: Mehr Geld für Produktion kritischer Arzneimittel, keine Mittel für Gesundheit und Pflege - Deutsches Ärzteblatt",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNa19XTmtzLWdGTUNhcTkyNVVMZnhDVnlNVkxETGwwVDZ1X3dFVExwZEpDZU0wREhkUk91WEgwV0lJSXEwNTJydG1TbjVRV0FVRy1rUDhwYWtBeVdkYVJuSXo2SmhPUHJ1cWRZYWc3YW5pN21mc18wZUp4Y2FSZG53QnJQZk1RZ2FFeXBxN2VkUDRFYy16ZjgxQkNSc3ppZ1ZPWGdNdG9SanVveHNHc2ZUQU5qV2JDQXpINnVVd2x5eXplUnBDZjJCdGJLRk9QemRtaEpvYlNrTjM0anBWaDRDbHBYY1d2NUtZY1N2Zmx1SWU?oc=5",
-      "published": "2025-11-11T08:00:00+00:00",
-      "source": {
-        "name": "Deutsches Ärzteblatt",
-        "url": "https://www.aerzteblatt.de"
-      }
-    },
-    {
-      "id": "f626825233d2",
-      "title": "Medikamenten-Lieferengpässe: Wo die Ursachen liegen und was Patienten tun können - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN0xRSk5YQXRHbVdsaTVXdzc0UlFJS0lLNkMtOHhMUm5qX3kwQ0E2U3VORXY4NXllT2puSkYyWUFRaTF3Z2RLWDd0WXNsaGpMODg2c1h2cXYtdWtOdFdfRjc2R1hUV3NHTUNlZ0RNX3k0cjVlVnUwRUJ3VXhmbUVjQll3UVhtT3B5ZGhjc2QzckpYdTJzM25iMFYyeThnWmJaLXNMRUJzMzU0cXA3ZWtScmYwRjNjQjBM?oc=5",
+      "id": "a598e20130ca",
+      "title": "Long-COVID: Diese vier Medikamente können Ärzte jetzt verordnen - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQR2thN0RySWEzc0xJQjEtOXFJVExqVi1YeWd3M2JheDFINmxZekJSM2Ntb3p5eXdCYjc4THFxLUF1V1NQVGNMWnBrQVc4R0YyVkxPNzdlUldDNndUcEJOeGNzYUNxTUplQ19MSm5mM0RmdnpVcjZrbTdJNHVONWJpX2MxblJraXYzOTNpZTF6cFE5OWpsZVVZS1RjbG82RHVIc0E?oc=5",
       "published": "2026-04-13T07:00:00+00:00",
       "source": {
         "name": "aponet.de",
@@ -864,13 +874,23 @@
       }
     },
     {
-      "id": "11cdd0be15c8",
-      "title": "Wie viel darf Gesundheit kosten? Streit um Medikamentenpreise eskaliert - WirtschaftsWoche",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMEkzamFzeFFHZEk3NjFIbFJmYjZvajlGOVMtcHo3aUZsWFlvdkcyMzFTODZXZFM1dWhNWU1lT3FVVDk4dlduRjBqV2paSEFVbkE2YWktMVJIanA4U3J2QW1rMnFtOUljc0pXb2hEbVNSWkxYdGlkRHRMRGE3aGpSYjlrU0FzN0RjN1dhWkJWZldkUmVpbm9xbXpSZmR3b0xGR2ZXQmdvVVZ4bWh5bmVNbkdOOU1rNEdiZElEc0NEeDE3LXpqVkE?oc=5",
-      "published": "2026-04-16T07:00:00+00:00",
+      "id": "b13c8155e55d",
+      "title": "Kinder mit starkem Übergewicht: Neue Leitlinie empfiehlt Einsatz moderner Medikamente - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcWR0VTNuakdTNGtzUGhhb3NyTl9hdXRYb0FCVTE0Y2FqWDlIY1BiT3d3eklHc2tqaDc5dXBDVHhzUUdqUGRrSkliS2xEM1JqdlRPMnlJQmF2czFpVTVFbEVnaTBhQTZScUN4MU1rT1Vkc1EyRGN2UlNTenBLSFhGNC16NXJ6eko2b0lMR3JpTzB5b1MtbDJ1R3Y1cGdJRVlId2dQanB2RlgtM1MtbjFDRkM0TEwwUnRhZVFSMzVn?oc=5",
+      "published": "2026-05-15T07:00:00+00:00",
       "source": {
-        "name": "WirtschaftsWoche",
-        "url": "https://www.wiwo.de"
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "058501475653",
+      "title": "Irland: 750.000 illegale Arzneimittel beschlagnahmt - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQlNqXzdUS29JQnlTNDhDSl9qTXJWQ1k3MzJ4b0pFSUJTVHg2LVc2MjFXR1hCNVl2M0xOd3BoanZTUmJUbDQ2WElGSnNSVGk2Q3VFTWNtVVVzZ0Z6em4zVy0zNUk1QS01bkJlTGhNY1Z3bi0wczBSVk1WRjBqVl9YbkxMWnJVeUNvUzM4WHl6S2NlVDA?oc=5",
+      "published": "2026-04-10T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -894,43 +914,13 @@
       }
     },
     {
-      "id": "a598e20130ca",
-      "title": "Long-COVID: Diese vier Medikamente können Ärzte jetzt verordnen - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQR2thN0RySWEzc0xJQjEtOXFJVExqVi1YeWd3M2JheDFINmxZekJSM2Ntb3p5eXdCYjc4THFxLUF1V1NQVGNMWnBrQVc4R0YyVkxPNzdlUldDNndUcEJOeGNzYUNxTUplQ19MSm5mM0RmdnpVcjZrbTdJNHVONWJpX2MxblJraXYzOTNpZTF6cFE5OWpsZVVZS1RjbG82RHVIc0E?oc=5",
-      "published": "2026-04-13T07:00:00+00:00",
+      "id": "11cdd0be15c8",
+      "title": "Wie viel darf Gesundheit kosten? Streit um Medikamentenpreise eskaliert - WirtschaftsWoche",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMEkzamFzeFFHZEk3NjFIbFJmYjZvajlGOVMtcHo3aUZsWFlvdkcyMzFTODZXZFM1dWhNWU1lT3FVVDk4dlduRjBqV2paSEFVbkE2YWktMVJIanA4U3J2QW1rMnFtOUljc0pXb2hEbVNSWkxYdGlkRHRMRGE3aGpSYjlrU0FzN0RjN1dhWkJWZldkUmVpbm9xbXpSZmR3b0xGR2ZXQmdvVVZ4bWh5bmVNbkdOOU1rNEdiZElEc0NEeDE3LXpqVkE?oc=5",
+      "published": "2026-04-16T07:00:00+00:00",
       "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "20a64d917dfc",
-      "title": "Medikamente für Senioren: Studie warnt vor riskanten Wirkstoffen - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ29BeW1jeXNBMHJfUWNHT1RfQWNhcG9TUzJwbE11cl9XN1VvWElYUmJORUxoclg3R08xa3VsaXhSMlBnSlE2ZkhOdWF2Z0lVempDdE9XMnBZcEVQUm5KVDBaM0I0ZWpxdzBYbkxYOWtjOGN1ZGxCUkh5TDUzeUxJc0F1dm55XzdHMEwyNUZheFRiaFdKUGtUR1JmYXRGelY0UlM3OFh4SkExRGFTVWZFamxqYXFQOHRCZjFTQThnbjRWU1JMcEM0?oc=5",
-      "published": "2026-03-22T07:00:00+00:00",
-      "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
-      }
-    },
-    {
-      "id": "b13c8155e55d",
-      "title": "Kinder mit starkem Übergewicht: Neue Leitlinie empfiehlt Einsatz moderner Medikamente - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcWR0VTNuakdTNGtzUGhhb3NyTl9hdXRYb0FCVTE0Y2FqWDlIY1BiT3d3eklHc2tqaDc5dXBDVHhzUUdqUGRrSkliS2xEM1JqdlRPMnlJQmF2czFpVTVFbEVnaTBhQTZScUN4MU1rT1Vkc1EyRGN2UlNTenBLSFhGNC16NXJ6eko2b0lMR3JpTzB5b1MtbDJ1R3Y1cGdJRVlId2dQanB2RlgtM1MtbjFDRkM0TEwwUnRhZVFSMzVn?oc=5",
-      "published": "2026-05-15T07:00:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "e8e415b6456b",
-      "title": "Warken: Wir wollen die Arzneimittel-Versorgung sicherer machen - Bundesministerium für Gesundheit (BMG)",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRFJZUGdWdmNVRFkxT3RTX1B4S1BseXBQaVFwVEMzcHprV0lrUlN3a3A1UWpaUFpHVFRzdFZFU3E1WlA5S3VPQnFMZkF4U1pwUGJtVzM2REVSOEVxRkhaanRIeGd4WlRsNWFWZ2RFYlA0cm5yUV9ra2JXUndjTFYxMTg5LXRzeWhKZ3BsX1V5QzlXQWdDQ3B0bEVYT0d6WnluUXZ5alNXcW13QXNzd2ltUHNOSzBITWdNWGhtSWdNd0VsV3Q0?oc=5",
-      "published": "2025-06-20T07:00:00+00:00",
-      "source": {
-        "name": "Bundesministerium für Gesundheit (BMG)",
-        "url": "https://www.bundesgesundheitsministerium.de"
+        "name": "WirtschaftsWoche",
+        "url": "https://www.wiwo.de"
       }
     },
     {
@@ -944,6 +934,46 @@
       }
     },
     {
+      "id": "6ec9a640169a",
+      "title": "Intimgesundheit der Frau: Arzneimittel der Selbstmedikation richtig anwenden - Monitor Versorgungsforschung",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZy01dWVucjhyQ1RpaWpxTUF4YWlpcmNTU2NxWkdORVVfd2UtaXA0UkJvVTlKNEp6SE1aYUhPMmxhME5YYkVtbDJGSVcxQTUtWTg5TkM5VkR3TFktU1lXOGxTSlk0cWNUUmtjY1d1aFpndENHdk9aVk9HTi16VjFzbzBtYWhOb0FQdDNYMnNkV3pkX1Nwbk42V0Y2N2ZZX2FMOHdfV2Nna3gyNWlCblVmZFZCZ29pR0gxbzA0eUpINE5NcXc?oc=5",
+      "published": "2026-03-09T07:00:00+00:00",
+      "source": {
+        "name": "Monitor Versorgungsforschung",
+        "url": "https://www.monitor-versorgungsforschung.de"
+      }
+    },
+    {
+      "id": "618351e249d1",
+      "title": "Haushaltspläne: Mehr Geld für Produktion kritischer Arzneimittel, keine Mittel für Gesundheit und Pflege - Deutsches Ärzteblatt",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNa19XTmtzLWdGTUNhcTkyNVVMZnhDVnlNVkxETGwwVDZ1X3dFVExwZEpDZU0wREhkUk91WEgwV0lJSXEwNTJydG1TbjVRV0FVRy1rUDhwYWtBeVdkYVJuSXo2SmhPUHJ1cWRZYWc3YW5pN21mc18wZUp4Y2FSZG53QnJQZk1RZ2FFeXBxN2VkUDRFYy16ZjgxQkNSc3ppZ1ZPWGdNdG9SanVveHNHc2ZUQU5qV2JDQXpINnVVd2x5eXplUnBDZjJCdGJLRk9QemRtaEpvYlNrTjM0anBWaDRDbHBYY1d2NUtZY1N2Zmx1SWU?oc=5",
+      "published": "2025-11-11T08:00:00+00:00",
+      "source": {
+        "name": "Deutsches Ärzteblatt",
+        "url": "https://www.aerzteblatt.de"
+      }
+    },
+    {
+      "id": "20a64d917dfc",
+      "title": "Medikamente für Senioren: Studie warnt vor riskanten Wirkstoffen - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ29BeW1jeXNBMHJfUWNHT1RfQWNhcG9TUzJwbE11cl9XN1VvWElYUmJORUxoclg3R08xa3VsaXhSMlBnSlE2ZkhOdWF2Z0lVempDdE9XMnBZcEVQUm5KVDBaM0I0ZWpxdzBYbkxYOWtjOGN1ZGxCUkh5TDUzeUxJc0F1dm55XzdHMEwyNUZheFRiaFdKUGtUR1JmYXRGelY0UlM3OFh4SkExRGFTVWZFamxqYXFQOHRCZjFTQThnbjRWU1JMcEM0?oc=5",
+      "published": "2026-03-22T07:00:00+00:00",
+      "source": {
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
+      }
+    },
+    {
+      "id": "e8e415b6456b",
+      "title": "Warken: Wir wollen die Arzneimittel-Versorgung sicherer machen - Bundesministerium für Gesundheit (BMG)",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRFJZUGdWdmNVRFkxT3RTX1B4S1BseXBQaVFwVEMzcHprV0lrUlN3a3A1UWpaUFpHVFRzdFZFU3E1WlA5S3VPQnFMZkF4U1pwUGJtVzM2REVSOEVxRkhaanRIeGd4WlRsNWFWZ2RFYlA0cm5yUV9ra2JXUndjTFYxMTg5LXRzeWhKZ3BsX1V5QzlXQWdDQ3B0bEVYT0d6WnluUXZ5alNXcW13QXNzd2ltUHNOSzBITWdNWGhtSWdNd0VsV3Q0?oc=5",
+      "published": "2025-06-20T07:00:00+00:00",
+      "source": {
+        "name": "Bundesministerium für Gesundheit (BMG)",
+        "url": "https://www.bundesgesundheitsministerium.de"
+      }
+    },
+    {
       "id": "b9ca65e5a941",
       "title": "Marktbericht: dm steigt in den Gesundheitsmarkt ein - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNd0RWVjQ1MFJ3RDJCdFRnZ3Z1RUU4YThkS1F2bnowNnZBQWk1QlIxdWNtMFN6a19KWWlhTnFyVUNRSGNLanRyR01ZM0lxSG1HRFBqQ3l3QXBMR1F6UU43X29oLTZEODQ1TktKWmhOVVR4YW10YWY1Qm5JZlZoLU8tMlhDYw?oc=5",
@@ -951,16 +981,6 @@
       "source": {
         "name": "tagesschau.de",
         "url": "https://www.tagesschau.de"
-      }
-    },
-    {
-      "id": "cd91c5411083",
-      "title": "Neue Arzneimittel bezahlbar halten - Verband der Ersatzkassen e. V.",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObzE3cHpIZEo2Q0VEc0xrTzlCRHFTbW1GZ1dpbXhiSk55cmZpVFZaN3dtSkhvc2dqYkx0ekRicVhHTHhWTzFsSFVKZlVJZG1EUXBxZGZCU0kycm5yaVczSThMRHA3YkRHN3dPYXl3UTNEU1RWamFXdDBrZ2tTWWhqNjBjQk43VGNhdEFhMXF6Nmx6WHdkXzhwY25kTzVCMmp5?oc=5",
-      "published": "2025-06-17T07:00:00+00:00",
-      "source": {
-        "name": "Verband der Ersatzkassen e. V.",
-        "url": "https://www.vdek.com"
       }
     },
     {
@@ -974,33 +994,13 @@
       }
     },
     {
-      "id": "85a03dbbfe05",
-      "title": "Wahlkampf Baden-Württemberg: Rülke: »Gute Gesundheit geht nur mit öffentlichen Apotheken« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbDY3aENWRUZGTC15UlN4YlFuU0JEdUkxREFqNzQtN282NElEbHZWRlRveVpDTzFUTml2c1ZYNTFUWnliQl81SC1VdVctWUk2UGJ6UWI4cW82Z1IydG5iN2FUR21ST3gweUJNOW94VGxkemJuRC1tY2NvZERfVndyekRMbFc0TjVIdGJYUGVGVzJnOFRRNS1RamtZb1F5b2VseUNPRUowYmVKUQ?oc=5",
-      "published": "2026-02-03T08:00:00+00:00",
+      "id": "cd91c5411083",
+      "title": "Neue Arzneimittel bezahlbar halten - Verband der Ersatzkassen e. V.",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObzE3cHpIZEo2Q0VEc0xrTzlCRHFTbW1GZ1dpbXhiSk55cmZpVFZaN3dtSkhvc2dqYkx0ekRicVhHTHhWTzFsSFVKZlVJZG1EUXBxZGZCU0kycm5yaVczSThMRHA3YkRHN3dPYXl3UTNEU1RWamFXdDBrZ2tTWWhqNjBjQk43VGNhdEFhMXF6Nmx6WHdkXzhwY25kTzVCMmp5?oc=5",
+      "published": "2025-06-17T07:00:00+00:00",
       "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "cb9e82b5a596",
-      "title": "Pharma-Brief Spezial 3/2025: Arzneimittel als Umweltproblem - BUKO Pharma-Kampagne",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUDdWTFg4MmVyMTJlZDZWcUtYOGREV1BOcUNuQ3NZY29fVzdzSjc3Z1o3T3hXUzVva00tTUdINnlpa2NSc2dNVVcxazFpZFpzODYtVjV2bVRtd3k3Uk0zVXotMldEalRmRFJVZV9CTkxMUHlNVUsxZ2xqTjlaaWJpMElqMlQ2b2kwRlIyMjVxVk5OaFNOTWNGSg?oc=5",
-      "published": "2025-09-08T07:00:00+00:00",
-      "source": {
-        "name": "BUKO Pharma-Kampagne",
-        "url": "https://bukopharma.de"
-      }
-    },
-    {
-      "id": "c1eec9546c3c",
-      "title": "Arzneimittel als Zukunftsinvestition - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNek45Q0xRLXZlc1ZnTDBKcHk2cUFnMkllakFtcDJzXzU2bVh5WnBMYVhBWTNoMll4Y0FmVTlfeF9kYlIxQ25OUHdJX3VpSEVCNnBJaWIzZFljQmlEeVp2Q2R3cFRXWERWd3BORmh6OF9TeWNick9Ua0dZdWMtdDlLR3FGV3o?oc=5",
-      "published": "2025-09-22T07:00:00+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
+        "name": "Verband der Ersatzkassen e. V.",
+        "url": "https://www.vdek.com"
       }
     }
   ]
